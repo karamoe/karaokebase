@@ -1,0 +1,79 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Title: La Perfection, c'est Moi
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:27.57,0:00:30.41,Sample KM [Up],,0,0,0,karaoke,{\k48}En {\k36}sor{\k31}tant {\k74}du {\k22}do{\k73}do
+Comment: 0,0:00:31.87,0:00:36.02,Sample KM [Up],,0,0,0,karaoke,{\k54}J'fais {\k36}d'la {\k38}pein{\k101}ture {\k37}à {\kf149}l'eau
+Comment: 0,0:00:36.95,0:00:40.17,Sample KM [Up],,0,0,0,karaoke,{\k54}La {\k47}pein{\k57}ture {\k43}c'est {\k46}de {\k75}l'art
+Comment: 0,0:00:40.71,0:00:46.69,Sample KM [Up],,0,0,0,karaoke,{\k116}Fais {\k134}comme {\kf348}moi
+Comment: 0,0:00:47.27,0:00:50.50,Sample KM [Up],,0,0,0,karaoke,{\k49}Quand {\k27}tu {\k29}vois {\k31}la {\k46}foule {\k36}qui {\k49}pas{\k56}se
+Comment: 0,0:00:50.87,0:00:53.23,Sample KM [Up],,0,0,0,karaoke,{\k35}Faut {\k44}en {\k31}faire {\k47}des {\k79}masses
+Comment: 0,0:00:54.32,0:00:57.29,Sample KM [Up],,0,0,0,karaoke,{\k54}Un {\k34}peu {\k23}de {\k42}classe {\k23}hop {\k60}là {\k32}ché{\k29}rie
+Comment: 0,0:00:57.59,0:00:59.37,Sample KM [Up],,0,0,0,karaoke,{\k37}Pas {\k28}pour {\k33}ma {\k24}va{\k19}ni{\k37}té
+Comment: 0,0:00:59.62,0:01:01.14,Sample KM [Up],,0,0,0,karaoke,{\k24}Mais {\k27}pour {\k17}l'hu{\k25}ma{\k17}ni{\k42}té
+Comment: 0,0:01:01.18,0:01:04.12,Sample KM [Up],,0,0,0,karaoke,{\k29}Par{\k27}fois {\k28}tu {\k60}prends {\k32}la {\kf118}pose
+Comment: 0,0:01:04.71,0:01:07.27,Sample KM [Up],,0,0,0,karaoke,{\k34}Par{\k29}fois {\k22}tu {\k68}prends {\k22}des {\k81}poses
+Comment: 0,0:01:08.29,0:01:10.30,Sample KM [Up],,0,0,0,karaoke,{\k42}C'est {\k48}un {\k40}peu {\k41}beau{\k30}coup
+Comment: 0,0:01:10.54,0:01:15.02,Sample KM [Up],,0,0,0,karaoke,{\k42}Mais {\k46}c'est {\k46}la {\kf314}vie
+Comment: 0,0:01:15.78,0:01:18.62,Sample KM [Up],,0,0,0,karaoke,{\k50}Quand {\k32}le {\k30}monde {\k30}en{\k47}tier {\k30}ac{\k39}quie{\k26}sce
+Comment: 0,0:01:18.77,0:01:22.09,Sample KM [Up],,0,0,0,karaoke,{\k35}Pour{\k37}quoi {\k27}lui {\k44}tour{\k28}ner {\k23}le {\kf138}dos
+Comment: 0,0:01:22.56,0:01:25.93,Sample KM [Up],,0,0,0,karaoke,{\k32}Tu {\k43}n'es {\k19}pas {\k41}là {\k24}pour {\k69}faire {\k34}ton {\k42}show {\k33}quoi
+Comment: 0,0:01:26.09,0:01:28.32,Sample KM [Up],,0,0,0,karaoke,{\k33}C'est {\k37}pas {\k26}ce {\k38}que {\k37}tu {\k52}crois
+Comment: 0,0:01:31.48,0:01:34.75,Sample KM [Up],,0,0,0,karaoke,{\k49}Laisse {\k30}tom{\k35}ber {\k26}les {\k34}rin{\kf153}gards
+Comment: 0,0:01:35.18,0:01:37.85,Sample KM [Up],,0,0,0,karaoke,{\k38}Vise {\k29}un {\k41}peu {\k22}le {\k34}grand {\kf103}art
+Comment: 0,0:01:38.23,0:01:40.61,Sample KM [Up],,0,0,0,karaoke,{\kf97}La {\k45}la {\k42}la {\k54}la
+Comment: 0,0:01:40.99,0:01:44.08,Sample KM [Up],,0,0,0,karaoke,{\k26}L'af{\k35}fec{\k48}tion {\k21}c'est {\k23}tout {\k58}moi {\k24}n'est-ce {\k74}pas
+Comment: 0,0:01:44.47,0:01:50.86,Sample KM [Up],,0,0,0,karaoke,{\k47}Sans {\k43}ri{\k87}vale {\k36}sans {\k53}é{\k91}gale {\k41}je {\k34}suis {\k32}la {\k28}beau{\k85}té {\k62}ouais
+Comment: 0,0:01:51.21,0:01:54.29,Sample KM [Up],,0,0,0,karaoke,{\k93}Toute {\k81}pure {\k90}et {\k44}dure
+Comment: 0,0:01:54.47,0:01:56.31,Sample KM [Up],,0,0,0,karaoke,{\k24}Je {\k32}t'en{\k27}sei{\k38}gne {\k26}ma {\k37}classe
+Comment: 0,0:01:56.31,0:01:58.40,Sample KM [Up],,0,0,0,karaoke,{\k23}Et {\k37}toi {\k30}tu {\k28}pa{\k91}vasses
+Comment: 0,0:02:13.66,0:02:17.59,Sample KM [Up],,0,0,0,karaoke,{\k29}Il {\k37}y'en {\k48}a {\k46}qui {\k32}vou{\k34}draient {\k31}ma {\k54}peau {\k18}et {\k31}mes {\k33}os
+Comment: 0,0:02:17.79,0:02:21.21,Sample KM [Up],,0,0,0,karaoke,{\k24}Ça {\k41}n'a {\k33}pas {\k43}d'prix {\k19}mes {\k37}pe{\kf145}tits
+Comment: 0,0:02:21.55,0:02:25.01,Sample KM [Up],,0,0,0,karaoke,{\k31}Vous {\k44}les {\k19}mi{\k47}gnonnes {\k26}de {\k42}tou{\k18}te {\k46}la {\k44}ci{\k29}té
+Comment: 0,0:02:25.17,0:02:28.56,Sample KM [Up],,0,0,0,karaoke,{\k30}Si {\k39}vous {\k22}m'ai{\k43}mez {\k23}de {\k49}vous {\k23}j'au{\k39}rais {\k32}pi{\k39}tié
+Comment: 0,0:02:28.80,0:02:31.98,Sample KM [Up],,0,0,0,karaoke,{\k28}Vous {\k32}es{\k31}saie{\k41}rez {\k21}d'at{\k51}tein{\k14}dre {\k43}la {\k27}beau{\k30}té
+Comment: 0,0:02:32.35,0:02:46.15,Sample KM [Up],,0,0,0,karaoke,{\k33}La {\k25}per{\k22}fec{\kf187}tion{\k33} {\k53}c'est {\kf1027}moi
+Dialogue: 0,0:00:26.67,0:00:30.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}En {\k36}sor{\k31}tant {\k74}du {\k22}do{\k73}do
+Dialogue: 0,0:00:30.97,0:00:36.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k54}J'fais {\k36}d'la {\k38}pein{\k101}ture {\k37}à {\kf149}l'eau
+Dialogue: 0,0:00:36.05,0:00:40.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k54}La {\k47}pein{\k57}ture {\k43}c'est {\k46}de {\k75}l'art
+Dialogue: 0,0:00:39.81,0:00:46.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k116}Fais {\k134}comme {\kf348}moi
+Dialogue: 0,0:00:46.37,0:00:50.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Quand {\k27}tu {\k29}vois {\k31}la {\k46}foule {\k36}qui {\k49}pas{\k56}se
+Dialogue: 0,0:00:49.97,0:00:53.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Faut {\k44}en {\k31}faire {\k47}des {\k79}masses
+Dialogue: 0,0:00:53.42,0:00:57.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k54}Un {\k34}peu {\k23}de {\k42}classe {\k23}hop {\k60}là {\k32}ché{\k29}rie
+Dialogue: 0,0:00:56.69,0:00:59.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Pas {\k28}pour {\k33}ma {\k24}va{\k19}ni{\k37}té
+Dialogue: 0,0:00:58.72,0:01:01.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Mais {\k27}pour {\k17}l'hu{\k25}ma{\k17}ni{\k42}té
+Dialogue: 0,0:01:00.28,0:01:04.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Par{\k27}fois {\k28}tu {\k60}prends {\k32}la {\kf118}pose
+Dialogue: 0,0:01:03.81,0:01:07.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Par{\k29}fois {\k22}tu {\k68}prends {\k22}des {\k81}poses
+Dialogue: 0,0:01:07.39,0:01:10.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}C'est {\k48}un {\k40}peu {\k41}beau{\k30}coup
+Dialogue: 0,0:01:09.64,0:01:15.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Mais {\k46}c'est {\k46}la {\kf314}vie
+Dialogue: 0,0:01:14.88,0:01:18.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Quand {\k32}le {\k30}monde {\k30}en{\k47}tier {\k30}ac{\k39}quie{\k26}sce
+Dialogue: 0,0:01:17.87,0:01:22.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Pour{\k37}quoi {\k27}lui {\k44}tour{\k28}ner {\k23}le {\kf138}dos
+Dialogue: 0,0:01:21.66,0:01:26.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Tu {\k43}n'es {\k19}pas {\k41}là {\k24}pour {\k69}faire {\k34}ton {\k42}show {\k33}quoi
+Dialogue: 0,0:01:25.19,0:01:28.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}C'est {\k37}pas {\k26}ce {\k38}que {\k37}tu {\k52}crois
+Dialogue: 0,0:01:30.58,0:01:34.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Laisse {\k30}tom{\k35}ber {\k26}les {\k34}rin{\kf153}gards
+Dialogue: 0,0:01:34.28,0:01:38.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Vise {\k29}un {\k41}peu {\k22}le {\k34}grand {\kf103}art
+Dialogue: 0,0:01:37.33,0:01:40.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf97}La {\k45}la {\k42}la {\k54}la
+Dialogue: 0,0:01:40.09,0:01:44.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}L'af{\k35}fec{\k48}tion {\k21}c'est {\k23}tout {\k58}moi {\k24}n'est-ce {\k74}pas
+Dialogue: 0,0:01:43.57,0:01:51.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Sans {\k43}ri{\k87}vale {\k36}sans {\k53}é{\k91}gale {\k41}je {\k34}suis {\k32}la {\k28}beau{\k85}té {\k62}ouais
+Dialogue: 0,0:01:50.31,0:01:54.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k93}Toute {\k81}pure {\k90}et {\k44}dure
+Dialogue: 0,0:01:53.57,0:01:56.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Je {\k32}t'en{\k27}sei{\k38}gne {\k26}ma {\k37}classe
+Dialogue: 0,0:01:55.41,0:01:58.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Et {\k37}toi {\k30}tu {\k28}pa{\k91}vasses
+Dialogue: 0,0:02:12.76,0:02:17.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Il {\k37}y'en {\k48}a {\k46}qui {\k32}vou{\k34}draient {\k31}ma {\k54}peau {\k18}et {\k31}mes {\k33}os
+Dialogue: 0,0:02:16.89,0:02:21.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Ça {\k41}n'a {\k33}pas {\k43}d'prix {\k19}mes {\k37}pe{\kf145}tits
+Dialogue: 0,0:02:20.65,0:02:25.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Vous {\k44}les {\k19}mi{\k47}gnonnes {\k26}de {\k42}tou{\k18}te {\k46}la {\k44}ci{\k29}té
+Dialogue: 0,0:02:24.27,0:02:28.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Si {\k39}vous {\k22}m'ai{\k43}mez {\k23}de {\k49}vous {\k23}j'au{\k39}rais {\k32}pi{\k39}tié
+Dialogue: 0,0:02:27.90,0:02:32.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Vous {\k32}es{\k31}saie{\k41}rez {\k21}d'at{\k51}tein{\k14}dre {\k43}la {\k27}beau{\k30}té
+Dialogue: 0,0:02:31.45,0:02:46.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}La {\k25}per{\k22}fec{\kf187}tion{\k33} {\k53}c'est {\kf1027}moi
