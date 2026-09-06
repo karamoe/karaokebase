@@ -1,0 +1,99 @@
+﻿[Script Info]
+Title: Blow Up
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Naruse
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Fran,Arial,24,&H00FFFFFF,&H00B2FF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Kana,Arial,24,&H00FFFFFF,&H00888888,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Miho,Arial,24,&H00FFFFFF,&H00FE2BC2,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: IIIX,Arial,24,&H00FFFFFF,&H000079FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:05.68,Sample KM [Choir],,0,0,0,karaoke,{\k1000\pos(179.73,224)}{\k0}{\2cHFFFFFF}♦ {\rFran}Fran {\2cHFFFFFF}| ♥ {\rKana}Kana {\2cHFFFFFF}| ♠ {\rMiho}Miho {\2cHFFFFFF}| ● {\rIIIX}IIIX
+Comment: 0,0:00:00.00,0:00:00.00,IIIX,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"● "!
+Comment: 0,0:00:00.00,0:00:00.00,Fran,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♦ "!
+Comment: 0,0:00:00.00,0:00:00.00,Miho,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♠ "!
+Comment: 0,0:00:00.00,0:00:00.00,Kana,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♥ "!
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Choir],,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:02.55,0:00:06.02,Fran,,0,0,0,karaoke,{\k53}I {\k22}feel {\k22}it {\k24}blo{\k20}wing {\kf206}up
+Comment: 0,0:00:27.58,0:00:30.45,Kana,,0,0,0,karaoke,{\k26}kes{\k26}sen {\k14}no {\k13}hi{\k16}bu{\k26}ta {\k23}wa {\k10}su{\k15}de {\k10}ni {\k28}ki{\k26}ra{\k17}re{\k9}ta {\k14}ka{\k14}ra
+Comment: 0,0:00:30.45,0:00:31.62,Kana,,0,0,0,karaoke,{\k18}Bet{\k25}ter {\k32}watch {\k42}out
+Comment: 0,0:00:31.72,0:00:33.25,Miho,,0,0,0,karaoke,{\k21}dou{\k18}ka{\k30}sen {\k12}ni {\k14}tsu{\k24}ke{\k23}ta {\k11}hi
+Comment: 0,0:00:33.25,0:00:35.35,Miho,,0,0,0,karaoke,{\k28}kou{\k27}ka{\k20}i {\k22}shi{\k13}te {\k10}mo {\k12}o{\k15}so{\k23}i {\k40}wa
+Comment: 0,0:00:35.35,0:00:36.05,Sample KM [Choir],,0,0,0,karaoke,{\k22}Blow {\k48}up
+Comment: 0,0:00:36.12,0:00:37.58,Fran,,0,0,0,karaoke,{\k16}E{\k20}NER{\k25}G{\k31}Y {\k54}ga
+Comment: 0,0:00:37.38,0:00:38.15,Sample KM [Choir],,0,0,0,karaoke,{\k17}ba{\k7}ku{\k27}ha{\k26}tsu
+Comment: 0,0:00:38.15,0:00:39.48,Kana,,0,0,0,karaoke,{\k28}ta{\k16}ta{\k27}kau {\k24}na{\k38}ra
+Comment: 0,0:00:39.48,0:00:40.18,Sample KM [Choir],,0,0,0,karaoke,{\k25}Good {\k27}Lu{\k18}ck
+Comment: 0,0:00:40.18,0:00:41.95,Miho,,0,0,0,karaoke,{\k32}mi{\k17}se{\k26}tsu{\k24}ke{\k78}te
+Comment: 0,0:00:41.52,0:00:43.35,Kana,,0,0,0,karaoke,{\k29}a{\k52}ge{\k41}ru {\k61}wa
+Comment: 0,0:00:43.35,0:00:45.35,Miho,,0,0,0,karaoke,{\k43}Rea{\kf157}dy?
+Comment: 0,0:00:45.42,0:00:47.25,Fran,,0,0,0,karaoke,{\k26}hon{\k16}mo{\k38}no {\kf103}wa
+Comment: 0,0:00:46.45,0:00:47.45,Kana,,0,0,0,karaoke,{\k52}Oh {\k48}yeah
+Comment: 0,0:00:47.35,0:00:50.22,Miho,,0,0,0,karaoke,{\k43}hi{\k25}ru{\k35}ma{\kf184}nai
+Comment: 0,0:00:50.55,0:00:52.68,IIIX,,0,0,0,karaoke,{\k22}ko{\k35}yo{\k38}i {\k39}WE'LL {\k27}BLOW {\k52}UP
+Comment: 0,0:00:53.05,0:00:54.68,IIIX,,0,0,0,karaoke,{\k30}shou{\k22}ge{\k14}ki{\k23}ha {\k27}NON{\k47}STOP
+Comment: 0,0:00:55.75,0:00:56.82,IIIX,,0,0,0,karaoke,{\k28}We'll {\k27}blow {\k52}up
+Comment: 0,0:00:57.25,0:00:58.75,IIIX,,0,0,0,karaoke,{\k24}hi{\k23}mi{\k11}tsu {\k25}hei{\k27}ki {\k28}LO{\k12}VE
+Comment: 0,0:00:58.85,0:01:00.75,Fran,,0,0,0,karaoke,{\k38}Boom {\k35}Boom {\k32}Boom {\k46}Boom {\k39}Pop
+Comment: 0,0:00:59.88,0:01:00.88,Miho,,0,0,0,karaoke,{\k29}Let's {\k23}blow {\k48}up
+Comment: 0,0:01:00.75,0:01:02.68,Fran,,0,0,0,karaoke,{\k19}i{\k26}chi{\k14}ya {\k25}ni {\k27}shi{\k11}te {\k25}BLOW {\k46}UP
+Comment: 0,0:01:02.75,0:01:04.68,Kana,,0,0,0,karaoke,{\k24}don{\k28}na {\k13}ko{\k29}ko{\k24}ro {\k10}mo {\k28}kou{\k37}ryak'
+Comment: 0,0:01:04.82,0:01:06.62,Miho,,0,0,0,karaoke,{\k25}Oh {\k27}yeah {\k18}you've {\k24}got {\k24}to {\k13}sur{\k23}ren{\k26}der
+Comment: 0,0:01:06.62,0:01:08.85,Fran,,0,0,0,karaoke,{\k26}a{\k29}fu{\k25}re{\k26}ru {\k38}PO{\k79}WER
+Comment: 0,0:01:08.95,0:01:10.88,Miho,,0,0,0,karaoke,{\k17}ne{\k35}rai {\k14}sa{\k27}da{\k25}me{\k14}te {\k24}LOCK {\k37}ON
+Comment: 0,0:01:11.02,0:01:13.02,Fran,,0,0,0,karaoke,{\k28}i{\k24}ma {\k19}na{\k20}ri{\k27}hi{\k11}bi{\k26}ku {\k45}GONG
+Comment: 0,0:01:13.05,0:01:14.75,Miho,,0,0,0,karaoke,{\k30}sai{\k27}go {\k10}ni {\k27}wa{\k28}ra{\k13}u {\k35}no
+Comment: 0,0:01:14.92,0:01:17.08,Kana,,0,0,0,karaoke,{\k25}wa{\k15}ta{\k37}shi {\k26}da{\k41}ka{\k72}ra
+Comment: 0,0:01:17.38,0:01:20.42,Fran,,0,0,0,karaoke,{\k33}No {\k32}No {\k34}No {\k33}No {\k33}No {\kf139}No
+Comment: 0,0:01:20.48,0:01:21.58,Fran,,0,0,0,karaoke,{\k38}Tur{\k28}ning {\k44}back
+Comment: 0,0:01:22.38,0:01:25.05,Sample KM [Choir],,0,0,0,karaoke,{\k28}Oh {\k26}Oh {\k28}Oh {\k39}Oh {\kf146}Oh
+Comment: 0,0:01:24.48,0:01:25.68,Fran,,0,0,0,karaoke,{\k20}Yeah {\k32}we'll {\k28}blow {\k40}up
+Comment: 0,0:01:26.55,0:01:29.25,Sample KM [Choir],,0,0,0,karaoke,{\k28}Oh {\k27}Oh {\k23}Oh {\k36}Oh {\kf156}Oh
+Comment: 0,0:01:28.62,0:01:35.12,Fran,,0,0,0,karaoke,{\k20}Yeah {\k32}we'll {\k28}blow {\k31}u{\k19}p
+Dialogue: 0,0:00:00.00,0:00:05.88,Sample KM [Choir],,0,0,0,fx,{\k0\fad(0,200)}{\k1000\pos(179.73,224)}{\k0}{\2cHFFFFFF}♦ {\rFran}Fran {\2cHFFFFFF}| ♥ {\rKana}Kana {\2cHFFFFFF}| ♠ {\rMiho}Miho {\2cHFFFFFF}| ● {\rIIIX}IIIX
+Dialogue: 0,0:00:01.65,0:00:06.22,Fran,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k53}I {\k22}feel {\k22}it {\k24}blo{\k20}wing {\kf206}up
+Dialogue: 0,0:00:26.68,0:00:30.65,Kana,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k26}kes{\k26}sen {\k14}no {\k13}hi{\k16}bu{\k26}ta {\k23}wa {\k10}su{\k15}de {\k10}ni {\k28}ki{\k26}ra{\k17}re{\k9}ta {\k14}ka{\k14}ra
+Dialogue: 0,0:00:29.55,0:00:31.82,Kana,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k18}Bet{\k25}ter {\k32}watch {\k42}out
+Dialogue: 0,0:00:30.82,0:00:33.45,Miho,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k21}dou{\k18}ka{\k30}sen {\k12}ni {\k14}tsu{\k24}ke{\k23}ta {\k11}hi
+Dialogue: 0,0:00:32.35,0:00:35.55,Miho,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k28}kou{\k27}ka{\k20}i {\k22}shi{\k13}te {\k10}mo {\k12}o{\k15}so{\k23}i {\k40}wa
+Dialogue: 0,0:00:34.45,0:00:36.25,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Blow {\k48}up
+Dialogue: 0,0:00:35.22,0:00:37.78,Fran,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k16}E{\k20}NER{\k25}G{\k31}Y {\k54}ga
+Dialogue: 0,0:00:36.48,0:00:38.35,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k17}ba{\k7}ku{\k27}ha{\k26}tsu
+Dialogue: 0,0:00:37.25,0:00:39.68,Kana,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k28}ta{\k16}ta{\k27}kau {\k24}na{\k38}ra
+Dialogue: 0,0:00:38.58,0:00:40.38,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Good {\k27}Lu{\k18}ck
+Dialogue: 0,0:00:39.28,0:00:42.15,Miho,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k32}mi{\k17}se{\k26}tsu{\k24}ke{\k78}te
+Dialogue: 0,0:00:40.62,0:00:43.55,Kana,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k29}a{\k52}ge{\k41}ru {\k61}wa
+Dialogue: 0,0:00:42.45,0:00:45.55,Miho,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k43}Rea{\kf157}dy?
+Dialogue: 0,0:00:44.52,0:00:47.45,Fran,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k26}hon{\k16}mo{\k38}no {\kf103}wa
+Dialogue: 0,0:00:45.55,0:00:47.65,Kana,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k52}Oh {\k48}yeah
+Dialogue: 0,0:00:46.45,0:00:50.42,Miho,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k43}hi{\k25}ru{\k35}ma{\kf184}nai
+Dialogue: 0,0:00:49.65,0:00:52.88,IIIX,,0,0,0,fx,{\k90\fad(300,200)}● {\k22}ko{\k35}yo{\k38}i {\k39}WE'LL {\k27}BLOW {\k52}UP
+Dialogue: 0,0:00:52.15,0:00:54.88,IIIX,,0,0,0,fx,{\k90\fad(300,200)}● {\k30}shou{\k22}ge{\k14}ki{\k23}ha {\k27}NON{\k47}STOP
+Dialogue: 0,0:00:54.85,0:00:57.02,IIIX,,0,0,0,fx,{\k90\fad(300,200)}● {\k28}We'll {\k27}blow {\k52}up
+Dialogue: 0,0:00:56.35,0:00:58.95,IIIX,,0,0,0,fx,{\k90\fad(300,200)}● {\k24}hi{\k23}mi{\k11}tsu {\k25}hei{\k27}ki {\k28}LO{\k12}VE
+Dialogue: 0,0:00:57.95,0:01:00.95,Fran,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k38}Boom {\k35}Boom {\k32}Boom {\k46}Boom {\k39}Pop
+Dialogue: 0,0:00:58.98,0:01:01.08,Miho,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k29}Let's {\k23}blow {\k48}up
+Dialogue: 0,0:00:59.85,0:01:02.88,Fran,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k19}i{\k26}chi{\k14}ya {\k25}ni {\k27}shi{\k11}te {\k25}BLOW {\k46}UP
+Dialogue: 0,0:01:01.85,0:01:04.88,Kana,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k24}don{\k28}na {\k13}ko{\k29}ko{\k24}ro {\k10}mo {\k28}kou{\k37}ryak'
+Dialogue: 0,0:01:03.92,0:01:06.82,Miho,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k25}Oh {\k27}yeah {\k18}you've {\k24}got {\k24}to {\k13}sur{\k23}ren{\k26}der
+Dialogue: 0,0:01:05.72,0:01:09.05,Fran,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k26}a{\k29}fu{\k25}re{\k26}ru {\k38}PO{\k79}WER
+Dialogue: 0,0:01:08.05,0:01:11.08,Miho,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k17}ne{\k35}rai {\k14}sa{\k27}da{\k25}me{\k14}te {\k24}LOCK {\k37}ON
+Dialogue: 0,0:01:10.12,0:01:13.22,Fran,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k28}i{\k24}ma {\k19}na{\k20}ri{\k27}hi{\k11}bi{\k26}ku {\k45}GONG
+Dialogue: 0,0:01:12.15,0:01:14.95,Miho,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k30}sai{\k27}go {\k10}ni {\k27}wa{\k28}ra{\k13}u {\k35}no
+Dialogue: 0,0:01:14.02,0:01:17.28,Kana,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k25}wa{\k15}ta{\k37}shi {\k26}da{\k41}ka{\k72}ra
+Dialogue: 0,0:01:16.48,0:01:20.62,Fran,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k33}No {\k32}No {\k34}No {\k33}No {\k33}No {\kf139}No
+Dialogue: 0,0:01:19.58,0:01:21.78,Fran,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k38}Tur{\k28}ning {\k44}back
+Dialogue: 0,0:01:21.48,0:01:25.25,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Oh {\k26}Oh {\k28}Oh {\k39}Oh {\kf146}Oh
+Dialogue: 0,0:01:23.58,0:01:25.88,Fran,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k20}Yeah {\k32}we'll {\k28}blow {\k40}up
+Dialogue: 0,0:01:25.65,0:01:29.45,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Oh {\k27}Oh {\k23}Oh {\k36}Oh {\kf156}Oh
+Dialogue: 0,0:01:27.72,0:01:35.32,Fran,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k20}Yeah {\k32}we'll {\k28}blow {\k31}u{\k19}p
