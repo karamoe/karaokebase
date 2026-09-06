@@ -1,0 +1,51 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Mainichi, No Problem
+Original Timing: HayatoKurokami
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.73,0:00:02.07,Sample KM [Up],,0,0,0,karaoke,{\k22}me{\k19}za{\k18}ma{\k23}shi {\k19}to{\k33}kei
+Comment: 0,0:00:02.15,0:00:05.37,Sample KM [Up],,0,0,0,karaoke,{\k40}ke{\k20}to{\k18}ba{\k24}shi {\k21}ko{\k19}yu{\k20}bi {\k20}ga {\k20}ai{\k18}ta{\k23}ta{\kf79}ta
+Comment: 0,0:00:07.01,0:00:10.37,Sample KM [Up],,0,0,0,karaoke,{\k42}to{\k17}ri{\k12}a{\k12}e{\k19}zu {\k21}ma{\k19}yu{\k21}ge {\k39}wo {\k20}kai{\k22}ta{\k19}ra {\k21}e{\k20}ki {\k21}ma{\k11}de
+Comment: 0,0:00:10.47,0:00:12.86,Sample KM [Up],,0,0,0,karaoke,{\k61}DASH {\k61}DASH {\kf117}DASH
+Comment: 0,0:00:13.51,0:00:15.10,Sample KM [Up],,0,0,0,karaoke,{\k59}man{\k40}in {\k39}den{\k21}sha
+Comment: 0,0:00:15.12,0:00:19.46,Sample KM [Up],,0,0,0,karaoke,{\k41}o{\k20}ya{\k19}ji {\k20}no {\k22}se{\k18}na{\k23}ka {\k18}de {\k41}hi{\k40}to {\k24}ne{\k38}mu{\kf110}ri
+Comment: 0,0:00:20.16,0:00:21.59,Sample KM [Up],,0,0,0,karaoke,{\k43}kon{\k23}shu{\k39}u {\k38}mo
+Comment: 0,0:00:21.62,0:00:26.06,Sample KM [Up],,0,0,0,karaoke,{\k38}go{\k21}ku{\k14}ro{\k26}u {\k20}go {\k20}mu{\k17}ri {\k23}wa {\k43}go {\k39}mo{\k23}t{\k38}to {\kf122}mo
+Comment: 0,0:00:26.65,0:00:29.82,Sample KM [Up],,0,0,0,karaoke,{\k28}BUC{\k35}KE{\k20}T {\k19}ka{\k20}ta{\k23}te {\k18}ni {\k21}su{\k19}ma{\k22}shi{\k39}te{\k21}ru {\k18}ke{\k14}do
+Comment: 0,0:00:29.89,0:00:32.81,Sample KM [Up],,0,0,0,karaoke,{\k22}gyu{\k19}u-{\k41}don {\k22}to{\k17}ku{\k18}mo{\k24}ri {\k18}tsu{\k21}yu{\k19}da{\k21}ku {\k50}de
+Comment: 0,0:00:33.14,0:00:36.14,Sample KM [Up],,0,0,0,karaoke,{\k43}zan{\k39}gyou {\k20}tsu{\k25}zu{\k19}ki {\k18}no {\k20}i{\k24}ra{\k16}i{\k21}ra {\k55}mo
+Comment: 0,0:00:36.62,0:00:41.28,Sample KM [Up],,0,0,0,karaoke,{\k19}i{\k42}ran {\k20}i{\k38}ran {\k23}de {\k39}suk{\k20}ki{\k22}ri {\k36}kai{\k24}sho{\kf183}u
+Comment: 0,0:00:42.90,0:00:45.54,Sample KM [Up],,0,0,0,karaoke,{\k39}ma{\k22}i{\k40}ni{\k41}chi {\k19}ga {\k40}NO {\k21}PRO{\k42}BLEM
+Comment: 0,0:00:46.14,0:00:49.18,Sample KM [Up],,0,0,0,karaoke,{\k22}ko{\k18}n{\k21}na {\k38}wa{\k20}ta{\k19}shi {\k25}ga {\k41}da{\k36}i{\k24}su{\k19}ki {\k21}yo
+Comment: 0,0:00:49.42,0:00:52.18,Sample KM [Up],,0,0,0,karaoke,{\k39}ma{\k21}i{\k39}ni{\k41}chi {\k19}ga {\k40}NO {\k20}PRO{\k57}BLEM
+Comment: 0,0:00:52.63,0:00:56.70,Sample KM [Up],,0,0,0,karaoke,{\k39}HEAR{\k21}T {\k20}ga {\k21}to{\k20}n{\k25}de{\k53}ru {\k21}ge{\k25}tsu{\k18}yo{\k45}u{\kf99}bi
+Comment: 0,0:00:56.15,0:01:00.48,Sample KM [Choir],,0,0,0,karaoke,{\k54}MON{\k61}DAY {\k60}MON{\k41}DAY {\k19}NO {\k42}PRO{\kf156}BLEM
+Dialogue: 0,0:00:00.00,0:00:02.27,Sample KM [Up],,0,0,0,fx,{\k73\fad(730,200)}{\k22}me{\k19}za{\k18}ma{\k23}shi {\k19}to{\k33}kei
+Dialogue: 0,0:00:01.25,0:00:05.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}ke{\k20}to{\k18}ba{\k24}shi {\k21}ko{\k19}yu{\k20}bi {\k20}ga {\k20}ai{\k18}ta{\k23}ta{\kf79}ta
+Dialogue: 0,0:00:06.11,0:00:10.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}to{\k17}ri{\k12}a{\k12}e{\k19}zu {\k21}ma{\k19}yu{\k21}ge {\k39}wo {\k20}kai{\k22}ta{\k19}ra {\k21}e{\k20}ki {\k21}ma{\k11}de
+Dialogue: 0,0:00:09.57,0:00:13.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k61}DASH {\k61}DASH {\kf117}DASH
+Dialogue: 0,0:00:12.61,0:00:15.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k59}man{\k40}in {\k39}den{\k21}sha
+Dialogue: 0,0:00:14.22,0:00:19.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}o{\k20}ya{\k19}ji {\k20}no {\k22}se{\k18}na{\k23}ka {\k18}de {\k41}hi{\k40}to {\k24}ne{\k38}mu{\kf110}ri
+Dialogue: 0,0:00:19.26,0:00:21.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}kon{\k23}shu{\k39}u {\k38}mo
+Dialogue: 0,0:00:20.72,0:00:26.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}go{\k21}ku{\k14}ro{\k26}u {\k20}go {\k20}mu{\k17}ri {\k23}wa {\k43}go {\k39}mo{\k23}t{\k38}to {\kf122}mo
+Dialogue: 0,0:00:25.75,0:00:30.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}BUC{\k35}KE{\k20}T {\k19}ka{\k20}ta{\k23}te {\k18}ni {\k21}su{\k19}ma{\k22}shi{\k39}te{\k21}ru {\k18}ke{\k14}do
+Dialogue: 0,0:00:28.99,0:00:33.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}gyu{\k19}u-{\k41}don {\k22}to{\k17}ku{\k18}mo{\k24}ri {\k18}tsu{\k21}yu{\k19}da{\k21}ku {\k50}de
+Dialogue: 0,0:00:32.24,0:00:36.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}zan{\k39}gyou {\k20}tsu{\k25}zu{\k19}ki {\k18}no {\k20}i{\k24}ra{\k16}i{\k21}ra {\k55}mo
+Dialogue: 0,0:00:35.72,0:00:41.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}i{\k42}ran {\k20}i{\k38}ran {\k23}de {\k39}suk{\k20}ki{\k22}ri {\k36}kai{\k24}sho{\kf183}u
+Dialogue: 0,0:00:42.00,0:00:45.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}ma{\k22}i{\k40}ni{\k41}chi {\k19}ga {\k40}NO {\k21}PRO{\k42}BLEM
+Dialogue: 0,0:00:45.24,0:00:49.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}ko{\k18}n{\k21}na {\k38}wa{\k20}ta{\k19}shi {\k25}ga {\k41}da{\k36}i{\k24}su{\k19}ki {\k21}yo
+Dialogue: 0,0:00:48.52,0:00:52.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}ma{\k21}i{\k39}ni{\k41}chi {\k19}ga {\k40}NO {\k20}PRO{\k57}BLEM
+Dialogue: 0,0:00:51.73,0:00:56.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}HEAR{\k21}T {\k20}ga {\k21}to{\k20}n{\k25}de{\k53}ru {\k21}ge{\k25}tsu{\k18}yo{\k45}u{\kf99}bi
+Dialogue: 0,0:00:55.25,0:01:00.68,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k54}MON{\k61}DAY {\k60}MON{\k41}DAY {\k19}NO {\k42}PRO{\kf156}BLEM
