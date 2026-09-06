@@ -1,0 +1,116 @@
+﻿[Script Info]
+Title: Be proud
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Sodachi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Tsubame,Arial,24,&H00EE3D86,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:01.30,0:00:01.84,Tsubame,,0,0,0,karaoke,{\k0}{\k54}Hey
+Comment: 0,0:00:03.64,0:00:04.08,Tsubame,,0,0,0,karaoke,{\k0}{\k44}Yeah
+Comment: 0,0:00:05.83,0:00:08.47,Tsubame,,0,0,0,karaoke,{\k0}{\kf264}Yeah~
+Comment: 0,0:00:10.04,0:00:10.46,Tsubame,,0,0,0,karaoke,{\k0}{\k42}Ouh
+Comment: 0,0:00:15.84,0:00:18.52,Tsubame,,0,0,0,karaoke,{\k57}Yeah {\k58}yeah {\k55}oh {\k55}oh {\k43}yeah
+Comment: 0,0:00:19.08,0:00:20.69,Tsubame,,0,0,0,karaoke,{\k27}tsun{\k14}de {\k12}ki{\k16}ta {\k12}ji{\k27}kan {\k18}ga {\k13}a{\k22}ru
+Comment: 0,0:00:20.87,0:00:23.02,Tsubame,,0,0,0,karaoke,{\k20}ke{\k24}zut{\k16}te {\k9}ki{\k14}ta {\k42}kan{\k29}jou {\k12}ga {\k16}a{\k33}ru
+Comment: 0,0:00:23.09,0:00:24.36,Tsubame,,0,0,0,karaoke,{\k16}a{\k13}no {\k14}hi {\k14}no {\k12}a{\k14}ki{\k19}ra{\k9}me{\k16}ta
+Comment: 0,0:00:24.36,0:00:26.00,Tsubame,,0,0,0,karaoke,{\k13}yo{\k13}ru {\k13}mo {\k15}hi{\k12}to{\k16}ri {\k15}de {\k16}ya{\k11}i{\k14}ba {\k26}wo
+Comment: 0,0:00:26.03,0:00:27.44,Tsubame,,0,0,0,karaoke,{\k41}toi{\k27}de {\k28}i{\k45}ta
+Comment: 0,0:00:27.69,0:00:29.52,Tsubame,,0,0,0,karaoke,{\k15}E{\k26}LI{\k27}TE {\k27}tte {\k17}wa{\k11}ra{\k16}e{\k24}ba {\k20}ii
+Comment: 0,0:00:29.62,0:00:31.77,Tsubame,,0,0,0,karaoke,{\k13}hi{\k18}ga{\k11}mi {\k15}no {\k13}ko{\k12}to{\k16}ba {\k29}wa {\k11}ki{\k13}ki{\k17}a{\k27}ki{\k20}ta
+Comment: 0,0:00:31.97,0:00:33.78,Tsubame,,0,0,0,karaoke,{\k28}tan{\k26}ren {\k17}no {\k13}o{\k15}mo{\k11}sa {\k16}mo {\k14}shi{\k16}ra{\k12}na{\k11}i
+Comment: 0,0:00:33.80,0:00:36.38,Tsubame,,0,0,0,karaoke,{\k14}ku{\k14}se {\k13}ni {\k15}o{\k13}na{\k15}ji {\k14}bu{\k41}tai {\k26}ni {\k29}ta{\k14}tsu {\k50}na
+Comment: 0,0:00:36.57,0:00:37.94,Tsubame,,0,0,0,karaoke,{\k16}wa{\k26}rae{\k28}ba {\k19}i{\k48}i
+Comment: 0,0:00:38.52,0:00:40.19,Tsubame,,0,0,0,karaoke,{\k25}ne{\k17}ta{\k27}me{\k29}ba {\k14}i{\k55}i
+Comment: 0,0:00:40.87,0:00:45.14,Tsubame,,0,0,0,karaoke,{\k15}so{\k15}no {\k12}te{\k28}i{\k29}do {\k24}no {\k15}u{\k14}tsu{\k27}wa {\k42}ja {\k29}to{\k14}do{\k28}ka{\k46}na{\k89}i
+Comment: 0,0:00:45.51,0:00:47.81,Tsubame,,0,0,0,karaoke,{\k13}tsu{\k12}yo{\k13}ga{\k11}ru {\k15}no {\k26}wa {\k29}ka{\k14}za{\k27}ri {\k30}ja{\k13}na{\k27}i
+Comment: 0,0:00:47.83,0:00:49.63,Tsubame,,0,0,0,karaoke,{\k13}chi {\k16}to {\k11}a{\k14}se {\k26}de {\k29}ki{\k16}za{\k26}n{\k29}da
+Comment: 0,0:00:49.93,0:00:52.24,Tsubame,,0,0,0,karaoke,{\k11}wa{\k13}ta{\k16}shi {\k54}no {\k58}ku{\k39}n{\k15}sho{\k25}u
+Comment: 0,0:00:52.43,0:00:54.44,Tsubame,,0,0,0,karaoke,{\k11}ma{\k13}ru{\k16}ku {\k24}nan{\k31}ka {\k14}na{\k26}re{\k66}nai
+Comment: 0,0:00:54.47,0:00:58.79,Tsubame,,0,0,0,karaoke,{\k16}ko{\k15}re {\k54}ga {\k28}bu{\k111}ki {\k16}ko{\k13}re {\k39}ga {\k25}ho{\k33}ko{\k31}ri{\k51}~
+Comment: 0,0:00:58.96,0:01:02.14,Tsubame,,0,0,0,karaoke,{\k39}han{\k32}pa {\k22}na {\k29}ka{\k15}ku{\k13}go {\k45}de {\k26}na{\k18}ra{\k22}bu {\k57}na
+Comment: 0,0:01:10.58,0:01:12.07,Tsubame,,0,0,0,karaoke,{\k16}kyo{\k14}u{\k14}sha {\k40}no {\k15}a{\k14}ka{\k14}shi {\k22}wo
+Comment: 0,0:01:12.26,0:01:14.96,Tsubame,,0,0,0,karaoke,{\k13}mi{\k16}se{\k11}tsu{\k44}ke {\k15}o{\k13}u{\k14}za {\k40}ni {\k29}i{\k28}ku {\k27}da{\k20}ke
+Comment: 0,0:01:15.04,0:01:16.64,Tsubame,,0,0,0,karaoke,{\k13}me {\k15}no {\k14}ma{\k15}e {\k26}no {\k16}ka{\k12}be{\k14}ta{\k14}chi {\k21}wo
+Comment: 0,0:01:16.70,0:01:19.47,Tsubame,,0,0,0,karaoke,{\k15}ya{\k16}bu{\k11}t{\k15}te {\k41}chou{\k29}te{\k28}n {\k41}wo {\k14}me{\k13}za{\k14}su {\k12}da{\k28}ke
+Comment: 0,0:01:19.76,0:01:23.90,Tsubame,,0,0,0,karaoke,{\k28}a{\k27}t{\k29}to{\k81}u{\k58}te{\k28}ki {\k30}na {\k51}i{\k30}ki{\k13}za{\k39}ma
+Comment: 0,0:01:23.92,0:01:27.68,Tsubame,,0,0,0,karaoke,{\k14}i{\k14}ta{\k29}mi {\k14}na{\k14}ya{\k28}mi {\k14}yo{\k14}do{\k27}mi {\k14}yu{\k15}ga{\k55}mi {\k24}no{\k19}ri{\k25}ko{\k28}e{\k28}te
+Comment: 0,0:01:27.69,0:01:29.18,Tsubame,,0,0,0,karaoke,{\k13}na{\k13}ge{\k17}ke{\k25}ba {\k15}i{\k66}i
+Comment: 0,0:01:29.64,0:01:31.44,Tsubame,,0,0,0,karaoke,{\k29}ni{\k13}ge{\k27}re{\k28}ba {\k18}i{\k65}i
+Comment: 0,0:01:31.97,0:01:36.25,Tsubame,,0,0,0,karaoke,{\k19}ki{\k11}zu{\k13}tsu{\k27}ku {\k29}ka{\k28}ku{\k14}go {\k17}na{\k24}i {\k40}ku{\k29}se {\k14}ni {\k28}ho{\k44}en {\k91}na
+Comment: 0,0:01:36.56,0:01:38.89,Tsubame,,0,0,0,karaoke,{\k14}sa{\k12}i{\k13}no{\k17}u {\k14}to {\k28}yo{\k28}ba{\k14}se {\k28}wa {\k28}shi{\k13}na{\k24}i
+Comment: 0,0:01:38.93,0:01:40.74,Tsubame,,0,0,0,karaoke,{\k15}ko{\k11}do{\k13}ku {\k16}no {\k23}na{\k34}ka {\k15}to{\k26}i{\k28}da
+Comment: 0,0:01:41.03,0:01:43.34,Tsubame,,0,0,0,karaoke,{\k12}wa{\k16}ta{\k12}shi {\k57}no {\k54}i{\k42}ki{\k15}za{\k23}ma
+Comment: 0,0:01:43.53,0:01:45.51,Tsubame,,0,0,0,karaoke,{\k13}da{\k14}re {\k14}ni {\k27}mo {\k28}yu{\k13}zu{\k28}re{\k61}nai
+Comment: 0,0:01:45.57,0:01:49.76,Tsubame,,0,0,0,karaoke,{\k17}ko{\k15}re {\k52}ga {\k32}ji{\k109}ga {\k16}ko{\k14}re {\k43}ga {\k22}a{\k32}ka{\k42}shi{\k25}~
+Comment: 0,0:01:50.04,0:01:53.47,Tsubame,,0,0,0,karaoke,{\k43}a{\k31}ma{\k27}i {\k24}sha{\k15}ku{\k13}do {\k41}de {\k29}ha{\k17}ka{\k27}ru {\k76}na
+Comment: 0,0:02:01.22,0:02:01.77,Tsubame,,0,0,0,karaoke,{\k0}{\k55}Hey
+Comment: 0,0:02:03.60,0:02:04.12,Tsubame,,0,0,0,karaoke,{\k0}{\k52}Yeah
+Comment: 0,0:02:05.84,0:02:10.14,Tsubame,,0,0,0,karaoke,{\k74}Yeah{\k44}~ {\k40}oh {\k27}oh {\k28}no {\k27}oh {\kf190}yeah
+Comment: 0,0:02:27.64,0:02:29.18,Tsubame,,0,0,0,karaoke,{\k20}ho{\k15}e{\k14}re{\k26}ba {\k17}i{\k62}i
+Comment: 0,0:02:29.73,0:02:31.41,Tsubame,,0,0,0,karaoke,{\k17}wa{\k12}me{\k30}ke{\k29}ba {\k15}i{\k65}i
+Comment: 0,0:02:31.99,0:02:36.26,Tsubame,,0,0,0,karaoke,{\k14}ma{\k14}ke{\k14}i{\k26}nu {\k28}no {\k42}too{\k16}bo{\k29}e {\k39}ja {\k27}hi{\k16}bi{\k26}ka{\k42}na{\kf94}i
+Comment: 0,0:02:36.57,0:02:38.90,Tsubame,,0,0,0,karaoke,{\k14}tsu{\k16}yo{\k13}ga{\k13}ru {\k14}no {\k25}wa {\k30}ka{\k14}za{\k27}ri {\k27}ja{\k15}na{\k25}i
+Comment: 0,0:02:38.93,0:02:40.73,Tsubame,,0,0,0,karaoke,{\k13}chi {\k15}to {\k13}a{\k13}se {\k27}de {\k30}ki{\k15}za{\k26}n{\k28}da
+Comment: 0,0:02:41.00,0:02:43.36,Tsubame,,0,0,0,karaoke,{\k13}wa{\k15}ta{\k16}shi {\k50}no {\k53}ku{\k51}n{\k13}sho{\k25}u
+Comment: 0,0:02:43.53,0:02:45.53,Tsubame,,0,0,0,karaoke,{\k13}ma{\k13}ru{\k15}ku {\k25}nan{\k30}ka {\k14}na{\k27}re{\k63}nai
+Comment: 0,0:02:45.59,0:02:49.87,Tsubame,,0,0,0,karaoke,{\k15}ko{\k14}re {\k55}ga {\k27}bu{\k111}ki {\k15}ko{\k14}re {\k42}ga {\k25}ho{\k28}ko{\k37}ri{\k45}~
+Comment: 0,0:02:50.04,0:02:53.38,Tsubame,,0,0,0,karaoke,{\k42}han{\k29}pa {\k25}na {\k29}ka{\k14}ku{\k14}go {\k43}de {\k28}na{\k16}ra{\k25}bu {\k69}na
+Dialogue: 0,0:00:00.40,0:00:02.04,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k0}{\k54}Hey
+Dialogue: 0,0:00:02.74,0:00:04.28,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k0}{\k44}Yeah
+Dialogue: 0,0:00:04.93,0:00:08.67,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k0}{\kf264}Yeah~
+Dialogue: 0,0:00:09.14,0:00:10.66,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k0}{\k42}Ouh
+Dialogue: 0,0:00:14.94,0:00:18.72,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k57}Yeah {\k58}yeah {\k55}oh {\k55}oh {\k43}yeah
+Dialogue: 0,0:00:18.18,0:00:20.89,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k27}tsun{\k14}de {\k12}ki{\k16}ta {\k12}ji{\k27}kan {\k18}ga {\k13}a{\k22}ru
+Dialogue: 0,0:00:19.97,0:00:23.22,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ke{\k24}zut{\k16}te {\k9}ki{\k14}ta {\k42}kan{\k29}jou {\k12}ga {\k16}a{\k33}ru
+Dialogue: 0,0:00:22.19,0:00:24.56,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k16}a{\k13}no {\k14}hi {\k14}no {\k12}a{\k14}ki{\k19}ra{\k9}me{\k16}ta
+Dialogue: 0,0:00:23.46,0:00:26.20,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k13}yo{\k13}ru {\k13}mo {\k15}hi{\k12}to{\k16}ri {\k15}de {\k16}ya{\k11}i{\k14}ba {\k26}wo
+Dialogue: 0,0:00:25.13,0:00:27.64,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k41}toi{\k27}de {\k28}i{\k45}ta
+Dialogue: 0,0:00:26.79,0:00:29.72,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k15}E{\k26}LI{\k27}TE {\k27}tte {\k17}wa{\k11}ra{\k16}e{\k24}ba {\k20}ii
+Dialogue: 0,0:00:28.72,0:00:31.97,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k13}hi{\k18}ga{\k11}mi {\k15}no {\k13}ko{\k12}to{\k16}ba {\k29}wa {\k11}ki{\k13}ki{\k17}a{\k27}ki{\k20}ta
+Dialogue: 0,0:00:31.07,0:00:33.98,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k28}tan{\k26}ren {\k17}no {\k13}o{\k15}mo{\k11}sa {\k16}mo {\k14}shi{\k16}ra{\k12}na{\k11}i
+Dialogue: 0,0:00:32.90,0:00:36.58,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ku{\k14}se {\k13}ni {\k15}o{\k13}na{\k15}ji {\k14}bu{\k41}tai {\k26}ni {\k29}ta{\k14}tsu {\k50}na
+Dialogue: 0,0:00:35.67,0:00:38.14,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k16}wa{\k26}rae{\k28}ba {\k19}i{\k48}i
+Dialogue: 0,0:00:37.62,0:00:40.39,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ne{\k17}ta{\k27}me{\k29}ba {\k14}i{\k55}i
+Dialogue: 0,0:00:39.97,0:00:45.34,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k15}so{\k15}no {\k12}te{\k28}i{\k29}do {\k24}no {\k15}u{\k14}tsu{\k27}wa {\k42}ja {\k29}to{\k14}do{\k28}ka{\k46}na{\k89}i
+Dialogue: 0,0:00:44.61,0:00:48.01,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k13}tsu{\k12}yo{\k13}ga{\k11}ru {\k15}no {\k26}wa {\k29}ka{\k14}za{\k27}ri {\k30}ja{\k13}na{\k27}i
+Dialogue: 0,0:00:46.93,0:00:49.83,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k13}chi {\k16}to {\k11}a{\k14}se {\k26}de {\k29}ki{\k16}za{\k26}n{\k29}da
+Dialogue: 0,0:00:49.03,0:00:52.44,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k11}wa{\k13}ta{\k16}shi {\k54}no {\k58}ku{\k39}n{\k15}sho{\k25}u
+Dialogue: 0,0:00:51.53,0:00:54.64,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k11}ma{\k13}ru{\k16}ku {\k24}nan{\k31}ka {\k14}na{\k26}re{\k66}nai
+Dialogue: 0,0:00:53.57,0:00:58.99,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ko{\k15}re {\k54}ga {\k28}bu{\k111}ki {\k16}ko{\k13}re {\k39}ga {\k25}ho{\k33}ko{\k31}ri{\k51}~
+Dialogue: 0,0:00:58.06,0:01:02.34,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k39}han{\k32}pa {\k22}na {\k29}ka{\k15}ku{\k13}go {\k45}de {\k26}na{\k18}ra{\k22}bu {\k57}na
+Dialogue: 0,0:01:09.68,0:01:12.27,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k16}kyo{\k14}u{\k14}sha {\k40}no {\k15}a{\k14}ka{\k14}shi {\k22}wo
+Dialogue: 0,0:01:11.36,0:01:15.16,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k13}mi{\k16}se{\k11}tsu{\k44}ke {\k15}o{\k13}u{\k14}za {\k40}ni {\k29}i{\k28}ku {\k27}da{\k20}ke
+Dialogue: 0,0:01:14.14,0:01:16.84,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k13}me {\k15}no {\k14}ma{\k15}e {\k26}no {\k16}ka{\k12}be{\k14}ta{\k14}chi {\k21}wo
+Dialogue: 0,0:01:15.80,0:01:19.67,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ya{\k16}bu{\k11}t{\k15}te {\k41}chou{\k29}te{\k28}n {\k41}wo {\k14}me{\k13}za{\k14}su {\k12}da{\k28}ke
+Dialogue: 0,0:01:18.86,0:01:24.10,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k28}a{\k27}t{\k29}to{\k81}u{\k58}te{\k28}ki {\k30}na {\k51}i{\k30}ki{\k13}za{\k39}ma
+Dialogue: 0,0:01:23.02,0:01:27.88,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k14}i{\k14}ta{\k29}mi {\k14}na{\k14}ya{\k28}mi {\k14}yo{\k14}do{\k27}mi {\k14}yu{\k15}ga{\k55}mi {\k24}no{\k19}ri{\k25}ko{\k28}e{\k28}te
+Dialogue: 0,0:01:26.79,0:01:29.38,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k13}na{\k13}ge{\k17}ke{\k25}ba {\k15}i{\k66}i
+Dialogue: 0,0:01:28.74,0:01:31.64,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ni{\k13}ge{\k27}re{\k28}ba {\k18}i{\k65}i
+Dialogue: 0,0:01:31.07,0:01:36.45,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ki{\k11}zu{\k13}tsu{\k27}ku {\k29}ka{\k28}ku{\k14}go {\k17}na{\k24}i {\k40}ku{\k29}se {\k14}ni {\k28}ho{\k44}en {\k91}na
+Dialogue: 0,0:01:35.66,0:01:39.09,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k14}sa{\k12}i{\k13}no{\k17}u {\k14}to {\k28}yo{\k28}ba{\k14}se {\k28}wa {\k28}shi{\k13}na{\k24}i
+Dialogue: 0,0:01:38.03,0:01:40.94,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ko{\k11}do{\k13}ku {\k16}no {\k23}na{\k34}ka {\k15}to{\k26}i{\k28}da
+Dialogue: 0,0:01:40.13,0:01:43.54,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k12}wa{\k16}ta{\k12}shi {\k57}no {\k54}i{\k42}ki{\k15}za{\k23}ma
+Dialogue: 0,0:01:42.63,0:01:45.71,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k13}da{\k14}re {\k14}ni {\k27}mo {\k28}yu{\k13}zu{\k28}re{\k61}nai
+Dialogue: 0,0:01:44.67,0:01:49.96,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ko{\k15}re {\k52}ga {\k32}ji{\k109}ga {\k16}ko{\k14}re {\k43}ga {\k22}a{\k32}ka{\k42}shi{\k25}~
+Dialogue: 0,0:01:49.14,0:01:53.67,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k43}a{\k31}ma{\k27}i {\k24}sha{\k15}ku{\k13}do {\k41}de {\k29}ha{\k17}ka{\k27}ru {\k76}na
+Dialogue: 0,0:02:00.32,0:02:01.97,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k0}{\k55}Hey
+Dialogue: 0,0:02:02.70,0:02:04.32,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k0}{\k52}Yeah
+Dialogue: 0,0:02:04.94,0:02:10.34,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k74}Yeah{\k44}~ {\k40}oh {\k27}oh {\k28}no {\k27}oh {\kf190}yeah
+Dialogue: 0,0:02:26.74,0:02:29.38,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ho{\k15}e{\k14}re{\k26}ba {\k17}i{\k62}i
+Dialogue: 0,0:02:28.83,0:02:31.61,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k17}wa{\k12}me{\k30}ke{\k29}ba {\k15}i{\k65}i
+Dialogue: 0,0:02:31.09,0:02:36.46,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ma{\k14}ke{\k14}i{\k26}nu {\k28}no {\k42}too{\k16}bo{\k29}e {\k39}ja {\k27}hi{\k16}bi{\k26}ka{\k42}na{\kf94}i
+Dialogue: 0,0:02:35.67,0:02:39.10,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k14}tsu{\k16}yo{\k13}ga{\k13}ru {\k14}no {\k25}wa {\k30}ka{\k14}za{\k27}ri {\k27}ja{\k15}na{\k25}i
+Dialogue: 0,0:02:38.03,0:02:40.93,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k13}chi {\k15}to {\k13}a{\k13}se {\k27}de {\k30}ki{\k15}za{\k26}n{\k28}da
+Dialogue: 0,0:02:40.10,0:02:43.56,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k13}wa{\k15}ta{\k16}shi {\k50}no {\k53}ku{\k51}n{\k13}sho{\k25}u
+Dialogue: 0,0:02:42.63,0:02:45.73,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ma{\k13}ru{\k15}ku {\k25}nan{\k30}ka {\k14}na{\k27}re{\k63}nai
+Dialogue: 0,0:02:44.69,0:02:50.07,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ko{\k14}re {\k55}ga {\k27}bu{\k111}ki {\k15}ko{\k14}re {\k42}ga {\k25}ho{\k28}ko{\k37}ri{\k45}~
+Dialogue: 0,0:02:49.14,0:02:53.58,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k42}han{\k29}pa {\k25}na {\k29}ka{\k14}ku{\k14}go {\k43}de {\k28}na{\k16}ra{\k25}bu {\k69}na
