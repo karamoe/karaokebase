@@ -1,0 +1,170 @@
+﻿[Script Info]
+Title: ORDER FAKE
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: Sodachi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Choir],Arial,24,&H001819FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: Temari,Arial,24,&H00BC7C00,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.29,0:00:01.05,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.52,0:00:01.29,Temari,,0,0,0,karaoke,{\k21}Run {\k16}it {\k40}back
+Comment: 0,0:00:03.55,0:00:04.34,Temari,,0,0,0,karaoke,{\k19}Break {\k19}it {\k41}down
+Comment: 0,0:00:06.62,0:00:07.55,Temari,,0,0,0,karaoke,{\k21}Run {\k18}it {\k54}back
+Comment: 0,0:00:09.68,0:00:10.34,Temari,,0,0,0,karaoke,{\k20}Break {\k19}it {\k27}down
+Comment: 0,0:00:11.60,0:00:13.03,Sample KM [Choir],,0,0,0,karaoke,{\k19}Find {\k10}the {\k29}gap {\k20}and {\k36}close {\k29}it
+Comment: 0,0:00:12.93,0:00:14.38,Temari,,0,0,0,karaoke,{\k11}ko{\k10}no {\k8}to{\k11}ki {\k8}no {\k9}ta{\k10}me {\k9}ni {\k9}da{\k19}re {\k7}yo{\k12}ri {\k22}mo
+Comment: 0,0:00:14.39,0:00:15.91,Temari,,0,0,0,karaoke,{\k8}me{\k10}cha{\k9}ku{\k19}cha {\k10}mu{\k11}ki{\k17}at{\k11}te {\k17}ki{\k11}ta {\k10}no {\k19}ni
+Comment: 0,0:00:16.00,0:00:17.42,Temari,,0,0,0,karaoke,{\k10}yo{\k9}mi {\k19}wo {\k11}ka{\k9}sa{\k19}ne{\k10}te {\k16}mi{\k21}tat{\k18}te
+Comment: 0,0:00:17.43,0:00:18.86,Temari,,0,0,0,karaoke,{\k10}ko{\k9}no {\k10}te {\k16}wa {\k11}to{\k18}do{\k10}ka{\k17}na{\k17}kat{\k25}ta
+Comment: 0,0:00:19.06,0:00:20.50,Temari,,0,0,0,karaoke,{\k17}ai{\k10}te {\k11}ga {\k19}nan{\k11}te{\k9}ki {\k7}su{\k22}gi{\k7}ru{\k10}ka{\k21}ra
+Comment: 0,0:00:20.59,0:00:21.95,Temari,,0,0,0,karaoke,{\k19}ban{\k19}men {\k10}ga {\k8}ka{\k10}ta{\k18}mui{\k20}te {\k8}mi{\k9}e{\k15}ta
+Comment: 0,0:00:22.10,0:00:23.46,Temari,,0,0,0,karaoke,{\k9}i{\k12}ma {\k19}no {\k9}ji{\k20}bun {\k19}no {\k19}STA{\k16}TUS {\k13}ja
+Comment: 0,0:00:23.46,0:00:25.26,Temari,,0,0,0,karaoke,{\k8}ma{\k10}da {\k8}to{\k11}do{\k9}ki {\k18}so{\k20}u {\k11}ni {\k10}na{\k14}it{\k11}te {\k19}iu {\k31}no
+Comment: 0,0:00:25.37,0:00:27.17,Sample KM [Choir],,0,0,0,karaoke,{\k37}This {\k30}can't {\k28}be {\k30}where {\k27}it {\k28}ends
+Comment: 0,0:00:28.41,0:00:30.24,Sample KM [Choir],,0,0,0,karaoke,{\k39}What {\k30}is {\k28}mis{\k28}sing {\k29}in {\k29}me
+Comment: 0,0:00:30.24,0:00:33.50,Temari,,0,0,0,karaoke,{\k28}a{\k18}no {\k19}hi{\k20}to {\k30}to {\k26}bo{\k21}ku {\k29}ga {\k26}mot{\k22}te {\k18}i{\k10}ru {\k18}mo{\k20}no {\k21}no
+Comment: 0,0:00:33.58,0:00:36.53,Temari,,0,0,0,karaoke,{\k29}chi{\k26}ga{\k55}i {\k13}ni {\k30}su{\k18}ko{\k20}shi {\k19}ki{\k27}zui{\k29}tan{\k29}da
+Comment: 0,0:00:36.63,0:00:38.52,Temari,,0,0,0,karaoke,{\k11}da{\k9}ka{\k19}ra {\k19}PO{\k29}KER {\k28}FACE {\k18}PO{\k29}KER {\k27}FACE
+Comment: 0,0:00:38.54,0:00:40.56,Temari,,0,0,0,karaoke,{\k9}te{\k11}no{\k27}u{\k22}chi {\k18}wo {\k29}yo{\k19}ma{\k19}re{\k18}ta{\k30}ra
+Comment: 0,0:00:40.65,0:00:43.12,Temari,,0,0,0,karaoke,{\k19}su{\k19}ki {\k19}tsu{\k20}ka{\k18}re{\k10}te {\k17}hik{\k12}ka{\k9}ke{\k10}ra{\k17}re{\k9}te {\k31}o{\k17}wa{\k20}ri
+Comment: 0,0:00:43.13,0:00:44.65,Temari,,0,0,0,karaoke,{\k19}sou{\k28}tei{\k29}gai {\k19}sou{\k28}tei{\k29}gai
+Comment: 0,0:00:44.66,0:00:46.58,Temari,,0,0,0,karaoke,{\k11}i{\k9}chi {\k19}i{\k19}chi {\k11}i{\k17}i{\k27}wa{\k21}ke {\k17}su{\k21}ru {\k20}na
+Comment: 0,0:00:46.77,0:00:49.74,Temari,,0,0,0,karaoke,{\k19}ma{\k19}ke{\k20}su{\k17}ji {\k11}wo {\k16}a{\k28}bai{\k23}te {\k9}shi{\k19}ro{\k29}bo{\k16}shi {\k22}a{\k19}ge{\k30}ro
+Comment: 0,0:00:49.82,0:00:50.74,Sample KM [Choir],,0,0,0,karaoke,{\k20}Ne{\k18}ver {\k29}give {\k25}up
+Comment: 0,0:00:50.77,0:00:52.69,Sample KM [Choir],,0,0,0,karaoke,{\k20}I {\k29}won't {\k29}let {\k19}it {\k27}out {\k30}of {\k17}si{\k21}ght
+Comment: 0,0:00:52.69,0:00:55.47,Temari,,0,0,0,karaoke,{\k19}ji{\k19}bu{\k20}n {\k27}ni {\k20}ta{\k20}ri{\k28}nai {\k18}mo{\k10}no {\k19}wo {\k30}su{\k17}be{\k31}te
+Comment: 0,0:00:55.35,0:00:56.85,Sample KM [Choir],,0,0,0,karaoke,{\k21}I {\k29}will {\k28}ne{\k19}ver {\k29}give {\k24}up
+Comment: 0,0:00:56.90,0:00:58.80,Sample KM [Choir],,0,0,0,karaoke,{\k19}I {\k26}will {\k32}keep {\k18}cha{\k29}sing {\k28}that {\k19}li{\k19}ght
+Comment: 0,0:00:58.89,0:01:01.95,Temari,,0,0,0,karaoke,{\k30}te {\k19}ni {\k19}i{\k19}re{\k19}te {\k11}su{\k27}su{\k19}mi {\k11}tsu{\k15}zu{\k31}ke{\k19}te {\k20}'ku{\k19}n{\k28}da
+Comment: 0,0:01:14.10,0:01:15.48,Temari,,0,0,0,karaoke,{\k18}nan{\k9}do {\k11}mo {\k18}ban{\k19}men {\k9}mi{\k10}ka{\k16}esh'{\k9}te {\k13}wa
+Comment: 0,0:01:15.50,0:01:16.96,Temari,,0,0,0,karaoke,{\k11}yo{\k10}mi{\k9}su{\k11}ji {\k9}wo {\k19}ta{\k16}dot{\k10}te {\k18}ki{\k17}tan{\k16}da
+Comment: 0,0:01:17.13,0:01:18.54,Temari,,0,0,0,karaoke,{\k9}do{\k9}re {\k10}da{\k13}ke {\k17}kan{\k9}ga{\k10}e{\k11}na {\k16}osh'{\k19}tat{\k18}te
+Comment: 0,0:01:18.60,0:01:20.01,Temari,,0,0,0,karaoke,{\k11}ma{\k9}ke{\k11}ru {\k16}RIS{\k13}K {\k17}ga {\k8}ki{\k9}e{\k9}na{\k19}kat{\k19}ta
+Comment: 0,0:01:20.18,0:01:21.58,Temari,,0,0,0,karaoke,{\k10}de{\k11}mo {\k9}ko{\k9}no {\k11}ma{\k9}ma {\k20}ja {\k8}tsu{\k11}yo{\k8}ku {\k10}na{\k10}re{\k14}nai
+Comment: 0,0:01:21.74,0:01:23.17,Temari,,0,0,0,karaoke,{\k19}jak'{\k19}ten {\k10}wo {\k9}ka{\k9}ka{\k10}e{\k8}ta {\k11}ma{\k11}ma {\k18}nan{\k19}da
+Comment: 0,0:01:23.25,0:01:24.60,Temari,,0,0,0,karaoke,{\k20}son{\k11}na {\k17}ji{\k20}bun {\k18}no {\k20}STA{\k18}TUS {\k11}ja
+Comment: 0,0:01:24.60,0:01:26.37,Temari,,0,0,0,karaoke,{\k11}ka{\k7}chi{\k11}ko{\k20}se {\k18}so{\k21}u {\k8}ni {\k11}na{\k16}it{\k11}te {\k16}iun{\k27}da
+Comment: 0,0:01:26.50,0:01:28.31,Sample KM [Choir],,0,0,0,karaoke,{\k39}Don't {\k20}let {\k9}e{\k15}mo{\k26}tions {\k26}take {\k19}o{\k27}ver
+Comment: 0,0:01:28.23,0:01:29.54,Temari,,0,0,0,karaoke,{\k10}ka{\k9}ta{\k10}yo{\k9}ru {\k19}ko{\k20}to {\k18}na{\k36}ku
+Comment: 0,0:01:29.56,0:01:31.39,Sample KM [Choir],,0,0,0,karaoke,{\k39}Calm{\k30}ly {\k28}and {\k29}sure{\k9}ly {\k19}on{\k29}ward
+Comment: 0,0:01:31.28,0:01:32.43,Temari,,0,0,0,karaoke,{\k9}mi{\k9}ga{\k21}ki{\k19}a{\k19}ge{\k19}te {\k19}'ku
+Comment: 0,0:01:32.62,0:01:34.43,Sample KM [Choir],,0,0,0,karaoke,{\k39}Don't {\k20}let {\k10}e{\k16}mo{\k20}tions {\k30}take {\k18}o{\k28}ver
+Comment: 0,0:01:34.33,0:01:35.57,Temari,,0,0,0,karaoke,{\k11}na{\k8}ge{\k19}das' {\k19}ko{\k20}to {\k17}na{\k30}ku
+Comment: 0,0:01:35.67,0:01:37.59,Sample KM [Choir],,0,0,0,karaoke,{\k39}Calm{\k29}ly {\k28}and {\k29}sure{\k10}ly {\k19}on{\k38}ward
+Comment: 0,0:01:37.40,0:01:38.61,Temari,,0,0,0,karaoke,{\k9}no{\k9}ri{\k20}ko{\k20}e{\k18}te {\k20}i{\k25}ku
+Comment: 0,0:01:50.97,0:01:52.78,Sample KM [Choir],,0,0,0,karaoke,{\k39}This {\k28}can't {\k29}be {\k28}where {\k29}it {\k28}ends
+Comment: 0,0:01:54.02,0:01:55.84,Sample KM [Choir],,0,0,0,karaoke,{\k39}What {\k29}is {\k29}mis{\k29}sing {\k27}in {\k29}me
+Comment: 0,0:01:55.85,0:01:59.18,Temari,,0,0,0,karaoke,{\k28}i{\k19}ma {\k20}ma{\k18}de {\k29}no {\k26}bo{\k22}ku {\k28}ni {\k28}wa {\k19}na{\k20}kat{\k10}ta {\k19}mo{\k18}no {\k29}no
+Comment: 0,0:01:59.19,0:02:02.10,Temari,,0,0,0,karaoke,{\k29}chi{\k28}ga{\k56}i {\k10}ni {\k29}cho{\k20}t{\k17}to {\k20}ki{\k27}zui{\k28}tan{\k41}da
+Comment: 0,0:02:02.25,0:02:04.06,Temari,,0,0,0,karaoke,{\k9}da{\k10}ka{\k19}ra {\k18}O{\k30}VER {\k29}TAKE {\k18}O{\k29}VER {\k19}TAKE
+Comment: 0,0:02:04.14,0:02:06.08,Temari,,0,0,0,karaoke,{\k11}ko{\k10}ko{\k19}ro {\k10}no {\k18}na{\k11}ka {\k8}wo {\k30}yo{\k19}ma{\k18}re{\k19}ta{\k21}ra
+Comment: 0,0:02:06.25,0:02:08.75,Temari,,0,0,0,karaoke,{\k19}sa{\k19}so{\k20}wa{\k19}re{\k16}te {\k11}wa{\k22}na {\k16}ni {\k11}ka{\k17}kat{\k10}te {\k28}ma{\k20}ke{\k22}ru
+Comment: 0,0:02:08.72,0:02:10.23,Temari,,0,0,0,karaoke,{\k20}sou{\k30}tei{\k28}nai {\k19}sou{\k28}tei{\k26}nai
+Comment: 0,0:02:10.26,0:02:12.18,Temari,,0,0,0,karaoke,{\k10}i{\k8}chi {\k21}i{\k20}chi {\k9}ma{\k18}do {\k31}wa {\k18}sa{\k19}re{\k18}ru {\k20}na
+Comment: 0,0:02:12.37,0:02:14.83,Temari,,0,0,0,karaoke,{\k19}re{\k20}i{\k19}se{\k16}i{\k18}sa {\k10}wo {\k29}kai{\k16}cha {\k12}i{\k22}ke{\k65}nai
+Comment: 0,0:02:14.47,0:02:16.31,Sample KM [Choir],,0,0,0,karaoke,{\k11}da{\k8}ka{\k20}ra {\k18}PO{\k29}KER {\k29}FACE {\k18}PO{\k29}KER {\k22}FACE
+Comment: 0,0:02:16.39,0:02:18.29,Temari,,0,0,0,karaoke,{\k18}kan{\k10}jou {\k18}wo {\k21}ka{\k18}ku{\k28}sou {\k20}to {\k18}shi{\k18}te {\k21}mo
+Comment: 0,0:02:18.48,0:02:20.94,Temari,,0,0,0,karaoke,{\k20}shi{\k19}gu{\k19}sa {\k17}ni {\k20}a{\k9}ra{\k17}wa{\k9}re{\k19}te {\k21}sh'mat{\k12}te {\k28}o{\k20}wa{\k16}ri
+Comment: 0,0:02:20.96,0:02:22.48,Temari,,0,0,0,karaoke,{\k19}sou{\k28}tei{\k30}gai {\k20}sou{\k27}tei{\k28}gai
+Comment: 0,0:02:22.48,0:02:24.40,Temari,,0,0,0,karaoke,{\k7}hi{\k13}to{\k20}tsu {\k19}zu{\k12}tsu {\k16}ka{\k18}ki{\k12}ke{\k19}shi{\k18}te {\k19}de{\k19}mo
+Comment: 0,0:02:24.57,0:02:27.65,Temari,,0,0,0,karaoke,{\k24}ka{\k17}chi{\k20}su{\k19}ji {\k17}wo {\k11}a{\k27}bai{\k21}te {\k9}shi{\k20}ro{\k28}bo{\k19}shi {\k19}a{\k19}ge{\k38}ro
+Comment: 0,0:02:27.65,0:02:28.57,Sample KM [Choir],,0,0,0,karaoke,{\k20}Ne{\k19}ver {\k29}give {\k24}up
+Comment: 0,0:02:28.61,0:02:30.50,Sample KM [Choir],,0,0,0,karaoke,{\k19}I {\k30}won't {\k28}let {\k19}it {\k29}out {\k28}of {\k19}si{\k17}ght
+Comment: 0,0:02:30.53,0:02:33.28,Temari,,0,0,0,karaoke,{\k18}ji{\k20}bu{\k18}n {\k29}ni {\k20}ta{\k19}ri{\k29}nai {\k18}mo{\k10}no {\k18}wo {\k28}su{\k19}be{\k29}te
+Comment: 0,0:02:33.19,0:02:34.70,Sample KM [Choir],,0,0,0,karaoke,{\k20}I {\k29}will {\k29}ne{\k19}ver {\k28}give {\k26}up
+Comment: 0,0:02:34.73,0:02:36.64,Sample KM [Choir],,0,0,0,karaoke,{\k19}I {\k27}will {\k31}keep {\k19}cha{\k28}sing {\k29}that {\k18}li{\k20}ght
+Comment: 0,0:02:36.73,0:02:39.78,Temari,,0,0,0,karaoke,{\k29}te {\k20}ni {\k19}i{\k18}re{\k19}te {\k11}su{\k27}su{\k20}mi {\k10}tsu{\k18}zu{\k29}ke{\k19}te {\k20}'ku{\k17}n{\k29}da
+Comment: 0,0:02:39.89,0:02:41.68,Sample KM [Choir],,0,0,0,karaoke,{\k38}Don't {\k19}let {\k10}e{\k18}mo{\k21}tions {\k28}take {\k18}o{\k27}ver
+Comment: 0,0:02:41.60,0:02:42.75,Temari,,0,0,0,karaoke,{\k10}ka{\k10}ta{\k9}yo{\k10}ru {\k18}ko{\k20}to {\k18}na{\k20}ku
+Comment: 0,0:02:42.93,0:02:44.84,Sample KM [Choir],,0,0,0,karaoke,{\k40}Calm{\k28}ly {\k30}and {\k28}sure{\k10}ly {\k18}on{\k37}ward
+Comment: 0,0:02:44.66,0:02:45.93,Temari,,0,0,0,karaoke,{\k9}mi{\k10}ga{\k20}ki{\k18}a{\k19}ge{\k19}te {\k32}'ku
+Comment: 0,0:02:46.00,0:02:47.91,Sample KM [Choir],,0,0,0,karaoke,{\k38}Don't {\k20}let {\k10}e{\k15}mo{\k22}tions {\k29}take {\k19}o{\k38}ver
+Comment: 0,0:02:47.71,0:02:48.98,Temari,,0,0,0,karaoke,{\k10}na{\k10}ge{\k18}das' {\k18}ko{\k20}to {\k18}na{\k33}ku
+Comment: 0,0:02:49.05,0:02:50.96,Sample KM [Choir],,0,0,0,karaoke,{\k39}Calm{\k30}ly {\k29}and {\k29}sure{\k9}ly {\k18}on{\k37}ward
+Comment: 0,0:02:50.78,0:02:52.07,Temari,,0,0,0,karaoke,{\k8}no{\k9}ri{\k17}ko{\k22}e{\k20}te {\k16}i{\k37}ku
+Comment: 0,0:02:52.30,0:02:56.39,Temari,,0,0,0,karaoke,{\k21}ko{\k37}re {\k39}ka{\k56}ra {\kf256}mo
+Dialogue: 0,0:00:00.00,0:00:01.49,Temari,,0,0,0,fx,{\k52\fad(520,200)}{\k21}Run {\k16}it {\k40}back
+Dialogue: 0,0:00:02.65,0:00:04.54,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Break {\k19}it {\k41}down
+Dialogue: 0,0:00:05.72,0:00:07.75,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Run {\k18}it {\k54}back
+Dialogue: 0,0:00:08.78,0:00:10.54,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Break {\k19}it {\k27}down
+Dialogue: 0,0:00:10.70,0:00:13.23,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Find {\k10}the {\k29}gap {\k20}and {\k36}close {\k29}it
+Dialogue: 0,0:00:12.03,0:00:14.58,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k11}ko{\k10}no {\k8}to{\k11}ki {\k8}no {\k9}ta{\k10}me {\k9}ni {\k9}da{\k19}re {\k7}yo{\k12}ri {\k22}mo
+Dialogue: 0,0:00:13.49,0:00:16.11,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k8}me{\k10}cha{\k9}ku{\k19}cha {\k10}mu{\k11}ki{\k17}at{\k11}te {\k17}ki{\k11}ta {\k10}no {\k19}ni
+Dialogue: 0,0:00:15.10,0:00:17.62,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k10}yo{\k9}mi {\k19}wo {\k11}ka{\k9}sa{\k19}ne{\k10}te {\k16}mi{\k21}tat{\k18}te
+Dialogue: 0,0:00:16.53,0:00:19.06,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k10}ko{\k9}no {\k10}te {\k16}wa {\k11}to{\k18}do{\k10}ka{\k17}na{\k17}kat{\k25}ta
+Dialogue: 0,0:00:18.16,0:00:20.70,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ai{\k10}te {\k11}ga {\k19}nan{\k11}te{\k9}ki {\k7}su{\k22}gi{\k7}ru{\k10}ka{\k21}ra
+Dialogue: 0,0:00:19.69,0:00:22.15,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ban{\k19}men {\k10}ga {\k8}ka{\k10}ta{\k18}mui{\k20}te {\k8}mi{\k9}e{\k15}ta
+Dialogue: 0,0:00:21.20,0:00:23.66,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k9}i{\k12}ma {\k19}no {\k9}ji{\k20}bun {\k19}no {\k19}STA{\k16}TUS {\k13}ja
+Dialogue: 0,0:00:22.56,0:00:25.46,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k8}ma{\k10}da {\k8}to{\k11}do{\k9}ki {\k18}so{\k20}u {\k11}ni {\k10}na{\k14}it{\k11}te {\k19}iu {\k31}no
+Dialogue: 0,0:00:24.47,0:00:27.37,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k37}This {\k30}can't {\k28}be {\k30}where {\k27}it {\k28}ends
+Dialogue: 0,0:00:27.51,0:00:30.44,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k39}What {\k30}is {\k28}mis{\k28}sing {\k29}in {\k29}me
+Dialogue: 0,0:00:29.34,0:00:33.70,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k28}a{\k18}no {\k19}hi{\k20}to {\k30}to {\k26}bo{\k21}ku {\k29}ga {\k26}mot{\k22}te {\k18}i{\k10}ru {\k18}mo{\k20}no {\k21}no
+Dialogue: 0,0:00:32.68,0:00:36.73,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k29}chi{\k26}ga{\k55}i {\k13}ni {\k30}su{\k18}ko{\k20}shi {\k19}ki{\k27}zui{\k29}tan{\k29}da
+Dialogue: 0,0:00:35.73,0:00:38.72,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k11}da{\k9}ka{\k19}ra {\k19}PO{\k29}KER {\k28}FACE {\k18}PO{\k29}KER {\k27}FACE
+Dialogue: 0,0:00:37.64,0:00:40.76,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k9}te{\k11}no{\k27}u{\k22}chi {\k18}wo {\k29}yo{\k19}ma{\k19}re{\k18}ta{\k30}ra
+Dialogue: 0,0:00:39.75,0:00:43.32,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k19}su{\k19}ki {\k19}tsu{\k20}ka{\k18}re{\k10}te {\k17}hik{\k12}ka{\k9}ke{\k10}ra{\k17}re{\k9}te {\k31}o{\k17}wa{\k20}ri
+Dialogue: 0,0:00:42.23,0:00:44.85,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k19}sou{\k28}tei{\k29}gai {\k19}sou{\k28}tei{\k29}gai
+Dialogue: 0,0:00:43.76,0:00:46.78,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k11}i{\k9}chi {\k19}i{\k19}chi {\k11}i{\k17}i{\k27}wa{\k21}ke {\k17}su{\k21}ru {\k20}na
+Dialogue: 0,0:00:45.87,0:00:49.94,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ma{\k19}ke{\k20}su{\k17}ji {\k11}wo {\k16}a{\k28}bai{\k23}te {\k9}shi{\k19}ro{\k29}bo{\k16}shi {\k22}a{\k19}ge{\k30}ro
+Dialogue: 0,0:00:48.92,0:00:50.94,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Ne{\k18}ver {\k29}give {\k25}up
+Dialogue: 0,0:00:49.87,0:00:52.89,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}I {\k29}won't {\k29}let {\k19}it {\k27}out {\k30}of {\k17}si{\k21}ght
+Dialogue: 0,0:00:51.79,0:00:55.67,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ji{\k19}bu{\k20}n {\k27}ni {\k20}ta{\k20}ri{\k28}nai {\k18}mo{\k10}no {\k19}wo {\k30}su{\k17}be{\k31}te
+Dialogue: 0,0:00:54.45,0:00:57.05,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k29}will {\k28}ne{\k19}ver {\k29}give {\k24}up
+Dialogue: 0,0:00:56.00,0:00:59.00,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k26}will {\k32}keep {\k18}cha{\k29}sing {\k28}that {\k19}li{\k19}ght
+Dialogue: 0,0:00:57.99,0:01:02.15,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k30}te {\k19}ni {\k19}i{\k19}re{\k19}te {\k11}su{\k27}su{\k19}mi {\k11}tsu{\k15}zu{\k31}ke{\k19}te {\k20}'ku{\k19}n{\k28}da
+Dialogue: 0,0:01:13.20,0:01:15.68,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k18}nan{\k9}do {\k11}mo {\k18}ban{\k19}men {\k9}mi{\k10}ka{\k16}esh'{\k9}te {\k13}wa
+Dialogue: 0,0:01:14.60,0:01:17.16,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k11}yo{\k10}mi{\k9}su{\k11}ji {\k9}wo {\k19}ta{\k16}dot{\k10}te {\k18}ki{\k17}tan{\k16}da
+Dialogue: 0,0:01:16.23,0:01:18.74,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k9}do{\k9}re {\k10}da{\k13}ke {\k17}kan{\k9}ga{\k10}e{\k11}na {\k16}osh'{\k19}tat{\k18}te
+Dialogue: 0,0:01:17.70,0:01:20.21,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k11}ma{\k9}ke{\k11}ru {\k16}RIS{\k13}K {\k17}ga {\k8}ki{\k9}e{\k9}na{\k19}kat{\k19}ta
+Dialogue: 0,0:01:19.28,0:01:21.78,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k10}de{\k11}mo {\k9}ko{\k9}no {\k11}ma{\k9}ma {\k20}ja {\k8}tsu{\k11}yo{\k8}ku {\k10}na{\k10}re{\k14}nai
+Dialogue: 0,0:01:20.84,0:01:23.37,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k19}jak'{\k19}ten {\k10}wo {\k9}ka{\k9}ka{\k10}e{\k8}ta {\k11}ma{\k11}ma {\k18}nan{\k19}da
+Dialogue: 0,0:01:22.35,0:01:24.80,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k20}son{\k11}na {\k17}ji{\k20}bun {\k18}no {\k20}STA{\k18}TUS {\k11}ja
+Dialogue: 0,0:01:23.70,0:01:26.57,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k11}ka{\k7}chi{\k11}ko{\k20}se {\k18}so{\k21}u {\k8}ni {\k11}na{\k16}it{\k11}te {\k16}iun{\k27}da
+Dialogue: 0,0:01:25.60,0:01:28.51,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Don't {\k20}let {\k9}e{\k15}mo{\k26}tions {\k26}take {\k19}o{\k27}ver
+Dialogue: 0,0:01:27.33,0:01:29.74,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k10}ka{\k9}ta{\k10}yo{\k9}ru {\k19}ko{\k20}to {\k18}na{\k36}ku
+Dialogue: 0,0:01:28.66,0:01:31.59,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Calm{\k30}ly {\k28}and {\k29}sure{\k9}ly {\k19}on{\k29}ward
+Dialogue: 0,0:01:30.38,0:01:32.63,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k9}mi{\k9}ga{\k21}ki{\k19}a{\k19}ge{\k19}te {\k19}'ku
+Dialogue: 0,0:01:31.72,0:01:34.63,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Don't {\k20}let {\k10}e{\k16}mo{\k20}tions {\k30}take {\k18}o{\k28}ver
+Dialogue: 0,0:01:33.43,0:01:35.77,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k11}na{\k8}ge{\k19}das' {\k19}ko{\k20}to {\k17}na{\k30}ku
+Dialogue: 0,0:01:34.77,0:01:37.79,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Calm{\k29}ly {\k28}and {\k29}sure{\k10}ly {\k19}on{\k38}ward
+Dialogue: 0,0:01:36.50,0:01:38.81,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k9}no{\k9}ri{\k20}ko{\k20}e{\k18}te {\k20}i{\k25}ku
+Dialogue: 0,0:01:50.07,0:01:52.98,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k39}This {\k28}can't {\k29}be {\k28}where {\k29}it {\k28}ends
+Dialogue: 0,0:01:53.12,0:01:56.04,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k39}What {\k29}is {\k29}mis{\k29}sing {\k27}in {\k29}me
+Dialogue: 0,0:01:54.95,0:01:59.38,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k28}i{\k19}ma {\k20}ma{\k18}de {\k29}no {\k26}bo{\k22}ku {\k28}ni {\k28}wa {\k19}na{\k20}kat{\k10}ta {\k19}mo{\k18}no {\k29}no
+Dialogue: 0,0:01:58.29,0:02:02.30,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k29}chi{\k28}ga{\k56}i {\k10}ni {\k29}cho{\k20}t{\k17}to {\k20}ki{\k27}zui{\k28}tan{\k41}da
+Dialogue: 0,0:02:01.35,0:02:04.26,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k9}da{\k10}ka{\k19}ra {\k18}O{\k30}VER {\k29}TAKE {\k18}O{\k29}VER {\k19}TAKE
+Dialogue: 0,0:02:03.24,0:02:06.28,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k11}ko{\k10}ko{\k19}ro {\k10}no {\k18}na{\k11}ka {\k8}wo {\k30}yo{\k19}ma{\k18}re{\k19}ta{\k21}ra
+Dialogue: 0,0:02:05.35,0:02:08.95,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k19}sa{\k19}so{\k20}wa{\k19}re{\k16}te {\k11}wa{\k22}na {\k16}ni {\k11}ka{\k17}kat{\k10}te {\k28}ma{\k20}ke{\k22}ru
+Dialogue: 0,0:02:07.82,0:02:10.43,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k20}sou{\k30}tei{\k28}nai {\k19}sou{\k28}tei{\k26}nai
+Dialogue: 0,0:02:09.36,0:02:12.38,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k10}i{\k8}chi {\k21}i{\k20}chi {\k9}ma{\k18}do {\k31}wa {\k18}sa{\k19}re{\k18}ru {\k20}na
+Dialogue: 0,0:02:11.47,0:02:15.03,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k19}re{\k20}i{\k19}se{\k16}i{\k18}sa {\k10}wo {\k29}kai{\k16}cha {\k12}i{\k22}ke{\k65}nai
+Dialogue: 0,0:02:13.57,0:02:16.51,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k11}da{\k8}ka{\k20}ra {\k18}PO{\k29}KER {\k29}FACE {\k18}PO{\k29}KER {\k22}FACE
+Dialogue: 0,0:02:15.49,0:02:18.49,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k18}kan{\k10}jou {\k18}wo {\k21}ka{\k18}ku{\k28}sou {\k20}to {\k18}shi{\k18}te {\k21}mo
+Dialogue: 0,0:02:17.58,0:02:21.14,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k20}shi{\k19}gu{\k19}sa {\k17}ni {\k20}a{\k9}ra{\k17}wa{\k9}re{\k19}te {\k21}sh'mat{\k12}te {\k28}o{\k20}wa{\k16}ri
+Dialogue: 0,0:02:20.06,0:02:22.68,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k19}sou{\k28}tei{\k30}gai {\k20}sou{\k27}tei{\k28}gai
+Dialogue: 0,0:02:21.58,0:02:24.60,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k7}hi{\k13}to{\k20}tsu {\k19}zu{\k12}tsu {\k16}ka{\k18}ki{\k12}ke{\k19}shi{\k18}te {\k19}de{\k19}mo
+Dialogue: 0,0:02:23.67,0:02:27.85,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ka{\k17}chi{\k20}su{\k19}ji {\k17}wo {\k11}a{\k27}bai{\k21}te {\k9}shi{\k20}ro{\k28}bo{\k19}shi {\k19}a{\k19}ge{\k38}ro
+Dialogue: 0,0:02:26.75,0:02:28.77,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Ne{\k19}ver {\k29}give {\k24}up
+Dialogue: 0,0:02:27.71,0:02:30.70,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k30}won't {\k28}let {\k19}it {\k29}out {\k28}of {\k19}si{\k17}ght
+Dialogue: 0,0:02:29.63,0:02:33.48,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ji{\k20}bu{\k18}n {\k29}ni {\k20}ta{\k19}ri{\k29}nai {\k18}mo{\k10}no {\k18}wo {\k28}su{\k19}be{\k29}te
+Dialogue: 0,0:02:32.29,0:02:34.90,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}I {\k29}will {\k29}ne{\k19}ver {\k28}give {\k26}up
+Dialogue: 0,0:02:33.83,0:02:36.84,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k27}will {\k31}keep {\k19}cha{\k28}sing {\k29}that {\k18}li{\k20}ght
+Dialogue: 0,0:02:35.83,0:02:39.98,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k29}te {\k20}ni {\k19}i{\k18}re{\k19}te {\k11}su{\k27}su{\k20}mi {\k10}tsu{\k18}zu{\k29}ke{\k19}te {\k20}'ku{\k17}n{\k29}da
+Dialogue: 0,0:02:38.99,0:02:41.88,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Don't {\k19}let {\k10}e{\k18}mo{\k21}tions {\k28}take {\k18}o{\k27}ver
+Dialogue: 0,0:02:40.70,0:02:42.95,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k10}ka{\k10}ta{\k9}yo{\k10}ru {\k18}ko{\k20}to {\k18}na{\k20}ku
+Dialogue: 0,0:02:42.03,0:02:45.04,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Calm{\k28}ly {\k30}and {\k28}sure{\k10}ly {\k18}on{\k37}ward
+Dialogue: 0,0:02:43.76,0:02:46.13,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k9}mi{\k10}ga{\k20}ki{\k18}a{\k19}ge{\k19}te {\k32}'ku
+Dialogue: 0,0:02:45.10,0:02:48.11,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Don't {\k20}let {\k10}e{\k15}mo{\k22}tions {\k29}take {\k19}o{\k38}ver
+Dialogue: 0,0:02:46.81,0:02:49.18,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k10}na{\k10}ge{\k18}das' {\k18}ko{\k20}to {\k18}na{\k33}ku
+Dialogue: 0,0:02:48.15,0:02:51.16,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Calm{\k30}ly {\k29}and {\k29}sure{\k9}ly {\k18}on{\k37}ward
+Dialogue: 0,0:02:49.88,0:02:52.27,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k8}no{\k9}ri{\k17}ko{\k22}e{\k20}te {\k16}i{\k37}ku
+Dialogue: 0,0:02:51.40,0:02:56.59,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ko{\k37}re {\k39}ka{\k56}ra {\kf256}mo
