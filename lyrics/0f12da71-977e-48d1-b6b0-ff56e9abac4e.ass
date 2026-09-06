@@ -1,0 +1,34 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Kutsuzure
+Original Timing: HayatoKurokami
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:04.18,0:00:10.47,Sample KM [Up],,0,0,0,karaoke,{\k20}o{\k40}ro{\k28}shi{\k43}ta{\k23}te {\kf153}no {\k24}ku{\k19}ro{\k24}i {\k40}BOO{\k29}TS {\k40}no {\k47}sei {\kf99}de
+Comment: 0,0:00:11.22,0:00:17.52,Sample KM [Up],,0,0,0,karaoke,{\k16}ku{\k46}tsu{\k28}zu{\k39}re {\k50}shi{\k85}ta {\k22}mi{\k23}gi{\k38}a{\k28}shi{\k42}i {\k26}ya{\k46}su{\k40}me{\k101}te
+Comment: 0,0:00:18.31,0:00:24.80,Sample KM [Up],,0,0,0,karaoke,{\k19}i{\k45}so{\k25}ga{\k46}na{\k22}i {\kf144}de {\k27}fu{\k23}ta{\k21}ri {\k44}no {\k23}RHY{\k48}TH{\k44}M {\kf118}de
+Comment: 0,0:00:25.55,0:00:31.28,Sample KM [Up],,0,0,0,karaoke,{\k48}ko{\k20}no {\k44}ma{\k66}ma {\k45}a{\k22}ru{\k43}i{\k65}te{\kf220}ku
+Comment: 0,0:00:31.73,0:00:37.57,Sample KM [Up],,0,0,0,karaoke,{\k46}na{\k43}ni {\kf122}mo{\k141} {\k21}i{\k45}wa{\k89}nai {\k77}de
+Comment: 0,0:00:39.22,0:00:45.49,Sample KM [Up],,0,0,0,karaoke,{\k24}ya{\k22}ga{\k44}te {\k29}bo{\k42}ku{\k43}ra {\k150}wa {\k25}wa{\k20}ka{\k43}ri{\k31}a{\k36}u {\k47}ka{\k71}ra
+Comment: 0,0:00:46.29,0:00:59.63,Sample KM [Up],,0,0,0,karaoke,{\k24}i{\k22}ma {\kf197}wa{\k65} {\k111}ta{\kf161}da{\k125} {\k24}da{\k20}ki{\k45}shi{\k24}me{\kf178}te{\k62} {\k23}a{\k23}ta{\k67}ta{\k42}me{\k121}te
+Comment: 0,0:01:00.41,0:01:09.37,Sample KM [Up],,0,0,0,karaoke,{\k45}su{\k44}be{\k27}te {\kf170}wo{\k63} {\k46}tsu{\k46}tsu{\k22}n{\kf154}de{\k28} {\k17}i{\k22}ru {\k23}ka{\kf189}ra
+Comment: 0,0:01:10.96,0:01:23.51,Sample KM [Up],,0,0,0,karaoke,{\k57}shi{\k42}zu{\k31}ka {\kf188}ni{\k47} {\k50}tsu{\k46}mo{\k26}ru {\k98}yo {\k24}ko{\kf283}na{\k33}yu{\kf330}ki
+Dialogue: 0,0:00:03.28,0:00:10.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}o{\k40}ro{\k28}shi{\k43}ta{\k23}te {\kf153}no {\k24}ku{\k19}ro{\k24}i {\k40}BOO{\k29}TS {\k40}no {\k47}sei {\kf99}de
+Dialogue: 0,0:00:10.32,0:00:17.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}ku{\k46}tsu{\k28}zu{\k39}re {\k50}shi{\k85}ta {\k22}mi{\k23}gi{\k38}a{\k28}shi{\k42}i {\k26}ya{\k46}su{\k40}me{\k101}te
+Dialogue: 0,0:00:17.41,0:00:25.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}i{\k45}so{\k25}ga{\k46}na{\k22}i {\kf144}de {\k27}fu{\k23}ta{\k21}ri {\k44}no {\k23}RHY{\k48}TH{\k44}M {\kf118}de
+Dialogue: 0,0:00:24.65,0:00:31.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}ko{\k20}no {\k44}ma{\k66}ma {\k45}a{\k22}ru{\k43}i{\k65}te{\kf220}ku
+Dialogue: 0,0:00:30.83,0:00:37.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}na{\k43}ni {\kf122}mo{\k141} {\k21}i{\k45}wa{\k89}nai {\k77}de
+Dialogue: 0,0:00:38.32,0:00:45.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}ya{\k22}ga{\k44}te {\k29}bo{\k42}ku{\k43}ra {\k150}wa {\k25}wa{\k20}ka{\k43}ri{\k31}a{\k36}u {\k47}ka{\k71}ra
+Dialogue: 0,0:00:45.39,0:00:59.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}i{\k22}ma {\kf197}wa{\k65} {\k111}ta{\kf161}da{\k125} {\k24}da{\k20}ki{\k45}shi{\k24}me{\kf178}te{\k62} {\k23}a{\k23}ta{\k67}ta{\k42}me{\k121}te
+Dialogue: 0,0:00:59.51,0:01:09.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}su{\k44}be{\k27}te {\kf170}wo{\k63} {\k46}tsu{\k46}tsu{\k22}n{\kf154}de{\k28} {\k17}i{\k22}ru {\k23}ka{\kf189}ra
+Dialogue: 0,0:01:10.06,0:01:23.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k57}shi{\k42}zu{\k31}ka {\kf188}ni{\k47} {\k50}tsu{\k46}mo{\k26}ru {\k98}yo {\k24}ko{\kf283}na{\k33}yu{\kf330}ki
