@@ -1,0 +1,51 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: En Bonne Compagnie
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Up] - Dialogue,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:05.33,0:00:06.89,Sample KM [Up] - Dialogue,,0,0,0,karaoke,{\k44}Ha ! {\k17}Tu {\k18}veux {\k15}jou{\k13}er {\k22}aus{\k27}si ?
+Comment: 0,0:00:09.18,0:00:13.59,Sample KM [Up],,0,0,0,karaoke,{\k56}Toi {\k47}et {\k52}moi {\k48}on {\kf103}est {\k46}deux {\k49}a{\k40}mis
+Comment: 0,0:00:14.73,0:00:17.76,Sample KM [Up],,0,0,0,karaoke,{\k47}Et {\kf97}c'est {\k47}pour {\k46}la {\k66}vie
+Comment: 0,0:00:18.69,0:00:23.68,Sample KM [Up],,0,0,0,karaoke,{\k52}Par{\kf95}tout {\k51}et {\k50}en {\kf104}bonne {\k47}com{\k53}pa{\k47}gnie
+Comment: 0,0:00:24.18,0:00:25.69,Sample KM [Up],,0,0,0,karaoke,{\k49}Dans {\k50}la {\k52}vie
+Comment: 0,0:00:26.16,0:00:29.72,Sample KM [Up],,0,0,0,karaoke,{\k49}C'est {\k55}ju{\kf102}ré {\k47}pour {\k48}tou{\k55}jours
+Comment: 0,0:00:30.77,0:00:33.69,Sample KM [Up],,0,0,0,karaoke,{\k49}Ja{\kf96}mais {\k42}moi {\k56}sans {\k49}toi
+Comment: 0,0:00:34.59,0:00:37.67,Sample KM [Up],,0,0,0,karaoke,{\k58}Ja{\kf107}mais {\k51}toi {\k51}sans {\k41}moi
+Comment: 0,0:00:38.71,0:00:43.71,Sample KM [Up],,0,0,0,karaoke,{\k50}Par{\kf98}tout {\k46}en {\k61}meil{\kf100}leure {\k50}com{\k47}pa{\k48}gnie
+Comment: 0,0:00:44.29,0:00:45.88,Sample KM [Up],,0,0,0,karaoke,{\k44}Dans {\k56}la {\k59}vie
+Comment: 0,0:00:46.28,0:00:49.78,Sample KM [Up],,0,0,0,karaoke,{\k43}Nous {\k56}se{\kf105}rons {\k51}deux {\k48}a{\k47}mis
+Comment: 0,0:01:56.57,0:02:01.60,Sample KM [Up],,0,0,0,karaoke,{\k61}Toi {\k51}et {\k54}moi {\k58}on {\kf119}est {\k52}deux {\k56}a{\k52}mis
+Comment: 0,0:02:02.92,0:02:06.56,Sample KM [Up],,0,0,0,karaoke,{\k51}Et {\kf124}c'est {\k55}pour {\k56}la {\k78}vie
+Comment: 0,0:02:07.31,0:02:12.83,Sample KM [Up],,0,0,0,karaoke,{\k61}Par{\kf109}tout {\k59}et {\k56}en {\kf122}bonne {\k48}com{\k55}pa{\k42}gnie
+Comment: 0,0:02:13.56,0:02:15.42,Sample KM [Up],,0,0,0,karaoke,{\k57}Dans {\k58}la {\k71}vie
+Comment: 0,0:02:16.12,0:02:23.27,Sample KM [Up],,0,0,0,karaoke,{\kf119}Jure {\kf120}toi {\kf121}aus{\kf355}si
+Comment: 0,0:02:23.63,0:02:24.84,Sample KM [Up] - Dialogue,,0,0,0,karaoke,{\k20}Bonne {\k22}nuit {\k11}O{\k16}li{\k52}ver
+Dialogue: 0,0:00:04.43,0:00:07.09,Sample KM [Up] - Dialogue,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Ha ! {\k17}Tu {\k18}veux {\k15}jou{\k13}er {\k22}aus{\k27}si ?
+Dialogue: 0,0:00:08.28,0:00:13.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k56}Toi {\k47}et {\k52}moi {\k48}on {\kf103}est {\k46}deux {\k49}a{\k40}mis
+Dialogue: 0,0:00:13.83,0:00:17.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Et {\kf97}c'est {\k47}pour {\k46}la {\k66}vie
+Dialogue: 0,0:00:17.79,0:00:23.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}Par{\kf95}tout {\k51}et {\k50}en {\kf104}bonne {\k47}com{\k53}pa{\k47}gnie
+Dialogue: 0,0:00:23.28,0:00:25.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Dans {\k50}la {\k52}vie
+Dialogue: 0,0:00:25.26,0:00:29.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}C'est {\k55}ju{\kf102}ré {\k47}pour {\k48}tou{\k55}jours
+Dialogue: 0,0:00:29.87,0:00:33.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Ja{\kf96}mais {\k42}moi {\k56}sans {\k49}toi
+Dialogue: 0,0:00:33.69,0:00:37.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k58}Ja{\kf107}mais {\k51}toi {\k51}sans {\k41}moi
+Dialogue: 0,0:00:37.81,0:00:43.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Par{\kf98}tout {\k46}en {\k61}meil{\kf100}leure {\k50}com{\k47}pa{\k48}gnie
+Dialogue: 0,0:00:43.39,0:00:46.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Dans {\k56}la {\k59}vie
+Dialogue: 0,0:00:45.38,0:00:49.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Nous {\k56}se{\kf105}rons {\k51}deux {\k48}a{\k47}mis
+Dialogue: 0,0:01:55.67,0:02:01.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k61}Toi {\k51}et {\k54}moi {\k58}on {\kf119}est {\k52}deux {\k56}a{\k52}mis
+Dialogue: 0,0:02:02.02,0:02:06.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k51}Et {\kf124}c'est {\k55}pour {\k56}la {\k78}vie
+Dialogue: 0,0:02:06.41,0:02:13.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k61}Par{\kf109}tout {\k59}et {\k56}en {\kf122}bonne {\k48}com{\k55}pa{\k42}gnie
+Dialogue: 0,0:02:12.66,0:02:15.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k57}Dans {\k58}la {\k71}vie
+Dialogue: 0,0:02:15.22,0:02:23.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf119}Jure {\kf120}toi {\kf121}aus{\kf355}si
+Dialogue: 0,0:02:22.73,0:02:25.04,Sample KM [Up] - Dialogue,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Bonne {\k22}nuit {\k11}O{\k16}li{\k52}ver
