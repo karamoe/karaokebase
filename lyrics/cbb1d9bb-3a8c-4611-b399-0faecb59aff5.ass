@@ -1,0 +1,88 @@
+﻿[Script Info]
+Title: MAMESHiBA NO TAiGUN - Hadaka No Mermaid
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
+Original Timing: Kylian
+LayoutResX: 0
+LayoutResY: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,24,&H006F72F0,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Italic,Arial,24,&H0018A8EB,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.72,0:00:02.25,Default,,0,0,0,karaoke,{\k34}nya {\k17}nya {\k17}nya {\k17}nya {\k18}nya {\k17}nya {\k33}nya
+Comment: 0,0:00:02.25,0:00:03.46,Italic,,0,0,0,karaoke,{\k35}AH {\k35}AH {\k51}AH
+Comment: 0,0:00:03.46,0:00:04.92,Default,,0,0,0,karaoke,{\k34}nya {\k17}nya {\k18}nya {\k16}nya {\k18}nya {\k18}nya {\k25}nya
+Comment: 0,0:00:04.80,0:00:06.23,Default,,0,0,0,karaoke,{\k35}THREE, {\k36}TWO, {\k34}ONE, {\k38}GO!
+Comment: 0,0:00:07.73,0:00:08.99,Italic,,0,0,0,karaoke,{\k31}AH {\k39}AH {\k56}AH
+Comment: 0,0:00:10.47,0:00:11.72,Italic,,0,0,0,karaoke,{\k32}AH {\k38}AH {\k55}AH
+Comment: 0,0:00:13.21,0:00:14.44,Italic,,0,0,0,karaoke,{\k32}AH {\k38}AH {\k53}AH
+Comment: 0,0:00:15.96,0:00:18.60,Default,,0,0,0,karaoke,{\k33}a{\k36}wai {\k18}ko{\k17}i {\k18}no {\k34}mo{\k35}no{\k17}ga{\k34}ta{\k22}ri!?
+Comment: 0,0:00:18.72,0:00:21.38,Default,,0,0,0,karaoke,{\k33}ka{\k29}ga{\k23}mi {\k18}ni {\k18}u{\k17}tsu{\k16}ru {\k17}A{\k18}SY{\k16}ME{\k35}T{\k26}RY
+Comment: 0,0:00:21.47,0:00:23.00,Italic,,0,0,0,karaoke,{\k16}sha{\k18}ri {\k16}sha{\k18}ri {\k34}na {\k51}HEART
+Comment: 0,0:00:23.00,0:00:24.86,Default,,0,0,0,karaoke,{\k35}OH {\k30}OH {\k24}{\k14}chi{\k18}do{\k16}ri{\k17}a{\k32}shi
+Comment: 0,0:00:25.75,0:00:28.13,Default,,0,0,0,karaoke,{\k34}OH {\k29}OH {\k22}{\k15}se{\k16}ki{\k21}zu{\k15}i {\k50}han{\k36}sha
+Comment: 0,0:00:28.13,0:00:30.97,Default,,0,0,0,karaoke,{\kf103}shin{\k34}sou {\kf104}shin{\k18}ri {\k25}ni
+Comment: 0,0:00:31.23,0:00:33.79,Default,,0,0,0,karaoke,{\k36}DI{\k33}VING {\k16}{\k19}ko{\k17}ro{\k16}ga{\k18}ri {\k35}o{\k16}chi{\k17}te{\k33}ru
+Comment: 0,0:00:33.79,0:00:36.38,Default,,0,0,0,karaoke,{\k35}gen{\k35}kai {\k34}top{\k35}pa {\k17}no {\k17}PA{\k17}RA{\k32}DI{\k37}SE
+Comment: 0,0:00:36.38,0:00:38.93,Default,,0,0,0,karaoke,{\k17}VI{\k16}VA {\k35}kan{\k43}pai {\k26}{\k17}mi{\k16}na {\k35}kan{\k50}pai
+Comment: 0,0:00:39.08,0:00:41.86,Default,,0,0,0,karaoke,{\k21}te{\k15}i{\k36}hen {\k33}da {\k19}te{\k17}i{\k34}hen {\k33}da {\k20}tai{\k16}hen {\k34}da
+Comment: 0,0:00:41.86,0:00:44.58,Default,,0,0,0,karaoke,{\k18}te{\k14}i{\k37}hen {\k34}da {\k18}te{\k15}i{\k36}hen {\k34}da {\k17}wa{\k17}wa{\k32}wa
+Comment: 0,0:00:44.58,0:00:47.50,Default,,0,0,0,karaoke,{\k18}te{\k19}i{\k34}hen {\k34}da {\k17}te{\k18}i{\k34}hen {\k34}da {\k17}wa{\k12}wa{\k23}wa{\k32}wa
+Comment: 0,0:00:47.34,0:00:48.87,Default,,0,0,0,karaoke,{\k34}LET’S {\k35}GO! {\k17}E{\k18}VERY{\k17}BO{\k32}DY
+Comment: 0,0:00:49.40,0:00:52.81,Default,,0,0,0,karaoke,{\k18}ni{\k17}ji {\k14}no {\k20}yo{\k34}u {\k51}ni {\k34}D{\k36}RA{\k12}MA{\k22}T{\k16}I{\k35}C {\k32}ni
+Comment: 0,0:00:52.81,0:00:55.60,Default,,0,0,0,karaoke,{\k36}PRINCE{\k51}LESS {\k36}ko{\k34}ma{\k17}t{\k17}ta {\k16}e{\k35}ga{\k37}o
+Comment: 0,0:00:55.92,0:01:01.05,Default,,0,0,0,karaoke,{\k34}O{\k34}C{\k35}TO{\k30}PU{\k41}S {\k31}ni {\k31}KIS{\k38}S {\k34}ma{\k19}mi{\k31}re {\k50}dai {\k38}sou{\k31}do{\k36}u
+Comment: 0,0:00:59.73,0:01:01.05,Italic,,0,0,0,karaoke,{\kf97}OH {\k35}YEAH
+Comment: 0,0:01:01.05,0:01:03.79,Default,,0,0,0,karaoke,{\k36}na{\k51}mi{\k33}u{\k34}chi{\k14}gi{\k22}wa {\k17}no {\k33}MER{\k34}MAID
+Comment: 0,0:01:03.79,0:01:06.60,Default,,0,0,0,karaoke,{\k36}DAR{\k52}LING {\k33}o{\k36}bo{\k16}re{\k17}ta {\k17}ryuu{\k35}guu{\k39}jou
+Comment: 0,0:01:06.88,0:01:09.32,Default,,0,0,0,karaoke,{\k35}ta{\k34}ma{\k35}te{\k34}ba{\k34}ko {\k35}ni {\k37}wa
+Comment: 0,0:01:09.61,0:01:12.00,Default,,0,0,0,karaoke,{\k37}gen{\k34}dai {\k34}wa {\k34}A{\k33}L{\k36}COHO{\k31}L
+Comment: 0,0:01:12.00,0:01:14.73,Default,,0,0,0,karaoke,{\k38}se{\k47}i{\k38}shun {\k36}ji{\k16}da{\k17}i {\k16}no {\k31}LI{\k34}CENSE
+Comment: 0,0:01:14.73,0:01:17.55,Default,,0,0,0,karaoke,{\k39}TRE{\k51}A{\k35}SURE {\k34}mi{\k16}tsu{\k19}ke{\k16}te {\k34}CHECK{\k38}MATE
+Comment: 0,0:01:17.85,0:01:23.00,Default,,0,0,0,karaoke,{\k33}o{\k37}yo{\k34}gi {\k33}tsu{\k36}ka{\k34}re{\k38}te {\k30}{\k33}ne{\k36}su{\k32}go{\k34}su {\k34}AN{\k40}GE{\k31}L
+Comment: 0,0:01:23.00,0:01:25.55,Default,,0,0,0,karaoke,{\k34}LET’S {\k34}GO! {\k19}E{\k16}VERY{\k18}BO{\k17}DY {\k17}VI{\k16}VA {\k36}kan{\k48}pai
+Comment: 0,0:01:25.75,0:01:27.13,Italic,,0,0,0,karaoke,{\kf101}OH {\k37}YEAH
+Comment: 0,0:01:27.13,0:01:28.37,Default,,0,0,0,karaoke,{\k16}VI{\k17}VA {\k35}kan{\k56}pai
+Dialogue: 0,0:00:00.00,0:00:02.45,Default,,0,0,0,fx,{\k72\fad(720,200)}{\k34}nya {\k17}nya {\k17}nya {\k17}nya {\k18}nya {\k17}nya {\k33}nya
+Dialogue: 0,0:00:01.35,0:00:03.66,Italic,,0,0,0,fx,{\k90\fad(300,200)}{\k35}AH {\k35}AH {\k51}AH
+Dialogue: 0,0:00:02.56,0:00:05.12,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k34}nya {\k17}nya {\k18}nya {\k16}nya {\k18}nya {\k18}nya {\k25}nya
+Dialogue: 0,0:00:03.90,0:00:06.43,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}THREE, {\k36}TWO, {\k34}ONE, {\k38}GO!
+Dialogue: 0,0:00:06.83,0:00:09.19,Italic,,0,0,0,fx,{\k90\fad(300,200)}{\k31}AH {\k39}AH {\k56}AH
+Dialogue: 0,0:00:09.57,0:00:11.92,Italic,,0,0,0,fx,{\k90\fad(300,200)}{\k32}AH {\k38}AH {\k55}AH
+Dialogue: 0,0:00:12.31,0:00:14.64,Italic,,0,0,0,fx,{\k90\fad(300,200)}{\k32}AH {\k38}AH {\k53}AH
+Dialogue: 0,0:00:15.06,0:00:18.80,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k33}a{\k36}wai {\k18}ko{\k17}i {\k18}no {\k34}mo{\k35}no{\k17}ga{\k34}ta{\k22}ri!?
+Dialogue: 0,0:00:17.82,0:00:21.58,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ka{\k29}ga{\k23}mi {\k18}ni {\k18}u{\k17}tsu{\k16}ru {\k17}A{\k18}SY{\k16}ME{\k35}T{\k26}RY
+Dialogue: 0,0:00:20.57,0:00:23.20,Italic,,0,0,0,fx,{\k90\fad(300,200)}{\k16}sha{\k18}ri {\k16}sha{\k18}ri {\k34}na {\k51}HEART
+Dialogue: 0,0:00:22.10,0:00:25.06,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}OH {\k30}OH {\k24}{\k14}chi{\k18}do{\k16}ri{\k17}a{\k32}shi
+Dialogue: 0,0:00:24.85,0:00:28.33,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k34}OH {\k29}OH {\k22}{\k15}se{\k16}ki{\k21}zu{\k15}i {\k50}han{\k36}sha
+Dialogue: 0,0:00:27.23,0:00:31.17,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf103}shin{\k34}sou {\kf104}shin{\k18}ri {\k25}ni
+Dialogue: 0,0:00:30.33,0:00:33.99,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k36}DI{\k33}VING {\k16}{\k19}ko{\k17}ro{\k16}ga{\k18}ri {\k35}o{\k16}chi{\k17}te{\k33}ru
+Dialogue: 0,0:00:32.89,0:00:36.58,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}gen{\k35}kai {\k34}top{\k35}pa {\k17}no {\k17}PA{\k17}RA{\k32}DI{\k37}SE
+Dialogue: 0,0:00:35.48,0:00:39.13,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}VI{\k16}VA {\k35}kan{\k43}pai {\k26}{\k17}mi{\k16}na {\k35}kan{\k50}pai
+Dialogue: 0,0:00:38.18,0:00:42.06,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}te{\k15}i{\k36}hen {\k33}da {\k19}te{\k17}i{\k34}hen {\k33}da {\k20}tai{\k16}hen {\k34}da
+Dialogue: 0,0:00:40.96,0:00:44.78,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}te{\k14}i{\k37}hen {\k34}da {\k18}te{\k15}i{\k36}hen {\k34}da {\k17}wa{\k17}wa{\k32}wa
+Dialogue: 0,0:00:43.68,0:00:47.70,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}te{\k19}i{\k34}hen {\k34}da {\k17}te{\k18}i{\k34}hen {\k34}da {\k17}wa{\k12}wa{\k23}wa{\k32}wa
+Dialogue: 0,0:00:46.44,0:00:49.07,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k34}LET’S {\k35}GO! {\k17}E{\k18}VERY{\k17}BO{\k32}DY
+Dialogue: 0,0:00:48.50,0:00:53.01,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ni{\k17}ji {\k14}no {\k20}yo{\k34}u {\k51}ni {\k34}D{\k36}RA{\k12}MA{\k22}T{\k16}I{\k35}C {\k32}ni
+Dialogue: 0,0:00:51.91,0:00:55.80,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k36}PRINCE{\k51}LESS {\k36}ko{\k34}ma{\k17}t{\k17}ta {\k16}e{\k35}ga{\k37}o
+Dialogue: 0,0:00:55.02,0:01:01.25,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k34}O{\k34}C{\k35}TO{\k30}PU{\k41}S {\k31}ni {\k31}KIS{\k38}S {\k34}ma{\k19}mi{\k31}re {\k50}dai {\k38}sou{\k31}do{\k36}u
+Dialogue: 0,0:00:58.83,0:01:01.25,Italic,,0,0,0,fx,{\k90\fad(300,200)}{\kf97}OH {\k35}YEAH
+Dialogue: 0,0:01:00.15,0:01:03.99,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k36}na{\k51}mi{\k33}u{\k34}chi{\k14}gi{\k22}wa {\k17}no {\k33}MER{\k34}MAID
+Dialogue: 0,0:01:02.89,0:01:06.80,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k36}DAR{\k52}LING {\k33}o{\k36}bo{\k16}re{\k17}ta {\k17}ryuu{\k35}guu{\k39}jou
+Dialogue: 0,0:01:05.98,0:01:09.52,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ta{\k34}ma{\k35}te{\k34}ba{\k34}ko {\k35}ni {\k37}wa
+Dialogue: 0,0:01:08.71,0:01:12.20,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k37}gen{\k34}dai {\k34}wa {\k34}A{\k33}L{\k36}COHO{\k31}L
+Dialogue: 0,0:01:11.10,0:01:14.93,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k38}se{\k47}i{\k38}shun {\k36}ji{\k16}da{\k17}i {\k16}no {\k31}LI{\k34}CENSE
+Dialogue: 0,0:01:13.83,0:01:17.75,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k39}TRE{\k51}A{\k35}SURE {\k34}mi{\k16}tsu{\k19}ke{\k16}te {\k34}CHECK{\k38}MATE
+Dialogue: 0,0:01:16.95,0:01:23.20,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k33}o{\k37}yo{\k34}gi {\k33}tsu{\k36}ka{\k34}re{\k38}te {\k30}{\k33}ne{\k36}su{\k32}go{\k34}su {\k34}AN{\k40}GE{\k31}L
+Dialogue: 0,0:01:22.10,0:01:25.75,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k34}LET’S {\k34}GO! {\k19}E{\k16}VERY{\k18}BO{\k17}DY {\k17}VI{\k16}VA {\k36}kan{\k48}pai
+Dialogue: 0,0:01:24.85,0:01:27.33,Italic,,0,0,0,fx,{\k90\fad(300,200)}{\kf101}OH {\k37}YEAH
+Dialogue: 0,0:01:26.23,0:01:28.57,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k16}VI{\k17}VA {\k35}kan{\k56}pai
