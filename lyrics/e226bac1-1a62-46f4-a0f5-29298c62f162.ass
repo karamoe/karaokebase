@@ -1,0 +1,154 @@
+﻿[Script Info]
+Title: ●utlaws
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: Uwhipa
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Shirakami,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Kurokami,Arial,24,&H00FFFFFF,&H00FFAB00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: White Burinyan,Arial,24,&H00FFFFFF,&H0000CB10,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: All,Arial,24,&H00FFFFFF,&H00FF00F8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Kuro & Burinyan Choir,Arial,24,&H00FFFFFF,&H00FF00F8,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: All Alternance,Arial,24,&H00FFFFFF,&H00FF00F8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Shirakami & Kurokami,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:02.03,0:00:04.74,Kuro & Burinyan Choir,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♦ ♥ "!
+Comment: 0,0:00:02.03,0:00:04.74,White Burinyan,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♥ "!
+Comment: 0,0:00:02.03,0:00:04.74,Shirakami,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♠ "!
+Comment: 0,0:00:02.03,0:00:04.74,Kurokami,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♦ "!
+Comment: 0,0:00:02.03,0:00:04.74,Shirakami & Kurokami,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♠ ♦ "!
+Comment: 0,0:00:02.03,0:00:04.74,All Alternance,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♣ ♦ ♥ "!
+Comment: 0,0:00:02.03,0:00:04.74,All,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:04.74,Kurokami,,0,0,200,legend,{\k1500}{\k0}{\2cHFFFFFF}♠ {\rShirakami}Shirakami{\r}   {\2cHFFFFFF}♦ {\rKurokami}Kurokami{\r}\N{\2cHFFFFFF}♥ {\rWhite Burinyan}White Burinyan{\r}   {\2cHFFFFFF}{\rAll}Groups{\r}
+Comment: 0,0:00:02.03,0:00:04.74,Kurokami,,0,0,0,karaoke,{\k10}o{\k11}re {\k62}wa, {\k14}shi{\k14}ra{\k66}nai, {\k13}na{\k10}ni {\k22}mo, {\k9}shi{\k13}ra{\k27}nai
+Comment: 0,0:00:05.58,0:00:08.29,White Burinyan,,0,0,0,karaoke,{\k13}na{\k10}ni {\k65}mo, {\k12}mi{\k10}te{\k68}nai, {\k11}da{\k10}re {\k23}mo, {\k12}mi{\k10}te{\k27}nai
+Comment: 0,0:00:09.14,0:00:11.82,Shirakami,,0,0,0,karaoke,{\k12}so{\k10}ra {\k65}wo, {\k12}mi{\k13}te {\k66}mo, {\k13}mi{\k8}e{\k23}nai, {\k11}yo{\k12}ru {\k23}no
+Comment: 0,0:00:12.69,0:00:14.92,Shirakami,,0,0,0,karaoke,{\k11}ka{\k11}ke{\k67}ta, {\k11}tsu{\k13}ki {\k65}ni, {\k9}u{\k13}sa{\k23}gi
+Comment: 0,0:00:16.25,0:00:18.91,Kurokami,,0,0,0,karaoke,{\k10}ko{\k13}re {\k64}wa, {\k23}nan{\k67}da, {\k11}so{\k11}re {\k22}ga, {\k11}na{\k11}ni{\k23}ka?
+Comment: 0,0:00:19.76,0:00:22.47,White Burinyan,,0,0,0,karaoke,{\k13}ko{\k11}ko {\k67}wa, {\k13}ta{\k12}no{\k65}shi, {\k12}so{\k11}re {\k22}de, {\k10}yo{\k12}ro{\k23}shi
+Comment: 0,0:00:23.34,0:00:26.02,Shirakami,,0,0,0,karaoke,{\k14}ha{\k9}shi{\k67}ru, {\k11}ni{\k13}ge{\k65}ru, {\k11}ni{\k11}ga{\k22}su, {\k11}so{\k12}ra{\k22}su
+Comment: 0,0:00:26.91,0:00:29.11,Shirakami,,0,0,0,karaoke,{\k10}tsu{\k12}ki {\k67}no, {\k10}ka{\k12}ke{\k66}ta, {\k11}ba{\k12}sho {\k20}he
+Comment: 0,0:00:30.45,0:00:35.58,All,,0,0,0,karaoke,{\k12}a{\k11}ra{\k68}ra, {\k10}a{\k12}ra{\k65}ra, {\k15}a{\k8}ra{\k67}ra, {\k11}a{\k11}ra{\k67}ra, {\k13}a{\k10}ra{\kf133}ra
+Comment: 0,0:00:37.57,0:00:42.75,All,,0,0,0,karaoke,{\k12}a{\k11}ra{\k68}ra, {\k10}a{\k12}ra{\k65}ra, {\k12}a{\k11}ra{\k67}ra, {\k11}a{\k11}ra{\k67}ra, {\k13}a{\k9}ra{\kf139}ra
+Comment: 0,0:00:44.45,0:00:47.02,White Burinyan,,0,0,0,karaoke,{\k46}mou{\k66}sou {\k23}to{\k34}me{\k33}do{\k22}na{\k33}ku
+Comment: 0,0:00:48.02,0:00:50.65,Shirakami,,0,0,0,karaoke,{\k45}sou{\k66}zou {\k22}to{\k34}ga{\k34}me{\k21}na{\k41}ku
+Comment: 0,0:00:51.57,0:00:54.12,Kurokami,,0,0,0,karaoke,{\k45}shou{\k67}dou {\k22}o{\k34}sa{\k34}ma{\k21}ra{\k32}zu
+Comment: 0,0:00:55.00,0:00:58.35,All Alternance,,0,0,0,karaoke,{\rShirakami}{\k36}na{\k22}ze{\k26}ka, {\rKurokami}{\k9}na{\k10}ze{\k21}ka, {\rWhite Burinyan}{\k13}na{\k10}ze{\k24}ka, {\rAll}{\k8}na{\k13}ze{\k22}ka{\k22}shi{\k99}ra?
+Comment: 0,0:00:58.69,0:00:59.38,Shirakami,,0,0,0,karaoke,{\k21}sai{\k11}a{\k12}ku {\k25}da!
+Comment: 0,0:00:59.57,0:01:02.02,Shirakami,,0,0,0,karaoke,{\k34}kou{\k11}jo{\k22}ryou{\k22}zo{\k22}ku {\k19}wo {\k26}hai{\k12}de {\k21}nui{\k11}de {\k12}o{\k11}do{\k22}re!
+Comment: 0,0:01:01.99,0:01:03.02,White Burinyan,,0,0,80,karaoke,{\k24}iya {\k24}sai{\k22}tei {\k33}ka!
+Comment: 0,0:01:03.13,0:01:05.72,White Burinyan,,0,0,0,karaoke,{\k33}nan{\k11}de {\k23}nan{\k21}de {\k23}tsut{\k21}te, {\k23}nan{\k12}ka {\k24}nan{\k9}ka {\k11}ta{\k11}ka{\k23}nat{\k14}te
+Comment: 0,0:01:05.79,0:01:06.46,Kurokami,,0,0,80,karaoke,{\k22}sai{\k12}a{\k11}ku {\k22}da!
+Comment: 0,0:01:06.68,0:01:09.10,Kurokami,,0,0,0,karaoke,{\k32}sou {\k12}mo {\k23}kou {\k12}mo {\k11}shi{\k22}nee {\k21}yo {\k23}kat{\k12}te {\k22}ni {\k10}shi{\k12}ya{\k10}ga{\k20}re
+Comment: 0,0:01:09.12,0:01:10.12,All,,0,0,0,karaoke,{\k22}iya {\k23}sai{\k22}tei {\k33}ka!
+Comment: 0,0:01:10.24,0:01:12.68,Shirakami,,0,0,0,karaoke,{\k34}iyaa {\k10}mou {\k23}hon{\k22}to, {\k22}sai{\k12}a{\k11}ku {\k22}da, {\k22}da, {\k22}da, {\k23}da, {\k21}da!
+Comment: 0,0:01:12.68,0:01:13.38,Kuro & Burinyan Choir,,0,0,0,karaoke,{\k22}o, {\k48}ou
+Comment: 0,0:01:13.58,0:01:16.28,Shirakami,,0,0,0,karaoke,{\k22}ne{\k22}te {\k22}mo {\k22}sa{\k22}me{\k22}te {\k22}mo {\k23}tsu{\k22}ki{\k23}ma{\k22}to{\k26}u
+Comment: 0,0:01:17.13,0:01:19.85,Shirakami,,0,0,0,karaoke,{\k22}mi{\k22}e{\k23}nu {\k22}i{\k22}shi{\k22}ki {\k23}no {\k22}u{\k22}ra{\k22}ga{\k22}wa {\k28}ni
+Comment: 0,0:01:20.68,0:01:23.38,Shirakami,,0,0,0,karaoke,{\k23}o{\k22}o{\k22}ki{\k23}ku {\k22}a{\k22}i{\k22}ta {\k23}ku{\k22}ro{\k22}i {\k22}a{\k25}na
+Comment: 0,0:01:23.58,0:01:26.12,All Alternance,,0,0,0,karaoke,{\rKurokami}{\k22}wa{\k22}ka{\k44}ru, {\rWhite Burinyan}{\k22}wa{\k23}ka{\k44}ru, {\rShirakami}{\k22}wa{\k23}ka{\k32}ru
+Comment: 0,0:01:27.35,0:01:30.02,All Alternance,,0,0,0,karaoke,{\rShirakami}{\k11}yu{\k13}ru{\k65}su, {\k11}{\rKurokami}yu{\k14}ru{\k64}sen,{\rShirakami} {\k9}yu{\k13}ru{\k20}su, {\k10}{\rWhite Burinyan}yu{\k15}ru{\k22}se
+Comment: 0,0:01:30.86,0:01:33.62,All Alternance,,0,0,0,karaoke,{\rShirakami}{\k16}ka{\k11}wa{\k65}ii, {\rWhite Burinyan}{\k10}e{\k13}he{\k60}he, {\rKurokami}{\k16}mu{\k13}fu{\k17}fu, {\rShirakami}{\k18}ko{\k11}wa{\k26}i
+Comment: 0,0:01:34.47,0:01:37.08,Shirakami & Kurokami,,0,0,0,karaoke,{\k22}rin{\k66}go, {\k11}go{\k11}ri{\k62}ra, {\rKurokami}{\k16}ra{\k11}ku{\k22}go, {\k14}go{\k9}ji{\k17}ra
+Comment: 0,0:01:38.01,0:01:40.32,All Alternance,,0,0,0,karaoke,{\rWhite Burinyan}{\k15}ra{\k9}ku{\k64}da, {\k12}da{\k12}bo{\k66}ra, {\rAll}{\k12}ra{\k12}ma{\k29}dan
+Comment: 0,0:01:56.01,0:01:58.52,Shirakami,,0,0,0,karaoke,{\k18}wa{\k11}ta{\k9}shi {\k14}ta{\k54}chi, {\k38}zet{\k27}tai {\k17}ni {\k14}mi{\k18}tе{\k12}ma{\k19}sen!
+Comment: 0,0:01:59.05,0:02:02.44,Shirakami,,0,0,0,karaoke,{\k21}it{\k12}te{\k15}ma{\k38}sen! {\k12}ki{\k13}i{\k8}tе{\k15}ma{\k52}sen! {\k28}shit{\k16}ta {\k30}koc{\k16}cha {\k21}a{\k10}ri{\k12}ma{\k20}sen!
+Comment: 0,0:02:02.94,0:02:05.75,Shirakami,,0,0,0,karaoke,{\k14}hi{\k21}ka{\k8}ri {\k14}wo {\k27}is{\k63}shi! {\k34}ka{\k24}ge {\k14}ni {\k22}hi{\k11}to{\k10}tsu{\k19}ki!
+Comment: 0,0:02:06.15,0:02:09.05,Shirakami,,0,0,0,karaoke,{\k11}yu{\k14}ru{\k10}sa{\k14}re{\k9}za{\k16}ru {\k11}shi{\k27}kou {\k44}wo! {\k10}a{\k10}te{\k12}ha{\k13}ma{\k14}ra{\k23}nai {\k11}i{\k20}jou {\k21}wo!
+Comment: 0,0:02:09.40,0:02:11.52,Shirakami,,0,0,0,karaoke,{\k17}tsu{\k22}tsun{\k12}de {\k13}i{\k8}ki{\k13}te {\k10}i{\k20}kou {\k13}ja {\k8}a{\k6}ri{\k16}ma{\k23}sen{\k31}ka!
+Comment: 0,0:02:11.55,0:02:14.18,Shirakami,,0,0,0,karaoke,{\k47}kou{\k68}dou, {\k22}na {\k32}mo {\k33}mo{\k23}ta{\k38}zu
+Comment: 0,0:02:15.10,0:02:17.62,Kurokami,,0,0,0,karaoke,{\k47}kyou{\k68}sou, {\k21}i{\k35}mi {\k32}mo {\k21}na{\k28}ku
+Comment: 0,0:02:18.69,0:02:21.32,White Burinyan,,0,0,0,karaoke,{\k44}ei{\k67}gou, {\k21}ji{\k35}ko {\k33}man{\k22}zo{\k41}ku
+Comment: 0,0:02:22.03,0:02:25.85,All Alternance,,0,0,0,karaoke,{\rShirakami}{\k42}da{\k24}ka{\k23}ra, {\rKurokami}{\k12}da{\k9}ka{\k23}ra, {\rWhite Burinyan}{\k15}da{\k9}ka{\k20}ra, {\rAll}{\k14}da{\k10}ka{\k18}ra {\k25}ka{\kf138}na?
+Comment: 0,0:02:27.15,0:02:28.28,Shirakami,,0,0,0,karaoke,{\k42}sai{\k44}kou {\k27}da!
+Comment: 0,0:02:28.46,0:02:30.95,Shirakami,,0,0,0,karaoke,{\k34}nou {\k11}ga {\k22}kou{\k14}ka {\k8}shi{\k23}ten{\k22}da, {\k22}buk{\k12}ko{\k15}wa{\k7}shi{\k10}te {\k12}sa{\k10}ke{\k27}be!
+Comment: 0,0:02:30.95,0:02:31.85,White Burinyan,,0,0,80,karaoke,{\k17}iya {\k24}sai{\k21}kou {\k28}ka!?
+Comment: 0,0:02:32.02,0:02:34.65,White Burinyan,,0,0,0,karaoke,{\k33}nan{\k12}de {\k22}nan{\k22}de {\k22}tsut{\k22}te, {\k23}bak{\k11}ko {\k21}bak{\k11}ko {\k12}ha{\k11}ne{\k22}chat{\k19}te
+Comment: 0,0:02:34.67,0:02:35.42,Kurokami,,0,0,80,karaoke,{\k24}sai{\k22}kou {\k29}da!
+Comment: 0,0:02:35.47,0:02:37.99,Kurokami,,0,0,0,karaoke,{\k10}gu{\k33}kou {\k12}ki{\k22}kou {\k22}de {\k22}kek{\k23}kou, {\k22}kat{\k11}te {\k23}ni {\k10}i{\k11}ki{\k12}ta{\k19}re
+Comment: 0,0:02:37.99,0:02:38.98,All,,0,0,0,karaoke,{\k24}iya {\k22}sai{\k22}kou {\k31}ka!
+Comment: 0,0:02:39.12,0:02:41.68,Shirakami,,0,0,0,karaoke,{\k36}iyaa {\k10}mou {\k21}hon{\k23}to, {\k23}sai{\k22}kou {\k22}da, {\k24}da, {\k20}da, {\k23}da, {\k32}da!
+Comment: 0,0:02:41.56,0:02:42.27,Kuro & Burinyan Choir,,0,0,0,karaoke,{\k23}ies{\k48}saa
+Comment: 0,0:02:42.46,0:02:45.22,Shirakami,,0,0,0,karaoke,{\k23}mu{\k22}ka{\k22}shi{\k22}mu{\k23}ka{\k22}shi {\k22}no {\k22}o{\k23}mo{\k22}i{\k21}tsu{\k32}ki
+Comment: 0,0:02:46.02,0:02:48.73,Shirakami,,0,0,0,karaoke,{\k22}mu{\k23}i{\k21}gi {\k22}mu{\k23}i{\k22}mi {\k22}no {\k23}hi{\k21}to{\k23}da{\k24}ka{\k25}ri
+Comment: 0,0:02:49.54,0:02:52.22,Shirakami,,0,0,0,karaoke,{\k25}mu{\k23}ja{\k21}ki {\k23}mu{\k22}te{\k23}ki {\k21}no {\k24}u{\k22}ma{\k18}re{\k24}tsu{\k22}ki
+Comment: 0,0:02:52.45,0:02:55.03,All Alternance,,0,0,0,karaoke,{\rKurokami}{\k23}so{\k23}re {\k45}ga, {\rWhite Burinyan}{\k21}so{\k23}re {\k43}ga, {\rShirakami}{\k23}so{\k23}re {\k34}ga
+Comment: 0,0:02:56.28,0:02:59.58,All,,0,0,0,karaoke,{\k20}mu{\k71}se{\k17}ki{\k88}nin {\k45}shuu{\k44}gou{\k45}tai
+Comment: 0,0:03:00.01,0:03:03.08,All,,0,0,0,karaoke,{\k45}an{\k26}ta {\k19}mo {\k29}wa{\k16}ta{\k28}shi {\k17}mo {\k42}kan{\k46}kei{\k39}nai
+Comment: 0,0:03:03.44,0:03:06.68,All,,0,0,0,karaoke,{\k14}mu{\k74}se{\k15}ki{\k89}nin {\k44}shuu{\k44}gou{\k44}tai
+Comment: 0,0:03:07.11,0:03:10.28,All,,0,0,0,karaoke,{\k32}ta{\k16}no{\k28}shi{\k17}ku {\k43}yat{\k29}te{\k15}rya {\k45}mou{\k44}man{\k48}tai
+Comment: 0,0:03:10.68,0:03:12.25,Shirakami,,0,0,0,karaoke,{\k24}kat{\k10}te {\k11}ni {\k23}yat{\k13}te{\k8}rya {\k23}mon{\k22}dai {\k23}nashi
+Comment: 0,0:03:12.25,0:03:14.95,Kurokami,,0,0,0,karaoke,{\k10}o{\k11}re {\k63}wa, {\k13}shi{\k14}ra{\k65}nai, {\k13}na{\k9}ni {\k24}mo, {\k9}shi{\k13}ra{\k26}nai
+Comment: 0,0:03:15.83,0:03:18.44,White Burinyan,,0,0,0,karaoke,{\k11}na{\k9}ni {\k66}mo, {\k11}mi{\k12}te{\k66}nai, {\k10}da{\k12}re {\k22}mo, {\k11}mi{\k12}te{\k19}nai
+Comment: 0,0:03:19.31,0:03:21.98,Shirakami,,0,0,0,karaoke,{\k11}ki{\k16}o{\k68}ku, {\k10}chi{\k15}ga{\k63}i, {\k11}yu{\k11}me {\k21}no, {\k10}ha{\k13}na{\k18}shi
+Comment: 0,0:03:22.92,0:03:25.18,Shirakami,,0,0,0,karaoke,{\k22}sou {\k66}iu, {\k12}ko{\k10}to {\k67}de, {\k10}so{\k14}re {\k25}ja
+Dialogue: 0,0:00:01.13,0:00:04.94,Kurokami,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k10}o{\k11}re {\k62}wa, {\k14}shi{\k14}ra{\k66}nai, {\k13}na{\k10}ni {\k22}mo, {\k9}shi{\k13}ra{\k27}nai
+Dialogue: 0,0:00:04.68,0:00:08.49,White Burinyan,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k13}na{\k10}ni {\k65}mo, {\k12}mi{\k10}te{\k68}nai, {\k11}da{\k10}re {\k23}mo, {\k12}mi{\k10}te{\k27}nai
+Dialogue: 0,0:00:08.24,0:00:12.02,Shirakami,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k12}so{\k10}ra {\k65}wo, {\k12}mi{\k13}te {\k66}mo, {\k13}mi{\k8}e{\k23}nai, {\k11}yo{\k12}ru {\k23}no
+Dialogue: 0,0:00:11.79,0:00:15.12,Shirakami,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k11}ka{\k11}ke{\k67}ta, {\k11}tsu{\k13}ki {\k65}ni, {\k9}u{\k13}sa{\k23}gi
+Dialogue: 0,0:00:15.35,0:00:19.11,Kurokami,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k10}ko{\k13}re {\k64}wa, {\k23}nan{\k67}da, {\k11}so{\k11}re {\k22}ga, {\k11}na{\k11}ni{\k23}ka?
+Dialogue: 0,0:00:18.86,0:00:22.67,White Burinyan,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k13}ko{\k11}ko {\k67}wa, {\k13}ta{\k12}no{\k65}shi, {\k12}so{\k11}re {\k22}de, {\k10}yo{\k12}ro{\k23}shi
+Dialogue: 0,0:00:22.44,0:00:26.22,Shirakami,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k14}ha{\k9}shi{\k67}ru, {\k11}ni{\k13}ge{\k65}ru, {\k11}ni{\k11}ga{\k22}su, {\k11}so{\k12}ra{\k22}su
+Dialogue: 0,0:00:26.01,0:00:29.31,Shirakami,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k10}tsu{\k12}ki {\k67}no, {\k10}ka{\k12}ke{\k66}ta, {\k11}ba{\k12}sho {\k20}he
+Dialogue: 0,0:00:29.55,0:00:35.78,All,,0,0,0,fx,{\k90\fad(300,200)}{\k12}a{\k11}ra{\k68}ra, {\k10}a{\k12}ra{\k65}ra, {\k15}a{\k8}ra{\k67}ra, {\k11}a{\k11}ra{\k67}ra, {\k13}a{\k10}ra{\kf133}ra
+Dialogue: 0,0:00:36.67,0:00:42.95,All,,0,0,0,fx,{\k90\fad(300,200)}{\k12}a{\k11}ra{\k68}ra, {\k10}a{\k12}ra{\k65}ra, {\k12}a{\k11}ra{\k67}ra, {\k11}a{\k11}ra{\k67}ra, {\k13}a{\k9}ra{\kf139}ra
+Dialogue: 0,0:00:43.55,0:00:47.22,White Burinyan,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k46}mou{\k66}sou {\k23}to{\k34}me{\k33}do{\k22}na{\k33}ku
+Dialogue: 0,0:00:47.12,0:00:50.85,Shirakami,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k45}sou{\k66}zou {\k22}to{\k34}ga{\k34}me{\k21}na{\k41}ku
+Dialogue: 0,0:00:50.67,0:00:54.32,Kurokami,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k45}shou{\k67}dou {\k22}o{\k34}sa{\k34}ma{\k21}ra{\k32}zu
+Dialogue: 0,0:00:54.10,0:00:58.55,All Alternance,,0,0,0,fx,{\k90\fad(300,200)}♣ ♦ ♥ {\rShirakami}{\k36}na{\k22}ze{\k26}ka, {\rKurokami}{\k9}na{\k10}ze{\k21}ka, {\rWhite Burinyan}{\k13}na{\k10}ze{\k24}ka, {\rAll}{\k8}na{\k13}ze{\k22}ka{\k22}shi{\k99}ra?
+Dialogue: 0,0:00:57.79,0:00:59.58,Shirakami,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k21}sai{\k11}a{\k12}ku {\k25}da!
+Dialogue: 0,0:00:58.67,0:01:02.22,Shirakami,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k34}kou{\k11}jo{\k22}ryou{\k22}zo{\k22}ku {\k19}wo {\k26}hai{\k12}de {\k21}nui{\k11}de {\k12}o{\k11}do{\k22}re!
+Dialogue: 0,0:01:01.09,0:01:03.22,White Burinyan,,0,0,80,fx,{\k90\fad(300,200)}♥ {\k24}iya {\k24}sai{\k22}tei {\k33}ka!
+Dialogue: 0,0:01:02.23,0:01:05.92,White Burinyan,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k33}nan{\k11}de {\k23}nan{\k21}de {\k23}tsut{\k21}te, {\k23}nan{\k12}ka {\k24}nan{\k9}ka {\k11}ta{\k11}ka{\k23}nat{\k14}te
+Dialogue: 0,0:01:04.89,0:01:06.66,Kurokami,,0,0,80,fx,{\k90\fad(300,200)}♦ {\k22}sai{\k12}a{\k11}ku {\k22}da!
+Dialogue: 0,0:01:05.78,0:01:09.30,Kurokami,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k32}sou {\k12}mo {\k23}kou {\k12}mo {\k11}shi{\k22}nee {\k21}yo {\k23}kat{\k12}te {\k22}ni {\k10}shi{\k12}ya{\k10}ga{\k20}re
+Dialogue: 0,0:01:08.22,0:01:10.32,All,,0,0,0,fx,{\k90\fad(300,200)}{\k22}iya {\k23}sai{\k22}tei {\k33}ka!
+Dialogue: 0,0:01:09.34,0:01:12.88,Shirakami,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k34}iyaa {\k10}mou {\k23}hon{\k22}to, {\k22}sai{\k12}a{\k11}ku {\k22}da, {\k22}da, {\k22}da, {\k23}da, {\k21}da!
+Dialogue: 0,0:01:11.78,0:01:13.58,Kuro & Burinyan Choir,,0,0,0,fx,{\k90\fad(300,200)}♦ ♥ {\k22}o, {\k48}ou
+Dialogue: 0,0:01:12.68,0:01:16.48,Shirakami,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k22}ne{\k22}te {\k22}mo {\k22}sa{\k22}me{\k22}te {\k22}mo {\k23}tsu{\k22}ki{\k23}ma{\k22}to{\k26}u
+Dialogue: 0,0:01:16.23,0:01:20.05,Shirakami,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k22}mi{\k22}e{\k23}nu {\k22}i{\k22}shi{\k22}ki {\k23}no {\k22}u{\k22}ra{\k22}ga{\k22}wa {\k28}ni
+Dialogue: 0,0:01:19.78,0:01:23.58,Shirakami,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k23}o{\k22}o{\k22}ki{\k23}ku {\k22}a{\k22}i{\k22}ta {\k23}ku{\k22}ro{\k22}i {\k22}a{\k25}na
+Dialogue: 0,0:01:22.68,0:01:26.32,All Alternance,,0,0,0,fx,{\k90\fad(300,200)}♣ ♦ ♥ {\rKurokami}{\k22}wa{\k22}ka{\k44}ru, {\rWhite Burinyan}{\k22}wa{\k23}ka{\k44}ru, {\rShirakami}{\k22}wa{\k23}ka{\k32}ru
+Dialogue: 0,0:01:26.45,0:01:30.22,All Alternance,,0,0,0,fx,{\k90\fad(300,200)}♣ ♦ ♥ {\rShirakami}{\k11}yu{\k13}ru{\k65}su, {\k11}{\rKurokami}yu{\k14}ru{\k64}sen,{\rShirakami} {\k9}yu{\k13}ru{\k20}su, {\k10}{\rWhite Burinyan}yu{\k15}ru{\k22}se
+Dialogue: 0,0:01:29.96,0:01:33.82,All Alternance,,0,0,0,fx,{\k90\fad(300,200)}♣ ♦ ♥ {\rShirakami}{\k16}ka{\k11}wa{\k65}ii, {\rWhite Burinyan}{\k10}e{\k13}he{\k60}he, {\rKurokami}{\k16}mu{\k13}fu{\k17}fu, {\rShirakami}{\k18}ko{\k11}wa{\k26}i
+Dialogue: 0,0:01:33.57,0:01:37.28,Shirakami & Kurokami,,0,0,0,fx,{\k90\fad(300,200)}♠ ♦ {\k22}rin{\k66}go, {\k11}go{\k11}ri{\k62}ra, {\rKurokami}{\k16}ra{\k11}ku{\k22}go, {\k14}go{\k9}ji{\k17}ra
+Dialogue: 0,0:01:37.11,0:01:40.52,All Alternance,,0,0,0,fx,{\k90\fad(300,200)}♣ ♦ ♥ {\rWhite Burinyan}{\k15}ra{\k9}ku{\k64}da, {\k12}da{\k12}bo{\k66}ra, {\rAll}{\k12}ra{\k12}ma{\k29}dan
+Dialogue: 0,0:01:55.11,0:01:58.72,Shirakami,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k18}wa{\k11}ta{\k9}shi {\k14}ta{\k54}chi, {\k38}zet{\k27}tai {\k17}ni {\k14}mi{\k18}tе{\k12}ma{\k19}sen!
+Dialogue: 0,0:01:58.15,0:02:02.64,Shirakami,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k21}it{\k12}te{\k15}ma{\k38}sen! {\k12}ki{\k13}i{\k8}tе{\k15}ma{\k52}sen! {\k28}shit{\k16}ta {\k30}koc{\k16}cha {\k21}a{\k10}ri{\k12}ma{\k20}sen!
+Dialogue: 0,0:02:02.04,0:02:05.95,Shirakami,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k14}hi{\k21}ka{\k8}ri {\k14}wo {\k27}is{\k63}shi! {\k34}ka{\k24}ge {\k14}ni {\k22}hi{\k11}to{\k10}tsu{\k19}ki!
+Dialogue: 0,0:02:05.25,0:02:09.25,Shirakami,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k11}yu{\k14}ru{\k10}sa{\k14}re{\k9}za{\k16}ru {\k11}shi{\k27}kou {\k44}wo! {\k10}a{\k10}te{\k12}ha{\k13}ma{\k14}ra{\k23}nai {\k11}i{\k20}jou {\k21}wo!
+Dialogue: 0,0:02:08.50,0:02:11.72,Shirakami,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k17}tsu{\k22}tsun{\k12}de {\k13}i{\k8}ki{\k13}te {\k10}i{\k20}kou {\k13}ja {\k8}a{\k6}ri{\k16}ma{\k23}sen{\k31}ka!
+Dialogue: 0,0:02:10.65,0:02:14.38,Shirakami,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k47}kou{\k68}dou, {\k22}na {\k32}mo {\k33}mo{\k23}ta{\k38}zu
+Dialogue: 0,0:02:14.20,0:02:17.82,Kurokami,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k47}kyou{\k68}sou, {\k21}i{\k35}mi {\k32}mo {\k21}na{\k28}ku
+Dialogue: 0,0:02:17.79,0:02:21.52,White Burinyan,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k44}ei{\k67}gou, {\k21}ji{\k35}ko {\k33}man{\k22}zo{\k41}ku
+Dialogue: 0,0:02:21.13,0:02:26.05,All Alternance,,0,0,0,fx,{\k90\fad(300,200)}♣ ♦ ♥ {\rShirakami}{\k42}da{\k24}ka{\k23}ra, {\rKurokami}{\k12}da{\k9}ka{\k23}ra, {\rWhite Burinyan}{\k15}da{\k9}ka{\k20}ra, {\rAll}{\k14}da{\k10}ka{\k18}ra {\k25}ka{\kf138}na?
+Dialogue: 0,0:02:26.25,0:02:28.48,Shirakami,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k42}sai{\k44}kou {\k27}da!
+Dialogue: 0,0:02:27.56,0:02:31.15,Shirakami,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k34}nou {\k11}ga {\k22}kou{\k14}ka {\k8}shi{\k23}ten{\k22}da, {\k22}buk{\k12}ko{\k15}wa{\k7}shi{\k10}te {\k12}sa{\k10}ke{\k27}be!
+Dialogue: 0,0:02:30.05,0:02:32.05,White Burinyan,,0,0,80,fx,{\k90\fad(300,200)}♥ {\k17}iya {\k24}sai{\k21}kou {\k28}ka!?
+Dialogue: 0,0:02:31.12,0:02:34.85,White Burinyan,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k33}nan{\k12}de {\k22}nan{\k22}de {\k22}tsut{\k22}te, {\k23}bak{\k11}ko {\k21}bak{\k11}ko {\k12}ha{\k11}ne{\k22}chat{\k19}te
+Dialogue: 0,0:02:33.77,0:02:35.62,Kurokami,,0,0,80,fx,{\k90\fad(300,200)}♦ {\k24}sai{\k22}kou {\k29}da!
+Dialogue: 0,0:02:34.57,0:02:38.19,Kurokami,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k10}gu{\k33}kou {\k12}ki{\k22}kou {\k22}de {\k22}kek{\k23}kou, {\k22}kat{\k11}te {\k23}ni {\k10}i{\k11}ki{\k12}ta{\k19}re
+Dialogue: 0,0:02:37.09,0:02:39.18,All,,0,0,0,fx,{\k90\fad(300,200)}{\k24}iya {\k22}sai{\k22}kou {\k31}ka!
+Dialogue: 0,0:02:38.22,0:02:41.88,Shirakami,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k36}iyaa {\k10}mou {\k21}hon{\k23}to, {\k23}sai{\k22}kou {\k22}da, {\k24}da, {\k20}da, {\k23}da, {\k32}da!
+Dialogue: 0,0:02:40.66,0:02:42.47,Kuro & Burinyan Choir,,0,0,0,fx,{\k90\fad(300,200)}♦ ♥ {\k23}ies{\k48}saa
+Dialogue: 0,0:02:41.56,0:02:45.42,Shirakami,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k23}mu{\k22}ka{\k22}shi{\k22}mu{\k23}ka{\k22}shi {\k22}no {\k22}o{\k23}mo{\k22}i{\k21}tsu{\k32}ki
+Dialogue: 0,0:02:45.12,0:02:48.93,Shirakami,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k22}mu{\k23}i{\k21}gi {\k22}mu{\k23}i{\k22}mi {\k22}no {\k23}hi{\k21}to{\k23}da{\k24}ka{\k25}ri
+Dialogue: 0,0:02:48.64,0:02:52.42,Shirakami,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k25}mu{\k23}ja{\k21}ki {\k23}mu{\k22}te{\k23}ki {\k21}no {\k24}u{\k22}ma{\k18}re{\k24}tsu{\k22}ki
+Dialogue: 0,0:02:51.55,0:02:55.23,All Alternance,,0,0,0,fx,{\k90\fad(300,200)}♣ ♦ ♥ {\rKurokami}{\k23}so{\k23}re {\k45}ga, {\rWhite Burinyan}{\k21}so{\k23}re {\k43}ga, {\rShirakami}{\k23}so{\k23}re {\k34}ga
+Dialogue: 0,0:02:55.38,0:02:59.78,All,,0,0,0,fx,{\k90\fad(300,200)}{\k20}mu{\k71}se{\k17}ki{\k88}nin {\k45}shuu{\k44}gou{\k45}tai
+Dialogue: 0,0:02:59.11,0:03:03.28,All,,0,0,0,fx,{\k90\fad(300,200)}{\k45}an{\k26}ta {\k19}mo {\k29}wa{\k16}ta{\k28}shi {\k17}mo {\k42}kan{\k46}kei{\k39}nai
+Dialogue: 0,0:03:02.54,0:03:06.88,All,,0,0,0,fx,{\k90\fad(300,200)}{\k14}mu{\k74}se{\k15}ki{\k89}nin {\k44}shuu{\k44}gou{\k44}tai
+Dialogue: 0,0:03:06.21,0:03:10.48,All,,0,0,0,fx,{\k90\fad(300,200)}{\k32}ta{\k16}no{\k28}shi{\k17}ku {\k43}yat{\k29}te{\k15}rya {\k45}mou{\k44}man{\k48}tai
+Dialogue: 0,0:03:09.78,0:03:12.45,Shirakami,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k24}kat{\k10}te {\k11}ni {\k23}yat{\k13}te{\k8}rya {\k23}mon{\k22}dai {\k23}nashi
+Dialogue: 0,0:03:11.35,0:03:15.15,Kurokami,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k10}o{\k11}re {\k63}wa, {\k13}shi{\k14}ra{\k65}nai, {\k13}na{\k9}ni {\k24}mo, {\k9}shi{\k13}ra{\k26}nai
+Dialogue: 0,0:03:14.93,0:03:18.64,White Burinyan,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k11}na{\k9}ni {\k66}mo, {\k11}mi{\k12}te{\k66}nai, {\k10}da{\k12}re {\k22}mo, {\k11}mi{\k12}te{\k19}nai
+Dialogue: 0,0:03:18.41,0:03:22.18,Shirakami,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k11}ki{\k16}o{\k68}ku, {\k10}chi{\k15}ga{\k63}i, {\k11}yu{\k11}me {\k21}no, {\k10}ha{\k13}na{\k18}shi
+Dialogue: 0,0:03:22.02,0:03:25.38,Shirakami,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k22}sou {\k66}iu, {\k12}ko{\k10}to {\k67}de, {\k10}so{\k14}re {\k25}ja
