@@ -1,0 +1,116 @@
+﻿[Script Info]
+Title: Starlight
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: Hanaku
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Karin,Arial,24,&H00994003,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Choir,Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:04.20,0:00:06.61,Karin,,0,0,0,karaoke,{\k26}I {\k23}got{\k21}ta {\k47}see {\k22}the {\k50}star{\k52}light
+Comment: 0,0:00:11.69,0:00:14.02,Karin,,0,0,0,karaoke,{\k26}You {\k22}got{\k27}ta {\k42}see {\k25}the {\k48}star{\k43}light
+Comment: 0,0:00:19.21,0:00:22.49,Karin,,0,0,0,karaoke,{\k22}a{\k24}tsu{\k24}ku {\k26}sa{\k20}se{\k24}te {\k25}yo {\k45}ko{\k27}no {\k21}ka{\k24}ra{\k27}da {\k19}wo
+Comment: 0,0:00:22.49,0:00:24.60,Karin,,0,0,0,karaoke,{\k24}Al{\k70}right - {\k69}ight - {\k48}ight
+Comment: 0,0:00:25.05,0:00:28.13,Karin,,0,0,0,karaoke,{\k28}yu{\k20}me {\k24}ka{\k23}ra {\k24}sa{\k23}me{\k36}te {\k35}mo {\k24}ma{\k33}ru{\k38}de
+Comment: 0,0:00:28.13,0:00:32.10,Karin,,0,0,0,karaoke,{\k21}to{\k37}do{\k36}ma{\k22}ru {\k46}you {\k23}na {\k24}se{\k70}kai - {\k70}ai - {\k48}ai
+Comment: 0,0:00:32.79,0:00:39.99,Karin,,0,0,0,karaoke,{\k24}i{\k23}wa{\k25}se{\k23}te {\k23}a{\kf141}ge{\k23}ru {\k66}wa{\kf29} {\k24}wa{\k27}ta{\k20}shi {\k21}i{\k28}ga{\kf139}i {\k22}ni {\k62}wa
+Comment: 0,0:00:40.53,0:00:44.94,Karin,,0,0,0,karaoke,{\k24}na{\k22}ni {\k23}mo {\k25}ka{\k37}n{\k34}ji{\k35}nai {\k34}kan{\k36}ga{\k36}e{\k34}ran{\k36}nai {\k34}zet{\k31}tai
+Comment: 0,0:00:44.94,0:00:47.15,Karin,,0,0,0,karaoke,{\k27}mi{\k28}ryo{\k20}ku {\k25}do {\k26}NU{\k19}M{\k24}BER {\k52}ONE
+Comment: 0,0:00:47.57,0:00:50.13,Karin,,0,0,0,karaoke,{\k24}ko{\k22}no {\k23}ST{\k26}A{\k21}GE {\k24}he {\k72}FLY {\k44}FLY
+Comment: 0,0:00:50.37,0:00:52.67,Karin,,0,0,0,karaoke,{\k73}saa {\k23}hi{\k24}ka{\k22}ru {\k48}STAR{\k40}LIGHT
+Comment: 0,0:00:52.67,0:00:59.75,Choir,,0,0,0,karaoke,{\k42}NE{\k34}ON {\k46}ni {\k24}tsu{\k24}tsu{\k23}ma{\k50}re{\k43}ta {\k39}kon'{\k56}ya {\kf327}wa
+Comment: 0,0:00:56.46,0:01:00.14,Karin,,0,0,0,karaoke,{\k73}sai{\k69}dai {\k69}ni {\k24}i{\k25}ro{\k23}do{\k23}ru {\k24}SPOT{\k38}LIGHT
+Comment: 0,0:01:00.21,0:01:03.81,Choir,,0,0,0,karaoke,{\k73}Oh {\k70}Oh {\k22}sa{\k24}ke{\k69}n{\kf102}de
+Comment: 0,0:01:03.95,0:01:07.54,Karin,,0,0,0,karaoke,{\k27}ta{\k23}ri{\k46}nai {\k47}wa {\k23}VO{\k24}LU{\k46}ME {\k47}a{\k47}ge{\k29}te
+Comment: 0,0:01:07.73,0:01:11.34,Karin,,0,0,0,karaoke,{\k25}ta{\k21}ka{\k24}na{\k19}ri {\k16}a{\k35}i{\k48}ma{\k46}su {\k51}chuu{\k42}dok'{\k34}sei
+Comment: 0,0:01:11.46,0:01:15.09,Karin,,0,0,0,karaoke,{\k25}mo{\k23}to{\k22}me{\k26}re{\k23}ba {\k22}mo{\k26}to{\k22}me{\k47}ru {\k49}ho{\k46}do {\k32}ni
+Comment: 0,0:01:15.22,0:01:17.03,Karin,,0,0,0,karaoke,{\k71}Fly {\k49}fly {\k21}call {\k40}me
+Comment: 0,0:01:17.34,0:01:20.80,Karin,,0,0,0,karaoke,{\k22}to{\k25}ki {\k24}wo {\k18}ma{\k30}u {\k45}STAR{\kf182}LIGHT
+Comment: 0,0:01:26.70,0:01:30.92,Karin,,0,0,0,karaoke,{\k27}a{\k21}ma{\k21}i {\k32}ko{\k17}e {\k24}de {\k25}i{\k34}za{\k34}na{\k24}u {\k46}mei{\k26}kyuu {\k22}no {\k69}aj'
+Comment: 0,0:01:30.92,0:01:32.17,Karin,,0,0,0,karaoke,{\k71}Right - {\k54}ight
+Comment: 0,0:01:32.79,0:01:37.25,Karin,,0,0,0,karaoke,{\k26}mi{\k23}zu{\k22}ka{\k24}ra {\k25}e{\k35}ran{\k33}de {\k23}mo{\k38}u {\k35}a{\k21}to{\k37}mo{\k36}do{\k21}ri {\k47}wa
+Comment: 0,0:01:37.25,0:01:39.65,Karin,,0,0,0,karaoke,{\k24}de{\k24}ki{\k70}nai -{\k70} ai - {\k52}ai
+Comment: 0,0:01:40.29,0:01:47.60,Karin,,0,0,0,karaoke,{\k23}to{\k25}ri{\k22}ko {\k27}ni {\k22}sa{\kf141}se{\k23}ru {\k66}wa{\kf28} {\k24}wa{\k26}ta{\k21}shi {\k21}i{\k25}ga{\kf140}i {\k23}ni {\k74}wa
+Comment: 0,0:01:48.02,0:01:52.42,Karin,,0,0,0,karaoke,{\k24}na{\k22}ni {\k23}mo {\k25}ka{\k37}n{\k34}ji{\k35}nai {\k34}kan{\k36}ga{\k36}e{\k34}ran{\k36}nai {\k34}zet{\k31}tai
+Comment: 0,0:01:52.47,0:01:54.67,Karin,,0,0,0,karaoke,{\k24}ka{\k24}i{\k47}kan{\k22}do {\k23}NUM{\k25}BER {\k55}ONE
+Comment: 0,0:01:55.05,0:01:57.62,Karin,,0,0,0,karaoke,{\k24}so{\k12}no {\k12}I{\k22}M{\k24}A{\k24}GE {\k24}he {\k70}FLY {\k45}HIGH
+Comment: 0,0:01:57.86,0:02:00.13,Karin,,0,0,0,karaoke,{\k72}sou {\k24}mi{\k22}se{\k25}ru {\k46}STAR{\k38}LIGHT
+Comment: 0,0:02:00.21,0:02:07.03,Choir,,0,0,0,karaoke,{\k39}ta{\k33}da {\k46}mi{\k23}chi{\k25}bi {\k23}ka{\k46}re{\k47}ru {\k48}kon'{\k46}ya {\kf306}wa
+Comment: 0,0:02:03.94,0:02:07.63,Karin,,0,0,0,karaoke,{\k75}dai{\k68}tan {\k70}ni {\k24}i{\k24}ro{\k20}zu{\k27}ku {\k25}SPOT{\k36}LIGHT
+Comment: 0,0:02:07.69,0:02:11.15,Choir,,0,0,0,karaoke,{\k73}Oh {\k70}Oh {\k23}ka{\k23}n{\k73}ji{\kf84}te
+Comment: 0,0:02:25.30,0:02:32.57,Karin,,0,0,0,karaoke,{\k24}i{\k23}wa{\k25}se{\k23}te {\k23}a{\kf141}ge{\k23}ru {\kf95}wa {\k24}wa{\k27}ta{\k20}shi {\k21}i{\k28}ga{\kf139}i {\k22}ni {\k62}wa
+Comment: 0,0:02:33.02,0:02:37.41,Karin,,0,0,0,karaoke,{\k24}na{\k22}ni {\k23}mo {\k25}ka{\k37}n{\k34}ji{\k35}nai {\k34}kan{\k36}ga{\k36}e{\k34}ran{\k36}nai {\k34}zet{\k31}tai
+Comment: 0,0:02:37.47,0:02:39.68,Karin,,0,0,0,karaoke,{\k27}mi{\k28}ryo{\k20}ku {\k25}do {\k26}NU{\k19}M{\k24}BER {\k52}ONE
+Comment: 0,0:02:40.05,0:02:42.65,Karin,,0,0,0,karaoke,{\k24}ko{\k22}no {\k23}ST{\k26}A{\k21}GE {\k24}he {\k72}FLY {\k44}FLY
+Comment: 0,0:02:42.86,0:02:45.15,Karin,,0,0,0,karaoke,{\k73}saa {\k23}hi{\k24}ka{\k22}ru {\k48}STAR{\k40}LIGHT
+Comment: 0,0:02:45.21,0:02:52.25,Choir,,0,0,0,karaoke,{\k37}NE{\k36}ON {\k48}ni {\k22}tsu{\k23}tsu{\k26}ma{\k46}re{\k44}ta {\k42}kon'{\k53}ya {\kf327}wa
+Comment: 0,0:02:48.97,0:02:52.65,Karin,,0,0,0,karaoke,{\k73}sai{\k69}dai {\k69}ni {\k24}i{\k25}ro{\k23}do{\k23}ru {\k24}SPOT{\k38}LIGHT
+Comment: 0,0:02:52.70,0:02:56.49,Choir,,0,0,0,karaoke,{\k73}Oh {\k70}Oh {\k22}sa{\k24}ke{\k71}n{\kf119}de
+Comment: 0,0:02:56.49,0:02:59.99,Karin,,0,0,0,karaoke,{\k27}ta{\k23}ri{\k46}nai {\k47}wa {\k23}VO{\k24}LU{\k46}ME {\k47}a{\k47}ge{\k29}te
+Comment: 0,0:03:00.22,0:03:03.81,Karin,,0,0,0,karaoke,{\k25}ta{\k21}ka{\k24}na{\k19}ri {\k16}a{\k35}i{\k48}ma{\k46}su {\k51}chuu{\k42}dok'{\k34}sei
+Comment: 0,0:03:03.94,0:03:07.58,Karin,,0,0,0,karaoke,{\k25}mo{\k23}to{\k22}me{\k26}re{\k23}ba {\k22}mo{\k26}to{\k22}me{\k47}ru {\k49}ho{\k46}do {\k32}ni
+Comment: 0,0:03:07.70,0:03:09.50,Karin,,0,0,0,karaoke,{\k71}Fly {\k49}fly {\k21}call {\k40}me
+Comment: 0,0:03:09.84,0:03:12.99,Karin,,0,0,0,karaoke,{\k23}to{\k24}ki {\k24}wo {\k18}ma{\k30}u {\k44}STAR{\kf152}LIGHT
+Comment: 0,0:03:12.16,0:03:17.17,Choir,,0,0,0,karaoke,{\k37}Oh  {\k34}oh  {\k119}oh  {\k35}oh  {\k34}oh  {\k118}oh  {\k35}oh  {\k35}oh  {\k54}oh
+Comment: 0,0:03:17.33,0:03:20.91,Karin,,0,0,0,karaoke,{\k22}to{\k25}ki {\k24}wo {\k18}ma{\k30}u {\k45}STAR{\kf194}LIGHT
+Comment: 0,0:03:19.67,0:03:22.74,Choir,,0,0,0,karaoke,{\k38}Oh  {\k33}oh  {\k119}oh  {\k35}oh  {\k34}oh  {\k48}oh
+Comment: 0,0:03:22.74,0:03:24.83,Karin,,0,0,0,karaoke,{\k69}Fly {\k50}fly {\k19}call {\k71}me
+Comment: 0,0:03:24.83,0:03:27.19,Karin,,0,0,0,karaoke,{\k23}to{\k26}ki {\k22}wo {\k23}ma{\k25}u {\k47}STAR{\k70}LIGHT
+Dialogue: 0,0:00:03.30,0:00:06.81,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k26}I {\k23}got{\k21}ta {\k47}see {\k22}the {\k50}star{\k52}light
+Dialogue: 0,0:00:10.79,0:00:14.22,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k26}You {\k22}got{\k27}ta {\k42}see {\k25}the {\k48}star{\k43}light
+Dialogue: 0,0:00:18.31,0:00:22.69,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k22}a{\k24}tsu{\k24}ku {\k26}sa{\k20}se{\k24}te {\k25}yo {\k45}ko{\k27}no {\k21}ka{\k24}ra{\k27}da {\k19}wo
+Dialogue: 0,0:00:21.59,0:00:24.80,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Al{\k70}right - {\k69}ight - {\k48}ight
+Dialogue: 0,0:00:24.15,0:00:28.33,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k28}yu{\k20}me {\k24}ka{\k23}ra {\k24}sa{\k23}me{\k36}te {\k35}mo {\k24}ma{\k33}ru{\k38}de
+Dialogue: 0,0:00:27.23,0:00:32.30,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k21}to{\k37}do{\k36}ma{\k22}ru {\k46}you {\k23}na {\k24}se{\k70}kai - {\k70}ai - {\k48}ai
+Dialogue: 0,0:00:31.89,0:00:40.19,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k24}i{\k23}wa{\k25}se{\k23}te {\k23}a{\kf141}ge{\k23}ru {\k66}wa{\kf29} {\k24}wa{\k27}ta{\k20}shi {\k21}i{\k28}ga{\kf139}i {\k22}ni {\k62}wa
+Dialogue: 0,0:00:39.63,0:00:45.14,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k24}na{\k22}ni {\k23}mo {\k25}ka{\k37}n{\k34}ji{\k35}nai {\k34}kan{\k36}ga{\k36}e{\k34}ran{\k36}nai {\k34}zet{\k31}tai
+Dialogue: 0,0:00:44.04,0:00:47.35,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k27}mi{\k28}ryo{\k20}ku {\k25}do {\k26}NU{\k19}M{\k24}BER {\k52}ONE
+Dialogue: 0,0:00:46.67,0:00:50.33,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ko{\k22}no {\k23}ST{\k26}A{\k21}GE {\k24}he {\k72}FLY {\k44}FLY
+Dialogue: 0,0:00:49.47,0:00:52.87,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k73}saa {\k23}hi{\k24}ka{\k22}ru {\k48}STAR{\k40}LIGHT
+Dialogue: 0,0:00:51.77,0:00:59.95,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k42}NE{\k34}ON {\k46}ni {\k24}tsu{\k24}tsu{\k23}ma{\k50}re{\k43}ta {\k39}kon'{\k56}ya {\kf327}wa
+Dialogue: 0,0:00:55.56,0:01:00.34,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k73}sai{\k69}dai {\k69}ni {\k24}i{\k25}ro{\k23}do{\k23}ru {\k24}SPOT{\k38}LIGHT
+Dialogue: 0,0:00:59.31,0:01:04.01,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k73}Oh {\k70}Oh {\k22}sa{\k24}ke{\k69}n{\kf102}de
+Dialogue: 0,0:01:03.05,0:01:07.74,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ta{\k23}ri{\k46}nai {\k47}wa {\k23}VO{\k24}LU{\k46}ME {\k47}a{\k47}ge{\k29}te
+Dialogue: 0,0:01:06.83,0:01:11.54,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ta{\k21}ka{\k24}na{\k19}ri {\k16}a{\k35}i{\k48}ma{\k46}su {\k51}chuu{\k42}dok'{\k34}sei
+Dialogue: 0,0:01:10.56,0:01:15.29,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k25}mo{\k23}to{\k22}me{\k26}re{\k23}ba {\k22}mo{\k26}to{\k22}me{\k47}ru {\k49}ho{\k46}do {\k32}ni
+Dialogue: 0,0:01:14.32,0:01:17.23,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k71}Fly {\k49}fly {\k21}call {\k40}me
+Dialogue: 0,0:01:16.44,0:01:21.00,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k22}to{\k25}ki {\k24}wo {\k18}ma{\k30}u {\k45}STAR{\kf182}LIGHT
+Dialogue: 0,0:01:25.80,0:01:31.12,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k27}a{\k21}ma{\k21}i {\k32}ko{\k17}e {\k24}de {\k25}i{\k34}za{\k34}na{\k24}u {\k46}mei{\k26}kyuu {\k22}no {\k69}aj'
+Dialogue: 0,0:01:30.02,0:01:32.37,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k71}Right - {\k54}ight
+Dialogue: 0,0:01:31.89,0:01:37.45,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k26}mi{\k23}zu{\k22}ka{\k24}ra {\k25}e{\k35}ran{\k33}de {\k23}mo{\k38}u {\k35}a{\k21}to{\k37}mo{\k36}do{\k21}ri {\k47}wa
+Dialogue: 0,0:01:36.35,0:01:39.85,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k24}de{\k24}ki{\k70}nai -{\k70} ai - {\k52}ai
+Dialogue: 0,0:01:39.39,0:01:47.80,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k23}to{\k25}ri{\k22}ko {\k27}ni {\k22}sa{\kf141}se{\k23}ru {\k66}wa{\kf28} {\k24}wa{\k26}ta{\k21}shi {\k21}i{\k25}ga{\kf140}i {\k23}ni {\k74}wa
+Dialogue: 0,0:01:47.12,0:01:52.62,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k24}na{\k22}ni {\k23}mo {\k25}ka{\k37}n{\k34}ji{\k35}nai {\k34}kan{\k36}ga{\k36}e{\k34}ran{\k36}nai {\k34}zet{\k31}tai
+Dialogue: 0,0:01:51.57,0:01:54.87,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ka{\k24}i{\k47}kan{\k22}do {\k23}NUM{\k25}BER {\k55}ONE
+Dialogue: 0,0:01:54.15,0:01:57.82,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k24}so{\k12}no {\k12}I{\k22}M{\k24}A{\k24}GE {\k24}he {\k70}FLY {\k45}HIGH
+Dialogue: 0,0:01:56.96,0:02:00.33,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k72}sou {\k24}mi{\k22}se{\k25}ru {\k46}STAR{\k38}LIGHT
+Dialogue: 0,0:01:59.31,0:02:07.23,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k39}ta{\k33}da {\k46}mi{\k23}chi{\k25}bi {\k23}ka{\k46}re{\k47}ru {\k48}kon'{\k46}ya {\kf306}wa
+Dialogue: 0,0:02:03.04,0:02:07.83,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k75}dai{\k68}tan {\k70}ni {\k24}i{\k24}ro{\k20}zu{\k27}ku {\k25}SPOT{\k36}LIGHT
+Dialogue: 0,0:02:06.79,0:02:11.35,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k73}Oh {\k70}Oh {\k23}ka{\k23}n{\k73}ji{\kf84}te
+Dialogue: 0,0:02:24.40,0:02:32.77,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k24}i{\k23}wa{\k25}se{\k23}te {\k23}a{\kf141}ge{\k23}ru {\kf95}wa {\k24}wa{\k27}ta{\k20}shi {\k21}i{\k28}ga{\kf139}i {\k22}ni {\k62}wa
+Dialogue: 0,0:02:32.12,0:02:37.61,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k24}na{\k22}ni {\k23}mo {\k25}ka{\k37}n{\k34}ji{\k35}nai {\k34}kan{\k36}ga{\k36}e{\k34}ran{\k36}nai {\k34}zet{\k31}tai
+Dialogue: 0,0:02:36.57,0:02:39.88,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k27}mi{\k28}ryo{\k20}ku {\k25}do {\k26}NU{\k19}M{\k24}BER {\k52}ONE
+Dialogue: 0,0:02:39.15,0:02:42.85,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ko{\k22}no {\k23}ST{\k26}A{\k21}GE {\k24}he {\k72}FLY {\k44}FLY
+Dialogue: 0,0:02:41.96,0:02:45.35,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k73}saa {\k23}hi{\k24}ka{\k22}ru {\k48}STAR{\k40}LIGHT
+Dialogue: 0,0:02:44.31,0:02:52.45,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k37}NE{\k36}ON {\k48}ni {\k22}tsu{\k23}tsu{\k26}ma{\k46}re{\k44}ta {\k42}kon'{\k53}ya {\kf327}wa
+Dialogue: 0,0:02:48.07,0:02:52.85,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k73}sai{\k69}dai {\k69}ni {\k24}i{\k25}ro{\k23}do{\k23}ru {\k24}SPOT{\k38}LIGHT
+Dialogue: 0,0:02:51.80,0:02:56.69,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k73}Oh {\k70}Oh {\k22}sa{\k24}ke{\k71}n{\kf119}de
+Dialogue: 0,0:02:55.59,0:03:00.19,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ta{\k23}ri{\k46}nai {\k47}wa {\k23}VO{\k24}LU{\k46}ME {\k47}a{\k47}ge{\k29}te
+Dialogue: 0,0:02:59.32,0:03:04.01,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ta{\k21}ka{\k24}na{\k19}ri {\k16}a{\k35}i{\k48}ma{\k46}su {\k51}chuu{\k42}dok'{\k34}sei
+Dialogue: 0,0:03:03.04,0:03:07.78,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k25}mo{\k23}to{\k22}me{\k26}re{\k23}ba {\k22}mo{\k26}to{\k22}me{\k47}ru {\k49}ho{\k46}do {\k32}ni
+Dialogue: 0,0:03:06.80,0:03:09.70,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k71}Fly {\k49}fly {\k21}call {\k40}me
+Dialogue: 0,0:03:08.94,0:03:13.19,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k23}to{\k24}ki {\k24}wo {\k18}ma{\k30}u {\k44}STAR{\kf152}LIGHT
+Dialogue: 0,0:03:11.26,0:03:17.37,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Oh  {\k34}oh  {\k119}oh  {\k35}oh  {\k34}oh  {\k118}oh  {\k35}oh  {\k35}oh  {\k54}oh
+Dialogue: 0,0:03:16.43,0:03:21.11,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k22}to{\k25}ki {\k24}wo {\k18}ma{\k30}u {\k45}STAR{\kf194}LIGHT
+Dialogue: 0,0:03:18.77,0:03:22.94,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Oh  {\k33}oh  {\k119}oh  {\k35}oh  {\k34}oh  {\k48}oh
+Dialogue: 0,0:03:21.84,0:03:25.03,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k69}Fly {\k50}fly {\k19}call {\k71}me
+Dialogue: 0,0:03:23.93,0:03:27.39,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k23}to{\k26}ki {\k22}wo {\k23}ma{\k25}u {\k47}STAR{\k70}LIGHT
