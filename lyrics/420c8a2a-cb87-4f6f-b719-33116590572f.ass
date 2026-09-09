@@ -1,0 +1,152 @@
+﻿[Script Info]
+Title: The Sweetest Time♡
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: Hanaku
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Ayumu,Arial,24,&H009E93F0,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Choir,Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:01.66,0:00:03.28,Ayumu,,0,0,0,karaoke,{\k25}Gim{\k23}me {\k25}gim{\k23}me {\k37}ba{\k29}by
+Comment: 0,0:00:03.34,0:00:06.02,Ayumu,,0,0,0,karaoke,{\k49}Gim{\k23}me {\k25}gim{\k23}me {\k36}swee{\k36}test {\k76}love
+Comment: 0,0:00:24.69,0:00:28.38,Ayumu,,0,0,0,karaoke,{\k49}a{\k25}no {\k23}hi {\k24}ka{\k12}ra {\k28}mou {\k20}zut{\k37}to {\k23}a{\k24}na{\k24}ta {\k25}mat{\k10}te{\k45}ru
+Comment: 0,0:00:28.70,0:00:30.94,Ayumu,,0,0,0,karaoke,{\k20}su{\k37}kosh'{\k12} ni{\k10}ga{\k26}me {\k24}no {\k24}CHO{\k24}CO{\k47}LAT
+Comment: 0,0:00:31.19,0:00:32.35,Ayumu,,0,0,0,karaoke,{\k11}o{\k11}a{\k24}ji {\k14}wa {\k56}dou
+Comment: 0,0:00:32.61,0:00:34.75,Ayumu,,0,0,0,karaoke,{\k13}o{\k11}tsu{\k13}ki{\k13}sa{\k8}ma {\k16}u{\k22}tsu{\k13}shi{\k28}ta {\k19}HER{\k13}B {\k45}TEA
+Comment: 0,0:00:34.75,0:00:37.32,Ayumu,,0,0,0,karaoke,{\k28}ku{\k22}chi {\k26}zu{\k12}ke{\k47}te {\k13}na{\k47}ma{\k13}e {\k49}wo
+Comment: 0,0:00:37.32,0:00:39.67,Ayumu,,0,0,0,karaoke,{\k11}yo{\k11}bi {\k13}tsu{\k13}zu{\k11}ke{\k9}te {\k14}o{\k48}ma{\k48}ji{\k57}nai
+Comment: 0,0:00:40.03,0:00:41.03,Ayumu,,0,0,0,karaoke,{\k20}sha {\k18}li{\k13} la {\k16}sha{\k16} li {\k17}lu
+Comment: 0,0:00:41.03,0:00:41.99,Ayumu,,0,0,0,karaoke,{\k16}chu {\k15}ki{\k16} la {\k16}chu {\k17}ki {\k16}lu
+Comment: 0,0:00:41.99,0:00:43.79,Ayumu,,0,0,0,karaoke,{\k16}wa{\k16}ta{\k15}shi {\k15}ga {\k18}i{\k14}chi{\k25}ban {\k13}ni {\k35}naa{\k13}re
+Comment: 0,0:00:43.88,0:00:47.23,Ayumu,,0,0,0,karaoke,{\k19}o{\k8}ka{\k22}e{\k18}shi {\k11}wa {\k19}a{\k21}ma{\k15}ku {\k12}a{\k18}ma{\k14}ku {\k17}a{\kf141}re
+Comment: 0,0:00:49.18,0:00:51.69,Choir,,0,0,0,karaoke,{\k25}Ba{\k22}by {\k26}gim{\k23}me {\k25}gim{\k23}me {\k36}swee{\k35}test{\k36} love
+Comment: 0,0:00:51.82,0:00:53.50,Ayumu,,0,0,0,karaoke,{\k25}yu{\k24}bi {\k23}de {\k25}e{\k23}ga{\k25}ku {\k23}no
+Comment: 0,0:00:53.50,0:00:55.53,Choir,,0,0,0,karaoke,{\k25}Please {\k23}me {\k25}please {\k23}me {\k36}swee{\k36}test {\k35}time
+Comment: 0,0:00:55.64,0:00:57.14,Ayumu,,0,0,0,karaoke,{\k50}a{\k24}na{\k23}ta {\k24}da{\k29}ke
+Comment: 0,0:00:57.33,0:00:59.94,Ayumu,,0,0,0,karaoke,{\k42}ma{\k32}chi {\k24}tsu{\k35}zu{\k39}ke{\k46}tai {\k43}no
+Comment: 0,0:00:59.94,0:01:03.63,Ayumu,,0,0,0,karaoke,{\k26}ho{\k26}ka {\k24}no {\k26}da{\k21}re {\kf97}wo{\k25} {\k23}mi{\k24}te{\k48}te {\k29}mo
+Comment: 0,0:01:03.82,0:01:05.01,Ayumu,,0,0,0,karaoke,{\k13}i{\k35}tsu {\k24}ma{\k25}de {\k22}mo
+Comment: 0,0:01:05.01,0:01:07.03,Choir,,0,0,0,karaoke,{\k26}Gim{\k24}me {\k23}gim{\k25}me {\k35}swee{\k35}test {\k34}love
+Comment: 0,0:01:07.18,0:01:08.83,Ayumu,,0,0,0,karaoke,{\k23}ko{\k26}e {\k23}ni {\k24}no{\k24}se{\k25}ru {\k20}no
+Comment: 0,0:01:08.83,0:01:10.90,Choir,,0,0,0,karaoke,{\k28}With {\k23}me {\k24}with {\k25}me {\k34}swee{\k38}test {\k35}time
+Comment: 0,0:01:10.97,0:01:12.57,Ayumu,,0,0,0,karaoke,{\k54}kyou {\k23}mo {\k23}a{\k25}e{\k35}nai
+Comment: 0,0:01:12.69,0:01:16.45,Ayumu,,0,0,0,karaoke,{\k67}so{\k14}re {\k17}de{\k67}mo {\k27}shin{\k22}ji {\k27}tsu{\k25}zu{\k24}ke{\k38}tai {\k48}no
+Comment: 0,0:01:16.53,0:01:18.08,Choir,,0,0,0,karaoke,{\k26}Gim{\k24}me {\k25}gim{\k22}me {\k37}ba{\k21}by
+Comment: 0,0:01:18.20,0:01:20.88,Ayumu,,0,0,0,karaoke,{\k50}Gim{\k25}me {\k24}gim{\k24}me {\k35}swee{\k38}test {\k72}love
+Comment: 0,0:01:28.05,0:01:31.69,Ayumu,,0,0,0,karaoke,{\k50}don{\k23}na {\k24}to{\k25}ki {\k12}de{\k28}mo {\k22}ki{\k17}zu{\k17}i{\k26}te {\k21}ku{\k24}re{\k26}ru {\k11}you {\k38}ni
+Comment: 0,0:01:32.14,0:01:35.74,Ayumu,,0,0,0,karaoke,{\k13}te {\k24}no {\k12}to{\k11}do{\k12}ku {\k28}kyo{\k20}ri {\k27}i{\k21}tsu{\k73}mo {\k23}mits'{\k24}ke{\k13}te {\k59}ne
+Comment: 0,0:01:35.98,0:01:37.97,Ayumu,,0,0,0,karaoke,{\k13}ka{\k11}za{\k11}mu{\k6}ki {\k6}wa {\k26}a{\k23}na{\k13}ta {\k28}no {\k20}shi{\k11}ta {\k31}de
+Comment: 0,0:01:38.14,0:01:42.98,Ayumu,,0,0,0,karaoke,{\k25}o{\k25}hi{\k23}sa{\k22}ma {\k38}wo {\k15}u{\k45}tsu{\k13}shi{\k47}te {\k11}te{\k16}no{\k8}hi{\k11}ra {\k11}wo {\k15}a{\k15}ta{\k44}ta{\k48}me{\k52}te
+Comment: 0,0:01:43.41,0:01:44.35,Ayumu,,0,0,0,karaoke,{\k20}sha {\k18}li{\k13} la {\k16}sha{\k16} li {\k17}lu
+Comment: 0,0:01:44.35,0:01:45.34,Ayumu,,0,0,0,karaoke,{\k16}chu {\k19}ki{\k17} la {\k16}chu {\k16}ki {\k15}lu
+Comment: 0,0:01:45.34,0:01:47.21,Ayumu,,0,0,0,karaoke,{\k16}me {\k17}to {\k18}me {\k16}ga {\k10}a{\k20}i{\k34}masu {\k38}you {\k18}ni
+Comment: 0,0:01:47.26,0:01:50.51,Ayumu,,0,0,0,karaoke,{\k17}wa{\k16}ra{\k15}i{\k17}ka{\k15}ke{\k16}te {\k9}ku{\k23}re{\k16}ma{\k14}su {\k19}yo{\k16}u {\kf132}ni
+Comment: 0,0:01:52.52,0:01:55.06,Choir,,0,0,0,karaoke,{\k25}Ba{\k22}by {\k26}gim{\k23}me {\k25}gim{\k23}me {\k36}swee{\k35}test{\k36} love
+Comment: 0,0:01:55.17,0:01:56.82,Ayumu,,0,0,0,karaoke,{\k24}ka{\k25}ze {\k23}ni {\k26}o{\k22}mo{\k23}i {\k22}wo
+Comment: 0,0:01:56.82,0:01:58.90,Choir,,0,0,0,karaoke,{\k29}Please {\k23}me {\k25}please {\k24}me {\k36}swee{\k35}test {\k36}time
+Comment: 0,0:01:58.99,0:02:00.54,Ayumu,,0,0,0,karaoke,{\k50}a{\k24}na{\k25}ta {\k24}ka{\k32}ra
+Comment: 0,0:02:00.67,0:02:03.35,Ayumu,,0,0,0,karaoke,{\k40}ki{\k36}mo{\k23}chi {\k37}ga {\k37}ho{\k49}shii {\k46}no
+Comment: 0,0:02:03.35,0:02:06.95,Ayumu,,0,0,0,karaoke,{\k22}ta{\k26}to{\k23}e {\k24}so{\k25}re {\kf119}ga {\k25}u{\k22}so {\k48}de{\k26}mo
+Comment: 0,0:02:07.18,0:02:08.37,Ayumu,,0,0,0,karaoke,{\k12}do{\k36}ko {\k24}ma{\k23}de {\k24}mo
+Comment: 0,0:02:08.37,0:02:10.38,Choir,,0,0,0,karaoke,{\k26}Gim{\k24}me {\k24}gim{\k24}me {\k36}swee{\k35}test {\k32}love
+Comment: 0,0:02:10.54,0:02:12.23,Ayumu,,0,0,0,karaoke,{\k24}so{\k24}ra {\k24}ni {\k24}ko{\k24}ko{\k23}ro {\k26}wo
+Comment: 0,0:02:12.23,0:02:14.26,Choir,,0,0,0,karaoke,{\k24}With {\k24}me {\k23}with {\k25}me {\k36}swee{\k36}test {\k35}time
+Comment: 0,0:02:14.37,0:02:15.94,Ayumu,,0,0,0,karaoke,{\k48}kyou {\k24}mo {\k24}ku{\k26}re{\k35}chau
+Comment: 0,0:02:16.05,0:02:19.78,Ayumu,,0,0,0,karaoke,{\k66}so{\k15}re {\k16}de{\k67}mo {\k15}su{\k14}ki {\k23}wa {\k25}ka{\k25}wa{\k22}ra{\k38}nai {\k47}no
+Comment: 0,0:02:19.89,0:02:21.44,Choir,,0,0,0,karaoke,{\k26}Gim{\k24}me {\k24}gim{\k23}me {\k36}ba{\k22}by
+Comment: 0,0:02:21.57,0:02:24.35,Ayumu,,0,0,0,karaoke,{\k49}Gim{\k25}me {\k24}gim{\k24}me {\k36}swee{\k36}test {\k84}love
+Comment: 0,0:02:27.54,0:02:31.35,Ayumu,,0,0,0,karaoke,{\k24}hi{\k33}to{\k20}tsu {\k26}no {\k23}o{\k20}mo{\k27}i{\k47}de {\k48}da{\k49}ke {\k64}de
+Comment: 0,0:02:31.64,0:02:34.94,Ayumu,,0,0,0,karaoke,{\k15}ma{\k23}da {\k12}ma{\k24}da {\k25}wa{\k16}ta{\k55}shi {\k21}ga{\k26}n{\k27}ba{\k24}re{\k21}ru {\k12}ka{\k29}ra
+Comment: 0,0:02:35.26,0:02:38.98,Ayumu,,0,0,0,karaoke,{\k49}mu{\k24}ne {\k24}no {\k23}o{\k12}ku {\k59}ni {\k26}a{\k23}na{\k24}ta {\k25}ga {\k24}i{\k14}re{\k45}ba
+Comment: 0,0:02:39.33,0:02:44.68,Ayumu,,0,0,0,karaoke,{\k13}ha{\k25}na{\k12}re{\k20}te {\k28}i{\k12}te {\k34}mo {\k25}hi{\k21}to{\k50}tsu {\k50}da {\k48}yo {\kf197}ne
+Comment: 0,0:02:50.61,0:02:52.30,Ayumu,,0,0,0,karaoke,{\kf93}dou {\k76}ka
+Comment: 0,0:02:52.52,0:02:54.58,Choir,,0,0,0,karaoke,{\k27}Gim{\k24}me {\k23}gim{\k24}me {\k36}swee{\k37}test {\k35}love
+Comment: 0,0:02:54.68,0:02:56.37,Ayumu,,0,0,0,karaoke,{\k25}kyo{\k23}u {\k24}ga {\k26}o{\k24}wa{\k24}ru {\k23}yo
+Comment: 0,0:02:56.37,0:02:58.40,Choir,,0,0,0,karaoke,{\k29}Please {\k23}me {\k25}please {\k24}me {\k36}swee{\k35}test {\k36}time
+Comment: 0,0:02:58.53,0:03:00.01,Ayumu,,0,0,0,karaoke,{\k50}a{\k24}na{\k23}ta {\k24}da{\k29}ke
+Comment: 0,0:03:00.19,0:03:02.84,Ayumu,,0,0,0,karaoke,{\k42}ma{\k32}chi {\k24}tsu{\k35}zu{\k39}ke{\k46}tai {\k47}no
+Comment: 0,0:03:02.84,0:03:06.47,Ayumu,,0,0,0,karaoke,{\k27}ko{\k22}re {\k25}ka{\k24}ra {\k22}mo {\kf94}sou{\kf30} {\k22}mi{\k24}ra{\k48}i {\k25}mo
+Comment: 0,0:03:06.69,0:03:07.90,Ayumu,,0,0,0,karaoke,{\k15}i{\k34}tsu {\k25}ma{\k22}de {\k25}mo
+Comment: 0,0:03:07.90,0:03:09.95,Choir,,0,0,0,karaoke,{\k27}Gim{\k24}me {\k23}gim{\k24}me {\k36}swee{\k37}test {\k35}love
+Comment: 0,0:03:10.05,0:03:11.74,Ayumu,,0,0,0,karaoke,{\k25}a{\k23}su {\k24}mo {\k24}ne{\k24}ga{\k24}u {\k25}yo
+Comment: 0,0:03:11.68,0:03:13.76,Choir,,0,0,0,karaoke,{\k31}With {\k23}me {\k23}with {\k24}me {\k38}swee{\k36}test {\k33}time
+Comment: 0,0:03:13.88,0:03:15.41,Ayumu,,0,0,0,karaoke,{\k51}kit{\k24}to {\k24}to{\k22}do{\k32}ku
+Comment: 0,0:03:15.57,0:03:19.29,Ayumu,,0,0,0,karaoke,{\k64}sou {\k10}da{\k22}ka{\k65}ra {\k9}a{\k23}na{\k24}ta {\k24}wo {\k26}ma{\k23}chi{\k35}tai {\k47}no
+Comment: 0,0:03:19.41,0:03:20.96,Choir,,0,0,0,karaoke,{\k26}Gim{\k24}me {\k24}gim{\k23}me {\k37}ba{\k21}by
+Comment: 0,0:03:21.08,0:03:23.81,Ayumu,,0,0,0,karaoke,{\k50}Gim{\k25}me {\k24}gim{\k23}me {\k37}swee{\k35}test {\k79}love
+Dialogue: 0,0:00:00.76,0:00:03.48,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Gim{\k23}me {\k25}gim{\k23}me {\k37}ba{\k29}by
+Dialogue: 0,0:00:02.44,0:00:06.22,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k49}Gim{\k23}me {\k25}gim{\k23}me {\k36}swee{\k36}test {\k76}love
+Dialogue: 0,0:00:23.79,0:00:28.58,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k49}a{\k25}no {\k23}hi {\k24}ka{\k12}ra {\k28}mou {\k20}zut{\k37}to {\k23}a{\k24}na{\k24}ta {\k25}mat{\k10}te{\k45}ru
+Dialogue: 0,0:00:27.80,0:00:31.14,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k20}su{\k37}kosh'{\k12} ni{\k10}ga{\k26}me {\k24}no {\k24}CHO{\k24}CO{\k47}LAT
+Dialogue: 0,0:00:30.29,0:00:32.55,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k11}o{\k11}a{\k24}ji {\k14}wa {\k56}dou
+Dialogue: 0,0:00:31.71,0:00:34.95,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k13}o{\k11}tsu{\k13}ki{\k13}sa{\k8}ma {\k16}u{\k22}tsu{\k13}shi{\k28}ta {\k19}HER{\k13}B {\k45}TEA
+Dialogue: 0,0:00:33.85,0:00:37.52,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ku{\k22}chi {\k26}zu{\k12}ke{\k47}te {\k13}na{\k47}ma{\k13}e {\k49}wo
+Dialogue: 0,0:00:36.42,0:00:39.87,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k11}yo{\k11}bi {\k13}tsu{\k13}zu{\k11}ke{\k9}te {\k14}o{\k48}ma{\k48}ji{\k57}nai
+Dialogue: 0,0:00:39.13,0:00:41.23,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k20}sha {\k18}li{\k13} la {\k16}sha{\k16} li {\k17}lu
+Dialogue: 0,0:00:40.13,0:00:42.19,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k16}chu {\k15}ki{\k16} la {\k16}chu {\k17}ki {\k16}lu
+Dialogue: 0,0:00:41.09,0:00:43.99,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k16}wa{\k16}ta{\k15}shi {\k15}ga {\k18}i{\k14}chi{\k25}ban {\k13}ni {\k35}naa{\k13}re
+Dialogue: 0,0:00:42.98,0:00:47.43,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k19}o{\k8}ka{\k22}e{\k18}shi {\k11}wa {\k19}a{\k21}ma{\k15}ku {\k12}a{\k18}ma{\k14}ku {\k17}a{\kf141}re
+Dialogue: 0,0:00:48.28,0:00:51.89,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Ba{\k22}by {\k26}gim{\k23}me {\k25}gim{\k23}me {\k36}swee{\k35}test{\k36} love
+Dialogue: 0,0:00:50.92,0:00:53.70,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k25}yu{\k24}bi {\k23}de {\k25}e{\k23}ga{\k25}ku {\k23}no
+Dialogue: 0,0:00:52.60,0:00:55.73,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Please {\k23}me {\k25}please {\k23}me {\k36}swee{\k36}test {\k35}time
+Dialogue: 0,0:00:54.74,0:00:57.34,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k50}a{\k24}na{\k23}ta {\k24}da{\k29}ke
+Dialogue: 0,0:00:56.43,0:01:00.14,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k42}ma{\k32}chi {\k24}tsu{\k35}zu{\k39}ke{\k46}tai {\k43}no
+Dialogue: 0,0:00:59.04,0:01:03.83,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ho{\k26}ka {\k24}no {\k26}da{\k21}re {\kf97}wo{\k25} {\k23}mi{\k24}te{\k48}te {\k29}mo
+Dialogue: 0,0:01:02.92,0:01:05.21,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k13}i{\k35}tsu {\k24}ma{\k25}de {\k22}mo
+Dialogue: 0,0:01:04.11,0:01:07.23,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Gim{\k24}me {\k23}gim{\k25}me {\k35}swee{\k35}test {\k34}love
+Dialogue: 0,0:01:06.28,0:01:09.03,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ko{\k26}e {\k23}ni {\k24}no{\k24}se{\k25}ru {\k20}no
+Dialogue: 0,0:01:07.93,0:01:11.10,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k28}With {\k23}me {\k24}with {\k25}me {\k34}swee{\k38}test {\k35}time
+Dialogue: 0,0:01:10.07,0:01:12.77,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k54}kyou {\k23}mo {\k23}a{\k25}e{\k35}nai
+Dialogue: 0,0:01:11.79,0:01:16.65,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k67}so{\k14}re {\k17}de{\k67}mo {\k27}shin{\k22}ji {\k27}tsu{\k25}zu{\k24}ke{\k38}tai {\k48}no
+Dialogue: 0,0:01:15.63,0:01:18.28,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Gim{\k24}me {\k25}gim{\k22}me {\k37}ba{\k21}by
+Dialogue: 0,0:01:17.30,0:01:21.08,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k50}Gim{\k25}me {\k24}gim{\k24}me {\k35}swee{\k38}test {\k72}love
+Dialogue: 0,0:01:27.15,0:01:31.89,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k50}don{\k23}na {\k24}to{\k25}ki {\k12}de{\k28}mo {\k22}ki{\k17}zu{\k17}i{\k26}te {\k21}ku{\k24}re{\k26}ru {\k11}you {\k38}ni
+Dialogue: 0,0:01:31.24,0:01:35.94,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k13}te {\k24}no {\k12}to{\k11}do{\k12}ku {\k28}kyo{\k20}ri {\k27}i{\k21}tsu{\k73}mo {\k23}mits'{\k24}ke{\k13}te {\k59}ne
+Dialogue: 0,0:01:35.08,0:01:38.17,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ka{\k11}za{\k11}mu{\k6}ki {\k6}wa {\k26}a{\k23}na{\k13}ta {\k28}no {\k20}shi{\k11}ta {\k31}de
+Dialogue: 0,0:01:37.24,0:01:43.18,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k25}o{\k25}hi{\k23}sa{\k22}ma {\k38}wo {\k15}u{\k45}tsu{\k13}shi{\k47}te {\k11}te{\k16}no{\k8}hi{\k11}ra {\k11}wo {\k15}a{\k15}ta{\k44}ta{\k48}me{\k52}te
+Dialogue: 0,0:01:42.51,0:01:44.55,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k20}sha {\k18}li{\k13} la {\k16}sha{\k16} li {\k17}lu
+Dialogue: 0,0:01:43.45,0:01:45.54,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k16}chu {\k19}ki{\k17} la {\k16}chu {\k16}ki {\k15}lu
+Dialogue: 0,0:01:44.44,0:01:47.41,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k16}me {\k17}to {\k18}me {\k16}ga {\k10}a{\k20}i{\k34}masu {\k38}you {\k18}ni
+Dialogue: 0,0:01:46.36,0:01:50.71,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k17}wa{\k16}ra{\k15}i{\k17}ka{\k15}ke{\k16}te {\k9}ku{\k23}re{\k16}ma{\k14}su {\k19}yo{\k16}u {\kf132}ni
+Dialogue: 0,0:01:51.62,0:01:55.26,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Ba{\k22}by {\k26}gim{\k23}me {\k25}gim{\k23}me {\k36}swee{\k35}test{\k36} love
+Dialogue: 0,0:01:54.27,0:01:57.02,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ka{\k25}ze {\k23}ni {\k26}o{\k22}mo{\k23}i {\k22}wo
+Dialogue: 0,0:01:55.92,0:01:59.10,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Please {\k23}me {\k25}please {\k24}me {\k36}swee{\k35}test {\k36}time
+Dialogue: 0,0:01:58.09,0:02:00.74,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k50}a{\k24}na{\k25}ta {\k24}ka{\k32}ra
+Dialogue: 0,0:01:59.77,0:02:03.55,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k40}ki{\k36}mo{\k23}chi {\k37}ga {\k37}ho{\k49}shii {\k46}no
+Dialogue: 0,0:02:02.45,0:02:07.15,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ta{\k26}to{\k23}e {\k24}so{\k25}re {\kf119}ga {\k25}u{\k22}so {\k48}de{\k26}mo
+Dialogue: 0,0:02:06.28,0:02:08.57,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k12}do{\k36}ko {\k24}ma{\k23}de {\k24}mo
+Dialogue: 0,0:02:07.47,0:02:10.58,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Gim{\k24}me {\k24}gim{\k24}me {\k36}swee{\k35}test {\k32}love
+Dialogue: 0,0:02:09.64,0:02:12.43,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k24}so{\k24}ra {\k24}ni {\k24}ko{\k24}ko{\k23}ro {\k26}wo
+Dialogue: 0,0:02:11.33,0:02:14.46,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k24}With {\k24}me {\k23}with {\k25}me {\k36}swee{\k36}test {\k35}time
+Dialogue: 0,0:02:13.47,0:02:16.14,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k48}kyou {\k24}mo {\k24}ku{\k26}re{\k35}chau
+Dialogue: 0,0:02:15.15,0:02:19.98,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k66}so{\k15}re {\k16}de{\k67}mo {\k15}su{\k14}ki {\k23}wa {\k25}ka{\k25}wa{\k22}ra{\k38}nai {\k47}no
+Dialogue: 0,0:02:18.99,0:02:21.64,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Gim{\k24}me {\k24}gim{\k23}me {\k36}ba{\k22}by
+Dialogue: 0,0:02:20.67,0:02:24.55,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k49}Gim{\k25}me {\k24}gim{\k24}me {\k36}swee{\k36}test {\k84}love
+Dialogue: 0,0:02:26.64,0:02:31.55,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k24}hi{\k33}to{\k20}tsu {\k26}no {\k23}o{\k20}mo{\k27}i{\k47}de {\k48}da{\k49}ke {\k64}de
+Dialogue: 0,0:02:30.74,0:02:35.14,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ma{\k23}da {\k12}ma{\k24}da {\k25}wa{\k16}ta{\k55}shi {\k21}ga{\k26}n{\k27}ba{\k24}re{\k21}ru {\k12}ka{\k29}ra
+Dialogue: 0,0:02:34.36,0:02:39.18,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k49}mu{\k24}ne {\k24}no {\k23}o{\k12}ku {\k59}ni {\k26}a{\k23}na{\k24}ta {\k25}ga {\k24}i{\k14}re{\k45}ba
+Dialogue: 0,0:02:38.43,0:02:44.88,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ha{\k25}na{\k12}re{\k20}te {\k28}i{\k12}te {\k34}mo {\k25}hi{\k21}to{\k50}tsu {\k50}da {\k48}yo {\kf197}ne
+Dialogue: 0,0:02:49.71,0:02:52.50,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\kf93}dou {\k76}ka
+Dialogue: 0,0:02:51.62,0:02:54.78,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Gim{\k24}me {\k23}gim{\k24}me {\k36}swee{\k37}test {\k35}love
+Dialogue: 0,0:02:53.78,0:02:56.57,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k25}kyo{\k23}u {\k24}ga {\k26}o{\k24}wa{\k24}ru {\k23}yo
+Dialogue: 0,0:02:55.47,0:02:58.60,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Please {\k23}me {\k25}please {\k24}me {\k36}swee{\k35}test {\k36}time
+Dialogue: 0,0:02:57.63,0:03:00.21,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k50}a{\k24}na{\k23}ta {\k24}da{\k29}ke
+Dialogue: 0,0:02:59.29,0:03:03.04,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k42}ma{\k32}chi {\k24}tsu{\k35}zu{\k39}ke{\k46}tai {\k47}no
+Dialogue: 0,0:03:01.94,0:03:06.67,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ko{\k22}re {\k25}ka{\k24}ra {\k22}mo {\kf94}sou{\kf30} {\k22}mi{\k24}ra{\k48}i {\k25}mo
+Dialogue: 0,0:03:05.79,0:03:08.10,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k15}i{\k34}tsu {\k25}ma{\k22}de {\k25}mo
+Dialogue: 0,0:03:07.00,0:03:10.15,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Gim{\k24}me {\k23}gim{\k24}me {\k36}swee{\k37}test {\k35}love
+Dialogue: 0,0:03:09.15,0:03:11.94,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k25}a{\k23}su {\k24}mo {\k24}ne{\k24}ga{\k24}u {\k25}yo
+Dialogue: 0,0:03:10.78,0:03:13.96,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k31}With {\k23}me {\k23}with {\k24}me {\k38}swee{\k36}test {\k33}time
+Dialogue: 0,0:03:12.98,0:03:15.61,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k51}kit{\k24}to {\k24}to{\k22}do{\k32}ku
+Dialogue: 0,0:03:14.67,0:03:19.49,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k64}sou {\k10}da{\k22}ka{\k65}ra {\k9}a{\k23}na{\k24}ta {\k24}wo {\k26}ma{\k23}chi{\k35}tai {\k47}no
+Dialogue: 0,0:03:18.51,0:03:21.16,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Gim{\k24}me {\k24}gim{\k23}me {\k37}ba{\k21}by
+Dialogue: 0,0:03:20.18,0:03:24.01,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{\k50}Gim{\k25}me {\k24}gim{\k23}me {\k37}swee{\k35}test {\k79}love
