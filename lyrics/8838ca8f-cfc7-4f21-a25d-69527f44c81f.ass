@@ -1,0 +1,67 @@
+﻿[Script Info]
+Title: Blessing
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: DaBi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: HasuNoSora,Arial,24,&H00EF80F1,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: HasuChoir,Arial,24,&H00FFFFFF,&H00EF80F1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:02.42,0:00:02.42,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:03.29,0:00:05.90,HasuNoSora,,0,0,0,karaoke,{\k55}Bles{\k56}sings {\k15}for {\k25}your {\k41}bir{\k15}th{\k54}day
+Comment: 0,0:00:06.02,0:00:07.97,HasuNoSora,,0,0,0,karaoke,{\k29}Bles{\k26}sings {\k18}for {\k25}your {\k40}eve{\k17}ry{\k40}day
+Comment: 0,0:00:08.19,0:00:12.57,HasuNoSora,,0,0,0,karaoke,{\k30}sa{\k27}i{\k14}go {\k27}no {\k31}i{\k36}chi {\k31}byo{\k25}u {\k28}ma{\k26}de {\k19}ma{\k20}e {\k43}wo {\k25}mu{\k56}ke
+Comment: 0,0:00:21.54,0:00:25.47,HasuNoSora,,0,0,0,karaoke,{\k17}ha{\k11}ga{\k29}shi{\k14}te {\k29}mo {\k27}na{\k40}ze {\k14}da {\k41}ka {\k14}fu{\k12}e{\k28}te{\k15}ku {\k27}TA{\k27}G {\k48}to
+Comment: 0,0:00:25.93,0:00:29.82,HasuNoSora,,0,0,0,karaoke,{\k24}RAN{\k30}K {\k15}tsu{\k27}ke {\k27}sa{\k43}re{\k12}te{\k41}ku {\k14}ri{\k14}fu{\k21}ji{\k21}n {\k26}na {\k29}ka{\k45}chi
+Comment: 0,0:00:30.31,0:00:34.21,HasuNoSora,,0,0,0,karaoke,{\k26}son{\k28}na {\k13}mo{\k31}no {\k24}de {\k41}hi{\k16}to {\k27}wo {\k13}o{\k11}shi{\k14}ha{\k30}ka{\k13}ra{\k11}na{\k16}i{\k25}de {\k51}to
+Comment: 0,0:00:34.65,0:00:38.55,HasuNoSora,,0,0,0,karaoke,{\k14}to{\k14}bi{\k27}kau {\k15}ko{\k30}to{\k25}ba {\k41}wo {\k14}te {\k39}de {\k28}oo{\k25}i{\k18}ka{\k26}ku{\k27}shi{\k47}ta
+Comment: 0,0:00:38.77,0:00:42.53,HasuChoir,,0,0,0,karaoke,{\k25}OH{\k26}~ {\k57}IT'S {\k52}TIME {\k44}TO {\k40}GET {\kf132}UP
+Comment: 0,0:00:41.09,0:00:43.66,HasuNoSora,,0,0,0,karaoke,{\k11}to{\k13}mo{\k16}shi{\k22}bi {\k31}wo {\k28}ke{\k27}su {\k25}ma{\k19}e {\k65}ni
+Comment: 0,0:00:43.11,0:00:47.04,HasuChoir,,0,0,0,karaoke,{\k29}OH{\k26}~ {\k56}IT'S {\k51}TIME {\k42}TO {\k40}GET {\kf149}UP
+Comment: 0,0:00:45.43,0:00:47.45,HasuNoSora,,0,0,0,karaoke,{\k13}a{\k14}shi{\k15}mo{\k28}to {\k26}wo {\k27}te{\k29}ra{\k50}se
+Comment: 0,0:00:47.45,0:00:51.77,HasuNoSora,,0,0,0,karaoke,{\k31}ho{\k25}ra {\k42}ko{\k42}ko {\k26}wo {\k27}jit{\k28}to {\k28}mi{\k28}tsu{\k40}me{\k29}te {\k39}mi{\k47}te
+Comment: 0,0:00:51.56,0:00:55.40,HasuNoSora,,0,0,0,karaoke,{\k27}sai{\k29}kou {\k27}no {\k28}mi{\k27}ka{\k27}ta {\k19}ga {\k11}u{\k40}tsut{\k27}te{\k15}ru{\k24}de{\k83}sho
+Comment: 0,0:00:55.80,0:00:59.69,HasuNoSora,,0,0,0,karaoke,{\k43}so{\k25}re {\k28}wa {\k38}i{\k43}no{\k28}chi {\k36}no {\k30}a{\k38}ka{\k80}shi
+Comment: 0,0:01:00.02,0:01:02.53,HasuNoSora,,0,0,0,karaoke,{\k55}Bles{\k56}sings {\k15}for {\k25}your {\k41}bir{\k15}th{\k54}day
+Comment: 0,0:01:02.75,0:01:04.86,HasuNoSora,,0,0,0,karaoke,{\k29}Bles{\k26}sings {\k18}for {\k25}your {\k40}eve{\k17}ry{\k40}day
+Comment: 0,0:01:04.93,0:01:09.67,HasuNoSora,,0,0,0,karaoke,{\k28}ta{\k26}to{\k18}e {\k25}a{\k27}shi{\k39}ta {\k28}se{\k28}ka{\k28}i {\k26}ga {\k43}ho{\k38}ron{\k27}de {\k93}mo
+Comment: 0,0:01:08.74,0:01:11.27,HasuNoSora,,0,0,0,karaoke,{\k55}Bles{\k56}sings {\k15}for {\k25}your {\k41}bir{\k15}th{\k54}day
+Comment: 0,0:01:11.45,0:01:13.53,HasuNoSora,,0,0,0,karaoke,{\k29}Bles{\k26}sings {\k18}for {\k25}your {\k40}eve{\k17}ry{\k40}day
+Comment: 0,0:01:13.66,0:01:18.01,HasuNoSora,,0,0,0,karaoke,{\k27}sa{\k27}i{\k17}go {\k23}no {\k31}i{\k38}chi {\k33}byo{\k22}u {\k28}ma{\k26}de {\k22}ma{\k20}e {\k43}wo {\k25}mu{\k53}ke
+Comment: 0,0:01:17.74,0:01:19.66,HasuChoir,,0,0,0,karaoke,{\k26}Hip {\k44}hip {\k13}HOO{\kf109}RAY
+Comment: 0,0:01:19.93,0:01:22.54,HasuNoSora,,0,0,0,karaoke,{\k27}ko{\k28}re {\k27}ka{\k41}ra {\k40}sa{\k30}ki {\k68}mo
+Comment: 0,0:01:22.08,0:01:24.15,HasuChoir,,0,0,0,karaoke,{\k29}Hip {\k41}hip {\k13}HOO{\kf124}RAY
+Comment: 0,0:01:24.25,0:01:26.92,HasuNoSora,,0,0,0,karaoke,{\k32}ki{\k28}mi {\k28}ni {\k39}sa{\k37}chi {\k34}a{\k69}re
+Comment: 0,0:01:26.49,0:01:28.43,HasuChoir,,0,0,0,karaoke,{\k26}Hip {\k42}hip {\k15}HOO{\kf111}RAY
+Dialogue: 0,0:00:02.39,0:00:06.10,HasuNoSora,,0,0,0,fx,{\k90\fad(300,200)}{\k55}Bles{\k56}sings {\k15}for {\k25}your {\k41}bir{\k15}th{\k54}day
+Dialogue: 0,0:00:05.12,0:00:08.17,HasuNoSora,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Bles{\k26}sings {\k18}for {\k25}your {\k40}eve{\k17}ry{\k40}day
+Dialogue: 0,0:00:07.29,0:00:12.77,HasuNoSora,,0,0,0,fx,{\k90\fad(300,200)}{\k30}sa{\k27}i{\k14}go {\k27}no {\k31}i{\k36}chi {\k31}byo{\k25}u {\k28}ma{\k26}de {\k19}ma{\k20}e {\k43}wo {\k25}mu{\k56}ke
+Dialogue: 0,0:00:20.64,0:00:25.67,HasuNoSora,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ha{\k11}ga{\k29}shi{\k14}te {\k29}mo {\k27}na{\k40}ze {\k14}da {\k41}ka {\k14}fu{\k12}e{\k28}te{\k15}ku {\k27}TA{\k27}G {\k48}to
+Dialogue: 0,0:00:25.03,0:00:30.02,HasuNoSora,,0,0,0,fx,{\k90\fad(300,200)}{\k24}RAN{\k30}K {\k15}tsu{\k27}ke {\k27}sa{\k43}re{\k12}te{\k41}ku {\k14}ri{\k14}fu{\k21}ji{\k21}n {\k26}na {\k29}ka{\k45}chi
+Dialogue: 0,0:00:29.41,0:00:34.41,HasuNoSora,,0,0,0,fx,{\k90\fad(300,200)}{\k26}son{\k28}na {\k13}mo{\k31}no {\k24}de {\k41}hi{\k16}to {\k27}wo {\k13}o{\k11}shi{\k14}ha{\k30}ka{\k13}ra{\k11}na{\k16}i{\k25}de {\k51}to
+Dialogue: 0,0:00:33.75,0:00:38.75,HasuNoSora,,0,0,0,fx,{\k90\fad(300,200)}{\k14}to{\k14}bi{\k27}kau {\k15}ko{\k30}to{\k25}ba {\k41}wo {\k14}te {\k39}de {\k28}oo{\k25}i{\k18}ka{\k26}ku{\k27}shi{\k47}ta
+Dialogue: 0,0:00:37.87,0:00:42.73,HasuChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k25}OH{\k26}~ {\k57}IT'S {\k52}TIME {\k44}TO {\k40}GET {\kf132}UP
+Dialogue: 0,0:00:40.19,0:00:43.86,HasuNoSora,,0,0,0,fx,{\k90\fad(300,200)}{\k11}to{\k13}mo{\k16}shi{\k22}bi {\k31}wo {\k28}ke{\k27}su {\k25}ma{\k19}e {\k65}ni
+Dialogue: 0,0:00:42.21,0:00:47.24,HasuChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k29}OH{\k26}~ {\k56}IT'S {\k51}TIME {\k42}TO {\k40}GET {\kf149}UP
+Dialogue: 0,0:00:44.53,0:00:47.65,HasuNoSora,,0,0,0,fx,{\k90\fad(300,200)}{\k13}a{\k14}shi{\k15}mo{\k28}to {\k26}wo {\k27}te{\k29}ra{\k50}se
+Dialogue: 0,0:00:46.55,0:00:51.97,HasuNoSora,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ho{\k25}ra {\k42}ko{\k42}ko {\k26}wo {\k27}jit{\k28}to {\k28}mi{\k28}tsu{\k40}me{\k29}te {\k39}mi{\k47}te
+Dialogue: 0,0:00:50.66,0:00:55.60,HasuNoSora,,0,0,0,fx,{\k90\fad(300,200)}{\k27}sai{\k29}kou {\k27}no {\k28}mi{\k27}ka{\k27}ta {\k19}ga {\k11}u{\k40}tsut{\k27}te{\k15}ru{\k24}de{\k83}sho
+Dialogue: 0,0:00:54.90,0:00:59.89,HasuNoSora,,0,0,0,fx,{\k90\fad(300,200)}{\k43}so{\k25}re {\k28}wa {\k38}i{\k43}no{\k28}chi {\k36}no {\k30}a{\k38}ka{\k80}shi
+Dialogue: 0,0:00:59.12,0:01:02.73,HasuNoSora,,0,0,0,fx,{\k90\fad(300,200)}{\k55}Bles{\k56}sings {\k15}for {\k25}your {\k41}bir{\k15}th{\k54}day
+Dialogue: 0,0:01:01.85,0:01:05.06,HasuNoSora,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Bles{\k26}sings {\k18}for {\k25}your {\k40}eve{\k17}ry{\k40}day
+Dialogue: 0,0:01:04.03,0:01:09.87,HasuNoSora,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ta{\k26}to{\k18}e {\k25}a{\k27}shi{\k39}ta {\k28}se{\k28}ka{\k28}i {\k26}ga {\k43}ho{\k38}ron{\k27}de {\k93}mo
+Dialogue: 0,0:01:07.84,0:01:11.47,HasuNoSora,,0,0,0,fx,{\k90\fad(300,200)}{\k55}Bles{\k56}sings {\k15}for {\k25}your {\k41}bir{\k15}th{\k54}day
+Dialogue: 0,0:01:10.55,0:01:13.73,HasuNoSora,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Bles{\k26}sings {\k18}for {\k25}your {\k40}eve{\k17}ry{\k40}day
+Dialogue: 0,0:01:12.76,0:01:18.21,HasuNoSora,,0,0,0,fx,{\k90\fad(300,200)}{\k27}sa{\k27}i{\k17}go {\k23}no {\k31}i{\k38}chi {\k33}byo{\k22}u {\k28}ma{\k26}de {\k22}ma{\k20}e {\k43}wo {\k25}mu{\k53}ke
+Dialogue: 0,0:01:16.84,0:01:19.86,HasuChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Hip {\k44}hip {\k13}HOO{\kf109}RAY
+Dialogue: 0,0:01:19.03,0:01:22.74,HasuNoSora,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ko{\k28}re {\k27}ka{\k41}ra {\k40}sa{\k30}ki {\k68}mo
+Dialogue: 0,0:01:21.18,0:01:24.35,HasuChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Hip {\k41}hip {\k13}HOO{\kf124}RAY
+Dialogue: 0,0:01:23.35,0:01:27.12,HasuNoSora,,0,0,0,fx,{\k90\fad(300,200)}{\k32}ki{\k28}mi {\k28}ni {\k39}sa{\k37}chi {\k34}a{\k69}re
+Dialogue: 0,0:01:25.59,0:01:28.63,HasuChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Hip {\k42}hip {\k15}HOO{\kf111}RAY
