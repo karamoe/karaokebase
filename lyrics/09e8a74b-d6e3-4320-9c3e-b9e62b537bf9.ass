@@ -1,0 +1,149 @@
+﻿[Script Info]
+Title: Puwa Puwa-O!
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: torash
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: PrintempsChoir,Arial,24,&H00BA85F1,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: Printemps,Arial,24,&H00BA85F1,&H00FEFEFE,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Printemps,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:03.40,0:00:06.43,Printemps,,0,0,0,karaoke,{\k22}ki{\k18}mi {\k36}ni {\k37}ton{\k19}de{\k18}ke {\k14}su{\k22}ki {\k15}su{\k19}ki {\k14}pu{\k23}wa {\k18}pu{\k28}wa
+Comment: 0,0:00:12.15,0:00:16.53,Printemps,,0,0,0,karaoke,{\k19}su{\k18}ki {\k18}su{\k90}ki {\k19}pu{\k19}wa {\k15}pu{\k94}wa {\k18}su{\k18}ki {\k17}su{\k93}ki
+Comment: 0,0:00:16.53,0:00:17.94,Printemps,,0,0,0,karaoke,{\k16}pu{\k20}wa {\k16}pu{\k20}wa {\k19}shi{\k17}cha{\k33}ou
+Comment: 0,0:00:18.34,0:00:20.85,Printemps,,0,0,0,karaoke,{\k18}a{\k18}i{\k20}ta{\k35}ku {\k28}na{\k27}ru {\k17}na{\k19}ru {\k37}BA{\k32}BY
+Comment: 0,0:00:20.90,0:00:23.16,Printemps,,0,0,0,karaoke,{\k15}su{\k21}ki {\k17}su{\k91}ki {\k11}pu{\k26}wa {\k18}pu{\k27}wa
+Comment: 0,0:00:24.16,0:00:26.71,Printemps,,0,0,0,karaoke,{\k18}a{\k18}i{\k20}ta{\k36}i {\k27}tsu{\k27}ba{\k16}sa {\k20}ga {\k36}byun {\k37}byun
+Comment: 0,0:00:26.71,0:00:29.25,Printemps,,0,0,0,karaoke,{\k37}mot{\k35}to {\k37}byun {\k37}byun {\k36}ha{\k36}ya{\k36}ku
+Comment: 0,0:00:29.61,0:00:33.98,Printemps,,0,0,0,karaoke,{\k19}su{\k18}ki {\k17}su{\k91}ki {\k13}pu{\k24}wa {\k18}pu{\k91}wa {\k18}su{\k19}ki {\k17}su{\k92}ki
+Comment: 0,0:00:30.34,0:00:32.81,PrintempsChoir,,0,0,0,karaoke,{\k18}su{\k18}ki {\k19}su{\k91}ki {\k18}pu{\k18}wa {\k18}pu{\k47}wa
+Comment: 0,0:00:33.98,0:00:35.39,Printemps,,0,0,0,karaoke,{\k12}pu{\k24}wa {\k18}pu{\k18}wa {\k18}shi{\k19}cha{\k32}ou
+Comment: 0,0:00:35.25,0:00:40.52,Printemps,,0,0,0,karaoke,{\k18}wa{\k55}ta{\k18}shi {\k56}wo {\k17}mi{\k52}tsu{\k21}ke{\k36}ta{\k36}ra {\k35}tsu{\k38}ka{\k37}ma{\k36}e{\k72}te
+Comment: 0,0:00:39.80,0:00:41.24,PrintempsChoir,,0,0,0,karaoke,{\k10}pu{\k27}wa {\k17}pu{\k18}wa {\k10}pu{\k28}wa {\k16}pu{\k18}wa
+Comment: 0,0:00:41.08,0:00:46.52,Printemps,,0,0,0,karaoke,{\k18}o{\k54}o{\k18}zo{\k55}ra {\k18}ka{\k55}ke{\k18}me{\k36}gu{\k36}ru {\k37}ko{\k36}i{\k37}go{\k36}ko{\k90}ro
+Comment: 0,0:00:45.62,0:00:47.02,PrintempsChoir,,0,0,0,karaoke,{\k10}pu{\k27}wa {\k17}pu{\k20}wa {\k10}pu{\k25}wa {\k13}pu{\k18}wa
+Comment: 0,0:00:47.07,0:00:51.36,Printemps,,0,0,0,karaoke,{\k19}se{\k18}ka{\k18}i{\k18}ju{\k18}u {\k36}de {\k37}tat{\k35}ta {\k17}hi{\k22}to{\k17}tsu {\k18}no {\kf144}LOVE
+Comment: 0,0:00:51.77,0:00:52.52,Printemps,,0,0,0,karaoke,{\k31}OH {\k44}YES
+Comment: 0,0:00:52.31,0:00:55.06,Printemps,,0,0,0,karaoke,{\k20}da{\k17}ka{\k20}ra {\k36}wa{\k20}o {\k34}wa{\k30}o {\k18}yu{\k26}me {\k19}na{\k17}ra{\k18}ba
+Comment: 0,0:00:55.22,0:00:57.99,Printemps,,0,0,0,karaoke,{\k21}ne {\k18}ne {\k19}ne {\k37}wa{\k17}o {\k37}wa{\k36}o {\k19}sa{\k17}me{\k19}na{\k18}i{\k19}de
+Comment: 0,0:00:58.13,0:01:01.38,Printemps,,0,0,0,karaoke,{\k21}ki{\k17}mi {\k19}wo {\k36}zut{\k20}to {\k35}zut{\k37}to {\k15}su{\k20}ki {\k19}na{\k18}n{\k68}da
+Comment: 0,0:01:01.85,0:01:04.50,Printemps,,0,0,0,karaoke,{\k13}fu{\k17}shi{\k19}gi {\k17}da{\k56}yo {\k37}i{\k34}tsu {\k37}ka{\k16}ra
+Comment: 0,0:01:04.43,0:01:06.71,Printemps,,0,0,0,karaoke,{\k45}wa{\k19}o {\k35}wa{\k38}o {\k18}yu{\k18}me {\k19}na{\k17}ra{\k19}ba
+Comment: 0,0:01:06.87,0:01:09.74,Printemps,,0,0,0,karaoke,{\k20}ne {\k19}ne {\k17}ne {\k37}wa{\k18}o {\k36}wa{\k38}o {\k16}sa{\k20}me{\k18}na{\k17}i{\k31}de
+Comment: 0,0:01:09.80,0:01:12.89,Printemps,,0,0,0,karaoke,{\k18}ki{\k18}mi {\k19}wo {\k34}zut{\k20}to {\k36}zut{\k32}to {\k21}su{\k19}ki {\k19}na{\k19}n{\k54}da
+Comment: 0,0:01:13.38,0:01:16.09,Printemps,,0,0,0,karaoke,{\k23}fu{\k20}shi{\k17}gi {\k18}da{\k55}yo {\k36}na{\k35}n{\k37}de {\k30}da
+Comment: 0,0:01:16.15,0:01:20.52,Printemps,,0,0,0,karaoke,{\k19}su{\k18}ki {\k17}su{\k91}ki {\k13}pu{\k24}wa {\k18}pu{\k91}wa {\k18}su{\k19}ki {\k17}su{\k92}ki
+Comment: 0,0:01:16.88,0:01:19.23,PrintempsChoir,,0,0,0,karaoke,{\k19}su{\k17}ki {\k19}su{\k91}ki {\k18}pu{\k18}wa {\k20}pu{\k33}wa
+Comment: 0,0:01:20.52,0:01:21.90,Printemps,,0,0,0,karaoke,{\k12}pu{\k24}wa {\k18}pu{\k18}wa {\k18}shi{\k19}cha{\k32}ou
+Comment: 0,0:01:23.79,0:01:26.27,Printemps,,0,0,0,karaoke,{\k17}hi{\k20}to{\k19}ri {\k37}wa {\k35}i{\k18}ya {\k15}i{\k21}ya {\k37}BA{\k29}BY
+Comment: 0,0:01:26.33,0:01:28.59,Printemps,,0,0,0,karaoke,{\k20}KI{\k16}SS {\k19}KI{\k92}SS {\k14}pu{\k22}wa {\k16}pu{\k27}wa
+Comment: 0,0:01:29.61,0:01:34.71,Printemps,,0,0,0,karaoke,{\k17}hi{\k21}to{\k19}ri {\k34}ja {\k38}na{\k18}mi{\k19}da {\k15}ga {\k38}jun{\k36}jun {\k37}hop{\k36}pe {\k36}jun{\k37}jun {\k36}na{\k37}ga{\k36}re
+Comment: 0,0:01:35.05,0:01:39.42,Printemps,,0,0,0,karaoke,{\k19}KI{\k18}SS {\k17}KI{\k91}SS {\k13}pu{\k24}wa {\k18}pu{\k91}wa {\k18}KI{\k19}SS {\k17}KI{\k92}SS
+Comment: 0,0:01:35.80,0:01:38.06,PrintempsChoir,,0,0,0,karaoke,{\k18}KI{\k18}SS {\k19}KI{\k91}SS {\k18}pu{\k18}wa {\k18}pu{\k26}wa
+Comment: 0,0:01:39.42,0:01:40.82,Printemps,,0,0,0,karaoke,{\k12}pu{\k24}wa {\k18}pu{\k18}wa {\k18}ku{\k19}da{\k32}sai
+Comment: 0,0:01:40.70,0:01:46.28,Printemps,,0,0,0,karaoke,{\k19}wa{\k53}ta{\k20}shi {\k54}wa {\k19}a{\k55}i {\k18}no {\k35}na{\k37}ka {\k36}o{\k36}yo{\k38}i{\k36}de{\k102}ru
+Comment: 0,0:01:45.26,0:01:46.70,PrintempsChoir,,0,0,0,karaoke,{\k10}pu{\k26}wa {\k18}pu{\k18}wa {\k11}pu{\k26}wa {\k17}pu{\k18}wa
+Comment: 0,0:01:46.52,0:01:52.13,Printemps,,0,0,0,karaoke,{\k20}ku{\k51}ru{\k20}shi{\k49}ku {\k25}sa{\k54}se{\k18}na{\k37}i {\k36}de {\k36}ko{\k36}i{\k37}go{\k37}ko{\k105}ro
+Comment: 0,0:01:51.07,0:01:52.51,PrintempsChoir,,0,0,0,karaoke,{\k9}pu{\k27}wa {\k13}pu{\k24}wa {\k10}pu{\k26}wa {\k13}pu{\k22}wa
+Comment: 0,0:01:52.51,0:01:56.53,Printemps,,0,0,0,karaoke,{\k19}se{\k19}ka{\k18}i{\k19}ju{\k18}u {\k36}de {\k36}tat{\k32}ta {\k23}hi{\k21}to{\k16}ri {\k16}no {\kf129}YOU
+Comment: 0,0:01:57.16,0:01:58.13,Printemps,,0,0,0,karaoke,{\k37}OH {\k60}YES
+Comment: 0,0:01:57.78,0:02:00.52,Printemps,,0,0,0,karaoke,{\k19}so{\k19}shi{\k18}te {\k35}wa{\k19}o {\k35}wa{\k37}o {\k20}yu{\k17}me {\k19}ja{\k16}na{\k20}ku
+Comment: 0,0:02:00.68,0:02:03.57,Printemps,,0,0,0,karaoke,{\k40}gyut{\k17}to {\k37}wa{\k18}o {\k36}wa{\k36}o {\k18}da{\k18}ki{\k19}shi{\k18}me{\k32}te
+Comment: 0,0:02:03.62,0:02:06.86,Printemps,,0,0,0,karaoke,{\k21}ki{\k14}mi {\k19}wo {\k37}zut{\k18}to {\k37}zut{\k30}to {\k22}su{\k19}ki{\k19}na {\k17}ko{\k71}to
+Comment: 0,0:02:07.25,0:02:09.93,Printemps,,0,0,0,karaoke,{\k18}o{\k17}shi{\k20}e{\k18}ru {\k54}yo {\k37}shi{\k37}n{\k34}ji{\k33}te
+Comment: 0,0:02:09.98,0:02:12.29,Printemps,,0,0,0,karaoke,{\k36}wa{\k18}o {\k37}wa{\k36}o {\k17}yu{\k20}me {\k17}ja{\k18}na{\k32}ku
+Comment: 0,0:02:12.34,0:02:15.16,Printemps,,0,0,0,karaoke,{\k36}gyut{\k19}to {\k35}wa{\k20}o {\k35}wa{\k36}o {\k17}da{\k21}ki{\k19}shi{\k18}me{\k26}te
+Comment: 0,0:02:15.22,0:02:18.47,Printemps,,0,0,0,karaoke,{\k22}ki{\k18}mi {\k18}wo {\k36}zut{\k19}to {\k36}zut{\k36}to {\k18}su{\k19}ki{\k16}na {\k20}ko{\k67}to
+Comment: 0,0:02:18.87,0:02:21.59,Printemps,,0,0,0,karaoke,{\k19}o{\k18}shi{\k19}e{\k21}ru {\k50}yo {\k30}i{\k45}ma {\k33}su{\k37}gu
+Comment: 0,0:02:23.05,0:02:25.59,Printemps,,0,0,0,karaoke,{\k17}a{\k22}i{\k36}tai {\k10}a{\k27}i{\k36}tai {\k9}a{\k28}i {\k16}ni {\k19}i{\k34}kou
+Comment: 0,0:02:25.98,0:02:28.63,Printemps,,0,0,0,karaoke,{\k11}a{\k26}i{\k36}tai {\k10}a{\k26}i{\k37}tai {\k17}BE {\k20}MY {\k36}BA{\k46}BY
+Comment: 0,0:02:28.87,0:02:31.39,Printemps,,0,0,0,karaoke,{\k18}a{\k21}i{\k36}tai {\k18}a{\k18}i{\k28}tai {\k18}a{\k27}i {\k18}ni {\k18}i{\k32}kou
+Comment: 0,0:02:31.72,0:02:34.78,Printemps,,0,0,0,karaoke,{\k17}a{\k27}i{\k36}tai {\k11}a{\k27}i{\k36}tai {\k37}mat{\k17}te {\k18}na{\k80}sai
+Comment: 0,0:02:47.76,0:02:50.78,Printemps,,0,0,0,karaoke,{\k24}ki{\k16}mi {\k36}ni {\k35}ton{\k21}de{\k16}ke {\k18}su{\k20}ki {\k17}su{\k19}ki {\k10}pu{\k28}wa {\k16}pu{\k26}wa
+Comment: 0,0:02:53.05,0:02:55.82,Printemps,,0,0,0,karaoke,{\k19}so{\k20}shi{\k18}te {\k36}wa{\k18}o {\k37}wa{\k36}o {\k18}yu{\k18}me {\k19}ja{\k18}na{\k20}ku
+Comment: 0,0:02:55.97,0:02:58.66,Printemps,,0,0,0,karaoke,{\k19}gyu{\k19}t{\k18}to {\k36}wa{\k18}o {\k37}wa{\k36}o {\k17}da{\k15}ki{\k22}shi{\k18}me{\k14}te
+Comment: 0,0:02:58.87,0:03:01.96,Printemps,,0,0,0,karaoke,{\k20}ki{\k15}mi {\k22}wo {\k35}zut{\k21}to {\k34}zut{\k38}to {\k18}su{\k17}ki{\k19}na {\k18}ko{\k52}to
+Comment: 0,0:03:02.53,0:03:05.30,Printemps,,0,0,0,karaoke,{\k18}o{\k18}shi{\k19}e{\k18}ru {\k54}yo {\k36}shin{\k36}ji{\k36}te {\k42}yo
+Comment: 0,0:03:05.24,0:03:07.57,Printemps,,0,0,0,karaoke,{\k38}wa{\k18}o {\k36}wa{\k36}o {\k18}yu{\k20}me {\k18}ja{\k17}na{\k32}ku
+Comment: 0,0:03:07.62,0:03:10.34,Printemps,,0,0,0,karaoke,{\k34}gyut{\k20}to {\k37}wa{\k19}o {\k35}wa{\k36}o {\k17}da{\k19}ki{\k19}shi{\k18}me{\k18}te
+Comment: 0,0:03:10.50,0:03:13.60,Printemps,,0,0,0,karaoke,{\k22}ki{\k17}mi {\k17}wo {\k37}zut{\k20}to {\k35}zut{\k36}to {\k19}su{\k17}ki{\k19}na {\k18}ko{\k53}to
+Comment: 0,0:03:14.14,0:03:18.03,Printemps,,0,0,0,karaoke,{\k20}o{\k18}shi{\k20}e{\k17}ru {\k54}yo {\k37}shin{\k36}ji{\k37}te {\k36}P{\kf114}LEASE
+Comment: 0,0:03:18.34,0:03:19.54,Printemps,,0,0,0,karaoke,{\k16}fu{\k22}shi{\k16}gi {\k18}da{\k48}yo
+Comment: 0,0:03:19.79,0:03:24.87,Printemps,,0,0,0,karaoke,{\k18}su{\k20}ki {\k17}su{\k91}ki {\k14}pu{\k23}wa {\k18}pu{\k91}wa {\k17}su{\k19}ki {\k18}su{\k91}ki {\k13}pu{\k23}wa {\k18}pu{\k17}wa
+Comment: 0,0:03:20.51,0:03:22.70,PrintempsChoir,,0,0,0,karaoke,{\k18}su{\k18}ki {\k19}su{\k91}ki {\k18}pu{\k18}wa {\k18}pu{\k47}wa
+Comment: 0,0:03:25.59,0:03:29.98,Printemps,,0,0,0,karaoke,{\k20}KI{\k19}SS {\k19}KI{\k89}SS {\k17}pu{\k21}wa {\k14}pu{\k93}wa {\k18}KI{\k20}SS {\k18}KI{\k91}SS
+Comment: 0,0:03:26.34,0:03:28.54,PrintempsChoir,,0,0,0,karaoke,{\k18}KI{\k18}SS {\k19}KI{\k91}SS {\k18}pu{\k18}wa {\k18}pu{\k47}wa
+Comment: 0,0:03:29.98,0:03:31.45,Printemps,,0,0,0,karaoke,{\k15}pu{\k21}wa {\k16}pu{\k20}wa {\k19}ku{\k17}da{\k39}sai
+Dialogue: 0,0:00:02.50,0:00:06.63,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ki{\k18}mi {\k36}ni {\k37}ton{\k19}de{\k18}ke {\k14}su{\k22}ki {\k15}su{\k19}ki {\k14}pu{\k23}wa {\k18}pu{\k28}wa
+Dialogue: 0,0:00:11.25,0:00:16.73,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k19}su{\k18}ki {\k18}su{\k90}ki {\k19}pu{\k19}wa {\k15}pu{\k94}wa {\k18}su{\k18}ki {\k17}su{\k93}ki
+Dialogue: 0,0:00:15.63,0:00:18.14,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k16}pu{\k20}wa {\k16}pu{\k20}wa {\k19}shi{\k17}cha{\k33}ou
+Dialogue: 0,0:00:17.44,0:00:21.05,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k18}a{\k18}i{\k20}ta{\k35}ku {\k28}na{\k27}ru {\k17}na{\k19}ru {\k37}BA{\k32}BY
+Dialogue: 0,0:00:20.00,0:00:23.36,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k15}su{\k21}ki {\k17}su{\k91}ki {\k11}pu{\k26}wa {\k18}pu{\k27}wa
+Dialogue: 0,0:00:23.26,0:00:26.91,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k18}a{\k18}i{\k20}ta{\k36}i {\k27}tsu{\k27}ba{\k16}sa {\k20}ga {\k36}byun {\k37}byun
+Dialogue: 0,0:00:25.81,0:00:29.45,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k37}mot{\k35}to {\k37}byun {\k37}byun {\k36}ha{\k36}ya{\k36}ku
+Dialogue: 0,0:00:28.71,0:00:34.18,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k19}su{\k18}ki {\k17}su{\k91}ki {\k13}pu{\k24}wa {\k18}pu{\k91}wa {\k18}su{\k19}ki {\k17}su{\k92}ki
+Dialogue: 0,0:00:29.44,0:00:33.01,PrintempsChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}su{\k18}ki {\k19}su{\k91}ki {\k18}pu{\k18}wa {\k18}pu{\k47}wa
+Dialogue: 0,0:00:33.08,0:00:35.59,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k12}pu{\k24}wa {\k18}pu{\k18}wa {\k18}shi{\k19}cha{\k32}ou
+Dialogue: 0,0:00:34.35,0:00:40.72,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k18}wa{\k55}ta{\k18}shi {\k56}wo {\k17}mi{\k52}tsu{\k21}ke{\k36}ta{\k36}ra {\k35}tsu{\k38}ka{\k37}ma{\k36}e{\k72}te
+Dialogue: 0,0:00:38.90,0:00:41.44,PrintempsChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k10}pu{\k27}wa {\k17}pu{\k18}wa {\k10}pu{\k28}wa {\k16}pu{\k18}wa
+Dialogue: 0,0:00:40.18,0:00:46.72,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k18}o{\k54}o{\k18}zo{\k55}ra {\k18}ka{\k55}ke{\k18}me{\k36}gu{\k36}ru {\k37}ko{\k36}i{\k37}go{\k36}ko{\k90}ro
+Dialogue: 0,0:00:44.72,0:00:47.22,PrintempsChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k10}pu{\k27}wa {\k17}pu{\k20}wa {\k10}pu{\k25}wa {\k13}pu{\k18}wa
+Dialogue: 0,0:00:46.17,0:00:51.56,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k19}se{\k18}ka{\k18}i{\k18}ju{\k18}u {\k36}de {\k37}tat{\k35}ta {\k17}hi{\k22}to{\k17}tsu {\k18}no {\kf144}LOVE
+Dialogue: 0,0:00:50.87,0:00:52.72,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k31}OH {\k44}YES
+Dialogue: 0,0:00:51.41,0:00:55.26,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k20}da{\k17}ka{\k20}ra {\k36}wa{\k20}o {\k34}wa{\k30}o {\k18}yu{\k26}me {\k19}na{\k17}ra{\k18}ba
+Dialogue: 0,0:00:54.32,0:00:58.19,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ne {\k18}ne {\k19}ne {\k37}wa{\k17}o {\k37}wa{\k36}o {\k19}sa{\k17}me{\k19}na{\k18}i{\k19}de
+Dialogue: 0,0:00:57.23,0:01:01.58,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ki{\k17}mi {\k19}wo {\k36}zut{\k20}to {\k35}zut{\k37}to {\k15}su{\k20}ki {\k19}na{\k18}n{\k68}da
+Dialogue: 0,0:01:00.95,0:01:04.70,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k13}fu{\k17}shi{\k19}gi {\k17}da{\k56}yo {\k37}i{\k34}tsu {\k37}ka{\k16}ra
+Dialogue: 0,0:01:03.53,0:01:06.91,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k45}wa{\k19}o {\k35}wa{\k38}o {\k18}yu{\k18}me {\k19}na{\k17}ra{\k19}ba
+Dialogue: 0,0:01:05.97,0:01:09.94,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ne {\k19}ne {\k17}ne {\k37}wa{\k18}o {\k36}wa{\k38}o {\k16}sa{\k20}me{\k18}na{\k17}i{\k31}de
+Dialogue: 0,0:01:08.90,0:01:13.09,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ki{\k18}mi {\k19}wo {\k34}zut{\k20}to {\k36}zut{\k32}to {\k21}su{\k19}ki {\k19}na{\k19}n{\k54}da
+Dialogue: 0,0:01:12.48,0:01:16.29,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k23}fu{\k20}shi{\k17}gi {\k18}da{\k55}yo {\k36}na{\k35}n{\k37}de {\k30}da
+Dialogue: 0,0:01:15.25,0:01:20.72,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k19}su{\k18}ki {\k17}su{\k91}ki {\k13}pu{\k24}wa {\k18}pu{\k91}wa {\k18}su{\k19}ki {\k17}su{\k92}ki
+Dialogue: 0,0:01:15.98,0:01:19.43,PrintempsChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k19}su{\k17}ki {\k19}su{\k91}ki {\k18}pu{\k18}wa {\k20}pu{\k33}wa
+Dialogue: 0,0:01:19.62,0:01:22.10,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k12}pu{\k24}wa {\k18}pu{\k18}wa {\k18}shi{\k19}cha{\k32}ou
+Dialogue: 0,0:01:22.89,0:01:26.47,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k17}hi{\k20}to{\k19}ri {\k37}wa {\k35}i{\k18}ya {\k15}i{\k21}ya {\k37}BA{\k29}BY
+Dialogue: 0,0:01:25.43,0:01:28.79,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k20}KI{\k16}SS {\k19}KI{\k92}SS {\k14}pu{\k22}wa {\k16}pu{\k27}wa
+Dialogue: 0,0:01:28.71,0:01:34.91,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k17}hi{\k21}to{\k19}ri {\k34}ja {\k38}na{\k18}mi{\k19}da {\k15}ga {\k38}jun{\k36}jun {\k37}hop{\k36}pe {\k36}jun{\k37}jun {\k36}na{\k37}ga{\k36}re
+Dialogue: 0,0:01:34.15,0:01:39.62,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k19}KI{\k18}SS {\k17}KI{\k91}SS {\k13}pu{\k24}wa {\k18}pu{\k91}wa {\k18}KI{\k19}SS {\k17}KI{\k92}SS
+Dialogue: 0,0:01:34.90,0:01:38.26,PrintempsChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}KI{\k18}SS {\k19}KI{\k91}SS {\k18}pu{\k18}wa {\k18}pu{\k26}wa
+Dialogue: 0,0:01:38.52,0:01:41.02,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k12}pu{\k24}wa {\k18}pu{\k18}wa {\k18}ku{\k19}da{\k32}sai
+Dialogue: 0,0:01:39.80,0:01:46.48,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k19}wa{\k53}ta{\k20}shi {\k54}wa {\k19}a{\k55}i {\k18}no {\k35}na{\k37}ka {\k36}o{\k36}yo{\k38}i{\k36}de{\k102}ru
+Dialogue: 0,0:01:44.36,0:01:46.90,PrintempsChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k10}pu{\k26}wa {\k18}pu{\k18}wa {\k11}pu{\k26}wa {\k17}pu{\k18}wa
+Dialogue: 0,0:01:45.62,0:01:52.33,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ku{\k51}ru{\k20}shi{\k49}ku {\k25}sa{\k54}se{\k18}na{\k37}i {\k36}de {\k36}ko{\k36}i{\k37}go{\k37}ko{\k105}ro
+Dialogue: 0,0:01:50.17,0:01:52.71,PrintempsChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k9}pu{\k27}wa {\k13}pu{\k24}wa {\k10}pu{\k26}wa {\k13}pu{\k22}wa
+Dialogue: 0,0:01:51.61,0:01:56.73,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k19}se{\k19}ka{\k18}i{\k19}ju{\k18}u {\k36}de {\k36}tat{\k32}ta {\k23}hi{\k21}to{\k16}ri {\k16}no {\kf129}YOU
+Dialogue: 0,0:01:56.26,0:01:58.33,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k37}OH {\k60}YES
+Dialogue: 0,0:01:56.88,0:02:00.72,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k19}so{\k19}shi{\k18}te {\k35}wa{\k19}o {\k35}wa{\k37}o {\k20}yu{\k17}me {\k19}ja{\k16}na{\k20}ku
+Dialogue: 0,0:01:59.78,0:02:03.77,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k40}gyut{\k17}to {\k37}wa{\k18}o {\k36}wa{\k36}o {\k18}da{\k18}ki{\k19}shi{\k18}me{\k32}te
+Dialogue: 0,0:02:02.72,0:02:07.06,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ki{\k14}mi {\k19}wo {\k37}zut{\k18}to {\k37}zut{\k30}to {\k22}su{\k19}ki{\k19}na {\k17}ko{\k71}to
+Dialogue: 0,0:02:06.35,0:02:10.13,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k18}o{\k17}shi{\k20}e{\k18}ru {\k54}yo {\k37}shi{\k37}n{\k34}ji{\k33}te
+Dialogue: 0,0:02:09.08,0:02:12.49,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k36}wa{\k18}o {\k37}wa{\k36}o {\k17}yu{\k20}me {\k17}ja{\k18}na{\k32}ku
+Dialogue: 0,0:02:11.44,0:02:15.36,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k36}gyut{\k19}to {\k35}wa{\k20}o {\k35}wa{\k36}o {\k17}da{\k21}ki{\k19}shi{\k18}me{\k26}te
+Dialogue: 0,0:02:14.32,0:02:18.67,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ki{\k18}mi {\k18}wo {\k36}zut{\k19}to {\k36}zut{\k36}to {\k18}su{\k19}ki{\k16}na {\k20}ko{\k67}to
+Dialogue: 0,0:02:17.97,0:02:21.79,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k19}o{\k18}shi{\k19}e{\k21}ru {\k50}yo {\k30}i{\k45}ma {\k33}su{\k37}gu
+Dialogue: 0,0:02:22.15,0:02:25.79,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k17}a{\k22}i{\k36}tai {\k10}a{\k27}i{\k36}tai {\k9}a{\k28}i {\k16}ni {\k19}i{\k34}kou
+Dialogue: 0,0:02:25.08,0:02:28.83,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k11}a{\k26}i{\k36}tai {\k10}a{\k26}i{\k37}tai {\k17}BE {\k20}MY {\k36}BA{\k46}BY
+Dialogue: 0,0:02:27.97,0:02:31.59,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k18}a{\k21}i{\k36}tai {\k18}a{\k18}i{\k28}tai {\k18}a{\k27}i {\k18}ni {\k18}i{\k32}kou
+Dialogue: 0,0:02:30.82,0:02:34.98,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k17}a{\k27}i{\k36}tai {\k11}a{\k27}i{\k36}tai {\k37}mat{\k17}te {\k18}na{\k80}sai
+Dialogue: 0,0:02:46.86,0:02:50.98,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ki{\k16}mi {\k36}ni {\k35}ton{\k21}de{\k16}ke {\k18}su{\k20}ki {\k17}su{\k19}ki {\k10}pu{\k28}wa {\k16}pu{\k26}wa
+Dialogue: 0,0:02:52.15,0:02:56.02,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k19}so{\k20}shi{\k18}te {\k36}wa{\k18}o {\k37}wa{\k36}o {\k18}yu{\k18}me {\k19}ja{\k18}na{\k20}ku
+Dialogue: 0,0:02:55.07,0:02:58.86,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k19}gyu{\k19}t{\k18}to {\k36}wa{\k18}o {\k37}wa{\k36}o {\k17}da{\k15}ki{\k22}shi{\k18}me{\k14}te
+Dialogue: 0,0:02:57.97,0:03:02.16,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ki{\k15}mi {\k22}wo {\k35}zut{\k21}to {\k34}zut{\k38}to {\k18}su{\k17}ki{\k19}na {\k18}ko{\k52}to
+Dialogue: 0,0:03:01.63,0:03:05.50,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k18}o{\k18}shi{\k19}e{\k18}ru {\k54}yo {\k36}shin{\k36}ji{\k36}te {\k42}yo
+Dialogue: 0,0:03:04.34,0:03:07.77,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k38}wa{\k18}o {\k36}wa{\k36}o {\k18}yu{\k20}me {\k18}ja{\k17}na{\k32}ku
+Dialogue: 0,0:03:06.72,0:03:10.54,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k34}gyut{\k20}to {\k37}wa{\k19}o {\k35}wa{\k36}o {\k17}da{\k19}ki{\k19}shi{\k18}me{\k18}te
+Dialogue: 0,0:03:09.60,0:03:13.80,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ki{\k17}mi {\k17}wo {\k37}zut{\k20}to {\k35}zut{\k36}to {\k19}su{\k17}ki{\k19}na {\k18}ko{\k53}to
+Dialogue: 0,0:03:13.24,0:03:18.23,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k20}o{\k18}shi{\k20}e{\k17}ru {\k54}yo {\k37}shin{\k36}ji{\k37}te {\k36}P{\kf114}LEASE
+Dialogue: 0,0:03:17.44,0:03:19.74,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k16}fu{\k22}shi{\k16}gi {\k18}da{\k48}yo
+Dialogue: 0,0:03:18.89,0:03:25.07,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k18}su{\k20}ki {\k17}su{\k91}ki {\k14}pu{\k23}wa {\k18}pu{\k91}wa {\k17}su{\k19}ki {\k18}su{\k91}ki {\k13}pu{\k23}wa {\k18}pu{\k17}wa
+Dialogue: 0,0:03:19.61,0:03:22.90,PrintempsChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}su{\k18}ki {\k19}su{\k91}ki {\k18}pu{\k18}wa {\k18}pu{\k47}wa
+Dialogue: 0,0:03:24.69,0:03:30.18,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k20}KI{\k19}SS {\k19}KI{\k89}SS {\k17}pu{\k21}wa {\k14}pu{\k93}wa {\k18}KI{\k20}SS {\k18}KI{\k91}SS
+Dialogue: 0,0:03:25.44,0:03:28.74,PrintempsChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}KI{\k18}SS {\k19}KI{\k91}SS {\k18}pu{\k18}wa {\k18}pu{\k47}wa
+Dialogue: 0,0:03:29.08,0:03:31.65,Printemps,,0,0,0,fx,{\k90\fad(300,200)}{\k15}pu{\k21}wa {\k16}pu{\k20}wa {\k19}ku{\k17}da{\k39}sai
