@@ -1,0 +1,186 @@
+﻿[Script Info]
+Title: My Stage
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Sodachi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Choir],Arial,24,&H00FFFFFF,&H001819FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: Tsubame,Arial,24,&H00EE3D86,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:20.63,0:00:22.18,Tsubame,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:11.95,0:00:17.61,Tsubame,,0,0,0,karaoke,{\kf312}Eh {\k46}Ye{\kf208}ah~
+Comment: 0,0:00:20.82,0:00:24.51,Tsubame,,0,0,0,karaoke,{\kf91}mh{\kf6} {\k25}ko{\k18}yo{\k15}i {\k23}mo {\k11}ma{\k27}ku{\k11}a{\k26}ke{\k16} ma{\k25}sho{\k11}u {\k64}ka
+Comment: 0,0:00:24.86,0:00:27.72,Tsubame,,0,0,0,karaoke,{\k19}ka{\k25}re{\k14}i {\k26}ni {\k17}ma{\k18}u {\k16}no {\k26}sa {\k14}hi{\k22}ra {\k14}hi{\k75}ra
+Comment: 0,0:00:28.00,0:00:30.52,Tsubame,,0,0,0,karaoke,{\k16}is{\k23}shun {\k12}ta{\k23}ri {\k16}to{\k24}mo {\k13}no{\k25}ga{\k13}sa{\k26}na{\k14}i {\k47}wa
+Comment: 0,0:00:30.82,0:00:33.89,Tsubame,,0,0,0,karaoke,{\k60}No {\k52}no {\k62}no {\k56}I'm {\k77}proud
+Comment: 0,0:00:34.11,0:00:36.92,Tsubame,,0,0,0,karaoke,{\k15}na{\k26}ki{\k13}go{\k26}to {\k13}ni {\k20}wa {\k20}ka{\k22}ma{\k12}e{\k31}na{\k11}i {\k72}wa
+Comment: 0,0:00:37.22,0:00:40.01,Tsubame,,0,0,0,karaoke,{\k14}ji{\k24}n{\k16}se{\k21}i {\k16}ta{\k38}yas' {\k25}ku{\k13}na{\k23}i {\k17}ka{\k72}ra
+Comment: 0,0:00:40.26,0:00:42.87,Tsubame,,0,0,0,karaoke,{\k21}hon{\k20}mo{\k16}no {\k21}no {\k17}a{\k26}ji {\k13}wa {\k25}do{\k15}n{\k22}na{\k14}n {\k51}ka
+Comment: 0,0:00:43.12,0:00:47.30,Tsubame,,0,0,0,karaoke,{\k79}ki{\k60}mi {\k16}mo {\k39}shi{\k37}ri{\k39}ta{\k45}ku{\kf103}nai
+Comment: 0,0:00:47.79,0:00:50.18,Tsubame,,0,0,0,karaoke,{\k28}ji{\k24}bun {\k20}da{\k34}ke {\k21}no {\k23}mo{\k89}no
+Comment: 0,0:00:50.57,0:00:52.90,Tsubame,,0,0,0,karaoke,{\k26}o{\k28}so{\k25}re{\k19}zu {\k33}en{\k27}ji{\k15}ru {\k60}no
+Comment: 0,0:00:53.37,0:00:56.86,Tsubame,,0,0,0,karaoke,{\k14}mi{\k23}chi{\k39}bii{\k36}te {\k37}k're{\k38}ru {\k41}SPO{\k14}T{\kf107}LIGHT
+Comment: 0,0:00:57.70,0:01:00.99,Tsubame,,0,0,0,karaoke,{\k31}ko{\k11}no {\k25}ka{\k13}wa{\k118}ki {\k21}'ru{\k40}o{\k35}shi{\k35}te
+Comment: 0,0:01:01.18,0:01:04.05,Tsubame,,0,0,0,karaoke,{\k28}ha{\k36}na{\k12}ya{\k27}ka {\k12}ni {\k26}'ro{\k10}do{\k30}ru {\k36}ra{\k40}ku{\k30}en
+Comment: 0,0:01:04.23,0:01:05.87,Tsubame,,0,0,0,karaoke,{\k33}is{\k35}sho {\k12}ni {\k22}ku{\k16}ru {\k26}na{\k15}ra
+Comment: 0,0:01:06.10,0:01:08.52,Tsubame,,0,0,0,karaoke,{\k36}yu{\k15}me {\k27}wo {\k11}mi{\k23}sa{\k13}set' {\k27}a{\k11}ge{\k40}ru {\k39}wa
+Comment: 0,0:01:08.90,0:01:10.79,Tsubame,,0,0,0,karaoke,{\k36}ta{\k40}ka{\k37}ra{\k42}ka {\k34}ni
+Comment: 0,0:01:10.82,0:01:14.88,Tsubame,,0,0,0,karaoke,{\kf168}Oh{\kf24} {\k40}Oh {\k38}Oh {\k38}Oh {\kf98}Oh
+Comment: 0,0:01:15.04,0:01:16.67,Tsubame,,0,0,0,karaoke,{\k29}sa{\k38}a {\k37}yu{\k39}ko{\k20}u
+Comment: 0,0:01:16.97,0:01:19.65,Tsubame,,0,0,0,karaoke,{\k25}se{\k14}ka{\k27}i{\k11}ju{\k26}u {\k13}ka{\k26}ra {\k12}u{\k24}ba{\k15}i{\k37}tot{\k38}te
+Comment: 0,0:01:20.01,0:01:22.78,Tsubame,,0,0,0,karaoke,{\k28}hon{\k14}ki {\k25}ja{\k14}na{\k26}i {\k12}na{\k28}ra {\k13}ja{\k26}ma {\k11}shi{\k36}nai{\k44}de
+Comment: 0,0:01:23.12,0:01:26.92,Tsubame,,0,0,0,karaoke,{\kf193}Oh {\k39}Oh {\k37}Oh {\k40}Oh {\k71}Oh
+Comment: 0,0:01:27.26,0:01:30.02,Tsubame,,0,0,0,karaoke,{\k35}sai{\k41}go {\k11}ni {\k24}wa{\k38}rau {\k15}no {\k23}wa{\k39}ta{\k50}shi
+Comment: 0,0:01:29.66,0:01:30.96,Sample KM [Choir],,0,0,0,karaoke,{\k26}wa{\k35}ta{\k61}shi
+Comment: 0,0:01:30.43,0:01:31.60,Tsubame,,0,0,0,karaoke,{\k25}wa{\k39}ta{\k53}shi
+Comment: 0,0:01:31.19,0:01:32.32,Sample KM [Choir],,0,0,0,karaoke,{\k27}wa{\k35}ta{\k51}shi
+Comment: 0,0:01:31.96,0:01:36.04,Tsubame,,0,0,0,karaoke,{\k26}te {\k13}ni {\k26}shi{\k14}te {\k20}mo{\k20}ya{\k22}shi{\k13}te {\k26}kan{\k15}tan {\k25}ni {\k14}yu{\k38}zu{\k40}ra{\kf96}nai
+Comment: 0,0:01:37.20,0:01:38.48,Tsubame,,0,0,0,karaoke,{\k20}kon{\k17}nan {\k15}ja {\k25}ta{\k17}ri{\k34}nai
+Comment: 0,0:01:40.26,0:01:41.54,Tsubame,,0,0,0,karaoke,{\k15}han{\k22}pa {\k22}wa {\k19}i{\k15}ra{\k35}nai
+Comment: 0,0:01:43.92,0:01:47.58,Tsubame,,0,0,0,karaoke,{\k69}YEAH {\k30}ko{\k31}ko {\k18}wa{\k28}ta{\k21}shi {\k28}no {\k78}STAGE {\k63}GO!
+Comment: 0,0:01:47.99,0:01:50.81,Tsubame,,0,0,0,karaoke,{\k13}zo{\k25}ku{\k14}zo{\k24}ku {\k15}su{\k24}ru {\k15}you{\k22}na {\k18}ke{\k19}shi{\k18}ki {\k75}wa
+Comment: 0,0:01:51.13,0:01:53.87,Tsubame,,0,0,0,karaoke,{\k12}ku{\k25}se {\k11}ni {\k25}nat{\k14}te {\k24}ya{\k13}me{\k24}ra{\k15}re{\k37}nai {\k68}wa
+Comment: 0,0:01:54.18,0:01:56.61,Tsubame,,0,0,0,karaoke,{\k36}dou{\k17}se {\k36}un{\k26}me{\k12}i {\k24}no {\k10}i{\k26}ta{\k15}zu{\k41}ra?
+Comment: 0,0:01:56.98,0:02:00.36,Tsubame,,0,0,0,karaoke,{\k62}No {\k53}no {\k61}no {\k55}I'm {\kf107}proud
+Comment: 0,0:02:01.43,0:02:03.67,Tsubame,,0,0,0,karaoke,{\k28}na{\k25}ni {\k18}ga {\k23}ta{\k30}da{\k25}shii {\k21}to{\k54}ka
+Comment: 0,0:02:04.54,0:02:07.16,Tsubame,,0,0,0,karaoke,{\k16}da{\k12}re{\k23}ka {\k21}to {\k20}ku{\k33}ra{\k18}be{\k22}ru {\k63}to{\k34}ka
+Comment: 0,0:02:08.55,0:02:10.96,Tsubame,,0,0,0,karaoke,{\k21}ne{\k54}e {\k27}ko{\k16}k{\k19}ke{\k13}i {\k57}da{\k34}wa
+Comment: 0,0:02:11.61,0:02:14.76,Tsubame,,0,0,0,karaoke,{\k23}sa{\k15}me{\k23}sa{\k13}se{\k114}nai {\k31}ko{\k35}no {\k36}ne{\k25}tsu
+Comment: 0,0:02:15.09,0:02:17.86,Tsubame,,0,0,0,karaoke,{\k26}mo{\k37}t{\k12}to {\k25}mo{\k12}t{\k23}to {\k16}a{\k18}tsu{\k44}ku {\k37}shi{\k27}te
+Comment: 0,0:02:18.14,0:02:19.69,Tsubame,,0,0,0,karaoke,{\k22}zet{\k35}ta{\k19}i {\k24}yu{\k14}ru{\k23}ga{\k18}nai
+Comment: 0,0:02:19.93,0:02:22.38,Tsubame,,0,0,0,karaoke,{\k38}da{\k13}re {\k23}ni {\k12}mo {\k25}ke{\k15}sa{\k23}se{\k15}na{\k38}i {\k43}no
+Comment: 0,0:02:22.71,0:02:24.66,Tsubame,,0,0,0,karaoke,{\k41}da{\k36}i{\k38}ta{\k40}n {\k40}ni
+Comment: 0,0:02:24.66,0:02:28.66,Tsubame,,0,0,0,karaoke,{\kf163}Oh{\kf29} {\k40}Oh {\k38}Oh {\k46}Oh {\k84}Oh
+Comment: 0,0:02:28.80,0:02:30.56,Tsubame,,0,0,0,karaoke,{\k38}so{\k39}zo{\k33}o {\k37}shi{\k29}te
+Comment: 0,0:02:30.82,0:02:33.47,Tsubame,,0,0,0,karaoke,{\k27}ryo{\k12}u{\k27}te {\k12}na{\k25}ra{\k12}se {\k28}RHY{\k13}TH{\k19}MI{\k18}CA{\k38}L {\k34}ni
+Comment: 0,0:02:33.88,0:02:36.72,Tsubame,,0,0,0,karaoke,{\k27}hi{\k12}bi{\k26}ka{\k13}se{\k25}te {\k14}wa{\k26}ta{\k12}shi {\k26}no {\k13}ME{\k37}LO{\k53}DY
+Comment: 0,0:02:36.97,0:02:40.79,Tsubame,,0,0,0,karaoke,{\kf193}Oh {\k38}Oh {\k39}Oh {\k39}Oh {\k73}Oh
+Comment: 0,0:02:41.11,0:02:45.47,Tsubame,,0,0,0,karaoke,{\k38}chou{\k41}jo{\k32}u {\k39}dat{\k12}te {\k27}ko{\k32}e{\k95}te {\k27}ko{\k38}e{\k55}te
+Comment: 0,0:02:43.50,0:02:44.87,Sample KM [Choir],,0,0,0,karaoke,{\k26}ko{\k34}e{\k77}te
+Comment: 0,0:02:45.02,0:02:46.24,Sample KM [Choir],,0,0,0,karaoke,{\k30}ko{\k31}e{\k61}te
+Comment: 0,0:02:45.82,0:02:50.25,Tsubame,,0,0,0,karaoke,{\k26}ho{\k13}ra {\k24}ho{\k14}shi{\k24}ku {\k12}na{\k27}ru {\k13}de{\k25}sho {\k14}ko{\k28}ko {\k12}ma{\k26}de {\k13}o{\k41}i{\kf131}de
+Comment: 0,0:02:55.55,0:03:00.04,Tsubame,,0,0,0,karaoke,{\kf0}{\kf449}Ah~
+Comment: 0,0:03:00.41,0:03:01.49,Tsubame,,0,0,0,karaoke,{\kf0}{\kf108}Oh~
+Comment: 0,0:03:01.59,0:03:03.21,Tsubame,,0,0,0,karaoke,{\k28}ke{\k10}da{\k26}ka{\k14}ku {\k23}ke{\k15}da{\k30}ka{\k8}ku
+Comment: 0,0:03:03.74,0:03:04.40,Tsubame,,0,0,0,karaoke,{\k38}Oh {\k28}Oh
+Comment: 0,0:03:04.64,0:03:05.44,Tsubame,,0,0,0,karaoke,{\k26}ke{\k15}da{\k25}ka{\k14}ku
+Comment: 0,0:03:06.22,0:03:08.48,Tsubame,,0,0,0,karaoke,{\k40}sai{\k38}jou {\k37}kyuu {\kf111}ni
+Comment: 0,0:03:07.72,0:03:09.25,Sample KM [Choir],,0,0,0,karaoke,{\k28}ke{\k12}da{\k24}ka{\k13}ku {\k26}ke{\k12}da{\k26}ka{\k12}ku
+Comment: 0,0:03:09.90,0:03:12.46,Tsubame,,0,0,0,karaoke,{\k39}Tu{\k39}-tu{\kf101} no{\k14} {\k63}hey
+Comment: 0,0:03:10.82,0:03:11.57,Sample KM [Choir],,0,0,0,karaoke,{\k26}ke{\k11}da{\k27}da{\k11}ku
+Comment: 0,0:03:12.76,0:03:15.06,Tsubame,,0,0,0,karaoke,{\k38}shin{\k23}ji{\k14}ru {\k39}ko{\kf116}to
+Comment: 0,0:03:15.82,0:03:18.61,Tsubame,,0,0,0,karaoke,{\k23}a{\k15}ki{\k36}ra{\k43}me{\k18}cha {\k16}i{\k29}ke{\k18}na{\k55}i {\k26}no
+Comment: 0,0:03:19.28,0:03:21.62,Tsubame,,0,0,0,karaoke,{\k36}saa {\k28}u{\k43}tai {\k30}tsu{\k32}zu{\k41}ke{\k28}you
+Comment: 0,0:03:21.96,0:03:25.21,Tsubame,,0,0,0,karaoke,{\k27}ta{\k18}to{\k21}e {\k36}ko{\k40}dok'{\k33}da {\k39}tosh'{\k38}te {\k73}mo
+Comment: 0,0:03:25.47,0:03:26.96,Tsubame,,0,0,0,karaoke,{\k25}da{\k14}i{\k20}jo{\k15}u{\k75}bu
+Comment: 0,0:03:27.34,0:03:28.69,Tsubame,,0,0,0,karaoke,{\k28}wa{\k39}ta{\k37}shi {\k31}ga
+Comment: 0,0:03:28.90,0:03:31.76,Tsubame,,0,0,0,karaoke,{\k26}ko{\k38}no {\k12}sa{\k24}ki {\k15}de {\k37}mat{\k26}te{\k35}ru {\k41}ka{\k32}ra
+Comment: 0,0:03:31.97,0:03:33.52,Tsubame,,0,0,0,karaoke,{\k27}is{\k35}sho {\k14}ni {\k23}ku{\k16}ru {\k21}na{\k19}ra
+Comment: 0,0:03:33.74,0:03:36.20,Tsubame,,0,0,0,karaoke,{\k39}yu{\k14}me {\k25}wo {\k15}mi{\k24}sa{\k12}set' {\k28}a{\k11}ge{\k40}ru {\k38}wa
+Comment: 0,0:03:36.58,0:03:38.46,Tsubame,,0,0,0,karaoke,{\k37}ta{\k42}ka{\k36}ra{\k41}ka {\k32}ni
+Comment: 0,0:03:38.50,0:03:42.59,Tsubame,,0,0,0,karaoke,{\kf194}Oh {\k38}Oh {\k38}Oh {\k39}Oh {\kf100}Oh
+Comment: 0,0:03:42.74,0:03:44.70,Tsubame,,0,0,0,karaoke,{\k28}sa{\k40}a {\k36}yu{\k38}ko{\k54}u
+Comment: 0,0:03:44.66,0:03:47.33,Sample KM [Choir],,0,0,0,karaoke,{\k24}se{\k16}ka{\k25}i{\k13}ju{\k22}u {\k16}ka{\k24}ra {\k15}u{\k21}ba{\k17}i{\k38}tot{\k36}te
+Comment: 0,0:03:45.66,0:03:46.59,Tsubame,,0,0,0,karaoke,{\k43}Oh {\k50}no
+Comment: 0,0:03:46.96,0:03:48.62,Tsubame,,0,0,0,karaoke,{\k27}u{\k13}ba{\k23}i{\k13}to{\k90}re
+Comment: 0,0:03:49.28,0:03:52.19,Tsubame,,0,0,0,karaoke,{\k78}Ah {\k74}Ah {\kf139}Ouh
+Comment: 0,0:03:52.60,0:03:54.86,Tsubame,,0,0,0,karaoke,{\k14}Tu{\k25}-ru{\k36}-tu{\k15}-ru{\k19}-ru {\kf117}ouh~
+Comment: 0,0:03:47.73,0:03:50.57,Sample KM [Choir],,0,0,0,karaoke,{\k25}ho{\k15}nki {\k25}ja{\k12}na{\k27}i {\k13}na{\k26}ra {\k12}ja{\k25}ma {\k14}shi{\k37}nai{\k53}de
+Comment: 0,0:03:50.81,0:03:54.66,Sample KM [Choir],,0,0,0,karaoke,{\kf194}Oh {\k38}Oh {\k38}Oh {\k39}Oh {\k64}Oh
+Comment: 0,0:03:54.95,0:03:57.73,Tsubame,,0,0,0,karaoke,{\k38}sai{\k38}go {\k12}ni {\k24}wa{\k40}rau {\k12}no {\k25}wa{\k40}ta{\k49}shi
+Comment: 0,0:03:57.36,0:03:58.45,Sample KM [Choir],,0,0,0,karaoke,{\k25}wa{\k37}ta{\k47}shi
+Comment: 0,0:03:58.12,0:03:59.32,Tsubame,,0,0,0,karaoke,{\k26}wa{\k40}ta{\k54}shi
+Comment: 0,0:03:58.89,0:04:00.03,Sample KM [Choir],,0,0,0,karaoke,{\k26}wa{\k37}ta{\k51}shi
+Comment: 0,0:03:59.66,0:04:04.78,Tsubame,,0,0,0,karaoke,{\k27}te {\k13}ni {\k24}shi{\k14}te {\k20}mo{\k19}ya{\k23}shi{\k12}te {\k28}kan{\k12}tan {\k24}ni {\k16}yu{\k43}zu{\k47}ra{\kf190}nai
+Dialogue: 0,0:00:11.05,0:00:17.81,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\kf312}Eh {\k46}Ye{\kf208}ah~
+Dialogue: 0,0:00:19.92,0:00:24.71,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\kf91}mh{\kf6} {\k25}ko{\k18}yo{\k15}i {\k23}mo {\k11}ma{\k27}ku{\k11}a{\k26}ke{\k16} ma{\k25}sho{\k11}u {\k64}ka
+Dialogue: 0,0:00:23.96,0:00:27.92,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ka{\k25}re{\k14}i {\k26}ni {\k17}ma{\k18}u {\k16}no {\k26}sa {\k14}hi{\k22}ra {\k14}hi{\k75}ra
+Dialogue: 0,0:00:27.10,0:00:30.72,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k16}is{\k23}shun {\k12}ta{\k23}ri {\k16}to{\k24}mo {\k13}no{\k25}ga{\k13}sa{\k26}na{\k14}i {\k47}wa
+Dialogue: 0,0:00:29.92,0:00:34.09,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k60}No {\k52}no {\k62}no {\k56}I'm {\k77}proud
+Dialogue: 0,0:00:33.21,0:00:37.12,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k15}na{\k26}ki{\k13}go{\k26}to {\k13}ni {\k20}wa {\k20}ka{\k22}ma{\k12}e{\k31}na{\k11}i {\k72}wa
+Dialogue: 0,0:00:36.32,0:00:40.21,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ji{\k24}n{\k16}se{\k21}i {\k16}ta{\k38}yas' {\k25}ku{\k13}na{\k23}i {\k17}ka{\k72}ra
+Dialogue: 0,0:00:39.36,0:00:43.07,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k21}hon{\k20}mo{\k16}no {\k21}no {\k17}a{\k26}ji {\k13}wa {\k25}do{\k15}n{\k22}na{\k14}n {\k51}ka
+Dialogue: 0,0:00:42.22,0:00:47.50,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k79}ki{\k60}mi {\k16}mo {\k39}shi{\k37}ri{\k39}ta{\k45}ku{\kf103}nai
+Dialogue: 0,0:00:46.89,0:00:50.38,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ji{\k24}bun {\k20}da{\k34}ke {\k21}no {\k23}mo{\k89}no
+Dialogue: 0,0:00:49.67,0:00:53.10,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k26}o{\k28}so{\k25}re{\k19}zu {\k33}en{\k27}ji{\k15}ru {\k60}no
+Dialogue: 0,0:00:52.47,0:00:57.06,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k14}mi{\k23}chi{\k39}bii{\k36}te {\k37}k're{\k38}ru {\k41}SPO{\k14}T{\kf107}LIGHT
+Dialogue: 0,0:00:56.80,0:01:01.19,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ko{\k11}no {\k25}ka{\k13}wa{\k118}ki {\k21}'ru{\k40}o{\k35}shi{\k35}te
+Dialogue: 0,0:01:00.28,0:01:04.25,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ha{\k36}na{\k12}ya{\k27}ka {\k12}ni {\k26}'ro{\k10}do{\k30}ru {\k36}ra{\k40}ku{\k30}en
+Dialogue: 0,0:01:03.33,0:01:06.07,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k33}is{\k35}sho {\k12}ni {\k22}ku{\k16}ru {\k26}na{\k15}ra
+Dialogue: 0,0:01:05.20,0:01:08.72,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k36}yu{\k15}me {\k27}wo {\k11}mi{\k23}sa{\k13}set' {\k27}a{\k11}ge{\k40}ru {\k39}wa
+Dialogue: 0,0:01:08.00,0:01:10.99,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k36}ta{\k40}ka{\k37}ra{\k42}ka {\k34}ni
+Dialogue: 0,0:01:09.92,0:01:15.08,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\kf168}Oh{\kf24} {\k40}Oh {\k38}Oh {\k38}Oh {\kf98}Oh
+Dialogue: 0,0:01:14.14,0:01:16.87,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k29}sa{\k38}a {\k37}yu{\k39}ko{\k20}u
+Dialogue: 0,0:01:16.07,0:01:19.85,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k25}se{\k14}ka{\k27}i{\k11}ju{\k26}u {\k13}ka{\k26}ra {\k12}u{\k24}ba{\k15}i{\k37}tot{\k38}te
+Dialogue: 0,0:01:19.11,0:01:22.98,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k28}hon{\k14}ki {\k25}ja{\k14}na{\k26}i {\k12}na{\k28}ra {\k13}ja{\k26}ma {\k11}shi{\k36}nai{\k44}de
+Dialogue: 0,0:01:22.22,0:01:27.12,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\kf193}Oh {\k39}Oh {\k37}Oh {\k40}Oh {\k71}Oh
+Dialogue: 0,0:01:26.36,0:01:30.22,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k35}sai{\k41}go {\k11}ni {\k24}wa{\k38}rau {\k15}no {\k23}wa{\k39}ta{\k50}shi
+Dialogue: 0,0:01:28.76,0:01:31.16,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}wa{\k35}ta{\k61}shi
+Dialogue: 0,0:01:29.53,0:01:31.80,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k25}wa{\k39}ta{\k53}shi
+Dialogue: 0,0:01:30.29,0:01:32.52,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k27}wa{\k35}ta{\k51}shi
+Dialogue: 0,0:01:31.06,0:01:36.24,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k26}te {\k13}ni {\k26}shi{\k14}te {\k20}mo{\k20}ya{\k22}shi{\k13}te {\k26}kan{\k15}tan {\k25}ni {\k14}yu{\k38}zu{\k40}ra{\kf96}nai
+Dialogue: 0,0:01:36.30,0:01:38.68,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k20}kon{\k17}nan {\k15}ja {\k25}ta{\k17}ri{\k34}nai
+Dialogue: 0,0:01:39.36,0:01:41.74,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k15}han{\k22}pa {\k22}wa {\k19}i{\k15}ra{\k35}nai
+Dialogue: 0,0:01:43.02,0:01:47.78,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k69}YEAH {\k30}ko{\k31}ko {\k18}wa{\k28}ta{\k21}shi {\k28}no {\k78}STAGE {\k63}GO!
+Dialogue: 0,0:01:47.09,0:01:51.01,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k13}zo{\k25}ku{\k14}zo{\k24}ku {\k15}su{\k24}ru {\k15}you{\k22}na {\k18}ke{\k19}shi{\k18}ki {\k75}wa
+Dialogue: 0,0:01:50.23,0:01:54.07,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ku{\k25}se {\k11}ni {\k25}nat{\k14}te {\k24}ya{\k13}me{\k24}ra{\k15}re{\k37}nai {\k68}wa
+Dialogue: 0,0:01:53.28,0:01:56.81,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k36}dou{\k17}se {\k36}un{\k26}me{\k12}i {\k24}no {\k10}i{\k26}ta{\k15}zu{\k41}ra?
+Dialogue: 0,0:01:56.08,0:02:00.56,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k62}No {\k53}no {\k61}no {\k55}I'm {\kf107}proud
+Dialogue: 0,0:02:00.53,0:02:03.87,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k28}na{\k25}ni {\k18}ga {\k23}ta{\k30}da{\k25}shii {\k21}to{\k54}ka
+Dialogue: 0,0:02:03.64,0:02:07.36,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k16}da{\k12}re{\k23}ka {\k21}to {\k20}ku{\k33}ra{\k18}be{\k22}ru {\k63}to{\k34}ka
+Dialogue: 0,0:02:07.65,0:02:11.16,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ne{\k54}e {\k27}ko{\k16}k{\k19}ke{\k13}i {\k57}da{\k34}wa
+Dialogue: 0,0:02:10.71,0:02:14.96,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k23}sa{\k15}me{\k23}sa{\k13}se{\k114}nai {\k31}ko{\k35}no {\k36}ne{\k25}tsu
+Dialogue: 0,0:02:14.19,0:02:18.06,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k26}mo{\k37}t{\k12}to {\k25}mo{\k12}t{\k23}to {\k16}a{\k18}tsu{\k44}ku {\k37}shi{\k27}te
+Dialogue: 0,0:02:17.24,0:02:19.89,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k22}zet{\k35}ta{\k19}i {\k24}yu{\k14}ru{\k23}ga{\k18}nai
+Dialogue: 0,0:02:19.03,0:02:22.58,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k38}da{\k13}re {\k23}ni {\k12}mo {\k25}ke{\k15}sa{\k23}se{\k15}na{\k38}i {\k43}no
+Dialogue: 0,0:02:21.81,0:02:24.86,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k41}da{\k36}i{\k38}ta{\k40}n {\k40}ni
+Dialogue: 0,0:02:23.76,0:02:28.86,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\kf163}Oh{\kf29} {\k40}Oh {\k38}Oh {\k46}Oh {\k84}Oh
+Dialogue: 0,0:02:27.90,0:02:30.76,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k38}so{\k39}zo{\k33}o {\k37}shi{\k29}te
+Dialogue: 0,0:02:29.92,0:02:33.67,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ryo{\k12}u{\k27}te {\k12}na{\k25}ra{\k12}se {\k28}RHY{\k13}TH{\k19}MI{\k18}CA{\k38}L {\k34}ni
+Dialogue: 0,0:02:32.98,0:02:36.92,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k27}hi{\k12}bi{\k26}ka{\k13}se{\k25}te {\k14}wa{\k26}ta{\k12}shi {\k26}no {\k13}ME{\k37}LO{\k53}DY
+Dialogue: 0,0:02:36.07,0:02:40.99,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\kf193}Oh {\k38}Oh {\k39}Oh {\k39}Oh {\k73}Oh
+Dialogue: 0,0:02:40.21,0:02:45.67,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k38}chou{\k41}jo{\k32}u {\k39}dat{\k12}te {\k27}ko{\k32}e{\k95}te {\k27}ko{\k38}e{\k55}te
+Dialogue: 0,0:02:42.60,0:02:45.07,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}ko{\k34}e{\k77}te
+Dialogue: 0,0:02:44.12,0:02:46.44,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k30}ko{\k31}e{\k61}te
+Dialogue: 0,0:02:44.92,0:02:50.45,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ho{\k13}ra {\k24}ho{\k14}shi{\k24}ku {\k12}na{\k27}ru {\k13}de{\k25}sho {\k14}ko{\k28}ko {\k12}ma{\k26}de {\k13}o{\k41}i{\kf131}de
+Dialogue: 0,0:02:54.65,0:03:00.24,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\kf0}{\kf449}Ah~
+Dialogue: 0,0:02:59.51,0:03:01.69,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\kf0}{\kf108}Oh~
+Dialogue: 0,0:03:00.69,0:03:03.41,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ke{\k10}da{\k26}ka{\k14}ku {\k23}ke{\k15}da{\k30}ka{\k8}ku
+Dialogue: 0,0:03:02.84,0:03:04.60,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Oh {\k28}Oh
+Dialogue: 0,0:03:03.74,0:03:05.64,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ke{\k15}da{\k25}ka{\k14}ku
+Dialogue: 0,0:03:05.32,0:03:08.68,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k40}sai{\k38}jou {\k37}kyuu {\kf111}ni
+Dialogue: 0,0:03:06.82,0:03:09.45,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k28}ke{\k12}da{\k24}ka{\k13}ku {\k26}ke{\k12}da{\k26}ka{\k12}ku
+Dialogue: 0,0:03:09.00,0:03:12.66,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k39}Tu{\k39}-tu{\kf101} no{\k14} {\k63}hey
+Dialogue: 0,0:03:09.92,0:03:11.77,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}ke{\k11}da{\k27}da{\k11}ku
+Dialogue: 0,0:03:11.86,0:03:15.26,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k38}shin{\k23}ji{\k14}ru {\k39}ko{\kf116}to
+Dialogue: 0,0:03:14.92,0:03:18.81,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k23}a{\k15}ki{\k36}ra{\k43}me{\k18}cha {\k16}i{\k29}ke{\k18}na{\k55}i {\k26}no
+Dialogue: 0,0:03:18.38,0:03:21.82,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k36}saa {\k28}u{\k43}tai {\k30}tsu{\k32}zu{\k41}ke{\k28}you
+Dialogue: 0,0:03:21.06,0:03:25.41,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ta{\k18}to{\k21}e {\k36}ko{\k40}dok'{\k33}da {\k39}tosh'{\k38}te {\k73}mo
+Dialogue: 0,0:03:24.57,0:03:27.16,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k25}da{\k14}i{\k20}jo{\k15}u{\k75}bu
+Dialogue: 0,0:03:26.44,0:03:28.89,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k28}wa{\k39}ta{\k37}shi {\k31}ga
+Dialogue: 0,0:03:28.00,0:03:31.96,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ko{\k38}no {\k12}sa{\k24}ki {\k15}de {\k37}mat{\k26}te{\k35}ru {\k41}ka{\k32}ra
+Dialogue: 0,0:03:31.07,0:03:33.72,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k27}is{\k35}sho {\k14}ni {\k23}ku{\k16}ru {\k21}na{\k19}ra
+Dialogue: 0,0:03:32.84,0:03:36.40,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k39}yu{\k14}me {\k25}wo {\k15}mi{\k24}sa{\k12}set' {\k28}a{\k11}ge{\k40}ru {\k38}wa
+Dialogue: 0,0:03:35.68,0:03:38.66,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k37}ta{\k42}ka{\k36}ra{\k41}ka {\k32}ni
+Dialogue: 0,0:03:37.60,0:03:42.79,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\kf194}Oh {\k38}Oh {\k38}Oh {\k39}Oh {\kf100}Oh
+Dialogue: 0,0:03:41.84,0:03:44.90,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k28}sa{\k40}a {\k36}yu{\k38}ko{\k54}u
+Dialogue: 0,0:03:43.76,0:03:47.53,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}se{\k16}ka{\k25}i{\k13}ju{\k22}u {\k16}ka{\k24}ra {\k15}u{\k21}ba{\k17}i{\k38}tot{\k36}te
+Dialogue: 0,0:03:44.76,0:03:46.79,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Oh {\k50}no
+Dialogue: 0,0:03:46.06,0:03:48.82,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k27}u{\k13}ba{\k23}i{\k13}to{\k90}re
+Dialogue: 0,0:03:48.38,0:03:52.39,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k78}Ah {\k74}Ah {\kf139}Ouh
+Dialogue: 0,0:03:51.70,0:03:55.06,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Tu{\k25}-ru{\k36}-tu{\k15}-ru{\k19}-ru {\kf117}ouh~
+Dialogue: 0,0:03:46.83,0:03:50.77,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}ho{\k15}nki {\k25}ja{\k12}na{\k27}i {\k13}na{\k26}ra {\k12}ja{\k25}ma {\k14}shi{\k37}nai{\k53}de
+Dialogue: 0,0:03:49.91,0:03:54.86,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf194}Oh {\k38}Oh {\k38}Oh {\k39}Oh {\k64}Oh
+Dialogue: 0,0:03:54.05,0:03:57.93,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k38}sai{\k38}go {\k12}ni {\k24}wa{\k40}rau {\k12}no {\k25}wa{\k40}ta{\k49}shi
+Dialogue: 0,0:03:56.46,0:03:58.65,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}wa{\k37}ta{\k47}shi
+Dialogue: 0,0:03:57.22,0:03:59.52,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k26}wa{\k40}ta{\k54}shi
+Dialogue: 0,0:03:57.99,0:04:00.23,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}wa{\k37}ta{\k51}shi
+Dialogue: 0,0:03:58.76,0:04:04.98,Tsubame,,0,0,0,fx,{\k90\fad(300,200)}{\k27}te {\k13}ni {\k24}shi{\k14}te {\k20}mo{\k19}ya{\k23}shi{\k12}te {\k28}kan{\k12}tan {\k24}ni {\k16}yu{\k43}zu{\k47}ra{\kf190}nai
