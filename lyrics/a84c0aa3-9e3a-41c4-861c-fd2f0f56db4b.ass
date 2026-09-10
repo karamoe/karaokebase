@@ -1,0 +1,231 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Title: Departure
+Original Timing: Cygfir
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [UP] - Japanese,Arial,21,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [UP] - English,Arial,21,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,21,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [UP] - Japanese,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.61,0:00:05.65,Sample KM [UP] - English,,0,0,0,karaoke,{\k26}Let's {\k24}fly {\k23}to {\k17}the {\kf414}sky~
+Comment: 0,0:00:03.95,0:00:06.06,Sample KM [Choir],,0,0,0,karaoke,{\k22}La{\k22}dies {\k23}and {\k14}gen{\k14}tle{\k22}men, {\k22}wel{\k17}come {\k11}a{\k44}board
+Comment: 0,0:00:06.65,0:00:07.82,Sample KM [Choir],,0,0,0,karaoke,{\k16}d{\k25}tto. {\k26}air{\k50}lines
+Comment: 0,0:00:07.82,0:00:12.52,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k12}ku{\k12}mo {\k23}hi{\k20}to{\k25}tsu {\kf104}nai {\kf274}SKY~
+Comment: 0,0:00:10.97,0:00:13.39,Sample KM [Choir],,0,0,0,karaoke,{\k23}This {\k19}is {\k25}your {\k24}cap{\k23}tain {\k66}Aru {\k31}spea{\k31}king
+Comment: 0,0:00:13.86,0:00:15.83,Sample KM [Choir],,0,0,0,karaoke,{\k26}We'll {\k20}be {\k23}ta{\k12}king {\k32}off {\k24}short{\k14}ly {\k20}ba{\k26}by
+Comment: 0,0:00:14.99,0:00:20.32,Sample KM [UP] - English,,0,0,0,karaoke,{\k25}Let's {\k22}fly {\k19}to {\k23}the {\kf444}sky~
+Comment: 0,0:00:22.15,0:00:27.31,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k11}ku{\k11}mo {\k25}hi{\k18}to{\k24}tsu {\kf101}nai {\kf326}SKY~
+Comment: 0,0:00:29.30,0:00:33.22,Sample KM [UP] - English,,0,0,0,karaoke,{\k24}Let's {\k21}fly {\k24}to {\k19}the {\kf304}sky~
+Comment: 0,0:00:32.46,0:00:34.22,Sample KM [Choir],,0,0,0,karaoke,{\k24}It's {\k20}time {\k17}to {\k29}fly {\k22}a{\k64}round
+Comment: 0,0:00:33.31,0:00:36.83,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k26}ki{\k21}mi {\k45}da{\k47}ke {\k41}no {\k26}ka{\k21}ze {\k34}a{\k14}tsu{\k41}me{\k36}te
+Comment: 0,0:00:36.93,0:00:40.29,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k23}da{\k23}re {\k86}mo {\k24}mi{\k23}ta{\k22}ko{\k25}to{\kf110}nai
+Comment: 0,0:00:39.60,0:00:41.14,Sample KM [Choir],,0,0,0,karaoke,{\k24}Let's {\k25}go {\k11}to {\k10}the {\k22}Won{\k19}der{\k43}world
+Comment: 0,0:00:40.51,0:00:44.49,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k22}I{\k22}MA{\k47}GI{\k42}NA{\k44}TION {\k25}so{\k22}ra {\k45}ni {\k24}e{\k19}ga{\k24}i{\k62}te
+Comment: 0,0:00:44.76,0:00:45.59,Sample KM [Choir],,0,0,0,karaoke,{\k45}OH! {\k38}OH!
+Comment: 0,0:00:45.64,0:00:48.23,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k25}ta{\k21}i{\k23}yo{\k47}u {\k40}no {\k45}shi{\k58}ta
+Comment: 0,0:00:48.34,0:00:49.17,Sample KM [Choir],,0,0,0,karaoke,{\k45}OH! {\k38}OH!
+Comment: 0,0:00:49.23,0:00:51.91,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k27}gi{\k19}ra{\k25}gi{\k43}ra {\k24}te{\k20}ra{\k23}sa {\k23}re{\k22}te {\k42}mo
+Comment: 0,0:00:51.93,0:00:52.76,Sample KM [Choir],,0,0,0,karaoke,{\k45}OH! {\k38}OH!
+Comment: 0,0:00:52.79,0:00:55.26,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k27}ki{\k22}mi{\k21}na{\k28}ra {\k20}i{\k43}ke{\k42}ru{\k44}sa!
+Comment: 0,0:00:55.28,0:00:59.15,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k21}P{\k27}RI{\k19}DE {\k25}nan{\k11}te {\k11}nu{\k23}gi{\k22}su{\k23}te{\k88}te {\k24}F{\k43}LY{\k50}~!
+Comment: 0,0:00:59.32,0:01:02.43,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k22}tan{\k24}jun {\k21}mei{\k33}ka{\k14}i{\k21}na {\k46}EVE{\k19}RY{\k111}DAY!
+Comment: 0,0:01:01.57,0:01:02.80,Sample KM [Choir],,0,0,0,karaoke,{\k45}EVE{\k22}RY{\k56}DAY
+Comment: 0,0:01:02.89,0:01:06.26,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k24}so {\k21}ji{\k21}tsu{\k25}ryo{\k24}ku {\k18}ga {\k25}se{\k24}ka{\k18}i {\k27}wo {\k13}ma{\k53}wash'{\k44}te
+Comment: 0,0:01:06.48,0:01:09.31,Sample KM [UP] - Japanese,,0,0,62,karaoke,{\k23}go{\k22}ma{\k24}ka{\k18}shi {\k25}wa {\k20}mou {\k24}tsu{\k24}u{\k23}ji{\k80}ne
+Comment: 0,0:01:10.04,0:01:13.38,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k13}ki{\k12}mi {\k23}mo {\k23}a{\k22}ka{\k23}shin{\k20}gou {\k25}ten{\k17}me{\k25}tsu{\k25}sa {\k43}MAY{\k25}DAY{\k38}~
+Comment: 0,0:01:12.75,0:01:13.63,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k12}wo {\k8}mi{\k12}mi {\k13}wo {\k23}hai{\k20}shak'!
+Comment: 0,0:01:13.63,0:01:15.31,Sample KM [UP] - English,,0,0,0,karaoke,{\k22}And {\k22}I'm {\k6}gon{\k17}na {\k23}stuck {\k24}on {\k23}my {\k31}RAP!
+Comment: 0,0:01:15.41,0:01:16.86,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k11}nde {\k12}WAS{\k33}SUP! {\k15}tte {\k33}ai{\k41}sats'!
+Comment: 0,0:01:17.01,0:01:18.55,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k13}a{\k9}shi {\k12}ka{\k11}ra {\k21}hon{\k22}ki {\k24}da{\k9}shi{\k33}mas'!
+Comment: 0,0:01:18.55,0:01:20.49,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k13}to{\k9}ka {\k13}yo{\k19}wa{\k13}ne {\k19}ma{\k8}ji{\k20}de {\k24}ha{\k9}ki{\k47}das'
+Comment: 0,0:01:20.59,0:01:22.15,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k9}yu{\k11}me {\k13}de {\k9}fu{\k23}ya{\k24}se {\k33}man{\k34}sats'!
+Comment: 0,0:01:22.15,0:01:23.96,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k14}to{\k10}ki{\k20}ha{\k11}ka{\k12}ne{\k21}nar' {\k25}LIKE {\k33}NAS{\k35}DAQ!
+Comment: 0,0:01:24.37,0:01:25.71,Sample KM [UP] - English,,0,0,0,karaoke,{\k22}When {\k21}do {\k24}you {\k18}do {\k29}it {\k20}boy?
+Comment: 0,0:01:25.71,0:01:27.96,Sample KM [UP] - English,,0,0,0,karaoke,{\k24}It's {\k18}now {\k11}o{\k15}r {\k19}ne{\k13}ver {\k16}man! {\k17}i{\k15}ma{\k12}de{\k20}sho? {\k45}HEY
+Comment: 0,0:01:27.96,0:01:29.49,Sample KM [UP] - English,,0,0,0,karaoke,{\k14}Eve{\k12}ry{\k7}bo{\k13}dy {\k19}put {\k14}ya {\k17}hands {\k12}in {\k12}the {\k33}air
+Comment: 0,0:01:29.49,0:01:31.14,Sample KM [UP] - English,,0,0,0,karaoke,{\k28}Clap {\k12}ya {\k34}hands {\k21}like {\k25}this {\k19}like {\k26}that!
+Comment: 0,0:01:31.30,0:01:32.65,Sample KM [UP] - English,,0,0,0,karaoke,{\k24}Clap {\k13}ya {\k35}hands {\k11}eve{\k10}ry{\k24}bo{\k22}dy!
+Comment: 0,0:01:32.91,0:01:34.24,Sample KM [UP] - English,,0,0,0,karaoke,{\k11}Eve{\k12}ry{\k10}bo{\k10}dy {\k23}just {\k22}clap {\k12}ya {\k33}hands!
+Comment: 0,0:01:33.76,0:01:37.78,Sample KM [UP] - English,,0,0,0,karaoke,{\k28}Let's {\k20}fly {\k24}to {\k17}the {\kf313}sky~
+Comment: 0,0:01:36.94,0:01:38.69,Sample KM [Choir],,0,0,0,karaoke,{\k20}It's {\k18}time {\k26}to {\k21}fly {\k18}a{\k72}round
+Comment: 0,0:01:37.78,0:01:41.30,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k28}ki{\k20}mi {\k44}da{\k48}ke {\k41}no {\k26}ka{\k22}ze {\k33}a{\k13}tsu{\k42}me{\k35}te
+Comment: 0,0:01:41.42,0:01:44.78,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k23}da{\k22}re {\k88}mo {\k23}mi{\k21}ta{\k24}ko{\k22}to{\kf113}nai
+Comment: 0,0:01:44.10,0:01:45.89,Sample KM [Choir],,0,0,0,karaoke,{\k24}Let's {\k22}go {\k9}to {\k14}the {\k20}Won{\k20}der{\k70}world
+Comment: 0,0:01:45.00,0:01:49.04,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k21}I{\k23}MA{\k45}GI{\k44}NA{\k46}TION {\k22}so{\k23}ra {\k43}ni {\k25}e{\k22}ga{\k21}i{\k69}te
+Comment: 0,0:01:49.24,0:01:50.07,Sample KM [Choir],,0,0,0,karaoke,{\k45}OH! {\k38}OH!
+Comment: 0,0:01:50.12,0:01:52.77,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k27}ta{\k22}i{\k22}yo{\k45}u {\k44}no {\k45}shi{\k60}ta
+Comment: 0,0:01:52.82,0:01:53.65,Sample KM [Choir],,0,0,0,karaoke,{\k45}OH! {\k38}OH!
+Comment: 0,0:01:53.67,0:01:56.34,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k30}gi{\k20}ra{\k24}gi{\k42}ra {\k24}te{\k21}ra{\k24}sa {\k22}re{\k22}te {\k38}mo
+Comment: 0,0:01:56.41,0:01:57.24,Sample KM [Choir],,0,0,0,karaoke,{\k45}OH! {\k38}OH!
+Comment: 0,0:01:57.25,0:01:59.78,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k28}ki{\k21}mi{\k21}na{\k30}ra {\k16}i{\k48}ke{\k42}ru{\k47}sa!
+Comment: 0,0:01:59.78,0:02:03.57,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k21}P{\k24}RI{\k22}DE {\k23}nan{\k11}te {\k11}nu{\k20}gi{\k25}su{\k21}te{\k89}te {\k24}F{\k45}LY{\k43}~!
+Comment: 0,0:02:03.77,0:02:06.47,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k25}kon{\k22}na {\k19}jou{\k29}kyou {\k20}de{\k24}mo {\k43}EVE{\k22}RY{\k66}DAY!
+Comment: 0,0:02:06.04,0:02:07.17,Sample KM [Choir],,0,0,0,karaoke,{\k46}EVE{\k22}RY{\k45}DAY
+Comment: 0,0:02:07.38,0:02:10.55,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k23}nan{\k22}to{\k10}ka {\k13}ko{\k22}ko {\k24}ma{\k21}de {\k20}kei{\k38}zok' {\k30}sh'te {\k43}ki{\k51}te
+Comment: 0,0:02:10.93,0:02:13.80,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k26}ka{\k24}na{\k21}e{\k45}tai {\k23}tte {\k13}o{\k30}mo{\k23}i {\k82}de
+Comment: 0,0:02:12.74,0:02:14.19,Sample KM [Choir],,0,0,0,karaoke,{\k24}Hey {\k43}guys {\k37}hands {\k41}up!
+Comment: 0,0:02:14.55,0:02:17.84,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k11}ho{\k12}ra, {\k20}mou {\k23}ao{\k23}shin{\k20}gou {\k24}ni {\k24}ka{\k10}wa{\k10}ru{\k11}sa {\k12}ARE {\k24}YOU {\k45}REA{\k21}DY{\k39}~?
+Comment: 0,0:02:15.88,0:02:16.94,Sample KM [Choir],,0,0,0,karaoke,{\k64}Oh, {\k42}yeah
+Comment: 0,0:02:17.25,0:02:19.56,Sample KM [UP] - English,,0,0,0,karaoke,{\k19}You {\k26}got{\k20}ta {\k41}play {\k49}hard {\k45}work {\k31}hard!
+Comment: 0,0:02:19.71,0:02:21.45,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k23}kou {\k21}kai{\k21}ten {\k24}no {\k40}ME{\k45}TER
+Comment: 0,0:02:21.48,0:02:23.24,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k18}ji{\k29}dai{\k17}o{\k8}ku{\k10}re {\k10}no {\k39}HA{\k45}TER
+Comment: 0,0:02:23.30,0:02:25.05,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k15}da{\k16}re {\k14}mo {\k13}ku{\k17}wa{\k13}ne {\k44}FLA{\k43}VOR!
+Comment: 0,0:02:25.08,0:02:26.43,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k13}o{\k18}ya {\k14}ni {\k16}ka{\k15}ne {\k14}mo{\k29}rat{\k16}te
+Comment: 0,0:02:26.43,0:02:28.39,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k22}dai{\k12}ga{\k9}ku {\k25}it{\k11}te {\k17}a{\k23}son{\k14}de {\k28}bak{\k35}ka
+Comment: 0,0:02:28.65,0:02:30.25,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k16}o{\k13}re {\k18}no {\k12}i{\k15}ki{\k14}ru {\k14}se{\k27}kai {\k31}ja
+Comment: 0,0:02:30.44,0:02:32.47,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k21}shou{\k8}sho {\k18}wa {\k15}ta{\k14}da {\k15}no {\k31}PA{\k32}PER {\k49}HEY
+Comment: 0,0:02:32.47,0:02:33.98,Sample KM [UP] - English,,0,0,0,karaoke,{\k13}Eve{\k9}ry{\k11}bo{\k11}dy {\k15}put {\k11}ya {\k25}hands {\k8}in {\k7}the {\k41}air
+Comment: 0,0:02:33.98,0:02:35.69,Sample KM [UP] - English,,0,0,0,karaoke,{\k25}Clap {\k15}ya {\k29}hands {\k26}like {\k25}this {\k18}like {\k33}that!
+Comment: 0,0:02:35.79,0:02:37.17,Sample KM [UP] - English,,0,0,0,karaoke,{\k26}Clap {\k10}ya {\k34}hands {\k14}eve{\k9}ry{\k25}bo{\k20}dy!
+Comment: 0,0:02:37.39,0:02:38.94,Sample KM [UP] - English,,0,0,0,karaoke,{\k9}Eve{\k13}ry{\k11}bo{\k10}dy {\k25}just {\k19}clap {\k12}ya {\k56}hands!
+Comment: 0,0:02:38.25,0:02:42.07,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k27}kumo {\k66}hitotsu {\kf107}nai {\kf182}SKY~
+Comment: 0,0:02:41.43,0:02:43.03,Sample KM [Choir],,0,0,0,karaoke,{\k23}It's {\k18}time {\k24}to {\k22}fly {\k24}a{\k49}round
+Comment: 0,0:02:42.32,0:02:49.26,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k21}na{\k24}ya{\k43}mi {\k44}dat{\k43}te {\k24}hi{\k21}to{\k49}tsu {\k43}mo {\k45}nai {\k23}bo{\k24}ku{\k86}ra {\k24}mi{\k23}ta{\k22}ko{\k23}to{\kf112}nai
+Comment: 0,0:02:48.57,0:02:50.20,Sample KM [Choir],,0,0,0,karaoke,{\k23}Let's {\k20}go {\k11}to {\k15}the {\k23}Won{\k22}der{\k49}world
+Comment: 0,0:02:49.48,0:02:53.39,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k21}a{\k24}shi{\k45}ta {\k42}he {\k46}to {\k37}te{\k53}wo{\k24}no{\k20}ba{\k13}su {\k66}yo!
+Comment: 0,0:02:53.72,0:02:54.55,Sample KM [Choir],,0,0,0,karaoke,{\k45}OH! {\k38}OH!
+Comment: 0,0:02:54.44,0:02:57.31,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k16}mu{\k24}ka{\k23}i{\k23}ka{\k44}ze {\k46}to{\k43}bi{\k23}ko{\k45}e
+Comment: 0,0:02:57.31,0:02:58.14,Sample KM [Choir],,0,0,0,karaoke,{\k45}OH! {\k38}OH!
+Comment: 0,0:02:58.10,0:03:00.89,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k11}su{\k21}ko{\k23}shi {\k17}fu{\k48}an {\k43}wa {\k28}a{\k20}ru{\k24}ke{\k44}do
+Comment: 0,0:03:00.89,0:03:01.72,Sample KM [Choir],,0,0,0,karaoke,{\k45}OH! {\k38}OH!
+Comment: 0,0:03:01.57,0:03:04.16,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k21}bo{\k24}ku{\k22}ra{\k21}na{\k26}ra {\k16}i{\k47}ke{\k44}ru{\k38}sa!
+Comment: 0,0:03:04.24,0:03:08.11,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k19}ji{\k25}yuu {\k24}ni {\k23}to{\k26}be{\k19}ru {\k17}ba{\k25}sho {\k36}he{\k55} {\k21}F{\k48}LY{\k49}~!
+Comment: 0,0:03:21.23,0:03:26.03,Sample KM [UP] - English,,0,0,0,karaoke,{\k25}Let's {\k23}fly {\k24}to {\k14}the {\kf394}sky~
+Comment: 0,0:03:28.39,0:03:33.14,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k13}ku{\k10}mo {\k26}hi{\k22}to{\k24}tsu {\kf102}nai {\kf278}SKY~
+Comment: 0,0:03:35.54,0:03:40.29,Sample KM [UP] - English,,0,0,0,karaoke,{\k25}Let's {\k25}fly {\k23}to {\k17}the {\kf385}sky~
+Comment: 0,0:03:42.71,0:03:47.64,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k13}ku{\k13}mo {\k25}hi{\k18}to{\k26}tsu {\kf101}nai {\kf297}SKY~
+Comment: 0,0:03:49.90,0:03:53.89,Sample KM [UP] - English,,0,0,0,karaoke,{\k25}Let's {\k20}fly {\k21}to {\k21}the {\kf312}sky~
+Comment: 0,0:03:53.06,0:03:54.69,Sample KM [Choir],,0,0,0,karaoke,{\k24}It's {\k19}time {\k16}to {\k26}fly {\k27}a{\k51}round
+Comment: 0,0:03:53.91,0:03:57.41,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k26}ki{\k21}mi {\k44}da{\k46}ke {\k43}no {\k24}ka{\k23}ze {\k35}a{\k13}tsu{\k40}me{\k35}te
+Comment: 0,0:03:57.53,0:04:00.87,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k24}da{\k22}re {\k89}mo {\k21}mi{\k24}ta{\k21}ko{\k24}to{\kf109}nai
+Comment: 0,0:04:00.16,0:04:02.02,Sample KM [Choir],,0,0,0,karaoke,{\k27}Let's {\k20}go {\k11}to {\k15}the {\k22}Won{\k24}der{\k67}world
+Comment: 0,0:04:01.11,0:04:05.12,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k22}I{\k21}MA{\k47}GI{\k43}NA{\k46}TION {\k21}so{\k25}ra {\k44}ni {\k22}e{\k21}ga{\k23}i{\k66}te
+Comment: 0,0:04:05.37,0:04:06.20,Sample KM [Choir],,0,0,0,karaoke,{\k45}OH! {\k38}OH!
+Comment: 0,0:04:06.22,0:04:08.72,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k27}ta{\k22}i{\k23}yo{\k43}u {\k45}no {\k47}shi{\k43}ta
+Comment: 0,0:04:08.95,0:04:09.78,Sample KM [Choir],,0,0,0,karaoke,{\k45}OH! {\k38}OH!
+Comment: 0,0:04:09.82,0:04:12.52,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k25}gi{\k21}ra{\k25}gi{\k44}ra {\k23}te{\k20}ra{\k24}sa {\k21}re{\k24}te {\k43}mo
+Comment: 0,0:04:12.52,0:04:13.35,Sample KM [Choir],,0,0,0,karaoke,{\k45}OH! {\k38}OH!
+Comment: 0,0:04:13.40,0:04:15.89,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k28}ki{\k21}mi{\k19}na{\k28}ra {\k17}i{\k47}ke{\k44}ru{\k45}sa!
+Comment: 0,0:04:15.91,0:04:19.83,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k15}P{\k30}RI{\k20}DE {\k23}nan{\k12}te {\k11}nu{\k23}gi{\k20}su{\k24}te{\k85}te {\k26}F{\k45}LY{\k58}~!
+Comment: 0,0:04:22.14,0:04:23.54,Sample KM [UP] - Japanese,,0,0,0,karaoke,{\k26}F{\k45}LY{\k69}~
+Comment: 0,0:04:23.24,0:04:27.95,Sample KM [Choir],,0,0,0,karaoke,{\k71}Yeah {\k22}y{\k65}eah {\k28}y{\k63}eah {\k25}y{\kf197}eah
+Comment: 0,0:04:28.19,0:04:31.73,Sample KM [Choir],,0,0,0,karaoke,{\k21}Ooh {\kf333}yeah
+Comment: 0,0:04:30.16,0:04:32.82,Sample KM [Choir],,0,0,0,karaoke,{\k50}Ho {\k45}oh {\k44}oh {\k43}oh {\k27}oh{\k57}~
+Comment: 0,0:04:33.03,0:04:34.31,Sample KM [Choir],,0,0,0,karaoke,{\k56}Ya{\k72}y~
+Comment: 0,0:04:33.03,0:04:34.31,Sample KM [UP] - Japanese,,0,0,0,karaoke,
+Dialogue: 0,0:00:00.00,0:00:05.85,Sample KM [UP] - English,,0,0,0,fx,{\k61\fad(610,200)}{\k26}Let's {\k24}fly {\k23}to {\k17}the {\kf414}sky~
+Dialogue: 0,0:00:03.05,0:00:06.26,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}La{\k22}dies {\k23}and {\k14}gen{\k14}tle{\k22}men, {\k22}wel{\k17}come {\k11}a{\k44}board
+Dialogue: 0,0:00:05.75,0:00:08.02,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k16}d{\k25}tto. {\k26}air{\k50}lines
+Dialogue: 0,0:00:06.92,0:00:12.72,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ku{\k12}mo {\k23}hi{\k20}to{\k25}tsu {\kf104}nai {\kf274}SKY~
+Dialogue: 0,0:00:10.07,0:00:13.59,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}This {\k19}is {\k25}your {\k24}cap{\k23}tain {\k66}Aru {\k31}spea{\k31}king
+Dialogue: 0,0:00:12.96,0:00:16.03,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}We'll {\k20}be {\k23}ta{\k12}king {\k32}off {\k24}short{\k14}ly {\k20}ba{\k26}by
+Dialogue: 0,0:00:14.09,0:00:20.52,Sample KM [UP] - English,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Let's {\k22}fly {\k19}to {\k23}the {\kf444}sky~
+Dialogue: 0,0:00:21.25,0:00:27.51,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k11}ku{\k11}mo {\k25}hi{\k18}to{\k24}tsu {\kf101}nai {\kf326}SKY~
+Dialogue: 0,0:00:28.40,0:00:33.42,Sample KM [UP] - English,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Let's {\k21}fly {\k24}to {\k19}the {\kf304}sky~
+Dialogue: 0,0:00:31.56,0:00:34.42,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}It's {\k20}time {\k17}to {\k29}fly {\k22}a{\k64}round
+Dialogue: 0,0:00:32.41,0:00:37.03,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ki{\k21}mi {\k45}da{\k47}ke {\k41}no {\k26}ka{\k21}ze {\k34}a{\k14}tsu{\k41}me{\k36}te
+Dialogue: 0,0:00:36.03,0:00:40.49,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k23}da{\k23}re {\k86}mo {\k24}mi{\k23}ta{\k22}ko{\k25}to{\kf110}nai
+Dialogue: 0,0:00:38.70,0:00:41.34,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Let's {\k25}go {\k11}to {\k10}the {\k22}Won{\k19}der{\k43}world
+Dialogue: 0,0:00:39.61,0:00:44.69,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k22}I{\k22}MA{\k47}GI{\k42}NA{\k44}TION {\k25}so{\k22}ra {\k45}ni {\k24}e{\k19}ga{\k24}i{\k62}te
+Dialogue: 0,0:00:43.86,0:00:45.79,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}OH! {\k38}OH!
+Dialogue: 0,0:00:44.74,0:00:48.43,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ta{\k21}i{\k23}yo{\k47}u {\k40}no {\k45}shi{\k58}ta
+Dialogue: 0,0:00:47.44,0:00:49.37,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}OH! {\k38}OH!
+Dialogue: 0,0:00:48.33,0:00:52.11,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k27}gi{\k19}ra{\k25}gi{\k43}ra {\k24}te{\k20}ra{\k23}sa {\k23}re{\k22}te {\k42}mo
+Dialogue: 0,0:00:51.03,0:00:52.96,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}OH! {\k38}OH!
+Dialogue: 0,0:00:51.89,0:00:55.46,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ki{\k22}mi{\k21}na{\k28}ra {\k20}i{\k43}ke{\k42}ru{\k44}sa!
+Dialogue: 0,0:00:54.38,0:00:59.35,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k21}P{\k27}RI{\k19}DE {\k25}nan{\k11}te {\k11}nu{\k23}gi{\k22}su{\k23}te{\k88}te {\k24}F{\k43}LY{\k50}~!
+Dialogue: 0,0:00:58.42,0:01:02.63,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k22}tan{\k24}jun {\k21}mei{\k33}ka{\k14}i{\k21}na {\k46}EVE{\k19}RY{\k111}DAY!
+Dialogue: 0,0:01:00.67,0:01:03.00,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}EVE{\k22}RY{\k56}DAY
+Dialogue: 0,0:01:01.99,0:01:06.46,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k24}so {\k21}ji{\k21}tsu{\k25}ryo{\k24}ku {\k18}ga {\k25}se{\k24}ka{\k18}i {\k27}wo {\k13}ma{\k53}wash'{\k44}te
+Dialogue: 0,0:01:05.58,0:01:09.51,Sample KM [UP] - Japanese,,0,0,62,fx,{\k90\fad(300,200)}{\k23}go{\k22}ma{\k24}ka{\k18}shi {\k25}wa {\k20}mou {\k24}tsu{\k24}u{\k23}ji{\k80}ne
+Dialogue: 0,0:01:09.14,0:01:13.58,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ki{\k12}mi {\k23}mo {\k23}a{\k22}ka{\k23}shin{\k20}gou {\k25}ten{\k17}me{\k25}tsu{\k25}sa {\k43}MAY{\k25}DAY{\k38}~
+Dialogue: 0,0:01:11.85,0:01:13.83,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k12}wo {\k8}mi{\k12}mi {\k13}wo {\k23}hai{\k20}shak'!
+Dialogue: 0,0:01:12.73,0:01:15.51,Sample KM [UP] - English,,0,0,0,fx,{\k90\fad(300,200)}{\k22}And {\k22}I'm {\k6}gon{\k17}na {\k23}stuck {\k24}on {\k23}my {\k31}RAP!
+Dialogue: 0,0:01:14.51,0:01:17.06,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k11}nde {\k12}WAS{\k33}SUP! {\k15}tte {\k33}ai{\k41}sats'!
+Dialogue: 0,0:01:16.11,0:01:18.75,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k13}a{\k9}shi {\k12}ka{\k11}ra {\k21}hon{\k22}ki {\k24}da{\k9}shi{\k33}mas'!
+Dialogue: 0,0:01:17.65,0:01:20.69,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k13}to{\k9}ka {\k13}yo{\k19}wa{\k13}ne {\k19}ma{\k8}ji{\k20}de {\k24}ha{\k9}ki{\k47}das'
+Dialogue: 0,0:01:19.69,0:01:22.35,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k9}yu{\k11}me {\k13}de {\k9}fu{\k23}ya{\k24}se {\k33}man{\k34}sats'!
+Dialogue: 0,0:01:21.25,0:01:24.16,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k14}to{\k10}ki{\k20}ha{\k11}ka{\k12}ne{\k21}nar' {\k25}LIKE {\k33}NAS{\k35}DAQ!
+Dialogue: 0,0:01:23.47,0:01:25.91,Sample KM [UP] - English,,0,0,0,fx,{\k90\fad(300,200)}{\k22}When {\k21}do {\k24}you {\k18}do {\k29}it {\k20}boy?
+Dialogue: 0,0:01:24.81,0:01:28.16,Sample KM [UP] - English,,0,0,0,fx,{\k90\fad(300,200)}{\k24}It's {\k18}now {\k11}o{\k15}r {\k19}ne{\k13}ver {\k16}man! {\k17}i{\k15}ma{\k12}de{\k20}sho? {\k45}HEY
+Dialogue: 0,0:01:27.06,0:01:29.69,Sample KM [UP] - English,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Eve{\k12}ry{\k7}bo{\k13}dy {\k19}put {\k14}ya {\k17}hands {\k12}in {\k12}the {\k33}air
+Dialogue: 0,0:01:28.59,0:01:31.34,Sample KM [UP] - English,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Clap {\k12}ya {\k34}hands {\k21}like {\k25}this {\k19}like {\k26}that!
+Dialogue: 0,0:01:30.40,0:01:32.85,Sample KM [UP] - English,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Clap {\k13}ya {\k35}hands {\k11}eve{\k10}ry{\k24}bo{\k22}dy!
+Dialogue: 0,0:01:32.01,0:01:34.44,Sample KM [UP] - English,,0,0,0,fx,{\k90\fad(300,200)}{\k11}Eve{\k12}ry{\k10}bo{\k10}dy {\k23}just {\k22}clap {\k12}ya {\k33}hands!
+Dialogue: 0,0:01:32.86,0:01:37.98,Sample KM [UP] - English,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Let's {\k20}fly {\k24}to {\k17}the {\kf313}sky~
+Dialogue: 0,0:01:36.04,0:01:38.89,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}It's {\k18}time {\k26}to {\k21}fly {\k18}a{\k72}round
+Dialogue: 0,0:01:36.88,0:01:41.50,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ki{\k20}mi {\k44}da{\k48}ke {\k41}no {\k26}ka{\k22}ze {\k33}a{\k13}tsu{\k42}me{\k35}te
+Dialogue: 0,0:01:40.52,0:01:44.98,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k23}da{\k22}re {\k88}mo {\k23}mi{\k21}ta{\k24}ko{\k22}to{\kf113}nai
+Dialogue: 0,0:01:43.20,0:01:46.09,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Let's {\k22}go {\k9}to {\k14}the {\k20}Won{\k20}der{\k70}world
+Dialogue: 0,0:01:44.10,0:01:49.24,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k21}I{\k23}MA{\k45}GI{\k44}NA{\k46}TION {\k22}so{\k23}ra {\k43}ni {\k25}e{\k22}ga{\k21}i{\k69}te
+Dialogue: 0,0:01:48.34,0:01:50.27,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}OH! {\k38}OH!
+Dialogue: 0,0:01:49.22,0:01:52.97,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ta{\k22}i{\k22}yo{\k45}u {\k44}no {\k45}shi{\k60}ta
+Dialogue: 0,0:01:51.92,0:01:53.85,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}OH! {\k38}OH!
+Dialogue: 0,0:01:52.77,0:01:56.54,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k30}gi{\k20}ra{\k24}gi{\k42}ra {\k24}te{\k21}ra{\k24}sa {\k22}re{\k22}te {\k38}mo
+Dialogue: 0,0:01:55.51,0:01:57.44,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}OH! {\k38}OH!
+Dialogue: 0,0:01:56.35,0:01:59.98,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ki{\k21}mi{\k21}na{\k30}ra {\k16}i{\k48}ke{\k42}ru{\k47}sa!
+Dialogue: 0,0:01:58.88,0:02:03.77,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k21}P{\k24}RI{\k22}DE {\k23}nan{\k11}te {\k11}nu{\k20}gi{\k25}su{\k21}te{\k89}te {\k24}F{\k45}LY{\k43}~!
+Dialogue: 0,0:02:02.87,0:02:06.67,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k25}kon{\k22}na {\k19}jou{\k29}kyou {\k20}de{\k24}mo {\k43}EVE{\k22}RY{\k66}DAY!
+Dialogue: 0,0:02:05.14,0:02:07.37,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k46}EVE{\k22}RY{\k45}DAY
+Dialogue: 0,0:02:06.48,0:02:10.75,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k23}nan{\k22}to{\k10}ka {\k13}ko{\k22}ko {\k24}ma{\k21}de {\k20}kei{\k38}zok' {\k30}sh'te {\k43}ki{\k51}te
+Dialogue: 0,0:02:10.03,0:02:14.00,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ka{\k24}na{\k21}e{\k45}tai {\k23}tte {\k13}o{\k30}mo{\k23}i {\k82}de
+Dialogue: 0,0:02:11.84,0:02:14.39,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Hey {\k43}guys {\k37}hands {\k41}up!
+Dialogue: 0,0:02:13.65,0:02:18.04,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k11}ho{\k12}ra, {\k20}mou {\k23}ao{\k23}shin{\k20}gou {\k24}ni {\k24}ka{\k10}wa{\k10}ru{\k11}sa {\k12}ARE {\k24}YOU {\k45}REA{\k21}DY{\k39}~?
+Dialogue: 0,0:02:14.98,0:02:17.14,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k64}Oh, {\k42}yeah
+Dialogue: 0,0:02:16.35,0:02:19.76,Sample KM [UP] - English,,0,0,0,fx,{\k90\fad(300,200)}{\k19}You {\k26}got{\k20}ta {\k41}play {\k49}hard {\k45}work {\k31}hard!
+Dialogue: 0,0:02:18.81,0:02:21.65,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k23}kou {\k21}kai{\k21}ten {\k24}no {\k40}ME{\k45}TER
+Dialogue: 0,0:02:20.58,0:02:23.44,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ji{\k29}dai{\k17}o{\k8}ku{\k10}re {\k10}no {\k39}HA{\k45}TER
+Dialogue: 0,0:02:22.40,0:02:25.25,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k15}da{\k16}re {\k14}mo {\k13}ku{\k17}wa{\k13}ne {\k44}FLA{\k43}VOR!
+Dialogue: 0,0:02:24.18,0:02:26.63,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k13}o{\k18}ya {\k14}ni {\k16}ka{\k15}ne {\k14}mo{\k29}rat{\k16}te
+Dialogue: 0,0:02:25.53,0:02:28.59,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k22}dai{\k12}ga{\k9}ku {\k25}it{\k11}te {\k17}a{\k23}son{\k14}de {\k28}bak{\k35}ka
+Dialogue: 0,0:02:27.75,0:02:30.45,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k16}o{\k13}re {\k18}no {\k12}i{\k15}ki{\k14}ru {\k14}se{\k27}kai {\k31}ja
+Dialogue: 0,0:02:29.54,0:02:32.67,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k21}shou{\k8}sho {\k18}wa {\k15}ta{\k14}da {\k15}no {\k31}PA{\k32}PER {\k49}HEY
+Dialogue: 0,0:02:31.57,0:02:34.18,Sample KM [UP] - English,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Eve{\k9}ry{\k11}bo{\k11}dy {\k15}put {\k11}ya {\k25}hands {\k8}in {\k7}the {\k41}air
+Dialogue: 0,0:02:33.08,0:02:35.89,Sample KM [UP] - English,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Clap {\k15}ya {\k29}hands {\k26}like {\k25}this {\k18}like {\k33}that!
+Dialogue: 0,0:02:34.89,0:02:37.37,Sample KM [UP] - English,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Clap {\k10}ya {\k34}hands {\k14}eve{\k9}ry{\k25}bo{\k20}dy!
+Dialogue: 0,0:02:36.49,0:02:39.14,Sample KM [UP] - English,,0,0,0,fx,{\k90\fad(300,200)}{\k9}Eve{\k13}ry{\k11}bo{\k10}dy {\k25}just {\k19}clap {\k12}ya {\k56}hands!
+Dialogue: 0,0:02:37.35,0:02:42.27,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k27}kumo {\k66}hitotsu {\kf107}nai {\kf182}SKY~
+Dialogue: 0,0:02:40.53,0:02:43.23,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}It's {\k18}time {\k24}to {\k22}fly {\k24}a{\k49}round
+Dialogue: 0,0:02:41.42,0:02:49.46,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k21}na{\k24}ya{\k43}mi {\k44}dat{\k43}te {\k24}hi{\k21}to{\k49}tsu {\k43}mo {\k45}nai {\k23}bo{\k24}ku{\k86}ra {\k24}mi{\k23}ta{\k22}ko{\k23}to{\kf112}nai
+Dialogue: 0,0:02:47.67,0:02:50.40,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Let's {\k20}go {\k11}to {\k15}the {\k23}Won{\k22}der{\k49}world
+Dialogue: 0,0:02:48.58,0:02:53.59,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k21}a{\k24}shi{\k45}ta {\k42}he {\k46}to {\k37}te{\k53}wo{\k24}no{\k20}ba{\k13}su {\k66}yo!
+Dialogue: 0,0:02:52.82,0:02:54.75,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}OH! {\k38}OH!
+Dialogue: 0,0:02:53.54,0:02:57.51,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k16}mu{\k24}ka{\k23}i{\k23}ka{\k44}ze {\k46}to{\k43}bi{\k23}ko{\k45}e
+Dialogue: 0,0:02:56.41,0:02:58.34,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}OH! {\k38}OH!
+Dialogue: 0,0:02:57.20,0:03:01.09,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k11}su{\k21}ko{\k23}shi {\k17}fu{\k48}an {\k43}wa {\k28}a{\k20}ru{\k24}ke{\k44}do
+Dialogue: 0,0:02:59.99,0:03:01.92,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}OH! {\k38}OH!
+Dialogue: 0,0:03:00.67,0:03:04.36,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k21}bo{\k24}ku{\k22}ra{\k21}na{\k26}ra {\k16}i{\k47}ke{\k44}ru{\k38}sa!
+Dialogue: 0,0:03:03.34,0:03:08.31,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ji{\k25}yuu {\k24}ni {\k23}to{\k26}be{\k19}ru {\k17}ba{\k25}sho {\k36}he{\k55} {\k21}F{\k48}LY{\k49}~!
+Dialogue: 0,0:03:20.33,0:03:26.23,Sample KM [UP] - English,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Let's {\k23}fly {\k24}to {\k14}the {\kf394}sky~
+Dialogue: 0,0:03:27.49,0:03:33.34,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ku{\k10}mo {\k26}hi{\k22}to{\k24}tsu {\kf102}nai {\kf278}SKY~
+Dialogue: 0,0:03:34.64,0:03:40.49,Sample KM [UP] - English,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Let's {\k25}fly {\k23}to {\k17}the {\kf385}sky~
+Dialogue: 0,0:03:41.81,0:03:47.84,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ku{\k13}mo {\k25}hi{\k18}to{\k26}tsu {\kf101}nai {\kf297}SKY~
+Dialogue: 0,0:03:49.00,0:03:54.09,Sample KM [UP] - English,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Let's {\k20}fly {\k21}to {\k21}the {\kf312}sky~
+Dialogue: 0,0:03:52.16,0:03:54.89,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}It's {\k19}time {\k16}to {\k26}fly {\k27}a{\k51}round
+Dialogue: 0,0:03:53.01,0:03:57.61,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ki{\k21}mi {\k44}da{\k46}ke {\k43}no {\k24}ka{\k23}ze {\k35}a{\k13}tsu{\k40}me{\k35}te
+Dialogue: 0,0:03:56.63,0:04:01.07,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k24}da{\k22}re {\k89}mo {\k21}mi{\k24}ta{\k21}ko{\k24}to{\kf109}nai
+Dialogue: 0,0:03:59.26,0:04:02.22,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Let's {\k20}go {\k11}to {\k15}the {\k22}Won{\k24}der{\k67}world
+Dialogue: 0,0:04:00.21,0:04:05.32,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k22}I{\k21}MA{\k47}GI{\k43}NA{\k46}TION {\k21}so{\k25}ra {\k44}ni {\k22}e{\k21}ga{\k23}i{\k66}te
+Dialogue: 0,0:04:04.47,0:04:06.40,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}OH! {\k38}OH!
+Dialogue: 0,0:04:05.32,0:04:08.92,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ta{\k22}i{\k23}yo{\k43}u {\k45}no {\k47}shi{\k43}ta
+Dialogue: 0,0:04:08.05,0:04:09.98,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}OH! {\k38}OH!
+Dialogue: 0,0:04:08.92,0:04:12.72,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k25}gi{\k21}ra{\k25}gi{\k44}ra {\k23}te{\k20}ra{\k24}sa {\k21}re{\k24}te {\k43}mo
+Dialogue: 0,0:04:11.62,0:04:13.55,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}OH! {\k38}OH!
+Dialogue: 0,0:04:12.50,0:04:16.09,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ki{\k21}mi{\k19}na{\k28}ra {\k17}i{\k47}ke{\k44}ru{\k45}sa!
+Dialogue: 0,0:04:15.01,0:04:20.03,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k15}P{\k30}RI{\k20}DE {\k23}nan{\k12}te {\k11}nu{\k23}gi{\k20}su{\k24}te{\k85}te {\k26}F{\k45}LY{\k58}~!
+Dialogue: 0,0:04:21.24,0:04:23.74,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k26}F{\k45}LY{\k69}~
+Dialogue: 0,0:04:22.34,0:04:28.15,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k71}Yeah {\k22}y{\k65}eah {\k28}y{\k63}eah {\k25}y{\kf197}eah
+Dialogue: 0,0:04:27.29,0:04:31.93,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Ooh {\kf333}yeah
+Dialogue: 0,0:04:29.26,0:04:33.02,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Ho {\k45}oh {\k44}oh {\k43}oh {\k27}oh{\k57}~
+Dialogue: 0,0:04:32.13,0:04:34.51,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k56}Ya{\k72}y~
+Dialogue: 0,0:04:32.13,0:04:34.51,Sample KM [UP] - Japanese,,0,0,0,fx,{\k90\fad(300,200)}
