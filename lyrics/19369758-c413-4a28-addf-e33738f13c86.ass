@@ -1,0 +1,254 @@
+﻿[Script Info]
+Title: Nijiiroâ˜†Lumiere
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: Hanaku
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Kasumi,Arial,24,&H00FFFFFF,&H0064F0F7,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Choir,Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:03.90,0:00:05.51,Kasumi,,0,0,0,karaoke,{\k37}Go {\k43}Go {\k30}Ka{\k31}su{\k20}min
+Comment: 0,0:00:03.90,0:00:05.51,Choir,,0,0,0,karaoke,{\k37}Go {\k43}Go {\k30}Ka{\k31}su{\k20}min
+Comment: 0,0:00:05.68,0:00:06.81,Kasumi,,0,0,0,karaoke,{\k18}its'{\k21}dat{\k20}te {\k28}SHOW {\k26}TIME
+Comment: 0,0:00:05.68,0:00:06.81,Choir,,0,0,0,karaoke,{\k18}its'{\k21}dat{\k20}te {\k28}SHOW {\k26}TIME
+Comment: 0,0:00:07.04,0:00:08.63,Kasumi,,0,0,0,karaoke,{\k41}Go {\k36}Go {\k30}Ka{\k28}su{\k24}min
+Comment: 0,0:00:07.04,0:00:08.63,Choir,,0,0,0,karaoke,{\k41}Go {\k36}Go {\k30}Ka{\k28}su{\k24}min
+Comment: 0,0:00:08.78,0:00:09.98,Kasumi,,0,0,0,karaoke,{\k20}wan{\k21}pa{\k16}ku {\k29}choo{\k34}dai
+Comment: 0,0:00:08.78,0:00:09.98,Choir,,0,0,0,karaoke,{\k20}wan{\k21}pa{\k16}ku {\k29}choo{\k34}dai
+Comment: 0,0:00:10.08,0:00:10.89,Kasumi,,0,0,0,karaoke,{\k81}One
+Comment: 0,0:00:10.89,0:00:11.63,Choir,,0,0,0,karaoke,{\k74}One
+Comment: 0,0:00:11.63,0:00:12.13,Kasumi,,0,0,0,karaoke,{\k50}Two
+Comment: 0,0:00:12.46,0:00:13.21,Choir,,0,0,0,karaoke,{\k50}Two
+Comment: 0,0:00:13.21,0:00:14.59,Kasumi,,0,0,0,karaoke,{\k78}One {\k60}two
+Comment: 0,0:00:13.21,0:00:14.59,Choir,,0,0,0,karaoke,{\k78}One {\k60}two
+Comment: 0,0:00:14.78,0:00:16.37,Kasumi,,0,0,0,karaoke,{\k38}ONE {\k37}TWO {\k20}san{\k22} LET'S {\k42}GO
+Comment: 0,0:00:14.78,0:00:16.37,Choir,,0,0,0,karaoke,{\k38}ONE {\k37}TWO {\k20}san{\k22} LET'S {\k42}GO
+Comment: 0,0:00:18.83,0:00:19.46,Kasumi,,0,0,0,karaoke,{\k37}hai {\k26}hai
+Comment: 0,0:00:18.83,0:00:19.46,Choir,,0,0,0,karaoke,{\k37}hai {\k26}hai
+Comment: 0,0:00:20.92,0:00:22.27,Kasumi,,0,0,0,karaoke,{\k26}i{\k17}ki{\k20}ma{\k19}su {\k53}yo
+Comment: 0,0:00:22.53,0:00:24.14,Kasumi,,0,0,0,karaoke,{\k37}Go {\k40}Go {\k29}Ka{\k29}su{\k26}min
+Comment: 0,0:00:22.53,0:00:24.14,Choir,,0,0,0,karaoke,{\k37}Go {\k40}Go {\k29}Ka{\k29}su{\k26}min
+Comment: 0,0:00:24.14,0:00:25.36,Kasumi,,0,0,0,karaoke,{\k31}sai{\k20}kou {\k18}no {\k29}SHOW {\k24}TIME
+Comment: 0,0:00:24.14,0:00:25.36,Choir,,0,0,0,karaoke,{\k31}sai{\k20}kou {\k18}no {\k29}SHOW {\k24}TIME
+Comment: 0,0:00:25.58,0:00:28.03,Kasumi,,0,0,0,karaoke,{\k23}i{\k19}tsu{\k19}de{\k16}mo {\k44}NUM{\k45}BER {\k79}ONE
+Comment: 0,0:00:25.58,0:00:28.03,Choir,,0,0,0,karaoke,{\k23}i{\k19}tsu{\k19}de{\k16}mo {\k44}NUM{\k45}BER {\k79}ONE
+Comment: 0,0:00:29.11,0:00:31.05,Kasumi,,0,0,0,karaoke,{\k24}La{\k20}die{\k18}s {\k34}and {\k27}gen{\k24}tle{\k47}men
+Comment: 0,0:00:31.62,0:00:32.80,Kasumi,,0,0,0,karaoke,{\k15}ji{\k12}tsu {\k14}wa {\k11}Ka{\k15}su{\k51}min
+Comment: 0,0:00:32.80,0:00:34.44,Kasumi,,0,0,0,karaoke,{\k20}to{\k17}bik{\k10}ki{\k10}ri {\k10}no {\k13}hi{\k14}mi{\k8}tsu {\k9}ga {\k11}a{\k17}run {\k25}desu
+Comment: 0,0:00:34.91,0:00:35.62,Kasumi,,0,0,0,karaoke,{\k23}shi{\k15}ri{\k33}tai
+Comment: 0,0:00:35.62,0:00:36.47,Choir,,0,0,0,karaoke,{\k21}shi{\k28}ri{\k36}tai
+Comment: 0,0:00:36.25,0:00:37.57,Kasumi,,0,0,0,karaoke,{\k40}shi{\k15}ri{\k30}ta{\k47}i
+Comment: 0,0:00:37.07,0:00:37.89,Choir,,0,0,0,karaoke,{\k32}shi{\k26}ri{\k24}tai
+Comment: 0,0:00:37.95,0:00:41.44,Choir,,0,0,0,karaoke,{\k26}o{\k17}ne{\k40}gai {\k20}o{\k23}ne{\k34}gai {\k23}o{\k16}shi{\k20}e{\kf130}te
+Comment: 0,0:00:41.39,0:00:42.86,Kasumi,,0,0,0,karaoke,{\k25}ji{\k11}tsu {\k20}wa {\k16}Ka{\k11}su{\k64}min
+Comment: 0,0:00:42.86,0:00:44.87,Kasumi,,0,0,0,karaoke,{\k37}tou{\k27}mei {\k21}nin{\k17}gen {\k21}ni {\k17}na{\k9}re{\k21}run {\k31}desu
+Comment: 0,0:00:44.96,0:00:47.86,Choir,,0,0,0,karaoke,{\kf82}ee {\k39}ten{\k37}sai {\k25}Ka{\k17}su{\k90}min
+Comment: 0,0:00:47.61,0:00:48.53,Kasumi,,0,0,0,karaoke,{\k40}nan {\k52}to
+Comment: 0,0:00:48.53,0:00:51.11,Kasumi,,0,0,0,karaoke,{\k30}dou{\k24}buts' {\k10}to {\k18}ha{\k16}na{\k12}se{\k13}ru {\k16}you {\k19}ni {\k16}na{\k11}ri{\k22}mash'{\k51}ta
+Comment: 0,0:00:51.11,0:00:53.54,Choir,,0,0,0,karaoke,{\kf91}ee {\k30}ten{\k37}sai {\k25}Ka{\k17}su{\k43}min
+Comment: 0,0:00:53.41,0:00:56.27,Kasumi,,0,0,0,karaoke,{\k37}mai{\k27}ni{\k19}chi {\k75}ga {\k16}ha{\k18}cha{\k26}me{\k21}cha {\k47}DAY
+Comment: 0,0:00:54.54,0:00:55.09,Choir,,0,0,0,karaoke,{\k55}hai
+Comment: 0,0:00:56.15,0:00:56.63,Choir,,0,0,0,karaoke,{\k48}hai
+Comment: 0,0:00:56.54,0:00:59.11,Kasumi,,0,0,0,karaoke,{\k33}ha{\k31}ne{\k19}ru {\k29}RHY{\k27}TH{\k17}M {\k13}shu{\k19}bi{\k25}du{\k22}ba {\k22}de
+Comment: 0,0:00:59.11,0:00:59.67,Choir,,0,0,0,karaoke,{\k56}Go
+Comment: 0,0:00:59.67,0:01:02.37,Kasumi,,0,0,0,karaoke,{\k30}mu{\k30}ge{\k17}n{\k22}da{\k36}i {\k17}no {\k32}wan{\k32}pa{\k15}ku {\k39}de
+Comment: 0,0:01:02.73,0:01:04.65,Kasumi,,0,0,0,karaoke,{\k30}so{\k32}ra {\k18}mo {\k21}to{\k20}be{\k20}ru {\k17}ka{\k34}ra
+Comment: 0,0:01:05.09,0:01:05.88,Kasumi,,0,0,0,karaoke,{\k42}see {\k37}no
+Comment: 0,0:01:05.09,0:01:05.88,Choir,,0,0,0,karaoke,{\k42}see {\k37}no
+Comment: 0,0:01:05.88,0:01:10.90,Kasumi,,0,0,0,karaoke,{\k37}do{\k21}n{\k16}na {\k32}yu{\k28}me {\k20}mo {\k56}u{\k22}so {\k77}mo {\k28}mu{\k30}ri {\k19}na{\k25}n{\k30}ka {\k21}ja {\k40}nai
+Comment: 0,0:01:11.30,0:01:12.45,Kasumi,,0,0,0,karaoke,{\k20}shi{\k19}n{\k19}ji{\k21}re{\k73}ba
+Comment: 0,0:01:12.45,0:01:12.92,Choir,,0,0,0,karaoke,{\k47}hai
+Comment: 0,0:01:12.82,0:01:13.98,Kasumi,,0,0,0,karaoke,{\k23}ka{\k18}na{\k19}u {\k19}ha{\k77}zu
+Comment: 0,0:01:13.98,0:01:14.38,Choir,,0,0,0,karaoke,{\k40}hai
+Comment: 0,0:01:14.38,0:01:17.86,Kasumi,,0,0,0,karaoke,{\k20}ma{\k21}ho{\k19}u {\k19}no {\k29}se{\k28}ka{\k19}i {\k29}wo {\k28}ho{\k23}ra {\k29}tsu{\k28}ku{\k19}ro{\k37}u
+Comment: 0,0:01:18.27,0:01:21.03,Kasumi,,0,0,0,karaoke,{\k29}pi{\k29}ka {\k18}pi{\k30}ka {\k28}no {\k20}e{\k58}ga{\k19}o {\k79}de
+Comment: 0,0:01:20.94,0:01:21.37,Choir,,0,0,0,karaoke,{\k43}hai
+Comment: 0,0:01:21.37,0:01:24.05,Kasumi,,0,0,0,karaoke,{\k25}min{\k32}na {\k20}wo {\k28}bik{\k23}ku{\k26}ri {\k57}sa{\k19}se{\k38}you
+Comment: 0,0:01:24.05,0:01:24.43,Choir,,0,0,0,karaoke,{\k6818533}hai
+Comment: 0,0:01:24.43,0:01:29.56,Kasumi,,0,0,0,karaoke,{\k33}hi{\k27}mi{\k20}tsu {\k28}no {\k31}a{\k18}i{\k31}ko{\k28}to{\k20}ba {\k38}wa {\k20}ni{\k20}ji{\k28}i{\k29}ro {\k19}LU{\k25}MI{\k25}E{\k25}~{\k48}RE
+Comment: 0,0:01:29.65,0:01:32.17,Kasumi,,0,0,0,karaoke,{\k22}na{\k31}i{\k27}sho {\k20}da {\kf152}yo
+Comment: 0,0:01:32.17,0:01:33.73,Kasumi,,0,0,0,karaoke,{\k38}ONE {\k39}TWO {\k41}san {\k38}hai
+Comment: 0,0:01:33.73,0:01:35.11,Choir,,0,0,0,karaoke,{\k24}ii {\k15}zo {\k22}ii {\k17}zo {\k22}Ka{\k18}su{\k20}min
+Comment: 0,0:01:35.28,0:01:36.85,Choir,,0,0,0,karaoke,{\k24}ii {\k15}zo {\k22}ii {\k17}zo {\k22}Ka{\k18}su{\k20}min
+Comment: 0,0:01:37.02,0:01:40.01,Kasumi,,0,0,0,karaoke,{\k64}mou {\k23}son{\k12}na {\k13}ni {\k11}ho{\k13}me{\k9}ta{\k18}ra {\k8}te{\k13}re{\k12}cha{\k9}i{\k9}ma{\k17}su {\k68}yo
+Comment: 0,0:01:39.93,0:01:41.32,Choir,,0,0,0,karaoke,{\k24}ii {\k15}zo {\k22}ii {\k17}zo {\k22}Ka{\k18}su{\k20}min
+Comment: 0,0:01:41.49,0:01:42.96,Choir,,0,0,0,karaoke,{\k24}ii {\k15}zo {\k22}ii {\k17}zo {\k22}Ka{\k18}su{\k20}min
+Comment: 0,0:01:43.29,0:01:45.19,Kasumi,,0,0,0,karaoke,{\k16}shi{\k17}ka{\k18}ta{\k29}nai {\k10}de{\k22}su {\k78}ne
+Comment: 0,0:01:46.33,0:01:49.58,Kasumi,,0,0,0,karaoke,{\k12}sa{\k26}ra{\k86}ni {\k26}ma{\k28}da {\k16}ma{\k14}da {\k17}hi{\k16}mi{\k9}tsu {\k15}ga {\k7}a{\k17}run {\k36}desu
+Comment: 0,0:01:49.82,0:01:51.94,Choir,,0,0,0,karaoke,{\kf76}ee {\k19}ma{\k19}da {\k21}a{\k17}ru {\k60}no
+Comment: 0,0:01:51.94,0:01:53.30,Kasumi,,0,0,0,karaoke,{\k39}shi{\k17}ri{\k15}ta{\k65}i
+Comment: 0,0:01:52.92,0:01:53.75,Choir,,0,0,0,karaoke,{\k20}shi{\k19}ri{\k44}tai
+Comment: 0,0:01:53.60,0:01:54.82,Kasumi,,0,0,0,karaoke,{\k27}shi{\k19}ri{\k27}ta{\k49}i
+Comment: 0,0:01:54.45,0:01:55.10,Choir,,0,0,0,karaoke,{\k21}shi{\k21}ri{\k23}tai
+Comment: 0,0:01:55.22,0:01:58.67,Choir,,0,0,0,karaoke,{\k20}ma{\k20}da {\k18}ma{\k21}da {\k44}ip{\k42}pai {\k20}o{\k15}shi{\k17}e{\kf128}te
+Comment: 0,0:01:58.59,0:02:02.01,Kasumi,,0,0,0,karaoke,{\k36}ji{\k20}tsu {\k112}wa {\k16}ts'ki {\k18}ni {\k27}bes{\k26}sou {\k16}ga {\k10}a{\k21}run {\k40}desu
+Comment: 0,0:02:02.18,0:02:04.81,Choir,,0,0,0,karaoke,{\kf86}ee {\k32}ten{\k38}sai {\k23}Ka{\k18}su{\k66}min
+Comment: 0,0:02:04.76,0:02:06.85,Kasumi,,0,0,0,karaoke,{\k36}tak'{\k24}san {\k16}no {\k18}dou{\k18}buts' {\k19}tach'{\k78}to
+Comment: 0,0:02:06.85,0:02:08.35,Kasumi,,0,0,0,karaoke,{\k29}PAR{\k17}TY {\k26}wo {\k12}shi{\k24}mash'{\k42}ta
+Comment: 0,0:02:08.35,0:02:10.75,Choir,,0,0,0,karaoke,{\kf86}ee {\k34}ten{\k36}sai {\k23}Ka{\k20}su{\k41}min
+Comment: 0,0:02:10.75,0:02:13.31,Kasumi,,0,0,0,karaoke,{\k34}pyon {\k26}pyon {\k11}de {\k20}mo{\k18}chi {\k23}tsu{\k20}ki {\k19}u{\k19}sa{\k20}gi {\k46}san
+Comment: 0,0:02:13.14,0:02:13.81,Choir,,0,0,0,karaoke,{\k12}ka{\k17}wa{\k38}ii
+Comment: 0,0:02:13.66,0:02:16.31,Kasumi,,0,0,0,karaoke,{\k54}en{\k21}ryo {\k16}wo {\k19}shi{\k19}ra{\k20}na{\k20}i {\k18}ko{\k21}ne{\k20}ko {\k37}chan
+Comment: 0,0:02:16.31,0:02:16.87,Choir,,0,0,0,karaoke,{\k12}ka{\k9}wa{\k35}ii
+Comment: 0,0:02:16.87,0:02:19.45,Kasumi,,0,0,0,karaoke,{\k42}zen{\k18}ryo{\k14}ku {\k27}o{\k19}te{\k20}n{\k19}ba {\k19}o{\k19}sa{\k19}ru {\k42}san
+Comment: 0,0:02:19.35,0:02:19.97,Choir,,0,0,0,karaoke,{\k27}ka{\k0}wa{\k35}ii
+Comment: 0,0:02:19.97,0:02:21.37,Kasumi,,0,0,0,karaoke,{\k18}ton{\k20}jat{\k40}te {\k20}ton{\k23}jat{\k19}te
+Comment: 0,0:02:21.56,0:02:23.11,Kasumi,,0,0,0,karaoke,{\k19}do{\k19}ki {\k19}do{\k19}ki {\k19}do{\k19}ki {\k21}do{\k20}ki
+Comment: 0,0:02:23.11,0:02:24.62,Kasumi,,0,0,0,karaoke,{\k30}top{\k26}pyou{\k20}shi {\k75}mo
+Comment: 0,0:02:24.23,0:02:24.62,Choir,,0,0,0,karaoke,{\k39}hai
+Comment: 0,0:02:24.62,0:02:25.81,Kasumi,,0,0,0,karaoke,{\k11}na{\k20}i {\k28}ju{\k24}mo{\k36}n
+Comment: 0,0:02:25.81,0:02:26.13,Choir,,0,0,0,karaoke,{\k32}hai
+Comment: 0,0:02:26.13,0:02:28.71,Kasumi,,0,0,0,karaoke,{\k35}fu{\k30}wa {\k20}fu{\k29}wa {\k27}no {\k21}a{\k27}no {\k30}ku{\k14}mo {\k25}he
+Comment: 0,0:02:28.71,0:02:29.30,Choir,,0,0,0,karaoke,{\k59}Go
+Comment: 0,0:02:29.30,0:02:31.97,Kasumi,,0,0,0,karaoke,{\k28}mu{\k30}ge{\k18}n{\k31}da{\k27}i {\k21}no {\k29}ge{\k27}n{\k19}ki {\k37}de
+Comment: 0,0:02:32.37,0:02:34.23,Kasumi,,0,0,0,karaoke,{\k40}ki{\k20}mi {\k20}to {\k20}i{\k19}ta{\k19}i {\k19}ka{\k29}ra
+Comment: 0,0:02:34.71,0:02:35.44,Kasumi,,0,0,0,karaoke,{\k39}see {\k34}no
+Comment: 0,0:02:34.71,0:02:35.44,Choir,,0,0,0,karaoke,{\k39}see {\k34}no
+Comment: 0,0:02:35.44,0:02:40.52,Kasumi,,0,0,0,karaoke,{\k31}ha{\k29}re {\k19}wa{\k32}ta{\k26}ru {\k20}ki{\k48}bu{\k33}n {\k73}de {\k33}HEAR{\k29}T {\k18}ga {\k29}ha{\k29}ji{\k21}ke{\k38}ru
+Comment: 0,0:02:40.91,0:02:42.05,Kasumi,,0,0,0,karaoke,{\k21}do{\k18}ki {\k19}do{\k17}ki {\k39}no
+Comment: 0,0:02:42.05,0:02:42.45,Choir,,0,0,0,karaoke,{\k40}hai
+Comment: 0,0:02:42.45,0:02:43.58,Kasumi,,0,0,0,karaoke,{\k25}Sur{\k14}p{\k18}r{\k21}i{\k35}se
+Comment: 0,0:02:43.58,0:02:44.03,Choir,,0,0,0,karaoke,{\k45}hai
+Comment: 0,0:02:44.03,0:02:47.31,Kasumi,,0,0,0,karaoke,{\k15}i{\k21}tsu{\k22}mo {\k17}no {\k31}ni{\k25}chi{\k18}jo{\k31}u {\k31}wo {\k15}ka{\k34}e{\k28}cha{\k12}u {\k28}yo
+Comment: 0,0:02:47.85,0:02:50.55,Kasumi,,0,0,0,karaoke,{\k30}CO{\k31}LOR{\k19}FU{\k28}L {\k28}na {\k21}ki{\k60}mo{\k19}chi {\k34}ni
+Comment: 0,0:02:50.55,0:02:50.99,Choir,,0,0,0,karaoke,{\k44}hai
+Comment: 0,0:02:50.99,0:02:53.65,Kasumi,,0,0,0,karaoke,{\k28}to{\k29}bik{\k16}ki{\k24}ri {\k35}yu{\k21}me {\k58}no{\k19}se{\k36}te
+Comment: 0,0:02:53.65,0:02:54.08,Choir,,0,0,0,karaoke,{\k43}hai
+Comment: 0,0:02:54.08,0:02:59.18,Kasumi,,0,0,0,karaoke,{\k30}min{\k29}na {\k16}de {\k27}is{\k32}sho {\k19}ni {\k28}to{\k26}na{\k25}e{\k39}you {\k19}ni{\k19}ji{\k26}i{\k31}ro {\k21}LU{\k20}MI{\k27}E{\k30}~{\k46}RE
+Comment: 0,0:02:59.27,0:03:02.05,Kasumi,,0,0,0,karaoke,{\k21}su{\k30}te{\k26}ki {\k21}de{\kf180}sho
+Comment: 0,0:03:02.77,0:03:03.52,Kasumi,,0,0,0,karaoke,{\k41}hai {\k34}hai
+Comment: 0,0:03:02.77,0:03:03.52,Choir,,0,0,0,karaoke,{\k41}hai {\k34}hai
+Comment: 0,0:03:04.91,0:03:06.43,Kasumi,,0,0,0,karaoke,{\k39}min{\k19}na {\k19}de {\k21}i{\k17}ku {\k37}yo
+Comment: 0,0:03:06.43,0:03:08.04,Kasumi,,0,0,0,karaoke,{\k43}Go {\k37}Go {\k30}Ka{\k30}su{\k21}min
+Comment: 0,0:03:06.43,0:03:08.04,Choir,,0,0,0,karaoke,{\k43}Go {\k37}Go {\k30}Ka{\k30}su{\k21}min
+Comment: 0,0:03:08.19,0:03:09.36,Kasumi,,0,0,0,karaoke,{\k23}sai{\k19}kou {\k20}no {\k25}SHOW {\k30}TIME
+Comment: 0,0:03:08.19,0:03:09.36,Choir,,0,0,0,karaoke,{\k23}sai{\k19}kou {\k20}no {\k25}SHOW {\k30}TIME
+Comment: 0,0:03:09.54,0:03:11.93,Kasumi,,0,0,0,karaoke,{\k23}i{\k19}tsu{\k19}de {\k17}mo {\k38}NUM{\k39}BER {\k84}ONE
+Comment: 0,0:03:09.54,0:03:11.93,Choir,,0,0,0,karaoke,{\k23}i{\k19}tsu{\k19}de {\k17}mo {\k38}NUM{\k39}BER {\k84}ONE
+Dialogue: 0,0:00:03.00,0:00:05.71,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Go {\k43}Go {\k30}Ka{\k31}su{\k20}min
+Dialogue: 0,0:00:03.00,0:00:05.71,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Go {\k43}Go {\k30}Ka{\k31}su{\k20}min
+Dialogue: 0,0:00:04.78,0:00:07.01,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k18}its'{\k21}dat{\k20}te {\k28}SHOW {\k26}TIME
+Dialogue: 0,0:00:04.78,0:00:07.01,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}its'{\k21}dat{\k20}te {\k28}SHOW {\k26}TIME
+Dialogue: 0,0:00:06.14,0:00:08.83,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k41}Go {\k36}Go {\k30}Ka{\k28}su{\k24}min
+Dialogue: 0,0:00:06.14,0:00:08.83,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k41}Go {\k36}Go {\k30}Ka{\k28}su{\k24}min
+Dialogue: 0,0:00:07.88,0:00:10.18,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k20}wan{\k21}pa{\k16}ku {\k29}choo{\k34}dai
+Dialogue: 0,0:00:07.88,0:00:10.18,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k20}wan{\k21}pa{\k16}ku {\k29}choo{\k34}dai
+Dialogue: 0,0:00:09.18,0:00:11.09,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k81}One
+Dialogue: 0,0:00:09.99,0:00:11.83,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k74}One
+Dialogue: 0,0:00:10.73,0:00:12.33,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k50}Two
+Dialogue: 0,0:00:11.56,0:00:13.41,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k50}Two
+Dialogue: 0,0:00:12.31,0:00:14.79,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k78}One {\k60}two
+Dialogue: 0,0:00:12.31,0:00:14.79,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k78}One {\k60}two
+Dialogue: 0,0:00:13.88,0:00:16.57,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k38}ONE {\k37}TWO {\k20}san{\k22} LET'S {\k42}GO
+Dialogue: 0,0:00:13.88,0:00:16.57,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k38}ONE {\k37}TWO {\k20}san{\k22} LET'S {\k42}GO
+Dialogue: 0,0:00:17.93,0:00:19.66,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k37}hai {\k26}hai
+Dialogue: 0,0:00:17.93,0:00:19.66,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k37}hai {\k26}hai
+Dialogue: 0,0:00:20.02,0:00:22.47,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k26}i{\k17}ki{\k20}ma{\k19}su {\k53}yo
+Dialogue: 0,0:00:21.63,0:00:24.34,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Go {\k40}Go {\k29}Ka{\k29}su{\k26}min
+Dialogue: 0,0:00:21.63,0:00:24.34,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Go {\k40}Go {\k29}Ka{\k29}su{\k26}min
+Dialogue: 0,0:00:23.24,0:00:25.56,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k31}sai{\k20}kou {\k18}no {\k29}SHOW {\k24}TIME
+Dialogue: 0,0:00:23.24,0:00:25.56,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k31}sai{\k20}kou {\k18}no {\k29}SHOW {\k24}TIME
+Dialogue: 0,0:00:24.68,0:00:28.23,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k23}i{\k19}tsu{\k19}de{\k16}mo {\k44}NUM{\k45}BER {\k79}ONE
+Dialogue: 0,0:00:24.68,0:00:28.23,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k23}i{\k19}tsu{\k19}de{\k16}mo {\k44}NUM{\k45}BER {\k79}ONE
+Dialogue: 0,0:00:28.21,0:00:31.25,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k24}La{\k20}die{\k18}s {\k34}and {\k27}gen{\k24}tle{\k47}men
+Dialogue: 0,0:00:30.72,0:00:33.00,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ji{\k12}tsu {\k14}wa {\k11}Ka{\k15}su{\k51}min
+Dialogue: 0,0:00:31.90,0:00:34.64,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k20}to{\k17}bik{\k10}ki{\k10}ri {\k10}no {\k13}hi{\k14}mi{\k8}tsu {\k9}ga {\k11}a{\k17}run {\k25}desu
+Dialogue: 0,0:00:34.01,0:00:35.82,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k23}shi{\k15}ri{\k33}tai
+Dialogue: 0,0:00:34.72,0:00:36.67,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k21}shi{\k28}ri{\k36}tai
+Dialogue: 0,0:00:35.35,0:00:37.77,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k40}shi{\k15}ri{\k30}ta{\k47}i
+Dialogue: 0,0:00:36.17,0:00:38.09,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k32}shi{\k26}ri{\k24}tai
+Dialogue: 0,0:00:37.05,0:00:41.64,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k26}o{\k17}ne{\k40}gai {\k20}o{\k23}ne{\k34}gai {\k23}o{\k16}shi{\k20}e{\kf130}te
+Dialogue: 0,0:00:40.49,0:00:43.06,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ji{\k11}tsu {\k20}wa {\k16}Ka{\k11}su{\k64}min
+Dialogue: 0,0:00:41.96,0:00:45.07,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k37}tou{\k27}mei {\k21}nin{\k17}gen {\k21}ni {\k17}na{\k9}re{\k21}run {\k31}desu
+Dialogue: 0,0:00:44.06,0:00:48.06,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\kf82}ee {\k39}ten{\k37}sai {\k25}Ka{\k17}su{\k90}min
+Dialogue: 0,0:00:46.71,0:00:48.73,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k40}nan {\k52}to
+Dialogue: 0,0:00:47.63,0:00:51.31,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k30}dou{\k24}buts' {\k10}to {\k18}ha{\k16}na{\k12}se{\k13}ru {\k16}you {\k19}ni {\k16}na{\k11}ri{\k22}mash'{\k51}ta
+Dialogue: 0,0:00:50.21,0:00:53.74,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\kf91}ee {\k30}ten{\k37}sai {\k25}Ka{\k17}su{\k43}min
+Dialogue: 0,0:00:52.51,0:00:56.47,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k37}mai{\k27}ni{\k19}chi {\k75}ga {\k16}ha{\k18}cha{\k26}me{\k21}cha {\k47}DAY
+Dialogue: 0,0:00:53.64,0:00:55.29,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k55}hai
+Dialogue: 0,0:00:55.25,0:00:56.83,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k48}hai
+Dialogue: 0,0:00:55.64,0:00:59.31,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ha{\k31}ne{\k19}ru {\k29}RHY{\k27}TH{\k17}M {\k13}shu{\k19}bi{\k25}du{\k22}ba {\k22}de
+Dialogue: 0,0:00:58.21,0:00:59.87,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k56}Go
+Dialogue: 0,0:00:58.77,0:01:02.57,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k30}mu{\k30}ge{\k17}n{\k22}da{\k36}i {\k17}no {\k32}wan{\k32}pa{\k15}ku {\k39}de
+Dialogue: 0,0:01:01.83,0:01:04.85,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k30}so{\k32}ra {\k18}mo {\k21}to{\k20}be{\k20}ru {\k17}ka{\k34}ra
+Dialogue: 0,0:01:04.19,0:01:06.08,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k42}see {\k37}no
+Dialogue: 0,0:01:04.19,0:01:06.08,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k42}see {\k37}no
+Dialogue: 0,0:01:04.98,0:01:11.10,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k37}do{\k21}n{\k16}na {\k32}yu{\k28}me {\k20}mo {\k56}u{\k22}so {\k77}mo {\k28}mu{\k30}ri {\k19}na{\k25}n{\k30}ka {\k21}ja {\k40}nai
+Dialogue: 0,0:01:10.40,0:01:12.65,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k20}shi{\k19}n{\k19}ji{\k21}re{\k73}ba
+Dialogue: 0,0:01:11.55,0:01:13.12,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k47}hai
+Dialogue: 0,0:01:11.92,0:01:14.18,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ka{\k18}na{\k19}u {\k19}ha{\k77}zu
+Dialogue: 0,0:01:13.08,0:01:14.58,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k40}hai
+Dialogue: 0,0:01:13.48,0:01:18.06,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ma{\k21}ho{\k19}u {\k19}no {\k29}se{\k28}ka{\k19}i {\k29}wo {\k28}ho{\k23}ra {\k29}tsu{\k28}ku{\k19}ro{\k37}u
+Dialogue: 0,0:01:17.37,0:01:21.23,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k29}pi{\k29}ka {\k18}pi{\k30}ka {\k28}no {\k20}e{\k58}ga{\k19}o {\k79}de
+Dialogue: 0,0:01:20.04,0:01:21.57,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k43}hai
+Dialogue: 0,0:01:20.47,0:01:24.25,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k25}min{\k32}na {\k20}wo {\k28}bik{\k23}ku{\k26}ri {\k57}sa{\k19}se{\k38}you
+Dialogue: 0,0:01:23.15,0:01:24.63,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k6818533}hai
+Dialogue: 0,0:01:23.53,0:01:29.76,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k33}hi{\k27}mi{\k20}tsu {\k28}no {\k31}a{\k18}i{\k31}ko{\k28}to{\k20}ba {\k38}wa {\k20}ni{\k20}ji{\k28}i{\k29}ro {\k19}LU{\k25}MI{\k25}E{\k25}~{\k48}RE
+Dialogue: 0,0:01:28.75,0:01:32.37,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k22}na{\k31}i{\k27}sho {\k20}da {\kf152}yo
+Dialogue: 0,0:01:31.27,0:01:33.93,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k38}ONE {\k39}TWO {\k41}san {\k38}hai
+Dialogue: 0,0:01:32.83,0:01:35.31,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ii {\k15}zo {\k22}ii {\k17}zo {\k22}Ka{\k18}su{\k20}min
+Dialogue: 0,0:01:34.38,0:01:37.05,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ii {\k15}zo {\k22}ii {\k17}zo {\k22}Ka{\k18}su{\k20}min
+Dialogue: 0,0:01:36.12,0:01:40.21,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k64}mou {\k23}son{\k12}na {\k13}ni {\k11}ho{\k13}me{\k9}ta{\k18}ra {\k8}te{\k13}re{\k12}cha{\k9}i{\k9}ma{\k17}su {\k68}yo
+Dialogue: 0,0:01:39.03,0:01:41.52,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ii {\k15}zo {\k22}ii {\k17}zo {\k22}Ka{\k18}su{\k20}min
+Dialogue: 0,0:01:40.59,0:01:43.16,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ii {\k15}zo {\k22}ii {\k17}zo {\k22}Ka{\k18}su{\k20}min
+Dialogue: 0,0:01:42.39,0:01:45.39,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k16}shi{\k17}ka{\k18}ta{\k29}nai {\k10}de{\k22}su {\k78}ne
+Dialogue: 0,0:01:45.43,0:01:49.78,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k12}sa{\k26}ra{\k86}ni {\k26}ma{\k28}da {\k16}ma{\k14}da {\k17}hi{\k16}mi{\k9}tsu {\k15}ga {\k7}a{\k17}run {\k36}desu
+Dialogue: 0,0:01:48.92,0:01:52.14,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\kf76}ee {\k19}ma{\k19}da {\k21}a{\k17}ru {\k60}no
+Dialogue: 0,0:01:51.04,0:01:53.50,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k39}shi{\k17}ri{\k15}ta{\k65}i
+Dialogue: 0,0:01:52.02,0:01:53.95,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k20}shi{\k19}ri{\k44}tai
+Dialogue: 0,0:01:52.70,0:01:55.02,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k27}shi{\k19}ri{\k27}ta{\k49}i
+Dialogue: 0,0:01:53.55,0:01:55.30,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k21}shi{\k21}ri{\k23}tai
+Dialogue: 0,0:01:54.32,0:01:58.87,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ma{\k20}da {\k18}ma{\k21}da {\k44}ip{\k42}pai {\k20}o{\k15}shi{\k17}e{\kf128}te
+Dialogue: 0,0:01:57.69,0:02:02.21,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k36}ji{\k20}tsu {\k112}wa {\k16}ts'ki {\k18}ni {\k27}bes{\k26}sou {\k16}ga {\k10}a{\k21}run {\k40}desu
+Dialogue: 0,0:02:01.28,0:02:05.01,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\kf86}ee {\k32}ten{\k38}sai {\k23}Ka{\k18}su{\k66}min
+Dialogue: 0,0:02:03.86,0:02:07.05,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k36}tak'{\k24}san {\k16}no {\k18}dou{\k18}buts' {\k19}tach'{\k78}to
+Dialogue: 0,0:02:05.95,0:02:08.55,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k29}PAR{\k17}TY {\k26}wo {\k12}shi{\k24}mash'{\k42}ta
+Dialogue: 0,0:02:07.45,0:02:10.95,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\kf86}ee {\k34}ten{\k36}sai {\k23}Ka{\k20}su{\k41}min
+Dialogue: 0,0:02:09.85,0:02:13.51,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k34}pyon {\k26}pyon {\k11}de {\k20}mo{\k18}chi {\k23}tsu{\k20}ki {\k19}u{\k19}sa{\k20}gi {\k46}san
+Dialogue: 0,0:02:12.24,0:02:14.01,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ka{\k17}wa{\k38}ii
+Dialogue: 0,0:02:12.76,0:02:16.51,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k54}en{\k21}ryo {\k16}wo {\k19}shi{\k19}ra{\k20}na{\k20}i {\k18}ko{\k21}ne{\k20}ko {\k37}chan
+Dialogue: 0,0:02:15.41,0:02:17.07,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ka{\k9}wa{\k35}ii
+Dialogue: 0,0:02:15.97,0:02:19.65,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k42}zen{\k18}ryo{\k14}ku {\k27}o{\k19}te{\k20}n{\k19}ba {\k19}o{\k19}sa{\k19}ru {\k42}san
+Dialogue: 0,0:02:18.45,0:02:20.17,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ka{\k0}wa{\k35}ii
+Dialogue: 0,0:02:19.07,0:02:21.57,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ton{\k20}jat{\k40}te {\k20}ton{\k23}jat{\k19}te
+Dialogue: 0,0:02:20.66,0:02:23.31,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k19}do{\k19}ki {\k19}do{\k19}ki {\k19}do{\k19}ki {\k21}do{\k20}ki
+Dialogue: 0,0:02:22.21,0:02:24.82,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k30}top{\k26}pyou{\k20}shi {\k75}mo
+Dialogue: 0,0:02:23.33,0:02:24.82,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k39}hai
+Dialogue: 0,0:02:23.72,0:02:26.01,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k11}na{\k20}i {\k28}ju{\k24}mo{\k36}n
+Dialogue: 0,0:02:24.91,0:02:26.33,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k32}hai
+Dialogue: 0,0:02:25.23,0:02:28.91,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k35}fu{\k30}wa {\k20}fu{\k29}wa {\k27}no {\k21}a{\k27}no {\k30}ku{\k14}mo {\k25}he
+Dialogue: 0,0:02:27.81,0:02:29.50,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k59}Go
+Dialogue: 0,0:02:28.40,0:02:32.17,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k28}mu{\k30}ge{\k18}n{\k31}da{\k27}i {\k21}no {\k29}ge{\k27}n{\k19}ki {\k37}de
+Dialogue: 0,0:02:31.47,0:02:34.43,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k40}ki{\k20}mi {\k20}to {\k20}i{\k19}ta{\k19}i {\k19}ka{\k29}ra
+Dialogue: 0,0:02:33.81,0:02:35.64,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k39}see {\k34}no
+Dialogue: 0,0:02:33.81,0:02:35.64,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k39}see {\k34}no
+Dialogue: 0,0:02:34.54,0:02:40.72,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ha{\k29}re {\k19}wa{\k32}ta{\k26}ru {\k20}ki{\k48}bu{\k33}n {\k73}de {\k33}HEAR{\k29}T {\k18}ga {\k29}ha{\k29}ji{\k21}ke{\k38}ru
+Dialogue: 0,0:02:40.01,0:02:42.25,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k21}do{\k18}ki {\k19}do{\k17}ki {\k39}no
+Dialogue: 0,0:02:41.15,0:02:42.65,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k40}hai
+Dialogue: 0,0:02:41.55,0:02:43.78,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Sur{\k14}p{\k18}r{\k21}i{\k35}se
+Dialogue: 0,0:02:42.68,0:02:44.23,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k45}hai
+Dialogue: 0,0:02:43.13,0:02:47.51,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k15}i{\k21}tsu{\k22}mo {\k17}no {\k31}ni{\k25}chi{\k18}jo{\k31}u {\k31}wo {\k15}ka{\k34}e{\k28}cha{\k12}u {\k28}yo
+Dialogue: 0,0:02:46.95,0:02:50.75,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k30}CO{\k31}LOR{\k19}FU{\k28}L {\k28}na {\k21}ki{\k60}mo{\k19}chi {\k34}ni
+Dialogue: 0,0:02:49.65,0:02:51.19,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k44}hai
+Dialogue: 0,0:02:50.09,0:02:53.85,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k28}to{\k29}bik{\k16}ki{\k24}ri {\k35}yu{\k21}me {\k58}no{\k19}se{\k36}te
+Dialogue: 0,0:02:52.75,0:02:54.28,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k43}hai
+Dialogue: 0,0:02:53.18,0:02:59.38,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k30}min{\k29}na {\k16}de {\k27}is{\k32}sho {\k19}ni {\k28}to{\k26}na{\k25}e{\k39}you {\k19}ni{\k19}ji{\k26}i{\k31}ro {\k21}LU{\k20}MI{\k27}E{\k30}~{\k46}RE
+Dialogue: 0,0:02:58.37,0:03:02.25,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k21}su{\k30}te{\k26}ki {\k21}de{\kf180}sho
+Dialogue: 0,0:03:01.87,0:03:03.72,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k41}hai {\k34}hai
+Dialogue: 0,0:03:01.87,0:03:03.72,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k41}hai {\k34}hai
+Dialogue: 0,0:03:04.01,0:03:06.63,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k39}min{\k19}na {\k19}de {\k21}i{\k17}ku {\k37}yo
+Dialogue: 0,0:03:05.53,0:03:08.24,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Go {\k37}Go {\k30}Ka{\k30}su{\k21}min
+Dialogue: 0,0:03:05.53,0:03:08.24,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Go {\k37}Go {\k30}Ka{\k30}su{\k21}min
+Dialogue: 0,0:03:07.29,0:03:09.56,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k23}sai{\k19}kou {\k20}no {\k25}SHOW {\k30}TIME
+Dialogue: 0,0:03:07.29,0:03:09.56,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k23}sai{\k19}kou {\k20}no {\k25}SHOW {\k30}TIME
+Dialogue: 0,0:03:08.64,0:03:12.13,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k23}i{\k19}tsu{\k19}de {\k17}mo {\k38}NUM{\k39}BER {\k84}ONE
+Dialogue: 0,0:03:08.64,0:03:12.13,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k23}i{\k19}tsu{\k19}de {\k17}mo {\k38}NUM{\k39}BER {\k84}ONE
