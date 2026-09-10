@@ -1,0 +1,123 @@
+﻿[Script Info]
+Title: LOL -lots of laugh-
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Lasagna
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: main,Arial,24,&H00B762F9,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.8,0,8,2,2,20,1
+Style: eng,Arial,24,&H003CD50E,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.8,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,main,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:15.76,0:00:18.36,eng,,0,0,0,karaoke,{\k45}I'll {\k22}give {\k38}you {\k34}lots {\k37}of {\k84}laugh.
+Comment: 0,0:00:22.75,0:00:25.35,eng,,0,0,0,karaoke,{\k46}You'll {\k21}give {\k38}me {\k32}lots {\k36}of {\k87}laugh.
+Comment: 0,0:00:29.69,0:00:32.29,eng,,0,0,0,karaoke,{\k45}I'll {\k22}give {\k38}you {\k34}lots {\k37}of {\k84}laugh.
+Comment: 0,0:00:36.64,0:00:39.24,eng,,0,0,0,karaoke,{\k46}You'll {\k21}give {\k38}me {\k32}lots {\k36}of {\k87}laugh.
+Comment: 0,0:00:43.83,0:00:46.88,main,,0,0,0,karaoke,{\k21}PER{\k20}SO{\k22}CO{\k44}M {\k21}wo {\k45}na{\k21}ge{\k22}da{\k11}shi{\k78}te
+Comment: 0,0:00:47.31,0:00:50.81,main,,0,0,0,karaoke,{\k20}su{\k18}a{\k24}shi {\k44}de {\k24}to{\k20}bi{\k44}da{\k44}shi{\k46}ta {\k47}no
+Comment: 0,0:00:50.81,0:00:53.59,main,,0,0,0,karaoke,{\k19}ki{\k21}ga{\k22}tsu{\k41}ke{\k23}ba {\k44}mou {\k21}ma{\k22}yo{\k11}na{\k54}ka
+Comment: 0,0:00:53.59,0:00:57.53,main,,0,0,0,karaoke,{\k23}"ko{\k21}ko {\k44}wa {\k21}do{\k44}ko?" {\k20}go{\k23}ze{\k22}n {\k43}ni{\k44}ji {\k46}ha{\k43}n
+Comment: 0,0:00:57.71,0:01:00.91,main,,0,0,0,karaoke,{\k21}PI{\k23}N{\k18}K {\k47}i{\k21}ro {\k44}shi{\k23}ta {\k21}u{\k12}sa{\k90}gi
+Comment: 0,0:01:01.22,0:01:04.50,main,,0,0,0,karaoke,{\k22}"ma{\k19}i{\k24}go {\k41}ni {\k23}na{\k23}ri{\k39}ma{\k47}shi{\k43}ta {\k47}ka?"
+Comment: 0,0:01:04.68,0:01:07.51,main,,0,0,0,karaoke,{\k24}te {\k20}wo {\k23}tsu{\k42}na{\k20}gi {\k47}i{\k21}za{\k20}na{\k16}u {\k50}no
+Comment: 0,0:01:07.51,0:01:11.27,main,,0,0,0,karaoke,{\k22}mi{\k22}ru{\k44}mi{\k20}ru {\k42}u{\k23}chi {\k23}ni {\k22}chi{\k38}i{\k27}sa{\kf73}ku!?{\k20}
+Comment: 0,0:01:11.41,0:01:14.46,main,,0,0,0,karaoke,{\k24}MO{\k42}NO{\k44}G{\k23}RA{\k21}M {\k42}no {\k22}se{\k44}ka{\k43}i
+Comment: 0,0:01:14.46,0:01:17.94,main,,0,0,0,karaoke,{\k44}BYE{\k43}BYE {\k22}wo {\k11}tsu{\k33}ge{\k21}ru {\k23}to{\k45}ki {\k43}ga {\k22}ki{\k41}ta
+Comment: 0,0:01:17.94,0:01:21.42,main,,0,0,0,karaoke,{\k22}P{\k22}LA{\k23}TO{\k41}NI{\k47}C {\k41}na {\k43}chi{\k22}ka{\k24}ra {\k21}na{\k42}no
+Comment: 0,0:01:21.42,0:01:24.04,main,,0,0,0,karaoke,{\k22}so{\k23}re {\k40}ga {\k27}su{\k41}be{\k24}te {\k20}de{\k21}shou {\k44}nee?
+Comment: 0,0:01:24.04,0:01:25.33,eng,,0,0,0,karaoke,{\k43}lots {\k45}of {\k41}laugh
+Comment: 0,0:01:25.33,0:01:28.40,main,,0,0,0,karaoke,{\k21}CHO{\k44}CO{\k43}L{\k24}A{\k21}TE {\k40}BA{\k47}TH{\k21}TU{\k46}B
+Comment: 0,0:01:28.40,0:01:31.88,main,,0,0,0,karaoke,{\k21}na{\k21}ma {\k23}C{\k18}RE{\k24}A{\k11}M {\k31}no {\k25}SA{\k22}VO{\k41}N {\k43}no {\k23}na{\k45}ka
+Comment: 0,0:01:31.88,0:01:33.62,main,,0,0,0,karaoke,{\k20}de {\k21}ne{\k42}mu{\k23}t{\k21}te{\k47}ta
+Comment: 0,0:01:33.62,0:01:37.53,main,,0,0,0,karaoke,{\k19}a{\k22}ta{\k44}shi {\k44}wa {\k43}L.{\k21}O.{\kf183}L.{\k15}
+Comment: 0,0:01:39.25,0:01:41.85,eng,,0,0,0,karaoke,{\k45}I'll {\k22}give {\k38}you {\k34}lots {\k37}of {\k84}laugh.
+Comment: 0,0:01:46.22,0:01:48.82,eng,,0,0,0,karaoke,{\k46}You'll {\k21}give {\k38}me {\k32}lots {\k36}of {\k87}laugh.
+Comment: 0,0:01:53.36,0:01:56.59,main,,0,0,0,karaoke,{\k24}fu{\k22}ri{\k20}da{\k43}shi{\k24}ta {\k43}a{\k20}me {\k18}sa{\k15}e{\k94}mo
+Comment: 0,0:01:56.87,0:01:58.15,main,,0,0,0,karaoke,{\k20}shi{\k22}ta {\k22}de {\k22}o{\k21}do{\k21}ru
+Comment: 0,0:01:58.15,0:02:00.03,main,,0,0,0,karaoke,{\k23}SW{\k43}EET {\k40}SWEET {\k48}CAN{\k34}DY
+Comment: 0,0:02:00.35,0:02:03.18,main,,0,0,0,karaoke,{\k19}TA{\k23}R{\k23}T {\k42}no {\k22}SO{\k41}FA {\k19}ni {\k26}su{\k17}wa{\k51}ri
+Comment: 0,0:02:03.18,0:02:07.09,main,,0,0,0,karaoke,{\k20}a{\k25}ke{\k42}ga{\k19}ta {\k44}no {\k21}tsu{\k23}ki {\k22}wo {\k43}mi{\k47}a{\k40}ge{\k45}ru
+Comment: 0,0:02:07.30,0:02:10.57,main,,0,0,0,karaoke,{\k21}yu{\k21}me {\k22}ga {\k45}yu{\k20}me {\k44}ja{\k21}na{\k21}ku {\k10}na{\k102}ru
+Comment: 0,0:02:10.78,0:02:14.06,main,,0,0,0,karaoke,{\k21}DI{\k22}GI{\k20}TA{\k46}L {\k20}na {\k22}yo {\k46}no {\k43}na{\k41}ka {\k47}ni
+Comment: 0,0:02:14.25,0:02:17.09,main,,0,0,0,karaoke,{\k20}a{\k21}ta{\k24}shi {\k44}o{\k20}tsu{\k45}ka{\k20}re{\k23}sa{\k11}ma {\k56}de
+Comment: 0,0:02:17.09,0:02:20.79,main,,0,0,0,karaoke,{\k42}mou {\k43}ki{\k22}me{\k44}ta! {\k21}ko{\k21}ko {\k21}de {\k46}ku{\k20}ra{\k90}su!
+Comment: 0,0:02:21.00,0:02:24.04,main,,0,0,0,karaoke,{\k21}wa{\k43}ku{\k44}wa{\k43}ku {\k44}to{\k21}ma{\k21}ra{\k23}na{\k41}i
+Comment: 0,0:02:24.04,0:02:27.52,main,,0,0,0,karaoke,{\k20}i{\k22}ma {\k22}i{\k21}ki{\k21}te{\k16}i{\k30}ru {\k22}ka{\k18}ko {\k47}sa{\k43}yo{\k20}na{\k46}ra
+Comment: 0,0:02:27.52,0:02:30.99,main,,0,0,0,karaoke,{\k20}mu{\k17}ki{\k27}shi{\k47}tsu {\k40}na {\k22}ko{\k20}to{\k41}ba {\k47}sa{\k22}e{\k44}mo
+Comment: 0,0:02:30.99,0:02:33.62,main,,0,0,0,karaoke,{\k18}ka{\k25}ra {\k45}wo {\k20}ya{\k47}but{\k18}te {\k22}i{\k19}ma {\k49}sou!
+Comment: 0,0:02:33.62,0:02:34.91,eng,,0,0,0,karaoke,{\k41}lots {\k44}of {\k43}laugh
+Comment: 0,0:02:34.91,0:02:38.62,main,,0,0,0,karaoke,{\k19}PA{\k46}N{\k42}C{\k21}A{\k22}KE {\k44}CA{\k22}RA{\k23}ME{\k20}L {\k45}no {\k20}SA{\k20}U{\k27}CE
+Comment: 0,0:02:38.62,0:02:40.07,main,,0,0,0,karaoke,{\k19}ka{\k21}ke{\k14}te {\k32}ta{\k20}be{\k21}tsu{\k18}ku
+Comment: 0,0:02:40.07,0:02:43.17,main,,0,0,0,karaoke,{\k51}SUR{\k19}RE{\k21}A{\k46}L {\k19}na {\k23}ki{\k64}mo{\k67}chi
+Comment: 0,0:02:43.17,0:02:47.12,main,,0,0,0,karaoke,{\k19}a{\k22}ta{\k44}shi {\k44}wa {\k43}L.{\k21}O.{\kf183}L.{\k15}
+Comment: 0,0:02:48.82,0:02:51.42,eng,,0,0,0,karaoke,{\k45}I'll {\k22}give {\k38}you {\k34}lots {\k37}of {\k85}laugh.
+Comment: 0,0:02:55.76,0:02:58.36,eng,,0,0,0,karaoke,{\k46}You'll {\k21}give {\k38}me {\k32}lots {\k36}of {\k85}laugh.
+Comment: 0,0:03:02.72,0:03:05.77,main,,0,0,0,karaoke,{\k24}MO{\k42}NO{\k44}G{\k23}RA{\k21}M {\k42}no {\k22}se{\k44}ka{\k43}i
+Comment: 0,0:03:05.77,0:03:09.25,main,,0,0,0,karaoke,{\k44}BYE{\k43}BYE {\k22}wo {\k11}tsu{\k33}ge{\k21}ru {\k23}to{\k45}ki {\k43}ga {\k22}ki{\k41}ta
+Comment: 0,0:03:09.25,0:03:12.73,main,,0,0,0,karaoke,{\k22}P{\k22}LA{\k23}TO{\k41}NI{\k47}C {\k41}na {\k43}chi{\k22}ka{\k24}ra {\k21}na{\k42}no
+Comment: 0,0:03:12.73,0:03:15.35,main,,0,0,0,karaoke,{\k22}so{\k23}re {\k40}ga {\k27}su{\k41}be{\k24}te {\k20}de{\k21}shou {\k44}nee?
+Comment: 0,0:03:15.35,0:03:16.64,eng,,0,0,0,karaoke,{\k43}lots {\k45}of {\k41}laugh
+Comment: 0,0:03:16.64,0:03:19.71,main,,0,0,0,karaoke,{\k21}CHO{\k44}CO{\k43}L{\k24}A{\k21}TE {\k40}BA{\k47}TH{\k21}TU{\k46}B
+Comment: 0,0:03:19.71,0:03:23.19,main,,0,0,0,karaoke,{\k21}na{\k21}ma {\k23}C{\k18}RE{\k24}A{\k11}M {\k31}no {\k25}SA{\k22}VO{\k41}N {\k43}no {\k23}na{\k45}ka
+Comment: 0,0:03:23.19,0:03:24.93,main,,0,0,0,karaoke,{\k20}de {\k21}ne{\k42}mu{\k23}t{\k21}te{\k47}ta
+Comment: 0,0:03:24.93,0:03:28.84,main,,0,0,0,karaoke,{\k19}a{\k22}ta{\k44}shi {\k44}wa {\k43}L.{\k21}O.{\kf183}L.{\k15}
+Comment: 0,0:00:00.00,0:00:00.00,main,,0,0,0,karaoke,
+Dialogue: 0,0:00:14.86,0:00:18.56,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k45}I'll {\k22}give {\k38}you {\k34}lots {\k37}of {\k84}laugh.
+Dialogue: 0,0:00:21.85,0:00:25.55,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k46}You'll {\k21}give {\k38}me {\k32}lots {\k36}of {\k87}laugh.
+Dialogue: 0,0:00:28.79,0:00:32.49,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k45}I'll {\k22}give {\k38}you {\k34}lots {\k37}of {\k84}laugh.
+Dialogue: 0,0:00:35.74,0:00:39.44,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k46}You'll {\k21}give {\k38}me {\k32}lots {\k36}of {\k87}laugh.
+Dialogue: 0,0:00:42.93,0:00:47.08,main,,0,0,0,fx,{\k90\fad(300,200)}{\k21}PER{\k20}SO{\k22}CO{\k44}M {\k21}wo {\k45}na{\k21}ge{\k22}da{\k11}shi{\k78}te
+Dialogue: 0,0:00:46.41,0:00:51.01,main,,0,0,0,fx,{\k90\fad(300,200)}{\k20}su{\k18}a{\k24}shi {\k44}de {\k24}to{\k20}bi{\k44}da{\k44}shi{\k46}ta {\k47}no
+Dialogue: 0,0:00:49.91,0:00:53.79,main,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ki{\k21}ga{\k22}tsu{\k41}ke{\k23}ba {\k44}mou {\k21}ma{\k22}yo{\k11}na{\k54}ka
+Dialogue: 0,0:00:52.69,0:00:57.73,main,,0,0,0,fx,{\k90\fad(300,200)}{\k23}"ko{\k21}ko {\k44}wa {\k21}do{\k44}ko?" {\k20}go{\k23}ze{\k22}n {\k43}ni{\k44}ji {\k46}ha{\k43}n
+Dialogue: 0,0:00:56.81,0:01:01.11,main,,0,0,0,fx,{\k90\fad(300,200)}{\k21}PI{\k23}N{\k18}K {\k47}i{\k21}ro {\k44}shi{\k23}ta {\k21}u{\k12}sa{\k90}gi
+Dialogue: 0,0:01:00.32,0:01:04.70,main,,0,0,0,fx,{\k90\fad(300,200)}{\k22}"ma{\k19}i{\k24}go {\k41}ni {\k23}na{\k23}ri{\k39}ma{\k47}shi{\k43}ta {\k47}ka?"
+Dialogue: 0,0:01:03.78,0:01:07.71,main,,0,0,0,fx,{\k90\fad(300,200)}{\k24}te {\k20}wo {\k23}tsu{\k42}na{\k20}gi {\k47}i{\k21}za{\k20}na{\k16}u {\k50}no
+Dialogue: 0,0:01:06.61,0:01:11.47,main,,0,0,0,fx,{\k90\fad(300,200)}{\k22}mi{\k22}ru{\k44}mi{\k20}ru {\k42}u{\k23}chi {\k23}ni {\k22}chi{\k38}i{\k27}sa{\kf73}ku!?{\k20}
+Dialogue: 0,0:01:10.51,0:01:14.66,main,,0,0,0,fx,{\k90\fad(300,200)}{\k24}MO{\k42}NO{\k44}G{\k23}RA{\k21}M {\k42}no {\k22}se{\k44}ka{\k43}i
+Dialogue: 0,0:01:13.56,0:01:18.14,main,,0,0,0,fx,{\k90\fad(300,200)}{\k44}BYE{\k43}BYE {\k22}wo {\k11}tsu{\k33}ge{\k21}ru {\k23}to{\k45}ki {\k43}ga {\k22}ki{\k41}ta
+Dialogue: 0,0:01:17.04,0:01:21.62,main,,0,0,0,fx,{\k90\fad(300,200)}{\k22}P{\k22}LA{\k23}TO{\k41}NI{\k47}C {\k41}na {\k43}chi{\k22}ka{\k24}ra {\k21}na{\k42}no
+Dialogue: 0,0:01:20.52,0:01:24.24,main,,0,0,0,fx,{\k90\fad(300,200)}{\k22}so{\k23}re {\k40}ga {\k27}su{\k41}be{\k24}te {\k20}de{\k21}shou {\k44}nee?
+Dialogue: 0,0:01:23.14,0:01:25.53,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k43}lots {\k45}of {\k41}laugh
+Dialogue: 0,0:01:24.43,0:01:28.60,main,,0,0,0,fx,{\k90\fad(300,200)}{\k21}CHO{\k44}CO{\k43}L{\k24}A{\k21}TE {\k40}BA{\k47}TH{\k21}TU{\k46}B
+Dialogue: 0,0:01:27.50,0:01:32.08,main,,0,0,0,fx,{\k90\fad(300,200)}{\k21}na{\k21}ma {\k23}C{\k18}RE{\k24}A{\k11}M {\k31}no {\k25}SA{\k22}VO{\k41}N {\k43}no {\k23}na{\k45}ka
+Dialogue: 0,0:01:30.98,0:01:33.82,main,,0,0,0,fx,{\k90\fad(300,200)}{\k20}de {\k21}ne{\k42}mu{\k23}t{\k21}te{\k47}ta
+Dialogue: 0,0:01:32.72,0:01:37.73,main,,0,0,0,fx,{\k90\fad(300,200)}{\k19}a{\k22}ta{\k44}shi {\k44}wa {\k43}L.{\k21}O.{\kf183}L.{\k15}
+Dialogue: 0,0:01:38.35,0:01:42.05,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k45}I'll {\k22}give {\k38}you {\k34}lots {\k37}of {\k84}laugh.
+Dialogue: 0,0:01:45.32,0:01:49.02,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k46}You'll {\k21}give {\k38}me {\k32}lots {\k36}of {\k87}laugh.
+Dialogue: 0,0:01:52.46,0:01:56.79,main,,0,0,0,fx,{\k90\fad(300,200)}{\k24}fu{\k22}ri{\k20}da{\k43}shi{\k24}ta {\k43}a{\k20}me {\k18}sa{\k15}e{\k94}mo
+Dialogue: 0,0:01:55.97,0:01:58.35,main,,0,0,0,fx,{\k90\fad(300,200)}{\k20}shi{\k22}ta {\k22}de {\k22}o{\k21}do{\k21}ru
+Dialogue: 0,0:01:57.25,0:02:00.23,main,,0,0,0,fx,{\k90\fad(300,200)}{\k23}SW{\k43}EET {\k40}SWEET {\k48}CAN{\k34}DY
+Dialogue: 0,0:01:59.45,0:02:03.38,main,,0,0,0,fx,{\k90\fad(300,200)}{\k19}TA{\k23}R{\k23}T {\k42}no {\k22}SO{\k41}FA {\k19}ni {\k26}su{\k17}wa{\k51}ri
+Dialogue: 0,0:02:02.28,0:02:07.29,main,,0,0,0,fx,{\k90\fad(300,200)}{\k20}a{\k25}ke{\k42}ga{\k19}ta {\k44}no {\k21}tsu{\k23}ki {\k22}wo {\k43}mi{\k47}a{\k40}ge{\k45}ru
+Dialogue: 0,0:02:06.40,0:02:10.77,main,,0,0,0,fx,{\k90\fad(300,200)}{\k21}yu{\k21}me {\k22}ga {\k45}yu{\k20}me {\k44}ja{\k21}na{\k21}ku {\k10}na{\k102}ru
+Dialogue: 0,0:02:09.88,0:02:14.26,main,,0,0,0,fx,{\k90\fad(300,200)}{\k21}DI{\k22}GI{\k20}TA{\k46}L {\k20}na {\k22}yo {\k46}no {\k43}na{\k41}ka {\k47}ni
+Dialogue: 0,0:02:13.35,0:02:17.29,main,,0,0,0,fx,{\k90\fad(300,200)}{\k20}a{\k21}ta{\k24}shi {\k44}o{\k20}tsu{\k45}ka{\k20}re{\k23}sa{\k11}ma {\k56}de
+Dialogue: 0,0:02:16.19,0:02:20.99,main,,0,0,0,fx,{\k90\fad(300,200)}{\k42}mou {\k43}ki{\k22}me{\k44}ta! {\k21}ko{\k21}ko {\k21}de {\k46}ku{\k20}ra{\k90}su!
+Dialogue: 0,0:02:20.10,0:02:24.24,main,,0,0,0,fx,{\k90\fad(300,200)}{\k21}wa{\k43}ku{\k44}wa{\k43}ku {\k44}to{\k21}ma{\k21}ra{\k23}na{\k41}i
+Dialogue: 0,0:02:23.14,0:02:27.72,main,,0,0,0,fx,{\k90\fad(300,200)}{\k20}i{\k22}ma {\k22}i{\k21}ki{\k21}te{\k16}i{\k30}ru {\k22}ka{\k18}ko {\k47}sa{\k43}yo{\k20}na{\k46}ra
+Dialogue: 0,0:02:26.62,0:02:31.19,main,,0,0,0,fx,{\k90\fad(300,200)}{\k20}mu{\k17}ki{\k27}shi{\k47}tsu {\k40}na {\k22}ko{\k20}to{\k41}ba {\k47}sa{\k22}e{\k44}mo
+Dialogue: 0,0:02:30.09,0:02:33.82,main,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ka{\k25}ra {\k45}wo {\k20}ya{\k47}but{\k18}te {\k22}i{\k19}ma {\k49}sou!
+Dialogue: 0,0:02:32.72,0:02:35.11,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k41}lots {\k44}of {\k43}laugh
+Dialogue: 0,0:02:34.01,0:02:38.82,main,,0,0,0,fx,{\k90\fad(300,200)}{\k19}PA{\k46}N{\k42}C{\k21}A{\k22}KE {\k44}CA{\k22}RA{\k23}ME{\k20}L {\k45}no {\k20}SA{\k20}U{\k27}CE
+Dialogue: 0,0:02:37.72,0:02:40.27,main,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ka{\k21}ke{\k14}te {\k32}ta{\k20}be{\k21}tsu{\k18}ku
+Dialogue: 0,0:02:39.17,0:02:43.37,main,,0,0,0,fx,{\k90\fad(300,200)}{\k51}SUR{\k19}RE{\k21}A{\k46}L {\k19}na {\k23}ki{\k64}mo{\k67}chi
+Dialogue: 0,0:02:42.27,0:02:47.32,main,,0,0,0,fx,{\k90\fad(300,200)}{\k19}a{\k22}ta{\k44}shi {\k44}wa {\k43}L.{\k21}O.{\kf183}L.{\k15}
+Dialogue: 0,0:02:47.92,0:02:51.62,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k45}I'll {\k22}give {\k38}you {\k34}lots {\k37}of {\k85}laugh.
+Dialogue: 0,0:02:54.86,0:02:58.56,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k46}You'll {\k21}give {\k38}me {\k32}lots {\k36}of {\k85}laugh.
+Dialogue: 0,0:03:01.82,0:03:05.97,main,,0,0,0,fx,{\k90\fad(300,200)}{\k24}MO{\k42}NO{\k44}G{\k23}RA{\k21}M {\k42}no {\k22}se{\k44}ka{\k43}i
+Dialogue: 0,0:03:04.87,0:03:09.45,main,,0,0,0,fx,{\k90\fad(300,200)}{\k44}BYE{\k43}BYE {\k22}wo {\k11}tsu{\k33}ge{\k21}ru {\k23}to{\k45}ki {\k43}ga {\k22}ki{\k41}ta
+Dialogue: 0,0:03:08.35,0:03:12.93,main,,0,0,0,fx,{\k90\fad(300,200)}{\k22}P{\k22}LA{\k23}TO{\k41}NI{\k47}C {\k41}na {\k43}chi{\k22}ka{\k24}ra {\k21}na{\k42}no
+Dialogue: 0,0:03:11.83,0:03:15.55,main,,0,0,0,fx,{\k90\fad(300,200)}{\k22}so{\k23}re {\k40}ga {\k27}su{\k41}be{\k24}te {\k20}de{\k21}shou {\k44}nee?
+Dialogue: 0,0:03:14.45,0:03:16.84,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k43}lots {\k45}of {\k41}laugh
+Dialogue: 0,0:03:15.74,0:03:19.91,main,,0,0,0,fx,{\k90\fad(300,200)}{\k21}CHO{\k44}CO{\k43}L{\k24}A{\k21}TE {\k40}BA{\k47}TH{\k21}TU{\k46}B
+Dialogue: 0,0:03:18.81,0:03:23.39,main,,0,0,0,fx,{\k90\fad(300,200)}{\k21}na{\k21}ma {\k23}C{\k18}RE{\k24}A{\k11}M {\k31}no {\k25}SA{\k22}VO{\k41}N {\k43}no {\k23}na{\k45}ka
+Dialogue: 0,0:03:22.29,0:03:25.13,main,,0,0,0,fx,{\k90\fad(300,200)}{\k20}de {\k21}ne{\k42}mu{\k23}t{\k21}te{\k47}ta
+Dialogue: 0,0:03:24.03,0:03:29.04,main,,0,0,0,fx,{\k90\fad(300,200)}{\k19}a{\k22}ta{\k44}shi {\k44}wa {\k43}L.{\k21}O.{\kf183}L.{\k15}
+Dialogue: 0,0:00:00.00,0:00:00.20,main,,0,0,0,fx,{\k0\fad(0,200)}
