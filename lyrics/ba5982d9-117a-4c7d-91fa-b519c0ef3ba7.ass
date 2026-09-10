@@ -1,0 +1,149 @@
+﻿[Script Info]
+Title: Mermaid festa vol.1 - Eimi and Ruse ver.
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Ichinyaaan, Hanaku
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Eimi Isami,Arial,24,&H00FFFFFF,&H003AADEF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Runie Ruse,Arial,24,&H00FFFFFF,&H00CA82F3,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Duo,Arial,24,&H00FFFFFF,&H00C8D878,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Eimi Isami down,Arial,24,&H00FFFFFF,&H003AADEF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,0,0,20,1
+Style: Runie Ruse down,Arial,24,&H00FFFFFF,&H00CA82F3,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,0,0,20,1
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&HC8D878&}Duo{\c} | {\c&H3AADEF&}Eimi Isami{\c} | {\c&HCA82F3&}Runie Ruse
+Comment: 0,0:00:01.96,0:00:05.30,Duo,,0,0,0,karaoke,{\k80}no, {\k47}to{\k37}me{\k92}nai{\k78}de
+Comment: 0,0:00:05.43,0:00:09.51,Duo,,0,0,0,karaoke,{\k13}a{\k13}na{\k35}ta {\k37}ka{\k71}ra {\k23}a{\k26}tsu{\k21}ku {\k14}na{\kf155}re
+Comment: 0,0:00:26.26,0:00:29.84,Runie Ruse,,0,0,0,karaoke,{\k9}ma{\k11}da {\k20}yu{\k17}me {\k35}wo {\k28}mi{\k24}te{\k12}ru {\k24}no {\k13}a{\k19}do{\k15}ke{\k19}na{\k26}i {\k23}yu{\k46}me
+Comment: 0,0:00:30.28,0:00:33.60,Runie Ruse,,0,0,0,karaoke,{\k38}mi{\k58}mi {\k51}ni {\k20}sa{\k17}sa{\k37}ya{\k35}i{\k28}ta{\k33}ra
+Comment: 0,0:00:33.84,0:00:37.39,Eimi Isami,,0,0,0,karaoke,{\k11}me {\k9}wo {\k22}to{\k15}ji{\k38}te {\k23}ta{\k23}me{\k11}i{\k36}ki {\k11}a{\k13}na{\k23}ta {\k11}no {\k37}se{\k23}i {\k49}yo
+Comment: 0,0:00:37.83,0:00:40.69,Eimi Isami,,0,0,0,karaoke,{\k20}u{\k13}mi {\k16}ni {\k15}to{\k22}ke{\k57}ru {\k24}MOON {\k24}LIGHT {\k23}a{\k13}bi{\k43}te
+Comment: 0,0:00:40.68,0:00:45.13,Runie Ruse,,0,0,0,karaoke,{\k48}to{\k38}bi{\k30}ko{\k15}mu {\k34}ma{\k25}e {\k90}no {\k23}i{\k6}to{\k34}shi{\k35}sa {\k67}wa
+Comment: 0,0:00:45.32,0:00:48.77,Runie Ruse,,0,0,0,karaoke,{\k29}tsu{\k12}ta{\k36}e{\k16}ta{\k21}ri {\k28}shi{\k35}na{\k21}i... {\k38}hi-{\k45}mi-{\k64}tsu
+Comment: 0,0:00:49.16,0:00:52.63,Eimi Isami,,0,0,0,karaoke,{\k34}ha{\k32}na{\k32}se{\k62}ba {\k10}a{\k11}wa {\k12}to {\k20}na{\k18}ru {\k32}yo{\k16}u {\k53}na
+Comment: 0,0:00:52.83,0:00:56.77,Duo,,0,0,0,karaoke,{\k17}wa{\k16}ta{\k15}shi {\k55}wa {\k30}ni{\k16}n{\k22}gyo {\k20}na {\kf203}no
+Comment: 0,0:00:57.22,0:01:00.11,Duo,,0,0,0,karaoke,{\k39}{\rRunie Ruse}na{\k53}mi {\k39}ga {\rDuo}{\k28}tsu{\k14}re{\k30}te {\k25}ki{\k42}ta
+Comment: 0,0:01:00.28,0:01:01.93,Duo,,0,0,0,karaoke,{\k21}na{\k24}tsu {\k14}no {\k37}ko{\k22}i {\k47}wa
+Comment: 0,0:01:02.15,0:01:05.46,Eimi Isami,,0,0,0,karaoke,{\k13}ni{\k15}do{\k67}to {\k14}ko{\k12}na{\k68}i {\k11}se{\k13}tsu{\k26}na{\k13}i {\k24}FE{\k31}S{\k24}TA
+Comment: 0,0:01:05.82,0:01:07.60,Duo,,0,0,0,karaoke,{\k10}na{\k14}mi {\k9}to {\k25}o{\k14}do{\k26}ru {\k32}ka{\k48}ra
+Comment: 0,0:01:07.78,0:01:11.54,Duo,,0,0,0,karaoke,{\k26}ha{\k48}ge{\k50}shi{\k63}ku {\rEimi Isami}{\k16}na{\k15}ra{\k24}shi{\k14}te {\k28}yo {\k13}o{\k13}to {\k23}no {\k18}ma{\k25}hou
+Comment: 0,0:01:11.57,0:01:13.25,Eimi Isami,,0,0,0,karaoke,{\k16}ko{\k10}to{\k27}shi {\k12}no {\k22}FE{\k40}S{\k41}TA
+Comment: 0,0:01:13.70,0:01:15.65,Runie Ruse,,0,0,0,karaoke,{\k48}dou{\k38}you {\k25}shi{\k25}te{\k12}ru {\k47}no?
+Comment: 0,0:01:15.85,0:01:17.43,Eimi Isami,,0,0,0,karaoke,{\k21}kin{\k38}chou {\k25}shi{\k26}te{\k11}ru {\k37}no?
+Comment: 0,0:01:17.52,0:01:18.96,Runie Ruse,,0,0,0,karaoke,{\k21}nan{\k14}da{\k20}ka {\k16}wa{\k15}ka{\k58}ru
+Comment: 0,0:01:19.19,0:01:20.61,Eimi Isami,,0,0,0,karaoke,{\k7}fu{\k15}ri{\k8}mu{\k13}i{\k12}ta{\k11}ra {\k21}wa{\k21}ka{\k34}ru
+Comment: 0,0:01:20.84,0:01:23.20,Runie Ruse,,0,0,0,karaoke,{\k17}a{\k30}na{\k22}ta {\k17}ka{\kf150}ra
+Comment: 0,0:01:24.59,0:01:28.61,Duo,,0,0,0,karaoke,{\k22}a{\k27}tsu{\k23}ku {\k14}na{\kf316}re
+Comment: 0,0:01:39.95,0:01:43.49,Eimi Isami,,0,0,0,karaoke,{\k10}na{\k15}ze {\k16}koc{\k18}chi {\k33}ni {\k28}ko{\k20}na{\k16}i {\k24}no {\k15}i{\k16}shi{\k16}ki {\k18}shi{\k40}te{\k25}ru {\k44}no
+Comment: 0,0:01:43.99,0:01:47.33,Eimi Isami,,0,0,0,karaoke,{\k47}su{\k37}ko{\k80}shi {\k11}i{\k7}ji{\k40}me{\k35}te {\k28}mi{\k49}ru
+Comment: 0,0:01:47.55,0:01:51.30,Runie Ruse,,0,0,0,karaoke,{\k8}ku{\k15}ru{\k21}shi{\k18}ge{\k21}na {\k35}ii {\k21}wa{\k13}ke {\k36}ga {\k12}a{\k13}na{\k22}ta {\k11}ra{\k35}shi{\k27}ku{\k67}te
+Comment: 0,0:01:51.53,0:01:54.38,Runie Ruse,,0,0,0,karaoke,{\k12}sa{\k12}ra {\k25}ni {\k26}ko{\k11}ko{\k52}ro {\k23}TEN{\k30}SION {\k24}a{\k13}ga{\k57}ru
+Comment: 0,0:01:54.38,0:01:58.72,Eimi Isami,,0,0,0,karaoke,{\k48}ha{\k38}da{\k30}shi {\k15}de {\k26}ka{\k31}i{\k90}ta {\k27}su{\k14}na {\k33}no {\k28}ki{\k54}gou
+Comment: 0,0:01:59.04,0:02:02.55,Eimi Isami,,0,0,0,karaoke,{\k26}sa{\k21}ka{\k28}sa{\k15}ma {\k28}ni {\k28}su{\k27}re{\k20}ba {\k50}I {\k47}LOVE {\k61}YOU
+Comment: 0,0:02:02.86,0:02:06.38,Runie Ruse,,0,0,0,karaoke,{\k35}ki{\k39}zu{\k22}i{\k63}ta {\k10}to{\k10}ki {\k13}wa {\k24}do{\k23}u{\k24}su{\k13}ru {\k76}no
+Comment: 0,0:02:06.62,0:02:10.44,Duo,,0,0,0,karaoke,{\k8}wa{\k10}ta{\k18}shi {\k60}wo {\k23}mi{\k26}te {\k25}i{\k14}ru {\kf188}no
+Comment: 0,0:02:10.89,0:02:13.86,Duo,,0,0,0,karaoke,{\k48}{\rRunie Ruse}tsu{\k43}gi {\k49}wa {\rDuo}{\k24}da{\k15}ki{\k37}shi{\k22}me{\k40}te
+Comment: 0,0:02:13.98,0:02:17.62,Duo,,0,0,0,karaoke,{\k16}ka{\k21}ru{\k20}ku {\k30}ni{\k30}ge{\k67}te {\rRunie Ruse}{\k14}i{\k16}ma {\k67}ga {\k15}ko{\k14}i {\k54}no
+Comment: 0,0:02:17.73,0:02:19.30,Runie Ruse,,0,0,0,karaoke,{\k9}ha{\k10}ji{\k19}ma{\k23}ri {\k25}da{\k36}ka{\k35}ra
+Comment: 0,0:02:19.49,0:02:23.30,Duo,,0,0,0,karaoke,{\k13}tsu{\k14}gi {\k9}ni {\k21}da{\k11}ki{\k34}shi{\k32}me{\k69}te {\k23}ho{\k52}shi{\k46}i {\k32}no
+Comment: 0,0:02:23.40,0:02:25.30,Runie Ruse,,0,0,0,karaoke,{\k10}ya{\k12}sa{\k26}shii {\k15}no {\k26}ne {\k18}shi{\k16}ri{\k22}tai {\k14}no {\k14}wa
+Comment: 0,0:02:25.33,0:02:27.22,Runie Ruse,,0,0,0,karaoke,{\k23}gou{\k17}in {\k14}na {\k38}shi{\k16}gu{\k81}sa
+Comment: 0,0:02:27.40,0:02:29.34,Runie Ruse,,0,0,0,karaoke,{\k31}dou{\k47}you {\k23}shi{\k26}te{\k20}ru {\k30}yo?
+Comment: 0,0:02:29.55,0:02:31.15,Eimi Isami,,0,0,0,karaoke,{\k17}kin{\k33}chou {\k24}shi{\k21}te{\k24}ru {\k33}yo?
+Comment: 0,0:02:31.21,0:02:32.62,Runie Ruse,,0,0,0,karaoke,{\k25}nan{\k9}do {\k22}mo {\k15}su{\k20}ne{\k50}ru
+Comment: 0,0:02:32.83,0:02:34.50,Eimi Isami,,0,0,0,karaoke,{\k15}yo{\k10}ri{\k27}sot{\k13}te {\k22}mo {\k13}su{\k13}ne{\k54}ru
+Comment: 0,0:02:34.50,0:02:36.77,Runie Ruse,,0,0,0,karaoke,{\k23}wa{\k25}ta{\k20}shi {\k18}ni {\kf141}wa
+Comment: 0,0:02:38.24,0:02:40.93,Duo,,0,0,0,karaoke,{\k27}a{\k26}ma{\k23}e{\k17}te {\kf176}yo
+Comment: 0,0:02:43.37,0:02:45.64,Eimi Isami down,,0,0,0,karaoke,{\kf60}Hi~ {\k25}e{\k24}very{\kf118}one
+Comment: 0,0:02:46.20,0:02:48.24,Runie Ruse down,,0,0,0,karaoke,{\k39}ru {\k35}hu {\k20}hu {\k15}hu {\k24}hu {\k23}hu {\k48}hu~
+Comment: 0,0:02:48.92,0:02:51.07,Eimi Isami down,,0,0,0,karaoke,{\k14}Did {\k10}you {\k32}know {\k17}that {\k22}mer{\k44}maids {\k25}are {\k51}real?
+Comment: 0,0:02:52.12,0:02:54.27,Eimi Isami down,,0,0,0,karaoke,{\k131}Look, {\k20}she's {\k28}right {\k36}there
+Comment: 0,0:02:54.86,0:02:57.81,Eimi Isami down,,0,0,0,karaoke,{\k30}Her {\k17}name {\k12}is {\k12}Ru{\k17}nie {\k128}Ruse, {\k13}u{\k66}waouh!
+Comment: 0,0:02:58.13,0:03:00.99,Duo,,0,0,0,karaoke,{\k49}na{\k47}mi {\k46}ga {\k26}tsu{\k9}re{\k38}te {\k21}ki{\k50}ta
+Comment: 0,0:03:01.22,0:03:02.88,Duo,,0,0,0,karaoke,{\k18}na{\k29}tsu {\k12}no {\k33}ko{\k26}i {\k34}wa
+Comment: 0,0:03:03.06,0:03:06.78,Duo,,0,0,0,karaoke,{\k11}ni{\k16}do{\k68}to {\k15}ko{\k12}na{\k58}i {\k22}se{\k17}tsu{\k21}na{\k12}i {\k21}FE{\k40}S{\k32}TA
+Comment: 0,0:03:06.78,0:03:10.48,Duo,,0,0,0,karaoke,{\k12}na{\k13}mi {\k11}to {\k20}o{\k13}do{\k36}ru {\k24}ka{\k69}ra {\k19}ha{\k45}ge{\k55}shi{\k53}ku
+Comment: 0,0:03:10.68,0:03:12.51,Duo,,0,0,0,karaoke,{\k9}na{\k10}ra{\k28}shi{\k13}te {\k31}yo {\k10}o{\k15}to {\k24}no {\k14}ma{\k29}hou
+Comment: 0,0:03:12.57,0:03:14.37,Duo,,0,0,0,karaoke,{\k9}ko{\k13}to{\k22}shi {\k15}no {\k21}FE{\k34}S{\k53}TA
+Comment: 0,0:03:14.68,0:03:16.59,Runie Ruse,,0,0,0,karaoke,{\k47}dou{\k26}you {\k23}shi{\k26}te{\k20}ru {\k49}no?
+Comment: 0,0:03:16.80,0:03:18.33,Eimi Isami,,0,0,0,karaoke,{\k23}kin{\k38}chou {\k22}shi{\k26}te{\k12}ru {\k32}no?
+Comment: 0,0:03:18.48,0:03:19.88,Runie Ruse,,0,0,0,karaoke,{\k13}nan{\k20}do {\k20}ka {\k20}wa{\k14}ka{\k53}ru
+Comment: 0,0:03:20.08,0:03:21.65,Eimi Isami,,0,0,0,karaoke,{\k12}fu{\k15}ri{\k12}mu{\k11}i{\k12}ta{\k14}ra {\k17}wa{\k18}ka{\k46}ru
+Comment: 0,0:03:21.79,0:03:24.15,Eimi Isami,,0,0,0,karaoke,{\k25}na{\k19}ra{\k25}shi{\k13}te {\kf154}yo
+Comment: 0,0:03:25.46,0:03:29.47,Duo,,0,0,0,karaoke,{\k30}na{\k27}tsu {\k26}no {\k21}ko{\kf297}i
+Comment: 0,0:03:33.16,0:03:37.27,Duo,,0,0,0,karaoke,{\k21}na{\k22}ra{\k25}shi{\k17}te {\kf326}yo
+Comment: 0,0:03:41.17,0:03:44.33,Duo,,0,0,0,karaoke,{\k92}no, {\k35}to{\k36}me{\k94}nai{\k59}de
+Comment: 0,0:03:44.65,0:03:48.78,Duo,,0,0,0,karaoke,{\k13}a{\k15}na{\k35}ta {\k33}ka{\k70}ra {\k23}a{\k28}tsu{\k19}ku {\k19}na{\kf158}re
+Comment: 0,0:03:52.52,0:03:53.45,Duo,,0,0,0,karaoke,{\k19}sa{\k16}you{\k18}na{\k40}ra
+Dialogue: 0,0:00:01.06,0:00:05.50,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k80}no, {\k47}to{\k37}me{\k92}nai{\k78}de
+Dialogue: 0,0:00:04.53,0:00:09.71,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k13}a{\k13}na{\k35}ta {\k37}ka{\k71}ra {\k23}a{\k26}tsu{\k21}ku {\k14}na{\kf155}re
+Dialogue: 0,0:00:25.36,0:00:30.04,Runie Ruse,,0,0,0,fx,{\k90\fad(300,200)}{\k9}ma{\k11}da {\k20}yu{\k17}me {\k35}wo {\k28}mi{\k24}te{\k12}ru {\k24}no {\k13}a{\k19}do{\k15}ke{\k19}na{\k26}i {\k23}yu{\k46}me
+Dialogue: 0,0:00:29.38,0:00:33.80,Runie Ruse,,0,0,0,fx,{\k90\fad(300,200)}{\k38}mi{\k58}mi {\k51}ni {\k20}sa{\k17}sa{\k37}ya{\k35}i{\k28}ta{\k33}ra
+Dialogue: 0,0:00:32.94,0:00:37.59,Eimi Isami,,0,0,0,fx,{\k90\fad(300,200)}{\k11}me {\k9}wo {\k22}to{\k15}ji{\k38}te {\k23}ta{\k23}me{\k11}i{\k36}ki {\k11}a{\k13}na{\k23}ta {\k11}no {\k37}se{\k23}i {\k49}yo
+Dialogue: 0,0:00:36.93,0:00:40.89,Eimi Isami,,0,0,0,fx,{\k90\fad(300,200)}{\k20}u{\k13}mi {\k16}ni {\k15}to{\k22}ke{\k57}ru {\k24}MOON {\k24}LIGHT {\k23}a{\k13}bi{\k43}te
+Dialogue: 0,0:00:39.78,0:00:45.33,Runie Ruse,,0,0,0,fx,{\k90\fad(300,200)}{\k48}to{\k38}bi{\k30}ko{\k15}mu {\k34}ma{\k25}e {\k90}no {\k23}i{\k6}to{\k34}shi{\k35}sa {\k67}wa
+Dialogue: 0,0:00:44.42,0:00:48.97,Runie Ruse,,0,0,0,fx,{\k90\fad(300,200)}{\k29}tsu{\k12}ta{\k36}e{\k16}ta{\k21}ri {\k28}shi{\k35}na{\k21}i... {\k38}hi-{\k45}mi-{\k64}tsu
+Dialogue: 0,0:00:48.26,0:00:52.83,Eimi Isami,,0,0,0,fx,{\k90\fad(300,200)}{\k34}ha{\k32}na{\k32}se{\k62}ba {\k10}a{\k11}wa {\k12}to {\k20}na{\k18}ru {\k32}yo{\k16}u {\k53}na
+Dialogue: 0,0:00:51.93,0:00:56.97,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k17}wa{\k16}ta{\k15}shi {\k55}wa {\k30}ni{\k16}n{\k22}gyo {\k20}na {\kf203}no
+Dialogue: 0,0:00:56.32,0:01:00.31,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k39}{\rRunie Ruse}na{\k53}mi {\k39}ga {\rDuo}{\k28}tsu{\k14}re{\k30}te {\k25}ki{\k42}ta
+Dialogue: 0,0:00:59.38,0:01:02.13,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k21}na{\k24}tsu {\k14}no {\k37}ko{\k22}i {\k47}wa
+Dialogue: 0,0:01:01.25,0:01:05.66,Eimi Isami,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ni{\k15}do{\k67}to {\k14}ko{\k12}na{\k68}i {\k11}se{\k13}tsu{\k26}na{\k13}i {\k24}FE{\k31}S{\k24}TA
+Dialogue: 0,0:01:04.92,0:01:07.80,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k10}na{\k14}mi {\k9}to {\k25}o{\k14}do{\k26}ru {\k32}ka{\k48}ra
+Dialogue: 0,0:01:06.88,0:01:11.74,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ha{\k48}ge{\k50}shi{\k63}ku {\rEimi Isami}{\k16}na{\k15}ra{\k24}shi{\k14}te {\k28}yo {\k13}o{\k13}to {\k23}no {\k18}ma{\k25}hou
+Dialogue: 0,0:01:10.67,0:01:13.45,Eimi Isami,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ko{\k10}to{\k27}shi {\k12}no {\k22}FE{\k40}S{\k41}TA
+Dialogue: 0,0:01:12.80,0:01:15.85,Runie Ruse,,0,0,0,fx,{\k90\fad(300,200)}{\k48}dou{\k38}you {\k25}shi{\k25}te{\k12}ru {\k47}no?
+Dialogue: 0,0:01:14.95,0:01:17.63,Eimi Isami,,0,0,0,fx,{\k90\fad(300,200)}{\k21}kin{\k38}chou {\k25}shi{\k26}te{\k11}ru {\k37}no?
+Dialogue: 0,0:01:16.62,0:01:19.16,Runie Ruse,,0,0,0,fx,{\k90\fad(300,200)}{\k21}nan{\k14}da{\k20}ka {\k16}wa{\k15}ka{\k58}ru
+Dialogue: 0,0:01:18.29,0:01:20.81,Eimi Isami,,0,0,0,fx,{\k90\fad(300,200)}{\k7}fu{\k15}ri{\k8}mu{\k13}i{\k12}ta{\k11}ra {\k21}wa{\k21}ka{\k34}ru
+Dialogue: 0,0:01:19.94,0:01:23.40,Runie Ruse,,0,0,0,fx,{\k90\fad(300,200)}{\k17}a{\k30}na{\k22}ta {\k17}ka{\kf150}ra
+Dialogue: 0,0:01:23.69,0:01:28.81,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k22}a{\k27}tsu{\k23}ku {\k14}na{\kf316}re
+Dialogue: 0,0:01:39.05,0:01:43.69,Eimi Isami,,0,0,0,fx,{\k90\fad(300,200)}{\k10}na{\k15}ze {\k16}koc{\k18}chi {\k33}ni {\k28}ko{\k20}na{\k16}i {\k24}no {\k15}i{\k16}shi{\k16}ki {\k18}shi{\k40}te{\k25}ru {\k44}no
+Dialogue: 0,0:01:43.09,0:01:47.53,Eimi Isami,,0,0,0,fx,{\k90\fad(300,200)}{\k47}su{\k37}ko{\k80}shi {\k11}i{\k7}ji{\k40}me{\k35}te {\k28}mi{\k49}ru
+Dialogue: 0,0:01:46.65,0:01:51.50,Runie Ruse,,0,0,0,fx,{\k90\fad(300,200)}{\k8}ku{\k15}ru{\k21}shi{\k18}ge{\k21}na {\k35}ii {\k21}wa{\k13}ke {\k36}ga {\k12}a{\k13}na{\k22}ta {\k11}ra{\k35}shi{\k27}ku{\k67}te
+Dialogue: 0,0:01:50.63,0:01:54.58,Runie Ruse,,0,0,0,fx,{\k90\fad(300,200)}{\k12}sa{\k12}ra {\k25}ni {\k26}ko{\k11}ko{\k52}ro {\k23}TEN{\k30}SION {\k24}a{\k13}ga{\k57}ru
+Dialogue: 0,0:01:53.48,0:01:58.92,Eimi Isami,,0,0,0,fx,{\k90\fad(300,200)}{\k48}ha{\k38}da{\k30}shi {\k15}de {\k26}ka{\k31}i{\k90}ta {\k27}su{\k14}na {\k33}no {\k28}ki{\k54}gou
+Dialogue: 0,0:01:58.14,0:02:02.75,Eimi Isami,,0,0,0,fx,{\k90\fad(300,200)}{\k26}sa{\k21}ka{\k28}sa{\k15}ma {\k28}ni {\k28}su{\k27}re{\k20}ba {\k50}I {\k47}LOVE {\k61}YOU
+Dialogue: 0,0:02:01.96,0:02:06.58,Runie Ruse,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ki{\k39}zu{\k22}i{\k63}ta {\k10}to{\k10}ki {\k13}wa {\k24}do{\k23}u{\k24}su{\k13}ru {\k76}no
+Dialogue: 0,0:02:05.72,0:02:10.64,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k8}wa{\k10}ta{\k18}shi {\k60}wo {\k23}mi{\k26}te {\k25}i{\k14}ru {\kf188}no
+Dialogue: 0,0:02:09.99,0:02:14.06,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k48}{\rRunie Ruse}tsu{\k43}gi {\k49}wa {\rDuo}{\k24}da{\k15}ki{\k37}shi{\k22}me{\k40}te
+Dialogue: 0,0:02:13.08,0:02:17.82,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ka{\k21}ru{\k20}ku {\k30}ni{\k30}ge{\k67}te {\rRunie Ruse}{\k14}i{\k16}ma {\k67}ga {\k15}ko{\k14}i {\k54}no
+Dialogue: 0,0:02:16.83,0:02:19.50,Runie Ruse,,0,0,0,fx,{\k90\fad(300,200)}{\k9}ha{\k10}ji{\k19}ma{\k23}ri {\k25}da{\k36}ka{\k35}ra
+Dialogue: 0,0:02:18.59,0:02:23.50,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k13}tsu{\k14}gi {\k9}ni {\k21}da{\k11}ki{\k34}shi{\k32}me{\k69}te {\k23}ho{\k52}shi{\k46}i {\k32}no
+Dialogue: 0,0:02:22.50,0:02:25.50,Runie Ruse,,0,0,0,fx,{\k90\fad(300,200)}{\k10}ya{\k12}sa{\k26}shii {\k15}no {\k26}ne {\k18}shi{\k16}ri{\k22}tai {\k14}no {\k14}wa
+Dialogue: 0,0:02:24.43,0:02:27.42,Runie Ruse,,0,0,0,fx,{\k90\fad(300,200)}{\k23}gou{\k17}in {\k14}na {\k38}shi{\k16}gu{\k81}sa
+Dialogue: 0,0:02:26.50,0:02:29.54,Runie Ruse,,0,0,0,fx,{\k90\fad(300,200)}{\k31}dou{\k47}you {\k23}shi{\k26}te{\k20}ru {\k30}yo?
+Dialogue: 0,0:02:28.65,0:02:31.35,Eimi Isami,,0,0,0,fx,{\k90\fad(300,200)}{\k17}kin{\k33}chou {\k24}shi{\k21}te{\k24}ru {\k33}yo?
+Dialogue: 0,0:02:30.31,0:02:32.82,Runie Ruse,,0,0,0,fx,{\k90\fad(300,200)}{\k25}nan{\k9}do {\k22}mo {\k15}su{\k20}ne{\k50}ru
+Dialogue: 0,0:02:31.93,0:02:34.70,Eimi Isami,,0,0,0,fx,{\k90\fad(300,200)}{\k15}yo{\k10}ri{\k27}sot{\k13}te {\k22}mo {\k13}su{\k13}ne{\k54}ru
+Dialogue: 0,0:02:33.60,0:02:36.97,Runie Ruse,,0,0,0,fx,{\k90\fad(300,200)}{\k23}wa{\k25}ta{\k20}shi {\k18}ni {\kf141}wa
+Dialogue: 0,0:02:37.34,0:02:41.13,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k27}a{\k26}ma{\k23}e{\k17}te {\kf176}yo
+Dialogue: 0,0:02:42.47,0:02:45.84,Eimi Isami down,,0,0,0,fx,{\k90\fad(300,200)}{\kf60}Hi~ {\k25}e{\k24}very{\kf118}one
+Dialogue: 0,0:02:45.30,0:02:48.44,Runie Ruse down,,0,0,0,fx,{\k90\fad(300,200)}{\k39}ru {\k35}hu {\k20}hu {\k15}hu {\k24}hu {\k23}hu {\k48}hu~
+Dialogue: 0,0:02:48.02,0:02:51.27,Eimi Isami down,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Did {\k10}you {\k32}know {\k17}that {\k22}mer{\k44}maids {\k25}are {\k51}real?
+Dialogue: 0,0:02:51.22,0:02:54.47,Eimi Isami down,,0,0,0,fx,{\k90\fad(300,200)}{\k131}Look, {\k20}she's {\k28}right {\k36}there
+Dialogue: 0,0:02:53.96,0:02:58.01,Eimi Isami down,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Her {\k17}name {\k12}is {\k12}Ru{\k17}nie {\k128}Ruse, {\k13}u{\k66}waouh!
+Dialogue: 0,0:02:57.23,0:03:01.19,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k49}na{\k47}mi {\k46}ga {\k26}tsu{\k9}re{\k38}te {\k21}ki{\k50}ta
+Dialogue: 0,0:03:00.32,0:03:03.08,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k18}na{\k29}tsu {\k12}no {\k33}ko{\k26}i {\k34}wa
+Dialogue: 0,0:03:02.16,0:03:06.98,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k11}ni{\k16}do{\k68}to {\k15}ko{\k12}na{\k58}i {\k22}se{\k17}tsu{\k21}na{\k12}i {\k21}FE{\k40}S{\k32}TA
+Dialogue: 0,0:03:05.88,0:03:10.68,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k12}na{\k13}mi {\k11}to {\k20}o{\k13}do{\k36}ru {\k24}ka{\k69}ra {\k19}ha{\k45}ge{\k55}shi{\k53}ku
+Dialogue: 0,0:03:09.78,0:03:12.71,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k9}na{\k10}ra{\k28}shi{\k13}te {\k31}yo {\k10}o{\k15}to {\k24}no {\k14}ma{\k29}hou
+Dialogue: 0,0:03:11.67,0:03:14.57,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k9}ko{\k13}to{\k22}shi {\k15}no {\k21}FE{\k34}S{\k53}TA
+Dialogue: 0,0:03:13.78,0:03:16.79,Runie Ruse,,0,0,0,fx,{\k90\fad(300,200)}{\k47}dou{\k26}you {\k23}shi{\k26}te{\k20}ru {\k49}no?
+Dialogue: 0,0:03:15.90,0:03:18.53,Eimi Isami,,0,0,0,fx,{\k90\fad(300,200)}{\k23}kin{\k38}chou {\k22}shi{\k26}te{\k12}ru {\k32}no?
+Dialogue: 0,0:03:17.58,0:03:20.08,Runie Ruse,,0,0,0,fx,{\k90\fad(300,200)}{\k13}nan{\k20}do {\k20}ka {\k20}wa{\k14}ka{\k53}ru
+Dialogue: 0,0:03:19.18,0:03:21.85,Eimi Isami,,0,0,0,fx,{\k90\fad(300,200)}{\k12}fu{\k15}ri{\k12}mu{\k11}i{\k12}ta{\k14}ra {\k17}wa{\k18}ka{\k46}ru
+Dialogue: 0,0:03:20.89,0:03:24.35,Eimi Isami,,0,0,0,fx,{\k90\fad(300,200)}{\k25}na{\k19}ra{\k25}shi{\k13}te {\kf154}yo
+Dialogue: 0,0:03:24.56,0:03:29.67,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k30}na{\k27}tsu {\k26}no {\k21}ko{\kf297}i
+Dialogue: 0,0:03:32.26,0:03:37.47,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k21}na{\k22}ra{\k25}shi{\k17}te {\kf326}yo
+Dialogue: 0,0:03:40.27,0:03:44.53,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k92}no, {\k35}to{\k36}me{\k94}nai{\k59}de
+Dialogue: 0,0:03:43.75,0:03:48.98,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k13}a{\k15}na{\k35}ta {\k33}ka{\k70}ra {\k23}a{\k28}tsu{\k19}ku {\k19}na{\kf158}re
+Dialogue: 0,0:03:51.62,0:03:53.65,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k19}sa{\k16}you{\k18}na{\k40}ra
