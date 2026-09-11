@@ -1,0 +1,48 @@
+﻿[Script Info]
+Title: Kagayakashii Mirai
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: DaBi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Musical,Arial,24,&H003500C4,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Musical,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:05.68,0:00:09.41,Musical,,0,0,0,karaoke,{\k14}Ta{\k14}ki{\k14}za{\k13}ku{\k14}ra{\k16} jo{\k28}ga{\k16}ku{\k69}in {\k30}gei{\k28}nou {\k18}CO{\k27}UR{\k72}SE
+Comment: 0,0:00:10.25,0:00:13.94,Musical,,0,0,0,karaoke,{\k28}chuu{\k16}mo{\k13}ku {\k16}do {\k13}wa {\k27}nen{\k18}ne{\k69}n {\k15}a{\k42}gat{\k28}te{\k18}i{\k66}ru
+Comment: 0,0:00:14.83,0:00:18.49,Musical,,0,0,0,karaoke,{\k11}ko{\k16}ko {\k15}ka{\k15}ra {\k28}hi{\k28}ra{\k18}ke{\k37}ru  {\k18}sho{\k15}u{\k25}rai {\k14}he {\k17}no {\k24}mi{\k18}chi {\k67}wa
+Comment: 0,0:00:18.91,0:00:22.54,Musical,,0,0,0,karaoke,{\k23}STA{\k26}R {\k28}ni {\k29}na{\k27}ru {\k29}sai{\k29}tan {\k18}RO{\k24}U{\kf130}TE
+Comment: 0,0:00:23.68,0:00:25.79,Musical,,0,0,0,karaoke,{\k17}hi{\k11}bi {\k16}no {\k27}LES{\k31}SON {\k13}tsu{\k14}mi{\k14}ka{\k16}sa{\k52}ne
+Comment: 0,0:00:25.64,0:00:28.07,Musical,,0,0,0,karaoke,{\k19}se{\k15}ma{\k25}ki {\k31}mon {\k30}wo {\k16}ku{\k12}gu{\k27}ri{\k16}nu{\k52}ke
+Comment: 0,0:00:28.25,0:00:30.22,Musical,,0,0,0,karaoke,{\k30}zen{\k28}kok' {\k15}ka{\k11}ra {\k18}a{\k11}tsu{\k18}ma{\k26}t{\k40}ta
+Comment: 0,0:00:30.27,0:00:32.40,Musical,,0,0,0,karaoke,{\k14}na{\k14}ka{\k13}ma {\k15}to {\k30}iu {\k15}na {\k13}no {\k26}RI{\k16}VA{\k14}L {\k15}ta{\k28}chi
+Comment: 0,0:00:32.55,0:00:36.84,Musical,,0,0,0,karaoke,{\k16}ko{\k14}ko {\k30}de {\k13}no {\k28}CHAN{\k13}CE {\k14}wo {\k13}tsu{\k30}ka{\k12}mi{\k30}tot{\k40}te {\k33}ha{\k14}na{\k29}ba{\k16}na{\k84}shii
+Comment: 0,0:00:37.38,0:00:40.93,Musical,,0,0,0,karaoke,{\k32}sho{\k27}u{\k31}ra{\k23}i {\k30}ga {\k26}ma{\k32}t{\k17}te{\kf137}ru
+Comment: 0,0:00:41.96,0:00:43.80,Musical,,0,0,0,karaoke,{\k18}i{\k11}ma {\k17}wo {\k11}ta{\k16}no{\k13}shi{\k12}mu {\k17}hi{\k14}ma {\k14}wa {\k17}na{\k24}i
+Comment: 0,0:00:43.84,0:00:45.96,Musical,,0,0,0,karaoke,{\k17}sa{\k11}ra{\k14}ni {\k29}sei{\k30}chou {\k14}de{\k16}ki{\k12}ru{\k28}ka{\k41}ra
+Comment: 0,0:00:46.12,0:00:48.41,Musical,,0,0,0,karaoke,{\k16}ki{\k26}chou {\k15}na {\k14}ji{\k26}kan {\k15}i{\k15}chi {\k29}byou {\k16}ta{\k12}ri{\k45}tomo {\k0}
+Comment: 0,0:00:48.56,0:00:50.57,Musical,,0,0,0,karaoke,{\k12}mu{\k17}da {\k25}ni {\k14}wa {\k14}de{\k18}ki{\k30}na{\k71}i
+Comment: 0,0:00:51.38,0:00:55.03,Musical,,0,0,0,karaoke,{\k16}Ta{\k12}ki{\k18}za{\k9}ku{\k16}ra{\k14} jo{\k28}ga{\k16}ku{\k69}in {\k30}gei{\k28}nou {\k18}CO{\k27}UR{\k64}SE
+Comment: 0,0:00:55.67,0:00:59.75,Musical,,0,0,0,karaoke,{\k30}yu{\k30}me {\k24}wo {\k30}ka{\k56}na{\k59}e{\kf179}ru
+Dialogue: 0,0:00:04.78,0:00:09.61,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ta{\k14}ki{\k14}za{\k13}ku{\k14}ra{\k16} jo{\k28}ga{\k16}ku{\k69}in {\k30}gei{\k28}nou {\k18}CO{\k27}UR{\k72}SE
+Dialogue: 0,0:00:09.35,0:00:14.14,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k28}chuu{\k16}mo{\k13}ku {\k16}do {\k13}wa {\k27}nen{\k18}ne{\k69}n {\k15}a{\k42}gat{\k28}te{\k18}i{\k66}ru
+Dialogue: 0,0:00:13.93,0:00:18.69,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k11}ko{\k16}ko {\k15}ka{\k15}ra {\k28}hi{\k28}ra{\k18}ke{\k37}ru  {\k18}sho{\k15}u{\k25}rai {\k14}he {\k17}no {\k24}mi{\k18}chi {\k67}wa
+Dialogue: 0,0:00:18.01,0:00:22.74,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k23}STA{\k26}R {\k28}ni {\k29}na{\k27}ru {\k29}sai{\k29}tan {\k18}RO{\k24}U{\kf130}TE
+Dialogue: 0,0:00:22.78,0:00:25.99,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k17}hi{\k11}bi {\k16}no {\k27}LES{\k31}SON {\k13}tsu{\k14}mi{\k14}ka{\k16}sa{\k52}ne
+Dialogue: 0,0:00:24.74,0:00:28.27,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k19}se{\k15}ma{\k25}ki {\k31}mon {\k30}wo {\k16}ku{\k12}gu{\k27}ri{\k16}nu{\k52}ke
+Dialogue: 0,0:00:27.35,0:00:30.42,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k30}zen{\k28}kok' {\k15}ka{\k11}ra {\k18}a{\k11}tsu{\k18}ma{\k26}t{\k40}ta
+Dialogue: 0,0:00:29.37,0:00:32.60,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k14}na{\k14}ka{\k13}ma {\k15}to {\k30}iu {\k15}na {\k13}no {\k26}RI{\k16}VA{\k14}L {\k15}ta{\k28}chi
+Dialogue: 0,0:00:31.65,0:00:37.04,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ko{\k14}ko {\k30}de {\k13}no {\k28}CHAN{\k13}CE {\k14}wo {\k13}tsu{\k30}ka{\k12}mi{\k30}tot{\k40}te {\k33}ha{\k14}na{\k29}ba{\k16}na{\k84}shii
+Dialogue: 0,0:00:36.48,0:00:41.13,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k32}sho{\k27}u{\k31}ra{\k23}i {\k30}ga {\k26}ma{\k32}t{\k17}te{\kf137}ru
+Dialogue: 0,0:00:41.06,0:00:44.00,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k18}i{\k11}ma {\k17}wo {\k11}ta{\k16}no{\k13}shi{\k12}mu {\k17}hi{\k14}ma {\k14}wa {\k17}na{\k24}i
+Dialogue: 0,0:00:42.94,0:00:46.16,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k17}sa{\k11}ra{\k14}ni {\k29}sei{\k30}chou {\k14}de{\k16}ki{\k12}ru{\k28}ka{\k41}ra
+Dialogue: 0,0:00:45.22,0:00:48.61,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ki{\k26}chou {\k15}na {\k14}ji{\k26}kan {\k15}i{\k15}chi {\k29}byou {\k16}ta{\k12}ri{\k45}tomo {\k0}
+Dialogue: 0,0:00:47.66,0:00:50.77,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k12}mu{\k17}da {\k25}ni {\k14}wa {\k14}de{\k18}ki{\k30}na{\k71}i
+Dialogue: 0,0:00:50.48,0:00:55.23,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Ta{\k12}ki{\k18}za{\k9}ku{\k16}ra{\k14} jo{\k28}ga{\k16}ku{\k69}in {\k30}gei{\k28}nou {\k18}CO{\k27}UR{\k64}SE
+Dialogue: 0,0:00:54.77,0:00:59.95,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k30}yu{\k30}me {\k24}wo {\k30}ka{\k56}na{\k59}e{\kf179}ru
