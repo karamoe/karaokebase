@@ -1,0 +1,123 @@
+﻿[Script Info]
+Title: VIVA!
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: Hanaku
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: NijiGaku,Arial,24,&H00FFFFFF,&H0000B4FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Rina,Arial,24,&H00FFFFFF,&H00838383,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Shioriko,Arial,24,&H00FFFFFF,&H007E9E2C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Choir,Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,2,2,20,1
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H00B4FF&}NijiGaku{\c} | {\c&H838383&}Rina{\c} | {\c&H7E9E2C&}Shioriko
+Comment: 0,0:00:04.22,0:00:05.58,NijiGaku,,0,0,0,karaoke,{\k33}One {\k34}two {\k17}let {\k16}it {\k36}go
+Comment: 0,0:00:05.58,0:00:07.06,NijiGaku,,0,0,0,karaoke,{\kf148}Yeah
+Comment: 0,0:00:12.21,0:00:13.56,NijiGaku,,0,0,0,karaoke,{\k32}One {\k29}two {\k25}let {\k14}it {\k35}go
+Comment: 0,0:00:13.56,0:00:15.22,NijiGaku,,0,0,0,karaoke,{\kf166}Yeah
+Comment: 0,0:00:19.20,0:00:20.24,NijiGaku,,0,0,0,karaoke,{\k70}Hey {\k49}Hey
+Comment: 0,0:00:20.39,0:00:21.55,NijiGaku,,0,0,0,karaoke,{\k16}It's {\k17}time {\k17}to {\k18}go {\k16}al{\k32}right
+Comment: 0,0:00:21.87,0:00:26.53,NijiGaku,,0,0,0,karaoke,{\k70}Hey  {\k66}Hey  {\k66}Hey  {\k68}Hey  {\k66}Hey  {\k67}Hey  {\k63}Hey
+Comment: 0,0:00:26.53,0:00:28.16,NijiGaku,,0,0,0,karaoke,{\k18}ta{\k19}no{\k16}shi{\k17}ku {\k34}nai {\k15}wa{\k18}ke {\k26}nai
+Comment: 0,0:00:28.16,0:00:30.01,NijiGaku,,0,0,0,karaoke,{\k22}We {\k19}can {\k32}go {\k17}we {\k16}can {\k20}let {\k14}it {\k45}go
+Comment: 0,0:00:30.37,0:00:32.23,Rina,,0,0,0,karaoke,{\k18}wa{\k17}ku {\k18}wa{\k33}ku {\k15}tte {\k18}ki{\k17}mo{\k18}chi {\k32}wa
+Comment: 0,0:00:32.38,0:00:34.88,Shioriko,,0,0,0,karaoke,{\k24}nee {\k25}do{\k32}ko {\k20}ka{\k35}ra {\k32}wai{\k20}te {\k13}ku{\k19}ru {\k30}no
+Comment: 0,0:00:35.21,0:00:36.08,Choir,,0,0,0,karaoke,{\k36}Wow {\k51}oh
+Comment: 0,0:00:36.08,0:00:38.29,NijiGaku,,0,0,0,karaoke,{\k30}is{\k19}sho {\k15}na{\k16}ra {\k18}tsu{\k17}ki{\k34}nai {\k72}ne
+Comment: 0,0:00:38.38,0:00:40.30,Rina,,0,0,0,karaoke,{\k35}mot{\k16}to {\k17}do{\k17}ki {\k17}do{\k17}ki {\k17}shi{\k17}cha{\k39}ou
+Comment: 0,0:00:40.38,0:00:42.85,Shioriko,,0,0,0,karaoke,{\k11}ha{\k6}ru {\k18}i{\k17}ro {\k14}no {\k18}ka{\k19}ze {\k16}ni {\k25}fu{\k24}ka{\k19}re{\k60}te
+Comment: 0,0:00:43.06,0:00:45.65,Shioriko,,0,0,0,karaoke,{\k11}ka{\k8}na{\k16}de{\k14}ru {\k36}TUNES {\k16}hi{\k15}bi{\k33}ki {\k35}wa{\k17}ta{\k16}ru {\k42}yo
+Comment: 0,0:00:45.65,0:00:48.03,Rina,,0,0,0,karaoke,{\k18}ka{\k8}ko {\k16}i{\k17}chi {\k16}mu{\k15}ne {\k33}kyun {\k20}ka{\k14}so{\k17}ku {\k34}shi{\k30}te
+Comment: 0,0:00:48.03,0:00:50.38,Rina,,0,0,0,karaoke,{\k20}i{\k34}kou {\k33}yo {\k17}so{\k16}no {\k18}sa{\k15}ki {\k82}he
+Comment: 0,0:00:50.38,0:00:53.46,NijiGaku,,0,0,0,karaoke,{\k18}ki{\k17}mi {\k17}to {\k17}VI{\k33}VA{\k16} VI{\k35}VA {\k16}VI{\k31}VA {\k18}na {\k33}shun{\k33}kan {\k24}wo
+Comment: 0,0:00:53.57,0:00:56.15,NijiGaku,,0,0,0,karaoke,{\k18}ma{\k32}da {\k17}ma{\k32}da {\k19}ko{\k32}no {\k14}te {\k34}ip{\k35}pai {\k25}ni
+Comment: 0,0:00:56.23,0:00:58.91,Shioriko,,0,0,0,karaoke,{\k54}sa{\k46}ka{\k51}se{\k33}tai {\k16}no {\k32}MY {\k36}HEART
+Comment: 0,0:00:59.23,0:01:01.45,Rina,,0,0,0,karaoke,{\k33}ko{\k18}ko{\k16}ro {\k16}to {\k33}ko{\k18}ko{\k16}ro {\k16}a{\k15}wa{\k19}se{\k22}te
+Comment: 0,0:01:01.57,0:01:04.12,NijiGaku,,0,0,0,karaoke,{\k16}VI{\k33}VA {\k16}VI{\k25}VA {\k26}na{\k33}mi{\k17}da {\k13}mo {\k21}e{\k13}ga{\k21}o {\k21}mo
+Comment: 0,0:01:04.23,0:01:06.90,NijiGaku,,0,0,0,karaoke,{\k16}ki{\k36}ra {\k15}ki{\k33}ra {\k16}ka{\k34}ga{\k17}ya{\k12}ku {\k20}yo {\k33}zut{\k35}to
+Comment: 0,0:01:06.90,0:01:09.12,Shioriko,,0,0,0,karaoke,{\k49}To {\k51}your {\kf122}heart
+Comment: 0,0:01:09.05,0:01:14.43,Rina,,0,0,0,karaoke,{\k17}a{\k17}fu{\k35}re {\k32}dash'{\k29}tek' {\k20}ta{\k19}ka{\k32}na{\k32}ri {\k19}wo {\k33}FEEL {\k19}TO{\k33}GE{\kf201}THER
+Comment: 0,0:01:14.86,0:01:17.47,NijiGaku,,0,0,0,karaoke,{\kf103}uh~ {\kf158}Yeah
+Comment: 0,0:01:24.86,0:01:27.69,NijiGaku,,0,0,0,karaoke,{\k36}ki{\k32}mi {\k30}mo {\k25}o{\k32}n{\k16}na{\k14}ji {\k34}kan{\k36}jou {\k28}de
+Comment: 0,0:01:27.74,0:01:30.79,NijiGaku,,0,0,0,karaoke,{\k17}i{\k16}te {\k15}ku{\k34}re{\k18}te{\k33}ru {\k16}no {\k18}ka {\k66}na {\k33}nan{\k39}te
+Comment: 0,0:01:31.06,0:01:36.27,NijiGaku,,0,0,0,karaoke,{\k18}ne{\k17}ga{\k14}i {\k18}wo {\k17}ko{\k17}me{\k32}te {\k18}o{\k14}mo{\k19}i {\k15}wo {\k20}i{\k13}ma {\k19}tsu{\k34}ta{\k16}e{\k31}a{\k36}t{\kf153}te
+Comment: 0,0:01:41.54,0:01:46.50,Choir,,0,0,0,karaoke,{\k20}VI{\k33}VA {\k16}VI{\k35}VA {\k16}VI{\kf92}VA{\k59}　{\k16}VI{\k34}VA {\k15}VI{\k33}VA {\k18}VI{\kf109}VA
+Comment: 0,0:01:47.07,0:01:49.58,Shioriko,,0,0,0,karaoke,{\k36}tou{\k31}zai {\k34}nan{\k31}bok' {\k35}don{\k15}na {\k17}so{\k52}ra
+Comment: 0,0:01:49.58,0:01:51.90,Rina,,0,0,0,karaoke,{\k17}u{\k13}mi {\k21}mo {\k32}dai{\k14}chi {\k18}mo {\k12}ko{\k23}e{\k18}te {\k14}i{\k17}ke{\k33}ru
+Comment: 0,0:01:52.22,0:01:56.97,Choir,,0,0,0,karaoke,{\k20}VI{\k33}VA {\k16}VI{\k35}VA {\k16}VI{\kf92}VA{\k59}　{\k16}VI{\k34}VA {\k15}VI{\k33}VA {\k17}VI{\kf89}VA
+Comment: 0,0:01:57.73,0:01:59.89,Shioriko,,0,0,0,karaoke,{\k16}ko{\k18}no {\k17}ta{\k17}bi{\k17}ji {\k16}i{\k33}ro{\k33}dot{\k16}te{\k33}ku
+Comment: 0,0:02:00.25,0:02:02.34,NijiGaku,,0,0,0,karaoke,{\k48}saa {\k50}BUON {\k35}VIAG{\k76}GIO
+Comment: 0,0:02:02.39,0:02:05.47,NijiGaku,,0,0,0,karaoke,{\k18}ki{\k17}mi {\k17}to {\k17}VI{\k33}VA{\k16} VI{\k35}VA {\k16}VI{\k31}VA {\k18}na {\k33}shun{\k33}kan {\k24}wo
+Comment: 0,0:02:05.55,0:02:08.13,NijiGaku,,0,0,0,karaoke,{\k18}ma{\k32}da {\k17}ma{\k32}da {\k19}ko{\k32}no {\k14}te {\k34}ip{\k35}pai {\k25}ni
+Comment: 0,0:02:08.22,0:02:10.90,Rina,,0,0,0,karaoke,{\k54}sa{\k46}ka{\k51}se{\k33}tai {\k16}no {\k32}MY {\k36}HEART
+Comment: 0,0:02:11.23,0:02:13.55,Shioriko,,0,0,0,karaoke,{\k33}ko{\k18}ko{\k16}ro {\k16}to {\k33}ko{\k18}ko{\k16}ro {\k16}a{\k15}wa{\k19}se{\k22}te
+Comment: 0,0:02:13.55,0:02:16.17,NijiGaku,,0,0,0,karaoke,{\k16}VI{\k33}VA {\k16}VI{\k25}VA {\k26}na{\k33}mi{\k17}da {\k13}mo {\k21}e{\k13}ga{\k21}o {\k21}mo
+Comment: 0,0:02:16.23,0:02:18.89,NijiGaku,,0,0,0,karaoke,{\k16}ki{\k36}ra {\k15}ki{\k33}ra {\k16}ka{\k34}ga{\k17}ya{\k12}ku {\k20}yo {\k33}zut{\k35}to
+Comment: 0,0:02:18.89,0:02:21.04,Rina,,0,0,0,karaoke,{\k49}To {\k52}your {\kf114}heart
+Comment: 0,0:02:21.04,0:02:26.55,Shioriko,,0,0,0,karaoke,{\k17}a{\k17}fu{\k35}re {\k32}dash'{\k29}tek' {\k20}ta{\k19}ka{\k32}na{\k32}ri {\k19}wo {\k33}FEEL {\k19}TO{\k34}GE{\kf213}THER
+Comment: 0,0:02:23.89,0:02:26.30,Rina,,0,0,0,karaoke,{\k35}Run {\k34}run {\k32}run {\k32}run {\k18}la {\k17}la{\k73} learn
+Comment: 0,0:02:26.54,0:02:29.10,Rina,,0,0,0,karaoke,{\k20}Run {\k16}run {\k33}run {\k25}run{\k42} run {\k17}la{\k17}la {\kf86}learn
+Comment: 0,0:02:29.58,0:02:33.91,NijiGaku,,0,0,0,karaoke,{\k17}tsu{\k16}na{\k16}i{\k32}da {\k18}o{\k14}mo{\k19}i {\k49}ga {\k18}sa{\k33}i{\k20}te {\k29}i{\k18}ku {\kf134}yo
+Comment: 0,0:02:34.55,0:02:36.88,Rina,,0,0,0,karaoke,{\k36}Run {\k34}run {\k31}run {\k32}run {\k18}la {\k18}la{\k64} learn
+Comment: 0,0:02:37.22,0:02:39.79,Rina,,0,0,0,karaoke,{\k19}Run {\k16}run {\k32}run {\k34}run{\k32} run {\k19}la{\k15}la {\kf90}learn
+Comment: 0,0:02:40.21,0:02:42.87,NijiGaku,,0,0,0,karaoke,{\k52}zu{\k49}t{\kf165}to
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H00B4FF&}NijiGaku{\c} | {\c&H838383&}Rina{\c} | {\c&H7E9E2C&}Shioriko
+Dialogue: 0,0:00:03.32,0:00:05.78,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k33}One {\k34}two {\k17}let {\k16}it {\k36}go
+Dialogue: 0,0:00:04.68,0:00:07.26,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\kf148}Yeah
+Dialogue: 0,0:00:11.31,0:00:13.76,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k32}One {\k29}two {\k25}let {\k14}it {\k35}go
+Dialogue: 0,0:00:12.66,0:00:15.42,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\kf166}Yeah
+Dialogue: 0,0:00:18.30,0:00:20.44,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k70}Hey {\k49}Hey
+Dialogue: 0,0:00:19.49,0:00:21.75,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k16}It's {\k17}time {\k17}to {\k18}go {\k16}al{\k32}right
+Dialogue: 0,0:00:20.97,0:00:26.73,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k70}Hey  {\k66}Hey  {\k66}Hey  {\k68}Hey  {\k66}Hey  {\k67}Hey  {\k63}Hey
+Dialogue: 0,0:00:25.63,0:00:28.36,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ta{\k19}no{\k16}shi{\k17}ku {\k34}nai {\k15}wa{\k18}ke {\k26}nai
+Dialogue: 0,0:00:27.26,0:00:30.21,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k22}We {\k19}can {\k32}go {\k17}we {\k16}can {\k20}let {\k14}it {\k45}go
+Dialogue: 0,0:00:29.47,0:00:32.43,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\k18}wa{\k17}ku {\k18}wa{\k33}ku {\k15}tte {\k18}ki{\k17}mo{\k18}chi {\k32}wa
+Dialogue: 0,0:00:31.48,0:00:35.08,Shioriko,,0,0,0,fx,{\k90\fad(300,200)}{\k24}nee {\k25}do{\k32}ko {\k20}ka{\k35}ra {\k32}wai{\k20}te {\k13}ku{\k19}ru {\k30}no
+Dialogue: 0,0:00:34.31,0:00:36.28,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Wow {\k51}oh
+Dialogue: 0,0:00:35.18,0:00:38.49,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k30}is{\k19}sho {\k15}na{\k16}ra {\k18}tsu{\k17}ki{\k34}nai {\k72}ne
+Dialogue: 0,0:00:37.48,0:00:40.50,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\k35}mot{\k16}to {\k17}do{\k17}ki {\k17}do{\k17}ki {\k17}shi{\k17}cha{\k39}ou
+Dialogue: 0,0:00:39.48,0:00:43.05,Shioriko,,0,0,0,fx,{\k90\fad(300,200)}{\k11}ha{\k6}ru {\k18}i{\k17}ro {\k14}no {\k18}ka{\k19}ze {\k16}ni {\k25}fu{\k24}ka{\k19}re{\k60}te
+Dialogue: 0,0:00:42.16,0:00:45.85,Shioriko,,0,0,0,fx,{\k90\fad(300,200)}{\k11}ka{\k8}na{\k16}de{\k14}ru {\k36}TUNES {\k16}hi{\k15}bi{\k33}ki {\k35}wa{\k17}ta{\k16}ru {\k42}yo
+Dialogue: 0,0:00:44.75,0:00:48.23,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ka{\k8}ko {\k16}i{\k17}chi {\k16}mu{\k15}ne {\k33}kyun {\k20}ka{\k14}so{\k17}ku {\k34}shi{\k30}te
+Dialogue: 0,0:00:47.13,0:00:50.58,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\k20}i{\k34}kou {\k33}yo {\k17}so{\k16}no {\k18}sa{\k15}ki {\k82}he
+Dialogue: 0,0:00:49.48,0:00:53.66,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ki{\k17}mi {\k17}to {\k17}VI{\k33}VA{\k16} VI{\k35}VA {\k16}VI{\k31}VA {\k18}na {\k33}shun{\k33}kan {\k24}wo
+Dialogue: 0,0:00:52.67,0:00:56.35,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ma{\k32}da {\k17}ma{\k32}da {\k19}ko{\k32}no {\k14}te {\k34}ip{\k35}pai {\k25}ni
+Dialogue: 0,0:00:55.33,0:00:59.11,Shioriko,,0,0,0,fx,{\k90\fad(300,200)}{\k54}sa{\k46}ka{\k51}se{\k33}tai {\k16}no {\k32}MY {\k36}HEART
+Dialogue: 0,0:00:58.33,0:01:01.65,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ko{\k18}ko{\k16}ro {\k16}to {\k33}ko{\k18}ko{\k16}ro {\k16}a{\k15}wa{\k19}se{\k22}te
+Dialogue: 0,0:01:00.67,0:01:04.32,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k16}VI{\k33}VA {\k16}VI{\k25}VA {\k26}na{\k33}mi{\k17}da {\k13}mo {\k21}e{\k13}ga{\k21}o {\k21}mo
+Dialogue: 0,0:01:03.33,0:01:07.10,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ki{\k36}ra {\k15}ki{\k33}ra {\k16}ka{\k34}ga{\k17}ya{\k12}ku {\k20}yo {\k33}zut{\k35}to
+Dialogue: 0,0:01:06.00,0:01:09.32,Shioriko,,0,0,0,fx,{\k90\fad(300,200)}{\k49}To {\k51}your {\kf122}heart
+Dialogue: 0,0:01:08.15,0:01:14.63,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\k17}a{\k17}fu{\k35}re {\k32}dash'{\k29}tek' {\k20}ta{\k19}ka{\k32}na{\k32}ri {\k19}wo {\k33}FEEL {\k19}TO{\k33}GE{\kf201}THER
+Dialogue: 0,0:01:13.96,0:01:17.67,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\kf103}uh~ {\kf158}Yeah
+Dialogue: 0,0:01:23.96,0:01:27.89,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k36}ki{\k32}mi {\k30}mo {\k25}o{\k32}n{\k16}na{\k14}ji {\k34}kan{\k36}jou {\k28}de
+Dialogue: 0,0:01:26.84,0:01:30.99,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k17}i{\k16}te {\k15}ku{\k34}re{\k18}te{\k33}ru {\k16}no {\k18}ka {\k66}na {\k33}nan{\k39}te
+Dialogue: 0,0:01:30.16,0:01:36.47,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ne{\k17}ga{\k14}i {\k18}wo {\k17}ko{\k17}me{\k32}te {\k18}o{\k14}mo{\k19}i {\k15}wo {\k20}i{\k13}ma {\k19}tsu{\k34}ta{\k16}e{\k31}a{\k36}t{\kf153}te
+Dialogue: 0,0:01:40.64,0:01:46.70,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k20}VI{\k33}VA {\k16}VI{\k35}VA {\k16}VI{\kf92}VA{\k59}　{\k16}VI{\k34}VA {\k15}VI{\k33}VA {\k18}VI{\kf109}VA
+Dialogue: 0,0:01:46.17,0:01:49.78,Shioriko,,0,0,0,fx,{\k90\fad(300,200)}{\k36}tou{\k31}zai {\k34}nan{\k31}bok' {\k35}don{\k15}na {\k17}so{\k52}ra
+Dialogue: 0,0:01:48.68,0:01:52.10,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\k17}u{\k13}mi {\k21}mo {\k32}dai{\k14}chi {\k18}mo {\k12}ko{\k23}e{\k18}te {\k14}i{\k17}ke{\k33}ru
+Dialogue: 0,0:01:51.32,0:01:57.17,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k20}VI{\k33}VA {\k16}VI{\k35}VA {\k16}VI{\kf92}VA{\k59}　{\k16}VI{\k34}VA {\k15}VI{\k33}VA {\k17}VI{\kf89}VA
+Dialogue: 0,0:01:56.83,0:02:00.09,Shioriko,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ko{\k18}no {\k17}ta{\k17}bi{\k17}ji {\k16}i{\k33}ro{\k33}dot{\k16}te{\k33}ku
+Dialogue: 0,0:01:59.35,0:02:02.54,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k48}saa {\k50}BUON {\k35}VIAG{\k76}GIO
+Dialogue: 0,0:02:01.49,0:02:05.67,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ki{\k17}mi {\k17}to {\k17}VI{\k33}VA{\k16} VI{\k35}VA {\k16}VI{\k31}VA {\k18}na {\k33}shun{\k33}kan {\k24}wo
+Dialogue: 0,0:02:04.65,0:02:08.33,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ma{\k32}da {\k17}ma{\k32}da {\k19}ko{\k32}no {\k14}te {\k34}ip{\k35}pai {\k25}ni
+Dialogue: 0,0:02:07.32,0:02:11.10,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\k54}sa{\k46}ka{\k51}se{\k33}tai {\k16}no {\k32}MY {\k36}HEART
+Dialogue: 0,0:02:10.33,0:02:13.75,Shioriko,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ko{\k18}ko{\k16}ro {\k16}to {\k33}ko{\k18}ko{\k16}ro {\k16}a{\k15}wa{\k19}se{\k22}te
+Dialogue: 0,0:02:12.65,0:02:16.37,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k16}VI{\k33}VA {\k16}VI{\k25}VA {\k26}na{\k33}mi{\k17}da {\k13}mo {\k21}e{\k13}ga{\k21}o {\k21}mo
+Dialogue: 0,0:02:15.33,0:02:19.09,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ki{\k36}ra {\k15}ki{\k33}ra {\k16}ka{\k34}ga{\k17}ya{\k12}ku {\k20}yo {\k33}zut{\k35}to
+Dialogue: 0,0:02:17.99,0:02:21.24,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\k49}To {\k52}your {\kf114}heart
+Dialogue: 0,0:02:20.14,0:02:26.75,Shioriko,,0,0,0,fx,{\k90\fad(300,200)}{\k17}a{\k17}fu{\k35}re {\k32}dash'{\k29}tek' {\k20}ta{\k19}ka{\k32}na{\k32}ri {\k19}wo {\k33}FEEL {\k19}TO{\k34}GE{\kf213}THER
+Dialogue: 0,0:02:22.99,0:02:26.50,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Run {\k34}run {\k32}run {\k32}run {\k18}la {\k17}la{\k73} learn
+Dialogue: 0,0:02:25.64,0:02:29.30,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Run {\k16}run {\k33}run {\k25}run{\k42} run {\k17}la{\k17}la {\kf86}learn
+Dialogue: 0,0:02:28.68,0:02:34.11,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k17}tsu{\k16}na{\k16}i{\k32}da {\k18}o{\k14}mo{\k19}i {\k49}ga {\k18}sa{\k33}i{\k20}te {\k29}i{\k18}ku {\kf134}yo
+Dialogue: 0,0:02:33.65,0:02:37.08,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Run {\k34}run {\k31}run {\k32}run {\k18}la {\k18}la{\k64} learn
+Dialogue: 0,0:02:36.32,0:02:39.99,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Run {\k16}run {\k32}run {\k34}run{\k32} run {\k19}la{\k15}la {\kf90}learn
+Dialogue: 0,0:02:39.31,0:02:43.07,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k52}zu{\k49}t{\kf165}to
