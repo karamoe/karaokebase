@@ -1,0 +1,32 @@
+﻿[Script Info]
+Title: Kenki Renka Dai Ni Maku
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Nemesise
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:24.54,0:00:33.34,Sample KM [Up],,0,0,0,karaoke,{\k55}ma{\k33}chi {\k31}no {\k57}ha{\k31}zu{\k32}re {\k88}no {\k31}hi{\k30}to{\k32}ke {\k31}no {\k28}na{\k85}i {\k32}ka{\k59}ta{\k33}su{\k28}mi {\kf164}he
+Comment: 0,0:00:34.08,0:00:42.80,Sample KM [Up],,0,0,0,karaoke,{\k66}ke{\k22}n{\k34}ki {\k60}wa {\k27}mu{\k36}ka{\k88}u {\k31}ko{\k30}do{\k30}ku {\k32}wo {\k29}te {\k86}ni {\k33}ta{\k56}zu{\k64}sa{\kf148}e
+Comment: 0,0:00:43.65,0:00:48.01,Sample KM [Up],,0,0,0,karaoke,{\k34}so{\k28}no {\k32}sa{\k33}ki {\k61}ni {\k60}wa {\k28}ha{\k30}na{\k30}ba{\k29}ta{\k71}ke
+Comment: 0,0:00:48.51,0:00:52.42,Sample KM [Up],,0,0,0,karaoke,{\k30}"ne{\k29}e, {\k31}ha{\k28}na {\k58}wa {\k59}su{\kf156}ki?"
+Comment: 0,0:00:53.30,0:01:02.14,Sample KM [Up],,0,0,0,karaoke,{\k31}o{\k30}ni {\k30}wa {\k31}bu{\k53}ai{\k67}sou {\k28}ni {\k30}ko{\k30}ta{\k29}e{\k89}ta "{\k33}i{\k58}i {\k29}ya, {\k33}ki{\k59}rai {\k28}da {\k33}na" {\kf163}to
+Comment: 0,0:01:02.90,0:01:11.56,Sample KM [Up],,0,0,0,karaoke,{\k91}aa, {\k30}to{\k28}za{\k34}sa{\k30}re{\k29}te{\k90}ta {\k31}ko{\k30}ko{\k29}ro {\k32}wa {\k28}i{\k92}ma {\k30}u{\k27}go{\k32}ki {\k28}da{\k32}shi{\kf143}ta
+Comment: 0,0:01:11.92,0:01:20.01,Sample KM [Up],,0,0,0,karaoke,{\k61}ha{\k61}na {\k30}no {\k58}you {\k26}ni {\k34}hi{\k31}ra{\k120}ku {\k59}hi {\k62}he {\kf267}to
+Comment: 0,0:01:21.51,0:01:29.69,Sample KM [Up],,0,0,0,karaoke,{\k61}ko{\k59}i {\k31}wa {\k60}ha{\k31}ji{\k29}ma{\k30}t{\k122}ta {\k56}ba{\k64}ka{\kf275}ri
+Dialogue: 0,0:00:23.64,0:00:33.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k55}ma{\k33}chi {\k31}no {\k57}ha{\k31}zu{\k32}re {\k88}no {\k31}hi{\k30}to{\k32}ke {\k31}no {\k28}na{\k85}i {\k32}ka{\k59}ta{\k33}su{\k28}mi {\kf164}he
+Dialogue: 0,0:00:33.18,0:00:43.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k66}ke{\k22}n{\k34}ki {\k60}wa {\k27}mu{\k36}ka{\k88}u {\k31}ko{\k30}do{\k30}ku {\k32}wo {\k29}te {\k86}ni {\k33}ta{\k56}zu{\k64}sa{\kf148}e
+Dialogue: 0,0:00:42.75,0:00:48.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}so{\k28}no {\k32}sa{\k33}ki {\k61}ni {\k60}wa {\k28}ha{\k30}na{\k30}ba{\k29}ta{\k71}ke
+Dialogue: 0,0:00:47.61,0:00:52.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}"ne{\k29}e, {\k31}ha{\k28}na {\k58}wa {\k59}su{\kf156}ki?"
+Dialogue: 0,0:00:52.40,0:01:02.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}o{\k30}ni {\k30}wa {\k31}bu{\k53}ai{\k67}sou {\k28}ni {\k30}ko{\k30}ta{\k29}e{\k89}ta "{\k33}i{\k58}i {\k29}ya, {\k33}ki{\k59}rai {\k28}da {\k33}na" {\kf163}to
+Dialogue: 0,0:01:02.00,0:01:11.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k91}aa, {\k30}to{\k28}za{\k34}sa{\k30}re{\k29}te{\k90}ta {\k31}ko{\k30}ko{\k29}ro {\k32}wa {\k28}i{\k92}ma {\k30}u{\k27}go{\k32}ki {\k28}da{\k32}shi{\kf143}ta
+Dialogue: 0,0:01:11.02,0:01:20.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k61}ha{\k61}na {\k30}no {\k58}you {\k26}ni {\k34}hi{\k31}ra{\k120}ku {\k59}hi {\k62}he {\kf267}to
+Dialogue: 0,0:01:20.61,0:01:29.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k61}ko{\k59}i {\k31}wa {\k60}ha{\k31}ji{\k29}ma{\k30}t{\k122}ta {\k56}ba{\k64}ka{\kf275}ri
