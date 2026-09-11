@@ -1,0 +1,38 @@
+﻿[Script Info]
+Title: Nakushite Hajimete Kizuku Koto
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+LayoutResX: 0
+LayoutResY: 0
+Original Timing: DaBi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Musical,Arial,24,&H003500C4,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Musical,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:20.20,0:00:25.53,Musical,,0,0,0,karaoke,{\k35}A{\k32}n{\k41}zu-{\k40}se{\k36}n{\k44}pa{\k74}i {\k37}i{\k31}ta {\k38}to{\k52}ki {\k73}wa
+Comment: 0,0:00:22.06,0:00:27.23,Musical,,0,0,0,karaoke,{\k38}A{\k45}n{\k34}zu {\kf129}ga{\k65} {\k41}i{\k36}ta {\k46}to{\k83}ki
+Comment: 0,0:00:25.89,0:00:30.78,Musical,,0,0,0,karaoke,{\k29}nan {\k24}to {\k18}na{\k98}ku {\k20}u{\k19}ma{\k38}ku {\k22}ma{\k16}to{\k39}ma{\k42}t{\kf124}te
+Comment: 0,0:00:31.92,0:00:42.15,Musical,,0,0,0,karaoke,{\k38}o{\k40}na{\k119}ji {\k17}ho{\k24}u{\k153}kou {\k75}mu{\k92}i{\k76}te {\k78}i{\kf311}ta
+Comment: 0,0:00:45.36,0:00:50.67,Musical,,0,0,0,karaoke,{\k38}A{\k36}n{\k40}zu-{\k41}se{\k40}n{\k37}pa{\k78}i {\k24}i{\k21}na{\k75}i {\k18}da{\k27}ke {\k56}de
+Comment: 0,0:00:47.30,0:00:52.42,Musical,,0,0,0,karaoke,{\k37}A{\k47}n{\k29}zu {\k204}ga {\k20}i{\k23}na{\k33}i {\k23}da{\k15}ke {\k81}de
+Comment: 0,0:00:51.26,0:00:55.84,Musical,,0,0,0,karaoke,{\k35}kon{\k22}na {\k95}ni {\k40}kon{\k26}na {\k52}ni {\k43}chi{\k41}ga{\k104}u
+Comment: 0,0:00:57.21,0:01:03.05,Musical,,0,0,0,karaoke,{\k41}ma{\k34}ru{\k114}de {\k40}be{\k37}tsu {\k43}no {\k81}TEA{\k81}M {\k30}mi{\k48}ta{\k35}i
+Comment: 0,0:01:03.48,0:01:08.21,Musical,,0,0,0,karaoke,{\k80}tat{\k37}ta {\k36}hi{\k42}to{\k41}ri {\k38}i{\k46}na{\k37}ku {\k45}na{\k71}ru
+Comment: 0,0:01:08.73,0:01:13.72,Musical,,0,0,0,karaoke,{\k21}so{\k25}re {\k51}da{\k54}ke {\k70}na {\kf123}no {\kf155}ni
+Dialogue: 0,0:00:19.30,0:00:25.73,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k35}A{\k32}n{\k41}zu-{\k40}se{\k36}n{\k44}pa{\k74}i {\k37}i{\k31}ta {\k38}to{\k52}ki {\k73}wa
+Dialogue: 0,0:00:21.16,0:00:27.43,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k38}A{\k45}n{\k34}zu {\kf129}ga{\k65} {\k41}i{\k36}ta {\k46}to{\k83}ki
+Dialogue: 0,0:00:24.99,0:00:30.98,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k29}nan {\k24}to {\k18}na{\k98}ku {\k20}u{\k19}ma{\k38}ku {\k22}ma{\k16}to{\k39}ma{\k42}t{\kf124}te
+Dialogue: 0,0:00:31.02,0:00:42.35,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k38}o{\k40}na{\k119}ji {\k17}ho{\k24}u{\k153}kou {\k75}mu{\k92}i{\k76}te {\k78}i{\kf311}ta
+Dialogue: 0,0:00:44.46,0:00:50.87,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k38}A{\k36}n{\k40}zu-{\k41}se{\k40}n{\k37}pa{\k78}i {\k24}i{\k21}na{\k75}i {\k18}da{\k27}ke {\k56}de
+Dialogue: 0,0:00:46.40,0:00:52.62,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k37}A{\k47}n{\k29}zu {\k204}ga {\k20}i{\k23}na{\k33}i {\k23}da{\k15}ke {\k81}de
+Dialogue: 0,0:00:50.36,0:00:56.04,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k35}kon{\k22}na {\k95}ni {\k40}kon{\k26}na {\k52}ni {\k43}chi{\k41}ga{\k104}u
+Dialogue: 0,0:00:56.31,0:01:03.25,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k41}ma{\k34}ru{\k114}de {\k40}be{\k37}tsu {\k43}no {\k81}TEA{\k81}M {\k30}mi{\k48}ta{\k35}i
+Dialogue: 0,0:01:02.58,0:01:08.41,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k80}tat{\k37}ta {\k36}hi{\k42}to{\k41}ri {\k38}i{\k46}na{\k37}ku {\k45}na{\k71}ru
+Dialogue: 0,0:01:07.83,0:01:13.92,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k21}so{\k25}re {\k51}da{\k54}ke {\k70}na {\kf123}no {\kf155}ni
