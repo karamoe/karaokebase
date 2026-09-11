@@ -1,0 +1,77 @@
+﻿[Script Info]
+Title: Hossoku! Tsubakisakuhana Idol Club
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+LayoutResX: 0
+LayoutResY: 0
+Original Timing: DaBi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Musical,Arial,24,&H003500C4,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: MusicalChoir,Arial,24,&H00FFFFFF,&H003500C4,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,100,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Musical,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:02.41,0:00:08.79,Musical,,0,0,0,karaoke,{\k30}Tsu{\k35}ba{\k61}ki{\k23}sa{\k17}ki{\k24}ha{\k23}na {\k32}jo{\k32}shi {\k35}ko{\k84}u{\k38}ko{\k31}u {\k34}I{\k29}~{\k32}DO{\k32}L {\k46}bu
+Comment: 0,0:00:09.56,0:00:14.08,Musical,,0,0,0,karaoke,{\k30}i{\k30}ma {\k33}ko{\k33}ko {\k29}ni {\k28}ta{\k32}n{\k106}jou {\kf131}sh'ta
+Comment: 0,0:00:14.81,0:00:19.17,Musical,,0,0,0,karaoke,{\k30}de{\k29}n{\k63}tou{\k31}te{\k31}ki {\k70}na {\k27}wa{\k27}ga{\k30}ko{\k29}u {\k69}no
+Comment: 0,0:00:19.73,0:00:24.23,Musical,,0,0,0,karaoke,{\k37}chi{\k31}me{\k27}i {\k34}do {\k27}a{\k36}ge{\k30}ru {\k30}ni {\k28}fu{\k32}sa{\k25}wa{\kf113}shii
+Comment: 0,0:00:24.70,0:00:29.31,Musical,,0,0,0,karaoke,{\k36}ki{\k28}hi{\k28}n {\k36}to {\k21}chi{\k34}se{\k31}i {\k63}wo {\k33}ka{\k30}ne{\k30}so{\k30}na{\k33}e{\k28}ta
+Comment: 0,0:00:29.72,0:00:36.60,Musical,,0,0,0,karaoke,{\k22}Tsu{\k28}ba{\k66}ki {\k24}Sa{\k15}ki{\k27}ha{\k25}na {\k36}jo{\k28}shi {\k33}ko{\k61}u{\k22}ko{\k43}u {\k29}I{\k34}~{\k29}DO{\k33}L {\kf133}bu
+Comment: 0,0:00:48.07,0:00:51.03,Musical,,0,0,0,karaoke,{\k29}yo{\k22}ku {\k19}mo {\k31}so{\k19}n{\k19}na {\k24}ko{\k24}to {\k20}i{\k23}e{\k21}ta {\k22}wa {\k23}ne
+Comment: 0,0:00:51.24,0:00:54.70,Musical,,0,0,0,karaoke,{\k23}ma{\k22}sa{\k24}ka {\k25}I{\k20}~{\k22}DO{\k22}L {\k21}bu {\k20}de {\k25}ta{\k23}i{\k41}kou {\k25}to {\k33}wa
+Comment: 0,0:00:55.24,0:00:58.14,Musical,,0,0,0,karaoke,{\k25}I{\k16}~{\k22}DO{\k25}L {\k23}bu {\k21}wo {\k24}ma{\k20}ne {\k25}su{\k21}ru {\k24}na{\k17}n{\k27}te
+Comment: 0,0:00:58.30,0:01:01.53,Musical,,0,0,0,karaoke,{\k27}I{\k21}~{\k26}DO{\k21}L {\k22}bu {\k18}wo {\k26}ha{\k23}ji{\k25}me{\k19}ru {\k23}na{\k19}n{\k53}te
+Comment: 0,0:01:01.91,0:01:05.16,Musical,,0,0,0,karaoke,{\k24}so{\k18}n{\k41}na {\k47}kan{\k47}tan {\k43}na {\k22}mo{\k23}no {\k23}ja {\k37}nai
+Comment: 0,0:01:05.45,0:01:08.94,Musical,,0,0,0,karaoke,{\k25}so{\k18}n{\k43}na {\k48}a{\k48}ma{\k39}i {\k24}mo{\k20}no {\k26}ja {\k58}nai
+Comment: 0,0:01:09.48,0:01:15.63,Musical,,0,0,0,karaoke,{\k44}a{\k43}ko{\k48}ga{\k40}re{\k44}te {\k22}i{\k112}ta {\k46}I{\k45}~{\k45}DO{\k43}L {\k83}bu
+Comment: 0,0:01:11.69,0:01:18.31,MusicalChoir,,0,0,0,karaoke,{\k20}ko{\k23}no {\k43}gak{\k47}kou {\kf177}ni{\k36} {\k25}I{\k25}~{\k30}DO{\k41}L {\k21}bu {\kf174}ga
+Comment: 0,0:01:16.55,0:01:23.44,Musical,,0,0,0,karaoke,{\k46}A{\k46}n{\k44}zu{\k45}-cha{\k41}n {\k95}ga {\k41}bu{\k66}chou {\k23}da {\k43}na{\k47}n{\kf152}te
+Comment: 0,0:01:18.79,0:01:24.13,MusicalChoir,,0,0,0,karaoke,{\k40}tan{\k49}jou {\k25}su{\k21}ru {\k41}nan{\kf125}te{\k51} {\k45}shin{\k25}ji{\k25}ra{\k18}re{\k27}na{\k42}i
+Comment: 0,0:01:24.13,0:01:30.84,Musical,,0,0,0,karaoke,{\k51}ma{\k37}ru{\k87}de {\k45}yu{\k46}me {\k44}no {\k45}na{\k45}ka {\k44}ni {\k44}i{\k42}ru {\k45}mi{\k47}ta{\k49}i
+Comment: 0,0:01:24.15,0:01:27.20,MusicalChoir,,0,0,0,karaoke,{\k21}wa{\k20}ta{\k22}shi{\k21}ta{\k23}chi {\k67}no {\k42}CEN{\k46}TER {\k43}ga
+Comment: 0,0:01:27.66,0:01:30.78,MusicalChoir,,0,0,0,karaoke,{\k23}RI{\k25}~{\k22}VA{\k23}L {\k85}no {\k47}gak{\k44}kou {\k43}de
+Comment: 0,0:01:31.21,0:01:34.45,Musical,,0,0,0,karaoke,{\k26}I{\k22}~{\k24}DO{\k22}L {\k19}bu {\k24}no {\k23}bu{\k22}cho{\k22}u {\k22}da {\k25}na{\k19}n{\k54}te
+Comment: 0,0:01:34.76,0:01:37.99,Musical,,0,0,0,karaoke,{\k26}shi{\k17}n{\k25}ji{\k23}ra{\k23}re{\k22}na{\k23}i {\k22}ko{\k21}n{\k23}na {\k43}ten{\k55}kai
+Comment: 0,0:01:38.32,0:01:45.03,Musical,,0,0,0,karaoke,{\k26}ki{\k20}no{\k23}u {\k23}ma{\k20}de {\k25}da{\k45}re {\k65}ga {\k22}so{\k23}u{\k24}zo{\k44}u {\k20}de{\k19}ki{\k50}ta{\k43}da{\kf179}rou
+Comment: 0,0:01:45.03,0:01:51.20,Musical,,0,0,0,karaoke,{\k44}a{\k43}ko{\k48}ga{\k43}re{\k41}te {\k26}i{\k108}ta {\k46}I{\k45}~{\k45}DO{\k43}L {\k85}bu
+Comment: 0,0:01:47.25,0:01:50.04,Musical,,0,0,0,karaoke,{\k23}I{\k22}~{\k23}DO{\k21}L {\k22}wa {\k22}ya{\k17}me{\k29}ta {\k19}no {\k81}ni
+Comment: 0,0:01:50.81,0:01:53.06,Musical,,0,0,0,karaoke,{\k18}na{\k26}ze {\k42}kon{\k22}na {\k18}ko{\k28}to {\k71}ni
+Comment: 0,0:01:52.08,0:01:55.42,Musical,,0,0,0,karaoke,{\k23}so{\k27}n{\k20}na {\k20}ko{\k68}to {\k19}de{\k31}ki{\k16}ru {\k18}wa{\k27}ke {\k23}na{\k42}i
+Comment: 0,0:01:54.34,0:01:57.55,MusicalChoir,,0,0,0,karaoke,{\k21}wa{\k20}ta{\k22}shi{\k21}ta{\k23}chi {\k24}no {\k47}CEN{\k41}TER {\kf102}ga
+Comment: 0,0:01:56.11,0:02:05.55,Musical,,0,0,0,karaoke,{\k23}a{\k18}na{\k28}ta {\k20}ni {\k24}wa {\k18}ma{\k30}ke{\k18}na{\k44}i{\k89}ka{\kf632}ra
+Comment: 0,0:01:59.71,0:02:05.55,MusicalChoir,,0,0,0,karaoke,{\k42}kon{\k108}na {\k28}ko{\k21}to {\k22}ni {\k22}na{\k24}ru {\k26}na{\k24}n{\kf267}te
+Dialogue: 0,0:00:01.51,0:00:08.99,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Tsu{\k35}ba{\k61}ki{\k23}sa{\k17}ki{\k24}ha{\k23}na {\k32}jo{\k32}shi {\k35}ko{\k84}u{\k38}ko{\k31}u {\k34}I{\k29}~{\k32}DO{\k32}L {\k46}bu
+Dialogue: 0,0:00:08.66,0:00:14.28,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k30}i{\k30}ma {\k33}ko{\k33}ko {\k29}ni {\k28}ta{\k32}n{\k106}jou {\kf131}sh'ta
+Dialogue: 0,0:00:13.91,0:00:19.37,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k30}de{\k29}n{\k63}tou{\k31}te{\k31}ki {\k70}na {\k27}wa{\k27}ga{\k30}ko{\k29}u {\k69}no
+Dialogue: 0,0:00:18.83,0:00:24.43,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k37}chi{\k31}me{\k27}i {\k34}do {\k27}a{\k36}ge{\k30}ru {\k30}ni {\k28}fu{\k32}sa{\k25}wa{\kf113}shii
+Dialogue: 0,0:00:23.80,0:00:29.51,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k36}ki{\k28}hi{\k28}n {\k36}to {\k21}chi{\k34}se{\k31}i {\k63}wo {\k33}ka{\k30}ne{\k30}so{\k30}na{\k33}e{\k28}ta
+Dialogue: 0,0:00:28.82,0:00:36.80,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Tsu{\k28}ba{\k66}ki {\k24}Sa{\k15}ki{\k27}ha{\k25}na {\k36}jo{\k28}shi {\k33}ko{\k61}u{\k22}ko{\k43}u {\k29}I{\k34}~{\k29}DO{\k33}L {\kf133}bu
+Dialogue: 0,0:00:47.17,0:00:51.23,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k29}yo{\k22}ku {\k19}mo {\k31}so{\k19}n{\k19}na {\k24}ko{\k24}to {\k20}i{\k23}e{\k21}ta {\k22}wa {\k23}ne
+Dialogue: 0,0:00:50.34,0:00:54.90,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ma{\k22}sa{\k24}ka {\k25}I{\k20}~{\k22}DO{\k22}L {\k21}bu {\k20}de {\k25}ta{\k23}i{\k41}kou {\k25}to {\k33}wa
+Dialogue: 0,0:00:54.34,0:00:58.34,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I{\k16}~{\k22}DO{\k25}L {\k23}bu {\k21}wo {\k24}ma{\k20}ne {\k25}su{\k21}ru {\k24}na{\k17}n{\k27}te
+Dialogue: 0,0:00:57.40,0:01:01.73,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k27}I{\k21}~{\k26}DO{\k21}L {\k22}bu {\k18}wo {\k26}ha{\k23}ji{\k25}me{\k19}ru {\k23}na{\k19}n{\k53}te
+Dialogue: 0,0:01:01.01,0:01:05.36,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k24}so{\k18}n{\k41}na {\k47}kan{\k47}tan {\k43}na {\k22}mo{\k23}no {\k23}ja {\k37}nai
+Dialogue: 0,0:01:04.55,0:01:09.14,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k25}so{\k18}n{\k43}na {\k48}a{\k48}ma{\k39}i {\k24}mo{\k20}no {\k26}ja {\k58}nai
+Dialogue: 0,0:01:08.58,0:01:15.83,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k44}a{\k43}ko{\k48}ga{\k40}re{\k44}te {\k22}i{\k112}ta {\k46}I{\k45}~{\k45}DO{\k43}L {\k83}bu
+Dialogue: 0,0:01:10.79,0:01:18.51,MusicalChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ko{\k23}no {\k43}gak{\k47}kou {\kf177}ni{\k36} {\k25}I{\k25}~{\k30}DO{\k41}L {\k21}bu {\kf174}ga
+Dialogue: 0,0:01:15.65,0:01:23.64,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k46}A{\k46}n{\k44}zu{\k45}-cha{\k41}n {\k95}ga {\k41}bu{\k66}chou {\k23}da {\k43}na{\k47}n{\kf152}te
+Dialogue: 0,0:01:17.89,0:01:24.33,MusicalChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k40}tan{\k49}jou {\k25}su{\k21}ru {\k41}nan{\kf125}te{\k51} {\k45}shin{\k25}ji{\k25}ra{\k18}re{\k27}na{\k42}i
+Dialogue: 0,0:01:23.23,0:01:31.04,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k51}ma{\k37}ru{\k87}de {\k45}yu{\k46}me {\k44}no {\k45}na{\k45}ka {\k44}ni {\k44}i{\k42}ru {\k45}mi{\k47}ta{\k49}i
+Dialogue: 0,0:01:23.25,0:01:27.40,MusicalChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k21}wa{\k20}ta{\k22}shi{\k21}ta{\k23}chi {\k67}no {\k42}CEN{\k46}TER {\k43}ga
+Dialogue: 0,0:01:26.76,0:01:30.98,MusicalChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k23}RI{\k25}~{\k22}VA{\k23}L {\k85}no {\k47}gak{\k44}kou {\k43}de
+Dialogue: 0,0:01:30.31,0:01:34.65,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k26}I{\k22}~{\k24}DO{\k22}L {\k19}bu {\k24}no {\k23}bu{\k22}cho{\k22}u {\k22}da {\k25}na{\k19}n{\k54}te
+Dialogue: 0,0:01:33.86,0:01:38.19,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k26}shi{\k17}n{\k25}ji{\k23}ra{\k23}re{\k22}na{\k23}i {\k22}ko{\k21}n{\k23}na {\k43}ten{\k55}kai
+Dialogue: 0,0:01:37.42,0:01:45.23,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ki{\k20}no{\k23}u {\k23}ma{\k20}de {\k25}da{\k45}re {\k65}ga {\k22}so{\k23}u{\k24}zo{\k44}u {\k20}de{\k19}ki{\k50}ta{\k43}da{\kf179}rou
+Dialogue: 0,0:01:44.13,0:01:51.40,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k44}a{\k43}ko{\k48}ga{\k43}re{\k41}te {\k26}i{\k108}ta {\k46}I{\k45}~{\k45}DO{\k43}L {\k85}bu
+Dialogue: 0,0:01:46.35,0:01:50.24,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k23}I{\k22}~{\k23}DO{\k21}L {\k22}wa {\k22}ya{\k17}me{\k29}ta {\k19}no {\k81}ni
+Dialogue: 0,0:01:49.91,0:01:53.26,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k18}na{\k26}ze {\k42}kon{\k22}na {\k18}ko{\k28}to {\k71}ni
+Dialogue: 0,0:01:51.18,0:01:55.62,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k23}so{\k27}n{\k20}na {\k20}ko{\k68}to {\k19}de{\k31}ki{\k16}ru {\k18}wa{\k27}ke {\k23}na{\k42}i
+Dialogue: 0,0:01:53.44,0:01:57.75,MusicalChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k21}wa{\k20}ta{\k22}shi{\k21}ta{\k23}chi {\k24}no {\k47}CEN{\k41}TER {\kf102}ga
+Dialogue: 0,0:01:55.21,0:02:05.75,Musical,,0,0,0,fx,{\k90\fad(300,200)}{\k23}a{\k18}na{\k28}ta {\k20}ni {\k24}wa {\k18}ma{\k30}ke{\k18}na{\k44}i{\k89}ka{\kf632}ra
+Dialogue: 0,0:01:58.81,0:02:05.75,MusicalChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k42}kon{\k108}na {\k28}ko{\k21}to {\k22}ni {\k22}na{\k24}ru {\k26}na{\k24}n{\kf267}te
