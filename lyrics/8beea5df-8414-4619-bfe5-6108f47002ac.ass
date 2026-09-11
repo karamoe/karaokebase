@@ -1,0 +1,35 @@
+﻿[Script Info]
+Title: Minamo ni Yureru Priestella
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: Nemesise
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.10,0:00:09.63,Sample KM [Up],,0,0,0,karaoke,{\k38}o{\k42}mo{\k80}i{\k40}da{\k56}shi{\k18}te {\k42}mi{\kf144}te{\k56} {\k18}o{\k20}ga{\k77}wa {\k38}no {\k59}se{\k22}se{\k42}ra{\kf161}gi
+Comment: 0,0:00:10.32,0:00:17.43,Sample KM [Up],,0,0,0,karaoke,{\k79}hi{\k44}ka{\k37}ri {\k39}sa{\k21}shi{\k22}ko{\k120}mu {\k59}yo{\k19}ro{\k41}ko{\kf230}bi
+Comment: 0,0:00:17.88,0:00:27.36,Sample KM [Up],,0,0,0,karaoke,{\k37}dou{\k43}ka {\k72}wa{\k45}su{\k58}re{\k22}na{\k38}i{\kf159}de{\k38} {\k20}ni{\k19}gi{\k78}wa{\k40}u {\k56}ma{\k22}chi{\k41}na{\kf160}mi
+Comment: 0,0:00:28.14,0:00:34.87,Sample KM [Up],,0,0,0,karaoke,{\k76}ka{\k44}wa{\k36}i{\k38}ta {\k20}ko{\k23}ko{\k116}ro {\k62}u{\k18}ru{\k35}o{\kf205}su
+Comment: 0,0:00:37.97,0:00:44.34,Sample KM [Up],,0,0,0,karaoke,{\k42}ka{\k38}na{\k61}shi{\k18}mi {\k40}wa {\k59}ka{\k22}ze {\k36}ni {\k41}ha{\k40}ko{\k39}ba{\kf201}re
+Comment: 0,0:00:47.46,0:00:54.17,Sample KM [Up],,0,0,0,karaoke,{\k41}a{\k36}ra{\k61}so{\k21}i {\k39}wa {\k61}na{\k20}mi {\k33}ni {\k44}sa{\k40}ra{\k38}wa{\kf237}re
+Comment: 0,0:00:56.10,0:01:05.30,Sample KM [Up],,0,0,0,karaoke,{\k46}so{\kf95}ba{\k4} {\k18}ni {\kf99}i{\k19}ru {\kf134}yo{\k64} {\k40}ka{\k77}ga{\k38}ya{\kf80}ku{\k2} {\k39}u{\k77}ta{\k41}ka{\k47}ta
+Comment: 0,0:01:05.62,0:01:14.08,Sample KM [Up],,0,0,0,karaoke,{\k41}na{\kf98}mi{\k20}da {\kf93}mo{\k4} {\k21}ho{\k118}ra, {\k39}hi{\k41}ka{\k39}ri {\kf91}ni{\k6} {\k22}na{\kf213}ru
+Comment: 0,0:01:15.11,0:01:24.96,Sample KM [Up],,0,0,0,karaoke,{\k40}mi{\k80}na{\k38}mo {\k40}ni {\k35}u{\k44}tsu{\k118}ru {\k39}ho{\k36}u{\k40}se{\k99}ki{\k21}ta{\kf122}chi{\kf233}~
+Dialogue: 0,0:00:00.00,0:00:09.83,Sample KM [Up],,0,0,0,fx,{\k10\fad(100,200)}{\k38}o{\k42}mo{\k80}i{\k40}da{\k56}shi{\k18}te {\k42}mi{\kf144}te{\k56} {\k18}o{\k20}ga{\k77}wa {\k38}no {\k59}se{\k22}se{\k42}ra{\kf161}gi
+Dialogue: 0,0:00:09.42,0:00:17.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k79}hi{\k44}ka{\k37}ri {\k39}sa{\k21}shi{\k22}ko{\k120}mu {\k59}yo{\k19}ro{\k41}ko{\kf230}bi
+Dialogue: 0,0:00:16.98,0:00:27.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}dou{\k43}ka {\k72}wa{\k45}su{\k58}re{\k22}na{\k38}i{\kf159}de{\k38} {\k20}ni{\k19}gi{\k78}wa{\k40}u {\k56}ma{\k22}chi{\k41}na{\kf160}mi
+Dialogue: 0,0:00:27.24,0:00:35.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k76}ka{\k44}wa{\k36}i{\k38}ta {\k20}ko{\k23}ko{\k116}ro {\k62}u{\k18}ru{\k35}o{\kf205}su
+Dialogue: 0,0:00:37.07,0:00:44.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}ka{\k38}na{\k61}shi{\k18}mi {\k40}wa {\k59}ka{\k22}ze {\k36}ni {\k41}ha{\k40}ko{\k39}ba{\kf201}re
+Dialogue: 0,0:00:46.56,0:00:54.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}a{\k36}ra{\k61}so{\k21}i {\k39}wa {\k61}na{\k20}mi {\k33}ni {\k44}sa{\k40}ra{\k38}wa{\kf237}re
+Dialogue: 0,0:00:55.20,0:01:05.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}so{\kf95}ba{\k4} {\k18}ni {\kf99}i{\k19}ru {\kf134}yo{\k64} {\k40}ka{\k77}ga{\k38}ya{\kf80}ku{\k2} {\k39}u{\k77}ta{\k41}ka{\k47}ta
+Dialogue: 0,0:01:04.72,0:01:14.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}na{\kf98}mi{\k20}da {\kf93}mo{\k4} {\k21}ho{\k118}ra, {\k39}hi{\k41}ka{\k39}ri {\kf91}ni{\k6} {\k22}na{\kf213}ru
+Dialogue: 0,0:01:14.21,0:01:25.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}mi{\k80}na{\k38}mo {\k40}ni {\k35}u{\k44}tsu{\k118}ru {\k39}ho{\k36}u{\k40}se{\k99}ki{\k21}ta{\kf122}chi{\kf233}~
