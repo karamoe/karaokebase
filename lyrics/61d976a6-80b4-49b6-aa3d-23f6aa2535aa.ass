@@ -1,0 +1,131 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Title: Move Your Body
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00FF843C,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:02.04,0:00:03.89,Sample KM [Up],,0,0,0,karaoke,{\k23}Work {\k46}out {\k20}your {\k48}mind {\k48}mind
+Comment: 0,0:00:03.89,0:00:06.18,Sample KM [Up],,0,0,0,karaoke,{\k24}Work {\k45}out {\k24}your {\k23}bo{\k23}dy {\k20}move {\k25}your {\k45}mind
+Comment: 0,0:00:06.18,0:00:07.59,Sample KM [Up],,0,0,0,karaoke,{\k21}Move {\k25}your {\k45}mind {\k50}mind
+Comment: 0,0:00:07.59,0:00:09.44,Sample KM [Up],,0,0,0,karaoke,{\k22}Work {\k47}out {\k23}your {\k23}bo{\k22}dy {\k25}bo{\k23}dy
+Comment: 0,0:00:09.44,0:00:11.25,Sample KM [Up],,0,0,0,karaoke,{\k22}Work {\k46}out {\k23}your {\k45}mind {\k45}mind
+Comment: 0,0:00:11.25,0:00:13.56,Sample KM [Up],,0,0,0,karaoke,{\k24}Work {\k47}out {\k24}your {\k24}bo{\k22}dy {\k22}move {\k24}your {\k44}mind
+Comment: 0,0:00:13.56,0:00:14.95,Sample KM [Up],,0,0,0,karaoke,{\k25}Move {\k22}your {\k45}mind {\k47}mind
+Comment: 0,0:00:14.95,0:00:17.23,Sample KM [Up],,0,0,0,karaoke,{\k24}Work {\k46}out {\k24}your {\k24}bo{\k22}dy {\k20}move {\k26}your {\k23}move {\k19}your
+Comment: 0,0:00:17.23,0:00:19.12,Sample KM [Up],,0,0,0,karaoke,{\k24}Move {\k24}your {\k24}move {\k24}your {\k24}move {\k24}your {\k23}move {\k22}your
+Comment: 0,0:00:19.55,0:00:23.05,Sample KM [Up],,0,0,0,karaoke,{\k48}Move {\k48}your {\k46}bo{\k45}dy {\k24}eve{\k22}ry {\k24}eve{\k23}ry{\k45}bo{\k25}dy
+Comment: 0,0:00:23.22,0:00:26.73,Sample KM [Up],,0,0,0,karaoke,{\k49}Move {\k47}your {\k47}bo{\k22}dy {\k25}come {\k21}on {\k25}now {\k22}eve{\k24}ry{\k46}bo{\k23}dy
+Comment: 0,0:00:26.94,0:00:30.43,Sample KM [Up],,0,0,0,karaoke,{\k46}Move {\k48}your {\k47}bo{\k45}dy {\k45}move {\k48}your {\k46}bo{\k24}dy
+Comment: 0,0:00:30.64,0:00:34.12,Sample KM [Up],,0,0,0,karaoke,{\k47}Eve{\k46}ry{\k46}bo{\k22}dy {\k25}come {\k23}on {\k24}now {\k23}eve{\k23}ry{\k46}bo{\k23}dy
+Comment: 0,0:00:34.29,0:00:37.81,Sample KM [Up],,0,0,0,karaoke,{\k51}Move {\k47}your {\k47}bo{\k46}dy {\k22}eve{\k23}ry {\k23}eve{\k23}ry{\k46}bo{\k24}dy
+Comment: 0,0:00:38.02,0:00:41.49,Sample KM [Up],,0,0,0,karaoke,{\k46}Move {\k47}your {\k48}bo{\k21}dy {\k24}come {\k24}on {\k22}now {\k24}eve{\k23}ry{\k46}bo{\k22}dy
+Comment: 0,0:00:41.70,0:00:45.19,Sample KM [Up],,0,0,0,karaoke,{\k47}Move {\k47}your {\k48}bo{\k44}dy {\k46}move {\k48}your {\k46}bo{\k23}dy
+Comment: 0,0:00:45.43,0:00:48.89,Sample KM [Up],,0,0,0,karaoke,{\k44}Eve{\k47}ry{\k47}bo{\k20}dy {\k26}come {\k23}on {\k23}now {\k24}eve{\k24}ry{\k44}bo{\k24}dy
+Comment: 0,0:01:08.38,0:01:09.88,Sample KM [Up],,0,0,0,karaoke,{\k12}You {\k22}want {\k24}to {\k24}move {\k22}the {\k46}world
+Comment: 0,0:01:10.49,0:01:11.96,Sample KM [Up],,0,0,0,karaoke,{\k31}Start {\k23}with {\k25}your {\k24}bo{\k44}dy
+Comment: 0,0:01:12.19,0:01:15.77,Sample KM [Up],,0,0,0,karaoke,{\k67}Yo {\k26}come {\k68}on {\k25}you {\k23}got{\k22}ta {\k24}start {\k20}with {\k47}some{\k36}thing
+Comment: 0,0:01:15.88,0:01:17.40,Sample KM [Up],,0,0,0,karaoke,{\k13}If {\k12}you {\k12}wan{\k10}na {\k22}move {\k24}your {\k59}mind
+Comment: 0,0:01:17.95,0:01:19.10,Sample KM [Up],,0,0,0,karaoke,{\k25}Just {\k23}move {\k22}your {\k26}bo{\k19}dy
+Comment: 0,0:01:19.10,0:01:20.97,Sample KM [Up],,0,0,0,karaoke,{\k24}Move {\k24}your {\k45}mind {\k22}move {\k25}your {\k47}mind
+Comment: 0,0:01:21.17,0:01:23.17,Sample KM [Up],,0,0,0,karaoke,{\k21}It's {\k28}gon{\k20}na {\k26}cost {\k23}you {\k45}no{\k37}thing
+Comment: 0,0:01:23.18,0:01:24.66,Sample KM [Up],,0,0,0,karaoke,{\k10}You {\k21}want {\k23}to {\k24}move {\k23}some{\k47}one
+Comment: 0,0:01:25.30,0:01:26.71,Sample KM [Up],,0,0,0,karaoke,{\k27}Start {\k23}with {\k25}your {\k23}bo{\k43}dy
+Comment: 0,0:01:26.96,0:01:30.60,Sample KM [Up],,0,0,0,karaoke,{\k68}Yo {\k25}come {\k68}on {\k25}and {\k22}try {\k21}to {\k21}move {\k29}some{\k45}bo{\k40}dy
+Comment: 0,0:01:30.67,0:01:32.16,Sample KM [Up],,0,0,0,karaoke,{\k11}If {\k11}you {\k13}wan{\k10}na {\k23}move {\k23}a{\k58}lone
+Comment: 0,0:01:32.72,0:01:37.06,Sample KM [Up],,0,0,0,karaoke,{\k24}Then {\k24}eve{\k23}ry{\k24}bo{\k67}dy {\k46}will {\k24}move {\k24}a{\k45}long {\k22}with {\kf111}you
+Comment: 0,0:01:37.09,0:01:40.59,Sample KM [Up],,0,0,0,karaoke,{\k48}Move {\k48}your {\k46}bo{\k45}dy {\k24}eve{\k22}ry {\k24}eve{\k23}ry{\k45}bo{\k25}dy
+Comment: 0,0:01:40.76,0:01:44.27,Sample KM [Up],,0,0,0,karaoke,{\k49}Move {\k47}your {\k47}bo{\k22}dy {\k25}come {\k21}on {\k25}now {\k22}eve{\k24}ry{\k46}bo{\k23}dy
+Comment: 0,0:01:44.48,0:01:47.97,Sample KM [Up],,0,0,0,karaoke,{\k46}Move {\k48}your {\k47}bo{\k45}dy {\k45}move {\k48}your {\k46}bo{\k24}dy
+Comment: 0,0:01:48.18,0:01:51.66,Sample KM [Up],,0,0,0,karaoke,{\k47}Eve{\k46}ry{\k46}bo{\k22}dy {\k25}come {\k23}on {\k24}now {\k23}eve{\k23}ry{\k46}bo{\k23}dy
+Comment: 0,0:01:51.83,0:01:55.35,Sample KM [Up],,0,0,0,karaoke,{\k51}Move {\k47}your {\k47}bo{\k46}dy {\k22}eve{\k23}ry {\k23}eve{\k23}ry{\k46}bo{\k24}dy
+Comment: 0,0:01:55.56,0:01:59.03,Sample KM [Up],,0,0,0,karaoke,{\k46}Move {\k47}your {\k48}bo{\k21}dy {\k24}come {\k24}on {\k22}now {\k24}eve{\k23}ry{\k46}bo{\k22}dy
+Comment: 0,0:01:59.24,0:02:02.73,Sample KM [Up],,0,0,0,karaoke,{\k47}Move {\k47}your {\k48}bo{\k44}dy {\k46}move {\k48}your {\k46}bo{\k23}dy
+Comment: 0,0:02:02.97,0:02:06.43,Sample KM [Up],,0,0,0,karaoke,{\k44}Eve{\k47}ry{\k47}bo{\k20}dy {\k26}come {\k23}on {\k23}now {\k24}eve{\k24}ry{\k44}bo{\k24}dy
+Comment: 0,0:02:24.08,0:02:25.58,Sample KM [Up],,0,0,0,karaoke,{\k12}You {\k22}want {\k24}to {\k24}move {\k22}the {\k46}world
+Comment: 0,0:02:26.19,0:02:27.66,Sample KM [Up],,0,0,0,karaoke,{\k31}Start {\k23}with {\k25}your {\k24}bo{\k44}dy
+Comment: 0,0:02:27.89,0:02:31.47,Sample KM [Up],,0,0,0,karaoke,{\k67}Yo {\k26}come {\k68}on {\k25}you {\k23}got{\k22}ta {\k24}start {\k20}with {\k47}some{\k36}thing
+Comment: 0,0:02:31.58,0:02:33.10,Sample KM [Up],,0,0,0,karaoke,{\k13}If {\k12}you {\k12}wan{\k10}na {\k22}move {\k24}your {\k59}mind
+Comment: 0,0:02:33.65,0:02:34.80,Sample KM [Up],,0,0,0,karaoke,{\k25}Just {\k23}move {\k22}your {\k26}bo{\k19}dy
+Comment: 0,0:02:34.80,0:02:36.67,Sample KM [Up],,0,0,0,karaoke,{\k24}Move {\k24}your {\k45}mind {\k22}move {\k25}your {\k47}mind
+Comment: 0,0:02:36.87,0:02:38.87,Sample KM [Up],,0,0,0,karaoke,{\k21}It's {\k28}gon{\k20}na {\k26}cost {\k23}you {\k45}no{\k37}thing
+Comment: 0,0:02:38.88,0:02:40.36,Sample KM [Up],,0,0,0,karaoke,{\k10}You {\k21}want {\k23}to {\k24}move {\k23}some{\k47}one
+Comment: 0,0:02:41.00,0:02:42.41,Sample KM [Up],,0,0,0,karaoke,{\k27}Start {\k23}with {\k25}your {\k23}bo{\k43}dy
+Comment: 0,0:02:42.66,0:02:46.30,Sample KM [Up],,0,0,0,karaoke,{\k68}Yo {\k25}come {\k68}on {\k25}and {\k22}try {\k21}to {\k21}move {\k29}some{\k45}bo{\k40}dy
+Comment: 0,0:02:46.37,0:02:47.86,Sample KM [Up],,0,0,0,karaoke,{\k11}If {\k11}you {\k13}wan{\k10}na {\k23}move {\k23}a{\k58}lone
+Comment: 0,0:02:48.42,0:02:52.76,Sample KM [Up],,0,0,0,karaoke,{\k24}Then {\k24}eve{\k23}ry{\k24}bo{\k67}dy {\k46}will {\k24}move {\k24}a{\k45}long {\k22}with {\kf111}you
+Comment: 0,0:02:52.78,0:02:56.28,Sample KM [Up],,0,0,0,karaoke,{\k48}Move {\k48}your {\k46}bo{\k45}dy {\k24}eve{\k22}ry {\k24}eve{\k23}ry{\k45}bo{\k25}dy
+Comment: 0,0:02:56.45,0:02:59.96,Sample KM [Up],,0,0,0,karaoke,{\k49}Move {\k47}your {\k47}bo{\k22}dy {\k25}come {\k21}on {\k25}now {\k22}eve{\k24}ry{\k46}bo{\k23}dy
+Comment: 0,0:03:00.17,0:03:03.66,Sample KM [Up],,0,0,0,karaoke,{\k46}Move {\k48}your {\k47}bo{\k45}dy {\k45}move {\k48}your {\k46}bo{\k24}dy
+Comment: 0,0:03:03.87,0:03:07.35,Sample KM [Up],,0,0,0,karaoke,{\k47}Eve{\k46}ry{\k46}bo{\k22}dy {\k25}come {\k23}on {\k24}now {\k23}eve{\k23}ry{\k46}bo{\k23}dy
+Comment: 0,0:03:07.52,0:03:11.04,Sample KM [Up],,0,0,0,karaoke,{\k51}Move {\k47}your {\k47}bo{\k46}dy {\k22}eve{\k23}ry {\k23}eve{\k23}ry{\k46}bo{\k24}dy
+Comment: 0,0:03:11.25,0:03:14.72,Sample KM [Up],,0,0,0,karaoke,{\k46}Move {\k47}your {\k48}bo{\k21}dy {\k24}come {\k24}on {\k22}now {\k24}eve{\k23}ry{\k46}bo{\k22}dy
+Comment: 0,0:03:14.93,0:03:18.42,Sample KM [Up],,0,0,0,karaoke,{\k47}Move {\k47}your {\k48}bo{\k44}dy {\k46}move {\k48}your {\k46}bo{\k23}dy
+Comment: 0,0:03:18.66,0:03:22.12,Sample KM [Up],,0,0,0,karaoke,{\k44}Eve{\k47}ry{\k47}bo{\k20}dy {\k26}come {\k23}on {\k23}now {\k24}eve{\k24}ry{\k44}bo{\k24}dy
+Dialogue: 0,0:00:01.14,0:00:04.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Work {\k46}out {\k20}your {\k48}mind {\k48}mind
+Dialogue: 0,0:00:02.99,0:00:06.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Work {\k45}out {\k24}your {\k23}bo{\k23}dy {\k20}move {\k25}your {\k45}mind
+Dialogue: 0,0:00:05.28,0:00:07.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Move {\k25}your {\k45}mind {\k50}mind
+Dialogue: 0,0:00:06.69,0:00:09.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Work {\k47}out {\k23}your {\k23}bo{\k22}dy {\k25}bo{\k23}dy
+Dialogue: 0,0:00:08.54,0:00:11.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Work {\k46}out {\k23}your {\k45}mind {\k45}mind
+Dialogue: 0,0:00:10.35,0:00:13.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Work {\k47}out {\k24}your {\k24}bo{\k22}dy {\k22}move {\k24}your {\k44}mind
+Dialogue: 0,0:00:12.66,0:00:15.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Move {\k22}your {\k45}mind {\k47}mind
+Dialogue: 0,0:00:14.05,0:00:17.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Work {\k46}out {\k24}your {\k24}bo{\k22}dy {\k20}move {\k26}your {\k23}move {\k19}your
+Dialogue: 0,0:00:16.33,0:00:19.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Move {\k24}your {\k24}move {\k24}your {\k24}move {\k24}your {\k23}move {\k22}your
+Dialogue: 0,0:00:18.65,0:00:23.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Move {\k48}your {\k46}bo{\k45}dy {\k24}eve{\k22}ry {\k24}eve{\k23}ry{\k45}bo{\k25}dy
+Dialogue: 0,0:00:22.32,0:00:26.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Move {\k47}your {\k47}bo{\k22}dy {\k25}come {\k21}on {\k25}now {\k22}eve{\k24}ry{\k46}bo{\k23}dy
+Dialogue: 0,0:00:26.04,0:00:30.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Move {\k48}your {\k47}bo{\k45}dy {\k45}move {\k48}your {\k46}bo{\k24}dy
+Dialogue: 0,0:00:29.74,0:00:34.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Eve{\k46}ry{\k46}bo{\k22}dy {\k25}come {\k23}on {\k24}now {\k23}eve{\k23}ry{\k46}bo{\k23}dy
+Dialogue: 0,0:00:33.39,0:00:38.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k51}Move {\k47}your {\k47}bo{\k46}dy {\k22}eve{\k23}ry {\k23}eve{\k23}ry{\k46}bo{\k24}dy
+Dialogue: 0,0:00:37.12,0:00:41.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Move {\k47}your {\k48}bo{\k21}dy {\k24}come {\k24}on {\k22}now {\k24}eve{\k23}ry{\k46}bo{\k22}dy
+Dialogue: 0,0:00:40.80,0:00:45.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Move {\k47}your {\k48}bo{\k44}dy {\k46}move {\k48}your {\k46}bo{\k23}dy
+Dialogue: 0,0:00:44.53,0:00:49.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Eve{\k47}ry{\k47}bo{\k20}dy {\k26}come {\k23}on {\k23}now {\k24}eve{\k24}ry{\k44}bo{\k24}dy
+Dialogue: 0,0:01:07.48,0:01:10.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}You {\k22}want {\k24}to {\k24}move {\k22}the {\k46}world
+Dialogue: 0,0:01:09.59,0:01:12.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Start {\k23}with {\k25}your {\k24}bo{\k44}dy
+Dialogue: 0,0:01:11.29,0:01:15.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k67}Yo {\k26}come {\k68}on {\k25}you {\k23}got{\k22}ta {\k24}start {\k20}with {\k47}some{\k36}thing
+Dialogue: 0,0:01:14.98,0:01:17.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}If {\k12}you {\k12}wan{\k10}na {\k22}move {\k24}your {\k59}mind
+Dialogue: 0,0:01:17.05,0:01:19.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Just {\k23}move {\k22}your {\k26}bo{\k19}dy
+Dialogue: 0,0:01:18.20,0:01:21.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Move {\k24}your {\k45}mind {\k22}move {\k25}your {\k47}mind
+Dialogue: 0,0:01:20.27,0:01:23.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}It's {\k28}gon{\k20}na {\k26}cost {\k23}you {\k45}no{\k37}thing
+Dialogue: 0,0:01:22.28,0:01:24.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}You {\k21}want {\k23}to {\k24}move {\k23}some{\k47}one
+Dialogue: 0,0:01:24.40,0:01:26.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Start {\k23}with {\k25}your {\k23}bo{\k43}dy
+Dialogue: 0,0:01:26.06,0:01:30.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k68}Yo {\k25}come {\k68}on {\k25}and {\k22}try {\k21}to {\k21}move {\k29}some{\k45}bo{\k40}dy
+Dialogue: 0,0:01:29.77,0:01:32.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}If {\k11}you {\k13}wan{\k10}na {\k23}move {\k23}a{\k58}lone
+Dialogue: 0,0:01:31.82,0:01:37.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Then {\k24}eve{\k23}ry{\k24}bo{\k67}dy {\k46}will {\k24}move {\k24}a{\k45}long {\k22}with {\kf111}you
+Dialogue: 0,0:01:36.19,0:01:40.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Move {\k48}your {\k46}bo{\k45}dy {\k24}eve{\k22}ry {\k24}eve{\k23}ry{\k45}bo{\k25}dy
+Dialogue: 0,0:01:39.86,0:01:44.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Move {\k47}your {\k47}bo{\k22}dy {\k25}come {\k21}on {\k25}now {\k22}eve{\k24}ry{\k46}bo{\k23}dy
+Dialogue: 0,0:01:43.58,0:01:48.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Move {\k48}your {\k47}bo{\k45}dy {\k45}move {\k48}your {\k46}bo{\k24}dy
+Dialogue: 0,0:01:47.28,0:01:51.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Eve{\k46}ry{\k46}bo{\k22}dy {\k25}come {\k23}on {\k24}now {\k23}eve{\k23}ry{\k46}bo{\k23}dy
+Dialogue: 0,0:01:50.93,0:01:55.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k51}Move {\k47}your {\k47}bo{\k46}dy {\k22}eve{\k23}ry {\k23}eve{\k23}ry{\k46}bo{\k24}dy
+Dialogue: 0,0:01:54.66,0:01:59.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Move {\k47}your {\k48}bo{\k21}dy {\k24}come {\k24}on {\k22}now {\k24}eve{\k23}ry{\k46}bo{\k22}dy
+Dialogue: 0,0:01:58.34,0:02:02.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Move {\k47}your {\k48}bo{\k44}dy {\k46}move {\k48}your {\k46}bo{\k23}dy
+Dialogue: 0,0:02:02.07,0:02:06.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Eve{\k47}ry{\k47}bo{\k20}dy {\k26}come {\k23}on {\k23}now {\k24}eve{\k24}ry{\k44}bo{\k24}dy
+Dialogue: 0,0:02:23.18,0:02:25.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}You {\k22}want {\k24}to {\k24}move {\k22}the {\k46}world
+Dialogue: 0,0:02:25.29,0:02:27.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Start {\k23}with {\k25}your {\k24}bo{\k44}dy
+Dialogue: 0,0:02:26.99,0:02:31.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k67}Yo {\k26}come {\k68}on {\k25}you {\k23}got{\k22}ta {\k24}start {\k20}with {\k47}some{\k36}thing
+Dialogue: 0,0:02:30.68,0:02:33.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}If {\k12}you {\k12}wan{\k10}na {\k22}move {\k24}your {\k59}mind
+Dialogue: 0,0:02:32.75,0:02:35.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Just {\k23}move {\k22}your {\k26}bo{\k19}dy
+Dialogue: 0,0:02:33.90,0:02:36.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Move {\k24}your {\k45}mind {\k22}move {\k25}your {\k47}mind
+Dialogue: 0,0:02:35.97,0:02:39.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}It's {\k28}gon{\k20}na {\k26}cost {\k23}you {\k45}no{\k37}thing
+Dialogue: 0,0:02:37.98,0:02:40.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}You {\k21}want {\k23}to {\k24}move {\k23}some{\k47}one
+Dialogue: 0,0:02:40.10,0:02:42.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Start {\k23}with {\k25}your {\k23}bo{\k43}dy
+Dialogue: 0,0:02:41.76,0:02:46.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k68}Yo {\k25}come {\k68}on {\k25}and {\k22}try {\k21}to {\k21}move {\k29}some{\k45}bo{\k40}dy
+Dialogue: 0,0:02:45.47,0:02:48.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}If {\k11}you {\k13}wan{\k10}na {\k23}move {\k23}a{\k58}lone
+Dialogue: 0,0:02:47.52,0:02:52.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Then {\k24}eve{\k23}ry{\k24}bo{\k67}dy {\k46}will {\k24}move {\k24}a{\k45}long {\k22}with {\kf111}you
+Dialogue: 0,0:02:51.88,0:02:56.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Move {\k48}your {\k46}bo{\k45}dy {\k24}eve{\k22}ry {\k24}eve{\k23}ry{\k45}bo{\k25}dy
+Dialogue: 0,0:02:55.55,0:03:00.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Move {\k47}your {\k47}bo{\k22}dy {\k25}come {\k21}on {\k25}now {\k22}eve{\k24}ry{\k46}bo{\k23}dy
+Dialogue: 0,0:02:59.27,0:03:03.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Move {\k48}your {\k47}bo{\k45}dy {\k45}move {\k48}your {\k46}bo{\k24}dy
+Dialogue: 0,0:03:02.97,0:03:07.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Eve{\k46}ry{\k46}bo{\k22}dy {\k25}come {\k23}on {\k24}now {\k23}eve{\k23}ry{\k46}bo{\k23}dy
+Dialogue: 0,0:03:06.62,0:03:11.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k51}Move {\k47}your {\k47}bo{\k46}dy {\k22}eve{\k23}ry {\k23}eve{\k23}ry{\k46}bo{\k24}dy
+Dialogue: 0,0:03:10.35,0:03:14.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Move {\k47}your {\k48}bo{\k21}dy {\k24}come {\k24}on {\k22}now {\k24}eve{\k23}ry{\k46}bo{\k22}dy
+Dialogue: 0,0:03:14.03,0:03:18.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Move {\k47}your {\k48}bo{\k44}dy {\k46}move {\k48}your {\k46}bo{\k23}dy
+Dialogue: 0,0:03:17.76,0:03:22.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Eve{\k47}ry{\k47}bo{\k20}dy {\k26}come {\k23}on {\k23}now {\k24}eve{\k24}ry{\k44}bo{\k24}dy
