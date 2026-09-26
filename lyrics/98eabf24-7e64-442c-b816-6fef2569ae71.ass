@@ -1,0 +1,81 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+PlayResX: 0
+PlayResY: 0
+Title: BOOM
+Original Timing: PrZozor
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: All,Arial,24,&H00152AF0,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Secondaire,Arial,20,&H00E52B91,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,10,10,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:01:27.50,0:01:29.74,Hare,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:01.66,0:00:03.82,All,,0,0,0,karaoke,{\k59}Oh-{\k42}oh-{\k60}oh-{\k55}oh
+Comment: 0,0:00:04.29,0:00:08.07,All,,0,0,0,karaoke,{\k43}Oh-{\k53}oh-{\kf292}oh
+Comment: 0,0:00:17.39,0:00:21.37,All,,0,0,0,karaoke,{\k33}Our {\k44}time {\k32}is {\kf289}now
+Comment: 0,0:00:29.10,0:00:31.53,All,,0,0,0,karaoke,{\k0} {\k33}I {\k28}feel {\k27}my {\k26}e{\k31}ner{\k98}gy
+Comment: 0,0:00:31.54,0:00:33.55,All,,0,0,0,karaoke,{\k42}That {\k39}voice {\k32}is {\k13}tel{\k21}ling {\k54}me
+Comment: 0,0:00:33.55,0:00:36.22,All,,0,0,0,karaoke,{\k41}to {\k40}take {\k44}a {\kf142}stand
+Comment: 0,0:00:36.22,0:00:39.06,All,,0,0,0,karaoke,{\k32}And {\k39}not {\k42}back {\k54}down {\kf117}now
+Comment: 0,0:00:39.44,0:00:41.77,All,,0,0,0,karaoke,{\k32}To{\k30}day {\k32}and {\k20}e{\k27}ver{\kf92}more
+Comment: 0,0:00:41.77,0:00:44.01,All,,0,0,0,karaoke,{\k25}I {\k31}can't {\k40}take {\k26}this {\k15}a{\k25}ny{\k62}more
+Comment: 0,0:00:43.98,0:00:46.45,All,,0,0,0,karaoke,{\k30}I'll {\k41}make {\k39}my {\kf137}choice
+Comment: 0,0:00:46.45,0:00:48.98,All,,0,0,0,karaoke,{\k0} {\k42}for {\k55}good {\k46}or {\k39}e{\k71}vil
+Comment: 0,0:00:49.40,0:00:51.56,All,,0,0,0,karaoke,{\k59}Oh-{\k43}oh-{\kf114}oh
+Comment: 0,0:00:51.66,0:00:54.61,All,,0,0,0,karaoke,{\k0} {\k19}In {\k48}times {\k8}of {\k35}con{\k23}flict {\k44}and {\k32}des{\k31}truc{\k55}tion
+Comment: 0,0:00:54.61,0:00:56.86,All,,0,0,0,karaoke,{\k52}Oh-{\k43}oh-{\kf130}oh
+Comment: 0,0:00:56.86,0:01:00.59,All,,0,0,0,karaoke,{\k31}Our {\k29}des{\k20}ti{\k29}ny {\k26}is {\k50}my {\k19}con{\k19}nec{\k49}tion {\kf101}now
+Comment: 0,0:01:00.72,0:01:03.00,All,,0,0,0,karaoke,{\k15}A {\k51}fee{\k17}ling {\k31}in {\k22}my {\k92}soul
+Comment: 0,0:01:03.00,0:01:04.76,All,,0,0,0,karaoke,{\k37}It's {\k22}bey{\k34}ond {\k24}the {\k27}reach {\k32}of
+Comment: 0,0:01:04.76,0:01:10.05,All,,0,0,0,karaoke,{\k81}most {\k56}mere {\k71}mor{\kf321}tals
+Comment: 0,0:01:07.52,0:01:10.07,Secondaire,,0,0,0,karaoke,{\k70}Most {\k54}mere {\k54}mor{\kf77}tals
+Comment: 0,0:01:10.07,0:01:11.60,All,,0,0,0,karaoke,{\k44}Take {\k30}a {\k79}stand
+Comment: 0,0:01:11.80,0:01:14.51,All,,0,0,0,karaoke,{\k51}So {\k29}re{\k101}mem{\kf90}ber
+Comment: 0,0:01:14.51,0:01:16.85,All,,0,0,0,karaoke,{\k30}No {\k43}sur{\k81}ren{\kf80}der
+Comment: 0,0:01:16.85,0:01:19.85,All,,0,0,0,karaoke,{\k50}My {\k33}de{\k47}fi{\k61}ning {\k42}mo{\k67}ment
+Comment: 0,0:01:20.26,0:01:22.38,All,,0,0,0,karaoke,{\k56}Oh-{\k45}oh-{\k57}oh-{\k54}oh
+Comment: 0,0:01:22.38,0:01:24.81,All,,0,0,0,karaoke,{\k23}I {\k24}will {\kf105}stand {\k91}up
+Comment: 0,0:01:24.81,0:01:27.19,All,,0,0,0,karaoke,{\k34}o{\k22}ver{\k51}come {\k55}my {\k76}past
+Comment: 0,0:01:27.47,0:01:28.81,All,,0,0,0,karaoke,{\k29}To {\k32}see {\k73}this
+Comment: 0,0:01:28.81,0:01:32.67,All,,0,0,0,karaoke,{\k55}through {\k73}to {\k61}the {\kf197}end
+Comment: 0,0:01:32.67,0:01:35.34,All,,0,0,0,karaoke,{\k28}If {\k36}it {\k45}takes {\k49}for{\k57}ev{\k52}er
+Comment: 0,0:01:35.84,0:01:37.98,All,,0,0,0,karaoke,{\k36}No {\k61}sur{\k46}ren{\k71}der
+Comment: 0,0:01:38.44,0:01:40.41,All,,0,0,0,karaoke,{\k45}Now {\k44}or {\k47}ne{\k61}ver
+Comment: 0,0:01:40.86,0:01:43.93,All,,0,0,0,karaoke,{\k58}My {\k56}last {\kf193}stand
+Dialogue: 0,0:00:00.76,0:00:04.02,All,,0,0,0,fx,{\k90\fad(300,200)}{\k59}Oh-{\k42}oh-{\k60}oh-{\k55}oh
+Dialogue: 0,0:00:03.39,0:00:08.27,All,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Oh-{\k53}oh-{\kf292}oh
+Dialogue: 0,0:00:16.49,0:00:21.57,All,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Our {\k44}time {\k32}is {\kf289}now
+Dialogue: 0,0:00:28.20,0:00:31.73,All,,0,0,0,fx,{\k90\fad(300,200)}{\k0} {\k33}I {\k28}feel {\k27}my {\k26}e{\k31}ner{\k98}gy
+Dialogue: 0,0:00:30.64,0:00:33.75,All,,0,0,0,fx,{\k90\fad(300,200)}{\k42}That {\k39}voice {\k32}is {\k13}tel{\k21}ling {\k54}me
+Dialogue: 0,0:00:32.65,0:00:36.42,All,,0,0,0,fx,{\k90\fad(300,200)}{\k41}to {\k40}take {\k44}a {\kf142}stand
+Dialogue: 0,0:00:35.32,0:00:39.26,All,,0,0,0,fx,{\k90\fad(300,200)}{\k32}And {\k39}not {\k42}back {\k54}down {\kf117}now
+Dialogue: 0,0:00:38.54,0:00:41.97,All,,0,0,0,fx,{\k90\fad(300,200)}{\k32}To{\k30}day {\k32}and {\k20}e{\k27}ver{\kf92}more
+Dialogue: 0,0:00:40.87,0:00:44.21,All,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k31}can't {\k40}take {\k26}this {\k15}a{\k25}ny{\k62}more
+Dialogue: 0,0:00:43.08,0:00:46.65,All,,0,0,0,fx,{\k90\fad(300,200)}{\k30}I'll {\k41}make {\k39}my {\kf137}choice
+Dialogue: 0,0:00:45.55,0:00:49.18,All,,0,0,0,fx,{\k90\fad(300,200)}{\k0} {\k42}for {\k55}good {\k46}or {\k39}e{\k71}vil
+Dialogue: 0,0:00:48.50,0:00:51.76,All,,0,0,0,fx,{\k90\fad(300,200)}{\k59}Oh-{\k43}oh-{\kf114}oh
+Dialogue: 0,0:00:50.76,0:00:54.81,All,,0,0,0,fx,{\k90\fad(300,200)}{\k0} {\k19}In {\k48}times {\k8}of {\k35}con{\k23}flict {\k44}and {\k32}des{\k31}truc{\k55}tion
+Dialogue: 0,0:00:53.71,0:00:57.06,All,,0,0,0,fx,{\k90\fad(300,200)}{\k52}Oh-{\k43}oh-{\kf130}oh
+Dialogue: 0,0:00:55.96,0:01:00.79,All,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Our {\k29}des{\k20}ti{\k29}ny {\k26}is {\k50}my {\k19}con{\k19}nec{\k49}tion {\kf101}now
+Dialogue: 0,0:00:59.82,0:01:03.20,All,,0,0,0,fx,{\k90\fad(300,200)}{\k15}A {\k51}fee{\k17}ling {\k31}in {\k22}my {\k92}soul
+Dialogue: 0,0:01:02.10,0:01:04.96,All,,0,0,0,fx,{\k90\fad(300,200)}{\k37}It's {\k22}bey{\k34}ond {\k24}the {\k27}reach {\k32}of
+Dialogue: 0,0:01:03.86,0:01:10.25,All,,0,0,0,fx,{\k90\fad(300,200)}{\k81}most {\k56}mere {\k71}mor{\kf321}tals
+Dialogue: 0,0:01:06.62,0:01:10.27,Secondaire,,0,0,0,fx,{\k90\fad(300,200)}{\k70}Most {\k54}mere {\k54}mor{\kf77}tals
+Dialogue: 0,0:01:09.17,0:01:11.80,All,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Take {\k30}a {\k79}stand
+Dialogue: 0,0:01:10.90,0:01:14.71,All,,0,0,0,fx,{\k90\fad(300,200)}{\k51}So {\k29}re{\k101}mem{\kf90}ber
+Dialogue: 0,0:01:13.61,0:01:17.05,All,,0,0,0,fx,{\k90\fad(300,200)}{\k30}No {\k43}sur{\k81}ren{\kf80}der
+Dialogue: 0,0:01:15.95,0:01:20.05,All,,0,0,0,fx,{\k90\fad(300,200)}{\k50}My {\k33}de{\k47}fi{\k61}ning {\k42}mo{\k67}ment
+Dialogue: 0,0:01:19.36,0:01:22.58,All,,0,0,0,fx,{\k90\fad(300,200)}{\k56}Oh-{\k45}oh-{\k57}oh-{\k54}oh
+Dialogue: 0,0:01:21.48,0:01:25.01,All,,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k24}will {\kf105}stand {\k91}up
+Dialogue: 0,0:01:23.91,0:01:27.39,All,,0,0,0,fx,{\k90\fad(300,200)}{\k34}o{\k22}ver{\k51}come {\k55}my {\k76}past
+Dialogue: 0,0:01:26.57,0:01:29.01,All,,0,0,0,fx,{\k90\fad(300,200)}{\k29}To {\k32}see {\k73}this
+Dialogue: 0,0:01:27.91,0:01:32.87,All,,0,0,0,fx,{\k90\fad(300,200)}{\k55}through {\k73}to {\k61}the {\kf197}end
+Dialogue: 0,0:01:31.77,0:01:35.54,All,,0,0,0,fx,{\k90\fad(300,200)}{\k28}If {\k36}it {\k45}takes {\k49}for{\k57}ev{\k52}er
+Dialogue: 0,0:01:34.94,0:01:38.18,All,,0,0,0,fx,{\k90\fad(300,200)}{\k36}No {\k61}sur{\k46}ren{\k71}der
+Dialogue: 0,0:01:37.54,0:01:40.61,All,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Now {\k44}or {\k47}ne{\k61}ver
+Dialogue: 0,0:01:39.96,0:01:44.13,All,,0,0,0,fx,{\k90\fad(300,200)}{\k58}My {\k56}last {\kf193}stand
