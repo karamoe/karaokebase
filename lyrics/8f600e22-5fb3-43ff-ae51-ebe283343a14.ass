@@ -1,0 +1,149 @@
+﻿[Script Info]
+Title: Ride
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Uwhipa
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Sample KM [Choir],Arial,24,&H001819FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:12.78,0:00:13.82,Sample KM [Up],,0,0,0,karaoke,{\k18}Here {\k17}we {\k18}go {\k17}a{\k34}gain
+Comment: 0,0:00:14.16,0:00:15.87,Sample KM [Up],,0,0,0,karaoke,{\k35}A {\k36}brand {\k34}new {\k66}day
+Comment: 0,0:00:15.54,0:00:17.16,Sample KM [Choir],,0,0,0,karaoke,{\k36}New {\k34}da-{\k35}a-{\k34}a-{\k23}ay
+Comment: 0,0:00:16.92,0:00:18.72,Sample KM [Up],,0,0,0,karaoke,{\k36}My {\k34}mor{\k35}ning {\k34}cof{\k41}fee
+Comment: 0,0:00:19.00,0:00:21.58,Sample KM [Up],,0,0,0,karaoke,{\k34}So {\k34}per{\k35}fect {\k35}I {\k33}can't {\k35}com{\k52}plain
+Comment: 0,0:00:21.75,0:00:22.42,Sample KM [Choir],,0,0,0,karaoke,{\k36}Oh, {\k31}wow
+Comment: 0,0:00:22.42,0:00:24.86,Sample KM [Up],,0,0,0,karaoke,{\k71}Skies {\k13}loo{\k22}king {\k34}clear {\k17}and {\k17}I {\k70}know
+Comment: 0,0:00:25.18,0:00:28.31,Sample KM [Up],,0,0,0,karaoke,{\k20}I'{\k17}ma {\k16}make {\k18}it {\k69}there, {\k70}o{\k34}o{\k34}o{\k35}h
+Comment: 0,0:00:28.65,0:00:30.38,Sample KM [Up],,0,0,0,karaoke,{\k35}E{\k33}me{\k36}rald {\k34}Ci{\k35}ty
+Comment: 0,0:00:30.72,0:00:32.45,Sample KM [Up],,0,0,0,karaoke,{\k34}I'll {\k35}find {\k35}my {\k33}brick {\k36}road
+Comment: 0,0:00:32.74,0:00:33.76,Sample KM [Choir],,0,0,0,karaoke,{\k39}Woah-{\k63}oh
+Comment: 0,0:00:33.82,0:00:36.06,Sample KM [Up],,0,0,0,karaoke,{\k40}Rea{\k33}dy {\k36}stea{\k32}dy {\k83}race
+Comment: 0,0:00:36.52,0:00:38.64,Sample KM [Up],,0,0,0,karaoke,{\k43}Hang {\k33}tight {\k32}on {\k37}the {\k67}reins
+Comment: 0,0:00:39.02,0:00:43.48,Sample KM [Up],,0,0,0,karaoke,{\k30}It's {\k71}time {\k61}to {\k78}have {\k35}some {\kf171}fun
+Comment: 0,0:00:44.51,0:00:47.27,Sample KM [Up],,0,0,0,karaoke,{\k23}It's {\k11}the {\k36}per{\k35}fect {\k69}frame, {\k33}I'm {\k17}fee{\k18}ling {\k34}great
+Comment: 0,0:00:47.62,0:00:53.48,Sample KM [Up],,0,0,0,karaoke,{\k15}Ma{\k13}kin' {\k41}my {\k33}way, {\k36}en{\k34}jo{\k35}ying {\k34}the {\kf345}view
+Comment: 0,0:00:53.48,0:00:55.52,Sample KM [Choir],,0,0,0,karaoke,{\k35}La-{\k19}la-{\k15}la-{\k19}la-{\k16}la-{\k34}la-{\k35}la-{\k31}la
+Comment: 0,0:00:55.54,0:00:59.00,Sample KM [Up],,0,0,0,karaoke,{\k22}Feel {\k14}the {\k34}gen{\k35}tle {\k33}breeze {\k35}with {\k35}eve{\k34}ry {\k34}step {\k35}I {\k35}take
+Comment: 0,0:00:59.35,0:01:03.14,Sample KM [Up],,0,0,0,karaoke,{\k33}Like {\k33}it's {\k37}cal{\k67}ling {\k71}out {\k34}my {\k104}name
+Comment: 0,0:01:04.50,0:01:07.95,Sample KM [Up],,0,0,0,karaoke,{\k36}Life {\k34}is {\k35}the {\k70}wil{\k34}dest {\k136}ridе
+Comment: 0,0:01:06.93,0:01:08.96,Sample KM [Up],,0,0,0,karaoke,{\k35}O{\k34}oh-{\k33}o{\k101}oh
+Comment: 0,0:01:09.69,0:01:12.26,Sample KM [Up],,0,0,0,karaoke,{\k35}O{\k34}oh-{\k33}o{\k36}oh-{\k35}o{\k35}oh-{\k49}ooh
+Comment: 0,0:01:12.44,0:01:15.55,Sample KM [Up],,0,0,0,karaoke,{\k36}O{\k34}oh-{\k33}o{\k69}oh-{\k70}o{\k69}oh
+Comment: 0,0:01:15.55,0:01:17.85,Sample KM [Choir],,0,0,0,karaoke,{\k35}La-{\k19}la-{\k15}la-{\k19}la-{\k16}la-{\k34}la-{\k35}la-{\k57}la
+Comment: 0,0:01:16.87,0:01:19.35,Sample KM [Up],,0,0,0,karaoke,{\k28}Can {\k13}you {\k20}feel {\k14}the {\k34}sun{\k35}shine {\k16}hit{\k18}ting {\k35}just {\k35}right?
+Comment: 0,0:01:19.35,0:01:21.75,Sample KM [Up],,0,0,0,karaoke,{\k34}All {\k35}day {\k34}we {\k34}play, {\k35}no {\k34}rе{\k34}grets
+Comment: 0,0:01:22.10,0:01:24.87,Sample KM [Up],,0,0,0,karaoke,{\k34}Place {\k36}my {\k35}bets, {\k33}just {\k35}let {\k34}the {\k34}chips {\k36}fall
+Comment: 0,0:01:25.20,0:01:27.97,Sample KM [Up],,0,0,0,karaoke,{\k21}If {\k14}it {\k34}rains {\k35}on {\k33}me, {\k21}I'll {\k15}just {\k20}roll {\k14}up {\k34}my {\k36}sleeves
+Comment: 0,0:01:27.97,0:01:30.70,Sample KM [Up],,0,0,0,karaoke,{\k34}We {\k34}on{\k35}ly {\k35}do {\k34}what {\k34}we {\k35}can {\k32}do
+Comment: 0,0:01:30.72,0:01:33.68,Sample KM [Up],,0,0,0,karaoke,{\k35}Some {\k34}days {\k35}we'll {\k34}rest {\k35}and {\k34}just {\k35}hit {\k54}snooze
+Comment: 0,0:01:33.49,0:01:34.37,Sample KM [Choir],,0,0,0,karaoke,{\k34}Hit {\k54}snooze
+Comment: 0,0:01:34.17,0:01:35.62,Sample KM [Up],,0,0,0,karaoke,{\k19}With {\k15}a {\k20}poc{\k15}ket {\k19}full {\k16}of {\k41}dreams
+Comment: 0,0:01:35.90,0:01:39.08,Sample KM [Up],,0,0,0,karaoke,{\k34}We {\k35}can {\k34}touch {\k35}the {\kf180}sky
+Comment: 0,0:01:40.04,0:01:42.29,Sample KM [Up],,0,0,0,karaoke,{\k37}Rea{\k33}dy {\k35}stea{\k37}dy {\k83}race
+Comment: 0,0:01:42.71,0:01:44.83,Sample KM [Up],,0,0,0,karaoke,{\k38}Hang {\k38}tight {\k32}on {\k29}the {\k75}reins
+Comment: 0,0:01:45.23,0:01:49.71,Sample KM [Up],,0,0,0,karaoke,{\k36}And {\k64}let's {\k67}just {\k73}have {\k36}some {\kf172}fun
+Comment: 0,0:01:50.72,0:01:53.48,Sample KM [Up],,0,0,0,karaoke,{\k21}It's {\k11}the {\k38}per{\k34}fect {\k67}frame, {\k36}I'm {\k17}fee{\k17}ling {\k35}great
+Comment: 0,0:01:53.82,0:01:59.68,Sample KM [Up],,0,0,0,karaoke,{\k17}Ma{\k15}kin' {\k36}my {\k36}way, {\k35}en{\k35}joy{\k34}ing {\k34}the {\kf344}view
+Comment: 0,0:01:59.69,0:02:01.94,Sample KM [Choir],,0,0,0,karaoke,{\k35}La-{\k19}la-{\k15}la-{\k19}la-{\k16}la-{\k34}la-{\k35}la-{\k52}la
+Comment: 0,0:02:01.75,0:02:05.20,Sample KM [Up],,0,0,0,karaoke,{\k19}Feel {\k16}the {\k35}gen{\k34}tle {\k34}breeze {\k35}with {\k35}eve{\k34}ry {\k34}step {\k36}I {\k33}take
+Comment: 0,0:02:05.55,0:02:09.65,Sample KM [Up],,0,0,0,karaoke,{\k34}Like {\k30}it's {\k39}cal{\k69}ling {\k70}out {\k35}my {\k133}name
+Comment: 0,0:02:10.72,0:02:14.17,Sample KM [Up],,0,0,0,karaoke,{\k35}Life {\k34}is {\k35}the {\k68}wil{\k34}dest {\k139}ride
+Comment: 0,0:02:13.14,0:02:15.18,Sample KM [Up],,0,0,0,karaoke,{\k35}O{\k34}oh-{\k33}o{\k102}oh
+Comment: 0,0:02:15.90,0:02:18.45,Sample KM [Up],,0,0,0,karaoke,{\k35}O{\k34}oh-{\k33}o{\k36}oh-{\k35}o{\k34}oh-{\k48}ooh
+Comment: 0,0:02:18.66,0:02:22.01,Sample KM [Up],,0,0,0,karaoke,{\k36}O{\k34}oh-{\k33}o{\k69}oh-{\k70}o{\k93}oh
+Comment: 0,0:02:21.76,0:02:24.12,Sample KM [Choir],,0,0,0,karaoke,{\k35}La-{\k19}la-{\k15}la-{\k19}la-{\k16}la-{\k34}la-{\k35}la-{\k63}la
+Comment: 0,0:02:24.16,0:02:26.03,Sample KM [Up],,0,0,0,karaoke,{\k39}When {\k32}the {\k35}sun {\k34}goes {\k47}down
+Comment: 0,0:02:26.27,0:02:28.66,Sample KM [Up],,0,0,0,karaoke,{\k65}And {\k39}stars {\k34}light {\k30}up {\k34}the {\k37}town
+Comment: 0,0:02:29.03,0:02:31.80,Sample KM [Up],,0,0,0,karaoke,{\k66}When {\k37}skies {\k32}a{\k31}bove {\k33}are {\k40}gliste{\k38}ning
+Comment: 0,0:02:32.09,0:02:34.51,Sample KM [Up],,0,0,0,karaoke,{\k37}I {\k33}hope {\k27}that {\k41}you {\k34}are {\k38}liste{\k32}ning
+Comment: 0,0:02:35.20,0:02:37.01,Sample KM [Up],,0,0,0,karaoke,{\k34}Life {\k35}can {\k28}hit {\k34}you {\k50}hard
+Comment: 0,0:02:37.62,0:02:40.01,Sample KM [Up],,0,0,0,karaoke,{\k34}But {\k36}beau{\k33}ty's {\k36}ne{\k33}ver {\k67}far
+Comment: 0,0:02:40.35,0:02:42.93,Sample KM [Up],,0,0,0,karaoke,{\k37}Just {\k52}take {\k17}it {\k33}in, {\k36}don't {\k15}he{\k18}si{\k50}tate
+Comment: 0,0:02:43.47,0:02:45.55,Sample KM [Up],,0,0,0,karaoke,{\k37}Bet{\k30}ter {\k41}days {\k17}a{\k83}wait
+Comment: 0,0:02:45.89,0:02:48.65,Sample KM [Up],,0,0,0,karaoke,{\k21}It's {\k14}the {\k35}per{\k34}fect {\k67}frame, {\k36}I'm {\k17}fee{\k17}ling {\k35}great
+Comment: 0,0:02:49.00,0:02:54.86,Sample KM [Up],,0,0,0,karaoke,{\k17}Ma{\k15}kin' {\k37}my {\k34}way, {\k36}en{\k34}joy{\k34}ing {\k34}the {\kf345}view
+Comment: 0,0:02:54.86,0:02:57.12,Sample KM [Choir],,0,0,0,karaoke,{\k35}La-{\k19}la-{\k15}la-{\k19}la-{\k16}la-{\k34}la-{\k35}la-{\k53}la
+Comment: 0,0:02:56.92,0:03:00.41,Sample KM [Up],,0,0,0,karaoke,{\k19}Feel {\k16}the {\k35}gen{\k34}tle {\k34}breeze {\k35}with {\k35}eve{\k34}ry {\k34}step {\k36}I {\k37}take
+Comment: 0,0:03:00.73,0:03:04.86,Sample KM [Up],,0,0,0,karaoke,{\k34}Like {\k32}it's {\k37}cal{\k69}ling {\k69}out {\k35}my {\k137}name
+Comment: 0,0:03:05.89,0:03:09.63,Sample KM [Up],,0,0,0,karaoke,{\k35}Life {\k34}is {\k35}the {\k68}wil{\k37}dest {\k165}ride
+Comment: 0,0:03:09.69,0:03:12.09,Sample KM [Up],,0,0,0,karaoke,{\kf240}Yeah
+Comment: 0,0:03:12.45,0:03:16.93,Sample KM [Up],,0,0,0,karaoke,{\kf448}Yeah-eh
+Comment: 0,0:03:16.93,0:03:20.56,Sample KM [Choir],,0,0,0,karaoke,{\k35}La-{\k19}la-{\k14}la-{\k19}la-{\k17}la-{\k34}la-{\k35}la-{\k33}la-{\k36}la-{\k121}la
+Comment: 0,0:03:20.72,0:03:23.14,Sample KM [Up],,0,0,0,karaoke,{\kf242}Yeah
+Comment: 0,0:03:23.43,0:03:27.94,Sample KM [Up],,0,0,0,karaoke,{\kf451}Yeah-eh
+Comment: 0,0:03:27.96,0:03:31.61,Sample KM [Up],,0,0,0,karaoke,{\k35}La-{\k19}la-{\k15}la-{\k18}la-{\k17}la-{\k34}la-{\k35}la-{\k35}la-{\k34}la-{\k123}la
+Dialogue: 0,0:00:11.88,0:00:14.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Here {\k17}we {\k18}go {\k17}a{\k34}gain
+Dialogue: 0,0:00:13.26,0:00:16.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}A {\k36}brand {\k34}new {\k66}day
+Dialogue: 0,0:00:14.64,0:00:17.36,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k36}New {\k34}da-{\k35}a-{\k34}a-{\k23}ay
+Dialogue: 0,0:00:16.02,0:00:18.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}My {\k34}mor{\k35}ning {\k34}cof{\k41}fee
+Dialogue: 0,0:00:18.10,0:00:21.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}So {\k34}per{\k35}fect {\k35}I {\k33}can't {\k35}com{\k52}plain
+Dialogue: 0,0:00:20.85,0:00:22.62,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Oh, {\k31}wow
+Dialogue: 0,0:00:21.52,0:00:25.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k71}Skies {\k13}loo{\k22}king {\k34}clear {\k17}and {\k17}I {\k70}know
+Dialogue: 0,0:00:24.28,0:00:28.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}I'{\k17}ma {\k16}make {\k18}it {\k69}there, {\k70}o{\k34}o{\k34}o{\k35}h
+Dialogue: 0,0:00:27.75,0:00:30.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}E{\k33}me{\k36}rald {\k34}Ci{\k35}ty
+Dialogue: 0,0:00:29.82,0:00:32.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}I'll {\k35}find {\k35}my {\k33}brick {\k36}road
+Dialogue: 0,0:00:31.84,0:00:33.96,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Woah-{\k63}oh
+Dialogue: 0,0:00:32.92,0:00:36.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Rea{\k33}dy {\k36}stea{\k32}dy {\k83}race
+Dialogue: 0,0:00:35.62,0:00:38.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Hang {\k33}tight {\k32}on {\k37}the {\k67}reins
+Dialogue: 0,0:00:38.12,0:00:43.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}It's {\k71}time {\k61}to {\k78}have {\k35}some {\kf171}fun
+Dialogue: 0,0:00:43.61,0:00:47.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}It's {\k11}the {\k36}per{\k35}fect {\k69}frame, {\k33}I'm {\k17}fee{\k18}ling {\k34}great
+Dialogue: 0,0:00:46.72,0:00:53.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Ma{\k13}kin' {\k41}my {\k33}way, {\k36}en{\k34}jo{\k35}ying {\k34}the {\kf345}view
+Dialogue: 0,0:00:52.58,0:00:55.72,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k35}La-{\k19}la-{\k15}la-{\k19}la-{\k16}la-{\k34}la-{\k35}la-{\k31}la
+Dialogue: 0,0:00:54.64,0:00:59.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Feel {\k14}the {\k34}gen{\k35}tle {\k33}breeze {\k35}with {\k35}eve{\k34}ry {\k34}step {\k35}I {\k35}take
+Dialogue: 0,0:00:58.45,0:01:03.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Like {\k33}it's {\k37}cal{\k67}ling {\k71}out {\k34}my {\k104}name
+Dialogue: 0,0:01:03.60,0:01:08.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Life {\k34}is {\k35}the {\k70}wil{\k34}dest {\k136}ridе
+Dialogue: 0,0:01:06.03,0:01:09.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}O{\k34}oh-{\k33}o{\k101}oh
+Dialogue: 0,0:01:08.79,0:01:12.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}O{\k34}oh-{\k33}o{\k36}oh-{\k35}o{\k35}oh-{\k49}ooh
+Dialogue: 0,0:01:11.54,0:01:15.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}O{\k34}oh-{\k33}o{\k69}oh-{\k70}o{\k69}oh
+Dialogue: 0,0:01:14.65,0:01:18.05,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k35}La-{\k19}la-{\k15}la-{\k19}la-{\k16}la-{\k34}la-{\k35}la-{\k57}la
+Dialogue: 0,0:01:15.97,0:01:19.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Can {\k13}you {\k20}feel {\k14}the {\k34}sun{\k35}shine {\k16}hit{\k18}ting {\k35}just {\k35}right?
+Dialogue: 0,0:01:18.45,0:01:21.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}All {\k35}day {\k34}we {\k34}play, {\k35}no {\k34}rе{\k34}grets
+Dialogue: 0,0:01:21.20,0:01:25.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Place {\k36}my {\k35}bets, {\k33}just {\k35}let {\k34}the {\k34}chips {\k36}fall
+Dialogue: 0,0:01:24.30,0:01:28.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}If {\k14}it {\k34}rains {\k35}on {\k33}me, {\k21}I'll {\k15}just {\k20}roll {\k14}up {\k34}my {\k36}sleeves
+Dialogue: 0,0:01:27.07,0:01:30.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}We {\k34}on{\k35}ly {\k35}do {\k34}what {\k34}we {\k35}can {\k32}do
+Dialogue: 0,0:01:29.82,0:01:33.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Some {\k34}days {\k35}we'll {\k34}rest {\k35}and {\k34}just {\k35}hit {\k54}snooze
+Dialogue: 0,0:01:32.59,0:01:34.57,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Hit {\k54}snooze
+Dialogue: 0,0:01:33.27,0:01:35.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}With {\k15}a {\k20}poc{\k15}ket {\k19}full {\k16}of {\k41}dreams
+Dialogue: 0,0:01:35.00,0:01:39.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}We {\k35}can {\k34}touch {\k35}the {\kf180}sky
+Dialogue: 0,0:01:39.14,0:01:42.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Rea{\k33}dy {\k35}stea{\k37}dy {\k83}race
+Dialogue: 0,0:01:41.81,0:01:45.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Hang {\k38}tight {\k32}on {\k29}the {\k75}reins
+Dialogue: 0,0:01:44.33,0:01:49.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}And {\k64}let's {\k67}just {\k73}have {\k36}some {\kf172}fun
+Dialogue: 0,0:01:49.82,0:01:53.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}It's {\k11}the {\k38}per{\k34}fect {\k67}frame, {\k36}I'm {\k17}fee{\k17}ling {\k35}great
+Dialogue: 0,0:01:52.92,0:01:59.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Ma{\k15}kin' {\k36}my {\k36}way, {\k35}en{\k35}joy{\k34}ing {\k34}the {\kf344}view
+Dialogue: 0,0:01:58.79,0:02:02.14,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k35}La-{\k19}la-{\k15}la-{\k19}la-{\k16}la-{\k34}la-{\k35}la-{\k52}la
+Dialogue: 0,0:02:00.85,0:02:05.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Feel {\k16}the {\k35}gen{\k34}tle {\k34}breeze {\k35}with {\k35}eve{\k34}ry {\k34}step {\k36}I {\k33}take
+Dialogue: 0,0:02:04.65,0:02:09.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Like {\k30}it's {\k39}cal{\k69}ling {\k70}out {\k35}my {\k133}name
+Dialogue: 0,0:02:09.82,0:02:14.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Life {\k34}is {\k35}the {\k68}wil{\k34}dest {\k139}ride
+Dialogue: 0,0:02:12.24,0:02:15.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}O{\k34}oh-{\k33}o{\k102}oh
+Dialogue: 0,0:02:15.00,0:02:18.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}O{\k34}oh-{\k33}o{\k36}oh-{\k35}o{\k34}oh-{\k48}ooh
+Dialogue: 0,0:02:17.76,0:02:22.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}O{\k34}oh-{\k33}o{\k69}oh-{\k70}o{\k93}oh
+Dialogue: 0,0:02:20.86,0:02:24.32,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k35}La-{\k19}la-{\k15}la-{\k19}la-{\k16}la-{\k34}la-{\k35}la-{\k63}la
+Dialogue: 0,0:02:23.26,0:02:26.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}When {\k32}the {\k35}sun {\k34}goes {\k47}down
+Dialogue: 0,0:02:25.37,0:02:28.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k65}And {\k39}stars {\k34}light {\k30}up {\k34}the {\k37}town
+Dialogue: 0,0:02:28.13,0:02:32.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k66}When {\k37}skies {\k32}a{\k31}bove {\k33}are {\k40}gliste{\k38}ning
+Dialogue: 0,0:02:31.19,0:02:34.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}I {\k33}hope {\k27}that {\k41}you {\k34}are {\k38}liste{\k32}ning
+Dialogue: 0,0:02:34.30,0:02:37.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Life {\k35}can {\k28}hit {\k34}you {\k50}hard
+Dialogue: 0,0:02:36.72,0:02:40.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}But {\k36}beau{\k33}ty's {\k36}ne{\k33}ver {\k67}far
+Dialogue: 0,0:02:39.45,0:02:43.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Just {\k52}take {\k17}it {\k33}in, {\k36}don't {\k15}he{\k18}si{\k50}tate
+Dialogue: 0,0:02:42.57,0:02:45.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Bet{\k30}ter {\k41}days {\k17}a{\k83}wait
+Dialogue: 0,0:02:44.99,0:02:48.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}It's {\k14}the {\k35}per{\k34}fect {\k67}frame, {\k36}I'm {\k17}fee{\k17}ling {\k35}great
+Dialogue: 0,0:02:48.10,0:02:55.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Ma{\k15}kin' {\k37}my {\k34}way, {\k36}en{\k34}joy{\k34}ing {\k34}the {\kf345}view
+Dialogue: 0,0:02:53.96,0:02:57.32,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k35}La-{\k19}la-{\k15}la-{\k19}la-{\k16}la-{\k34}la-{\k35}la-{\k53}la
+Dialogue: 0,0:02:56.02,0:03:00.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Feel {\k16}the {\k35}gen{\k34}tle {\k34}breeze {\k35}with {\k35}eve{\k34}ry {\k34}step {\k36}I {\k37}take
+Dialogue: 0,0:02:59.83,0:03:05.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Like {\k32}it's {\k37}cal{\k69}ling {\k69}out {\k35}my {\k137}name
+Dialogue: 0,0:03:04.99,0:03:09.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Life {\k34}is {\k35}the {\k68}wil{\k37}dest {\k165}ride
+Dialogue: 0,0:03:08.79,0:03:12.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf240}Yeah
+Dialogue: 0,0:03:11.55,0:03:17.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf448}Yeah-eh
+Dialogue: 0,0:03:16.03,0:03:20.76,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k35}La-{\k19}la-{\k14}la-{\k19}la-{\k17}la-{\k34}la-{\k35}la-{\k33}la-{\k36}la-{\k121}la
+Dialogue: 0,0:03:19.82,0:03:23.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf242}Yeah
+Dialogue: 0,0:03:22.53,0:03:28.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf451}Yeah-eh
+Dialogue: 0,0:03:27.06,0:03:31.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}La-{\k19}la-{\k15}la-{\k18}la-{\k17}la-{\k34}la-{\k35}la-{\k35}la-{\k34}la-{\k123}la
