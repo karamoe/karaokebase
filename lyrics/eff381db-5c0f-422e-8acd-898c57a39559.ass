@@ -1,0 +1,80 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Title: KARMA
+Original Timing: natsumi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sua,Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mizi,Arial,24,&H00FFFFFF,&H00BB65FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Both,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Color Code,Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,10,10,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:29.36,0:00:36.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:20.16,0:00:30.16,Color Code,,0,0,0,karaoke,{\c&HFFB858&}Sua{\c} - {\c&HBB65FF&}Mizi{\c} - {\c&H008AFF&}Both
+Comment: 0,0:00:29.41,0:00:35.84,Sua,,0,0,0,karaoke,{\kf127}Toi,{\k128} {\k43}toi {\k34}et {\k45}moi {\k39}ré{\k36}u{\kf191}nies
+Comment: 0,0:00:37.55,0:00:44.29,Sua,,0,0,0,karaoke,{\k61}Sous {\kf145}terre{\k130} {\k31}deux {\k23}é{\k35}toi{\k15}les {\k32}en{\k37}se{\k56}ve{\kf109}lies
+Comment: 0,0:00:46.22,0:00:53.68,Sua,,0,0,0,karaoke,{\k63}S’é{\kf170}ga{\k21}rent{\k88} {\k30}au-{\k32}de{\k39}là {\k35}des {\k32}fron{\k13}ti{\k88}ères {\kf135}floues
+Comment: 0,0:00:55.10,0:01:03.34,Sua,,0,0,0,karaoke,{\k31}Rien {\k21}que {\k61}toi, {\k75}moi{\k67} {\kf134}rien{\k40} {\k62}que {\kf333}nous
+Comment: 0,0:01:04.39,0:01:10.63,Mizi,,0,0,0,karaoke,{\kf157}Toi,{\k99} {\k56}toi {\k20}et {\k42}moi {\k37}ré{\k37}u{\kf176}nies
+Comment: 0,0:01:12.29,0:01:18.70,Mizi,,0,0,0,karaoke,{\k54}Loin {\k31}sous {\kf142}terre{\k105} {\k55}deux {\k26}é{\k26}toi{\k19}les {\k39}qui {\k30}s’il{\k50}lu{\k64}minent
+Comment: 0,0:01:21.58,0:01:29.18,Mizi,,0,0,0,karaoke,{\k30}S’é{\kf115}chap{\k28}pent{\k105} {\k57}au-{\k27}de{\k42}là {\k31}des {\k31}fron{\k14}ti{\kf142}ères{\k33} {\k28}si {\k77}floues
+Comment: 0,0:01:29.99,0:01:37.86,Mizi,,0,0,0,karaoke,{\k36}Rien {\k20}que {\kf129}toi,{\k95} {\k90}moi{\k62} {\k64}rien {\k58}que {\kf233}nous
+Comment: 0,0:01:38.21,0:01:42.02,Mizi,,0,0,0,karaoke,{\k61}La {\k50}nuit {\kf115}tombe,{\k24} {\k51}la {\k30}pé{\k42}nom{\k8}bre
+Comment: 0,0:01:42.32,0:01:46.52,Mizi,,0,0,0,karaoke,{\k9}Nous {\k20}é{\k48}treint {\k34}dans {\k25}le {\k43}si{\kf241}lence
+Comment: 0,0:01:47.22,0:01:50.59,Mizi,,0,0,0,karaoke,{\k57}Mais {\k25}mon {\kf132}cœur,{\k7} {\k54}près {\k22}du {\k40}tien
+Comment: 0,0:01:51.05,0:01:54.38,Mizi,,0,0,0,karaoke,{\k16}Se {\k11}ré{\k53}chauffe {\k30}comme {\k25}en {\k31}plein {\kf167}jour
+Comment: 0,0:01:56.23,0:01:58.05,Mizi,,0,0,0,karaoke,{\k30}Dans {\k25}tes {\kf127}bras
+Comment: 0,0:01:58.16,0:02:04.36,Mizi,,0,0,0,karaoke,{\k50}Em{\k30}por{\k42}tée {\k37}par {\k32}le {\k38}vent {\k40}jus{\k31}qu’à {\k77}la {\k88}fin {\k52}des {\kf103}temps
+Comment: 0,0:02:04.62,0:02:10.85,Mizi,,0,0,0,karaoke,{\k31}Tant {\k29}que {\k24}je {\k84}suis {\k64}près{\k73} {\k79}de {\k74}toi, {\k68}cet {\k55}a{\k42}mour
+Comment: 0,0:03:22.94,0:03:26.80,Both,,0,0,0,karaoke,{\k60}La {\k47}nuit {\kf145}tombe, {\k50}la {\k30}pé{\k41}nom{\k13}bre
+Comment: 0,0:03:27.04,0:03:31.03,Both,,0,0,0,karaoke,{\k8}Nous {\k18}é{\k55}treint {\k31}dans {\k27}le {\k47}si{\kf213}lence
+Comment: 0,0:03:31.97,0:03:35.33,Both,,0,0,0,karaoke,{\k59}Mais {\k24}mon {\kf106}cœur,{\k31} {\k49}près {\k24}du {\k43}tien
+Comment: 0,0:03:35.76,0:03:38.86,Both,,0,0,0,karaoke,{\k18}Se {\k12}ré{\k45}chauffe {\k38}comme {\k25}en {\k28}plein {\kf144}jour
+Comment: 0,0:03:40.96,0:03:42.67,Both,,0,0,0,karaoke,{\k24}Dans {\k26}tes {\kf121}bras
+Comment: 0,0:03:42.89,0:03:49.10,Both,,0,0,0,karaoke,{\k51}Em{\k31}por{\k42}tée {\k38}par {\k28}le {\k38}vent {\k44}jus{\k28}qu’à {\k75}la {\k87}fin {\k49}des {\kf110}temps
+Comment: 0,0:03:49.41,0:03:55.53,Both,,0,0,0,karaoke,{\k32}Tant {\k24}que {\k18}je {\k92}suis {\k92}près{\k37} {\k83}de {\k76}toi, {\k63}cet {\k58}a{\k37}mour
+Comment: 0,0:04:32.84,0:04:36.70,Both,,0,0,0,karaoke,{\k50}La {\k49}nuit {\kf142}tombe, {\k54}la {\k28}pé{\k49}nom{\k14}bre
+Comment: 0,0:04:36.87,0:04:41.23,Both,,0,0,0,karaoke,{\k7}Nous {\k14}é{\k51}treint {\k39}dans {\k27}le {\k44}si{\kf254}lence
+Comment: 0,0:04:41.78,0:04:45.11,Both,,0,0,0,karaoke,{\k57}Mais {\k23}mon {\kf109}cœur,{\k31} {\k47}près {\k25}du {\k41}tien
+Comment: 0,0:04:45.60,0:04:49.09,Both,,0,0,0,karaoke,{\k14}Se {\k12}ré{\k45}chauffe {\k40}comme {\k27}en {\k25}plein {\kf186}jour
+Comment: 0,0:04:50.77,0:04:52.48,Both,,0,0,0,karaoke,{\k30}Dans {\k27}tes {\kf114}bras
+Comment: 0,0:04:52.71,0:04:59.02,Both,,0,0,0,karaoke,{\k49}Em{\k32}por{\k41}tée {\k40}par {\k28}le {\k35}vent {\k45}jus{\k29}qu’à {\k81}la {\k84}fin {\k53}des {\kf114}temps
+Comment: 0,0:04:59.17,0:05:05.61,Both,,0,0,0,karaoke,{\k35}Tant {\k22}que {\k28}je {\k88}suis {\k64}près{\k69} {\k81}de {\k73}toi, {\k65}cet {\k56}a{\k63}mour
+Dialogue: 0,0:00:19.26,0:00:30.36,Color Code,,0,0,0,fx,{\k90\fad(300,200)}{\c&HFFB858&}Sua{\c} - {\c&HBB65FF&}Mizi{\c} - {\c&H008AFF&}Both
+Dialogue: 0,0:00:28.51,0:00:36.04,Sua,,0,0,0,fx,{\k90\fad(300,200)}{\kf127}Toi,{\k128} {\k43}toi {\k34}et {\k45}moi {\k39}ré{\k36}u{\kf191}nies
+Dialogue: 0,0:00:36.65,0:00:44.49,Sua,,0,0,0,fx,{\k90\fad(300,200)}{\k61}Sous {\kf145}terre{\k130} {\k31}deux {\k23}é{\k35}toi{\k15}les {\k32}en{\k37}se{\k56}ve{\kf109}lies
+Dialogue: 0,0:00:45.32,0:00:53.88,Sua,,0,0,0,fx,{\k90\fad(300,200)}{\k63}S’é{\kf170}ga{\k21}rent{\k88} {\k30}au-{\k32}de{\k39}là {\k35}des {\k32}fron{\k13}ti{\k88}ères {\kf135}floues
+Dialogue: 0,0:00:54.20,0:01:03.54,Sua,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Rien {\k21}que {\k61}toi, {\k75}moi{\k67} {\kf134}rien{\k40} {\k62}que {\kf333}nous
+Dialogue: 0,0:01:03.49,0:01:10.83,Mizi,,0,0,0,fx,{\k90\fad(300,200)}{\kf157}Toi,{\k99} {\k56}toi {\k20}et {\k42}moi {\k37}ré{\k37}u{\kf176}nies
+Dialogue: 0,0:01:11.39,0:01:18.90,Mizi,,0,0,0,fx,{\k90\fad(300,200)}{\k54}Loin {\k31}sous {\kf142}terre{\k105} {\k55}deux {\k26}é{\k26}toi{\k19}les {\k39}qui {\k30}s’il{\k50}lu{\k64}minent
+Dialogue: 0,0:01:20.68,0:01:29.38,Mizi,,0,0,0,fx,{\k90\fad(300,200)}{\k30}S’é{\kf115}chap{\k28}pent{\k105} {\k57}au-{\k27}de{\k42}là {\k31}des {\k31}fron{\k14}ti{\kf142}ères{\k33} {\k28}si {\k77}floues
+Dialogue: 0,0:01:29.09,0:01:38.06,Mizi,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Rien {\k20}que {\kf129}toi,{\k95} {\k90}moi{\k62} {\k64}rien {\k58}que {\kf233}nous
+Dialogue: 0,0:01:37.31,0:01:42.22,Mizi,,0,0,0,fx,{\k90\fad(300,200)}{\k61}La {\k50}nuit {\kf115}tombe,{\k24} {\k51}la {\k30}pé{\k42}nom{\k8}bre
+Dialogue: 0,0:01:41.42,0:01:46.72,Mizi,,0,0,0,fx,{\k90\fad(300,200)}{\k9}Nous {\k20}é{\k48}treint {\k34}dans {\k25}le {\k43}si{\kf241}lence
+Dialogue: 0,0:01:46.32,0:01:50.79,Mizi,,0,0,0,fx,{\k90\fad(300,200)}{\k57}Mais {\k25}mon {\kf132}cœur,{\k7} {\k54}près {\k22}du {\k40}tien
+Dialogue: 0,0:01:50.15,0:01:54.58,Mizi,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Se {\k11}ré{\k53}chauffe {\k30}comme {\k25}en {\k31}plein {\kf167}jour
+Dialogue: 0,0:01:55.33,0:01:58.25,Mizi,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Dans {\k25}tes {\kf127}bras
+Dialogue: 0,0:01:57.26,0:02:04.56,Mizi,,0,0,0,fx,{\k90\fad(300,200)}{\k50}Em{\k30}por{\k42}tée {\k37}par {\k32}le {\k38}vent {\k40}jus{\k31}qu’à {\k77}la {\k88}fin {\k52}des {\kf103}temps
+Dialogue: 0,0:02:03.72,0:02:11.05,Mizi,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Tant {\k29}que {\k24}je {\k84}suis {\k64}près{\k73} {\k79}de {\k74}toi, {\k68}cet {\k55}a{\k42}mour
+Dialogue: 0,0:03:22.04,0:03:27.00,Both,,0,0,0,fx,{\k90\fad(300,200)}{\k60}La {\k47}nuit {\kf145}tombe, {\k50}la {\k30}pé{\k41}nom{\k13}bre
+Dialogue: 0,0:03:26.14,0:03:31.23,Both,,0,0,0,fx,{\k90\fad(300,200)}{\k8}Nous {\k18}é{\k55}treint {\k31}dans {\k27}le {\k47}si{\kf213}lence
+Dialogue: 0,0:03:31.07,0:03:35.53,Both,,0,0,0,fx,{\k90\fad(300,200)}{\k59}Mais {\k24}mon {\kf106}cœur,{\k31} {\k49}près {\k24}du {\k43}tien
+Dialogue: 0,0:03:34.86,0:03:39.06,Both,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Se {\k12}ré{\k45}chauffe {\k38}comme {\k25}en {\k28}plein {\kf144}jour
+Dialogue: 0,0:03:40.06,0:03:42.87,Both,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Dans {\k26}tes {\kf121}bras
+Dialogue: 0,0:03:41.99,0:03:49.30,Both,,0,0,0,fx,{\k90\fad(300,200)}{\k51}Em{\k31}por{\k42}tée {\k38}par {\k28}le {\k38}vent {\k44}jus{\k28}qu’à {\k75}la {\k87}fin {\k49}des {\kf110}temps
+Dialogue: 0,0:03:48.51,0:03:55.73,Both,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Tant {\k24}que {\k18}je {\k92}suis {\k92}près{\k37} {\k83}de {\k76}toi, {\k63}cet {\k58}a{\k37}mour
+Dialogue: 0,0:04:31.94,0:04:36.90,Both,,0,0,0,fx,{\k90\fad(300,200)}{\k50}La {\k49}nuit {\kf142}tombe, {\k54}la {\k28}pé{\k49}nom{\k14}bre
+Dialogue: 0,0:04:35.97,0:04:41.43,Both,,0,0,0,fx,{\k90\fad(300,200)}{\k7}Nous {\k14}é{\k51}treint {\k39}dans {\k27}le {\k44}si{\kf254}lence
+Dialogue: 0,0:04:40.88,0:04:45.31,Both,,0,0,0,fx,{\k90\fad(300,200)}{\k57}Mais {\k23}mon {\kf109}cœur,{\k31} {\k47}près {\k25}du {\k41}tien
+Dialogue: 0,0:04:44.70,0:04:49.29,Both,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Se {\k12}ré{\k45}chauffe {\k40}comme {\k27}en {\k25}plein {\kf186}jour
+Dialogue: 0,0:04:49.87,0:04:52.68,Both,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Dans {\k27}tes {\kf114}bras
+Dialogue: 0,0:04:51.81,0:04:59.22,Both,,0,0,0,fx,{\k90\fad(300,200)}{\k49}Em{\k32}por{\k41}tée {\k40}par {\k28}le {\k35}vent {\k45}jus{\k29}qu’à {\k81}la {\k84}fin {\k53}des {\kf114}temps
+Dialogue: 0,0:04:58.27,0:05:05.81,Both,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Tant {\k22}que {\k28}je {\k88}suis {\k64}près{\k69} {\k81}de {\k73}toi, {\k65}cet {\k56}a{\k63}mour
