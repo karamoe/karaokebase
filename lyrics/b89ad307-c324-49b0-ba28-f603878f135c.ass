@@ -1,0 +1,196 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Title: 1&Only
+Original Timing: ono3000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,60,1
+Style: Korean,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: English,Arial,24,&H00FFFFFF,&H00FFC124,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: EnglishChoir,Arial,24,&H00FFFFFF,&H00FFC124,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&HFFC124&}English {\c}| {\c&H008AFF&}Korean
+Comment: 0,0:00:09.19,0:00:09.94,English,,0,0,0,karaoke,{\k23}Yeah, {\k52}yeah
+Comment: 0,0:00:10.30,0:00:11.87,English,,0,0,0,karaoke,{\k54}I {\k53}need {\k50}ya
+Comment: 0,0:00:11.92,0:00:12.99,English,,0,0,0,karaoke,{\k17}Ba{\k11}by {\k13}{\rKorean}neo{\k11}reul {\k26}wi{\k29}hae
+Comment: 0,0:00:12.99,0:00:14.34,Korean,,0,0,0,karaoke,{\k13}bul{\k13}ta'{\k15}o{\k12}reun {\k26}sun'{\k56}gan
+Comment: 0,0:00:14.60,0:00:17.29,English,,0,0,0,karaoke,{\k53}Can’t {\k51}wait {\k54}for {\k30}too {\k24}much {\k27}lon{\k30}ger
+Comment: 0,0:00:17.29,0:00:18.75,English,,0,0,0,karaoke,{\k14}Ba{\k15}by {\k11}I’m {\k11}a {\k26}lo{\k69}ver
+Comment: 0,0:00:18.88,0:00:21.01,English,,0,0,0,karaoke,{\k81}Ooh, {\k25}{\rKorean}neu{\k27}kkyeo{\k25}jyeo {\k28}{\rEnglish}heart {\k27}beat
+Comment: 0,0:00:21.01,0:00:23.80,English,,0,0,0,karaoke,{\k33}'Cause {\k21}I {\k27}know {\k27}you’re {\k27}the {\kf144}one
+Comment: 0,0:00:23.95,0:00:27.72,English,,0,0,0,karaoke,{\k28}So {\k27}let {\k26}me {\k25}know {\k30}what {\k26}you {\k55}wan{\k26}na {\kf134}do
+Comment: 0,0:00:27.94,0:00:32.48,English,,0,0,0,karaoke,{\k58}Float {\k53}a{\k79}way {\k28}so {\k26}high {\k28}up {\k28}in {\k20}the {\kf134}clouds
+Comment: 0,0:00:32.53,0:00:35.20,English,,0,0,0,karaoke,{\k23}We’re {\k30}in {\k25}the {\kf119}clouds {\k70}now
+Comment: 0,0:00:35.77,0:00:37.67,English,,0,0,0,karaoke,{\k78}Hmm, {\k27}on{\k26}ly, {\k26}on{\k33}ly
+Comment: 0,0:00:37.67,0:00:40.31,English,,0,0,0,karaoke,{\k24}I’m {\k14}try{\k9}na {\k29}be {\k26}your {\k27}one {\k26}and {\k27}on{\k28}ly {\k29}call {\k25}me
+Comment: 0,0:00:40.57,0:00:42.04,English,,0,0,0,karaoke,{\k25}So {\k32}call {\k21}me, {\k29}call {\k40}me
+Comment: 0,0:00:42.22,0:00:44.31,English,,0,0,0,karaoke,{\k11}Whe{\k12}ne{\k26}ver {\k26}you’re {\k28}fee{\k25}ling {\k27}lone{\k54}ly
+Comment: 0,0:00:44.31,0:00:46.41,Korean,,0,0,0,karaoke,{\k27}ga{\k31}kka{\k23}i {\k27}{\rEnglish}time {\k14}to {\k13}fi{\k26}es{\k49}ta
+Comment: 0,0:00:46.50,0:00:49.41,Korean,,0,0,0,karaoke,{\k23}neu{\k27}kkyeo{\k27}bwa {\k26}{\rEnglish}when {\k15}I {\k12}ca{\k28}ress {\k26}your {\k53}bo{\k54}dy
+Comment: 0,0:00:49.41,0:00:50.64,English,,0,0,0,karaoke,{\k27}Move {\k13}to {\k13}the {\k35}rhy{\k35}thm
+Comment: 0,0:00:50.45,0:00:51.71,EnglishChoir,,0,0,0,karaoke,{\k57}Bo{\k69}dy
+Comment: 0,0:00:51.04,0:00:52.80,English,,0,0,0,karaoke,{\k28}Move {\k24}your {\k24}feet {\k16}to {\k13}the {\k26}rhy{\k45}thm
+Comment: 0,0:00:52.63,0:00:54.73,English,,0,0,0,karaoke,{\k18}Gim{\k12}me {\k11}e{\k11}ner{\k83}gy, {\k12}e{\k14}ner{\k49}gy
+Comment: 0,0:00:53.42,0:00:55.06,EnglishChoir,,0,0,0,karaoke,{\k11}E{\k16}ner{\k81}gy {\k11}e{\k15}ner{\k30}gy
+Comment: 0,0:00:55.06,0:00:56.93,English,,0,0,0,karaoke,{\k12}What {\k12}you {\k54}say? {\k26}Bombs {\k15}and {\k11}a{\k57}way
+Comment: 0,0:00:55.56,0:00:57.41,EnglishChoir,,0,0,0,karaoke,{\k12}What {\k12}you {\k54}say? {\k26}Bombs {\k15}and {\k11}a{\k57}way
+Comment: 0,0:00:56.93,0:00:59.14,English,,0,0,0,karaoke,{\k12}Bur{\k15}ning {\k13}in {\k12}your {\k28}heart {\rKorean}{\k23}but{\k17}ja{\k12}ba {\k15}dal{\k11}lyeo {\k63}nan
+Comment: 0,0:00:59.36,0:01:01.19,English,,0,0,0,karaoke,{\k23}No {\k30}lies, {\k10}Im{\k14}ma {\k13}give {\k13}it {\k13}to {\k12}you {\k55}straight
+Comment: 0,0:01:01.20,0:01:03.30,English,,0,0,0,karaoke,{\k18}Gim{\k12}me {\k11}e{\k11}ner{\k83}gy, {\k12}e{\k14}ner{\k49}gy
+Comment: 0,0:01:01.99,0:01:03.63,EnglishChoir,,0,0,0,karaoke,{\k11}E{\k16}ner{\k81}gy {\k11}e{\k15}ner{\k30}gy
+Comment: 0,0:01:03.63,0:01:05.50,English,,0,0,0,karaoke,{\k12}What {\k12}you {\k54}say? {\k26}Bombs {\k15}and {\k11}a{\k57}way
+Comment: 0,0:01:04.13,0:01:05.98,EnglishChoir,,0,0,0,karaoke,{\k12}What {\k12}you {\k54}say? {\k26}Bombs {\k15}and {\k11}a{\k57}way
+Comment: 0,0:01:05.21,0:01:08.12,English,,0,0,0,karaoke,{\k28}It {\k25}does{\k27}n’t {\k27}e{\k27}ven {\k29}mat{\k24}ter {\k25}as {\k55}long {\k24}as
+Comment: 0,0:01:08.17,0:01:11.37,English,,0,0,0,karaoke,{\k25}We {\k26}keep {\k32}tur{\k24}ning {\k26}it {\kf187}up
+Comment: 0,0:01:11.29,0:01:13.25,English,,0,0,0,karaoke,{\k21}Ha-{\k63}ha, {\k17}we {\k15}fin{\k11}na {\k16}turn {\k9}it {\k44}up
+Comment: 0,0:01:13.25,0:01:15.14,English,,0,0,0,karaoke,{\k53}Ah, {\k16}Mo{\k11}na {\k27}Li{\k26}sa, {\k26}Li{\k30}sa
+Comment: 0,0:01:15.14,0:01:16.76,English,,0,0,0,karaoke,{\k15}Call {\k12}me {\k13}pa{\k12}pi {\k15}chu{\k12}lo, {\k13}ma{\k13}ma{\k27}ci{\k30}ta
+Comment: 0,0:01:16.76,0:01:19.55,English,,0,0,0,karaoke,{\k16}Mi{\k22}xing {\k12}you {\k28}up {\k13}like {\k14}I’m {\k16}ser{\k10}ving {\k14}mar{\k13}ga{\k26}ri{\k95}tas
+Comment: 0,0:01:19.66,0:01:21.80,English,,0,0,0,karaoke,{\k27}Muy {\k27}fine {\k16}si {\k12}bo{\k24}ni{\k24}ta {\k32}chi{\k52}ca
+Comment: 0,0:01:21.83,0:01:23.96,Korean,,0,0,0,karaoke,{\k11}i{\k15}rweo{\k25}jul{\k27}ge {\k26}weon{\k16}hae{\k13}tteon {\k26}mo{\k27}deun'{\k27}geot
+Comment: 0,0:01:23.96,0:01:26.13,Korean,,0,0,0,karaoke,{\k15}gu{\k12}reu{\k27}mwi{\k26}ro {\k28}ol{\k12}la{\k13}ga {\k27}{\rEnglish}take {\k26}you {\k31}go
+Comment: 0,0:01:26.13,0:01:29.07,English,,0,0,0,karaoke,{\k13}Ba{\k10}by, {\k26}you {\k29}so {\k24}fine, {\k15}want {\k15}you {\k26}to {\k27}my{\k52}self-{\k57}ah
+Comment: 0,0:01:29.07,0:01:31.73,English,,0,0,0,karaoke,{\k14}I {\k12}don’t {\k13}want {\k12}no{\k30}bo{\k23}dy {\k52}else-{\k110}ah
+Comment: 0,0:01:32.24,0:01:36.78,English,,0,0,0,karaoke,{\k58}Float {\k53}a{\k79}way {\k28}so {\k26}high {\k28}up {\k28}in {\k20}the {\kf134}clouds
+Comment: 0,0:01:36.83,0:01:39.50,English,,0,0,0,karaoke,{\k23}We’re {\k30}in {\k25}the {\kf119}clouds {\k70}now
+Comment: 0,0:01:40.05,0:01:41.95,English,,0,0,0,karaoke,{\k78}Hmm, {\k27}on{\k26}ly, {\k26}on{\k33}ly
+Comment: 0,0:01:41.95,0:01:44.59,English,,0,0,0,karaoke,{\k24}I’m {\k14}try{\k9}na {\k29}be {\k26}your {\k27}one {\k26}and {\k27}on{\k28}ly {\k29}call {\k25}me
+Comment: 0,0:01:44.85,0:01:46.32,English,,0,0,0,karaoke,{\k25}So {\k32}call {\k21}me, {\k29}call {\k40}me
+Comment: 0,0:01:46.50,0:01:48.59,English,,0,0,0,karaoke,{\k11}Whe{\k12}ne{\k26}ver {\k26}you’re {\k28}fee{\k25}ling {\k27}lone{\k54}ly
+Comment: 0,0:01:48.59,0:01:50.69,Korean,,0,0,0,karaoke,{\k27}ga{\k31}kka{\k23}i {\k27}{\rEnglish}time {\k14}to {\k13}fi{\k26}es{\k49}ta
+Comment: 0,0:01:50.78,0:01:53.69,Korean,,0,0,0,karaoke,{\k23}neu{\k27}kkyeo{\k27}bwa {\k26}{\rEnglish}when {\k15}I {\k12}ca{\k28}ress {\k26}your {\k53}bo{\k54}dy
+Comment: 0,0:01:53.69,0:01:54.92,English,,0,0,0,karaoke,{\k27}Move {\k13}to {\k13}the {\k35}rhy{\k35}thm
+Comment: 0,0:01:54.73,0:01:55.99,EnglishChoir,,0,0,0,karaoke,{\k57}Bo{\k69}dy
+Comment: 0,0:01:55.32,0:01:57.08,English,,0,0,0,karaoke,{\k28}Move {\k24}your {\k24}feet {\k16}to {\k13}the {\k26}rhy{\k45}thm
+Comment: 0,0:01:56.91,0:01:59.01,English,,0,0,0,karaoke,{\k18}Gim{\k12}me {\k11}e{\k11}ner{\k83}gy, {\k12}e{\k14}ner{\k49}gy
+Comment: 0,0:01:57.70,0:01:59.34,EnglishChoir,,0,0,0,karaoke,{\k11}E{\k16}ner{\k81}gy {\k11}e{\k15}ner{\k30}gy
+Comment: 0,0:01:59.34,0:02:01.21,English,,0,0,0,karaoke,{\k12}What {\k12}you {\k54}say? {\k26}Bombs {\k15}and {\k11}a{\k57}way
+Comment: 0,0:01:59.84,0:02:01.69,EnglishChoir,,0,0,0,karaoke,{\k12}What {\k12}you {\k54}say? {\k26}Bombs {\k15}and {\k11}a{\k57}way
+Comment: 0,0:02:01.21,0:02:03.42,English,,0,0,0,karaoke,{\k12}Bur{\k15}ning {\k13}in {\k12}your {\k28}heart {\rKorean}{\k23}but{\k17}ja{\k12}ba {\k15}dal{\k11}lyeo {\k63}nan
+Comment: 0,0:02:03.64,0:02:05.47,English,,0,0,0,karaoke,{\k23}No {\k30}lies, {\k10}Im{\k14}ma {\k13}give {\k13}it {\k13}to {\k12}you {\k55}straight
+Comment: 0,0:02:05.48,0:02:07.58,English,,0,0,0,karaoke,{\k18}Gim{\k12}me {\k11}e{\k11}ner{\k83}gy, {\k12}e{\k14}ner{\k49}gy
+Comment: 0,0:02:06.27,0:02:07.91,EnglishChoir,,0,0,0,karaoke,{\k11}E{\k16}ner{\k81}gy {\k11}e{\k15}ner{\k30}gy
+Comment: 0,0:02:07.91,0:02:09.78,English,,0,0,0,karaoke,{\k12}What {\k12}you {\k54}say? {\k26}Bombs {\k15}and {\k11}a{\k57}way
+Comment: 0,0:02:08.41,0:02:10.26,EnglishChoir,,0,0,0,karaoke,{\k12}What {\k12}you {\k54}say? {\k26}Bombs {\k15}and {\k11}a{\k57}way
+Comment: 0,0:02:09.49,0:02:12.40,English,,0,0,0,karaoke,{\k27}It {\k26}does{\k27}n’t {\k28}e{\k26}ven {\k29}mat{\k24}ter {\k26}as {\k57}long {\k21}as
+Comment: 0,0:02:12.45,0:02:15.65,English,,0,0,0,karaoke,{\k25}We {\k26}keep {\k32}tur{\k24}ning {\k26}it {\kf187}up
+Comment: 0,0:02:14.62,0:02:16.75,EnglishChoir,,0,0,0,karaoke,{\k24}We {\k25}keep {\k30}tur{\k25}ning {\k27}up {\k27}this {\k28}par{\k27}ty
+Comment: 0,0:02:16.75,0:02:18.45,EnglishChoir,,0,0,0,karaoke,{\k25}Like {\k27}it’s {\k27}a {\k28}Fri{\k27}day {\k36}night
+Comment: 0,0:02:18.89,0:02:21.02,EnglishChoir,,0,0,0,karaoke,{\k26}Come {\k26}on, {\k26}ba{\k28}by, {\k27}let’s {\k25}get {\k29}star{\k26}ted
+Comment: 0,0:02:21.04,0:02:22.89,EnglishChoir,,0,0,0,karaoke,{\k25}Cause {\k26}I {\k27}know {\k27}what {\k28}you {\k52}like
+Comment: 0,0:02:22.90,0:02:24.80,English,,0,0,0,karaoke,{\k78}Hmm, {\k27}on{\k26}ly, {\k26}on{\k33}ly
+Comment: 0,0:02:24.80,0:02:27.44,English,,0,0,0,karaoke,{\k24}I’m {\k14}try{\k9}na {\k29}be {\k26}your {\k27}one {\k26}and {\k27}on{\k28}ly {\k29}call {\k25}me
+Comment: 0,0:02:27.70,0:02:29.17,English,,0,0,0,karaoke,{\k25}So {\k32}call {\k21}me, {\k29}call {\k40}me
+Comment: 0,0:02:29.35,0:02:31.44,English,,0,0,0,karaoke,{\k11}Whe{\k12}ne{\k26}ver {\k26}you’re {\k28}fee{\k25}ling {\k27}lone{\k54}ly
+Comment: 0,0:02:31.44,0:02:33.54,Korean,,0,0,0,karaoke,{\k27}ga{\k31}kka{\k23}i {\k27}{\rEnglish}time {\k14}to {\k13}fi{\k26}es{\k49}ta
+Comment: 0,0:02:33.63,0:02:36.54,Korean,,0,0,0,karaoke,{\k23}neu{\k27}kkyeo{\k27}bwa {\k26}{\rEnglish}when {\k15}I {\k12}ca{\k28}ress {\k26}your {\k53}bo{\k54}dy
+Comment: 0,0:02:36.54,0:02:37.77,English,,0,0,0,karaoke,{\k27}Move {\k13}to {\k13}the {\k35}rhy{\k35}thm
+Comment: 0,0:02:37.58,0:02:38.84,EnglishChoir,,0,0,0,karaoke,{\k57}Bo{\k69}dy
+Comment: 0,0:02:38.17,0:02:39.93,English,,0,0,0,karaoke,{\k28}Move {\k24}your {\k24}feet {\k16}to {\k13}the {\k26}rhy{\k45}thm
+Comment: 0,0:02:39.76,0:02:41.86,English,,0,0,0,karaoke,{\k18}Gim{\k12}me {\k11}e{\k11}ner{\k83}gy, {\k12}e{\k14}ner{\k49}gy
+Comment: 0,0:02:40.55,0:02:42.19,EnglishChoir,,0,0,0,karaoke,{\k11}E{\k16}ner{\k81}gy {\k11}e{\k15}ner{\k30}gy
+Comment: 0,0:02:42.19,0:02:44.06,English,,0,0,0,karaoke,{\k12}What {\k12}you {\k54}say? {\k26}Bombs {\k15}and {\k11}a{\k57}way
+Comment: 0,0:02:42.69,0:02:44.54,EnglishChoir,,0,0,0,karaoke,{\k12}What {\k12}you {\k54}say? {\k26}Bombs {\k15}and {\k11}a{\k57}way
+Comment: 0,0:02:44.06,0:02:46.27,English,,0,0,0,karaoke,{\k12}Bur{\k15}ning {\k13}in {\k12}your {\k28}heart {\rKorean}{\k23}but{\k17}ja{\k12}ba {\k15}dal{\k11}lyeo {\k63}nan
+Comment: 0,0:02:46.49,0:02:48.32,English,,0,0,0,karaoke,{\k23}No {\k30}lies, {\k10}Im{\k14}ma {\k13}give {\k13}it {\k13}to {\k12}you {\k55}straight
+Comment: 0,0:02:48.33,0:02:50.43,English,,0,0,0,karaoke,{\k18}Gim{\k12}me {\k11}e{\k11}ner{\k83}gy, {\k12}e{\k14}ner{\k49}gy
+Comment: 0,0:02:50.76,0:02:52.63,English,,0,0,0,karaoke,{\k12}What {\k12}you {\k54}say? {\k26}Bombs {\k15}and {\k11}a{\k57}way
+Comment: 0,0:02:52.34,0:02:55.25,English,,0,0,0,karaoke,{\k27}It {\k26}does{\k27}n’t {\k28}e{\k26}ven {\k29}mat{\k24}ter {\k26}as {\k57}long {\k21}as
+Comment: 0,0:02:55.30,0:02:58.50,English,,0,0,0,karaoke,{\k25}We {\k26}keep {\k32}turn{\k24}ing {\k26}it {\kf187}up
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&HFFC124&}English {\c}| {\c&H008AFF&}Korean
+Dialogue: 0,0:00:08.29,0:00:10.14,English,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Yeah, {\k52}yeah
+Dialogue: 0,0:00:09.40,0:00:12.07,English,,0,0,0,fx,{\k90\fad(300,200)}{\k54}I {\k53}need {\k50}ya
+Dialogue: 0,0:00:11.02,0:00:13.19,English,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Ba{\k11}by {\k13}{\rKorean}neo{\k11}reul {\k26}wi{\k29}hae
+Dialogue: 0,0:00:12.09,0:00:14.54,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k13}bul{\k13}ta'{\k15}o{\k12}reun {\k26}sun'{\k56}gan
+Dialogue: 0,0:00:13.70,0:00:17.49,English,,0,0,0,fx,{\k90\fad(300,200)}{\k53}Can’t {\k51}wait {\k54}for {\k30}too {\k24}much {\k27}lon{\k30}ger
+Dialogue: 0,0:00:16.39,0:00:18.95,English,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ba{\k15}by {\k11}I’m {\k11}a {\k26}lo{\k69}ver
+Dialogue: 0,0:00:17.98,0:00:21.21,English,,0,0,0,fx,{\k90\fad(300,200)}{\k81}Ooh, {\k25}{\rKorean}neu{\k27}kkyeo{\k25}jyeo {\k28}{\rEnglish}heart {\k27}beat
+Dialogue: 0,0:00:20.11,0:00:24.00,English,,0,0,0,fx,{\k90\fad(300,200)}{\k33}'Cause {\k21}I {\k27}know {\k27}you’re {\k27}the {\kf144}one
+Dialogue: 0,0:00:23.05,0:00:27.92,English,,0,0,0,fx,{\k90\fad(300,200)}{\k28}So {\k27}let {\k26}me {\k25}know {\k30}what {\k26}you {\k55}wan{\k26}na {\kf134}do
+Dialogue: 0,0:00:27.04,0:00:32.68,English,,0,0,0,fx,{\k90\fad(300,200)}{\k58}Float {\k53}a{\k79}way {\k28}so {\k26}high {\k28}up {\k28}in {\k20}the {\kf134}clouds
+Dialogue: 0,0:00:31.63,0:00:35.40,English,,0,0,0,fx,{\k90\fad(300,200)}{\k23}We’re {\k30}in {\k25}the {\kf119}clouds {\k70}now
+Dialogue: 0,0:00:34.87,0:00:37.87,English,,0,0,0,fx,{\k90\fad(300,200)}{\k78}Hmm, {\k27}on{\k26}ly, {\k26}on{\k33}ly
+Dialogue: 0,0:00:36.77,0:00:40.51,English,,0,0,0,fx,{\k90\fad(300,200)}{\k24}I’m {\k14}try{\k9}na {\k29}be {\k26}your {\k27}one {\k26}and {\k27}on{\k28}ly {\k29}call {\k25}me
+Dialogue: 0,0:00:39.67,0:00:42.24,English,,0,0,0,fx,{\k90\fad(300,200)}{\k25}So {\k32}call {\k21}me, {\k29}call {\k40}me
+Dialogue: 0,0:00:41.32,0:00:44.51,English,,0,0,0,fx,{\k90\fad(300,200)}{\k11}Whe{\k12}ne{\k26}ver {\k26}you’re {\k28}fee{\k25}ling {\k27}lone{\k54}ly
+Dialogue: 0,0:00:43.41,0:00:46.61,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ga{\k31}kka{\k23}i {\k27}{\rEnglish}time {\k14}to {\k13}fi{\k26}es{\k49}ta
+Dialogue: 0,0:00:45.60,0:00:49.61,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k23}neu{\k27}kkyeo{\k27}bwa {\k26}{\rEnglish}when {\k15}I {\k12}ca{\k28}ress {\k26}your {\k53}bo{\k54}dy
+Dialogue: 0,0:00:48.51,0:00:50.84,English,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Move {\k13}to {\k13}the {\k35}rhy{\k35}thm
+Dialogue: 0,0:00:49.55,0:00:51.91,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k57}Bo{\k69}dy
+Dialogue: 0,0:00:50.14,0:00:53.00,English,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Move {\k24}your {\k24}feet {\k16}to {\k13}the {\k26}rhy{\k45}thm
+Dialogue: 0,0:00:51.73,0:00:54.93,English,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Gim{\k12}me {\k11}e{\k11}ner{\k83}gy, {\k12}e{\k14}ner{\k49}gy
+Dialogue: 0,0:00:52.52,0:00:55.26,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k11}E{\k16}ner{\k81}gy {\k11}e{\k15}ner{\k30}gy
+Dialogue: 0,0:00:54.16,0:00:57.13,English,,0,0,0,fx,{\k90\fad(300,200)}{\k12}What {\k12}you {\k54}say? {\k26}Bombs {\k15}and {\k11}a{\k57}way
+Dialogue: 0,0:00:54.66,0:00:57.61,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k12}What {\k12}you {\k54}say? {\k26}Bombs {\k15}and {\k11}a{\k57}way
+Dialogue: 0,0:00:56.03,0:00:59.34,English,,0,0,0,fx,{\k90\fad(300,200)}{\k12}Bur{\k15}ning {\k13}in {\k12}your {\k28}heart {\rKorean}{\k23}but{\k17}ja{\k12}ba {\k15}dal{\k11}lyeo {\k63}nan
+Dialogue: 0,0:00:58.46,0:01:01.39,English,,0,0,0,fx,{\k90\fad(300,200)}{\k23}No {\k30}lies, {\k10}Im{\k14}ma {\k13}give {\k13}it {\k13}to {\k12}you {\k55}straight
+Dialogue: 0,0:01:00.30,0:01:03.50,English,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Gim{\k12}me {\k11}e{\k11}ner{\k83}gy, {\k12}e{\k14}ner{\k49}gy
+Dialogue: 0,0:01:01.09,0:01:03.83,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k11}E{\k16}ner{\k81}gy {\k11}e{\k15}ner{\k30}gy
+Dialogue: 0,0:01:02.73,0:01:05.70,English,,0,0,0,fx,{\k90\fad(300,200)}{\k12}What {\k12}you {\k54}say? {\k26}Bombs {\k15}and {\k11}a{\k57}way
+Dialogue: 0,0:01:03.23,0:01:06.18,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k12}What {\k12}you {\k54}say? {\k26}Bombs {\k15}and {\k11}a{\k57}way
+Dialogue: 0,0:01:04.31,0:01:08.32,English,,0,0,0,fx,{\k90\fad(300,200)}{\k28}It {\k25}does{\k27}n’t {\k27}e{\k27}ven {\k29}mat{\k24}ter {\k25}as {\k55}long {\k24}as
+Dialogue: 0,0:01:07.27,0:01:11.57,English,,0,0,0,fx,{\k90\fad(300,200)}{\k25}We {\k26}keep {\k32}tur{\k24}ning {\k26}it {\kf187}up
+Dialogue: 0,0:01:10.39,0:01:13.45,English,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Ha-{\k63}ha, {\k17}we {\k15}fin{\k11}na {\k16}turn {\k9}it {\k44}up
+Dialogue: 0,0:01:12.35,0:01:15.34,English,,0,0,0,fx,{\k90\fad(300,200)}{\k53}Ah, {\k16}Mo{\k11}na {\k27}Li{\k26}sa, {\k26}Li{\k30}sa
+Dialogue: 0,0:01:14.24,0:01:16.96,English,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Call {\k12}me {\k13}pa{\k12}pi {\k15}chu{\k12}lo, {\k13}ma{\k13}ma{\k27}ci{\k30}ta
+Dialogue: 0,0:01:15.86,0:01:19.75,English,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Mi{\k22}xing {\k12}you {\k28}up {\k13}like {\k14}I’m {\k16}ser{\k10}ving {\k14}mar{\k13}ga{\k26}ri{\k95}tas
+Dialogue: 0,0:01:18.76,0:01:22.00,English,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Muy {\k27}fine {\k16}si {\k12}bo{\k24}ni{\k24}ta {\k32}chi{\k52}ca
+Dialogue: 0,0:01:20.93,0:01:24.16,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k11}i{\k15}rweo{\k25}jul{\k27}ge {\k26}weon{\k16}hae{\k13}tteon {\k26}mo{\k27}deun'{\k27}geot
+Dialogue: 0,0:01:23.06,0:01:26.33,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k15}gu{\k12}reu{\k27}mwi{\k26}ro {\k28}ol{\k12}la{\k13}ga {\k27}{\rEnglish}take {\k26}you {\k31}go
+Dialogue: 0,0:01:25.23,0:01:29.27,English,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Ba{\k10}by, {\k26}you {\k29}so {\k24}fine, {\k15}want {\k15}you {\k26}to {\k27}my{\k52}self-{\k57}ah
+Dialogue: 0,0:01:28.17,0:01:31.93,English,,0,0,0,fx,{\k90\fad(300,200)}{\k14}I {\k12}don’t {\k13}want {\k12}no{\k30}bo{\k23}dy {\k52}else-{\k110}ah
+Dialogue: 0,0:01:31.34,0:01:36.98,English,,0,0,0,fx,{\k90\fad(300,200)}{\k58}Float {\k53}a{\k79}way {\k28}so {\k26}high {\k28}up {\k28}in {\k20}the {\kf134}clouds
+Dialogue: 0,0:01:35.93,0:01:39.70,English,,0,0,0,fx,{\k90\fad(300,200)}{\k23}We’re {\k30}in {\k25}the {\kf119}clouds {\k70}now
+Dialogue: 0,0:01:39.15,0:01:42.15,English,,0,0,0,fx,{\k90\fad(300,200)}{\k78}Hmm, {\k27}on{\k26}ly, {\k26}on{\k33}ly
+Dialogue: 0,0:01:41.05,0:01:44.79,English,,0,0,0,fx,{\k90\fad(300,200)}{\k24}I’m {\k14}try{\k9}na {\k29}be {\k26}your {\k27}one {\k26}and {\k27}on{\k28}ly {\k29}call {\k25}me
+Dialogue: 0,0:01:43.95,0:01:46.52,English,,0,0,0,fx,{\k90\fad(300,200)}{\k25}So {\k32}call {\k21}me, {\k29}call {\k40}me
+Dialogue: 0,0:01:45.60,0:01:48.79,English,,0,0,0,fx,{\k90\fad(300,200)}{\k11}Whe{\k12}ne{\k26}ver {\k26}you’re {\k28}fee{\k25}ling {\k27}lone{\k54}ly
+Dialogue: 0,0:01:47.69,0:01:50.89,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ga{\k31}kka{\k23}i {\k27}{\rEnglish}time {\k14}to {\k13}fi{\k26}es{\k49}ta
+Dialogue: 0,0:01:49.88,0:01:53.89,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k23}neu{\k27}kkyeo{\k27}bwa {\k26}{\rEnglish}when {\k15}I {\k12}ca{\k28}ress {\k26}your {\k53}bo{\k54}dy
+Dialogue: 0,0:01:52.79,0:01:55.12,English,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Move {\k13}to {\k13}the {\k35}rhy{\k35}thm
+Dialogue: 0,0:01:53.83,0:01:56.19,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k57}Bo{\k69}dy
+Dialogue: 0,0:01:54.42,0:01:57.28,English,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Move {\k24}your {\k24}feet {\k16}to {\k13}the {\k26}rhy{\k45}thm
+Dialogue: 0,0:01:56.01,0:01:59.21,English,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Gim{\k12}me {\k11}e{\k11}ner{\k83}gy, {\k12}e{\k14}ner{\k49}gy
+Dialogue: 0,0:01:56.80,0:01:59.54,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k11}E{\k16}ner{\k81}gy {\k11}e{\k15}ner{\k30}gy
+Dialogue: 0,0:01:58.44,0:02:01.41,English,,0,0,0,fx,{\k90\fad(300,200)}{\k12}What {\k12}you {\k54}say? {\k26}Bombs {\k15}and {\k11}a{\k57}way
+Dialogue: 0,0:01:58.94,0:02:01.89,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k12}What {\k12}you {\k54}say? {\k26}Bombs {\k15}and {\k11}a{\k57}way
+Dialogue: 0,0:02:00.31,0:02:03.62,English,,0,0,0,fx,{\k90\fad(300,200)}{\k12}Bur{\k15}ning {\k13}in {\k12}your {\k28}heart {\rKorean}{\k23}but{\k17}ja{\k12}ba {\k15}dal{\k11}lyeo {\k63}nan
+Dialogue: 0,0:02:02.74,0:02:05.67,English,,0,0,0,fx,{\k90\fad(300,200)}{\k23}No {\k30}lies, {\k10}Im{\k14}ma {\k13}give {\k13}it {\k13}to {\k12}you {\k55}straight
+Dialogue: 0,0:02:04.58,0:02:07.78,English,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Gim{\k12}me {\k11}e{\k11}ner{\k83}gy, {\k12}e{\k14}ner{\k49}gy
+Dialogue: 0,0:02:05.37,0:02:08.11,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k11}E{\k16}ner{\k81}gy {\k11}e{\k15}ner{\k30}gy
+Dialogue: 0,0:02:07.01,0:02:09.98,English,,0,0,0,fx,{\k90\fad(300,200)}{\k12}What {\k12}you {\k54}say? {\k26}Bombs {\k15}and {\k11}a{\k57}way
+Dialogue: 0,0:02:07.51,0:02:10.46,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k12}What {\k12}you {\k54}say? {\k26}Bombs {\k15}and {\k11}a{\k57}way
+Dialogue: 0,0:02:08.59,0:02:12.60,English,,0,0,0,fx,{\k90\fad(300,200)}{\k27}It {\k26}does{\k27}n’t {\k28}e{\k26}ven {\k29}mat{\k24}ter {\k26}as {\k57}long {\k21}as
+Dialogue: 0,0:02:11.55,0:02:15.85,English,,0,0,0,fx,{\k90\fad(300,200)}{\k25}We {\k26}keep {\k32}tur{\k24}ning {\k26}it {\kf187}up
+Dialogue: 0,0:02:13.72,0:02:16.95,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k24}We {\k25}keep {\k30}tur{\k25}ning {\k27}up {\k27}this {\k28}par{\k27}ty
+Dialogue: 0,0:02:15.85,0:02:18.65,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Like {\k27}it’s {\k27}a {\k28}Fri{\k27}day {\k36}night
+Dialogue: 0,0:02:17.99,0:02:21.22,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Come {\k26}on, {\k26}ba{\k28}by, {\k27}let’s {\k25}get {\k29}star{\k26}ted
+Dialogue: 0,0:02:20.14,0:02:23.09,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Cause {\k26}I {\k27}know {\k27}what {\k28}you {\k52}like
+Dialogue: 0,0:02:22.00,0:02:25.00,English,,0,0,0,fx,{\k90\fad(300,200)}{\k78}Hmm, {\k27}on{\k26}ly, {\k26}on{\k33}ly
+Dialogue: 0,0:02:23.90,0:02:27.64,English,,0,0,0,fx,{\k90\fad(300,200)}{\k24}I’m {\k14}try{\k9}na {\k29}be {\k26}your {\k27}one {\k26}and {\k27}on{\k28}ly {\k29}call {\k25}me
+Dialogue: 0,0:02:26.80,0:02:29.37,English,,0,0,0,fx,{\k90\fad(300,200)}{\k25}So {\k32}call {\k21}me, {\k29}call {\k40}me
+Dialogue: 0,0:02:28.45,0:02:31.64,English,,0,0,0,fx,{\k90\fad(300,200)}{\k11}Whe{\k12}ne{\k26}ver {\k26}you’re {\k28}fee{\k25}ling {\k27}lone{\k54}ly
+Dialogue: 0,0:02:30.54,0:02:33.74,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ga{\k31}kka{\k23}i {\k27}{\rEnglish}time {\k14}to {\k13}fi{\k26}es{\k49}ta
+Dialogue: 0,0:02:32.73,0:02:36.74,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k23}neu{\k27}kkyeo{\k27}bwa {\k26}{\rEnglish}when {\k15}I {\k12}ca{\k28}ress {\k26}your {\k53}bo{\k54}dy
+Dialogue: 0,0:02:35.64,0:02:37.97,English,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Move {\k13}to {\k13}the {\k35}rhy{\k35}thm
+Dialogue: 0,0:02:36.68,0:02:39.04,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k57}Bo{\k69}dy
+Dialogue: 0,0:02:37.27,0:02:40.13,English,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Move {\k24}your {\k24}feet {\k16}to {\k13}the {\k26}rhy{\k45}thm
+Dialogue: 0,0:02:38.86,0:02:42.06,English,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Gim{\k12}me {\k11}e{\k11}ner{\k83}gy, {\k12}e{\k14}ner{\k49}gy
+Dialogue: 0,0:02:39.65,0:02:42.39,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k11}E{\k16}ner{\k81}gy {\k11}e{\k15}ner{\k30}gy
+Dialogue: 0,0:02:41.29,0:02:44.26,English,,0,0,0,fx,{\k90\fad(300,200)}{\k12}What {\k12}you {\k54}say? {\k26}Bombs {\k15}and {\k11}a{\k57}way
+Dialogue: 0,0:02:41.79,0:02:44.74,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k12}What {\k12}you {\k54}say? {\k26}Bombs {\k15}and {\k11}a{\k57}way
+Dialogue: 0,0:02:43.16,0:02:46.47,English,,0,0,0,fx,{\k90\fad(300,200)}{\k12}Bur{\k15}ning {\k13}in {\k12}your {\k28}heart {\rKorean}{\k23}but{\k17}ja{\k12}ba {\k15}dal{\k11}lyeo {\k63}nan
+Dialogue: 0,0:02:45.59,0:02:48.52,English,,0,0,0,fx,{\k90\fad(300,200)}{\k23}No {\k30}lies, {\k10}Im{\k14}ma {\k13}give {\k13}it {\k13}to {\k12}you {\k55}straight
+Dialogue: 0,0:02:47.43,0:02:50.63,English,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Gim{\k12}me {\k11}e{\k11}ner{\k83}gy, {\k12}e{\k14}ner{\k49}gy
+Dialogue: 0,0:02:49.86,0:02:52.83,English,,0,0,0,fx,{\k90\fad(300,200)}{\k12}What {\k12}you {\k54}say? {\k26}Bombs {\k15}and {\k11}a{\k57}way
+Dialogue: 0,0:02:51.44,0:02:55.45,English,,0,0,0,fx,{\k90\fad(300,200)}{\k27}It {\k26}does{\k27}n’t {\k28}e{\k26}ven {\k29}mat{\k24}ter {\k26}as {\k57}long {\k21}as
+Dialogue: 0,0:02:54.40,0:02:58.70,English,,0,0,0,fx,{\k90\fad(300,200)}{\k25}We {\k26}keep {\k32}turn{\k24}ing {\k26}it {\kf187}up
