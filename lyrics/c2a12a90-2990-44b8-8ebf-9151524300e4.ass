@@ -1,0 +1,148 @@
+﻿[Script Info]
+Title: Daisuki♡Zutto Eien ni♡
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+Original Timing: Ichinyaaan
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Mari Mari,Arial,24,&H00FFFFFF,&H002191E8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Fanchant,Arial,24,&H00FFFFFF,&H00D7A848,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,60,1
+Style: Fincel,Arial,24,&H004863E9,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: COLOR CODE,Arial,24,&H00FFFFFF,&H002191E8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:01.51,0:00:01.51,All,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H2191E8&&}Mari Mari{\c} | {\c&H4863E9&}Fincel{\c} | {\c&HD7A848&}Fanchant
+Comment: 0,0:00:11.71,0:00:14.86,Mari Mari,,0,0,0,karaoke,{\k43}My {\k46}oh {\k46}my {\k20}do {\k25}you {\k23}want {\k19}to {\k26}say {\k22}good{\k45}bye?
+Comment: 0,0:00:15.09,0:00:18.68,Mari Mari,,0,0,0,karaoke,{\k24}To {\k47}have {\k41}the {\k23}king{\k23}dom, {\k23}ba{\k21}by, {\k44}tell {\k47}me {\k66}why
+Comment: 0,0:00:18.94,0:00:22.07,Mari Mari,,0,0,0,karaoke,{\k46}My {\k42}oh {\k46}my {\k22}do {\k22}you {\k16}want {\k17}to {\k36}say {\k23}good{\k43}bye?
+Comment: 0,0:00:22.30,0:00:26.00,Mari Mari,,0,0,0,karaoke,{\k21}To {\k46}rule {\k43}the {\k24}coun{\k25}try, {\k20}ba{\k22}by, {\k48}you {\k45}and {\k76}I?
+Comment: 0,0:00:26.83,0:00:29.68,Mari Mari,,0,0,0,karaoke,{\k43}If {\k22}you {\k21}were {\k22}my {\kf177}King,
+Comment: 0,0:00:29.75,0:00:32.90,Mari Mari,,0,0,0,karaoke,{\k42}My {\k47}oh {\k45}my {\k23}do {\k23}you {\k23}want {\k18}to {\k23}say {\k25}good{\k46}bye?
+Comment: 0,0:00:33.13,0:00:36.52,Mari Mari,,0,0,0,karaoke,{\k21}To {\k44}have {\k47}the {\k23}king{\k22}dom, {\k24}ba{\k22}by, {\k42}tell {\k47}me {\k47}why
+Comment: 0,0:00:36.99,0:00:40.12,Mari Mari,,0,0,0,karaoke,{\k42}My {\k45}oh {\k45}my {\k23}do {\k22}you {\k24}want {\k23}to {\k19}say {\k25}good{\k45}bye?
+Comment: 0,0:00:40.36,0:00:44.02,Mari Mari,,0,0,0,karaoke,{\k21}To {\k45}rule {\k45}the {\k22}coun{\k23}try, {\k23}ba{\k23}by, {\k44}you {\k46}and {\k74}I?
+Comment: 0,0:00:45.98,0:00:49.13,Mari Mari,,0,0,0,karaoke,{\k22}Lit{\k23}tle {\k42}prin{\k48}cess {\k23}in {\k20}a {\k26}ter{\k22}ri{\k23}ble {\k66}mess,
+Comment: 0,0:00:49.37,0:00:52.75,Mari Mari,,0,0,0,karaoke,{\k21}A {\k25}king{\k21}dom {\k23}a{\k45}lone, {\k22}with {\k44}no {\k24}love {\k22}to {\k20}con{\k71}fess
+Comment: 0,0:00:53.20,0:00:56.58,Mari Mari,,0,0,0,karaoke,{\k27}Dreams {\k18}of {\k23}a {\k45}prince {\k23}on {\k39}a {\k51}tall {\k44}white {\k68}horse,
+Comment: 0,0:00:56.81,0:01:00.42,Mari Mari,,0,0,0,karaoke,{\k24}Runs {\k14}like {\k14}a {\k60}spi{\k24}rit {\k22}by {\k22}the {\k34}cas{\k54}tle {\k93}walls
+Comment: 0,0:01:00.65,0:01:02.45,Fincel,,0,0,0,karaoke,{\k21}Got{\k17}ta {\k47}steal {\k26}from {\k18}the {\k38}rich,
+Comment: 0,0:01:02.45,0:01:04.03,Fincel,,0,0,0,karaoke,{\k23}when {\k21}they {\k24}don't {\k22}know {\k20}I'm {\k25}com{\k45}ing,
+Comment: 0,0:01:04.25,0:01:07.63,Fincel,,0,0,0,karaoke,{\k23}Got{\k22}ta {\k46}give {\k22}to {\k22}the {\k45}poor, {\k24}no {\k21}time {\k23}for {\k38}lo{\k52}vin'
+Comment: 0,0:01:07.90,0:01:09.66,Fincel,,0,0,0,karaoke,{\k17}My {\k24}oh {\k44}my {\k22}don't {\k23}you {\k45}cry,
+Comment: 0,0:01:09.66,0:01:11.25,Fincel,,0,0,0,karaoke,{\k24}'cause {\k21}there's {\k23}no {\k19}way {\k20}I'm {\k28}stay{\k24}ing,
+Comment: 0,0:01:11.47,0:01:14.88,Fincel,,0,0,0,karaoke,{\k22}I {\k25}will {\k30}leave {\k35}say {\k24}bye {\k44}bye, {\k23}I'm {\k23}go{\k22}ing {\k44}my {\k49}way
+Comment: 0,0:01:16.66,0:01:19.81,Mari Mari,,0,0,0,karaoke,{\k43}My {\k46}oh {\k46}my {\k20}do {\k25}you {\k23}want {\k19}to {\k26}say {\k22}good{\k45}bye?
+Comment: 0,0:01:20.04,0:01:23.64,Mari Mari,,0,0,0,karaoke,{\k24}To {\k47}have {\k41}the {\k23}king{\k23}dom, {\k23}ba{\k21}by, {\k44}tell {\k47}me {\k66}why
+Comment: 0,0:01:23.89,0:01:27.03,Mari Mari,,0,0,0,karaoke,{\k46}My {\k42}oh {\k46}my {\k22}do {\k22}you {\k16}want {\k17}to {\k36}say {\k23}good{\k43}bye?
+Comment: 0,0:01:27.27,0:01:30.85,Mari Mari,,0,0,0,karaoke,{\k21}To {\k46}rule {\k43}the {\k24}coun{\k25}try, {\k20}ba{\k22}by, {\k48}you {\k45}and {\k76}I?
+Comment: 0,0:01:31.77,0:01:34.91,Mari Mari,,0,0,0,karaoke,{\k48}If {\k18}you {\k22}were {\k24}my {\kf181}King,
+Comment: 0,0:01:34.03,0:01:35.15,Fanchant,,0,0,0,karaoke,{\k22}Oh {\k22}wh{\k46}o{\k22}ah
+Comment: 0,0:01:35.39,0:01:38.54,Mari Mari,,0,0,0,karaoke,{\k44}I {\k23}would {\k22}be {\k22}your {\kf181}Queen,
+Comment: 0,0:01:37.63,0:01:38.76,Fanchant,,0,0,0,karaoke,{\k22}Oh {\k22}wh{\k46}o{\k23}ah
+Comment: 0,0:01:39.02,0:01:42.16,Mari Mari,,0,0,0,karaoke,{\k40}If {\k23}you {\k22}were {\k23}my {\kf205}King,
+Comment: 0,0:01:41.25,0:01:42.58,Fanchant,,0,0,0,karaoke,{\k22}Oh {\k22}wh{\k44}o{\k45}ah
+Comment: 0,0:01:42.61,0:01:45.74,Mari Mari,,0,0,0,karaoke,{\k43}I {\k23}would {\k22}be {\k22}your {\kf181}Queen,
+Comment: 0,0:01:45.15,0:01:46.05,Fanchant,,0,0,0,karaoke,{\k22}Oh {\k22}wh{\k23}o{\k45}ah
+Comment: 0,0:01:47.33,0:01:50.71,Mari Mari,,0,0,0,karaoke,{\k23}My{\k23}ste{\k41}ry {\k47}deep {\k21}in {\k24}the {\k27}ro{\k61}yal {\k71}heart
+Comment: 0,0:01:50.93,0:01:54.09,Mari Mari,,0,0,0,karaoke,{\k24}Cry{\k21}ing {\k22}at {\k44}night, {\k24}I {\k24}wan{\k21}na {\k46}be {\k44}a{\k46}part
+Comment: 0,0:01:54.55,0:01:57.71,Mari Mari,,0,0,0,karaoke,{\k43}Prince, {\k21}oh, {\k49}prince {\k22}are {\k45}you {\k24}real{\k22}ly {\k44}sinc{\k46}ere?
+Comment: 0,0:01:58.17,0:02:01.53,Mari Mari,,0,0,0,karaoke,{\k20}That {\k25}you {\k40}one {\k27}day {\k22}are {\k22}gon{\k24}na {\k44}dis{\k45}ap{\k67}pear?
+Comment: 0,0:02:01.99,0:02:03.79,Fincel,,0,0,0,karaoke,{\k21}Got{\k17}ta {\k47}steal {\k26}from {\k18}the {\k38}rich,
+Comment: 0,0:02:03.79,0:02:05.59,Fincel,,0,0,0,karaoke,{\k23}when {\k21}they {\k24}don't {\k22}know {\k20}I'm {\k25}com{\k45}ing,
+Comment: 0,0:02:05.59,0:02:08.98,Fincel,,0,0,0,karaoke,{\k23}Got{\k22}ta {\k46}give {\k22}to {\k22}the {\k45}poor, {\k24}no {\k21}time {\k23}for {\k38}lo{\k52}vin'
+Comment: 0,0:02:09.21,0:02:11.01,Fincel,,0,0,0,karaoke,{\k17}My {\k24}oh {\k44}my {\k22}don't {\k23}you {\k45}cry,
+Comment: 0,0:02:11.01,0:02:12.58,Fincel,,0,0,0,karaoke,{\k24}'cause {\k21}there's {\k23}no {\k19}way {\k20}I'm {\k28}stay{\k24}ing,
+Comment: 0,0:02:12.81,0:02:16.32,Fincel,,0,0,0,karaoke,{\k22}I {\k25}will {\k30}leave {\k35}say {\k24}bye {\k44}bye, {\k23}I'm {\k23}go{\k22}ing {\k44}my {\k49}way
+Comment: 0,0:02:17.99,0:02:19.58,Mari Mari,,0,0,0,karaoke,{\k47}My {\k44}oh {\k68}my
+Comment: 0,0:02:19.82,0:02:21.36,Fanchant,,0,0,0,karaoke,{\k44}Oh {\k44}who{\k66}ah
+Comment: 0,0:02:21.61,0:02:23.16,Mari Mari,,0,0,0,karaoke,{\k47}My {\k44}oh {\k68}my
+Comment: 0,0:02:23.42,0:02:24.98,Fanchant,,0,0,0,karaoke,{\k44}Oh {\k44}who{\k66}ah
+Comment: 0,0:02:25.22,0:02:26.78,Mari Mari,,0,0,0,karaoke,{\k47}My {\k44}oh {\k68}my
+Comment: 0,0:02:27.02,0:02:28.67,Fanchant,,0,0,0,karaoke,{\k44}Oh {\k44}who{\k66}ah
+Comment: 0,0:02:28.84,0:02:30.38,Mari Mari,,0,0,0,karaoke,{\k47}My {\k44}oh {\k68}my
+Comment: 0,0:02:32.45,0:02:35.60,Mari Mari,,0,0,0,karaoke,{\k43}My {\k46}oh {\k46}my {\k20}do {\k25}you {\k23}want {\k19}to {\k26}say {\k22}good{\k45}bye?
+Comment: 0,0:02:35.82,0:02:39.21,Mari Mari,,0,0,0,karaoke,{\k24}To {\k47}have {\k41}the {\k23}king{\k23}dom, {\k23}ba{\k21}by, {\k44}tell {\k47}me {\k66}why
+Comment: 0,0:02:39.66,0:02:42.82,Mari Mari,,0,0,0,karaoke,{\k43}My {\k46}oh {\k46}my {\k20}do {\k25}you {\k23}want {\k19}to {\k26}say {\k22}good{\k45}bye?
+Comment: 0,0:02:43.03,0:02:46.82,Mari Mari,,0,0,0,karaoke,{\k21}To {\k46}rule {\k43}the {\k24}coun{\k25}try, {\k20}ba{\k22}by, {\k48}you {\k45}and {\k76}I?
+Comment: 0,0:02:46.89,0:02:50.04,Mari Mari,,0,0,0,karaoke,{\k43}My {\k46}oh {\k46}my {\k20}do {\k25}you {\k23}want {\k19}to {\k26}say {\k22}good{\k45}bye?
+Comment: 0,0:02:50.26,0:02:53.87,Mari Mari,,0,0,0,karaoke,{\k24}To {\k47}have {\k41}the {\k23}king{\k23}dom, {\k23}ba{\k21}by, {\k44}tell {\k47}me {\k66}why
+Comment: 0,0:02:54.08,0:02:57.24,Mari Mari,,0,0,0,karaoke,{\k43}My {\k46}oh {\k46}my {\k20}do {\k25}you {\k23}want {\k19}to {\k26}say {\k22}good{\k45}bye?
+Comment: 0,0:02:57.47,0:03:01.30,Mari Mari,,0,0,0,karaoke,{\k21}To {\k46}rule {\k43}the {\k24}coun{\k25}try, {\k20}ba{\k22}by, {\k48}you {\k45}and {\k76}I?
+Comment: 0,0:03:02.03,0:03:05.14,Mari Mari,,0,0,0,karaoke,{\k48}If {\k18}you {\k22}were {\k24}my {\kf181}King,
+Comment: 0,0:03:04.28,0:03:05.54,Fanchant,,0,0,0,karaoke,{\k22}Oh {\k22}wh{\k46}o{\k23}ah
+Comment: 0,0:03:05.60,0:03:08.76,Mari Mari,,0,0,0,karaoke,{\k44}I {\k23}would {\k22}be {\k22}your {\kf181}Queen,
+Comment: 0,0:03:07.86,0:03:09.12,Fanchant,,0,0,0,karaoke,{\k22}Oh {\k22}wh{\k46}o{\k23}ah
+Comment: 0,0:03:09.19,0:03:12.35,Mari Mari,,0,0,0,karaoke,{\k48}If {\k18}you {\k22}were {\k24}my {\kf181}King,
+Comment: 0,0:03:11.47,0:03:12.75,Fanchant,,0,0,0,karaoke,{\k22}Oh {\k22}wh{\k46}o{\k23}ah
+Comment: 0,0:03:12.81,0:03:15.97,Mari Mari,,0,0,0,karaoke,{\k44}I {\k23}would {\k22}be {\k22}your {\kf181}Queen,
+Comment: 0,0:03:15.05,0:03:19.73,Fanchant,,0,0,0,karaoke,{\k24}Oh {\k28}wh{\k39}o{\k49}ah {\k41}who{\k45}ah {\k45}who{\k37}ah {\k43}who{\k51}ah {\k28}who{\k38}ah
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H2191E8&&}Mari Mari{\c} | {\c&H4863E9&}Fincel{\c} | {\c&HD7A848&}Fanchant
+Dialogue: 0,0:00:10.81,0:00:15.06,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k43}My {\k46}oh {\k46}my {\k20}do {\k25}you {\k23}want {\k19}to {\k26}say {\k22}good{\k45}bye?
+Dialogue: 0,0:00:14.19,0:00:18.88,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k24}To {\k47}have {\k41}the {\k23}king{\k23}dom, {\k23}ba{\k21}by, {\k44}tell {\k47}me {\k66}why
+Dialogue: 0,0:00:18.04,0:00:22.27,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k46}My {\k42}oh {\k46}my {\k22}do {\k22}you {\k16}want {\k17}to {\k36}say {\k23}good{\k43}bye?
+Dialogue: 0,0:00:21.40,0:00:26.20,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k21}To {\k46}rule {\k43}the {\k24}coun{\k25}try, {\k20}ba{\k22}by, {\k48}you {\k45}and {\k76}I?
+Dialogue: 0,0:00:25.93,0:00:29.88,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k43}If {\k22}you {\k21}were {\k22}my {\kf177}King,
+Dialogue: 0,0:00:28.85,0:00:33.10,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k42}My {\k47}oh {\k45}my {\k23}do {\k23}you {\k23}want {\k18}to {\k23}say {\k25}good{\k46}bye?
+Dialogue: 0,0:00:32.23,0:00:36.72,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k21}To {\k44}have {\k47}the {\k23}king{\k22}dom, {\k24}ba{\k22}by, {\k42}tell {\k47}me {\k47}why
+Dialogue: 0,0:00:36.09,0:00:40.32,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k42}My {\k45}oh {\k45}my {\k23}do {\k22}you {\k24}want {\k23}to {\k19}say {\k25}good{\k45}bye?
+Dialogue: 0,0:00:39.46,0:00:44.22,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k21}To {\k45}rule {\k45}the {\k22}coun{\k23}try, {\k23}ba{\k23}by, {\k44}you {\k46}and {\k74}I?
+Dialogue: 0,0:00:45.08,0:00:49.33,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Lit{\k23}tle {\k42}prin{\k48}cess {\k23}in {\k20}a {\k26}ter{\k22}ri{\k23}ble {\k66}mess,
+Dialogue: 0,0:00:48.47,0:00:52.95,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k21}A {\k25}king{\k21}dom {\k23}a{\k45}lone, {\k22}with {\k44}no {\k24}love {\k22}to {\k20}con{\k71}fess
+Dialogue: 0,0:00:52.30,0:00:56.78,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Dreams {\k18}of {\k23}a {\k45}prince {\k23}on {\k39}a {\k51}tall {\k44}white {\k68}horse,
+Dialogue: 0,0:00:55.91,0:01:00.62,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Runs {\k14}like {\k14}a {\k60}spi{\k24}rit {\k22}by {\k22}the {\k34}cas{\k54}tle {\k93}walls
+Dialogue: 0,0:00:59.75,0:01:02.65,Fincel,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Got{\k17}ta {\k47}steal {\k26}from {\k18}the {\k38}rich,
+Dialogue: 0,0:01:01.55,0:01:04.23,Fincel,,0,0,0,fx,{\k90\fad(300,200)}{\k23}when {\k21}they {\k24}don't {\k22}know {\k20}I'm {\k25}com{\k45}ing,
+Dialogue: 0,0:01:03.35,0:01:07.83,Fincel,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Got{\k22}ta {\k46}give {\k22}to {\k22}the {\k45}poor, {\k24}no {\k21}time {\k23}for {\k38}lo{\k52}vin'
+Dialogue: 0,0:01:07.00,0:01:09.86,Fincel,,0,0,0,fx,{\k90\fad(300,200)}{\k17}My {\k24}oh {\k44}my {\k22}don't {\k23}you {\k45}cry,
+Dialogue: 0,0:01:08.76,0:01:11.45,Fincel,,0,0,0,fx,{\k90\fad(300,200)}{\k24}'cause {\k21}there's {\k23}no {\k19}way {\k20}I'm {\k28}stay{\k24}ing,
+Dialogue: 0,0:01:10.57,0:01:15.08,Fincel,,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k25}will {\k30}leave {\k35}say {\k24}bye {\k44}bye, {\k23}I'm {\k23}go{\k22}ing {\k44}my {\k49}way
+Dialogue: 0,0:01:15.76,0:01:20.01,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k43}My {\k46}oh {\k46}my {\k20}do {\k25}you {\k23}want {\k19}to {\k26}say {\k22}good{\k45}bye?
+Dialogue: 0,0:01:19.14,0:01:23.84,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k24}To {\k47}have {\k41}the {\k23}king{\k23}dom, {\k23}ba{\k21}by, {\k44}tell {\k47}me {\k66}why
+Dialogue: 0,0:01:22.99,0:01:27.23,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k46}My {\k42}oh {\k46}my {\k22}do {\k22}you {\k16}want {\k17}to {\k36}say {\k23}good{\k43}bye?
+Dialogue: 0,0:01:26.37,0:01:31.05,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k21}To {\k46}rule {\k43}the {\k24}coun{\k25}try, {\k20}ba{\k22}by, {\k48}you {\k45}and {\k76}I?
+Dialogue: 0,0:01:30.87,0:01:35.11,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k48}If {\k18}you {\k22}were {\k24}my {\kf181}King,
+Dialogue: 0,0:01:33.13,0:01:35.35,Fanchant,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Oh {\k22}wh{\k46}o{\k22}ah
+Dialogue: 0,0:01:34.49,0:01:38.74,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k44}I {\k23}would {\k22}be {\k22}your {\kf181}Queen,
+Dialogue: 0,0:01:36.73,0:01:38.96,Fanchant,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Oh {\k22}wh{\k46}o{\k23}ah
+Dialogue: 0,0:01:38.12,0:01:42.36,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k40}If {\k23}you {\k22}were {\k23}my {\kf205}King,
+Dialogue: 0,0:01:40.35,0:01:42.78,Fanchant,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Oh {\k22}wh{\k44}o{\k45}ah
+Dialogue: 0,0:01:41.71,0:01:45.94,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k43}I {\k23}would {\k22}be {\k22}your {\kf181}Queen,
+Dialogue: 0,0:01:44.25,0:01:46.25,Fanchant,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Oh {\k22}wh{\k23}o{\k45}ah
+Dialogue: 0,0:01:46.43,0:01:50.91,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k23}My{\k23}ste{\k41}ry {\k47}deep {\k21}in {\k24}the {\k27}ro{\k61}yal {\k71}heart
+Dialogue: 0,0:01:50.03,0:01:54.29,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Cry{\k21}ing {\k22}at {\k44}night, {\k24}I {\k24}wan{\k21}na {\k46}be {\k44}a{\k46}part
+Dialogue: 0,0:01:53.65,0:01:57.91,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Prince, {\k21}oh, {\k49}prince {\k22}are {\k45}you {\k24}real{\k22}ly {\k44}sinc{\k46}ere?
+Dialogue: 0,0:01:57.27,0:02:01.73,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k20}That {\k25}you {\k40}one {\k27}day {\k22}are {\k22}gon{\k24}na {\k44}dis{\k45}ap{\k67}pear?
+Dialogue: 0,0:02:01.09,0:02:03.99,Fincel,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Got{\k17}ta {\k47}steal {\k26}from {\k18}the {\k38}rich,
+Dialogue: 0,0:02:02.89,0:02:05.79,Fincel,,0,0,0,fx,{\k90\fad(300,200)}{\k23}when {\k21}they {\k24}don't {\k22}know {\k20}I'm {\k25}com{\k45}ing,
+Dialogue: 0,0:02:04.69,0:02:09.18,Fincel,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Got{\k22}ta {\k46}give {\k22}to {\k22}the {\k45}poor, {\k24}no {\k21}time {\k23}for {\k38}lo{\k52}vin'
+Dialogue: 0,0:02:08.31,0:02:11.21,Fincel,,0,0,0,fx,{\k90\fad(300,200)}{\k17}My {\k24}oh {\k44}my {\k22}don't {\k23}you {\k45}cry,
+Dialogue: 0,0:02:10.11,0:02:12.78,Fincel,,0,0,0,fx,{\k90\fad(300,200)}{\k24}'cause {\k21}there's {\k23}no {\k19}way {\k20}I'm {\k28}stay{\k24}ing,
+Dialogue: 0,0:02:11.91,0:02:16.52,Fincel,,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k25}will {\k30}leave {\k35}say {\k24}bye {\k44}bye, {\k23}I'm {\k23}go{\k22}ing {\k44}my {\k49}way
+Dialogue: 0,0:02:17.09,0:02:19.78,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k47}My {\k44}oh {\k68}my
+Dialogue: 0,0:02:18.92,0:02:21.56,Fanchant,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Oh {\k44}who{\k66}ah
+Dialogue: 0,0:02:20.71,0:02:23.36,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k47}My {\k44}oh {\k68}my
+Dialogue: 0,0:02:22.52,0:02:25.18,Fanchant,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Oh {\k44}who{\k66}ah
+Dialogue: 0,0:02:24.32,0:02:26.98,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k47}My {\k44}oh {\k68}my
+Dialogue: 0,0:02:26.12,0:02:28.87,Fanchant,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Oh {\k44}who{\k66}ah
+Dialogue: 0,0:02:27.94,0:02:30.58,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k47}My {\k44}oh {\k68}my
+Dialogue: 0,0:02:31.55,0:02:35.80,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k43}My {\k46}oh {\k46}my {\k20}do {\k25}you {\k23}want {\k19}to {\k26}say {\k22}good{\k45}bye?
+Dialogue: 0,0:02:34.92,0:02:39.41,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k24}To {\k47}have {\k41}the {\k23}king{\k23}dom, {\k23}ba{\k21}by, {\k44}tell {\k47}me {\k66}why
+Dialogue: 0,0:02:38.76,0:02:43.02,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k43}My {\k46}oh {\k46}my {\k20}do {\k25}you {\k23}want {\k19}to {\k26}say {\k22}good{\k45}bye?
+Dialogue: 0,0:02:42.13,0:02:47.02,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k21}To {\k46}rule {\k43}the {\k24}coun{\k25}try, {\k20}ba{\k22}by, {\k48}you {\k45}and {\k76}I?
+Dialogue: 0,0:02:45.99,0:02:50.24,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k43}My {\k46}oh {\k46}my {\k20}do {\k25}you {\k23}want {\k19}to {\k26}say {\k22}good{\k45}bye?
+Dialogue: 0,0:02:49.36,0:02:54.07,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k24}To {\k47}have {\k41}the {\k23}king{\k23}dom, {\k23}ba{\k21}by, {\k44}tell {\k47}me {\k66}why
+Dialogue: 0,0:02:53.18,0:02:57.44,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k43}My {\k46}oh {\k46}my {\k20}do {\k25}you {\k23}want {\k19}to {\k26}say {\k22}good{\k45}bye?
+Dialogue: 0,0:02:56.57,0:03:01.50,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k21}To {\k46}rule {\k43}the {\k24}coun{\k25}try, {\k20}ba{\k22}by, {\k48}you {\k45}and {\k76}I?
+Dialogue: 0,0:03:01.13,0:03:05.34,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k48}If {\k18}you {\k22}were {\k24}my {\kf181}King,
+Dialogue: 0,0:03:03.38,0:03:05.74,Fanchant,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Oh {\k22}wh{\k46}o{\k23}ah
+Dialogue: 0,0:03:04.70,0:03:08.96,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k44}I {\k23}would {\k22}be {\k22}your {\kf181}Queen,
+Dialogue: 0,0:03:06.96,0:03:09.32,Fanchant,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Oh {\k22}wh{\k46}o{\k23}ah
+Dialogue: 0,0:03:08.29,0:03:12.55,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k48}If {\k18}you {\k22}were {\k24}my {\kf181}King,
+Dialogue: 0,0:03:10.57,0:03:12.95,Fanchant,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Oh {\k22}wh{\k46}o{\k23}ah
+Dialogue: 0,0:03:11.91,0:03:16.17,Mari Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k44}I {\k23}would {\k22}be {\k22}your {\kf181}Queen,
+Dialogue: 0,0:03:14.15,0:03:19.93,Fanchant,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Oh {\k28}wh{\k39}o{\k49}ah {\k41}who{\k45}ah {\k45}who{\k37}ah {\k43}who{\k51}ah {\k28}who{\k38}ah
