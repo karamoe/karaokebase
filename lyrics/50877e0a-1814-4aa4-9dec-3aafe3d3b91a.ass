@@ -1,0 +1,259 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Title: Here Comes the CHADCAST
+Original Timing: Akmenukas
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: CHADCAST,Arial,24,&H00FFFFFF,&H00FEC933,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Calli,Arial,24,&H00FFFFFF,&H00CDB0FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: IRyS,Arial,24,&H00FFFFFF,&H008E52E0,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Bae,Arial,24,&H00FFFFFF,&H004358EC,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Calli and Bae,Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Calli [Down],Arial,24,&H00FFFFFF,&H00CDB0FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+Style: IRyS [Down],Arial,24,&H00FFFFFF,&H008E52E0,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 1,0:00:00.00,0:00:00.00,CHADCAST,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:03.39,0:00:05.19,CHADCAST,,0,0,0,karaoke,{\k20}Cha{\k21}-cha{\k18}-cha{\k44}-chad {\k77}cast
+Comment: 0,0:00:04.99,0:00:06.33,CHADCAST,,0,0,0,karaoke,{\k30}Every{\k40}body {\k27}knows {\k17}it
+Comment: 0,0:00:06.29,0:00:08.11,CHADCAST,,0,0,0,karaoke,{\k21}Got {\k22}laugh{\k19}ter {\k21}in {\k22}our {\k57}veins
+Comment: 0,0:00:08.12,0:00:09.57,CHADCAST,,0,0,0,karaoke,{\k25}Hang{\k21}ing {\k18}with {\k11}the {\k33}ho{\k37}mies,
+Comment: 0,0:00:09.57,0:00:11.35,CHADCAST,,0,0,0,karaoke,{\k19}we {\k25}yap {\k16}un{\k23}til {\k22}day {\k53}breaks
+Comment: 0,0:00:11.24,0:00:14.42,CHADCAST,,0,0,0,karaoke,{\k21}Cos {\k21}we {\k15}the {\k26}three {\k20}and {\k22}on{\k39}ly, {\k16}I{\k26}RyS, {\k21}Mo{\k20}ri, {\k19}and {\k32}Bae
+Comment: 0,0:00:14.71,0:00:16.75,CHADCAST,,0,0,0,karaoke,{\k13}Bet{\k10}ter {\k9}buck{\k7}le {\k24}up, {\k20}it's {\k7}a{\k14}bout {\k10}to {\k27}go {\k43}down
+Comment: 0,0:00:16.30,0:00:19.88,CHADCAST,,0,0,0,karaoke,{\k25}All {\k19}for {\k25}one {\k13}and {\k39}one {\k32}for {\kf185}all
+Comment: 0,0:00:22.24,0:00:23.57,Calli,,0,0,0,karaoke,{\k34}Hear {\k19}me {\k60}out
+Comment: 0,0:00:23.95,0:00:25.06,Bae,,0,0,0,karaoke,{\k29}Hear {\k15}me {\k47}out
+Comment: 0,0:00:25.54,0:00:26.61,IRyS,,0,0,0,karaoke,{\k28}Hear {\k22}me {\k37}out
+Comment: 0,0:00:26.41,0:00:28.28,CHADCAST,,0,0,0,karaoke,{\k23}Here {\k27}comes {\k10}the {\k43}chad {\k64}cast!
+Comment: 0,0:00:28.08,0:00:29.03,Calli,,0,0,0,karaoke,{\k15}Roll {\k27}up, {\k21}roll {\k13}up
+Comment: 0,0:00:28.83,0:00:31.49,Calli,,0,0,0,karaoke,{\k28}you {\k21}know {\k9}the{\k41} show's {\k9}a{\k20}bout {\k9}to {\k110}start
+Comment: 0,0:00:31.35,0:00:34.79,IRyS,,0,0,0,karaoke,{\k14}Pro{\k24}mise {\k27}so {\k18}my{\k20}thi{\k19}cal {\k22}to {\k51}break {\k33}your {\k96}heart
+Comment: 0,0:00:34.68,0:00:36.13,Bae,,0,0,0,karaoke,{\k16}We {\k24}bring {\k19}that {\k29}boom {\k37}juice
+Comment: 0,0:00:35.93,0:00:38.21,Bae,,0,0,0,karaoke,{\k18}Al{\k32}ways {\k29}fresh{\k13}ly {\k88}squee{\k28}zed
+Comment: 0,0:00:37.72,0:00:39.29,Calli,,0,0,0,karaoke,{\k3}You {\k9}wan{\k8}na {\k7}take {\k10}a {\k27}ride? {\k21}Then {\k17}meet {\k5}the {\k36}height!
+Comment: 0,0:00:39.09,0:00:41.12,IRyS,,0,0,0,karaoke,{\k15}Don't {\k15}for{\k23}get {\k17}Bae's {\k27}boos{\k8}ter {\k78}seat
+Comment: 0,0:00:41.14,0:00:43.73,Bae,,0,0,0,karaoke,{\k20}O{\k44}kay {\k11}it's {\k26}verse {\k12}one {\k10}and {\k13}al{\k16}rea{\k9}dy {\k16}I'm {\k12}be{\k9}ing {\k41}teased
+Comment: 0,0:00:43.66,0:00:44.61,Bae,,0,0,0,karaoke,{\k38}Just {\k37}great
+Comment: 0,0:00:44.46,0:00:46.28,Calli,,0,0,0,karaoke,{\k24}Roll {\k59}call, {\k18}here {\k8}we {\k53}go
+Comment: 0,0:00:46.32,0:00:47.35,Bae,,0,0,0,karaoke,{\k21}Cau{\k20}sing {\k42}chaos
+Comment: 0,0:00:47.15,0:00:49.53,Bae,,0,0,0,karaoke,{\k31}Hey {\k16}it's {\k37}Bae, {\k19}all {\k29}up {\k16}on {\k6}your {\k64}screen
+Comment: 0,0:00:49.59,0:00:52.65,IRyS,,0,0,0,karaoke,{\k30}Hope{\k18}fu{\k22}lly {\k16}I'll {\k25}keep {\k12}it {\k28}sei{\k34}so {\k10}this {\k91}stream
+Comment: 0,0:00:52.92,0:00:56.01,Calli,,0,0,0,karaoke,{\k42}Death's {\k21}Dad {\k19}Cal{\k24}li{\k19}o{\k22}pe, {\k14}beg {\k19}for {\k23}your {\k26}life {\k13}and {\k47}crawl
+Comment: 0,0:00:55.81,0:00:57.61,CHADCAST,,0,0,0,karaoke,{\k26}Mir{\k20}ror {\k19}mir{\k19}ror {\k23}on {\k18}the {\k35}wall
+Comment: 0,0:00:57.41,0:00:59.16,CHADCAST,,0,0,0,karaoke,{\k28}Who's {\k18}the {\k28}chad{\k14}dest {\k25}cast {\k16}of {\k26}all?
+Comment: 0,0:00:58.96,0:01:00.68,CHADCAST,,0,0,0,karaoke,{\k16}We {\k26}on{\k39}ly {\k37}stop {\k34}if
+Comment: 0,0:01:00.50,0:01:02.53,Calli,,0,0,0,karaoke,{\k15}I {\k6}ac{\k14}ci{\k18}den{\k7}tal{\k6}ly {\k53}hit {\k64}"end"
+Comment: 0,0:01:02.33,0:01:04.02,CHADCAST,,0,0,0,karaoke,{\k47}Every{\k43}body {\k24}knows {\k35}it
+Comment: 0,0:01:03.82,0:01:05.65,CHADCAST,,0,0,0,karaoke,{\k29}Got {\k14}laugh{\k19}ter {\k22}in {\k21}our {\k58}veins
+Comment: 0,0:01:05.69,0:01:07.13,CHADCAST,,0,0,0,karaoke,{\k21}Hang{\k21}ing {\k19}with {\k14}the {\k28}ho{\k41}mies,
+Comment: 0,0:01:07.13,0:01:08.86,CHADCAST,,0,0,0,karaoke,{\k21}we {\k23}yap {\k13}un{\k23}til {\k22}day {\k51}breaks
+Comment: 0,0:01:08.77,0:01:11.95,CHADCAST,,0,0,0,karaoke,{\k19}Cos {\k23}we {\k19}the {\k30}three {\k15}and {\k59}only, {\k15}I{\k24}RyS, {\k22}Mo{\k21}ri, {\k21}and {\k30}Bae
+Comment: 0,0:01:12.24,0:01:13.90,CHADCAST,,0,0,0,karaoke,{\k12}go{\k10}ro{\k12}go{\k9}ro {\k12}go{\k8}ro{\k11}go{\k7}ro {\k25}kyou{\k40}gen
+Comment: 0,0:01:13.70,0:01:15.38,CHADCAST,,0,0,0,karaoke,{\k18}OUR {\k17}TO{\k15}PIC {\k9}IS {\k11}mu{\k29}se{\k23}i{\k26}gen
+Comment: 0,0:01:15.35,0:01:17.56,CHADCAST,,0,0,0,karaoke,{\k35}All {\k26}for {\k21}one {\k21}and {\k32}one {\k30}for {\k36}all
+Comment: 0,0:01:17.36,0:01:19.14,Bae,,0,0,0,karaoke,{\k24}Come {\k22}Have {\k7}A {\k29}Dance {\k19}with {\k6}the {\k51}CHADs
+Comment: 0,0:01:18.76,0:01:21.22,CHADCAST,,0,0,0,karaoke,{\k24}All {\k25}for {\k21}one {\k21}and {\k32}one {\k30}for {\k73}all
+Comment: 0,0:01:20.68,0:01:22.37,IRyS,,0,0,0,karaoke,{\k8}Com{\k14}ing {\k22}through {\k8}with {\k6}the {\k20}back{\k27}stage {\k44}pass
+Comment: 0,0:01:21.99,0:01:24.59,CHADCAST,,0,0,0,karaoke,{\k28}All {\k27}for {\k20}one {\k21}and {\k34}one {\k28}for {\k82}all
+Comment: 0,0:01:23.97,0:01:25.53,Calli,,0,0,0,karaoke,{\k27}Triple {\k15}A {\k18}cos {\k15}we {\k8}in {\k11}the {\k42}band
+Comment: 0,0:01:25.33,0:01:28.85,CHADCAST,,0,0,0,karaoke,{\k26}NON {\k23}STOP {\k17}de {\k5}hou{\k57}sou {\kf204}YEAH~
+Comment: 0,0:01:33.75,0:01:37.10,IRyS,,0,0,0,karaoke,{\k29}Hold {\k17}up, {\k24}hold {\k22}up {\k19}there's {\k20}some{\k17}thing {\k38}I've {\k32}got{\k17}ta {\kf80}ask
+Comment: 0,0:01:36.31,0:01:37.10,CHADCAST,,0,0,0,karaoke,{\k17}Yeah, {\k17}what's {\k25}up?
+Comment: 0,0:01:37.13,0:01:40.30,IRyS,,0,0,0,karaoke,{\k11}We're {\k25}all {\k25}to{\k21}geth{\k11}er {\k29}so {\k22}you {\k30}wan{\k39}na {\f69}sma{\k15}sh?
+Comment: 0,0:01:40.10,0:01:40.84,Bae,,0,0,0,karaoke,{\k54}Smash?
+Comment: 0,0:01:40.64,0:01:41.69,IRyS,,0,0,0,karaoke,{\k20}Yeah {\k13}on {\k9}the {\k24}T{\k19}V
+Comment: 0,0:01:41.36,0:01:43.46,Calli and Bae,,0,0,0,karaoke,{\k20}You {\k9}wan{\k14}na {\k40}smash {\k29}on {\k10}the {\k21}T{\k47}V?
+Comment: 0,0:01:43.26,0:01:45.33,Calli,,0,0,0,karaoke,{\k22}YA{\k20}BAI, {\k22}YA{\k14}BAI{\k25}RyS, {\k15}good {\k22}freak{\k22}ing {\k25}night
+Comment: 0,0:01:44.87,0:01:46.70,Bae,,0,0,0,karaoke,{\k19}This {\k7}is {\k13}get{\k9}ting {\k19}too {\k25}much {\k10}for {\kf61}me
+Comment: 0,0:01:46.18,0:01:47.23,IRyS [Down],,0,0,0,karaoke,{\k21}Did {\k9}I {\k15}say {\k28}something {\k21}wrong?
+Comment: 0,0:01:46.82,0:01:49.72,Calli,,0,0,0,karaoke,{\k28}Al{\k33}right {\k16}al{\k41}right, {\k36}let's {\k27}fo{\k20}cus, {\k16}la{\k53}dies
+Comment: 0,0:01:50.81,0:01:51.80,Calli,,0,0,0,karaoke,{\k16}Show {\k20}em {\k8}what {\k6}you {\k29}got
+Comment: 0,0:01:52.14,0:01:53.41,Bae,,0,0,0,karaoke,{\k17}Bet{\k9}ting {\k7}it {\k17}all {\k18}on {\k14}the {\k25}red,
+Comment: 0,0:01:53.21,0:01:55.19,Bae,,0,0,0,karaoke,{\k20}Roll{\k20}ing {\k14}the {\k25}dice {\k9}and {\k25}watch{\k18}ing {\k8}me {\k39}win
+Comment: 0,0:01:55.41,0:01:56.90,IRyS,,0,0,0,karaoke,{\k20}Ruby {\k22}heart {\k10}with {\k11}a {\k20}dark {\k20}mind {\k26}I'll
+Comment: 0,0:01:56.85,0:01:58.48,IRyS,,0,0,0,karaoke,{\k10}Be {\k8}your {\k20}an{\k12}gel, {\k18}de{\k13}vil {\k12}and {\k8}your {\k25}i{\k17}dol
+Comment: 0,0:01:58.69,0:02:00.00,Calli,,0,0,0,karaoke,{\k8}Pre{\k10}tty {\k18}in {\k27}pink {\k21}that {\k11}will {\k16}be
+Comment: 0,0:01:59.80,0:02:00.85,Calli,,0,0,0,karaoke,{\k13}The {\k28}last {\k12}thing {\k9}you {\k23}see
+Comment: 0,0:02:00.65,0:02:01.80,Calli,,0,0,0,karaoke,{\k11}Be{\k13}fore {\k9}your {\k30}soul{\k11}'s {\k10}fre{\k11}ed
+Comment: 0,0:02:01.60,0:02:03.31,CHADCAST,,0,0,0,karaoke,{\k18}Mir{\k21}ror {\k21}mir{\k18}ror {\k23}on {\k19}the {\k31}wall
+Comment: 0,0:02:03.11,0:02:04.91,CHADCAST,,0,0,0,karaoke,{\k29}Who's {\k16}the {\k27}chad{\k17}dest {\k34}cast {\k15}of {\k22}all?
+Comment: 0,0:02:04.71,0:02:06.53,CHADCAST,,0,0,0,karaoke,{\k15}We {\k28}on{\k36}ly {\k40}stop {\k43}if
+Comment: 0,0:02:06.33,0:02:08.43,Bae,,0,0,0,karaoke,{\k19}We {\k20}laugh {\k23}till {\k20}we {\k42}can't {\k66}breathe
+Comment: 0,0:02:08.23,0:02:09.77,CHADCAST,,0,0,0,karaoke,{\k32}Every{\k42}body {\k27}knows {\k33}it
+Comment: 0,0:02:09.57,0:02:11.39,CHADCAST,,0,0,0,karaoke,{\k23}Got {\k21}beats {\k20}to {\k16}make {\k23}you {\k59}dance
+Comment: 0,0:02:11.37,0:02:13.06,CHADCAST,,0,0,0,karaoke,{\k27}Shmo{\k22}vin {\k19}with {\k11}the {\k31}ho{\k39}mies
+Comment: 0,0:02:12.86,0:02:14.63,IRyS,,0,0,0,karaoke,{\k22}And {\k21}may{\k11}be {\k36}squeeze {\k15}their {\k8}a{\k44}***
+Comment: 0,0:02:14.52,0:02:15.13,Calli [Down],,0,0,0,karaoke,{\k41}Hey!
+Comment: 0,0:02:14.62,0:02:16.16,CHADCAST,,0,0,0,karaoke,{\k11}Cos {\k21}we {\k17}the {\k24}three {\k19}and {\k42}only
+Comment: 0,0:02:16.15,0:02:17.81,CHADCAST,,0,0,0,karaoke,{\k14}The {\k48}Chaos, {\k20}Hope {\k19}and {\k45}Death
+Comment: 0,0:02:17.99,0:02:21.13,CHADCAST,,0,0,0,karaoke,{\k12}ka{\k9}ri{\k13}ka{\k7}ri {\k13}ka{\k7}ri{\k13}ka{\k10}ri {\k14}wa {\k43}xuán {\k25}ju{\k42}myou {\k17}wa {\k25}e{\k20}i{\k24}en
+Comment: 0,0:02:21.10,0:02:23.34,CHADCAST,,0,0,0,karaoke,{\k32}All {\k30}for {\k21}one {\k21}and {\k36}one {\k26}for {\k38}all
+Comment: 0,0:02:23.14,0:02:25.00,Calli,,0,0,0,karaoke,{\k19}Come {\k22}Have {\k9}A {\k29}Dance {\k11}with {\k8}the {\k68}CHADs
+Comment: 0,0:02:24.38,0:02:26.85,CHADCAST,,0,0,0,karaoke,{\k42}All {\k20}for {\k21}one {\k22}and {\k35}one {\k26}for {\k61}all
+Comment: 0,0:02:26.04,0:02:27.93,Bae,,0,0,0,karaoke,{\k12}If {\k6}you're {\k23}down{\k20}-un{\k22}der, {\k12}then {\k6}you {\k13}un{\k9}der{\k46}stand
+Comment: 0,0:02:27.62,0:02:30.14,CHADCAST,,0,0,0,karaoke,{\k47}All {\k26}for {\k14}one {\k27}and {\k27}one {\k29}for {\k62}all
+Comment: 0,0:02:29.69,0:02:31.43,IRyS,,0,0,0,karaoke,{\k16}Yeah {\k10}I'm {\k37}down, {\k23}down {\k24}down {\k44}bad
+Comment: 0,0:02:31.00,0:02:34.78,CHADCAST,,0,0,0,karaoke,{\k29}NON {\k30}STOP {\k7}de {\k9}hou{\k57}sou {\kf226}YEAH~
+Comment: 0,0:02:35.82,0:02:38.74,Calli,,0,0,0,karaoke,{\k28}Chill{\k30}ing, {\k33}sing{\k19}ing {\k22}in {\k9}the {\k24}hot{\k28}spring, {\k32}just {\k10}for {\k37}fun
+Comment: 0,0:02:39.38,0:02:41.98,IRyS,,0,0,0,karaoke,{\k14}Late {\k22}night {\k37}snacks {\k10}and {\k23}ra{\k12}men {\k27}'til {\k10}we {\k29}see {\k8}the {\k48}sun
+Comment: 0,0:02:42.50,0:02:45.24,Bae,,0,0,0,karaoke,{\k35}O{\k11}jou{\k16}-sa{\k20}ma {\k39}needs {\k18}to {\k21}drink {\k22}her {\k35}R{\k37}1
+Comment: 0,0:02:44.94,0:02:46.02,IRyS [Down],,0,0,0,karaoke,{\k11}o{\k13}jou{\k12}-sa{\k10}ma {\k6}ja {\k56}nai
+Comment: 0,0:02:45.40,0:02:46.37,CHADCAST,,0,0,0,karaoke,{\k12}We {\k24}made {\k8}it {\k33}clear
+Comment: 0,0:02:46.17,0:02:47.19,CHADCAST,,0,0,0,karaoke,{\k20}No {\k30}beta's {\k32}here
+Comment: 0,0:02:46.99,0:02:49.04,CHADCAST,,0,0,0,karaoke,{\k21}Cos {\k20}all {\k17}of {\k26}us {\k13}the {\k31}chads {\k10}ya {\k47}fear
+Comment: 0,0:02:48.55,0:02:54.15,Calli,,0,0,0,karaoke,{\k29}Hear {\k22}me {\kf489}out
+Comment: 0,0:02:50.24,0:02:54.15,Bae,,0,0,0,karaoke,{\k27}Hear {\k19}me {\kf325}out
+Comment: 0,0:02:51.82,0:02:54.15,IRyS,,0,0,0,karaoke,{\k23}Hear {\k23}me {\kf167}out
+Comment: 0,0:02:54.37,0:02:55.43,IRyS,,0,0,0,karaoke,{\k23}With {\k21}one {\k42}look
+Comment: 0,0:02:55.17,0:02:56.28,Bae,,0,0,0,karaoke,{\k25}Chat {\k14}is {\k52}shook
+Comment: 0,0:02:55.94,0:02:57.73,Calli,,0,0,0,karaoke,{\k30}Let {\k25}her {\kf104}cook
+Comment: 0,0:02:57.65,0:02:59.43,CHADCAST,,0,0,0,karaoke,{\k21}Here {\k27}comes {\k7}the {\k46}CHAD {\k57}CAST!
+Comment: 0,0:02:59.23,0:03:00.67,CHADCAST,,0,0,0,karaoke,{\k17}Every{\k41}body {\k24}knows {\k29}it
+Comment: 0,0:03:00.47,0:03:02.32,CHADCAST,,0,0,0,karaoke,{\k28}Got {\k19}laugh{\k20}ter {\k21}in {\k20}our {\k57}veins
+Comment: 0,0:03:02.36,0:03:03.87,CHADCAST,,0,0,0,karaoke,{\k25}Hang{\k21}ing {\k17}with {\k16}the {\k28}ho{\k24}mies
+Comment: 0,0:03:03.84,0:03:05.60,CHADCAST,,0,0,0,karaoke,{\k18}We {\k21}yap {\k18}un{\k24}til {\k6}the {\k17}day {\k52}breaks
+Comment: 0,0:03:05.55,0:03:08.66,CHADCAST,,0,0,0,karaoke,{\k13}Cos {\k22}we {\k15}the {\k33}three {\k18}and {\k53}only, {\k22}I{\k21}RyS, {\k22}Mo{\k21}ri, {\k20}and {\k31}Bae
+Comment: 0,0:03:08.96,0:03:10.62,CHADCAST,,0,0,0,karaoke,{\k12}go{\k11}ro{\k10}go{\k10}ro {\k10}go{\k9}ro{\k11}go{\k8}ro {\k24}kyou{\k41}gen
+Comment: 0,0:03:10.42,0:03:12.39,CHADCAST,,0,0,0,karaoke,{\k17}OUR {\k23}TO{\k13}PIC {\k7}IS {\k13}mu{\k30}se{\k39}i{\k35}gen
+Comment: 0,0:03:12.26,0:03:13.70,CHADCAST,,0,0,0,karaoke,{\k41}Every{\k38}body {\k31}knows {\k14}it
+Comment: 0,0:03:13.63,0:03:15.58,CHADCAST,,0,0,0,karaoke,{\k7}We {\k22}got {\k22}beats {\k18}to {\k18}make {\k22}you {\k66}dance
+Comment: 0,0:03:15.56,0:03:17.12,IRyS,,0,0,0,karaoke,{\k20}Al{\k22}ways {\k21}kiss {\k19}your {\k20}ho{\k34}mies
+Comment: 0,0:03:16.92,0:03:19.10,IRyS,,0,0,0,karaoke,{\k28}There's {\k20}be{\k19}ne{\k23}fits {\k18}to {\k90}friends
+Comment: 0,0:03:18.78,0:03:20.44,CHADCAST,,0,0,0,karaoke,{\k24}We {\k21}the {\k23}three {\k20}and {\k58}only
+Comment: 0,0:03:20.24,0:03:21.92,CHADCAST,,0,0,0,karaoke,{\k16}We're {\k47}Chaos, {\k21}Hope {\k18}and {\k46}Death
+Comment: 0,0:03:21.72,0:03:25.46,CHADCAST,,0,0,0,karaoke,{\k13}The {\k47}hot{\k36}test {\k47}takes {\k31}with {\k28}the {\rBae}{\k48}hot{\k21}test {\k103}cast
+Comment: 0,0:03:25.26,0:03:27.81,CHADCAST,,0,0,0,karaoke,{\k29}All {\k28}for {\k21}one {\k19}and {\k32}one {\k29}for {\k77}all
+Comment: 0,0:03:26.84,0:03:28.90,IRyS,,0,0,0,karaoke,{\k13}Could {\k9}an {\k15}o{\k17}jou{\k12}-sa{\k19}ma {\k21}hang {\k22}with {\k13}the {\k45}gang?
+Comment: 0,0:03:28.46,0:03:31.09,CHADCAST,,0,0,0,karaoke,{\k42}All {\k24}for {\k20}one {\k20}and {\k34}one {\k29}for {\k74}all
+Comment: 0,0:03:30.41,0:03:32.11,Bae,,0,0,0,karaoke,{\k25}Chill {\k32}out {\k20}like {\k23}bro, {\k17}u {\k33}mad?
+Comment: 0,0:03:31.73,0:03:34.03,CHADCAST,,0,0,0,karaoke,{\k41}All {\k21}for {\k26}one {\k20}and {\k32}one {\k30}for {\k40}all
+Comment: 0,0:03:33.83,0:03:35.48,Calli,,0,0,0,karaoke,{\k12}Cut {\k10}it {\k20}out, {\k9}lis{\k12}ten {\k12}to {\k20}your {\k50}dad!
+Comment: 0,0:03:35.13,0:03:37.02,CHADCAST,,0,0,0,karaoke,{\k35}WE {\k21}BRING {\k13}YOU {\k13}THE {\k56}sou{\k31}-dou
+Comment: 0,0:03:36.82,0:03:38.69,CHADCAST,,0,0,0,karaoke,{\k15}a{\k24}ra{\k20}shi {\k13}no {\k58}sou{\k37}-hou
+Comment: 0,0:03:38.49,0:03:42.17,CHADCAST,,0,0,0,karaoke,{\k18}NON {\k30}STOP {\k8}de {\k10}hou{\k60}sou {\kf222}YEAH~
+Dialogue: 1,0:00:02.49,0:00:05.39,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Cha{\k21}-cha{\k18}-cha{\k44}-chad {\k77}cast
+Dialogue: 1,0:00:04.09,0:00:06.53,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Every{\k40}body {\k27}knows {\k17}it
+Dialogue: 1,0:00:05.39,0:00:08.31,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Got {\k22}laugh{\k19}ter {\k21}in {\k22}our {\k57}veins
+Dialogue: 1,0:00:07.22,0:00:09.77,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Hang{\k21}ing {\k18}with {\k11}the {\k33}ho{\k37}mies,
+Dialogue: 1,0:00:08.67,0:00:11.55,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k19}we {\k25}yap {\k16}un{\k23}til {\k22}day {\k53}breaks
+Dialogue: 1,0:00:10.34,0:00:14.62,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Cos {\k21}we {\k15}the {\k26}three {\k20}and {\k22}on{\k39}ly, {\k16}I{\k26}RyS, {\k21}Mo{\k20}ri, {\k19}and {\k32}Bae
+Dialogue: 1,0:00:13.81,0:00:16.95,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Bet{\k10}ter {\k9}buck{\k7}le {\k24}up, {\k20}it's {\k7}a{\k14}bout {\k10}to {\k27}go {\k43}down
+Dialogue: 1,0:00:15.40,0:00:20.08,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k25}All {\k19}for {\k25}one {\k13}and {\k39}one {\k32}for {\kf185}all
+Dialogue: 1,0:00:21.34,0:00:23.77,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Hear {\k19}me {\k60}out
+Dialogue: 1,0:00:23.05,0:00:25.26,Bae,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Hear {\k15}me {\k47}out
+Dialogue: 1,0:00:24.64,0:00:26.81,IRyS,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Hear {\k22}me {\k37}out
+Dialogue: 1,0:00:25.51,0:00:28.48,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Here {\k27}comes {\k10}the {\k43}chad {\k64}cast!
+Dialogue: 1,0:00:27.18,0:00:29.23,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Roll {\k27}up, {\k21}roll {\k13}up
+Dialogue: 1,0:00:27.93,0:00:31.69,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k28}you {\k21}know {\k9}the{\k41} show's {\k9}a{\k20}bout {\k9}to {\k110}start
+Dialogue: 1,0:00:30.45,0:00:34.99,IRyS,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Pro{\k24}mise {\k27}so {\k18}my{\k20}thi{\k19}cal {\k22}to {\k51}break {\k33}your {\k96}heart
+Dialogue: 1,0:00:33.78,0:00:36.33,Bae,,0,0,0,fx,{\k90\fad(300,200)}{\k16}We {\k24}bring {\k19}that {\k29}boom {\k37}juice
+Dialogue: 1,0:00:35.03,0:00:38.41,Bae,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Al{\k32}ways {\k29}fresh{\k13}ly {\k88}squee{\k28}zed
+Dialogue: 1,0:00:36.82,0:00:39.49,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k3}You {\k9}wan{\k8}na {\k7}take {\k10}a {\k27}ride? {\k21}Then {\k17}meet {\k5}the {\k36}height!
+Dialogue: 1,0:00:38.19,0:00:41.32,IRyS,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Don't {\k15}for{\k23}get {\k17}Bae's {\k27}boos{\k8}ter {\k78}seat
+Dialogue: 1,0:00:40.24,0:00:43.93,Bae,,0,0,0,fx,{\k90\fad(300,200)}{\k20}O{\k44}kay {\k11}it's {\k26}verse {\k12}one {\k10}and {\k13}al{\k16}rea{\k9}dy {\k16}I'm {\k12}be{\k9}ing {\k41}teased
+Dialogue: 1,0:00:42.76,0:00:44.81,Bae,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Just {\k37}great
+Dialogue: 1,0:00:43.56,0:00:46.48,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Roll {\k59}call, {\k18}here {\k8}we {\k53}go
+Dialogue: 1,0:00:45.42,0:00:47.55,Bae,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Cau{\k20}sing {\k42}chaos
+Dialogue: 1,0:00:46.25,0:00:49.73,Bae,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Hey {\k16}it's {\k37}Bae, {\k19}all {\k29}up {\k16}on {\k6}your {\k64}screen
+Dialogue: 1,0:00:48.69,0:00:52.85,IRyS,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Hope{\k18}fu{\k22}lly {\k16}I'll {\k25}keep {\k12}it {\k28}sei{\k34}so {\k10}this {\k91}stream
+Dialogue: 1,0:00:52.02,0:00:56.21,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k42}Death's {\k21}Dad {\k19}Cal{\k24}li{\k19}o{\k22}pe, {\k14}beg {\k19}for {\k23}your {\k26}life {\k13}and {\k47}crawl
+Dialogue: 1,0:00:54.91,0:00:57.81,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Mir{\k20}ror {\k19}mir{\k19}ror {\k23}on {\k18}the {\k35}wall
+Dialogue: 1,0:00:56.51,0:00:59.36,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Who's {\k18}the {\k28}chad{\k14}dest {\k25}cast {\k16}of {\k26}all?
+Dialogue: 1,0:00:58.06,0:01:00.88,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k16}We {\k26}on{\k39}ly {\k37}stop {\k34}if
+Dialogue: 1,0:00:59.60,0:01:02.73,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k15}I {\k6}ac{\k14}ci{\k18}den{\k7}tal{\k6}ly {\k53}hit {\k64}"end"
+Dialogue: 1,0:01:01.43,0:01:04.22,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k47}Every{\k43}body {\k24}knows {\k35}it
+Dialogue: 1,0:01:02.92,0:01:05.85,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Got {\k14}laugh{\k19}ter {\k22}in {\k21}our {\k58}veins
+Dialogue: 1,0:01:04.79,0:01:07.33,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Hang{\k21}ing {\k19}with {\k14}the {\k28}ho{\k41}mies,
+Dialogue: 1,0:01:06.23,0:01:09.06,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k21}we {\k23}yap {\k13}un{\k23}til {\k22}day {\k51}breaks
+Dialogue: 1,0:01:07.87,0:01:12.15,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Cos {\k23}we {\k19}the {\k30}three {\k15}and {\k59}only, {\k15}I{\k24}RyS, {\k22}Mo{\k21}ri, {\k21}and {\k30}Bae
+Dialogue: 1,0:01:11.34,0:01:14.10,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k12}go{\k10}ro{\k12}go{\k9}ro {\k12}go{\k8}ro{\k11}go{\k7}ro {\k25}kyou{\k40}gen
+Dialogue: 1,0:01:12.80,0:01:15.58,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k18}OUR {\k17}TO{\k15}PIC {\k9}IS {\k11}mu{\k29}se{\k23}i{\k26}gen
+Dialogue: 1,0:01:14.45,0:01:17.76,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k35}All {\k26}for {\k21}one {\k21}and {\k32}one {\k30}for {\k36}all
+Dialogue: 1,0:01:16.46,0:01:19.34,Bae,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Come {\k22}Have {\k7}A {\k29}Dance {\k19}with {\k6}the {\k51}CHADs
+Dialogue: 1,0:01:17.86,0:01:21.42,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k24}All {\k25}for {\k21}one {\k21}and {\k32}one {\k30}for {\k73}all
+Dialogue: 1,0:01:19.78,0:01:22.57,IRyS,,0,0,0,fx,{\k90\fad(300,200)}{\k8}Com{\k14}ing {\k22}through {\k8}with {\k6}the {\k20}back{\k27}stage {\k44}pass
+Dialogue: 1,0:01:21.09,0:01:24.79,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k28}All {\k27}for {\k20}one {\k21}and {\k34}one {\k28}for {\k82}all
+Dialogue: 1,0:01:23.07,0:01:25.73,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Triple {\k15}A {\k18}cos {\k15}we {\k8}in {\k11}the {\k42}band
+Dialogue: 1,0:01:24.43,0:01:29.05,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k26}NON {\k23}STOP {\k17}de {\k5}hou{\k57}sou {\kf204}YEAH~
+Dialogue: 1,0:01:32.85,0:01:37.30,IRyS,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Hold {\k17}up, {\k24}hold {\k22}up {\k19}there's {\k20}some{\k17}thing {\k38}I've {\k32}got{\k17}ta {\kf80}ask
+Dialogue: 1,0:01:35.41,0:01:37.30,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Yeah, {\k17}what's {\k25}up?
+Dialogue: 1,0:01:36.23,0:01:40.50,IRyS,,0,0,0,fx,{\k90\fad(300,200)}{\k11}We're {\k25}all {\k25}to{\k21}geth{\k11}er {\k29}so {\k22}you {\k30}wan{\k39}na {\f69}sma{\k15}sh?
+Dialogue: 1,0:01:39.20,0:01:41.04,Bae,,0,0,0,fx,{\k90\fad(300,200)}{\k54}Smash?
+Dialogue: 1,0:01:39.74,0:01:41.89,IRyS,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Yeah {\k13}on {\k9}the {\k24}T{\k19}V
+Dialogue: 1,0:01:40.46,0:01:43.66,Calli and Bae,,0,0,0,fx,{\k90\fad(300,200)}{\k20}You {\k9}wan{\k14}na {\k40}smash {\k29}on {\k10}the {\k21}T{\k47}V?
+Dialogue: 1,0:01:42.36,0:01:45.53,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k22}YA{\k20}BAI, {\k22}YA{\k14}BAI{\k25}RyS, {\k15}good {\k22}freak{\k22}ing {\k25}night
+Dialogue: 1,0:01:43.97,0:01:46.90,Bae,,0,0,0,fx,{\k90\fad(300,200)}{\k19}This {\k7}is {\k13}get{\k9}ting {\k19}too {\k25}much {\k10}for {\kf61}me
+Dialogue: 1,0:01:45.28,0:01:47.43,IRyS [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Did {\k9}I {\k15}say {\k28}something {\k21}wrong?
+Dialogue: 1,0:01:45.92,0:01:49.92,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Al{\k33}right {\k16}al{\k41}right, {\k36}let's {\k27}fo{\k20}cus, {\k16}la{\k53}dies
+Dialogue: 1,0:01:49.91,0:01:52.00,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Show {\k20}em {\k8}what {\k6}you {\k29}got
+Dialogue: 1,0:01:51.24,0:01:53.61,Bae,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Bet{\k9}ting {\k7}it {\k17}all {\k18}on {\k14}the {\k25}red,
+Dialogue: 1,0:01:52.31,0:01:55.39,Bae,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Roll{\k20}ing {\k14}the {\k25}dice {\k9}and {\k25}watch{\k18}ing {\k8}me {\k39}win
+Dialogue: 1,0:01:54.51,0:01:57.10,IRyS,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Ruby {\k22}heart {\k10}with {\k11}a {\k20}dark {\k20}mind {\k26}I'll
+Dialogue: 1,0:01:55.95,0:01:58.68,IRyS,,0,0,0,fx,{\k90\fad(300,200)}{\k10}Be {\k8}your {\k20}an{\k12}gel, {\k18}de{\k13}vil {\k12}and {\k8}your {\k25}i{\k17}dol
+Dialogue: 1,0:01:57.79,0:02:00.20,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k8}Pre{\k10}tty {\k18}in {\k27}pink {\k21}that {\k11}will {\k16}be
+Dialogue: 1,0:01:58.90,0:02:01.05,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k13}The {\k28}last {\k12}thing {\k9}you {\k23}see
+Dialogue: 1,0:01:59.75,0:02:02.00,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k11}Be{\k13}fore {\k9}your {\k30}soul{\k11}'s {\k10}fre{\k11}ed
+Dialogue: 1,0:02:00.70,0:02:03.51,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Mir{\k21}ror {\k21}mir{\k18}ror {\k23}on {\k19}the {\k31}wall
+Dialogue: 1,0:02:02.21,0:02:05.11,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Who's {\k16}the {\k27}chad{\k17}dest {\k34}cast {\k15}of {\k22}all?
+Dialogue: 1,0:02:03.81,0:02:06.73,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k15}We {\k28}on{\k36}ly {\k40}stop {\k43}if
+Dialogue: 1,0:02:05.43,0:02:08.63,Bae,,0,0,0,fx,{\k90\fad(300,200)}{\k19}We {\k20}laugh {\k23}till {\k20}we {\k42}can't {\k66}breathe
+Dialogue: 1,0:02:07.33,0:02:09.97,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Every{\k42}body {\k27}knows {\k33}it
+Dialogue: 1,0:02:08.67,0:02:11.59,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Got {\k21}beats {\k20}to {\k16}make {\k23}you {\k59}dance
+Dialogue: 1,0:02:10.47,0:02:13.26,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Shmo{\k22}vin {\k19}with {\k11}the {\k31}ho{\k39}mies
+Dialogue: 1,0:02:11.96,0:02:14.83,IRyS,,0,0,0,fx,{\k90\fad(300,200)}{\k22}And {\k21}may{\k11}be {\k36}squeeze {\k15}their {\k8}a{\k44}***
+Dialogue: 1,0:02:13.62,0:02:15.33,Calli [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Hey!
+Dialogue: 1,0:02:13.72,0:02:16.36,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k11}Cos {\k21}we {\k17}the {\k24}three {\k19}and {\k42}only
+Dialogue: 1,0:02:15.25,0:02:18.01,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k14}The {\k48}Chaos, {\k20}Hope {\k19}and {\k45}Death
+Dialogue: 1,0:02:17.09,0:02:21.33,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ka{\k9}ri{\k13}ka{\k7}ri {\k13}ka{\k7}ri{\k13}ka{\k10}ri {\k14}wa {\k43}xuán {\k25}ju{\k42}myou {\k17}wa {\k25}e{\k20}i{\k24}en
+Dialogue: 1,0:02:20.20,0:02:23.54,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k32}All {\k30}for {\k21}one {\k21}and {\k36}one {\k26}for {\k38}all
+Dialogue: 1,0:02:22.24,0:02:25.20,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Come {\k22}Have {\k9}A {\k29}Dance {\k11}with {\k8}the {\k68}CHADs
+Dialogue: 1,0:02:23.48,0:02:27.05,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k42}All {\k20}for {\k21}one {\k22}and {\k35}one {\k26}for {\k61}all
+Dialogue: 1,0:02:25.14,0:02:28.13,Bae,,0,0,0,fx,{\k90\fad(300,200)}{\k12}If {\k6}you're {\k23}down{\k20}-un{\k22}der, {\k12}then {\k6}you {\k13}un{\k9}der{\k46}stand
+Dialogue: 1,0:02:26.72,0:02:30.34,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k47}All {\k26}for {\k14}one {\k27}and {\k27}one {\k29}for {\k62}all
+Dialogue: 1,0:02:28.79,0:02:31.63,IRyS,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Yeah {\k10}I'm {\k37}down, {\k23}down {\k24}down {\k44}bad
+Dialogue: 1,0:02:30.10,0:02:34.98,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k29}NON {\k30}STOP {\k7}de {\k9}hou{\k57}sou {\kf226}YEAH~
+Dialogue: 1,0:02:34.92,0:02:38.94,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Chill{\k30}ing, {\k33}sing{\k19}ing {\k22}in {\k9}the {\k24}hot{\k28}spring, {\k32}just {\k10}for {\k37}fun
+Dialogue: 1,0:02:38.48,0:02:42.18,IRyS,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Late {\k22}night {\k37}snacks {\k10}and {\k23}ra{\k12}men {\k27}'til {\k10}we {\k29}see {\k8}the {\k48}sun
+Dialogue: 1,0:02:41.60,0:02:45.44,Bae,,0,0,0,fx,{\k90\fad(300,200)}{\k35}O{\k11}jou{\k16}-sa{\k20}ma {\k39}needs {\k18}to {\k21}drink {\k22}her {\k35}R{\k37}1
+Dialogue: 1,0:02:44.04,0:02:46.22,IRyS [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k11}o{\k13}jou{\k12}-sa{\k10}ma {\k6}ja {\k56}nai
+Dialogue: 1,0:02:44.50,0:02:46.57,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k12}We {\k24}made {\k8}it {\k33}clear
+Dialogue: 1,0:02:45.27,0:02:47.39,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k20}No {\k30}beta's {\k32}here
+Dialogue: 1,0:02:46.09,0:02:49.24,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Cos {\k20}all {\k17}of {\k26}us {\k13}the {\k31}chads {\k10}ya {\k47}fear
+Dialogue: 1,0:02:47.65,0:02:54.35,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Hear {\k22}me {\kf489}out
+Dialogue: 1,0:02:49.34,0:02:54.35,Bae,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Hear {\k19}me {\kf325}out
+Dialogue: 1,0:02:50.92,0:02:54.35,IRyS,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Hear {\k23}me {\kf167}out
+Dialogue: 1,0:02:53.47,0:02:55.63,IRyS,,0,0,0,fx,{\k90\fad(300,200)}{\k23}With {\k21}one {\k42}look
+Dialogue: 1,0:02:54.27,0:02:56.48,Bae,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Chat {\k14}is {\k52}shook
+Dialogue: 1,0:02:55.04,0:02:57.93,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Let {\k25}her {\kf104}cook
+Dialogue: 1,0:02:56.75,0:02:59.63,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Here {\k27}comes {\k7}the {\k46}CHAD {\k57}CAST!
+Dialogue: 1,0:02:58.33,0:03:00.87,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Every{\k41}body {\k24}knows {\k29}it
+Dialogue: 1,0:02:59.57,0:03:02.52,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Got {\k19}laugh{\k20}ter {\k21}in {\k20}our {\k57}veins
+Dialogue: 1,0:03:01.46,0:03:04.07,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Hang{\k21}ing {\k17}with {\k16}the {\k28}ho{\k24}mies
+Dialogue: 1,0:03:02.94,0:03:05.80,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k18}We {\k21}yap {\k18}un{\k24}til {\k6}the {\k17}day {\k52}breaks
+Dialogue: 1,0:03:04.65,0:03:08.86,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Cos {\k22}we {\k15}the {\k33}three {\k18}and {\k53}only, {\k22}I{\k21}RyS, {\k22}Mo{\k21}ri, {\k20}and {\k31}Bae
+Dialogue: 1,0:03:08.06,0:03:10.82,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k12}go{\k11}ro{\k10}go{\k10}ro {\k10}go{\k9}ro{\k11}go{\k8}ro {\k24}kyou{\k41}gen
+Dialogue: 1,0:03:09.52,0:03:12.59,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k17}OUR {\k23}TO{\k13}PIC {\k7}IS {\k13}mu{\k30}se{\k39}i{\k35}gen
+Dialogue: 1,0:03:11.36,0:03:13.90,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k41}Every{\k38}body {\k31}knows {\k14}it
+Dialogue: 1,0:03:12.73,0:03:15.78,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k7}We {\k22}got {\k22}beats {\k18}to {\k18}make {\k22}you {\k66}dance
+Dialogue: 1,0:03:14.66,0:03:17.32,IRyS,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Al{\k22}ways {\k21}kiss {\k19}your {\k20}ho{\k34}mies
+Dialogue: 1,0:03:16.02,0:03:19.30,IRyS,,0,0,0,fx,{\k90\fad(300,200)}{\k28}There's {\k20}be{\k19}ne{\k23}fits {\k18}to {\k90}friends
+Dialogue: 1,0:03:17.88,0:03:20.64,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k24}We {\k21}the {\k23}three {\k20}and {\k58}only
+Dialogue: 1,0:03:19.34,0:03:22.12,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k16}We're {\k47}Chaos, {\k21}Hope {\k18}and {\k46}Death
+Dialogue: 1,0:03:20.82,0:03:25.66,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k13}The {\k47}hot{\k36}test {\k47}takes {\k31}with {\k28}the {\rBae}{\k48}hot{\k21}test {\k103}cast
+Dialogue: 1,0:03:24.36,0:03:28.01,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k29}All {\k28}for {\k21}one {\k19}and {\k32}one {\k29}for {\k77}all
+Dialogue: 1,0:03:25.94,0:03:29.10,IRyS,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Could {\k9}an {\k15}o{\k17}jou{\k12}-sa{\k19}ma {\k21}hang {\k22}with {\k13}the {\k45}gang?
+Dialogue: 1,0:03:27.56,0:03:31.29,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k42}All {\k24}for {\k20}one {\k20}and {\k34}one {\k29}for {\k74}all
+Dialogue: 1,0:03:29.51,0:03:32.31,Bae,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Chill {\k32}out {\k20}like {\k23}bro, {\k17}u {\k33}mad?
+Dialogue: 1,0:03:30.83,0:03:34.23,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k41}All {\k21}for {\k26}one {\k20}and {\k32}one {\k30}for {\k40}all
+Dialogue: 1,0:03:32.93,0:03:35.68,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k12}Cut {\k10}it {\k20}out, {\k9}lis{\k12}ten {\k12}to {\k20}your {\k50}dad!
+Dialogue: 1,0:03:34.23,0:03:37.22,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k35}WE {\k21}BRING {\k13}YOU {\k13}THE {\k56}sou{\k31}-dou
+Dialogue: 1,0:03:35.92,0:03:38.89,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k15}a{\k24}ra{\k20}shi {\k13}no {\k58}sou{\k37}-hou
+Dialogue: 1,0:03:37.59,0:03:42.37,CHADCAST,,0,0,0,fx,{\k90\fad(300,200)}{\k18}NON {\k30}STOP {\k8}de {\k10}hou{\k60}sou {\kf222}YEAH~
