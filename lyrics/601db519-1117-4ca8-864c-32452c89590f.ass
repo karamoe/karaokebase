@@ -1,0 +1,25 @@
+﻿[Script Info]
+Title: sheesh
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+PlayResX: 0
+PlayResY: 0
+Original Timing: Pyrospower
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Elira1,Arial,24,&H00D8C895,&H00FFFFFF,&H00000000,&H7B000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Elira1,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:01.15,0:00:02.15,Elira1,,0,0,0,karaoke,{\k17}Hey {\k31}Eli{\k52}ra,
+Comment: 0,0:00:02.15,0:00:03.97,Elira1,,0,0,0,karaoke,{\k10}Can {\k15}you {\k45}do,{\k22} {\k29}you {\k35}know,
+Comment: 0,0:00:03.97,0:00:05.13,Elira1,,0,0,0,karaoke,{\k14}the {\k13}thing {\k11}you {\k43}always {\k35}do!
+Comment: 0,0:00:10.18,0:00:18.02,Elira1,,0,0,0,karaoke,{\kf30}sh{\kf694}ee{\kf60}sh
+Dialogue: 0,0:00:00.25,0:00:02.35,Elira1,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Hey {\k31}Eli{\k52}ra,
+Dialogue: 0,0:00:01.25,0:00:04.17,Elira1,,0,0,0,fx,{\k90\fad(300,200)}{\k10}Can {\k15}you {\k45}do,{\k22} {\k29}you {\k35}know,
+Dialogue: 0,0:00:03.07,0:00:05.33,Elira1,,0,0,0,fx,{\k90\fad(300,200)}{\k14}the {\k13}thing {\k11}you {\k43}always {\k35}do!
+Dialogue: 0,0:00:09.28,0:00:18.22,Elira1,,0,0,0,fx,{\k90\fad(300,200)}{\kf30}sh{\kf694}ee{\kf60}sh
