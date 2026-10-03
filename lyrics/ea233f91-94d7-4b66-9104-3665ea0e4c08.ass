@@ -1,0 +1,128 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Spring nicht
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:18.05,0:00:20.13,Sample KM [Up],,0,0,0,karaoke,{\k36}Ü{\k40}ber {\k34}den {\k34}Dä{\k64}chern
+Comment: 0,0:00:20.26,0:00:23.71,Sample KM [Up],,0,0,0,karaoke,{\k19}Ist {\k28}es {\k41}so {\k58}kalt {\k22}und {\k51}so {\kf126}still
+Comment: 0,0:00:26.63,0:00:28.88,Sample KM [Up],,0,0,0,karaoke,{\k21}Ich {\k41}schweig {\k37}Dei{\k22}nen {\k56}Na{\k48}men
+Comment: 0,0:00:28.88,0:00:32.30,Sample KM [Up],,0,0,0,karaoke,{\k21}Weil {\k21}Du {\k48}ihn {\k40}jetzt {\k38}nicht {\k35}hö{\k38}ren {\kf101}willst
+Comment: 0,0:00:35.48,0:00:37.68,Sample KM [Up],,0,0,0,karaoke,{\k21}Der {\k38}Ab{\k36}grund {\k30}der {\k95}Stadt
+Comment: 0,0:00:37.68,0:00:41.16,Sample KM [Up],,0,0,0,karaoke,{\k18}Ver{\k42}schlingt {\k38}je{\k17}de {\k56}Trä{\k36}ne {\k35}die {\kf106}fällt
+Comment: 0,0:00:44.34,0:00:46.67,Sample KM [Up],,0,0,0,karaoke,{\k19}Da {\k39}un{\k33}ten {\k39}ist {\k35}nichts {\k68}mehr
+Comment: 0,0:00:46.74,0:00:51.28,Sample KM [Up],,0,0,0,karaoke,{\k38}Was {\k34}Dich {\k22}hier {\k55}o{\k21}ben {\k51}noch {\kf233}hält
+Comment: 0,0:00:51.97,0:00:54.84,Sample KM [Up],,0,0,0,karaoke,{\k27}Ich {\k41}schrei {\k37}in {\k33}die {\k37}Nacht {\k28}für {\k84}Dich
+Comment: 0,0:00:54.84,0:00:57.27,Sample KM [Up],,0,0,0,karaoke,{\k37}Lass {\k36}mich {\k31}nicht {\k35}im {\kf104}Stich
+Comment: 0,0:00:57.27,0:01:00.70,Sample KM [Up],,0,0,0,karaoke,{\k50}Spring {\kf293}nicht
+Comment: 0,0:01:01.08,0:01:03.66,Sample KM [Up],,0,0,0,karaoke,{\k39}Die {\k35}Lich{\k33}ter {\k25}fan{\k15}gen {\k23}Dich {\k88}nicht
+Comment: 0,0:01:03.66,0:01:06.20,Sample KM [Up],,0,0,0,karaoke,{\k38}Sie {\k33}be{\k38}trü{\k28}gen {\kf117}Dich
+Comment: 0,0:01:06.20,0:01:09.77,Sample KM [Up],,0,0,0,karaoke,{\k45}Spring {\kf312}nicht
+Comment: 0,0:01:09.94,0:01:12.07,Sample KM [Up],,0,0,0,karaoke,{\k38}E{\k33}rin{\k24}ner {\kf118}Dich
+Comment: 0,0:01:12.14,0:01:15.21,Sample KM [Up],,0,0,0,karaoke,{\k34}An {\k40}Dich {\k38}und {\kf195}mich
+Comment: 0,0:01:15.41,0:01:20.43,Sample KM [Up],,0,0,0,karaoke,{\k38}Die {\k36}Welt {\k24}da {\k58}un{\k33}ten {\k41}zählt {\kf272}nicht
+Comment: 0,0:01:20.96,0:01:26.94,Sample KM [Up],,0,0,0,karaoke,{\k24}Bit{\k49}te {\k44}spring {\kf481}nicht
+Comment: 0,0:01:30.93,0:01:33.01,Sample KM [Up],,0,0,0,karaoke,{\k33}In {\k38}Dei{\k20}nen {\k61}Au{\k56}gen
+Comment: 0,0:01:33.01,0:01:36.39,Sample KM [Up],,0,0,0,karaoke,{\k53}Scheint {\k30}al{\k22}les {\k54}sinn{\k38}los {\k36}und {\k21}le{\k84}er
+Comment: 0,0:01:39.52,0:01:41.74,Sample KM [Up],,0,0,0,karaoke,{\k19}Der {\k42}Schne{\k32}e {\k35}fällt {\k42}ein{\k52}sam
+Comment: 0,0:01:41.74,0:01:44.88,Sample KM [Up],,0,0,0,karaoke,{\k22}Du {\k39}spürst {\k31}ihn {\k38}schon {\k31}lan{\k43}ge {\k39}nicht {\k71}mehr
+Comment: 0,0:01:48.60,0:01:50.81,Sample KM [Up],,0,0,0,karaoke,{\k21}Ir{\k20}gen{\k32}dwo {\k24}da {\k45}drau{\k79}ßen
+Comment: 0,0:01:50.81,0:01:53.77,Sample KM [Up],,0,0,0,karaoke,{\k37}Bist {\k37}Du {\k19}ver{\k64}lo{\k26}ren {\k21}ge{\k67}gan{\k25}gen
+Comment: 0,0:01:57.20,0:01:59.47,Sample KM [Up],,0,0,0,karaoke,{\k15}Du {\k42}träumst {\k38}von {\k21}dem {\k55}En{\k56}de
+Comment: 0,0:01:59.47,0:02:03.52,Sample KM [Up],,0,0,0,karaoke,{\k16}Um {\k22}noch{\k52}mal {\k36}von {\k39}vorn {\k33}an{\k38}zu{\kf169}fangen
+Comment: 0,0:02:04.83,0:02:07.74,Sample KM [Up],,0,0,0,karaoke,{\k30}Ich {\k44}schrei {\k32}in {\k37}die {\k37}Nacht {\k22}für {\k89}Dich
+Comment: 0,0:02:07.74,0:02:10.17,Sample KM [Up],,0,0,0,karaoke,{\k34}Lass {\k37}mich {\k25}nicht {\k38}im {\kf109}Stich
+Comment: 0,0:02:10.17,0:02:13.67,Sample KM [Up],,0,0,0,karaoke,{\k50}Spring {\kf300}nicht
+Comment: 0,0:02:13.96,0:02:16.48,Sample KM [Up],,0,0,0,karaoke,{\k39}Die {\k35}Lich{\k36}ter {\k21}fan{\k17}gen {\k21}Dich {\k83}nicht
+Comment: 0,0:02:16.54,0:02:19.04,Sample KM [Up],,0,0,0,karaoke,{\k37}Sie {\k35}be{\k37}trü{\k26}gen {\kf115}Dich
+Comment: 0,0:02:19.04,0:02:22.61,Sample KM [Up],,0,0,0,karaoke,{\k48}Spring {\kf309}nicht
+Comment: 0,0:02:22.81,0:02:24.98,Sample KM [Up],,0,0,0,karaoke,{\k40}E{\k32}rin{\k24}ner {\kf121}Dich
+Comment: 0,0:02:24.98,0:02:28.08,Sample KM [Up],,0,0,0,karaoke,{\k38}An {\k39}Dich {\k37}und {\kf196}mich
+Comment: 0,0:02:28.26,0:02:31.55,Sample KM [Up],,0,0,0,karaoke,{\k41}Die {\k36}Welt {\k26}da {\k56}un{\k34}ten {\k36}zählt {\kf100}nicht
+Comment: 0,0:02:31.66,0:02:34.12,Sample KM [Up],,0,0,0,karaoke,{\k22}Bit{\k44}te {\k42}spring {\kf138}nicht
+Comment: 0,0:02:34.50,0:02:37.41,Sample KM [Up],,0,0,0,karaoke,{\k46}Spring {\kf245}nicht
+Comment: 0,0:02:48.72,0:02:53.88,Sample KM [Up],,0,0,0,karaoke,{\k20}Ich {\kf112}weiß {\kf112}nicht {\k76}wie {\kf196}lang
+Comment: 0,0:02:54.65,0:02:59.96,Sample KM [Up],,0,0,0,karaoke,{\k16}Ich {\kf110}Dich {\kf110}hal{\k75}ten {\kf220}kann
+Comment: 0,0:03:00.54,0:03:06.79,Sample KM [Up],,0,0,0,karaoke,{\k17}Ich {\kf111}weiß {\kf110}nicht {\k75}wie {\kf312}lang
+Comment: 0,0:03:09.20,0:03:11.09,Sample KM [Up],,0,0,0,karaoke,{\k40}Nimm {\k38}mei{\k17}ne {\kf94}Hand
+Comment: 0,0:03:11.09,0:03:14.02,Sample KM [Up],,0,0,0,karaoke,{\k29}Wir {\k27}fan{\k16}gen {\k31}noch {\k37}mal {\kf153}an
+Comment: 0,0:03:14.24,0:03:17.60,Sample KM [Up],,0,0,0,karaoke,{\k48}Spring {\kf288}nicht
+Comment: 0,0:03:17.72,0:03:20.64,Sample KM [Up],,0,0,0,karaoke,{\k30}Ich {\k39}schrei {\k35}in {\k35}die {\k40}Nacht {\k23}für {\k90}Dich
+Comment: 0,0:03:20.64,0:03:23.09,Sample KM [Up],,0,0,0,karaoke,{\k35}Lass {\k36}mich {\k22}nicht {\k45}im {\kf107}Stich
+Comment: 0,0:03:23.09,0:03:26.53,Sample KM [Up],,0,0,0,karaoke,{\k48}Spring {\kf296}nicht
+Comment: 0,0:03:26.85,0:03:29.37,Sample KM [Up],,0,0,0,karaoke,{\k38}Die {\k35}Lich{\k36}ter {\k26}fan{\k14}gen {\k18}Dich {\k85}nicht
+Comment: 0,0:03:29.37,0:03:31.91,Sample KM [Up],,0,0,0,karaoke,{\k43}Sie {\k34}be{\k39}trü{\k26}gen {\kf112}Dich
+Comment: 0,0:03:31.91,0:03:35.50,Sample KM [Up],,0,0,0,karaoke,{\k49}Spring {\kf310}nicht
+Comment: 0,0:03:35.70,0:03:37.82,Sample KM [Up],,0,0,0,karaoke,{\k36}E{\k35}rin{\k25}ner {\kf116}Dich
+Comment: 0,0:03:37.90,0:03:40.98,Sample KM [Up],,0,0,0,karaoke,{\k37}An {\k36}Dich {\k37}und {\kf198}mich
+Comment: 0,0:03:41.22,0:03:44.54,Sample KM [Up],,0,0,0,karaoke,{\k38}Die {\k37}Welt {\k21}da {\k52}un{\k34}ten {\k39}zählt {\kf111}nicht
+Comment: 0,0:03:44.54,0:03:46.97,Sample KM [Up],,0,0,0,karaoke,{\k23}Bit{\k43}te {\k43}spring {\kf134}nicht
+Comment: 0,0:03:47.40,0:03:49.79,Sample KM [Up],,0,0,0,karaoke,{\k44}Spring {\kf195}nicht
+Comment: 0,0:03:49.83,0:03:54.40,Sample KM [Up],,0,0,0,karaoke,{\k18}Und {\k42}hält {\k36}Dich {\k38}das {\k36}auch {\k35}nicht {\k43}zu{\kf209}rück
+Comment: 0,0:03:55.20,0:03:58.80,Sample KM [Up],,0,0,0,karaoke,{\k27}Dann {\k36}spring {\k63}ich {\k38}für {\kf196}Dich
+Dialogue: 0,0:00:17.15,0:00:20.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Ü{\k40}ber {\k34}den {\k34}Dä{\k64}chern
+Dialogue: 0,0:00:19.36,0:00:23.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Ist {\k28}es {\k41}so {\k58}kalt {\k22}und {\k51}so {\kf126}still
+Dialogue: 0,0:00:25.73,0:00:29.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Ich {\k41}schweig {\k37}Dei{\k22}nen {\k56}Na{\k48}men
+Dialogue: 0,0:00:27.98,0:00:32.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Weil {\k21}Du {\k48}ihn {\k40}jetzt {\k38}nicht {\k35}hö{\k38}ren {\kf101}willst
+Dialogue: 0,0:00:34.58,0:00:37.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Der {\k38}Ab{\k36}grund {\k30}der {\k95}Stadt
+Dialogue: 0,0:00:36.78,0:00:41.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Ver{\k42}schlingt {\k38}je{\k17}de {\k56}Trä{\k36}ne {\k35}die {\kf106}fällt
+Dialogue: 0,0:00:43.44,0:00:46.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Da {\k39}un{\k33}ten {\k39}ist {\k35}nichts {\k68}mehr
+Dialogue: 0,0:00:45.84,0:00:51.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Was {\k34}Dich {\k22}hier {\k55}o{\k21}ben {\k51}noch {\kf233}hält
+Dialogue: 0,0:00:51.07,0:00:55.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Ich {\k41}schrei {\k37}in {\k33}die {\k37}Nacht {\k28}für {\k84}Dich
+Dialogue: 0,0:00:53.94,0:00:57.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Lass {\k36}mich {\k31}nicht {\k35}im {\kf104}Stich
+Dialogue: 0,0:00:56.37,0:01:00.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Spring {\kf293}nicht
+Dialogue: 0,0:01:00.18,0:01:03.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Die {\k35}Lich{\k33}ter {\k25}fan{\k15}gen {\k23}Dich {\k88}nicht
+Dialogue: 0,0:01:02.76,0:01:06.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Sie {\k33}be{\k38}trü{\k28}gen {\kf117}Dich
+Dialogue: 0,0:01:05.30,0:01:09.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Spring {\kf312}nicht
+Dialogue: 0,0:01:09.04,0:01:12.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}E{\k33}rin{\k24}ner {\kf118}Dich
+Dialogue: 0,0:01:11.24,0:01:15.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}An {\k40}Dich {\k38}und {\kf195}mich
+Dialogue: 0,0:01:14.51,0:01:20.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Die {\k36}Welt {\k24}da {\k58}un{\k33}ten {\k41}zählt {\kf272}nicht
+Dialogue: 0,0:01:20.06,0:01:27.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Bit{\k49}te {\k44}spring {\kf481}nicht
+Dialogue: 0,0:01:30.03,0:01:33.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}In {\k38}Dei{\k20}nen {\k61}Au{\k56}gen
+Dialogue: 0,0:01:32.11,0:01:36.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k53}Scheint {\k30}al{\k22}les {\k54}sinn{\k38}los {\k36}und {\k21}le{\k84}er
+Dialogue: 0,0:01:38.62,0:01:41.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Der {\k42}Schne{\k32}e {\k35}fällt {\k42}ein{\k52}sam
+Dialogue: 0,0:01:40.84,0:01:45.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Du {\k39}spürst {\k31}ihn {\k38}schon {\k31}lan{\k43}ge {\k39}nicht {\k71}mehr
+Dialogue: 0,0:01:47.70,0:01:51.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Ir{\k20}gen{\k32}dwo {\k24}da {\k45}drau{\k79}ßen
+Dialogue: 0,0:01:49.91,0:01:53.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Bist {\k37}Du {\k19}ver{\k64}lo{\k26}ren {\k21}ge{\k67}gan{\k25}gen
+Dialogue: 0,0:01:56.30,0:01:59.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Du {\k42}träumst {\k38}von {\k21}dem {\k55}En{\k56}de
+Dialogue: 0,0:01:58.57,0:02:03.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Um {\k22}noch{\k52}mal {\k36}von {\k39}vorn {\k33}an{\k38}zu{\kf169}fangen
+Dialogue: 0,0:02:03.93,0:02:07.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Ich {\k44}schrei {\k32}in {\k37}die {\k37}Nacht {\k22}für {\k89}Dich
+Dialogue: 0,0:02:06.84,0:02:10.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Lass {\k37}mich {\k25}nicht {\k38}im {\kf109}Stich
+Dialogue: 0,0:02:09.27,0:02:13.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Spring {\kf300}nicht
+Dialogue: 0,0:02:13.06,0:02:16.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Die {\k35}Lich{\k36}ter {\k21}fan{\k17}gen {\k21}Dich {\k83}nicht
+Dialogue: 0,0:02:15.64,0:02:19.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Sie {\k35}be{\k37}trü{\k26}gen {\kf115}Dich
+Dialogue: 0,0:02:18.14,0:02:22.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Spring {\kf309}nicht
+Dialogue: 0,0:02:21.91,0:02:25.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}E{\k32}rin{\k24}ner {\kf121}Dich
+Dialogue: 0,0:02:24.08,0:02:28.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}An {\k39}Dich {\k37}und {\kf196}mich
+Dialogue: 0,0:02:27.36,0:02:31.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Die {\k36}Welt {\k26}da {\k56}un{\k34}ten {\k36}zählt {\kf100}nicht
+Dialogue: 0,0:02:30.76,0:02:34.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Bit{\k44}te {\k42}spring {\kf138}nicht
+Dialogue: 0,0:02:33.60,0:02:37.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Spring {\kf245}nicht
+Dialogue: 0,0:02:47.82,0:02:54.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Ich {\kf112}weiß {\kf112}nicht {\k76}wie {\kf196}lang
+Dialogue: 0,0:02:53.75,0:03:00.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Ich {\kf110}Dich {\kf110}hal{\k75}ten {\kf220}kann
+Dialogue: 0,0:02:59.64,0:03:06.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Ich {\kf111}weiß {\kf110}nicht {\k75}wie {\kf312}lang
+Dialogue: 0,0:03:08.30,0:03:11.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Nimm {\k38}mei{\k17}ne {\kf94}Hand
+Dialogue: 0,0:03:10.19,0:03:14.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Wir {\k27}fan{\k16}gen {\k31}noch {\k37}mal {\kf153}an
+Dialogue: 0,0:03:13.34,0:03:17.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Spring {\kf288}nicht
+Dialogue: 0,0:03:16.82,0:03:20.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Ich {\k39}schrei {\k35}in {\k35}die {\k40}Nacht {\k23}für {\k90}Dich
+Dialogue: 0,0:03:19.74,0:03:23.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Lass {\k36}mich {\k22}nicht {\k45}im {\kf107}Stich
+Dialogue: 0,0:03:22.19,0:03:26.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Spring {\kf296}nicht
+Dialogue: 0,0:03:25.95,0:03:29.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Die {\k35}Lich{\k36}ter {\k26}fan{\k14}gen {\k18}Dich {\k85}nicht
+Dialogue: 0,0:03:28.47,0:03:32.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Sie {\k34}be{\k39}trü{\k26}gen {\kf112}Dich
+Dialogue: 0,0:03:31.01,0:03:35.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Spring {\kf310}nicht
+Dialogue: 0,0:03:34.80,0:03:38.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}E{\k35}rin{\k25}ner {\kf116}Dich
+Dialogue: 0,0:03:37.00,0:03:41.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}An {\k36}Dich {\k37}und {\kf198}mich
+Dialogue: 0,0:03:40.32,0:03:44.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Die {\k37}Welt {\k21}da {\k52}un{\k34}ten {\k39}zählt {\kf111}nicht
+Dialogue: 0,0:03:43.64,0:03:47.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Bit{\k43}te {\k43}spring {\kf134}nicht
+Dialogue: 0,0:03:46.50,0:03:49.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Spring {\kf195}nicht
+Dialogue: 0,0:03:48.93,0:03:54.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Und {\k42}hält {\k36}Dich {\k38}das {\k36}auch {\k35}nicht {\k43}zu{\kf209}rück
+Dialogue: 0,0:03:54.30,0:03:59.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Dann {\k36}spring {\k63}ich {\k38}für {\kf196}Dich
