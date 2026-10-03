@@ -1,0 +1,81 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Chroma Drift
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00FFFFFF,&H00FE9251,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Up]_kor,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H00FFFFFF,&H005050E2,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}English {\2cHFFFFFF}| {\rSample KM [Up]_kor}Korean {\2cHFFFFFF}| {\rSample KM [Choir]}Choir
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:41.14,0:00:47.06,Sample KM [Up],,0,0,0,karaoke,{\k34}It's {\k35}so {\kf120}beau{\k18}ti{\kf119}ful {\k19}{\rSample KM [Up]_kor}nal {\k42}hyang{\k33}han {\k35}{\rSample KM [Up]}ci{\k35}ty {\kf102}lights
+Comment: 0,0:00:47.22,0:00:50.92,Sample KM [Up],,0,0,0,karaoke,{\k29}Full {\kf110}moon {\k17}is {\k47}shi{\k39}ning {\k28}in {\k38}my {\k62}eyes
+Comment: 0,0:00:52.41,0:00:56.64,Sample KM [Up]_kor,,0,0,0,karaoke,{\k26}kkeut{\k34}do {\k32}eop{\k83}shi {\k25}yu{\k49}nan{\k19}hi {\k36}gil{\k35}deon {\k84}bam
+Comment: 0,0:00:57.66,0:01:02.94,Sample KM [Up]_kor,,0,0,0,karaoke,{\k35}kkeu{\k60}te {\kf173}seo{\k118} {\k96}i{\k46}sseo
+Comment: 0,0:01:06.73,0:01:10.76,Sample KM [Up],,0,0,0,karaoke,{\k19}I {\k51}found {\k17}you {\k54}{\rSample KM [Up]_kor}cheo{\k18}eum {\k33}i{\k37}kkeul{\k51}lin {\k31}nat{\k42}seo{\k17}reu{\k33}mi
+Comment: 0,0:01:12.32,0:01:16.18,Sample KM [Up]_kor,,0,0,0,karaoke,{\k26}geun{\kf112}yang {\k24}geun{\kf119}yang {\k27}geun{\k78}yang
+Comment: 0,0:01:16.82,0:01:18.80,Sample KM [Up]_kor,,0,0,0,karaoke,{\k39}al {\k35}geot{\k33}man {\k37}ga{\k54}ta
+Comment: 0,0:01:19.65,0:01:21.76,Sample KM [Up],,0,0,0,karaoke,{\k35}But {\k20}I {\k33}don't {\k34}know {\k89}why
+Comment: 0,0:01:23.14,0:01:28.15,Sample KM [Up]_kor,,0,0,0,karaoke,{\k18}i{\k41}sang{\k38}ha{\k29}ri{\k32}man{\k37}chi {\k39}a{\k30}reum{\k41}dap{\k149}deon {\k47}bam
+Comment: 0,0:01:29.42,0:01:31.75,Sample KM [Up]_kor,,0,0,0,karaoke,{\k33}ga{\k19}ma{\k17}ni {\k37}neo{\k20}reul {\k22}geu{\k60}ri{\k25}myeon
+Comment: 0,0:01:31.73,0:01:35.01,Sample KM [Up]_kor,,0,0,0,karaoke,{\k29}kkae{\k20}jin {\k28}yu{\k18}ri {\k24}jo{\k31}ga{\k22}gui {\k18}nal{\k68}cheo{\k70}reom
+Comment: 0,0:01:35.01,0:01:36.92,Sample KM [Up]_kor,,0,0,0,karaoke,{\k30}seo {\k20}it{\k20}deon {\k29}nae {\k24}mo{\k29}seu{\k39}bi
+Comment: 0,0:01:37.09,0:01:39.88,Sample KM [Up]_kor,,0,0,0,karaoke,{\k30}tteo{\k21}ol{\k20}la{\k70}seo {\k32}nal {\k21}gwe{\k20}ro{\k65}pyeo
+Comment: 0,0:01:39.88,0:01:44.08,Sample KM [Up]_kor,,0,0,0,karaoke,{\k26}kkeut{\k33}do {\k31}eop{\k83}shi {\k23}yu{\k49}nan{\k20}hi {\k37}gil{\k35}deon {\k83}bam
+Comment: 0,0:01:45.09,0:01:47.67,Sample KM [Up]_kor,,0,0,0,karaoke,{\k33}kkeu{\k45}te{\kf180}seo
+Comment: 0,0:01:48.93,0:01:51.50,Sample KM [Up]_kor,,0,0,0,karaoke,{\k67}ha{\k74}yeo{\k69}meop{\k47}shi
+Comment: 0,0:01:54.18,0:01:58.35,Sample KM [Up],,0,0,0,karaoke,{\k18}I {\k51}found {\k21}you {\k48\rSample KM [Up]_kor}cheo{\k20}eum {\k33}i{\k37}kkeul{\k50}lin {\k35}nat{\k40}seo{\k18}reu{\k46}mi
+Comment: 0,0:01:59.76,0:02:03.46,Sample KM [Up]_kor,,0,0,0,karaoke,{\k25}geun{\kf114}yang {\k23}geun{\kf118}yang {\k26}geun{\k64}yang
+Comment: 0,0:02:04.29,0:02:06.27,Sample KM [Up]_kor,,0,0,0,karaoke,{\k36}al {\k35}geot{\k33}man {\k35}ga{\k59}ta
+Comment: 0,0:02:07.10,0:02:09.18,Sample KM [Up],,0,0,0,karaoke,{\k34}But {\k21}I {\k34}don't {\k33}know {\k86}why
+Comment: 0,0:02:10.58,0:02:15.58,Sample KM [Up]_kor,,0,0,0,karaoke,{\k19}i{\k39}sang{\k37}ha{\k30}ri{\k31}man{\k39}chi {\k37}a{\k32}reum{\k42}dap{\k147}deon {\k47}bam
+Comment: 0,0:02:38.83,0:02:43.00,Sample KM [Up],,0,0,0,karaoke,{\k19}I {\k49}found {\k20}you {\k48}{\rSample KM [Up]_kor}cheo{\k20}eum {\k33}i{\k37}kkeul{\k50}lin {\k35}nat{\k40}seo{\k18}reu{\k48}mi
+Comment: 0,0:02:44.41,0:02:48.13,Sample KM [Up]_kor,,0,0,0,karaoke,{\k26}geun{\kf113}yang {\k23}geun{\kf120}yang {\k24}geun{\k66}yang
+Comment: 0,0:02:48.93,0:02:50.86,Sample KM [Up]_kor,,0,0,0,karaoke,{\k36}al {\k36}geot{\k32}man {\k36}ga{\k53}ta
+Comment: 0,0:02:51.75,0:02:53.85,Sample KM [Up],,0,0,0,karaoke,{\k32}But {\k23}I {\k35}don't {\k32}know {\k88}why
+Comment: 0,0:02:55.23,0:03:00.25,Sample KM [Up]_kor,,0,0,0,karaoke,{\k20}i{\k40}sang{\k37}ha{\k28}ri{\k33}man{\k38}chi {\k36}a{\k34}reum{\k39}dap{\k148}deon {\k49}bam
+Comment: 0,0:03:01.50,0:03:06.53,Sample KM [Choir],,0,0,0,karaoke,{\k69}Chro{\k66}ma {\k39}Dri-{\k70}ift {\k68}Chro-{\k37}o{\k65}ma {\k41}Dri-{\k48}ift
+Comment: 0,0:03:07.04,0:03:09.31,Sample KM [Choir],,0,0,0,karaoke,{\k74}Chro{\k64}ma {\k40}Dri-{\k49}ift
+Comment: 0,0:03:12.65,0:03:17.67,Sample KM [Choir],,0,0,0,karaoke,{\k71}Chro{\k65}ma {\k40}Dri-{\k69}ift {\k70}Chro-{\k36}o{\k64}ma {\k41}Dri-{\k46}ift
+Comment: 0,0:03:18.23,0:03:20.47,Sample KM [Choir],,0,0,0,karaoke,{\k72}Chro{\k65}ma {\k40}Dri-{\k47}ift
+Comment: 0,0:03:23.83,0:03:28.88,Sample KM [Choir],,0,0,0,karaoke,{\k71}Chro{\k60}ma {\k45}Dri-{\k68}ift {\k69}Chro-{\k37}o{\k60}ma {\k45}Dri-{\k50}ift
+Dialogue: 0,0:00:40.24,0:00:47.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}It's {\k35}so {\kf120}beau{\k18}ti{\kf119}ful {\k19}{\rSample KM [Up]_kor}nal {\k42}hyang{\k33}han {\k35}{\rSample KM [Up]}ci{\k35}ty {\kf102}lights
+Dialogue: 0,0:00:46.32,0:00:51.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Full {\kf110}moon {\k17}is {\k47}shi{\k39}ning {\k28}in {\k38}my {\k62}eyes
+Dialogue: 0,0:00:51.51,0:00:56.84,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k26}kkeut{\k34}do {\k32}eop{\k83}shi {\k25}yu{\k49}nan{\k19}hi {\k36}gil{\k35}deon {\k84}bam
+Dialogue: 0,0:00:56.76,0:01:03.14,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k35}kkeu{\k60}te {\kf173}seo{\k118} {\k96}i{\k46}sseo
+Dialogue: 0,0:01:05.83,0:01:10.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k51}found {\k17}you {\k54}{\rSample KM [Up]_kor}cheo{\k18}eum {\k33}i{\k37}kkeul{\k51}lin {\k31}nat{\k42}seo{\k17}reu{\k33}mi
+Dialogue: 0,0:01:11.42,0:01:16.38,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k26}geun{\kf112}yang {\k24}geun{\kf119}yang {\k27}geun{\k78}yang
+Dialogue: 0,0:01:15.92,0:01:19.00,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k39}al {\k35}geot{\k33}man {\k37}ga{\k54}ta
+Dialogue: 0,0:01:18.75,0:01:21.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}But {\k20}I {\k33}don't {\k34}know {\k89}why
+Dialogue: 0,0:01:22.24,0:01:28.35,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k18}i{\k41}sang{\k38}ha{\k29}ri{\k32}man{\k37}chi {\k39}a{\k30}reum{\k41}dap{\k149}deon {\k47}bam
+Dialogue: 0,0:01:28.52,0:01:31.95,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ga{\k19}ma{\k17}ni {\k37}neo{\k20}reul {\k22}geu{\k60}ri{\k25}myeon
+Dialogue: 0,0:01:30.83,0:01:35.21,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k29}kkae{\k20}jin {\k28}yu{\k18}ri {\k24}jo{\k31}ga{\k22}gui {\k18}nal{\k68}cheo{\k70}reom
+Dialogue: 0,0:01:34.11,0:01:37.12,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k30}seo {\k20}it{\k20}deon {\k29}nae {\k24}mo{\k29}seu{\k39}bi
+Dialogue: 0,0:01:36.19,0:01:40.08,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k30}tteo{\k21}ol{\k20}la{\k70}seo {\k32}nal {\k21}gwe{\k20}ro{\k65}pyeo
+Dialogue: 0,0:01:38.98,0:01:44.28,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k26}kkeut{\k33}do {\k31}eop{\k83}shi {\k23}yu{\k49}nan{\k20}hi {\k37}gil{\k35}deon {\k83}bam
+Dialogue: 0,0:01:44.19,0:01:47.87,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k33}kkeu{\k45}te{\kf180}seo
+Dialogue: 0,0:01:48.03,0:01:51.70,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k67}ha{\k74}yeo{\k69}meop{\k47}shi
+Dialogue: 0,0:01:53.28,0:01:58.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k51}found {\k21}you {\k48\rSample KM [Up]_kor}cheo{\k20}eum {\k33}i{\k37}kkeul{\k50}lin {\k35}nat{\k40}seo{\k18}reu{\k46}mi
+Dialogue: 0,0:01:58.86,0:02:03.66,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k25}geun{\kf114}yang {\k23}geun{\kf118}yang {\k26}geun{\k64}yang
+Dialogue: 0,0:02:03.39,0:02:06.47,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k36}al {\k35}geot{\k33}man {\k35}ga{\k59}ta
+Dialogue: 0,0:02:06.20,0:02:09.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}But {\k21}I {\k34}don't {\k33}know {\k86}why
+Dialogue: 0,0:02:09.68,0:02:15.78,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k19}i{\k39}sang{\k37}ha{\k30}ri{\k31}man{\k39}chi {\k37}a{\k32}reum{\k42}dap{\k147}deon {\k47}bam
+Dialogue: 0,0:02:37.93,0:02:43.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k49}found {\k20}you {\k48}{\rSample KM [Up]_kor}cheo{\k20}eum {\k33}i{\k37}kkeul{\k50}lin {\k35}nat{\k40}seo{\k18}reu{\k48}mi
+Dialogue: 0,0:02:43.51,0:02:48.33,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k26}geun{\kf113}yang {\k23}geun{\kf120}yang {\k24}geun{\k66}yang
+Dialogue: 0,0:02:48.03,0:02:51.06,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k36}al {\k36}geot{\k32}man {\k36}ga{\k53}ta
+Dialogue: 0,0:02:50.85,0:02:54.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}But {\k23}I {\k35}don't {\k32}know {\k88}why
+Dialogue: 0,0:02:54.33,0:03:00.45,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k20}i{\k40}sang{\k37}ha{\k28}ri{\k33}man{\k38}chi {\k36}a{\k34}reum{\k39}dap{\k148}deon {\k49}bam
+Dialogue: 0,0:03:00.60,0:03:06.73,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k69}Chro{\k66}ma {\k39}Dri-{\k70}ift {\k68}Chro-{\k37}o{\k65}ma {\k41}Dri-{\k48}ift
+Dialogue: 0,0:03:06.14,0:03:09.51,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k74}Chro{\k64}ma {\k40}Dri-{\k49}ift
+Dialogue: 0,0:03:11.75,0:03:17.87,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k71}Chro{\k65}ma {\k40}Dri-{\k69}ift {\k70}Chro-{\k36}o{\k64}ma {\k41}Dri-{\k46}ift
+Dialogue: 0,0:03:17.33,0:03:20.67,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k72}Chro{\k65}ma {\k40}Dri-{\k47}ift
+Dialogue: 0,0:03:22.93,0:03:29.08,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k71}Chro{\k60}ma {\k45}Dri-{\k68}ift {\k69}Chro-{\k37}o{\k60}ma {\k45}Dri-{\k50}ift
