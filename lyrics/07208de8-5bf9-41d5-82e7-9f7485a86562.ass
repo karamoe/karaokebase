@@ -1,0 +1,192 @@
+﻿[Script Info]
+Title: APT.
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: pockydany
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Runie,Arial,24,&H00FFFFFF,&H00AB67F1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Uruka,Arial,24,&H00FFFFFF,&H00F28A70,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Duo,Arial,24,&H00FFFFFF,&H00EE8CC4,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: COLOR CODE,Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Runie,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&HAB67F1&}Runie{\c} | {\c&HF28A70&}Uruka{\c} | {\c&HEE8CC4&}Duo
+Comment: 0,0:00:00.47,0:00:01.90,Runie,,0,0,0,karaoke,{\k39}a{\k21}pa{\k21}teu, {\k19}a{\k21}pa{\k22}teu
+Comment: 0,0:00:02.08,0:00:03.50,Runie,,0,0,0,karaoke,{\k38}a{\k23}pa{\k19}teu, {\k21}a{\k19}pa{\k22}teu
+Comment: 0,0:00:03.68,0:00:05.10,Runie,,0,0,0,karaoke,{\k41}a{\k19}pa{\k22}teu, {\k20}a{\k20}pa{\k20}teu
+Comment: 0,0:00:05.28,0:00:06.70,Runie,,0,0,0,karaoke,{\k60}Uh, {\k20}uh-{\k22}huh, {\k19}uh-{\k21}huh
+Comment: 0,0:00:06.90,0:00:08.36,Runie,,0,0,0,karaoke,{\k40}a{\k21}pa{\k21}teu, {\k18}a{\k21}pa{\k25}teu
+Comment: 0,0:00:08.51,0:00:09.99,Runie,,0,0,0,karaoke,{\k40}a{\k21}pa{\k21}teu, {\k19}a{\k19}pa{\k25}teu
+Comment: 0,0:00:10.13,0:00:11.59,Runie,,0,0,0,karaoke,{\k39}a{\k20}pa{\k20}teu, {\k21}a{\k19}pa{\k27}teu
+Comment: 0,0:00:11.73,0:00:13.12,Runie,,0,0,0,karaoke,{\k60}Uh, {\k20}uh-{\k21}huh, {\k20}uh-{\k18}huh
+Comment: 0,0:00:13.32,0:00:14.83,Runie,,0,0,0,karaoke,{\k20}Kis{\k21}sy {\k39}face, {\k22}kis{\k22}sy {\k27}face
+Comment: 0,0:00:14.94,0:00:16.48,Runie,,0,0,0,karaoke,{\k20}Sent {\k20}to {\k21}your {\k59}phone, {\k31}but
+Comment: 0,0:00:16.74,0:00:18.45,Runie,,0,0,0,karaoke,{\k18}I'm {\k24}try{\k18}na {\k21}kiss {\k22}your {\k20}lips {\k19}for {\k29}real
+Comment: 0,0:00:18.79,0:00:19.63,Runie,,0,0,90,karaoke,{\k20}{\i1}Uh-{\k18}huh, {\k22}uh-{\k24}huh{\i0}
+Comment: 0,0:00:19.79,0:00:21.27,Runie,,0,0,0,karaoke,{\k29}Red {\k48}hearts, {\k38}red {\k33}hearts
+Comment: 0,0:00:21.40,0:00:22.89,Runie,,0,0,0,karaoke,{\k20}That's {\k15}what {\k24}I'm {\k57}on, {\k33}yeah
+Comment: 0,0:00:23.17,0:00:24.87,Runie,,0,0,0,karaoke,{\k21}Come {\k22}give {\k20}me {\k19}some{\k19}thin' {\k21}I {\k22}can {\k26}feel
+Comment: 0,0:00:24.99,0:00:25.99,Runie,,0,0,0,karaoke,{\k23}Oh-{\k41}oh, {\k36}oh
+Comment: 0,0:00:26.21,0:00:29.32,Runie,,0,0,0,karaoke,{\k39}Don't {\k24}you {\k38}want {\k22}me {\k19}like {\k21}I {\k39}want {\k40}you, {\k41}ba{\k28}by?
+Comment: 0,0:00:29.45,0:00:32.29,Runie,,0,0,0,karaoke,{\k36}Don't {\k24}you {\k39}need {\k21}me {\k19}like {\k20}I {\k40}need {\k43}you {\k42}now?
+Comment: 0,0:00:32.65,0:00:35.86,Runie,,0,0,0,karaoke,{\k37}Sleep {\k25}to{\k21}mor{\k39}row, {\k21}but {\k19}to{\k41}night, {\k36}go {\k43}cra{\k39}zy
+Comment: 0,0:00:35.86,0:00:39.09,Runie,,0,0,0,karaoke,{\k20}All {\k22}you {\k19}got{\k17}ta {\k25}do {\k21}is {\k39}just {\k39}meet {\k43}me {\k40}at {\k38}the
+Comment: 0,0:00:39.09,0:00:40.62,Runie,,0,0,0,karaoke,{\k41}a{\k21}pa{\k22}teu, {\k18}a{\k20}pa{\k38}teu
+Comment: 0,0:00:40.74,0:00:42.20,Runie,,0,0,0,karaoke,{\k38}a{\k20}pa{\k22}teu, {\k19}a{\k20}pa{\k27}teu
+Comment: 0,0:00:42.33,0:00:43.82,Runie,,0,0,0,karaoke,{\k38}a{\k24}pa{\k19}teu, {\k21}a{\k20}pa{\k27}teu
+Comment: 0,0:00:43.95,0:00:45.35,Runie,,0,0,0,karaoke,{\k59}Uh, {\k21}uh-{\k20}huh, {\k19}uh-{\k31}huh
+Comment: 0,0:00:45.56,0:00:47.08,Runie,,0,0,0,karaoke,{\k41}a{\k19}pa{\k21}teu, {\k19}a{\k20}pa{\k32}teu
+Comment: 0,0:00:47.17,0:00:48.67,Runie,,0,0,0,karaoke,{\k41}a{\k19}pa{\k21}teu, {\k21}a{\k19}pa{\k29}teu
+Comment: 0,0:00:48.79,0:00:50.26,Runie,,0,0,0,karaoke,{\k37}a{\k22}pa{\k20}teu, {\k20}a{\k20}pa{\k28}teu
+Comment: 0,0:00:50.39,0:00:51.76,Runie,,0,0,0,karaoke,{\k60}Uh, {\k20}uh-{\k20}huh, {\k19}uh-{\k18}huh
+Comment: 0,0:00:51.58,0:00:53.12,Uruka,,0,0,0,karaoke,{\k21}It's {\k19}what{\k18}e{\k23}ver, {\k20}it's {\k20}what{\k18}e{\k22}ver
+Comment: 0,0:00:52.00,0:00:54.48,Runie,,0,0,90,karaoke,{\k26}{\i1}What{\k19}e{\k43}ver, {\k20}what{\k20}e{\k39}ver, {\k21}what{\k19}e{\k41}ver{\i0}
+Comment: 0,0:00:53.22,0:00:55.00,Uruka,,0,0,0,karaoke,{\k21}It's {\k17}what{\k22}e{\k20}ver {\k21}you {\k58}like, {\k19}woo!
+Comment: 0,0:00:55.19,0:00:57.22,Uruka,,0,0,0,karaoke,{\k21}Turn {\k21}this {\k20}a{\k20}pa{\k20}teu {\k14}in{\k23}to {\k16}a {\k48}club
+Comment: 0,0:00:57.42,0:00:58.23,Uruka,,0,0,90,karaoke,{\k20}{\i1}Uh-{\k20}huh, {\k18}uh-{\k23}huh{\i0}
+Comment: 0,0:00:57.83,0:00:59.85,Uruka,,0,0,0,karaoke,{\k18}I'm {\k22}tal{\k18}kin' {\k41}drink, {\k34}dance, {\k38}smoke, {\k31}freak
+Comment: 0,0:00:59.85,0:01:01.64,Uruka,,0,0,0,karaoke,{\k41}Par{\k20}ty {\k20}all {\k58}night, {\k17}come {\k23}on!
+Comment: 0,0:01:02.03,0:01:02.84,Uruka,,0,0,0,karaoke,{\k23}geon{\k21}bae, {\k21}geon{\k17}bae
+Comment: 0,0:01:02.84,0:01:03.66,Uruka,,0,0,0,karaoke,{\k23}Girl, {\k20}what's {\k39}up?
+Comment: 0,0:01:03.66,0:01:04.71,Duo,,0,0,0,karaoke,{\k23}Oh-{\k39}oh, {\k50}oh
+Comment: 0,0:01:04.89,0:01:08.05,Duo,,0,0,0,karaoke,{\k33}Don't {\k27}you {\k40}want {\k21}me {\k18}like {\k23}I {\k32}want {\k44}you, {\k41}ba{\k37}by?
+Comment: 0,0:01:08.10,0:01:10.94,Duo,,0,0,0,karaoke,{\k36}Don't {\k24}you {\k39}need {\k19}me {\k24}like {\k17}I {\k40}need {\k43}you {\k58}now?
+Comment: 0,0:01:11.33,0:01:14.35,Duo,,0,0,0,karaoke,{\k38}Sleep {\k22}to{\k21}mor{\k35}row, {\k23}but {\k21}to{\k38}night, {\k36}go {\k43}cra{\k25}zy
+Comment: 0,0:01:14.52,0:01:17.78,Duo,,0,0,0,karaoke,{\k20}All {\k22}you {\k19}got{\k19}ta {\k23}do {\k21}is {\k39}just {\k39}meet {\k43}me {\k40}at {\k41}the
+Comment: 0,0:01:17.78,0:01:19.26,Duo,,0,0,0,karaoke,{\k37}a{\k22}pa{\k19}teu, {\k19}a{\k17}pa{\k34}teu
+Comment: 0,0:01:19.38,0:01:20.88,Duo,,0,0,0,karaoke,{\k35}a{\k23}pa{\k22}teu, {\k19}a{\k18}pa{\k33}teu
+Comment: 0,0:01:21.00,0:01:22.51,Duo,,0,0,0,karaoke,{\k41}a{\k21}pa{\k22}teu, {\k18}a{\k20}pa{\k38}teu
+Comment: 0,0:01:22.61,0:01:24.00,Duo,,0,0,0,karaoke,{\k59}Uh, {\k21}uh-{\k20}huh, {\k19}uh-{\k31}huh
+Comment: 0,0:01:24.22,0:01:25.63,Duo,,0,0,0,karaoke,{\k38}a{\k20}pa{\k21}teu, {\k20}a{\k18}pa{\k24}teu
+Comment: 0,0:01:25.82,0:01:27.33,Duo,,0,0,0,karaoke,{\k38}a{\k20}pa{\k23}teu, {\k18}a{\k18}pa{\k34}teu
+Comment: 0,0:01:27.43,0:01:28.95,Duo,,0,0,0,karaoke,{\k39}a{\k23}pa{\k22}teu, {\k18}a{\k16}pa{\k34}teu
+Comment: 0,0:01:29.03,0:01:30.49,Duo,,0,0,0,karaoke,{\k59}Uh, {\k21}uh-{\k20}huh, {\k19}uh-{\k31}huh
+Comment: 0,0:01:30.59,0:01:31.26,Runie,,0,0,0,karaoke,{\k43}Hey
+Comment: 0,0:01:31.64,0:01:32.88,Runie,,0,0,0,karaoke,{\k20}So {\k19}now {\k13}you {\k17}know {\k14}the {\k41}game
+Comment: 0,0:01:33.56,0:01:34.45,Runie,,0,0,0,karaoke,{\k16}Are {\k17}you {\k19}rea{\k37}dy?
+Comment: 0,0:01:34.81,0:01:36.00,Duo,,0,0,0,karaoke,{\k10}'cause {\k13}I'm {\k14}co{\k11}ming {\k18}to {\k19}get {\k34}ya
+Comment: 0,0:01:36.25,0:01:37.08,Duo,,0,0,0,karaoke,{\k17}Get {\k23}ya, {\k19}get {\k24}ya
+Comment: 0,0:01:37.08,0:01:39.29,Runie,,0,0,0,karaoke,{\k38}Hold {\k80}on, {\k45}hold {\k58}on
+Comment: 0,0:01:39.29,0:01:43.16,Runie,,0,0,0,karaoke,{\k24}I'm {\k17}on {\k43}my {\kf303}way
+Comment: 0,0:01:43.55,0:01:45.56,Runie,,0,0,0,karaoke,{\k39}Yeah, {\k23}yeah, {\k21}yeah {\k35}yeah, {\k83}yeah
+Comment: 0,0:01:45.74,0:01:49.60,Runie,,0,0,0,karaoke,{\k24}I'm {\k17}on {\k39}my {\kf306}way
+Comment: 0,0:01:49.93,0:01:52.03,Uruka,,0,0,0,karaoke,{\k46}Hold {\k78}on, {\k35}hold {\k51}on
+Comment: 0,0:01:52.19,0:01:56.03,Uruka,,0,0,0,karaoke,{\k21}I'm {\k20}on {\k35}my {\kf308}way
+Comment: 0,0:01:56.42,0:01:58.46,Uruka,,0,0,0,karaoke,{\k40}Yeah, {\k41}yeah, {\k23}yeah {\k34}yeah, {\k82}yeah
+Comment: 0,0:01:58.63,0:02:02.61,Uruka,,0,0,0,karaoke,{\k23}I'm {\k21}on {\k56}my {\kf44}way {\kf82}-ay {\kf59}-ay {\kf60}-ay {\kf53}-ay
+Comment: 0,0:02:02.86,0:02:05.94,Duo,,0,0,0,karaoke,{\k35}Don't {\k28}you {\k42}want {\k18}me {\k16}like {\k25}I {\k35}want {\k40}you, {\k46}ba{\k23}by?
+Comment: 0,0:02:06.08,0:02:08.92,Duo,,0,0,0,karaoke,{\k36}Don't {\k24}you {\k39}need {\k19}me {\k24}like {\k17}I {\k40}need {\k43}you {\k58}now?
+Comment: 0,0:02:09.30,0:02:12.32,Duo,,0,0,0,karaoke,{\k38}Sleep {\k25}to{\k21}mor{\k38}row, {\k21}but {\k20}to{\k39}night, {\k36}go {\k43}cra{\k21}zy
+Comment: 0,0:02:12.51,0:02:15.66,Duo,,0,0,0,karaoke,{\k20}All {\k22}you {\k19}got{\k17}ta {\k26}do {\k20}is {\k39}just {\k39}meet {\k43}me {\k35}at {\k35}the
+Comment: 0,0:02:15.75,0:02:17.24,Duo,,0,0,0,karaoke,{\k41}a{\k21}pa{\k22}teu, {\k18}a{\k20}pa{\k38}teu
+Comment: 0,0:02:17.35,0:02:18.86,Duo,,0,0,0,karaoke,{\k41}a{\k21}pa{\k22}teu, {\k18}a{\k20}pa{\k38}teu
+Comment: 0,0:02:18.94,0:02:20.42,Duo,,0,0,0,karaoke,{\k41}a{\k21}pa{\k22}teu, {\k18}a{\k20}pa{\k38}teu
+Comment: 0,0:02:20.10,0:02:22.20,Runie,,0,0,0,karaoke,{\k45}Just {\k41}meet {\k39}me {\k44}at {\k41}the
+Comment: 0,0:02:20.57,0:02:22.04,Uruka,,0,0,90,karaoke,{\i1}{\k59}Uh, {\k21}uh-{\k20}huh, {\k19}uh-{\k31}huh{\i0}
+Comment: 0,0:02:22.20,0:02:23.68,Duo,,0,0,0,karaoke,{\k41}a{\k21}pa{\k22}teu, {\k18}a{\k20}pa{\k38}teu
+Comment: 0,0:02:23.81,0:02:25.29,Duo,,0,0,0,karaoke,{\k41}a{\k21}pa{\k22}teu, {\k18}a{\k20}pa{\k38}teu
+Comment: 0,0:02:25.42,0:02:26.87,Duo,,0,0,0,karaoke,{\k41}a{\k21}pa{\k22}teu, {\k18}a{\k19}pa{\k24}teu
+Comment: 0,0:02:26.58,0:02:28.64,Uruka,,0,0,0,karaoke,{\k42}Just {\k44}meet {\k37}me {\k42}at {\k41}the
+Comment: 0,0:02:27.01,0:02:28.64,Runie,,0,0,90,karaoke,{\i1}{\k59}Uh, {\k21}uh-{\k20}huh, {\k19}uh-{\k31}huh{\i0}
+Comment: 0,0:02:28.64,0:02:30.13,Duo,,0,0,0,karaoke,{\k41}a{\k21}pa{\k22}teu, {\k18}a{\k20}pa{\k38}teu
+Comment: 0,0:02:30.24,0:02:31.78,Duo,,0,0,0,karaoke,{\k41}a{\k21}pa{\k22}teu, {\k18}a{\k20}pa{\k38}teu
+Comment: 0,0:02:31.85,0:02:33.36,Duo,,0,0,0,karaoke,{\k41}a{\k21}pa{\k22}teu, {\k18}a{\k20}pa{\k38}teu
+Comment: 0,0:02:33.02,0:02:35.09,Duo,,0,0,0,karaoke,{\k45}Just {\k41}meet {\k37}me {\k42}at {\k44}the
+Comment: 0,0:02:33.45,0:02:35.09,Runie,,0,0,90,karaoke,{\i1}{\k59}Uh, {\k21}uh-{\k20}huh, {\k19}uh-{\k31}huh{\i0}
+Comment: 0,0:02:35.09,0:02:36.59,Duo,,0,0,0,karaoke,{\k41}a{\k21}pa{\k22}teu, {\k18}a{\k16}pa{\k32}teu
+Comment: 0,0:02:36.68,0:02:38.19,Duo,,0,0,0,karaoke,{\k41}a{\k21}pa{\k22}teu, {\k18}a{\k20}pa{\k38}teu
+Comment: 0,0:02:38.30,0:02:39.82,Duo,,0,0,0,karaoke,{\k41}a{\k21}pa{\k22}teu, {\k18}a{\k20}pa{\k38}teu
+Comment: 0,0:02:39.89,0:02:41.34,Duo,,0,0,0,karaoke,{\k59}Uh, {\k21}uh-{\k20}huh, {\k19}uh-{\k31}huh
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&HAB67F1&}Runie{\c} | {\c&HF28A70&}Uruka{\c} | {\c&HEE8CC4&}Duo
+Dialogue: 0,0:00:00.00,0:00:02.10,Runie,,0,0,0,fx,{\k47\fad(470,200)}{\k39}a{\k21}pa{\k21}teu, {\k19}a{\k21}pa{\k22}teu
+Dialogue: 0,0:00:01.18,0:00:03.70,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k38}a{\k23}pa{\k19}teu, {\k21}a{\k19}pa{\k22}teu
+Dialogue: 0,0:00:02.78,0:00:05.30,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k41}a{\k19}pa{\k22}teu, {\k20}a{\k20}pa{\k20}teu
+Dialogue: 0,0:00:04.38,0:00:06.90,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k60}Uh, {\k20}uh-{\k22}huh, {\k19}uh-{\k21}huh
+Dialogue: 0,0:00:06.00,0:00:08.56,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k40}a{\k21}pa{\k21}teu, {\k18}a{\k21}pa{\k25}teu
+Dialogue: 0,0:00:07.61,0:00:10.19,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k40}a{\k21}pa{\k21}teu, {\k19}a{\k19}pa{\k25}teu
+Dialogue: 0,0:00:09.23,0:00:11.79,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k39}a{\k20}pa{\k20}teu, {\k21}a{\k19}pa{\k27}teu
+Dialogue: 0,0:00:10.83,0:00:13.32,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k60}Uh, {\k20}uh-{\k21}huh, {\k20}uh-{\k18}huh
+Dialogue: 0,0:00:12.42,0:00:15.03,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Kis{\k21}sy {\k39}face, {\k22}kis{\k22}sy {\k27}face
+Dialogue: 0,0:00:14.04,0:00:16.68,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Sent {\k20}to {\k21}your {\k59}phone, {\k31}but
+Dialogue: 0,0:00:15.84,0:00:18.65,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k18}I'm {\k24}try{\k18}na {\k21}kiss {\k22}your {\k20}lips {\k19}for {\k29}real
+Dialogue: 0,0:00:17.89,0:00:19.83,Runie,,0,0,90,fx,{\k90\fad(300,200)}{\k20}{\i1}Uh-{\k18}huh, {\k22}uh-{\k24}huh{\i0}
+Dialogue: 0,0:00:18.89,0:00:21.47,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Red {\k48}hearts, {\k38}red {\k33}hearts
+Dialogue: 0,0:00:20.50,0:00:23.09,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k20}That's {\k15}what {\k24}I'm {\k57}on, {\k33}yeah
+Dialogue: 0,0:00:22.27,0:00:25.07,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Come {\k22}give {\k20}me {\k19}some{\k19}thin' {\k21}I {\k22}can {\k26}feel
+Dialogue: 0,0:00:24.09,0:00:26.19,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Oh-{\k41}oh, {\k36}oh
+Dialogue: 0,0:00:25.31,0:00:29.52,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k39}Don't {\k24}you {\k38}want {\k22}me {\k19}like {\k21}I {\k39}want {\k40}you, {\k41}ba{\k28}by?
+Dialogue: 0,0:00:28.55,0:00:32.49,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Don't {\k24}you {\k39}need {\k21}me {\k19}like {\k20}I {\k40}need {\k43}you {\k42}now?
+Dialogue: 0,0:00:31.75,0:00:36.06,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Sleep {\k25}to{\k21}mor{\k39}row, {\k21}but {\k19}to{\k41}night, {\k36}go {\k43}cra{\k39}zy
+Dialogue: 0,0:00:34.96,0:00:39.29,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k20}All {\k22}you {\k19}got{\k17}ta {\k25}do {\k21}is {\k39}just {\k39}meet {\k43}me {\k40}at {\k38}the
+Dialogue: 0,0:00:38.19,0:00:40.82,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k41}a{\k21}pa{\k22}teu, {\k18}a{\k20}pa{\k38}teu
+Dialogue: 0,0:00:39.84,0:00:42.40,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k38}a{\k20}pa{\k22}teu, {\k19}a{\k20}pa{\k27}teu
+Dialogue: 0,0:00:41.43,0:00:44.02,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k38}a{\k24}pa{\k19}teu, {\k21}a{\k20}pa{\k27}teu
+Dialogue: 0,0:00:43.05,0:00:45.55,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k59}Uh, {\k21}uh-{\k20}huh, {\k19}uh-{\k31}huh
+Dialogue: 0,0:00:44.66,0:00:47.28,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k41}a{\k19}pa{\k21}teu, {\k19}a{\k20}pa{\k32}teu
+Dialogue: 0,0:00:46.27,0:00:48.87,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k41}a{\k19}pa{\k21}teu, {\k21}a{\k19}pa{\k29}teu
+Dialogue: 0,0:00:47.89,0:00:50.46,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k37}a{\k22}pa{\k20}teu, {\k20}a{\k20}pa{\k28}teu
+Dialogue: 0,0:00:49.49,0:00:51.96,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k60}Uh, {\k20}uh-{\k20}huh, {\k19}uh-{\k18}huh
+Dialogue: 0,0:00:50.68,0:00:53.32,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k21}It's {\k19}what{\k18}e{\k23}ver, {\k20}it's {\k20}what{\k18}e{\k22}ver
+Dialogue: 0,0:00:51.10,0:00:54.68,Runie,,0,0,90,fx,{\k90\fad(300,200)}{\k26}{\i1}What{\k19}e{\k43}ver, {\k20}what{\k20}e{\k39}ver, {\k21}what{\k19}e{\k41}ver{\i0}
+Dialogue: 0,0:00:52.32,0:00:55.20,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k21}It's {\k17}what{\k22}e{\k20}ver {\k21}you {\k58}like, {\k19}woo!
+Dialogue: 0,0:00:54.29,0:00:57.42,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Turn {\k21}this {\k20}a{\k20}pa{\k20}teu {\k14}in{\k23}to {\k16}a {\k48}club
+Dialogue: 0,0:00:56.52,0:00:58.43,Uruka,,0,0,90,fx,{\k90\fad(300,200)}{\k20}{\i1}Uh-{\k20}huh, {\k18}uh-{\k23}huh{\i0}
+Dialogue: 0,0:00:56.93,0:01:00.05,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k18}I'm {\k22}tal{\k18}kin' {\k41}drink, {\k34}dance, {\k38}smoke, {\k31}freak
+Dialogue: 0,0:00:58.95,0:01:01.84,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k41}Par{\k20}ty {\k20}all {\k58}night, {\k17}come {\k23}on!
+Dialogue: 0,0:01:01.13,0:01:03.04,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k23}geon{\k21}bae, {\k21}geon{\k17}bae
+Dialogue: 0,0:01:01.94,0:01:03.86,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Girl, {\k20}what's {\k39}up?
+Dialogue: 0,0:01:02.76,0:01:04.91,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Oh-{\k39}oh, {\k50}oh
+Dialogue: 0,0:01:03.99,0:01:08.25,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Don't {\k27}you {\k40}want {\k21}me {\k18}like {\k23}I {\k32}want {\k44}you, {\k41}ba{\k37}by?
+Dialogue: 0,0:01:07.20,0:01:11.14,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Don't {\k24}you {\k39}need {\k19}me {\k24}like {\k17}I {\k40}need {\k43}you {\k58}now?
+Dialogue: 0,0:01:10.43,0:01:14.55,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Sleep {\k22}to{\k21}mor{\k35}row, {\k23}but {\k21}to{\k38}night, {\k36}go {\k43}cra{\k25}zy
+Dialogue: 0,0:01:13.62,0:01:17.98,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k20}All {\k22}you {\k19}got{\k19}ta {\k23}do {\k21}is {\k39}just {\k39}meet {\k43}me {\k40}at {\k41}the
+Dialogue: 0,0:01:16.88,0:01:19.46,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k37}a{\k22}pa{\k19}teu, {\k19}a{\k17}pa{\k34}teu
+Dialogue: 0,0:01:18.48,0:01:21.08,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k35}a{\k23}pa{\k22}teu, {\k19}a{\k18}pa{\k33}teu
+Dialogue: 0,0:01:20.10,0:01:22.71,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k41}a{\k21}pa{\k22}teu, {\k18}a{\k20}pa{\k38}teu
+Dialogue: 0,0:01:21.71,0:01:24.20,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k59}Uh, {\k21}uh-{\k20}huh, {\k19}uh-{\k31}huh
+Dialogue: 0,0:01:23.32,0:01:25.83,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k38}a{\k20}pa{\k21}teu, {\k20}a{\k18}pa{\k24}teu
+Dialogue: 0,0:01:24.92,0:01:27.53,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k38}a{\k20}pa{\k23}teu, {\k18}a{\k18}pa{\k34}teu
+Dialogue: 0,0:01:26.53,0:01:29.15,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k39}a{\k23}pa{\k22}teu, {\k18}a{\k16}pa{\k34}teu
+Dialogue: 0,0:01:28.13,0:01:30.69,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k59}Uh, {\k21}uh-{\k20}huh, {\k19}uh-{\k31}huh
+Dialogue: 0,0:01:29.69,0:01:31.46,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Hey
+Dialogue: 0,0:01:30.74,0:01:33.08,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k20}So {\k19}now {\k13}you {\k17}know {\k14}the {\k41}game
+Dialogue: 0,0:01:32.66,0:01:34.65,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Are {\k17}you {\k19}rea{\k37}dy?
+Dialogue: 0,0:01:33.91,0:01:36.20,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k10}'cause {\k13}I'm {\k14}co{\k11}ming {\k18}to {\k19}get {\k34}ya
+Dialogue: 0,0:01:35.35,0:01:37.28,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Get {\k23}ya, {\k19}get {\k24}ya
+Dialogue: 0,0:01:36.18,0:01:39.49,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Hold {\k80}on, {\k45}hold {\k58}on
+Dialogue: 0,0:01:38.39,0:01:43.36,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k24}I'm {\k17}on {\k43}my {\kf303}way
+Dialogue: 0,0:01:42.65,0:01:45.76,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k39}Yeah, {\k23}yeah, {\k21}yeah {\k35}yeah, {\k83}yeah
+Dialogue: 0,0:01:44.84,0:01:49.80,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k24}I'm {\k17}on {\k39}my {\kf306}way
+Dialogue: 0,0:01:49.03,0:01:52.23,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k46}Hold {\k78}on, {\k35}hold {\k51}on
+Dialogue: 0,0:01:51.29,0:01:56.23,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k21}I'm {\k20}on {\k35}my {\kf308}way
+Dialogue: 0,0:01:55.52,0:01:58.66,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k40}Yeah, {\k41}yeah, {\k23}yeah {\k34}yeah, {\k82}yeah
+Dialogue: 0,0:01:57.73,0:02:02.81,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k23}I'm {\k21}on {\k56}my {\kf44}way {\kf82}-ay {\kf59}-ay {\kf60}-ay {\kf53}-ay
+Dialogue: 0,0:02:01.96,0:02:06.14,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Don't {\k28}you {\k42}want {\k18}me {\k16}like {\k25}I {\k35}want {\k40}you, {\k46}ba{\k23}by?
+Dialogue: 0,0:02:05.18,0:02:09.12,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Don't {\k24}you {\k39}need {\k19}me {\k24}like {\k17}I {\k40}need {\k43}you {\k58}now?
+Dialogue: 0,0:02:08.40,0:02:12.52,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Sleep {\k25}to{\k21}mor{\k38}row, {\k21}but {\k20}to{\k39}night, {\k36}go {\k43}cra{\k21}zy
+Dialogue: 0,0:02:11.61,0:02:15.86,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k20}All {\k22}you {\k19}got{\k17}ta {\k26}do {\k20}is {\k39}just {\k39}meet {\k43}me {\k35}at {\k35}the
+Dialogue: 0,0:02:14.85,0:02:17.44,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k41}a{\k21}pa{\k22}teu, {\k18}a{\k20}pa{\k38}teu
+Dialogue: 0,0:02:16.45,0:02:19.06,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k41}a{\k21}pa{\k22}teu, {\k18}a{\k20}pa{\k38}teu
+Dialogue: 0,0:02:18.04,0:02:20.62,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k41}a{\k21}pa{\k22}teu, {\k18}a{\k20}pa{\k38}teu
+Dialogue: 0,0:02:19.20,0:02:22.40,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Just {\k41}meet {\k39}me {\k44}at {\k41}the
+Dialogue: 0,0:02:19.67,0:02:22.24,Uruka,,0,0,90,fx,{\k90\fad(300,200)}{\i1}{\k59}Uh, {\k21}uh-{\k20}huh, {\k19}uh-{\k31}huh{\i0}
+Dialogue: 0,0:02:21.30,0:02:23.88,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k41}a{\k21}pa{\k22}teu, {\k18}a{\k20}pa{\k38}teu
+Dialogue: 0,0:02:22.91,0:02:25.49,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k41}a{\k21}pa{\k22}teu, {\k18}a{\k20}pa{\k38}teu
+Dialogue: 0,0:02:24.52,0:02:27.07,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k41}a{\k21}pa{\k22}teu, {\k18}a{\k19}pa{\k24}teu
+Dialogue: 0,0:02:25.68,0:02:28.84,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k42}Just {\k44}meet {\k37}me {\k42}at {\k41}the
+Dialogue: 0,0:02:26.11,0:02:28.84,Runie,,0,0,90,fx,{\k90\fad(300,200)}{\i1}{\k59}Uh, {\k21}uh-{\k20}huh, {\k19}uh-{\k31}huh{\i0}
+Dialogue: 0,0:02:27.74,0:02:30.33,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k41}a{\k21}pa{\k22}teu, {\k18}a{\k20}pa{\k38}teu
+Dialogue: 0,0:02:29.34,0:02:31.98,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k41}a{\k21}pa{\k22}teu, {\k18}a{\k20}pa{\k38}teu
+Dialogue: 0,0:02:30.95,0:02:33.56,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k41}a{\k21}pa{\k22}teu, {\k18}a{\k20}pa{\k38}teu
+Dialogue: 0,0:02:32.12,0:02:35.29,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Just {\k41}meet {\k37}me {\k42}at {\k44}the
+Dialogue: 0,0:02:32.55,0:02:35.29,Runie,,0,0,90,fx,{\k90\fad(300,200)}{\i1}{\k59}Uh, {\k21}uh-{\k20}huh, {\k19}uh-{\k31}huh{\i0}
+Dialogue: 0,0:02:34.19,0:02:36.79,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k41}a{\k21}pa{\k22}teu, {\k18}a{\k16}pa{\k32}teu
+Dialogue: 0,0:02:35.78,0:02:38.39,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k41}a{\k21}pa{\k22}teu, {\k18}a{\k20}pa{\k38}teu
+Dialogue: 0,0:02:37.40,0:02:40.02,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k41}a{\k21}pa{\k22}teu, {\k18}a{\k20}pa{\k38}teu
+Dialogue: 0,0:02:38.99,0:02:41.54,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k59}Uh, {\k21}uh-{\k20}huh, {\k19}uh-{\k31}huh
