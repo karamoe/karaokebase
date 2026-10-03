@@ -1,0 +1,80 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+Title: PLAY BACK
+Original Timing: Timmy Does
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:03.90,0:00:07.79,Sample KM [Choir],,0,0,0,karaoke,{\k39}Ah{\k34}Ah{\k37}Ah{\k53}Ah {\k17}Ah{\k36}Ah {\k35}Ah {\kf138}Ah
+Comment: 0,0:00:09.60,0:00:13.41,Sample KM [Choir],,0,0,0,karaoke,{\k39}Ah{\k34}Ah{\k39}Ah{\k51}Ah {\k17}Ah{\k36}Ah {\k37}Ah {\kf128}Ah
+Comment: 0,0:00:14.59,0:00:17.29,Sample KM [Up],,0,0,0,karaoke,{\k39}ge{\k18}n{\k17}jit{\k19}su {\k17}to {\k22}yu{\k14}me {\k17}no {\k37}kyou{\k18}ka{\k19}i {\k33}sen
+Comment: 0,0:00:17.65,0:00:20.33,Sample KM [Up],,0,0,0,karaoke,{\k37}In {\k17}the {\k21}blur {\k15}of {\k20}dream {\k16}and {\k26}real {\k29}I {\k17}stay {\k20}a{\k50}lone
+Comment: 0,0:00:21.01,0:00:23.90,Sample KM [Up],,0,0,0,karaoke,{\k40}ki{\k34}nou {\k22}to {\k15}o{\k35}na{\k21}ji {\k15}yo{\k20}u {\k34}de {\k53}YEAH
+Comment: 0,0:00:24.10,0:00:26.41,Sample KM [Up],,0,0,0,karaoke,{\k18}chi{\k19}ga{\k50}u {\k20}se{\k16}ka{\k16}i {\k38}s{\k54}en
+Comment: 0,0:00:26.73,0:00:29.41,Sample KM [Up],,0,0,0,karaoke,{\k57}Dream {\k48}felt {\k58}too {\k37}real {\k18}to {\k50}break
+Comment: 0,0:00:29.56,0:00:31.25,Sample KM [Up],,0,0,0,karaoke,{\k59}Can't {\k53}let {\k57}go
+Comment: 0,0:00:31.38,0:00:33.94,Sample KM [Up],,0,0,0,karaoke,{\k39}ten{\k17}za{\k33}i {\k21}su{\k16}ru {\k39}fu{\k34}ra{\k57}gu
+Comment: 0,0:00:34.25,0:00:37.11,Sample KM [Up],,0,0,0,karaoke,{\k20}me{\k17}ma{\k19}i {\k35}no {\k38}you{\k33}na {\k36}DE{\k58}JA {\k30}VU
+Comment: 0,0:00:37.47,0:00:40.44,Sample KM [Up],,0,0,0,karaoke,{\k19}But{\k17}ter{\kf108}flies {\k18}dan{\k18}ce {\k35}in {\k36}the {\k46}sky
+Comment: 0,0:00:40.68,0:00:43.36,Sample KM [Up],,0,0,0,karaoke,{\k37}kou{\k18}sa{\k18}ku{\k17}su{\k18}ru {\k18}NIGHT {\k10}AND {\kf132}DAY
+Comment: 0,0:00:43.52,0:00:44.17,Sample KM [Up],,0,0,0,karaoke,{\k40}PLAY {\k25}BACK
+Comment: 0,0:00:44.26,0:00:46.39,Sample KM [Up],,0,0,0,karaoke,{\k20}But {\k17}I {\k20}won't {\k16}re{\k35}play {\k36}the {\k69}scheme
+Comment: 0,0:00:46.39,0:00:47.11,Sample KM [Up],,0,0,0,karaoke,{\k37}PLAY {\k35}BACK
+Comment: 0,0:00:47.11,0:00:49.08,Sample KM [Up],,0,0,0,karaoke,{\k21}Ne{\k16}ver {\k18}be {\k14}the {\k40}same {\k38}as {\k50}dreamed
+Comment: 0,0:00:49.24,0:00:50.63,Sample KM [Up],,0,0,0,karaoke,{\k74}PLAY {\k65}BACK
+Comment: 0,0:00:50.66,0:00:52.15,Sample KM [Up],,0,0,0,karaoke,{\k19}kyo{\k20}ko{\k19}u {\k33}MA{\k58}TRIX
+Comment: 0,0:00:52.15,0:00:54.85,Sample KM [Choir],,0,0,0,karaoke,{\k69}YE{\k71}AH {\k36}oh {\k36}oh {\k35}oh {\k23}oh
+Comment: 0,0:00:54.85,0:00:57.69,Sample KM [Up],,0,0,0,karaoke,{\k49}sen{\k30}zai {\k26}i{\k15}shi{\k18}ki {\k18}ri{\k9}rai{\k21}to {\k40}shi{\k58}te
+Comment: 0,0:00:57.72,0:01:00.64,Sample KM [Up],,0,0,0,karaoke,{\k44}shin{\k37}sou {\k14}SHA{\k19}DO{\k23}W {\k15}kyan{\k13}se{\k26}ru {\k35}shi{\k66}te
+Comment: 0,0:01:00.67,0:01:01.92,Sample KM [Up],,0,0,0,karaoke,{\k73}PLAY {\k52}BACK
+Comment: 0,0:01:01.95,0:01:03.59,Sample KM [Up],,0,0,0,karaoke,{\k19}ko{\k16}ko {\k16}ka{\k25}ra {\k27}sa{\k12}ki {\k49}wa
+Comment: 0,0:01:04.23,0:01:07.00,Sample KM [Up],,0,0,0,karaoke,{\k39}C{\k35}lose {\k73}to {\k70}the {\k60}edge
+Comment: 0,0:01:06.39,0:01:07.11,Sample KM [Up],,0,0,0,karaoke,{\k38}PLAY {\k34}BACK
+Comment: 0,0:01:07.11,0:01:09.07,Sample KM [Up],,0,0,0,karaoke,{\k21}But {\k16}I {\k20}won't {\k16}re{\k36}play {\k35}the {\k52}scheme
+Comment: 0,0:01:09.25,0:01:09.95,Sample KM [Up],,0,0,0,karaoke,{\k37}PLAY {\k33}BACK
+Comment: 0,0:01:09.98,0:01:12.06,Sample KM [Up],,0,0,0,karaoke,{\k19}Ne{\k16}ver {\k15}be {\k20}the {\k37}same {\k35}as {\k66}dreamed
+Comment: 0,0:01:12.10,0:01:13.36,Sample KM [Up],,0,0,0,karaoke,{\k73}PLAY {\k53}BACK
+Comment: 0,0:01:13.39,0:01:15.37,Sample KM [Up],,0,0,0,karaoke,{\k16}ko{\k18}ko {\k18}ka{\k21}ra {\k29}sa{\k12}ki {\k84}wa
+Comment: 0,0:01:15.66,0:01:18.59,Sample KM [Up],,0,0,0,karaoke,{\k39}C{\k36}lose {\k74}to {\k66}the {\k78}edge
+Dialogue: 0,0:00:03.00,0:00:07.99,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Ah{\k34}Ah{\k37}Ah{\k53}Ah {\k17}Ah{\k36}Ah {\k35}Ah {\kf138}Ah
+Dialogue: 0,0:00:08.70,0:00:13.61,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Ah{\k34}Ah{\k39}Ah{\k51}Ah {\k17}Ah{\k36}Ah {\k37}Ah {\kf128}Ah
+Dialogue: 0,0:00:13.69,0:00:17.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}ge{\k18}n{\k17}jit{\k19}su {\k17}to {\k22}yu{\k14}me {\k17}no {\k37}kyou{\k18}ka{\k19}i {\k33}sen
+Dialogue: 0,0:00:16.75,0:00:20.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}In {\k17}the {\k21}blur {\k15}of {\k20}dream {\k16}and {\k26}real {\k29}I {\k17}stay {\k20}a{\k50}lone
+Dialogue: 0,0:00:20.11,0:00:24.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}ki{\k34}nou {\k22}to {\k15}o{\k35}na{\k21}ji {\k15}yo{\k20}u {\k34}de {\k53}YEAH
+Dialogue: 0,0:00:23.20,0:00:26.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}chi{\k19}ga{\k50}u {\k20}se{\k16}ka{\k16}i {\k38}s{\k54}en
+Dialogue: 0,0:00:25.83,0:00:29.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k57}Dream {\k48}felt {\k58}too {\k37}real {\k18}to {\k50}break
+Dialogue: 0,0:00:28.66,0:00:31.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k59}Can't {\k53}let {\k57}go
+Dialogue: 0,0:00:30.48,0:00:34.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}ten{\k17}za{\k33}i {\k21}su{\k16}ru {\k39}fu{\k34}ra{\k57}gu
+Dialogue: 0,0:00:33.35,0:00:37.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}me{\k17}ma{\k19}i {\k35}no {\k38}you{\k33}na {\k36}DE{\k58}JA {\k30}VU
+Dialogue: 0,0:00:36.57,0:00:40.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}But{\k17}ter{\kf108}flies {\k18}dan{\k18}ce {\k35}in {\k36}the {\k46}sky
+Dialogue: 0,0:00:39.78,0:00:43.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}kou{\k18}sa{\k18}ku{\k17}su{\k18}ru {\k18}NIGHT {\k10}AND {\kf132}DAY
+Dialogue: 0,0:00:42.62,0:00:44.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}PLAY {\k25}BACK
+Dialogue: 0,0:00:43.36,0:00:46.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}But {\k17}I {\k20}won't {\k16}re{\k35}play {\k36}the {\k69}scheme
+Dialogue: 0,0:00:45.49,0:00:47.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}PLAY {\k35}BACK
+Dialogue: 0,0:00:46.21,0:00:49.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Ne{\k16}ver {\k18}be {\k14}the {\k40}same {\k38}as {\k50}dreamed
+Dialogue: 0,0:00:48.34,0:00:50.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k74}PLAY {\k65}BACK
+Dialogue: 0,0:00:49.76,0:00:52.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}kyo{\k20}ko{\k19}u {\k33}MA{\k58}TRIX
+Dialogue: 0,0:00:51.25,0:00:55.05,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k69}YE{\k71}AH {\k36}oh {\k36}oh {\k35}oh {\k23}oh
+Dialogue: 0,0:00:53.95,0:00:57.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}sen{\k30}zai {\k26}i{\k15}shi{\k18}ki {\k18}ri{\k9}rai{\k21}to {\k40}shi{\k58}te
+Dialogue: 0,0:00:56.82,0:01:00.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}shin{\k37}sou {\k14}SHA{\k19}DO{\k23}W {\k15}kyan{\k13}se{\k26}ru {\k35}shi{\k66}te
+Dialogue: 0,0:00:59.77,0:01:02.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k73}PLAY {\k52}BACK
+Dialogue: 0,0:01:01.05,0:01:03.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}ko{\k16}ko {\k16}ka{\k25}ra {\k27}sa{\k12}ki {\k49}wa
+Dialogue: 0,0:01:03.33,0:01:07.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}C{\k35}lose {\k73}to {\k70}the {\k60}edge
+Dialogue: 0,0:01:05.49,0:01:07.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}PLAY {\k34}BACK
+Dialogue: 0,0:01:06.21,0:01:09.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}But {\k16}I {\k20}won't {\k16}re{\k36}play {\k35}the {\k52}scheme
+Dialogue: 0,0:01:08.35,0:01:10.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}PLAY {\k33}BACK
+Dialogue: 0,0:01:09.08,0:01:12.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Ne{\k16}ver {\k15}be {\k20}the {\k37}same {\k35}as {\k66}dreamed
+Dialogue: 0,0:01:11.20,0:01:13.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k73}PLAY {\k53}BACK
+Dialogue: 0,0:01:12.49,0:01:15.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}ko{\k18}ko {\k18}ka{\k21}ra {\k29}sa{\k12}ki {\k84}wa
+Dialogue: 0,0:01:14.76,0:01:18.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}C{\k36}lose {\k74}to {\k66}the {\k78}edge
