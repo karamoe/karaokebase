@@ -1,0 +1,52 @@
+﻿[Script Info]
+Title: Danger in My Tsuugakuro
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: KuroSensei
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default - kanji,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,3,2,10,10,10,1
+Style: Default,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:21.53,0:00:24.94,Default - kanji,,0,0,0,karaoke,{\k40}ス{\k9}テ{\k13}ル{\k10}ス{\k32}状{\k37}態{\k34}で{\k41}静{\k33}寂{\k46}貫{\k18}い{\k28}て
+Comment: 0,0:00:25.11,0:00:28.45,Default - kanji,,0,0,0,karaoke,{\k18}な{\k17}る{\k19}べ{\k14}く{\k29}平{\k24}常{\k31}心　{\k24}{\k29}こ{\k25}っち{\k12}こ{\k21}な{\k12}い{\k30}で{\k29}って
+Comment: 0,0:00:28.59,0:00:32.01,Default - kanji,,0,0,0,karaoke,{\k34}言{\k22}った{\k44}先{\k29}か{\k43}ら　{\k55}被{\k15}る{\k21}ア{\k4}ク{\k11}シ{\k27}デン{\k37}ト
+Comment: 0,0:00:32.12,0:00:35.10,Default - kanji,,0,0,0,karaoke,{\k27}Like {\k8}a {\k13}A{\k38}ssa{\k39}ssin{\k37}で　{\k47}正{\k31}面{\k28}突{\k30}破
+Comment: 0,0:00:35.18,0:00:37.75,Default - kanji,,0,0,0,karaoke,{\k41}ひ{\k19}き{\k16}つ{\k52}っ{\k21}た{\k46}笑{\k26}い{\k36}で
+Comment: 0,0:00:37.82,0:00:38.79,Default - kanji,,0,0,0,karaoke,{\k23}(ご{\k21}ま{\k18}か{\k35}せ！)
+Comment: 0,0:00:38.58,0:00:41.24,Default - kanji,,0,0,0,karaoke,{\k56}そ{\k23}の{\k23}場{\k39}の{\k26}言{\k16}い{\k46}訳{\k37}で
+Comment: 0,0:00:41.32,0:00:42.21,Default - kanji,,0,0,0,karaoke,{\k19}(も{\k21}み{\k16}け{\k33}せ！)
+Comment: 0,0:00:42.22,0:00:45.67,Default - kanji,,0,0,0,karaoke,{\k38}よ{\k23}く{\k21}い{\k48}る{\k21}た{\k22}だ{\k37}の{\k21}女{\k27}子{\k33}高{\k54}生
+Comment: 0,0:00:45.71,0:00:51.33,Default - kanji,,0,0,0,karaoke,{\k51}特{\k38}別{\k26}な{\k32}{\k38}存{\k32}在{\k26}じゃ{\k33}{\k25}ご{\k46}ざ{\k79}い{\k28}ま{\k108}せん
+Comment: 0,0:00:51.84,0:00:55.03,Default - kanji,,0,0,0,karaoke,{\k19}Dan{\k23}ger {\k29}in {\k29}my　{\k44}通{\k23}学{\k67}路{\k23}　き{\k62}っと
+Comment: 0,0:00:55.32,0:00:58.75,Default - kanji,,0,0,0,karaoke,{\k49}現{\k40}実{\k21}は{\k31}逃{\k23}避{\k62}す{\k19}る{\k22}も{\k35}の{\k20}で{\k21}す
+Comment: 0,0:00:59.05,0:01:05.60,Default - kanji,,0,0,0,karaoke,{\k40}芳{\k33}醇{\k74}な{\k92}School {\k89}days{\k21}なん{\k42}て{\k44}{\k134}幻{\k16}で{\k70}しょ
+Comment: 0,0:01:05.80,0:01:09.05,Default - kanji,,0,0,0,karaoke,{\k24}馬{\k32}鹿{\k31}馬{\k15}鹿{\k39}しい{\k10}く{\k18}ら{\k8}い{\k60}に　{\k30}ず{\k58}っと
+Comment: 0,0:01:09.30,0:01:12.58,Default - kanji,,0,0,0,karaoke,{\k54}毎{\k62}日{\k55}は{\k39}続{\k24}い{\k29}て{\k65}く
+Comment: 0,0:01:12.73,0:01:19.09,Default - kanji,,0,0,0,karaoke,{\k50}しょー{\k23}も{\k22}な{\k45}い{\k69}事{\k11}言{\k20}い{\k30}合{\k38}って　{\k27}シ{\k15}リ{\k12}ア{\k20}ス{\k35}ぶ{\k30}った{\k189}って
+Comment: 0,0:01:19.35,0:01:21.59,Default - kanji,,0,0,0,karaoke,{\k37}チャ{\k33}ック{\k17}開{\k16}い{\k32}てん{\k89}ぞ！
+Dialogue: 0,0:00:20.63,0:00:25.14,Default - kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k40}ス{\k9}テ{\k13}ル{\k10}ス{\k32}状{\k37}態{\k34}で{\k41}静{\k33}寂{\k46}貫{\k18}い{\k28}て
+Dialogue: 0,0:00:24.21,0:00:28.65,Default - kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k18}な{\k17}る{\k19}べ{\k14}く{\k29}平{\k24}常{\k31}心　{\k24}{\k29}こ{\k25}っち{\k12}こ{\k21}な{\k12}い{\k30}で{\k29}って
+Dialogue: 0,0:00:27.69,0:00:32.21,Default - kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k34}言{\k22}った{\k44}先{\k29}か{\k43}ら　{\k55}被{\k15}る{\k21}ア{\k4}ク{\k11}シ{\k27}デン{\k37}ト
+Dialogue: 0,0:00:31.22,0:00:35.30,Default - kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Like {\k8}a {\k13}A{\k38}ssa{\k39}ssin{\k37}で　{\k47}正{\k31}面{\k28}突{\k30}破
+Dialogue: 0,0:00:34.28,0:00:37.95,Default - kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k41}ひ{\k19}き{\k16}つ{\k52}っ{\k21}た{\k46}笑{\k26}い{\k36}で
+Dialogue: 0,0:00:36.92,0:00:38.99,Default - kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k23}(ご{\k21}ま{\k18}か{\k35}せ！)
+Dialogue: 0,0:00:37.68,0:00:41.44,Default - kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k56}そ{\k23}の{\k23}場{\k39}の{\k26}言{\k16}い{\k46}訳{\k37}で
+Dialogue: 0,0:00:40.42,0:00:42.41,Default - kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k19}(も{\k21}み{\k16}け{\k33}せ！)
+Dialogue: 0,0:00:41.32,0:00:45.87,Default - kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k38}よ{\k23}く{\k21}い{\k48}る{\k21}た{\k22}だ{\k37}の{\k21}女{\k27}子{\k33}高{\k54}生
+Dialogue: 0,0:00:44.81,0:00:51.53,Default - kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k51}特{\k38}別{\k26}な{\k32}{\k38}存{\k32}在{\k26}じゃ{\k33}{\k25}ご{\k46}ざ{\k79}い{\k28}ま{\k108}せん
+Dialogue: 0,0:00:50.94,0:00:55.23,Default - kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Dan{\k23}ger {\k29}in {\k29}my　{\k44}通{\k23}学{\k67}路{\k23}　き{\k62}っと
+Dialogue: 0,0:00:54.42,0:00:58.95,Default - kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k49}現{\k40}実{\k21}は{\k31}逃{\k23}避{\k62}す{\k19}る{\k22}も{\k35}の{\k20}で{\k21}す
+Dialogue: 0,0:00:58.15,0:01:05.80,Default - kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k40}芳{\k33}醇{\k74}な{\k92}School {\k89}days{\k21}なん{\k42}て{\k44}{\k134}幻{\k16}で{\k70}しょ
+Dialogue: 0,0:01:04.90,0:01:09.25,Default - kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k24}馬{\k32}鹿{\k31}馬{\k15}鹿{\k39}しい{\k10}く{\k18}ら{\k8}い{\k60}に　{\k30}ず{\k58}っと
+Dialogue: 0,0:01:08.40,0:01:12.78,Default - kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k54}毎{\k62}日{\k55}は{\k39}続{\k24}い{\k29}て{\k65}く
+Dialogue: 0,0:01:11.83,0:01:19.29,Default - kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k50}しょー{\k23}も{\k22}な{\k45}い{\k69}事{\k11}言{\k20}い{\k30}合{\k38}って　{\k27}シ{\k15}リ{\k12}ア{\k20}ス{\k35}ぶ{\k30}った{\k189}って
+Dialogue: 0,0:01:18.45,0:01:21.79,Default - kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k37}チャ{\k33}ック{\k17}開{\k16}い{\k32}てん{\k89}ぞ！
