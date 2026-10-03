@@ -2,69 +2,53 @@
 Title: Danger in My Tsuugakuro
 ScriptType: v4.00+
 WrapStyle: 0
-PlayResX: 1280
-PlayResY: 720
+PlayResX: 0
+PlayResY: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 Original Timing: KuroSensei
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default - kanji,Arial,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,3,2,10,10,10,1
-Style: Default,Arial,53,&H00008AFF,&H00FFFFFF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,4,0,8,20,20,40,1
-Style: Default Bas,Arial,53,&H00008AFF,&H00FFFFFF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,4,0,2,20,20,120,1
+Style: Default,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Default Bas,Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00666666,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Comment: 0,0:00:21.57,0:00:24.98,Default,,0,0,0,karaoke,{\k40}su{\k9}te{\k13}ru{\k10}su {\k32}jou{\k17}ta{\k20}i {\k34}de {\k22}se{\k19}i{\k21}ja{\k12}ku {\k15}tsu{\k18}ra{\k13}nu{\k18}i{\k28}te
-Comment: 0,0:00:25.15,0:00:28.49,Default,,0,0,0,karaoke,{\k18}na{\k17}ru{\k19}be{\k14}ku {\k29}hei{\k24}jou{\k31}shin{\k24} {\k29}ko{\k25}cchi {\k12}ko{\k21}na{\k12}i{\k30}de {\k29}tte
-Comment: 0,0:00:28.63,0:00:32.05,Default,,0,0,0,karaoke,{\k34}it{\k22}ta {\k32}sa{\k12}ki {\k29}ka{\k43}ra {\k37}kou{\k18}mu{\k15}ru {\k21}A{\k4}C{\k11}CI{\k27}DEN{\k37}T
-Comment: 0,0:00:32.16,0:00:35.14,Default,,0,0,0,karaoke,{\k27}LIKE {\k8}A {\k13}A{\k38}SSA{\k39}SSIN {\k37}de {\k47}shou{\k31}men {\k28}top{\k30}pa
-Comment: 0,0:00:35.22,0:00:37.79,Default,,0,0,0,karaoke,{\k41}hi{\k19}ki{\k16}tsu{\k52}t{\k21}ta {\k19}wa{\k27}ra{\k26}i {\k36}de
-Comment: 0,0:00:37.86,0:00:38.83,Default Bas,,0,0,0,karaoke,{\k23}go{\k21}ma{\k18}ka{\k35}se
-Comment: 0,0:00:38.62,0:00:41.28,Default,,0,0,0,karaoke,{\k56}so{\k23}no {\k23}ba {\k39}no {\k26}i{\k16}i{\k33}wa{\k13}ke {\k37}de
-Comment: 0,0:00:41.36,0:00:42.25,Default Bas,,0,0,0,karaoke,{\k19}mo{\k21}mi{\k16}ke{\k33}se
-Comment: 0,0:00:42.26,0:00:45.71,Default,,0,0,0,karaoke,{\k38}yo{\k23}ku {\k21}i{\k48}ru {\k21}ta{\k22}da {\k37}no {\k21}jo{\k27}shi{\k33}kou{\k54}sei
-Comment: 0,0:00:45.75,0:00:51.37,Default,,0,0,0,karaoke,{\k19}to{\k32}ku{\k23}be{\k15}tsu {\k26}na{\k32} {\k38}son{\k16}za{\k16}i {\k26}ja{\k33} {\k25}go{\k46}za{\k79}i{\k28}ma{\k108}sen
-Comment: 0,0:00:51.88,0:00:55.07,Default,,0,0,0,karaoke,{\k19}DAN{\k23}GER {\k29}IN {\k29}MY {\k44}tsuu{\k23}ga{\k13}ku{\k54}ro {\k23}kit{\k62}to
-Comment: 0,0:00:55.36,0:00:58.79,Default,,0,0,0,karaoke,{\k21}ge{\k28}n{\k26}ji{\k14}tsu {\k21}wa {\k31}tou{\k23}hi {\k62}su{\k19}ru {\k22}mo{\k35}no {\k20}de{\k21}su
-Comment: 0,0:00:59.09,0:01:05.64,Default,,0,0,0,karaoke,{\k40}hou{\k33}jun {\k74}na {\k92}SCHOOL {\k89}DAYS {\k21}nan{\k42}te{\k44} {\k39}ma{\k26}bo{\k33}ro{\k36}shi {\k16}de{\k70}sho
-Comment: 0,0:01:05.84,0:01:09.09,Default,,0,0,0,karaoke,{\k24}ba{\k32}ka{\k31}ba{\k15}ka{\k39}shii {\k10}ku{\k18}ra{\k8}i {\k60}ni {\k30}zut{\k58}to
-Comment: 0,0:01:09.34,0:01:12.62,Default,,0,0,0,karaoke,{\k17}ma{\k37}i{\k34}ni{\k28}chi {\k55}wa {\k27}tsu{\k12}zu{\k24}i{\k29}te{\k65}ku
-Comment: 0,0:01:12.77,0:01:19.13,Default,,0,0,0,karaoke,{\k50}shou {\k23}mo {\k22}na{\k45}i {\k32}ko{\k37}to {\k31}ii{\k30}at{\k38}te {\k27}shi{\k15}ri{\k12}a{\k20}su {\k35}but{\k30}tat{\k189}te
-Comment: 0,0:01:19.39,0:01:21.63,Default,,0,0,0,karaoke,{\k37}chak{\k33}ku {\k17}a{\k16}i{\k32}ten {\k89}zo
-Comment: 0,0:00:21.57,0:00:24.98,Default - kanji,,0,0,0,,{\k40}ス{\k9}テ{\k13}ル{\k10}ス{\k32}状{\k37}態{\k34}で{\k41}静{\k33}寂{\k46}貫{\k18}い{\k28}て
-Comment: 0,0:00:25.15,0:00:28.49,Default - kanji,,0,0,0,,{\k18}な{\k17}る{\k19}べ{\k14}く{\k29}平{\k24}常{\k31}心　{\k24}{\k29}こ{\k25}っち{\k12}こ{\k21}な{\k12}い{\k30}で{\k29}って
-Comment: 0,0:00:28.63,0:00:32.05,Default - kanji,,0,0,0,,{\k34}言{\k22}った{\k44}先{\k29}か{\k43}ら　{\k55}被{\k15}る{\k21}ア{\k4}ク{\k11}シ{\k27}デン{\k37}ト
-Comment: 0,0:00:32.16,0:00:35.14,Default - kanji,,0,0,0,,{\k27}Like {\k8}a {\k13}A{\k38}ssa{\k39}ssin{\k37}で　{\k47}正{\k31}面{\k28}突{\k30}破
-Comment: 0,0:00:35.22,0:00:37.79,Default - kanji,,0,0,0,,{\k41}ひ{\k19}き{\k16}つ{\k52}っ{\k21}た{\k46}笑{\k26}い{\k36}で
-Comment: 0,0:00:37.86,0:00:38.83,Default - kanji,,0,0,0,,{\k23}(ご{\k21}ま{\k18}か{\k35}せ！)
-Comment: 0,0:00:38.62,0:00:41.28,Default - kanji,,0,0,0,,{\k56}そ{\k23}の{\k23}場{\k39}の{\k26}言{\k16}い{\k46}訳{\k37}で
-Comment: 0,0:00:41.36,0:00:42.25,Default - kanji,,0,0,0,,{\k19}(も{\k21}み{\k16}け{\k33}せ！)
-Comment: 0,0:00:42.26,0:00:45.71,Default - kanji,,0,0,0,,{\k38}よ{\k23}く{\k21}い{\k48}る{\k21}た{\k22}だ{\k37}の{\k21}女{\k27}子{\k33}高{\k54}生
-Comment: 0,0:00:45.75,0:00:51.37,Default - kanji,,0,0,0,,{\k51}特{\k38}別{\k26}な{\k32}{\k38}存{\k32}在{\k26}じゃ{\k33}{\k25}ご{\k46}ざ{\k79}い{\k28}ま{\k108}せん
-Comment: 0,0:00:51.88,0:00:55.07,Default - kanji,,0,0,0,,{\k19}Dan{\k23}ger {\k29}in {\k29}my　{\k44}通{\k23}学{\k67}路{\k23}　き{\k62}っと
-Comment: 0,0:00:55.36,0:00:58.79,Default - kanji,,0,0,0,,{\k49}現{\k40}実{\k21}は{\k31}逃{\k23}避{\k62}す{\k19}る{\k22}も{\k35}の{\k20}で{\k21}す
-Comment: 0,0:00:59.09,0:01:05.64,Default - kanji,,0,0,0,,{\k40}芳{\k33}醇{\k74}な{\k92}School {\k89}days{\k21}なん{\k42}て{\k44}{\k134}幻{\k16}で{\k70}しょ
-Comment: 0,0:01:05.84,0:01:09.09,Default - kanji,,0,0,0,,{\k24}馬{\k32}鹿{\k31}馬{\k15}鹿{\k39}しい{\k10}く{\k18}ら{\k8}い{\k60}に　{\k30}ず{\k58}っと
-Comment: 0,0:01:09.34,0:01:12.62,Default - kanji,,0,0,0,,{\k54}毎{\k62}日{\k55}は{\k39}続{\k24}い{\k29}て{\k65}く
-Comment: 0,0:01:12.77,0:01:19.13,Default - kanji,,0,0,0,,{\k50}しょー{\k23}も{\k22}な{\k45}い{\k69}事{\k11}言{\k20}い{\k30}合{\k38}って　{\k27}シ{\k15}リ{\k12}ア{\k20}ス{\k35}ぶ{\k30}った{\k189}って
-Comment: 0,0:01:19.39,0:01:21.63,Default - kanji,,0,0,0,,{\k37}チャ{\k33}ック{\k17}開{\k16}い{\k32}てん{\k89}ぞ！
-Dialogue: 0,0:00:20.67,0:00:25.18,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k40}su{\k9}te{\k13}ru{\k10}su {\k32}jou{\k17}ta{\k20}i {\k34}de {\k22}se{\k19}i{\k21}ja{\k12}ku {\k15}tsu{\k18}ra{\k13}nu{\k18}i{\k28}te
-Dialogue: 0,0:00:24.25,0:00:28.69,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}na{\k17}ru{\k19}be{\k14}ku {\k29}hei{\k24}jou{\k31}shin{\k24} {\k29}ko{\k25}cchi {\k12}ko{\k21}na{\k12}i{\k30}de {\k29}tte
-Dialogue: 0,0:00:27.73,0:00:32.25,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k34}it{\k22}ta {\k32}sa{\k12}ki {\k29}ka{\k43}ra {\k37}kou{\k18}mu{\k15}ru {\k21}A{\k4}C{\k11}CI{\k27}DEN{\k37}T
-Dialogue: 0,0:00:31.26,0:00:35.34,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k27}LIKE {\k8}A {\k13}A{\k38}SSA{\k39}SSIN {\k37}de {\k47}shou{\k31}men {\k28}top{\k30}pa
-Dialogue: 0,0:00:34.32,0:00:37.99,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k41}hi{\k19}ki{\k16}tsu{\k52}t{\k21}ta {\k19}wa{\k27}ra{\k26}i {\k36}de
-Dialogue: 0,0:00:36.96,0:00:39.03,Default Bas,,0,0,0,fx,{\k90\fad(300,200)}{\k23}go{\k21}ma{\k18}ka{\k35}se
-Dialogue: 0,0:00:37.72,0:00:41.48,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k56}so{\k23}no {\k23}ba {\k39}no {\k26}i{\k16}i{\k33}wa{\k13}ke {\k37}de
-Dialogue: 0,0:00:40.46,0:00:42.45,Default Bas,,0,0,0,fx,{\k90\fad(300,200)}{\k19}mo{\k21}mi{\k16}ke{\k33}se
-Dialogue: 0,0:00:41.36,0:00:45.91,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k38}yo{\k23}ku {\k21}i{\k48}ru {\k21}ta{\k22}da {\k37}no {\k21}jo{\k27}shi{\k33}kou{\k54}sei
-Dialogue: 0,0:00:44.85,0:00:51.57,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}to{\k32}ku{\k23}be{\k15}tsu {\k26}na{\k32} {\k38}son{\k16}za{\k16}i {\k26}ja{\k33} {\k25}go{\k46}za{\k79}i{\k28}ma{\k108}sen
-Dialogue: 0,0:00:50.98,0:00:55.27,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}DAN{\k23}GER {\k29}IN {\k29}MY {\k44}tsuu{\k23}ga{\k13}ku{\k54}ro {\k23}kit{\k62}to
-Dialogue: 0,0:00:54.46,0:00:58.99,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ge{\k28}n{\k26}ji{\k14}tsu {\k21}wa {\k31}tou{\k23}hi {\k62}su{\k19}ru {\k22}mo{\k35}no {\k20}de{\k21}su
-Dialogue: 0,0:00:58.19,0:01:05.84,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k40}hou{\k33}jun {\k74}na {\k92}SCHOOL {\k89}DAYS {\k21}nan{\k42}te{\k44} {\k39}ma{\k26}bo{\k33}ro{\k36}shi {\k16}de{\k70}sho
-Dialogue: 0,0:01:04.94,0:01:09.29,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ba{\k32}ka{\k31}ba{\k15}ka{\k39}shii {\k10}ku{\k18}ra{\k8}i {\k60}ni {\k30}zut{\k58}to
-Dialogue: 0,0:01:08.44,0:01:12.82,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ma{\k37}i{\k34}ni{\k28}chi {\k55}wa {\k27}tsu{\k12}zu{\k24}i{\k29}te{\k65}ku
-Dialogue: 0,0:01:11.87,0:01:19.33,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k50}shou {\k23}mo {\k22}na{\k45}i {\k32}ko{\k37}to {\k31}ii{\k30}at{\k38}te {\k27}shi{\k15}ri{\k12}a{\k20}su {\k35}but{\k30}tat{\k189}te
-Dialogue: 0,0:01:18.49,0:01:21.83,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k37}chak{\k33}ku {\k17}a{\k16}i{\k32}ten {\k89}zo
+Comment: 0,0:00:21.53,0:00:24.94,Default,,0,0,0,karaoke,{\k40}su{\k14}te{\k8}ru{\k11}su {\k35}jou{\k33}tai {\k38}de {\k37}sei{\k21}ja{\k12}ku {\k20}tsu{\k13}ra{\k19}nu{\k16}i{\k24}te
+Comment: 0,0:00:25.11,0:00:28.45,Default,,0,0,0,karaoke,{\k23}na{\k12}ru{\k22}be{\k11}ku {\k29}hei{\k29}jou{\k50}shin {\k29}koc{\k25}chi {\k12}ko{\k33}nai{\k30}de {\k29}tte
+Comment: 0,0:00:28.59,0:00:32.01,Default,,0,0,0,karaoke,{\k34}it{\k33}ta {\k24}sa{\k11}ki {\k32}ka{\k43}ra {\k32}kou{\k22}mu{\k14}ru {\k20}AC{\k13}CI{\k30}DEN{\k34}T
+Comment: 0,0:00:32.12,0:00:35.10,Default,,0,0,0,karaoke,{\k32}LIKE {\k13}A {\k19}AS{\k30}SAS{\k36}SIN {\k35}de {\k28}sho{\k16}u{\k31}men {\k31}top{\k27}pa
+Comment: 0,0:00:35.18,0:00:37.75,Default,,0,0,0,karaoke,{\k45}hi{\k18}ki{\k26}tsu{\k39}t{\k24}ta {\k26}wa{\k44}rai {\k35}de
+Comment: 0,0:00:37.82,0:00:38.79,Default Bas,,0,0,0,karaoke,{\k23}go{\k21}ma{\k18}ka{\k35}se
+Comment: 0,0:00:38.58,0:00:41.24,Default,,0,0,0,karaoke,{\k56}so{\k23}no {\k23}ba {\k39}no {\k23}i{\k22}i {\k35}wa{\k11}ke {\k34}de
+Comment: 0,0:00:41.32,0:00:42.21,Default Bas,,0,0,0,karaoke,{\k19}mo{\k21}mi{\k21}ke{\k28}se
+Comment: 0,0:00:42.22,0:00:45.67,Default,,0,0,0,karaoke,{\k38}yo{\k25}ku {\k24}i{\k43}ru {\k21}ta{\k22}da {\k40}no {\k28}jo{\k17}shi{\k42}kou{\k45}sei
+Comment: 0,0:00:45.71,0:00:51.33,Default,,0,0,0,karaoke,{\k19}to{\k32}ku{\k23}be{\k15}tsu {\k58}na {\k38}son{\k32}zai {\k59}ja {\k39}go{\k32}za{\k87}i{\k23}ma{\kf105}sen
+Comment: 0,0:00:51.84,0:00:55.03,Default,,0,0,0,karaoke,{\k19}DAN{\k39}GER {\k26}IN {\k19}MY {\k41}tsuu{\k19}ga{\k11}ku{\k60}ro {\k25}kit{\k60}to
+Comment: 0,0:00:55.32,0:00:58.75,Default,,0,0,0,karaoke,{\k24}ge{\k31}n{\k24}ji{\k10}tsu {\k21}wa {\k31}tou{\k32}hi {\k57}su{\k14}ru {\k19}mo{\k45}no {\k35}desu
+Comment: 0,0:00:59.05,0:01:03.14,Default,,0,0,0,karaoke,{\k34}hou{\k30}jun {\k83}na {\k25}S{\k36}CHOO{\k33}L {\k87}DAYS {\k21}nan{\k60}te
+Comment: 0,0:01:03.40,0:01:05.60,Default,,0,0,0,karaoke,{\k37}ma{\k32}bo{\k39}ro{\k26}shi {\k19}de{\k67}sho
+Comment: 0,0:01:05.80,0:01:09.05,Default,,0,0,0,karaoke,{\k24}ba{\k35}ka{\k32}ba{\k17}ka{\k32}shii {\k8}ku{\k32}rai {\k60}ni {\k27}zut{\k58}to
+Comment: 0,0:01:09.30,0:01:12.58,Default,,0,0,0,karaoke,{\k26}ma{\k35}i{\k30}ni{\k24}chi {\k62}wa {\k23}tsu{\k35}zui{\k31}te{\k62}ku
+Comment: 0,0:01:12.73,0:01:19.09,Default,,0,0,0,karaoke,{\k56}shou {\k22}mo {\k62}nai {\k37}ko{\k32}to {\k31}ii{\k34}at{\k41}te {\k20}SE{\k16}RI{\k34}OUS {\k32}but{\k32}tat{\kf187}te
+Comment: 0,0:01:19.35,0:01:21.59,Default,,0,0,0,karaoke,{\k37}chak{\k33}ku {\k17}a{\k16}i{\k32}ten {\k89}zo
+Dialogue: 0,0:00:20.63,0:00:25.14,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k40}su{\k14}te{\k8}ru{\k11}su {\k35}jou{\k33}tai {\k38}de {\k37}sei{\k21}ja{\k12}ku {\k20}tsu{\k13}ra{\k19}nu{\k16}i{\k24}te
+Dialogue: 0,0:00:24.21,0:00:28.65,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}na{\k12}ru{\k22}be{\k11}ku {\k29}hei{\k29}jou{\k50}shin {\k29}koc{\k25}chi {\k12}ko{\k33}nai{\k30}de {\k29}tte
+Dialogue: 0,0:00:27.69,0:00:32.21,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k34}it{\k33}ta {\k24}sa{\k11}ki {\k32}ka{\k43}ra {\k32}kou{\k22}mu{\k14}ru {\k20}AC{\k13}CI{\k30}DEN{\k34}T
+Dialogue: 0,0:00:31.22,0:00:35.30,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k32}LIKE {\k13}A {\k19}AS{\k30}SAS{\k36}SIN {\k35}de {\k28}sho{\k16}u{\k31}men {\k31}top{\k27}pa
+Dialogue: 0,0:00:34.28,0:00:37.95,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k45}hi{\k18}ki{\k26}tsu{\k39}t{\k24}ta {\k26}wa{\k44}rai {\k35}de
+Dialogue: 0,0:00:36.92,0:00:38.99,Default Bas,,0,0,0,fx,{\k90\fad(300,200)}{\k23}go{\k21}ma{\k18}ka{\k35}se
+Dialogue: 0,0:00:37.68,0:00:41.44,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k56}so{\k23}no {\k23}ba {\k39}no {\k23}i{\k22}i {\k35}wa{\k11}ke {\k34}de
+Dialogue: 0,0:00:40.42,0:00:42.41,Default Bas,,0,0,0,fx,{\k90\fad(300,200)}{\k19}mo{\k21}mi{\k21}ke{\k28}se
+Dialogue: 0,0:00:41.32,0:00:45.87,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k38}yo{\k25}ku {\k24}i{\k43}ru {\k21}ta{\k22}da {\k40}no {\k28}jo{\k17}shi{\k42}kou{\k45}sei
+Dialogue: 0,0:00:44.81,0:00:51.53,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}to{\k32}ku{\k23}be{\k15}tsu {\k58}na {\k38}son{\k32}zai {\k59}ja {\k39}go{\k32}za{\k87}i{\k23}ma{\kf105}sen
+Dialogue: 0,0:00:50.94,0:00:55.23,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}DAN{\k39}GER {\k26}IN {\k19}MY {\k41}tsuu{\k19}ga{\k11}ku{\k60}ro {\k25}kit{\k60}to
+Dialogue: 0,0:00:54.42,0:00:58.95,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ge{\k31}n{\k24}ji{\k10}tsu {\k21}wa {\k31}tou{\k32}hi {\k57}su{\k14}ru {\k19}mo{\k45}no {\k35}desu
+Dialogue: 0,0:00:58.15,0:01:03.34,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k34}hou{\k30}jun {\k83}na {\k25}S{\k36}CHOO{\k33}L {\k87}DAYS {\k21}nan{\k60}te
+Dialogue: 0,0:01:02.50,0:01:05.80,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k37}ma{\k32}bo{\k39}ro{\k26}shi {\k19}de{\k67}sho
+Dialogue: 0,0:01:04.90,0:01:09.25,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ba{\k35}ka{\k32}ba{\k17}ka{\k32}shii {\k8}ku{\k32}rai {\k60}ni {\k27}zut{\k58}to
+Dialogue: 0,0:01:08.40,0:01:12.78,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ma{\k35}i{\k30}ni{\k24}chi {\k62}wa {\k23}tsu{\k35}zui{\k31}te{\k62}ku
+Dialogue: 0,0:01:11.83,0:01:19.29,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k56}shou {\k22}mo {\k62}nai {\k37}ko{\k32}to {\k31}ii{\k34}at{\k41}te {\k20}SE{\k16}RI{\k34}OUS {\k32}but{\k32}tat{\kf187}te
+Dialogue: 0,0:01:18.45,0:01:21.79,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k37}chak{\k33}ku {\k17}a{\k16}i{\k32}ten {\k89}zo
