@@ -1,0 +1,71 @@
+﻿[Script Info]
+Title: Speak of the Devil
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: Azuli_E86
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:03.35,0:00:07.10,Sample KM [Up],,0,0,0,karaoke,{\k28}Ex{\kf154}hale {\k19}to {\k38}breath {\k26}in {\k22}the {\k88}sun
+Comment: 0,0:00:07.25,0:00:08.70,Sample KM [Up],,0,0,0,karaoke,{\k25}The {\k28}light {\k22}and {\k33}dark{\k37}ness
+Comment: 0,0:00:08.70,0:00:12.25,Sample KM [Up],,0,0,0,karaoke,{\k21}Crea{\k35}ted {\k32}whe{\k20}re {\k40}sha{\k37}dows {\k14}be{\kf156}long
+Comment: 0,0:00:12.25,0:00:14.45,Sample KM [Up],,0,0,0,karaoke,{\k22}Im{\k25}pa{\k13}led {\k33}by {\k16}the {\kf111}lies
+Comment: 0,0:00:14.45,0:00:18.00,Sample KM [Up],,0,0,0,karaoke,{\k23}The {\k22}truth {\k22}be{\k44}longs {\k25}to {\k25}the {\k35}man {\k34}in {\k23}the {\k42}mir{\k60}ror
+Comment: 0,0:00:18.95,0:00:22.50,Sample KM [Up],,0,0,0,karaoke,{\k20}If {\k23}there's {\k23}a {\k28}way {\k16}we {\k24}try {\k22}to {\k44}live {\k45}this {\k89}li{\k21}fe
+Comment: 0,0:00:22.60,0:00:26.25,Sample KM [Up],,0,0,0,karaoke,{\k16}If {\k13}there's {\k18}a {\k32}way {\k14}to {\k31}tru{\k22}ly {\k43}ques{\k46}tion {\k39}why{\k30}-y{\k61}-y
+Comment: 0,0:00:26.30,0:00:29.65,Sample KM [Up],,0,0,0,karaoke,{\k19}Then {\k19}we {\k28}ne{\k23}ver {\k26}have {\k14}to {\k37}look {\k28}in{\k38}si{\k11}de {\k24}our{\k47}sel{\k21}ves
+Comment: 0,0:00:30.05,0:00:32.05,Sample KM [Up],,0,0,0,karaoke,{\k18}Cause {\k27}fate {\k10}or {\k33}choice {\k9}is {\k10}the {\k31}des{\k9}ti{\k32}ny {\k21}yeah
+Comment: 0,0:00:32.20,0:00:33.95,Sample KM [Up],,0,0,0,karaoke,{\k17}Who {\k10}will {\k11}e{\k10}ver {\k15}find {\k12}the {\k19}best {\k13}of {\k30}me {\k44}yeah
+Comment: 0,0:00:34.05,0:00:35.70,Sample KM [Up],,0,0,0,karaoke,{\k9}If {\k6}we {\k5}are {\k15}li{\k12}ving {\k9}how {\k9}we're {\k5}sup{\k11}po{\k10}sed {\k13}to {\k32}be {\k29}yeah
+Comment: 0,0:00:35.80,0:00:37.10,Sample KM [Up],,0,0,0,karaoke,{\k24}Where {\k30}there {\k18}is {\k23}rea{\k35}son
+Comment: 0,0:00:37.15,0:00:38.95,Sample KM [Up],,0,0,0,karaoke,{\k25}The {\k24}ans{\k18}wer {\k26}chan{\k21}ges {\k10}e{\k17}ve{\k16}ry{\k23}thing
+Comment: 0,0:00:38.95,0:00:42.75,Sample KM [Up],,0,0,0,karaoke,{\k22}So {\k45}don't {\k43}be {\k47}ja{\k42}ded {\k46}just {\k44}frus{\k45}tra{\k46}ted
+Comment: 0,0:00:42.90,0:00:47.30,Sample KM [Up],,0,0,0,karaoke,{\k27}Then {\k17}we {\k29}will {\k23}find {\k20}a {\k23}way {\k16}to {\k48}live {\k38}in {\k48}har{\k49}mo{\k102}ny
+Comment: 0,0:00:47.40,0:00:49.90,Sample KM [Up],,0,0,0,karaoke,{\k19}Oh {\k20}yeah {\k21}this {\k26}mi{\k22}se{\k23}ry {\k22}loves {\k25}com{\k22}pa{\k50}ny
+Comment: 0,0:00:50.95,0:00:53.20,Sample KM [Up],,0,0,0,karaoke,{\k22}When {\k18}they {\k21}all {\k32}try {\k11}to {\k29}see {\k23}the {\k22}least {\k22}of {\k25}me
+Comment: 0,0:00:53.40,0:00:57.70,Sample KM [Up],,0,0,0,karaoke,{\k42}Three {\k48}steps {\k43}for{\k43}ward {\k48}two {\k47}steps {\k42}back {\k41}in {\k76}time
+Comment: 0,0:00:59.35,0:01:02.70,Sample KM [Up],,0,0,0,karaoke,{\k24}Your {\k26}gra{\k21}vi{\k23}ty {\k20}was {\k31}meant {\k33}to {\k41}pull {\k27}me {\k89}down
+Comment: 0,0:01:02.95,0:01:06.05,Sample KM [Up],,0,0,0,karaoke,{\k18}But {\k27}you {\k22}keep {\k25}bla{\k22}ming {\k32}e{\k11}ve{\k24}ry{\k46}one {\k18}but {\k23}your{\k42}self
+Comment: 0,0:01:06.05,0:01:09.25,Sample KM [Up],,0,0,0,karaoke,{\k23}God {\k22}is{\k18}n't {\k39}here {\k33}a{\k22}ny{\kf163}more
+Comment: 0,0:01:09.60,0:01:13.30,Sample KM [Up],,0,0,0,karaoke,{\k20}The {\k25}de{\k18}vil {\k42}smiles {\k32}on {\k17}you {\kf216}all
+Comment: 0,0:01:13.55,0:01:17.00,Sample KM [Up],,0,0,0,karaoke,{\k27}Your {\k25}gra{\k23}vi{\k22}ty {\k18}was {\k31}meant {\k33}to {\k41}pull {\k29}me {\k96}down
+Comment: 0,0:01:17.15,0:01:20.25,Sample KM [Up],,0,0,0,karaoke,{\k18}But {\k27}you {\k22}keep {\k25}bla{\k23}ming {\k33}e{\k13}ve{\k23}ry{\k42}one {\k15}but {\k29}your{\k40}self
+Comment: 0,0:01:20.25,0:01:23.65,Sample KM [Up],,0,0,0,karaoke,{\k28}God {\k19}is{\k18}n't {\k39}here {\k35}a{\k22}ny{\kf179}more
+Comment: 0,0:01:23.80,0:01:27.35,Sample KM [Up],,0,0,0,karaoke,{\k23}The {\k24}de{\k19}vil {\k35}smiles {\k38}on {\k21}you {\kf200}all
+Comment: 0,0:01:27.35,0:01:29.45,Sample KM [Up],,0,0,0,karaoke,{\k23}God {\k21}is{\k23}n't {\k33}here {\k35}a{\k21}ny{\k54}more
+Dialogue: 0,0:00:02.45,0:00:07.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Ex{\kf154}hale {\k19}to {\k38}breath {\k26}in {\k22}the {\k88}sun
+Dialogue: 0,0:00:06.35,0:00:08.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}The {\k28}light {\k22}and {\k33}dark{\k37}ness
+Dialogue: 0,0:00:07.80,0:00:12.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Crea{\k35}ted {\k32}whe{\k20}re {\k40}sha{\k37}dows {\k14}be{\kf156}long
+Dialogue: 0,0:00:11.35,0:00:14.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Im{\k25}pa{\k13}led {\k33}by {\k16}the {\kf111}lies
+Dialogue: 0,0:00:13.55,0:00:18.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}The {\k22}truth {\k22}be{\k44}longs {\k25}to {\k25}the {\k35}man {\k34}in {\k23}the {\k42}mir{\k60}ror
+Dialogue: 0,0:00:18.05,0:00:22.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}If {\k23}there's {\k23}a {\k28}way {\k16}we {\k24}try {\k22}to {\k44}live {\k45}this {\k89}li{\k21}fe
+Dialogue: 0,0:00:21.70,0:00:26.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}If {\k13}there's {\k18}a {\k32}way {\k14}to {\k31}tru{\k22}ly {\k43}ques{\k46}tion {\k39}why{\k30}-y{\k61}-y
+Dialogue: 0,0:00:25.40,0:00:29.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Then {\k19}we {\k28}ne{\k23}ver {\k26}have {\k14}to {\k37}look {\k28}in{\k38}si{\k11}de {\k24}our{\k47}sel{\k21}ves
+Dialogue: 0,0:00:29.15,0:00:32.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Cause {\k27}fate {\k10}or {\k33}choice {\k9}is {\k10}the {\k31}des{\k9}ti{\k32}ny {\k21}yeah
+Dialogue: 0,0:00:31.30,0:00:34.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Who {\k10}will {\k11}e{\k10}ver {\k15}find {\k12}the {\k19}best {\k13}of {\k30}me {\k44}yeah
+Dialogue: 0,0:00:33.15,0:00:35.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}If {\k6}we {\k5}are {\k15}li{\k12}ving {\k9}how {\k9}we're {\k5}sup{\k11}po{\k10}sed {\k13}to {\k32}be {\k29}yeah
+Dialogue: 0,0:00:34.90,0:00:37.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Where {\k30}there {\k18}is {\k23}rea{\k35}son
+Dialogue: 0,0:00:36.25,0:00:39.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}The {\k24}ans{\k18}wer {\k26}chan{\k21}ges {\k10}e{\k17}ve{\k16}ry{\k23}thing
+Dialogue: 0,0:00:38.05,0:00:42.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}So {\k45}don't {\k43}be {\k47}ja{\k42}ded {\k46}just {\k44}frus{\k45}tra{\k46}ted
+Dialogue: 0,0:00:42.00,0:00:47.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Then {\k17}we {\k29}will {\k23}find {\k20}a {\k23}way {\k16}to {\k48}live {\k38}in {\k48}har{\k49}mo{\k102}ny
+Dialogue: 0,0:00:46.50,0:00:50.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Oh {\k20}yeah {\k21}this {\k26}mi{\k22}se{\k23}ry {\k22}loves {\k25}com{\k22}pa{\k50}ny
+Dialogue: 0,0:00:50.05,0:00:53.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}When {\k18}they {\k21}all {\k32}try {\k11}to {\k29}see {\k23}the {\k22}least {\k22}of {\k25}me
+Dialogue: 0,0:00:52.50,0:00:57.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Three {\k48}steps {\k43}for{\k43}ward {\k48}two {\k47}steps {\k42}back {\k41}in {\k76}time
+Dialogue: 0,0:00:58.45,0:01:02.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Your {\k26}gra{\k21}vi{\k23}ty {\k20}was {\k31}meant {\k33}to {\k41}pull {\k27}me {\k89}down
+Dialogue: 0,0:01:02.05,0:01:06.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}But {\k27}you {\k22}keep {\k25}bla{\k22}ming {\k32}e{\k11}ve{\k24}ry{\k46}one {\k18}but {\k23}your{\k42}self
+Dialogue: 0,0:01:05.15,0:01:09.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}God {\k22}is{\k18}n't {\k39}here {\k33}a{\k22}ny{\kf163}more
+Dialogue: 0,0:01:08.70,0:01:13.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}The {\k25}de{\k18}vil {\k42}smiles {\k32}on {\k17}you {\kf216}all
+Dialogue: 0,0:01:12.65,0:01:17.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Your {\k25}gra{\k23}vi{\k22}ty {\k18}was {\k31}meant {\k33}to {\k41}pull {\k29}me {\k96}down
+Dialogue: 0,0:01:16.25,0:01:20.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}But {\k27}you {\k22}keep {\k25}bla{\k23}ming {\k33}e{\k13}ve{\k23}ry{\k42}one {\k15}but {\k29}your{\k40}self
+Dialogue: 0,0:01:19.35,0:01:23.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}God {\k19}is{\k18}n't {\k39}here {\k35}a{\k22}ny{\kf179}more
+Dialogue: 0,0:01:22.90,0:01:27.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}The {\k24}de{\k19}vil {\k35}smiles {\k38}on {\k21}you {\kf200}all
+Dialogue: 0,0:01:26.45,0:01:29.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}God {\k21}is{\k23}n't {\k33}here {\k35}a{\k21}ny{\k54}more
