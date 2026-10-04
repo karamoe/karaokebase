@@ -1,0 +1,164 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+Title: LONELY LONELY ー ver. Himetan
+Original Timing: Ichinyaaan
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Rie,Arial,24,&H00FFFFFF,&H00D478E9,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Talking,Arial,24,&H00FFFFFF,&H00AEB9ED,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Back singing,Arial,24,&H00FFFFFF,&H00C89EDD,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Talking back singing,Arial,24,&H00FFFFFF,&H00AEB9ED,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,60,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:01.51,0:00:01.51,All,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:02.17,0:00:04.01,Back singing,,0,0,0,karaoke,{\k46}lone{\k43}ly {\k45}lone{\k50}ly
+Comment: 0,0:00:04.01,0:00:05.79,Back singing,,0,0,0,karaoke,{\k46}lone{\k43}ly {\k44}lone{\k45}ly
+Comment: 0,0:00:05.79,0:00:07.72,Back singing,,0,0,0,karaoke,{\k59}lone{\k45}ly {\k44}lone{\k45}ly
+Comment: 0,0:00:07.72,0:00:09.62,Back singing,,0,0,0,karaoke,{\k44}lone{\k37}ly {\k53}lone{\k56}ly
+Comment: 0,0:00:09.62,0:00:11.48,Back singing,,0,0,0,karaoke,{\k44}lone{\k51}ly {\k45}lone{\k46}ly
+Comment: 0,0:00:11.48,0:00:13.35,Back singing,,0,0,0,karaoke,{\k46}lone{\k37}ly {\k57}lone{\k47}ly
+Comment: 0,0:00:13.35,0:00:15.22,Back singing,,0,0,0,karaoke,{\k40}lone{\k45}ly {\k58}lone{\k44}ly
+Comment: 0,0:00:15.22,0:00:17.12,Back singing,,0,0,0,karaoke,{\k48}lone{\k48}ly {\k50}lone{\k44}ly
+Comment: 0,0:00:17.12,0:00:19.01,Rie,,0,0,0,karaoke,{\k48}lone{\k46}ly {\k48}lone{\k47}ly
+Comment: 0,0:00:19.28,0:00:20.72,Rie,,0,0,0,karaoke,{\k21}I {\k19}guess {\k27}I'm {\k44}lone{\k33}ly
+Comment: 0,0:00:20.85,0:00:22.55,Rie,,0,0,0,karaoke,{\k23}Hi{\k23}me-{\k26}tan {\k14}wa {\k31}se{\k25}ka{\k28}i
+Comment: 0,0:00:22.76,0:00:24.61,Rie,,0,0,0,karaoke,{\k20}i{\k27}chi{\k21}ban {\k22}no {\k27}ka{\k22}wa{\k21}i{\k25}i
+Comment: 0,0:00:24.61,0:00:26.49,Rie,,0,0,0,karaoke,{\k48}lone{\k46}ly {\k48}lone{\k47}ly
+Comment: 0,0:00:26.76,0:00:28.35,Rie,,0,0,0,karaoke,{\k21}I {\k23}guess {\k23}I'm {\k48}lone{\k44}ly
+Comment: 0,0:00:28.35,0:00:30.05,Rie,,0,0,0,karaoke,{\k23}Hi{\k23}me-{\k26}tan {\k17}wa {\k28}se{\k25}ka{\k28}i
+Comment: 0,0:00:30.28,0:00:32.12,Rie,,0,0,0,karaoke,{\k20}i{\k27}chi{\k21}ban {\k22}no {\k27}ka{\k22}wa{\k21}i{\k25}i
+Comment: 0,0:00:32.12,0:00:34.02,Rie,,0,0,0,karaoke,{\k48}lone{\k46}ly {\k48}lone{\k47}ly
+Comment: 0,0:00:34.27,0:00:35.74,Rie,,0,0,0,karaoke,{\k21}I {\k19}guess {\k27}I'm {\k47}lone{\k33}ly
+Comment: 0,0:00:35.86,0:00:37.72,Rie,,0,0,0,karaoke,{\k23}Hi{\k23}me-{\k26}tan {\k17}wa {\k28}se{\k25}ka{\k28}i
+Comment: 0,0:00:37.77,0:00:39.61,Rie,,0,0,0,karaoke,{\k20}i{\k27}chi{\k21}ban {\k22}no {\k27}ka{\k22}wa{\k21}i{\k25}i
+Comment: 0,0:00:39.61,0:00:41.51,Rie,,0,0,0,karaoke,{\k48}lone{\k46}ly {\k48}lone{\k47}ly
+Comment: 0,0:00:41.74,0:00:43.33,Rie,,0,0,0,karaoke,{\k21}I {\k19}guess {\k27}I'm {\k49}lone{\k43}ly
+Comment: 0,0:00:43.33,0:00:45.12,Rie,,0,0,0,karaoke,{\k27}Hi{\k19}me-{\k26}tan {\k17}wa {\k28}se{\k25}ka{\k37}i
+Comment: 0,0:00:45.26,0:00:47.10,Rie,,0,0,0,karaoke,{\k20}i{\k27}chi{\k21}ban {\k22}no {\k27}ka{\k22}wa{\k21}i{\k25}i
+Comment: 0,0:00:47.10,0:00:48.98,Rie,,0,0,0,karaoke,{\k48}lone{\k46}ly {\k48}lone{\k47}ly
+Comment: 0,0:00:49.23,0:00:50.83,Rie,,0,0,0,karaoke,{\k24}I {\k22}guess {\k21}I'm {\k50}lone{\k43}ly
+Comment: 0,0:00:50.83,0:00:52.66,Rie,,0,0,0,karaoke,{\k27}Hi{\k19}me-{\k26}tan {\k17}wa {\k32}se{\k25}ka{\k37}i
+Comment: 0,0:00:52.74,0:00:54.60,Rie,,0,0,0,karaoke,{\k20}i{\k27}chi{\k24}ban {\k19}no {\k27}ka{\k22}wa{\k21}i{\k26}i
+Comment: 0,0:00:54.60,0:00:56.52,Rie,,0,0,0,karaoke,{\k48}lone{\k46}ly {\k48}lone{\k47}ly
+Comment: 0,0:00:56.75,0:00:58.31,Rie,,0,0,0,karaoke,{\k21}I {\k23}guess {\k23}I'm {\k49}lone{\k40}ly
+Comment: 0,0:00:58.31,0:01:00.01,Rie,,0,0,0,karaoke,{\k29}Hi{\k22}me-{\k21}tan {\k17}wa {\k33}se{\k26}ka{\k22}i
+Comment: 0,0:01:00.24,0:01:02.15,Rie,,0,0,0,karaoke,{\k20}i{\k27}chi{\k21}ban {\k22}no {\k27}ka{\k24}wa{\k25}i{\k25}i
+Comment: 0,0:01:02.15,0:01:03.96,Back singing,,0,0,0,karaoke,{\k45}lone{\k48}ly {\k46}lone{\k42}ly
+Comment: 0,0:01:04.31,0:01:05.75,Back singing,,0,0,0,karaoke,{\k17}I {\k24}guess {\k26}I'm {\k34}lone{\k43}ly
+Comment: 0,0:01:05.92,0:01:07.72,Back singing,,0,0,0,karaoke,{\k45}lone{\k48}ly {\k46}lone{\k42}ly
+Comment: 0,0:01:08.08,0:01:09.48,Back singing,,0,0,0,karaoke,{\k17}I {\k24}guess {\k26}I'm {\k34}lone{\k43}ly
+Comment: 0,0:01:09.78,0:01:11.45,Back singing,,0,0,0,karaoke,{\k45}lone{\k48}ly {\k46}lone{\k42}ly
+Comment: 0,0:01:11.78,0:01:13.22,Back singing,,0,0,0,karaoke,{\k21}I {\k20}guess {\k26}I'm {\k44}lone{\k33}ly
+Comment: 0,0:01:13.35,0:01:15.15,Back singing,,0,0,0,karaoke,{\k45}lone{\k48}ly {\k46}lone{\k42}ly
+Comment: 0,0:01:15.54,0:01:17.01,Back singing,,0,0,0,karaoke,{\k17}I {\k24}guess {\k26}I'm {\k34}lone{\k43}ly
+Comment: 0,0:01:17.15,0:01:18.98,Back singing,,0,0,0,karaoke,{\k45}lone{\k48}ly {\k46}lone{\k42}ly
+Comment: 0,0:01:19.28,0:01:20.82,Back singing,,0,0,0,karaoke,{\k17}I {\k24}guess {\k26}I'm {\k43}lone{\k44}ly
+Comment: 0,0:01:20.90,0:01:22.75,Back singing,,0,0,0,karaoke,{\k45}lone{\k48}ly {\k46}lone{\k42}ly
+Comment: 0,0:01:23.02,0:01:24.55,Back singing,,0,0,0,karaoke,{\k17}I {\k24}guess {\k26}I'm {\k44}lone{\k42}ly
+Comment: 0,0:01:24.55,0:01:26.52,Back singing,,0,0,0,karaoke,{\k45}lone{\k48}ly {\k46}lone{\k42}ly
+Comment: 0,0:01:26.78,0:01:28.28,Back singing,,0,0,0,karaoke,{\k17}I {\k24}guess {\k26}I'm {\k45}lone{\k38}ly
+Comment: 0,0:01:28.42,0:01:30.08,Back singing,,0,0,0,karaoke,{\k20}Hi{\k20}me-{\k27}tan {\k14}wa {\k30}se{\k24}ka{\k31}i
+Comment: 0,0:01:30.28,0:01:32.12,Back singing,,0,0,0,karaoke,{\k19}i{\k25}chi{\k25}ban {\k19}no {\k26}ka{\k23}wa{\k28}i{\k19}i
+Comment: 0,0:01:32.12,0:01:33.47,Talking,,0,0,0,karaoke,{\k16}he{\k16}he{\k17}he{\k18}he{\k20}he{\k16}he{\k32}he
+Comment: 0,0:01:33.51,0:01:36.26,Talking,,0,0,0,karaoke,{\k34}Lim{\k46}bus {\k49}com{\k16}pa{\kf130}ny
+Comment: 0,0:01:36.37,0:01:37.73,Talking,,0,0,0,karaoke,{\k20}zǎo{\k12}shang {\k18}hǎo {\k19}zhōng{\k22}guó {\k18}xiàn{\k27}zài {\k0}
+Comment: 0,0:01:37.73,0:01:38.71,Talking,,0,0,0,karaoke,{\k13}wǒ {\k17}yǒu {\k17}bīng {\k16}qí {\k35}lín
+Comment: 0,0:01:38.71,0:01:42.45,Talking,,0,0,0,karaoke,{\k91}hmm, {\k50}oh, {\k16}I'm {\k21}just {\k18}a {\k35}ba{\k93}by, {\k50}what?
+Comment: 0,0:01:42.78,0:01:44.94,Talking,,0,0,0,karaoke,{\k61}heh, {\k41}in {\k68}stripped {\k46}club
+Comment: 0,0:01:45.24,0:01:46.87,Talking,,0,0,0,karaoke,{\k42}straight {\k47}up {\rTalking back singing}{\k27}jor{\k18}kin' {\k29}it
+Comment: 0,0:01:47.10,0:01:48.08,Talking,,0,0,0,karaoke,{\k26}jor{\k16}kin' {\k14}it {\rTalking back singing}{\k14}jor{\k12}kin' {\k16}it
+Comment: 0,0:01:48.08,0:01:48.85,Talking,,0,0,0,karaoke,{\k29}yeah
+Comment: 0,0:01:48.04,0:01:49.49,Talking,,0,0,0,karaoke,{\k12}get {\k17}on {\k21}the {\k37}disc{\k20}ord {\k19}kit{\k19}ten
+Comment: 0,0:01:49.49,0:01:51.71,Talking,,0,0,0,karaoke,{\k40}or {\k19}dad{\k22}dy's {\k12}gon{\k20}na {\k20}be {\kf89}mad
+Comment: 0,0:01:50.85,0:01:51.88,Talking,,0,0,0,karaoke,{\k19}jor{\k21}kin' {\k19}it {\rTalking back singing}{\k22}jor{\k16}kin' {\k27}it
+Comment: 0,0:01:51.82,0:01:52.81,Talking,,0,0,0,karaoke,{\k29}yeah
+Comment: 0,0:01:51.82,0:01:54.48,Talking,,0,0,0,karaoke,{\k16}you {\k14}don't {\k13}wan{\k16}na {\k29}see {\k23}when {\k28}dad{\k45}dy's {\kf82}mad
+Comment: 0,0:01:54.14,0:01:55.64,Talking,,0,0,0,karaoke,{\k22}jor{\k19}kin' {\k13}it {\rTalking back singing}{\k16}jor{\k12}kin' {\k14}it {\rTalking}{\k19}he{\k17}he{\k18}he
+Comment: 0,0:01:57.89,0:01:58.85,Talking,,0,0,0,karaoke,{\k21}jor{\k17}kin' {\k18}it {\rTalking back singing}{\k15}jor{\k14}kin' {\k24}it
+Comment: 0,0:01:58.85,0:02:02.23,Talking,,0,0,0,karaoke,{\k42}fuck {\k51}my {\k38}stu{\k42}pid {\k34}ba{\k27}ka {\k36}chun{\k30}gus {\k27}life
+Comment: 0,0:02:02.12,0:02:04.06,Rie,,0,0,0,karaoke,{\k47}lone{\k49}ly {\k46}lone{\k52}ly
+Comment: 0,0:02:04.26,0:02:05.85,Rie,,0,0,0,karaoke,{\k19}I {\k25}guess {\k23}I'm {\k48}lone{\k44}ly
+Comment: 0,0:02:05.85,0:02:07.62,Rie,,0,0,0,karaoke,{\k27}Hi{\k22}me {\k25}Hi{\k22}me {\k24}se{\k25}ka{\k32}i
+Comment: 0,0:02:07.78,0:02:09.62,Rie,,0,0,0,karaoke,{\k18}i{\k26}chi{\k25}ban {\k19}no {\k26}ka{\k23}wa{\k25}i{\k22}i
+Comment: 0,0:02:09.62,0:02:11.52,Rie,,0,0,0,karaoke,{\k47}lone{\k45}ly {\k47}lone{\k51}ly
+Comment: 0,0:02:11.74,0:02:13.35,Rie,,0,0,0,karaoke,{\k23}I {\k23}guess {\k21}I'm {\k49}lone{\k45}ly
+Comment: 0,0:02:13.35,0:02:14.98,Rie,,0,0,0,karaoke,{\k27}Hi{\k22}me {\k24}Hi{\k22}me {\k24}se{\k25}ka{\k19}i
+Comment: 0,0:02:15.25,0:02:17.16,Rie,,0,0,0,karaoke,{\k19}i{\k28}chi{\k22}ban {\k19}no {\k26}ka{\k27}wa{\k24}i{\k26}i
+Dialogue: 0,0:00:01.27,0:00:04.21,Back singing,,0,0,0,fx,{\k90\fad(300,200)}{\k46}lone{\k43}ly {\k45}lone{\k50}ly
+Dialogue: 0,0:00:03.11,0:00:05.99,Back singing,,0,0,0,fx,{\k90\fad(300,200)}{\k46}lone{\k43}ly {\k44}lone{\k45}ly
+Dialogue: 0,0:00:04.89,0:00:07.92,Back singing,,0,0,0,fx,{\k90\fad(300,200)}{\k59}lone{\k45}ly {\k44}lone{\k45}ly
+Dialogue: 0,0:00:06.82,0:00:09.82,Back singing,,0,0,0,fx,{\k90\fad(300,200)}{\k44}lone{\k37}ly {\k53}lone{\k56}ly
+Dialogue: 0,0:00:08.72,0:00:11.68,Back singing,,0,0,0,fx,{\k90\fad(300,200)}{\k44}lone{\k51}ly {\k45}lone{\k46}ly
+Dialogue: 0,0:00:10.58,0:00:13.55,Back singing,,0,0,0,fx,{\k90\fad(300,200)}{\k46}lone{\k37}ly {\k57}lone{\k47}ly
+Dialogue: 0,0:00:12.45,0:00:15.42,Back singing,,0,0,0,fx,{\k90\fad(300,200)}{\k40}lone{\k45}ly {\k58}lone{\k44}ly
+Dialogue: 0,0:00:14.32,0:00:17.32,Back singing,,0,0,0,fx,{\k90\fad(300,200)}{\k48}lone{\k48}ly {\k50}lone{\k44}ly
+Dialogue: 0,0:00:16.22,0:00:19.21,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k48}lone{\k46}ly {\k48}lone{\k47}ly
+Dialogue: 0,0:00:18.38,0:00:20.92,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k19}guess {\k27}I'm {\k44}lone{\k33}ly
+Dialogue: 0,0:00:19.95,0:00:22.75,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Hi{\k23}me-{\k26}tan {\k14}wa {\k31}se{\k25}ka{\k28}i
+Dialogue: 0,0:00:21.86,0:00:24.81,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k20}i{\k27}chi{\k21}ban {\k22}no {\k27}ka{\k22}wa{\k21}i{\k25}i
+Dialogue: 0,0:00:23.71,0:00:26.69,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k48}lone{\k46}ly {\k48}lone{\k47}ly
+Dialogue: 0,0:00:25.86,0:00:28.55,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k23}guess {\k23}I'm {\k48}lone{\k44}ly
+Dialogue: 0,0:00:27.45,0:00:30.25,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Hi{\k23}me-{\k26}tan {\k17}wa {\k28}se{\k25}ka{\k28}i
+Dialogue: 0,0:00:29.38,0:00:32.32,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k20}i{\k27}chi{\k21}ban {\k22}no {\k27}ka{\k22}wa{\k21}i{\k25}i
+Dialogue: 0,0:00:31.22,0:00:34.22,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k48}lone{\k46}ly {\k48}lone{\k47}ly
+Dialogue: 0,0:00:33.37,0:00:35.94,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k19}guess {\k27}I'm {\k47}lone{\k33}ly
+Dialogue: 0,0:00:34.96,0:00:37.92,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Hi{\k23}me-{\k26}tan {\k17}wa {\k28}se{\k25}ka{\k28}i
+Dialogue: 0,0:00:36.87,0:00:39.81,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k20}i{\k27}chi{\k21}ban {\k22}no {\k27}ka{\k22}wa{\k21}i{\k25}i
+Dialogue: 0,0:00:38.71,0:00:41.71,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k48}lone{\k46}ly {\k48}lone{\k47}ly
+Dialogue: 0,0:00:40.84,0:00:43.53,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k19}guess {\k27}I'm {\k49}lone{\k43}ly
+Dialogue: 0,0:00:42.43,0:00:45.32,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Hi{\k19}me-{\k26}tan {\k17}wa {\k28}se{\k25}ka{\k37}i
+Dialogue: 0,0:00:44.36,0:00:47.30,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k20}i{\k27}chi{\k21}ban {\k22}no {\k27}ka{\k22}wa{\k21}i{\k25}i
+Dialogue: 0,0:00:46.20,0:00:49.18,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k48}lone{\k46}ly {\k48}lone{\k47}ly
+Dialogue: 0,0:00:48.33,0:00:51.03,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k22}guess {\k21}I'm {\k50}lone{\k43}ly
+Dialogue: 0,0:00:49.93,0:00:52.86,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Hi{\k19}me-{\k26}tan {\k17}wa {\k32}se{\k25}ka{\k37}i
+Dialogue: 0,0:00:51.84,0:00:54.80,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k20}i{\k27}chi{\k24}ban {\k19}no {\k27}ka{\k22}wa{\k21}i{\k26}i
+Dialogue: 0,0:00:53.70,0:00:56.72,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k48}lone{\k46}ly {\k48}lone{\k47}ly
+Dialogue: 0,0:00:55.85,0:00:58.51,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k23}guess {\k23}I'm {\k49}lone{\k40}ly
+Dialogue: 0,0:00:57.41,0:01:00.21,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Hi{\k22}me-{\k21}tan {\k17}wa {\k33}se{\k26}ka{\k22}i
+Dialogue: 0,0:00:59.34,0:01:02.35,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k20}i{\k27}chi{\k21}ban {\k22}no {\k27}ka{\k24}wa{\k25}i{\k25}i
+Dialogue: 0,0:01:01.25,0:01:04.16,Back singing,,0,0,0,fx,{\k90\fad(300,200)}{\k45}lone{\k48}ly {\k46}lone{\k42}ly
+Dialogue: 0,0:01:03.41,0:01:05.95,Back singing,,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k24}guess {\k26}I'm {\k34}lone{\k43}ly
+Dialogue: 0,0:01:05.02,0:01:07.92,Back singing,,0,0,0,fx,{\k90\fad(300,200)}{\k45}lone{\k48}ly {\k46}lone{\k42}ly
+Dialogue: 0,0:01:07.18,0:01:09.68,Back singing,,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k24}guess {\k26}I'm {\k34}lone{\k43}ly
+Dialogue: 0,0:01:08.88,0:01:11.65,Back singing,,0,0,0,fx,{\k90\fad(300,200)}{\k45}lone{\k48}ly {\k46}lone{\k42}ly
+Dialogue: 0,0:01:10.88,0:01:13.42,Back singing,,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k20}guess {\k26}I'm {\k44}lone{\k33}ly
+Dialogue: 0,0:01:12.45,0:01:15.35,Back singing,,0,0,0,fx,{\k90\fad(300,200)}{\k45}lone{\k48}ly {\k46}lone{\k42}ly
+Dialogue: 0,0:01:14.64,0:01:17.21,Back singing,,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k24}guess {\k26}I'm {\k34}lone{\k43}ly
+Dialogue: 0,0:01:16.25,0:01:19.18,Back singing,,0,0,0,fx,{\k90\fad(300,200)}{\k45}lone{\k48}ly {\k46}lone{\k42}ly
+Dialogue: 0,0:01:18.38,0:01:21.02,Back singing,,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k24}guess {\k26}I'm {\k43}lone{\k44}ly
+Dialogue: 0,0:01:20.00,0:01:22.95,Back singing,,0,0,0,fx,{\k90\fad(300,200)}{\k45}lone{\k48}ly {\k46}lone{\k42}ly
+Dialogue: 0,0:01:22.12,0:01:24.75,Back singing,,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k24}guess {\k26}I'm {\k44}lone{\k42}ly
+Dialogue: 0,0:01:23.65,0:01:26.72,Back singing,,0,0,0,fx,{\k90\fad(300,200)}{\k45}lone{\k48}ly {\k46}lone{\k42}ly
+Dialogue: 0,0:01:25.88,0:01:28.48,Back singing,,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k24}guess {\k26}I'm {\k45}lone{\k38}ly
+Dialogue: 0,0:01:27.52,0:01:30.28,Back singing,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Hi{\k20}me-{\k27}tan {\k14}wa {\k30}se{\k24}ka{\k31}i
+Dialogue: 0,0:01:29.38,0:01:32.32,Back singing,,0,0,0,fx,{\k90\fad(300,200)}{\k19}i{\k25}chi{\k25}ban {\k19}no {\k26}ka{\k23}wa{\k28}i{\k19}i
+Dialogue: 0,0:01:31.22,0:01:33.67,Talking,,0,0,0,fx,{\k90\fad(300,200)}{\k16}he{\k16}he{\k17}he{\k18}he{\k20}he{\k16}he{\k32}he
+Dialogue: 0,0:01:32.61,0:01:36.46,Talking,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Lim{\k46}bus {\k49}com{\k16}pa{\kf130}ny
+Dialogue: 0,0:01:35.47,0:01:37.93,Talking,,0,0,0,fx,{\k90\fad(300,200)}{\k20}zǎo{\k12}shang {\k18}hǎo {\k19}zhōng{\k22}guó {\k18}xiàn{\k27}zài {\k0}
+Dialogue: 0,0:01:36.83,0:01:38.91,Talking,,0,0,0,fx,{\k90\fad(300,200)}{\k13}wǒ {\k17}yǒu {\k17}bīng {\k16}qí {\k35}lín
+Dialogue: 0,0:01:37.81,0:01:42.65,Talking,,0,0,0,fx,{\k90\fad(300,200)}{\k91}hmm, {\k50}oh, {\k16}I'm {\k21}just {\k18}a {\k35}ba{\k93}by, {\k50}what?
+Dialogue: 0,0:01:41.88,0:01:45.14,Talking,,0,0,0,fx,{\k90\fad(300,200)}{\k61}heh, {\k41}in {\k68}stripped {\k46}club
+Dialogue: 0,0:01:44.34,0:01:47.07,Talking,,0,0,0,fx,{\k90\fad(300,200)}{\k42}straight {\k47}up {\rTalking back singing}{\k27}jor{\k18}kin' {\k29}it
+Dialogue: 0,0:01:46.20,0:01:48.28,Talking,,0,0,0,fx,{\k90\fad(300,200)}{\k26}jor{\k16}kin' {\k14}it {\rTalking back singing}{\k14}jor{\k12}kin' {\k16}it
+Dialogue: 0,0:01:47.18,0:01:49.05,Talking,,0,0,0,fx,{\k90\fad(300,200)}{\k29}yeah
+Dialogue: 0,0:01:47.14,0:01:49.69,Talking,,0,0,0,fx,{\k90\fad(300,200)}{\k12}get {\k17}on {\k21}the {\k37}disc{\k20}ord {\k19}kit{\k19}ten
+Dialogue: 0,0:01:48.59,0:01:51.91,Talking,,0,0,0,fx,{\k90\fad(300,200)}{\k40}or {\k19}dad{\k22}dy's {\k12}gon{\k20}na {\k20}be {\kf89}mad
+Dialogue: 0,0:01:49.95,0:01:52.08,Talking,,0,0,0,fx,{\k90\fad(300,200)}{\k19}jor{\k21}kin' {\k19}it {\rTalking back singing}{\k22}jor{\k16}kin' {\k27}it
+Dialogue: 0,0:01:50.92,0:01:53.01,Talking,,0,0,0,fx,{\k90\fad(300,200)}{\k29}yeah
+Dialogue: 0,0:01:50.92,0:01:54.68,Talking,,0,0,0,fx,{\k90\fad(300,200)}{\k16}you {\k14}don't {\k13}wan{\k16}na {\k29}see {\k23}when {\k28}dad{\k45}dy's {\kf82}mad
+Dialogue: 0,0:01:53.24,0:01:55.84,Talking,,0,0,0,fx,{\k90\fad(300,200)}{\k22}jor{\k19}kin' {\k13}it {\rTalking back singing}{\k16}jor{\k12}kin' {\k14}it {\rTalking}{\k19}he{\k17}he{\k18}he
+Dialogue: 0,0:01:56.99,0:01:59.05,Talking,,0,0,0,fx,{\k90\fad(300,200)}{\k21}jor{\k17}kin' {\k18}it {\rTalking back singing}{\k15}jor{\k14}kin' {\k24}it
+Dialogue: 0,0:01:57.95,0:02:02.43,Talking,,0,0,0,fx,{\k90\fad(300,200)}{\k42}fuck {\k51}my {\k38}stu{\k42}pid {\k34}ba{\k27}ka {\k36}chun{\k30}gus {\k27}life
+Dialogue: 0,0:02:01.22,0:02:04.26,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k47}lone{\k49}ly {\k46}lone{\k52}ly
+Dialogue: 0,0:02:03.36,0:02:06.05,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k25}guess {\k23}I'm {\k48}lone{\k44}ly
+Dialogue: 0,0:02:04.95,0:02:07.82,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Hi{\k22}me {\k25}Hi{\k22}me {\k24}se{\k25}ka{\k32}i
+Dialogue: 0,0:02:06.88,0:02:09.82,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k18}i{\k26}chi{\k25}ban {\k19}no {\k26}ka{\k23}wa{\k25}i{\k22}i
+Dialogue: 0,0:02:08.72,0:02:11.72,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k47}lone{\k45}ly {\k47}lone{\k51}ly
+Dialogue: 0,0:02:10.84,0:02:13.55,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k23}guess {\k21}I'm {\k49}lone{\k45}ly
+Dialogue: 0,0:02:12.45,0:02:15.18,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Hi{\k22}me {\k24}Hi{\k22}me {\k24}se{\k25}ka{\k19}i
+Dialogue: 0,0:02:14.35,0:02:17.36,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k19}i{\k28}chi{\k22}ban {\k19}no {\k26}ka{\k27}wa{\k24}i{\k26}i
