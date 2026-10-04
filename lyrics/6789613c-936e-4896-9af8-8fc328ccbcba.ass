@@ -1,0 +1,22 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+Title: Tequila
+PlayResX: 0
+PlayResY: 0
+Original Timing: Ichinyaaan
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Clio,Arial,24,&H0088A5C4,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Clio,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:53.00,0:00:53.52,Clio,,0,0,0,karaoke,{\k8}Te{\k25}qui{\k19}la
+Comment: 0,0:01:36.35,0:01:36.86,Clio,,0,0,0,karaoke,{\k9}Te{\k20}qui{\k22}la
+Comment: 0,0:02:08.75,0:02:09.89,Clio,,0,0,0,karaoke,{\k10}Te{\k24}qui{\kf80}la
+Dialogue: 0,0:00:52.10,0:00:53.72,Clio,,0,0,0,fx,{\k90\fad(300,200)}{\k8}Te{\k25}qui{\k19}la
+Dialogue: 0,0:01:35.45,0:01:37.06,Clio,,0,0,0,fx,{\k90\fad(300,200)}{\k9}Te{\k20}qui{\k22}la
+Dialogue: 0,0:02:07.85,0:02:10.09,Clio,,0,0,0,fx,{\k90\fad(300,200)}{\k10}Te{\k24}qui{\kf80}la
