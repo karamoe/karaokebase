@@ -1,0 +1,77 @@
+﻿[Script Info]
+Title: IGNITE
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Naruse
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: jap,Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: eng,Arial,24,&H00FFFFFF,&H005757FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.94,0:00:04.03,eng,,0,0,0,karaoke,{\k18}We {\k25}light {\k15}it {\k18}up {\k40}in {\k40}the {\k35}a{\k41}fter{\k43}glo{\k34}w
+Comment: 0,0:00:04.19,0:00:07.11,jap,,0,0,0,karaoke,{\k29}ki{\k13}e{\k22}na{\k36}i {\k32}to{\k42}mo{\k43}shi{\k41}bi {\k34}wo
+Comment: 0,0:00:07.28,0:00:09.53,eng,,0,0,0,karaoke,{\k41}Turn {\k39}up! {\k30}Sho{\k29}ut {\k23}it {\k34}lou{\k29}der
+Comment: 0,0:00:09.66,0:00:14.45,jap,,0,0,0,karaoke,{\k20}ho{\k22}e{\k18}ro {\reng}{\k31}RE{\k32}VEN{\k15}GE {\k76}NOW {\k34}RE{\k31}VEN{\k15}GE {\kf185}NOW
+Comment: 0,0:00:18.41,0:00:22.38,eng,,0,0,0,karaoke,{\k20}I{\k129}gnite {\k29}I{\k137}gnite {\k20}I{\k62}gnite
+Comment: 0,0:00:24.84,0:00:26.05,eng,,0,0,0,karaoke,{\k27}Ze{\k15}ro {\k22}ho{\k57}ur
+Comment: 0,0:00:26.59,0:00:27.59,eng,,0,0,0,karaoke,{\k20}No {\k20}tur{\k22}ning {\k38}back
+Comment: 0,0:00:27.76,0:00:29.55,eng,,0,0,0,karaoke,{\k22}ONE {\k23}STEP {\rjap}{\k5}mi{\k9}zu{\k10}ka{\k12}ra {\k11}to{\k10}bi{\k7}ko{\k9}mu {\reng}{\k20}NEW {\k41}PHASE
+Comment: 0,0:00:29.55,0:00:31.18,eng,,0,0,0,karaoke,{\k20}TWO {\k22}STEP {\rjap}{\k3}mi{\k13}zu{\k11}ka{\k15}ra {\k7}o{\k7}ko{\k6}su {\k12}yo {\reng}{\k47}CRAZE
+Comment: 0,0:00:31.18,0:00:32.43,jap,,0,0,0,karaoke,{\k12}'mi{\k7}a{\k10}ge{\k23}ta {\k9}ko{\k6}no {\k21}kei{\k15}ken{\k8}chi {\k14}de
+Comment: 0,0:00:32.43,0:00:34.10,jap,,0,0,0,karaoke,{\k11}don{\k12}na {\k19}kon{\k21}nan {\k9}no{\k9}ri{\k20}koe' {\reng\k19}I’LL {\k10}MAKE {\k10}IT {\k27}THERE
+Comment: 0,0:00:34.06,0:00:35.47,jap,,0,0,0,karaoke,{\k8}a{\k11}ko{\k13}ga{\k12}re {\k7}no {\reng}{\k15}HE{\k18}RO {\rjap}{\k10}no {\k47}you
+Comment: 0,0:00:35.47,0:00:36.93,jap,,0,0,0,karaoke,{\k8}i{\k11}ma {\k11}ka{\k16}sa{\k11}ne {\k13}mi{\k16}te {\k20}iru {\k40}yo
+Comment: 0,0:00:36.93,0:00:38.52,jap,,0,0,0,karaoke,{\k12}da{\k17}re {\k12}ni {\k18}na{\k10}ni {\k11}wo {\k14}i{\k16}wa{\k9}re{\k28}you {\k12}to
+Comment: 0,0:00:38.52,0:00:40.10,jap,,0,0,0,karaoke,{\k14}ta{\k9}to{\k15}e {\k15}bo{\k11}ku{\k13}ra {\k10}su{\k11}su{\k12}mu {\k48}yo
+Comment: 0,0:00:40.10,0:00:42.90,eng,,0,0,0,karaoke,{\k16}E{\k18}very {\k40}doubt {\k22}tried {\k20}to {\k33}re{\k42}write {\kf89}me
+Comment: 0,0:00:43.15,0:00:46.40,eng,,0,0,0,karaoke,{\k25}Cut {\k11}it {\k46}out, {\k21}now {\k19}it's {\k37}high-{\k43}def {\k21}cla{\k17}ri{\kf85}ty
+Comment: 0,0:00:46.48,0:00:47.94,jap,,0,0,0,karaoke,{\k18}nu{\k18}ke{\k21}da{\k25}su {\reng}{\k27}GRA{\k8}VI{\k29}TY
+Comment: 0,0:00:48.03,0:00:49.53,jap,,0,0,0,karaoke,{\k43}te {\k0}ni {\k13}su{\k19}ru {\reng}{\k14}RE{\k19}A{\k10}LI{\k32}TY
+Comment: 0,0:00:49.57,0:00:53.45,jap,,0,0,0,karaoke,{\k24}a{\k14}su {\k50}wo {\k34}e{\k37}ga{\k39}ku {\kf190}to
+Comment: 0,0:00:53.87,0:00:56.99,jap,,0,0,0,karaoke,{\k20}ni{\k24}gi{\k14}ri{\k27}shi{\k34}me{\k36}ta {\k41}ze{\k41}tsu{\k38}bou {\k37}wo
+Comment: 0,0:00:57.20,0:01:00.08,jap,,0,0,0,karaoke,{\k25}ki{\k17}e{\k22}na{\k33}i {\k35}to{\k42}mo{\k43}shi{\k35}bi {\k36}wo
+Comment: 0,0:01:00.29,0:01:02.54,eng,,0,0,0,karaoke,{\k41}Turn {\k39}up! {\k30}Sho{\k21}ut {\k28}it {\k37}lou{\k29}der
+Comment: 0,0:01:02.63,0:01:04.67,jap,,0,0,0,karaoke,{\k22}ko{\k18}e{\k18}ro {\reng}{\k43}DROWN {\k19}IN {\k18}THE {\k55}UR{\k11}GE
+Comment: 0,0:01:04.79,0:01:07.17,eng,,0,0,0,karaoke,{\k18}We {\k25}drown {\k18}in {\k20}the {\kf157}urge
+Comment: 0,0:01:06.30,0:01:09.47,jap,,0,0,0,karaoke,{\k18}ku{\k25}ro{\k18}ku {\k27}so{\k34}mat{\k38}tek' {\k37}se{\k41}ka{\k42}i {\k37}ni
+Comment: 0,0:01:09.47,0:01:12.55,jap,,0,0,0,karaoke,{\k19}ko{\k21}bu{\k18}shi {\k20}ta{\k40}ta{\k34}ki{\k42}tsu{\k41}ke{\k23}ro{\k50}~
+Comment: 0,0:01:12.76,0:01:15.05,eng,,0,0,0,karaoke,{\k41}Turn {\k39}up! {\k30}Sho{\k29}ut {\k20}it {\k37}lou{\k33}der
+Comment: 0,0:01:15.14,0:01:20.02,jap,,0,0,0,karaoke,{\k20}ho{\k18}e{\k18}ro {\reng}{\k35}RE{\k32}VEN{\k11}GE {\k76}NOW {\k38}RE{\k31}VEN{\k12}GE {\kf197}NOW
+Dialogue: 0,0:00:00.04,0:00:04.23,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k18}We {\k25}light {\k15}it {\k18}up {\k40}in {\k40}the {\k35}a{\k41}fter{\k43}glo{\k34}w
+Dialogue: 0,0:00:03.29,0:00:07.31,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ki{\k13}e{\k22}na{\k36}i {\k32}to{\k42}mo{\k43}shi{\k41}bi {\k34}wo
+Dialogue: 0,0:00:06.38,0:00:09.73,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k41}Turn {\k39}up! {\k30}Sho{\k29}ut {\k23}it {\k34}lou{\k29}der
+Dialogue: 0,0:00:08.76,0:00:14.65,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ho{\k22}e{\k18}ro {\reng}{\k31}RE{\k32}VEN{\k15}GE {\k76}NOW {\k34}RE{\k31}VEN{\k15}GE {\kf185}NOW
+Dialogue: 0,0:00:17.51,0:00:22.58,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k20}I{\k129}gnite {\k29}I{\k137}gnite {\k20}I{\k62}gnite
+Dialogue: 0,0:00:23.94,0:00:26.25,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Ze{\k15}ro {\k22}ho{\k57}ur
+Dialogue: 0,0:00:25.69,0:00:27.79,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k20}No {\k20}tur{\k22}ning {\k38}back
+Dialogue: 0,0:00:26.86,0:00:29.75,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ONE {\k23}STEP {\rjap}{\k5}mi{\k9}zu{\k10}ka{\k12}ra {\k11}to{\k10}bi{\k7}ko{\k9}mu {\reng}{\k20}NEW {\k41}PHASE
+Dialogue: 0,0:00:28.65,0:00:31.38,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k20}TWO {\k22}STEP {\rjap}{\k3}mi{\k13}zu{\k11}ka{\k15}ra {\k7}o{\k7}ko{\k6}su {\k12}yo {\reng}{\k47}CRAZE
+Dialogue: 0,0:00:30.28,0:00:32.63,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k12}'mi{\k7}a{\k10}ge{\k23}ta {\k9}ko{\k6}no {\k21}kei{\k15}ken{\k8}chi {\k14}de
+Dialogue: 0,0:00:31.53,0:00:34.30,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k11}don{\k12}na {\k19}kon{\k21}nan {\k9}no{\k9}ri{\k20}koe' {\reng\k19}I’LL {\k10}MAKE {\k10}IT {\k27}THERE
+Dialogue: 0,0:00:33.16,0:00:35.67,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k8}a{\k11}ko{\k13}ga{\k12}re {\k7}no {\reng}{\k15}HE{\k18}RO {\rjap}{\k10}no {\k47}you
+Dialogue: 0,0:00:34.57,0:00:37.13,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k8}i{\k11}ma {\k11}ka{\k16}sa{\k11}ne {\k13}mi{\k16}te {\k20}iru {\k40}yo
+Dialogue: 0,0:00:36.03,0:00:38.72,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k12}da{\k17}re {\k12}ni {\k18}na{\k10}ni {\k11}wo {\k14}i{\k16}wa{\k9}re{\k28}you {\k12}to
+Dialogue: 0,0:00:37.62,0:00:40.30,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ta{\k9}to{\k15}e {\k15}bo{\k11}ku{\k13}ra {\k10}su{\k11}su{\k12}mu {\k48}yo
+Dialogue: 0,0:00:39.20,0:00:43.10,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k16}E{\k18}very {\k40}doubt {\k22}tried {\k20}to {\k33}re{\k42}write {\kf89}me
+Dialogue: 0,0:00:42.25,0:00:46.60,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Cut {\k11}it {\k46}out, {\k21}now {\k19}it's {\k37}high-{\k43}def {\k21}cla{\k17}ri{\kf85}ty
+Dialogue: 0,0:00:45.58,0:00:48.14,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k18}nu{\k18}ke{\k21}da{\k25}su {\reng}{\k27}GRA{\k8}VI{\k29}TY
+Dialogue: 0,0:00:47.13,0:00:49.73,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k43}te {\k0}ni {\k13}su{\k19}ru {\reng}{\k14}RE{\k19}A{\k10}LI{\k32}TY
+Dialogue: 0,0:00:48.67,0:00:53.65,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k24}a{\k14}su {\k50}wo {\k34}e{\k37}ga{\k39}ku {\kf190}to
+Dialogue: 0,0:00:52.97,0:00:57.19,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ni{\k24}gi{\k14}ri{\k27}shi{\k34}me{\k36}ta {\k41}ze{\k41}tsu{\k38}bou {\k37}wo
+Dialogue: 0,0:00:56.30,0:01:00.28,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ki{\k17}e{\k22}na{\k33}i {\k35}to{\k42}mo{\k43}shi{\k35}bi {\k36}wo
+Dialogue: 0,0:00:59.39,0:01:02.74,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k41}Turn {\k39}up! {\k30}Sho{\k21}ut {\k28}it {\k37}lou{\k29}der
+Dialogue: 0,0:01:01.73,0:01:04.87,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ko{\k18}e{\k18}ro {\reng}{\k43}DROWN {\k19}IN {\k18}THE {\k55}UR{\k11}GE
+Dialogue: 0,0:01:03.89,0:01:07.37,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k18}We {\k25}drown {\k18}in {\k20}the {\kf157}urge
+Dialogue: 0,0:01:05.40,0:01:09.67,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ku{\k25}ro{\k18}ku {\k27}so{\k34}mat{\k38}tek' {\k37}se{\k41}ka{\k42}i {\k37}ni
+Dialogue: 0,0:01:08.57,0:01:12.75,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ko{\k21}bu{\k18}shi {\k20}ta{\k40}ta{\k34}ki{\k42}tsu{\k41}ke{\k23}ro{\k50}~
+Dialogue: 0,0:01:11.86,0:01:15.25,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k41}Turn {\k39}up! {\k30}Sho{\k29}ut {\k20}it {\k37}lou{\k33}der
+Dialogue: 0,0:01:14.24,0:01:20.22,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ho{\k18}e{\k18}ro {\reng}{\k35}RE{\k32}VEN{\k11}GE {\k76}NOW {\k38}RE{\k31}VEN{\k12}GE {\kf197}NOW
