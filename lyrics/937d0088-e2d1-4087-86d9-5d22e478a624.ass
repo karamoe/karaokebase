@@ -1,0 +1,198 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Attention
+Original Timing: ono3000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,60,1
+Style: Korean,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: English,Arial,24,&H00FFFFFF,&H00FFC124,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: EnglishChoir,Arial,24,&H00FFFFFF,&H00FFC124,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+Style: KoreanChoir,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,COLOR CODE,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H008AFF&}Korean {\c}| {\c&HFFC124&}English
+Comment: 0,0:00:09.04,0:00:11.89,EnglishChoir,,0,0,0,karaoke,{\k28}Mm-{\k65}hmm-{\k136}mm, {\k15}uh-{\k41}huh
+Comment: 0,0:00:16.75,0:00:17.87,EnglishChoir,,0,0,0,karaoke,{\k16}Here {\k11}we {\k52}go, {\k33}oh
+Comment: 0,0:00:17.87,0:00:18.97,EnglishChoir,,0,0,0,karaoke,{\k13}At{\k33}ten{\k64}tion
+Comment: 0,0:00:21.31,0:00:24.31,EnglishChoir,,0,0,0,karaoke,{\k18}Got {\k10}me {\k15}look{\k13}ing {\k14}for {\k19}at{\k40}ten{\kf171}tion
+Comment: 0,0:00:23.59,0:00:25.74,EnglishChoir,,0,0,0,karaoke,{\k18}Got {\k10}me {\k15}look{\k13}ing {\k14}for {\k20}at{\k39}ten{\k86}tion
+Comment: 0,0:00:25.88,0:00:27.58,EnglishChoir,,0,0,0,karaoke,{\k18}Got {\k10}me {\k15}look{\k13}ing {\k14}for {\k15}at{\k30}ten{\k55}tion
+Comment: 0,0:00:29.59,0:00:31.88,EnglishChoir,,0,0,0,karaoke,{\k57}One, {\k57}two, {\k56}three, {\k59}ay
+Comment: 0,0:00:31.88,0:00:33.87,English,,0,0,0,karaoke,{\k45}You {\k12}and {\k46}me {\k11}{\rKorean}nae {\k17}ma{\k13}mi {\k15}bo{\k10}i{\k30}ji
+Comment: 0,0:00:34.02,0:00:36.16,Korean,,0,0,0,karaoke,{\k13}han{\k19}cha{\k10}meul {\k18}chyeo{\k11}da{\k31}bwa {\k15}ga{\k13}kka{\k26}i {\k17}da{\k13}ga{\k28}ga
+Comment: 0,0:00:36.16,0:00:38.16,English,,0,0,0,karaoke,{\k16}You {\kf100}see, {\k50}ay-{\k34}ye
+Comment: 0,0:00:38.48,0:00:40.90,English,,0,0,0,karaoke,{\k12}You {\kf100}see, {\k27}ay {\k29}ay {\k28}ay {\k46}ay
+Comment: 0,0:00:41.02,0:00:42.97,English,,0,0,0,karaoke,{\k48}One, {\k10}two, {\k44}three {\k13}{\rKorean}yong{\k19}gi{\k12}ga {\k14}saeng{\k13}gyeot{\k22}ji
+Comment: 0,0:00:43.02,0:00:43.32,EnglishChoir,,0,0,0,karaoke,{\k30}Mm
+Comment: 0,0:00:43.02,0:00:44.09,Korean,,0,0,0,karaoke,{\k21}i{\k7}mi {\k20}a{\k11}neun {\k18}ne {\k10}nun{\k20}chi
+Comment: 0,0:00:44.09,0:00:46.66,Korean,,0,0,0,karaoke,{\k13}go{\k16}gae{\k8}reul {\k18}dol{\k10}lyeo {\k20}cheon{\k9}cheon{\k28}hi {\k17}yeo{\kf118}gi
+Comment: 0,0:00:46.43,0:00:47.31,EnglishChoir,,0,0,0,karaoke,{\k31}Mm-{\k57}hmm
+Comment: 0,0:00:47.58,0:00:50.04,English,,0,0,0,karaoke,{\k15}You {\kf102}see {\rKorean}{\k14}yeo{\k14}gi {\k31}bo{\k24}i{\k46}ni
+Comment: 0,0:00:50.17,0:00:52.04,English,,0,0,0,karaoke,{\k15}Look{\k15}ing {\k16}for {\k11}at{\k18}ten{\k11}tion {\k14}{\rKorean}neo{\k14}ya{\k29}ge{\k44}sseo
+Comment: 0,0:00:51.88,0:00:52.46,EnglishChoir,,0,0,0,karaoke,{\k58}Huh
+Comment: 0,0:00:52.46,0:00:54.06,Korean,,0,0,0,karaoke,{\k17}hwak{\k11}shil{\k21}ha{\k8}ge {\k19}na{\k10}ro {\k18}man{\k9}deul{\k28}ge{\k19}sseo
+Comment: 0,0:00:54.09,0:00:54.61,EnglishChoir,,0,0,0,karaoke,{\k52}Stop
+Comment: 0,0:00:54.46,0:00:55.88,English,,0,0,0,karaoke,{\k57}Ayy, {\k20}drop {\k9}the {\k27}ques{\k29}tion
+Comment: 0,0:00:55.88,0:00:57.05,English,,0,0,0,karaoke,{\k18}Drop {\k11}the, {\k16}drop {\k12}the {\k27}ques{\k33}tion
+Comment: 0,0:00:56.72,0:00:57.30,EnglishChoir,,0,0,0,karaoke,{\k20}Drop {\k38}it
+Comment: 0,0:00:57.30,0:00:58.17,English,,0,0,0,karaoke,{\k17}Want {\k12}at{\k27}ten{\k31}tion
+Comment: 0,0:00:58.17,0:00:59.58,English,,0,0,0,karaoke,{\k19}Wan{\k11}na {\k16}want {\k10}at{\k27}ten{\k58}tion
+Comment: 0,0:00:59.03,0:00:59.58,EnglishChoir,,0,0,0,karaoke,{\k19}Come {\k36}on
+Comment: 0,0:00:59.58,0:01:01.58,English,,0,0,0,karaoke,{\k30}You {\k29}give {\k28}me {\k21}but{\k24}ter{\k32}flies {\k9}you {\k27}know
+Comment: 0,0:01:01.88,0:01:04.14,Korean,,0,0,0,karaoke,{\k29}nae {\k29}ma{\k28}meun {\k17}on{\k27}tong {\k31}{\rEnglish}pa{\k14}ra{\k51}dise
+Comment: 0,0:01:04.18,0:01:06.93,Korean,,0,0,0,karaoke,{\k29}kku{\k27}me{\k28}seo {\k30}kkae{\k27}weo{\k28}ju{\k28}ji {\k78}ma
+Comment: 0,0:01:06.49,0:01:06.93,EnglishChoir,,0,0,0,karaoke,{\k44}Ay
+Comment: 0,0:01:06.93,0:01:11.48,English,,0,0,0,karaoke,{\k10}You {\k19}got {\k11}me {\k13}look{\k15}ing {\k14}for {\k12}at{\k41}ten{\kf320}tion
+Comment: 0,0:01:08.75,0:01:09.31,EnglishChoir,,0,0,0,karaoke,{\k56}Ay
+Comment: 0,0:01:11.49,0:01:17.32,English,,0,0,0,karaoke,{\k10}You {\k19}got {\k11}me {\k13}look{\k15}ing {\k14}for {\k14}at{\k39}ten{\kf448}tion
+Comment: 0,0:01:17.59,0:01:18.72,Korean,,0,0,0,karaoke,{\k22}ga{\k25}kkeu{\k11}meun {\k29}jeong{\k26}mal
+Comment: 0,0:01:18.74,0:01:20.93,Korean,,0,0,0,karaoke,{\k20}het{\k26}gal{\k11}li{\k29}ji{\k29}man {\k27}bun{\k20}myeong{\k12}han {\k45}geon
+Comment: 0,0:01:20.75,0:01:26.45,English,,0,0,0,karaoke,{\k18}Got {\k10}me {\k15}look{\k13}ing {\k14}for {\k15}at{\k44}ten{\kf441}tion
+Comment: 0,0:01:27.16,0:01:29.17,Korean,,0,0,0,karaoke,{\k15}neol {\k16}u{\k13}yeon{\k13}hi {\k14}ma{\k25}ju{\k18}chin {\k16}cheok{\k43}hal{\k28}lae
+Comment: 0,0:01:29.17,0:01:30.77,Korean,,0,0,0,karaoke,{\k14}mot {\k28}bon {\k32}cheok {\k17}ji{\k9}na{\k44}gal{\k16}lae
+Comment: 0,0:01:30.89,0:01:31.88,English,,0,0,0,karaoke,{\k14}You’re {\k27}so {\k58}fine
+Comment: 0,0:01:31.63,0:01:31.88,EnglishChoir,,0,0,0,karaoke,{\k25}Ay
+Comment: 0,0:01:31.88,0:01:33.89,English,,0,0,0,karaoke,{\k19}Got{\k10}ta {\k18}got{\k11}ta {\k28}get {\k29}to {\k28}know {\k58}ya
+Comment: 0,0:01:33.33,0:01:34.15,KoreanChoir,,0,0,0,karaoke,{\k20}na{\k62}wa
+Comment: 0,0:01:34.15,0:01:36.02,Korean,,0,0,0,karaoke,{\k20}na{\k11}wa {\k15}na{\k12}wa {\k29}geo{\k27}reo{\k29}ga {\k44}jweo
+Comment: 0,0:01:35.87,0:01:36.27,EnglishChoir,,0,0,0,karaoke,{\k43}Yeah
+Comment: 0,0:01:36.45,0:01:38.05,Korean,,0,0,0,karaoke,{\k15}ji{\k29}geum {\k30}do{\k23}ra{\k33}seo{\k30}myeon
+Comment: 0,0:01:38.05,0:01:39.74,English,,0,0,0,karaoke,{\k10}I {\k15}need {\k43}ya, {\k14}need {\k43}ya, {\k13}need {\k31}ya
+Comment: 0,0:01:39.75,0:01:41.03,English,,0,0,0,karaoke,{\k13}To {\k19}look {\k22}at {\k17}me {\k57}back
+Comment: 0,0:01:40.76,0:01:41.32,EnglishChoir,,0,0,0,karaoke,{\k56}Ayy
+Comment: 0,0:01:41.03,0:01:42.64,English,,0,0,0,karaoke,{\k40}Hey {\k17}{\rKorean}da {\k19}deul{\k17}kyeo{\k20}sseon{\k48}na
+Comment: 0,0:01:42.74,0:01:45.12,Korean,,0,0,0,karaoke,{\k22}neol {\k18}bo{\k14}myeon {\k22}ha{\k19}teu{\k19}ga {\k20}twi'{\k19}eo{\k17}na{\k68}wa
+Comment: 0,0:01:45.02,0:01:45.89,EnglishChoir,,0,0,0,karaoke,{\k87}Ayy
+Comment: 0,0:01:45.89,0:01:47.91,Korean,,0,0,0,karaoke,{\k15}nan {\k27}sa{\k17}tang'{\k15}eul {\k29}chat{\k27}neun {\k33}{\rEnglish}ba{\k39}by
+Comment: 0,0:01:47.80,0:01:48.30,EnglishChoir,,0,0,0,karaoke,{\k27}Ba{\k23}by
+Comment: 0,0:01:48.30,0:01:50.14,Korean,,0,0,0,karaoke,{\k27}nae {\k16}ma{\k14}meun {\k30}seol{\k38}le{\k32}i{\k27}ji
+Comment: 0,0:01:49.31,0:01:50.73,English,,0,0,0,karaoke,{\k57}Ayy, {\k20}drop {\k9}the {\k27}ques{\k29}tion
+Comment: 0,0:01:50.73,0:01:51.90,English,,0,0,0,karaoke,{\k18}Drop {\k11}the, {\k16}drop {\k12}the {\k27}ques{\k33}tion
+Comment: 0,0:01:51.56,0:01:52.15,EnglishChoir,,0,0,0,karaoke,{\k21}Just {\k38}call
+Comment: 0,0:01:52.15,0:01:53.02,English,,0,0,0,karaoke,{\k17}Want {\k12}at{\k27}ten{\k31}tion
+Comment: 0,0:01:54.17,0:01:54.74,EnglishChoir,,0,0,0,karaoke,{\k57}Uh
+Comment: 0,0:01:53.02,0:01:54.43,English,,0,0,0,karaoke,{\k19}Wan{\k11}na {\k16}want {\k10}at{\k27}ten{\k58}tion
+Comment: 0,0:01:54.43,0:01:56.43,English,,0,0,0,karaoke,{\k30}You {\k29}give {\k28}me {\k21}but{\k24}ter{\k32}flies {\k9}you {\k27}know
+Comment: 0,0:01:56.73,0:01:58.99,Korean,,0,0,0,karaoke,{\k29}nae {\k29}ma{\k28}meun {\k17}on{\k27}tong {\k31}{\rEnglish}pa{\k14}ra{\k51}dise
+Comment: 0,0:01:59.03,0:02:01.78,Korean,,0,0,0,karaoke,{\k29}kku{\k27}me{\k28}seo {\k30}kkae{\k27}weo{\k28}ju{\k28}ji {\k78}ma
+Comment: 0,0:02:00.17,0:02:04.18,EnglishChoir,,0,0,0,karaoke,{\k15}Hel{\k71}lo? {\k58}One, {\k56}two, {\k57}three, {\kf144}ayy
+Comment: 0,0:02:01.79,0:02:06.34,English,,0,0,0,karaoke,{\k10}You {\k19}got {\k11}me {\k13}look{\k15}ing {\k14}for {\k13}at{\k40}ten{\kf320}tion
+Comment: 0,0:02:05.31,0:02:06.72,EnglishChoir,,0,0,0,karaoke,{\k17}Ah-{\k41}yeah, {\k15}you {\k32}got {\k36}me
+Comment: 0,0:02:06.35,0:02:12.18,English,,0,0,0,karaoke,{\k10}You {\k19}got {\k11}me {\k13}look{\k15}ing {\k14}for {\k14}at{\k39}ten{\kf448}tion
+Comment: 0,0:02:12.45,0:02:13.58,Korean,,0,0,0,karaoke,{\k22}ga{\k25}kkeu{\k11}meun {\k29}jeong{\k26}mal
+Comment: 0,0:02:13.60,0:02:15.79,Korean,,0,0,0,karaoke,{\k20}het{\k26}gal{\k11}li{\k29}ji{\k29}man {\k27}bun{\k20}myeong{\k12}han {\k45}geon
+Comment: 0,0:02:15.61,0:02:21.31,English,,0,0,0,karaoke,{\k18}Got {\k10}me {\k15}look{\k13}ing {\k14}for {\k15}at{\k44}ten{\kf441}tion
+Comment: 0,0:02:20.06,0:02:24.61,English,,0,0,0,karaoke,{\k10}You {\k19}got {\k11}me {\k13}look{\k15}ing {\k14}for {\k13}at{\k40}ten{\kf320}tion
+Comment: 0,0:02:23.50,0:02:26.74,EnglishChoir,,0,0,0,karaoke,{\k9}You {\k19}got {\k11}me {\k15}looking {\k24}for {\k18}at{\k28}ten{\kf116}tion, {\k17}ye{\k67}ah
+Comment: 0,0:02:24.62,0:02:30.45,English,,0,0,0,karaoke,{\k10}You {\k19}got {\k11}me {\k13}look{\k15}ing {\k14}for {\k14}at{\k39}ten{\kf448}tion
+Comment: 0,0:02:30.18,0:02:30.74,EnglishChoir,,0,0,0,karaoke,{\k56}Ayy
+Comment: 0,0:02:30.72,0:02:31.85,Korean,,0,0,0,karaoke,{\k22}ga{\k25}kkeu{\k11}meun {\k29}jeong{\k26}mal
+Comment: 0,0:02:31.87,0:02:34.06,Korean,,0,0,0,karaoke,{\k20}het{\k26}gal{\k11}li{\k29}ji{\k29}man {\k27}bun{\k20}myeong{\k12}han {\k45}geon
+Comment: 0,0:02:33.88,0:02:39.58,English,,0,0,0,karaoke,{\k18}Got {\k10}me {\k15}look{\k13}ing {\k14}for {\k15}at{\k44}ten{\kf441}tion
+Comment: 0,0:02:36.18,0:02:37.88,EnglishChoir,,0,0,0,karaoke,{\k113}Uh, {\k57}woo!
+Comment: 0,0:02:37.88,0:02:40.16,EnglishChoir,,0,0,0,karaoke,{\k29}Oh-{\k30}oh-{\k27}oh, {\k59}yeah, {\k83}mm
+Comment: 0,0:02:39.86,0:02:42.16,English,,0,0,0,karaoke,{\k29}A-{\k29}T-{\k29}T-{\k29}E-{\k29}N-{\k29}T-{\k29}I-{\k27}ON
+Comment: 0,0:02:42.16,0:02:44.43,English,,0,0,0,karaoke,{\k29}At{\k28}ten{\k29}tion {\k28}is {\k29}what {\k29}I {\k57}want
+Comment: 0,0:02:44.43,0:02:46.73,English,,0,0,0,karaoke,{\k29}A-{\k29}T-{\k29}T-{\k29}E-{\k29}N-{\k29}T-{\k29}I-{\k27}ON
+Comment: 0,0:02:46.73,0:02:49.00,English,,0,0,0,karaoke,{\k29}At{\k28}ten{\k29}tion {\k28}is {\k29}what {\k29}I {\k55}want
+Comment: 0,0:02:49.00,0:02:51.30,English,,0,0,0,karaoke,{\k29}A-{\k29}T-{\k29}T-{\k29}E-{\k29}N-{\k29}T-{\k29}I-{\k27}ON
+Comment: 0,0:02:51.30,0:02:53.57,English,,0,0,0,karaoke,{\k29}At{\k28}ten{\k29}tion {\k28}is {\k29}what {\k29}I {\k57}want
+Comment: 0,0:02:53.57,0:02:55.87,English,,0,0,0,karaoke,{\k29}A-{\k29}T-{\k29}T-{\k29}E-{\k29}N-{\k29}T-{\k29}I-{\k27}ON
+Comment: 0,0:02:56.66,0:02:58.90,English,,0,0,0,karaoke,{\k8}You {\k19}got {\k11}me {\k14}look{\k13}ing {\k14}for {\k14}at{\k40}ten{\k91}tion
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H008AFF&}Korean {\c}| {\c&HFFC124&}English
+Dialogue: 0,0:00:08.14,0:00:12.09,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Mm-{\k65}hmm-{\k136}mm, {\k15}uh-{\k41}huh
+Dialogue: 0,0:00:15.85,0:00:18.07,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Here {\k11}we {\k52}go, {\k33}oh
+Dialogue: 0,0:00:16.97,0:00:19.17,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k13}At{\k33}ten{\k64}tion
+Dialogue: 0,0:00:20.41,0:00:24.51,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Got {\k10}me {\k15}look{\k13}ing {\k14}for {\k19}at{\k40}ten{\kf171}tion
+Dialogue: 0,0:00:22.69,0:00:25.94,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Got {\k10}me {\k15}look{\k13}ing {\k14}for {\k20}at{\k39}ten{\k86}tion
+Dialogue: 0,0:00:24.98,0:00:27.78,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Got {\k10}me {\k15}look{\k13}ing {\k14}for {\k15}at{\k30}ten{\k55}tion
+Dialogue: 0,0:00:28.69,0:00:32.08,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k57}One, {\k57}two, {\k56}three, {\k59}ay
+Dialogue: 0,0:00:30.98,0:00:34.07,English,,0,0,0,fx,{\k90\fad(300,200)}{\k45}You {\k12}and {\k46}me {\k11}{\rKorean}nae {\k17}ma{\k13}mi {\k15}bo{\k10}i{\k30}ji
+Dialogue: 0,0:00:33.12,0:00:36.36,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k13}han{\k19}cha{\k10}meul {\k18}chyeo{\k11}da{\k31}bwa {\k15}ga{\k13}kka{\k26}i {\k17}da{\k13}ga{\k28}ga
+Dialogue: 0,0:00:35.26,0:00:38.36,English,,0,0,0,fx,{\k90\fad(300,200)}{\k16}You {\kf100}see, {\k50}ay-{\k34}ye
+Dialogue: 0,0:00:37.58,0:00:41.10,English,,0,0,0,fx,{\k90\fad(300,200)}{\k12}You {\kf100}see, {\k27}ay {\k29}ay {\k28}ay {\k46}ay
+Dialogue: 0,0:00:40.12,0:00:43.17,English,,0,0,0,fx,{\k90\fad(300,200)}{\k48}One, {\k10}two, {\k44}three {\k13}{\rKorean}yong{\k19}gi{\k12}ga {\k14}saeng{\k13}gyeot{\k22}ji
+Dialogue: 0,0:00:42.12,0:00:43.52,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Mm
+Dialogue: 0,0:00:42.12,0:00:44.29,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k21}i{\k7}mi {\k20}a{\k11}neun {\k18}ne {\k10}nun{\k20}chi
+Dialogue: 0,0:00:43.19,0:00:46.86,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k13}go{\k16}gae{\k8}reul {\k18}dol{\k10}lyeo {\k20}cheon{\k9}cheon{\k28}hi {\k17}yeo{\kf118}gi
+Dialogue: 0,0:00:45.53,0:00:47.51,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Mm-{\k57}hmm
+Dialogue: 0,0:00:46.68,0:00:50.24,English,,0,0,0,fx,{\k90\fad(300,200)}{\k15}You {\kf102}see {\rKorean}{\k14}yeo{\k14}gi {\k31}bo{\k24}i{\k46}ni
+Dialogue: 0,0:00:49.27,0:00:52.24,English,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Look{\k15}ing {\k16}for {\k11}at{\k18}ten{\k11}tion {\k14}{\rKorean}neo{\k14}ya{\k29}ge{\k44}sseo
+Dialogue: 0,0:00:50.98,0:00:52.66,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k58}Huh
+Dialogue: 0,0:00:51.56,0:00:54.26,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k17}hwak{\k11}shil{\k21}ha{\k8}ge {\k19}na{\k10}ro {\k18}man{\k9}deul{\k28}ge{\k19}sseo
+Dialogue: 0,0:00:53.19,0:00:54.81,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k52}Stop
+Dialogue: 0,0:00:53.56,0:00:56.08,English,,0,0,0,fx,{\k90\fad(300,200)}{\k57}Ayy, {\k20}drop {\k9}the {\k27}ques{\k29}tion
+Dialogue: 0,0:00:54.98,0:00:57.25,English,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Drop {\k11}the, {\k16}drop {\k12}the {\k27}ques{\k33}tion
+Dialogue: 0,0:00:55.82,0:00:57.50,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Drop {\k38}it
+Dialogue: 0,0:00:56.40,0:00:58.37,English,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Want {\k12}at{\k27}ten{\k31}tion
+Dialogue: 0,0:00:57.27,0:00:59.78,English,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Wan{\k11}na {\k16}want {\k10}at{\k27}ten{\k58}tion
+Dialogue: 0,0:00:58.13,0:00:59.78,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Come {\k36}on
+Dialogue: 0,0:00:58.68,0:01:01.78,English,,0,0,0,fx,{\k90\fad(300,200)}{\k30}You {\k29}give {\k28}me {\k21}but{\k24}ter{\k32}flies {\k9}you {\k27}know
+Dialogue: 0,0:01:00.98,0:01:04.34,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k29}nae {\k29}ma{\k28}meun {\k17}on{\k27}tong {\k31}{\rEnglish}pa{\k14}ra{\k51}dise
+Dialogue: 0,0:01:03.28,0:01:07.13,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k29}kku{\k27}me{\k28}seo {\k30}kkae{\k27}weo{\k28}ju{\k28}ji {\k78}ma
+Dialogue: 0,0:01:05.59,0:01:07.13,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Ay
+Dialogue: 0,0:01:06.03,0:01:11.68,English,,0,0,0,fx,{\k90\fad(300,200)}{\k10}You {\k19}got {\k11}me {\k13}look{\k15}ing {\k14}for {\k12}at{\k41}ten{\kf320}tion
+Dialogue: 0,0:01:07.85,0:01:09.51,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k56}Ay
+Dialogue: 0,0:01:10.59,0:01:17.52,English,,0,0,0,fx,{\k90\fad(300,200)}{\k10}You {\k19}got {\k11}me {\k13}look{\k15}ing {\k14}for {\k14}at{\k39}ten{\kf448}tion
+Dialogue: 0,0:01:16.69,0:01:18.92,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ga{\k25}kkeu{\k11}meun {\k29}jeong{\k26}mal
+Dialogue: 0,0:01:17.84,0:01:21.13,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k20}het{\k26}gal{\k11}li{\k29}ji{\k29}man {\k27}bun{\k20}myeong{\k12}han {\k45}geon
+Dialogue: 0,0:01:19.85,0:01:26.65,English,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Got {\k10}me {\k15}look{\k13}ing {\k14}for {\k15}at{\k44}ten{\kf441}tion
+Dialogue: 0,0:01:26.26,0:01:29.37,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k15}neol {\k16}u{\k13}yeon{\k13}hi {\k14}ma{\k25}ju{\k18}chin {\k16}cheok{\k43}hal{\k28}lae
+Dialogue: 0,0:01:28.27,0:01:30.97,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k14}mot {\k28}bon {\k32}cheok {\k17}ji{\k9}na{\k44}gal{\k16}lae
+Dialogue: 0,0:01:29.99,0:01:32.08,English,,0,0,0,fx,{\k90\fad(300,200)}{\k14}You’re {\k27}so {\k58}fine
+Dialogue: 0,0:01:30.73,0:01:32.08,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Ay
+Dialogue: 0,0:01:30.98,0:01:34.09,English,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Got{\k10}ta {\k18}got{\k11}ta {\k28}get {\k29}to {\k28}know {\k58}ya
+Dialogue: 0,0:01:32.43,0:01:34.35,KoreanChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k20}na{\k62}wa
+Dialogue: 0,0:01:33.25,0:01:36.22,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k20}na{\k11}wa {\k15}na{\k12}wa {\k29}geo{\k27}reo{\k29}ga {\k44}jweo
+Dialogue: 0,0:01:34.97,0:01:36.47,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Yeah
+Dialogue: 0,0:01:35.55,0:01:38.25,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ji{\k29}geum {\k30}do{\k23}ra{\k33}seo{\k30}myeon
+Dialogue: 0,0:01:37.15,0:01:39.94,English,,0,0,0,fx,{\k90\fad(300,200)}{\k10}I {\k15}need {\k43}ya, {\k14}need {\k43}ya, {\k13}need {\k31}ya
+Dialogue: 0,0:01:38.85,0:01:41.23,English,,0,0,0,fx,{\k90\fad(300,200)}{\k13}To {\k19}look {\k22}at {\k17}me {\k57}back
+Dialogue: 0,0:01:39.86,0:01:41.52,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k56}Ayy
+Dialogue: 0,0:01:40.13,0:01:42.84,English,,0,0,0,fx,{\k90\fad(300,200)}{\k40}Hey {\k17}{\rKorean}da {\k19}deul{\k17}kyeo{\k20}sseon{\k48}na
+Dialogue: 0,0:01:41.84,0:01:45.32,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k22}neol {\k18}bo{\k14}myeon {\k22}ha{\k19}teu{\k19}ga {\k20}twi'{\k19}eo{\k17}na{\k68}wa
+Dialogue: 0,0:01:44.12,0:01:46.09,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k87}Ayy
+Dialogue: 0,0:01:44.99,0:01:48.11,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k15}nan {\k27}sa{\k17}tang'{\k15}eul {\k29}chat{\k27}neun {\k33}{\rEnglish}ba{\k39}by
+Dialogue: 0,0:01:46.90,0:01:48.50,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Ba{\k23}by
+Dialogue: 0,0:01:47.40,0:01:50.34,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k27}nae {\k16}ma{\k14}meun {\k30}seol{\k38}le{\k32}i{\k27}ji
+Dialogue: 0,0:01:48.41,0:01:50.93,English,,0,0,0,fx,{\k90\fad(300,200)}{\k57}Ayy, {\k20}drop {\k9}the {\k27}ques{\k29}tion
+Dialogue: 0,0:01:49.83,0:01:52.10,English,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Drop {\k11}the, {\k16}drop {\k12}the {\k27}ques{\k33}tion
+Dialogue: 0,0:01:50.66,0:01:52.35,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Just {\k38}call
+Dialogue: 0,0:01:51.25,0:01:53.22,English,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Want {\k12}at{\k27}ten{\k31}tion
+Dialogue: 0,0:01:53.27,0:01:54.94,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k57}Uh
+Dialogue: 0,0:01:52.12,0:01:54.63,English,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Wan{\k11}na {\k16}want {\k10}at{\k27}ten{\k58}tion
+Dialogue: 0,0:01:53.53,0:01:56.63,English,,0,0,0,fx,{\k90\fad(300,200)}{\k30}You {\k29}give {\k28}me {\k21}but{\k24}ter{\k32}flies {\k9}you {\k27}know
+Dialogue: 0,0:01:55.83,0:01:59.19,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k29}nae {\k29}ma{\k28}meun {\k17}on{\k27}tong {\k31}{\rEnglish}pa{\k14}ra{\k51}dise
+Dialogue: 0,0:01:58.13,0:02:01.98,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k29}kku{\k27}me{\k28}seo {\k30}kkae{\k27}weo{\k28}ju{\k28}ji {\k78}ma
+Dialogue: 0,0:01:59.27,0:02:04.38,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Hel{\k71}lo? {\k58}One, {\k56}two, {\k57}three, {\kf144}ayy
+Dialogue: 0,0:02:00.89,0:02:06.54,English,,0,0,0,fx,{\k90\fad(300,200)}{\k10}You {\k19}got {\k11}me {\k13}look{\k15}ing {\k14}for {\k13}at{\k40}ten{\kf320}tion
+Dialogue: 0,0:02:04.41,0:02:06.92,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Ah-{\k41}yeah, {\k15}you {\k32}got {\k36}me
+Dialogue: 0,0:02:05.45,0:02:12.38,English,,0,0,0,fx,{\k90\fad(300,200)}{\k10}You {\k19}got {\k11}me {\k13}look{\k15}ing {\k14}for {\k14}at{\k39}ten{\kf448}tion
+Dialogue: 0,0:02:11.55,0:02:13.78,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ga{\k25}kkeu{\k11}meun {\k29}jeong{\k26}mal
+Dialogue: 0,0:02:12.70,0:02:15.99,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k20}het{\k26}gal{\k11}li{\k29}ji{\k29}man {\k27}bun{\k20}myeong{\k12}han {\k45}geon
+Dialogue: 0,0:02:14.71,0:02:21.51,English,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Got {\k10}me {\k15}look{\k13}ing {\k14}for {\k15}at{\k44}ten{\kf441}tion
+Dialogue: 0,0:02:19.16,0:02:24.81,English,,0,0,0,fx,{\k90\fad(300,200)}{\k10}You {\k19}got {\k11}me {\k13}look{\k15}ing {\k14}for {\k13}at{\k40}ten{\kf320}tion
+Dialogue: 0,0:02:22.60,0:02:26.94,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k9}You {\k19}got {\k11}me {\k15}looking {\k24}for {\k18}at{\k28}ten{\kf116}tion, {\k17}ye{\k67}ah
+Dialogue: 0,0:02:23.72,0:02:30.65,English,,0,0,0,fx,{\k90\fad(300,200)}{\k10}You {\k19}got {\k11}me {\k13}look{\k15}ing {\k14}for {\k14}at{\k39}ten{\kf448}tion
+Dialogue: 0,0:02:29.28,0:02:30.94,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k56}Ayy
+Dialogue: 0,0:02:29.82,0:02:32.05,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ga{\k25}kkeu{\k11}meun {\k29}jeong{\k26}mal
+Dialogue: 0,0:02:30.97,0:02:34.26,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k20}het{\k26}gal{\k11}li{\k29}ji{\k29}man {\k27}bun{\k20}myeong{\k12}han {\k45}geon
+Dialogue: 0,0:02:32.98,0:02:39.78,English,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Got {\k10}me {\k15}look{\k13}ing {\k14}for {\k15}at{\k44}ten{\kf441}tion
+Dialogue: 0,0:02:35.28,0:02:38.08,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k113}Uh, {\k57}woo!
+Dialogue: 0,0:02:36.98,0:02:40.36,EnglishChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Oh-{\k30}oh-{\k27}oh, {\k59}yeah, {\k83}mm
+Dialogue: 0,0:02:38.96,0:02:42.36,English,,0,0,0,fx,{\k90\fad(300,200)}{\k29}A-{\k29}T-{\k29}T-{\k29}E-{\k29}N-{\k29}T-{\k29}I-{\k27}ON
+Dialogue: 0,0:02:41.26,0:02:44.63,English,,0,0,0,fx,{\k90\fad(300,200)}{\k29}At{\k28}ten{\k29}tion {\k28}is {\k29}what {\k29}I {\k57}want
+Dialogue: 0,0:02:43.53,0:02:46.93,English,,0,0,0,fx,{\k90\fad(300,200)}{\k29}A-{\k29}T-{\k29}T-{\k29}E-{\k29}N-{\k29}T-{\k29}I-{\k27}ON
+Dialogue: 0,0:02:45.83,0:02:49.20,English,,0,0,0,fx,{\k90\fad(300,200)}{\k29}At{\k28}ten{\k29}tion {\k28}is {\k29}what {\k29}I {\k55}want
+Dialogue: 0,0:02:48.10,0:02:51.50,English,,0,0,0,fx,{\k90\fad(300,200)}{\k29}A-{\k29}T-{\k29}T-{\k29}E-{\k29}N-{\k29}T-{\k29}I-{\k27}ON
+Dialogue: 0,0:02:50.40,0:02:53.77,English,,0,0,0,fx,{\k90\fad(300,200)}{\k29}At{\k28}ten{\k29}tion {\k28}is {\k29}what {\k29}I {\k57}want
+Dialogue: 0,0:02:52.67,0:02:56.07,English,,0,0,0,fx,{\k90\fad(300,200)}{\k29}A-{\k29}T-{\k29}T-{\k29}E-{\k29}N-{\k29}T-{\k29}I-{\k27}ON
+Dialogue: 0,0:02:55.76,0:02:59.10,English,,0,0,0,fx,{\k90\fad(300,200)}{\k8}You {\k19}got {\k11}me {\k14}look{\k13}ing {\k14}for {\k14}at{\k40}ten{\k91}tion
