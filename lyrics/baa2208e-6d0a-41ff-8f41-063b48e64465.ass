@@ -1,0 +1,123 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Title: Fortune Spinner
+Original Timing: Cygfir
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Kiara],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Calli],Arial,24,&H00FFFFFF,&H00C787FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Ina],Arial,24,&H00FFFFFF,&H00FF88C6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [MYTH],Arial,24,&H00FFFFFF,&H00F9AE5A,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM Duo [Ina],,0,0,200,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♦ "!
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM Duo [Calli],,0,0,200,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♠ "!
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM Duo [Kiara],,0,0,200,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♥ "!
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM Duo [MYTH],,0,0,200,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!""!
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,200,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!""!
+Comment: 0,0:00:00.00,0:00:07.06,Sample KM [Up],,0,0,200,karaoke,{\k1500}{\k0}{\2cHFFFFFF} {\rSample KM Duo [MYTH]}MYTH{\r}{\2cHFFFFFF}
+Comment: 0,0:00:00.00,0:00:07.06,Sample KM [Up],,0,0,200,karaoke,{\k1500}{\k0}{\2cHFFFFFF}♦ {\rSample KM Duo [Ina]}Ina{\r}{\2cHFFFFFF}  ♠ {\rSample KM Duo [Calli]}Calli{\r}{\2cHFFFFFF}  ♥ {\rSample KM Duo [Kiara]}Kiara{\r}
+Comment: 0,0:00:08.16,0:00:10.17,Sample KM Duo [Ina],,0,0,0,karaoke,{\k17}There’s {\k9}an {\k24}ans{\k23}wer {\k27}out {\k24}there {\k41}some{\k36}where
+Comment: 0,0:00:10.17,0:00:12.33,Sample KM Duo [Ina],,0,0,0,karaoke,{\k14}When {\k11}the {\k25}Mus{\k24}es {\k24}whis{\k22}per {\k22}truth {\k21}or {\k53}dare?
+Comment: 0,0:00:12.33,0:00:14.15,Sample KM Duo [Calli],,0,0,0,karaoke,{\k8}The {\k25}hands {\k24}of {\k26}fate {\k22}play {\k22}tug-{\k22}of-{\k33}war
+Comment: 0,0:00:14.34,0:00:15.89,Sample KM Duo [Calli],,0,0,0,karaoke,{\k8}But {\k23}no {\k26}one’s {\k15}kee{\k21}ping {\k62}score
+Comment: 0,0:00:16.15,0:00:18.17,Sample KM Duo [Kiara],,0,0,0,karaoke,{\k16}Stay {\k11}the {\k29}course {\k19}and {\k27}be {\k22}te{\k41}na{\k37}cious
+Comment: 0,0:00:18.17,0:00:20.31,Sample KM Duo [Kiara],,0,0,0,karaoke,{\k13}‘Cause {\k11}the {\k22}fu{\k27}ture {\k26}is {\k23}a {\k21}game {\k18}of {\k53}chance
+Comment: 0,0:00:20.31,0:00:22.16,Sample KM Duo [MYTH],,0,0,0,karaoke,{\k10}The {\k27}chips {\k22}are {\k26}down, {\k23}but {\k20}I’m {\k22}all {\k35}in
+Comment: 0,0:00:22.16,0:00:24.17,Sample KM Duo [MYTH],,0,0,0,karaoke,{\k21}I {\k28}play {\k20}un{\k29}til {\k28}I {\k75}win!
+Comment: 0,0:00:24.64,0:00:26.32,Sample KM Duo [MYTH],,0,0,0,karaoke,{\k26}I’m {\k25}not {\k16}gon{\k10}na {\k15}give {\k27}up {\k49}now
+Comment: 0,0:00:26.32,0:00:28.55,Sample KM Duo [MYTH],,0,0,0,karaoke,{\k11}The {\k26}wheels {\k21}of {\k26}for{\k27}tune {\k22}cir{\k25}cle {\k18}back {\k23}a{\k24}round
+Comment: 0,0:00:28.55,0:00:30.30,Sample KM Duo [MYTH],,0,0,0,karaoke,{\k11}A {\k24}new {\k28}turn {\k13}in {\k10}the {\k17}bet{\k25}ting {\k47}ring
+Comment: 0,0:00:30.30,0:00:32.67,Sample KM Duo [MYTH],,0,0,0,karaoke,{\k11}A {\k26}maze {\k21}of {\k24}out{\k28}comes {\k27}drawn {\k23}in {\k18}gol{\k22}den {\k37}string
+Comment: 0,0:00:32.67,0:00:34.17,Sample KM Duo [MYTH],,0,0,0,karaoke,{\k22}And {\k28}through {\k23}this {\k19}tan{\k21}gled {\k37}thread
+Comment: 0,0:00:34.17,0:00:36.00,Sample KM Duo [MYTH],,0,0,0,karaoke,{\k23}I {\k26}see {\k26}what’s {\k15}up {\k22}a{\k71}head
+Comment: 0,0:00:36.27,0:00:37.29,Sample KM Duo [Kiara],,0,0,0,karaoke,{\k13}A {\k18}wi{\k21}ld {\k50}chase
+Comment: 0,0:00:37.29,0:00:38.31,Sample KM Duo [Ina],,0,0,0,karaoke,{\k13}A {\k20}fran{\k21}tic {\k48}pace
+Comment: 0,0:00:38.31,0:00:41.84,Sample KM Duo [Calli],,0,0,0,karaoke,{\k11}I {\k23}got {\k22}to {\k28}try {\k25}my {\k25}luck, {\k24}I’m {\k18}spin{\k26}ning {\kf151}fate
+Comment: 0,0:00:43.64,0:00:46.54,Sample KM Duo [Kiara],,0,0,0,karaoke,{\k27}Ah {\k24}la {\k26}da {\k42}da {\k34}da {\kf137}da
+Comment: 0,0:00:47.12,0:00:49.54,Sample KM Duo [Calli],,0,0,0,karaoke,{\k19}I’m {\k35}al{\k21}ways {\k30}spin{\k15}ning {\kf122}fate
+Comment: 0,0:00:51.67,0:00:53.41,Sample KM Duo [Ina],,0,0,0,karaoke,{\k21}Who{\k28}a{\k18}h~ {\kf107}yeah
+Comment: 0,0:00:56.36,0:00:58.27,Sample KM Duo [Calli],,0,0,0,karaoke,{\k25}Spin {\k18}the {\k13}rou{\k48}lette, {\k20}see {\k12}where {\k19}it {\k36}falls
+Comment: 0,0:00:58.41,0:01:00.41,Sample KM Duo [Calli],,0,0,0,karaoke,{\k13}Tes{\k12}ting {\k26}the {\k18}li{\k15}mits {\k14}and {\k20}bet{\k16}ting {\k17}it {\k49}all
+Comment: 0,0:01:00.41,0:01:02.38,Sample KM Duo [Calli],,0,0,0,karaoke,{\k19}Round {\k16}and {\k14}a{\k15}round, {\k17}jum{\k20}ping {\k16}in{\k13}to {\k18}the {\k27}cir{\k22}cle
+Comment: 0,0:01:02.38,0:01:04.18,Sample KM Duo [Calli],,0,0,0,karaoke,{\k17}O{\k11}ver {\k27}and {\k19}o{\k16}ver, {\k11}a {\k29}test {\k24}of {\k26}will
+Comment: 0,0:01:04.18,0:01:06.17,Sample KM Duo [Kiara],,0,0,0,karaoke,{\k8}Oh, {\k15}the {\k26}game {\k24}is {\k25}ne{\k26}ver {\k41}ea{\k34}sy
+Comment: 0,0:01:06.17,0:01:08.31,Sample KM Duo [Kiara],,0,0,0,karaoke,{\k15}And {\k10}the {\k24}out{\k27}come {\k24}is {\k24}a {\k17}mys{\k25}te{\k48}ry
+Comment: 0,0:01:08.33,0:01:10.15,Sample KM Duo [Kiara],,0,0,0,karaoke,{\k8}But {\k26}these {\k25}are {\k25}fates {\k24}worth {\k20}bet{\k22}ting {\k32}on
+Comment: 0,0:01:10.15,0:01:12.35,Sample KM Duo [Kiara],,0,0,0,karaoke,{\k27}Their {\k50}threads {\k50}un{\k51}bro{\k42}ken
+Comment: 0,0:01:12.39,0:01:15.69,Sample KM Duo [Ina],,0,0,0,karaoke,{\kf77}Called {\k15}to {\k85}life {\k24}by {\k35}fla{\k35}xen {\k59}string
+Comment: 0,0:01:15.91,0:01:20.40,Sample KM Duo [Ina],,0,0,0,karaoke,{\k26}Cas{\k23}ting {\k42}lots {\k35}to{\k25}ge{\k50}ther {\k26}at {\k17}the {\k34}start {\k23}of {\k26}eve{\k24}ry{\kf98}thing~
+Comment: 0,0:01:20.57,0:01:22.25,Sample KM Duo [MYTH],,0,0,0,karaoke,{\k33}I’m {\k25}not {\k15}gon{\k11}na {\k17}give {\k23}up {\k44}yet
+Comment: 0,0:01:22.25,0:01:24.56,Sample KM Duo [MYTH],,0,0,0,karaoke,{\k16}I {\k23}spin {\k27}back {\k26}’round {\k24}with {\k26}eve{\k22}ry {\k21}chance {\k21}I {\k25}get
+Comment: 0,0:01:24.56,0:01:26.32,Sample KM Duo [MYTH],,0,0,0,karaoke,{\k10}The {\k23}wheel {\k27}turns {\k16}and {\k9}the {\k17}die {\k23}is {\k51}cast
+Comment: 0,0:01:26.32,0:01:28.65,Sample KM Duo [MYTH],,0,0,0,karaoke,{\k10}The {\k25}time {\k23}has {\k26}come {\k25}for {\k24}fate {\k23}to {\k21}change {\k23}at {\k33}last
+Comment: 0,0:01:28.65,0:01:30.17,Sample KM Duo [MYTH],,0,0,0,karaoke,{\k26}And {\k24}if {\k26}it’s {\k18}black {\k24}or {\k34}red
+Comment: 0,0:01:30.17,0:01:32.01,Sample KM Duo [MYTH],,0,0,0,karaoke,{\k24}I’m {\k25}mo{\k25}ving {\k17}up {\k22}a{\k71}head!
+Comment: 0,0:01:32.31,0:01:33.31,Sample KM Duo [Calli],,0,0,0,karaoke,{\k11}A {\k18}per{\k21}fect {\k50}chance
+Comment: 0,0:01:33.31,0:01:34.32,Sample KM Duo [Ina],,0,0,0,karaoke,{\k10}A {\k25}da{\k17}ring {\k49}dance
+Comment: 0,0:01:34.32,0:01:37.36,Sample KM Duo [Kiara],,0,0,0,karaoke,{\k9}I’ll {\k25}spin {\k24}this {\k27}thread {\k21}of {\k28}fate {\k24}with {\k18}my {\k24}own {\kf104}hands
+Comment: 0,0:01:39.66,0:01:41.12,Sample KM Duo [Ina],,0,0,0,karaoke,{\k25}Ooh {\k14}la {\k29}la {\k78}la
+Comment: 0,0:01:42.58,0:01:46.49,Sample KM Duo [Kiara],,0,0,0,karaoke,{\k26}I’m {\k28}ta{\k28}king {\k30}fate {\k18}in{\k29}to {\k18}my {\kf214}hands~
+Comment: 0,0:01:47.65,0:01:50.02,Sample KM Duo [Calli],,0,0,0,karaoke,{\k27}Who{\k17}a{\k23}h~ {\kf170}yeah
+Comment: 0,0:01:52.67,0:01:54.17,Sample KM Duo [MYTH],,0,0,0,karaoke,{\k23}And {\k27}through {\k22}this {\k18}tan{\k24}gled {\k36}thread
+Comment: 0,0:01:54.17,0:01:55.87,Sample KM Duo [MYTH],,0,0,0,karaoke,{\k23}I {\k25}see {\k30}what’s {\k12}up {\k22}a{\k58}head
+Comment: 0,0:01:56.65,0:01:58.17,Sample KM Duo [MYTH],,0,0,0,karaoke,{\k23}And {\k28}through {\k25}this {\k16}tan{\k22}gled {\k38}thread
+Comment: 0,0:01:58.17,0:01:59.85,Sample KM Duo [MYTH],,0,0,0,karaoke,{\k23}I {\k27}see {\k26}what’s {\k15}up {\k19}a{\k58}head
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,karaoke,
+Dialogue: 0,0:00:00.00,0:00:07.26,Sample KM [Up],,0,0,200,fx,{\k0\fad(0,200)}{\k1500}{\k0}{\2cHFFFFFF} {\rSample KM Duo [MYTH]}MYTH{\r}{\2cHFFFFFF}
+Dialogue: 0,0:00:00.00,0:00:07.26,Sample KM [Up],,0,0,200,fx,{\k0\fad(0,200)}{\k1500}{\k0}{\2cHFFFFFF}♦ {\rSample KM Duo [Ina]}Ina{\r}{\2cHFFFFFF}  ♠ {\rSample KM Duo [Calli]}Calli{\r}{\2cHFFFFFF}  ♥ {\rSample KM Duo [Kiara]}Kiara{\r}
+Dialogue: 0,0:00:07.26,0:00:10.37,Sample KM Duo [Ina],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k17}There’s {\k9}an {\k24}ans{\k23}wer {\k27}out {\k24}there {\k41}some{\k36}where
+Dialogue: 0,0:00:09.27,0:00:12.53,Sample KM Duo [Ina],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k14}When {\k11}the {\k25}Mus{\k24}es {\k24}whis{\k22}per {\k22}truth {\k21}or {\k53}dare?
+Dialogue: 0,0:00:11.43,0:00:14.35,Sample KM Duo [Calli],,0,0,0,fx,{\k90\fad(300,200)}♠ {\k8}The {\k25}hands {\k24}of {\k26}fate {\k22}play {\k22}tug-{\k22}of-{\k33}war
+Dialogue: 0,0:00:13.44,0:00:16.09,Sample KM Duo [Calli],,0,0,0,fx,{\k90\fad(300,200)}♠ {\k8}But {\k23}no {\k26}one’s {\k15}kee{\k21}ping {\k62}score
+Dialogue: 0,0:00:15.25,0:00:18.37,Sample KM Duo [Kiara],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k16}Stay {\k11}the {\k29}course {\k19}and {\k27}be {\k22}te{\k41}na{\k37}cious
+Dialogue: 0,0:00:17.27,0:00:20.51,Sample KM Duo [Kiara],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k13}‘Cause {\k11}the {\k22}fu{\k27}ture {\k26}is {\k23}a {\k21}game {\k18}of {\k53}chance
+Dialogue: 0,0:00:19.41,0:00:22.36,Sample KM Duo [MYTH],,0,0,0,fx,{\k90\fad(300,200)}{\k10}The {\k27}chips {\k22}are {\k26}down, {\k23}but {\k20}I’m {\k22}all {\k35}in
+Dialogue: 0,0:00:21.26,0:00:24.37,Sample KM Duo [MYTH],,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k28}play {\k20}un{\k29}til {\k28}I {\k75}win!
+Dialogue: 0,0:00:23.74,0:00:26.52,Sample KM Duo [MYTH],,0,0,0,fx,{\k90\fad(300,200)}{\k26}I’m {\k25}not {\k16}gon{\k10}na {\k15}give {\k27}up {\k49}now
+Dialogue: 0,0:00:25.42,0:00:28.75,Sample KM Duo [MYTH],,0,0,0,fx,{\k90\fad(300,200)}{\k11}The {\k26}wheels {\k21}of {\k26}for{\k27}tune {\k22}cir{\k25}cle {\k18}back {\k23}a{\k24}round
+Dialogue: 0,0:00:27.65,0:00:30.50,Sample KM Duo [MYTH],,0,0,0,fx,{\k90\fad(300,200)}{\k11}A {\k24}new {\k28}turn {\k13}in {\k10}the {\k17}bet{\k25}ting {\k47}ring
+Dialogue: 0,0:00:29.40,0:00:32.87,Sample KM Duo [MYTH],,0,0,0,fx,{\k90\fad(300,200)}{\k11}A {\k26}maze {\k21}of {\k24}out{\k28}comes {\k27}drawn {\k23}in {\k18}gol{\k22}den {\k37}string
+Dialogue: 0,0:00:31.77,0:00:34.37,Sample KM Duo [MYTH],,0,0,0,fx,{\k90\fad(300,200)}{\k22}And {\k28}through {\k23}this {\k19}tan{\k21}gled {\k37}thread
+Dialogue: 0,0:00:33.27,0:00:36.20,Sample KM Duo [MYTH],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k26}see {\k26}what’s {\k15}up {\k22}a{\k71}head
+Dialogue: 0,0:00:35.37,0:00:37.49,Sample KM Duo [Kiara],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k13}A {\k18}wi{\k21}ld {\k50}chase
+Dialogue: 0,0:00:36.39,0:00:38.51,Sample KM Duo [Ina],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k13}A {\k20}fran{\k21}tic {\k48}pace
+Dialogue: 0,0:00:37.41,0:00:42.04,Sample KM Duo [Calli],,0,0,0,fx,{\k90\fad(300,200)}♠ {\k11}I {\k23}got {\k22}to {\k28}try {\k25}my {\k25}luck, {\k24}I’m {\k18}spin{\k26}ning {\kf151}fate
+Dialogue: 0,0:00:42.74,0:00:46.74,Sample KM Duo [Kiara],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k27}Ah {\k24}la {\k26}da {\k42}da {\k34}da {\kf137}da
+Dialogue: 0,0:00:46.22,0:00:49.74,Sample KM Duo [Calli],,0,0,0,fx,{\k90\fad(300,200)}♠ {\k19}I’m {\k35}al{\k21}ways {\k30}spin{\k15}ning {\kf122}fate
+Dialogue: 0,0:00:50.77,0:00:53.61,Sample KM Duo [Ina],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k21}Who{\k28}a{\k18}h~ {\kf107}yeah
+Dialogue: 0,0:00:55.46,0:00:58.47,Sample KM Duo [Calli],,0,0,0,fx,{\k90\fad(300,200)}♠ {\k25}Spin {\k18}the {\k13}rou{\k48}lette, {\k20}see {\k12}where {\k19}it {\k36}falls
+Dialogue: 0,0:00:57.51,0:01:00.61,Sample KM Duo [Calli],,0,0,0,fx,{\k90\fad(300,200)}♠ {\k13}Tes{\k12}ting {\k26}the {\k18}li{\k15}mits {\k14}and {\k20}bet{\k16}ting {\k17}it {\k49}all
+Dialogue: 0,0:00:59.51,0:01:02.58,Sample KM Duo [Calli],,0,0,0,fx,{\k90\fad(300,200)}♠ {\k19}Round {\k16}and {\k14}a{\k15}round, {\k17}jum{\k20}ping {\k16}in{\k13}to {\k18}the {\k27}cir{\k22}cle
+Dialogue: 0,0:01:01.48,0:01:04.38,Sample KM Duo [Calli],,0,0,0,fx,{\k90\fad(300,200)}♠ {\k17}O{\k11}ver {\k27}and {\k19}o{\k16}ver, {\k11}a {\k29}test {\k24}of {\k26}will
+Dialogue: 0,0:01:03.28,0:01:06.37,Sample KM Duo [Kiara],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k8}Oh, {\k15}the {\k26}game {\k24}is {\k25}ne{\k26}ver {\k41}ea{\k34}sy
+Dialogue: 0,0:01:05.27,0:01:08.51,Sample KM Duo [Kiara],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k15}And {\k10}the {\k24}out{\k27}come {\k24}is {\k24}a {\k17}mys{\k25}te{\k48}ry
+Dialogue: 0,0:01:07.43,0:01:10.35,Sample KM Duo [Kiara],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k8}But {\k26}these {\k25}are {\k25}fates {\k24}worth {\k20}bet{\k22}ting {\k32}on
+Dialogue: 0,0:01:09.25,0:01:12.55,Sample KM Duo [Kiara],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k27}Their {\k50}threads {\k50}un{\k51}bro{\k42}ken
+Dialogue: 0,0:01:11.49,0:01:15.89,Sample KM Duo [Ina],,0,0,0,fx,{\k90\fad(300,200)}♦ {\kf77}Called {\k15}to {\k85}life {\k24}by {\k35}fla{\k35}xen {\k59}string
+Dialogue: 0,0:01:15.01,0:01:20.60,Sample KM Duo [Ina],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k26}Cas{\k23}ting {\k42}lots {\k35}to{\k25}ge{\k50}ther {\k26}at {\k17}the {\k34}start {\k23}of {\k26}eve{\k24}ry{\kf98}thing~
+Dialogue: 0,0:01:19.67,0:01:22.45,Sample KM Duo [MYTH],,0,0,0,fx,{\k90\fad(300,200)}{\k33}I’m {\k25}not {\k15}gon{\k11}na {\k17}give {\k23}up {\k44}yet
+Dialogue: 0,0:01:21.35,0:01:24.76,Sample KM Duo [MYTH],,0,0,0,fx,{\k90\fad(300,200)}{\k16}I {\k23}spin {\k27}back {\k26}’round {\k24}with {\k26}eve{\k22}ry {\k21}chance {\k21}I {\k25}get
+Dialogue: 0,0:01:23.66,0:01:26.52,Sample KM Duo [MYTH],,0,0,0,fx,{\k90\fad(300,200)}{\k10}The {\k23}wheel {\k27}turns {\k16}and {\k9}the {\k17}die {\k23}is {\k51}cast
+Dialogue: 0,0:01:25.42,0:01:28.85,Sample KM Duo [MYTH],,0,0,0,fx,{\k90\fad(300,200)}{\k10}The {\k25}time {\k23}has {\k26}come {\k25}for {\k24}fate {\k23}to {\k21}change {\k23}at {\k33}last
+Dialogue: 0,0:01:27.75,0:01:30.37,Sample KM Duo [MYTH],,0,0,0,fx,{\k90\fad(300,200)}{\k26}And {\k24}if {\k26}it’s {\k18}black {\k24}or {\k34}red
+Dialogue: 0,0:01:29.27,0:01:32.21,Sample KM Duo [MYTH],,0,0,0,fx,{\k90\fad(300,200)}{\k24}I’m {\k25}mo{\k25}ving {\k17}up {\k22}a{\k71}head!
+Dialogue: 0,0:01:31.41,0:01:33.51,Sample KM Duo [Calli],,0,0,0,fx,{\k90\fad(300,200)}♠ {\k11}A {\k18}per{\k21}fect {\k50}chance
+Dialogue: 0,0:01:32.41,0:01:34.52,Sample KM Duo [Ina],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k10}A {\k25}da{\k17}ring {\k49}dance
+Dialogue: 0,0:01:33.42,0:01:37.56,Sample KM Duo [Kiara],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k9}I’ll {\k25}spin {\k24}this {\k27}thread {\k21}of {\k28}fate {\k24}with {\k18}my {\k24}own {\kf104}hands
+Dialogue: 0,0:01:38.76,0:01:41.32,Sample KM Duo [Ina],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k25}Ooh {\k14}la {\k29}la {\k78}la
+Dialogue: 0,0:01:41.68,0:01:46.69,Sample KM Duo [Kiara],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k26}I’m {\k28}ta{\k28}king {\k30}fate {\k18}in{\k29}to {\k18}my {\kf214}hands~
+Dialogue: 0,0:01:46.75,0:01:50.22,Sample KM Duo [Calli],,0,0,0,fx,{\k90\fad(300,200)}♠ {\k27}Who{\k17}a{\k23}h~ {\kf170}yeah
+Dialogue: 0,0:01:51.77,0:01:54.37,Sample KM Duo [MYTH],,0,0,0,fx,{\k90\fad(300,200)}{\k23}And {\k27}through {\k22}this {\k18}tan{\k24}gled {\k36}thread
+Dialogue: 0,0:01:53.27,0:01:56.07,Sample KM Duo [MYTH],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k25}see {\k30}what’s {\k12}up {\k22}a{\k58}head
+Dialogue: 0,0:01:55.75,0:01:58.37,Sample KM Duo [MYTH],,0,0,0,fx,{\k90\fad(300,200)}{\k23}And {\k28}through {\k25}this {\k16}tan{\k22}gled {\k38}thread
+Dialogue: 0,0:01:57.27,0:02:00.05,Sample KM Duo [MYTH],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k27}see {\k26}what’s {\k15}up {\k19}a{\k58}head
+Dialogue: 0,0:00:00.00,0:00:00.20,Sample KM [Up],,0,0,0,fx,{\k0\fad(0,200)}
