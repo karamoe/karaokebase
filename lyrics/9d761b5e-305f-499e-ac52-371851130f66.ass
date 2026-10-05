@@ -1,0 +1,90 @@
+﻿[Script Info]
+Title: Fairytale
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+Original Timing: Gilrael
+PlayResX: 0
+PlayResY: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Uruka,Arial,24,&H00FFFFFF,&H00E8C380,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,1.5,0,8,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 1,0:00:00.00,0:00:00.00,Uruka,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:19.80,0:00:21.00,Uruka,,0,0,0,karaoke,{\k41}Years {\k24}a{\k30}go
+Comment: 1,0:00:21.28,0:00:22.97,Uruka,,0,0,0,karaoke,{\k28}when {\k27}I {\k26}was {\k30}young{\k28}~{\k30}er
+Comment: 1,0:00:24.10,0:00:25.45,Uruka,,0,0,0,karaoke,{\k19}I {\k31}kind{\k29}a {\k56}liked
+Comment: 1,0:00:25.72,0:00:27.12,Uruka,,0,0,0,karaoke,{\k26}a {\k28}girl {\k29}I {\k57}knew
+Comment: 1,0:00:28.70,0:00:29.90,Uruka,,0,0,0,karaoke,{\k36}She {\k28}was {\k56}mine
+Comment: 1,0:00:30.18,0:00:32.13,Uruka,,0,0,0,karaoke,{\k27}and {\k23}we {\k18}were {\k42}sweet{\k27}~{\k58}hearts
+Comment: 1,0:00:33.22,0:00:34.36,Uruka,,0,0,0,karaoke,{\k26}That {\k30}was {\k58}then
+Comment: 1,0:00:34.64,0:00:36.16,Uruka,,0,0,0,karaoke,{\k25}but {\k29}then {\k33}it's {\k65}true
+Comment: 1,0:00:37.67,0:00:41.56,Uruka,,0,0,0,karaoke,{\k29}I'm {\k28}in {\kf109}love {\k29}with {\k17}a {\k33}fai{\k24}ry{\k39}tale{\k81}~
+Comment: 1,0:00:42.11,0:00:46.00,Uruka,,0,0,0,karaoke,{\k29}E{\k28}ven {\kf108}though {\k20}it {\kf138}hurts
+Comment: 1,0:00:46.27,0:00:50.45,Uruka,,0,0,0,karaoke,{\k27}'Cause {\k29}I {\k29}don't {\kf111}care {\k29}if {\k26}I {\k26}lose {\k28}my {\k34}mind{\k79}~
+Comment: 1,0:00:50.98,0:00:55.44,Uruka,,0,0,0,karaoke,{\k29}I'm {\k30}al{\kf109}rea{\k24}dy {\k31}cursed{\kf107}~{\kf116}~
+Comment: 1,0:01:14.35,0:01:15.32,Uruka,,0,0,0,karaoke,{\k27}E{\k27}very {\k62}day
+Comment: 1,0:01:15.74,0:01:17.69,Uruka,,0,0,0,karaoke,{\k27}we {\k27}start{\k27}ed {\k27}fight{\k29}~{\k58}ing
+Comment: 1,0:01:18.79,0:01:19.66,Uruka,,0,0,0,karaoke,{\k27}E{\k27}very {\k62}night
+Comment: 1,0:01:20.17,0:01:21.57,Uruka,,0,0,0,karaoke,{\k27}we {\k27}fell {\k29}in {\k57}love
+Comment: 1,0:01:23.24,0:01:24.35,Uruka,,0,0,0,karaoke,{\k27}No {\k27}one {\k62}else
+Comment: 1,0:01:24.63,0:01:26.29,Uruka,,0,0,0,karaoke,{\k27}could {\k27}make {\k27}me {\k27}sad{\k29}~{\k29}der
+Comment: 1,0:01:27.36,0:01:28.78,Uruka,,0,0,0,karaoke,{\k30}But {\k25}no {\k31}one {\k56}else
+Comment: 1,0:01:29.05,0:01:32.13,Uruka,,0,0,0,karaoke,{\k28}could {\k26}lift {\k20}me {\k65}high {\k24}a{\kf135}bove
+Comment: 1,0:01:32.13,0:01:33.23,Uruka,,0,0,0,karaoke,{\k27}I {\k28}don't {\k55}know
+Comment: 1,0:01:33.41,0:01:35.46,Uruka,,0,0,0,karaoke,{\k37}what {\k28}I {\k28}was {\k28}do{\k32}~{\k52}ing
+Comment: 1,0:01:36.27,0:01:37.66,Uruka,,0,0,0,karaoke,{\k15}When {\k41}sud{\k29}den{\k54}ly
+Comment: 1,0:01:37.98,0:01:40.70,Uruka,,0,0,0,karaoke,{\k22}we {\k30}fell {\k29}a{\k55}part{\k55}~{\k81}~
+Comment: 1,0:01:41.01,0:01:42.08,Uruka,,0,0,0,karaoke,{\k27}Now{\k29}a{\k51}days
+Comment: 1,0:01:42.40,0:01:44.34,Uruka,,0,0,0,karaoke,{\k27}I {\k27}can{\k30}not {\k44}find {\k66}her
+Comment: 1,0:01:45.17,0:01:46.56,Uruka,,0,0,0,karaoke,{\k27}But {\k27}when {\k27}I {\k62}do
+Comment: 1,0:01:46.84,0:01:50.98,Uruka,,0,0,0,karaoke,{\k27}we'll {\k27}get {\k27}a {\k41}brand {\k21}new {\k57}start{\kf214}~
+Comment: 1,0:01:52.09,0:01:55.98,Uruka,,0,0,0,karaoke,{\k27}I'm {\k27}in {\k111}love {\k27}with {\k27}a {\k27}fai{\k27}ry{\k27}tale{\k111}~
+Comment: 1,0:01:56.53,0:02:00.19,Uruka,,0,0,0,karaoke,{\k29}E{\k28}ven {\k108}though {\k27}it {\kf174}hurts
+Comment: 1,0:02:00.76,0:02:04.90,Uruka,,0,0,0,karaoke,{\k24}'Cause {\k30}I {\k22}don't {\k115}care {\k27}if {\k28}I {\k26}lose {\k29}my {\k21}mind{\kf92}~
+Comment: 1,0:02:05.45,0:02:09.92,Uruka,,0,0,0,karaoke,{\k27}I'm {\k27}al{\kf111}rea{\k27}dy {\k29}cursed{\kf113}~{\kf113}~
+Comment: 1,0:02:30.08,0:02:33.79,Uruka,,0,0,0,karaoke,{\k31}She's {\k20}a {\k58}fai{\k27}ry{\k27}~{\k28}tale{\kf180}~
+Comment: 1,0:02:33.79,0:02:35.74,Uruka,,0,0,0,karaoke,{\k27}Uh {\k41}yeah{\k13}~{\kf166}~
+Comment: 1,0:02:36.55,0:02:40.17,Uruka,,0,0,0,karaoke,{\k27}E{\k27}ven {\kf112}though {\k15}it {\kf181}hurts
+Comment: 1,0:02:40.75,0:02:44.90,Uruka,,0,0,0,karaoke,{\k25}'Cause {\k29}I {\k27}don't {\kf110}care {\k26}if {\k27}I {\k26}lose {\k29}my {\k37}mind{\k79}~
+Comment: 1,0:02:45.44,0:02:49.90,Uruka,,0,0,0,karaoke,{\k27}I'm {\k27}al{\kf111}rea{\k27}dy {\k30}cursed{\kf90}~{\kf134}~
+Dialogue: 1,0:00:18.90,0:00:21.20,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k41}Years {\k24}a{\k30}go
+Dialogue: 1,0:00:20.38,0:00:23.17,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k28}when {\k27}I {\k26}was {\k30}young{\k28}~{\k30}er
+Dialogue: 1,0:00:23.20,0:00:25.65,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k31}kind{\k29}a {\k56}liked
+Dialogue: 1,0:00:24.82,0:00:27.32,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k26}a {\k28}girl {\k29}I {\k57}knew
+Dialogue: 1,0:00:27.80,0:00:30.10,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k36}She {\k28}was {\k56}mine
+Dialogue: 1,0:00:29.28,0:00:32.33,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k27}and {\k23}we {\k18}were {\k42}sweet{\k27}~{\k58}hearts
+Dialogue: 1,0:00:32.32,0:00:34.56,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k26}That {\k30}was {\k58}then
+Dialogue: 1,0:00:33.74,0:00:36.36,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k25}but {\k29}then {\k33}it's {\k65}true
+Dialogue: 1,0:00:36.77,0:00:41.76,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k29}I'm {\k28}in {\kf109}love {\k29}with {\k17}a {\k33}fai{\k24}ry{\k39}tale{\k81}~
+Dialogue: 1,0:00:41.21,0:00:46.20,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k29}E{\k28}ven {\kf108}though {\k20}it {\kf138}hurts
+Dialogue: 1,0:00:45.37,0:00:50.65,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k27}'Cause {\k29}I {\k29}don't {\kf111}care {\k29}if {\k26}I {\k26}lose {\k28}my {\k34}mind{\k79}~
+Dialogue: 1,0:00:50.08,0:00:55.64,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k29}I'm {\k30}al{\kf109}rea{\k24}dy {\k31}cursed{\kf107}~{\kf116}~
+Dialogue: 1,0:01:13.45,0:01:15.52,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k27}E{\k27}very {\k62}day
+Dialogue: 1,0:01:14.84,0:01:17.89,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k27}we {\k27}start{\k27}ed {\k27}fight{\k29}~{\k58}ing
+Dialogue: 1,0:01:17.89,0:01:19.86,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k27}E{\k27}very {\k62}night
+Dialogue: 1,0:01:19.27,0:01:21.77,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k27}we {\k27}fell {\k29}in {\k57}love
+Dialogue: 1,0:01:22.34,0:01:24.55,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k27}No {\k27}one {\k62}else
+Dialogue: 1,0:01:23.73,0:01:26.49,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k27}could {\k27}make {\k27}me {\k27}sad{\k29}~{\k29}der
+Dialogue: 1,0:01:26.46,0:01:28.98,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k30}But {\k25}no {\k31}one {\k56}else
+Dialogue: 1,0:01:28.15,0:01:32.33,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k28}could {\k26}lift {\k20}me {\k65}high {\k24}a{\kf135}bove
+Dialogue: 1,0:01:31.23,0:01:33.43,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k27}I {\k28}don't {\k55}know
+Dialogue: 1,0:01:32.51,0:01:35.66,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k37}what {\k28}I {\k28}was {\k28}do{\k32}~{\k52}ing
+Dialogue: 1,0:01:35.37,0:01:37.86,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k15}When {\k41}sud{\k29}den{\k54}ly
+Dialogue: 1,0:01:37.08,0:01:40.90,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k22}we {\k30}fell {\k29}a{\k55}part{\k55}~{\k81}~
+Dialogue: 1,0:01:40.11,0:01:42.28,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Now{\k29}a{\k51}days
+Dialogue: 1,0:01:41.50,0:01:44.54,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k27}I {\k27}can{\k30}not {\k44}find {\k66}her
+Dialogue: 1,0:01:44.27,0:01:46.76,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k27}But {\k27}when {\k27}I {\k62}do
+Dialogue: 1,0:01:45.94,0:01:51.18,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k27}we'll {\k27}get {\k27}a {\k41}brand {\k21}new {\k57}start{\kf214}~
+Dialogue: 1,0:01:51.19,0:01:56.18,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k27}I'm {\k27}in {\k111}love {\k27}with {\k27}a {\k27}fai{\k27}ry{\k27}tale{\k111}~
+Dialogue: 1,0:01:55.63,0:02:00.39,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k29}E{\k28}ven {\k108}though {\k27}it {\kf174}hurts
+Dialogue: 1,0:01:59.86,0:02:05.10,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k24}'Cause {\k30}I {\k22}don't {\k115}care {\k27}if {\k28}I {\k26}lose {\k29}my {\k21}mind{\kf92}~
+Dialogue: 1,0:02:04.55,0:02:10.12,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k27}I'm {\k27}al{\kf111}rea{\k27}dy {\k29}cursed{\kf113}~{\kf113}~
+Dialogue: 1,0:02:29.18,0:02:33.99,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k31}She's {\k20}a {\k58}fai{\k27}ry{\k27}~{\k28}tale{\kf180}~
+Dialogue: 1,0:02:32.89,0:02:35.94,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Uh {\k41}yeah{\k13}~{\kf166}~
+Dialogue: 1,0:02:35.65,0:02:40.37,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k27}E{\k27}ven {\kf112}though {\k15}it {\kf181}hurts
+Dialogue: 1,0:02:39.85,0:02:45.10,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k25}'Cause {\k29}I {\k27}don't {\kf110}care {\k26}if {\k27}I {\k26}lose {\k29}my {\k37}mind{\k79}~
+Dialogue: 1,0:02:44.54,0:02:50.10,Uruka,,0,0,0,fx,{\k90\fad(300,200)}{\k27}I'm {\k27}al{\kf111}rea{\k27}dy {\k30}cursed{\kf90}~{\kf134}~
