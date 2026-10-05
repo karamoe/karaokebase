@@ -1,0 +1,127 @@
+﻿[Script Info]
+Title: Soda Pop
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+Original Timing: Ichinyaaan, puyo
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Back singing,Arial,24,&H00FFFFFF,&H009FE9A5,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+Style: Sleepy,Arial,24,&H00FFFFFF,&H00EDB2B1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Airi,Arial,24,&H00FFFFFF,&H00C3A4F7,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: All,Arial,24,&H00FFFFFF,&H009FE9A5,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Hina,Arial,24,&H00FFFFFF,&H00E3DB8D,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: COLORCODE,Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,COLOR CODE,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLORCODE,,0,0,0,karaoke,{\c&HEDB2B1&}Sleepy{\c} | {\c&HC3A4F7&}Airi{\c} | {\c&HE3DB8D&}Hina{\c} | {\c&H9FE9A5&}All{\c}
+Comment: 0,0:00:10.92,0:00:11.68,All,,0,0,0,karaoke,{\k48}Hey, {\k19}hey
+Comment: 0,0:00:12.82,0:00:13.58,All,,0,0,0,karaoke,{\k46}Hey, {\k20}hey
+Comment: 0,0:00:14.73,0:00:15.00,All,,0,0,0,karaoke,{\k24}Hey
+Comment: 0,0:00:17.60,0:00:18.78,Airi,,0,0,0,karaoke,{\k22}Don't {\k29}want {\k21}you, {\k25}need {\k21}you
+Comment: 0,0:00:18.78,0:00:21.34,Airi,,0,0,0,karaoke,{\k26}Yeah, {\k23}I {\k45}need {\k27}you {\k23}to {\k24}fill {\k48}me {\k40}up
+Comment: 0,0:00:21.45,0:00:25.02,Airi,,0,0,0,karaoke,{\k18}ma{\k27}si{\k23}go {\k25}ma{\k21}syeo {\k26}bwa{\k46}do {\k23}seong{\k18}e {\k31}cha{\k26}ji {\k46}a{\k27}na
+Comment: 0,0:00:25.23,0:00:26.39,Sleepy,,0,0,0,karaoke,{\k12}Got {\k9}a {\k27}fee{\k12}ling {\k10}that, {\k26}oh, {\k20}yeah
+Comment: 0,0:00:26.40,0:00:26.65,Back singing,,0,0,0,karaoke,{\k25}Yeah
+Comment: 0,0:00:26.67,0:00:27.85,Sleepy,,0,0,0,karaoke,{\k9}You {\k13}could {\k22}be {\k14}e{\k10}very{\k25}thing {\k25}that
+Comment: 0,0:00:28.09,0:00:29.83,Hina,,0,0,0,karaoke,{\k26}That {\k17}I {\k48}need, {\k25}taste {\k22}so {\k36}sweet
+Comment: 0,0:00:29.97,0:00:32.60,Hina,,0,0,0,karaoke,{\k21}E{\k30}very {\k35}sip {\k32}makes {\k25}me {\k26}want {\k47}more, {\k47}yeah
+Comment: 0,0:00:32.60,0:00:34.27,Sleepy,,0,0,0,karaoke,{\k11}Loo{\k16}kin {\k19}like {\k24}snacks {\k14\rAiri}'cause {\k11}you {\k11}got {\k14}it {\k21}like {\k26}that
+Comment: 0,0:00:34.27,0:00:34.46,Back singing,,0,0,0,karaoke,{\k19}Woo
+Comment: 0,0:00:34.51,0:00:36.18,Hina,,0,0,0,karaoke,{\k11}Take {\k13}a {\k21}big {\k27}bite, {\k11}want {\k12}a{\k12}no{\k12}ther {\k22}bite, {\k26}yeah
+Comment: 0,0:00:36.41,0:00:37.36,Airi,,0,0,0,karaoke,{\k12}neo{\k9}ui {\k14}mo{\k10}deun {\k27}geol {\k23}nan
+Comment: 0,0:00:37.36,0:00:38.26,Airi,,0,0,0,karaoke,{\k13}won{\k10}hae, {\k13}won{\k11}hae, {\k12}won{\k31}hae
+Comment: 0,0:00:38.32,0:00:39.26,Airi,,0,0,0,karaoke,{\k13}neo {\k22}mal{\k11}gon {\k25}mo{\k23}du
+Comment: 0,0:00:39.26,0:00:40.15,Airi,,0,0,0,karaoke,{\k13}pyeon{\k10}hae, {\k13}pyeon{\k10}hae, {\k14}pyeon{\k29}hae
+Comment: 0,0:00:40.68,0:00:43.16,Sleepy,,0,0,0,karaoke,{\k26}Whеn {\k20}you're {\k28}in {\k17}my {\k33}arms, {\k21}I {\k28}hold {\k17}you {\k21}so {\k37}tight
+Comment: 0,0:00:43.45,0:00:44.14,Hina,,0,0,0,karaoke,{\k36}So {\k33}tight
+Comment: 0,0:00:44.51,0:00:47.13,Sleepy,,0,0,0,karaoke,{\k24}Can't {\k24}let {\k45}go, {\k46}no, {\k28}no, {\k22}not {\k26}to{\k47}night
+Comment: 0,0:00:47.37,0:00:50.75,Airi,,0,0,0,karaoke,{\k24}ji{\k23}geum {\k48}dang{\k50}jang {\k45}nal {\k25}bwa {\k22}si{\k26}gan {\k23}еop{\k25}jan{\k27}a
+Comment: 0,0:00:51.14,0:00:54.95,Hina,,0,0,0,karaoke,{\k28}neon {\k23}nae{\k47}kkeo{\k49}ya {\k47}i{\k27}mi {\k18}al{\k25}go {\k25}it{\k21}jan{\kf71}a
+Comment: 0,0:00:54.75,0:00:56.89,Sleepy,,0,0,0,karaoke,{\k23}'Cause {\k25}I {\k46}need {\k26}you {\k22}to {\k49}need {\k23}me
+Comment: 0,0:00:56.89,0:01:01.20,All,,0,0,0,karaoke,{\k24}I'm {\k46}emp{\k23}ty, {\k26}you {\k48}feed {\k22}me {\k26\}so {\kf94}re{\kf94}fre{\k28}shing
+Comment: 0,0:01:01.20,0:01:02.34,Sleepy,,0,0,0,karaoke,{\k12}My {\k11}lit{\k24}tle {\k23}so{\k22}da {\k22}pop
+Comment: 0,0:01:03.06,0:01:06.65,All,,0,0,0,karaoke,{\k26}You're {\k21}all {\k25}I {\k25}can {\k45}think {\k50}of {\k23}e{\k23}very {\k26}drop {\k24}I {\k45}drink {\k26}up
+Comment: 0,0:01:07.32,0:01:09.98,All,,0,0,0,karaoke,{\k28}You're {\k24}my {\k25}so{\k21}da {\k50}pop {\k13}my {\k11}lit{\k21}tle {\k26}so{\k24}da {\k23}pop
+Comment: 0,0:01:10.69,0:01:12.36,All,,0,0,0,karaoke,{\k25}Cool {\k22}me {\k26}down, {\k23}you're {\k46}so {\k25}hot
+Comment: 0,0:01:12.61,0:01:14.27,All,,0,0,0,karaoke,{\k24}Pour {\k21}me {\k24}up, {\k26}I {\k45}won't {\k26}stop
+Comment: 0,0:01:14.97,0:01:17.56,All,,0,0,0,karaoke,{\k25}You're {\k24}my {\k24}so{\k22}da {\k50}pop {\k20}my {\k13}lit{\k14}tle {\k24}so{\k24}da {\k19}pop
+Comment: 0,0:01:24.05,0:01:25.21,All,,0,0,0,karaoke,{\k25}My {\k9}lit{\k8}tle {\k17}so{\k37}da {\k20}pop
+Comment: 0,0:01:25.72,0:01:27.47,Airi,,0,0,0,karaoke,{\k71}Uh, {\k12}make {\k10}me {\k13}wan{\k13}na {\k21}flip {\k17}the {\k18}top
+Comment: 0,0:01:27.64,0:01:29.01,Airi,,0,0,0,karaoke,{\k10}han {\k11}mo{\k24}geum{\k11}e {\k12}YOU {\k21}HIT {\k16}THE {\k32}SPOT
+Comment: 0,0:01:29.29,0:01:31.44,Airi,,0,0,0,karaoke,{\k10}E{\k10}very {\k11}lit{\k16}tle {\k25}drip {\k9}and {\k38}drop, {\k23}fizz {\k15}and {\k33}pop, {\k25}ah
+Comment: 0,0:01:31.44,0:01:32.71,Airi,,0,0,0,karaoke,{\k6}so{\k17}reum {\k23}dod{\k9}a {\k16}IT'S {\k19}GET{\k19}TING {\k18}HOT
+Comment: 0,0:01:32.85,0:01:33.54,Back singing,,0,0,0,karaoke,{\k22}Hot {\k26}hot {\k21}hot
+Comment: 0,0:01:33.07,0:01:35.25,Hina,,0,0,0,karaoke,{\k26}Yes, {\k25}I'm {\k24}sip{\k21}pin' {\k25}when {\k23}it's {\k27}drip{\k14}pin' {\k33}now
+Comment: 0,0:01:35.25,0:01:37.14,Hina,,0,0,0,karaoke,{\k23}It's {\k20}done? {\k28}I {\k24}need {\k24}a {\k23}se{\k24}cond {\k47}round
+Comment: 0,0:01:37.14,0:01:38.95,Hina,,0,0,0,karaoke,{\k24}And {\k18}pour {\k30}a {\k26}lot {\k22}and {\k19}don't {\k20}you {\k22}stop
+Comment: 0,0:01:38.99,0:01:41.02,Hina,,0,0,0,karaoke,{\k11}'Til {\k10}my {\k24}so{\k25}da {\k55}pop {\k19}fiz{\k30}zles {\k29}out
+Comment: 0,0:01:41.20,0:01:46.17,Sleepy,,0,0,0,karaoke,{\kf91}kkum{\k99} {\k36}so{\k31}ge {\k26}geu{\k41}ryeo{\k31}wat{\k26}deon {\kf116}neo
+Comment: 0,0:01:46.68,0:01:49.67,Airi,,0,0,0,karaoke,{\k17}nan {\k42}jeol{\k36}dae {\k17}no{\k42}chil {\k34}su {\k26}eops{\kf85}eo
+Comment: 0,0:01:50.31,0:01:51.83,Hina,,0,0,0,karaoke,{\k40}neol {\k37}won{\k34}hae {\k41}kkok
+Comment: 0,0:01:51.83,0:01:55.25,Hina,,0,0,0,karaoke,{\k21}I {\k26}wai{\k32}ted {\k34}so {\k34}long {\k42}for {\k34}a {\k23}taste {\k19}of {\k41}so{\k36}da
+Comment: 0,0:01:55.25,0:01:58.74,Hina,,0,0,0,karaoke,{\k42}So, {\k27}the {\k26}wait {\k24}is {\k35}o{\k35}ver, {\k49}ba{\kf111}by
+Comment: 0,0:02:00.24,0:02:02.51,All,,0,0,0,karaoke,{\k38}Just {\k32}can't {\k49}get {\k21}e{\kf87}nough
+Comment: 0,0:02:04.04,0:02:07.63,All,,0,0,0,karaoke,{\k20}You're {\k29}all {\k22}I {\k25}can {\k47}think {\k48}of {\k25}e{\k22}very {\k24}drop {\k24}I {\k46}drink {\k27}up
+Comment: 0,0:02:08.30,0:02:10.92,All,,0,0,0,karaoke,{\k27}You're {\k25}my {\k25}so{\k20}da {\k49}pop {\k20}my {\k16}lit{\k12}tle {\k24}so{\k32}da {\k12}pop
+Comment: 0,0:02:11.67,0:02:13.34,All,,0,0,0,karaoke,{\k19}Cool {\k27}me {\k28}down, {\k22}you're {\k45}so {\k26}hot
+Comment: 0,0:02:13.58,0:02:15.44,All,,0,0,0,karaoke,{\k21}Pour {\k26}me {\k23}up, {\k24}I {\k47}won't {\k45}stop
+Comment: 0,0:02:15.94,0:02:18.61,All,,0,0,0,karaoke,{\k25}You're {\k24}my {\k26}so{\k22}da {\k47}pop {\k22}my {\k15}lit{\k12}tle {\k26}so{\k21}da {\k27}pop
+Comment: 0,0:02:23.57,0:02:26.14,Hina,,0,0,0,karaoke,{\k24}You're {\k24}my {\k25}so{\k23}da {\k47}pop {\k15}got{\k9}ta {\k25}drink {\k23}e{\k24}very {\k18}drop
+Dialogue: 0,0:00:00.00,0:00:10.20,COLORCODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&HEDB2B1&}Sleepy{\c} | {\c&HC3A4F7&}Airi{\c} | {\c&HE3DB8D&}Hina{\c} | {\c&H9FE9A5&}All{\c}
+Dialogue: 0,0:00:10.02,0:00:11.88,All,,0,0,0,fx,{\k90\fad(300,200)}{\k48}Hey, {\k19}hey
+Dialogue: 0,0:00:11.92,0:00:13.78,All,,0,0,0,fx,{\k90\fad(300,200)}{\k46}Hey, {\k20}hey
+Dialogue: 0,0:00:13.83,0:00:15.20,All,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Hey
+Dialogue: 0,0:00:16.70,0:00:18.98,Airi,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Don't {\k29}want {\k21}you, {\k25}need {\k21}you
+Dialogue: 0,0:00:17.88,0:00:21.54,Airi,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Yeah, {\k23}I {\k45}need {\k27}you {\k23}to {\k24}fill {\k48}me {\k40}up
+Dialogue: 0,0:00:20.55,0:00:25.22,Airi,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ma{\k27}si{\k23}go {\k25}ma{\k21}syeo {\k26}bwa{\k46}do {\k23}seong{\k18}e {\k31}cha{\k26}ji {\k46}a{\k27}na
+Dialogue: 0,0:00:24.33,0:00:26.59,Sleepy,,0,0,0,fx,{\k90\fad(300,200)}{\k12}Got {\k9}a {\k27}fee{\k12}ling {\k10}that, {\k26}oh, {\k20}yeah
+Dialogue: 0,0:00:25.50,0:00:26.85,Back singing,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Yeah
+Dialogue: 0,0:00:25.77,0:00:28.05,Sleepy,,0,0,0,fx,{\k90\fad(300,200)}{\k9}You {\k13}could {\k22}be {\k14}e{\k10}very{\k25}thing {\k25}that
+Dialogue: 0,0:00:27.19,0:00:30.03,Hina,,0,0,0,fx,{\k90\fad(300,200)}{\k26}That {\k17}I {\k48}need, {\k25}taste {\k22}so {\k36}sweet
+Dialogue: 0,0:00:29.07,0:00:32.80,Hina,,0,0,0,fx,{\k90\fad(300,200)}{\k21}E{\k30}very {\k35}sip {\k32}makes {\k25}me {\k26}want {\k47}more, {\k47}yeah
+Dialogue: 0,0:00:31.70,0:00:34.47,Sleepy,,0,0,0,fx,{\k90\fad(300,200)}{\k11}Loo{\k16}kin {\k19}like {\k24}snacks {\k14\rAiri}'cause {\k11}you {\k11}got {\k14}it {\k21}like {\k26}that
+Dialogue: 0,0:00:33.37,0:00:34.66,Back singing,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Woo
+Dialogue: 0,0:00:33.61,0:00:36.38,Hina,,0,0,0,fx,{\k90\fad(300,200)}{\k11}Take {\k13}a {\k21}big {\k27}bite, {\k11}want {\k12}a{\k12}no{\k12}ther {\k22}bite, {\k26}yeah
+Dialogue: 0,0:00:35.51,0:00:37.56,Airi,,0,0,0,fx,{\k90\fad(300,200)}{\k12}neo{\k9}ui {\k14}mo{\k10}deun {\k27}geol {\k23}nan
+Dialogue: 0,0:00:36.46,0:00:38.46,Airi,,0,0,0,fx,{\k90\fad(300,200)}{\k13}won{\k10}hae, {\k13}won{\k11}hae, {\k12}won{\k31}hae
+Dialogue: 0,0:00:37.42,0:00:39.46,Airi,,0,0,0,fx,{\k90\fad(300,200)}{\k13}neo {\k22}mal{\k11}gon {\k25}mo{\k23}du
+Dialogue: 0,0:00:38.36,0:00:40.35,Airi,,0,0,0,fx,{\k90\fad(300,200)}{\k13}pyeon{\k10}hae, {\k13}pyeon{\k10}hae, {\k14}pyeon{\k29}hae
+Dialogue: 0,0:00:39.78,0:00:43.36,Sleepy,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Whеn {\k20}you're {\k28}in {\k17}my {\k33}arms, {\k21}I {\k28}hold {\k17}you {\k21}so {\k37}tight
+Dialogue: 0,0:00:42.55,0:00:44.34,Hina,,0,0,0,fx,{\k90\fad(300,200)}{\k36}So {\k33}tight
+Dialogue: 0,0:00:43.61,0:00:47.33,Sleepy,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Can't {\k24}let {\k45}go, {\k46}no, {\k28}no, {\k22}not {\k26}to{\k47}night
+Dialogue: 0,0:00:46.47,0:00:50.95,Airi,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ji{\k23}geum {\k48}dang{\k50}jang {\k45}nal {\k25}bwa {\k22}si{\k26}gan {\k23}еop{\k25}jan{\k27}a
+Dialogue: 0,0:00:50.24,0:00:55.15,Hina,,0,0,0,fx,{\k90\fad(300,200)}{\k28}neon {\k23}nae{\k47}kkeo{\k49}ya {\k47}i{\k27}mi {\k18}al{\k25}go {\k25}it{\k21}jan{\kf71}a
+Dialogue: 0,0:00:53.85,0:00:57.09,Sleepy,,0,0,0,fx,{\k90\fad(300,200)}{\k23}'Cause {\k25}I {\k46}need {\k26}you {\k22}to {\k49}need {\k23}me
+Dialogue: 0,0:00:55.99,0:01:01.40,All,,0,0,0,fx,{\k90\fad(300,200)}{\k24}I'm {\k46}emp{\k23}ty, {\k26}you {\k48}feed {\k22}me {\k26\}so {\kf94}re{\kf94}fre{\k28}shing
+Dialogue: 0,0:01:00.30,0:01:02.54,Sleepy,,0,0,0,fx,{\k90\fad(300,200)}{\k12}My {\k11}lit{\k24}tle {\k23}so{\k22}da {\k22}pop
+Dialogue: 0,0:01:02.16,0:01:06.85,All,,0,0,0,fx,{\k90\fad(300,200)}{\k26}You're {\k21}all {\k25}I {\k25}can {\k45}think {\k50}of {\k23}e{\k23}very {\k26}drop {\k24}I {\k45}drink {\k26}up
+Dialogue: 0,0:01:06.42,0:01:10.18,All,,0,0,0,fx,{\k90\fad(300,200)}{\k28}You're {\k24}my {\k25}so{\k21}da {\k50}pop {\k13}my {\k11}lit{\k21}tle {\k26}so{\k24}da {\k23}pop
+Dialogue: 0,0:01:09.79,0:01:12.56,All,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Cool {\k22}me {\k26}down, {\k23}you're {\k46}so {\k25}hot
+Dialogue: 0,0:01:11.71,0:01:14.47,All,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Pour {\k21}me {\k24}up, {\k26}I {\k45}won't {\k26}stop
+Dialogue: 0,0:01:14.07,0:01:17.76,All,,0,0,0,fx,{\k90\fad(300,200)}{\k25}You're {\k24}my {\k24}so{\k22}da {\k50}pop {\k20}my {\k13}lit{\k14}tle {\k24}so{\k24}da {\k19}pop
+Dialogue: 0,0:01:23.15,0:01:25.41,All,,0,0,0,fx,{\k90\fad(300,200)}{\k25}My {\k9}lit{\k8}tle {\k17}so{\k37}da {\k20}pop
+Dialogue: 0,0:01:24.82,0:01:27.67,Airi,,0,0,0,fx,{\k90\fad(300,200)}{\k71}Uh, {\k12}make {\k10}me {\k13}wan{\k13}na {\k21}flip {\k17}the {\k18}top
+Dialogue: 0,0:01:26.74,0:01:29.21,Airi,,0,0,0,fx,{\k90\fad(300,200)}{\k10}han {\k11}mo{\k24}geum{\k11}e {\k12}YOU {\k21}HIT {\k16}THE {\k32}SPOT
+Dialogue: 0,0:01:28.39,0:01:31.64,Airi,,0,0,0,fx,{\k90\fad(300,200)}{\k10}E{\k10}very {\k11}lit{\k16}tle {\k25}drip {\k9}and {\k38}drop, {\k23}fizz {\k15}and {\k33}pop, {\k25}ah
+Dialogue: 0,0:01:30.54,0:01:32.91,Airi,,0,0,0,fx,{\k90\fad(300,200)}{\k6}so{\k17}reum {\k23}dod{\k9}a {\k16}IT'S {\k19}GET{\k19}TING {\k18}HOT
+Dialogue: 0,0:01:31.95,0:01:33.74,Back singing,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Hot {\k26}hot {\k21}hot
+Dialogue: 0,0:01:32.17,0:01:35.45,Hina,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Yes, {\k25}I'm {\k24}sip{\k21}pin' {\k25}when {\k23}it's {\k27}drip{\k14}pin' {\k33}now
+Dialogue: 0,0:01:34.35,0:01:37.34,Hina,,0,0,0,fx,{\k90\fad(300,200)}{\k23}It's {\k20}done? {\k28}I {\k24}need {\k24}a {\k23}se{\k24}cond {\k47}round
+Dialogue: 0,0:01:36.24,0:01:39.15,Hina,,0,0,0,fx,{\k90\fad(300,200)}{\k24}And {\k18}pour {\k30}a {\k26}lot {\k22}and {\k19}don't {\k20}you {\k22}stop
+Dialogue: 0,0:01:38.09,0:01:41.22,Hina,,0,0,0,fx,{\k90\fad(300,200)}{\k11}'Til {\k10}my {\k24}so{\k25}da {\k55}pop {\k19}fiz{\k30}zles {\k29}out
+Dialogue: 0,0:01:40.30,0:01:46.37,Sleepy,,0,0,0,fx,{\k90\fad(300,200)}{\kf91}kkum{\k99} {\k36}so{\k31}ge {\k26}geu{\k41}ryeo{\k31}wat{\k26}deon {\kf116}neo
+Dialogue: 0,0:01:45.78,0:01:49.87,Airi,,0,0,0,fx,{\k90\fad(300,200)}{\k17}nan {\k42}jeol{\k36}dae {\k17}no{\k42}chil {\k34}su {\k26}eops{\kf85}eo
+Dialogue: 0,0:01:49.41,0:01:52.03,Hina,,0,0,0,fx,{\k90\fad(300,200)}{\k40}neol {\k37}won{\k34}hae {\k41}kkok
+Dialogue: 0,0:01:50.93,0:01:55.45,Hina,,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k26}wai{\k32}ted {\k34}so {\k34}long {\k42}for {\k34}a {\k23}taste {\k19}of {\k41}so{\k36}da
+Dialogue: 0,0:01:54.35,0:01:58.94,Hina,,0,0,0,fx,{\k90\fad(300,200)}{\k42}So, {\k27}the {\k26}wait {\k24}is {\k35}o{\k35}ver, {\k49}ba{\kf111}by
+Dialogue: 0,0:01:59.34,0:02:02.71,All,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Just {\k32}can't {\k49}get {\k21}e{\kf87}nough
+Dialogue: 0,0:02:03.14,0:02:07.83,All,,0,0,0,fx,{\k90\fad(300,200)}{\k20}You're {\k29}all {\k22}I {\k25}can {\k47}think {\k48}of {\k25}e{\k22}very {\k24}drop {\k24}I {\k46}drink {\k27}up
+Dialogue: 0,0:02:07.40,0:02:11.12,All,,0,0,0,fx,{\k90\fad(300,200)}{\k27}You're {\k25}my {\k25}so{\k20}da {\k49}pop {\k20}my {\k16}lit{\k12}tle {\k24}so{\k32}da {\k12}pop
+Dialogue: 0,0:02:10.77,0:02:13.54,All,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Cool {\k27}me {\k28}down, {\k22}you're {\k45}so {\k26}hot
+Dialogue: 0,0:02:12.68,0:02:15.64,All,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Pour {\k26}me {\k23}up, {\k24}I {\k47}won't {\k45}stop
+Dialogue: 0,0:02:15.04,0:02:18.81,All,,0,0,0,fx,{\k90\fad(300,200)}{\k25}You're {\k24}my {\k26}so{\k22}da {\k47}pop {\k22}my {\k15}lit{\k12}tle {\k26}so{\k21}da {\k27}pop
+Dialogue: 0,0:02:22.67,0:02:26.34,Hina,,0,0,0,fx,{\k90\fad(300,200)}{\k24}You're {\k24}my {\k25}so{\k23}da {\k47}pop {\k15}got{\k9}ta {\k25}drink {\k23}e{\k24}very {\k18}drop
