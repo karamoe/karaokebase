@@ -1,0 +1,50 @@
+﻿[Script Info]
+Title: Hakkensha wa Watashi
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: KuroSensei
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,24,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Default - Kanji,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,3,2,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:18.13,0:00:20.72,Default - Kanji,,0,0,0,karaoke,{\k21}背{\k39}伸{\k17}び{\k19}し{\k33}た{\k18}って{\k35}届{\k19}か{\k18}な{\k40}い
+Comment: 0,0:00:20.99,0:00:23.51,Default - Kanji,,0,0,0,karaoke,{\k17}知{\k35}恵{\k16}を{\k32}振{\k14}り{\k50}絞{\k25}っ{\k18}て{\k45}も
+Comment: 0,0:00:23.75,0:00:26.50,Default - Kanji,,0,0,0,karaoke,{\k16}ま{\k33}だ{\k17}ま{\k33}だ{\k21}足{\k16}り{\k29}な{\k22}い{\k16}み{\k22}た{\k15}い{\k35}だ
+Comment: 0,0:00:26.50,0:00:29.00,Default - Kanji,,0,0,0,karaoke,{\k49}足{\k20}攣{\k29}っ{\k18}ちゃ{\k20}う　{\k51}限{\k63}界
+Comment: 0,0:00:29.39,0:00:31.76,Default - Kanji,,0,0,0,karaoke,{\k33}だ{\k11}って{\k47}綺{\k17}麗{\k8}な{\k29}色{\k23}し{\k19}て{\k50}て
+Comment: 0,0:00:31.95,0:00:34.46,Default - Kanji,,0,0,0,karaoke,{\k54}瑞{\k38}瑞{\k24}し{\k21}く{\k34}揺{\k14}れ{\k22}て{\k44}る
+Comment: 0,0:00:34.70,0:00:39.65,Default - Kanji,,0,0,0,karaoke,{\k13}お{\k51}腹{\k30}は{\k19}空{\k24}い{\k29}て{\k19}な{\k16}い{\k38}け{\k37}ど {\k16}食{\k29}べ{\k21}て{\k35}み{\k17}た{\k17}い{\k84}な
+Comment: 0,0:00:40.22,0:00:45.52,Default - Kanji,,0,0,0,karaoke,{\k15}意{\k33}地{\k70}悪{\k18}言{\k29}わ{\k20}れ{\k18}て{\k64}も{\k19}曲{\k35}げ{\k16}な{\k40}いん{\k32}だ{\k36}け{\k20}ど{\k65}さ
+Comment: 0,0:00:45.67,0:00:48.44,Default - Kanji,,0,0,0,karaoke,{\k19}た{\k50}ま{\k10}に{\k20}は{\k33}頼{\k21}っ{\k29}て{\k22}よ　{\k36}僕{\k37}を
+Comment: 0,0:00:48.49,0:00:50.91,Default - Kanji,,0,0,0,karaoke,{\k45}は{\k17}っと{\k65}ね　{\k53}煌{\k16}め{\k46}き
+Comment: 0,0:00:51.00,0:00:56.53,Default - Kanji,,0,0,0,karaoke,{\k30}ディ{\k36}ス{\k22}カ{\k65}バー！{\k50}友{\k52}情{\k35}って{\k37}ファン{\k15}タ{\k211}ジー
+Comment: 0,0:00:58.70,0:01:04.01,Default - Kanji,,0,0,0,karaoke,{\k45}囓{\k43}って{\k50}み{\k20}て{\k50}よ　{\k65}一{\k68}番{\k16}に{\k32}分{\k22}か{\k36}っ{\k30}ちゃ{\k54}った
+Comment: 0,0:01:04.16,0:01:09.46,Default - Kanji,,0,0,0,karaoke,{\k51}甘{\k36}い{\k47}の{\k20}か{\k50}な？{\k73}酸{\k20}っぱ{\k45}い？　{\k18}ちょ{\k39}っ{\k16}と{\k32}ド{\k34}キ{\k19}ド{\k30}キ
+Comment: 0,0:01:09.66,0:01:15.08,Default - Kanji,,0,0,0,karaoke,{\k82}皆{\k34}で{\k23}居{\k32}た{\k33}か{\k82}ら{\k27}見{\k25}つ{\k16}け{\k39}ら{\k20}れ{\k35}た{\k26}ん{\k68}だ
+Comment: 0,0:01:15.32,0:01:20.42,Default - Kanji,,0,0,0,karaoke,{\k25}魔{\k45}法{\k25}の{\k22}よう{\k70}に{\k53}並{\k21}べ{\k64}た　{\k44}大{\k58}切{\k21}な{\k62}Word
+Comment: 0,0:01:20.62,0:01:27.44,Default - Kanji,,0,0,0,karaoke,{\k18}こ{\k29}の{\k23}出{\k21}会{\k189}い{\k233}{\k65}離{\k23}さ{\k20}な{\k61}い
+Dialogue: 0,0:00:17.23,0:00:20.92,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k21}背{\k39}伸{\k17}び{\k19}し{\k33}た{\k18}って{\k35}届{\k19}か{\k18}な{\k40}い
+Dialogue: 0,0:00:20.09,0:00:23.71,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k17}知{\k35}恵{\k16}を{\k32}振{\k14}り{\k50}絞{\k25}っ{\k18}て{\k45}も
+Dialogue: 0,0:00:22.85,0:00:26.70,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ま{\k33}だ{\k17}ま{\k33}だ{\k21}足{\k16}り{\k29}な{\k22}い{\k16}み{\k22}た{\k15}い{\k35}だ
+Dialogue: 0,0:00:25.60,0:00:29.20,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k49}足{\k20}攣{\k29}っ{\k18}ちゃ{\k20}う　{\k51}限{\k63}界
+Dialogue: 0,0:00:28.49,0:00:31.96,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k33}だ{\k11}って{\k47}綺{\k17}麗{\k8}な{\k29}色{\k23}し{\k19}て{\k50}て
+Dialogue: 0,0:00:31.05,0:00:34.66,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k54}瑞{\k38}瑞{\k24}し{\k21}く{\k34}揺{\k14}れ{\k22}て{\k44}る
+Dialogue: 0,0:00:33.80,0:00:39.85,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k13}お{\k51}腹{\k30}は{\k19}空{\k24}い{\k29}て{\k19}な{\k16}い{\k38}け{\k37}ど {\k16}食{\k29}べ{\k21}て{\k35}み{\k17}た{\k17}い{\k84}な
+Dialogue: 0,0:00:39.32,0:00:45.72,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k15}意{\k33}地{\k70}悪{\k18}言{\k29}わ{\k20}れ{\k18}て{\k64}も{\k19}曲{\k35}げ{\k16}な{\k40}いん{\k32}だ{\k36}け{\k20}ど{\k65}さ
+Dialogue: 0,0:00:44.77,0:00:48.64,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k19}た{\k50}ま{\k10}に{\k20}は{\k33}頼{\k21}っ{\k29}て{\k22}よ　{\k36}僕{\k37}を
+Dialogue: 0,0:00:47.59,0:00:51.11,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k45}は{\k17}っと{\k65}ね　{\k53}煌{\k16}め{\k46}き
+Dialogue: 0,0:00:50.10,0:00:56.73,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ディ{\k36}ス{\k22}カ{\k65}バー！{\k50}友{\k52}情{\k35}って{\k37}ファン{\k15}タ{\k211}ジー
+Dialogue: 0,0:00:57.80,0:01:04.21,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k45}囓{\k43}って{\k50}み{\k20}て{\k50}よ　{\k65}一{\k68}番{\k16}に{\k32}分{\k22}か{\k36}っ{\k30}ちゃ{\k54}った
+Dialogue: 0,0:01:03.26,0:01:09.66,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k51}甘{\k36}い{\k47}の{\k20}か{\k50}な？{\k73}酸{\k20}っぱ{\k45}い？　{\k18}ちょ{\k39}っ{\k16}と{\k32}ド{\k34}キ{\k19}ド{\k30}キ
+Dialogue: 0,0:01:08.76,0:01:15.28,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k82}皆{\k34}で{\k23}居{\k32}た{\k33}か{\k82}ら{\k27}見{\k25}つ{\k16}け{\k39}ら{\k20}れ{\k35}た{\k26}ん{\k68}だ
+Dialogue: 0,0:01:14.42,0:01:20.62,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k25}魔{\k45}法{\k25}の{\k22}よう{\k70}に{\k53}並{\k21}べ{\k64}た　{\k44}大{\k58}切{\k21}な{\k62}Word
+Dialogue: 0,0:01:19.72,0:01:27.64,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k18}こ{\k29}の{\k23}出{\k21}会{\k189}い{\k233}{\k65}離{\k23}さ{\k20}な{\k61}い
