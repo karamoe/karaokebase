@@ -1,0 +1,158 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Title: Who's Toxic? It's You!
+Original Timing: Cygfir
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,21,&H00F089AA,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,21,&H0031CAF6,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.75,0:00:03.41,Sample KM [Up],,0,0,0,karaoke,{\k22}Your {\k35}ac{\k20}tion {\k17}and {\k18}your {\k41}words {\k17}were {\k38}ne{\k17}ver {\k41}match
+Comment: 0,0:00:03.57,0:00:06.69,Sample KM [Up],,0,0,0,karaoke,{\k19}You’re {\k20}such {\k17}a {\k20}piece {\k30}of {\k63}trash {\k19}and {\k37}that’s {\k18}a {\k22}fact{\k47}~
+Comment: 0,0:00:06.74,0:00:09.48,Sample KM [Choir],,0,0,0,karaoke,{\k23}Wo{\k32}ah {\k22}o{\k20}ah {\k18}o{\k38}ah {\k38}oh {\k18}o-{\k37}o-{\k28}oh
+Comment: 0,0:00:09.74,0:00:12.48,Sample KM [Choir],,0,0,0,karaoke,{\k23}Wo{\k32}ah {\k22}o{\k20}ah {\k18}o{\k38}ah {\k38}oh {\k18}o-{\k37}o-{\k28}oh
+Comment: 0,0:00:12.56,0:00:15.48,Sample KM [Up],,0,0,0,karaoke,{\k18}You {\k19}made {\k21}me {\k38}feel {\k37}that {\k37}I’m {\k19}not {\k42}good {\k14}e{\k47}nough
+Comment: 0,0:00:15.75,0:00:18.99,Sample KM [Up],,0,0,0,karaoke,{\k19}I {\k18}gave {\k20}you {\k38}my {\k37}best {\k18}but {\k20}you’re {\k36}not {\k18}im{\k23}pressed{\k77}~
+Comment: 0,0:00:18.75,0:00:21.49,Sample KM [Choir],,0,0,0,karaoke,{\k23}Wo{\k32}ah {\k22}o{\k20}ah {\k18}o{\k38}ah {\k38}oh {\k18}o-{\k37}o-{\k28}oh
+Comment: 0,0:00:21.73,0:00:24.47,Sample KM [Choir],,0,0,0,karaoke,{\k23}Wo{\k32}ah {\k22}o{\k20}ah {\k18}o{\k38}ah {\k38}oh {\k18}o-{\k37}o-{\k28}oh
+Comment: 0,0:00:24.75,0:00:27.67,Sample KM [Up],,0,0,0,karaoke,{\k37}It {\k27}falls {\k31}a{\k73}part, {\k18}you {\k20}broke {\k38}my {\k48}heart
+Comment: 0,0:00:27.94,0:00:30.35,Sample KM [Up],,0,0,0,karaoke,{\k19}You’re {\k20}sprea{\k18}ding {\k31}more {\k45}lies {\k16}and {\k40}lies {\k18}and {\k34}lies
+Comment: 0,0:00:30.35,0:00:32.02,Sample KM [Up],,0,0,0,karaoke,{\k21}I {\k21}had {\k16}e{\k35}nough, {\k25}cut {\k18}it {\k31}out
+Comment: 0,0:00:32.02,0:00:34.96,Sample KM [Up],,0,0,0,karaoke,{\k23}I {\k19}am {\k38}beg{\k17}ging {\k31}no {\kf166}more
+Comment: 0,0:00:35.82,0:00:38.84,Sample KM [Up],,0,0,0,karaoke,{\k39}It’s {\k35}you {\k16}the {\k20}one {\k18}who {\k21}spread {\k20}the {\k23}words {\k13}that {\k21}I {\k35}am {\k41}fake
+Comment: 0,0:00:38.84,0:00:42.03,Sample KM [Up],,0,0,0,karaoke,{\k38}It’s {\k33}you {\k19}the {\k20}one {\k14}who {\k24}stab {\k18}me {\k38}right {\k22}in {\k29}the {\k64}back
+Comment: 0,0:00:42.21,0:00:44.92,Sample KM [Up],,0,0,0,karaoke,{\k20}And {\k17}now {\k33}you {\k81}said {\k15}that {\k21}I {\k36}mis{\k48}read
+Comment: 0,0:00:45.19,0:00:47.81,Sample KM [Up],,0,0,0,karaoke,{\k18}But {\k20}I {\k19}don’t {\k18}e{\k22}ven {\k17}real{\k18}ly {\k33}care {\k27}a{\k36}ny{\k34}way
+Comment: 0,0:00:47.81,0:00:50.83,Sample KM [Up],,0,0,0,karaoke,{\k42}It’s {\k37}you {\k13}who {\k22}twist {\k16}on {\k19}things {\k21}but {\k18}then {\k19}I {\k33}took {\k25}the {\k37}blame
+Comment: 0,0:00:50.83,0:00:54.04,Sample KM [Up],,0,0,0,karaoke,{\k38}It’s {\k36}you {\k15}who {\k29}mess {\k10}a{\k22}round {\k21}and {\k13}do {\k20}all {\k24}hits {\k35}and {\k58}runs
+Comment: 0,0:00:54.22,0:00:57.00,Sample KM [Up],,0,0,0,karaoke,{\k14}You {\k21}made {\k30}my {\k84}days {\k11}a {\k26}li{\k33}ving {\k59}hell
+Comment: 0,0:00:57.18,0:00:58.90,Sample KM [Up],,0,0,0,karaoke,{\k18}Now {\k21}I {\k33}don’t {\k100}care
+Comment: 0,0:00:59.19,0:01:01.01,Sample KM [Up],,0,0,0,karaoke,{\k28}Who’s {\k34}to{\k23}xic? {\k40}It’s {\k57}you!
+Comment: 0,0:01:02.22,0:01:04.96,Sample KM [Choir],,0,0,0,karaoke,{\k23}Wo{\k32}ah {\k22}o{\k20}ah {\k18}o{\k38}ah {\k38}oh {\k18}o-{\k37}o-{\k28}oh
+Comment: 0,0:01:05.24,0:01:07.98,Sample KM [Choir],,0,0,0,karaoke,{\k23}Wo{\k32}ah {\k22}o{\k20}ah {\k18}o{\k38}ah {\k38}oh {\k18}o-{\k37}o-{\k28}oh
+Comment: 0,0:01:08.22,0:01:09.52,Sample KM [Up],,0,0,0,karaoke,{\k23}Can’t {\k53}hear {\k54}ya
+Comment: 0,0:01:09.74,0:01:11.04,Sample KM [Up],,0,0,0,karaoke,{\k23}Can’t {\k53}hear {\k54}ya
+Comment: 0,0:01:11.24,0:01:12.54,Sample KM [Up],,0,0,0,karaoke,{\k23}Can’t {\k53}hear {\k54}ya
+Comment: 0,0:01:14.23,0:01:16.97,Sample KM [Choir],,0,0,0,karaoke,{\k23}Wo{\k32}ah {\k22}o{\k20}ah {\k18}o{\k38}ah {\k38}oh {\k18}o-{\k37}o-{\k28}oh
+Comment: 0,0:01:17.23,0:01:19.97,Sample KM [Choir],,0,0,0,karaoke,{\k23}Wo{\k32}ah {\k22}o{\k20}ah {\k18}o{\k38}ah {\k38}oh {\k18}o-{\k37}o-{\k28}oh
+Comment: 0,0:01:20.23,0:01:21.53,Sample KM [Up],,0,0,0,karaoke,{\k21}It’s {\k54}bull{\k55}shit
+Comment: 0,0:01:21.76,0:01:23.06,Sample KM [Up],,0,0,0,karaoke,{\k21}It’s {\k54}bull{\k55}shit
+Comment: 0,0:01:23.24,0:01:24.54,Sample KM [Up],,0,0,0,karaoke,{\k21}It’s {\k54}bull{\k55}shit
+Comment: 0,0:01:26.25,0:01:29.21,Sample KM [Up],,0,0,0,karaoke,{\k39}It {\k39}falls {\k16}a{\k75}part {\k18}you {\k22}broke {\k36}my {\k51}heart
+Comment: 0,0:01:29.42,0:01:31.85,Sample KM [Up],,0,0,0,karaoke,{\k17}You’re {\k24}sprea{\k19}ding {\k35}more {\k38}lies {\k20}and {\k38}lies {\k18}and {\k34}lies
+Comment: 0,0:01:31.85,0:01:33.55,Sample KM [Up],,0,0,0,karaoke,{\k21}I {\k21}had {\k18}e{\k37}nough, {\k21}cut {\k17}it {\k35}out
+Comment: 0,0:01:33.55,0:01:37.19,Sample KM [Up],,0,0,0,karaoke,{\k23}I {\k17}am {\k36}beg{\k21}ging {\k32}no {\kf235}more
+Comment: 0,0:01:37.30,0:01:40.32,Sample KM [Up],,0,0,0,karaoke,{\k42}It’s {\k37}you {\k15}the {\k21}one {\k16}who {\k20}tried {\k18}to {\k22}make {\k18}me {\k18}go {\k35}in{\k40}sane
+Comment: 0,0:01:40.32,0:01:43.54,Sample KM [Up],,0,0,0,karaoke,{\k39}It’s {\k32}you {\k23}who {\k35}should {\k42}stop {\k30}and {\k26}feel {\k32}a{\k63}shamed
+Comment: 0,0:01:43.61,0:01:46.54,Sample KM [Up],,0,0,0,karaoke,{\k24}I {\k23}think {\k36}you’re {\k77}lame, {\k21}it’s {\k19}all {\k31}in {\k62}vain
+Comment: 0,0:01:46.61,0:01:49.19,Sample KM [Up],,0,0,0,karaoke,{\k26}I {\k18}bet{\k22}ter {\k21}just {\k15}i{\k40}gnore {\k37}it {\k19}a{\k34}ny{\k26}way
+Comment: 0,0:01:49.33,0:01:52.32,Sample KM [Up],,0,0,0,karaoke,{\k38}It’s {\k37}you {\k13}the {\k20}one {\k21}who {\k19}turn {\k17}my {\k40}world {\k21}up{\k36}side {\k37}down
+Comment: 0,0:01:52.34,0:01:55.52,Sample KM [Up],,0,0,0,karaoke,{\k37}It’s {\k35}you {\k21}who {\k17}break {\k12}the {\k25}rules {\k22}and {\k18}pull {\k16}me {\k20}un{\k13}der {\k22}the {\k60}bus
+Comment: 0,0:01:55.65,0:01:57.00,Sample KM [Up],,0,0,0,karaoke,{\k25}Please {\k19}go {\k29}a{\k62}way
+Comment: 0,0:01:57.21,0:01:58.53,Sample KM [Up],,0,0,0,karaoke,{\k19}'Cause {\k18}you {\k31}can’t {\k45}stay{\k19}~
+Comment: 0,0:01:58.66,0:02:00.21,Sample KM [Up],,0,0,0,karaoke,{\k25}Just {\k33}go {\k16}to {\k81}hell
+Comment: 0,0:02:00.77,0:02:04.51,Sample KM [Up],,0,0,0,karaoke,{\k17}Now {\k59}tell {\k32}me {\kf266}why~
+Comment: 0,0:02:04.72,0:02:10.50,Sample KM [Up],,0,0,0,karaoke,{\k18}You {\k36}made {\k17}me {\k44}ques{\k30}tion {\k42}my {\k34}re{\k41}a{\k29}li{\kf287}ty~
+Comment: 0,0:02:10.83,0:02:13.85,Sample KM [Up],,0,0,0,karaoke,{\k21}Now {\k42}I {\k33}have {\k39}the {\k36}les{\k41}son {\k90}learned
+Comment: 0,0:02:13.90,0:02:15.77,Sample KM [Up],,0,0,0,karaoke,{\k19}This {\k17}is {\k21}all {\k17}I {\k33}need {\k20}to {\k60}know
+Comment: 0,0:02:16.33,0:02:19.25,Sample KM [Up],,0,0,0,karaoke,{\k39}It’s {\k40}you {\k17}the {\k18}one {\k19}who {\k21}make {\k12}me {\k22}feel {\k17}that {\k22}I {\k34}am {\k31}weak
+Comment: 0,0:02:19.32,0:02:22.43,Sample KM [Up],,0,0,0,karaoke,{\k39}Your {\k58}words {\k14}hit {\k20}so {\k38}hard {\k18}made {\k19}me {\k23}black {\k35}and {\k47}blue
+Comment: 0,0:02:22.73,0:02:24.06,Sample KM [Up],,0,0,0,karaoke,{\k17}I {\k24}know {\k25}the {\k67}truth
+Comment: 0,0:02:24.23,0:02:25.45,Sample KM [Up],,0,0,0,karaoke,{\k19}But {\k20}you {\k35}de{\k48}ny
+Comment: 0,0:02:25.73,0:02:28.28,Sample KM [Up],,0,0,0,karaoke,{\k14}Who {\k45}cares {\k33}a{\k41}bout {\k34}it {\k23}a{\k33}ny{\k32}way?
+Comment: 0,0:02:28.28,0:02:31.31,Sample KM [Up],,0,0,0,karaoke,{\k40}It’s {\k35}you {\k20}the {\k15}one {\k19}who {\k24}spread {\k12}the {\k28}lies {\k12}but {\k27}then {\k30}you {\k41}fled
+Comment: 0,0:02:31.31,0:02:34.50,Sample KM [Up],,0,0,0,karaoke,{\k40}It’s {\k38}you {\k16}the {\k19}one {\k16}who {\k20}de{\k43}ceit {\k15}and {\k20}ne{\k17}ver {\k17}re{\k58}gret
+Comment: 0,0:02:34.72,0:02:36.10,Sample KM [Up],,0,0,0,karaoke,{\k16}I {\k22}have {\k28}to {\k43}warn {\k29}ya
+Comment: 0,0:02:36.10,0:02:37.53,Sample KM [Up],,0,0,0,karaoke,{\k24}You {\k23}know {\k37}there’s {\k38}kar{\k21}ma
+Comment: 0,0:02:37.71,0:02:39.21,Sample KM [Up],,0,0,0,karaoke,{\k15}I {\k41}need {\k17}no {\k37}dra{\k40}ma
+Comment: 0,0:02:39.55,0:02:41.41,Sample KM [Up],,0,0,0,karaoke,{\k19}So {\k21}who’s {\k36}to{\k21}xic? {\k37}It’s {\k52}you!
+Comment: 0,0:02:41.26,0:02:44.00,Sample KM [Choir],,0,0,0,karaoke,{\k23}Wo{\k32}ah {\k22}o{\k20}ah {\k18}o{\k38}ah {\k38}oh {\k18}o-{\k37}o-{\k28}oh
+Comment: 0,0:02:44.24,0:02:46.98,Sample KM [Choir],,0,0,0,karaoke,{\k23}Wo{\k32}ah {\k22}o{\k20}ah {\k18}o{\k38}ah {\k38}oh {\k18}o-{\k37}o-{\k28}oh
+Comment: 0,0:02:47.36,0:02:48.66,Sample KM [Up],,0,0,0,karaoke,{\k65}Screw {\k65}this
+Comment: 0,0:02:48.88,0:02:50.18,Sample KM [Up],,0,0,0,karaoke,{\k65}Screw {\k65}this
+Comment: 0,0:02:50.36,0:02:51.66,Sample KM [Up],,0,0,0,karaoke,{\k65}Screw {\k65}this
+Comment: 0,0:02:53.25,0:02:55.99,Sample KM [Choir],,0,0,0,karaoke,{\k23}Wo{\k32}ah {\k22}o{\k20}ah {\k18}o{\k38}ah {\k38}oh {\k18}o-{\k37}o-{\k28}oh
+Comment: 0,0:02:56.24,0:02:58.98,Sample KM [Choir],,0,0,0,karaoke,{\k23}Wo{\k32}ah {\k22}o{\k20}ah {\k18}o{\k38}ah {\k38}oh {\k18}o-{\k37}o-{\k28}oh
+Comment: 0,0:02:59.24,0:03:00.54,Sample KM [Up],,0,0,0,karaoke,{\k17}I {\k55}don’t {\k58}care
+Comment: 0,0:03:00.75,0:03:02.05,Sample KM [Up],,0,0,0,karaoke,{\k17}I {\k55}don’t {\k58}care
+Comment: 0,0:03:03.74,0:03:05.31,Sample KM [Up],,0,0,0,karaoke,{\k24}Who’s {\k34}to{\k39}xic? {\k24}It’s {\k36}you!
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,karaoke,
+Dialogue: 0,0:00:00.00,0:00:03.61,Sample KM [Up],,0,0,0,fx,{\k75\fad(750,200)}{\k22}Your {\k35}ac{\k20}tion {\k17}and {\k18}your {\k41}words {\k17}were {\k38}ne{\k17}ver {\k41}match
+Dialogue: 0,0:00:02.67,0:00:06.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}You’re {\k20}such {\k17}a {\k20}piece {\k30}of {\k63}trash {\k19}and {\k37}that’s {\k18}a {\k22}fact{\k47}~
+Dialogue: 0,0:00:05.84,0:00:09.68,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Wo{\k32}ah {\k22}o{\k20}ah {\k18}o{\k38}ah {\k38}oh {\k18}o-{\k37}o-{\k28}oh
+Dialogue: 0,0:00:08.84,0:00:12.68,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Wo{\k32}ah {\k22}o{\k20}ah {\k18}o{\k38}ah {\k38}oh {\k18}o-{\k37}o-{\k28}oh
+Dialogue: 0,0:00:11.66,0:00:15.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}You {\k19}made {\k21}me {\k38}feel {\k37}that {\k37}I’m {\k19}not {\k42}good {\k14}e{\k47}nough
+Dialogue: 0,0:00:14.85,0:00:19.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k18}gave {\k20}you {\k38}my {\k37}best {\k18}but {\k20}you’re {\k36}not {\k18}im{\k23}pressed{\k77}~
+Dialogue: 0,0:00:17.85,0:00:21.69,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Wo{\k32}ah {\k22}o{\k20}ah {\k18}o{\k38}ah {\k38}oh {\k18}o-{\k37}o-{\k28}oh
+Dialogue: 0,0:00:20.83,0:00:24.67,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Wo{\k32}ah {\k22}o{\k20}ah {\k18}o{\k38}ah {\k38}oh {\k18}o-{\k37}o-{\k28}oh
+Dialogue: 0,0:00:23.85,0:00:27.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}It {\k27}falls {\k31}a{\k73}part, {\k18}you {\k20}broke {\k38}my {\k48}heart
+Dialogue: 0,0:00:27.04,0:00:30.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}You’re {\k20}sprea{\k18}ding {\k31}more {\k45}lies {\k16}and {\k40}lies {\k18}and {\k34}lies
+Dialogue: 0,0:00:29.45,0:00:32.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k21}had {\k16}e{\k35}nough, {\k25}cut {\k18}it {\k31}out
+Dialogue: 0,0:00:31.12,0:00:35.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k19}am {\k38}beg{\k17}ging {\k31}no {\kf166}more
+Dialogue: 0,0:00:34.92,0:00:39.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}It’s {\k35}you {\k16}the {\k20}one {\k18}who {\k21}spread {\k20}the {\k23}words {\k13}that {\k21}I {\k35}am {\k41}fake
+Dialogue: 0,0:00:37.94,0:00:42.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}It’s {\k33}you {\k19}the {\k20}one {\k14}who {\k24}stab {\k18}me {\k38}right {\k22}in {\k29}the {\k64}back
+Dialogue: 0,0:00:41.31,0:00:45.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}And {\k17}now {\k33}you {\k81}said {\k15}that {\k21}I {\k36}mis{\k48}read
+Dialogue: 0,0:00:44.29,0:00:48.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}But {\k20}I {\k19}don’t {\k18}e{\k22}ven {\k17}real{\k18}ly {\k33}care {\k27}a{\k36}ny{\k34}way
+Dialogue: 0,0:00:46.91,0:00:51.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}It’s {\k37}you {\k13}who {\k22}twist {\k16}on {\k19}things {\k21}but {\k18}then {\k19}I {\k33}took {\k25}the {\k37}blame
+Dialogue: 0,0:00:49.93,0:00:54.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}It’s {\k36}you {\k15}who {\k29}mess {\k10}a{\k22}round {\k21}and {\k13}do {\k20}all {\k24}hits {\k35}and {\k58}runs
+Dialogue: 0,0:00:53.32,0:00:57.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}You {\k21}made {\k30}my {\k84}days {\k11}a {\k26}li{\k33}ving {\k59}hell
+Dialogue: 0,0:00:56.28,0:00:59.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Now {\k21}I {\k33}don’t {\k100}care
+Dialogue: 0,0:00:58.29,0:01:01.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Who’s {\k34}to{\k23}xic? {\k40}It’s {\k57}you!
+Dialogue: 0,0:01:01.32,0:01:05.16,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Wo{\k32}ah {\k22}o{\k20}ah {\k18}o{\k38}ah {\k38}oh {\k18}o-{\k37}o-{\k28}oh
+Dialogue: 0,0:01:04.34,0:01:08.18,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Wo{\k32}ah {\k22}o{\k20}ah {\k18}o{\k38}ah {\k38}oh {\k18}o-{\k37}o-{\k28}oh
+Dialogue: 0,0:01:07.32,0:01:09.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Can’t {\k53}hear {\k54}ya
+Dialogue: 0,0:01:08.84,0:01:11.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Can’t {\k53}hear {\k54}ya
+Dialogue: 0,0:01:10.34,0:01:12.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Can’t {\k53}hear {\k54}ya
+Dialogue: 0,0:01:13.33,0:01:17.17,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Wo{\k32}ah {\k22}o{\k20}ah {\k18}o{\k38}ah {\k38}oh {\k18}o-{\k37}o-{\k28}oh
+Dialogue: 0,0:01:16.33,0:01:20.17,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Wo{\k32}ah {\k22}o{\k20}ah {\k18}o{\k38}ah {\k38}oh {\k18}o-{\k37}o-{\k28}oh
+Dialogue: 0,0:01:19.33,0:01:21.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}It’s {\k54}bull{\k55}shit
+Dialogue: 0,0:01:20.86,0:01:23.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}It’s {\k54}bull{\k55}shit
+Dialogue: 0,0:01:22.34,0:01:24.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}It’s {\k54}bull{\k55}shit
+Dialogue: 0,0:01:25.35,0:01:29.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}It {\k39}falls {\k16}a{\k75}part {\k18}you {\k22}broke {\k36}my {\k51}heart
+Dialogue: 0,0:01:28.52,0:01:32.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}You’re {\k24}sprea{\k19}ding {\k35}more {\k38}lies {\k20}and {\k38}lies {\k18}and {\k34}lies
+Dialogue: 0,0:01:30.95,0:01:33.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k21}had {\k18}e{\k37}nough, {\k21}cut {\k17}it {\k35}out
+Dialogue: 0,0:01:32.65,0:01:37.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k17}am {\k36}beg{\k21}ging {\k32}no {\kf235}more
+Dialogue: 0,0:01:36.40,0:01:40.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}It’s {\k37}you {\k15}the {\k21}one {\k16}who {\k20}tried {\k18}to {\k22}make {\k18}me {\k18}go {\k35}in{\k40}sane
+Dialogue: 0,0:01:39.42,0:01:43.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}It’s {\k32}you {\k23}who {\k35}should {\k42}stop {\k30}and {\k26}feel {\k32}a{\k63}shamed
+Dialogue: 0,0:01:42.71,0:01:46.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k23}think {\k36}you’re {\k77}lame, {\k21}it’s {\k19}all {\k31}in {\k62}vain
+Dialogue: 0,0:01:45.71,0:01:49.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}I {\k18}bet{\k22}ter {\k21}just {\k15}i{\k40}gnore {\k37}it {\k19}a{\k34}ny{\k26}way
+Dialogue: 0,0:01:48.43,0:01:52.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}It’s {\k37}you {\k13}the {\k20}one {\k21}who {\k19}turn {\k17}my {\k40}world {\k21}up{\k36}side {\k37}down
+Dialogue: 0,0:01:51.44,0:01:55.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}It’s {\k35}you {\k21}who {\k17}break {\k12}the {\k25}rules {\k22}and {\k18}pull {\k16}me {\k20}un{\k13}der {\k22}the {\k60}bus
+Dialogue: 0,0:01:54.75,0:01:57.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Please {\k19}go {\k29}a{\k62}way
+Dialogue: 0,0:01:56.31,0:01:58.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}'Cause {\k18}you {\k31}can’t {\k45}stay{\k19}~
+Dialogue: 0,0:01:57.76,0:02:00.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Just {\k33}go {\k16}to {\k81}hell
+Dialogue: 0,0:01:59.87,0:02:04.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Now {\k59}tell {\k32}me {\kf266}why~
+Dialogue: 0,0:02:03.82,0:02:10.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}You {\k36}made {\k17}me {\k44}ques{\k30}tion {\k42}my {\k34}re{\k41}a{\k29}li{\kf287}ty~
+Dialogue: 0,0:02:09.93,0:02:14.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Now {\k42}I {\k33}have {\k39}the {\k36}les{\k41}son {\k90}learned
+Dialogue: 0,0:02:13.00,0:02:15.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}This {\k17}is {\k21}all {\k17}I {\k33}need {\k20}to {\k60}know
+Dialogue: 0,0:02:15.43,0:02:19.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}It’s {\k40}you {\k17}the {\k18}one {\k19}who {\k21}make {\k12}me {\k22}feel {\k17}that {\k22}I {\k34}am {\k31}weak
+Dialogue: 0,0:02:18.42,0:02:22.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Your {\k58}words {\k14}hit {\k20}so {\k38}hard {\k18}made {\k19}me {\k23}black {\k35}and {\k47}blue
+Dialogue: 0,0:02:21.83,0:02:24.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k24}know {\k25}the {\k67}truth
+Dialogue: 0,0:02:23.33,0:02:25.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}But {\k20}you {\k35}de{\k48}ny
+Dialogue: 0,0:02:24.83,0:02:28.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Who {\k45}cares {\k33}a{\k41}bout {\k34}it {\k23}a{\k33}ny{\k32}way?
+Dialogue: 0,0:02:27.38,0:02:31.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}It’s {\k35}you {\k20}the {\k15}one {\k19}who {\k24}spread {\k12}the {\k28}lies {\k12}but {\k27}then {\k30}you {\k41}fled
+Dialogue: 0,0:02:30.41,0:02:34.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}It’s {\k38}you {\k16}the {\k19}one {\k16}who {\k20}de{\k43}ceit {\k15}and {\k20}ne{\k17}ver {\k17}re{\k58}gret
+Dialogue: 0,0:02:33.82,0:02:36.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}I {\k22}have {\k28}to {\k43}warn {\k29}ya
+Dialogue: 0,0:02:35.20,0:02:37.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}You {\k23}know {\k37}there’s {\k38}kar{\k21}ma
+Dialogue: 0,0:02:36.81,0:02:39.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}I {\k41}need {\k17}no {\k37}dra{\k40}ma
+Dialogue: 0,0:02:38.65,0:02:41.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}So {\k21}who’s {\k36}to{\k21}xic? {\k37}It’s {\k52}you!
+Dialogue: 0,0:02:40.36,0:02:44.20,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Wo{\k32}ah {\k22}o{\k20}ah {\k18}o{\k38}ah {\k38}oh {\k18}o-{\k37}o-{\k28}oh
+Dialogue: 0,0:02:43.34,0:02:47.18,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Wo{\k32}ah {\k22}o{\k20}ah {\k18}o{\k38}ah {\k38}oh {\k18}o-{\k37}o-{\k28}oh
+Dialogue: 0,0:02:46.46,0:02:48.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k65}Screw {\k65}this
+Dialogue: 0,0:02:47.98,0:02:50.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k65}Screw {\k65}this
+Dialogue: 0,0:02:49.46,0:02:51.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k65}Screw {\k65}this
+Dialogue: 0,0:02:52.35,0:02:56.19,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Wo{\k32}ah {\k22}o{\k20}ah {\k18}o{\k38}ah {\k38}oh {\k18}o-{\k37}o-{\k28}oh
+Dialogue: 0,0:02:55.34,0:02:59.18,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Wo{\k32}ah {\k22}o{\k20}ah {\k18}o{\k38}ah {\k38}oh {\k18}o-{\k37}o-{\k28}oh
+Dialogue: 0,0:02:58.34,0:03:00.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k55}don’t {\k58}care
+Dialogue: 0,0:02:59.85,0:03:02.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k55}don’t {\k58}care
+Dialogue: 0,0:03:02.84,0:03:05.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Who’s {\k34}to{\k39}xic? {\k24}It’s {\k36}you!
+Dialogue: 0,0:00:00.00,0:00:00.20,Sample KM [Up],,0,0,0,fx,{\k0\fad(0,200)}
