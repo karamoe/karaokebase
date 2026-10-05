@@ -1,0 +1,167 @@
+﻿[Script Info]
+Title: Link Up
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Naruse
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Monii,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Ironmouse,Arial,24,&H00FFFFFF,&H0064BE1E,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:16.23,0:00:18.06,Monii,,0,0,0,karaoke,{\k12}Fi{\k19}re {\k15}bur{\k11}nin' {\k23}up, {\k27}strike {\k14}when {\k17}it's {\k18}red-{\k27}hot
+Comment: 0,0:00:18.06,0:00:19.90,Monii,,0,0,0,karaoke,{\k10}Call {\k15}it {\k19}our {\k26}new {\k29}sal{\k22}va{\k63}tion
+Comment: 0,0:00:20.52,0:00:21.60,Monii,,0,0,0,karaoke,{\k11}Run{\k17}nin' {\k11}through {\k14}the {\k22}hot {\k20}coal{\k13}s
+Comment: 0,0:00:21.60,0:00:22.52,Monii,,0,0,0,karaoke,{\k7}Feel {\k8}it, {\k10}and {\k20}we {\k25}both {\k22}know
+Comment: 0,0:00:22.52,0:00:24.23,Monii,,0,0,0,karaoke,{\k15}No{\k13}thing's {\k9}gon{\k16}na {\k25}break {\k27}these {\k66}souls
+Comment: 0,0:00:24.27,0:00:26.02,Ironmouse,,0,0,0,karaoke,{\k10}You {\k18}and {\k19}me, {\k13}we'll {\k21}be {\k19}steel {\k23}and {\k29}i{\k23}ron
+Comment: 0,0:00:26.06,0:00:28.06,Ironmouse,,0,0,0,karaoke,{\k11}Ne{\k13}ver {\k16}been {\k35}free, {\k12}but {\k11}we {\k27}stay {\k8}de{\k67}fiant
+Comment: 0,0:00:28.10,0:00:29.27,Monii,,0,0,0,karaoke,{\k15}Got {\k5}a {\k23}gold {\k26}crown {\k25}weighing {\k23}me
+Comment: 0,0:00:29.27,0:00:30.60,Monii,,0,0,0,karaoke,{\k21}Weighing {\k32}me {\k80}down
+Comment: 0,0:00:30.02,0:00:32.65,Monii,,0,0,0,karaoke,{\k54}Can {\k37}you {\k56}feel {\k59}my {\k57}pain
+Comment: 0,0:00:32.02,0:00:36.27,Monii,,0,0,0,karaoke,{\k51}I {\k48}can {\k41}hear {\k62}your {\k30}pu{\k18}lse, {\k23}got {\k46}you {\k11}in {\k24}my {\k71}veins
+Comment: 0,0:00:36.02,0:00:37.90,Ironmouse,,0,0,0,karaoke,{\k31}Sy{\k47}ner{\k22}gy {\k28}that {\k23}we {\k27}got {\k10}is
+Comment: 0,0:00:37.90,0:00:40.31,Ironmouse,,0,0,0,karaoke,{\k53}Some{\k36}thing {\k23}they {\k27}call {\k24}de{\k54}mo{\k24}nic
+Comment: 0,0:00:40.31,0:00:42.02,Monii,,0,0,0,karaoke,{\k19}They {\k15}wor{\k15}ship {\k25}me, {\k10}loo{\k10}king {\k15}but {\k15}they {\k6}ne{\k16}ver {\k15}see {\k10}it
+Comment: 0,0:00:42.02,0:00:42.98,Ironmouse,,0,0,0,karaoke,{\k22}Broke {\k32}hearts, {\k24}deep {\k18}scars
+Comment: 0,0:00:42.98,0:00:44.10,Ironmouse,,0,0,0,karaoke,{\k18}Haun{\k14}ted {\k7}by {\k17}a {\k10}le{\k7}ga{\k23}cy {\k16}this
+Comment: 0,0:00:44.10,0:00:45.15,Monii,,0,0,0,karaoke,{\k20}Shared {\k24}pain, {\k18}gold {\k43}chains
+Comment: 0,0:00:45.15,0:00:46.02,Monii,,0,0,0,karaoke,{\k8}It's {\k14}ok {\k14}if {\k11}we're {\k17}still {\k11}blee{\k12}ding
+Comment: 0,0:00:46.06,0:00:48.06,Ironmouse,,0,0,0,karaoke,{\k24}I'm {\k15}yours, {\k34}you're {\k25}mine, {\k25}you {\k12}are {\k12}my {\k18}life{\k35}line
+Comment: 0,0:00:48.06,0:00:55.85,Monii,,0,0,0,karaoke,{\kf103}You're {\kf85}there {\kf100}in {\kf107}my {\kf133}dreams {\k29}that {\k31}I've {\kf191}dreamt
+Comment: 0,0:00:55.90,0:01:04.06,Monii,,0,0,0,karaoke,{\kf114}It's {\kf80}just {\kf114}you {\k85}and {\kf140}me {\k47}in {\k21}the {\kf215}end
+Comment: 0,0:01:04.06,0:01:06.60,Monii,,0,0,0,karaoke,{\k49}Bound {\k42}by {\k57}blood {\k45}and {\k61}flames
+Comment: 0,0:01:06.60,0:01:08.06,Ironmouse,,0,0,0,karaoke,{\k17}We {\k23}are {\k30}shat{\k24}ter{\k52}proof
+Comment: 0,0:01:08.06,0:01:10.56,Monii,,0,0,0,karaoke,{\k39}I {\k60}call {\k38}out {\k60}your {\k36}na{\k17}me
+Comment: 0,0:01:10.56,0:01:12.10,Ironmouse,,0,0,0,karaoke,{\k23}And {\k24}you {\k27}know {\k17}the {\k63}truth
+Comment: 0,0:01:12.10,0:01:14.02,Monii,,0,0,0,karaoke,{\k44}We {\k40}link {\k33}link {\k29}link {\k46}up
+Comment: 0,0:01:14.02,0:01:16.10,Monii,,0,0,0,karaoke,{\k52}Link {\k38}link {\k36}link {\k26}link {\k21}up {\k35}now
+Comment: 0,0:01:16.10,0:01:17.98,Monii,,0,0,0,karaoke,{\k43}Link {\k38}link {\k35}link {\k26}link {\k46}up
+Comment: 0,0:01:18.02,0:01:20.06,Monii,,0,0,0,karaoke,{\k53}Link {\k43}link {\k28}link {\k27}link {\k27}up {\k26}now
+Comment: 0,0:01:20.06,0:01:22.77,Monii,,0,0,0,karaoke,{\k47}I {\k51}was {\k51}left {\k47}for {\k75}dead
+Comment: 0,0:01:22.52,0:01:24.10,Ironmouse,,0,0,0,karaoke,{\k22}But {\k25}you {\k27}sal{\k27}vaged {\k57}me
+Comment: 0,0:01:24.10,0:01:26.73,Monii,,0,0,0,karaoke,{\k31}Quen{\k18}ch {\k45}this {\k39}mol{\k61}ten {\k69}lead
+Comment: 0,0:01:26.52,0:01:28.10,Ironmouse,,0,0,0,karaoke,{\k25}'Cause {\k21}it's {\k30}o{\k21}ver{\k29}hea{\k32}ting
+Comment: 0,0:01:28.10,0:01:29.94,Monii,,0,0,0,karaoke,{\k42}Link {\k42}link {\k35}link {\k25}link {\k40}up
+Comment: 0,0:01:30.02,0:01:32.02,Monii,,0,0,0,karaoke,{\k53}Link {\k32}link {\k30}link {\k36}link {\k26}up {\k23}now
+Comment: 0,0:01:32.02,0:01:33.98,Monii,,0,0,0,karaoke,{\k53}Link {\k42}link {\k31}link {\k31}link {\k39}up
+Comment: 0,0:01:34.02,0:01:36.06,Monii,,0,0,0,karaoke,{\k39}Link {\k52}link {\k26}link {\k35}link {\k24}up {\k28}now
+Comment: 0,0:01:36.06,0:01:36.73,Monii,,0,0,0,karaoke,{\k67}Link
+Comment: 0,0:01:43.19,0:01:46.15,Monii,,0,0,0,karaoke,{\k34}It's {\k37}time{\k27} {\k10}to {\k27}step {\k25}in, {\k18}they {\k32}try {\k11}but {\k14}they {\k27}can't {\k34}win
+Comment: 0,0:01:46.23,0:01:48.19,Monii,,0,0,0,karaoke,{\k15}'Cause {\k15}we're {\k12}gon{\k14}na {\k16}stay {\k31}sharp {\k9}li{\k14}ke {\k7}a {\k25}wea{\k38}pon
+Comment: 0,0:01:48.23,0:01:50.23,Monii,,0,0,0,karaoke,{\k25}They {\k12}know {\k20}this, {\k24}they're {\k25}not {\k8}gon{\k14}na {\k26}stop {\k46}us
+Comment: 0,0:01:50.27,0:01:52.15,Monii,,0,0,0,karaoke,{\k20}One {\k30}mind, {\k27}one {\k26}heart, {\k11}we'll {\k10}be {\k23}fear{\k41}less
+Comment: 0,0:01:52.15,0:01:54.02,Monii,,0,0,0,karaoke,{\k15}You'll {\k22}be {\k12}here {\k10}with {\k17}me {\k13}for {\k14}bet{\k12}ter {\k13}or {\k29}worse, {\k11}I {\k19}know
+Comment: 0,0:01:54.02,0:01:55.23,Monii,,0,0,0,karaoke,{\k17}May{\k15}be {\k11}it's {\k10}a {\k12}bles{\k13}sing {\k11}e{\k13}ven {\k19}though
+Comment: 0,0:01:55.23,0:01:56.19,Monii,,0,0,0,karaoke,{\k10}I {\k10}been {\k23}cursed {\k7}and {\k46}so
+Comment: 0,0:01:56.19,0:01:57.90,Ironmouse,,0,0,0,karaoke,{\k22}Take {\k36}up {\k28}this {\k13}dou{\k13}ble{\k7}-edged {\k52}sword
+Comment: 0,0:01:58.02,0:02:00.27,Monii,,0,0,0,karaoke,{\k42}My {\k23}li{\k12}fe {\k25}is {\kf123}yours
+Comment: 0,0:02:00.02,0:02:04.31,Monii,,0,0,0,karaoke,{\k51}I {\k48}can {\k41}hear {\k62}your {\k32}pul{\k16}se, {\k23}got {\k46}you {\k11}in {\k24}my {\k75}veins
+Comment: 0,0:02:04.02,0:02:05.98,Ironmouse,,0,0,0,karaoke,{\k31}For{\k29}ged {\k15}in {\k23}the {\k20}sa{\k12}me {\k11}in{\k35}fer{\k20}no
+Comment: 0,0:02:05.98,0:02:08.19,Ironmouse,,0,0,0,karaoke,{\k42}Mold {\k36}me {\k22}in{\k25}to {\k31}your {\k65}own
+Comment: 0,0:02:08.27,0:02:10.02,Ironmouse,,0,0,0,karaoke,{\k27}Got {\k9}bat{\k16}tle {\k25}scars, {\k12}but {\k13}I {\k10}got {\k13}a {\k14}bea{\k13}ting {\k23}heart
+Comment: 0,0:02:10.02,0:02:12.10,Ironmouse,,0,0,0,karaoke,{\k19}I {\k20}need {\k15}you, {\k21}bleed {\k27}you, {\k14}al{\k17}ways {\k8}wan{\k11}na {\k13}be {\k11}with {\k32}you
+Comment: 0,0:02:12.10,0:02:13.02,Ironmouse,,0,0,0,karaoke,{\k14}A {\k7}strong {\k23}shield {\k20}don't {\k28}yield
+Comment: 0,0:02:13.02,0:02:13.90,Ironmouse,,0,0,0,karaoke,{\k13}Keep {\k13}you {\k13}on {\k13}the {\k13}bat{\k10}tle{\k13}field
+Comment: 0,0:02:13.90,0:02:16.10,Ironmouse,,0,0,0,karaoke,{\k13}'Cause {\k22}I'm {\k17}yours, {\k30}you're {\k30}mine, {\k28}you {\k19}are {\k11}my {\k25}life{\k25}line
+Comment: 0,0:02:16.10,0:02:23.81,Monii,,0,0,0,karaoke,{\kf103}You're {\kf85}there {\kf100}in {\kf103}my {\kf134}dreams {\k32}that {\k31}I've {\kf183}dreamt
+Comment: 0,0:02:24.23,0:02:32.02,Monii,,0,0,0,karaoke,{\kf85}It's {\kf75}just {\kf102}you {\k119}and {\kf123}me {\k50}in {\k23}the {\kf202}end
+Comment: 0,0:02:32.02,0:02:34.56,Monii,,0,0,0,karaoke,{\k49}Bound {\k42}by {\k57}blood {\k45}and {\k61}flames
+Comment: 0,0:02:34.56,0:02:35.98,Ironmouse,,0,0,0,karaoke,{\k17}We {\k23}are {\k30}shat{\k28}ter{\k44}proof
+Comment: 0,0:02:36.02,0:02:38.65,Monii,,0,0,0,karaoke,{\k39}I {\k60}call {\k38}out {\k60}your {\k53}na{\k13}me
+Comment: 0,0:02:38.65,0:02:40.10,Ironmouse,,0,0,0,karaoke,{\k15}And {\k24}you {\k26}know {\k16}the {\k64}truth
+Comment: 0,0:02:40.10,0:02:41.98,Monii,,0,0,0,karaoke,{\k44}We {\k40}link {\k33}link {\k29}link {\k42}up
+Comment: 0,0:02:42.02,0:02:44.02,Monii,,0,0,0,karaoke,{\k52}Link {\k38}link {\k36}link {\k26}link {\k21}up {\k27}now
+Comment: 0,0:02:44.02,0:02:45.98,Monii,,0,0,0,karaoke,{\k43}Link {\k38}link {\k35}link {\k26}link {\k54}up
+Comment: 0,0:02:46.02,0:02:48.06,Monii,,0,0,0,karaoke,{\k52}Link {\k38}link {\k36}link {\k26}link {\k21}up {\k31}now
+Comment: 0,0:02:48.06,0:02:50.60,Monii,,0,0,0,karaoke,{\k47}I {\k51}was {\k51}left {\k47}for {\k58}dead
+Comment: 0,0:02:50.60,0:02:52.06,Ironmouse,,0,0,0,karaoke,{\k22}But {\k25}you {\k27}sal{\k20}vaged {\k52}me
+Comment: 0,0:02:52.06,0:02:54.60,Monii,,0,0,0,karaoke,{\k31}Quen{\k18}ch {\k45}this {\k39}mol{\k61}ten {\k60}lead
+Comment: 0,0:02:54.60,0:02:56.10,Ironmouse,,0,0,0,karaoke,{\k25}'Cause {\k21}it's {\k22}o{\k23}ver{\k30}hea{\k29}ting
+Comment: 0,0:02:56.10,0:02:58.02,Monii,,0,0,0,karaoke,{\k44}Link {\k40}link {\k33}link {\k29}link {\k46}up
+Comment: 0,0:02:58.02,0:02:59.98,Monii,,0,0,0,karaoke,{\k52}Link {\k38}link {\k36}link {\k26}link {\k21}up {\k23}now
+Comment: 0,0:03:00.02,0:03:01.98,Monii,,0,0,0,karaoke,{\k44}Link {\k40}link {\k33}link {\k29}link {\k50}up
+Comment: 0,0:03:02.02,0:03:04.06,Monii,,0,0,0,karaoke,{\k52}Link {\k38}link {\k36}link {\k26}link {\k21}up {\k31}now
+Comment: 0,0:03:04.06,0:03:04.73,Monii,,0,0,0,karaoke,{\k67}Link
+Dialogue: 0,0:00:15.33,0:00:18.26,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k12}Fi{\k19}re {\k15}bur{\k11}nin' {\k23}up, {\k27}strike {\k14}when {\k17}it's {\k18}red-{\k27}hot
+Dialogue: 0,0:00:17.16,0:00:20.10,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k10}Call {\k15}it {\k19}our {\k26}new {\k29}sal{\k22}va{\k63}tion
+Dialogue: 0,0:00:19.62,0:00:21.80,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k11}Run{\k17}nin' {\k11}through {\k14}the {\k22}hot {\k20}coal{\k13}s
+Dialogue: 0,0:00:20.70,0:00:22.72,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k7}Feel {\k8}it, {\k10}and {\k20}we {\k25}both {\k22}know
+Dialogue: 0,0:00:21.62,0:00:24.43,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k15}No{\k13}thing's {\k9}gon{\k16}na {\k25}break {\k27}these {\k66}souls
+Dialogue: 0,0:00:23.37,0:00:26.22,Ironmouse,,0,0,0,fx,{\k90\fad(300,200)}{\k10}You {\k18}and {\k19}me, {\k13}we'll {\k21}be {\k19}steel {\k23}and {\k29}i{\k23}ron
+Dialogue: 0,0:00:25.16,0:00:28.26,Ironmouse,,0,0,0,fx,{\k90\fad(300,200)}{\k11}Ne{\k13}ver {\k16}been {\k35}free, {\k12}but {\k11}we {\k27}stay {\k8}de{\k67}fiant
+Dialogue: 0,0:00:27.20,0:00:29.47,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Got {\k5}a {\k23}gold {\k26}crown {\k25}weighing {\k23}me
+Dialogue: 0,0:00:28.37,0:00:30.80,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Weighing {\k32}me {\k80}down
+Dialogue: 0,0:00:29.12,0:00:32.85,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k54}Can {\k37}you {\k56}feel {\k59}my {\k57}pain
+Dialogue: 0,0:00:31.12,0:00:36.47,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k51}I {\k48}can {\k41}hear {\k62}your {\k30}pu{\k18}lse, {\k23}got {\k46}you {\k11}in {\k24}my {\k71}veins
+Dialogue: 0,0:00:35.12,0:00:38.10,Ironmouse,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Sy{\k47}ner{\k22}gy {\k28}that {\k23}we {\k27}got {\k10}is
+Dialogue: 0,0:00:37.00,0:00:40.51,Ironmouse,,0,0,0,fx,{\k90\fad(300,200)}{\k53}Some{\k36}thing {\k23}they {\k27}call {\k24}de{\k54}mo{\k24}nic
+Dialogue: 0,0:00:39.41,0:00:42.22,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k19}They {\k15}wor{\k15}ship {\k25}me, {\k10}loo{\k10}king {\k15}but {\k15}they {\k6}ne{\k16}ver {\k15}see {\k10}it
+Dialogue: 0,0:00:41.12,0:00:43.18,Ironmouse,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Broke {\k32}hearts, {\k24}deep {\k18}scars
+Dialogue: 0,0:00:42.08,0:00:44.30,Ironmouse,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Haun{\k14}ted {\k7}by {\k17}a {\k10}le{\k7}ga{\k23}cy {\k16}this
+Dialogue: 0,0:00:43.20,0:00:45.35,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Shared {\k24}pain, {\k18}gold {\k43}chains
+Dialogue: 0,0:00:44.25,0:00:46.22,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k8}It's {\k14}ok {\k14}if {\k11}we're {\k17}still {\k11}blee{\k12}ding
+Dialogue: 0,0:00:45.16,0:00:48.26,Ironmouse,,0,0,0,fx,{\k90\fad(300,200)}{\k24}I'm {\k15}yours, {\k34}you're {\k25}mine, {\k25}you {\k12}are {\k12}my {\k18}life{\k35}line
+Dialogue: 0,0:00:47.16,0:00:56.05,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\kf103}You're {\kf85}there {\kf100}in {\kf107}my {\kf133}dreams {\k29}that {\k31}I've {\kf191}dreamt
+Dialogue: 0,0:00:55.00,0:01:04.26,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\kf114}It's {\kf80}just {\kf114}you {\k85}and {\kf140}me {\k47}in {\k21}the {\kf215}end
+Dialogue: 0,0:01:03.16,0:01:06.80,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k49}Bound {\k42}by {\k57}blood {\k45}and {\k61}flames
+Dialogue: 0,0:01:05.70,0:01:08.26,Ironmouse,,0,0,0,fx,{\k90\fad(300,200)}{\k17}We {\k23}are {\k30}shat{\k24}ter{\k52}proof
+Dialogue: 0,0:01:07.16,0:01:10.76,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k39}I {\k60}call {\k38}out {\k60}your {\k36}na{\k17}me
+Dialogue: 0,0:01:09.66,0:01:12.30,Ironmouse,,0,0,0,fx,{\k90\fad(300,200)}{\k23}And {\k24}you {\k27}know {\k17}the {\k63}truth
+Dialogue: 0,0:01:11.20,0:01:14.22,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k44}We {\k40}link {\k33}link {\k29}link {\k46}up
+Dialogue: 0,0:01:13.12,0:01:16.30,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k52}Link {\k38}link {\k36}link {\k26}link {\k21}up {\k35}now
+Dialogue: 0,0:01:15.20,0:01:18.18,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Link {\k38}link {\k35}link {\k26}link {\k46}up
+Dialogue: 0,0:01:17.12,0:01:20.26,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k53}Link {\k43}link {\k28}link {\k27}link {\k27}up {\k26}now
+Dialogue: 0,0:01:19.16,0:01:22.97,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k47}I {\k51}was {\k51}left {\k47}for {\k75}dead
+Dialogue: 0,0:01:21.62,0:01:24.30,Ironmouse,,0,0,0,fx,{\k90\fad(300,200)}{\k22}But {\k25}you {\k27}sal{\k27}vaged {\k57}me
+Dialogue: 0,0:01:23.20,0:01:26.93,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Quen{\k18}ch {\k45}this {\k39}mol{\k61}ten {\k69}lead
+Dialogue: 0,0:01:25.62,0:01:28.30,Ironmouse,,0,0,0,fx,{\k90\fad(300,200)}{\k25}'Cause {\k21}it's {\k30}o{\k21}ver{\k29}hea{\k32}ting
+Dialogue: 0,0:01:27.20,0:01:30.14,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k42}Link {\k42}link {\k35}link {\k25}link {\k40}up
+Dialogue: 0,0:01:29.12,0:01:32.22,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k53}Link {\k32}link {\k30}link {\k36}link {\k26}up {\k23}now
+Dialogue: 0,0:01:31.12,0:01:34.18,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k53}Link {\k42}link {\k31}link {\k31}link {\k39}up
+Dialogue: 0,0:01:33.12,0:01:36.26,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k39}Link {\k52}link {\k26}link {\k35}link {\k24}up {\k28}now
+Dialogue: 0,0:01:35.16,0:01:36.93,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k67}Link
+Dialogue: 0,0:01:42.29,0:01:46.35,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k34}It's {\k37}time{\k27} {\k10}to {\k27}step {\k25}in, {\k18}they {\k32}try {\k11}but {\k14}they {\k27}can't {\k34}win
+Dialogue: 0,0:01:45.33,0:01:48.39,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k15}'Cause {\k15}we're {\k12}gon{\k14}na {\k16}stay {\k31}sharp {\k9}li{\k14}ke {\k7}a {\k25}wea{\k38}pon
+Dialogue: 0,0:01:47.33,0:01:50.43,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k25}They {\k12}know {\k20}this, {\k24}they're {\k25}not {\k8}gon{\k14}na {\k26}stop {\k46}us
+Dialogue: 0,0:01:49.37,0:01:52.35,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k20}One {\k30}mind, {\k27}one {\k26}heart, {\k11}we'll {\k10}be {\k23}fear{\k41}less
+Dialogue: 0,0:01:51.25,0:01:54.22,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k15}You'll {\k22}be {\k12}here {\k10}with {\k17}me {\k13}for {\k14}bet{\k12}ter {\k13}or {\k29}worse, {\k11}I {\k19}know
+Dialogue: 0,0:01:53.12,0:01:55.43,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k17}May{\k15}be {\k11}it's {\k10}a {\k12}bles{\k13}sing {\k11}e{\k13}ven {\k19}though
+Dialogue: 0,0:01:54.33,0:01:56.39,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k10}I {\k10}been {\k23}cursed {\k7}and {\k46}so
+Dialogue: 0,0:01:55.29,0:01:58.10,Ironmouse,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Take {\k36}up {\k28}this {\k13}dou{\k13}ble{\k7}-edged {\k52}sword
+Dialogue: 0,0:01:57.12,0:02:00.47,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k42}My {\k23}li{\k12}fe {\k25}is {\kf123}yours
+Dialogue: 0,0:01:59.12,0:02:04.51,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k51}I {\k48}can {\k41}hear {\k62}your {\k32}pul{\k16}se, {\k23}got {\k46}you {\k11}in {\k24}my {\k75}veins
+Dialogue: 0,0:02:03.12,0:02:06.18,Ironmouse,,0,0,0,fx,{\k90\fad(300,200)}{\k31}For{\k29}ged {\k15}in {\k23}the {\k20}sa{\k12}me {\k11}in{\k35}fer{\k20}no
+Dialogue: 0,0:02:05.08,0:02:08.39,Ironmouse,,0,0,0,fx,{\k90\fad(300,200)}{\k42}Mold {\k36}me {\k22}in{\k25}to {\k31}your {\k65}own
+Dialogue: 0,0:02:07.37,0:02:10.22,Ironmouse,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Got {\k9}bat{\k16}tle {\k25}scars, {\k12}but {\k13}I {\k10}got {\k13}a {\k14}bea{\k13}ting {\k23}heart
+Dialogue: 0,0:02:09.12,0:02:12.30,Ironmouse,,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k20}need {\k15}you, {\k21}bleed {\k27}you, {\k14}al{\k17}ways {\k8}wan{\k11}na {\k13}be {\k11}with {\k32}you
+Dialogue: 0,0:02:11.20,0:02:13.22,Ironmouse,,0,0,0,fx,{\k90\fad(300,200)}{\k14}A {\k7}strong {\k23}shield {\k20}don't {\k28}yield
+Dialogue: 0,0:02:12.12,0:02:14.10,Ironmouse,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Keep {\k13}you {\k13}on {\k13}the {\k13}bat{\k10}tle{\k13}field
+Dialogue: 0,0:02:13.00,0:02:16.30,Ironmouse,,0,0,0,fx,{\k90\fad(300,200)}{\k13}'Cause {\k22}I'm {\k17}yours, {\k30}you're {\k30}mine, {\k28}you {\k19}are {\k11}my {\k25}life{\k25}line
+Dialogue: 0,0:02:15.20,0:02:24.01,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\kf103}You're {\kf85}there {\kf100}in {\kf103}my {\kf134}dreams {\k32}that {\k31}I've {\kf183}dreamt
+Dialogue: 0,0:02:23.33,0:02:32.22,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\kf85}It's {\kf75}just {\kf102}you {\k119}and {\kf123}me {\k50}in {\k23}the {\kf202}end
+Dialogue: 0,0:02:31.12,0:02:34.76,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k49}Bound {\k42}by {\k57}blood {\k45}and {\k61}flames
+Dialogue: 0,0:02:33.66,0:02:36.18,Ironmouse,,0,0,0,fx,{\k90\fad(300,200)}{\k17}We {\k23}are {\k30}shat{\k28}ter{\k44}proof
+Dialogue: 0,0:02:35.12,0:02:38.85,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k39}I {\k60}call {\k38}out {\k60}your {\k53}na{\k13}me
+Dialogue: 0,0:02:37.75,0:02:40.30,Ironmouse,,0,0,0,fx,{\k90\fad(300,200)}{\k15}And {\k24}you {\k26}know {\k16}the {\k64}truth
+Dialogue: 0,0:02:39.20,0:02:42.18,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k44}We {\k40}link {\k33}link {\k29}link {\k42}up
+Dialogue: 0,0:02:41.12,0:02:44.22,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k52}Link {\k38}link {\k36}link {\k26}link {\k21}up {\k27}now
+Dialogue: 0,0:02:43.12,0:02:46.18,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Link {\k38}link {\k35}link {\k26}link {\k54}up
+Dialogue: 0,0:02:45.12,0:02:48.26,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k52}Link {\k38}link {\k36}link {\k26}link {\k21}up {\k31}now
+Dialogue: 0,0:02:47.16,0:02:50.80,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k47}I {\k51}was {\k51}left {\k47}for {\k58}dead
+Dialogue: 0,0:02:49.70,0:02:52.26,Ironmouse,,0,0,0,fx,{\k90\fad(300,200)}{\k22}But {\k25}you {\k27}sal{\k20}vaged {\k52}me
+Dialogue: 0,0:02:51.16,0:02:54.80,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Quen{\k18}ch {\k45}this {\k39}mol{\k61}ten {\k60}lead
+Dialogue: 0,0:02:53.70,0:02:56.30,Ironmouse,,0,0,0,fx,{\k90\fad(300,200)}{\k25}'Cause {\k21}it's {\k22}o{\k23}ver{\k30}hea{\k29}ting
+Dialogue: 0,0:02:55.20,0:02:58.22,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Link {\k40}link {\k33}link {\k29}link {\k46}up
+Dialogue: 0,0:02:57.12,0:03:00.18,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k52}Link {\k38}link {\k36}link {\k26}link {\k21}up {\k23}now
+Dialogue: 0,0:02:59.12,0:03:02.18,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Link {\k40}link {\k33}link {\k29}link {\k50}up
+Dialogue: 0,0:03:01.12,0:03:04.26,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k52}Link {\k38}link {\k36}link {\k26}link {\k21}up {\k31}now
+Dialogue: 0,0:03:03.16,0:03:04.93,Monii,,0,0,0,fx,{\k90\fad(300,200)}{\k67}Link
