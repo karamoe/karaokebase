@@ -1,0 +1,171 @@
+﻿[Script Info]
+Title: Pink Pony Club
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: piharatamo, ono3000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Clara,Arial,24,&H00FFFFFF,&H00C990FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:09.40,0:00:13.40,Clara,,0,0,0,karaoke,{\k49}I {\k140}know {\k28}you {\k25}wan{\k25}ted {\k21}me {\k27}to {\k108}stay
+Comment: 1,0:00:13.74,0:00:14.80,Clara,,0,0,0,karaoke,{\k10}But {\k10}I {\k32}can't {\k31}ig{\k19}nore
+Comment: 1,0:00:14.89,0:00:17.96,Clara,,0,0,0,karaoke,{\k15}The {\k26}cra{\k29}zy {\k24}vi{\k40}sions {\k31}of {\k29}me {\k16}in {\k24}L{\k73}A
+Comment: 1,0:00:17.96,0:00:22.57,Clara,,0,0,0,karaoke,{\k58}And {\k52}I {\k141}heard {\k25}that {\k38}there's {\k14}a {\k37}spe{\k23}cial {\k90}place
+Comment: 1,0:00:22.92,0:00:25.37,Clara,,0,0,0,karaoke,{\k17}Where {\k26}boys {\k31}and {\k21}girls {\k28}can {\k36}all {\k29}be {\k57}queens
+Comment: 1,0:00:25.37,0:00:27.35,Clara,,0,0,0,karaoke,{\k17}E{\k18}ve{\k19}ry {\k24}sin{\k29}gle {\k91}day
+Comment: 1,0:00:27.97,0:00:29.98,Clara,,0,0,0,karaoke,{\k24}I'm {\k25}ha{\k32}ving {\k26}wi{\k24}cked {\k99}dreams
+Comment: 1,0:00:30.27,0:00:32.23,Clara,,0,0,0,karaoke,{\k23}Of {\k24}lea{\k24}ving {\k24}Ten{\k21}nes{\k80}see
+Comment: 1,0:00:32.50,0:00:34.47,Clara,,0,0,0,karaoke,{\k28}Oh, {\k23}San{\k30}ta {\k28}Mo{\k24}ni{\k96}ca
+Comment: 1,0:00:34.74,0:00:36.76,Clara,,0,0,0,karaoke,{\k20}I {\k44}swear {\k18}it's {\k31}cal{\k31}ling {\k58}me
+Comment: 1,0:00:37.08,0:00:38.99,Clara,,0,0,0,karaoke,{\k25}Won't {\k29}make {\k26}my {\k29}ma{\k27}ma {\k75}proud
+Comment: 1,0:00:39.38,0:00:41.35,Clara,,0,0,0,karaoke,{\k23}It's {\k27}gon{\k23}na {\k33}cause {\k31}a {\k69}scene
+Comment: 1,0:00:41.57,0:00:43.58,Clara,,0,0,0,karaoke,{\k28}She {\k30}sees {\k28}her {\k29}ba{\k27}by {\k64}girl
+Comment: 1,0:00:43.88,0:00:45.91,Clara,,0,0,0,karaoke,{\k25}I {\k20}know {\k39}she's {\k28}gon{\k23}na {\k72}scream
+Comment: 1,0:00:45.95,0:00:48.82,Clara,,0,0,0,karaoke,{\kf112}God, {\k28}what {\k28}have {\k30}you {\k35}do~{\k54}one
+Comment: 1,0:00:49.04,0:00:51.06,Clara,,0,0,0,karaoke,{\k15}You're {\k12}a {\k27}pink {\k26}po{\k34}ny {\k88}girl
+Comment: 1,0:00:51.29,0:00:52.98,Clara,,0,0,0,karaoke,{\k9}And {\k20}you {\k29}dance {\k29}at {\k19}the {\k76}club
+Comment: 1,0:00:53.11,0:00:57.93,Clara,,0,0,0,karaoke,{\k54}Oh, {\k34}ma{\k73}ma {\kf140}I'm {\k33}just {\k28}ha{\k32}ving {\k35}fu~{\k53}un
+Comment: 1,0:00:58.14,0:01:00.25,Clara,,0,0,0,karaoke,{\k10}On {\k19}the {\k31}stage {\k27}in {\k30}my {\kf86}heels
+Comment: 1,0:01:00.49,0:01:02.19,Clara,,0,0,0,karaoke,{\k19}It's {\k40}where {\k27}I {\k29}be{\k62}long
+Comment: 1,0:01:02.26,0:01:05.89,Clara,,0,0,0,karaoke,{\k56}Down {\k56}at {\k78}the {\k54}Pink {\k33}Po{\k29}ny {\k84}Club
+Comment: 1,0:01:06.12,0:01:08.07,Clara,,0,0,0,karaoke,{\k56}I'm {\k13}gon{\k15}na {\k28}keep {\k29}on {\k27}dan{\k32}cing
+Comment: 1,0:01:08.07,0:01:10.39,Clara,,0,0,0,karaoke,{\k28}At {\k31}the {\k53}Pink {\k32}Po{\k25}ny {\k74}Club
+Comment: 1,0:01:10.63,0:01:12.59,Clara,,0,0,0,karaoke,{\k56}I'm {\k13}gon{\k15}na {\k28}keep {\k27}on {\k29}dan{\k28}cing
+Comment: 1,0:01:12.59,0:01:14.84,Clara,,0,0,0,karaoke,{\k28}Down {\k26}in {\k58}West {\k28}Hol{\k28}ly{\k71}wood
+Comment: 1,0:01:15.16,0:01:17.03,Clara,,0,0,0,karaoke,{\k51}I'm {\k14}gon{\k14}na {\k28}keep {\k28}on {\k30}dan{\k27}cing
+Comment: 1,0:01:17.03,0:01:19.33,Clara,,0,0,0,karaoke,{\k29}At {\k26}the {\k57}Pink {\k26}Po{\k29}ny {\k58}Club
+Comment: 1,0:01:19.59,0:01:21.59,Clara,,0,0,0,karaoke,{\k81}Pink {\k31}Po{\k28}ny {\k94}Club
+Comment: 1,0:01:22.07,0:01:26.08,Clara,,0,0,0,karaoke,{\k50}I'm {\k146}up {\k33}and {\k44}jaws {\k11}are {\k18}on {\k14}the {\k111}floor
+Comment: 1,0:01:26.59,0:01:28.29,Clara,,0,0,0,karaoke,{\k29}Lo{\k27}vers {\k21}in {\k19}the {\k42}bath{\k32}room
+Comment: 1,0:01:28.29,0:01:30.33,Clara,,0,0,0,karaoke,{\k29}And {\k26}a {\k31}line {\k10}o{\k13}ut{\k30}side {\k9}the {\k85}door
+Comment: 1,0:01:31.06,0:01:34.86,Clara,,0,0,0,karaoke,{\k42}Black{\k157}lights {\k9}and {\k10}a {\k29}mir{\k27}rored {\k27}dis{\k20}co {\k104}ball
+Comment: 1,0:01:35.54,0:01:37.68,Clara,,0,0,0,karaoke,{\k30}E{\k28}very {\k27}night's {\k20}a{\k37}no{\k26}ther {\k28}rea{\k28}son
+Comment: 1,0:01:37.78,0:01:39.51,Clara,,0,0,0,karaoke,{\k28}Why {\k30}I {\k31}left {\k16}it {\k111}all
+Comment: 1,0:01:40.32,0:01:42.33,Clara,,0,0,0,karaoke,{\k28}I {\k28}thank {\k28}my {\k28}wic{\k28}ked {\k84}dreams
+Comment: 1,0:01:42.56,0:01:44.56,Clara,,0,0,0,karaoke,{\k28}A {\k28}year {\k28}from {\k28}Ten{\k32}nes{\k56}see
+Comment: 1,0:01:44.80,0:01:46.83,Clara,,0,0,0,karaoke,{\k28}Oh, {\k29}San{\k28}ta {\k27}Mo{\k32}ni{\k80}ca
+Comment: 1,0:01:47.04,0:01:49.00,Clara,,0,0,0,karaoke,{\k30}You've {\k26}been {\k30}too {\k26}good {\k30}to {\k73}me
+Comment: 1,0:01:49.31,0:01:51.30,Clara,,0,0,0,karaoke,{\k28}Won't {\k28}make {\k28}my {\k28}ma{\k28}ma {\k82}proud
+Comment: 1,0:01:51.55,0:01:53.42,Clara,,0,0,0,karaoke,{\k28}It's {\k28}gon{\k28}na {\k28}cause {\k30}a {\k70}scene
+Comment: 1,0:01:53.77,0:01:55.72,Clara,,0,0,0,karaoke,{\k23}She {\k33}sees {\k33}her {\k25}ba{\k28}by {\k73}girl
+Comment: 1,0:01:56.00,0:01:57.73,Clara,,0,0,0,karaoke,{\k31}I {\k25}know {\k21}she's {\k39}gon{\k23}na {\k60}scream
+Comment: 1,0:01:57.99,0:02:00.65,Clara,,0,0,0,karaoke,{\kf111}God, {\k30}what {\k28}have {\k28}you {\k100}done
+Comment: 1,0:02:01.06,0:02:03.01,Clara,,0,0,0,karaoke,{\k17}You're {\k13}a {\k28}pink {\k28}po{\k30}ny {\k99}girl
+Comment: 1,0:02:03.33,0:02:05.03,Clara,,0,0,0,karaoke,{\k11}And {\k19}you {\k29}dance {\k25}at {\k25}the {\k61}club
+Comment: 1,0:02:05.03,0:02:09.67,Clara,,0,0,0,karaoke,{\k57}Oh, {\k52}ma{\k58}ma, {\kf135}I'm {\k29}just {\k28}hav{\k31}ing {\k35}fu~{\k66}un
+Comment: 1,0:02:10.02,0:02:12.18,Clara,,0,0,0,karaoke,{\k10}On {\k12}the {\k39}stage {\k27}in {\k28}my {\kf100}heels
+Comment: 1,0:02:12.28,0:02:13.83,Clara,,0,0,0,karaoke,{\k26}It's {\k32}where {\k29}I {\k29}be{\k55}long
+Comment: 1,0:02:13.99,0:02:17.50,Clara,,0,0,0,karaoke,{\k56}Down {\k56}at {\k80}the {\k57}Pink {\k31}Po{\k28}ny {\k43}Club
+Comment: 1,0:02:17.87,0:02:19.87,Clara,,0,0,0,karaoke,{\k58}I'm {\k15}gon{\k12}na {\k30}keep {\k29}on {\k28}dan{\k28}cing
+Comment: 1,0:02:19.87,0:02:22.27,Clara,,0,0,0,karaoke,{\k28}At {\k28}the {\k53}Pink {\k31}Po{\k28}ny {\k72}Club
+Comment: 1,0:02:22.39,0:02:24.35,Clara,,0,0,0,karaoke,{\k55}I'm {\k15}gon{\k14}na {\k28}keep {\k28}on {\k28}dan{\k28}cing
+Comment: 1,0:02:24.35,0:02:26.61,Clara,,0,0,0,karaoke,{\k32}Down {\k24}in {\k53}West {\k28}Hol{\k31}ly{\k84}wood
+Comment: 1,0:02:26.87,0:02:28.83,Clara,,0,0,0,karaoke,{\k52}I'm {\k17}gon{\k15}na {\k28}keep {\k28}on {\k28}dan{\k28}cing
+Comment: 1,0:02:28.83,0:02:31.00,Clara,,0,0,0,karaoke,{\k28}At {\k28}the {\k56}Pink {\k28}Po{\k28}ny {\k73}Club
+Comment: 1,0:02:31.35,0:02:33.38,Clara,,0,0,0,karaoke,{\k81}Pink {\k31}Po{\k28}ny {\k63}Club
+Comment: 1,0:02:42.90,0:02:46.79,Clara,,0,0,0,karaoke,{\k29}Don't {\k157}think {\k35}I've {\k29}left {\k31}you {\k25}all {\k20}be{\k63}hind
+Comment: 1,0:02:47.39,0:02:49.27,Clara,,0,0,0,karaoke,{\k30}Still {\k23}love {\k29}you {\k22}and {\k20}Ten{\k21}nes{\k43}see
+Comment: 1,0:02:49.49,0:02:51.18,Clara,,0,0,0,karaoke,{\k20}You're {\k23}al{\k31}ways {\k26}on {\k25}my {\k44}mind
+Comment: 1,0:02:51.89,0:02:56.08,Clara,,0,0,0,karaoke,{\k20}And {\k44}ma{\k178}ma, {\k25}eve{\k32}ry {\k41}sa{\k20}tur{\k59}day
+Comment: 1,0:02:56.60,0:02:58.72,Clara,,0,0,0,karaoke,{\k22}I {\k25}can {\k35}hear {\k24}your {\k28}sou{\k25}thern {\k53}drawl
+Comment: 1,0:02:58.95,0:03:01.34,Clara,,0,0,0,karaoke,{\k15}A {\k12}thou{\k36}sand {\k41}miles {\k14}a{\k51}way {\k25}say{\k45}ing
+Comment: 1,0:03:01.34,0:03:04.19,Clara,,0,0,0,karaoke,{\kf121}God, {\k17}what {\k35}have {\k25}you {\k87}done
+Comment: 1,0:03:04.51,0:03:06.35,Clara,,0,0,0,karaoke,{\k14}You're {\k14}a {\k28}pink {\k32}po{\k26}ny {\k106}girl
+Comment: 1,0:03:06.81,0:03:08.55,Clara,,0,0,0,karaoke,{\k10}And {\k18}you {\k28}dance {\k28}at {\k23}the {\k67}club
+Comment: 1,0:03:08.57,0:03:13.41,Clara,,0,0,0,karaoke,{\k56}Oh, {\k58}ma{\k60}ma, {\kf135}I'm {\k31}just {\k32}ha{\k28}ving {\k37}fu~{\k47}un
+Comment: 1,0:03:13.72,0:03:15.69,Clara,,0,0,0,karaoke,{\k8}On {\k10}the {\k38}stage {\k30}in {\k32}my {\kf79}heels
+Comment: 1,0:03:16.25,0:03:17.75,Clara,,0,0,0,karaoke,{\k11}It's {\k30}where {\k29}I {\k24}be{\k56}long
+Comment: 1,0:03:17.75,0:03:21.50,Clara,,0,0,0,karaoke,{\k62}Down {\k56}at {\k84}the {\k56}Pink {\k28}Po{\k28}ny {\k61}Club
+Comment: 1,0:03:21.75,0:03:23.71,Clara,,0,0,0,karaoke,{\k56}I'm {\k14}gon{\k14}na {\k28}keep {\k28}on {\k28}dan{\k28}cing
+Comment: 1,0:03:23.71,0:03:26.00,Clara,,0,0,0,karaoke,{\k28}At {\k28}the {\k56}Pink {\k28}Po{\k28}ny {\k56}Club
+Comment: 1,0:03:26.24,0:03:28.16,Clara,,0,0,0,karaoke,{\k56}I'm {\k12}gon{\k16}na {\k28}keep {\k28}on {\k28}dan{\k28}cing
+Comment: 1,0:03:28.16,0:03:30.44,Clara,,0,0,0,karaoke,{\k28}Down {\k28}in {\k56}West {\k28}Hol{\k28}ly{\k80}wood
+Comment: 1,0:03:30.72,0:03:32.68,Clara,,0,0,0,karaoke,{\k55}I'm {\k15}gon{\k14}na {\k28}keep {\k28}on {\k28}dan{\k28}cing
+Comment: 1,0:03:32.68,0:03:34.94,Clara,,0,0,0,karaoke,{\k28}At {\k28}the {\k56}Pink {\k28}Po{\k28}ny {\k67}Club
+Comment: 1,0:03:35.21,0:03:37.20,Clara,,0,0,0,karaoke,{\k82}Pink {\k27}Po{\k26}ny {\k64}Club
+Comment: 1,0:03:57.59,0:04:01.24,Clara,,0,0,0,karaoke,{\k56}I'm {\k14}gon{\k14}na {\k28}keep {\k28}on {\kf62}dan{\kf28}~{\kf135}cing
+Comment: 1,0:04:02.13,0:04:06.32,Clara,,0,0,0,karaoke,{\k55}I'm {\k15}gon{\k11}na {\k29}keep {\k31}on {\kf54}dan{\kf31}~{\kf193}cing
+Dialogue: 1,0:00:08.50,0:00:13.60,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k49}I {\k140}know {\k28}you {\k25}wan{\k25}ted {\k21}me {\k27}to {\k108}stay
+Dialogue: 1,0:00:12.84,0:00:15.00,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k10}But {\k10}I {\k32}can't {\k31}ig{\k19}nore
+Dialogue: 1,0:00:13.99,0:00:18.16,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k15}The {\k26}cra{\k29}zy {\k24}vi{\k40}sions {\k31}of {\k29}me {\k16}in {\k24}L{\k73}A
+Dialogue: 1,0:00:17.06,0:00:22.77,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k58}And {\k52}I {\k141}heard {\k25}that {\k38}there's {\k14}a {\k37}spe{\k23}cial {\k90}place
+Dialogue: 1,0:00:22.02,0:00:25.57,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Where {\k26}boys {\k31}and {\k21}girls {\k28}can {\k36}all {\k29}be {\k57}queens
+Dialogue: 1,0:00:24.47,0:00:27.55,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k17}E{\k18}ve{\k19}ry {\k24}sin{\k29}gle {\k91}day
+Dialogue: 1,0:00:27.07,0:00:30.18,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k24}I'm {\k25}ha{\k32}ving {\k26}wi{\k24}cked {\k99}dreams
+Dialogue: 1,0:00:29.37,0:00:32.43,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Of {\k24}lea{\k24}ving {\k24}Ten{\k21}nes{\k80}see
+Dialogue: 1,0:00:31.60,0:00:34.67,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Oh, {\k23}San{\k30}ta {\k28}Mo{\k24}ni{\k96}ca
+Dialogue: 1,0:00:33.84,0:00:36.96,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k20}I {\k44}swear {\k18}it's {\k31}cal{\k31}ling {\k58}me
+Dialogue: 1,0:00:36.18,0:00:39.19,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Won't {\k29}make {\k26}my {\k29}ma{\k27}ma {\k75}proud
+Dialogue: 1,0:00:38.48,0:00:41.55,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k23}It's {\k27}gon{\k23}na {\k33}cause {\k31}a {\k69}scene
+Dialogue: 1,0:00:40.67,0:00:43.78,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k28}She {\k30}sees {\k28}her {\k29}ba{\k27}by {\k64}girl
+Dialogue: 1,0:00:42.98,0:00:46.11,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k20}know {\k39}she's {\k28}gon{\k23}na {\k72}scream
+Dialogue: 1,0:00:45.05,0:00:49.02,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\kf112}God, {\k28}what {\k28}have {\k30}you {\k35}do~{\k54}one
+Dialogue: 1,0:00:48.14,0:00:51.26,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k15}You're {\k12}a {\k27}pink {\k26}po{\k34}ny {\k88}girl
+Dialogue: 1,0:00:50.39,0:00:53.18,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k9}And {\k20}you {\k29}dance {\k29}at {\k19}the {\k76}club
+Dialogue: 1,0:00:52.21,0:00:58.13,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k54}Oh, {\k34}ma{\k73}ma {\kf140}I'm {\k33}just {\k28}ha{\k32}ving {\k35}fu~{\k53}un
+Dialogue: 1,0:00:57.24,0:01:00.45,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k10}On {\k19}the {\k31}stage {\k27}in {\k30}my {\kf86}heels
+Dialogue: 1,0:00:59.59,0:01:02.39,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k19}It's {\k40}where {\k27}I {\k29}be{\k62}long
+Dialogue: 1,0:01:01.36,0:01:06.09,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k56}Down {\k56}at {\k78}the {\k54}Pink {\k33}Po{\k29}ny {\k84}Club
+Dialogue: 1,0:01:05.22,0:01:08.27,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k56}I'm {\k13}gon{\k15}na {\k28}keep {\k29}on {\k27}dan{\k32}cing
+Dialogue: 1,0:01:07.17,0:01:10.59,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k28}At {\k31}the {\k53}Pink {\k32}Po{\k25}ny {\k74}Club
+Dialogue: 1,0:01:09.73,0:01:12.79,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k56}I'm {\k13}gon{\k15}na {\k28}keep {\k27}on {\k29}dan{\k28}cing
+Dialogue: 1,0:01:11.69,0:01:15.04,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Down {\k26}in {\k58}West {\k28}Hol{\k28}ly{\k71}wood
+Dialogue: 1,0:01:14.26,0:01:17.23,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k51}I'm {\k14}gon{\k14}na {\k28}keep {\k28}on {\k30}dan{\k27}cing
+Dialogue: 1,0:01:16.13,0:01:19.53,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k29}At {\k26}the {\k57}Pink {\k26}Po{\k29}ny {\k58}Club
+Dialogue: 1,0:01:18.69,0:01:21.79,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k81}Pink {\k31}Po{\k28}ny {\k94}Club
+Dialogue: 1,0:01:21.17,0:01:26.28,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k50}I'm {\k146}up {\k33}and {\k44}jaws {\k11}are {\k18}on {\k14}the {\k111}floor
+Dialogue: 1,0:01:25.69,0:01:28.49,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Lo{\k27}vers {\k21}in {\k19}the {\k42}bath{\k32}room
+Dialogue: 1,0:01:27.39,0:01:30.53,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k29}And {\k26}a {\k31}line {\k10}o{\k13}ut{\k30}side {\k9}the {\k85}door
+Dialogue: 1,0:01:30.16,0:01:35.06,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k42}Black{\k157}lights {\k9}and {\k10}a {\k29}mir{\k27}rored {\k27}dis{\k20}co {\k104}ball
+Dialogue: 1,0:01:34.64,0:01:37.88,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k30}E{\k28}very {\k27}night's {\k20}a{\k37}no{\k26}ther {\k28}rea{\k28}son
+Dialogue: 1,0:01:36.88,0:01:39.71,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Why {\k30}I {\k31}left {\k16}it {\k111}all
+Dialogue: 1,0:01:39.42,0:01:42.53,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k28}I {\k28}thank {\k28}my {\k28}wic{\k28}ked {\k84}dreams
+Dialogue: 1,0:01:41.66,0:01:44.76,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k28}A {\k28}year {\k28}from {\k28}Ten{\k32}nes{\k56}see
+Dialogue: 1,0:01:43.90,0:01:47.03,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Oh, {\k29}San{\k28}ta {\k27}Mo{\k32}ni{\k80}ca
+Dialogue: 1,0:01:46.14,0:01:49.20,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k30}You've {\k26}been {\k30}too {\k26}good {\k30}to {\k73}me
+Dialogue: 1,0:01:48.41,0:01:51.50,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Won't {\k28}make {\k28}my {\k28}ma{\k28}ma {\k82}proud
+Dialogue: 1,0:01:50.65,0:01:53.62,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k28}It's {\k28}gon{\k28}na {\k28}cause {\k30}a {\k70}scene
+Dialogue: 1,0:01:52.87,0:01:55.92,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k23}She {\k33}sees {\k33}her {\k25}ba{\k28}by {\k73}girl
+Dialogue: 1,0:01:55.10,0:01:57.93,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k31}I {\k25}know {\k21}she's {\k39}gon{\k23}na {\k60}scream
+Dialogue: 1,0:01:57.09,0:02:00.85,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\kf111}God, {\k30}what {\k28}have {\k28}you {\k100}done
+Dialogue: 1,0:02:00.16,0:02:03.21,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k17}You're {\k13}a {\k28}pink {\k28}po{\k30}ny {\k99}girl
+Dialogue: 1,0:02:02.43,0:02:05.23,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k11}And {\k19}you {\k29}dance {\k25}at {\k25}the {\k61}club
+Dialogue: 1,0:02:04.13,0:02:09.87,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k57}Oh, {\k52}ma{\k58}ma, {\kf135}I'm {\k29}just {\k28}hav{\k31}ing {\k35}fu~{\k66}un
+Dialogue: 1,0:02:09.12,0:02:12.38,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k10}On {\k12}the {\k39}stage {\k27}in {\k28}my {\kf100}heels
+Dialogue: 1,0:02:11.38,0:02:14.03,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k26}It's {\k32}where {\k29}I {\k29}be{\k55}long
+Dialogue: 1,0:02:13.09,0:02:17.70,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k56}Down {\k56}at {\k80}the {\k57}Pink {\k31}Po{\k28}ny {\k43}Club
+Dialogue: 1,0:02:16.97,0:02:20.07,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k58}I'm {\k15}gon{\k12}na {\k30}keep {\k29}on {\k28}dan{\k28}cing
+Dialogue: 1,0:02:18.97,0:02:22.47,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k28}At {\k28}the {\k53}Pink {\k31}Po{\k28}ny {\k72}Club
+Dialogue: 1,0:02:21.49,0:02:24.55,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k55}I'm {\k15}gon{\k14}na {\k28}keep {\k28}on {\k28}dan{\k28}cing
+Dialogue: 1,0:02:23.45,0:02:26.81,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Down {\k24}in {\k53}West {\k28}Hol{\k31}ly{\k84}wood
+Dialogue: 1,0:02:25.97,0:02:29.03,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k52}I'm {\k17}gon{\k15}na {\k28}keep {\k28}on {\k28}dan{\k28}cing
+Dialogue: 1,0:02:27.93,0:02:31.20,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k28}At {\k28}the {\k56}Pink {\k28}Po{\k28}ny {\k73}Club
+Dialogue: 1,0:02:30.45,0:02:33.58,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k81}Pink {\k31}Po{\k28}ny {\k63}Club
+Dialogue: 1,0:02:42.00,0:02:46.99,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Don't {\k157}think {\k35}I've {\k29}left {\k31}you {\k25}all {\k20}be{\k63}hind
+Dialogue: 1,0:02:46.49,0:02:49.47,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Still {\k23}love {\k29}you {\k22}and {\k20}Ten{\k21}nes{\k43}see
+Dialogue: 1,0:02:48.59,0:02:51.38,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k20}You're {\k23}al{\k31}ways {\k26}on {\k25}my {\k44}mind
+Dialogue: 1,0:02:50.99,0:02:56.28,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k20}And {\k44}ma{\k178}ma, {\k25}eve{\k32}ry {\k41}sa{\k20}tur{\k59}day
+Dialogue: 1,0:02:55.70,0:02:58.92,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k25}can {\k35}hear {\k24}your {\k28}sou{\k25}thern {\k53}drawl
+Dialogue: 1,0:02:58.05,0:03:01.54,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k15}A {\k12}thou{\k36}sand {\k41}miles {\k14}a{\k51}way {\k25}say{\k45}ing
+Dialogue: 1,0:03:00.44,0:03:04.39,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\kf121}God, {\k17}what {\k35}have {\k25}you {\k87}done
+Dialogue: 1,0:03:03.61,0:03:06.55,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k14}You're {\k14}a {\k28}pink {\k32}po{\k26}ny {\k106}girl
+Dialogue: 1,0:03:05.91,0:03:08.75,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k10}And {\k18}you {\k28}dance {\k28}at {\k23}the {\k67}club
+Dialogue: 1,0:03:07.67,0:03:13.61,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k56}Oh, {\k58}ma{\k60}ma, {\kf135}I'm {\k31}just {\k32}ha{\k28}ving {\k37}fu~{\k47}un
+Dialogue: 1,0:03:12.82,0:03:15.89,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k8}On {\k10}the {\k38}stage {\k30}in {\k32}my {\kf79}heels
+Dialogue: 1,0:03:15.35,0:03:17.95,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k11}It's {\k30}where {\k29}I {\k24}be{\k56}long
+Dialogue: 1,0:03:16.85,0:03:21.70,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k62}Down {\k56}at {\k84}the {\k56}Pink {\k28}Po{\k28}ny {\k61}Club
+Dialogue: 1,0:03:20.85,0:03:23.91,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k56}I'm {\k14}gon{\k14}na {\k28}keep {\k28}on {\k28}dan{\k28}cing
+Dialogue: 1,0:03:22.81,0:03:26.20,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k28}At {\k28}the {\k56}Pink {\k28}Po{\k28}ny {\k56}Club
+Dialogue: 1,0:03:25.34,0:03:28.36,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k56}I'm {\k12}gon{\k16}na {\k28}keep {\k28}on {\k28}dan{\k28}cing
+Dialogue: 1,0:03:27.26,0:03:30.64,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Down {\k28}in {\k56}West {\k28}Hol{\k28}ly{\k80}wood
+Dialogue: 1,0:03:29.82,0:03:32.88,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k55}I'm {\k15}gon{\k14}na {\k28}keep {\k28}on {\k28}dan{\k28}cing
+Dialogue: 1,0:03:31.78,0:03:35.14,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k28}At {\k28}the {\k56}Pink {\k28}Po{\k28}ny {\k67}Club
+Dialogue: 1,0:03:34.31,0:03:37.40,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k82}Pink {\k27}Po{\k26}ny {\k64}Club
+Dialogue: 1,0:03:56.69,0:04:01.44,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k56}I'm {\k14}gon{\k14}na {\k28}keep {\k28}on {\kf62}dan{\kf28}~{\kf135}cing
+Dialogue: 1,0:04:01.23,0:04:06.52,Clara,,0,0,0,fx,{\k90\fad(300,200)}{\k55}I'm {\k15}gon{\k11}na {\k29}keep {\k31}on {\kf54}dan{\kf31}~{\kf193}cing
