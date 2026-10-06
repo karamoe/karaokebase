@@ -1,0 +1,113 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Supernatural
+Original Timing: ono3000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,60,1
+Style: English,Arial,24,&H00FFFFFF,&H00FFC124,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Korean,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Japanese,Arial,24,&H00FFFFFF,&H0028D19C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Legend,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&HFFC124&}English {\c}|{\c&H008AFF&} Korean {\c}| {\c&H28D19C&}Japanese
+Comment: 0,0:00:26.46,0:00:28.16,English,,0,0,0,karaoke,{\k47}Stor{\k36}my {\k87}night
+Comment: 0,0:00:28.69,0:00:30.12,English,,0,0,0,karaoke,{\k48}Clou{\k29}dy {\k66}sky
+Comment: 0,0:00:30.12,0:00:32.95,English,,0,0,0,karaoke,{\k15}In {\k32}a {\k29}mo{\k18}ment {\k40}you {\k24}and {\kf125}I
+Comment: 0,0:00:35.31,0:00:36.88,English,,0,0,0,karaoke,{\k44}One {\k35}more {\k78}chance
+Comment: 0,0:00:37.52,0:00:40.99,Korean,,0,0,0,karaoke,{\k41}neo{\k38}wa {\k57}na {\k18}da{\k35}shi {\k29}han{\k16}beon {\k40}man{\k26}na{\k47}ge
+Comment: 0,0:00:41.06,0:00:43.48,Korean,,0,0,0,karaoke,{\k17}seo{\k38}ro'{\k30}e{\k13}ge {\k40}hyang{\k28}ha{\k76}ge
+Comment: 0,0:00:43.82,0:00:47.49,English,,0,0,0,karaoke,{\k30}My {\k80}fee{\k29}ling’s {\k80}get{\k32}ting {\k53}dee{\k63}per
+Comment: 0,0:00:48.21,0:00:51.88,Korean,,0,0,0,karaoke,{\k31}nae {\k81}shim{\k30}bak{\k79}su{\k31}reul {\k46}mi{\k69}deo
+Comment: 0,0:00:52.63,0:00:56.37,Korean,,0,0,0,karaoke,{\k29}u{\k80}ri {\k30}i{\k80}nyeo{\k31}neun {\k59}gi{\k65}peo
+Comment: 0,0:00:57.02,0:01:01.28,English,,0,0,0,karaoke,{\k37}I {\k74}got{\k30}ta {\k79}see {\k34}the {\k51}mea{\k26}ning {\k30}of {\k65}it
+Comment: 0,0:01:01.98,0:01:04.08,English,,0,0,0,karaoke,{\k29}I {\k26}don’t {\k31}know {\k26}what {\k53}we’ve {\k45}done
+Comment: 0,0:01:04.08,0:01:06.40,Korean,,0,0,0,karaoke,{\k26}dwe{\k16}do{\k23}ra{\k30}ga{\k26}gin {\k54}shi{\k57}reo
+Comment: 0,0:01:06.70,0:01:10.24,Japanese,,0,0,0,karaoke,{\k109}mou {\k25}shit{\k30}te{\k17}i{\kf173}ru
+Comment: 0,0:01:10.78,0:01:12.94,English,,0,0,0,karaoke,{\k31}Don’t {\k25}know {\k30}what {\k27}we’ve {\k53}been {\k50}sold
+Comment: 0,0:01:12.94,0:01:16.50,Japanese,,0,0,0,karaoke,{\k17}mi{\k18}tsu{\k25}ke{\k31}ra{\k27}re{\k45}ru {\kf193}yo
+Comment: 0,0:01:16.81,0:01:19.20,English,,0,0,0,karaoke,{\k32}So {\k15}it’s {\kf192}sure
+Comment: 0,0:01:19.34,0:01:20.93,English,,0,0,0,karaoke,{\k46}Gol{\k34}den {\k79}moon
+Comment: 0,0:01:21.56,0:01:22.94,English,,0,0,0,karaoke,{\k40}Dia{\k37}mond {\k61}stars
+Comment: 0,0:01:22.94,0:01:25.92,English,,0,0,0,karaoke,{\k16}In {\k35}a {\k29}mo{\k22}ment {\k35}you {\k24}and {\kf137}I
+Comment: 0,0:01:28.14,0:01:29.80,English,,0,0,0,karaoke,{\k45}Se{\k35}cond {\k86}chance
+Comment: 0,0:01:30.36,0:01:33.94,Japanese,,0,0,0,karaoke,{\k43}shou{\k36}ga{\k59}nai {\k17}mo{\k34}u{\k25}su{\k20}ko{\k43}shi {\k24}mat{\k57}te
+Comment: 0,0:01:33.94,0:01:36.50,Korean,,0,0,0,karaoke,{\k16}neo{\k36}wa {\k29}nae{\k19}ge {\k35}hyang{\k27}ha{\k94}ge
+Comment: 0,0:01:36.66,0:01:40.33,English,,0,0,0,karaoke,{\k30}My {\k80}fee{\k29}ling’s {\k82}get{\k30}ting {\k53}dee{\k63}per
+Comment: 0,0:01:41.05,0:01:44.72,Korean,,0,0,0,karaoke,{\k31}nae {\k81}shim{\k30}bak{\k79}su{\k31}reul {\k46}mi{\k69}deo
+Comment: 0,0:01:45.47,0:01:49.21,Korean,,0,0,0,karaoke,{\k29}u{\k80}ri {\k30}i{\k80}nyeo{\k31}neun {\k59}gi{\k65}peo
+Comment: 0,0:01:49.86,0:01:54.12,English,,0,0,0,karaoke,{\k37}I {\k74}got{\k30}ta {\k79}see {\k34}the {\k51}mea{\k26}ning {\k30}of {\k65}it
+Comment: 0,0:01:54.82,0:01:56.92,English,,0,0,0,karaoke,{\k29}I {\k26}don’t {\k31}know {\k26}what {\k53}we’ve {\k45}done
+Comment: 0,0:01:56.92,0:01:59.24,Korean,,0,0,0,karaoke,{\k26}dwe{\k16}do{\k23}ra{\k30}ga{\k23}gin {\k57}shi{\k57}reo
+Comment: 0,0:01:59.54,0:02:03.08,Japanese,,0,0,0,karaoke,{\k104}mou {\k30}shit{\k30}te{\k17}i{\kf173}ru
+Comment: 0,0:02:03.62,0:02:05.78,English,,0,0,0,karaoke,{\k31}Don’t {\k25}know {\k30}what {\k27}we’ve {\k53}been {\k50}sold
+Comment: 0,0:02:05.78,0:02:09.34,Japanese,,0,0,0,karaoke,{\k17}mi{\k18}tsu{\k25}ke{\k31}ra{\k27}re{\k45}ru {\kf193}yo
+Comment: 0,0:02:09.65,0:02:12.04,English,,0,0,0,karaoke,{\k32}So {\k15}it’s {\kf192}sure
+Comment: 0,0:02:17.15,0:02:20.69,English,,0,0,0,karaoke,{\k17}It’s {\k36}su{\k28}per{\k48}na{\k55}tu{\kf170}ral
+Comment: 0,0:02:25.97,0:02:29.24,English,,0,0,0,karaoke,{\k17}It’s {\k34}su{\k30}per{\k48}na{\k55}tu{\kf143}ral
+Comment: 0,0:02:29.24,0:02:31.76,Korean,,0,0,0,karaoke,{\k48}geo{\k20}jin{\k15}mal {\k43}an {\k39}hal{\k87}lae
+Comment: 0,0:02:32.26,0:02:34.29,Korean,,0,0,0,karaoke,{\k29}neo{\k15}do {\k38}mal{\kf121}hae
+Comment: 0,0:02:34.29,0:02:36.04,English,,0,0,0,karaoke,{\k20}At{\k25}ten{\k21}tion {\k16}we {\k17}should {\k76}pay
+Comment: 0,0:02:36.53,0:02:38.62,English,,0,0,0,karaoke,{\k15}To {\k19}what {\k27}is {\k27}co{\k10}ming {\kf111}through
+Comment: 0,0:02:38.74,0:02:40.53,English,,0,0,0,karaoke,{\k13}We {\k29}had {\k14}no {\k36}i{\k59}de{\k28}a
+Comment: 0,0:02:40.97,0:02:43.18,English,,0,0,0,karaoke,{\k12}It’s {\k43}crys{\k38}tal {\k54}cle{\k74}ar
+Comment: 0,0:02:43.28,0:02:45.13,English,,0,0,0,karaoke,{\k46}Love {\k38}is {\k101}here
+Comment: 0,0:02:45.47,0:02:48.21,English,,0,0,0,karaoke,{\k19}Sit{\k29}ting {\k24}next {\k13}to {\kf189}you
+Comment: 0,0:02:50.90,0:02:54.09,Japanese,,0,0,0,karaoke,{\k27}wa{\k33}ta{\k30}shi {\k17}to {\k38}a{\k28}na{\kf146}ta
+Comment: 0,0:02:56.22,0:02:57.90,English,,0,0,0,karaoke,{\k45}Gol{\k34}den {\k89}moon
+Comment: 0,0:02:58.43,0:02:59.82,English,,0,0,0,karaoke,{\k43}Dia{\k35}mond {\k61}stars
+Comment: 0,0:02:59.82,0:03:02.98,English,,0,0,0,karaoke,{\k17}In {\k32}a {\k32}mo{\k22}ment {\k36}we {\k35}u{\kf142}nite
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&HFFC124&}English {\c}|{\c&H008AFF&} Korean {\c}| {\c&H28D19C&}Japanese
+Dialogue: 0,0:00:25.56,0:00:28.36,English,,0,0,0,fx,{\k90\fad(300,200)}{\k47}Stor{\k36}my {\k87}night
+Dialogue: 0,0:00:27.79,0:00:30.32,English,,0,0,0,fx,{\k90\fad(300,200)}{\k48}Clou{\k29}dy {\k66}sky
+Dialogue: 0,0:00:29.22,0:00:33.15,English,,0,0,0,fx,{\k90\fad(300,200)}{\k15}In {\k32}a {\k29}mo{\k18}ment {\k40}you {\k24}and {\kf125}I
+Dialogue: 0,0:00:34.41,0:00:37.08,English,,0,0,0,fx,{\k90\fad(300,200)}{\k44}One {\k35}more {\k78}chance
+Dialogue: 0,0:00:36.62,0:00:41.19,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k41}neo{\k38}wa {\k57}na {\k18}da{\k35}shi {\k29}han{\k16}beon {\k40}man{\k26}na{\k47}ge
+Dialogue: 0,0:00:40.16,0:00:43.68,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k17}seo{\k38}ro'{\k30}e{\k13}ge {\k40}hyang{\k28}ha{\k76}ge
+Dialogue: 0,0:00:42.92,0:00:47.69,English,,0,0,0,fx,{\k90\fad(300,200)}{\k30}My {\k80}fee{\k29}ling’s {\k80}get{\k32}ting {\k53}dee{\k63}per
+Dialogue: 0,0:00:47.31,0:00:52.08,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k31}nae {\k81}shim{\k30}bak{\k79}su{\k31}reul {\k46}mi{\k69}deo
+Dialogue: 0,0:00:51.73,0:00:56.57,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k29}u{\k80}ri {\k30}i{\k80}nyeo{\k31}neun {\k59}gi{\k65}peo
+Dialogue: 0,0:00:56.12,0:01:01.48,English,,0,0,0,fx,{\k90\fad(300,200)}{\k37}I {\k74}got{\k30}ta {\k79}see {\k34}the {\k51}mea{\k26}ning {\k30}of {\k65}it
+Dialogue: 0,0:01:01.08,0:01:04.28,English,,0,0,0,fx,{\k90\fad(300,200)}{\k29}I {\k26}don’t {\k31}know {\k26}what {\k53}we’ve {\k45}done
+Dialogue: 0,0:01:03.18,0:01:06.60,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k26}dwe{\k16}do{\k23}ra{\k30}ga{\k26}gin {\k54}shi{\k57}reo
+Dialogue: 0,0:01:05.80,0:01:10.44,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k109}mou {\k25}shit{\k30}te{\k17}i{\kf173}ru
+Dialogue: 0,0:01:09.88,0:01:13.14,English,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Don’t {\k25}know {\k30}what {\k27}we’ve {\k53}been {\k50}sold
+Dialogue: 0,0:01:12.04,0:01:16.70,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k17}mi{\k18}tsu{\k25}ke{\k31}ra{\k27}re{\k45}ru {\kf193}yo
+Dialogue: 0,0:01:15.91,0:01:19.40,English,,0,0,0,fx,{\k90\fad(300,200)}{\k32}So {\k15}it’s {\kf192}sure
+Dialogue: 0,0:01:18.44,0:01:21.13,English,,0,0,0,fx,{\k90\fad(300,200)}{\k46}Gol{\k34}den {\k79}moon
+Dialogue: 0,0:01:20.66,0:01:23.14,English,,0,0,0,fx,{\k90\fad(300,200)}{\k40}Dia{\k37}mond {\k61}stars
+Dialogue: 0,0:01:22.04,0:01:26.12,English,,0,0,0,fx,{\k90\fad(300,200)}{\k16}In {\k35}a {\k29}mo{\k22}ment {\k35}you {\k24}and {\kf137}I
+Dialogue: 0,0:01:27.24,0:01:30.00,English,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Se{\k35}cond {\k86}chance
+Dialogue: 0,0:01:29.46,0:01:34.14,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k43}shou{\k36}ga{\k59}nai {\k17}mo{\k34}u{\k25}su{\k20}ko{\k43}shi {\k24}mat{\k57}te
+Dialogue: 0,0:01:33.04,0:01:36.70,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k16}neo{\k36}wa {\k29}nae{\k19}ge {\k35}hyang{\k27}ha{\k94}ge
+Dialogue: 0,0:01:35.76,0:01:40.53,English,,0,0,0,fx,{\k90\fad(300,200)}{\k30}My {\k80}fee{\k29}ling’s {\k82}get{\k30}ting {\k53}dee{\k63}per
+Dialogue: 0,0:01:40.15,0:01:44.92,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k31}nae {\k81}shim{\k30}bak{\k79}su{\k31}reul {\k46}mi{\k69}deo
+Dialogue: 0,0:01:44.57,0:01:49.41,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k29}u{\k80}ri {\k30}i{\k80}nyeo{\k31}neun {\k59}gi{\k65}peo
+Dialogue: 0,0:01:48.96,0:01:54.32,English,,0,0,0,fx,{\k90\fad(300,200)}{\k37}I {\k74}got{\k30}ta {\k79}see {\k34}the {\k51}mea{\k26}ning {\k30}of {\k65}it
+Dialogue: 0,0:01:53.92,0:01:57.12,English,,0,0,0,fx,{\k90\fad(300,200)}{\k29}I {\k26}don’t {\k31}know {\k26}what {\k53}we’ve {\k45}done
+Dialogue: 0,0:01:56.02,0:01:59.44,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k26}dwe{\k16}do{\k23}ra{\k30}ga{\k23}gin {\k57}shi{\k57}reo
+Dialogue: 0,0:01:58.64,0:02:03.28,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k104}mou {\k30}shit{\k30}te{\k17}i{\kf173}ru
+Dialogue: 0,0:02:02.72,0:02:05.98,English,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Don’t {\k25}know {\k30}what {\k27}we’ve {\k53}been {\k50}sold
+Dialogue: 0,0:02:04.88,0:02:09.54,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k17}mi{\k18}tsu{\k25}ke{\k31}ra{\k27}re{\k45}ru {\kf193}yo
+Dialogue: 0,0:02:08.75,0:02:12.24,English,,0,0,0,fx,{\k90\fad(300,200)}{\k32}So {\k15}it’s {\kf192}sure
+Dialogue: 0,0:02:16.25,0:02:20.89,English,,0,0,0,fx,{\k90\fad(300,200)}{\k17}It’s {\k36}su{\k28}per{\k48}na{\k55}tu{\kf170}ral
+Dialogue: 0,0:02:25.07,0:02:29.44,English,,0,0,0,fx,{\k90\fad(300,200)}{\k17}It’s {\k34}su{\k30}per{\k48}na{\k55}tu{\kf143}ral
+Dialogue: 0,0:02:28.34,0:02:31.96,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k48}geo{\k20}jin{\k15}mal {\k43}an {\k39}hal{\k87}lae
+Dialogue: 0,0:02:31.36,0:02:34.49,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k29}neo{\k15}do {\k38}mal{\kf121}hae
+Dialogue: 0,0:02:33.39,0:02:36.24,English,,0,0,0,fx,{\k90\fad(300,200)}{\k20}At{\k25}ten{\k21}tion {\k16}we {\k17}should {\k76}pay
+Dialogue: 0,0:02:35.63,0:02:38.82,English,,0,0,0,fx,{\k90\fad(300,200)}{\k15}To {\k19}what {\k27}is {\k27}co{\k10}ming {\kf111}through
+Dialogue: 0,0:02:37.84,0:02:40.73,English,,0,0,0,fx,{\k90\fad(300,200)}{\k13}We {\k29}had {\k14}no {\k36}i{\k59}de{\k28}a
+Dialogue: 0,0:02:40.07,0:02:43.38,English,,0,0,0,fx,{\k90\fad(300,200)}{\k12}It’s {\k43}crys{\k38}tal {\k54}cle{\k74}ar
+Dialogue: 0,0:02:42.38,0:02:45.33,English,,0,0,0,fx,{\k90\fad(300,200)}{\k46}Love {\k38}is {\k101}here
+Dialogue: 0,0:02:44.57,0:02:48.41,English,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Sit{\k29}ting {\k24}next {\k13}to {\kf189}you
+Dialogue: 0,0:02:50.00,0:02:54.29,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k27}wa{\k33}ta{\k30}shi {\k17}to {\k38}a{\k28}na{\kf146}ta
+Dialogue: 0,0:02:55.32,0:02:58.10,English,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Gol{\k34}den {\k89}moon
+Dialogue: 0,0:02:57.53,0:03:00.02,English,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Dia{\k35}mond {\k61}stars
+Dialogue: 0,0:02:58.92,0:03:03.18,English,,0,0,0,fx,{\k90\fad(300,200)}{\k17}In {\k32}a {\k32}mo{\k22}ment {\k36}we {\k35}u{\kf142}nite
