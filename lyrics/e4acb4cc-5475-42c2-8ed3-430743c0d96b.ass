@@ -1,0 +1,222 @@
+﻿[Script Info]
+Title: Espresso
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 0
+PlayResY: 0
+Original Timing: Ichinyaaan, vicktoben
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: All,Arial,24,&H009DE69D,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Muyu,Arial,24,&H00FFFFFF,&H00F5A2D3,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Runie,Arial,24,&H00FFFFFF,&H00A994FA,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Eimi,Arial,24,&H00FFFFFF,&H0041A6FC,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Hina,Arial,24,&H00FFFFFF,&H00E0E587,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Saya,Arial,24,&H00FFFFFF,&H006364FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: COLOR CODE,Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,20,1
+Style: Eimi backing,Arial,24,&H00FFFFFF,&H0041A6FC,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 1,0:00:00.00,0:00:00.00,All,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&HFFFFFF&}All{\c} | {\c&H41A6FC&}Eimi{\c} | {\c&HF5A2D3&}Muyu{\c} | {\c&HA994FA&}Runie{\c} | {\c&HE0E587&}Hina{\c} | {\c&H6364FF&}Saya{ \c}
+Comment: 0,0:00:00.60,0:00:06.10,Hina,,0,0,0,karaoke,{\k227}One {\k233}two {\k56}three
+Comment: 1,0:00:09.27,0:00:10.24,All,,0,0,0,karaoke,{\k27}Now {\k70}he's
+Comment: 1,0:00:10.39,0:00:11.51,All,,0,0,0,karaoke,{\k14}Think{\k14}in' {\k28}'bout {\k43}me
+Comment: 1,0:00:11.55,0:00:12.71,All,,0,0,0,karaoke,{\k14}Ev{\k14}ery {\k28}night, {\k43}oh
+Comment: 1,0:00:12.71,0:00:14.84,Eimi,,0,0,0,karaoke,{\k14}Is {\k14}it {\k28}that {\k28}sweet? {\k28}I {\k28}guess {\k33}so{\k40}~
+Comment: 1,0:00:14.84,0:00:16.17,All,,0,0,0,karaoke,{\k28}Say {\k17}you {\k33}can't {\k55}sleep
+Comment: 1,0:00:16.17,0:00:17.28,All,,0,0,0,karaoke,{\k14}Ba{\k14}by, {\k29}I {\k54}know
+Comment: 1,0:00:17.32,0:00:19.59,Runie,,0,0,0,karaoke,{\k28}That's {\k30}that {\k28}me {\k28}es{\k26}pres{\k34}so{\k53}~
+Comment: 1,0:00:19.63,0:00:20.74,All,,0,0,0,karaoke,{\k14}Move {\k15}it {\k27}up, {\k55}down
+Comment: 1,0:00:20.78,0:00:21.82,All,,0,0,0,karaoke,{\k28}Left, {\k28}right, {\k43}oh
+Comment: 1,0:00:21.89,0:00:24.13,Muyu,,0,0,0,karaoke,{\k14}Switch {\k20}it {\k28}up {\k28}like {\k28}Nin{\k31}ten{\k30}do{\k45}~
+Comment: 1,0:00:24.13,0:00:25.40,All,,0,0,0,karaoke,{\k18}Say {\k21}you {\k18}can't {\k70}sleep
+Comment: 1,0:00:25.40,0:00:26.51,All,,0,0,0,karaoke,{\k14}Ba{\k14}by, {\k28}I {\k43}know
+Comment: 1,0:00:26.55,0:00:28.90,All,,0,0,0,karaoke,{\k28}That's {\k28}that {\k28}me {\k28}es{\k61}pres{\k30}so{\k32}~
+Comment: 1,0:00:29.15,0:00:31.41,Eimi,,0,0,0,karaoke,{\k28}I {\k28}can't {\k28}re{\kf142}late
+Comment: 1,0:00:31.46,0:00:33.72,Eimi,,0,0,0,karaoke,{\k28}To {\k28}des{\k28}per{\k28}a{\kf100}tion
+Comment: 1,0:00:33.76,0:00:35.98,Eimi,,0,0,0,karaoke,{\k28}My {\k28}give-{\k28}a-{\kf76}fu{\kf62}cks
+Comment: 1,0:00:36.07,0:00:38.32,Eimi,,0,0,0,karaoke,{\k28}Are {\k28}on {\k28}va{\k28}ca{\k61}tion{\k52}~
+Comment: 1,0:00:38.38,0:00:40.64,Runie,,0,0,0,karaoke,{\k14}And {\k14}I {\k28}got {\k28}this {\k31}one {\kf111}boy
+Comment: 1,0:00:40.69,0:00:42.95,Runie,,0,0,0,karaoke,{\k14}And {\k14}he {\k28}won't {\k28}stop {\k28}call{\kf114}in'
+Comment: 1,0:00:43.00,0:00:45.26,Runie,,0,0,0,karaoke,{\k14}When {\k14}they {\k28}act {\k28}this {\kf142}way
+Comment: 1,0:00:45.30,0:00:46.72,Runie,,0,0,0,karaoke,{\k28}I {\k28}know {\k28}I {\k28}got {\k43}'em
+Comment: 0,0:00:46.72,0:00:47.03,Saya,,0,0,0,karaoke,{\k31}One
+Comment: 1,0:00:47.03,0:00:48.98,Muyu,,0,0,0,karaoke,{\k28}Too {\k28}bad {\k14}your {\k28}ex {\k28}don't {\k28}do {\k14}it {\k14}for {\k45}ya
+Comment: 0,0:00:49.03,0:00:49.34,Saya,,0,0,0,karaoke,{\k31}Two
+Comment: 1,0:00:49.34,0:00:51.40,Muyu,,0,0,0,karaoke,{\k28}Walked {\k28}in {\k14}and {\k28}dream-{\k28}came-{\k28}trued {\k14}it {\k14}for {\k44}ya
+Comment: 0,0:00:51.35,0:00:51.65,Saya,,0,0,0,karaoke,{\k30}Three
+Comment: 1,0:00:51.61,0:00:53.78,Muyu,,0,0,0,karaoke,{\k28}Soft {\k28}skin {\k14}and {\k28}I {\k28}per{\k28}fumed {\k14}it {\k14}for {\k54}ya
+Comment: 0,0:00:55.99,0:00:56.23,Saya,,0,0,0,karaoke,{\k24}Yes
+Comment: 1,0:00:56.26,0:00:58.33,Muyu,,0,0,0,karaoke,{\k28}I {\k28}know, {\k14}I {\k28}Moun{\k28}tain {\k28}Dew {\k14}it {\k14}for {\k45}ya
+Comment: 0,0:00:58.33,0:00:58.57,Saya,,0,0,0,karaoke,{\k24}Yes
+Comment: 1,0:00:58.57,0:01:00.64,Muyu,,0,0,0,karaoke,{\k28}That {\k28}morn{\k14}ing {\k28}cof{\k28}fee, {\k28}brewed {\k14}it {\k14}for {\k45}ya
+Comment: 0,0:01:00.64,0:01:00.88,Saya,,0,0,0,karaoke,{\k24}Yes
+Comment: 1,0:01:00.88,0:01:03.19,Muyu,,0,0,0,karaoke,{\k28}One {\k28}touch {\k14}and {\k28}I {\k28}brand-{\k28}newed {\k14}it {\k14}for {\k52}ya
+Comment: 1,0:01:04.63,0:01:05.67,All,,0,0,0,karaoke,{\k28}Now {\k76}he's
+Comment: 1,0:01:05.78,0:01:06.89,All,,0,0,0,karaoke,{\k14}Think{\k14}in' {\k28}'bout {\k43}me
+Comment: 1,0:01:06.94,0:01:08.05,All,,0,0,0,karaoke,{\k14}Ev{\k14}ery {\k28}night, {\k43}oh
+Comment: 1,0:01:08.05,0:01:10.27,Eimi,,0,0,0,karaoke,{\k14}Is {\k14}it {\k28}that {\k28}sweet? {\k28}I {\k28}guess {\k37}so{\k45}~
+Comment: 1,0:01:10.27,0:01:11.51,All,,0,0,0,karaoke,{\k20}Say {\k21}you {\k23}can't {\k60}sleep
+Comment: 1,0:01:11.55,0:01:12.66,All,,0,0,0,karaoke,{\k14}Ba{\k14}by, {\k28}I {\k43}know
+Comment: 1,0:01:12.71,0:01:14.97,Runie,,0,0,0,karaoke,{\k28}That's {\k28}that {\k28}me {\k28}es{\k28}pres{\k33}so{\k53}~
+Comment: 1,0:01:15.01,0:01:16.12,All,,0,0,0,karaoke,{\k14}Move {\k14}it {\k28}up, {\k43}down
+Comment: 1,0:01:16.17,0:01:17.28,All,,0,0,0,karaoke,{\k28}Left, {\k28}right, {\k43}oh
+Comment: 1,0:01:17.32,0:01:19.51,Muyu,,0,0,0,karaoke,{\k14}Switch {\k14}it {\k28}up {\k28}like {\k28}Nin{\k28}ten{\k32}do{\k47}~
+Comment: 1,0:01:19.51,0:01:20.74,All,,0,0,0,karaoke,{\k18}Say {\k20}you {\k20}can't {\k65}sleep
+Comment: 1,0:01:20.78,0:01:21.89,All,,0,0,0,karaoke,{\k14}Ba{\k14}by, {\k28}I {\k43}know
+Comment: 1,0:01:21.94,0:01:24.19,All,,0,0,0,karaoke,{\k28}That's {\k28}that {\k28}me {\k28}es{\k35}pres{\k25}so{\k53}~
+Comment: 1,0:01:24.53,0:01:25.36,Eimi backing,,0,0,0,karaoke,{\k14}Ho{\k14}ly {\k55}shit
+Comment: 1,0:01:26.55,0:01:28.85,Runie,,0,0,0,karaoke,{\k14}Is {\k14}it {\k20}that {\k36}sweet? {\k28}I {\k28}guess {\k33}so{\k65}~
+Comment: 1,0:01:29.15,0:01:31.41,Runie,,0,0,0,karaoke,{\k28}I'm {\k28}work{\k28}ing {\kf142}late
+Comment: 1,0:01:31.46,0:01:33.72,Runie,,0,0,0,karaoke,{\k28}'Cause {\k28}I'm {\k28}a {\k28}sing{\kf114}er
+Comment: 1,0:01:33.76,0:01:36.03,Runie,,0,0,0,karaoke,{\k14}Oh, {\k14}he {\k21}looks {\k34}so {\kf144}cute
+Comment: 1,0:01:36.07,0:01:38.31,Runie,,0,0,0,karaoke,{\k28}Wrapped {\k28}'round {\k28}my {\k28}fin{\kf112}ger
+Comment: 1,0:01:38.38,0:01:40.59,Muyu,,0,0,0,karaoke,{\k25}My {\k30}twist{\k27}ed {\k30}hu{\kf109}mor
+Comment: 1,0:01:40.69,0:01:42.95,Muyu,,0,0,0,karaoke,{\k14}Make {\k14}him {\k28}laugh {\k28}so {\k28}oft{\kf100}en
+Comment: 1,0:01:43.00,0:01:44.72,Muyu,,0,0,0,karaoke,{\k28}My {\k28}hon{\k28}ey {\kf142}bee
+Comment: 1,0:01:45.30,0:01:46.73,Muyu,,0,0,0,karaoke,{\k14}Come {\k14}and {\k28}get {\k28}this {\k28}pol{\k57}len
+Comment: 0,0:01:46.73,0:01:47.03,Saya,,0,0,0,karaoke,{\k30}One
+Comment: 1,0:01:47.03,0:01:48.98,Eimi,,0,0,0,karaoke,{\k28}Too {\k28}bad {\k14}your {\k28}ex {\k28}don't {\k28}do {\k14}it {\k14}for {\k45}ya
+Comment: 0,0:01:49.04,0:01:49.29,Saya,,0,0,0,karaoke,{\k30}Two
+Comment: 1,0:01:49.34,0:01:51.35,Eimi,,0,0,0,karaoke,{\k28}Walked {\k28}in {\k14}and {\k28}dream-{\k28}came-{\k28}trued {\k14}it {\k14}for {\k19}ya
+Comment: 0,0:01:51.35,0:01:51.58,Saya,,0,0,0,karaoke,{\k30}Three
+Comment: 1,0:01:51.58,0:01:53.77,Eimi,,0,0,0,karaoke,{\k24}Soft {\k32}skin {\k14}and {\k28}I {\k28}per{\k28}fumed {\k14}it {\k26}for {\k25}ya
+Comment: 0,0:01:55.99,0:01:56.26,Saya,,0,0,0,karaoke,{\k24}Yes
+Comment: 1,0:01:56.26,0:01:58.28,Runie,,0,0,0,karaoke,{\k28}I {\k28}know, {\k14}I {\k28}Moun{\k28}tain {\k28}Dew {\k14}it {\k14}for {\k45}ya
+Comment: 0,0:01:58.28,0:01:58.57,Saya,,0,0,0,karaoke,{\k24}Yes
+Comment: 1,0:01:58.57,0:02:00.60,Runie,,0,0,0,karaoke,{\k28}That {\k28}morn{\k14}ing {\k28}cof{\k28}fee, {\k28}brewed {\k14}it {\k14}for {\k45}ya
+Comment: 0,0:02:00.60,0:02:00.88,Saya,,0,0,0,karaoke,{\k24}Yes
+Comment: 1,0:02:00.88,0:02:03.00,Runie,,0,0,0,karaoke,{\k28}One {\k28}touch {\k14}and {\k28}I {\k28}brand-{\k28}newed {\k14}it {\k14}for {\k102}ya
+Comment: 1,0:02:04.63,0:02:05.37,All,,0,0,0,karaoke,{\k28}Now {\k72}he's
+Comment: 1,0:02:05.78,0:02:06.89,All,,0,0,0,karaoke,{\k14}Think{\k14}in' {\k28}'bout {\k43}me
+Comment: 1,0:02:06.94,0:02:08.05,All,,0,0,0,karaoke,{\k14}Ev{\k14}ery {\k28}night, {\k43}oh
+Comment: 1,0:02:08.09,0:02:10.24,Eimi,,0,0,0,karaoke,{\k14}Is {\k14}it {\k22}that {\k34}sweet? {\k28}I {\k28}guess {\k34}so{\k41}~
+Comment: 1,0:02:10.31,0:02:11.51,All,,0,0,0,karaoke,{\k14}Say {\k22}you {\k28}can't {\k56}sleep
+Comment: 1,0:02:11.55,0:02:12.66,All,,0,0,0,karaoke,{\k14}Ba{\k14}by, {\k28}I {\k43}know
+Comment: 1,0:02:12.71,0:02:14.97,Runie,,0,0,0,karaoke,{\k28}That's {\k28}that {\k28}me {\k28}es{\k28}pres{\k33}so{\k53}~
+Comment: 1,0:02:15.01,0:02:16.12,All,,0,0,0,karaoke,{\k14}Move {\k14}it {\k28}up, {\k43}down
+Comment: 1,0:02:16.17,0:02:17.22,All,,0,0,0,karaoke,{\k28}Left, {\k28}right, {\k43}oh
+Comment: 1,0:02:17.30,0:02:19.51,Muyu,,0,0,0,karaoke,{\k14}Switch {\k14}it {\k28}up {\k28}like {\k28}Nin{\k28}ten{\k35}do{\k46}~
+Comment: 1,0:02:19.59,0:02:20.74,All,,0,0,0,karaoke,{\k14}Say {\k14}you {\k22}can't {\k65}sleep
+Comment: 1,0:02:20.78,0:02:21.89,All,,0,0,0,karaoke,{\k14}Ba{\k14}by, {\k28}I {\k43}know
+Comment: 1,0:02:21.94,0:02:24.20,All,,0,0,0,karaoke,{\k28}That's {\k28}that {\k28}me {\k28}es{\k28}pres{\k34}so{\k52}~
+Comment: 1,0:02:24.25,0:02:25.35,All,,0,0,0,karaoke,{\k14}Think{\k14}in' {\k28}'bout {\k43}me
+Comment: 1,0:02:25.40,0:02:26.51,All,,0,0,0,karaoke,{\k14}Ev{\k14}ery {\k28}night, {\k43}oh
+Comment: 1,0:02:26.55,0:02:28.70,Eimi,,0,0,0,karaoke,{\k14}Is {\k14}it {\k28}that {\k28}sweet? {\k28}I {\k29}guess {\k74}so~
+Comment: 1,0:02:28.80,0:02:29.97,All,,0,0,0,karaoke,{\k14}Say {\k19}you {\k31}can't {\k53}sleep
+Comment: 1,0:02:30.01,0:02:31.12,All,,0,0,0,karaoke,{\k14}Ba{\k14}by, {\k28}I {\k43}know
+Comment: 1,0:02:31.17,0:02:33.43,Runie,,0,0,0,karaoke,{\k28}That's {\k28}that {\k28}me {\k28}es{\k28}pres{\k33}so{\k53}~
+Comment: 1,0:02:33.48,0:02:34.59,All,,0,0,0,karaoke,{\k14}Move {\k14}it {\k28}up, {\k43}down
+Comment: 1,0:02:34.36,0:02:35.22,Hina,,0,0,0,karaoke,{\k13}Move {\k13}it {\k27}up, {\k33}down
+Comment: 1,0:02:34.63,0:02:35.68,All,,0,0,0,karaoke,{\k28}Left, {\k28}right, {\k43}oh
+Comment: 1,0:02:35.22,0:02:36.28,Hina,,0,0,0,karaoke,{\k31}Left, {\k28}right, {\k47}oh
+Comment: 1,0:02:35.78,0:02:37.98,Muyu,,0,0,0,karaoke,{\k14}Switch {\k14}it {\k28}up {\k28}like {\k28}Nin{\k28}ten{\k33}do{\k47}~
+Comment: 1,0:02:37.98,0:02:39.20,All,,0,0,0,karaoke,{\k18}Say {\k19}you {\k27}can't {\k58}sleep
+Comment: 1,0:02:39.25,0:02:40.35,All,,0,0,0,karaoke,{\k14}Ba{\k14}by, {\k28}I {\k43}know
+Comment: 1,0:02:40.40,0:02:42.76,All,,0,0,0,karaoke,{\k28}That's {\k28}that {\k28}me {\k28}es{\k28}pres{\k36}so{\k60}~
+Comment: 1,0:02:45.01,0:02:47.34,Runie,,0,0,0,karaoke,{\k14}Is {\k14}it {\k28}that {\k28}sweet? {\k28}I {\k43}guess {\k40}so{\k38}~
+Comment: 1,0:02:48.48,0:02:52.18,Eimi,,0,0,0,karaoke,{\kf115}Hmm, {\k28}that's {\k28}that {\k28}me {\k28}es{\k36}pres{\k50}so{\k57}~
+Dialogue: 1,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&HFFFFFF&}All{\c} | {\c&H41A6FC&}Eimi{\c} | {\c&HF5A2D3&}Muyu{\c} | {\c&HA994FA&}Runie{\c} | {\c&HE0E587&}Hina{\c} | {\c&H6364FF&}Saya{ \c}
+Dialogue: 1,0:00:00.00,0:00:06.30,Hina,,0,0,0,fx,{\k60\fad(600,200)}{\k227}One {\k233}two {\k56}three
+Dialogue: 1,0:00:08.37,0:00:10.44,All,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Now {\k70}he's
+Dialogue: 1,0:00:09.49,0:00:11.71,All,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Think{\k14}in' {\k28}'bout {\k43}me
+Dialogue: 1,0:00:10.65,0:00:12.91,All,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ev{\k14}ery {\k28}night, {\k43}oh
+Dialogue: 1,0:00:11.81,0:00:15.04,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Is {\k14}it {\k28}that {\k28}sweet? {\k28}I {\k28}guess {\k33}so{\k40}~
+Dialogue: 1,0:00:13.94,0:00:16.37,All,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Say {\k17}you {\k33}can't {\k55}sleep
+Dialogue: 1,0:00:15.27,0:00:17.48,All,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ba{\k14}by, {\k29}I {\k54}know
+Dialogue: 1,0:00:16.42,0:00:19.79,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k28}That's {\k30}that {\k28}me {\k28}es{\k26}pres{\k34}so{\k53}~
+Dialogue: 1,0:00:18.73,0:00:20.94,All,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Move {\k15}it {\k27}up, {\k55}down
+Dialogue: 1,0:00:19.88,0:00:22.02,All,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Left, {\k28}right, {\k43}oh
+Dialogue: 1,0:00:20.99,0:00:24.33,Muyu,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Switch {\k20}it {\k28}up {\k28}like {\k28}Nin{\k31}ten{\k30}do{\k45}~
+Dialogue: 1,0:00:23.23,0:00:25.60,All,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Say {\k21}you {\k18}can't {\k70}sleep
+Dialogue: 1,0:00:24.50,0:00:26.71,All,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ba{\k14}by, {\k28}I {\k43}know
+Dialogue: 1,0:00:25.65,0:00:29.10,All,,0,0,0,fx,{\k90\fad(300,200)}{\k28}That's {\k28}that {\k28}me {\k28}es{\k61}pres{\k30}so{\k32}~
+Dialogue: 1,0:00:28.25,0:00:31.61,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k28}I {\k28}can't {\k28}re{\kf142}late
+Dialogue: 1,0:00:30.56,0:00:33.92,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k28}To {\k28}des{\k28}per{\k28}a{\kf100}tion
+Dialogue: 1,0:00:32.86,0:00:36.18,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k28}My {\k28}give-{\k28}a-{\kf76}fu{\kf62}cks
+Dialogue: 1,0:00:35.17,0:00:38.52,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Are {\k28}on {\k28}va{\k28}ca{\k61}tion{\k52}~
+Dialogue: 1,0:00:37.48,0:00:40.84,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k14}And {\k14}I {\k28}got {\k28}this {\k31}one {\kf111}boy
+Dialogue: 1,0:00:39.79,0:00:43.15,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k14}And {\k14}he {\k28}won't {\k28}stop {\k28}call{\kf114}in'
+Dialogue: 1,0:00:42.10,0:00:45.46,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k14}When {\k14}they {\k28}act {\k28}this {\kf142}way
+Dialogue: 1,0:00:44.40,0:00:46.92,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k28}I {\k28}know {\k28}I {\k28}got {\k43}'em
+Dialogue: 1,0:00:45.82,0:00:47.23,Saya,,0,0,0,fx,{\k90\fad(300,200)}{\k31}One
+Dialogue: 1,0:00:46.13,0:00:49.18,Muyu,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Too {\k28}bad {\k14}your {\k28}ex {\k28}don't {\k28}do {\k14}it {\k14}for {\k45}ya
+Dialogue: 1,0:00:48.13,0:00:49.54,Saya,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Two
+Dialogue: 1,0:00:48.44,0:00:51.60,Muyu,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Walked {\k28}in {\k14}and {\k28}dream-{\k28}came-{\k28}trued {\k14}it {\k14}for {\k44}ya
+Dialogue: 1,0:00:50.45,0:00:51.85,Saya,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Three
+Dialogue: 1,0:00:50.71,0:00:53.98,Muyu,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Soft {\k28}skin {\k14}and {\k28}I {\k28}per{\k28}fumed {\k14}it {\k14}for {\k54}ya
+Dialogue: 1,0:00:55.09,0:00:56.43,Saya,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Yes
+Dialogue: 1,0:00:55.36,0:00:58.53,Muyu,,0,0,0,fx,{\k90\fad(300,200)}{\k28}I {\k28}know, {\k14}I {\k28}Moun{\k28}tain {\k28}Dew {\k14}it {\k14}for {\k45}ya
+Dialogue: 1,0:00:57.43,0:00:58.77,Saya,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Yes
+Dialogue: 1,0:00:57.67,0:01:00.84,Muyu,,0,0,0,fx,{\k90\fad(300,200)}{\k28}That {\k28}morn{\k14}ing {\k28}cof{\k28}fee, {\k28}brewed {\k14}it {\k14}for {\k45}ya
+Dialogue: 1,0:00:59.74,0:01:01.08,Saya,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Yes
+Dialogue: 1,0:00:59.98,0:01:03.39,Muyu,,0,0,0,fx,{\k90\fad(300,200)}{\k28}One {\k28}touch {\k14}and {\k28}I {\k28}brand-{\k28}newed {\k14}it {\k14}for {\k52}ya
+Dialogue: 1,0:01:03.73,0:01:05.87,All,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Now {\k76}he's
+Dialogue: 1,0:01:04.88,0:01:07.09,All,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Think{\k14}in' {\k28}'bout {\k43}me
+Dialogue: 1,0:01:06.04,0:01:08.25,All,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ev{\k14}ery {\k28}night, {\k43}oh
+Dialogue: 1,0:01:07.15,0:01:10.47,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Is {\k14}it {\k28}that {\k28}sweet? {\k28}I {\k28}guess {\k37}so{\k45}~
+Dialogue: 1,0:01:09.37,0:01:11.71,All,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Say {\k21}you {\k23}can't {\k60}sleep
+Dialogue: 1,0:01:10.65,0:01:12.86,All,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ba{\k14}by, {\k28}I {\k43}know
+Dialogue: 1,0:01:11.81,0:01:15.17,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k28}That's {\k28}that {\k28}me {\k28}es{\k28}pres{\k33}so{\k53}~
+Dialogue: 1,0:01:14.11,0:01:16.32,All,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Move {\k14}it {\k28}up, {\k43}down
+Dialogue: 1,0:01:15.27,0:01:17.48,All,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Left, {\k28}right, {\k43}oh
+Dialogue: 1,0:01:16.42,0:01:19.71,Muyu,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Switch {\k14}it {\k28}up {\k28}like {\k28}Nin{\k28}ten{\k32}do{\k47}~
+Dialogue: 1,0:01:18.61,0:01:20.94,All,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Say {\k20}you {\k20}can't {\k65}sleep
+Dialogue: 1,0:01:19.88,0:01:22.09,All,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ba{\k14}by, {\k28}I {\k43}know
+Dialogue: 1,0:01:21.04,0:01:24.39,All,,0,0,0,fx,{\k90\fad(300,200)}{\k28}That's {\k28}that {\k28}me {\k28}es{\k35}pres{\k25}so{\k53}~
+Dialogue: 1,0:01:23.63,0:01:25.56,Eimi backing,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ho{\k14}ly {\k55}shit
+Dialogue: 1,0:01:25.65,0:01:29.05,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Is {\k14}it {\k20}that {\k36}sweet? {\k28}I {\k28}guess {\k33}so{\k65}~
+Dialogue: 1,0:01:28.25,0:01:31.61,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k28}I'm {\k28}work{\k28}ing {\kf142}late
+Dialogue: 1,0:01:30.56,0:01:33.92,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k28}'Cause {\k28}I'm {\k28}a {\k28}sing{\kf114}er
+Dialogue: 1,0:01:32.86,0:01:36.23,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Oh, {\k14}he {\k21}looks {\k34}so {\kf144}cute
+Dialogue: 1,0:01:35.17,0:01:38.51,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Wrapped {\k28}'round {\k28}my {\k28}fin{\kf112}ger
+Dialogue: 1,0:01:37.48,0:01:40.79,Muyu,,0,0,0,fx,{\k90\fad(300,200)}{\k25}My {\k30}twist{\k27}ed {\k30}hu{\kf109}mor
+Dialogue: 1,0:01:39.79,0:01:43.15,Muyu,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Make {\k14}him {\k28}laugh {\k28}so {\k28}oft{\kf100}en
+Dialogue: 1,0:01:42.10,0:01:44.92,Muyu,,0,0,0,fx,{\k90\fad(300,200)}{\k28}My {\k28}hon{\k28}ey {\kf142}bee
+Dialogue: 1,0:01:44.40,0:01:46.93,Muyu,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Come {\k14}and {\k28}get {\k28}this {\k28}pol{\k57}len
+Dialogue: 1,0:01:45.83,0:01:47.23,Saya,,0,0,0,fx,{\k90\fad(300,200)}{\k30}One
+Dialogue: 1,0:01:46.13,0:01:49.18,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Too {\k28}bad {\k14}your {\k28}ex {\k28}don't {\k28}do {\k14}it {\k14}for {\k45}ya
+Dialogue: 1,0:01:48.14,0:01:49.49,Saya,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Two
+Dialogue: 1,0:01:48.44,0:01:51.55,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Walked {\k28}in {\k14}and {\k28}dream-{\k28}came-{\k28}trued {\k14}it {\k14}for {\k19}ya
+Dialogue: 1,0:01:50.45,0:01:51.78,Saya,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Three
+Dialogue: 1,0:01:50.68,0:01:53.97,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Soft {\k32}skin {\k14}and {\k28}I {\k28}per{\k28}fumed {\k14}it {\k26}for {\k25}ya
+Dialogue: 1,0:01:55.09,0:01:56.46,Saya,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Yes
+Dialogue: 1,0:01:55.36,0:01:58.48,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k28}I {\k28}know, {\k14}I {\k28}Moun{\k28}tain {\k28}Dew {\k14}it {\k14}for {\k45}ya
+Dialogue: 1,0:01:57.38,0:01:58.77,Saya,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Yes
+Dialogue: 1,0:01:57.67,0:02:00.80,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k28}That {\k28}morn{\k14}ing {\k28}cof{\k28}fee, {\k28}brewed {\k14}it {\k14}for {\k45}ya
+Dialogue: 1,0:01:59.70,0:02:01.08,Saya,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Yes
+Dialogue: 1,0:01:59.98,0:02:03.20,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k28}One {\k28}touch {\k14}and {\k28}I {\k28}brand-{\k28}newed {\k14}it {\k14}for {\k102}ya
+Dialogue: 1,0:02:03.73,0:02:05.57,All,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Now {\k72}he's
+Dialogue: 1,0:02:04.88,0:02:07.09,All,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Think{\k14}in' {\k28}'bout {\k43}me
+Dialogue: 1,0:02:06.04,0:02:08.25,All,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ev{\k14}ery {\k28}night, {\k43}oh
+Dialogue: 1,0:02:07.19,0:02:10.44,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Is {\k14}it {\k22}that {\k34}sweet? {\k28}I {\k28}guess {\k34}so{\k41}~
+Dialogue: 1,0:02:09.41,0:02:11.71,All,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Say {\k22}you {\k28}can't {\k56}sleep
+Dialogue: 1,0:02:10.65,0:02:12.86,All,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ba{\k14}by, {\k28}I {\k43}know
+Dialogue: 1,0:02:11.81,0:02:15.17,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k28}That's {\k28}that {\k28}me {\k28}es{\k28}pres{\k33}so{\k53}~
+Dialogue: 1,0:02:14.11,0:02:16.32,All,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Move {\k14}it {\k28}up, {\k43}down
+Dialogue: 1,0:02:15.27,0:02:17.42,All,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Left, {\k28}right, {\k43}oh
+Dialogue: 1,0:02:16.40,0:02:19.71,Muyu,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Switch {\k14}it {\k28}up {\k28}like {\k28}Nin{\k28}ten{\k35}do{\k46}~
+Dialogue: 1,0:02:18.69,0:02:20.94,All,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Say {\k14}you {\k22}can't {\k65}sleep
+Dialogue: 1,0:02:19.88,0:02:22.09,All,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ba{\k14}by, {\k28}I {\k43}know
+Dialogue: 1,0:02:21.04,0:02:24.40,All,,0,0,0,fx,{\k90\fad(300,200)}{\k28}That's {\k28}that {\k28}me {\k28}es{\k28}pres{\k34}so{\k52}~
+Dialogue: 1,0:02:23.35,0:02:25.55,All,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Think{\k14}in' {\k28}'bout {\k43}me
+Dialogue: 1,0:02:24.50,0:02:26.71,All,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ev{\k14}ery {\k28}night, {\k43}oh
+Dialogue: 1,0:02:25.65,0:02:28.90,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Is {\k14}it {\k28}that {\k28}sweet? {\k28}I {\k29}guess {\k74}so~
+Dialogue: 1,0:02:27.90,0:02:30.17,All,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Say {\k19}you {\k31}can't {\k53}sleep
+Dialogue: 1,0:02:29.11,0:02:31.32,All,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ba{\k14}by, {\k28}I {\k43}know
+Dialogue: 1,0:02:30.27,0:02:33.63,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k28}That's {\k28}that {\k28}me {\k28}es{\k28}pres{\k33}so{\k53}~
+Dialogue: 1,0:02:32.58,0:02:34.79,All,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Move {\k14}it {\k28}up, {\k43}down
+Dialogue: 1,0:02:33.46,0:02:35.42,Hina,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Move {\k13}it {\k27}up, {\k33}down
+Dialogue: 1,0:02:33.73,0:02:35.88,All,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Left, {\k28}right, {\k43}oh
+Dialogue: 1,0:02:34.32,0:02:36.48,Hina,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Left, {\k28}right, {\k47}oh
+Dialogue: 1,0:02:34.88,0:02:38.18,Muyu,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Switch {\k14}it {\k28}up {\k28}like {\k28}Nin{\k28}ten{\k33}do{\k47}~
+Dialogue: 1,0:02:37.08,0:02:39.40,All,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Say {\k19}you {\k27}can't {\k58}sleep
+Dialogue: 1,0:02:38.35,0:02:40.55,All,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ba{\k14}by, {\k28}I {\k43}know
+Dialogue: 1,0:02:39.50,0:02:42.96,All,,0,0,0,fx,{\k90\fad(300,200)}{\k28}That's {\k28}that {\k28}me {\k28}es{\k28}pres{\k36}so{\k60}~
+Dialogue: 1,0:02:44.11,0:02:47.54,Runie,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Is {\k14}it {\k28}that {\k28}sweet? {\k28}I {\k43}guess {\k40}so{\k38}~
+Dialogue: 1,0:02:47.58,0:02:52.38,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\kf115}Hmm, {\k28}that's {\k28}that {\k28}me {\k28}es{\k36}pres{\k50}so{\k57}~
