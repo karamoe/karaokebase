@@ -1,0 +1,45 @@
+﻿[Script Info]
+Title: Appetite
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: StrangeQuark
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:17.13,0:00:19.36,Sample KM [Up],,0,0,0,karaoke,{\k25}Ca{\k25}ly{\k53}pso, {\k16}my {\k38}dar{\k66}ling
+Comment: 0,0:00:19.36,0:00:21.09,Sample KM [Up],,0,0,0,karaoke,{\k25}I {\k18}know {\k24}that {\k28}my {\k35}atti{\k43}tude
+Comment: 0,0:00:21.09,0:00:23.38,Sample KM [Up],,0,0,0,karaoke,{\k22}each {\k34}year {\k14}has {\k22}been {\k32}so {\k44}jar{\k61}ring
+Comment: 0,0:00:23.38,0:00:25.11,Sample KM [Up],,0,0,0,karaoke,{\k15}I {\k26}spent {\k28}my {\k28}time {\k26}mad {\k16}at {\k34}you
+Comment: 0,0:00:25.11,0:00:27.33,Sample KM [Up],,0,0,0,karaoke,{\k19}While {\k46}you've {\k22}been {\k30}so {\k52}char{\k53}ming
+Comment: 0,0:00:27.33,0:00:31.21,Sample KM [Up],,0,0,0,karaoke,{\k35}Su{\k16}dden{\k20}ly {\k28}my {\k34}appe{\k42}tite {\k17}has {\k92}changed, {\k17}I'm {\k43}star{\k44}ving
+Comment: 0,0:00:31.21,0:00:33.17,Sample KM [Up],,0,0,0,karaoke,{\k17}For {\k22}more {\k26}than {\k26}just {\k22}a {\k22}meal {\k20}to{\k41}night
+Comment: 0,0:00:33.17,0:00:35.40,Sample KM [Up],,0,0,0,karaoke,{\k17}So {\k30}wait {\k38}for {\k26}me {\k42}pre{\k70}cious
+Comment: 0,0:00:35.40,0:00:37.19,Sample KM [Up],,0,0,0,karaoke,{\k16}Back {\k9}of {\k19}where{\k17} you {\k20}have {\k38}dreamt {\k60}of us
+Comment: 0,0:00:37.19,0:00:39.41,Sample KM [Up],,0,0,0,karaoke,{\k13}And {\k40}lay {\k32}where {\k30}your {\k32}bed {\k75}is
+Comment: 0,0:00:39.41,0:00:43.19,Sample KM [Up],,0,0,0,karaoke,{\k29}I'll {\k12}be {\k24}just {\k24}a {\k18}mo{\k36}ment {\k26}while {\k24}I {\k34}go {\k38}and {\k26}get {\k44}rea{\k43}dy
+Comment: 0,0:00:43.19,0:00:45.18,Sample KM [Up],,0,0,0,karaoke,{\k73}Don't {\k22}get {\k23}im{\k23}pa{\k58}tient
+Comment: 0,0:00:45.18,0:00:46.89,Sample KM [Up],,0,0,0,karaoke,{\k41}There's {\k20}no {\k26}time {\k16}to {\k68}spare
+Comment: 0,0:00:46.89,0:00:49.41,Sample KM [Up],,0,0,0,karaoke,{\k29}I {\k18}think {\k36}love {\k22}is {\k18}in {\k15}the {\k114}air
+Dialogue: 0,0:00:16.23,0:00:19.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Ca{\k25}ly{\k53}pso, {\k16}my {\k38}dar{\k66}ling
+Dialogue: 0,0:00:18.46,0:00:21.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k18}know {\k24}that {\k28}my {\k35}atti{\k43}tude
+Dialogue: 0,0:00:20.19,0:00:23.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}each {\k34}year {\k14}has {\k22}been {\k32}so {\k44}jar{\k61}ring
+Dialogue: 0,0:00:22.48,0:00:25.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}I {\k26}spent {\k28}my {\k28}time {\k26}mad {\k16}at {\k34}you
+Dialogue: 0,0:00:24.21,0:00:27.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}While {\k46}you've {\k22}been {\k30}so {\k52}char{\k53}ming
+Dialogue: 0,0:00:26.43,0:00:31.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Su{\k16}dden{\k20}ly {\k28}my {\k34}appe{\k42}tite {\k17}has {\k92}changed, {\k17}I'm {\k43}star{\k44}ving
+Dialogue: 0,0:00:30.31,0:00:33.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}For {\k22}more {\k26}than {\k26}just {\k22}a {\k22}meal {\k20}to{\k41}night
+Dialogue: 0,0:00:32.27,0:00:35.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}So {\k30}wait {\k38}for {\k26}me {\k42}pre{\k70}cious
+Dialogue: 0,0:00:34.50,0:00:37.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Back {\k9}of {\k19}where{\k17} you {\k20}have {\k38}dreamt {\k60}of us
+Dialogue: 0,0:00:36.29,0:00:39.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}And {\k40}lay {\k32}where {\k30}your {\k32}bed {\k75}is
+Dialogue: 0,0:00:38.51,0:00:43.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}I'll {\k12}be {\k24}just {\k24}a {\k18}mo{\k36}ment {\k26}while {\k24}I {\k34}go {\k38}and {\k26}get {\k44}rea{\k43}dy
+Dialogue: 0,0:00:42.29,0:00:45.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k73}Don't {\k22}get {\k23}im{\k23}pa{\k58}tient
+Dialogue: 0,0:00:44.28,0:00:47.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}There's {\k20}no {\k26}time {\k16}to {\k68}spare
+Dialogue: 0,0:00:45.99,0:00:49.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}I {\k18}think {\k36}love {\k22}is {\k18}in {\k15}the {\k114}air
