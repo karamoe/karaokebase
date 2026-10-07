@@ -1,0 +1,195 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Nan mo Nee
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H00FFFFFF,&H009967F6,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:06.72,0:00:07.46,Sample KM [Choir],,0,0,0,karaoke,{\k30}Still {\k25}on {\k19}that
+Comment: 0,0:00:07.47,0:00:09.31,Sample KM [Choir],,0,0,0,karaoke,{\k38}One-{\k51}eight-{\k22}ze{\k20}ro-{\k23}ze{\k30}ro
+Comment: 0,0:00:09.31,0:00:11.19,Sample KM [Choir],,0,0,0,karaoke,{\k24}He's {\k23}so {\k23}hand{\k21}some, {\k23}he's {\k23}my {\k23}he{\k28}ro
+Comment: 0,0:00:11.19,0:00:12.97,Sample KM [Choir],,0,0,0,karaoke,{\k38}One-{\k51}eight-{\k22}ze{\k20}ro-{\k23}ze{\k24}ro
+Comment: 0,0:00:14.10,0:00:18.42,Sample KM [Up],,0,0,0,karaoke,{\k28}Still {\k19}on {\k23}that {\k45}1-{\k39}8{\k29}0{\k23}0, {\k24}hit {\k23}me {\k35}up {\k32}for {\k23}a {\k42}good {\k47}time
+Comment: 0,0:00:18.42,0:00:22.02,Sample KM [Up],,0,0,0,karaoke,{\k45}My {\k45}shit {\k44}bumps {\k26}'til {\k25}it {\k43}push {\k44}me {\k25}out{\k20}ta {\k43}line
+Comment: 0,0:00:22.02,0:00:25.70,Sample KM [Up],,0,0,0,karaoke,{\k45}You {\k52}can't {\k36}spell {\k52}my {\k23}name {\k23}with{\k24}out {\k22}the {\k24}dol{\k19}lar {\k48}sign
+Comment: 0,0:00:25.73,0:00:27.97,Sample KM [Up],,0,0,0,karaoke,{\k43}Rain{\k45}bow {\k23}mo{\k16}ney, {\k29}take {\k22}wha{\k22}te{\k24}ver
+Comment: 0,0:00:27.97,0:00:29.35,Sample KM [Up],,0,0,0,karaoke,{\k21}Yes, {\k23}I'm {\k21}co{\k22}lor{\k51}blind
+Comment: 0,0:00:29.36,0:00:31.15,Sample KM [Choir],,0,0,0,karaoke,{\k38}One-{\k51}eight-{\k22}ze{\k20}ro-{\k23}ze{\k25}ro
+Comment: 0,0:00:31.15,0:00:33.01,Sample KM [Choir],,0,0,0,karaoke,{\k24}He's {\k23}so {\k23}hand{\k21}some, {\k23}he's {\k23}my {\k23}he{\k26}ro
+Comment: 0,0:00:33.01,0:00:34.58,Sample KM [Choir],,0,0,0,karaoke,{\k38}One-{\k51}eight-{\k22}ze{\k20}ro-{\k23}ze{\k3}ro
+Comment: 0,0:00:34.44,0:00:36.65,Sample KM [Up],,0,0,0,karaoke,{\k17}It's {\k21}that {\k19}1-{\k18}8{\k19}0{\k27}0, {\k20}hit {\k30}my {\k50}line
+Comment: 0,0:00:36.65,0:00:38.49,Sample KM [Choir],,0,0,0,karaoke,{\k38}One-{\k51}eight-{\k22}ze{\k20}ro-{\k23}ze{\k30}ro
+Comment: 0,0:00:38.49,0:00:40.25,Sample KM [Choir],,0,0,0,karaoke,{\k24}He's {\k23}so {\k23}hand{\k21}some, {\k23}he's {\k23}my {\k23}he{\k16}ro
+Comment: 0,0:00:40.25,0:00:42.08,Sample KM [Choir],,0,0,0,karaoke,{\k38}One-{\k51}eight-{\k22}ze{\k20}ro-{\k23}ze{\k29}ro
+Comment: 0,0:00:41.62,0:00:43.80,Sample KM [Up],,0,0,0,karaoke,{\k22}Let {\k18}me {\k22}1-{\k18}8{\k28}0{\k17}0 {\k27}blow {\k28}your {\k38}mind
+Comment: 0,0:00:43.85,0:00:45.66,Sample KM [Up],,0,0,0,karaoke,{\k23}Big {\k23}wheels {\k15}in {\k15}the {\k21}front, {\k18}they {\k25}some {\k22}big {\k19}toys
+Comment: 0,0:00:45.66,0:00:47.47,Sample KM [Up],,0,0,0,karaoke,{\k15}Twen{\k11}ty {\k11}twen{\k14}ty {\k21}five, {\k13}it's {\k10}the {\k24}year {\k10}of {\k12}the {\k21}it {\k19}boy
+Comment: 0,0:00:47.47,0:00:49.27,Sample KM [Up],,0,0,0,karaoke,{\k15}Got {\k13}a {\k6}lit{\k15}tle {\k12}mo{\k11}ney, {\k11}yeah, {\k12}I {\k8}got {\k6}a {\k11}lit{\k22}tle {\k12}Bit{\k26}coin
+Comment: 0,0:00:49.27,0:00:51.13,Sample KM [Up],,0,0,0,karaoke,{\k18}She, {\k24}she, {\k32}she, {\k21}she {\k14}ma{\k13}kin' {\k20}me {\k21}real {\k23}coy
+Comment: 0,0:00:51.13,0:00:52.92,Sample KM [Up],,0,0,0,karaoke,{\k9}Ne{\k19}ver {\k23}stoop {\k18}too {\k23}low, {\k11}I {\k12}don't {\k25}sip {\k21}Dun{\k18}kin
+Comment: 0,0:00:52.92,0:00:54.78,Sample KM [Up],,0,0,0,karaoke,{\k27}Quite {\k23}nice {\k20}top, {\k12}I {\k14}ain't {\k13}tal{\k11}kin' {\k22}no {\k21}muf{\k23}fin
+Comment: 0,0:00:54.78,0:00:56.58,Sample KM [Up],,0,0,0,karaoke,{\k9}On {\k10}a {\k28}first {\k23}date, {\k18}stay {\k23}trau{\k25}ma {\k21}dum{\k23}pin'
+Comment: 0,0:00:56.58,0:00:58.41,Sample KM [Up],,0,0,0,karaoke,{\k24}Blah, {\k22}blah, {\k19}blah, {\k21}like {\k19}some{\k28}thin', {\k25}some{\k25}thin'
+Comment: 0,0:00:58.41,0:00:59.79,Sample KM [Up],,0,0,0,karaoke,{\k24}One {\k20}pump, {\k25}two {\k23}pump, {\k24}three {\k22}pump
+Comment: 0,0:00:59.79,0:01:02.71,Sample KM [Up],,0,0,0,karaoke,{\k21}Way {\k25}she {\k9}wor{\k12}kin' {\k24}that {\k20}shit, {\k19}she {\k30}left {\k20}me {\k25}co{\k21}ma{\k66}tose
+Comment: 0,0:01:02.87,0:01:04.11,Sample KM [Up],,0,0,0,karaoke,{\k33}Three {\k24}plus {\k22}six {\k20}is {\k25}nine
+Comment: 0,0:01:04.11,0:01:05.94,Sample KM [Up],,0,0,0,karaoke,{\k22}This {\k12}ba{\k12}by {\k17}ain't {\k14}tal{\k12}kin' {\k24}'bout {\k18}tic-{\k24}tac-{\k28}toe
+Comment: 0,0:01:06.52,0:01:09.59,Sample KM [Up],,0,0,0,karaoke,{\k18}She {\k12}a {\k10}lit{\k13}tle {\k24}freak, {\k22}I {\k24}guess {\k11}I'm {\k15}an {\k7}a{\k12}ni{\k29}mal, {\k15}E-{\k22}I-{\k24}E-{\k24}I-{\k25}O
+Comment: 0,0:01:09.59,0:01:11.17,Sample KM [Up],,0,0,0,karaoke,{\k20}Two {\k14}step{\k14}pin' {\k16}like {\k12}Cot{\k13}ton-{\k21}Eye {\k48}Joe
+Comment: 0,0:01:12.95,0:01:14.70,Sample KM [Up],,0,0,0,karaoke,{\k40}Don't {\k29}fuck {\k21}this {\k13}shit {\k15}up {\k27}for {\k30}me
+Comment: 0,0:01:15.00,0:01:16.37,Sample KM [Up],,0,0,0,karaoke,{\k25}Don't {\k21}fuck {\k16}this {\k11}shit {\k15}up {\k27}for {\k22}me
+Comment: 0,0:01:16.37,0:01:18.35,Sample KM [Up],,0,0,0,karaoke,{\k23}Don'- {\k42}don't {\k26}fuck {\k16}this {\k17}shit {\k15}up {\k27}for {\k32}me
+Comment: 0,0:01:18.41,0:01:20.22,Sample KM [Up],,0,0,0,karaoke,{\k44}Please, {\k48}please, {\k44}please, {\k45}please
+Comment: 0,0:01:20.22,0:01:22.01,Sample KM [Up],,0,0,0,karaoke,{\k40}Don't {\k29}fuck {\k21}this {\k13}shit {\k15}up {\k27}for {\k34}me
+Comment: 0,0:01:22.27,0:01:23.66,Sample KM [Up],,0,0,0,karaoke,{\k25}Don't {\k21}fuck {\k16}this {\k11}shit {\k15}up {\k27}for {\k24}me
+Comment: 0,0:01:23.89,0:01:25.69,Sample KM [Up],,0,0,0,karaoke,{\k40}Don't {\k29}fuck {\k21}this {\k13}shit {\k15}up {\k27}for {\k35}me
+Comment: 0,0:01:25.69,0:01:26.75,Sample KM [Up],,0,0,0,karaoke,{\k44}Please, {\k48}please, {\k14}p—
+Comment: 0,0:01:26.76,0:01:31.08,Sample KM [Up],,0,0,0,karaoke,{\k28}Still {\k19}on {\k23}that {\k45}1-{\k39}8{\k29}0{\k23}0, {\k24}hit {\k23}me {\k35}up {\k32}for {\k23}a {\k42}good {\k47}time
+Comment: 0,0:01:31.08,0:01:34.68,Sample KM [Up],,0,0,0,karaoke,{\k45}My {\k45}shit {\k44}bumps {\k26}'til {\k25}it {\k43}push {\k44}me {\k25}out{\k20}ta {\k43}line
+Comment: 0,0:01:34.68,0:01:38.36,Sample KM [Up],,0,0,0,karaoke,{\k45}You {\k52}can't {\k36}spell {\k52}my {\k23}name {\k23}with{\k24}out {\k22}the {\k24}dol{\k19}lar {\k48}sign
+Comment: 0,0:01:38.39,0:01:40.63,Sample KM [Up],,0,0,0,karaoke,{\k43}Rain{\k45}bow {\k23}mo{\k16}ney, {\k29}take {\k22}wha{\k22}te{\k24}ver
+Comment: 0,0:01:40.63,0:01:42.01,Sample KM [Up],,0,0,0,karaoke,{\k21}Yes, {\k23}I'm {\k21}co{\k22}lor{\k51}blind
+Comment: 0,0:01:42.02,0:01:43.81,Sample KM [Choir],,0,0,0,karaoke,{\k38}One-{\k51}eight-{\k22}ze{\k20}ro-{\k23}ze{\k25}ro
+Comment: 0,0:01:43.81,0:01:45.67,Sample KM [Choir],,0,0,0,karaoke,{\k24}He's {\k23}so {\k23}hand{\k21}some, {\k23}he's {\k23}my {\k23}he{\k26}ro
+Comment: 0,0:01:45.67,0:01:47.24,Sample KM [Choir],,0,0,0,karaoke,{\k38}One-{\k51}eight-{\k22}ze{\k20}ro-{\k23}ze{\k3}ro
+Comment: 0,0:01:47.10,0:01:49.31,Sample KM [Up],,0,0,0,karaoke,{\k17}It's {\k21}that {\k19}1-{\k18}8{\k19}0{\k27}0, {\k20}hit {\k30}my {\k50}line
+Comment: 0,0:01:49.31,0:01:51.15,Sample KM [Choir],,0,0,0,karaoke,{\k38}One-{\k51}eight-{\k22}ze{\k20}ro-{\k23}ze{\k30}ro
+Comment: 0,0:01:51.15,0:01:52.91,Sample KM [Choir],,0,0,0,karaoke,{\k24}He's {\k23}so {\k23}hand{\k21}some, {\k23}he's {\k23}my {\k23}he{\k16}ro
+Comment: 0,0:01:52.91,0:01:54.74,Sample KM [Choir],,0,0,0,karaoke,{\k38}One-{\k51}eight-{\k22}ze{\k20}ro-{\k23}ze{\k29}ro
+Comment: 0,0:01:54.28,0:01:56.46,Sample KM [Up],,0,0,0,karaoke,{\k22}Let {\k18}me {\k22}1-{\k18}8{\k28}0{\k17}0 {\k27}blow {\k28}your {\k38}mind
+Comment: 0,0:01:59.76,0:02:02.05,Sample KM [Up],,0,0,0,karaoke,{\k48}Yeah, {\k22}dick {\k22}real {\k23}dead{\k23}ly, {\k13}do {\k11}a {\k22}lil' {\k24}da{\k21}mage
+Comment: 0,0:02:02.05,0:02:03.87,Sample KM [Up],,0,0,0,karaoke,{\k24}Got {\k22}like {\k10}twen{\k15}ty {\k20}chil{\k25}dren, {\k20}Nick {\k19}Can{\k27}non
+Comment: 0,0:02:03.78,0:02:05.69,Sample KM [Up],,0,0,0,karaoke,{\k30}Full-{\k18}on {\k27}se{\k24}xy, {\k26}snap {\k21}like {\k25}sand{\k20}wich
+Comment: 0,0:02:05.69,0:02:07.50,Sample KM [Up],,0,0,0,karaoke,{\k12}Hit {\k10}a {\k14}dou{\k11}ble {\k22}three{\k22}some, {\k24}ride {\k23}it {\k19}tan{\k24}dem
+Comment: 0,0:02:07.50,0:02:08.86,Sample KM [Up],,0,0,0,karaoke,{\k25}Got {\k22}good {\k23}D{\k27}N{\k39}A
+Comment: 0,0:02:08.86,0:02:10.47,Sample KM [Up],,0,0,0,karaoke,{\k24}Shaw{\k23}ty {\k22}thick, {\k23}got {\k25}T{\k23}N{\k21}A
+Comment: 0,0:02:10.47,0:02:12.29,Sample KM [Up],,0,0,0,karaoke,{\k21}I'm {\k24}ma{\k22}kin' {\k24}moves, {\k23}no {\k22}P{\k23}O{\k23}A
+Comment: 0,0:02:12.29,0:02:14.12,Sample KM [Up],,0,0,0,karaoke,{\k24}Ain't {\k20}bus{\k28}tin' {\k24}quick, {\k20}no {\k21}E{\k22}T{\k24}A
+Comment: 0,0:02:14.12,0:02:15.94,Sample KM [Up],,0,0,0,karaoke,{\k22}It's {\k20}ei{\k24}ther {\k24}she {\k24}or {\k18}may{\k28}be {\k22}her
+Comment: 0,0:02:15.94,0:02:17.73,Sample KM [Up],,0,0,0,karaoke,{\k14}I {\k23}can{\k29}not {\k25}pick, {\k20}pick, {\k24}pick, {\k24}pick, {\k20}pick
+Comment: 0,0:02:17.73,0:02:19.77,Sample KM [Up],,0,0,0,karaoke,{\k25}I {\k21}got {\k25}that {\k21}Ro{\k22}lie {\k24}Po{\k22}lie {\k23}O{\k21}lie
+Comment: 0,0:02:19.77,0:02:21.34,Sample KM [Up],,0,0,0,karaoke,{\k25}It {\k14}go {\k28}tick, {\k25}tick, {\k22}tick, {\k23}tick, {\k20}tick
+Comment: 0,0:02:21.34,0:02:23.39,Sample KM [Up],,0,0,0,karaoke,{\k28}I'm {\k18}at {\k24}the {\k25}Ni{\k21}no, {\k24}play{\k21}in' {\k23}black{\k21}jack
+Comment: 0,0:02:23.39,0:02:25.02,Sample KM [Up],,0,0,0,karaoke,{\k24}Al{\k25}ways {\k23}hit, {\k22}hit, {\k24}hit, {\k21}hit, {\k24}hit
+Comment: 0,0:02:25.02,0:02:26.99,Sample KM [Up],,0,0,0,karaoke,{\k21}If {\k23}ba{\k23}by's {\k22}broke, {\k25}he's {\k21}on{\k25}ly {\k11}do{\k12}in' {\k14}it
+Comment: 0,0:02:26.99,0:02:28.89,Sample KM [Up],,0,0,0,karaoke,{\k30}For {\k24}the {\k23}bit, {\k23}bit, {\k22}bit, {\k23}bit, {\k45}bit
+Comment: 0,0:02:29.35,0:02:31.10,Sample KM [Up],,0,0,0,karaoke,{\k40}Don't {\k29}fuck {\k21}this {\k13}shit {\k15}up {\k27}for {\k30}me
+Comment: 0,0:02:31.40,0:02:32.77,Sample KM [Up],,0,0,0,karaoke,{\k25}Don't {\k21}fuck {\k16}this {\k11}shit {\k15}up {\k27}for {\k22}me
+Comment: 0,0:02:32.77,0:02:34.75,Sample KM [Up],,0,0,0,karaoke,{\k23}Don'- {\k42}don't {\k26}fuck {\k16}this {\k17}shit {\k15}up {\k27}for {\k32}me
+Comment: 0,0:02:34.81,0:02:36.62,Sample KM [Up],,0,0,0,karaoke,{\k44}Please, {\k48}please, {\k44}please, {\k45}please
+Comment: 0,0:02:36.62,0:02:38.41,Sample KM [Up],,0,0,0,karaoke,{\k40}Don't {\k29}fuck {\k21}this {\k13}shit {\k15}up {\k27}for {\k34}me
+Comment: 0,0:02:38.67,0:02:40.06,Sample KM [Up],,0,0,0,karaoke,{\k25}Don't {\k21}fuck {\k16}this {\k11}shit {\k15}up {\k27}for {\k24}me
+Comment: 0,0:02:40.29,0:02:42.09,Sample KM [Up],,0,0,0,karaoke,{\k40}Don't {\k29}fuck {\k21}this {\k13}shit {\k15}up {\k27}for {\k35}me
+Comment: 0,0:02:42.09,0:02:43.15,Sample KM [Up],,0,0,0,karaoke,{\k44}Please, {\k48}please, {\k14}p—
+Comment: 0,0:02:43.16,0:02:47.48,Sample KM [Up],,0,0,0,karaoke,{\k28}Still {\k19}on {\k23}that {\k45}1-{\k39}8{\k29}0{\k23}0, {\k24}hit {\k23}me {\k35}up {\k32}for {\k23}a {\k42}good {\k47}time
+Comment: 0,0:02:47.48,0:02:51.08,Sample KM [Up],,0,0,0,karaoke,{\k45}My {\k45}shit {\k44}bumps {\k26}'til {\k25}it {\k43}push {\k44}me {\k25}out{\k20}ta {\k43}line
+Comment: 0,0:02:51.08,0:02:54.76,Sample KM [Up],,0,0,0,karaoke,{\k45}You {\k52}can't {\k36}spell {\k52}my {\k23}name {\k23}with{\k24}out {\k22}the {\k24}dol{\k19}lar {\k48}sign
+Comment: 0,0:02:54.79,0:02:57.03,Sample KM [Up],,0,0,0,karaoke,{\k43}Rain{\k45}bow {\k23}mo{\k16}ney, {\k29}take {\k22}wha{\k22}te{\k24}ver
+Comment: 0,0:02:57.03,0:02:58.41,Sample KM [Up],,0,0,0,karaoke,{\k21}Yes, {\k23}I'm {\k21}co{\k22}lor{\k51}blind
+Comment: 0,0:02:58.42,0:03:00.21,Sample KM [Choir],,0,0,0,karaoke,{\k38}One-{\k51}eight-{\k22}ze{\k20}ro-{\k23}ze{\k25}ro
+Comment: 0,0:03:00.21,0:03:02.07,Sample KM [Choir],,0,0,0,karaoke,{\k24}He's {\k23}so {\k23}hand{\k21}some, {\k23}he's {\k23}my {\k23}he{\k26}ro
+Comment: 0,0:03:02.07,0:03:03.64,Sample KM [Choir],,0,0,0,karaoke,{\k38}One-{\k51}eight-{\k22}ze{\k20}ro-{\k23}ze{\k3}ro
+Comment: 0,0:03:03.50,0:03:05.71,Sample KM [Up],,0,0,0,karaoke,{\k17}It's {\k21}that {\k19}1-{\k18}8{\k19}0{\k27}0, {\k20}hit {\k30}my {\k50}line
+Comment: 0,0:03:05.71,0:03:07.55,Sample KM [Choir],,0,0,0,karaoke,{\k38}One-{\k51}eight-{\k22}ze{\k20}ro-{\k23}ze{\k30}ro
+Comment: 0,0:03:07.55,0:03:09.31,Sample KM [Choir],,0,0,0,karaoke,{\k24}He's {\k23}so {\k23}hand{\k21}some, {\k23}he's {\k23}my {\k23}he{\k16}ro
+Comment: 0,0:03:09.31,0:03:11.14,Sample KM [Choir],,0,0,0,karaoke,{\k38}One-{\k51}eight-{\k22}ze{\k20}ro-{\k23}ze{\k29}ro
+Comment: 0,0:03:10.68,0:03:12.86,Sample KM [Up],,0,0,0,karaoke,{\k22}Let {\k18}me {\k22}1-{\k18}8{\k28}0{\k17}0 {\k27}blow {\k28}your {\k38}mind
+Dialogue: 0,0:00:05.82,0:00:07.66,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Still {\k25}on {\k19}that
+Dialogue: 0,0:00:06.57,0:00:09.51,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}One-{\k51}eight-{\k22}ze{\k20}ro-{\k23}ze{\k30}ro
+Dialogue: 0,0:00:08.41,0:00:11.39,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}He's {\k23}so {\k23}hand{\k21}some, {\k23}he's {\k23}my {\k23}he{\k28}ro
+Dialogue: 0,0:00:10.29,0:00:13.17,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}One-{\k51}eight-{\k22}ze{\k20}ro-{\k23}ze{\k24}ro
+Dialogue: 0,0:00:13.20,0:00:18.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Still {\k19}on {\k23}that {\k45}1-{\k39}8{\k29}0{\k23}0, {\k24}hit {\k23}me {\k35}up {\k32}for {\k23}a {\k42}good {\k47}time
+Dialogue: 0,0:00:17.52,0:00:22.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}My {\k45}shit {\k44}bumps {\k26}'til {\k25}it {\k43}push {\k44}me {\k25}out{\k20}ta {\k43}line
+Dialogue: 0,0:00:21.12,0:00:25.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}You {\k52}can't {\k36}spell {\k52}my {\k23}name {\k23}with{\k24}out {\k22}the {\k24}dol{\k19}lar {\k48}sign
+Dialogue: 0,0:00:24.83,0:00:28.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Rain{\k45}bow {\k23}mo{\k16}ney, {\k29}take {\k22}wha{\k22}te{\k24}ver
+Dialogue: 0,0:00:27.07,0:00:29.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Yes, {\k23}I'm {\k21}co{\k22}lor{\k51}blind
+Dialogue: 0,0:00:28.46,0:00:31.35,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}One-{\k51}eight-{\k22}ze{\k20}ro-{\k23}ze{\k25}ro
+Dialogue: 0,0:00:30.25,0:00:33.21,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}He's {\k23}so {\k23}hand{\k21}some, {\k23}he's {\k23}my {\k23}he{\k26}ro
+Dialogue: 0,0:00:32.11,0:00:34.78,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}One-{\k51}eight-{\k22}ze{\k20}ro-{\k23}ze{\k3}ro
+Dialogue: 0,0:00:33.54,0:00:36.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}It's {\k21}that {\k19}1-{\k18}8{\k19}0{\k27}0, {\k20}hit {\k30}my {\k50}line
+Dialogue: 0,0:00:35.75,0:00:38.69,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}One-{\k51}eight-{\k22}ze{\k20}ro-{\k23}ze{\k30}ro
+Dialogue: 0,0:00:37.59,0:00:40.45,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}He's {\k23}so {\k23}hand{\k21}some, {\k23}he's {\k23}my {\k23}he{\k16}ro
+Dialogue: 0,0:00:39.35,0:00:42.28,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}One-{\k51}eight-{\k22}ze{\k20}ro-{\k23}ze{\k29}ro
+Dialogue: 0,0:00:40.72,0:00:44.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Let {\k18}me {\k22}1-{\k18}8{\k28}0{\k17}0 {\k27}blow {\k28}your {\k38}mind
+Dialogue: 0,0:00:42.95,0:00:45.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Big {\k23}wheels {\k15}in {\k15}the {\k21}front, {\k18}they {\k25}some {\k22}big {\k19}toys
+Dialogue: 0,0:00:44.76,0:00:47.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Twen{\k11}ty {\k11}twen{\k14}ty {\k21}five, {\k13}it's {\k10}the {\k24}year {\k10}of {\k12}the {\k21}it {\k19}boy
+Dialogue: 0,0:00:46.57,0:00:49.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Got {\k13}a {\k6}lit{\k15}tle {\k12}mo{\k11}ney, {\k11}yeah, {\k12}I {\k8}got {\k6}a {\k11}lit{\k22}tle {\k12}Bit{\k26}coin
+Dialogue: 0,0:00:48.37,0:00:51.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}She, {\k24}she, {\k32}she, {\k21}she {\k14}ma{\k13}kin' {\k20}me {\k21}real {\k23}coy
+Dialogue: 0,0:00:50.23,0:00:53.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}Ne{\k19}ver {\k23}stoop {\k18}too {\k23}low, {\k11}I {\k12}don't {\k25}sip {\k21}Dun{\k18}kin
+Dialogue: 0,0:00:52.02,0:00:54.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Quite {\k23}nice {\k20}top, {\k12}I {\k14}ain't {\k13}tal{\k11}kin' {\k22}no {\k21}muf{\k23}fin
+Dialogue: 0,0:00:53.88,0:00:56.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}On {\k10}a {\k28}first {\k23}date, {\k18}stay {\k23}trau{\k25}ma {\k21}dum{\k23}pin'
+Dialogue: 0,0:00:55.68,0:00:58.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Blah, {\k22}blah, {\k19}blah, {\k21}like {\k19}some{\k28}thin', {\k25}some{\k25}thin'
+Dialogue: 0,0:00:57.51,0:00:59.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}One {\k20}pump, {\k25}two {\k23}pump, {\k24}three {\k22}pump
+Dialogue: 0,0:00:58.89,0:01:02.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Way {\k25}she {\k9}wor{\k12}kin' {\k24}that {\k20}shit, {\k19}she {\k30}left {\k20}me {\k25}co{\k21}ma{\k66}tose
+Dialogue: 0,0:01:01.97,0:01:04.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Three {\k24}plus {\k22}six {\k20}is {\k25}nine
+Dialogue: 0,0:01:03.21,0:01:06.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}This {\k12}ba{\k12}by {\k17}ain't {\k14}tal{\k12}kin' {\k24}'bout {\k18}tic-{\k24}tac-{\k28}toe
+Dialogue: 0,0:01:05.62,0:01:09.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}She {\k12}a {\k10}lit{\k13}tle {\k24}freak, {\k22}I {\k24}guess {\k11}I'm {\k15}an {\k7}a{\k12}ni{\k29}mal, {\k15}E-{\k22}I-{\k24}E-{\k24}I-{\k25}O
+Dialogue: 0,0:01:08.69,0:01:11.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Two {\k14}step{\k14}pin' {\k16}like {\k12}Cot{\k13}ton-{\k21}Eye {\k48}Joe
+Dialogue: 0,0:01:12.05,0:01:14.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Don't {\k29}fuck {\k21}this {\k13}shit {\k15}up {\k27}for {\k30}me
+Dialogue: 0,0:01:14.10,0:01:16.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Don't {\k21}fuck {\k16}this {\k11}shit {\k15}up {\k27}for {\k22}me
+Dialogue: 0,0:01:15.47,0:01:18.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Don'- {\k42}don't {\k26}fuck {\k16}this {\k17}shit {\k15}up {\k27}for {\k32}me
+Dialogue: 0,0:01:17.51,0:01:20.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Please, {\k48}please, {\k44}please, {\k45}please
+Dialogue: 0,0:01:19.32,0:01:22.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Don't {\k29}fuck {\k21}this {\k13}shit {\k15}up {\k27}for {\k34}me
+Dialogue: 0,0:01:21.37,0:01:23.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Don't {\k21}fuck {\k16}this {\k11}shit {\k15}up {\k27}for {\k24}me
+Dialogue: 0,0:01:22.99,0:01:25.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Don't {\k29}fuck {\k21}this {\k13}shit {\k15}up {\k27}for {\k35}me
+Dialogue: 0,0:01:24.79,0:01:26.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Please, {\k48}please, {\k14}p—
+Dialogue: 0,0:01:25.86,0:01:31.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Still {\k19}on {\k23}that {\k45}1-{\k39}8{\k29}0{\k23}0, {\k24}hit {\k23}me {\k35}up {\k32}for {\k23}a {\k42}good {\k47}time
+Dialogue: 0,0:01:30.18,0:01:34.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}My {\k45}shit {\k44}bumps {\k26}'til {\k25}it {\k43}push {\k44}me {\k25}out{\k20}ta {\k43}line
+Dialogue: 0,0:01:33.78,0:01:38.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}You {\k52}can't {\k36}spell {\k52}my {\k23}name {\k23}with{\k24}out {\k22}the {\k24}dol{\k19}lar {\k48}sign
+Dialogue: 0,0:01:37.49,0:01:40.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Rain{\k45}bow {\k23}mo{\k16}ney, {\k29}take {\k22}wha{\k22}te{\k24}ver
+Dialogue: 0,0:01:39.73,0:01:42.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Yes, {\k23}I'm {\k21}co{\k22}lor{\k51}blind
+Dialogue: 0,0:01:41.12,0:01:44.01,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}One-{\k51}eight-{\k22}ze{\k20}ro-{\k23}ze{\k25}ro
+Dialogue: 0,0:01:42.91,0:01:45.87,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}He's {\k23}so {\k23}hand{\k21}some, {\k23}he's {\k23}my {\k23}he{\k26}ro
+Dialogue: 0,0:01:44.77,0:01:47.44,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}One-{\k51}eight-{\k22}ze{\k20}ro-{\k23}ze{\k3}ro
+Dialogue: 0,0:01:46.20,0:01:49.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}It's {\k21}that {\k19}1-{\k18}8{\k19}0{\k27}0, {\k20}hit {\k30}my {\k50}line
+Dialogue: 0,0:01:48.41,0:01:51.35,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}One-{\k51}eight-{\k22}ze{\k20}ro-{\k23}ze{\k30}ro
+Dialogue: 0,0:01:50.25,0:01:53.11,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}He's {\k23}so {\k23}hand{\k21}some, {\k23}he's {\k23}my {\k23}he{\k16}ro
+Dialogue: 0,0:01:52.01,0:01:54.94,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}One-{\k51}eight-{\k22}ze{\k20}ro-{\k23}ze{\k29}ro
+Dialogue: 0,0:01:53.38,0:01:56.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Let {\k18}me {\k22}1-{\k18}8{\k28}0{\k17}0 {\k27}blow {\k28}your {\k38}mind
+Dialogue: 0,0:01:58.86,0:02:02.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Yeah, {\k22}dick {\k22}real {\k23}dead{\k23}ly, {\k13}do {\k11}a {\k22}lil' {\k24}da{\k21}mage
+Dialogue: 0,0:02:01.15,0:02:04.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Got {\k22}like {\k10}twen{\k15}ty {\k20}chil{\k25}dren, {\k20}Nick {\k19}Can{\k27}non
+Dialogue: 0,0:02:02.88,0:02:05.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Full-{\k18}on {\k27}se{\k24}xy, {\k26}snap {\k21}like {\k25}sand{\k20}wich
+Dialogue: 0,0:02:04.79,0:02:07.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Hit {\k10}a {\k14}dou{\k11}ble {\k22}three{\k22}some, {\k24}ride {\k23}it {\k19}tan{\k24}dem
+Dialogue: 0,0:02:06.60,0:02:09.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Got {\k22}good {\k23}D{\k27}N{\k39}A
+Dialogue: 0,0:02:07.96,0:02:10.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Shaw{\k23}ty {\k22}thick, {\k23}got {\k25}T{\k23}N{\k21}A
+Dialogue: 0,0:02:09.57,0:02:12.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}I'm {\k24}ma{\k22}kin' {\k24}moves, {\k23}no {\k22}P{\k23}O{\k23}A
+Dialogue: 0,0:02:11.39,0:02:14.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Ain't {\k20}bus{\k28}tin' {\k24}quick, {\k20}no {\k21}E{\k22}T{\k24}A
+Dialogue: 0,0:02:13.22,0:02:16.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}It's {\k20}ei{\k24}ther {\k24}she {\k24}or {\k18}may{\k28}be {\k22}her
+Dialogue: 0,0:02:15.04,0:02:17.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}I {\k23}can{\k29}not {\k25}pick, {\k20}pick, {\k24}pick, {\k24}pick, {\k20}pick
+Dialogue: 0,0:02:16.83,0:02:19.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k21}got {\k25}that {\k21}Ro{\k22}lie {\k24}Po{\k22}lie {\k23}O{\k21}lie
+Dialogue: 0,0:02:18.87,0:02:21.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}It {\k14}go {\k28}tick, {\k25}tick, {\k22}tick, {\k23}tick, {\k20}tick
+Dialogue: 0,0:02:20.44,0:02:23.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}I'm {\k18}at {\k24}the {\k25}Ni{\k21}no, {\k24}play{\k21}in' {\k23}black{\k21}jack
+Dialogue: 0,0:02:22.49,0:02:25.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Al{\k25}ways {\k23}hit, {\k22}hit, {\k24}hit, {\k21}hit, {\k24}hit
+Dialogue: 0,0:02:24.12,0:02:27.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}If {\k23}ba{\k23}by's {\k22}broke, {\k25}he's {\k21}on{\k25}ly {\k11}do{\k12}in' {\k14}it
+Dialogue: 0,0:02:26.09,0:02:29.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}For {\k24}the {\k23}bit, {\k23}bit, {\k22}bit, {\k23}bit, {\k45}bit
+Dialogue: 0,0:02:28.45,0:02:31.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Don't {\k29}fuck {\k21}this {\k13}shit {\k15}up {\k27}for {\k30}me
+Dialogue: 0,0:02:30.50,0:02:32.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Don't {\k21}fuck {\k16}this {\k11}shit {\k15}up {\k27}for {\k22}me
+Dialogue: 0,0:02:31.87,0:02:34.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Don'- {\k42}don't {\k26}fuck {\k16}this {\k17}shit {\k15}up {\k27}for {\k32}me
+Dialogue: 0,0:02:33.91,0:02:36.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Please, {\k48}please, {\k44}please, {\k45}please
+Dialogue: 0,0:02:35.72,0:02:38.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Don't {\k29}fuck {\k21}this {\k13}shit {\k15}up {\k27}for {\k34}me
+Dialogue: 0,0:02:37.77,0:02:40.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Don't {\k21}fuck {\k16}this {\k11}shit {\k15}up {\k27}for {\k24}me
+Dialogue: 0,0:02:39.39,0:02:42.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Don't {\k29}fuck {\k21}this {\k13}shit {\k15}up {\k27}for {\k35}me
+Dialogue: 0,0:02:41.19,0:02:43.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Please, {\k48}please, {\k14}p—
+Dialogue: 0,0:02:42.26,0:02:47.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Still {\k19}on {\k23}that {\k45}1-{\k39}8{\k29}0{\k23}0, {\k24}hit {\k23}me {\k35}up {\k32}for {\k23}a {\k42}good {\k47}time
+Dialogue: 0,0:02:46.58,0:02:51.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}My {\k45}shit {\k44}bumps {\k26}'til {\k25}it {\k43}push {\k44}me {\k25}out{\k20}ta {\k43}line
+Dialogue: 0,0:02:50.18,0:02:54.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}You {\k52}can't {\k36}spell {\k52}my {\k23}name {\k23}with{\k24}out {\k22}the {\k24}dol{\k19}lar {\k48}sign
+Dialogue: 0,0:02:53.89,0:02:57.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Rain{\k45}bow {\k23}mo{\k16}ney, {\k29}take {\k22}wha{\k22}te{\k24}ver
+Dialogue: 0,0:02:56.13,0:02:58.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Yes, {\k23}I'm {\k21}co{\k22}lor{\k51}blind
+Dialogue: 0,0:02:57.52,0:03:00.41,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}One-{\k51}eight-{\k22}ze{\k20}ro-{\k23}ze{\k25}ro
+Dialogue: 0,0:02:59.31,0:03:02.27,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}He's {\k23}so {\k23}hand{\k21}some, {\k23}he's {\k23}my {\k23}he{\k26}ro
+Dialogue: 0,0:03:01.17,0:03:03.84,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}One-{\k51}eight-{\k22}ze{\k20}ro-{\k23}ze{\k3}ro
+Dialogue: 0,0:03:02.60,0:03:05.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}It's {\k21}that {\k19}1-{\k18}8{\k19}0{\k27}0, {\k20}hit {\k30}my {\k50}line
+Dialogue: 0,0:03:04.81,0:03:07.75,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}One-{\k51}eight-{\k22}ze{\k20}ro-{\k23}ze{\k30}ro
+Dialogue: 0,0:03:06.65,0:03:09.51,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}He's {\k23}so {\k23}hand{\k21}some, {\k23}he's {\k23}my {\k23}he{\k16}ro
+Dialogue: 0,0:03:08.41,0:03:11.34,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}One-{\k51}eight-{\k22}ze{\k20}ro-{\k23}ze{\k29}ro
+Dialogue: 0,0:03:09.78,0:03:13.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Let {\k18}me {\k22}1-{\k18}8{\k28}0{\k17}0 {\k27}blow {\k28}your {\k38}mind
