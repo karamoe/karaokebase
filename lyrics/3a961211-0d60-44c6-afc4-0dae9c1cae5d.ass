@@ -1,0 +1,244 @@
+﻿[Script Info]
+Title: Libera me from Hell
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 0
+PlayResY: 0
+Original Timing: meulahke, Kara.moe
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Liz,Arial,24,&H00FFFFFF,&H00D7C910,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Calli,Arial,24,&H00FFFFFF,&H00D175FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Calli down,Arial,24,&H00FFFFFF,&H00B05EF1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,2,2,2,20,1
+Style: Liz down,Arial,24,&H00FFFFFF,&H00D7C910,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,5,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 1,0:00:00.00,0:00:00.00,Liz,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:00.67,0:00:11.26,Liz,,0,0,0,karaoke,{\kf217}Re{\kf87}qui{\kf214}em {\kf69}ae{\kf72}ter{\kf84}na{\kf316}~m
+Comment: 1,0:00:12.49,0:00:21.76,Liz,,0,0,0,karaoke,{\kf244}Do{\kf70}na {\kf232}e{\kf64}is {\kf104}do{\kf19}mi{\kf194}ne
+Comment: 1,0:00:28.03,0:00:29.22,Calli,,0,0,0,karaoke,{\k25}Do {\k23}the {\k27}im{\k19}pos{\k11}si{\k14}ble
+Comment: 1,0:00:29.30,0:00:30.65,Calli,,0,0,0,karaoke,{\k24}See {\k19}the {\k23}in{\k17}vi{\k20}si{\k32}ble
+Comment: 1,0:00:30.83,0:00:32.74,Calli,,0,0,0,karaoke,{\k53}Row! {\k45}Row! {\k29}Fight {\k15}the {\k23}po{\k26}wer!
+Comment: 1,0:00:32.82,0:00:33.99,Calli,,0,0,0,karaoke,{\k34}Touch {\k16}the {\k22}un{\k23}tou{\k15}cha{\k7}ble
+Comment: 1,0:00:34.06,0:00:35.29,Calli,,0,0,0,karaoke,{\k28}Break {\k17}the {\k29}un{\k18}brea{\k10}ka{\k21}ble
+Comment: 1,0:00:35.64,0:00:37.57,Calli,,0,0,0,karaoke,{\k45}Row! {\k53}Row! {\k29}Fight {\k15}the {\k23}po{\k28}wer!
+Comment: 1,0:00:37.81,0:00:38.80,Calli,,0,0,0,karaoke,{\k16}Po{\k10}wer {\k18}to {\k15}the {\k40}peeps
+Comment: 1,0:00:39.01,0:00:39.90,Calli,,0,0,0,karaoke,{\k17}Po{\k12}wer {\k17}for {\k13}the {\k30}dreams
+Comment: 1,0:00:39.93,0:00:41.17,Calli,,0,0,0,karaoke,{\k17}Still {\k21}mis{\k21}sing {\k28}piece {\k14}scat{\k12}te{\k11}ring
+Comment: 1,0:00:41.21,0:00:42.09,Calli,,0,0,0,karaoke,{\k17}So {\k21}in{\k25}com{\k25}plete
+Comment: 1,0:00:42.13,0:00:44.08,Calli,,0,0,0,karaoke,{\k20}We {\k13}be {\k35}the {\k35}most {\k15}in{\k22}cre{\k9}di{\k14}ble {\k21}sol{\k11}dier
+Comment: 1,0:00:44.08,0:00:44.93,Calli,,0,0,0,karaoke,{\k16}From {\k16}the {\k12}un{\k13}der{\k28}ground
+Comment: 1,0:00:44.91,0:00:47.03,Calli,,0,0,0,karaoke,{\k35}See {\k35}how {\k15}ea{\k33}sy {\k13}they {\k22}all {\k19}fall {\k40}down
+Comment: 1,0:00:47.36,0:00:49.31,Calli,,0,0,0,karaoke,{\k17}Dig{\k17}ging {\k17}to {\k13}the {\k29}core {\k17}to {\k41}see {\k18}the {\k26}light
+Comment: 1,0:00:49.48,0:00:50.50,Calli,,0,0,0,karaoke,{\k18}Let's {\k14}get {\k20}out {\k9}of {\k17}here {\k24}babe
+Comment: 1,0:00:50.70,0:00:51.97,Calli,,0,0,0,karaoke,{\k17}That's {\k11}the {\k17}way {\k11}to {\k17}sur{\k32}vive,{\k22} ya
+Comment: 1,0:00:52.05,0:00:52.98,Calli,,0,0,0,karaoke,{\k32}Top {\k27}of {\k10}the {\k24}head
+Comment: 1,0:00:53.29,0:00:54.23,Calli,,0,0,0,karaoke,{\k25}I'm {\k31}on {\k14}the {\k24}set
+Comment: 1,0:00:54.60,0:00:55.72,Calli,,0,0,0,karaoke,{\k17}Do {\k14}the {\k29}im{\k17}pos{\k16}si{\k19}ble
+Comment: 1,0:00:55.79,0:00:56.65,Calli,,0,0,0,karaoke,{\k17}Don't {\k12}you {\k17}wan{\k17}na {\k23}bet?
+Comment: 1,0:00:56.70,0:00:57.87,Calli,,0,0,0,karaoke,{\k17}'Cause {\k14}a {\k11}lot {\k20}of {\k27}things {\k28}changed
+Comment: 1,0:00:57.91,0:00:59.11,Calli,,0,0,0,karaoke,{\k17}We {\k14}be {\k15}wai{\k13}ting {\k31}in {\k30}vain
+Comment: 1,0:00:59.12,0:01:01.51,Calli,,0,0,0,karaoke,{\k15}If {\k16}you {\k13}wan{\k16}na {\k29}get {\k25}by, {\k32}no {\k37}pain {\k23}no {\k33}gain
+Comment: 1,0:01:01.83,0:01:03.70,Calli,,0,0,0,karaoke,{\k58}Wow! {\k15}Fa{\k15}kers {\k12}wan{\k7}na {\k36}test {\k5}me {\k13}a{\k26}gain
+Comment: 1,0:01:04.01,0:01:06.31,Calli,,0,0,0,karaoke,{\k22}Sor{\k40}ry, {\k12}my {\k38}rhyme's {\k7}gon{\k11}na {\k36}snatch {\k17}your {\k29}brain, {\k18}yo
+Comment: 1,0:01:06.62,0:01:08.52,Calli,,0,0,0,karaoke,{\k25}I'm {\k33}still {\k18}star{\k12}ving {\k14}for {\k12}the {\k22}straight {\k22}up {\k32}skill
+Comment: 1,0:01:08.54,0:01:09.88,Calli,,0,0,0,karaoke,{\k15}We {\k16}gon{\k29}na {\k15}ma{\k16}kin' {\k10}it {\k21}hap{\k12}pen
+Comment: 1,0:01:09.88,0:01:11.06,Calli,,0,0,0,karaoke,{\k17}With {\k13}the {\k17}cra{\k11}zy {\k19}rap {\k41}skill
+Comment: 1,0:01:11.28,0:01:13.99,Calli,,0,0,0,karaoke,{\k9}Get {\k25}rea{\k5}dy {\k17}to {\k21}rum{\k23}ble, {\k29}{\k29}now {\k16}is {\k13}the {\k34}time, {\k13}uh {\k37}huh
+Comment: 1,0:01:14.15,0:01:15.72,Calli,,0,0,0,karaoke,{\k13}If {\k14}you {\k14}ain't {\k35}know, {\k31}now {\k21}you {\k29}know
+Comment: 1,0:01:17.96,0:01:22.47,Liz,,0,0,0,karaoke,{\k50}Li{\k16}be{\kf178}ra {\k58}me {\k43}do{\k20}mi{\k86}ne
+Comment: 1,0:01:22.75,0:01:27.20,Liz,,0,0,0,karaoke,{\k59}De {\kf126}mor{\k86}te {\k26}ae{\k67}ter{\k81}na
+Comment: 1,0:01:27.57,0:01:32.45,Liz,,0,0,0,karaoke,{\k62}In {\k62}di{\k57}e {\k31}il{\k51}la {\k40}tre{\k62}men{\kf123}da
+Comment: 1,0:01:33.55,0:01:37.79,Liz,,0,0,0,karaoke,{\k63}In {\k61}di{\k61}e {\kf119}il{\kf120}la
+Comment: 1,0:01:38.29,0:01:43.22,Liz,,0,0,0,karaoke,{\k36}Quan{\k22}do {\k53}coe{\k45}li {\k32}mo{\k92}ven{\k27}di {\k49}sunt {\k36}et {\k39}ter{\k62}ra
+Comment: 1,0:01:43.45,0:01:49.54,Liz,,0,0,0,karaoke,{\k32}Dum {\k89}ve{\k35}ne{\k88}ris {\k29}ju{\k91}di{\k29}ca{\kf216}re
+Comment: 1,0:01:52.13,0:01:56.32,Liz,,0,0,0,karaoke,{\kf143}Sae{\k41}cu{\k32}lum {\k31}per {\kf57}ig{\kf115}nem
+Comment: 1,0:01:57.41,0:02:05.93,Liz,,0,0,0,karaoke,{\kf138}Tre{\k58}mens {\k52}fac{\k126}tus{\f44} {\k62}sum {\k65}e{\k109}go {\k63}et {\k88}ti{\k39}me{\k52}o
+Comment: 1,0:02:05.98,0:02:18.59,Liz,,0,0,0,karaoke,{\k63}Dum {\kf104}dis{\kf98}cus{\k39}sio {\k85}ve{\k43}ne{\kf108}rit {\kf114}at{\k86}que {\kf214}ven{\k49}tu{\k19}ra {\k58}i{\kf181}ra
+Comment: 1,0:02:25.77,0:02:28.02,Calli,,0,0,0,karaoke,{\k21}Se{\k16}cond {\k29}verse {\k14}de{\k12}di{\k30}cates {\k19}to {\k14}the {\k29}real {\k41}peeps
+Comment: 1,0:02:28.21,0:02:30.56,Calli,,0,0,0,karaoke,{\k17}All {\k13}we {\k16}got {\k12}to {\k24}say {\k36}is {\k22}so {\k41}real {\k25}thing {\k29}'cause
+Comment: 1,0:02:30.87,0:02:32.99,Calli,,0,0,0,karaoke,{\k18}Re{\k13}vo{\k13}lu{\k35}tion {\k14}ain't {\k15}ne{\k14}ver {\k12}gon{\k12}na {\k16}te{\k21}le{\k29}vise
+Comment: 1,0:02:33.01,0:02:35.31,Calli,,0,0,0,karaoke,{\k17}Kic{\k13}king {\k12}the {\k30}mad {\k31}flow,{\k14} {\k19}mi{\k14}cro{\k29}phone {\k12}phe{\k11}no{\k28}type
+Comment: 1,0:02:35.58,0:02:36.57,Calli,,0,0,0,karaoke,{\k15}O{\k13}pen {\k16}your {\k31}third {\k24}eye
+Comment: 1,0:02:36.57,0:02:37.78,Calli,,0,0,0,karaoke,{\k19}See{\k17}ing {\k14}through {\k13}the {\k12}o{\k16}ver{\k30}ground
+Comment: 1,0:02:37.98,0:02:38.66,Calli,,0,0,0,karaoke,{\k10}I'm {\k6}a{\k10}bout {\k13}to {\k17}hit {\k12}you
+Comment: 1,0:02:38.68,0:02:40.14,Calli,,0,0,0,karaoke,{\k10}With {\k11}the {\k41}scream {\k14}from {\k16}the {\k13}un{\k14}der{\k27}ground
+Comment: 1,0:02:40.32,0:02:41.97,Calli,,0,0,0,karaoke,{\k26}Whole {\k15}ci{\k11}ty's {\k15}co{\k12}vered {\k17}with {\k13}the {\k19}cy{\k15}ber {\k15}fla{\k7}vor
+Comment: 1,0:02:41.98,0:02:44.95,Calli,,0,0,0,karaoke,{\k34}"G" is {\k12}in {\k16}your {\k16}a{\k13}re{\k12}a,{\k17} {\k13}one {\k20}of {\k13}the {\k25}tou{\k37}ghest {\k14}e{\k11}ni{\k12}g{\k32}ma
+Comment: 1,0:02:44.98,0:02:54.59,Liz,,0,0,0,karaoke,{\kf183}Di{\kf58}es {\kf111}il{\kf127}la, {\kf183}di{\kf61}es {\kf106}i{\kf132}rae
+Comment: 1,0:02:55.12,0:03:03.91,Liz,,0,0,0,karaoke,{\kf64}Ca{\kf58}la{\kf64}mi{\kf113}ta{\kf116}tis {\kf73}{\kf116}et {\kf22}mi{\kf42}se{\kf120}ri{\kf91}ae
+Comment: 1,0:03:04.08,0:03:13.72,Liz down,,0,0,0,karaoke,{\kf183}Di{\kf72}es {\kf108}il{\kf126}la {\kf181}di{\kf61}es {\kf119}mag{\kf114}na
+Comment: 1,0:03:04.10,0:03:05.33,Calli,,0,0,0,karaoke,{\k24}Do {\k13}the {\k27}im{\k25}pos{\k13}si{\k21}ble
+Comment: 1,0:03:05.36,0:03:06.55,Calli,,0,0,0,karaoke,{\k19}See {\k14}the {\k24}in{\k23}vi{\k10}si{\k29}ble
+Comment: 1,0:03:06.87,0:03:08.84,Calli,,0,0,0,karaoke,{\k45}Row! {\k47}Row! {\k22}Fight {\k25}the {\k28}po{\k30}wer!
+Comment: 1,0:03:08.87,0:03:10.08,Calli,,0,0,0,karaoke,{\k28}Touch {\k10}the {\k33}un{\k18}tou{\k15}cha{\k17}ble
+Comment: 1,0:03:10.11,0:03:11.38,Calli,,0,0,0,karaoke,{\k22}Break {\k18}the {\k28}un{\k14}brea{\k15}ka{\k30}ble
+Comment: 1,0:03:11.66,0:03:13.57,Calli,,0,0,0,karaoke,{\k50}Row! {\k43}Row! {\k25}Fight {\k16}the {\k26}po{\k31}wer!
+Comment: 1,0:03:13.81,0:03:15.84,Calli,,0,0,0,karaoke,{\k19}What {\k11}you {\k17}gon{\k13}na {\k27}do {\k33}is {\k15}what {\k15}you {\k13}wan{\k17}na {\k23}do
+Comment: 1,0:03:14.41,0:03:23.27,Liz down,,0,0,0,karaoke,{\k60}Et {\k43}a{\k42}ma{\k33}ra {\kf121}val{\kf105}de {\kf76}{\k57}et {\k41}a{\k48}ma{\k33}ra {\kf117}val{\kf110}de
+Comment: 1,0:03:15.85,0:03:18.24,Calli,,0,0,0,karaoke,{\k55}Just {\k29}break {\k14}the {\k30}roof, {\k12}then {\k33}you {\k26}see {\k16}the {\k24}truth
+Comment: 1,0:03:18.79,0:03:21.02,Calli,,0,0,0,karaoke,{\k10}This {\k14}is {\k18}the {\k23}theme {\k19}of {\k19}the {\k24}G {\k16}co{\k19}ming {\k27}through {\k16}ba{\k18}by!
+Comment: 1,0:03:21.31,0:03:23.23,Calli,,0,0,0,karaoke,{\k45}Row! {\k39}Row! {\k28}Fight {\k22}the {\k29}po{\k29}wer!
+Comment: 1,0:03:23.37,0:03:24.40,Calli,,0,0,0,karaoke,{\k30}FIGHT {\k14}THE {\k30}PO{\k29}WER!
+Comment: 1,0:03:24.42,0:03:32.94,Liz down,,0,0,0,karaoke,{\kf200}Re{\kf58}qui{\kf180}em {\kf52}ae{\kf112}ter{\kf250}nam
+Comment: 1,0:03:24.42,0:03:25.65,Calli,,0,0,0,karaoke,{\k24}Do {\k13}the {\k27}im{\k25}pos{\k13}si{\k21}ble
+Comment: 1,0:03:25.68,0:03:26.87,Calli,,0,0,0,karaoke,{\k19}See {\k14}the {\k24}in{\k23}vi{\k10}si{\k29}ble
+Comment: 1,0:03:27.19,0:03:29.16,Calli,,0,0,0,karaoke,{\k45}Row! {\k47}Row! {\k22}Fight {\k25}the {\k28}po{\k30}wer!
+Comment: 1,0:03:29.19,0:03:30.40,Calli,,0,0,0,karaoke,{\k28}Touch {\k10}the {\k33}un{\k18}tou{\k15}cha{\k17}ble
+Comment: 1,0:03:30.43,0:03:31.70,Calli,,0,0,0,karaoke,{\k22}Break {\k18}the {\k28}un{\k14}brea{\k15}ka{\k30}ble
+Comment: 1,0:03:31.98,0:03:33.89,Calli,,0,0,0,karaoke,{\k50}Row! {\k43}Row! {\k25}Fight {\k16}the {\k26}po{\k31}wer!
+Comment: 1,0:03:34.12,0:03:42.13,Liz down,,0,0,0,karaoke,{\kf188}Do{\kf61}na {\kf175}e{\kf65}is {\kf90}do{\kf26}mi{\kf196}ne
+Comment: 1,0:03:34.13,0:03:36.16,Calli,,0,0,0,karaoke,{\k19}What {\k11}you {\k17}gon{\k13}na {\k27}do {\k33}is {\k15}what {\k15}you {\k13}wan{\k17}na {\k23}do
+Comment: 1,0:03:36.17,0:03:38.56,Calli,,0,0,0,karaoke,{\k55}Just {\k29}break {\k14}the {\k30}roof, {\k12}then {\k33}you {\k26}see {\k16}the {\k24}truth
+Comment: 1,0:03:36.85,0:03:38.81,Calli down,,0,0,0,karaoke,{\k59}Row! {\k37}Row! {\k29}Fight {\k15}the {\k27}po{\k29}wer!
+Comment: 1,0:03:39.11,0:03:41.34,Calli,,0,0,0,karaoke,{\k10}This {\k14}is {\k18}the {\k23}theme {\k19}of {\k19}the {\k24}G {\k16}co{\k19}ming {\k27}through {\k16}ba{\k18}by!
+Comment: 1,0:03:41.63,0:03:43.55,Calli,,0,0,0,karaoke,{\k45}Row! {\k39}Row! {\k28}Fight {\k22}the {\k29}po{\k29}wer!
+Comment: 1,0:03:43.64,0:03:44.87,Calli,,0,0,0,karaoke,{\k24}Do {\k13}the {\k27}im{\k25}pos{\k13}si{\k21}ble
+Comment: 1,0:03:43.65,0:03:51.75,Liz down,,0,0,0,karaoke,{\kf178}Re{\kf78}qui{\kf177}em {\kf59}ae{\kf111}ter{\kf207}nam
+Comment: 1,0:03:44.90,0:03:46.09,Calli,,0,0,0,karaoke,{\k19}See {\k14}the {\k24}in{\k23}vi{\k10}si{\k29}ble
+Comment: 1,0:03:46.41,0:03:48.38,Calli,,0,0,0,karaoke,{\k45}Row! {\k47}Row! {\k22}Fight {\k25}the {\k28}po{\k30}wer!
+Comment: 1,0:03:48.41,0:03:49.62,Calli,,0,0,0,karaoke,{\k28}Touch {\k10}the {\k33}un{\k18}tou{\k15}cha{\k17}ble
+Comment: 1,0:03:49.65,0:03:50.92,Calli,,0,0,0,karaoke,{\k22}Break {\k18}the {\k28}un{\k14}brea{\k15}ka{\k30}ble
+Comment: 1,0:03:51.20,0:03:53.11,Calli,,0,0,0,karaoke,{\k50}Row! {\k43}Row! {\k25}Fight {\k16}the {\k26}po{\k31}wer!
+Comment: 1,0:03:53.35,0:03:55.38,Calli,,0,0,0,karaoke,{\k19}What {\k11}you {\k17}gon{\k13}na {\k27}do {\k33}is {\k15}what {\k15}you {\k13}wan{\k17}na {\k23}do
+Comment: 1,0:03:53.41,0:04:01.35,Liz down,,0,0,0,karaoke,{\kf175}Do{\kf64}na {\kf178}e{\kf62}is {\kf87}re{\kf34}qui{\kf194}em
+Comment: 1,0:03:55.39,0:03:57.78,Calli,,0,0,0,karaoke,{\k55}Just {\k29}break {\k14}the {\k30}roof, {\k12}then {\k33}you {\k26}see {\k16}the {\k24}truth
+Comment: 1,0:03:56.09,0:03:58.01,Calli down,,0,0,0,karaoke,{\k47}Row! {\k47}Row! {\k21}Fight {\k21}the {\k25}po{\k31}wer!
+Comment: 1,0:03:58.33,0:04:00.56,Calli,,0,0,0,karaoke,{\k10}This {\k14}is {\k18}the {\k23}theme {\k19}of {\k19}the {\k24}G {\k16}co{\k19}ming {\k27}through {\k16}ba{\k18}by!
+Comment: 1,0:04:00.85,0:04:02.77,Calli,,0,0,0,karaoke,{\k45}Row! {\k39}Row! {\k28}Fight {\k22}the {\k29}po{\k29}wer!
+Comment: 1,0:04:02.98,0:04:12.43,Liz down,,0,0,0,karaoke,{\kf108}Et {\k73}lux {\k63}per{\k88}pe{\k19}tu{\kf132}a {\k52}{\k59}lu{\k42}ce{\k47}~{\k47}at {\kf54}e{\kf161}is
+Comment: 1,0:04:02.98,0:04:05.01,Calli,,0,0,0,karaoke,{\k19}What {\k11}you {\k17}gon{\k13}na {\k27}do {\k33}is {\k15}what {\k15}you {\k13}wan{\k17}na {\k23}do
+Comment: 1,0:04:05.02,0:04:07.41,Calli,,0,0,0,karaoke,{\k55}Just {\k29}break {\k14}the {\k30}roof, {\k12}then {\k33}you {\k26}see {\k16}the {\k24}truth
+Comment: 1,0:04:07.96,0:04:10.19,Calli,,0,0,0,karaoke,{\k10}This {\k14}is {\k18}the {\k23}theme {\k19}of {\k19}the {\k24}G {\k16}co{\k19}ming {\k27}through {\k16}ba{\k18}by!
+Comment: 1,0:04:10.48,0:04:12.40,Calli,,0,0,0,karaoke,{\k45}Row! {\k39}Row! {\k28}Fight {\k22}the {\k29}po{\k29}wer!
+Comment: 1,0:04:12.47,0:04:13.70,Calli,,0,0,0,karaoke,{\k24}Do {\k13}the {\k27}im{\k25}pos{\k13}si{\k21}ble
+Comment: 1,0:04:13.08,0:04:19.89,Liz down,,0,0,0,karaoke,{\kf72}Li{\kf58}be{\kf56}ra {\kf117}me {\kf87}do{\kf40}mi{\kf251}ne
+Comment: 1,0:04:13.73,0:04:14.92,Calli,,0,0,0,karaoke,{\k19}See {\k14}the {\k24}in{\k23}vi{\k10}si{\k29}ble
+Comment: 1,0:04:15.24,0:04:17.21,Calli,,0,0,0,karaoke,{\k45}Row! {\k47}Row! {\k22}Fight {\k25}the {\k28}po{\k30}wer!
+Comment: 1,0:04:17.66,0:04:19.66,Calli,,0,0,0,karaoke,{\k45}Row! {\k47}Row! {\k27}Fight {\k20}the {\k31}po{\k30}wer!
+Comment: 1,0:04:20.10,0:04:22.02,Calli,,0,0,0,karaoke,{\k45}Row! {\k43}Row! {\k27}Fight {\k15}the {\k34}po{\k28}wer!
+Comment: 1,0:04:22.56,0:04:24.60,Calli,,0,0,0,karaoke,{\k43}Row! {\k42}Row! {\k24}Fight {\k18}the {\k33}po{\k44}wer!
+Comment: 1,0:04:24.98,0:04:26.94,Calli,,0,0,0,karaoke,{\k41}Row! {\k42}Row! {\k27}Fight {\k16}the {\k30}po{\k40}wer!
+Comment: 1,0:04:27.35,0:04:29.40,Calli,,0,0,0,karaoke,{\k43}Row! {\k39}Row! {\k34}Fight {\k14}the {\k29}po{\k46}wer!
+Comment: 1,0:04:29.76,0:04:31.64,Calli,,0,0,0,karaoke,{\k43}Row! {\k43}Row! {\k23}Fight {\k18}the {\k36}po{\k25}wer!
+Comment: 1,0:04:31.13,0:04:41.53,Liz down,,0,0,0,karaoke,{\kf46}Li{\kf22}be{\kf172}ra {\kf60}me {\kf183}do{\kf59}mi{\kf498}ne
+Comment: 1,0:04:32.07,0:04:34.01,Calli,,0,0,0,karaoke,{\k48}Row! {\k44}Row! {\k22}Fight {\k25}the {\k28}po{\k27}wer!
+Comment: 1,0:04:34.49,0:04:36.38,Calli,,0,0,0,karaoke,{\k45}Row! {\k47}Row! {\k22}Fight {\k19}the {\k30}po{\k26}wer!
+Comment: 1,0:04:36.92,0:04:38.76,Calli,,0,0,0,karaoke,{\k43}Row! {\k43}Row! {\k29}Fight {\k15}the {\k33}po{\k21}wer!
+Comment: 1,0:04:39.30,0:04:41.20,Calli,,0,0,0,karaoke,{\k40}Row! {\k46}Row! {\k28}Fight {\k16}the {\k34}po{\k26}wer!
+Dialogue: 1,0:00:00.00,0:00:11.46,Liz,,0,0,0,fx,{\k67\fad(670,200)}{\kf217}Re{\kf87}qui{\kf214}em {\kf69}ae{\kf72}ter{\kf84}na{\kf316}~m
+Dialogue: 1,0:00:11.59,0:00:21.96,Liz,,0,0,0,fx,{\k90\fad(300,200)}{\kf244}Do{\kf70}na {\kf232}e{\kf64}is {\kf104}do{\kf19}mi{\kf194}ne
+Dialogue: 1,0:00:27.13,0:00:29.42,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Do {\k23}the {\k27}im{\k19}pos{\k11}si{\k14}ble
+Dialogue: 1,0:00:28.40,0:00:30.85,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k24}See {\k19}the {\k23}in{\k17}vi{\k20}si{\k32}ble
+Dialogue: 1,0:00:29.93,0:00:32.94,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k53}Row! {\k45}Row! {\k29}Fight {\k15}the {\k23}po{\k26}wer!
+Dialogue: 1,0:00:31.92,0:00:34.19,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Touch {\k16}the {\k22}un{\k23}tou{\k15}cha{\k7}ble
+Dialogue: 1,0:00:33.16,0:00:35.49,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Break {\k17}the {\k29}un{\k18}brea{\k10}ka{\k21}ble
+Dialogue: 1,0:00:34.74,0:00:37.77,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Row! {\k53}Row! {\k29}Fight {\k15}the {\k23}po{\k28}wer!
+Dialogue: 1,0:00:36.91,0:00:39.00,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Po{\k10}wer {\k18}to {\k15}the {\k40}peeps
+Dialogue: 1,0:00:38.11,0:00:40.10,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Po{\k12}wer {\k17}for {\k13}the {\k30}dreams
+Dialogue: 1,0:00:39.03,0:00:41.37,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Still {\k21}mis{\k21}sing {\k28}piece {\k14}scat{\k12}te{\k11}ring
+Dialogue: 1,0:00:40.31,0:00:42.29,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k17}So {\k21}in{\k25}com{\k25}plete
+Dialogue: 1,0:00:41.23,0:00:44.28,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k20}We {\k13}be {\k35}the {\k35}most {\k15}in{\k22}cre{\k9}di{\k14}ble {\k21}sol{\k11}dier
+Dialogue: 1,0:00:43.18,0:00:45.13,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k16}From {\k16}the {\k12}un{\k13}der{\k28}ground
+Dialogue: 1,0:00:44.01,0:00:47.23,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k35}See {\k35}how {\k15}ea{\k33}sy {\k13}they {\k22}all {\k19}fall {\k40}down
+Dialogue: 1,0:00:46.46,0:00:49.51,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Dig{\k17}ging {\k17}to {\k13}the {\k29}core {\k17}to {\k41}see {\k18}the {\k26}light
+Dialogue: 1,0:00:48.58,0:00:50.70,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Let's {\k14}get {\k20}out {\k9}of {\k17}here {\k24}babe
+Dialogue: 1,0:00:49.80,0:00:52.17,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k17}That's {\k11}the {\k17}way {\k11}to {\k17}sur{\k32}vive,{\k22} ya
+Dialogue: 1,0:00:51.15,0:00:53.18,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Top {\k27}of {\k10}the {\k24}head
+Dialogue: 1,0:00:52.39,0:00:54.43,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I'm {\k31}on {\k14}the {\k24}set
+Dialogue: 1,0:00:53.70,0:00:55.92,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Do {\k14}the {\k29}im{\k17}pos{\k16}si{\k19}ble
+Dialogue: 1,0:00:54.89,0:00:56.85,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Don't {\k12}you {\k17}wan{\k17}na {\k23}bet?
+Dialogue: 1,0:00:55.80,0:00:58.07,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k17}'Cause {\k14}a {\k11}lot {\k20}of {\k27}things {\k28}changed
+Dialogue: 1,0:00:57.01,0:00:59.31,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k17}We {\k14}be {\k15}wai{\k13}ting {\k31}in {\k30}vain
+Dialogue: 1,0:00:58.22,0:01:01.71,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k15}If {\k16}you {\k13}wan{\k16}na {\k29}get {\k25}by, {\k32}no {\k37}pain {\k23}no {\k33}gain
+Dialogue: 1,0:01:00.93,0:01:03.90,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k58}Wow! {\k15}Fa{\k15}kers {\k12}wan{\k7}na {\k36}test {\k5}me {\k13}a{\k26}gain
+Dialogue: 1,0:01:03.11,0:01:06.51,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Sor{\k40}ry, {\k12}my {\k38}rhyme's {\k7}gon{\k11}na {\k36}snatch {\k17}your {\k29}brain, {\k18}yo
+Dialogue: 1,0:01:05.72,0:01:08.72,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I'm {\k33}still {\k18}star{\k12}ving {\k14}for {\k12}the {\k22}straight {\k22}up {\k32}skill
+Dialogue: 1,0:01:07.64,0:01:10.08,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k15}We {\k16}gon{\k29}na {\k15}ma{\k16}kin' {\k10}it {\k21}hap{\k12}pen
+Dialogue: 1,0:01:08.98,0:01:11.26,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k17}With {\k13}the {\k17}cra{\k11}zy {\k19}rap {\k41}skill
+Dialogue: 1,0:01:10.38,0:01:14.19,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k9}Get {\k25}rea{\k5}dy {\k17}to {\k21}rum{\k23}ble, {\k29}{\k29}now {\k16}is {\k13}the {\k34}time, {\k13}uh {\k37}huh
+Dialogue: 1,0:01:13.25,0:01:15.92,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k13}If {\k14}you {\k14}ain't {\k35}know, {\k31}now {\k21}you {\k29}know
+Dialogue: 1,0:01:17.06,0:01:22.67,Liz,,0,0,0,fx,{\k90\fad(300,200)}{\k50}Li{\k16}be{\kf178}ra {\k58}me {\k43}do{\k20}mi{\k86}ne
+Dialogue: 1,0:01:21.85,0:01:27.40,Liz,,0,0,0,fx,{\k90\fad(300,200)}{\k59}De {\kf126}mor{\k86}te {\k26}ae{\k67}ter{\k81}na
+Dialogue: 1,0:01:26.67,0:01:32.65,Liz,,0,0,0,fx,{\k90\fad(300,200)}{\k62}In {\k62}di{\k57}e {\k31}il{\k51}la {\k40}tre{\k62}men{\kf123}da
+Dialogue: 1,0:01:32.65,0:01:37.99,Liz,,0,0,0,fx,{\k90\fad(300,200)}{\k63}In {\k61}di{\k61}e {\kf119}il{\kf120}la
+Dialogue: 1,0:01:37.39,0:01:43.42,Liz,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Quan{\k22}do {\k53}coe{\k45}li {\k32}mo{\k92}ven{\k27}di {\k49}sunt {\k36}et {\k39}ter{\k62}ra
+Dialogue: 1,0:01:42.55,0:01:49.74,Liz,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Dum {\k89}ve{\k35}ne{\k88}ris {\k29}ju{\k91}di{\k29}ca{\kf216}re
+Dialogue: 1,0:01:51.23,0:01:56.52,Liz,,0,0,0,fx,{\k90\fad(300,200)}{\kf143}Sae{\k41}cu{\k32}lum {\k31}per {\kf57}ig{\kf115}nem
+Dialogue: 1,0:01:56.51,0:02:06.13,Liz,,0,0,0,fx,{\k90\fad(300,200)}{\kf138}Tre{\k58}mens {\k52}fac{\k126}tus{\f44} {\k62}sum {\k65}e{\k109}go {\k63}et {\k88}ti{\k39}me{\k52}o
+Dialogue: 1,0:02:05.08,0:02:18.79,Liz,,0,0,0,fx,{\k90\fad(300,200)}{\k63}Dum {\kf104}dis{\kf98}cus{\k39}sio {\k85}ve{\k43}ne{\kf108}rit {\kf114}at{\k86}que {\kf214}ven{\k49}tu{\k19}ra {\k58}i{\kf181}ra
+Dialogue: 1,0:02:24.87,0:02:28.22,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Se{\k16}cond {\k29}verse {\k14}de{\k12}di{\k30}cates {\k19}to {\k14}the {\k29}real {\k41}peeps
+Dialogue: 1,0:02:27.31,0:02:30.76,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k17}All {\k13}we {\k16}got {\k12}to {\k24}say {\k36}is {\k22}so {\k41}real {\k25}thing {\k29}'cause
+Dialogue: 1,0:02:29.97,0:02:33.19,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Re{\k13}vo{\k13}lu{\k35}tion {\k14}ain't {\k15}ne{\k14}ver {\k12}gon{\k12}na {\k16}te{\k21}le{\k29}vise
+Dialogue: 1,0:02:32.11,0:02:35.51,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Kic{\k13}king {\k12}the {\k30}mad {\k31}flow,{\k14} {\k19}mi{\k14}cro{\k29}phone {\k12}phe{\k11}no{\k28}type
+Dialogue: 1,0:02:34.68,0:02:36.77,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k15}O{\k13}pen {\k16}your {\k31}third {\k24}eye
+Dialogue: 1,0:02:35.67,0:02:37.98,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k19}See{\k17}ing {\k14}through {\k13}the {\k12}o{\k16}ver{\k30}ground
+Dialogue: 1,0:02:37.08,0:02:38.86,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k10}I'm {\k6}a{\k10}bout {\k13}to {\k17}hit {\k12}you
+Dialogue: 1,0:02:37.78,0:02:40.34,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k10}With {\k11}the {\k41}scream {\k14}from {\k16}the {\k13}un{\k14}der{\k27}ground
+Dialogue: 1,0:02:39.42,0:02:42.17,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Whole {\k15}ci{\k11}ty's {\k15}co{\k12}vered {\k17}with {\k13}the {\k19}cy{\k15}ber {\k15}fla{\k7}vor
+Dialogue: 1,0:02:41.08,0:02:45.15,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k34}"G" is {\k12}in {\k16}your {\k16}a{\k13}re{\k12}a,{\k17} {\k13}one {\k20}of {\k13}the {\k25}tou{\k37}ghest {\k14}e{\k11}ni{\k12}g{\k32}ma
+Dialogue: 1,0:02:44.08,0:02:54.79,Liz,,0,0,0,fx,{\k90\fad(300,200)}{\kf183}Di{\kf58}es {\kf111}il{\kf127}la, {\kf183}di{\kf61}es {\kf106}i{\kf132}rae
+Dialogue: 1,0:02:54.22,0:03:04.11,Liz,,0,0,0,fx,{\k90\fad(300,200)}{\kf64}Ca{\kf58}la{\kf64}mi{\kf113}ta{\kf116}tis {\kf73}{\kf116}et {\kf22}mi{\kf42}se{\kf120}ri{\kf91}ae
+Dialogue: 1,0:03:03.18,0:03:13.92,Liz down,,0,0,0,fx,{\k90\fad(300,200)}{\kf183}Di{\kf72}es {\kf108}il{\kf126}la {\kf181}di{\kf61}es {\kf119}mag{\kf114}na
+Dialogue: 1,0:03:03.20,0:03:05.53,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Do {\k13}the {\k27}im{\k25}pos{\k13}si{\k21}ble
+Dialogue: 1,0:03:04.46,0:03:06.75,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k19}See {\k14}the {\k24}in{\k23}vi{\k10}si{\k29}ble
+Dialogue: 1,0:03:05.97,0:03:09.04,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Row! {\k47}Row! {\k22}Fight {\k25}the {\k28}po{\k30}wer!
+Dialogue: 1,0:03:07.97,0:03:10.28,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Touch {\k10}the {\k33}un{\k18}tou{\k15}cha{\k17}ble
+Dialogue: 1,0:03:09.21,0:03:11.58,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Break {\k18}the {\k28}un{\k14}brea{\k15}ka{\k30}ble
+Dialogue: 1,0:03:10.76,0:03:13.77,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k50}Row! {\k43}Row! {\k25}Fight {\k16}the {\k26}po{\k31}wer!
+Dialogue: 1,0:03:12.91,0:03:16.04,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k19}What {\k11}you {\k17}gon{\k13}na {\k27}do {\k33}is {\k15}what {\k15}you {\k13}wan{\k17}na {\k23}do
+Dialogue: 1,0:03:13.51,0:03:23.47,Liz down,,0,0,0,fx,{\k90\fad(300,200)}{\k60}Et {\k43}a{\k42}ma{\k33}ra {\kf121}val{\kf105}de {\kf76}{\k57}et {\k41}a{\k48}ma{\k33}ra {\kf117}val{\kf110}de
+Dialogue: 1,0:03:14.95,0:03:18.44,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k55}Just {\k29}break {\k14}the {\k30}roof, {\k12}then {\k33}you {\k26}see {\k16}the {\k24}truth
+Dialogue: 1,0:03:17.89,0:03:21.22,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k10}This {\k14}is {\k18}the {\k23}theme {\k19}of {\k19}the {\k24}G {\k16}co{\k19}ming {\k27}through {\k16}ba{\k18}by!
+Dialogue: 1,0:03:20.41,0:03:23.43,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Row! {\k39}Row! {\k28}Fight {\k22}the {\k29}po{\k29}wer!
+Dialogue: 1,0:03:22.47,0:03:24.60,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k30}FIGHT {\k14}THE {\k30}PO{\k29}WER!
+Dialogue: 1,0:03:23.52,0:03:33.14,Liz down,,0,0,0,fx,{\k90\fad(300,200)}{\kf200}Re{\kf58}qui{\kf180}em {\kf52}ae{\kf112}ter{\kf250}nam
+Dialogue: 1,0:03:23.52,0:03:25.85,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Do {\k13}the {\k27}im{\k25}pos{\k13}si{\k21}ble
+Dialogue: 1,0:03:24.78,0:03:27.07,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k19}See {\k14}the {\k24}in{\k23}vi{\k10}si{\k29}ble
+Dialogue: 1,0:03:26.29,0:03:29.36,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Row! {\k47}Row! {\k22}Fight {\k25}the {\k28}po{\k30}wer!
+Dialogue: 1,0:03:28.29,0:03:30.60,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Touch {\k10}the {\k33}un{\k18}tou{\k15}cha{\k17}ble
+Dialogue: 1,0:03:29.53,0:03:31.90,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Break {\k18}the {\k28}un{\k14}brea{\k15}ka{\k30}ble
+Dialogue: 1,0:03:31.08,0:03:34.09,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k50}Row! {\k43}Row! {\k25}Fight {\k16}the {\k26}po{\k31}wer!
+Dialogue: 1,0:03:33.22,0:03:42.33,Liz down,,0,0,0,fx,{\k90\fad(300,200)}{\kf188}Do{\kf61}na {\kf175}e{\kf65}is {\kf90}do{\kf26}mi{\kf196}ne
+Dialogue: 1,0:03:33.23,0:03:36.36,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k19}What {\k11}you {\k17}gon{\k13}na {\k27}do {\k33}is {\k15}what {\k15}you {\k13}wan{\k17}na {\k23}do
+Dialogue: 1,0:03:35.27,0:03:38.76,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k55}Just {\k29}break {\k14}the {\k30}roof, {\k12}then {\k33}you {\k26}see {\k16}the {\k24}truth
+Dialogue: 1,0:03:35.95,0:03:39.01,Calli down,,0,0,0,fx,{\k90\fad(300,200)}{\k59}Row! {\k37}Row! {\k29}Fight {\k15}the {\k27}po{\k29}wer!
+Dialogue: 1,0:03:38.21,0:03:41.54,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k10}This {\k14}is {\k18}the {\k23}theme {\k19}of {\k19}the {\k24}G {\k16}co{\k19}ming {\k27}through {\k16}ba{\k18}by!
+Dialogue: 1,0:03:40.73,0:03:43.75,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Row! {\k39}Row! {\k28}Fight {\k22}the {\k29}po{\k29}wer!
+Dialogue: 1,0:03:42.74,0:03:45.07,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Do {\k13}the {\k27}im{\k25}pos{\k13}si{\k21}ble
+Dialogue: 1,0:03:42.75,0:03:51.95,Liz down,,0,0,0,fx,{\k90\fad(300,200)}{\kf178}Re{\kf78}qui{\kf177}em {\kf59}ae{\kf111}ter{\kf207}nam
+Dialogue: 1,0:03:44.00,0:03:46.29,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k19}See {\k14}the {\k24}in{\k23}vi{\k10}si{\k29}ble
+Dialogue: 1,0:03:45.51,0:03:48.58,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Row! {\k47}Row! {\k22}Fight {\k25}the {\k28}po{\k30}wer!
+Dialogue: 1,0:03:47.51,0:03:49.82,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Touch {\k10}the {\k33}un{\k18}tou{\k15}cha{\k17}ble
+Dialogue: 1,0:03:48.75,0:03:51.12,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Break {\k18}the {\k28}un{\k14}brea{\k15}ka{\k30}ble
+Dialogue: 1,0:03:50.30,0:03:53.31,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k50}Row! {\k43}Row! {\k25}Fight {\k16}the {\k26}po{\k31}wer!
+Dialogue: 1,0:03:52.45,0:03:55.58,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k19}What {\k11}you {\k17}gon{\k13}na {\k27}do {\k33}is {\k15}what {\k15}you {\k13}wan{\k17}na {\k23}do
+Dialogue: 1,0:03:52.51,0:04:01.55,Liz down,,0,0,0,fx,{\k90\fad(300,200)}{\kf175}Do{\kf64}na {\kf178}e{\kf62}is {\kf87}re{\kf34}qui{\kf194}em
+Dialogue: 1,0:03:54.49,0:03:57.98,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k55}Just {\k29}break {\k14}the {\k30}roof, {\k12}then {\k33}you {\k26}see {\k16}the {\k24}truth
+Dialogue: 1,0:03:55.19,0:03:58.21,Calli down,,0,0,0,fx,{\k90\fad(300,200)}{\k47}Row! {\k47}Row! {\k21}Fight {\k21}the {\k25}po{\k31}wer!
+Dialogue: 1,0:03:57.43,0:04:00.76,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k10}This {\k14}is {\k18}the {\k23}theme {\k19}of {\k19}the {\k24}G {\k16}co{\k19}ming {\k27}through {\k16}ba{\k18}by!
+Dialogue: 1,0:03:59.95,0:04:02.97,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Row! {\k39}Row! {\k28}Fight {\k22}the {\k29}po{\k29}wer!
+Dialogue: 1,0:04:02.08,0:04:12.63,Liz down,,0,0,0,fx,{\k90\fad(300,200)}{\kf108}Et {\k73}lux {\k63}per{\k88}pe{\k19}tu{\kf132}a {\k52}{\k59}lu{\k42}ce{\k47}~{\k47}at {\kf54}e{\kf161}is
+Dialogue: 1,0:04:02.08,0:04:05.21,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k19}What {\k11}you {\k17}gon{\k13}na {\k27}do {\k33}is {\k15}what {\k15}you {\k13}wan{\k17}na {\k23}do
+Dialogue: 1,0:04:04.12,0:04:07.61,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k55}Just {\k29}break {\k14}the {\k30}roof, {\k12}then {\k33}you {\k26}see {\k16}the {\k24}truth
+Dialogue: 1,0:04:07.06,0:04:10.39,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k10}This {\k14}is {\k18}the {\k23}theme {\k19}of {\k19}the {\k24}G {\k16}co{\k19}ming {\k27}through {\k16}ba{\k18}by!
+Dialogue: 1,0:04:09.58,0:04:12.60,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Row! {\k39}Row! {\k28}Fight {\k22}the {\k29}po{\k29}wer!
+Dialogue: 1,0:04:11.57,0:04:13.90,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Do {\k13}the {\k27}im{\k25}pos{\k13}si{\k21}ble
+Dialogue: 1,0:04:12.18,0:04:20.09,Liz down,,0,0,0,fx,{\k90\fad(300,200)}{\kf72}Li{\kf58}be{\kf56}ra {\kf117}me {\kf87}do{\kf40}mi{\kf251}ne
+Dialogue: 1,0:04:12.83,0:04:15.12,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k19}See {\k14}the {\k24}in{\k23}vi{\k10}si{\k29}ble
+Dialogue: 1,0:04:14.34,0:04:17.41,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Row! {\k47}Row! {\k22}Fight {\k25}the {\k28}po{\k30}wer!
+Dialogue: 1,0:04:16.76,0:04:19.86,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Row! {\k47}Row! {\k27}Fight {\k20}the {\k31}po{\k30}wer!
+Dialogue: 1,0:04:19.20,0:04:22.22,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Row! {\k43}Row! {\k27}Fight {\k15}the {\k34}po{\k28}wer!
+Dialogue: 1,0:04:21.66,0:04:24.80,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Row! {\k42}Row! {\k24}Fight {\k18}the {\k33}po{\k44}wer!
+Dialogue: 1,0:04:24.08,0:04:27.14,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k41}Row! {\k42}Row! {\k27}Fight {\k16}the {\k30}po{\k40}wer!
+Dialogue: 1,0:04:26.45,0:04:29.60,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Row! {\k39}Row! {\k34}Fight {\k14}the {\k29}po{\k46}wer!
+Dialogue: 1,0:04:28.86,0:04:31.84,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Row! {\k43}Row! {\k23}Fight {\k18}the {\k36}po{\k25}wer!
+Dialogue: 1,0:04:30.23,0:04:41.73,Liz down,,0,0,0,fx,{\k90\fad(300,200)}{\kf46}Li{\kf22}be{\kf172}ra {\kf60}me {\kf183}do{\kf59}mi{\kf498}ne
+Dialogue: 1,0:04:31.17,0:04:34.21,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k48}Row! {\k44}Row! {\k22}Fight {\k25}the {\k28}po{\k27}wer!
+Dialogue: 1,0:04:33.59,0:04:36.58,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Row! {\k47}Row! {\k22}Fight {\k19}the {\k30}po{\k26}wer!
+Dialogue: 1,0:04:36.02,0:04:38.96,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Row! {\k43}Row! {\k29}Fight {\k15}the {\k33}po{\k21}wer!
+Dialogue: 1,0:04:38.40,0:04:41.40,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k40}Row! {\k46}Row! {\k28}Fight {\k16}the {\k34}po{\k26}wer!
