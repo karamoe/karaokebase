@@ -1,0 +1,144 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Title: Teh hijau
+Original Timing: JFrosty
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:18.92,0:00:20.88,Sample KM [Up],,0,0,0,karaoke,{\k23}Ha{\k15}ri-{\k30}ha{\k24}ri {\k30}be{\k22}ru{\k52}lang
+Comment: 0,0:00:21.33,0:00:23.28,Sample KM [Up],,0,0,0,karaoke,{\k17}Mis{\k15}te{\k28}ri {\k29}len{\k22}yap {\k40}se{\k44}nang
+Comment: 0,0:00:23.70,0:00:25.58,Sample KM [Up],,0,0,0,karaoke,{\k14}A{\k9}da {\k36}sa{\k29}ran {\k31}ku{\k29}den{\k37}gar
+Comment: 0,0:00:25.78,0:00:28.07,Sample KM [Up],,0,0,0,karaoke,{\k15}Le{\k11}bih {\k14}se{\k19}ring {\k25}ke{\k9}lu{\k24}ar {\k31}ke {\k27}a{\k54}lam
+Comment: 0,0:00:28.38,0:00:30.50,Sample KM [Up],,0,0,0,karaoke,{\k24}Sa{\k16}ran {\k30}la{\k27}in {\k33}ku{\k28}den{\k54}gar
+Comment: 0,0:00:30.52,0:00:32.85,Sample KM [Up],,0,0,0,karaoke,{\k20}Ca{\k10}ri {\k13}hal {\k9}a{\k40}sing {\k28}yang {\k32}me{\k27}nan{\k54}tang
+Comment: 0,0:00:33.19,0:00:35.29,Sample KM [Up],,0,0,0,karaoke,{\k18}Ke{\k15}lu{\k29}ar {\k29}da{\k29}ri {\k31}ben{\k59}teng
+Comment: 0,0:00:35.29,0:00:37.67,Sample KM [Up],,0,0,0,karaoke,{\k15}Da{\k14}ri {\k15}tem{\k20}pat{\k23}mu {\k22}yang {\k38}se{\k33}ka{\k58}rang
+Comment: 0,0:00:38.25,0:00:42.33,Sample KM [Up],,0,0,0,karaoke,{\k33}A{\k28}da {\k26}yang {\k21}hi{\k102}lang {\k17}da{\k13}ri{\k29}ku {\k28}be{\k31}la{\k30}kan{\k66}gan
+Comment: 0,0:00:42.89,0:00:47.33,Sample KM [Up],,0,0,0,karaoke,{\k44}Se{\k27}dang {\k34}tak {\k26}mu{\k88}dah {\k9}ber{\k22}te{\k29}mu {\k14}ra{\k36}sa {\k39}se{\k67}nang
+Comment: 0,0:00:47.62,0:00:52.08,Sample KM [Up],,0,0,0,karaoke,{\k47}Se{\k26}dang {\k26}ku{\k34}ca{\k89}ri {\k15}yang {\k18}ja{\k27}di {\k29}pen{\k30}ce{\k30}tus{\k68}nya
+Comment: 0,0:00:52.49,0:00:57.06,Sample KM [Up],,0,0,0,karaoke,{\k31}Mung{\k21}kin {\k39}hi{\k30}lang{\k90}nya {\k14}a{\k9}tau {\k36}si{\k30}klus {\k29}hi{\k30}dup{\kf98}ku
+Comment: 0,0:00:57.26,0:01:00.46,Sample KM [Up],,0,0,0,karaoke,{\k58}Mung{\k62}kin {\k10}a{\k12}ku {\k22}se{\k15}dang {\k31}tak {\k17}bi{\k72}sa
+Comment: 0,0:01:00.84,0:01:02.83,Sample KM [Up],,0,0,0,karaoke,{\k14}Tak {\k9}bi{\k21}sa {\k15}ja{\k28}tuh {\k31}cin{\k60}ta
+Comment: 0,0:01:03.22,0:01:06.12,Sample KM [Up],,0,0,0,karaoke,{\k17}Mem{\k12}bu{\k29}ka {\k8}ha{\k22}ti {\k30}'tuk {\k31}a{\k13}pa{\k24}pun, {\k21}si{\k29}a{\k12}pa{\k42}pun
+Comment: 0,0:01:06.47,0:01:09.76,Sample KM [Up],,0,0,0,karaoke,{\k30}Dan {\k56}mung{\k33}kin {\k12}a{\k18}ku {\k14}me{\k9}mang {\k21}se{\k16}dang {\k30}tak {\k16}bi{\k74}sa
+Comment: 0,0:01:10.33,0:01:12.13,Sample KM [Up],,0,0,0,karaoke,{\k17}Tak {\k14}bi{\k14}sa {\k15}ja{\k29}tuh {\k30}cin{\k61}ta
+Comment: 0,0:01:12.71,0:01:15.67,Sample KM [Up],,0,0,0,karaoke,{\k20}Mem{\k9}bu{\k30}ka {\k7}ha{\k22}ti {\k31}'tuk {\k31}a{\k12}pa{\k25}pun, {\k23}si{\k31}a{\k16}pa{\k39}pun
+Comment: 0,0:01:18.48,0:01:22.82,Sample KM [Up],,0,0,0,karaoke,{\kf51}Wo{\kf61}ah-{\kf13}oh,{\kf114} {\kf22}wo{\kf54}ah-{\kf63}oh-{\kf56}oh
+Comment: 0,0:01:23.40,0:01:25.19,Sample KM [Choir],,0,0,0,karaoke,{\k29}A{\k16}pa{\k34}pun, {\k12}si{\k31}a{\k21}pa{\k36}pun
+Comment: 0,0:01:25.49,0:01:27.39,Sample KM [Up],,0,0,0,karaoke,{\k16}Tam{\k12}bah {\k32}ge{\k29}rak {\k30}tu{\k30}buh{\k40}mu
+Comment: 0,0:01:27.87,0:01:29.80,Sample KM [Up],,0,0,0,karaoke,{\k15}Ba{\k16}ca {\k30}bu{\k28}ku {\k32}yang {\k30}ba{\k42}ru
+Comment: 0,0:01:30.23,0:01:32.17,Sample KM [Up],,0,0,0,karaoke,{\k13}Ra{\k13}gam {\k35}sa{\k29}ran {\k33}bri{\k30}li{\k41}an
+Comment: 0,0:01:32.17,0:01:34.70,Sample KM [Up],,0,0,0,karaoke,{\k16}Yang {\k15}be{\k14}lum {\k15}kun{\k15}jung {\k34}ja{\k25}di {\k32}pe{\k29}na{\k84}war
+Comment: 0,0:01:35.30,0:01:39.45,Sample KM [Up],,0,0,0,karaoke,{\k28}Un{\k29}tuk {\k22}yang {\k39}hi{\k90}lang {\k17}da{\k14}ri{\k30}ku {\k28}be{\k28}la{\k31}kan{\k74}gan
+Comment: 0,0:01:39.92,0:01:44.42,Sample KM [Up],,0,0,0,karaoke,{\k47}Se{\k25}dang {\k30}ku{\k30}co{\k89}ba {\k18}me{\k11}ma{\k29}ha{\k30}mi {\k30}a{\k29}lur{\k82}nya
+Comment: 0,0:01:44.65,0:01:48.96,Sample KM [Up],,0,0,0,karaoke,{\k14}S'{\k33}mo{\k12}ga {\k44}se{\k29}ge{\k58}ra{\k33} {\k15}ku{\k13}te{\k31}mu{\k28}kan {\k31}ja{\k30}wa{\k60}ban
+Comment: 0,0:01:49.55,0:01:54.29,Sample KM [Up],,0,0,0,karaoke,{\k29}Ta{\k30}pi {\k38}ki{\k21}ni {\k60}ku{\k30}{\k16}ra{\k13}ya{\k25}kan {\k35}ham{\k29}pa {\k31}i{\k59}ni, {\k57}oh
+Comment: 0,0:01:54.29,0:01:57.28,Sample KM [Up],,0,0,0,karaoke,{\k59}Mung{\k61}kin {\k15}a{\k5}ku {\k15}se{\k23}dang {\k30}tak {\k18}bi{\k93}sa
+Comment: 0,0:01:57.87,0:01:59.65,Sample KM [Up],,0,0,0,karaoke,{\k14}Tak {\k7}bi{\k24}sa {\k15}ja{\k27}tuh {\k32}cin{\k79}ta
+Comment: 0,0:02:00.24,0:02:03.21,Sample KM [Up],,0,0,0,karaoke,{\k17}Mem{\k10}bu{\k33}ka {\k8}ha{\k21}ti {\k31}'tuk {\k23}a{\k24}pa{\k19}pun, {\k18}si{\k33}a{\k16}pa{\k44}pun
+Comment: 0,0:02:03.50,0:02:06.78,Sample KM [Up],,0,0,0,karaoke,{\k31}Dan {\k56}mung{\k34}kin {\k9}a{\k20}ku {\k13}me{\k10}mang {\k20}se{\k16}dang {\k30}tak {\k16}bi{\k99}sa
+Comment: 0,0:02:07.38,0:02:09.16,Sample KM [Up],,0,0,0,karaoke,{\k14}Tak {\k7}bi{\k23}sa {\k15}ja{\k28}tuh {\k31}cin{\k85}ta
+Comment: 0,0:02:09.69,0:02:12.71,Sample KM [Up],,0,0,0,karaoke,{\k18}Mem{\k16}bu{\k10}ka {\k22}ha{\k29}ti {\k29}'tuk {\k31}a{\k18}pa{\k19}pun, {\k20}si{\k31}a{\k18}pa{\k41}pun
+Comment: 0,0:02:13.27,0:02:15.28,Sample KM [Up],,0,0,0,karaoke,{\k17}Ku{\k19}li{\k15}hat {\k12}ma{\k33}na {\k11}di {\k16}ken{\k19}da{\k10}li{\k48}ku
+Comment: 0,0:02:15.68,0:02:17.74,Sample KM [Up],,0,0,0,karaoke,{\k16}Teh {\k15}hi{\k19}jau {\k10}i{\k24}ni {\k24}yang {\k10}di {\k17}tan{\k16}gan{\k55}ku
+Comment: 0,0:02:18.06,0:02:22.52,Sample KM [Up],,0,0,0,karaoke,{\k14}Di {\k15}ten{\k10}gah {\k19}se{\k25}ram {\k22}se{\k14}dih {\k32}yang {\k27}meng{\k31}han{\k28}tam{\k60}ku,{\k29} {\kf120}uh
+Comment: 0,0:02:22.80,0:02:24.88,Sample KM [Up],,0,0,0,karaoke,{\k18}Le{\k18}pas{\k13}kan, {\k12}le{\k30}pas {\k13}ke{\k17}mu{\k15}ru{\k19}ngan{\k52}ku
+Comment: 0,0:02:25.19,0:02:27.26,Sample KM [Up],,0,0,0,karaoke,{\k13}Hi{\k17}jau {\k17}kem{\k12}ba{\k32}li {\k15}ji{\k13}wa {\k11}ger{\k19}sang{\k58}ku
+Comment: 0,0:02:27.56,0:02:32.36,Sample KM [Up],,0,0,0,karaoke,{\k18}Am{\k13}bil{\k9}lah {\k18}sa{\k26}yang {\k21}se{\k14}ban{\k32}yak {\k27}wak{\k30}tu {\k30}yang {\k58}kau{\k30} {\k30}per{\kf124}lu
+Comment: 0,0:02:32.36,0:02:36.48,Sample KM [Up],,0,0,0,karaoke,{\k55}Mung{\k60}kin,{\k117} {\k18}a{\k5}ku {\k16}se{\k23}dang {\k33}tak {\k21}bi{\k65}sa
+Comment: 0,0:02:33.48,0:02:35.29,Sample KM [Choir],,0,0,0,karaoke,{\k17}A{\k6}ku {\k24}se{\k16}dang {\k30}tak {\k15}bi{\k73}sa
+Comment: 0,0:02:35.84,0:02:37.67,Sample KM [Choir],,0,0,0,karaoke,{\k12}Tak {\k14}bi{\k18}sa {\k20}ja{\k29}tuh {\k29}cin{\k61}ta
+Comment: 0,0:02:37.06,0:02:41.50,Sample KM [Up],,0,0,0,karaoke,{\k14}Tak {\k8}bi{\k24}sa {\k15}ja{\k31}tuh {\k30}cin{\kf177}ta,{\k51} {\kf94}uuh
+Comment: 0,0:02:38.26,0:02:41.04,Sample KM [Choir],,0,0,0,karaoke,{\k18}Mem{\k16}bu{\k10}ka {\k22}ha{\k29}ti {\k23}'tuk {\k27}a{\k18}pa{\k16}pun, {\k25}si{\k39}a{\k18}pa{\k17}pun
+Comment: 0,0:02:41.50,0:02:45.05,Sample KM [Up],,0,0,0,karaoke,{\k20}Dan {\k70}mung{\k61}kin {\k13}a{\k9}ku {\k11}sed{\k27}ang {\k32}tak {\k23}bi{\kf91}sa
+Comment: 0,0:02:45.38,0:02:51.28,Sample KM [Up],,0,0,0,karaoke,{\k18}Tak {\k7}bi{\k19}sa {\k17}ja{\k28}tuh {\k33}cin{\kf117}ta, {\kf44}{\kf134}aah, {\kf89}{\kf84}ah
+Comment: 0,0:02:47.77,0:02:50.56,Sample KM [Choir],,0,0,0,karaoke,{\k14}Mem{\k15}bu{\k15}ka {\k15}ha{\k30}ti {\k32}'tuk {\k20}a{\k16}pa{\k21}pun, {\k29}si{\k19}a{\k30}pa{\k23}pun
+Comment: 0,0:02:51.31,0:02:55.34,Sample KM [Up],,0,0,0,karaoke,{\k50}Tan{\k31}pa {\k28}i{\k72}tu,{\k59} {\k46}tan{\k41}pa{\k76}nya
+Comment: 0,0:02:56.08,0:03:00.13,Sample KM [Up],,0,0,0,karaoke,{\k31}A{\k20}pa{\k22}pun {\k38}yang {\k67}mung{\k29}kin {\k31}hi{\k31}lang {\k19}i{\kf117}tu
+Comment: 0,0:02:58.91,0:03:04.14,Sample KM [Choir],,0,0,0,karaoke,{\k74}Sa{\k50}bar, {\k68}sa{\kf331}yang
+Comment: 0,0:03:00.53,0:03:02.54,Sample KM [Up],,0,0,0,karaoke,{\k19}Mung{\k11}kin {\k17}i{\k21}ni {\k22}si{\k46}klus{\k65}nya
+Comment: 0,0:03:02.83,0:03:04.95,Sample KM [Up],,0,0,0,karaoke,{\k18}Su{\k20}dah {\k31}ga{\k12}ris {\k35}ja{\k28}lan{\k68}nya
+Comment: 0,0:03:04.99,0:03:14.77,Sample KM [Up],,0,0,0,karaoke,{\k25}E{\kf213}sok,{\k60} {\k11}e{\k47}sok {\k18}a{\k41}kan {\k19}le{\k42}bih {\k21}e{\kf481}lok
+Comment: 0,0:03:14.78,0:03:18.06,Sample KM [Up],,0,0,0,karaoke,{\k30}Dan {\k60}mung{\k60}kin {\k15}a{\k5}ku {\k26}se{\k14}dang {\k35}tak {\k25}bi{\k58}sa
+Comment: 0,0:03:18.50,0:03:20.59,Sample KM [Up],,0,0,0,karaoke,{\k32}Tak {\k7}bi{\k21}sa {\k15}ja{\k31}tuh {\k28}cin{\k75}ta
+Comment: 0,0:03:20.92,0:03:23.96,Sample KM [Up],,0,0,0,karaoke,{\k32}Mem{\k10}bu{\k13}ka {\k15}ha{\k31}ti {\k28}'tuk {\k31}a{\k17}pa{\k21}pun, {\k20}si{\k30}a{\k19}pa{\k37}pun
+Comment: 0,0:03:24.29,0:03:27.69,Sample KM [Up],,0,0,0,karaoke,{\k30}Dan {\k57}mung{\k62}kin {\k14}a{\k7}ku {\k22}se{\k17}dang {\k31}tak {\k26}bi{\k74}sa
+Comment: 0,0:03:28.00,0:03:30.15,Sample KM [Up],,0,0,0,karaoke,{\k31}Tak {\k5}bi{\k22}sa {\k16}ja{\k29}tuh {\k30}cin{\k82}ta
+Comment: 0,0:03:30.44,0:03:33.75,Sample KM [Up],,0,0,0,karaoke,{\k28}Mem{\k11}bu{\k15}ka {\k13}ha{\k31}ti {\k29}'tuk {\k30}a{\k19}pa{\k20}pun, {\k20}si{\k30}a{\k19}pa{\k66}pun
+Comment: 0,0:03:33.78,0:03:37.05,Sample KM [Up],,0,0,0,karaoke,{\k16}Dan {\k75}mung{\k61}kin {\k16}a{\k6}ku {\k22}se{\k19}dang {\k32}tak {\k12}bi{\k68}sa
+Comment: 0,0:03:37.67,0:03:41.11,Sample KM [Up],,0,0,0,karaoke,{\k13}Tak {\k9}bi{\k24}sa {\k18}ja{\k30}tuh {\k30}cin{\kf220}ta
+Comment: 0,0:03:41.23,0:03:43.64,Sample KM [Choir],,0,0,0,karaoke,{\k29}A{\k17}pa{\k25}pun, {\k24}si{\k22}a{\k18}pa{\k106}pun
+Dialogue: 0,0:00:18.02,0:00:21.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Ha{\k15}ri-{\k30}ha{\k24}ri {\k30}be{\k22}ru{\k52}lang
+Dialogue: 0,0:00:20.43,0:00:23.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Mis{\k15}te{\k28}ri {\k29}len{\k22}yap {\k40}se{\k44}nang
+Dialogue: 0,0:00:22.80,0:00:25.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}A{\k9}da {\k36}sa{\k29}ran {\k31}ku{\k29}den{\k37}gar
+Dialogue: 0,0:00:24.88,0:00:28.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Le{\k11}bih {\k14}se{\k19}ring {\k25}ke{\k9}lu{\k24}ar {\k31}ke {\k27}a{\k54}lam
+Dialogue: 0,0:00:27.48,0:00:30.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Sa{\k16}ran {\k30}la{\k27}in {\k33}ku{\k28}den{\k54}gar
+Dialogue: 0,0:00:29.62,0:00:33.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Ca{\k10}ri {\k13}hal {\k9}a{\k40}sing {\k28}yang {\k32}me{\k27}nan{\k54}tang
+Dialogue: 0,0:00:32.29,0:00:35.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Ke{\k15}lu{\k29}ar {\k29}da{\k29}ri {\k31}ben{\k59}teng
+Dialogue: 0,0:00:34.39,0:00:37.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Da{\k14}ri {\k15}tem{\k20}pat{\k23}mu {\k22}yang {\k38}se{\k33}ka{\k58}rang
+Dialogue: 0,0:00:37.35,0:00:42.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}A{\k28}da {\k26}yang {\k21}hi{\k102}lang {\k17}da{\k13}ri{\k29}ku {\k28}be{\k31}la{\k30}kan{\k66}gan
+Dialogue: 0,0:00:41.99,0:00:47.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Se{\k27}dang {\k34}tak {\k26}mu{\k88}dah {\k9}ber{\k22}te{\k29}mu {\k14}ra{\k36}sa {\k39}se{\k67}nang
+Dialogue: 0,0:00:46.72,0:00:52.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Se{\k26}dang {\k26}ku{\k34}ca{\k89}ri {\k15}yang {\k18}ja{\k27}di {\k29}pen{\k30}ce{\k30}tus{\k68}nya
+Dialogue: 0,0:00:51.59,0:00:57.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Mung{\k21}kin {\k39}hi{\k30}lang{\k90}nya {\k14}a{\k9}tau {\k36}si{\k30}klus {\k29}hi{\k30}dup{\kf98}ku
+Dialogue: 0,0:00:56.36,0:01:00.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k58}Mung{\k62}kin {\k10}a{\k12}ku {\k22}se{\k15}dang {\k31}tak {\k17}bi{\k72}sa
+Dialogue: 0,0:00:59.94,0:01:03.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Tak {\k9}bi{\k21}sa {\k15}ja{\k28}tuh {\k31}cin{\k60}ta
+Dialogue: 0,0:01:02.32,0:01:06.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Mem{\k12}bu{\k29}ka {\k8}ha{\k22}ti {\k30}'tuk {\k31}a{\k13}pa{\k24}pun, {\k21}si{\k29}a{\k12}pa{\k42}pun
+Dialogue: 0,0:01:05.57,0:01:09.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Dan {\k56}mung{\k33}kin {\k12}a{\k18}ku {\k14}me{\k9}mang {\k21}se{\k16}dang {\k30}tak {\k16}bi{\k74}sa
+Dialogue: 0,0:01:09.43,0:01:12.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Tak {\k14}bi{\k14}sa {\k15}ja{\k29}tuh {\k30}cin{\k61}ta
+Dialogue: 0,0:01:11.81,0:01:15.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Mem{\k9}bu{\k30}ka {\k7}ha{\k22}ti {\k31}'tuk {\k31}a{\k12}pa{\k25}pun, {\k23}si{\k31}a{\k16}pa{\k39}pun
+Dialogue: 0,0:01:17.58,0:01:23.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf51}Wo{\kf61}ah-{\kf13}oh,{\kf114} {\kf22}wo{\kf54}ah-{\kf63}oh-{\kf56}oh
+Dialogue: 0,0:01:22.50,0:01:25.39,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}A{\k16}pa{\k34}pun, {\k12}si{\k31}a{\k21}pa{\k36}pun
+Dialogue: 0,0:01:24.59,0:01:27.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Tam{\k12}bah {\k32}ge{\k29}rak {\k30}tu{\k30}buh{\k40}mu
+Dialogue: 0,0:01:26.97,0:01:30.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Ba{\k16}ca {\k30}bu{\k28}ku {\k32}yang {\k30}ba{\k42}ru
+Dialogue: 0,0:01:29.33,0:01:32.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Ra{\k13}gam {\k35}sa{\k29}ran {\k33}bri{\k30}li{\k41}an
+Dialogue: 0,0:01:31.27,0:01:34.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Yang {\k15}be{\k14}lum {\k15}kun{\k15}jung {\k34}ja{\k25}di {\k32}pe{\k29}na{\k84}war
+Dialogue: 0,0:01:34.40,0:01:39.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Un{\k29}tuk {\k22}yang {\k39}hi{\k90}lang {\k17}da{\k14}ri{\k30}ku {\k28}be{\k28}la{\k31}kan{\k74}gan
+Dialogue: 0,0:01:39.02,0:01:44.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Se{\k25}dang {\k30}ku{\k30}co{\k89}ba {\k18}me{\k11}ma{\k29}ha{\k30}mi {\k30}a{\k29}lur{\k82}nya
+Dialogue: 0,0:01:43.75,0:01:49.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}S'{\k33}mo{\k12}ga {\k44}se{\k29}ge{\k58}ra{\k33} {\k15}ku{\k13}te{\k31}mu{\k28}kan {\k31}ja{\k30}wa{\k60}ban
+Dialogue: 0,0:01:48.65,0:01:54.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Ta{\k30}pi {\k38}ki{\k21}ni {\k60}ku{\k30}{\k16}ra{\k13}ya{\k25}kan {\k35}ham{\k29}pa {\k31}i{\k59}ni, {\k57}oh
+Dialogue: 0,0:01:53.39,0:01:57.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k59}Mung{\k61}kin {\k15}a{\k5}ku {\k15}se{\k23}dang {\k30}tak {\k18}bi{\k93}sa
+Dialogue: 0,0:01:56.97,0:01:59.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Tak {\k7}bi{\k24}sa {\k15}ja{\k27}tuh {\k32}cin{\k79}ta
+Dialogue: 0,0:01:59.34,0:02:03.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Mem{\k10}bu{\k33}ka {\k8}ha{\k21}ti {\k31}'tuk {\k23}a{\k24}pa{\k19}pun, {\k18}si{\k33}a{\k16}pa{\k44}pun
+Dialogue: 0,0:02:02.60,0:02:06.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Dan {\k56}mung{\k34}kin {\k9}a{\k20}ku {\k13}me{\k10}mang {\k20}se{\k16}dang {\k30}tak {\k16}bi{\k99}sa
+Dialogue: 0,0:02:06.48,0:02:09.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Tak {\k7}bi{\k23}sa {\k15}ja{\k28}tuh {\k31}cin{\k85}ta
+Dialogue: 0,0:02:08.79,0:02:12.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Mem{\k16}bu{\k10}ka {\k22}ha{\k29}ti {\k29}'tuk {\k31}a{\k18}pa{\k19}pun, {\k20}si{\k31}a{\k18}pa{\k41}pun
+Dialogue: 0,0:02:12.37,0:02:15.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Ku{\k19}li{\k15}hat {\k12}ma{\k33}na {\k11}di {\k16}ken{\k19}da{\k10}li{\k48}ku
+Dialogue: 0,0:02:14.78,0:02:17.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Teh {\k15}hi{\k19}jau {\k10}i{\k24}ni {\k24}yang {\k10}di {\k17}tan{\k16}gan{\k55}ku
+Dialogue: 0,0:02:17.16,0:02:22.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Di {\k15}ten{\k10}gah {\k19}se{\k25}ram {\k22}se{\k14}dih {\k32}yang {\k27}meng{\k31}han{\k28}tam{\k60}ku,{\k29} {\kf120}uh
+Dialogue: 0,0:02:21.90,0:02:25.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Le{\k18}pas{\k13}kan, {\k12}le{\k30}pas {\k13}ke{\k17}mu{\k15}ru{\k19}ngan{\k52}ku
+Dialogue: 0,0:02:24.29,0:02:27.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Hi{\k17}jau {\k17}kem{\k12}ba{\k32}li {\k15}ji{\k13}wa {\k11}ger{\k19}sang{\k58}ku
+Dialogue: 0,0:02:26.66,0:02:32.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Am{\k13}bil{\k9}lah {\k18}sa{\k26}yang {\k21}se{\k14}ban{\k32}yak {\k27}wak{\k30}tu {\k30}yang {\k58}kau{\k30} {\k30}per{\kf124}lu
+Dialogue: 0,0:02:31.46,0:02:36.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k55}Mung{\k60}kin,{\k117} {\k18}a{\k5}ku {\k16}se{\k23}dang {\k33}tak {\k21}bi{\k65}sa
+Dialogue: 0,0:02:32.58,0:02:35.49,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k17}A{\k6}ku {\k24}se{\k16}dang {\k30}tak {\k15}bi{\k73}sa
+Dialogue: 0,0:02:34.94,0:02:37.87,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Tak {\k14}bi{\k18}sa {\k20}ja{\k29}tuh {\k29}cin{\k61}ta
+Dialogue: 0,0:02:36.16,0:02:41.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Tak {\k8}bi{\k24}sa {\k15}ja{\k31}tuh {\k30}cin{\kf177}ta,{\k51} {\kf94}uuh
+Dialogue: 0,0:02:37.36,0:02:41.24,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Mem{\k16}bu{\k10}ka {\k22}ha{\k29}ti {\k23}'tuk {\k27}a{\k18}pa{\k16}pun, {\k25}si{\k39}a{\k18}pa{\k17}pun
+Dialogue: 0,0:02:40.60,0:02:45.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Dan {\k70}mung{\k61}kin {\k13}a{\k9}ku {\k11}sed{\k27}ang {\k32}tak {\k23}bi{\kf91}sa
+Dialogue: 0,0:02:44.48,0:02:51.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Tak {\k7}bi{\k19}sa {\k17}ja{\k28}tuh {\k33}cin{\kf117}ta, {\kf44}{\kf134}aah, {\kf89}{\kf84}ah
+Dialogue: 0,0:02:46.87,0:02:50.76,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Mem{\k15}bu{\k15}ka {\k15}ha{\k30}ti {\k32}'tuk {\k20}a{\k16}pa{\k21}pun, {\k29}si{\k19}a{\k30}pa{\k23}pun
+Dialogue: 0,0:02:50.41,0:02:55.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Tan{\k31}pa {\k28}i{\k72}tu,{\k59} {\k46}tan{\k41}pa{\k76}nya
+Dialogue: 0,0:02:55.18,0:03:00.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}A{\k20}pa{\k22}pun {\k38}yang {\k67}mung{\k29}kin {\k31}hi{\k31}lang {\k19}i{\kf117}tu
+Dialogue: 0,0:02:58.01,0:03:04.34,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k74}Sa{\k50}bar, {\k68}sa{\kf331}yang
+Dialogue: 0,0:02:59.63,0:03:02.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Mung{\k11}kin {\k17}i{\k21}ni {\k22}si{\k46}klus{\k65}nya
+Dialogue: 0,0:03:01.93,0:03:05.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Su{\k20}dah {\k31}ga{\k12}ris {\k35}ja{\k28}lan{\k68}nya
+Dialogue: 0,0:03:04.09,0:03:14.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}E{\kf213}sok,{\k60} {\k11}e{\k47}sok {\k18}a{\k41}kan {\k19}le{\k42}bih {\k21}e{\kf481}lok
+Dialogue: 0,0:03:13.88,0:03:18.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Dan {\k60}mung{\k60}kin {\k15}a{\k5}ku {\k26}se{\k14}dang {\k35}tak {\k25}bi{\k58}sa
+Dialogue: 0,0:03:17.60,0:03:20.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Tak {\k7}bi{\k21}sa {\k15}ja{\k31}tuh {\k28}cin{\k75}ta
+Dialogue: 0,0:03:20.02,0:03:24.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Mem{\k10}bu{\k13}ka {\k15}ha{\k31}ti {\k28}'tuk {\k31}a{\k17}pa{\k21}pun, {\k20}si{\k30}a{\k19}pa{\k37}pun
+Dialogue: 0,0:03:23.39,0:03:27.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Dan {\k57}mung{\k62}kin {\k14}a{\k7}ku {\k22}se{\k17}dang {\k31}tak {\k26}bi{\k74}sa
+Dialogue: 0,0:03:27.10,0:03:30.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Tak {\k5}bi{\k22}sa {\k16}ja{\k29}tuh {\k30}cin{\k82}ta
+Dialogue: 0,0:03:29.54,0:03:33.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Mem{\k11}bu{\k15}ka {\k13}ha{\k31}ti {\k29}'tuk {\k30}a{\k19}pa{\k20}pun, {\k20}si{\k30}a{\k19}pa{\k66}pun
+Dialogue: 0,0:03:32.88,0:03:37.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Dan {\k75}mung{\k61}kin {\k16}a{\k6}ku {\k22}se{\k19}dang {\k32}tak {\k12}bi{\k68}sa
+Dialogue: 0,0:03:36.77,0:03:41.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Tak {\k9}bi{\k24}sa {\k18}ja{\k30}tuh {\k30}cin{\kf220}ta
+Dialogue: 0,0:03:40.33,0:03:43.84,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}A{\k17}pa{\k25}pun, {\k24}si{\k22}a{\k18}pa{\k106}pun
