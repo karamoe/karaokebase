@@ -1,0 +1,93 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Title: MASQUERADE
+Original Timing: ono3000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: KM_Up,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,KM_Up,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:01:11.26,0:01:17.68,KM_Up,,0,0,0,karaoke,{\k168}ah {\k38}hi{\k34}bi{\k31}wa{\k68}re{\k34}ta {\k44}shi{\k45}n{\k44}ji{\k20}tsu {\kf116}ga
+Comment: 0,0:01:21.76,0:01:28.68,KM_Up,,0,0,0,karaoke,{\k33}i{\k169}ma {\k30}o{\k34}to {\k33}wo {\k72}ta{\k31}te {\k29}ku{\k67}zu{\k36}re{\k33}te {\k20}yu{\kf105}ku
+Comment: 0,0:01:29.76,0:01:33.77,KM_Up,,0,0,0,karaoke,{\k21}su{\k19}be{\kf105}te {\k18}a{\k14}ba{\k47}ku {\k20}se{\k26}tsu{\k23}na {\k19}no {\k20}yo{\k69}ru
+Comment: 0,0:01:43.68,0:01:47.21,KM_Up,,0,0,0,karaoke,{\k82}mou {\k19}na{\k17}ni {\k17}ga {\k31}i{\k20}tsu{\k31}wa{\k36}ri {\k31}na{\k18}no {\k51}ka?
+Comment: 0,0:01:47.23,0:01:50.17,KM_Up,,0,0,0,karaoke,{\k15}na{\k15}ni {\k14}ga {\k34}ka{\k19}ku{\k33}shi{\k41}n {\k35}na{\k12}no {\k76}ka?
+Comment: 0,0:01:49.91,0:01:51.07,KM_Up,,0,0,0,karaoke,{\k27}I {\k20}DON'T {\k69}KNOW
+Comment: 0,0:01:51.42,0:01:54.99,KM_Up,,0,0,0,karaoke,{\k17}su{\k16}be{\k35}te {\k18}ga {\k32}a{\k35}na{\k34}ta {\k33}ni {\k32}mi{\k36}e{\k69}ru
+Comment: 0,0:01:55.28,0:01:57.99,KM_Up,,0,0,0,karaoke,{\k18}ka{\k16}ta{\k20}chi {\k32}no {\k32}na{\k33}i {\k21}ko{\k33}ko{\k18}ro {\k48}he
+Comment: 0,0:01:57.99,0:02:00.86,KM_Up,,0,0,0,karaoke,{\k18}ka{\k17}za{\k15}ri {\k35}no {\k34}na{\k35}i {\k15}ko{\k35}to{\k15}ba {\k68}de
+Comment: 0,0:02:02.16,0:02:04.47,KM_Up,,0,0,0,karaoke,{\k16}i{\k18}ma {\kf103}u{\k19}ta{\k18}o{\k57}u
+Comment: 0,0:02:04.58,0:02:07.24,KM_Up,,0,0,0,karaoke,{\k23}I {\k29}CAN'T {\k16}LEAVE {\kf100}YOU {\k17}A{\k81}LONE
+Comment: 0,0:02:07.42,0:02:09.63,KM_Up,,0,0,0,karaoke,{\k19}WHEN {\k25}I {\kf108}CLOSE {\k18}MY {\k51}EYES
+Comment: 0,0:02:09.63,0:02:14.75,KM_Up,,0,0,0,karaoke,{\k35}na{\k33}ga{\k34}re{\k164}ru {\k32}ho{\k39}shi {\k34}no {\k33}yo{\k16}u {\k92}ni
+Comment: 0,0:02:15.32,0:02:17.87,KM_Up,,0,0,0,karaoke,{\k32}tsu{\k39}ki {\k51}no {\k17}hi{\k34}ka{\k17}ri {\k65}mo
+Comment: 0,0:02:18.05,0:02:20.49,KM_Up,,0,0,0,karaoke,{\k34}no{\k33}mi{\k44}ho{\k25}se{\k34}ba {\k17}i{\k57}i
+Comment: 0,0:02:20.76,0:02:25.93,KM_Up,,0,0,0,karaoke,{\k33}ya{\k29}mi {\k53}to {\k15}i{\k63}u {\k57}to{\k52}wa {\k29}no {\k51}ta{\k20}me {\kf115}ni
+Comment: 0,0:02:26.11,0:02:28.14,KM_Up,,0,0,0,karaoke,{\k19}ko{\k17}no {\k17}yo {\k17}wa {\k51}MAS{\k19}QUE{\k63}RADE
+Comment: 0,0:02:28.16,0:02:32.89,KM_Up,,0,0,0,karaoke,{\k38}ka{\k31}me{\k32}n {\k32}wo {\k51}tsu{\k17}ke{\k35}ta {\k15}ta{\k18}ma{\k33}shi{\k35}i {\k30}ta{\k20}chi {\k86}ga
+Comment: 0,0:02:33.23,0:02:35.94,KM_Up,,0,0,0,karaoke,{\k34}o{\k32}do{\k34}ru {\k31}bu{\k34}to{\k51}u{\k20}ka{\k35}i
+Comment: 0,0:02:35.94,0:02:38.29,KM_Up,,0,0,0,karaoke,{\k31}hi{\k34}to{\k36}mi {\k31}da{\k19}ke {\k84}ga
+Comment: 0,0:02:38.44,0:02:42.67,KM_Up,,0,0,0,karaoke,{\k12}u{\k17}tsu{\k20}shi{\k32}da{\k37}su {\k34}ho{\k31}n{\k35}to{\k35}u {\k33}no {\k35}a{\k25}na{\k25}ta {\k52}wo
+Comment: 0,0:02:42.67,0:02:44.68,KM_Up,,0,0,0,karaoke,{\k18}da{\k14}ki{\k51}shi{\k16}me{\kf102}te
+Comment: 0,0:02:44.68,0:02:48.41,KM_Up,,0,0,0,karaoke,{\k16}u{\k17}n{\k18}me{\k17}i {\k17}ni {\k16}o{\kf101}chi{\k17}te {\k18}yu{\kf136}ku
+Comment: 0,0:04:08.60,0:04:11.26,KM_Up,,0,0,0,karaoke,{\k25}I {\k23}CAN'T {\k20}LEAVE {\kf102}YOU {\k15}A{\k81}LONE
+Comment: 0,0:04:11.45,0:04:13.66,KM_Up,,0,0,0,karaoke,{\k19}WHEN {\k25}I {\kf108}CLOSE {\k18}MY {\k51}EYES
+Comment: 0,0:04:13.67,0:04:18.70,KM_Up,,0,0,0,karaoke,{\k32}a{\k34}fu{\k33}re{\k167}ru {\k36}ho{\k35}shi {\k32}no {\k34}na{\k18}ka {\k82}de
+Comment: 0,0:04:19.39,0:04:22.10,KM_Up,,0,0,0,karaoke,{\k31}a{\k35}na{\k51}ta {\k18}to {\k29}de{\k22}a{\k85}u
+Comment: 0,0:04:22.10,0:04:24.59,KM_Up,,0,0,0,karaoke,{\k33}ta{\k34}me {\k49}ni {\k18}u{\k34}ma{\k16}re{\k65}ta
+Comment: 0,0:04:24.79,0:04:31.38,KM_Up,,0,0,0,karaoke,{\k34}e{\k32}i{\k34}e{\k34}n {\k68}no {\k37}i{\k28}mi {\k28}wo {\k43}shi{\k46}n{\k17}ji{\kf258}te
+Comment: 0,0:04:31.50,0:04:33.53,KM_Up,,0,0,0,karaoke,{\k19}ko{\k17}no {\k17}yo {\k17}wa {\k51}MAS{\k19}QUE{\k63}RADE
+Comment: 0,0:04:33.55,0:04:38.28,KM_Up,,0,0,0,karaoke,{\k38}ka{\k31}me{\k32}n {\k32}wo {\k51}tsu{\k17}ke{\k35}ta {\k15}ta{\k18}ma{\k33}shi{\k35}i {\k30}ta{\k20}chi {\k86}ga
+Comment: 0,0:04:38.62,0:04:41.33,KM_Up,,0,0,0,karaoke,{\k34}o{\k32}do{\k34}ru {\k31}bu{\k34}to{\k51}u{\k20}ka{\k35}i
+Comment: 0,0:04:41.33,0:04:43.68,KM_Up,,0,0,0,karaoke,{\k31}hi{\k34}to{\k36}mi {\k31}da{\k19}ke {\k84}ga
+Comment: 0,0:04:43.83,0:04:48.06,KM_Up,,0,0,0,karaoke,{\k12}shi{\k17}ra{\k20}na{\k32}i {\k37}a{\k34}na{\k31}ta {\k35}wo {\k35}so{\k33}no {\k35}ko{\k25}ko{\k25}ro {\k52}wo
+Comment: 0,0:04:48.05,0:04:50.06,KM_Up,,0,0,0,karaoke,{\k18}da{\k14}ki{\k52}shi{\k14}me{\kf103}te
+Comment: 0,0:04:50.07,0:04:52.90,KM_Up,,0,0,0,karaoke,{\k16}u{\k17}n{\k18}me{\k17}i {\k17}ni {\k16}o{\kf101}chi{\k17}te {\k18}yu{\k46}ku
+Comment: 0,0:04:53.04,0:04:55.66,KM_Up,,0,0,0,karaoke,{\k34}LIKE {\k35}A {\k57}MAS{\k14}QUE{\kf122}RADE
+Comment: 0,0:04:55.78,0:04:59.67,KM_Up,,0,0,0,karaoke,{\k34}LIKE {\k35}A {\k55}MAS{\k14}QUE{\kf251}RADE
+Dialogue: 0,0:01:10.36,0:01:17.88,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k168}ah {\k38}hi{\k34}bi{\k31}wa{\k68}re{\k34}ta {\k44}shi{\k45}n{\k44}ji{\k20}tsu {\kf116}ga
+Dialogue: 0,0:01:20.86,0:01:28.88,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k33}i{\k169}ma {\k30}o{\k34}to {\k33}wo {\k72}ta{\k31}te {\k29}ku{\k67}zu{\k36}re{\k33}te {\k20}yu{\kf105}ku
+Dialogue: 0,0:01:28.86,0:01:33.97,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k21}su{\k19}be{\kf105}te {\k18}a{\k14}ba{\k47}ku {\k20}se{\k26}tsu{\k23}na {\k19}no {\k20}yo{\k69}ru
+Dialogue: 0,0:01:42.78,0:01:47.41,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k82}mou {\k19}na{\k17}ni {\k17}ga {\k31}i{\k20}tsu{\k31}wa{\k36}ri {\k31}na{\k18}no {\k51}ka?
+Dialogue: 0,0:01:46.33,0:01:50.37,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k15}na{\k15}ni {\k14}ga {\k34}ka{\k19}ku{\k33}shi{\k41}n {\k35}na{\k12}no {\k76}ka?
+Dialogue: 0,0:01:49.01,0:01:51.27,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k27}I {\k20}DON'T {\k69}KNOW
+Dialogue: 0,0:01:50.52,0:01:55.19,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k17}su{\k16}be{\k35}te {\k18}ga {\k32}a{\k35}na{\k34}ta {\k33}ni {\k32}mi{\k36}e{\k69}ru
+Dialogue: 0,0:01:54.38,0:01:58.19,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ka{\k16}ta{\k20}chi {\k32}no {\k32}na{\k33}i {\k21}ko{\k33}ko{\k18}ro {\k48}he
+Dialogue: 0,0:01:57.09,0:02:01.06,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ka{\k17}za{\k15}ri {\k35}no {\k34}na{\k35}i {\k15}ko{\k35}to{\k15}ba {\k68}de
+Dialogue: 0,0:02:01.26,0:02:04.67,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k16}i{\k18}ma {\kf103}u{\k19}ta{\k18}o{\k57}u
+Dialogue: 0,0:02:03.68,0:02:07.44,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k29}CAN'T {\k16}LEAVE {\kf100}YOU {\k17}A{\k81}LONE
+Dialogue: 0,0:02:06.52,0:02:09.83,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k19}WHEN {\k25}I {\kf108}CLOSE {\k18}MY {\k51}EYES
+Dialogue: 0,0:02:08.73,0:02:14.95,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k35}na{\k33}ga{\k34}re{\k164}ru {\k32}ho{\k39}shi {\k34}no {\k33}yo{\k16}u {\k92}ni
+Dialogue: 0,0:02:14.42,0:02:18.07,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k32}tsu{\k39}ki {\k51}no {\k17}hi{\k34}ka{\k17}ri {\k65}mo
+Dialogue: 0,0:02:17.15,0:02:20.69,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k34}no{\k33}mi{\k44}ho{\k25}se{\k34}ba {\k17}i{\k57}i
+Dialogue: 0,0:02:19.86,0:02:26.13,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ya{\k29}mi {\k53}to {\k15}i{\k63}u {\k57}to{\k52}wa {\k29}no {\k51}ta{\k20}me {\kf115}ni
+Dialogue: 0,0:02:25.21,0:02:28.34,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ko{\k17}no {\k17}yo {\k17}wa {\k51}MAS{\k19}QUE{\k63}RADE
+Dialogue: 0,0:02:27.26,0:02:33.09,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k38}ka{\k31}me{\k32}n {\k32}wo {\k51}tsu{\k17}ke{\k35}ta {\k15}ta{\k18}ma{\k33}shi{\k35}i {\k30}ta{\k20}chi {\k86}ga
+Dialogue: 0,0:02:32.33,0:02:36.14,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k34}o{\k32}do{\k34}ru {\k31}bu{\k34}to{\k51}u{\k20}ka{\k35}i
+Dialogue: 0,0:02:35.04,0:02:38.49,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k31}hi{\k34}to{\k36}mi {\k31}da{\k19}ke {\k84}ga
+Dialogue: 0,0:02:37.54,0:02:42.87,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k12}u{\k17}tsu{\k20}shi{\k32}da{\k37}su {\k34}ho{\k31}n{\k35}to{\k35}u {\k33}no {\k35}a{\k25}na{\k25}ta {\k52}wo
+Dialogue: 0,0:02:41.77,0:02:44.88,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k18}da{\k14}ki{\k51}shi{\k16}me{\kf102}te
+Dialogue: 0,0:02:43.78,0:02:48.61,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k16}u{\k17}n{\k18}me{\k17}i {\k17}ni {\k16}o{\kf101}chi{\k17}te {\k18}yu{\kf136}ku
+Dialogue: 0,0:04:07.70,0:04:11.46,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k23}CAN'T {\k20}LEAVE {\kf102}YOU {\k15}A{\k81}LONE
+Dialogue: 0,0:04:10.55,0:04:13.86,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k19}WHEN {\k25}I {\kf108}CLOSE {\k18}MY {\k51}EYES
+Dialogue: 0,0:04:12.77,0:04:18.90,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k32}a{\k34}fu{\k33}re{\k167}ru {\k36}ho{\k35}shi {\k32}no {\k34}na{\k18}ka {\k82}de
+Dialogue: 0,0:04:18.49,0:04:22.30,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k31}a{\k35}na{\k51}ta {\k18}to {\k29}de{\k22}a{\k85}u
+Dialogue: 0,0:04:21.20,0:04:24.79,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ta{\k34}me {\k49}ni {\k18}u{\k34}ma{\k16}re{\k65}ta
+Dialogue: 0,0:04:23.89,0:04:31.58,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k34}e{\k32}i{\k34}e{\k34}n {\k68}no {\k37}i{\k28}mi {\k28}wo {\k43}shi{\k46}n{\k17}ji{\kf258}te
+Dialogue: 0,0:04:30.60,0:04:33.73,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ko{\k17}no {\k17}yo {\k17}wa {\k51}MAS{\k19}QUE{\k63}RADE
+Dialogue: 0,0:04:32.65,0:04:38.48,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k38}ka{\k31}me{\k32}n {\k32}wo {\k51}tsu{\k17}ke{\k35}ta {\k15}ta{\k18}ma{\k33}shi{\k35}i {\k30}ta{\k20}chi {\k86}ga
+Dialogue: 0,0:04:37.72,0:04:41.53,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k34}o{\k32}do{\k34}ru {\k31}bu{\k34}to{\k51}u{\k20}ka{\k35}i
+Dialogue: 0,0:04:40.43,0:04:43.88,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k31}hi{\k34}to{\k36}mi {\k31}da{\k19}ke {\k84}ga
+Dialogue: 0,0:04:42.93,0:04:48.26,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k12}shi{\k17}ra{\k20}na{\k32}i {\k37}a{\k34}na{\k31}ta {\k35}wo {\k35}so{\k33}no {\k35}ko{\k25}ko{\k25}ro {\k52}wo
+Dialogue: 0,0:04:47.15,0:04:50.26,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k18}da{\k14}ki{\k52}shi{\k14}me{\kf103}te
+Dialogue: 0,0:04:49.17,0:04:53.10,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k16}u{\k17}n{\k18}me{\k17}i {\k17}ni {\k16}o{\kf101}chi{\k17}te {\k18}yu{\k46}ku
+Dialogue: 0,0:04:52.14,0:04:55.86,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k34}LIKE {\k35}A {\k57}MAS{\k14}QUE{\kf122}RADE
+Dialogue: 0,0:04:54.88,0:04:59.87,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k34}LIKE {\k35}A {\k55}MAS{\k14}QUE{\kf251}RADE
