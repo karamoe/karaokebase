@@ -1,0 +1,78 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+WrapStyle: 0
+LayoutResX: 0
+LayoutResY: 0
+Title: Queendom
+Original Timing: tcyrus
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Choir],Arial,24,&H001819FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,100,1
+Style: Karin,Arial,24,&H00FFFFFF,&H00C65E48,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.60,0:00:00.60,Karin,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:12.60,0:00:17.36,Sample KM [Choir],,0,0,0,karaoke,{\k30}{\i1}WEL{\k27}COME {\k30}TO {\k28}THE {\k59}QUEEN{\kf218}DOM
+Comment: 0,0:00:19.18,0:00:21.18,Karin,,0,0,0,karaoke,{\k13}u{\k16}wa{\k27}sa {\k17}de {\k28}ki{\k27}i{\k72}ta?
+Comment: 0,0:00:21.45,0:00:23.51,Karin,,0,0,0,karaoke,{\k17}ma{\k13}sa {\k28}ni {\k16}wa{\k14}ta{\k28}shi {\k28}ga {\k29}THAT'S {\k33}RIGHT!
+Comment: 0,0:00:23.75,0:00:26.42,Karin,,0,0,0,karaoke,{\k15}da{\k14}re{\k30}mo {\k14}ga {\k27}a{\k15}ko{\k16}ga{\k28}re{\k27}cha{\k43}u {\k38}no
+Comment: 0,0:00:26.61,0:00:27.96,Sample KM [Choir],,0,0,0,karaoke,{\k29}{\i1}YES, {\k27}I'M {\k29}SO {\k30}SPE{\k20}CIAL
+Comment: 0,0:00:28.32,0:00:30.32,Karin,,0,0,0,karaoke,{\k15}de{\k14}mo {\k29}ma{\k14}da {\k26}ta{\k32}ri{\k70}nai
+Comment: 0,0:00:30.58,0:00:32.66,Karin,,0,0,0,karaoke,{\k18}tsu{\k14}ki{\k27}ru {\k17}ko{\k12}to {\k28}nai {\k30}ya{\k28}bo{\k34}u
+Comment: 0,0:00:32.88,0:00:35.86,Karin,,0,0,0,karaoke,{\k30}shì {\k29}de, {\k27}wǒ {\k30}shì {\k27}zuì {\k31}hǎo {\kf124}de~
+Comment: 0,0:00:36.32,0:00:40.64,Karin,,0,0,0,karaoke,{\k29}na{\k30}ni {\kf149}mo{\kf20} {\k28}ka{\k29}mo, {\k59}a{\k27}na{\k28}ta {\k58}no
+Comment: 0,0:00:40.87,0:00:45.71,Karin,,0,0,0,karaoke,{\k31}s'be{\k29}te {\kf132}wo~{\kf40} {\k26}shi{\k31}ha{\k57}i {\k27}sh'te {\k28}a{\k30}ge{\k30}~{\k23}ru
+Comment: 0,0:00:46.02,0:00:48.25,Karin,,0,0,0,karaoke,{\k30}saa {\k45}mi{\k42}te {\k27}ite {\k44}chou{\k35}dai!
+Comment: 0,0:00:48.33,0:00:50.57,Karin,,0,0,0,karaoke,{\k28}at{\k44}sui {\k42}ha{\k27}a{\k47}to {\k36}wo
+Comment: 0,0:00:50.60,0:00:53.71,Karin,,0,0,0,karaoke,{\k29}a{\k29}a {\k15}ko{\k14}re{\k30}ka{\k14}ra {\k13}na{\k28}su {\k17}ka{\k12}ku{\k29}me{\k28}i {\k30}wo{\k23}~
+Comment: 0,0:00:54.63,0:00:55.91,Karin,,0,0,0,karaoke,{\k28}THE {\k27}GOL{\k28}DEN {\k45}TIME!
+Comment: 0,0:00:56.04,0:01:00.46,Karin,,0,0,0,karaoke,{\k57}ha{\k29}ji{\k28}ma{\k29}ru {\k56}yo{\k59}kan {\k17}mi{\k11}chi {\k17}na{\k12}ru {\k28}se{\k30}ka{\k27}i {\k42}ga
+Comment: 0,0:01:00.33,0:01:01.76,Sample KM [Choir],,0,0,0,karaoke,{\k20}{\i1}HUR{\k8}RY {\k57}UP! {\k15}HUR{\k14}RY {\k29}UP!
+Comment: 0,0:01:01.76,0:01:04.50,Karin,,0,0,0,karaoke,{\k28}jo{\k28}u{\k45}shi{\k13}ki {\k44}na{\k13}n{\k29}te {\k29}BYE {\k45}BYE
+Comment: 0,0:01:04.61,0:01:07.72,Karin,,0,0,0,karaoke,{\k58}I {\k57}MAKE! {\k29}ki{\k28}ri{\k25}hi{\k61}rak' {\k53}no
+Comment: 0,0:01:07.72,0:01:09.37,Karin,,0,0,0,karaoke,{\k22}te {\k10}ni {\k17}i{\k12}re{\k14}te {\k12}mi{\k31}se{\k29}ru {\k18}wa
+Comment: 0,0:01:09.47,0:01:10.79,Sample KM [Choir],,0,0,0,karaoke,{\k18}{\i1}HUR{\k10}RY {\k57}UP! {\k18}HUR{\k11}RY {\k18}UP!
+Comment: 0,0:01:10.90,0:01:14.01,Karin,,0,0,0,karaoke,{\k28}sa{\k30}shi{\k28}zu {\k15}wa {\k23}NO! {\k34}wǒ {\k27}bù {\k29}huì {\k40}yǔn{\k57}xǔ!
+Comment: 0,0:01:16.33,0:01:18.63,Karin,,0,0,0,karaoke,{\k28}me {\k28}ga {\k28}ha{\k17}na{\k27}se{\k29}nai {\k14}de{\k59}sho?
+Comment: 0,0:01:20.90,0:01:22.86,Sample KM [Choir],,0,0,0,karaoke,{\k29}{\i1}COME {\k85}ON! {\k29}COME {\k53}ON!
+Comment: 0,0:01:22.04,0:01:23.40,Karin,,0,0,0,karaoke,{\k29}THE {\k29}GOL{\k26}DEN {\k52}TIME
+Comment: 0,0:01:23.47,0:01:27.70,Karin,,0,0,0,karaoke,{\k55}ha{\k30}ji{\k29}ma{\k28}ru {\k58}yo{\k58}kan {\k18}mi{\k9}chi {\k17}na{\k13}ru {\k28}se{\k29}ka{\k29}i {\k22}ga
+Comment: 0,0:01:27.77,0:01:29.18,Sample KM [Choir],,0,0,0,karaoke,{\k16}{\i1}HUR{\k12}RY {\k57}UP! {\k16}HUR{\k12}RY {\k28}UP!
+Comment: 0,0:01:29.19,0:01:30.21,Karin,,0,0,0,karaoke,{\k28}wú {\k29}wèn{\k45}tí
+Comment: 0,0:01:30.21,0:01:33.27,Karin,,0,0,0,karaoke,{\k29}WEL{\k24}COME {\k32}TO {\k33}THE {\k37}QUEEN{\kf151}DOM
+Comment: 0,0:01:34.59,0:01:37.64,Sample KM [Choir],,0,0,0,karaoke,{\k60}OH {\k27}YEAH! {\k17}TO {\k28}THE {\k42}QUEEN{\kf131}DOM
+Dialogue: 0,0:00:11.70,0:00:17.56,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k30}{\i1}WEL{\k27}COME {\k30}TO {\k28}THE {\k59}QUEEN{\kf218}DOM
+Dialogue: 0,0:00:18.28,0:00:21.38,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k13}u{\k16}wa{\k27}sa {\k17}de {\k28}ki{\k27}i{\k72}ta?
+Dialogue: 0,0:00:20.55,0:00:23.71,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ma{\k13}sa {\k28}ni {\k16}wa{\k14}ta{\k28}shi {\k28}ga {\k29}THAT'S {\k33}RIGHT!
+Dialogue: 0,0:00:22.85,0:00:26.62,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k15}da{\k14}re{\k30}mo {\k14}ga {\k27}a{\k15}ko{\k16}ga{\k28}re{\k27}cha{\k43}u {\k38}no
+Dialogue: 0,0:00:25.71,0:00:28.16,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}{\i1}YES, {\k27}I'M {\k29}SO {\k30}SPE{\k20}CIAL
+Dialogue: 0,0:00:27.42,0:00:30.52,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k15}de{\k14}mo {\k29}ma{\k14}da {\k26}ta{\k32}ri{\k70}nai
+Dialogue: 0,0:00:29.68,0:00:32.86,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k18}tsu{\k14}ki{\k27}ru {\k17}ko{\k12}to {\k28}nai {\k30}ya{\k28}bo{\k34}u
+Dialogue: 0,0:00:31.98,0:00:36.06,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k30}shì {\k29}de, {\k27}wǒ {\k30}shì {\k27}zuì {\k31}hǎo {\kf124}de~
+Dialogue: 0,0:00:35.42,0:00:40.84,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k29}na{\k30}ni {\kf149}mo{\kf20} {\k28}ka{\k29}mo, {\k59}a{\k27}na{\k28}ta {\k58}no
+Dialogue: 0,0:00:39.97,0:00:45.91,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k31}s'be{\k29}te {\kf132}wo~{\kf40} {\k26}shi{\k31}ha{\k57}i {\k27}sh'te {\k28}a{\k30}ge{\k30}~{\k23}ru
+Dialogue: 0,0:00:45.12,0:00:48.45,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k30}saa {\k45}mi{\k42}te {\k27}ite {\k44}chou{\k35}dai!
+Dialogue: 0,0:00:47.43,0:00:50.77,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k28}at{\k44}sui {\k42}ha{\k27}a{\k47}to {\k36}wo
+Dialogue: 0,0:00:49.70,0:00:53.91,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k29}a{\k29}a {\k15}ko{\k14}re{\k30}ka{\k14}ra {\k13}na{\k28}su {\k17}ka{\k12}ku{\k29}me{\k28}i {\k30}wo{\k23}~
+Dialogue: 0,0:00:53.73,0:00:56.11,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k28}THE {\k27}GOL{\k28}DEN {\k45}TIME!
+Dialogue: 0,0:00:55.14,0:01:00.66,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k57}ha{\k29}ji{\k28}ma{\k29}ru {\k56}yo{\k59}kan {\k17}mi{\k11}chi {\k17}na{\k12}ru {\k28}se{\k30}ka{\k27}i {\k42}ga
+Dialogue: 0,0:00:59.43,0:01:01.96,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}{\i1}HUR{\k8}RY {\k57}UP! {\k15}HUR{\k14}RY {\k29}UP!
+Dialogue: 0,0:01:00.86,0:01:04.70,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k28}jo{\k28}u{\k45}shi{\k13}ki {\k44}na{\k13}n{\k29}te {\k29}BYE {\k45}BYE
+Dialogue: 0,0:01:03.71,0:01:07.92,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k58}I {\k57}MAKE! {\k29}ki{\k28}ri{\k25}hi{\k61}rak' {\k53}no
+Dialogue: 0,0:01:06.82,0:01:09.57,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k22}te {\k10}ni {\k17}i{\k12}re{\k14}te {\k12}mi{\k31}se{\k29}ru {\k18}wa
+Dialogue: 0,0:01:08.57,0:01:10.99,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k18}{\i1}HUR{\k10}RY {\k57}UP! {\k18}HUR{\k11}RY {\k18}UP!
+Dialogue: 0,0:01:10.00,0:01:14.21,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k28}sa{\k30}shi{\k28}zu {\k15}wa {\k23}NO! {\k34}wǒ {\k27}bù {\k29}huì {\k40}yǔn{\k57}xǔ!
+Dialogue: 0,0:01:15.43,0:01:18.83,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k28}me {\k28}ga {\k28}ha{\k17}na{\k27}se{\k29}nai {\k14}de{\k59}sho?
+Dialogue: 0,0:01:20.00,0:01:23.06,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}{\i1}COME {\k85}ON! {\k29}COME {\k53}ON!
+Dialogue: 0,0:01:21.14,0:01:23.60,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k29}THE {\k29}GOL{\k26}DEN {\k52}TIME
+Dialogue: 0,0:01:22.57,0:01:27.90,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k55}ha{\k30}ji{\k29}ma{\k28}ru {\k58}yo{\k58}kan {\k18}mi{\k9}chi {\k17}na{\k13}ru {\k28}se{\k29}ka{\k29}i {\k22}ga
+Dialogue: 0,0:01:26.87,0:01:29.38,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k16}{\i1}HUR{\k12}RY {\k57}UP! {\k16}HUR{\k12}RY {\k28}UP!
+Dialogue: 0,0:01:28.29,0:01:30.41,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k28}wú {\k29}wèn{\k45}tí
+Dialogue: 0,0:01:29.31,0:01:33.47,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k29}WEL{\k24}COME {\k32}TO {\k33}THE {\k37}QUEEN{\kf151}DOM
+Dialogue: 0,0:01:33.69,0:01:37.84,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k60}OH {\k27}YEAH! {\k17}TO {\k28}THE {\k42}QUEEN{\kf131}DOM
