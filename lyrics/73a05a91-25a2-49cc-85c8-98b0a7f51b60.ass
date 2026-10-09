@@ -1,0 +1,37 @@
+﻿[Script Info]
+Title: Elpenor
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+PlayResX: 0
+PlayResY: 0
+Original Timing: Pyrospower
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:28.62,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:01.23,0:00:03.68,Default,,0,0,0,karaoke,{\kf74}El{\kf92}pe{\kf79}nor
+Comment: 0,0:00:04.07,0:00:07.23,Default,,0,0,0,karaoke,{\k21}I {\k76}died, {\k25}and {\k16}no{\k21}bo{\k20}dy {\k22}no{\k115}ticed
+Comment: 0,0:00:07.23,0:00:10.44,Default,,0,0,0,karaoke,{\k22}I {\k83}died, {\k20}and {\k17}no{\k18}bo{\k23}dy {\k138}cared
+Comment: 0,0:00:10.44,0:00:13.26,Default,,0,0,0,karaoke,{\k23}El{\k37}pe{\k54}nor, {\k31}how {\k18}did {\k19}this {\k22}hap{\k78}pen?
+Comment: 0,0:00:13.26,0:00:15.84,Default,,0,0,0,karaoke,{\k21}When {\k14}did {\k19}you {\k45}meet {\k23}your {\k25}des{\kf111}pair?
+Comment: 0,0:00:15.84,0:00:17.87,Default,,0,0,0,karaoke,{\k15}I {\k45}drank {\k59}wine {\k14}from {\k5}a {\k28}cha{\k37}lice
+Comment: 0,0:00:17.87,0:00:19.45,Default,,0,0,0,karaoke,{\k17}On {\k25}top {\k19}of {\k15}Cir{\k25}ce's {\k19}pa{\k38}lace
+Comment: 0,0:00:19.45,0:00:21.88,Default,,0,0,0,karaoke,{\k23}And {\k19}fell {\k19}and {\k20}broke {\k19}my {\k34}neck {\k17}in {\k92}shame
+Comment: 0,0:00:21.88,0:00:23.92,Default,,0,0,0,karaoke,{\k11}But {\k29}what {\k17}do {\k43}you {\kf104}care?
+Comment: 0,0:00:24.29,0:00:27.67,Default,,0,0,0,karaoke,{\k44}So {\k24}ma{\k20}ny {\k45}deaths {\k23}hap{\k24}pen {\k26}un{\k22}der {\k32}your {\k78}reign
+Dialogue: 0,0:00:00.33,0:00:03.88,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf74}El{\kf92}pe{\kf79}nor
+Dialogue: 0,0:00:03.17,0:00:07.43,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k76}died, {\k25}and {\k16}no{\k21}bo{\k20}dy {\k22}no{\k115}ticed
+Dialogue: 0,0:00:06.33,0:00:10.64,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k83}died, {\k20}and {\k17}no{\k18}bo{\k23}dy {\k138}cared
+Dialogue: 0,0:00:09.54,0:00:13.46,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}El{\k37}pe{\k54}nor, {\k31}how {\k18}did {\k19}this {\k22}hap{\k78}pen?
+Dialogue: 0,0:00:12.36,0:00:16.04,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}When {\k14}did {\k19}you {\k45}meet {\k23}your {\k25}des{\kf111}pair?
+Dialogue: 0,0:00:14.94,0:00:18.07,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}I {\k45}drank {\k59}wine {\k14}from {\k5}a {\k28}cha{\k37}lice
+Dialogue: 0,0:00:16.97,0:00:19.65,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}On {\k25}top {\k19}of {\k15}Cir{\k25}ce's {\k19}pa{\k38}lace
+Dialogue: 0,0:00:18.55,0:00:22.08,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}And {\k19}fell {\k19}and {\k20}broke {\k19}my {\k34}neck {\k17}in {\k92}shame
+Dialogue: 0,0:00:20.98,0:00:24.12,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k11}But {\k29}what {\k17}do {\k43}you {\kf104}care?
+Dialogue: 0,0:00:23.39,0:00:27.87,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k44}So {\k24}ma{\k20}ny {\k45}deaths {\k23}hap{\k24}pen {\k26}un{\k22}der {\k32}your {\k78}reign
