@@ -1,0 +1,204 @@
+﻿[Script Info]
+Title: subtitles
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: torash
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Mai,Arial,24,&H00D9934D,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: MaiChoir,Arial,24,&H00D9934D,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:03.88,0:00:08.19,Mai,,0,0,0,karaoke,{\k25}a{\k130}re {\k50}chot{\k118}to {\k22}e{\k13}ru{\k28}kon{\k45}sei
+Comment: 0,0:00:08.47,0:00:10.14,Mai,,0,0,0,karaoke,{\k13}so{\k11}ro{\k6}so{\k16}ro {\k7}tsu{\k11}ka{\k21}ret{\k24}ta {\k18}ja{\k18}nain {\k22}no
+Comment: 0,0:00:13.52,0:00:15.02,Mai,,0,0,0,karaoke,{\k22}ma{\k19}da {\k10}ma{\k15}da {\k16}i{\k18}ke{\k50}ru
+Comment: 0,0:00:17.92,0:00:19.42,Mai,,0,0,0,karaoke,{\k39}hon{\k13}to{\k18}ni {\k6}i{\k20}ken' {\k54}no
+Comment: 0,0:00:20.99,0:00:21.98,Mai,,0,0,0,karaoke,{\k27}shou{\k14}ga{\k19}nai {\k12}wa {\k27}ne
+Comment: 0,0:00:22.76,0:00:23.65,Mai,,0,0,0,karaoke,{\k19}sa{\k15}sot{\k8}to {\k17}ya{\k7}cha{\k10}u {\k13}yo
+Comment: 0,0:00:25.65,0:00:28.57,Mai,,0,0,0,karaoke,{\k36}his{\k64}sats' {\k37}MY {\k29}mai {\k27}MO{\kf99}DE
+Comment: 0,0:00:35.95,0:00:36.68,Mai,,0,0,0,karaoke,{\k25}STA{\k31}GE {\k17}ONE
+Comment: 0,0:00:37.31,0:00:40.28,Mai,,0,0,0,karaoke,{\k14}dou {\k15}ni {\k9}mo {\k20}kou {\k5}ni {\k11}mo {\k16}ka{\k21}wa{\k20}se{\k35}na{\k18}i {\k19}I{\k20}N{\k37}VA{\k37}DER
+Comment: 0,0:00:40.45,0:00:42.78,Mai,,0,0,0,karaoke,{\k8}fu{\k11}ri{\k10}ma{\k12}wa{\k16}sa{\k19}re{\k18}te {\k18}mou {\k36}GA{\k21}ME {\k13}O{\k22}~{\k29}VER
+Comment: 0,0:00:43.19,0:00:45.47,Mai,,0,0,0,karaoke,{\k23}ki{\k8}mi {\k12}ta{\k19}su {\k8}wa{\k9}ta{\k20}shi {\k16}no {\k20}sa{\k38}ki {\k33}dat{\k22}te
+Comment: 0,0:00:45.47,0:00:48.40,Mai,,0,0,0,karaoke,{\k21}fu{\k16}ri{\k30}da{\k66}sh'te {\k13}C{\k35}RA{\k22}F{\k37}T {\k15}shi{\k19}cha{\k19}u
+Comment: 0,0:00:48.40,0:00:49.27,MaiChoir,,0,0,0,karaoke,{\k39}MINE {\k28}MINE
+Comment: 0,0:00:49.17,0:00:49.91,Mai,,0,0,0,karaoke,{\k16}EX{\k19}CE{\k18}PTION {\k21}no
+Comment: 0,0:00:49.91,0:00:50.65,MaiChoir,,0,0,0,karaoke,{\k12}hya{\k7}ku{\k13}re{\k5}tsu{\k37}ken
+Comment: 0,0:00:50.65,0:00:51.39,Mai,,0,0,0,karaoke,{\k23}sei{\k14}shun {\k19}man{\k8}na{\k10}ka
+Comment: 0,0:00:51.39,0:00:51.95,MaiChoir,,0,0,0,karaoke,{\k19}ic{\k18}cho{\k19}k'sen
+Comment: 0,0:00:52.12,0:00:54.69,Mai,,0,0,0,karaoke,{\k38}kou{\k38}rits'{\k19}tte {\k17}i{\k19}mi {\k36}shit{\k19}te{\k18}ma{\k20}su {\k33}ka
+Comment: 0,0:00:55.09,0:00:55.76,Mai,,0,0,0,karaoke,{\k20}dai{\k17}ship{\k17}pai {\k10}ka{\k11}ra
+Comment: 0,0:00:55.84,0:00:56.57,MaiChoir,,0,0,0,karaoke,{\k18}dai{\k19}gyak'{\k36}ten
+Comment: 0,0:00:56.57,0:00:57.32,Mai,,0,0,0,karaoke,{\k7}pi{\k12}ta{\k6}go{\k13}ra {\k16}sen{\k21}sei
+Comment: 0,0:00:57.32,0:00:57.86,MaiChoir,,0,0,0,karaoke,{\k18}dai{\k19}kai{\k17}ten
+Comment: 0,0:00:58.05,0:01:00.61,Mai,,0,0,0,karaoke,{\k21}BU{\k17}G {\k19}i{\k18}to{\k14}ko {\k18}sa{\k23}e {\k38}Fi{\k17}bo{\k38}nac{\k33}chi
+Comment: 0,0:01:01.18,0:01:04.17,Mai,,0,0,0,karaoke,{\k21}mi{\k36}jis{\k29}sou {\k28}dat{\k36}ta {\k19}ka{\k18}n{\k18}jo{\k38}u {\k56}ga
+Comment: 0,0:01:04.17,0:01:06.99,Mai,,0,0,0,karaoke,{\k16}ER{\k34}ROR {\k33}wo {\k28}hai{\k37}te {\k18}a{\k18}ka{\k20}ku {\k18}mo{\k18}e{\k19}te{\k23}ku
+Comment: 0,0:01:07.10,0:01:09.42,Mai,,0,0,0,karaoke,{\k22}do{\k36}ki{\k28}do{\k28}ki {\k38}shi{\k17}cha{\k19}u {\k19}ta{\k25}bi
+Comment: 0,0:01:09.90,0:01:12.76,Mai,,0,0,0,karaoke,{\k38}do{\k37}do {\k36}dou {\k21}shi{\k16}te {\k39}HEA{\k36}R{\k37}T {\k36}ga
+Comment: 0,0:01:12.86,0:01:15.27,Mai,,0,0,0,karaoke,{\k19}o{\k53}do{\k23}re {\k36}to {\k37}sa{\k19}ke{\k19}bu {\k15}no {\k20}wa
+Comment: 0,0:01:15.42,0:01:16.87,Mai,,0,0,0,karaoke,{\k20}yac{\k21}cha' {\k18}his{\k11}sa{\k9}tsu {\k17}MY {\k18}MY {\k19}MO{\k12}DE
+Comment: 0,0:01:16.92,0:01:18.70,Mai,,0,0,0,karaoke,{\k23}kyun {\k15}wo {\k19}DE{\k37}CO{\k39}DE {\k18}shi{\k19}cha{\k8}e
+Comment: 0,0:01:18.79,0:01:19.86,Mai,,0,0,0,karaoke,{\k20}ten{\k8}te{\k9}ko{\k20}mai {\k18}MY {\k19}STA{\k13}GE
+Comment: 0,0:01:19.90,0:01:21.38,Mai,,0,0,0,karaoke,{\k18}kyun{\k20}kyun {\k19}ma{\k18}wa{\k19}shi{\k18}cha{\k36}e
+Comment: 0,0:01:21.17,0:01:21.61,MaiChoir,,0,0,0,karaoke,{\k21}kyun {\k23}kyun
+Comment: 0,0:01:21.96,0:01:25.46,Mai,,0,0,0,karaoke,{\k17}X {\k20}'QUAL {\k17}i{\k20}chi {\k17}ja {\k20}e{\k17}ga{\k38}ke{\k37}na{\k37}i {\k37}yu{\k93}me
+Comment: 0,0:01:25.66,0:01:27.11,Mai,,0,0,0,karaoke,{\k18}se{\k18}i{\k37}shun {\k18}wa {\k20}N{\k18}~ {\k16}jou
+Comment: 0,0:01:27.29,0:01:27.73,MaiChoir,,0,0,0,karaoke,{\k44}GO
+Comment: 0,0:01:27.69,0:01:29.17,Mai,,0,0,0,karaoke,{\k18}nic{\k10}chi {\k9}mo {\k19}sac{\k9}chi {\k9}mo {\k18}i{\k19}ke{\k19}cha{\k18}u
+Comment: 0,0:01:29.17,0:01:30.56,Mai,,0,0,0,karaoke,{\k19}wa{\k37}tash'{\k37}tach' {\k17}de {\k20}EN{\k9}TER
+Comment: 0,0:01:30.59,0:01:32.51,Mai,,0,0,0,karaoke,{\k26}tan {\k9}ta{\k8}ta{\k20}taan {\k16}tte {\k21}ki{\k17}mi {\k19}to {\k19}na{\k37}ra
+Comment: 0,0:01:32.85,0:01:35.47,Mai,,0,0,0,karaoke,{\k21}e{\k17}ga{\k21}ke{\k17}ru {\k56}yo {\k18}o{\k20}do{\k16}ru {\k21}yo{\k16}u {\k39}ni
+Comment: 0,0:01:35.82,0:01:37.88,Mai,,0,0,0,karaoke,{\k21}ON{\k17}LY {\k19}ONE {\k18}jan{\k20}hen{\k9}te{\k9}ko {\k19}hen{\k18}suu {\k19}ze{\k18}n{\k19}bu
+Comment: 0,0:01:37.88,0:01:39.32,Mai,,0,0,0,karaoke,{\k37}A{\k17}LL {\k21}C{\k17}LEA{\k18}R {\k19}shi{\k15}te
+Comment: 0,0:01:39.35,0:01:42.39,Mai,,0,0,0,karaoke,{\k19}mou {\k36}ba{\k38}ka {\k19}mi{\k36}tai {\k38}de {\k18}mo {\k18}ya{\k19}me{\k38}ran{\k25}nai
+Comment: 0,0:01:42.39,0:01:45.04,Mai,,0,0,0,karaoke,{\k46}HI{\k40}JACK {\k19}mi{\k35}rai {\k38}U{\k18}P{\k20}D{\k17}A{\k32}TE
+Comment: 0,0:01:45.07,0:01:45.27,MaiChoir,,0,0,0,karaoke,{\k20}hai
+Comment: 0,0:01:56.03,0:01:56.90,Mai,,0,0,0,karaoke,{\k26}STA{\k32}GE {\k29}TWO
+Comment: 0,0:01:57.52,0:02:00.22,Mai,,0,0,0,karaoke,{\k10}ka{\k15}ki{\k11}mi{\k17}da{\k28}sa{\k28}re{\k38}te {\k12}ma{\k6}za{\k20}t{\k17}ta {\k37}PAS{\k31}SION
+Comment: 0,0:02:00.46,0:02:03.25,Mai,,0,0,0,karaoke,{\k20}nou{\k18}ten {\k18}ha{\k28}shit{\k28}ta {\k37}BU{\k18}G {\k22}PA{\k15}TCH {\k29}pa{\k9}chi{\k18}pa{\k19}chi
+Comment: 0,0:02:03.43,0:02:06.11,Mai,,0,0,0,karaoke,{\k18}sai{\k18}tan {\k20}sai{\k28}kou {\k28}NEW {\k34}ME {\k11}ki{\k10}me {\k19}te{\k17}ku {\k37}FA{\k28}SHION
+Comment: 0,0:02:06.20,0:02:08.82,Mai,,0,0,0,karaoke,{\k38}mai {\k36}mai {\k24}IN{\k31}STALL {\k37}LO{\k16}VE {\k23}ge{\k17}n{\k40}go
+Comment: 0,0:02:09.36,0:02:12.04,Mai,,0,0,0,karaoke,{\k18}dan{\k26}dan {\k39}s'ki {\k29}ni {\k36}nat{\k18}te{\k17}ku {\k20}shi{\k37}you{\k28}gai
+Comment: 0,0:02:12.32,0:02:15.17,Mai,,0,0,0,karaoke,{\k18}dai{\k37}tai {\k28}sou{\k28}tei {\k37}nai {\k18}jan {\k19}I{\k16}~ {\k22}LOVE {\k17}YOU {\k20}da {\k25}ne
+Comment: 0,0:02:15.27,0:02:17.58,Mai,,0,0,0,karaoke,{\k17}ku{\k39}ra{\k28}ku{\k26}ra {\k40}shi{\k17}cha{\k19}u {\k18}ho{\k27}do
+Comment: 0,0:02:18.04,0:02:23.48,Mai,,0,0,0,karaoke,{\k39}mi{\k37}mi {\k37}min{\k19}na {\k22}no {\k33}HE{\k37}AR{\k38}T {\k36}wo {\k19}u{\k52}ba{\k22}t{\k37}te {\k37}i{\k18}i {\k19}de{\k18}su {\k24}ka
+Comment: 0,0:02:23.59,0:02:25.03,Mai,,0,0,0,karaoke,{\k19}yac{\k21}cha' {\k12}his{\k16}sa{\k8}tsu {\k19}MY {\k18}MY {\k18}MO{\k7}DE
+Comment: 0,0:02:25.07,0:02:26.86,Mai,,0,0,0,karaoke,{\k21}kyun {\k19}wo {\k18}DE{\k38}CO{\k36}DE {\k18}shi{\k20}cha{\k9}e
+Comment: 0,0:02:26.95,0:02:28.00,Mai,,0,0,0,karaoke,{\k18}ten{\k9}te{\k10}ko{\k19}mai {\k11}MY {\k26}STA{\k12}GE
+Comment: 0,0:02:28.05,0:02:29.34,Mai,,0,0,0,karaoke,{\k20}kyun{\k19}kyun {\k19}na{\k17}ra{\k18}shi{\k19}cha{\k17}e
+Comment: 0,0:02:29.36,0:02:29.73,MaiChoir,,0,0,0,karaoke,{\k17}kyun {\k20}kyun
+Comment: 0,0:02:30.10,0:02:33.55,Mai,,0,0,0,karaoke,{\k18}X {\k20}'QUAL {\k18}i{\k19}chi {\k18}ja {\k19}e{\k17}ga{\k38}ke{\k37}na{\k36}i {\k38}yu{\k93}me
+Comment: 0,0:02:33.81,0:02:35.55,Mai,,0,0,0,karaoke,{\k18}se{\k18}i{\k37}shun {\k19}wa {\k19}yu{\k18}u{\k45}jou
+Comment: 0,0:02:35.81,0:02:37.25,Mai,,0,0,0,karaoke,{\k20}nic{\k8}chi {\k12}mo {\k18}sac{\k7}chi {\k11}mo {\k18}i{\k20}ke{\k19}cha{\k19}u
+Comment: 0,0:02:37.33,0:02:38.75,Mai,,0,0,0,karaoke,{\k18}wa{\k37}tash'{\k37}tach' {\k18}de {\k19}EN{\k13}TER
+Comment: 0,0:02:38.81,0:02:40.63,Mai,,0,0,0,karaoke,{\k18}tan {\k9}ta{\k10}ta{\k18}taan {\k18}tte {\k20}ki{\k18}mi {\k19}to {\k18}na{\k34}ra
+Comment: 0,0:02:41.01,0:02:43.62,Mai,,0,0,0,karaoke,{\k20}e{\k19}ga{\k19}ke{\k18}ru {\k56}yo {\k18}o{\k19}do{\k18}ru {\k18}yo{\k19}u {\k37}ni
+Comment: 0,0:02:43.97,0:02:45.40,Mai,,0,0,0,karaoke,{\k21}ON{\k18}LY {\k19}WE {\k18}jan{\k18}hen{\k10}te{\k9}ko {\k19}hen{\k11}suu
+Comment: 0,0:02:45.46,0:02:50.35,Mai,,0,0,0,karaoke,{\k20}ze{\k18}n{\k18}bu {\k38}A{\k18}LL {\k19}C{\k17}LE{\k29}AR {\k45}sh'te {\kf267}GO
+Comment: 0,0:02:59.51,0:03:02.05,Mai,,0,0,0,karaoke,{\k23}tep{\k37}pen {\k14}he {\k60}'ko {\k16}'ra {\k30}sai{\k28}kou {\k17}de{\k29}sho
+Comment: 0,0:03:00.64,0:03:00.91,MaiChoir,,0,0,0,karaoke,{\k27}GO
+Comment: 0,0:03:01.95,0:03:02.39,MaiChoir,,0,0,0,karaoke,{\k18}GO {\k26}GO
+Comment: 0,0:03:02.30,0:03:04.90,Mai,,0,0,0,karaoke,{\k12}ki{\k9}mi {\k29}to {\k27}na{\k18}ra {\k18}do{\k18}ko {\k20}he {\k17}dat{\k20}te {\k16}i{\k38}ke{\k18}ru
+Comment: 0,0:03:05.09,0:03:05.49,MaiChoir,,0,0,0,karaoke,{\k40}GO
+Comment: 0,0:03:05.44,0:03:09.61,Mai,,0,0,0,karaoke,{\k38}THREE {\k39}TWO {\k37}ONE {\k17}de {\k20}ka{\k37}ga{\k37}ya{\k37}ku {\k33}yo {\k22}HEL{\k55}LO{\k19} se{\k26}kai
+Comment: 0,0:03:09.72,0:03:12.98,Mai,,0,0,0,karaoke,{\k37}ko{\k19}re {\k18}ga {\k19}wa{\k18}ta{\k18}shi {\k21}no {\k16}sei{\kf160}kai
+Comment: 0,0:03:11.37,0:03:13.79,MaiChoir,,0,0,0,karaoke,{\k74}THREE {\k65}TWO {\kf103}ONE
+Comment: 0,0:03:13.58,0:03:15.39,Mai,,0,0,0,karaoke,{\k41}yac{\k35}cha' {\k21}his{\k10}sa{\k9}tsu {\k19}MY {\k17}MY {\k19}MO{\k10}DE
+Comment: 0,0:03:15.46,0:03:17.25,Mai,,0,0,0,karaoke,{\k19}kyun {\k19}wo {\k19}DE{\k37}CO{\k37}DE {\k16}shi{\k19}cha{\k13}e
+Comment: 0,0:03:17.32,0:03:18.37,Mai,,0,0,0,karaoke,{\k19}ten{\k10}te{\k8}ko{\k18}mai {\k19}MY {\k15}BRA{\k16}IN
+Comment: 0,0:03:18.44,0:03:19.74,Mai,,0,0,0,karaoke,{\k17}kyun{\k18}kyun {\k20}ma{\k17}wa{\k23}shi{\k14}cha{\k21}e
+Comment: 0,0:03:19.70,0:03:20.24,MaiChoir,,0,0,0,karaoke,{\k19}kyun {\k35}kyun
+Comment: 0,0:03:20.47,0:03:23.90,Mai,,0,0,0,karaoke,{\k17}X {\k20}'QUAL {\k17}i{\k20}chi {\k18}ja {\k19}e{\k18}ga{\k37}ke{\k37}na{\k37}i {\k38}yu{\k90}me
+Comment: 0,0:03:24.15,0:03:25.82,Mai,,0,0,0,karaoke,{\k20}se{\k18}i{\k38}shun {\k18}wa {\k20}~{\k17}I{\k36}DOL
+Comment: 0,0:03:26.06,0:03:27.68,Mai,,0,0,0,karaoke,{\k19}nic{\k15}chi {\k18}mo {\k19}sac{\k8}chi {\k10}mo {\k19}i{\k18}ke{\k20}cha{\k16}u
+Comment: 0,0:03:27.68,0:03:29.13,Mai,,0,0,0,karaoke,{\k20}wa{\k37}tash'{\k37}tach' {\k18}de {\k19}EN{\k14}TER
+Comment: 0,0:03:29.18,0:03:31.01,Mai,,0,0,0,karaoke,{\k19}tan {\k9}ta{\k9}ta{\k18}taan {\k17}tte {\k21}ki{\k17}mi {\k19}to {\k18}na{\k36}ra
+Comment: 0,0:03:31.38,0:03:33.97,Mai,,0,0,0,karaoke,{\k20}e{\k17}ga{\k22}ke{\k15}ru {\k59}yo {\k17}o{\k19}do{\k16}ru {\k19}yo{\k20}u {\k35}ni
+Comment: 0,0:03:34.35,0:03:36.40,Mai,,0,0,0,karaoke,{\k20}ON{\k17}LY {\k21}WE {\k17}jan{\k18}hen{\k11}te{\k8}ko {\k18}hen{\k19}suu {\k19}ze{\k17}n{\k20}bu
+Comment: 0,0:03:36.40,0:03:37.87,Mai,,0,0,0,karaoke,{\k37}A{\k18}LL {\k19}C{\k17}LE{\k18}AR {\k18}shi{\k20}te
+Comment: 0,0:03:37.87,0:03:40.99,Mai,,0,0,0,karaoke,{\k19}mou {\k37}ba{\k36}ka {\k18}mi{\k38}tai {\k36}de {\k20}mo {\k19}ya{\k15}me{\k39}ran{\k35}nai
+Comment: 0,0:03:40.93,0:03:43.68,Mai,,0,0,0,karaoke,{\k47}HI{\k37}JACK {\k19}mi{\k35}rai {\k38}U{\k18}P{\k19}D{\k19}A{\k43}TE
+Comment: 0,0:03:43.61,0:03:43.79,MaiChoir,,0,0,0,karaoke,{\k18}hai
+Comment: 0,0:03:54.40,0:03:55.45,Mai,,0,0,0,karaoke,{\k24}STA{\k37}GE {\k44}THREE
+Comment: 0,0:03:55.82,0:03:58.14,Mai,,0,0,0,karaoke,{\k18}TO {\k18}BE {\k21}CON{\k18}TI{\k37}NUED {\kf120}da
+Dialogue: 0,0:00:02.98,0:00:08.39,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k25}a{\k130}re {\k50}chot{\k118}to {\k22}e{\k13}ru{\k28}kon{\k45}sei
+Dialogue: 0,0:00:07.57,0:00:10.34,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k13}so{\k11}ro{\k6}so{\k16}ro {\k7}tsu{\k11}ka{\k21}ret{\k24}ta {\k18}ja{\k18}nain {\k22}no
+Dialogue: 0,0:00:12.62,0:00:15.22,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ma{\k19}da {\k10}ma{\k15}da {\k16}i{\k18}ke{\k50}ru
+Dialogue: 0,0:00:17.02,0:00:19.62,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k39}hon{\k13}to{\k18}ni {\k6}i{\k20}ken' {\k54}no
+Dialogue: 0,0:00:20.09,0:00:22.18,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k27}shou{\k14}ga{\k19}nai {\k12}wa {\k27}ne
+Dialogue: 0,0:00:21.86,0:00:23.85,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k19}sa{\k15}sot{\k8}to {\k17}ya{\k7}cha{\k10}u {\k13}yo
+Dialogue: 0,0:00:24.75,0:00:28.77,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k36}his{\k64}sats' {\k37}MY {\k29}mai {\k27}MO{\kf99}DE
+Dialogue: 0,0:00:35.05,0:00:36.88,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k25}STA{\k31}GE {\k17}ONE
+Dialogue: 0,0:00:36.41,0:00:40.48,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k14}dou {\k15}ni {\k9}mo {\k20}kou {\k5}ni {\k11}mo {\k16}ka{\k21}wa{\k20}se{\k35}na{\k18}i {\k19}I{\k20}N{\k37}VA{\k37}DER
+Dialogue: 0,0:00:39.55,0:00:42.98,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k8}fu{\k11}ri{\k10}ma{\k12}wa{\k16}sa{\k19}re{\k18}te {\k18}mou {\k36}GA{\k21}ME {\k13}O{\k22}~{\k29}VER
+Dialogue: 0,0:00:42.29,0:00:45.67,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ki{\k8}mi {\k12}ta{\k19}su {\k8}wa{\k9}ta{\k20}shi {\k16}no {\k20}sa{\k38}ki {\k33}dat{\k22}te
+Dialogue: 0,0:00:44.57,0:00:48.60,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k21}fu{\k16}ri{\k30}da{\k66}sh'te {\k13}C{\k35}RA{\k22}F{\k37}T {\k15}shi{\k19}cha{\k19}u
+Dialogue: 0,0:00:47.50,0:00:49.47,MaiChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k39}MINE {\k28}MINE
+Dialogue: 0,0:00:48.27,0:00:50.11,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k16}EX{\k19}CE{\k18}PTION {\k21}no
+Dialogue: 0,0:00:49.01,0:00:50.85,MaiChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k12}hya{\k7}ku{\k13}re{\k5}tsu{\k37}ken
+Dialogue: 0,0:00:49.75,0:00:51.59,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k23}sei{\k14}shun {\k19}man{\k8}na{\k10}ka
+Dialogue: 0,0:00:50.49,0:00:52.15,MaiChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ic{\k18}cho{\k19}k'sen
+Dialogue: 0,0:00:51.22,0:00:54.89,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k38}kou{\k38}rits'{\k19}tte {\k17}i{\k19}mi {\k36}shit{\k19}te{\k18}ma{\k20}su {\k33}ka
+Dialogue: 0,0:00:54.19,0:00:55.96,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k20}dai{\k17}ship{\k17}pai {\k10}ka{\k11}ra
+Dialogue: 0,0:00:54.94,0:00:56.77,MaiChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}dai{\k19}gyak'{\k36}ten
+Dialogue: 0,0:00:55.67,0:00:57.52,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k7}pi{\k12}ta{\k6}go{\k13}ra {\k16}sen{\k21}sei
+Dialogue: 0,0:00:56.42,0:00:58.06,MaiChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}dai{\k19}kai{\k17}ten
+Dialogue: 0,0:00:57.15,0:01:00.81,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k21}BU{\k17}G {\k19}i{\k18}to{\k14}ko {\k18}sa{\k23}e {\k38}Fi{\k17}bo{\k38}nac{\k33}chi
+Dialogue: 0,0:01:00.28,0:01:04.37,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k21}mi{\k36}jis{\k29}sou {\k28}dat{\k36}ta {\k19}ka{\k18}n{\k18}jo{\k38}u {\k56}ga
+Dialogue: 0,0:01:03.27,0:01:07.19,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ER{\k34}ROR {\k33}wo {\k28}hai{\k37}te {\k18}a{\k18}ka{\k20}ku {\k18}mo{\k18}e{\k19}te{\k23}ku
+Dialogue: 0,0:01:06.20,0:01:09.62,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k22}do{\k36}ki{\k28}do{\k28}ki {\k38}shi{\k17}cha{\k19}u {\k19}ta{\k25}bi
+Dialogue: 0,0:01:09.00,0:01:12.96,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k38}do{\k37}do {\k36}dou {\k21}shi{\k16}te {\k39}HEA{\k36}R{\k37}T {\k36}ga
+Dialogue: 0,0:01:11.96,0:01:15.47,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k19}o{\k53}do{\k23}re {\k36}to {\k37}sa{\k19}ke{\k19}bu {\k15}no {\k20}wa
+Dialogue: 0,0:01:14.52,0:01:17.07,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k20}yac{\k21}cha' {\k18}his{\k11}sa{\k9}tsu {\k17}MY {\k18}MY {\k19}MO{\k12}DE
+Dialogue: 0,0:01:16.02,0:01:18.90,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k23}kyun {\k15}wo {\k19}DE{\k37}CO{\k39}DE {\k18}shi{\k19}cha{\k8}e
+Dialogue: 0,0:01:17.89,0:01:20.06,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ten{\k8}te{\k9}ko{\k20}mai {\k18}MY {\k19}STA{\k13}GE
+Dialogue: 0,0:01:19.00,0:01:21.58,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k18}kyun{\k20}kyun {\k19}ma{\k18}wa{\k19}shi{\k18}cha{\k36}e
+Dialogue: 0,0:01:20.27,0:01:21.81,MaiChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k21}kyun {\k23}kyun
+Dialogue: 0,0:01:21.06,0:01:25.66,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k17}X {\k20}'QUAL {\k17}i{\k20}chi {\k17}ja {\k20}e{\k17}ga{\k38}ke{\k37}na{\k37}i {\k37}yu{\k93}me
+Dialogue: 0,0:01:24.76,0:01:27.31,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k18}se{\k18}i{\k37}shun {\k18}wa {\k20}N{\k18}~ {\k16}jou
+Dialogue: 0,0:01:26.39,0:01:27.93,MaiChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k44}GO
+Dialogue: 0,0:01:26.79,0:01:29.37,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k18}nic{\k10}chi {\k9}mo {\k19}sac{\k9}chi {\k9}mo {\k18}i{\k19}ke{\k19}cha{\k18}u
+Dialogue: 0,0:01:28.27,0:01:30.76,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k19}wa{\k37}tash'{\k37}tach' {\k17}de {\k20}EN{\k9}TER
+Dialogue: 0,0:01:29.69,0:01:32.71,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k26}tan {\k9}ta{\k8}ta{\k20}taan {\k16}tte {\k21}ki{\k17}mi {\k19}to {\k19}na{\k37}ra
+Dialogue: 0,0:01:31.95,0:01:35.67,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k21}e{\k17}ga{\k21}ke{\k17}ru {\k56}yo {\k18}o{\k20}do{\k16}ru {\k21}yo{\k16}u {\k39}ni
+Dialogue: 0,0:01:34.92,0:01:38.08,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ON{\k17}LY {\k19}ONE {\k18}jan{\k20}hen{\k9}te{\k9}ko {\k19}hen{\k18}suu {\k19}ze{\k18}n{\k19}bu
+Dialogue: 0,0:01:36.98,0:01:39.52,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k37}A{\k17}LL {\k21}C{\k17}LEA{\k18}R {\k19}shi{\k15}te
+Dialogue: 0,0:01:38.45,0:01:42.59,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k19}mou {\k36}ba{\k38}ka {\k19}mi{\k36}tai {\k38}de {\k18}mo {\k18}ya{\k19}me{\k38}ran{\k25}nai
+Dialogue: 0,0:01:41.49,0:01:45.24,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k46}HI{\k40}JACK {\k19}mi{\k35}rai {\k38}U{\k18}P{\k20}D{\k17}A{\k32}TE
+Dialogue: 0,0:01:44.17,0:01:45.47,MaiChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k20}hai
+Dialogue: 0,0:01:55.13,0:01:57.10,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k26}STA{\k32}GE {\k29}TWO
+Dialogue: 0,0:01:56.62,0:02:00.42,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k10}ka{\k15}ki{\k11}mi{\k17}da{\k28}sa{\k28}re{\k38}te {\k12}ma{\k6}za{\k20}t{\k17}ta {\k37}PAS{\k31}SION
+Dialogue: 0,0:01:59.56,0:02:03.45,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k20}nou{\k18}ten {\k18}ha{\k28}shit{\k28}ta {\k37}BU{\k18}G {\k22}PA{\k15}TCH {\k29}pa{\k9}chi{\k18}pa{\k19}chi
+Dialogue: 0,0:02:02.53,0:02:06.31,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k18}sai{\k18}tan {\k20}sai{\k28}kou {\k28}NEW {\k34}ME {\k11}ki{\k10}me {\k19}te{\k17}ku {\k37}FA{\k28}SHION
+Dialogue: 0,0:02:05.30,0:02:09.02,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k38}mai {\k36}mai {\k24}IN{\k31}STALL {\k37}LO{\k16}VE {\k23}ge{\k17}n{\k40}go
+Dialogue: 0,0:02:08.46,0:02:12.24,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k18}dan{\k26}dan {\k39}s'ki {\k29}ni {\k36}nat{\k18}te{\k17}ku {\k20}shi{\k37}you{\k28}gai
+Dialogue: 0,0:02:11.42,0:02:15.37,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k18}dai{\k37}tai {\k28}sou{\k28}tei {\k37}nai {\k18}jan {\k19}I{\k16}~ {\k22}LOVE {\k17}YOU {\k20}da {\k25}ne
+Dialogue: 0,0:02:14.37,0:02:17.78,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ku{\k39}ra{\k28}ku{\k26}ra {\k40}shi{\k17}cha{\k19}u {\k18}ho{\k27}do
+Dialogue: 0,0:02:17.14,0:02:23.68,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k39}mi{\k37}mi {\k37}min{\k19}na {\k22}no {\k33}HE{\k37}AR{\k38}T {\k36}wo {\k19}u{\k52}ba{\k22}t{\k37}te {\k37}i{\k18}i {\k19}de{\k18}su {\k24}ka
+Dialogue: 0,0:02:22.69,0:02:25.23,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k19}yac{\k21}cha' {\k12}his{\k16}sa{\k8}tsu {\k19}MY {\k18}MY {\k18}MO{\k7}DE
+Dialogue: 0,0:02:24.17,0:02:27.06,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k21}kyun {\k19}wo {\k18}DE{\k38}CO{\k36}DE {\k18}shi{\k20}cha{\k9}e
+Dialogue: 0,0:02:26.05,0:02:28.20,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ten{\k9}te{\k10}ko{\k19}mai {\k11}MY {\k26}STA{\k12}GE
+Dialogue: 0,0:02:27.15,0:02:29.54,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k20}kyun{\k19}kyun {\k19}na{\k17}ra{\k18}shi{\k19}cha{\k17}e
+Dialogue: 0,0:02:28.46,0:02:29.93,MaiChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k17}kyun {\k20}kyun
+Dialogue: 0,0:02:29.20,0:02:33.75,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k18}X {\k20}'QUAL {\k18}i{\k19}chi {\k18}ja {\k19}e{\k17}ga{\k38}ke{\k37}na{\k36}i {\k38}yu{\k93}me
+Dialogue: 0,0:02:32.91,0:02:35.75,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k18}se{\k18}i{\k37}shun {\k19}wa {\k19}yu{\k18}u{\k45}jou
+Dialogue: 0,0:02:34.91,0:02:37.45,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k20}nic{\k8}chi {\k12}mo {\k18}sac{\k7}chi {\k11}mo {\k18}i{\k20}ke{\k19}cha{\k19}u
+Dialogue: 0,0:02:36.43,0:02:38.95,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k18}wa{\k37}tash'{\k37}tach' {\k18}de {\k19}EN{\k13}TER
+Dialogue: 0,0:02:37.91,0:02:40.83,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k18}tan {\k9}ta{\k10}ta{\k18}taan {\k18}tte {\k20}ki{\k18}mi {\k19}to {\k18}na{\k34}ra
+Dialogue: 0,0:02:40.11,0:02:43.82,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k20}e{\k19}ga{\k19}ke{\k18}ru {\k56}yo {\k18}o{\k19}do{\k18}ru {\k18}yo{\k19}u {\k37}ni
+Dialogue: 0,0:02:43.07,0:02:45.60,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ON{\k18}LY {\k19}WE {\k18}jan{\k18}hen{\k10}te{\k9}ko {\k19}hen{\k11}suu
+Dialogue: 0,0:02:44.56,0:02:50.55,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ze{\k18}n{\k18}bu {\k38}A{\k18}LL {\k19}C{\k17}LE{\k29}AR {\k45}sh'te {\kf267}GO
+Dialogue: 0,0:02:58.61,0:03:02.25,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k23}tep{\k37}pen {\k14}he {\k60}'ko {\k16}'ra {\k30}sai{\k28}kou {\k17}de{\k29}sho
+Dialogue: 0,0:02:59.74,0:03:01.11,MaiChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k27}GO
+Dialogue: 0,0:03:01.05,0:03:02.59,MaiChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}GO {\k26}GO
+Dialogue: 0,0:03:01.40,0:03:05.10,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ki{\k9}mi {\k29}to {\k27}na{\k18}ra {\k18}do{\k18}ko {\k20}he {\k17}dat{\k20}te {\k16}i{\k38}ke{\k18}ru
+Dialogue: 0,0:03:04.19,0:03:05.69,MaiChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k40}GO
+Dialogue: 0,0:03:04.54,0:03:09.81,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k38}THREE {\k39}TWO {\k37}ONE {\k17}de {\k20}ka{\k37}ga{\k37}ya{\k37}ku {\k33}yo {\k22}HEL{\k55}LO{\k19} se{\k26}kai
+Dialogue: 0,0:03:08.82,0:03:13.18,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k37}ko{\k19}re {\k18}ga {\k19}wa{\k18}ta{\k18}shi {\k21}no {\k16}sei{\kf160}kai
+Dialogue: 0,0:03:10.47,0:03:13.99,MaiChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k74}THREE {\k65}TWO {\kf103}ONE
+Dialogue: 0,0:03:12.68,0:03:15.59,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k41}yac{\k35}cha' {\k21}his{\k10}sa{\k9}tsu {\k19}MY {\k17}MY {\k19}MO{\k10}DE
+Dialogue: 0,0:03:14.56,0:03:17.45,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k19}kyun {\k19}wo {\k19}DE{\k37}CO{\k37}DE {\k16}shi{\k19}cha{\k13}e
+Dialogue: 0,0:03:16.42,0:03:18.57,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ten{\k10}te{\k8}ko{\k18}mai {\k19}MY {\k15}BRA{\k16}IN
+Dialogue: 0,0:03:17.54,0:03:19.94,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k17}kyun{\k18}kyun {\k20}ma{\k17}wa{\k23}shi{\k14}cha{\k21}e
+Dialogue: 0,0:03:18.80,0:03:20.44,MaiChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k19}kyun {\k35}kyun
+Dialogue: 0,0:03:19.57,0:03:24.10,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k17}X {\k20}'QUAL {\k17}i{\k20}chi {\k18}ja {\k19}e{\k18}ga{\k37}ke{\k37}na{\k37}i {\k38}yu{\k90}me
+Dialogue: 0,0:03:23.25,0:03:26.02,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k20}se{\k18}i{\k38}shun {\k18}wa {\k20}~{\k17}I{\k36}DOL
+Dialogue: 0,0:03:25.16,0:03:27.88,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k19}nic{\k15}chi {\k18}mo {\k19}sac{\k8}chi {\k10}mo {\k19}i{\k18}ke{\k20}cha{\k16}u
+Dialogue: 0,0:03:26.78,0:03:29.33,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k20}wa{\k37}tash'{\k37}tach' {\k18}de {\k19}EN{\k14}TER
+Dialogue: 0,0:03:28.28,0:03:31.21,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k19}tan {\k9}ta{\k9}ta{\k18}taan {\k17}tte {\k21}ki{\k17}mi {\k19}to {\k18}na{\k36}ra
+Dialogue: 0,0:03:30.48,0:03:34.17,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k20}e{\k17}ga{\k22}ke{\k15}ru {\k59}yo {\k17}o{\k19}do{\k16}ru {\k19}yo{\k20}u {\k35}ni
+Dialogue: 0,0:03:33.45,0:03:36.60,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ON{\k17}LY {\k21}WE {\k17}jan{\k18}hen{\k11}te{\k8}ko {\k18}hen{\k19}suu {\k19}ze{\k17}n{\k20}bu
+Dialogue: 0,0:03:35.50,0:03:38.07,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k37}A{\k18}LL {\k19}C{\k17}LE{\k18}AR {\k18}shi{\k20}te
+Dialogue: 0,0:03:36.97,0:03:41.19,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k19}mou {\k37}ba{\k36}ka {\k18}mi{\k38}tai {\k36}de {\k20}mo {\k19}ya{\k15}me{\k39}ran{\k35}nai
+Dialogue: 0,0:03:40.03,0:03:43.88,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k47}HI{\k37}JACK {\k19}mi{\k35}rai {\k38}U{\k18}P{\k19}D{\k19}A{\k43}TE
+Dialogue: 0,0:03:42.71,0:03:43.99,MaiChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}hai
+Dialogue: 0,0:03:53.50,0:03:55.65,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k24}STA{\k37}GE {\k44}THREE
+Dialogue: 0,0:03:54.92,0:03:58.34,Mai,,0,0,0,fx,{\k90\fad(300,200)}{\k18}TO {\k18}BE {\k21}CON{\k18}TI{\k37}NUED {\kf120}da
