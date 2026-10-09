@@ -1,0 +1,70 @@
+﻿[Script Info]
+Title: Pink Pony Club
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: piharatamo, ono3000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Jelly,Arial,24,&H00FFFFFF,&H00F9CB5A,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Shiina,Arial,24,&H00FFFFFF,&H00FF95B6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Duo,Arial,24,&H00FFFFFF,&H00FFA1F1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Duo down,Arial,24,&H00FFFFFF,&H00FFA1F1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Shiina down,Arial,24,&H00FFFFFF,&H00FF95B6,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Jelly down,Arial,24,&H00FFFFFF,&H00F9CB5A,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: COLOR CODE,Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,20,1
+Style: BANANAS,Arial,24,&H00FFFFFF,&H005BE0FA,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&HF9CB5A&}Jelly{\c} | {\c&HFF95B6&}Shiina{\c} | {\c&HFFA1F1&}Duo
+Comment: 0,0:00:01.53,0:00:02.49,Duo,,0,0,0,karaoke,{\k47}don't {\k49}care!
+Comment: 0,0:00:02.72,0:00:05.44,Jelly,,0,0,0,karaoke,{\k17}we're {\k23}sick {\k24}of {\k36}all {\k28}these {\k36}stu{\k27}pid {\kf81}rules!
+Comment: 0,0:00:05.44,0:00:06.41,Duo,,0,0,0,karaoke,{\k51}un{\k46}fair!
+Comment: 0,0:00:06.62,0:00:09.38,Shiina,,0,0,0,karaoke,{\k27}can't {\k20}tell {\k22}us {\k33}bo~{\k26}oth {\k26}what {\k48}to {\kf74}do!
+Comment: 0,0:00:09.38,0:00:10.36,Duo,,0,0,0,karaoke,{\k48}be{\k50}ware!
+Comment: 0,0:00:10.63,0:00:13.05,Jelly,,0,0,0,karaoke,{\k24}we'll {\k14}make {\k19}the {\k28}cof{\k27}fee {\k42}shop {\k38}go {\k50}boom!
+Comment: 0,0:00:13.05,0:00:14.52,Duo,,0,0,0,karaoke,{\k27}and {\k21}you {\k26}can't {\k27}stop {\k46}us!
+Comment: 0,0:00:14.52,0:00:15.22,Duo down,,0,0,0,karaoke,{\k28}stop {\k42}us!
+Comment: 0,0:00:15.28,0:00:16.39,Duo,,0,0,0,karaoke,{\k23}we {\k23}will {\k28}blow {\k37}up!
+Comment: 0,0:00:16.48,0:00:17.97,Duo down,,0,0,0,karaoke,{\k24}blow {\k27}up {\k22}the {\k23}ware{\k53}house!
+Comment: 0,0:00:18.18,0:00:21.21,Shiina,,0,0,0,karaoke,{\k49}ri{\k32}sing {\k47}from {\k22}the {\k29}depths {\k23}of {\k24}the {\k48}jun{\k29}gle
+Comment: 0,0:00:21.44,0:00:24.13,Shiina,,0,0,0,karaoke,{\k23}the {\k28}life {\k22}that {\k26}we {\k48}fum{\k24}bled {\k25}let {\k25}us {\k48}here
+Comment: 0,0:00:26.12,0:00:29.29,Jelly,,0,0,0,karaoke,{\k47}we {\k50}will {\k25}make {\k24}our {\k27}pro{\k23}blem {\k22}your {\k51}pro{\k48}blem
+Comment: 0,0:00:29.29,0:00:30.84,Jelly down,,0,0,0,karaoke,{\k36}Shi{\k19}ina {\k7}we {\k8}are {\k15}real{\k11}ly {\k7}do{\k15}ing {\k20}this, {\k17}right?
+Comment: 0,0:00:30.84,0:00:32.11,Shiina down,,0,0,0,karaoke,{\k28}yes {\k17}Jel{\k36}ly, {\k19}now {\k27}go:
+Comment: 0,0:00:32.33,0:00:33.49,Shiina down,,0,0,0,karaoke,{\k19}push {\k16}the {\k13}big {\k18}red {\k19}but{\k31}ton!
+Comment: 0,0:00:35.48,0:00:37.63,Duo,,0,0,0,karaoke,{\k26}no {\k20}more {\k18}play{\k19}ing {\k37}nice {\k24}cause {\k26}it's {\k45}time
+Comment: 0,0:00:37.68,0:00:39.39,Duo,,0,0,0,karaoke,{\k24}we're {\k28}gon{\k19}na {\k26}go {\k14\rBANANAS}BA{\k25}NA{\k35}NAS!
+Comment: 0,0:00:39.39,0:00:41.56,Duo,,0,0,0,karaoke,{\k25}we're {\k17}un{\k32}stop{\k12}pa{\k36}ble {\k25}with {\k23}our {\k47}crime
+Comment: 0,0:00:41.56,0:00:43.23,Duo,,0,0,0,karaoke,{\k17}we {\k26}don't {\k17}give {\k36}a {\k71}damn!
+Comment: 0,0:00:43.31,0:00:45.51,Duo,,0,0,0,karaoke,{\k27}we {\k17}will {\k24}tie {\k19}our {\k32}boss {\k29}to {\k20}a {\k52}chair
+Comment: 0,0:00:45.51,0:00:48.38,Duo,,0,0,0,karaoke,{\k24}and {\k28}take {\k23}o{\k25}ver {\k17}this {\k20}com{\k28}pa{\kf122}ny!
+Comment: 0,0:00:48.72,0:00:51.56,Duo,,0,0,0,karaoke,{\k26}and {\k24}there's {\k26}noth{\k22}ing {\k23}you {\k27}can {\k23}do {\k16}a{\k29}bout {\k68}it!
+Dialogue: 1,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&HF9CB5A&}Jelly{\c} | {\c&HFF95B6&}Shiina{\c} | {\c&HFFA1F1&}Duo
+Dialogue: 1,0:00:00.63,0:00:02.69,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k47}don't {\k49}care!
+Dialogue: 1,0:00:01.82,0:00:05.64,Jelly,,0,0,0,fx,{\k90\fad(300,200)}{\k17}we're {\k23}sick {\k24}of {\k36}all {\k28}these {\k36}stu{\k27}pid {\kf81}rules!
+Dialogue: 1,0:00:04.54,0:00:06.61,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k51}un{\k46}fair!
+Dialogue: 1,0:00:05.72,0:00:09.58,Shiina,,0,0,0,fx,{\k90\fad(300,200)}{\k27}can't {\k20}tell {\k22}us {\k33}bo~{\k26}oth {\k26}what {\k48}to {\kf74}do!
+Dialogue: 1,0:00:08.48,0:00:10.56,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k48}be{\k50}ware!
+Dialogue: 1,0:00:09.73,0:00:13.25,Jelly,,0,0,0,fx,{\k90\fad(300,200)}{\k24}we'll {\k14}make {\k19}the {\k28}cof{\k27}fee {\k42}shop {\k38}go {\k50}boom!
+Dialogue: 1,0:00:12.15,0:00:14.72,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k27}and {\k21}you {\k26}can't {\k27}stop {\k46}us!
+Dialogue: 1,0:00:13.62,0:00:15.42,Duo down,,0,0,0,fx,{\k90\fad(300,200)}{\k28}stop {\k42}us!
+Dialogue: 1,0:00:14.38,0:00:16.59,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k23}we {\k23}will {\k28}blow {\k37}up!
+Dialogue: 1,0:00:15.58,0:00:18.17,Duo down,,0,0,0,fx,{\k90\fad(300,200)}{\k24}blow {\k27}up {\k22}the {\k23}ware{\k53}house!
+Dialogue: 1,0:00:17.28,0:00:21.41,Shiina,,0,0,0,fx,{\k90\fad(300,200)}{\k49}ri{\k32}sing {\k47}from {\k22}the {\k29}depths {\k23}of {\k24}the {\k48}jun{\k29}gle
+Dialogue: 1,0:00:20.54,0:00:24.33,Shiina,,0,0,0,fx,{\k90\fad(300,200)}{\k23}the {\k28}life {\k22}that {\k26}we {\k48}fum{\k24}bled {\k25}let {\k25}us {\k48}here
+Dialogue: 1,0:00:25.22,0:00:29.49,Jelly,,0,0,0,fx,{\k90\fad(300,200)}{\k47}we {\k50}will {\k25}make {\k24}our {\k27}pro{\k23}blem {\k22}your {\k51}pro{\k48}blem
+Dialogue: 1,0:00:28.39,0:00:31.04,Jelly down,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Shi{\k19}ina {\k7}we {\k8}are {\k15}real{\k11}ly {\k7}do{\k15}ing {\k20}this, {\k17}right?
+Dialogue: 1,0:00:29.94,0:00:32.31,Shiina down,,0,0,0,fx,{\k90\fad(300,200)}{\k28}yes {\k17}Jel{\k36}ly, {\k19}now {\k27}go:
+Dialogue: 1,0:00:31.43,0:00:33.69,Shiina down,,0,0,0,fx,{\k90\fad(300,200)}{\k19}push {\k16}the {\k13}big {\k18}red {\k19}but{\k31}ton!
+Dialogue: 1,0:00:34.58,0:00:37.83,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k26}no {\k20}more {\k18}play{\k19}ing {\k37}nice {\k24}cause {\k26}it's {\k45}time
+Dialogue: 1,0:00:36.78,0:00:39.59,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k24}we're {\k28}gon{\k19}na {\k26}go {\k14\rBANANAS}BA{\k25}NA{\k35}NAS!
+Dialogue: 1,0:00:38.49,0:00:41.76,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k25}we're {\k17}un{\k32}stop{\k12}pa{\k36}ble {\k25}with {\k23}our {\k47}crime
+Dialogue: 1,0:00:40.66,0:00:43.43,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k17}we {\k26}don't {\k17}give {\k36}a {\k71}damn!
+Dialogue: 1,0:00:42.41,0:00:45.71,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k27}we {\k17}will {\k24}tie {\k19}our {\k32}boss {\k29}to {\k20}a {\k52}chair
+Dialogue: 1,0:00:44.61,0:00:48.58,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k24}and {\k28}take {\k23}o{\k25}ver {\k17}this {\k20}com{\k28}pa{\kf122}ny!
+Dialogue: 1,0:00:47.82,0:00:51.76,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k26}and {\k24}there's {\k26}noth{\k22}ing {\k23}you {\k27}can {\k23}do {\k16}a{\k29}bout {\k68}it!
