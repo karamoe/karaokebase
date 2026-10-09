@@ -1,0 +1,71 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Yellow Brick Road
+Original Timing: karaMoe (automatic)
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: JP,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: ENG,Arial,24,&H00FFFFFF,&H00FFAB00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:07.62,0:00:10.01,JP,,0,0,0,karaoke,{\k26}"NO" {\k18}no {\k22}ra{\k9}ku{\k32}in {\k21}wo {\k20}se{\k25}ot{\k66}ta
+Comment: 0,0:00:10.94,0:00:13.62,JP,,0,0,0,karaoke,{\k13}ma{\k15}to{\k31}wa{\k41}ri{\k14}tsu{\k14}ku {\k26}ko{\k23}no {\k24}a{\k67}kash'
+Comment: 0,0:00:15.54,0:00:19.38,JP,,0,0,0,karaoke,{\k22}u{\k24}ma{\k16}re {\k24}mot{\k37}ta {\k21}sa{\k21}i{\k39}nou {\k22}de {\k16}ki{\k22}me{\k25}ra{\k24}re{\k71}ta
+Comment: 0,0:00:19.76,0:00:22.03,JP,,0,0,0,karaoke,{\k24}ka{\k21}mi {\k39}no {\k24}i{\k20}ta{\k24}zu{\k75}ra
+Comment: 0,0:00:23.64,0:00:25.38,JP,,0,0,0,karaoke,{\k14}ma{\k12}da {\k16}na{\k10}ga{\k48}i {\k14}ha{\k12}te{\k14}shi{\k14}na{\k20}i
+Comment: 0,0:00:25.64,0:00:27.70,JP,,0,0,0,karaoke,{\k15}ta{\k15}bi {\k24}ni {\k12}fu{\k14}ka{\k18}ke{\k9}tsu {\k11}na {\k12}no {\k14}wa {\k13}ki{\k49}mi
+Comment: 0,0:00:27.70,0:00:29.42,JP,,0,0,0,karaoke,{\k12}ta{\k14}da {\k14}"gu{\k12}u{\k50}zen" {\k12}wo {\k10}ma{\k15}tsu {\k15}yo{\k18}ri
+Comment: 0,0:00:29.72,0:00:31.42,JP,,0,0,0,karaoke,{\k10}ko{\k16}no {\k27}"shuu{\k25}nen" {\k12}de {\k14}o{\k13}ko{\k13}su {\k9}ki{\k16}se{\k15}ki
+Comment: 0,0:00:31.34,0:00:34.79,JP,,0,0,0,karaoke,{\k19}ki{\k16}ri {\k16}no {\k19}mu{\k36}kou{\k17}ga{\k18}wa {\k16}ni {\k15}wa {\k47}SUN{\kf115}RI{\k11}SE
+Comment: 0,0:00:35.27,0:00:38.57,ENG,,0,0,0,karaoke,{\k13}So {\k22}let's {\k18}run {\k16}through {\k15}the {\k33}night {\k17}to{\k40}ge{\k36}ther {\k50}you {\k50}and {\k20}I
+Comment: 0,0:00:38.63,0:00:42.24,ENG,,0,0,0,karaoke,{\k29}Why {\k28}don't {\k47}we {\kf257}go
+Comment: 0,0:00:42.45,0:00:44.25,ENG,,0,0,0,karaoke,{\k27}To {\k29}Yel{\k24}low {\k49}Brick {\k51}Road
+Comment: 0,0:00:43.93,0:00:46.39,JP,,0,0,0,karaoke,{\k34}to{\k25}na{\k23}ri {\k40}dou{\k13}shi {\k24}de {\k26}a{\k26}yu{\k35}mi
+Comment: 0,0:00:46.50,0:00:50.31,ENG,,0,0,0,karaoke,{\k28}So {\k28}why {\k24}don't {\k51}we {\kf250}go?
+Comment: 0,0:00:50.61,0:00:52.27,ENG,,0,0,0,karaoke,{\k22}To {\k28}Yel{\k22}low {\k54}Brick {\k40}Road
+Comment: 0,0:00:52.08,0:00:53.20,JP,,0,0,0,karaoke,{\k30}ki{\k24}mi {\k25}to {\k33}bok'
+Comment: 0,0:00:53.37,0:00:56.07,ENG,,0,0,0,karaoke,{\k26}Eve{\k27}ry{\k16}day {\k32}we're {\k20}see{\k31}ing {\k40}some{\k43}thing {\k35}new
+Comment: 0,0:00:56.14,0:00:58.84,JP,,0,0,0,karaoke,{\k22}a{\k14}to{\k19}mo{\k16}do{\k11}ri {\k28}wa {\k42}mou {\k20}shi{\k24}na{\k15}i {\k59}to
+Comment: 0,0:01:00.22,0:01:02.26,JP,,0,0,0,karaoke,{\k14}ki{\k13}mi {\k25}to {\k24}chi{\k27}ka{\k10}i {\k16}wo {\k26}ta{\k14}te{\k35}ta
+Comment: 0,0:01:04.31,0:01:06.91,JP,,0,0,0,karaoke,{\k15}da{\k12}ke{\k23}do {\k13}fu{\k14}ri{\k18}ka{\k8}e{\k13}re{\k16}ba {\k24}a{\k12}shi{\k36}a{\k56}to
+Comment: 0,0:01:07.34,0:01:10.93,JP,,0,0,0,karaoke,{\k23}wa {\k30}ki{\k23}e{\k32}zu {\k18}ni {\k30}tsu{\k25}zu{\k26}i{\k24}te{\k26}i{\kf102}ta
+Comment: 0,0:01:11.17,0:01:14.73,ENG,,0,0,0,karaoke,{\k30}Why {\k26}don't {\k47}we {\kf253}go
+Comment: 0,0:01:15.00,0:01:16.68,ENG,,0,0,0,karaoke,{\k24}To {\k28}Yel{\k23}low {\k51}Brick {\k42}Road
+Comment: 0,0:01:16.49,0:01:17.55,JP,,0,0,0,karaoke,{\k30}ki{\k24}mi {\k25}to {\k33}bok'
+Comment: 0,0:01:17.79,0:01:20.19,ENG,,0,0,0,karaoke,{\k26}Eve{\k25}ry{\k16}day {\k34}we're {\k20}see{\k28}ing {\k43}some{\k48}thing
+Comment: 0,0:01:20.33,0:01:25.99,ENG,,0,0,0,karaoke,{\kf189}new{\k42} {\kf181}new{\k22} {\kf132}new
+Comment: 0,0:01:25.94,0:01:28.58,ENG,,0,0,0,karaoke,{\k23}Eve{\k27}ry{\k16}day {\k32}we're {\k20}see{\k31}ing {\k40}some{\k43}thing {\k32}new
+Dialogue: 0,0:00:06.72,0:00:10.21,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k26}"NO" {\k18}no {\k22}ra{\k9}ku{\k32}in {\k21}wo {\k20}se{\k25}ot{\k66}ta
+Dialogue: 0,0:00:10.04,0:00:13.82,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ma{\k15}to{\k31}wa{\k41}ri{\k14}tsu{\k14}ku {\k26}ko{\k23}no {\k24}a{\k67}kash'
+Dialogue: 0,0:00:14.64,0:00:19.58,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k22}u{\k24}ma{\k16}re {\k24}mot{\k37}ta {\k21}sa{\k21}i{\k39}nou {\k22}de {\k16}ki{\k22}me{\k25}ra{\k24}re{\k71}ta
+Dialogue: 0,0:00:18.86,0:00:22.23,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ka{\k21}mi {\k39}no {\k24}i{\k20}ta{\k24}zu{\k75}ra
+Dialogue: 0,0:00:22.74,0:00:25.58,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ma{\k12}da {\k16}na{\k10}ga{\k48}i {\k14}ha{\k12}te{\k14}shi{\k14}na{\k20}i
+Dialogue: 0,0:00:24.74,0:00:27.90,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ta{\k15}bi {\k24}ni {\k12}fu{\k14}ka{\k18}ke{\k9}tsu {\k11}na {\k12}no {\k14}wa {\k13}ki{\k49}mi
+Dialogue: 0,0:00:26.80,0:00:29.62,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ta{\k14}da {\k14}"gu{\k12}u{\k50}zen" {\k12}wo {\k10}ma{\k15}tsu {\k15}yo{\k18}ri
+Dialogue: 0,0:00:28.82,0:00:31.62,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k10}ko{\k16}no {\k27}"shuu{\k25}nen" {\k12}de {\k14}o{\k13}ko{\k13}su {\k9}ki{\k16}se{\k15}ki
+Dialogue: 0,0:00:30.44,0:00:34.99,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ki{\k16}ri {\k16}no {\k19}mu{\k36}kou{\k17}ga{\k18}wa {\k16}ni {\k15}wa {\k47}SUN{\kf115}RI{\k11}SE
+Dialogue: 0,0:00:34.37,0:00:38.77,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k13}So {\k22}let's {\k18}run {\k16}through {\k15}the {\k33}night {\k17}to{\k40}ge{\k36}ther {\k50}you {\k50}and {\k20}I
+Dialogue: 0,0:00:37.73,0:00:42.44,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Why {\k28}don't {\k47}we {\kf257}go
+Dialogue: 0,0:00:41.55,0:00:44.45,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k27}To {\k29}Yel{\k24}low {\k49}Brick {\k51}Road
+Dialogue: 0,0:00:43.03,0:00:46.59,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k34}to{\k25}na{\k23}ri {\k40}dou{\k13}shi {\k24}de {\k26}a{\k26}yu{\k35}mi
+Dialogue: 0,0:00:45.60,0:00:50.51,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k28}So {\k28}why {\k24}don't {\k51}we {\kf250}go?
+Dialogue: 0,0:00:49.71,0:00:52.47,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k22}To {\k28}Yel{\k22}low {\k54}Brick {\k40}Road
+Dialogue: 0,0:00:51.18,0:00:53.40,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ki{\k24}mi {\k25}to {\k33}bok'
+Dialogue: 0,0:00:52.47,0:00:56.27,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Eve{\k27}ry{\k16}day {\k32}we're {\k20}see{\k31}ing {\k40}some{\k43}thing {\k35}new
+Dialogue: 0,0:00:55.24,0:00:59.04,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k22}a{\k14}to{\k19}mo{\k16}do{\k11}ri {\k28}wa {\k42}mou {\k20}shi{\k24}na{\k15}i {\k59}to
+Dialogue: 0,0:00:59.32,0:01:02.46,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ki{\k13}mi {\k25}to {\k24}chi{\k27}ka{\k10}i {\k16}wo {\k26}ta{\k14}te{\k35}ta
+Dialogue: 0,0:01:03.41,0:01:07.11,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k15}da{\k12}ke{\k23}do {\k13}fu{\k14}ri{\k18}ka{\k8}e{\k13}re{\k16}ba {\k24}a{\k12}shi{\k36}a{\k56}to
+Dialogue: 0,0:01:06.44,0:01:11.13,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k23}wa {\k30}ki{\k23}e{\k32}zu {\k18}ni {\k30}tsu{\k25}zu{\k26}i{\k24}te{\k26}i{\kf102}ta
+Dialogue: 0,0:01:10.27,0:01:14.93,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Why {\k26}don't {\k47}we {\kf253}go
+Dialogue: 0,0:01:14.10,0:01:16.88,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k24}To {\k28}Yel{\k23}low {\k51}Brick {\k42}Road
+Dialogue: 0,0:01:15.59,0:01:17.75,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ki{\k24}mi {\k25}to {\k33}bok'
+Dialogue: 0,0:01:16.89,0:01:20.39,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Eve{\k25}ry{\k16}day {\k34}we're {\k20}see{\k28}ing {\k43}some{\k48}thing
+Dialogue: 0,0:01:19.43,0:01:26.19,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\kf189}new{\k42} {\kf181}new{\k22} {\kf132}new
+Dialogue: 0,0:01:25.04,0:01:28.78,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Eve{\k27}ry{\k16}day {\k32}we're {\k20}see{\k31}ing {\k40}some{\k43}thing {\k32}new
