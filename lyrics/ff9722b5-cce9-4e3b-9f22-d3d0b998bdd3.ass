@@ -1,0 +1,94 @@
+﻿[Script Info]
+Title: HomeRun Queen!!
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Sodachi
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Harunision,Arial,24,&H00FFFFFF,&H0083B4E7,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Toi,Arial,24,&H00FFFFFF,&H0032CD32,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Ayane,Arial,24,&H00FFFFFF,&H00A26866,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Kokoro,Arial,24,&H00FFFFFF,&H004546DF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sayaka,Arial,24,&H00FFFFFF,&H0025C0D3,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Ruka,Arial,24,&H00FFFFFF,&H00CC4E81,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Yuuna,Arial,24,&H00FFFFFF,&H00E49CFC,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: légende,Arial,24,&H00FFFFFF,&H0083B4E7,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Aston,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:04.73,légende,,0,0,0,karaoke,{\c&H83B4E7&}Harunision {\c&HFFFFFF&}- {\c&H32CD32&}Toi {\c&HFFFFFF&}- {\c&HE49CFC&}Yuuna {\c&HFFFFFF&}- {\c&H4546DF&}Kokoro {\c&HFFFFFF&}- {\c&H25C0D3&}Sayaka {\c&HFFFFFF&}- {\c&HCC4E81&}Ruka {\c&HFFFFFF&}- {\c&HA26866&}Ayane
+Comment: 0,0:00:17.17,0:00:21.73,Toi,,0,0,0,karaoke,{\k27}i{\k34}tsu{\k62}ka {\k60}mi{\k58}ta {\k33}yu{\k32}me {\k30}no {\k26}tsu{\k31}zu{\k34}ki {\k29}wa
+Comment: 0,0:00:22.01,0:00:29.90,Toi,,0,0,0,karaoke,{\k34}ka{\k29}wa{\k61}ra{\k60}zu {\k31}ni {\k26}bo{\k34}ku{\k31}ra {\k90}no {\k30}mu{\k30}ne {\k31}no {\k31}na{\k29}ka {\kf242}ni
+Comment: 0,0:00:51.72,0:00:53.62,Ayane,,0,0,0,karaoke,{\k14}ga{\k16}mu{\k14}sha{\k17}ra {\k30}dat{\k14}ta {\k27}ri{\k36}sou {\k22}ga
+Comment: 0,0:00:53.69,0:00:56.26,Ayane,,0,0,0,karaoke,{\k14}o{\k16}to {\k15}ni {\k16}na{\k14}ri {\k15}ko{\k16}to{\k13}ba {\k17}wo {\k15}tsu{\k15}mu{\k17}i{\k14}da {\k17}yu{\k43}me
+Comment: 0,0:00:56.51,0:01:01.11,Ayane,,0,0,0,karaoke,{\k66}hi{\k31}to{\k29}tsu {\k31}hi{\k30}to{\k30}tsu {\k31}me{\k30}bu{\k11}ki {\k20}ha{\k31}ji{\k29}me{\k45}te {\k16}yu{\k30}ku
+Comment: 0,0:01:01.42,0:01:03.40,Kokoro,,0,0,0,karaoke,{\k15}te {\k16}wo {\k15}no{\k14}ba{\k16}su {\k14}ho{\k15}do {\k26}tsu{\k35}yo{\k32}ku
+Comment: 0,0:01:03.54,0:01:10.66,Kokoro,,0,0,0,karaoke,{\k30}hi{\k63}ka{\k28}ru {\k30}ho{\k61}shi {\k60}sou {\k62}da {\k60}kit{\k61}to {\k60}ta{\k31}bi {\k14}no {\k46}to{\k15}chu{\k91}u
+Comment: 0,0:01:12.58,0:01:15.65,Yuuna,,0,0,0,karaoke,{\k37}ki{\k30}mi {\k29}ni {\k30}ki{\k31}ka{\k30}se{\k30}ta{\k90}i
+Comment: 0,0:01:17.48,0:01:20.51,Sayaka,,0,0,0,karaoke,{\k30}ha{\k31}na {\k30}hi{\k29}ra{\k31}ku {\k30}ka{\k32}n{\k90}sei
+Comment: 0,0:01:22.34,0:01:28.99,Ruka,,0,0,0,karaoke,{\k30}ta{\k30}ne {\k31}wo {\k29}ma{\k31}ki {\k31}tsu{\k30}zu{\k55}ke {\k25}so{\k23}ra {\k18}ta{\k85}kak' {\k36}se{\k30}no{\k26}bi {\k64}shi{\k91}ta
+Comment: 0,0:01:29.29,0:01:34.44,Harunision,,0,0,0,karaoke,{\k31}don{\k30}na {\k31}kon{\k30}nan {\k59}mo {\k33}ki{\k29}t{\k60}to {\k30}ko{\k31}e{\k31}te {\k29}yu{\k60}ke{\k31}ru
+Comment: 0,0:01:34.74,0:01:38.63,Harunision,,0,0,0,karaoke,{\k61}fu{\k31}tash'{\k29}ka {\k31}de{\k31}mo {\k60}ii {\k45}sa{\k17}i{\k84}te
+Comment: 0,0:01:38.99,0:01:44.14,Harunision,,0,0,0,karaoke,{\k30}nan{\k30}do {\k32}nai{\k30}tat{\k61}te {\k30}o{\k30}re{\k60}nai {\k31}ha{\k31}na {\k59}ni {\k60}na{\k31}rou
+Comment: 0,0:01:44.43,0:01:52.33,Harunision,,0,0,0,karaoke,{\k63}ha{\k30}ru {\k31}wo {\k30}ko{\k30}e{\k60}te {\k59}yu{\k32}me {\k30}ni {\k31}to{\k30}do{\k59}ku {\k61}you {\kf244}ni
+Comment: 0,0:01:59.60,0:02:01.44,Ruka,,0,0,0,karaoke,{\k14}ni{\k16}wa {\k15}ni {\k15}u{\k30}e{\k15}ta {\k30}na{\k31}e {\k18}ga
+Comment: 0,0:02:01.52,0:02:04.16,Ruka,,0,0,0,karaoke,{\k18}ha{\k17}na {\k14}ni {\k16}na{\k16}ri {\k15}tsu{\k15}gi {\k13}no {\k16}ba{\k12}sho {\k20}he {\k43}ha{\k18}ko{\k31}bu
+Comment: 0,0:02:04.44,0:02:09.22,Ruka,,0,0,0,karaoke,{\k61}ya{\k31}ga{\k31}te {\k30}o{\k30}o{\k30}ki{\k31}na {\k31}mi{\k14}ki {\k45}ni {\k15}na{\kf129}ru
+Comment: 0,0:02:10.80,0:02:19.02,Yuuna,,0,0,0,karaoke,{\k32}ko{\k34}e {\k24}wo {\k29}ka{\k35}sa{\k28}ne{\k23}a{\k68}u {\k23}hi{\k20}to{\k18}ri {\k92}ja {\k29}de{\k30}ki{\k25}rya {\k67}sh'na{\kf245}i
+Comment: 0,0:02:20.20,0:02:25.36,Harunision,,0,0,0,karaoke,{\k30}EN{\k31}DIN{\k30}G {\k32}ja{\k58}nai {\k32}mi{\k30}chi {\k61}wa {\k31}tsu{\k30}zu{\k59}i{\k63}te {\k29}'ku
+Comment: 0,0:02:25.66,0:02:29.63,Harunision,,0,0,0,karaoke,{\k58}ri{\k32}so{\k31}u {\k31}ka{\k31}ka{\k60}ge {\k43}ha{\k18}shi{\k93}re
+Comment: 0,0:02:29.90,0:02:35.05,Harunision,,0,0,0,karaoke,{\k30}hyak{\k31}kai {\k15}da{\k15}me {\k31}dat{\k60}te {\k31}mou {\k29}ik{\k60}kai {\k32}a{\k30}to {\k61}mou {\k60}ik{\k30}kai
+Comment: 0,0:02:35.35,0:02:42.62,Harunision,,0,0,0,karaoke,{\k62}a{\k31}ko{\k30}ga{\k30}re {\k29}ja{\k58}nai {\k62}ji{\k31}bun {\k32}ga {\k30}ki{\k30}me{\k60}ta {\k45}mi{\k19}chi {\kf178}da
+Comment: 0,0:02:42.93,0:02:45.66,Sayaka,,0,0,0,karaoke,{\k30}ki{\k31}mi {\k30}to {\k30}mi{\k16}ta{\kf136}i
+Comment: 0,0:02:47.48,0:02:50.50,Sayaka,,0,0,0,karaoke,{\k30}mi{\k31}ra{\k60}i {\k29}ga {\k20}a{\kf132}ru
+Comment: 0,0:02:54.73,0:02:58.05,Ruka,,0,0,0,karaoke,{\k31}i{\k32}tsu{\k61}ka {\k59}mi{\k26}ta {\k36}yu{\k29}me {\k15}na{\k43}ra
+Comment: 0,0:02:58.68,0:03:02.61,Ruka,,0,0,0,karaoke,{\k30}ko{\k47}ko {\k44}ni {\k32}a{\kf240}ru
+Comment: 0,0:03:05.04,0:03:10.19,Harunision,,0,0,0,karaoke,{\k31}don{\k31}na {\k31}kon{\k30}nan {\k57}mo {\k33}ki{\k30}t{\k61}to {\k30}ko{\k31}e{\k31}te {\k30}yu{\k61}ke{\k28}ru
+Comment: 0,0:03:10.51,0:03:14.45,Harunision,,0,0,0,karaoke,{\k61}fu{\k30}tash'{\k30}ka {\k31}de{\k30}mo {\k59}ii {\k46}sa{\k17}i{\k90}te
+Comment: 0,0:03:14.75,0:03:20.06,Harunision,,0,0,0,karaoke,{\k31}nan{\k22}do {\k38}nai{\k31}tat{\k60}te {\k30}o{\k30}re{\k61}nai {\k30}ha{\k31}na {\k61}ni {\k60}na{\k46}ru
+Comment: 0,0:03:20.20,0:03:22.47,Harunision,,0,0,0,karaoke,{\k61}o{\k31}wa{\k29}ri {\k30}wa {\k31}na{\k45}i
+Comment: 0,0:03:22.60,0:03:24.75,Harunision,,0,0,0,karaoke,{\k62}yu{\k32}me {\k29}ni {\k31}to{\k31}do{\k30}ke
+Comment: 0,0:03:25.04,0:03:27.17,Harunision,,0,0,0,karaoke,{\k65}shi{\k28}n{\k30}ji{\k29}te {\k31}i{\k30}ru
+Comment: 0,0:03:27.47,0:03:29.62,Harunision,,0,0,0,karaoke,{\k61}yu{\k30}me {\k30}no {\k31}ha{\k30}na {\k33}wa
+Comment: 0,0:03:29.90,0:03:32.93,Kokoro,,0,0,0,karaoke,{\k61}sa{\kf242}ku
+Dialogue: 0,0:00:00.00,0:00:04.93,légende,,0,0,0,fx,{\k0\fad(0,200)}{\c&H83B4E7&}Harunision {\c&HFFFFFF&}- {\c&H32CD32&}Toi {\c&HFFFFFF&}- {\c&HE49CFC&}Yuuna {\c&HFFFFFF&}- {\c&H4546DF&}Kokoro {\c&HFFFFFF&}- {\c&H25C0D3&}Sayaka {\c&HFFFFFF&}- {\c&HCC4E81&}Ruka {\c&HFFFFFF&}- {\c&HA26866&}Ayane
+Dialogue: 0,0:00:16.27,0:00:21.93,Toi,,0,0,0,fx,{\k90\fad(300,200)}{\k27}i{\k34}tsu{\k62}ka {\k60}mi{\k58}ta {\k33}yu{\k32}me {\k30}no {\k26}tsu{\k31}zu{\k34}ki {\k29}wa
+Dialogue: 0,0:00:21.11,0:00:30.10,Toi,,0,0,0,fx,{\k90\fad(300,200)}{\k34}ka{\k29}wa{\k61}ra{\k60}zu {\k31}ni {\k26}bo{\k34}ku{\k31}ra {\k90}no {\k30}mu{\k30}ne {\k31}no {\k31}na{\k29}ka {\kf242}ni
+Dialogue: 0,0:00:50.82,0:00:53.82,Ayane,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ga{\k16}mu{\k14}sha{\k17}ra {\k30}dat{\k14}ta {\k27}ri{\k36}sou {\k22}ga
+Dialogue: 0,0:00:52.79,0:00:56.46,Ayane,,0,0,0,fx,{\k90\fad(300,200)}{\k14}o{\k16}to {\k15}ni {\k16}na{\k14}ri {\k15}ko{\k16}to{\k13}ba {\k17}wo {\k15}tsu{\k15}mu{\k17}i{\k14}da {\k17}yu{\k43}me
+Dialogue: 0,0:00:55.61,0:01:01.31,Ayane,,0,0,0,fx,{\k90\fad(300,200)}{\k66}hi{\k31}to{\k29}tsu {\k31}hi{\k30}to{\k30}tsu {\k31}me{\k30}bu{\k11}ki {\k20}ha{\k31}ji{\k29}me{\k45}te {\k16}yu{\k30}ku
+Dialogue: 0,0:01:00.52,0:01:03.60,Kokoro,,0,0,0,fx,{\k90\fad(300,200)}{\k15}te {\k16}wo {\k15}no{\k14}ba{\k16}su {\k14}ho{\k15}do {\k26}tsu{\k35}yo{\k32}ku
+Dialogue: 0,0:01:02.64,0:01:10.86,Kokoro,,0,0,0,fx,{\k90\fad(300,200)}{\k30}hi{\k63}ka{\k28}ru {\k30}ho{\k61}shi {\k60}sou {\k62}da {\k60}kit{\k61}to {\k60}ta{\k31}bi {\k14}no {\k46}to{\k15}chu{\k91}u
+Dialogue: 0,0:01:11.68,0:01:15.85,Yuuna,,0,0,0,fx,{\k90\fad(300,200)}{\k37}ki{\k30}mi {\k29}ni {\k30}ki{\k31}ka{\k30}se{\k30}ta{\k90}i
+Dialogue: 0,0:01:16.58,0:01:20.71,Sayaka,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ha{\k31}na {\k30}hi{\k29}ra{\k31}ku {\k30}ka{\k32}n{\k90}sei
+Dialogue: 0,0:01:21.44,0:01:29.19,Ruka,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ta{\k30}ne {\k31}wo {\k29}ma{\k31}ki {\k31}tsu{\k30}zu{\k55}ke {\k25}so{\k23}ra {\k18}ta{\k85}kak' {\k36}se{\k30}no{\k26}bi {\k64}shi{\k91}ta
+Dialogue: 0,0:01:28.39,0:01:34.64,Harunision,,0,0,0,fx,{\k90\fad(300,200)}{\k31}don{\k30}na {\k31}kon{\k30}nan {\k59}mo {\k33}ki{\k29}t{\k60}to {\k30}ko{\k31}e{\k31}te {\k29}yu{\k60}ke{\k31}ru
+Dialogue: 0,0:01:33.84,0:01:38.83,Harunision,,0,0,0,fx,{\k90\fad(300,200)}{\k61}fu{\k31}tash'{\k29}ka {\k31}de{\k31}mo {\k60}ii {\k45}sa{\k17}i{\k84}te
+Dialogue: 0,0:01:38.09,0:01:44.34,Harunision,,0,0,0,fx,{\k90\fad(300,200)}{\k30}nan{\k30}do {\k32}nai{\k30}tat{\k61}te {\k30}o{\k30}re{\k60}nai {\k31}ha{\k31}na {\k59}ni {\k60}na{\k31}rou
+Dialogue: 0,0:01:43.53,0:01:52.53,Harunision,,0,0,0,fx,{\k90\fad(300,200)}{\k63}ha{\k30}ru {\k31}wo {\k30}ko{\k30}e{\k60}te {\k59}yu{\k32}me {\k30}ni {\k31}to{\k30}do{\k59}ku {\k61}you {\kf244}ni
+Dialogue: 0,0:01:58.70,0:02:01.64,Ruka,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ni{\k16}wa {\k15}ni {\k15}u{\k30}e{\k15}ta {\k30}na{\k31}e {\k18}ga
+Dialogue: 0,0:02:00.62,0:02:04.36,Ruka,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ha{\k17}na {\k14}ni {\k16}na{\k16}ri {\k15}tsu{\k15}gi {\k13}no {\k16}ba{\k12}sho {\k20}he {\k43}ha{\k18}ko{\k31}bu
+Dialogue: 0,0:02:03.54,0:02:09.42,Ruka,,0,0,0,fx,{\k90\fad(300,200)}{\k61}ya{\k31}ga{\k31}te {\k30}o{\k30}o{\k30}ki{\k31}na {\k31}mi{\k14}ki {\k45}ni {\k15}na{\kf129}ru
+Dialogue: 0,0:02:09.90,0:02:19.22,Yuuna,,0,0,0,fx,{\k90\fad(300,200)}{\k32}ko{\k34}e {\k24}wo {\k29}ka{\k35}sa{\k28}ne{\k23}a{\k68}u {\k23}hi{\k20}to{\k18}ri {\k92}ja {\k29}de{\k30}ki{\k25}rya {\k67}sh'na{\kf245}i
+Dialogue: 0,0:02:19.30,0:02:25.56,Harunision,,0,0,0,fx,{\k90\fad(300,200)}{\k30}EN{\k31}DIN{\k30}G {\k32}ja{\k58}nai {\k32}mi{\k30}chi {\k61}wa {\k31}tsu{\k30}zu{\k59}i{\k63}te {\k29}'ku
+Dialogue: 0,0:02:24.76,0:02:29.83,Harunision,,0,0,0,fx,{\k90\fad(300,200)}{\k58}ri{\k32}so{\k31}u {\k31}ka{\k31}ka{\k60}ge {\k43}ha{\k18}shi{\k93}re
+Dialogue: 0,0:02:29.00,0:02:35.25,Harunision,,0,0,0,fx,{\k90\fad(300,200)}{\k30}hyak{\k31}kai {\k15}da{\k15}me {\k31}dat{\k60}te {\k31}mou {\k29}ik{\k60}kai {\k32}a{\k30}to {\k61}mou {\k60}ik{\k30}kai
+Dialogue: 0,0:02:34.45,0:02:42.82,Harunision,,0,0,0,fx,{\k90\fad(300,200)}{\k62}a{\k31}ko{\k30}ga{\k30}re {\k29}ja{\k58}nai {\k62}ji{\k31}bun {\k32}ga {\k30}ki{\k30}me{\k60}ta {\k45}mi{\k19}chi {\kf178}da
+Dialogue: 0,0:02:42.03,0:02:45.86,Sayaka,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ki{\k31}mi {\k30}to {\k30}mi{\k16}ta{\kf136}i
+Dialogue: 0,0:02:46.58,0:02:50.70,Sayaka,,0,0,0,fx,{\k90\fad(300,200)}{\k30}mi{\k31}ra{\k60}i {\k29}ga {\k20}a{\kf132}ru
+Dialogue: 0,0:02:53.83,0:02:58.25,Ruka,,0,0,0,fx,{\k90\fad(300,200)}{\k31}i{\k32}tsu{\k61}ka {\k59}mi{\k26}ta {\k36}yu{\k29}me {\k15}na{\k43}ra
+Dialogue: 0,0:02:57.78,0:03:02.81,Ruka,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ko{\k47}ko {\k44}ni {\k32}a{\kf240}ru
+Dialogue: 0,0:03:04.14,0:03:10.39,Harunision,,0,0,0,fx,{\k90\fad(300,200)}{\k31}don{\k31}na {\k31}kon{\k30}nan {\k57}mo {\k33}ki{\k30}t{\k61}to {\k30}ko{\k31}e{\k31}te {\k30}yu{\k61}ke{\k28}ru
+Dialogue: 0,0:03:09.61,0:03:14.65,Harunision,,0,0,0,fx,{\k90\fad(300,200)}{\k61}fu{\k30}tash'{\k30}ka {\k31}de{\k30}mo {\k59}ii {\k46}sa{\k17}i{\k90}te
+Dialogue: 0,0:03:13.85,0:03:20.26,Harunision,,0,0,0,fx,{\k90\fad(300,200)}{\k31}nan{\k22}do {\k38}nai{\k31}tat{\k60}te {\k30}o{\k30}re{\k61}nai {\k30}ha{\k31}na {\k61}ni {\k60}na{\k46}ru
+Dialogue: 0,0:03:19.30,0:03:22.67,Harunision,,0,0,0,fx,{\k90\fad(300,200)}{\k61}o{\k31}wa{\k29}ri {\k30}wa {\k31}na{\k45}i
+Dialogue: 0,0:03:21.70,0:03:24.95,Harunision,,0,0,0,fx,{\k90\fad(300,200)}{\k62}yu{\k32}me {\k29}ni {\k31}to{\k31}do{\k30}ke
+Dialogue: 0,0:03:24.14,0:03:27.37,Harunision,,0,0,0,fx,{\k90\fad(300,200)}{\k65}shi{\k28}n{\k30}ji{\k29}te {\k31}i{\k30}ru
+Dialogue: 0,0:03:26.57,0:03:29.82,Harunision,,0,0,0,fx,{\k90\fad(300,200)}{\k61}yu{\k30}me {\k30}no {\k31}ha{\k30}na {\k33}wa
+Dialogue: 0,0:03:29.00,0:03:33.13,Kokoro,,0,0,0,fx,{\k90\fad(300,200)}{\k61}sa{\kf242}ku
