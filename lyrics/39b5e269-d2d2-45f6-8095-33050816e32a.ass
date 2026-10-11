@@ -1,0 +1,140 @@
+﻿[Script Info]
+Title: GGEZ
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+Original Timing: Defty
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,24,&H000088EF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:02.41,0:00:05.35,Default,,0,0,0,karaoke,{\k23}G{\k23}G {\k23}fuck{\k23}ing {\k46}E{\k143}Z
+Comment: 1,0:00:06.63,0:00:08.10,Default,,0,0,0,karaoke,{\k23}fuck{\k23}ing {\k46}E{\k43}Z
+Comment: 1,0:00:08.03,0:00:11.59,Default,,0,0,0,karaoke,{\k23}log {\k46}in, {\k23}new {\k93}skin, {\k23}iced {\k46}out, {\k23}big {\k64}grin
+Comment: 1,0:00:11.55,0:00:15.34,Default,,0,0,0,karaoke,{\k23}left {\k70}step, {\k23}right {\k70}slide, {\k23}o{\k70}kay, {\k23}al{\k64}right
+Comment: 1,0:00:15.30,0:00:17.45,Default,,0,0,0,karaoke,{\k11}fin{\k11}na {\k23}break {\k23}their {\k23}e{\k23}go, {\k11}you {\k11}won't {\k23}like {\k41}this
+Comment: 1,0:00:17.41,0:00:19.12,Default,,0,0,0,karaoke,{\k23}force {\k11}'em {\k11}on {\k23}e{\k23}co {\k11}wan{\k11}na {\k23}talk {\k20}shit
+Comment: 1,0:00:19.05,0:00:21.76,Default,,0,0,0,karaoke,{\k23}caps {\k70}lock, {\k23}it's {\k70}all {\k73}trash
+Comment: 1,0:00:22.10,0:00:25.51,Default,,0,0,0,karaoke,{\k23}not {\k23}an {\k23}N{\k23}P{\k23}C {\k23}I've {\k23}been {\k23}the {\k23}boss {\k23}in {\k23}this {\k73}role
+Comment: 1,0:00:25.85,0:00:27.23,Default,,0,0,0,karaoke,{\k23}snatched {\k23}those {\k23}M{\k23}V{\k23}Ps, {\k23}yeah,
+Comment: 1,0:00:27.23,0:00:29.26,Default,,0,0,0,karaoke,{\k23}I {\k23}been {\k23}run{\k23}ning {\k23}the {\k73}show
+Comment: 1,0:00:29.60,0:00:32.13,Default,,0,0,0,karaoke,{\k23}right {\k23}be{\k23}fore {\k23}you {\k46}came {\k23}in{\k23}to {\k46}my {\k23}world
+Comment: 1,0:00:32.13,0:00:33.86,Default,,0,0,0,karaoke,{\k23}you {\k46}took {\k46}the {\k41}throne
+Comment: 1,0:00:33.82,0:00:35.66,Default,,0,0,0,karaoke,{\k23}I {\k23}was {\k46}fine, {\k11}I {\k35}was {\k46}clean,
+Comment: 1,0:00:35.66,0:00:37.61,Default,,0,0,0,karaoke,{\k11}I {\k35}was {\k11}win{\k35}nin' {\k11}on {\k35}my {\k41}screen
+Comment: 1,0:00:37.57,0:00:39.41,Default,,0,0,0,karaoke,{\k11}then {\k35}you {\k23}came {\k23}in {\k23}too {\k23}O{\k46}P
+Comment: 1,0:00:39.41,0:00:41.83,Default,,0,0,0,karaoke,{\k23}now {\k23}it's {\k23}loo{\k23}king {\k46}like, {\k46}G{\k41}G
+Comment: 1,0:00:41.78,0:00:43.70,Default,,0,0,0,karaoke,{\k23}G{\k23}G {\k23}fuck{\k23}ing {\k46}E{\k41}Z
+Comment: 1,0:00:43.66,0:00:45.37,Default,,0,0,0,karaoke,{\k23}G{\k23}G {\k23}fuck{\k23}ing {\k46}E{\k20}Z
+Comment: 1,0:00:45.30,0:00:47.45,Default,,0,0,0,karaoke,{\k23}one {\k46}shot, {\k46}woo, {\k23}low {\k23}H{\k41}P
+Comment: 1,0:00:47.41,0:00:49.33,Default,,0,0,0,karaoke,{\k23}G{\k23}G {\k23}fuck{\k23}ing {\k46}E{\k41}Z
+Comment: 1,0:00:49.28,0:00:52.87,Default,,0,0,0,karaoke,{\k46}talk {\k46}shit, {\k46}hit {\k46}me, {\k46}to{\k46}xic, {\k46}kiss {\k20}me
+Comment: 1,0:00:52.80,0:00:54.69,Default,,0,0,0,karaoke,{\k23}I {\k23}hate {\k46}this, {\k23}I {\k23}need {\k38}this,
+Comment: 1,0:00:54.67,0:00:56.83,Default,,0,0,0,karaoke,{\k23}G-{\k23}G{\k23}G {\k23}fuck{\k23}ing {\k46}E{\k41}Z
+Comment: 1,0:00:56.78,0:00:58.55,Default,,0,0,0,karaoke,{\k46}left, {\k46}right, {\k73}freeze
+Comment: 1,0:00:58.66,0:01:00.43,Default,,0,0,0,karaoke,{\k46}pop, {\k46}rock, {\k73}breeze
+Comment: 1,0:01:00.53,0:01:04.06,Default,,0,0,0,karaoke,{\k23}tap, {\k23}tap, {\k46}tap, {\k23}drop, {\k23}down, {\k46}back, {\k46}one, {\k46}two, {\k61}three
+Comment: 1,0:01:04.75,0:01:07.93,Default,,0,0,0,karaoke,{\k23}I {\k23}ain't {\k23}co{\k23}ming {\k46}home, {\k23}girl {\k23}you {\k23}did {\k23}me {\k73}wrong
+Comment: 1,0:01:08.50,0:01:09.64,Default,,0,0,0,karaoke,{\k23}Please {\k23}don't {\k23}leave {\k11}me {\k11}a{\k23}lone
+Comment: 1,0:01:09.64,0:01:12.03,Default,,0,0,0,karaoke,{\k23}like {\k23}this {\k23}some {\k23}o{\k23}ther {\k46}love {\k61}song
+Comment: 1,0:01:12.25,0:01:15.43,Default,,0,0,0,karaoke,{\k23}boy, {\k23}I'm {\k23}in {\k23}my {\k46}zone, {\k23}stop {\k23}ca{\k23}lling {\k23}my {\k73}phone
+Comment: 1,0:01:16.00,0:01:18.12,Default,,0,0,0,karaoke,{\k23}what {\k23}you {\k23}say {\k23}is {\k23}o{\k23}ver{\k61}blown
+Comment: 1,0:01:18.11,0:01:21.14,Default,,0,0,0,karaoke,{\k23}you {\k23}treat {\k23}a{\k23}ffe{\k23}ction {\k23}like {\k11}a {\k23}sin{\k11}gle {\k105}game
+Comment: 1,0:01:21.16,0:01:23.02,Default,,0,0,0,karaoke,{\k23}hit {\k11}you {\k23}with {\k11}a {\k105}bang
+Comment: 1,0:01:23.03,0:01:26.39,Default,,0,0,0,karaoke,{\k46}we {\k46}won't {\k23}e{\k11}ver {\k23}be {\k11}the {\k46}same {\k23}sa{\k23}a{\k23}a{\k23}a{\k20}ame
+Comment: 1,0:01:26.32,0:01:28.20,Default,,0,0,0,karaoke,{\k23}keep {\k23}your {\k23}dra{\k11}ma {\k23}out {\k11}of {\k61}sight
+Comment: 1,0:01:28.19,0:01:30.19,Default,,0,0,0,karaoke,{\k23}e{\k23}ne{\k23}mies {\k11}a{\k23}bout {\k11}to {\k73}die
+Comment: 1,0:01:30.53,0:01:34.30,Default,,0,0,0,karaoke,{\k46}I {\k46}ain't {\k46}e{\k23}ven {\k46}try {\k23}M{\k23}m{\k23}m{\k23}m{\k61}m
+Comment: 1,0:01:34.28,0:01:38.02,Default,,0,0,0,karaoke,{\k46}try{\k23}~{\k23}~{\k93}~ {\k46}try{\k23}~{\k23}~{\k82}~
+Comment: 1,0:01:38.03,0:01:39.95,Default,,0,0,0,karaoke,{\k23}G{\k23}G {\k23}fuck{\k23}ing {\k46}E{\k41}Z
+Comment: 1,0:01:39.91,0:01:41.62,Default,,0,0,0,karaoke,{\k23}G{\k23}G {\k23}fuck{\k23}ing {\k46}E{\k20}Z
+Comment: 1,0:01:41.55,0:01:43.70,Default,,0,0,0,karaoke,{\k23}one {\k46}shot, {\k46}woo, {\k23}low {\k23}H{\k41}P
+Comment: 1,0:01:43.66,0:01:45.58,Default,,0,0,0,karaoke,{\k23}G{\k23}G {\k23}fuck{\k23}ing {\k46}E{\k41}Z
+Comment: 1,0:01:45.53,0:01:49.12,Default,,0,0,0,karaoke,{\k46}talk {\k46}shit, {\k46}hit {\k46}me, {\k46}to{\k46}xic, {\k46}kiss {\k20}me
+Comment: 1,0:01:49.05,0:01:50.94,Default,,0,0,0,karaoke,{\k23}I {\k23}hate {\k46}this, {\k23}I {\k23}need {\k38}this,
+Comment: 1,0:01:50.92,0:01:53.28,Default,,0,0,0,karaoke,{\k23}G-{\k23}G{\k23}G {\k23}fuck{\k23}ing {\k46}E{\k61}Z
+Comment: 1,0:01:53.50,0:01:56.33,Default,,0,0,0,karaoke,{\k23}ty{\k23}pin {\k46}G{\k23}G, {\k23}my {\k23}life {\k23}so {\k23}bright {\k23}like {\k38}VV
+Comment: 1,0:01:56.32,0:01:58.39,Default,,0,0,0,karaoke,{\k23}I {\k23}be {\k23}le{\k23}lou{\k23}ch you {\k23}be {\k46}C.{\k23}C
+Comment: 1,0:01:58.39,0:02:00.34,Default,,0,0,0,karaoke,{\k23}no-{\k23}no {\k23}free {\k23}pass {\k11}got {\k11}'em {\k46}T{\k17}T
+Comment: 1,0:02:00.30,0:02:01.61,Default,,0,0,0,karaoke,{\k23}let's {\k46}go! {\k17}mo{\k11}ving {\k17}through {\k17}map
+Comment: 1,0:02:01.61,0:02:02.92,Default,,0,0,0,karaoke,{\k17}like {\k11}I {\k17}got {\k11}the {\k17}cheat {\k41}code
+Comment: 1,0:02:02.88,0:02:04.79,Default,,0,0,0,karaoke,{\k23}ge{\k23}ass {\k23}one {\k23}look {\k11}I'm {\k11}in {\k23}con{\k41}trol
+Comment: 1,0:02:04.75,0:02:06.67,Default,,0,0,0,karaoke,{\k23}C {\k23}and {\k23}V, {\k23}I'm {\k11}ta{\k11}king {\k23}your {\k41}soul
+Comment: 1,0:02:06.63,0:02:08.10,Default,,0,0,0,karaoke,{\k11}gim{\k11}me {\k23}some {\k23}su{\k11}gar {\k11}and {\k11}gim{\k11}me {\k20}some more
+Comment: 1,0:02:08.03,0:02:11.62,Default,,0,0,0,karaoke,{\k46}talk {\k46}shit, {\k46}hit {\k46}me, {\k46}to{\k46}xic, {\k46}kiss {\k20}me
+Comment: 1,0:02:11.55,0:02:13.44,Default,,0,0,0,karaoke,{\k23}I {\k23}hate {\k46}this, {\k23}I {\k23}love {\k38}this,
+Comment: 1,0:02:13.42,0:02:15.60,Default,,0,0,0,karaoke,{\k23}G-{\k23}G{\k23}G {\k23}fuck{\k23}ing {\k46}E{\k43}Z
+Comment: 1,0:02:15.53,0:02:17.45,Default,,0,0,0,karaoke,{\k23}G{\k23}G {\k23}fuck{\k23}ing {\k46}E{\k41}Z
+Comment: 1,0:02:17.41,0:02:19.12,Default,,0,0,0,karaoke,{\k23}G{\k23}G {\k23}fuck{\k23}ing {\k46}E{\k20}Z
+Comment: 1,0:02:19.05,0:02:21.20,Default,,0,0,0,karaoke,{\k23}one {\k46}shot, {\k46}boom, {\k23}low {\k23}H{\k41}P
+Comment: 1,0:02:21.16,0:02:23.08,Default,,0,0,0,karaoke,{\k23}G{\k23}G {\k23}fuck{\k23}ing {\k46}E{\k41}Z
+Comment: 1,0:02:23.03,0:02:26.62,Default,,0,0,0,karaoke,{\k46}talk {\k46}shit, {\k46}hit {\k46}me, {\k46}to{\k46}xic, {\k46}kiss {\k20}me
+Comment: 1,0:02:26.55,0:02:28.44,Default,,0,0,0,karaoke,{\k23}I {\k23}hate {\k46}this, {\k23}I {\k23}love {\k38}this,
+Comment: 1,0:02:28.42,0:02:30.60,Default,,0,0,0,karaoke,{\k23}G-{\k23}G{\k23}G {\k23}fuck{\k23}ing {\k46}E{\k43}Z
+Dialogue: 1,0:00:01.51,0:00:05.55,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}G{\k23}G {\k23}fuck{\k23}ing {\k46}E{\k143}Z
+Dialogue: 1,0:00:05.73,0:00:08.30,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}fuck{\k23}ing {\k46}E{\k43}Z
+Dialogue: 1,0:00:07.13,0:00:11.79,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}log {\k46}in, {\k23}new {\k93}skin, {\k23}iced {\k46}out, {\k23}big {\k64}grin
+Dialogue: 1,0:00:10.65,0:00:15.54,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}left {\k70}step, {\k23}right {\k70}slide, {\k23}o{\k70}kay, {\k23}al{\k64}right
+Dialogue: 1,0:00:14.40,0:00:17.65,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k11}fin{\k11}na {\k23}break {\k23}their {\k23}e{\k23}go, {\k11}you {\k11}won't {\k23}like {\k41}this
+Dialogue: 1,0:00:16.51,0:00:19.32,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}force {\k11}'em {\k11}on {\k23}e{\k23}co {\k11}wan{\k11}na {\k23}talk {\k20}shit
+Dialogue: 1,0:00:18.15,0:00:21.96,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}caps {\k70}lock, {\k23}it's {\k70}all {\k73}trash
+Dialogue: 1,0:00:21.20,0:00:25.71,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}not {\k23}an {\k23}N{\k23}P{\k23}C {\k23}I've {\k23}been {\k23}the {\k23}boss {\k23}in {\k23}this {\k73}role
+Dialogue: 1,0:00:24.95,0:00:27.43,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}snatched {\k23}those {\k23}M{\k23}V{\k23}Ps, {\k23}yeah,
+Dialogue: 1,0:00:26.33,0:00:29.46,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k23}been {\k23}run{\k23}ning {\k23}the {\k73}show
+Dialogue: 1,0:00:28.70,0:00:32.33,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}right {\k23}be{\k23}fore {\k23}you {\k46}came {\k23}in{\k23}to {\k46}my {\k23}world
+Dialogue: 1,0:00:31.23,0:00:34.06,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}you {\k46}took {\k46}the {\k41}throne
+Dialogue: 1,0:00:32.92,0:00:35.86,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k23}was {\k46}fine, {\k11}I {\k35}was {\k46}clean,
+Dialogue: 1,0:00:34.76,0:00:37.81,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k11}I {\k35}was {\k11}win{\k35}nin' {\k11}on {\k35}my {\k41}screen
+Dialogue: 1,0:00:36.67,0:00:39.61,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k11}then {\k35}you {\k23}came {\k23}in {\k23}too {\k23}O{\k46}P
+Dialogue: 1,0:00:38.51,0:00:42.03,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}now {\k23}it's {\k23}loo{\k23}king {\k46}like, {\k46}G{\k41}G
+Dialogue: 1,0:00:40.88,0:00:43.90,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}G{\k23}G {\k23}fuck{\k23}ing {\k46}E{\k41}Z
+Dialogue: 1,0:00:42.76,0:00:45.57,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}G{\k23}G {\k23}fuck{\k23}ing {\k46}E{\k20}Z
+Dialogue: 1,0:00:44.40,0:00:47.65,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}one {\k46}shot, {\k46}woo, {\k23}low {\k23}H{\k41}P
+Dialogue: 1,0:00:46.51,0:00:49.53,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}G{\k23}G {\k23}fuck{\k23}ing {\k46}E{\k41}Z
+Dialogue: 1,0:00:48.38,0:00:53.07,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k46}talk {\k46}shit, {\k46}hit {\k46}me, {\k46}to{\k46}xic, {\k46}kiss {\k20}me
+Dialogue: 1,0:00:51.90,0:00:54.89,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k23}hate {\k46}this, {\k23}I {\k23}need {\k38}this,
+Dialogue: 1,0:00:53.77,0:00:57.03,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}G-{\k23}G{\k23}G {\k23}fuck{\k23}ing {\k46}E{\k41}Z
+Dialogue: 1,0:00:55.88,0:00:58.75,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k46}left, {\k46}right, {\k73}freeze
+Dialogue: 1,0:00:57.76,0:01:00.63,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k46}pop, {\k46}rock, {\k73}breeze
+Dialogue: 1,0:00:59.63,0:01:04.26,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}tap, {\k23}tap, {\k46}tap, {\k23}drop, {\k23}down, {\k46}back, {\k46}one, {\k46}two, {\k61}three
+Dialogue: 1,0:01:03.85,0:01:08.13,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k23}ain't {\k23}co{\k23}ming {\k46}home, {\k23}girl {\k23}you {\k23}did {\k23}me {\k73}wrong
+Dialogue: 1,0:01:07.60,0:01:09.84,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Please {\k23}don't {\k23}leave {\k11}me {\k11}a{\k23}lone
+Dialogue: 1,0:01:08.74,0:01:12.23,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}like {\k23}this {\k23}some {\k23}o{\k23}ther {\k46}love {\k61}song
+Dialogue: 1,0:01:11.35,0:01:15.63,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}boy, {\k23}I'm {\k23}in {\k23}my {\k46}zone, {\k23}stop {\k23}ca{\k23}lling {\k23}my {\k73}phone
+Dialogue: 1,0:01:15.10,0:01:18.32,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}what {\k23}you {\k23}say {\k23}is {\k23}o{\k23}ver{\k61}blown
+Dialogue: 1,0:01:17.21,0:01:21.34,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}you {\k23}treat {\k23}a{\k23}ffe{\k23}ction {\k23}like {\k11}a {\k23}sin{\k11}gle {\k105}game
+Dialogue: 1,0:01:20.26,0:01:23.22,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}hit {\k11}you {\k23}with {\k11}a {\k105}bang
+Dialogue: 1,0:01:22.13,0:01:26.59,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k46}we {\k46}won't {\k23}e{\k11}ver {\k23}be {\k11}the {\k46}same {\k23}sa{\k23}a{\k23}a{\k23}a{\k20}ame
+Dialogue: 1,0:01:25.42,0:01:28.40,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}keep {\k23}your {\k23}dra{\k11}ma {\k23}out {\k11}of {\k61}sight
+Dialogue: 1,0:01:27.29,0:01:30.39,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}e{\k23}ne{\k23}mies {\k11}a{\k23}bout {\k11}to {\k73}die
+Dialogue: 1,0:01:29.63,0:01:34.50,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k46}I {\k46}ain't {\k46}e{\k23}ven {\k46}try {\k23}M{\k23}m{\k23}m{\k23}m{\k61}m
+Dialogue: 1,0:01:33.38,0:01:38.22,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k46}try{\k23}~{\k23}~{\k93}~ {\k46}try{\k23}~{\k23}~{\k82}~
+Dialogue: 1,0:01:37.13,0:01:40.15,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}G{\k23}G {\k23}fuck{\k23}ing {\k46}E{\k41}Z
+Dialogue: 1,0:01:39.01,0:01:41.82,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}G{\k23}G {\k23}fuck{\k23}ing {\k46}E{\k20}Z
+Dialogue: 1,0:01:40.65,0:01:43.90,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}one {\k46}shot, {\k46}woo, {\k23}low {\k23}H{\k41}P
+Dialogue: 1,0:01:42.76,0:01:45.78,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}G{\k23}G {\k23}fuck{\k23}ing {\k46}E{\k41}Z
+Dialogue: 1,0:01:44.63,0:01:49.32,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k46}talk {\k46}shit, {\k46}hit {\k46}me, {\k46}to{\k46}xic, {\k46}kiss {\k20}me
+Dialogue: 1,0:01:48.15,0:01:51.14,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k23}hate {\k46}this, {\k23}I {\k23}need {\k38}this,
+Dialogue: 1,0:01:50.02,0:01:53.48,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}G-{\k23}G{\k23}G {\k23}fuck{\k23}ing {\k46}E{\k61}Z
+Dialogue: 1,0:01:52.60,0:01:56.53,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ty{\k23}pin {\k46}G{\k23}G, {\k23}my {\k23}life {\k23}so {\k23}bright {\k23}like {\k38}VV
+Dialogue: 1,0:01:55.42,0:01:58.59,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k23}be {\k23}le{\k23}lou{\k23}ch you {\k23}be {\k46}C.{\k23}C
+Dialogue: 1,0:01:57.49,0:02:00.54,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}no-{\k23}no {\k23}free {\k23}pass {\k11}got {\k11}'em {\k46}T{\k17}T
+Dialogue: 1,0:01:59.40,0:02:01.81,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}let's {\k46}go! {\k17}mo{\k11}ving {\k17}through {\k17}map
+Dialogue: 1,0:02:00.71,0:02:03.12,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}like {\k11}I {\k17}got {\k11}the {\k17}cheat {\k41}code
+Dialogue: 1,0:02:01.98,0:02:04.99,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ge{\k23}ass {\k23}one {\k23}look {\k11}I'm {\k11}in {\k23}con{\k41}trol
+Dialogue: 1,0:02:03.85,0:02:06.87,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}C {\k23}and {\k23}V, {\k23}I'm {\k11}ta{\k11}king {\k23}your {\k41}soul
+Dialogue: 1,0:02:05.73,0:02:08.30,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k11}gim{\k11}me {\k23}some {\k23}su{\k11}gar {\k11}and {\k11}gim{\k11}me {\k20}some more
+Dialogue: 1,0:02:07.13,0:02:11.82,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k46}talk {\k46}shit, {\k46}hit {\k46}me, {\k46}to{\k46}xic, {\k46}kiss {\k20}me
+Dialogue: 1,0:02:10.65,0:02:13.64,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k23}hate {\k46}this, {\k23}I {\k23}love {\k38}this,
+Dialogue: 1,0:02:12.52,0:02:15.80,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}G-{\k23}G{\k23}G {\k23}fuck{\k23}ing {\k46}E{\k43}Z
+Dialogue: 1,0:02:14.63,0:02:17.65,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}G{\k23}G {\k23}fuck{\k23}ing {\k46}E{\k41}Z
+Dialogue: 1,0:02:16.51,0:02:19.32,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}G{\k23}G {\k23}fuck{\k23}ing {\k46}E{\k20}Z
+Dialogue: 1,0:02:18.15,0:02:21.40,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}one {\k46}shot, {\k46}boom, {\k23}low {\k23}H{\k41}P
+Dialogue: 1,0:02:20.26,0:02:23.28,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}G{\k23}G {\k23}fuck{\k23}ing {\k46}E{\k41}Z
+Dialogue: 1,0:02:22.13,0:02:26.82,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k46}talk {\k46}shit, {\k46}hit {\k46}me, {\k46}to{\k46}xic, {\k46}kiss {\k20}me
+Dialogue: 1,0:02:25.65,0:02:28.64,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k23}hate {\k46}this, {\k23}I {\k23}love {\k38}this,
+Dialogue: 1,0:02:27.52,0:02:30.80,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}G-{\k23}G{\k23}G {\k23}fuck{\k23}ing {\k46}E{\k43}Z
