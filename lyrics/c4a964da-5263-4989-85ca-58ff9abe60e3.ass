@@ -1,0 +1,102 @@
+﻿[Script Info]
+Title: Never Fade Away
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+Original Timing: Defty
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,24,&H000088EF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:02.19,0:00:04.44,Default,,0,0,0,karaoke,{\k20}WE {\k41}LOST {\k20}EVE{\k20}RY{\k124}THING
+Comment: 1,0:00:05.52,0:00:07.60,Default,,0,0,0,karaoke,{\k20}WE {\k20}HAD {\k20}TO {\k20}PAY {\k20}THE {\k108}PRICE
+Comment: 1,0:00:08.85,0:00:10.98,Default,,0,0,0,karaoke,{\k20}YEAH, {\k20}WE {\k20}LOST {\k20}EVE{\k20}RY{\k113}THING
+Comment: 1,0:00:12.19,0:00:14.65,Default,,0,0,0,karaoke,{\k20}WE {\k20}HAD {\k20}TO {\k20}PAY {\k20}THE {\k146}PRICE
+Comment: 1,0:00:26.77,0:00:30.10,Default,,0,0,0,karaoke,{\k20}I {\k20}saw {\k20}in {\k41}you {\k20}what {\k41}life {\k41}was {\k41}mis{\k72}sing
+Comment: 1,0:00:30.10,0:00:33.38,Default,,0,0,0,karaoke,{\k20}your {\k20}lit{\k20}tle {\k41}flame {\k20}that {\k20}con{\k41}sumed {\k41}my {\k88}head
+Comment: 1,0:00:33.44,0:00:36.77,Default,,0,0,0,karaoke,{\k20}I'm {\k41}not {\k41}one {\k20}for {\k41}re{\k41}min{\k41}i{\k20}scing {\k52}but
+Comment: 1,0:00:36.77,0:00:39.89,Default,,0,0,0,karaoke,{\k20}I'd {\k20}trade {\k20}it {\k41}all {\k20}for {\k20}your {\k41}sweet {\k41}em{\k72}brace
+Comment: 1,0:00:39.90,0:00:41.51,Default,,0,0,0,karaoke,{\k151}YEAH
+Comment: 1,0:00:41.77,0:00:43.98,Default,,0,0,0,karaoke,{\k20}CAUSE {\k20}WE {\k20}LOST {\k20}EVE{\k20}RY{\k121}THING
+Comment: 1,0:00:48.44,0:00:50.81,Default,,0,0,0,karaoke,{\k20}WE {\k20}HAD {\k20}TO {\k20}PAY {\k20}THE {\k137}PRICE
+Comment: 1,0:00:53.65,0:00:56.77,Default,,0,0,0,karaoke,{\k20}there's {\k20}a {\k41}can{\k20}vas {\k41}with {\k41}two {\k41}fac{\k72}es
+Comment: 1,0:00:56.77,0:01:00.05,Default,,0,0,0,karaoke,{\k20}of {\k20}fa{\k20}llen {\k41}an{\k20}gels {\k20}who {\k41}loved {\k41}and {\k88}lost
+Comment: 1,0:01:00.10,0:01:03.38,Default,,0,0,0,karaoke,{\k20}it {\k20}was {\k20}a {\k41}pa{\k20}ssion {\k41}for {\k41}the {\k41}a{\k67}ges
+Comment: 1,0:01:03.44,0:01:07.08,Default,,0,0,0,karaoke,{\k20}and {\k20}in {\k20}the {\k41}end {\k20}guess {\k20}we {\k41}paid {\k41}the {\k125}cost
+Comment: 1,0:01:07.19,0:01:10.99,Default,,0,0,0,karaoke,{\k20}a {\k20}thing {\k41}of {\k41}beau{\k104}ty, {\k31}I {\k109}know
+Comment: 1,0:01:11.77,0:01:13.64,Default,,0,0,0,karaoke,{\k20}will {\k20}ne{\k20}ver {\k41}fade {\k20}a{\k52}way
+Comment: 1,0:01:13.65,0:01:17.65,Default,,0,0,0,karaoke,{\k41}what {\k20}you {\k41}did {\k41}to {\k104}me, {\k31}I {\k109}know
+Comment: 1,0:01:18.44,0:01:20.31,Default,,0,0,0,karaoke,{\k20}said {\k20}what {\k20}you {\k41}had {\k20}to {\k52}say
+Comment: 1,0:01:20.31,0:01:22.85,Default,,0,0,0,karaoke,{\k20}but {\k20}a {\k20}thing {\k41}of {\k41}beau{\k112}ty
+Comment: 1,0:01:25.10,0:01:27.10,Default,,0,0,0,karaoke,{\k20}WILL {\k20}NE{\k20}VER {\k20}FADE {\k20}A{\k100}WAY
+Comment: 1,0:01:28.44,0:01:30.77,Default,,0,0,0,karaoke,{\k20}WILL {\k20}NE{\k20}VER {\k41}FADE {\k20}A{\k112}WAY
+Comment: 1,0:01:31.77,0:01:33.98,Default,,0,0,0,karaoke,{\k20}WILL {\k20}NE{\k20}VER {\k20}FADE {\k20}A{\k121}WAY
+Comment: 1,0:01:36.77,0:01:40.05,Default,,0,0,0,karaoke,{\k20}I {\k20}see {\k20}your {\k41}eyes, {\k20}I {\k41}know {\k41}you {\k41}see {\k67}me
+Comment: 1,0:01:40.10,0:01:43.54,Default,,0,0,0,karaoke,{\k20}you're {\k20}like {\k20}a {\k41}ghost {\k20}how {\k20}you're {\k41}eve{\k41}ry{\k104}where
+Comment: 1,0:01:43.65,0:01:46.72,Default,,0,0,0,karaoke,{\k20}I'm {\k20}a {\k41}de{\k20}mon {\k41}ne{\k41}ver {\k41}lea{\k67}ving
+Comment: 1,0:01:46.77,0:01:49.89,Default,,0,0,0,karaoke,{\k20}a {\k20}me{\k20}tal {\k41}soul {\k41}of {\k41}rage {\k41}and {\k72}fear
+Comment: 1,0:01:49.90,0:01:55.81,Default,,0,0,0,karaoke,{\k166}THAT {\k166}ONE {\k41}THING {\k41}THAT {\k41}CHANGED {\k20}IT {\k116}ALL
+Comment: 1,0:01:56.62,0:02:02.98,Default,,0,0,0,karaoke,{\k161}THAT {\k166}ONE {\k41}SIN {\k41}THAT {\k41}CAUSED {\k20}THE {\k166}FALL
+Comment: 1,0:02:03.85,0:02:07.65,Default,,0,0,0,karaoke,{\k20}a {\k20}thing {\k41}of {\k41}beau{\k104}ty, {\k31}I {\k109}know
+Comment: 1,0:02:08.44,0:02:10.31,Default,,0,0,0,karaoke,{\k20}will {\k20}ne{\k20}ver {\k41}fade {\k20}a{\k52}way
+Comment: 1,0:02:10.31,0:02:14.32,Default,,0,0,0,karaoke,{\k41}what {\k20}you {\k41}did {\k41}to {\k104}me, {\k31}I {\k109}know
+Comment: 1,0:02:15.10,0:02:16.98,Default,,0,0,0,karaoke,{\k20}said {\k20}what {\k20}you {\k41}had {\k20}to {\k52}say
+Comment: 1,0:02:16.98,0:02:20.99,Default,,0,0,0,karaoke,{\k20}but {\k20}a {\k20}thing {\k41}of {\k41}beau{\k104}ty, {\k31}I {\k109}know
+Comment: 1,0:02:21.77,0:02:23.64,Default,,0,0,0,karaoke,{\k20}will {\k20}ne{\k20}ver {\k41}fade {\k20}a{\k52}way
+Comment: 1,0:02:23.65,0:02:27.65,Default,,0,0,0,karaoke,{\k20}and {\k20}I'll {\k20}do {\k41}my {\k41}du{\k104}ty, {\k31}I {\k109}know
+Comment: 1,0:02:28.44,0:02:30.31,Default,,0,0,0,karaoke,{\k20}some{\k20}how {\k20}I'll {\k41}find {\k20}a {\k52}way
+Comment: 1,0:02:30.31,0:02:33.43,Default,,0,0,0,karaoke,{\k20}but {\k20}a {\k20}thing {\k41}of {\k41}beau{\k156}ty,
+Comment: 1,0:02:35.10,0:02:36.98,Default,,0,0,0,karaoke,{\k20}will {\k20}ne{\k20}ver {\k41}fade {\k20}a{\k52}way
+Comment: 1,0:02:36.98,0:02:39.63,Default,,0,0,0,karaoke,{\k20}and {\k20}I'll {\k20}do {\k41}my {\k41}du{\k109}ty,
+Comment: 1,0:02:39.90,0:02:43.73,Default,,0,0,0,karaoke,{\k187}YEAH, {\k20}WE'LL {\k20}NE{\k20}VER {\k20}FADE {\k20}A{\k96}WAY
+Comment: 1,0:02:45.10,0:02:47.56,Default,,0,0,0,karaoke,{\k20}WE'LL {\k20}NE{\k20}VER {\k41}FADE {\k20}A{\k125}WAY
+Comment: 1,0:02:48.44,0:02:50.48,Default,,0,0,0,karaoke,{\k20}WE'LL {\k20}NE{\k20}VER {\k20}FADE {\k20}A{\k104}WAY
+Comment: 1,0:02:51.77,0:02:53.81,Default,,0,0,0,karaoke,{\k20}WE'LL {\k20}NE{\k20}VER {\k41}FADE {\k20}A{\k83}WAY
+Dialogue: 1,0:00:01.29,0:00:04.64,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}WE {\k41}LOST {\k20}EVE{\k20}RY{\k124}THING
+Dialogue: 1,0:00:04.62,0:00:07.80,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}WE {\k20}HAD {\k20}TO {\k20}PAY {\k20}THE {\k108}PRICE
+Dialogue: 1,0:00:07.95,0:00:11.18,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}YEAH, {\k20}WE {\k20}LOST {\k20}EVE{\k20}RY{\k113}THING
+Dialogue: 1,0:00:11.29,0:00:14.85,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}WE {\k20}HAD {\k20}TO {\k20}PAY {\k20}THE {\k146}PRICE
+Dialogue: 1,0:00:25.87,0:00:30.30,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}I {\k20}saw {\k20}in {\k41}you {\k20}what {\k41}life {\k41}was {\k41}mis{\k72}sing
+Dialogue: 1,0:00:29.20,0:00:33.58,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}your {\k20}lit{\k20}tle {\k41}flame {\k20}that {\k20}con{\k41}sumed {\k41}my {\k88}head
+Dialogue: 1,0:00:32.54,0:00:36.97,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}I'm {\k41}not {\k41}one {\k20}for {\k41}re{\k41}min{\k41}i{\k20}scing {\k52}but
+Dialogue: 1,0:00:35.87,0:00:40.09,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}I'd {\k20}trade {\k20}it {\k41}all {\k20}for {\k20}your {\k41}sweet {\k41}em{\k72}brace
+Dialogue: 1,0:00:39.00,0:00:41.71,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k151}YEAH
+Dialogue: 1,0:00:40.87,0:00:44.18,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}CAUSE {\k20}WE {\k20}LOST {\k20}EVE{\k20}RY{\k121}THING
+Dialogue: 1,0:00:47.54,0:00:51.01,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}WE {\k20}HAD {\k20}TO {\k20}PAY {\k20}THE {\k137}PRICE
+Dialogue: 1,0:00:52.75,0:00:56.97,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}there's {\k20}a {\k41}can{\k20}vas {\k41}with {\k41}two {\k41}fac{\k72}es
+Dialogue: 1,0:00:55.87,0:01:00.25,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}of {\k20}fa{\k20}llen {\k41}an{\k20}gels {\k20}who {\k41}loved {\k41}and {\k88}lost
+Dialogue: 1,0:00:59.20,0:01:03.58,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}it {\k20}was {\k20}a {\k41}pa{\k20}ssion {\k41}for {\k41}the {\k41}a{\k67}ges
+Dialogue: 1,0:01:02.54,0:01:07.28,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}and {\k20}in {\k20}the {\k41}end {\k20}guess {\k20}we {\k41}paid {\k41}the {\k125}cost
+Dialogue: 1,0:01:06.29,0:01:11.19,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}a {\k20}thing {\k41}of {\k41}beau{\k104}ty, {\k31}I {\k109}know
+Dialogue: 1,0:01:10.87,0:01:13.84,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}will {\k20}ne{\k20}ver {\k41}fade {\k20}a{\k52}way
+Dialogue: 1,0:01:12.75,0:01:17.85,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k41}what {\k20}you {\k41}did {\k41}to {\k104}me, {\k31}I {\k109}know
+Dialogue: 1,0:01:17.54,0:01:20.51,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}said {\k20}what {\k20}you {\k41}had {\k20}to {\k52}say
+Dialogue: 1,0:01:19.41,0:01:23.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}but {\k20}a {\k20}thing {\k41}of {\k41}beau{\k112}ty
+Dialogue: 1,0:01:24.20,0:01:27.30,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}WILL {\k20}NE{\k20}VER {\k20}FADE {\k20}A{\k100}WAY
+Dialogue: 1,0:01:27.54,0:01:30.97,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}WILL {\k20}NE{\k20}VER {\k41}FADE {\k20}A{\k112}WAY
+Dialogue: 1,0:01:30.87,0:01:34.18,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}WILL {\k20}NE{\k20}VER {\k20}FADE {\k20}A{\k121}WAY
+Dialogue: 1,0:01:35.87,0:01:40.25,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}I {\k20}see {\k20}your {\k41}eyes, {\k20}I {\k41}know {\k41}you {\k41}see {\k67}me
+Dialogue: 1,0:01:39.20,0:01:43.74,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}you're {\k20}like {\k20}a {\k41}ghost {\k20}how {\k20}you're {\k41}eve{\k41}ry{\k104}where
+Dialogue: 1,0:01:42.75,0:01:46.92,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}I'm {\k20}a {\k41}de{\k20}mon {\k41}ne{\k41}ver {\k41}lea{\k67}ving
+Dialogue: 1,0:01:45.87,0:01:50.09,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}a {\k20}me{\k20}tal {\k41}soul {\k41}of {\k41}rage {\k41}and {\k72}fear
+Dialogue: 1,0:01:49.00,0:01:56.01,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k166}THAT {\k166}ONE {\k41}THING {\k41}THAT {\k41}CHANGED {\k20}IT {\k116}ALL
+Dialogue: 1,0:01:55.72,0:02:03.18,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k161}THAT {\k166}ONE {\k41}SIN {\k41}THAT {\k41}CAUSED {\k20}THE {\k166}FALL
+Dialogue: 1,0:02:02.95,0:02:07.85,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}a {\k20}thing {\k41}of {\k41}beau{\k104}ty, {\k31}I {\k109}know
+Dialogue: 1,0:02:07.54,0:02:10.51,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}will {\k20}ne{\k20}ver {\k41}fade {\k20}a{\k52}way
+Dialogue: 1,0:02:09.41,0:02:14.52,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k41}what {\k20}you {\k41}did {\k41}to {\k104}me, {\k31}I {\k109}know
+Dialogue: 1,0:02:14.20,0:02:17.18,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}said {\k20}what {\k20}you {\k41}had {\k20}to {\k52}say
+Dialogue: 1,0:02:16.08,0:02:21.19,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}but {\k20}a {\k20}thing {\k41}of {\k41}beau{\k104}ty, {\k31}I {\k109}know
+Dialogue: 1,0:02:20.87,0:02:23.84,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}will {\k20}ne{\k20}ver {\k41}fade {\k20}a{\k52}way
+Dialogue: 1,0:02:22.75,0:02:27.85,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}and {\k20}I'll {\k20}do {\k41}my {\k41}du{\k104}ty, {\k31}I {\k109}know
+Dialogue: 1,0:02:27.54,0:02:30.51,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}some{\k20}how {\k20}I'll {\k41}find {\k20}a {\k52}way
+Dialogue: 1,0:02:29.41,0:02:33.63,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}but {\k20}a {\k20}thing {\k41}of {\k41}beau{\k156}ty,
+Dialogue: 1,0:02:34.20,0:02:37.18,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}will {\k20}ne{\k20}ver {\k41}fade {\k20}a{\k52}way
+Dialogue: 1,0:02:36.08,0:02:39.83,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}and {\k20}I'll {\k20}do {\k41}my {\k41}du{\k109}ty,
+Dialogue: 1,0:02:39.00,0:02:43.93,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k187}YEAH, {\k20}WE'LL {\k20}NE{\k20}VER {\k20}FADE {\k20}A{\k96}WAY
+Dialogue: 1,0:02:44.20,0:02:47.76,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}WE'LL {\k20}NE{\k20}VER {\k41}FADE {\k20}A{\k125}WAY
+Dialogue: 1,0:02:47.54,0:02:50.68,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}WE'LL {\k20}NE{\k20}VER {\k20}FADE {\k20}A{\k104}WAY
+Dialogue: 1,0:02:50.87,0:02:54.01,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}WE'LL {\k20}NE{\k20}VER {\k41}FADE {\k20}A{\k83}WAY
