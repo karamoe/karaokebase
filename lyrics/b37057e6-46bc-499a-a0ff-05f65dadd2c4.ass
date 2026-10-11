@@ -1,0 +1,30 @@
+﻿[Script Info]
+Title: Padoru Padoru
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+Original Timing: Defty
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,24,&H000088EF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:01.09,0:00:03.55,Default,,0,0,0,karaoke,{\k31}ha{\k31}shi{\k31}re {\k31}so{\k31}ri {\k78}yo
+Comment: 1,0:00:03.61,0:00:06.08,Default,,0,0,0,karaoke,{\k31}ka{\k31}ze {\k31}no {\k31}yo{\k31}u {\k78}ni
+Comment: 1,0:00:06.14,0:00:08.61,Default,,0,0,0,karaoke,{\k31}tsu{\k31}ki{\k31}mi{\k31}ha{\k31}ra {\k78}wo
+Comment: 1,0:00:08.66,0:00:13.19,Default,,0,0,0,karaoke,{\k31}PA{\k31}DO{\k31}RU {\k31}PA{\k31}DO{\k284}RU
+Comment: 1,0:00:21.30,0:00:23.76,Default,,0,0,0,karaoke,{\k31}ha{\k31}shi{\k31}re {\k31}so{\k31}ri {\k78}yo
+Comment: 1,0:00:23.82,0:00:26.29,Default,,0,0,0,karaoke,{\k31}ka{\k31}ze {\k31}no {\k31}yo{\k31}u {\k78}ni
+Comment: 1,0:00:26.35,0:00:28.82,Default,,0,0,0,karaoke,{\k31}tsu{\k31}ki{\k31}mi{\k31}ha{\k31}ra {\k78}wo
+Comment: 1,0:00:28.87,0:00:31.42,Default,,0,0,0,karaoke,{\k31}PA{\k31}DO{\k31}RU {\k31}PA{\k31}DO{\k86}RU
+Dialogue: 1,0:00:00.19,0:00:03.75,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ha{\k31}shi{\k31}re {\k31}so{\k31}ri {\k78}yo
+Dialogue: 1,0:00:02.71,0:00:06.28,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ka{\k31}ze {\k31}no {\k31}yo{\k31}u {\k78}ni
+Dialogue: 1,0:00:05.24,0:00:08.81,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}tsu{\k31}ki{\k31}mi{\k31}ha{\k31}ra {\k78}wo
+Dialogue: 1,0:00:07.76,0:00:13.39,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}PA{\k31}DO{\k31}RU {\k31}PA{\k31}DO{\k284}RU
+Dialogue: 1,0:00:20.40,0:00:23.96,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ha{\k31}shi{\k31}re {\k31}so{\k31}ri {\k78}yo
+Dialogue: 1,0:00:22.92,0:00:26.49,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ka{\k31}ze {\k31}no {\k31}yo{\k31}u {\k78}ni
+Dialogue: 1,0:00:25.45,0:00:29.02,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}tsu{\k31}ki{\k31}mi{\k31}ha{\k31}ra {\k78}wo
+Dialogue: 1,0:00:27.97,0:00:31.62,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}PA{\k31}DO{\k31}RU {\k31}PA{\k31}DO{\k86}RU
