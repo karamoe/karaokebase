@@ -1,37 +1,60 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Kagayake! Hachinin Rider
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
-Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,3,0,8,10,10,10,1
+Style: Default,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
-Dialogue: 1,0:0:2.25,0:0:4.88,Default,,0000,0000,0000,,{\k100}{\kf79}One {\kf25}{\kf58}Two
-Dialogue: 1,0:0:4.17,0:0:6.67,Default,,0000,0000,0000,,{\k100}{\kf63}Three {\kf25}{\kf63}Four
-Dialogue: 1,0:0:5.88,0:0:8.22,Default,,0000,0000,0000,,{\k100}{\kf58}Five {\kf25}{\kf50}Six
-Dialogue: 1,0:0:7.55,0:0:9.92,Default,,0000,0000,0000,,{\k100}{\kf17}Se{\kf50}ven {\kf25}{\kf46}Eight
-Dialogue: 1,0:0:9.38,0:0:11.01,Default,,0000,0000,0000,,{\k100}{\kf21}Ri{\kf42}der
-Dialogue: 1,0:0:10.26,0:0:13.59,Default,,0000,0000,0000,,{\k100}{\kf25}The {\kf25}stron{\kf38}gest {\kf21}{\kf21}in {\kf25}the {\kf79}World
-Dialogue: 1,0:0:12.93,0:0:14.47,Default,,0000,0000,0000,,{\k100}{\kf21}Ri{\kf33}der
-Dialogue: 1,0:0:13.76,0:0:17.01,Default,,0000,0000,0000,,{\k100}{\kf25}The {\kf21}migh{\kf46}tiest {\kf13}in {\kf21}{\kf17}the {\kf21}U{\kf13}ni{\kf50}verse
-Dialogue: 1,0:0:16.43,0:0:18.02,Default,,0000,0000,0000,,{\k100}{\kf25}Ri{\kf33}der
-Dialogue: 1,0:0:17.22,0:0:20.77,Default,,0000,0000,0000,,{\k100}{\kf21}The {\kf21}bra{\kf50}vest {\kf25}of {\kf42}all {\kf21}the {\kf21}Figh{\kf54}ters
-Dialogue: 1,0:0:20.02,0:0:22.39,Default,,0000,0000,0000,,{\k100}{\kf21}Ri{\kf117}der
-Dialogue: 1,0:0:21.64,0:0:23.98,Default,,0000,0000,0000,,{\k100}{\kf42}Go! {\kf25}Go! {\kf21}{\kf25}Ri{\kf21}der!
-Dialogue: 1,0:0:23.35,0:0:27.56,Default,,0000,0000,0000,,{\k100}{\kf21}One {\kf21}{\kf21}Two {\kf29}{\kf21}Ri{\kf21}der {\kf33}{\kf13}da-{\kf17}da-{\kf21}da-{\kf17}da {\kf33}{\kf17}Jum{\kf38}p!
-Dialogue: 1,0:0:26.90,0:0:31.03,Default,,0000,0000,0000,,{\k100}{\kf42}Three {\kf21}Four {\kf21}{\kf25}Ri{\kf21}der {\kf33}{\kf17}da-{\kf17}da-{\kf25}da-{\kf46}da {\kf17}Ki{\kf29}ck!
-Dialogue: 1,0:0:30.40,0:0:34.57,Default,,0000,0000,0000,,{\k100}{\kf42}Five {\kf21}Six {\kf21}{\kf21}Ri{\kf29}der {\kf25}{\kf17}da-{\kf17}da-{\kf29}da-{\kf17}da {\kf25}{\kf13}Pun{\kf42}ch!
-Dialogue: 1,0:0:33.86,0:0:38.12,Default,,0000,0000,0000,,{\k100}{\kf38}Se{\kf17}ven {\kf33}{\kf83}Eight {\kf21}Ri{\kf133}der
-Dialogue: 1,0:0:37.32,0:0:41.28,Default,,0000,0000,0000,,{\k100}{\kf21}mu{\kf25}gen {\kf25}{\kf29}no {\kf42}chi{\kf42}ka{\kf113}ra
-Dialogue: 1,0:0:40.91,0:0:48.25,Default,,0000,0000,0000,,{\k100}{\kf58}a{\kf29}i {\kf46}to {\kf21}ma{\kf29}ko{\kf67}to {\kf63}no {\kf25}{\kf21}chi{\kf21}ka{\kf25}ra {\kf33}to {\kf42}wa{\kf21}za {\kf21}{\kf113}ni
-Dialogue: 1,0:0:47.83,0:0:55.30,Default,,0000,0000,0000,,{\k100}{\kf42}i{\kf21}{\kf25}no{\kf38}chi {\kf38}{\kf21}wo {\kf38}no{\kf25}se{\kf75}te {\kf21}{\kf42}bu{\kf25}chi{\kf21}{\kf46}a{\kf38}ta{\kf133}ru
-Dialogue: 1,0:0:54.80,0:0:57.21,Default,,0000,0000,0000,,{\k100}{\kf17}One {\kf21}{\kf21}Two {\kf21}{\kf21}Three {\kf21}{\kf21}Four
-Dialogue: 1,0:0:56.46,0:0:59.09,Default,,0000,0000,0000,,{\k100}{\kf21}Five {\kf21}{\kf21}Six {\kf25}{\kf17}Se{\kf29}ven {\kf29}Eight
-Dialogue: 1,0:0:58.30,0:1:1.05,Default,,0000,0000,0000,,{\k100}{\kf17}Five {\kf25}{\kf21}Six {\kf21}{\kf25}Se{\kf25}ven {\kf42}Eight
-Dialogue: 1,0:1:0.05,0:1:7.43,Default,,0000,0000,0000,,{\k100}{\kf25}ka{\kf21}ga{\kf29}ya{\kf29}ke {\kf21}Ri{\kf33}der {\kf21}{\kf21}Ri{\kf438}der
+Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:03.25,0:00:04.88,Default,,0,0,0,karaoke,{\k79}One {\k25}{\k58}Two
+Comment: 1,0:00:05.17,0:00:06.67,Default,,0,0,0,karaoke,{\k63}Three {\k25}{\k63}Four
+Comment: 1,0:00:06.88,0:00:08.22,Default,,0,0,0,karaoke,{\k58}Five {\k25}{\k50}Six
+Comment: 1,0:00:08.55,0:00:09.92,Default,,0,0,0,karaoke,{\k17}Se{\k50}ven {\k25}{\k46}Eight
+Comment: 1,0:00:10.38,0:00:11.01,Default,,0,0,0,karaoke,{\k21}Ri{\k42}der
+Comment: 1,0:00:11.26,0:00:13.59,Default,,0,0,0,karaoke,{\k25}The {\k25}stron{\k38}gest {\k21}{\k21}in {\k25}the {\k79}World
+Comment: 1,0:00:13.93,0:00:14.47,Default,,0,0,0,karaoke,{\k21}Ri{\k33}der
+Comment: 1,0:00:14.76,0:00:17.01,Default,,0,0,0,karaoke,{\k25}The {\k21}migh{\k46}tiest {\k13}in {\k21}{\k17}the {\k21}U{\k13}ni{\k50}verse
+Comment: 1,0:00:17.43,0:00:18.02,Default,,0,0,0,karaoke,{\k25}Ri{\k33}der
+Comment: 1,0:00:18.22,0:00:20.77,Default,,0,0,0,karaoke,{\k21}The {\k21}bra{\k50}vest {\k25}of {\k42}all {\k21}the {\k21}Figh{\k54}ters
+Comment: 1,0:00:21.02,0:00:22.39,Default,,0,0,0,karaoke,{\k21}Ri{\k117}der
+Comment: 1,0:00:22.64,0:00:23.98,Default,,0,0,0,karaoke,{\k42}Go! {\k25}Go! {\k21}{\k25}Ri{\k21}der!
+Comment: 1,0:00:24.35,0:00:27.56,Default,,0,0,0,karaoke,{\k21}One {\k21}{\k21}Two {\k29}{\k21}Ri{\k21}der {\k33}{\k13}da-{\k17}da-{\k21}da-{\k17}da {\k33}{\k17}Jum{\k38}p!
+Comment: 1,0:00:27.90,0:00:31.03,Default,,0,0,0,karaoke,{\k42}Three {\k21}Four {\k21}{\k25}Ri{\k21}der {\k33}{\k17}da-{\k17}da-{\k25}da-{\k46}da {\k17}Ki{\k29}ck!
+Comment: 1,0:00:31.40,0:00:34.57,Default,,0,0,0,karaoke,{\k42}Five {\k21}Six {\k21}{\k21}Ri{\k29}der {\k25}{\k17}da-{\k17}da-{\k29}da-{\k17}da {\k25}{\k13}Pun{\k42}ch!
+Comment: 1,0:00:34.86,0:00:38.12,Default,,0,0,0,karaoke,{\k38}Se{\k17}ven {\k33}{\k83}Eight {\k21}Ri{\k133}der
+Comment: 1,0:00:38.32,0:00:41.28,Default,,0,0,0,karaoke,{\k21}mu{\k25}gen {\k25}{\k29}no {\k42}chi{\k42}ka{\k113}ra
+Comment: 1,0:00:41.91,0:00:48.25,Default,,0,0,0,karaoke,{\k58}a{\k29}i {\k46}to {\k21}ma{\k29}ko{\k67}to {\k63}no {\k25}{\k21}chi{\k21}ka{\k25}ra {\k33}to {\k42}wa{\k21}za {\k21}{\k113}ni
+Comment: 1,0:00:48.83,0:00:55.30,Default,,0,0,0,karaoke,{\k42}i{\k21}{\k25}no{\k38}chi {\k38}{\k21}wo {\k38}no{\k25}se{\k75}te {\k21}{\k42}bu{\k25}chi{\k21}{\k46}a{\k38}ta{\k133}ru
+Comment: 1,0:00:55.80,0:00:57.21,Default,,0,0,0,karaoke,{\k17}One {\k21}{\k21}Two {\k21}{\k21}Three {\k21}{\k21}Four
+Comment: 1,0:00:57.46,0:00:59.09,Default,,0,0,0,karaoke,{\k21}Five {\k21}{\k21}Six {\k25}{\k17}Se{\k29}ven {\k29}Eight
+Comment: 1,0:00:59.30,0:01:01.05,Default,,0,0,0,karaoke,{\k17}Five {\k25}{\k21}Six {\k21}{\k25}Se{\k25}ven {\k42}Eight
+Comment: 1,0:01:01.05,0:01:07.43,Default,,0,0,0,karaoke,{\k25}ka{\k21}ga{\k29}ya{\k29}ke {\k21}Ri{\k33}der {\k21}{\k21}Ri{\k438}der
+Dialogue: 1,0:00:02.35,0:00:05.08,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k79}One {\k25}{\k58}Two
+Dialogue: 1,0:00:04.27,0:00:06.87,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k63}Three {\k25}{\k63}Four
+Dialogue: 1,0:00:05.98,0:00:08.42,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k58}Five {\k25}{\k50}Six
+Dialogue: 1,0:00:07.65,0:00:10.12,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Se{\k50}ven {\k25}{\k46}Eight
+Dialogue: 1,0:00:09.48,0:00:11.21,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Ri{\k42}der
+Dialogue: 1,0:00:10.36,0:00:13.79,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}The {\k25}stron{\k38}gest {\k21}{\k21}in {\k25}the {\k79}World
+Dialogue: 1,0:00:13.03,0:00:14.67,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Ri{\k33}der
+Dialogue: 1,0:00:13.86,0:00:17.21,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}The {\k21}migh{\k46}tiest {\k13}in {\k21}{\k17}the {\k21}U{\k13}ni{\k50}verse
+Dialogue: 1,0:00:16.53,0:00:18.22,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Ri{\k33}der
+Dialogue: 1,0:00:17.32,0:00:20.97,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}The {\k21}bra{\k50}vest {\k25}of {\k42}all {\k21}the {\k21}Figh{\k54}ters
+Dialogue: 1,0:00:20.12,0:00:22.59,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Ri{\k117}der
+Dialogue: 1,0:00:21.74,0:00:24.18,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k42}Go! {\k25}Go! {\k21}{\k25}Ri{\k21}der!
+Dialogue: 1,0:00:23.45,0:00:27.76,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}One {\k21}{\k21}Two {\k29}{\k21}Ri{\k21}der {\k33}{\k13}da-{\k17}da-{\k21}da-{\k17}da {\k33}{\k17}Jum{\k38}p!
+Dialogue: 1,0:00:27.00,0:00:31.23,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k42}Three {\k21}Four {\k21}{\k25}Ri{\k21}der {\k33}{\k17}da-{\k17}da-{\k25}da-{\k46}da {\k17}Ki{\k29}ck!
+Dialogue: 1,0:00:30.50,0:00:34.77,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k42}Five {\k21}Six {\k21}{\k21}Ri{\k29}der {\k25}{\k17}da-{\k17}da-{\k29}da-{\k17}da {\k25}{\k13}Pun{\k42}ch!
+Dialogue: 1,0:00:33.96,0:00:38.32,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Se{\k17}ven {\k33}{\k83}Eight {\k21}Ri{\k133}der
+Dialogue: 1,0:00:37.42,0:00:41.48,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}mu{\k25}gen {\k25}{\k29}no {\k42}chi{\k42}ka{\k113}ra
+Dialogue: 1,0:00:41.01,0:00:48.45,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k58}a{\k29}i {\k46}to {\k21}ma{\k29}ko{\k67}to {\k63}no {\k25}{\k21}chi{\k21}ka{\k25}ra {\k33}to {\k42}wa{\k21}za {\k21}{\k113}ni
+Dialogue: 1,0:00:47.93,0:00:55.50,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k42}i{\k21}{\k25}no{\k38}chi {\k38}{\k21}wo {\k38}no{\k25}se{\k75}te {\k21}{\k42}bu{\k25}chi{\k21}{\k46}a{\k38}ta{\k133}ru
+Dialogue: 1,0:00:54.90,0:00:57.41,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}One {\k21}{\k21}Two {\k21}{\k21}Three {\k21}{\k21}Four
+Dialogue: 1,0:00:56.56,0:00:59.29,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Five {\k21}{\k21}Six {\k25}{\k17}Se{\k29}ven {\k29}Eight
+Dialogue: 1,0:00:58.40,0:01:01.25,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Five {\k25}{\k21}Six {\k21}{\k25}Se{\k25}ven {\k42}Eight
+Dialogue: 1,0:01:00.15,0:01:07.63,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ka{\k21}ga{\k29}ya{\k29}ke {\k21}Ri{\k33}der {\k21}{\k21}Ri{\k438}der
