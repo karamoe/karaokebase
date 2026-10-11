@@ -1,0 +1,148 @@
+﻿[Script Info]
+Title: ABC
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+Original Timing: Defty
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,24,&H000088EF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:16.51,0:00:19.12,Default,,0,0,0,karaoke,{\k21}some{\k21}one {\k21}call {\k21}a {\k42}pa{\k42}ra{\k42}me{\k37}dic
+Comment: 1,0:00:19.08,0:00:22.15,Default,,0,0,0,karaoke,{\k42}I {\k42}can't {\k42}speak, {\k42}it's {\k42}all {\k42}pho{\k21}ne{\k18}tic
+Comment: 1,0:00:22.08,0:00:23.78,Default,,0,0,0,karaoke,{\k21}made {\k21}me {\k64}for{\k53}get
+Comment: 1,0:00:23.79,0:00:26.01,Default,,0,0,0,karaoke,{\k10}e{\k10}ve{\k21}ry {\k32}word {\k21}'cause, {\k32}like, {\k10}that's {\k10}a {\k10}lot {\k10}of {\k21}le{\k18}tters
+Comment: 1,0:00:25.93,0:00:29.27,Default,,0,0,0,karaoke,{\k10}A{\k10}B{\k10}C{\k10}D{\k10}E{\k10}F{\k10}G{\k10}H{\k10}I{\k10}J{\k10}K{\k10}L{\k10}M{\k10}N{\k10}O{\k10}P{\k10}Q{\k10}R{\k10}S{\k10}T{\k10}U{\k10}V{\k10}W{\k10}X{\k66}YZ
+Comment: 1,0:00:29.36,0:00:31.55,Default,,0,0,0,karaoke,{\k21}9{\k21}1{\k32}1, {\k10}he{\k32}llo? {\k10}it's {\k32}me, {\k10}So{\k37}phia
+Comment: 1,0:00:31.51,0:00:33.27,Default,,0,0,0,karaoke,{\k42}yes, {\k10}this {\k10}is {\k10}an {\k10}e{\k21}mer{\k21}gen{\k37}cy
+Comment: 1,0:00:33.22,0:00:34.98,Default,,0,0,0,karaoke,{\k32}yes, {\k10}the {\k10}way {\k10}they {\k10}put {\k10}it {\k21}down {\k21}on {\k37}me
+Comment: 1,0:00:34.93,0:00:36.27,Default,,0,0,0,karaoke,{\k10}got {\k10}the {\k21}whole {\k21}room {\k21}tip{\k37}sy
+Comment: 1,0:00:36.22,0:00:37.98,Default,,0,0,0,karaoke,{\k21}hy{\k10}per{\k21}ven{\k10}ti{\k21}la{\k42}ting {\k37}when
+Comment: 1,0:00:37.93,0:00:39.27,Default,,0,0,0,karaoke,{\k21}we {\k10}be {\k21}pro{\k10}cre{\k21}a{\k37}ting
+Comment: 1,0:00:39.22,0:00:40.98,Default,,0,0,0,karaoke,{\k21}where'd {\k21}you {\k21}learn {\k10}to {\k21}do {\k32}that {\k37}thing?
+Comment: 1,0:00:40.93,0:00:42.77,Default,,0,0,0,karaoke,{\k21}how {\k21}you {\k21}hold {\k10}the {\k21}bat {\k10}when {\k21}you {\k45}swing
+Comment: 1,0:00:43.08,0:00:44.41,Default,,0,0,0,karaoke,{\k10}I {\k10}don't {\k21}think {\k21}I {\k21}can {\k37}breathe
+Comment: 1,0:00:44.36,0:00:45.69,Default,,0,0,0,karaoke,{\k10}I {\k10}don't {\k21}think {\k21}I {\k21}can {\k37}read
+Comment: 1,0:00:45.65,0:00:46.98,Default,,0,0,0,karaoke,{\k10}I {\k10}don't {\k21}think {\k21}I {\k21}can {\k37}think
+Comment: 1,0:00:46.93,0:00:48.56,Default,,0,0,0,karaoke,{\k10}I {\k10}don't {\k21}think {\k21}I {\k21}can {\k66}see
+Comment: 1,0:00:49.51,0:00:50.17,Default,,0,0,0,karaoke,{\k56}fuck
+Comment: 1,0:00:50.79,0:00:53.41,Default,,0,0,0,karaoke,{\k21}some{\k21}one {\k21}call {\k21}a {\k42}pa{\k42}ra{\k42}me{\k37}dic
+Comment: 1,0:00:53.36,0:00:56.44,Default,,0,0,0,karaoke,{\k42}I {\k42}can't {\k42}speak, {\k42}it's {\k42}all {\k42}pho{\k21}ne{\k18}tic
+Comment: 1,0:00:56.36,0:00:58.07,Default,,0,0,0,karaoke,{\k21}made {\k21}me {\k64}for{\k53}get
+Comment: 1,0:00:58.08,0:01:00.29,Default,,0,0,0,karaoke,{\k10}e{\k10}ve{\k21}ry {\k32}word {\k21}'cause, {\k32}like, {\k10}that's {\k10}a {\k10}lot {\k10}of {\k21}le{\k18}tters
+Comment: 1,0:01:00.22,0:01:03.56,Default,,0,0,0,karaoke,{\k10}A{\k10}B{\k10}C{\k10}D{\k10}E{\k10}F{\k10}G{\k10}H{\k10}I{\k10}J{\k10}K{\k10}L{\k10}M{\k10}N{\k10}O{\k10}P{\k10}Q{\k10}R{\k10}S{\k10}T{\k10}U{\k10}V{\k10}W{\k10}X{\k66}YZ
+Comment: 1,0:01:03.65,0:01:07.10,Default,,0,0,0,karaoke,{\k32}cut {\k32}your {\k21}pic {\k32}out {\k32}and {\k21}put {\k32}it {\k32}in {\k21}my {\k32}lock{\k45}et
+Comment: 1,0:01:07.08,0:01:10.52,Default,,0,0,0,karaoke,{\k32}so {\k32}I {\k21}could {\k32}kiss {\k32}you {\k21}whe{\k32}ne{\k32}ver {\k21}I {\k32}wan{\k45}ted
+Comment: 1,0:01:10.51,0:01:12.27,Default,,0,0,0,karaoke,{\k21}hy{\k10}per{\k21}ven{\k10}ti{\k21}la{\k42}ting {\k37}when
+Comment: 1,0:01:12.22,0:01:13.55,Default,,0,0,0,karaoke,{\k21}we {\k10}be {\k21}pro{\k10}cre{\k21}a{\k37}ting
+Comment: 1,0:01:13.51,0:01:15.27,Default,,0,0,0,karaoke,{\k21}where'd {\k21}you {\k21}learn {\k10}to {\k21}do {\k32}that {\k37}thing?
+Comment: 1,0:01:15.22,0:01:17.44,Default,,0,0,0,karaoke,{\k21}how {\k21}you {\k21}hold {\k10}the {\k21}bat {\k10}when {\k21}you {\k42}swing, {\k40}yeah, yeah
+Comment: 1,0:01:17.36,0:01:18.69,Default,,0,0,0,karaoke,{\k10}I {\k10}don't {\k21}think {\k21}I {\k21}can {\k37}breathe
+Comment: 1,0:01:18.65,0:01:19.98,Default,,0,0,0,karaoke,{\k10}I {\k10}don't {\k21}think {\k21}I {\k21}can {\k37}read
+Comment: 1,0:01:19.93,0:01:21.27,Default,,0,0,0,karaoke,{\k10}I {\k10}don't {\k21}think {\k21}I {\k21}can {\k37}think
+Comment: 1,0:01:21.22,0:01:22.74,Default,,0,0,0,karaoke,{\k10}I {\k10}don't {\k21}think {\k21}I {\k21}can {\k56}see
+Comment: 1,0:01:22.72,0:01:24.02,Default,,0,0,0,karaoke,{\k10}h{\k10}a{\k42}ha, {\k56}shit
+Comment: 1,0:01:25.08,0:01:27.69,Default,,0,0,0,karaoke,{\k21}some{\k21}one {\k21}call {\k21}a {\k42}pa{\k42}ra{\k42}me{\k37}dic
+Comment: 1,0:01:27.65,0:01:30.72,Default,,0,0,0,karaoke,{\k42}I {\k42}can't {\k42}speak, {\k42}it's {\k42}all {\k42}pho{\k21}ne{\k18}tic
+Comment: 1,0:01:30.65,0:01:32.36,Default,,0,0,0,karaoke,{\k21}made {\k21}me {\k64}for{\k53}get
+Comment: 1,0:01:32.36,0:01:34.58,Default,,0,0,0,karaoke,{\k10}e{\k10}ve{\k21}ry {\k32}word {\k21}'cause, {\k32}like, {\k10}that's {\k10}a {\k10}lot {\k10}of {\k21}le{\k18}tters
+Comment: 1,0:01:34.51,0:01:37.85,Default,,0,0,0,karaoke,{\k10}A{\k10}B{\k10}C{\k10}D{\k10}E{\k10}F{\k10}G{\k10}H{\k10}I{\k10}J{\k10}K{\k10}L{\k10}M{\k10}N{\k10}O{\k10}P{\k10}Q{\k10}R{\k10}S{\k10}T{\k10}U{\k10}V{\k10}W{\k10}X{\k66}YZ
+Comment: 1,0:01:37.93,0:01:39.24,Default,,0,0,0,karaoke,{\k21}a {\k21}i {\k21}u {\k21}e {\k34}o
+Comment: 1,0:01:39.22,0:01:40.52,Default,,0,0,0,karaoke,{\k21}ka {\k21}ki {\k21}ku {\k21}ke {\k34}ko
+Comment: 1,0:01:40.51,0:01:41.81,Default,,0,0,0,karaoke,{\k21}sa {\k21}shi {\k21}su {\k21}se {\k34}so
+Comment: 1,0:01:41.79,0:01:43.10,Default,,0,0,0,karaoke,{\k21}ta {\k21}chi {\k21}tsu {\k21}te {\k34}to
+Comment: 1,0:01:43.08,0:01:44.44,Default,,0,0,0,karaoke,{\k21}na {\k21}ni {\k21}nu {\k21}ne {\k40}no
+Comment: 1,0:01:44.79,0:01:46.10,Default,,0,0,0,karaoke,{\k21}ha {\k21}hi {\k21}fu {\k21}he {\k34}ho
+Comment: 1,0:01:46.08,0:01:47.38,Default,,0,0,0,karaoke,{\k21}ma {\k21}mi {\k21}mu {\k21}me {\k34}mo
+Comment: 1,0:01:47.36,0:01:48.67,Default,,0,0,0,karaoke,{\k21}ya {\k21}i {\k21}yu {\k21}e {\k34}yo
+Comment: 1,0:01:48.65,0:01:49.95,Default,,0,0,0,karaoke,{\k21}ra {\k21}ri {\k21}ru {\k21}re {\k34}ro
+Comment: 1,0:01:49.93,0:01:51.29,Default,,0,0,0,karaoke,{\k21}pa {\k21}pi {\k21}pu {\k21}pe {\k40}po
+Comment: 1,0:01:51.97,0:01:54.53,Default,,0,0,0,karaoke,{\k10}e {\k21}cho{\k10}tto {\k21}ma{\k42}tte {\k16}cho{\k10}tto {\k10}ma{\k16}tte {\k10}i{\k10}ke{\k10}men {\k10}ja {\k42}nai?
+Comment: 1,0:01:54.54,0:01:55.85,Default,,0,0,0,karaoke,{\k10}i{\k10}ke{\k21}men {\k10}da{\k10}yo {\k56}ne
+Comment: 1,0:01:56.36,0:01:59.78,Default,,0,0,0,karaoke,{\k10}mu{\k10}ri {\k10}mu{\k10}ri {\k10}mu{\k10}ri {\k10}muri {\k21}ya {\k21}bai {\k21}chou {\k21}ka{\k10}kko{\k21}iin {\k10}da{\k10}ke{\k117}do
+Comment: 1,0:02:01.08,0:02:03.77,Default,,0,0,0,karaoke,{\k10}cho{\k21}tto {\k32}ma{\k21}tte {\k10}mu{\k10}ri {\k10}mu{\k21}ri {\k21}ze{\k21}ttai {\k10}mu{\k66}ri
+Comment: 1,0:02:03.86,0:02:06.69,Default,,0,0,0,karaoke,{\k10}ya{\k32}bai {\k10}da{\k10}ke{\k208}do
+Comment: 1,0:02:12.22,0:02:15.24,Default,,0,0,0,karaoke,{\k32}yeah, {\k32}yeah, {\k227}yeah
+Comment: 1,0:02:19.93,0:02:23.70,Default,,0,0,0,karaoke,{\k21}some{\k21}one {\k21}call {\k21}a {\k10}pa{\k21}ra{\k32}me- {\k216}me-
+Comment: 1,0:02:29.36,0:02:32.70,Default,,0,0,0,karaoke,{\k10}A{\k10}B{\k10}C{\k10}D{\k10}E{\k10}F{\k10}G{\k10}H{\k10}I{\k10}J{\k10}K{\k10}L{\k10}M{\k10}N{\k10}O{\k10}P{\k10}Q{\k10}R{\k10}S{\k10}T{\k10}U{\k10}V{\k10}W{\k10}X{\k66}YZ
+Comment: 1,0:02:32.79,0:02:34.10,Default,,0,0,0,karaoke,{\k21}a {\k21}i {\k21}u {\k21}e {\k34}o
+Comment: 1,0:02:34.08,0:02:35.38,Default,,0,0,0,karaoke,{\k21}ka {\k21}ki {\k21}ku {\k21}ke {\k34}ko
+Comment: 1,0:02:35.36,0:02:36.67,Default,,0,0,0,karaoke,{\k21}sa {\k21}shi {\k21}su {\k21}se {\k34}so
+Comment: 1,0:02:36.65,0:02:37.95,Default,,0,0,0,karaoke,{\k21}ta {\k21}chi {\k21}tsu {\k21}te {\k34}to
+Comment: 1,0:02:37.93,0:02:39.29,Default,,0,0,0,karaoke,{\k21}na {\k21}ni {\k21}nu {\k21}ne {\k40}no
+Comment: 1,0:02:39.65,0:02:40.95,Default,,0,0,0,karaoke,{\k21}ha {\k21}hi {\k21}fu {\k21}he {\k34}ho
+Comment: 1,0:02:40.93,0:02:42.24,Default,,0,0,0,karaoke,{\k21}ma {\k21}mi {\k21}mu {\k21}me {\k34}mo
+Comment: 1,0:02:42.22,0:02:43.52,Default,,0,0,0,karaoke,{\k21}ya {\k21}i {\k21}yu {\k21}e {\k34}yo
+Comment: 1,0:02:43.51,0:02:44.81,Default,,0,0,0,karaoke,{\k21}ra {\k21}ri {\k21}ru {\k21}re {\k34}ro
+Comment: 1,0:02:44.79,0:02:45.88,Default,,0,0,0,karaoke,{\k21}pa {\k21}pi {\k21}pu {\k21}pe {\k13}po
+Dialogue: 1,0:00:15.61,0:00:19.32,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}some{\k21}one {\k21}call {\k21}a {\k42}pa{\k42}ra{\k42}me{\k37}dic
+Dialogue: 1,0:00:18.18,0:00:22.35,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k42}I {\k42}can't {\k42}speak, {\k42}it's {\k42}all {\k42}pho{\k21}ne{\k18}tic
+Dialogue: 1,0:00:21.18,0:00:23.98,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}made {\k21}me {\k64}for{\k53}get
+Dialogue: 1,0:00:22.89,0:00:26.21,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k10}e{\k10}ve{\k21}ry {\k32}word {\k21}'cause, {\k32}like, {\k10}that's {\k10}a {\k10}lot {\k10}of {\k21}le{\k18}tters
+Dialogue: 1,0:00:25.03,0:00:29.47,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k10}A{\k10}B{\k10}C{\k10}D{\k10}E{\k10}F{\k10}G{\k10}H{\k10}I{\k10}J{\k10}K{\k10}L{\k10}M{\k10}N{\k10}O{\k10}P{\k10}Q{\k10}R{\k10}S{\k10}T{\k10}U{\k10}V{\k10}W{\k10}X{\k66}YZ
+Dialogue: 1,0:00:28.46,0:00:31.75,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}9{\k21}1{\k32}1, {\k10}he{\k32}llo? {\k10}it's {\k32}me, {\k10}So{\k37}phia
+Dialogue: 1,0:00:30.61,0:00:33.47,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k42}yes, {\k10}this {\k10}is {\k10}an {\k10}e{\k21}mer{\k21}gen{\k37}cy
+Dialogue: 1,0:00:32.32,0:00:35.18,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k32}yes, {\k10}the {\k10}way {\k10}they {\k10}put {\k10}it {\k21}down {\k21}on {\k37}me
+Dialogue: 1,0:00:34.03,0:00:36.47,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k10}got {\k10}the {\k21}whole {\k21}room {\k21}tip{\k37}sy
+Dialogue: 1,0:00:35.32,0:00:38.18,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}hy{\k10}per{\k21}ven{\k10}ti{\k21}la{\k42}ting {\k37}when
+Dialogue: 1,0:00:37.03,0:00:39.47,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}we {\k10}be {\k21}pro{\k10}cre{\k21}a{\k37}ting
+Dialogue: 1,0:00:38.32,0:00:41.18,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}where'd {\k21}you {\k21}learn {\k10}to {\k21}do {\k32}that {\k37}thing?
+Dialogue: 1,0:00:40.03,0:00:42.97,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}how {\k21}you {\k21}hold {\k10}the {\k21}bat {\k10}when {\k21}you {\k45}swing
+Dialogue: 1,0:00:42.18,0:00:44.61,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k10}I {\k10}don't {\k21}think {\k21}I {\k21}can {\k37}breathe
+Dialogue: 1,0:00:43.46,0:00:45.89,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k10}I {\k10}don't {\k21}think {\k21}I {\k21}can {\k37}read
+Dialogue: 1,0:00:44.75,0:00:47.18,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k10}I {\k10}don't {\k21}think {\k21}I {\k21}can {\k37}think
+Dialogue: 1,0:00:46.03,0:00:48.76,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k10}I {\k10}don't {\k21}think {\k21}I {\k21}can {\k66}see
+Dialogue: 1,0:00:48.61,0:00:50.37,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k56}fuck
+Dialogue: 1,0:00:49.89,0:00:53.61,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}some{\k21}one {\k21}call {\k21}a {\k42}pa{\k42}ra{\k42}me{\k37}dic
+Dialogue: 1,0:00:52.46,0:00:56.64,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k42}I {\k42}can't {\k42}speak, {\k42}it's {\k42}all {\k42}pho{\k21}ne{\k18}tic
+Dialogue: 1,0:00:55.46,0:00:58.27,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}made {\k21}me {\k64}for{\k53}get
+Dialogue: 1,0:00:57.18,0:01:00.49,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k10}e{\k10}ve{\k21}ry {\k32}word {\k21}'cause, {\k32}like, {\k10}that's {\k10}a {\k10}lot {\k10}of {\k21}le{\k18}tters
+Dialogue: 1,0:00:59.32,0:01:03.76,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k10}A{\k10}B{\k10}C{\k10}D{\k10}E{\k10}F{\k10}G{\k10}H{\k10}I{\k10}J{\k10}K{\k10}L{\k10}M{\k10}N{\k10}O{\k10}P{\k10}Q{\k10}R{\k10}S{\k10}T{\k10}U{\k10}V{\k10}W{\k10}X{\k66}YZ
+Dialogue: 1,0:01:02.75,0:01:07.30,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k32}cut {\k32}your {\k21}pic {\k32}out {\k32}and {\k21}put {\k32}it {\k32}in {\k21}my {\k32}lock{\k45}et
+Dialogue: 1,0:01:06.18,0:01:10.72,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k32}so {\k32}I {\k21}could {\k32}kiss {\k32}you {\k21}whe{\k32}ne{\k32}ver {\k21}I {\k32}wan{\k45}ted
+Dialogue: 1,0:01:09.61,0:01:12.47,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}hy{\k10}per{\k21}ven{\k10}ti{\k21}la{\k42}ting {\k37}when
+Dialogue: 1,0:01:11.32,0:01:13.75,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}we {\k10}be {\k21}pro{\k10}cre{\k21}a{\k37}ting
+Dialogue: 1,0:01:12.61,0:01:15.47,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}where'd {\k21}you {\k21}learn {\k10}to {\k21}do {\k32}that {\k37}thing?
+Dialogue: 1,0:01:14.32,0:01:17.64,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}how {\k21}you {\k21}hold {\k10}the {\k21}bat {\k10}when {\k21}you {\k42}swing, {\k40}yeah, yeah
+Dialogue: 1,0:01:16.46,0:01:18.89,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k10}I {\k10}don't {\k21}think {\k21}I {\k21}can {\k37}breathe
+Dialogue: 1,0:01:17.75,0:01:20.18,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k10}I {\k10}don't {\k21}think {\k21}I {\k21}can {\k37}read
+Dialogue: 1,0:01:19.03,0:01:21.47,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k10}I {\k10}don't {\k21}think {\k21}I {\k21}can {\k37}think
+Dialogue: 1,0:01:20.32,0:01:22.94,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k10}I {\k10}don't {\k21}think {\k21}I {\k21}can {\k56}see
+Dialogue: 1,0:01:21.82,0:01:24.22,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k10}h{\k10}a{\k42}ha, {\k56}shit
+Dialogue: 1,0:01:24.18,0:01:27.89,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}some{\k21}one {\k21}call {\k21}a {\k42}pa{\k42}ra{\k42}me{\k37}dic
+Dialogue: 1,0:01:26.75,0:01:30.92,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k42}I {\k42}can't {\k42}speak, {\k42}it's {\k42}all {\k42}pho{\k21}ne{\k18}tic
+Dialogue: 1,0:01:29.75,0:01:32.56,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}made {\k21}me {\k64}for{\k53}get
+Dialogue: 1,0:01:31.46,0:01:34.78,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k10}e{\k10}ve{\k21}ry {\k32}word {\k21}'cause, {\k32}like, {\k10}that's {\k10}a {\k10}lot {\k10}of {\k21}le{\k18}tters
+Dialogue: 1,0:01:33.61,0:01:38.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k10}A{\k10}B{\k10}C{\k10}D{\k10}E{\k10}F{\k10}G{\k10}H{\k10}I{\k10}J{\k10}K{\k10}L{\k10}M{\k10}N{\k10}O{\k10}P{\k10}Q{\k10}R{\k10}S{\k10}T{\k10}U{\k10}V{\k10}W{\k10}X{\k66}YZ
+Dialogue: 1,0:01:37.03,0:01:39.44,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}a {\k21}i {\k21}u {\k21}e {\k34}o
+Dialogue: 1,0:01:38.32,0:01:40.72,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ka {\k21}ki {\k21}ku {\k21}ke {\k34}ko
+Dialogue: 1,0:01:39.61,0:01:42.01,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}sa {\k21}shi {\k21}su {\k21}se {\k34}so
+Dialogue: 1,0:01:40.89,0:01:43.30,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ta {\k21}chi {\k21}tsu {\k21}te {\k34}to
+Dialogue: 1,0:01:42.18,0:01:44.64,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}na {\k21}ni {\k21}nu {\k21}ne {\k40}no
+Dialogue: 1,0:01:43.89,0:01:46.30,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ha {\k21}hi {\k21}fu {\k21}he {\k34}ho
+Dialogue: 1,0:01:45.18,0:01:47.58,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ma {\k21}mi {\k21}mu {\k21}me {\k34}mo
+Dialogue: 1,0:01:46.46,0:01:48.87,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ya {\k21}i {\k21}yu {\k21}e {\k34}yo
+Dialogue: 1,0:01:47.75,0:01:50.15,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ra {\k21}ri {\k21}ru {\k21}re {\k34}ro
+Dialogue: 1,0:01:49.03,0:01:51.49,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}pa {\k21}pi {\k21}pu {\k21}pe {\k40}po
+Dialogue: 1,0:01:51.07,0:01:54.73,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k10}e {\k21}cho{\k10}tto {\k21}ma{\k42}tte {\k16}cho{\k10}tto {\k10}ma{\k16}tte {\k10}i{\k10}ke{\k10}men {\k10}ja {\k42}nai?
+Dialogue: 1,0:01:53.64,0:01:56.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k10}i{\k10}ke{\k21}men {\k10}da{\k10}yo {\k56}ne
+Dialogue: 1,0:01:55.46,0:01:59.98,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k10}mu{\k10}ri {\k10}mu{\k10}ri {\k10}mu{\k10}ri {\k10}muri {\k21}ya {\k21}bai {\k21}chou {\k21}ka{\k10}kko{\k21}iin {\k10}da{\k10}ke{\k117}do
+Dialogue: 1,0:02:00.18,0:02:03.97,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k10}cho{\k21}tto {\k32}ma{\k21}tte {\k10}mu{\k10}ri {\k10}mu{\k21}ri {\k21}ze{\k21}ttai {\k10}mu{\k66}ri
+Dialogue: 1,0:02:02.96,0:02:06.89,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k10}ya{\k32}bai {\k10}da{\k10}ke{\k208}do
+Dialogue: 1,0:02:11.32,0:02:15.44,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k32}yeah, {\k32}yeah, {\k227}yeah
+Dialogue: 1,0:02:19.03,0:02:23.90,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}some{\k21}one {\k21}call {\k21}a {\k10}pa{\k21}ra{\k32}me- {\k216}me-
+Dialogue: 1,0:02:28.46,0:02:32.90,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k10}A{\k10}B{\k10}C{\k10}D{\k10}E{\k10}F{\k10}G{\k10}H{\k10}I{\k10}J{\k10}K{\k10}L{\k10}M{\k10}N{\k10}O{\k10}P{\k10}Q{\k10}R{\k10}S{\k10}T{\k10}U{\k10}V{\k10}W{\k10}X{\k66}YZ
+Dialogue: 1,0:02:31.89,0:02:34.30,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}a {\k21}i {\k21}u {\k21}e {\k34}o
+Dialogue: 1,0:02:33.18,0:02:35.58,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ka {\k21}ki {\k21}ku {\k21}ke {\k34}ko
+Dialogue: 1,0:02:34.46,0:02:36.87,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}sa {\k21}shi {\k21}su {\k21}se {\k34}so
+Dialogue: 1,0:02:35.75,0:02:38.15,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ta {\k21}chi {\k21}tsu {\k21}te {\k34}to
+Dialogue: 1,0:02:37.03,0:02:39.49,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}na {\k21}ni {\k21}nu {\k21}ne {\k40}no
+Dialogue: 1,0:02:38.75,0:02:41.15,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ha {\k21}hi {\k21}fu {\k21}he {\k34}ho
+Dialogue: 1,0:02:40.03,0:02:42.44,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ma {\k21}mi {\k21}mu {\k21}me {\k34}mo
+Dialogue: 1,0:02:41.32,0:02:43.72,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ya {\k21}i {\k21}yu {\k21}e {\k34}yo
+Dialogue: 1,0:02:42.61,0:02:45.01,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ra {\k21}ri {\k21}ru {\k21}re {\k34}ro
+Dialogue: 1,0:02:43.89,0:02:46.08,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}pa {\k21}pi {\k21}pu {\k21}pe {\k13}po
