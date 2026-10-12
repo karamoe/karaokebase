@@ -1,0 +1,365 @@
+﻿[Script Info]
+Title: Daidaidaidai Daisuki na Kimi he
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Zeflipsplash
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: All,Arial,24,&H00FFFFFF,&H00CDA540,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Maemi,Arial,24,&H00FFFFFF,&H00FF8AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Nasa,Arial,24,&H00FFFFFF,&H005050E2,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sub,Arial,24,&H00FFFFFF,&H00CDA540,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,120,1
+Style: SubM,Arial,24,&H00FFFFFF,&H00FF8AFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,120,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.61,0:00:00.61,Maemi,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:09.85,All,,0,0,220,karaoke,{\k1500}{\k0}{\rMaemi}Maemi {\2c&HFFFFFF&}- {\rNasa}Nasa
+Comment: 0,0:00:00.00,0:00:09.85,All,,0,0,190,karaoke,{\k1500}{\k0}{\rAll}All
+Comment: 0,0:00:01.21,0:00:01.83,Sub,,0,0,0,karaoke,{\k45}ah {\k17}ah
+Comment: 0,0:00:03.09,0:00:04.05,Sub,,0,0,0,karaoke,{\k49}ah {\k47}ah
+Comment: 0,0:00:04.99,0:00:05.94,Sub,,0,0,0,karaoke,{\k47}ah {\k48}ah
+Comment: 0,0:00:06.88,0:00:07.83,Sub,,0,0,0,karaoke,{\k47}ah {\k48}ah
+Comment: 0,0:00:08.77,0:00:09.85,Sub,,0,0,0,karaoke,{\k47}ah {\k61}ah
+Comment: 0,0:00:10.66,0:00:11.67,Sub,,0,0,0,karaoke,{\k39}ah {\k62}ah
+Comment: 0,0:00:11.08,0:00:12.47,All,,0,0,0,karaoke,{\k26}I {\k18}won{\k17}der {\k31}if {\k21}you {\k26}know
+Comment: 0,0:00:12.57,0:00:13.53,Sub,,0,0,0,karaoke,{\k42}ah {\k54}ah
+Comment: 0,0:00:12.77,0:00:14.40,All,,0,0,0,karaoke,{\k22}How {\k27}they {\k22}live {\k22}in {\k25}To{\k23}ky{\k22}o
+Comment: 0,0:00:14.40,0:00:14.66,Sub,,0,0,0,karaoke,{\k26}hai
+Comment: 0,0:00:14.66,0:00:16.45,All,,0,0,0,karaoke,{\k21}If {\k25}you {\k23}seen {\k25}it, {\k22}then {\k24}you {\k27}mean {\k12}it
+Comment: 0,0:00:16.34,0:00:16.95,Sub,,0,0,0,karaoke,{\k46}ah {\k15}ah
+Comment: 0,0:00:16.56,0:00:18.17,All,,0,0,0,karaoke,{\k24}Then {\k23}you {\k25}know {\k18}you {\k27}have {\k23}to {\k21}go
+Comment: 0,0:00:18.23,0:00:19.28,Sub,,0,0,0,karaoke,{\k44}ah {\k61}ah
+Comment: 0,0:00:18.42,0:00:20.44,All,,0,0,0,karaoke,{\k27}Fast {\k22}and {\k11}Fu{\k9}ri{\kf133}ous!
+Comment: 0,0:00:19.89,0:00:21.12,Sub,,0,0,0,karaoke,{\k7}ki{\kf116}ta
+Comment: 0,0:00:20.59,0:00:20.76,Sub,,0,0,0,karaoke,{\k17}ah
+Comment: 0,0:00:20.79,0:00:22.23,All,,0,0,0,karaoke,{\k66}Drift, {\k53}drift, {\k25}drift
+Comment: 0,0:00:22.23,0:00:24.26,All,,0,0,0,karaoke,{\k23}Fast {\k21}and {\k12}Fu{\k9}ri{\kf138}ous!
+Comment: 0,0:00:23.62,0:00:24.86,Sub,,0,0,0,karaoke,{\k13}ki{\kf111}ta
+Comment: 0,0:00:24.38,0:00:24.50,Sub,,0,0,0,karaoke,{\k12}ah
+Comment: 0,0:00:24.57,0:00:26.00,All,,0,0,0,karaoke,{\k70}Drift, {\k50}drift, {\k23}drift
+Comment: 0,0:00:26.25,0:00:26.85,Sub,,0,0,0,karaoke,{\k60}ah
+Comment: 0,0:00:26.25,0:00:27.59,All,,0,0,0,karaoke,{\k24}I {\k23}won{\k21}der {\k27}if {\k21}you {\k18}know
+Comment: 0,0:00:27.87,0:00:29.50,All,,0,0,0,karaoke,{\k26}How {\k24}they {\k21}live {\k24}in {\k25}To{\k24}ky{\k19}o
+Comment: 0,0:00:29.50,0:00:29.70,Sub,,0,0,0,karaoke,{\k20}hai
+Comment: 0,0:00:29.79,0:00:31.61,All,,0,0,0,karaoke,{\k19}If {\k25}you {\k22}seen {\k25}it, {\k25}then {\k24}you {\k24}mean {\k18}it
+Comment: 0,0:00:31.69,0:00:33.31,All,,0,0,0,karaoke,{\k20}Then {\k27}you {\k20}know {\k17}you {\k29}have {\k26}to {\k23}go
+Comment: 0,0:00:33.53,0:00:35.59,All,,0,0,0,karaoke,{\k27}Fast {\k22}and {\k10}Fu{\k10}ri{\kf137}ous!
+Comment: 0,0:00:35.00,0:00:36.23,Sub,,0,0,0,karaoke,{\k9}ki{\kf114}ta
+Comment: 0,0:00:35.89,0:00:37.34,All,,0,0,0,karaoke,{\k69}Drift, {\k51}drift, {\k25}drift
+Comment: 0,0:00:37.34,0:00:39.42,All,,0,0,0,karaoke,{\k23}Fast {\k25}and {\k9}Fu{\k10}ri{\kf141}ous!
+Comment: 0,0:00:38.78,0:00:39.99,Sub,,0,0,0,karaoke,{\k12}ki{\kf109}ta
+Comment: 0,0:00:39.67,0:00:41.11,All,,0,0,0,karaoke,{\k70}Drift, {\k48}drift, {\k26}drift
+Comment: 0,0:00:42.23,0:00:43.12,Nasa,,0,0,0,karaoke,{\k9}o{\k12}ma{\k13}chi{\k23}dou {\k13}sa{\k19}ma
+Comment: 0,0:00:43.16,0:00:45.38,Nasa,,0,0,0,karaoke,{\k25}ken{\k23}so {\k15}ma{\k7}mi{\k10}re {\k12}ko{\k13}no{\k13}ma{\k11}chi {\k15}no {\k19}en{\k25}sou {\k11}da{\k23}ma
+Comment: 0,0:00:45.49,0:00:47.04,Nasa,,0,0,0,karaoke,{\k8}ta{\k16}ma{\k14}ma {\k10}i{\k12}chi{\k14}do {\k12}tsu{\k12}i{\k10}te {\k25}oi{\k22}de
+Comment: 0,0:00:47.12,0:00:49.31,Nasa,,0,0,0,karaoke,{\k15}se{\k21}kai{\k27}jyu {\k9}mi{\k9}ru {\k15}yo {\k11}su{\k15}ru{\k13}ho{\k7}do{\k15}ni {\k24}gou{\k12}ka{\k26}na
+Comment: 0,0:00:49.17,0:00:49.34,Sub,,0,0,0,karaoke,{\k17}ah
+Comment: 0,0:00:49.43,0:00:51.05,Nasa,,0,0,0,karaoke,{\k23}Ja{\k70}pan, {\k9}i{\k16}chi{\k44}ban
+Comment: 0,0:00:49.83,0:00:51.08,SubM,,0,0,0,karaoke,{\k97}woah, {\k28}woah
+Comment: 0,0:00:51.20,0:00:52.90,Nasa,,0,0,0,karaoke,{\k27}JUMP {\k7}A{\k23}ROUND {\k22}saa {\k23}uchira {\k13}no {\k14}de{\k41}ban
+Comment: 0,0:00:52.69,0:00:52.96,SubM,,0,0,0,karaoke,{\k27}woah
+Comment: 0,0:00:52.96,0:00:54.68,Nasa,,0,0,0,karaoke,{\k14}Te{\k11}ri{\k10}ya{\k12}ki {\k24}Boyz {\k10}in {\k12}the {\k24}place {\k17}to {\k38}be
+Comment: 0,0:00:54.74,0:00:56.64,Nasa,,0,0,0,karaoke,{\k10}mi{\k13}se{\k12}te {\k8}ya{\k15}ru {\k15}ORIGI{\k12}NA{\k21}L {\k19}V{\k20}.I{\k45}.P
+Comment: 0,0:00:55.25,0:00:56.44,SubM,,0,0,0,karaoke,{\k93}hai, {\k26}hai!
+Comment: 0,0:00:56.71,0:00:58.28,Maemi,,0,0,0,karaoke,{\k12}Ma{\k14}ny {\k10}ma{\k14}ny {\k19}dia{\k28}monds {\k25}dan{\k12}g{\k23}lin'
+Comment: 0,0:00:58.63,0:01:00.18,Maemi,,0,0,0,karaoke,{\k18}Bag {\k17}full {\k12}of {\k23}mo{\k9}ney {\k15}we {\k25}stran{\k9}g{\k27}lin'
+Comment: 0,0:01:00.47,0:01:02.34,Maemi,,0,0,0,karaoke,{\k24}Hate {\k28}me, {\k23}fry {\k23}me, {\k22}bake {\k23}me, {\k24}try {\k20}me
+Comment: 0,0:01:02.40,0:01:03.96,Maemi,,0,0,0,karaoke,{\k23}All {\k11}the {\k11}a{\k25}bove {\k11}'cause {\k11}you {\k25}can't {\k16}get {\k23}in
+Comment: 0,0:01:04.29,0:01:05.91,Maemi,,0,0,0,karaoke,{\k19}I {\k28}don't {\k23}want {\k25}no {\k10}P{\k11}RO{\k12}B{\k14}LE{\k20}M
+Comment: 0,0:01:05.91,0:01:06.11,Sub,,0,0,0,karaoke,{\k20}ah
+Comment: 0,0:01:06.17,0:01:07.78,Maemi,,0,0,0,karaoke,{\k23}Be{\k20}cause {\k28}me {\k8}P{\k16}RO{\k24}FES{\k12}SIO{\k12}NA{\k18}L
+Comment: 0,0:01:07.83,0:01:08.01,Sub,,0,0,0,karaoke,{\k18}ah
+Comment: 0,0:01:08.05,0:01:09.94,Maemi,,0,0,0,karaoke,{\k27}Make {\k21}you, {\k24}shake {\k23}your {\k20}ke{\k29}tsu {\k24}thank {\k21}you!
+Comment: 0,0:01:09.96,0:01:11.55,Maemi,,0,0,0,karaoke,{\k22}Ha{\k26}ters {\k22}take {\k26}it {\k22}PER{\k12}SO{\k13}NA{\k16}L
+Comment: 0,0:01:11.55,0:01:13.46,Nasa,,0,0,0,karaoke,{\k17}Like {\k13}a {\k21}ka{\k14}na{\k37}da {\k23}tai {\k25}te{\k12}tsu {\k29}wo
+Comment: 0,0:01:13.51,0:01:15.10,Nasa,,0,0,0,karaoke,{\k9}Ne{\k15}o {\k32}To{\k33}kyo {\k29}me{\k13}tsu{\k28}bou
+Comment: 0,0:01:15.14,0:01:16.99,Nasa,,0,0,0,karaoke,{\k15}na{\k8}ku{\k27}nac{\k12}chi{\k22}mau {\k22}mae {\k13}ni {\k25}ne{\k14}tsu {\k27}wo
+Comment: 0,0:01:17.04,0:01:19.12,Nasa,,0,0,0,karaoke,{\k23}has{\k25}san {\k12}shi {\k23}kit{\k13}chi{\k22}ma{\k14}ou {\k12}ze, {\k33}let's {\k31}go
+Comment: 0,0:01:19.12,0:01:21.97,Nasa,,0,0,0,karaoke,{\k29}ne{\k12}tsu{\k36}bou {\k23}zu{\k6}-hi{\k11}ru {\k8}gi{\k22}-rop{\k25}pon {\k11}LA{\k10}B {\k10}ka{\k15}ra {\k33}ES{\k34}CORT
+Comment: 0,0:01:22.01,0:01:23.01,SubM,,0,0,0,karaoke,{\k30}ee?! {\k17}su{\k53}goi
+Comment: 0,0:01:22.87,0:01:24.74,Nasa,,0,0,0,karaoke,{\k14}ni{\k19}ju{\k33}roku{\k22}-gou {\k13}ja{\k25}nai {\k30}Ni{\k31}go
+Comment: 0,0:01:24.83,0:01:26.73,Nasa,,0,0,0,karaoke,{\k25}nyuu{\k23}ryoku {\k13}so{\k12}ru {\k10}no {\k12}za{\k26}hyou {\k32}PIN{\k37}POINT
+Comment: 0,0:01:26.73,0:01:28.12,All,,0,0,0,karaoke,{\k23}I {\k27}won{\k17}der {\k25}if {\k22}you {\k25}know
+Comment: 0,0:01:28.37,0:01:30.00,All,,0,0,0,karaoke,{\k23}How {\k26}they {\k20}live {\k23}in {\k26}To{\k25}ky{\k20}o
+Comment: 0,0:01:30.00,0:01:30.21,Sub,,0,0,0,karaoke,{\k21}try
+Comment: 0,0:01:30.27,0:01:32.17,All,,0,0,0,karaoke,{\k20}If {\k24}you {\k21}seen {\k26}it, {\k25}then {\k24}you {\k24}mean {\k26}it
+Comment: 0,0:01:32.17,0:01:33.82,All,,0,0,0,karaoke,{\k20}Then {\k27}you {\k17}know {\k17}you {\k35}have {\k24}to {\k25}go
+Comment: 0,0:01:34.04,0:01:36.13,All,,0,0,0,karaoke,{\k26}Fast {\k23}and {\k7}Fu{\k11}ri{\kf142}ous!
+Comment: 0,0:01:35.47,0:01:36.70,Sub,,0,0,0,karaoke,{\k11}ki{\kf112}ta
+Comment: 0,0:01:36.40,0:01:37.81,All,,0,0,0,karaoke,{\k69}Drift, {\k49}drift, {\k23}drift
+Comment: 0,0:01:37.81,0:01:39.91,All,,0,0,0,karaoke,{\k27}Fast {\k21}and {\k9}Fu{\k11}ri{\kf142}ous!
+Comment: 0,0:01:39.26,0:01:40.45,Sub,,0,0,0,karaoke,{\k10}ki{\kf109}ta
+Comment: 0,0:01:40.19,0:01:41.60,All,,0,0,0,karaoke,{\k67}Drift, {\k48}drift, {\k26}drift
+Comment: 0,0:01:42.30,0:01:44.06,Nasa,,0,0,0,karaoke,{\k41}hai! {\k9}wa{\k12}ta{\k11}shi {\k12}Te{\k12}ri{\k15}ya{\k33}ki {\k31}Boyz
+Comment: 0,0:01:44.13,0:01:46.09,Nasa,,0,0,0,karaoke,{\k20}aa {\k9}to{\k23}iu {\k15}ma {\k13}fu{\k11}ki{\k12}to{\k22}ba{\k24}su {\k27}NOI{\k20}SE
+Comment: 0,0:01:46.09,0:01:47.95,Nasa,,0,0,0,karaoke,{\k25}mai{\k22}shin {\k12}shi{\k13}te{\k19}ma{\k28}sunde {\k33}ge {\k34}to
+Comment: 0,0:01:48.01,0:01:49.77,Nasa,,0,0,0,karaoke,{\k22}PEN {\k20}no {\k14}ka{\k12}zu {\k24}mo {\k23}fue{\k24}te{\k37}masu
+Comment: 0,0:01:49.88,0:01:51.55,Nasa,,0,0,0,karaoke,{\k23}BA{\k22}SI{\k25}C {\k18}SUR{\k7}P{\k46}RISE {\k26}de
+Comment: 0,0:01:51.74,0:01:53.44,Nasa,,0,0,0,karaoke,{\k14}ma{\k10}ji {\k22}mai{\k13}ni{\k8}chi {\k7}ga {\k12}a{\k11}bu{\k45}nai {\k28}ze
+Comment: 0,0:01:53.60,0:01:55.76,Nasa,,0,0,0,karaoke,{\k19}nin{\k12}ja{\k20}-fuu {\k16}ken{\k10}ja{\k33}-fuu {\k13}da{\k11}ke{\k13}do {\k21}gei{\k48}sha
+Comment: 0,0:01:55.80,0:01:57.85,Nasa,,0,0,0,karaoke,{\k22}BA{\k9}PE {\k16}no {\k11}wa{\k11}ku{\k24}sei {\k10}ka{\k13}ra {\k10}no {\k13}shi{\k66}sha
+Comment: 0,0:01:57.19,0:01:58.80,Maemi,,0,0,0,karaoke,{\k13}You {\k12}should {\k24}see {\k22}me {\k9}in {\k16}the {\k20}par{\k12}king {\k33}lot
+Comment: 0,0:01:58.87,0:01:59.06,Sub,,0,0,0,karaoke,{\k19}ah
+Comment: 0,0:01:59.21,0:02:00.72,Maemi,,0,0,0,karaoke,{\k22}Se{\k22}ven{\k7}-e{\k15}le{\k15}ven {\k22}is {\k16}the {\k32}spot
+Comment: 0,0:02:00.73,0:02:00.91,Sub,,0,0,0,karaoke,{\k18}ah
+Comment: 0,0:02:00.97,0:02:02.60,Maemi,,0,0,0,karaoke,{\k25}Bikes {\k17}with {\k29}wings {\k31}and {\k24}shi{\k17}ny {\k20}things
+Comment: 0,0:02:02.62,0:02:04.06,Maemi,,0,0,0,karaoke,{\k20}And {\k50}lions, {\k27}ti{\k21}gers, {\k26}bears
+Comment: 0,0:02:04.30,0:02:05.35,Maemi,,0,0,0,karaoke,{\k19}Oh, {\k26}my {\k60}ride
+Comment: 0,0:02:05.47,0:02:06.53,Maemi,,0,0,0,karaoke,{\k23}We're {\k7}fu{\k6}ri{\k11}ous {\k25}and {\k34}fast
+Comment: 0,0:02:06.63,0:02:08.51,Maemi,,0,0,0,karaoke,{\k23}Su{\k12}per{\k21}so{\k13}nic {\k25}like {\k25}J.{\k23}J. {\k27}Fad {\k19}and
+Comment: 0,0:02:08.75,0:02:10.11,Maemi,,0,0,0,karaoke,{\k27}We {\k22}ride {\k9}till {\k16}the {\k21}wheels {\k14}are {\k27}flat
+Comment: 0,0:02:10.43,0:02:12.07,Maemi,,0,0,0,karaoke,{\k24}Can't {\k24}beat {\k23}that {\k10}with {\k14}a {\k22}base{\k25}ball {\k22}bat
+Comment: 0,0:02:12.07,0:02:13.45,SubM,,0,0,0,karaoke,{\k24}on {\kf114}fuu
+Comment: 0,0:02:12.07,0:02:13.90,Nasa,,0,0,0,karaoke,{\k10}LIKE {\k14}A {\k32}kou{\k40}an {\k7}kyuu-{\k17}ka {\k31}Togu{\k32}sa
+Comment: 0,0:02:13.95,0:02:15.88,Nasa,,0,0,0,karaoke,{\k17}ma{\k10}te{\k19}ba {\k27}ii {\k23}zehi {\k19}so{\k14}ku {\k32}sai{\k32}you
+Comment: 0,0:02:15.89,0:02:17.75,Nasa,,0,0,0,karaoke,{\k23}IN{\k19}TER{\k31}CEP{\k24}TOR {\k13}shi{\k14}te {\k34}koku{\k28}sai
+Comment: 0,0:02:17.81,0:02:19.36,Nasa,,0,0,0,karaoke,{\k13}te{\k7}ki {\k31}han{\k25}zai {\k14}wa {\k34}ban{\k31}zai
+Comment: 0,0:02:19.42,0:02:19.85,Sub,,0,0,0,karaoke,{\k43}ah
+Comment: 0,0:02:19.60,0:02:20.42,Maemi,,0,0,0,karaoke,{\k15}ho{\k11}ra {\k37}HANDS {\k19}UP
+Comment: 0,0:02:20.59,0:02:22.23,Maemi,,0,0,0,karaoke,{\k12}PHAR{\k11}REL{\k10}L {\k14}ga {\k13}BOM{\k11}B {\k26}otosu{\k21}to {\k13}odo{\k10}ri {\k23}dasu
+Comment: 0,0:02:22.25,0:02:23.39,Maemi,,0,0,0,karaoke,{\k22}ko{\k9}nya {\k17}no {\k34}FOUR {\k32}Boyz
+Comment: 0,0:02:23.43,0:02:25.04,Maemi,,0,0,0,karaoke,{\k23}FROM {\k35}FAR {\k31}EAST {\k51}COAS{\k21}T
+Comment: 0,0:02:25.09,0:02:25.25,Sub,,0,0,0,karaoke,{\k16}ah
+Comment: 0,0:02:25.25,0:02:26.00,Maemi,,0,0,0,karaoke,{\k27}dou {\k15}sa{\k12}sa{\k21}yaku
+Comment: 0,0:02:26.00,0:02:27.53,Maemi,,0,0,0,karaoke,{\k12}wa{\k17}tashi {\k20}no {\rAll}{\k33}GHOS{\k34}T {\k37}wa?
+Comment: 0,0:02:27.18,0:02:27.58,Sub,,0,0,0,karaoke,{\k40}ah
+Comment: 0,0:02:27.18,0:02:28.59,All,,0,0,0,karaoke,{\k22}I {\k25}won{\k20}der {\k30}if {\k19}you {\k25}know
+Comment: 0,0:02:28.83,0:02:30.46,All,,0,0,0,karaoke,{\k23}How {\k28}they {\k24}live {\k19}in {\k27}To{\k23}ky{\k19}o
+Comment: 0,0:02:30.49,0:02:30.66,Sub,,0,0,0,karaoke,{\k17}hai
+Comment: 0,0:02:30.75,0:02:32.54,All,,0,0,0,karaoke,{\k20}If {\k24}you {\k28}seen {\k18}it, {\k24}then {\k28}you {\k22}mean {\k15}it
+Comment: 0,0:02:32.64,0:02:34.29,All,,0,0,0,karaoke,{\k22}Then {\k25}you {\k19}know {\k24}you {\k26}have {\k24}to {\k25}go
+Comment: 0,0:02:34.52,0:02:36.53,All,,0,0,0,karaoke,{\k26}Fast {\k22}and {\k10}Fu{\k13}ri{\kf130}ous!
+Comment: 0,0:02:35.92,0:02:37.15,Sub,,0,0,0,karaoke,{\k14}ki{\kf109}ta
+Comment: 0,0:02:36.84,0:02:38.30,All,,0,0,0,karaoke,{\k69}Drift, {\k49}drift, {\k28}drift
+Comment: 0,0:02:38.30,0:02:40.39,All,,0,0,0,karaoke,{\k25}Fast {\k22}and {\k10}Fu{\k10}ri{\kf142}ous!
+Comment: 0,0:02:39.73,0:02:40.97,Sub,,0,0,0,karaoke,{\k11}ki{\kf113}ta
+Comment: 0,0:02:40.62,0:02:42.06,All,,0,0,0,karaoke,{\k70}Drift, {\k48}drift, {\k26}drift
+Comment: 0,0:02:46.08,0:02:48.24,Nasa,,0,0,0,karaoke,{\k37}YEAH, {\k13}Ja{\k19}pan {\k21}mai{\k14}ni{\k18}chi {\k22}do{\k14}ki{\k23}-do{\k10}ki {\k25}desu
+Comment: 0,0:02:48.38,0:02:50.21,Nasa,,0,0,0,karaoke,{\k21}HEA{\k12}T {\k22}IS{\k12}LAN{\k13}D {\k22}to{\k12}bi{\k23}-to{\k12}bi {\k34}desu
+Comment: 0,0:02:50.23,0:02:52.01,Nasa,,0,0,0,karaoke,{\k11}mo{\k14}e{\k12}ru {\k20}you{\k14}shi {\k12}de {\rAll\k20}bo{\k16}chi{\k18}-bo{\k14}chi {\k27}nee~
+Comment: 0,0:02:52.01,0:02:54.06,Nasa,,0,0,0,karaoke,{\k12}te{\k11}ma{\k13}ne{\k12}ki {\k11}de {\k12}sa{\k20}sou {\rAll\k22}koc{\k14}chi{\k24}-koc{\k13}chi {\k41}e
+Comment: 0,0:02:54.06,0:02:55.73,Nasa,,0,0,0,karaoke,{\k20}HEAT {\k35}UP {\k11}de {\k12}o{\k23}do{\k13}ri {\k53}sou
+Comment: 0,0:02:55.73,0:02:57.70,Nasa,,0,0,0,karaoke,{\k17}ma{\k14}chi{\k20}juu {\k11}su{\k25}bet{\k9}te {\k28}no{\k13}ri{\k60}komu
+Comment: 0,0:02:57.44,0:02:59.53,Nasa,,0,0,0,karaoke,{\k17}mec{\k7}cha {\k29}kawari{\k39}mono {\k23}datte {\k51}SHUF{\k43}FLE
+Comment: 0,0:02:59.47,0:03:01.15,Nasa,,0,0,0,karaoke,{\k10}go{\k12}cha{\k10}-go{\k11}cha {\k15}no {\k19}FAST {\k28}AND {\k15}FU{\k17}RI{\k31}OUS
+Comment: 0,0:03:00.23,0:03:00.47,SubM,,0,0,0,karaoke,{\k24}yeah
+Comment: 0,0:03:01.24,0:03:02.40,Maemi,,0,0,0,karaoke,{\k22}It's {\k11}got{\k10}ta {\k12}be {\k13}the {\k48}shoes
+Comment: 0,0:03:02.40,0:03:03.35,Maemi,,0,0,0,karaoke,{\k13}Got{\k11}ta {\k9}be {\k15}the {\k47}furs
+Comment: 0,0:03:03.35,0:03:04.98,Maemi,,0,0,0,karaoke,{\k23}That's {\k24}why {\k24}la{\k17}dies {\k53}choose {\k22}me
+Comment: 0,0:03:04.98,0:03:05.13,Sub,,0,0,0,karaoke,{\k15}ah
+Comment: 0,0:03:05.24,0:03:06.07,Maemi,,0,0,0,karaoke,{\k11}All {\k9}up {\k13}in {\k12}the {\k38}news
+Comment: 0,0:03:06.07,0:03:06.91,Maemi,,0,0,0,karaoke,{\k12}Cuz {\k20}we {\k23}so {\k29}cute
+Comment: 0,0:03:07.12,0:03:08.72,Maemi,,0,0,0,karaoke,{\k23}That's {\k23}why {\k20}we {\k27}so {\k49}hug{\k18}-e
+Comment: 0,0:03:08.99,0:03:10.63,Maemi,,0,0,0,karaoke,{\k15}Ha{\k9}ra{\k14}ju{\k11}ku {\k20}girls {\k22}know {\k16}how {\k22}I {\k23}FEE{\k12}L
+Comment: 0,0:03:10.90,0:03:12.46,Maemi,,0,0,0,karaoke,{\k21}They {\k22}res{\k27}pect {\k14}I {\k22}keeps {\k12}it {\k12}RE{\k13}A{\k13}L
+Comment: 0,0:03:12.59,0:03:15.22,Maemi,,0,0,0,karaoke,{\k7}Not {\k12}a {\k26}Chi{\k20}na{\k25}man {\k10}cuz {\k16}I {\k21}ain't {\k19}from {\k25}Chi{\k23}na, {\k59}man
+Comment: 0,0:03:15.39,0:03:17.40,Maemi,,0,0,0,karaoke,{\k19}I {\k26}am {\k27}Ja{\k45}pan{\k84}man
+Comment: 0,0:03:16.57,0:03:19.65,Sub,,0,0,0,karaoke,{\k44}wa{\k46}ta{\k27}shi {\k50}wa {\k21}To{\k21}ky{\k26}o {\k23}su{\k50}ki
+Comment: 0,0:03:20.12,0:03:20.97,Maemi,,0,0,0,karaoke,{\k17}You {\k13}see {\k6}me {\k7}go {\k14}co{\k14}ming {\k14}out
+Comment: 0,0:03:20.97,0:03:22.38,Maemi,,0,0,0,karaoke,{\k10}Of {\k18}the {\k27}black {\k26}Benz {\k17}S{\k13}L{\k30}R?
+Comment: 0,0:03:20.32,0:03:23.67,Sub,,0,0,0,karaoke,{\k51}wa{\k37}ta{\k29}shi {\k48}no {\k26}ku{\k16}ru{\k31}ma {\k25}su{\k46}te{\k26}ki
+Comment: 0,0:03:24.14,0:03:25.72,Maemi,,0,0,0,karaoke,{\k11}I {\k14}won{\k13}der {\k20}where {\k7}he {\k15}get {\k15}that {\k17}kind {\k13}of {\k15}mo{\k18}ney
+Comment: 0,0:03:24.14,0:03:27.21,Sub,,0,0,0,karaoke,{\k39}a{\k56}na{\k27}ta {\k44}mo {\k21}To{\k23}ky{\k13}o {\k34}su{\k50}ki
+Comment: 0,0:03:27.44,0:03:28.20,Maemi,,0,0,0,karaoke,{\k15}Don't {\k11}wor{\k10}ry {\k7}a{\k13}bout {\k20}it
+Comment: 0,0:03:27.91,0:03:36.89,Sub,,0,0,0,karaoke,{\k44}a{\k51}na{\k24}ta {\k49}no {\k20}ku{\k23}ru{\k25}ma {\k24}su{\k43}te{\kf595}ki
+Comment: 0,0:03:30.94,0:03:31.46,SubM,,0,0,0,karaoke,{\k24}Let's {\k28}go
+Comment: 0,0:03:31.46,0:03:32.83,All,,0,0,0,karaoke,{\k22}I {\k25}won{\k13}der {\k28}if {\k26}you {\k23}know
+Comment: 0,0:03:33.11,0:03:34.72,All,,0,0,0,karaoke,{\k23}How {\k26}they {\k23}live {\k19}in {\k26}To{\k20}ky{\k24}o
+Comment: 0,0:03:34.75,0:03:34.99,Sub,,0,0,0,karaoke,{\k24}hai
+Comment: 0,0:03:34.99,0:03:36.78,All,,0,0,0,karaoke,{\k20}If {\k24}you {\k28}seen {\k19}it, {\k22}then {\k25}you {\k27}mean {\k14}it
+Comment: 0,0:03:36.89,0:03:38.55,All,,0,0,0,karaoke,{\k22}Then {\k24}you {\k20}know {\k16}you {\k34}have {\k24}to {\k26}go
+Comment: 0,0:03:38.76,0:03:40.84,All,,0,0,0,karaoke,{\k26}Fast {\k22}and {\k9}Fu{\k14}ri{\kf137}ous!
+Comment: 0,0:03:40.21,0:03:41.39,Sub,,0,0,0,karaoke,{\k12}ki{\kf106}ta
+Comment: 0,0:03:41.13,0:03:42.56,All,,0,0,0,karaoke,{\k66}Drift, {\k52}drift, {\k25}drift
+Comment: 0,0:03:42.56,0:03:44.63,All,,0,0,0,karaoke,{\k24}Fast {\k21}and {\k10}Fu{\k10}ri{\kf142}ous!
+Comment: 0,0:03:43.98,0:03:45.17,Sub,,0,0,0,karaoke,{\k13}ki{\kf106}ta
+Comment: 0,0:03:44.89,0:03:46.29,All,,0,0,0,karaoke,{\k69}Drift, {\k49}drift, {\k22}drift
+Comment: 0,0:03:46.57,0:03:47.93,All,,0,0,0,karaoke,{\k22}I {\k29}won{\k16}der {\k28}if {\k21}you {\k20}know
+Comment: 0,0:03:48.21,0:03:49.84,All,,0,0,0,karaoke,{\k24}How {\k25}they {\k25}live {\k18}in {\k28}To{\k23}ky{\k20}o
+Comment: 0,0:03:49.84,0:03:50.11,Sub,,0,0,0,karaoke,{\k27}hai
+Comment: 0,0:03:50.11,0:03:51.91,All,,0,0,0,karaoke,{\k20}If {\k24}you {\k29}seen {\k18}it, {\k25}then {\k21}you {\k28}mean {\k15}it
+Comment: 0,0:03:52.01,0:03:53.66,All,,0,0,0,karaoke,{\k21}Then {\k26}you {\k19}know {\k18}you {\k32}have {\k24}to {\k25}go
+Comment: 0,0:03:53.87,0:03:55.98,All,,0,0,0,karaoke,{\k26}Fast {\k22}and {\k10}Fu{\k13}ri{\kf140}ous!
+Comment: 0,0:03:55.29,0:03:56.52,Sub,,0,0,0,karaoke,{\k13}ki{\kf110}ta
+Comment: 0,0:03:56.23,0:03:57.67,All,,0,0,0,karaoke,{\k69}Drift, {\k50}drift, {\k25}drift
+Comment: 0,0:03:57.67,0:03:59.76,All,,0,0,0,karaoke,{\k24}Fast {\k23}and {\k9}Fu{\k11}ri{\kf142}ous!
+Comment: 0,0:03:59.10,0:04:00.33,Sub,,0,0,0,karaoke,{\k14}ki{\kf109}ta
+Comment: 0,0:04:00.01,0:04:01.42,All,,0,0,0,karaoke,{\k70}Drift, {\k48}drift, {\k26}drift
+Dialogue: 0,0:00:00.00,0:00:10.05,All,,0,0,220,fx,{\k0\fad(0,200)}{\k1500}{\k0}{\rMaemi}Maemi {\2c&HFFFFFF&}- {\rNasa}Nasa
+Dialogue: 0,0:00:00.00,0:00:10.05,All,,0,0,190,fx,{\k0\fad(0,200)}{\k1500}{\k0}{\rAll}All
+Dialogue: 0,0:00:00.31,0:00:02.03,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k45}ah {\k17}ah
+Dialogue: 0,0:00:02.19,0:00:04.25,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k49}ah {\k47}ah
+Dialogue: 0,0:00:04.09,0:00:06.14,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k47}ah {\k48}ah
+Dialogue: 0,0:00:05.98,0:00:08.03,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k47}ah {\k48}ah
+Dialogue: 0,0:00:07.87,0:00:10.05,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k47}ah {\k61}ah
+Dialogue: 0,0:00:09.76,0:00:11.87,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k39}ah {\k62}ah
+Dialogue: 0,0:00:10.18,0:00:12.67,All,,0,0,0,fx,{\k90\fad(300,200)}{\k26}I {\k18}won{\k17}der {\k31}if {\k21}you {\k26}know
+Dialogue: 0,0:00:11.67,0:00:13.73,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k42}ah {\k54}ah
+Dialogue: 0,0:00:11.87,0:00:14.60,All,,0,0,0,fx,{\k90\fad(300,200)}{\k22}How {\k27}they {\k22}live {\k22}in {\k25}To{\k23}ky{\k22}o
+Dialogue: 0,0:00:13.50,0:00:14.86,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k26}hai
+Dialogue: 0,0:00:13.76,0:00:16.65,All,,0,0,0,fx,{\k90\fad(300,200)}{\k21}If {\k25}you {\k23}seen {\k25}it, {\k22}then {\k24}you {\k27}mean {\k12}it
+Dialogue: 0,0:00:15.44,0:00:17.15,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k46}ah {\k15}ah
+Dialogue: 0,0:00:15.66,0:00:18.37,All,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Then {\k23}you {\k25}know {\k18}you {\k27}have {\k23}to {\k21}go
+Dialogue: 0,0:00:17.33,0:00:19.48,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k44}ah {\k61}ah
+Dialogue: 0,0:00:17.52,0:00:20.64,All,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Fast {\k22}and {\k11}Fu{\k9}ri{\kf133}ous!
+Dialogue: 0,0:00:18.99,0:00:21.32,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k7}ki{\kf116}ta
+Dialogue: 0,0:00:19.69,0:00:20.96,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ah
+Dialogue: 0,0:00:19.89,0:00:22.43,All,,0,0,0,fx,{\k90\fad(300,200)}{\k66}Drift, {\k53}drift, {\k25}drift
+Dialogue: 0,0:00:21.33,0:00:24.46,All,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Fast {\k21}and {\k12}Fu{\k9}ri{\kf138}ous!
+Dialogue: 0,0:00:22.72,0:00:25.06,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ki{\kf111}ta
+Dialogue: 0,0:00:23.48,0:00:24.70,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ah
+Dialogue: 0,0:00:23.67,0:00:26.20,All,,0,0,0,fx,{\k90\fad(300,200)}{\k70}Drift, {\k50}drift, {\k23}drift
+Dialogue: 0,0:00:25.35,0:00:27.05,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k60}ah
+Dialogue: 0,0:00:25.35,0:00:27.79,All,,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k23}won{\k21}der {\k27}if {\k21}you {\k18}know
+Dialogue: 0,0:00:26.97,0:00:29.70,All,,0,0,0,fx,{\k90\fad(300,200)}{\k26}How {\k24}they {\k21}live {\k24}in {\k25}To{\k24}ky{\k19}o
+Dialogue: 0,0:00:28.60,0:00:29.90,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k20}hai
+Dialogue: 0,0:00:28.89,0:00:31.81,All,,0,0,0,fx,{\k90\fad(300,200)}{\k19}If {\k25}you {\k22}seen {\k25}it, {\k25}then {\k24}you {\k24}mean {\k18}it
+Dialogue: 0,0:00:30.79,0:00:33.51,All,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Then {\k27}you {\k20}know {\k17}you {\k29}have {\k26}to {\k23}go
+Dialogue: 0,0:00:32.63,0:00:35.79,All,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Fast {\k22}and {\k10}Fu{\k10}ri{\kf137}ous!
+Dialogue: 0,0:00:34.10,0:00:36.43,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k9}ki{\kf114}ta
+Dialogue: 0,0:00:34.99,0:00:37.54,All,,0,0,0,fx,{\k90\fad(300,200)}{\k69}Drift, {\k51}drift, {\k25}drift
+Dialogue: 0,0:00:36.44,0:00:39.62,All,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Fast {\k25}and {\k9}Fu{\k10}ri{\kf141}ous!
+Dialogue: 0,0:00:37.88,0:00:40.19,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ki{\kf109}ta
+Dialogue: 0,0:00:38.77,0:00:41.31,All,,0,0,0,fx,{\k90\fad(300,200)}{\k70}Drift, {\k48}drift, {\k26}drift
+Dialogue: 0,0:00:41.33,0:00:43.32,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k9}o{\k12}ma{\k13}chi{\k23}dou {\k13}sa{\k19}ma
+Dialogue: 0,0:00:42.26,0:00:45.58,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ken{\k23}so {\k15}ma{\k7}mi{\k10}re {\k12}ko{\k13}no{\k13}ma{\k11}chi {\k15}no {\k19}en{\k25}sou {\k11}da{\k23}ma
+Dialogue: 0,0:00:44.59,0:00:47.24,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k8}ta{\k16}ma{\k14}ma {\k10}i{\k12}chi{\k14}do {\k12}tsu{\k12}i{\k10}te {\k25}oi{\k22}de
+Dialogue: 0,0:00:46.22,0:00:49.51,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k15}se{\k21}kai{\k27}jyu {\k9}mi{\k9}ru {\k15}yo {\k11}su{\k15}ru{\k13}ho{\k7}do{\k15}ni {\k24}gou{\k12}ka{\k26}na
+Dialogue: 0,0:00:48.27,0:00:49.54,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ah
+Dialogue: 0,0:00:48.53,0:00:51.25,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Ja{\k70}pan, {\k9}i{\k16}chi{\k44}ban
+Dialogue: 0,0:00:48.93,0:00:51.28,SubM,,0,0,0,fx,{\k90\fad(300,200)}{\k97}woah, {\k28}woah
+Dialogue: 0,0:00:50.30,0:00:53.10,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k27}JUMP {\k7}A{\k23}ROUND {\k22}saa {\k23}uchira {\k13}no {\k14}de{\k41}ban
+Dialogue: 0,0:00:51.79,0:00:53.16,SubM,,0,0,0,fx,{\k90\fad(300,200)}{\k27}woah
+Dialogue: 0,0:00:52.06,0:00:54.88,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Te{\k11}ri{\k10}ya{\k12}ki {\k24}Boyz {\k10}in {\k12}the {\k24}place {\k17}to {\k38}be
+Dialogue: 0,0:00:53.84,0:00:56.84,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k10}mi{\k13}se{\k12}te {\k8}ya{\k15}ru {\k15}ORIGI{\k12}NA{\k21}L {\k19}V{\k20}.I{\k45}.P
+Dialogue: 0,0:00:54.35,0:00:56.64,SubM,,0,0,0,fx,{\k90\fad(300,200)}{\k93}hai, {\k26}hai!
+Dialogue: 0,0:00:55.81,0:00:58.48,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k12}Ma{\k14}ny {\k10}ma{\k14}ny {\k19}dia{\k28}monds {\k25}dan{\k12}g{\k23}lin'
+Dialogue: 0,0:00:57.73,0:01:00.38,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Bag {\k17}full {\k12}of {\k23}mo{\k9}ney {\k15}we {\k25}stran{\k9}g{\k27}lin'
+Dialogue: 0,0:00:59.57,0:01:02.54,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Hate {\k28}me, {\k23}fry {\k23}me, {\k22}bake {\k23}me, {\k24}try {\k20}me
+Dialogue: 0,0:01:01.50,0:01:04.16,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k23}All {\k11}the {\k11}a{\k25}bove {\k11}'cause {\k11}you {\k25}can't {\k16}get {\k23}in
+Dialogue: 0,0:01:03.39,0:01:06.11,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k28}don't {\k23}want {\k25}no {\k10}P{\k11}RO{\k12}B{\k14}LE{\k20}M
+Dialogue: 0,0:01:05.01,0:01:06.31,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ah
+Dialogue: 0,0:01:05.27,0:01:07.98,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Be{\k20}cause {\k28}me {\k8}P{\k16}RO{\k24}FES{\k12}SIO{\k12}NA{\k18}L
+Dialogue: 0,0:01:06.93,0:01:08.21,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ah
+Dialogue: 0,0:01:07.15,0:01:10.14,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Make {\k21}you, {\k24}shake {\k23}your {\k20}ke{\k29}tsu {\k24}thank {\k21}you!
+Dialogue: 0,0:01:09.06,0:01:11.75,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ha{\k26}ters {\k22}take {\k26}it {\k22}PER{\k12}SO{\k13}NA{\k16}L
+Dialogue: 0,0:01:10.65,0:01:13.66,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Like {\k13}a {\k21}ka{\k14}na{\k37}da {\k23}tai {\k25}te{\k12}tsu {\k29}wo
+Dialogue: 0,0:01:12.61,0:01:15.30,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k9}Ne{\k15}o {\k32}To{\k33}kyo {\k29}me{\k13}tsu{\k28}bou
+Dialogue: 0,0:01:14.24,0:01:17.19,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k15}na{\k8}ku{\k27}nac{\k12}chi{\k22}mau {\k22}mae {\k13}ni {\k25}ne{\k14}tsu {\k27}wo
+Dialogue: 0,0:01:16.14,0:01:19.32,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k23}has{\k25}san {\k12}shi {\k23}kit{\k13}chi{\k22}ma{\k14}ou {\k12}ze, {\k33}let's {\k31}go
+Dialogue: 0,0:01:18.22,0:01:22.17,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ne{\k12}tsu{\k36}bou {\k23}zu{\k6}-hi{\k11}ru {\k8}gi{\k22}-rop{\k25}pon {\k11}LA{\k10}B {\k10}ka{\k15}ra {\k33}ES{\k34}CORT
+Dialogue: 0,0:01:21.11,0:01:23.21,SubM,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ee?! {\k17}su{\k53}goi
+Dialogue: 0,0:01:21.97,0:01:24.94,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ni{\k19}ju{\k33}roku{\k22}-gou {\k13}ja{\k25}nai {\k30}Ni{\k31}go
+Dialogue: 0,0:01:23.93,0:01:26.93,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k25}nyuu{\k23}ryoku {\k13}so{\k12}ru {\k10}no {\k12}za{\k26}hyou {\k32}PIN{\k37}POINT
+Dialogue: 0,0:01:25.83,0:01:28.32,All,,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k27}won{\k17}der {\k25}if {\k22}you {\k25}know
+Dialogue: 0,0:01:27.47,0:01:30.20,All,,0,0,0,fx,{\k90\fad(300,200)}{\k23}How {\k26}they {\k20}live {\k23}in {\k26}To{\k25}ky{\k20}o
+Dialogue: 0,0:01:29.10,0:01:30.41,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k21}try
+Dialogue: 0,0:01:29.37,0:01:32.37,All,,0,0,0,fx,{\k90\fad(300,200)}{\k20}If {\k24}you {\k21}seen {\k26}it, {\k25}then {\k24}you {\k24}mean {\k26}it
+Dialogue: 0,0:01:31.27,0:01:34.02,All,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Then {\k27}you {\k17}know {\k17}you {\k35}have {\k24}to {\k25}go
+Dialogue: 0,0:01:33.14,0:01:36.33,All,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Fast {\k23}and {\k7}Fu{\k11}ri{\kf142}ous!
+Dialogue: 0,0:01:34.57,0:01:36.90,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k11}ki{\kf112}ta
+Dialogue: 0,0:01:35.50,0:01:38.01,All,,0,0,0,fx,{\k90\fad(300,200)}{\k69}Drift, {\k49}drift, {\k23}drift
+Dialogue: 0,0:01:36.91,0:01:40.11,All,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Fast {\k21}and {\k9}Fu{\k11}ri{\kf142}ous!
+Dialogue: 0,0:01:38.36,0:01:40.65,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k10}ki{\kf109}ta
+Dialogue: 0,0:01:39.29,0:01:41.80,All,,0,0,0,fx,{\k90\fad(300,200)}{\k67}Drift, {\k48}drift, {\k26}drift
+Dialogue: 0,0:01:41.40,0:01:44.26,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k41}hai! {\k9}wa{\k12}ta{\k11}shi {\k12}Te{\k12}ri{\k15}ya{\k33}ki {\k31}Boyz
+Dialogue: 0,0:01:43.23,0:01:46.29,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k20}aa {\k9}to{\k23}iu {\k15}ma {\k13}fu{\k11}ki{\k12}to{\k22}ba{\k24}su {\k27}NOI{\k20}SE
+Dialogue: 0,0:01:45.19,0:01:48.15,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k25}mai{\k22}shin {\k12}shi{\k13}te{\k19}ma{\k28}sunde {\k33}ge {\k34}to
+Dialogue: 0,0:01:47.11,0:01:49.97,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k22}PEN {\k20}no {\k14}ka{\k12}zu {\k24}mo {\k23}fue{\k24}te{\k37}masu
+Dialogue: 0,0:01:48.98,0:01:51.75,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k23}BA{\k22}SI{\k25}C {\k18}SUR{\k7}P{\k46}RISE {\k26}de
+Dialogue: 0,0:01:50.84,0:01:53.64,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ma{\k10}ji {\k22}mai{\k13}ni{\k8}chi {\k7}ga {\k12}a{\k11}bu{\k45}nai {\k28}ze
+Dialogue: 0,0:01:52.70,0:01:55.96,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k19}nin{\k12}ja{\k20}-fuu {\k16}ken{\k10}ja{\k33}-fuu {\k13}da{\k11}ke{\k13}do {\k21}gei{\k48}sha
+Dialogue: 0,0:01:54.90,0:01:58.05,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k22}BA{\k9}PE {\k16}no {\k11}wa{\k11}ku{\k24}sei {\k10}ka{\k13}ra {\k10}no {\k13}shi{\k66}sha
+Dialogue: 0,0:01:56.29,0:01:59.00,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k13}You {\k12}should {\k24}see {\k22}me {\k9}in {\k16}the {\k20}par{\k12}king {\k33}lot
+Dialogue: 0,0:01:57.97,0:01:59.26,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ah
+Dialogue: 0,0:01:58.31,0:02:00.92,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Se{\k22}ven{\k7}-e{\k15}le{\k15}ven {\k22}is {\k16}the {\k32}spot
+Dialogue: 0,0:01:59.83,0:02:01.11,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ah
+Dialogue: 0,0:02:00.07,0:02:02.80,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Bikes {\k17}with {\k29}wings {\k31}and {\k24}shi{\k17}ny {\k20}things
+Dialogue: 0,0:02:01.72,0:02:04.26,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k20}And {\k50}lions, {\k27}ti{\k21}gers, {\k26}bears
+Dialogue: 0,0:02:03.40,0:02:05.55,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Oh, {\k26}my {\k60}ride
+Dialogue: 0,0:02:04.57,0:02:06.73,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k23}We're {\k7}fu{\k6}ri{\k11}ous {\k25}and {\k34}fast
+Dialogue: 0,0:02:05.73,0:02:08.71,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Su{\k12}per{\k21}so{\k13}nic {\k25}like {\k25}J.{\k23}J. {\k27}Fad {\k19}and
+Dialogue: 0,0:02:07.85,0:02:10.31,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k27}We {\k22}ride {\k9}till {\k16}the {\k21}wheels {\k14}are {\k27}flat
+Dialogue: 0,0:02:09.53,0:02:12.27,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Can't {\k24}beat {\k23}that {\k10}with {\k14}a {\k22}base{\k25}ball {\k22}bat
+Dialogue: 0,0:02:11.17,0:02:13.65,SubM,,0,0,0,fx,{\k90\fad(300,200)}{\k24}on {\kf114}fuu
+Dialogue: 0,0:02:11.17,0:02:14.10,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k10}LIKE {\k14}A {\k32}kou{\k40}an {\k7}kyuu-{\k17}ka {\k31}Togu{\k32}sa
+Dialogue: 0,0:02:13.05,0:02:16.08,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ma{\k10}te{\k19}ba {\k27}ii {\k23}zehi {\k19}so{\k14}ku {\k32}sai{\k32}you
+Dialogue: 0,0:02:14.99,0:02:17.95,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k23}IN{\k19}TER{\k31}CEP{\k24}TOR {\k13}shi{\k14}te {\k34}koku{\k28}sai
+Dialogue: 0,0:02:16.91,0:02:19.56,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k13}te{\k7}ki {\k31}han{\k25}zai {\k14}wa {\k34}ban{\k31}zai
+Dialogue: 0,0:02:18.52,0:02:20.05,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k43}ah
+Dialogue: 0,0:02:18.70,0:02:20.62,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ho{\k11}ra {\k37}HANDS {\k19}UP
+Dialogue: 0,0:02:19.69,0:02:22.43,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k12}PHAR{\k11}REL{\k10}L {\k14}ga {\k13}BOM{\k11}B {\k26}otosu{\k21}to {\k13}odo{\k10}ri {\k23}dasu
+Dialogue: 0,0:02:21.35,0:02:23.59,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ko{\k9}nya {\k17}no {\k34}FOUR {\k32}Boyz
+Dialogue: 0,0:02:22.53,0:02:25.24,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k23}FROM {\k35}FAR {\k31}EAST {\k51}COAS{\k21}T
+Dialogue: 0,0:02:24.19,0:02:25.45,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ah
+Dialogue: 0,0:02:24.35,0:02:26.20,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k27}dou {\k15}sa{\k12}sa{\k21}yaku
+Dialogue: 0,0:02:25.10,0:02:27.73,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k12}wa{\k17}tashi {\k20}no {\rAll}{\k33}GHOS{\k34}T {\k37}wa?
+Dialogue: 0,0:02:26.28,0:02:27.78,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k40}ah
+Dialogue: 0,0:02:26.28,0:02:28.79,All,,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k25}won{\k20}der {\k30}if {\k19}you {\k25}know
+Dialogue: 0,0:02:27.93,0:02:30.66,All,,0,0,0,fx,{\k90\fad(300,200)}{\k23}How {\k28}they {\k24}live {\k19}in {\k27}To{\k23}ky{\k19}o
+Dialogue: 0,0:02:29.59,0:02:30.86,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k17}hai
+Dialogue: 0,0:02:29.85,0:02:32.74,All,,0,0,0,fx,{\k90\fad(300,200)}{\k20}If {\k24}you {\k28}seen {\k18}it, {\k24}then {\k28}you {\k22}mean {\k15}it
+Dialogue: 0,0:02:31.74,0:02:34.49,All,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Then {\k25}you {\k19}know {\k24}you {\k26}have {\k24}to {\k25}go
+Dialogue: 0,0:02:33.62,0:02:36.73,All,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Fast {\k22}and {\k10}Fu{\k13}ri{\kf130}ous!
+Dialogue: 0,0:02:35.02,0:02:37.35,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ki{\kf109}ta
+Dialogue: 0,0:02:35.94,0:02:38.50,All,,0,0,0,fx,{\k90\fad(300,200)}{\k69}Drift, {\k49}drift, {\k28}drift
+Dialogue: 0,0:02:37.40,0:02:40.59,All,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Fast {\k22}and {\k10}Fu{\k10}ri{\kf142}ous!
+Dialogue: 0,0:02:38.83,0:02:41.17,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k11}ki{\kf113}ta
+Dialogue: 0,0:02:39.72,0:02:42.26,All,,0,0,0,fx,{\k90\fad(300,200)}{\k70}Drift, {\k48}drift, {\k26}drift
+Dialogue: 0,0:02:45.18,0:02:48.44,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k37}YEAH, {\k13}Ja{\k19}pan {\k21}mai{\k14}ni{\k18}chi {\k22}do{\k14}ki{\k23}-do{\k10}ki {\k25}desu
+Dialogue: 0,0:02:47.48,0:02:50.41,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k21}HEA{\k12}T {\k22}IS{\k12}LAN{\k13}D {\k22}to{\k12}bi{\k23}-to{\k12}bi {\k34}desu
+Dialogue: 0,0:02:49.33,0:02:52.21,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k11}mo{\k14}e{\k12}ru {\k20}you{\k14}shi {\k12}de {\rAll\k20}bo{\k16}chi{\k18}-bo{\k14}chi {\k27}nee~
+Dialogue: 0,0:02:51.11,0:02:54.26,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k12}te{\k11}ma{\k13}ne{\k12}ki {\k11}de {\k12}sa{\k20}sou {\rAll\k22}koc{\k14}chi{\k24}-koc{\k13}chi {\k41}e
+Dialogue: 0,0:02:53.16,0:02:55.93,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k20}HEAT {\k35}UP {\k11}de {\k12}o{\k23}do{\k13}ri {\k53}sou
+Dialogue: 0,0:02:54.83,0:02:57.90,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ma{\k14}chi{\k20}juu {\k11}su{\k25}bet{\k9}te {\k28}no{\k13}ri{\k60}komu
+Dialogue: 0,0:02:56.54,0:02:59.73,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k17}mec{\k7}cha {\k29}kawari{\k39}mono {\k23}datte {\k51}SHUF{\k43}FLE
+Dialogue: 0,0:02:58.57,0:03:01.35,Nasa,,0,0,0,fx,{\k90\fad(300,200)}{\k10}go{\k12}cha{\k10}-go{\k11}cha {\k15}no {\k19}FAST {\k28}AND {\k15}FU{\k17}RI{\k31}OUS
+Dialogue: 0,0:02:59.33,0:03:00.67,SubM,,0,0,0,fx,{\k90\fad(300,200)}{\k24}yeah
+Dialogue: 0,0:03:00.34,0:03:02.60,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k22}It's {\k11}got{\k10}ta {\k12}be {\k13}the {\k48}shoes
+Dialogue: 0,0:03:01.50,0:03:03.55,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Got{\k11}ta {\k9}be {\k15}the {\k47}furs
+Dialogue: 0,0:03:02.45,0:03:05.18,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k23}That's {\k24}why {\k24}la{\k17}dies {\k53}choose {\k22}me
+Dialogue: 0,0:03:04.08,0:03:05.33,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ah
+Dialogue: 0,0:03:04.34,0:03:06.27,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k11}All {\k9}up {\k13}in {\k12}the {\k38}news
+Dialogue: 0,0:03:05.17,0:03:07.11,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k12}Cuz {\k20}we {\k23}so {\k29}cute
+Dialogue: 0,0:03:06.22,0:03:08.92,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k23}That's {\k23}why {\k20}we {\k27}so {\k49}hug{\k18}-e
+Dialogue: 0,0:03:08.09,0:03:10.83,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Ha{\k9}ra{\k14}ju{\k11}ku {\k20}girls {\k22}know {\k16}how {\k22}I {\k23}FEE{\k12}L
+Dialogue: 0,0:03:10.00,0:03:12.66,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k21}They {\k22}res{\k27}pect {\k14}I {\k22}keeps {\k12}it {\k12}RE{\k13}A{\k13}L
+Dialogue: 0,0:03:11.69,0:03:15.42,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k7}Not {\k12}a {\k26}Chi{\k20}na{\k25}man {\k10}cuz {\k16}I {\k21}ain't {\k19}from {\k25}Chi{\k23}na, {\k59}man
+Dialogue: 0,0:03:14.49,0:03:17.60,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k26}am {\k27}Ja{\k45}pan{\k84}man
+Dialogue: 0,0:03:15.67,0:03:19.85,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k44}wa{\k46}ta{\k27}shi {\k50}wa {\k21}To{\k21}ky{\k26}o {\k23}su{\k50}ki
+Dialogue: 0,0:03:19.22,0:03:21.17,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k17}You {\k13}see {\k6}me {\k7}go {\k14}co{\k14}ming {\k14}out
+Dialogue: 0,0:03:20.07,0:03:22.58,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k10}Of {\k18}the {\k27}black {\k26}Benz {\k17}S{\k13}L{\k30}R?
+Dialogue: 0,0:03:19.42,0:03:23.87,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k51}wa{\k37}ta{\k29}shi {\k48}no {\k26}ku{\k16}ru{\k31}ma {\k25}su{\k46}te{\k26}ki
+Dialogue: 0,0:03:23.24,0:03:25.92,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k11}I {\k14}won{\k13}der {\k20}where {\k7}he {\k15}get {\k15}that {\k17}kind {\k13}of {\k15}mo{\k18}ney
+Dialogue: 0,0:03:23.24,0:03:27.41,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k39}a{\k56}na{\k27}ta {\k44}mo {\k21}To{\k23}ky{\k13}o {\k34}su{\k50}ki
+Dialogue: 0,0:03:26.54,0:03:28.40,Maemi,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Don't {\k11}wor{\k10}ry {\k7}a{\k13}bout {\k20}it
+Dialogue: 0,0:03:27.01,0:03:37.09,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k44}a{\k51}na{\k24}ta {\k49}no {\k20}ku{\k23}ru{\k25}ma {\k24}su{\k43}te{\kf595}ki
+Dialogue: 0,0:03:30.04,0:03:31.66,SubM,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Let's {\k28}go
+Dialogue: 0,0:03:30.56,0:03:33.03,All,,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k25}won{\k13}der {\k28}if {\k26}you {\k23}know
+Dialogue: 0,0:03:32.21,0:03:34.92,All,,0,0,0,fx,{\k90\fad(300,200)}{\k23}How {\k26}they {\k23}live {\k19}in {\k26}To{\k20}ky{\k24}o
+Dialogue: 0,0:03:33.85,0:03:35.19,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k24}hai
+Dialogue: 0,0:03:34.09,0:03:36.98,All,,0,0,0,fx,{\k90\fad(300,200)}{\k20}If {\k24}you {\k28}seen {\k19}it, {\k22}then {\k25}you {\k27}mean {\k14}it
+Dialogue: 0,0:03:35.99,0:03:38.75,All,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Then {\k24}you {\k20}know {\k16}you {\k34}have {\k24}to {\k26}go
+Dialogue: 0,0:03:37.86,0:03:41.04,All,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Fast {\k22}and {\k9}Fu{\k14}ri{\kf137}ous!
+Dialogue: 0,0:03:39.31,0:03:41.59,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ki{\kf106}ta
+Dialogue: 0,0:03:40.23,0:03:42.76,All,,0,0,0,fx,{\k90\fad(300,200)}{\k66}Drift, {\k52}drift, {\k25}drift
+Dialogue: 0,0:03:41.66,0:03:44.83,All,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Fast {\k21}and {\k10}Fu{\k10}ri{\kf142}ous!
+Dialogue: 0,0:03:43.08,0:03:45.37,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ki{\kf106}ta
+Dialogue: 0,0:03:43.99,0:03:46.49,All,,0,0,0,fx,{\k90\fad(300,200)}{\k69}Drift, {\k49}drift, {\k22}drift
+Dialogue: 0,0:03:45.67,0:03:48.13,All,,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k29}won{\k16}der {\k28}if {\k21}you {\k20}know
+Dialogue: 0,0:03:47.31,0:03:50.04,All,,0,0,0,fx,{\k90\fad(300,200)}{\k24}How {\k25}they {\k25}live {\k18}in {\k28}To{\k23}ky{\k20}o
+Dialogue: 0,0:03:48.94,0:03:50.31,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k27}hai
+Dialogue: 0,0:03:49.21,0:03:52.11,All,,0,0,0,fx,{\k90\fad(300,200)}{\k20}If {\k24}you {\k29}seen {\k18}it, {\k25}then {\k21}you {\k28}mean {\k15}it
+Dialogue: 0,0:03:51.11,0:03:53.86,All,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Then {\k26}you {\k19}know {\k18}you {\k32}have {\k24}to {\k25}go
+Dialogue: 0,0:03:52.97,0:03:56.18,All,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Fast {\k22}and {\k10}Fu{\k13}ri{\kf140}ous!
+Dialogue: 0,0:03:54.39,0:03:56.72,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ki{\kf110}ta
+Dialogue: 0,0:03:55.33,0:03:57.87,All,,0,0,0,fx,{\k90\fad(300,200)}{\k69}Drift, {\k50}drift, {\k25}drift
+Dialogue: 0,0:03:56.77,0:03:59.96,All,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Fast {\k23}and {\k9}Fu{\k11}ri{\kf142}ous!
+Dialogue: 0,0:03:58.20,0:04:00.53,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ki{\kf109}ta
+Dialogue: 0,0:03:59.11,0:04:01.62,All,,0,0,0,fx,{\k90\fad(300,200)}{\k70}Drift, {\k48}drift, {\k26}drift
