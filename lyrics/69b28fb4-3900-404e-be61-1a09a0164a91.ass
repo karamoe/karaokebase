@@ -1,0 +1,178 @@
+﻿[Script Info]
+Title: Daidaidaidai Daisuki na Kimi he
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Zeflipsplash
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Mel,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sub,Arial,24,&H00B17CC7,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.57,0:00:00.57,Mel,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:14.04,0:00:14.65,Sub,,0,0,0,karaoke,{\k32}vamp {\k29}up
+Comment: 0,0:00:16.06,0:00:16.55,Sub,,0,0,0,karaoke,{\k22}vamp {\k27}up
+Comment: 0,0:00:18.00,0:00:18.53,Sub,,0,0,0,karaoke,{\k24}vamp {\k29}up
+Comment: 0,0:00:19.84,0:00:20.41,Sub,,0,0,0,karaoke,{\k32}vamp {\k25}up
+Comment: 0,0:00:21.87,0:00:22.38,Sub,,0,0,0,karaoke,{\k24}vamp {\k27}up
+Comment: 0,0:00:23.79,0:00:24.29,Sub,,0,0,0,karaoke,{\k24}vamp {\k26}up
+Comment: 0,0:00:25.72,0:00:26.28,Sub,,0,0,0,karaoke,{\k25}vamp {\k31}up
+Comment: 0,0:00:27.68,0:00:29.10,Mel,,0,0,0,karaoke,{\k47}HI {\k24}mi{\k25}na {\k24}LIST{\k22}EN
+Comment: 0,0:00:29.13,0:00:31.03,Mel,,0,0,0,karaoke,{\k14}CAN {\k10}YOU {\k24}SEE {\k12}ta{\k11}no{\k25}shii {\k14}ji{\k10}ki {\k15}ji{\k11}ki {\k22}LES{\k22}SON
+Comment: 0,0:00:31.06,0:00:32.93,Mel,,0,0,0,karaoke,{\k24}I'm {\k21}a {\k27}ge{\k11}ni{\k37}us {\k26}vam{\k22}pi{\k19}re
+Comment: 0,0:00:33.00,0:00:34.93,Mel,,0,0,0,karaoke,{\k23}CUTE {\k25}& {\k24}SE{\k24}XY {\k17}gut {\k6}to {\k18}han{\k8}pa{\k14}na {\k10}i{\k24}ya
+Comment: 0,0:00:35.18,0:00:36.55,Mel,,0,0,0,karaoke,{\k22}Ah {\k27}sor{\k22}ry, {\k24}I {\k25}hate {\k17}blood
+Comment: 0,0:00:36.63,0:00:38.55,Mel,,0,0,0,karaoke,{\k23}ato {\k13}so{\k11}re {\k13}ka{\k13}ra {\k23}LIKE {\k24}YOU, {\k24}NOT {\k25}TOO {\k23}BAD
+Comment: 0,0:00:38.80,0:00:41.13,Mel,,0,0,0,karaoke,{\k5}E{\k11}VE{\k8}RY {\k14}TI{\k10}ME {\k21}gus{\k28}su{\k36}ri {\k13}shi {\k24}ta{\k13}ri {\k12}shi{\k23}ta{\k15}i
+Comment: 0,0:00:41.22,0:00:42.61,Mel,,0,0,0,karaoke,{\k24}Plea{\k13}se {\k24}have {\k11}a {\k25}good {\k42}time
+Comment: 0,0:00:43.13,0:00:46.29,Mel,,0,0,0,karaoke,{\k74}yo{\k25}ru {\k70}wo {\k27}tsu{\k24}ge{\k14}ru {\k23}ka{\k12}ne {\k13}no {\k11}o{\k23}ne
+Comment: 0,0:00:46.54,0:00:48.84,Mel,,0,0,0,karaoke,{\k24}o{\k16}ka{\k33}shi{\k25}i{\k48}naa {\k48}mot{\k36}to
+Comment: 0,0:00:48.88,0:00:50.33,Mel,,0,0,0,karaoke,{\k9}PA{\k24}RA{\k13}DE {\k23}dat{\k15}te {\k21}shi{\k40}you
+Comment: 0,0:00:50.87,0:00:54.04,Mel,,0,0,0,karaoke,{\k75}mot{\k24}to {\k38}mot{\k35}to {\k24}ta{\k23}no{\k16}shi{\k21}n{\k10}de {\k29}chou{\k22}dai
+Comment: 0,0:00:54.29,0:00:56.57,Mel,,0,0,0,karaoke,{\k23}o{\k23}ka{\k50}shi {\k47}mo {\k50}mot{\k35}to
+Comment: 0,0:00:56.62,0:00:58.58,Mel,,0,0,0,karaoke,{\k9}T{\k23}RIC{\k13}K {\k24}dat{\k11}te {\k25}shi{\k48}you{\k43}yo
+Comment: 0,0:00:58.63,0:01:00.08,Mel,,0,0,0,karaoke,{\kf145}mou
+Comment: 0,0:01:02.02,0:01:03.36,Mel,,0,0,0,karaoke,{\k49}ii{\kf85}yo
+Comment: 0,0:01:05.90,0:01:07.06,Mel,,0,0,0,karaoke,{\k29}o{\k20}i{\k67}de
+Comment: 0,0:01:06.88,0:01:07.86,Sub,,0,0,0,karaoke,{\k29}o{\k20}i{\k49}de
+Comment: 0,0:01:07.79,0:01:08.86,Mel,,0,0,0,karaoke,{\k53}sa{\k54}a
+Comment: 0,0:01:08.80,0:01:09.77,Sub,,0,0,0,karaoke,{\k52}sa{\k45}a
+Comment: 0,0:01:09.77,0:01:12.56,Mel,,0,0,0,karaoke,{\k49}te {\k91}no {\k31}na{\k23}ru {\k48}hou {\k37}he
+Comment: 0,0:01:13.05,0:01:13.90,Mel,,0,0,0,karaoke,{\k58}se{\k27}no
+Comment: 0,0:01:14.13,0:01:15.83,Mel,,0,0,0,karaoke,{\k23}o{\k24}do{\k25}ro{\k24}u {\k25}RA{\k24}LI{\k25}LA
+Comment: 0,0:01:16.06,0:01:17.75,Mel,,0,0,0,karaoke,{\k24}u{\k24}ta{\k24}o{\k25}u {\k24}RA{\k25}LI{\k23}LA
+Comment: 0,0:01:17.96,0:01:21.70,Mel,,0,0,0,karaoke,{\k23}sa{\k29}a {\k21}yo{\k28}zo{\k24}ra {\k22}no {\k26}mot{\k23}to {\k22}a{\k26}tsu{\k26}ma{\k23}re {\k49}wow {\k32}wow
+Comment: 0,0:01:21.87,0:01:23.57,Mel,,0,0,0,karaoke,{\k21}i{\k18}s{\k32}sho {\k26}ni {\k23}LA {\k25}LA {\k25}LA
+Comment: 0,0:01:23.80,0:01:25.50,Mel,,0,0,0,karaoke,{\k21}a{\k28}so{\k23}bo{\k25}u {\k25}LA {\k23}LA {\k25}LA
+Comment: 0,0:01:25.73,0:01:27.61,Mel,,0,0,0,karaoke,{\k25}mo{\k12}u {\k24}tok{\k11}ku{\k14}ni {\k11}na{\k25}ka{\k25}ma{\k21}da{\k20}yo
+Comment: 0,0:01:27.67,0:01:28.99,Mel,,0,0,0,karaoke,{\k48}I {\k37}ka{\k10}pu {\k37}YOU
+Comment: 0,0:01:29.59,0:01:30.57,Mel,,0,0,0,karaoke,{\kf98}uuuh!
+Comment: 0,0:01:30.57,0:01:31.82,Sub,,0,0,0,karaoke,{\kf125}uuuh!
+Comment: 0,0:01:31.53,0:01:32.41,Mel,,0,0,0,karaoke,{\kf88}wahhh!
+Comment: 0,0:01:32.51,0:01:33.44,Sub,,0,0,0,karaoke,{\kf93}wahhh!
+Comment: 0,0:01:33.23,0:01:34.43,Mel,,0,0,0,karaoke,{\k25}Say {\kf95}fooo!
+Comment: 0,0:01:34.43,0:01:35.50,Sub,,0,0,0,karaoke,{\kf107}fooo!
+Comment: 0,0:01:35.13,0:01:36.34,Mel,,0,0,0,karaoke,{\k23}Say {\kf98}yeahhh!
+Comment: 0,0:01:36.36,0:01:37.51,Sub,,0,0,0,karaoke,{\kf115}Yeahhh!
+Comment: 0,0:01:37.30,0:01:38.21,Mel,,0,0,0,karaoke,{\kf91}Love
+Comment: 0,0:01:38.31,0:01:39.22,Sub,,0,0,0,karaoke,{\kf91}You!
+Comment: 0,0:01:39.06,0:01:39.41,Mel,,0,0,0,karaoke,{\k22}ka{\k13}pu
+Comment: 0,0:01:40.23,0:01:41.22,Sub,,0,0,0,karaoke,{\kf99}You!
+Comment: 0,0:01:41.22,0:01:42.19,Mel,,0,0,0,karaoke,{\kf97}With
+Comment: 0,0:01:42.19,0:01:43.16,Sub,,0,0,0,karaoke,{\kf97}You!
+Comment: 0,0:01:43.16,0:01:45.88,Mel,,0,0,0,karaoke,{\k78}i{\k19}tsu {\k69}de {\k27}mo {\k79}LOVE
+Comment: 0,0:01:46.00,0:01:47.14,Sub,,0,0,0,karaoke,{\kf114}You!
+Comment: 0,0:01:46.78,0:01:47.14,Mel,,0,0,0,karaoke,{\k23}ka{\k13}pu
+Comment: 0,0:01:47.99,0:01:48.89,Sub,,0,0,0,karaoke,{\kf90}You!
+Comment: 0,0:01:48.89,0:01:49.89,Mel,,0,0,0,karaoke,{\kf100}With
+Comment: 0,0:01:49.89,0:01:50.79,Sub,,0,0,0,karaoke,{\kf90}You!
+Comment: 0,0:01:50.90,0:01:54.12,Mel,,0,0,0,karaoke,{\k72}i{\k25}tsu {\k71}ma{\k26}de {\k48}mo {\k39}is{\k41}sho
+Comment: 0,0:01:54.73,0:01:56.46,Mel,,0,0,0,karaoke,{\k29}ka{\k21}na{\k26}shi{\k25}i {\k23}to{\k26}ki {\k23}mo
+Comment: 0,0:01:56.69,0:01:58.37,Mel,,0,0,0,karaoke,{\k28}sa{\k20}bi{\k26}shi{\k25}i {\k23}to{\k24}ki {\k22}mo
+Comment: 0,0:01:58.65,0:02:02.28,Mel,,0,0,0,karaoke,{\k22}o{\k25}chi{\k23}ko{\k27}mu {\k22}to{\k26}ki {\k23}to{\k24}ka {\k27}a{\k22}ru{\k25}ke{\k23}do {\k50}kit{\k24}to
+Comment: 0,0:02:02.50,0:02:04.19,Mel,,0,0,0,karaoke,{\k24}ki{\k25}mi {\k24}ga {\k25}i{\k17}ru{\k32}ka{\k22}ra
+Comment: 0,0:02:04.43,0:02:06.12,Mel,,0,0,0,karaoke,{\k26}so{\k23}ba {\k25}ni {\k24}i{\k25}ru{\k24}ka{\k22}ra
+Comment: 0,0:02:06.37,0:02:09.57,Mel,,0,0,0,karaoke,{\k25}ge{\k18}n{\k28}ki {\k27}ni {\k25}na{\k21}re{\k26}cha{\k25}u {\k49}n{\k47}da{\k29}yo
+Comment: 0,0:02:10.25,0:02:11.96,Mel,,0,0,0,karaoke,{\k23}o{\k25}do{\k24}ro{\k24}u {\k25}RA{\k24}LI{\k26}LA
+Comment: 0,0:02:12.18,0:02:13.92,Mel,,0,0,0,karaoke,{\k25}u{\k24}ta{\k23}o{\k25}u {\k24}RA{\k25}LI{\k28}LA
+Comment: 0,0:02:14.09,0:02:17.82,Mel,,0,0,0,karaoke,{\k26}sa{\k26}a {\k23}yo{\k26}zo{\k24}ra {\k22}no {\k26}mot{\k23}to {\k22}a{\k26}tsu{\k26}ma{\k23}re {\k49}wow {\k31}wow
+Comment: 0,0:02:18.00,0:02:19.69,Mel,,0,0,0,karaoke,{\k21}i{\k18}s{\k32}sho {\k26}ni {\k23}LA {\k25}LA {\k24}LA
+Comment: 0,0:02:19.93,0:02:21.60,Mel,,0,0,0,karaoke,{\k21}a{\k28}so{\k23}bo{\k25}u {\k23}LA {\k25}LA {\k22}LA
+Comment: 0,0:02:21.82,0:02:23.70,Mel,,0,0,0,karaoke,{\k21}mo{\k20}u {\k23}tok{\k12}ku{\k13}ni {\k12}na{\k24}ka{\k25}ma{\k22}da{\k16}yo
+Comment: 0,0:02:23.81,0:02:25.10,Mel,,0,0,0,karaoke,{\k47}I {\k37}ka{\k9}pu {\k36}YOU
+Comment: 0,0:02:25.67,0:02:27.58,Mel,,0,0,0,karaoke,{\k32}zet{\k17}ta{\k18}i {\k14}ni {\k12}mou {\k11}ha{\k24}na{\k26}sa{\k20}na{\k17}i
+Comment: 0,0:02:27.69,0:02:29.05,Mel,,0,0,0,karaoke,{\k47}I {\k39}lo{\k10}ve {\k40}you
+Comment: 0,0:02:28.90,0:02:29.26,Mel,,0,0,0,karaoke,{\k23}ka{\k13}pu
+Comment: 0,0:02:29.60,0:02:30.10,Sub,,0,0,0,karaoke,{\k25}vamp {\k25}up
+Comment: 0,0:02:31.54,0:02:32.02,Sub,,0,0,0,karaoke,{\k25}vamp {\k23}up
+Comment: 0,0:02:33.48,0:02:33.96,Sub,,0,0,0,karaoke,{\k24}vamp {\k24}up
+Comment: 0,0:02:35.33,0:02:35.90,Sub,,0,0,0,karaoke,{\k33}vamp {\k24}up
+Comment: 0,0:02:37.35,0:02:37.88,Sub,,0,0,0,karaoke,{\k24}vamp {\k29}up
+Comment: 0,0:02:39.28,0:02:39.75,Sub,,0,0,0,karaoke,{\k25}vamp {\k22}up
+Comment: 0,0:02:41.21,0:02:42.17,Sub,,0,0,0,karaoke,{\k25}vamp {\k71}up
+Dialogue: 0,0:00:13.14,0:00:14.85,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k32}vamp {\k29}up
+Dialogue: 0,0:00:15.16,0:00:16.75,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k22}vamp {\k27}up
+Dialogue: 0,0:00:17.10,0:00:18.73,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k24}vamp {\k29}up
+Dialogue: 0,0:00:18.94,0:00:20.61,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k32}vamp {\k25}up
+Dialogue: 0,0:00:20.97,0:00:22.58,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k24}vamp {\k27}up
+Dialogue: 0,0:00:22.89,0:00:24.49,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k24}vamp {\k26}up
+Dialogue: 0,0:00:24.82,0:00:26.48,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k25}vamp {\k31}up
+Dialogue: 0,0:00:26.78,0:00:29.30,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k47}HI {\k24}mi{\k25}na {\k24}LIST{\k22}EN
+Dialogue: 0,0:00:28.23,0:00:31.23,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k14}CAN {\k10}YOU {\k24}SEE {\k12}ta{\k11}no{\k25}shii {\k14}ji{\k10}ki {\k15}ji{\k11}ki {\k22}LES{\k22}SON
+Dialogue: 0,0:00:30.16,0:00:33.13,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k24}I'm {\k21}a {\k27}ge{\k11}ni{\k37}us {\k26}vam{\k22}pi{\k19}re
+Dialogue: 0,0:00:32.10,0:00:35.13,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k23}CUTE {\k25}& {\k24}SE{\k24}XY {\k17}gut {\k6}to {\k18}han{\k8}pa{\k14}na {\k10}i{\k24}ya
+Dialogue: 0,0:00:34.28,0:00:36.75,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ah {\k27}sor{\k22}ry, {\k24}I {\k25}hate {\k17}blood
+Dialogue: 0,0:00:35.73,0:00:38.75,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ato {\k13}so{\k11}re {\k13}ka{\k13}ra {\k23}LIKE {\k24}YOU, {\k24}NOT {\k25}TOO {\k23}BAD
+Dialogue: 0,0:00:37.90,0:00:41.33,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k5}E{\k11}VE{\k8}RY {\k14}TI{\k10}ME {\k21}gus{\k28}su{\k36}ri {\k13}shi {\k24}ta{\k13}ri {\k12}shi{\k23}ta{\k15}i
+Dialogue: 0,0:00:40.32,0:00:42.81,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Plea{\k13}se {\k24}have {\k11}a {\k25}good {\k42}time
+Dialogue: 0,0:00:42.23,0:00:46.49,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k74}yo{\k25}ru {\k70}wo {\k27}tsu{\k24}ge{\k14}ru {\k23}ka{\k12}ne {\k13}no {\k11}o{\k23}ne
+Dialogue: 0,0:00:45.64,0:00:49.04,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k24}o{\k16}ka{\k33}shi{\k25}i{\k48}naa {\k48}mot{\k36}to
+Dialogue: 0,0:00:47.98,0:00:50.53,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k9}PA{\k24}RA{\k13}DE {\k23}dat{\k15}te {\k21}shi{\k40}you
+Dialogue: 0,0:00:49.97,0:00:54.24,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k75}mot{\k24}to {\k38}mot{\k35}to {\k24}ta{\k23}no{\k16}shi{\k21}n{\k10}de {\k29}chou{\k22}dai
+Dialogue: 0,0:00:53.39,0:00:56.77,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k23}o{\k23}ka{\k50}shi {\k47}mo {\k50}mot{\k35}to
+Dialogue: 0,0:00:55.72,0:00:58.78,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k9}T{\k23}RIC{\k13}K {\k24}dat{\k11}te {\k25}shi{\k48}you{\k43}yo
+Dialogue: 0,0:00:57.73,0:01:00.28,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\kf145}mou
+Dialogue: 0,0:01:01.12,0:01:03.56,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k49}ii{\kf85}yo
+Dialogue: 0,0:01:05.00,0:01:07.26,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k29}o{\k20}i{\k67}de
+Dialogue: 0,0:01:05.98,0:01:08.06,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k29}o{\k20}i{\k49}de
+Dialogue: 0,0:01:06.89,0:01:09.06,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k53}sa{\k54}a
+Dialogue: 0,0:01:07.90,0:01:09.97,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k52}sa{\k45}a
+Dialogue: 0,0:01:08.87,0:01:12.76,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k49}te {\k91}no {\k31}na{\k23}ru {\k48}hou {\k37}he
+Dialogue: 0,0:01:12.15,0:01:14.10,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k58}se{\k27}no
+Dialogue: 0,0:01:13.23,0:01:16.03,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k23}o{\k24}do{\k25}ro{\k24}u {\k25}RA{\k24}LI{\k25}LA
+Dialogue: 0,0:01:15.16,0:01:17.95,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k24}u{\k24}ta{\k24}o{\k25}u {\k24}RA{\k25}LI{\k23}LA
+Dialogue: 0,0:01:17.06,0:01:21.90,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k23}sa{\k29}a {\k21}yo{\k28}zo{\k24}ra {\k22}no {\k26}mot{\k23}to {\k22}a{\k26}tsu{\k26}ma{\k23}re {\k49}wow {\k32}wow
+Dialogue: 0,0:01:20.97,0:01:23.77,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k21}i{\k18}s{\k32}sho {\k26}ni {\k23}LA {\k25}LA {\k25}LA
+Dialogue: 0,0:01:22.90,0:01:25.70,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k21}a{\k28}so{\k23}bo{\k25}u {\k25}LA {\k23}LA {\k25}LA
+Dialogue: 0,0:01:24.83,0:01:27.81,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k25}mo{\k12}u {\k24}tok{\k11}ku{\k14}ni {\k11}na{\k25}ka{\k25}ma{\k21}da{\k20}yo
+Dialogue: 0,0:01:26.77,0:01:29.19,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k48}I {\k37}ka{\k10}pu {\k37}YOU
+Dialogue: 0,0:01:28.69,0:01:30.77,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\kf98}uuuh!
+Dialogue: 0,0:01:29.67,0:01:32.02,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\kf125}uuuh!
+Dialogue: 0,0:01:30.63,0:01:32.61,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\kf88}wahhh!
+Dialogue: 0,0:01:31.61,0:01:33.64,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\kf93}wahhh!
+Dialogue: 0,0:01:32.33,0:01:34.63,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Say {\kf95}fooo!
+Dialogue: 0,0:01:33.53,0:01:35.70,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\kf107}fooo!
+Dialogue: 0,0:01:34.23,0:01:36.54,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Say {\kf98}yeahhh!
+Dialogue: 0,0:01:35.46,0:01:37.71,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\kf115}Yeahhh!
+Dialogue: 0,0:01:36.40,0:01:38.41,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\kf91}Love
+Dialogue: 0,0:01:37.41,0:01:39.42,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\kf91}You!
+Dialogue: 0,0:01:38.16,0:01:39.61,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ka{\k13}pu
+Dialogue: 0,0:01:39.33,0:01:41.42,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\kf99}You!
+Dialogue: 0,0:01:40.32,0:01:42.39,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\kf97}With
+Dialogue: 0,0:01:41.29,0:01:43.36,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\kf97}You!
+Dialogue: 0,0:01:42.26,0:01:46.08,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k78}i{\k19}tsu {\k69}de {\k27}mo {\k79}LOVE
+Dialogue: 0,0:01:45.10,0:01:47.34,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\kf114}You!
+Dialogue: 0,0:01:45.88,0:01:47.34,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ka{\k13}pu
+Dialogue: 0,0:01:47.09,0:01:49.09,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\kf90}You!
+Dialogue: 0,0:01:47.99,0:01:50.09,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\kf100}With
+Dialogue: 0,0:01:48.99,0:01:50.99,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\kf90}You!
+Dialogue: 0,0:01:50.00,0:01:54.32,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k72}i{\k25}tsu {\k71}ma{\k26}de {\k48}mo {\k39}is{\k41}sho
+Dialogue: 0,0:01:53.83,0:01:56.66,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ka{\k21}na{\k26}shi{\k25}i {\k23}to{\k26}ki {\k23}mo
+Dialogue: 0,0:01:55.79,0:01:58.57,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k28}sa{\k20}bi{\k26}shi{\k25}i {\k23}to{\k24}ki {\k22}mo
+Dialogue: 0,0:01:57.75,0:02:02.48,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k22}o{\k25}chi{\k23}ko{\k27}mu {\k22}to{\k26}ki {\k23}to{\k24}ka {\k27}a{\k22}ru{\k25}ke{\k23}do {\k50}kit{\k24}to
+Dialogue: 0,0:02:01.60,0:02:04.39,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ki{\k25}mi {\k24}ga {\k25}i{\k17}ru{\k32}ka{\k22}ra
+Dialogue: 0,0:02:03.53,0:02:06.32,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k26}so{\k23}ba {\k25}ni {\k24}i{\k25}ru{\k24}ka{\k22}ra
+Dialogue: 0,0:02:05.47,0:02:09.77,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ge{\k18}n{\k28}ki {\k27}ni {\k25}na{\k21}re{\k26}cha{\k25}u {\k49}n{\k47}da{\k29}yo
+Dialogue: 0,0:02:09.35,0:02:12.16,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k23}o{\k25}do{\k24}ro{\k24}u {\k25}RA{\k24}LI{\k26}LA
+Dialogue: 0,0:02:11.28,0:02:14.12,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k25}u{\k24}ta{\k23}o{\k25}u {\k24}RA{\k25}LI{\k28}LA
+Dialogue: 0,0:02:13.19,0:02:18.02,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k26}sa{\k26}a {\k23}yo{\k26}zo{\k24}ra {\k22}no {\k26}mot{\k23}to {\k22}a{\k26}tsu{\k26}ma{\k23}re {\k49}wow {\k31}wow
+Dialogue: 0,0:02:17.10,0:02:19.89,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k21}i{\k18}s{\k32}sho {\k26}ni {\k23}LA {\k25}LA {\k24}LA
+Dialogue: 0,0:02:19.03,0:02:21.80,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k21}a{\k28}so{\k23}bo{\k25}u {\k23}LA {\k25}LA {\k22}LA
+Dialogue: 0,0:02:20.92,0:02:23.90,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k21}mo{\k20}u {\k23}tok{\k12}ku{\k13}ni {\k12}na{\k24}ka{\k25}ma{\k22}da{\k16}yo
+Dialogue: 0,0:02:22.91,0:02:25.30,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k47}I {\k37}ka{\k9}pu {\k36}YOU
+Dialogue: 0,0:02:24.77,0:02:27.78,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k32}zet{\k17}ta{\k18}i {\k14}ni {\k12}mou {\k11}ha{\k24}na{\k26}sa{\k20}na{\k17}i
+Dialogue: 0,0:02:26.79,0:02:29.25,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k47}I {\k39}lo{\k10}ve {\k40}you
+Dialogue: 0,0:02:28.00,0:02:29.46,Mel,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ka{\k13}pu
+Dialogue: 0,0:02:28.70,0:02:30.30,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k25}vamp {\k25}up
+Dialogue: 0,0:02:30.64,0:02:32.22,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k25}vamp {\k23}up
+Dialogue: 0,0:02:32.58,0:02:34.16,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k24}vamp {\k24}up
+Dialogue: 0,0:02:34.43,0:02:36.10,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k33}vamp {\k24}up
+Dialogue: 0,0:02:36.45,0:02:38.08,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k24}vamp {\k29}up
+Dialogue: 0,0:02:38.38,0:02:39.95,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k25}vamp {\k22}up
+Dialogue: 0,0:02:40.31,0:02:42.37,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k25}vamp {\k71}up
