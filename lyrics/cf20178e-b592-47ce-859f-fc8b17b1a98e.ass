@@ -1,0 +1,74 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+LayoutResX: 0
+LayoutResY: 0
+Title: Severed Wings
+Original Timing: Himbeeerchen
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:39.93,0:00:41.68,Sample KM [Up],,0,0,0,karaoke,{\k33}You {\k18}said {\k37}to {\k87}me
+Comment: 0,0:00:42.38,0:00:46.63,Sample KM [Up],,0,0,0,karaoke,{\k53}Where {\k37}do {\k35}we {\k35}go {\k18}when {\k35}we {\k35}lose {\k36}our {\kf141}wings?
+Comment: 0,0:00:51.22,0:00:52.97,Sample KM [Up],,0,0,0,karaoke,{\k32}It {\k21}seemed {\k35}to {\k87}me
+Comment: 0,0:00:53.34,0:00:57.83,Sample KM [Up],,0,0,0,karaoke,{\k35}Like {\k19}all {\k34}I'd {\k35}be {\k35}is {\k18}the {\k18}ug{\k35}ly {\k35}things {\k53}they'd {\kf132}see
+Comment: 0,0:01:02.77,0:01:06.74,Sample KM [Up],,0,0,0,karaoke,{\k60}Stitched {\k35}on{\k20}to {\k36}my {\k35}back {\k35}through {\k34}li{\k20}ga{\k38}ments {\k33}and {\k51}bone
+Comment: 0,0:01:07.10,0:01:12.00,Sample KM [Up],,0,0,0,karaoke,{\k16}They {\k35}can't {\k55}see {\k35}I've {\k35}lost {\k36}my {\k55}fea{\k50}thers, {\kf173}no
+Comment: 0,0:01:10.97,0:01:14.51,Sample KM [Choir],,0,0,0,karaoke,{\k36}I've {\k36}lost {\k35}my {\k53}fea{\k53}thers, {\kf141}no
+Comment: 0,0:01:14.16,0:01:17.88,Sample KM [Up],,0,0,0,karaoke,{\k53}Lost {\k35}all {\k18}of {\k35}my {\k35}feel{\k35}ing, {\k35}I {\k36}can't {\k27}con{\k63}trol
+Comment: 0,0:01:18.23,0:01:22.44,Sample KM [Up],,0,0,0,karaoke,{\k16}But {\k18}e{\k35}ven {\k53}so,{\k35} {\k36}I'll {\k17}pre{\k53}tend {\k29}they're {\k42}still {\k18}my {\k69}own
+Comment: 0,0:01:36.74,0:01:39.22,Sample KM [Up],,0,0,0,karaoke,{\k36}As {\k35}I {\k34}rot {\k19}and {\k36}rot {\k35}a{\k53}way
+Comment: 0,0:01:39.57,0:01:44.54,Sample KM [Up],,0,0,0,karaoke,{\k36}It {\k34}gets {\k37}har{\k34}der {\k35}to {\k71}hide {\k35}the {\k36}de{\kf179}cay
+Comment: 0,0:01:48.74,0:01:50.50,Sample KM [Up],,0,0,0,karaoke,{\k37}Fad{\k17}ing {\k34}in{\k36}to {\k52}gray
+Comment: 0,0:01:50.69,0:01:57.33,Sample KM [Up],,0,0,0,karaoke,{\k17}I {\k36}don't {\k35}know {\k18}how {\k35}much {\k35}lon{\k53}ger {\k67}I {\k32}can {\k78}stay {\k70}this {\kf188}way
+Comment: 0,0:01:58.27,0:02:01.10,Sample KM [Up],,0,0,0,karaoke,{\k36}If {\k35}I {\k18}could {\k35}just {\k36}o{\k35}pen {\k34}my {\k54}mouth
+Comment: 0,0:02:01.10,0:02:03.92,Sample KM [Up],,0,0,0,karaoke,{\k35}And {\k36}shed {\k18}these {\k35}limbs {\k29}that {\k41}hold {\k34}me {\k54}down
+Comment: 0,0:02:03.92,0:02:06.04,Sample KM [Up],,0,0,0,karaoke,{\k35}How {\k36}loath{\k16}some {\k37}I've {\k35}be{\k53}come
+Comment: 0,0:02:06.21,0:02:09.03,Sample KM [Up],,0,0,0,karaoke,{\k19}Like {\k17}some {\k36}lost {\k34}soul {\k34}that {\k35}can't {\k38}come {\k69}'round
+Comment: 0,0:02:09.39,0:02:12.39,Sample KM [Up],,0,0,0,karaoke,{\k18}My {\k35}dis{\k35}guise {\k19}came {\k37}with {\k31}ne{\k37}crot{\k30}ic {\k58}blight
+Comment: 0,0:02:12.39,0:02:15.21,Sample KM [Up],,0,0,0,karaoke,{\k16}I'{\k20}m {\k35}wait{\k19}ing {\k31}for {\k34}a {\k38}sil{\k36}ver {\k53}line
+Comment: 0,0:02:15.21,0:02:17.33,Sample KM [Up],,0,0,0,karaoke,{\k37}These {\k34}feel{\k18}ings {\k35}were {\k36}once {\k52}mine
+Comment: 0,0:02:17.69,0:02:21.56,Sample KM [Up],,0,0,0,karaoke,{\k35}Where {\k35}do {\k52}I {\k52}go {\k38}to {\k38}find {\k33}them {\k34}a{\k70}gain?
+Comment: 0,0:02:21.84,0:02:25.80,Sample KM [Up],,0,0,0,karaoke,{\k61}Stitched {\k33}on{\k20}to {\k36}my {\k35}back {\k35}through {\k35}li{\k20}ga{\k36}ments {\k36}and {\k49}bone
+Comment: 0,0:02:26.15,0:02:31.05,Sample KM [Up],,0,0,0,karaoke,{\k17}They {\k34}can't {\k56}see {\k35}I've {\k35}lost {\k35}my {\k55}fea{\k52}thers, {\kf171}no
+Comment: 0,0:02:30.03,0:02:33.58,Sample KM [Choir],,0,0,0,karaoke,{\k36}I've {\k36}lost {\k35}my {\k53}fea{\k53}thers, {\kf142}no
+Comment: 0,0:02:33.21,0:02:36.93,Sample KM [Up],,0,0,0,karaoke,{\k54}Lost {\k37}all {\k15}of {\k36}my {\k35}feel{\k36}ing, {\k34}I {\k35}can't {\k36}con{\k54}trol
+Comment: 0,0:02:37.30,0:02:41.46,Sample KM [Up],,0,0,0,karaoke,{\k16}But {\k17}e{\k35}ven {\k53}so,{\k35} {\k36}I'll {\k17}pre{\k53}tend {\k34}they're {\k37}still {\k17}my {\k66}own
+Comment: 0,0:02:41.69,0:02:46.84,Sample KM [Up],,0,0,0,karaoke,{\k35}I'll {\k17}pre{\k53}tend {\k35}they're {\k36}still {\k35}my {\kf304}own
+Dialogue: 0,0:00:39.03,0:00:41.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}You {\k18}said {\k37}to {\k87}me
+Dialogue: 0,0:00:41.48,0:00:46.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k53}Where {\k37}do {\k35}we {\k35}go {\k18}when {\k35}we {\k35}lose {\k36}our {\kf141}wings?
+Dialogue: 0,0:00:50.32,0:00:53.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}It {\k21}seemed {\k35}to {\k87}me
+Dialogue: 0,0:00:52.44,0:00:58.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Like {\k19}all {\k34}I'd {\k35}be {\k35}is {\k18}the {\k18}ug{\k35}ly {\k35}things {\k53}they'd {\kf132}see
+Dialogue: 0,0:01:01.87,0:01:06.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k60}Stitched {\k35}on{\k20}to {\k36}my {\k35}back {\k35}through {\k34}li{\k20}ga{\k38}ments {\k33}and {\k51}bone
+Dialogue: 0,0:01:06.20,0:01:12.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}They {\k35}can't {\k55}see {\k35}I've {\k35}lost {\k36}my {\k55}fea{\k50}thers, {\kf173}no
+Dialogue: 0,0:01:10.07,0:01:14.71,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k36}I've {\k36}lost {\k35}my {\k53}fea{\k53}thers, {\kf141}no
+Dialogue: 0,0:01:13.26,0:01:18.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k53}Lost {\k35}all {\k18}of {\k35}my {\k35}feel{\k35}ing, {\k35}I {\k36}can't {\k27}con{\k63}trol
+Dialogue: 0,0:01:17.33,0:01:22.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}But {\k18}e{\k35}ven {\k53}so,{\k35} {\k36}I'll {\k17}pre{\k53}tend {\k29}they're {\k42}still {\k18}my {\k69}own
+Dialogue: 0,0:01:35.84,0:01:39.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}As {\k35}I {\k34}rot {\k19}and {\k36}rot {\k35}a{\k53}way
+Dialogue: 0,0:01:38.67,0:01:44.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}It {\k34}gets {\k37}har{\k34}der {\k35}to {\k71}hide {\k35}the {\k36}de{\kf179}cay
+Dialogue: 0,0:01:47.84,0:01:50.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Fad{\k17}ing {\k34}in{\k36}to {\k52}gray
+Dialogue: 0,0:01:49.79,0:01:57.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k36}don't {\k35}know {\k18}how {\k35}much {\k35}lon{\k53}ger {\k67}I {\k32}can {\k78}stay {\k70}this {\kf188}way
+Dialogue: 0,0:01:57.37,0:02:01.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}If {\k35}I {\k18}could {\k35}just {\k36}o{\k35}pen {\k34}my {\k54}mouth
+Dialogue: 0,0:02:00.20,0:02:04.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}And {\k36}shed {\k18}these {\k35}limbs {\k29}that {\k41}hold {\k34}me {\k54}down
+Dialogue: 0,0:02:03.02,0:02:06.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}How {\k36}loath{\k16}some {\k37}I've {\k35}be{\k53}come
+Dialogue: 0,0:02:05.31,0:02:09.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Like {\k17}some {\k36}lost {\k34}soul {\k34}that {\k35}can't {\k38}come {\k69}'round
+Dialogue: 0,0:02:08.49,0:02:12.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}My {\k35}dis{\k35}guise {\k19}came {\k37}with {\k31}ne{\k37}crot{\k30}ic {\k58}blight
+Dialogue: 0,0:02:11.49,0:02:15.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}I'{\k20}m {\k35}wait{\k19}ing {\k31}for {\k34}a {\k38}sil{\k36}ver {\k53}line
+Dialogue: 0,0:02:14.31,0:02:17.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}These {\k34}feel{\k18}ings {\k35}were {\k36}once {\k52}mine
+Dialogue: 0,0:02:16.79,0:02:21.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Where {\k35}do {\k52}I {\k52}go {\k38}to {\k38}find {\k33}them {\k34}a{\k70}gain?
+Dialogue: 0,0:02:20.94,0:02:26.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k61}Stitched {\k33}on{\k20}to {\k36}my {\k35}back {\k35}through {\k35}li{\k20}ga{\k36}ments {\k36}and {\k49}bone
+Dialogue: 0,0:02:25.25,0:02:31.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}They {\k34}can't {\k56}see {\k35}I've {\k35}lost {\k35}my {\k55}fea{\k52}thers, {\kf171}no
+Dialogue: 0,0:02:29.13,0:02:33.78,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k36}I've {\k36}lost {\k35}my {\k53}fea{\k53}thers, {\kf142}no
+Dialogue: 0,0:02:32.31,0:02:37.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k54}Lost {\k37}all {\k15}of {\k36}my {\k35}feel{\k36}ing, {\k34}I {\k35}can't {\k36}con{\k54}trol
+Dialogue: 0,0:02:36.40,0:02:41.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}But {\k17}e{\k35}ven {\k53}so,{\k35} {\k36}I'll {\k17}pre{\k53}tend {\k34}they're {\k37}still {\k17}my {\k66}own
+Dialogue: 0,0:02:40.79,0:02:47.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}I'll {\k17}pre{\k53}tend {\k35}they're {\k36}still {\k35}my {\kf304}own
