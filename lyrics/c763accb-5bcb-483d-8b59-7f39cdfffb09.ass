@@ -1,0 +1,50 @@
+﻿[Script Info]
+Title: 10 Things I Hate About Ai no Sukima
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+Original Timing: Defty
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,24,&H000088EF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:29.14,0:00:30.53,Default,,0,0,0,karaoke,{\k29}I {\k29}caught {\k14}you {\k29}cheat{\k25}ing
+Comment: 1,0:00:30.47,0:00:32.99,Default,,0,0,0,karaoke,{\k29}you {\k14}had {\k14}the {\k44}nerve {\k29}to {\k29}say {\k14}you're {\k29}slee{\k36}ping
+Comment: 1,0:00:32.97,0:00:35.09,Default,,0,0,0,karaoke,{\k14}just {\k14}not {\k14}with {\k44}her, {\k29}but {\k29}tell {\k14}your {\k40}friends
+Comment: 1,0:00:35.03,0:00:38.54,Default,,0,0,0,karaoke,{\k14}that {\k29}I'll {\k44}be {\k58}lost {\k58}with{\k58}out {\k77}you
+Comment: 1,0:00:38.55,0:00:40.02,Default,,0,0,0,karaoke,{\k29}and {\k29}I'll {\k14}ad{\k14}mit {\k47}it
+Comment: 1,0:00:40.03,0:00:42.26,Default,,0,0,0,karaoke,{\k14}some{\k14}times {\k14}I'll {\k44}miss {\k29}when {\k29}we {\k14}were {\k14}in {\k36}it
+Comment: 1,0:00:42.23,0:00:44.50,Default,,0,0,0,karaoke,{\k14}so {\k14}I {\k14}made {\k14}a {\k44}list {\k14}so {\k14}I {\k14}ne{\k14}ver {\k14}for{\k40}get
+Comment: 1,0:00:44.44,0:00:47.74,Default,,0,0,0,karaoke,{\k14}all {\k14}the {\k29}things {\k29}I {\k58}hate {\k58}a{\k58}bout {\k55}you
+Comment: 1,0:00:47.67,0:00:48.91,Default,,0,0,0,karaoke,{\k29}ten, {\k29}you're {\k29}self{\k25}ish
+Comment: 1,0:00:48.85,0:00:50.09,Default,,0,0,0,karaoke,{\k29}nine, {\k29}you're {\k29}ja{\k25}ded
+Comment: 1,0:00:50.03,0:00:52.44,Default,,0,0,0,karaoke,{\k29}eight, {\k29}the {\k29}dumb{\k29}est {\k29}guy {\k29}I {\k29}da{\k25}ted
+Comment: 1,0:00:52.38,0:00:54.79,Default,,0,0,0,karaoke,{\k14}se{\k14}ven, {\k14}talk {\k14}a {\k29}big {\k29}game {\k29}'til {\k29}you're {\k29}na{\k25}ked
+Comment: 1,0:00:54.73,0:00:57.15,Default,,0,0,0,karaoke,{\k14}on{\k14}ly {\k29}six {\k14}se{\k14}conds {\k14}and {\k14}I {\k29}had {\k29}to {\k29}fake {\k25}it
+Comment: 1,0:00:57.08,0:00:58.32,Default,,0,0,0,karaoke,{\k29}five, {\k29}you're {\k29}to{\k25}xic
+Comment: 1,0:00:58.26,0:00:59.50,Default,,0,0,0,karaoke,{\k29}four, {\k29}can't {\k29}trust {\k25}you
+Comment: 1,0:00:59.44,0:01:01.85,Default,,0,0,0,karaoke,{\k29}three, {\k29}you {\k29}still {\k29}got {\k29}mo{\k29}mmy {\k29}i{\k25}ssues
+Comment: 1,0:01:01.79,0:01:04.21,Default,,0,0,0,karaoke,{\k14}two {\k14}years {\k14}of {\k14}your {\k29}bull{\k29}shit {\k29}I {\k29}can't {\k29}un{\k25}do
+Comment: 1,0:01:04.14,0:01:06.63,Default,,0,0,0,karaoke,{\k14}one, {\k14}I {\k14}hate {\k14}the {\k29}fact {\k14}that {\k14}you {\k29}made {\k29}me {\k29}love {\k33}you
+Dialogue: 1,0:00:28.24,0:00:30.73,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k29}I {\k29}caught {\k14}you {\k29}cheat{\k25}ing
+Dialogue: 1,0:00:29.57,0:00:33.19,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k29}you {\k14}had {\k14}the {\k44}nerve {\k29}to {\k29}say {\k14}you're {\k29}slee{\k36}ping
+Dialogue: 1,0:00:32.07,0:00:35.29,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k14}just {\k14}not {\k14}with {\k44}her, {\k29}but {\k29}tell {\k14}your {\k40}friends
+Dialogue: 1,0:00:34.13,0:00:38.74,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k14}that {\k29}I'll {\k44}be {\k58}lost {\k58}with{\k58}out {\k77}you
+Dialogue: 1,0:00:37.65,0:00:40.22,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k29}and {\k29}I'll {\k14}ad{\k14}mit {\k47}it
+Dialogue: 1,0:00:39.13,0:00:42.46,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k14}some{\k14}times {\k14}I'll {\k44}miss {\k29}when {\k29}we {\k14}were {\k14}in {\k36}it
+Dialogue: 1,0:00:41.33,0:00:44.70,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k14}so {\k14}I {\k14}made {\k14}a {\k44}list {\k14}so {\k14}I {\k14}ne{\k14}ver {\k14}for{\k40}get
+Dialogue: 1,0:00:43.54,0:00:47.94,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k14}all {\k14}the {\k29}things {\k29}I {\k58}hate {\k58}a{\k58}bout {\k55}you
+Dialogue: 1,0:00:46.77,0:00:49.11,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ten, {\k29}you're {\k29}self{\k25}ish
+Dialogue: 1,0:00:47.95,0:00:50.29,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k29}nine, {\k29}you're {\k29}ja{\k25}ded
+Dialogue: 1,0:00:49.13,0:00:52.64,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k29}eight, {\k29}the {\k29}dumb{\k29}est {\k29}guy {\k29}I {\k29}da{\k25}ted
+Dialogue: 1,0:00:51.48,0:00:54.99,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k14}se{\k14}ven, {\k14}talk {\k14}a {\k29}big {\k29}game {\k29}'til {\k29}you're {\k29}na{\k25}ked
+Dialogue: 1,0:00:53.83,0:00:57.35,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k14}on{\k14}ly {\k29}six {\k14}se{\k14}conds {\k14}and {\k14}I {\k29}had {\k29}to {\k29}fake {\k25}it
+Dialogue: 1,0:00:56.18,0:00:58.52,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k29}five, {\k29}you're {\k29}to{\k25}xic
+Dialogue: 1,0:00:57.36,0:00:59.70,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k29}four, {\k29}can't {\k29}trust {\k25}you
+Dialogue: 1,0:00:58.54,0:01:02.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k29}three, {\k29}you {\k29}still {\k29}got {\k29}mo{\k29}mmy {\k29}i{\k25}ssues
+Dialogue: 1,0:01:00.89,0:01:04.41,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k14}two {\k14}years {\k14}of {\k14}your {\k29}bull{\k29}shit {\k29}I {\k29}can't {\k29}un{\k25}do
+Dialogue: 1,0:01:03.24,0:01:06.83,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k14}one, {\k14}I {\k14}hate {\k14}the {\k29}fact {\k14}that {\k14}you {\k29}made {\k29}me {\k29}love {\k33}you
