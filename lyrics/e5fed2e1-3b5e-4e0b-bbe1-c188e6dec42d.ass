@@ -1,0 +1,186 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+LayoutResX: 0
+LayoutResY: 0
+Title: TRICK with TREAT!!
+Original Timing: Variabels
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: 2Wink,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Yuuta,Arial,24,&H00FFFFFF,&H00C4FF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Hinata,Arial,24,&H00FFFFFF,&H00EE3CFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: UNDEAD,Arial,24,&H00FFFFFF,&H00FF87B8,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,2,2,20,1
+Style: ALL,Arial,24,&H001212DC,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,2Wink,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:10.00,ALL,,0,0,0,guide,{\k1000\k0\align(2)}ALL {\r2Wink}2wink {\rHinata}Hinata {\rYuuta}Yuta {\rUNDEAD}UNDEAD
+Comment: 0,0:00:11.51,0:00:12.40,ALL,,0,0,0,karaoke,{\k28}TRICK {\k24}OR {\k37}TREAT?
+Comment: 0,0:00:12.73,0:00:16.29,Yuuta,,0,0,0,karaoke,{\k24}ko{\k23}yo{\k24}i {\k71}wa {\k11}a{\k14}ya{\k43}shii {\k25}a{\k26}ku{\k25}mu {\k21}no {\k49}yoi
+Comment: 0,0:00:16.50,0:00:19.52,Hinata,,0,0,0,karaoke,{\k20}o{\k28}ka{\k23}shi {\k72}wa {\k23}mot{\k23}te {\k22}ki{\k23}ta {\k24}ka {\k44}na?
+Comment: 0,0:00:20.27,0:00:23.66,Yuuta,,0,0,0,karaoke,{\k20}bo{\k26}ku{\k23}ra {\k71}wa {\k9}i{\k15}ta{\k23}zu{\k22}ra {\k22}na {\k25}ko{\k21}u{\k26}mo{\k36}ri
+Comment: 0,0:00:24.01,0:00:27.00,Hinata,,0,0,0,karaoke,{\k23}ya{\k23}mi{\k23}yo {\k71}wo {\k10}to{\k14}bi {\k24}ma{\k23}wac{\k21}cha{\k25}u {\k42}yo
+Comment: 0,0:00:27.22,0:00:28.13,UNDEAD,,0,0,0,karaoke,{\k30}T{\k61}RICK!
+Comment: 0,0:00:28.19,0:00:30.79,Yuuta,,0,0,0,karaoke,{\k25}da{\k23}re {\k24}mo {\k22}i{\k26}na{\k24}i {\k24}ya{\k22}ka{\k70}ta
+Comment: 0,0:00:30.98,0:00:31.86,UNDEAD,,0,0,0,karaoke,{\k29}PA{\k59}NIC!
+Comment: 0,0:00:31.95,0:00:34.63,Hinata,,0,0,0,karaoke,{\k26}mi{\k18}n{\k29}na {\k24}de {\k24}a{\k23}tsu{\k21}ma{\k24}t{\k79}te
+Comment: 0,0:00:34.75,0:00:35.60,UNDEAD,,0,0,0,karaoke,{\k25}MA{\k60}GIC!
+Comment: 0,0:00:35.73,0:00:38.48,Yuuta,,0,0,0,karaoke,{\k10}so{\k13}no {\k25}to{\k10}bi{\k13}ra {\k21}wo {\k24}hi{\k47}rai{\k24}ta{\k88}ra
+Comment: 0,0:00:38.54,0:00:39.36,UNDEAD,,0,0,0,karaoke,{\k21}MU{\k61}SIC!
+Comment: 0,0:00:39.45,0:00:41.58,Hinata,,0,0,0,karaoke,{\k27}to{\k23}bi {\k21}da{\k25}shi{\k23}cha{\k94}u
+Comment: 0,0:00:41.76,0:00:45.69,2Wink,,0,0,0,karaoke,{\k26}ho{\k24}ra {\k22}ne {\k46}JAC{\k46}K-O'-{\k49}LAN{\k49}TERN {\k27}o{\k21}de{\k21}ma{\k23}shi {\k39}sa!
+Comment: 0,0:00:45.49,0:00:46.40,UNDEAD,,0,0,0,karaoke,{\k29}LET'S {\k25}PAR{\k37}TY!
+Comment: 0,0:00:46.21,0:00:47.72,2Wink,,0,0,0,karaoke,{\k30}HAL{\k24}LO{\k47}WEEN {\k50}NIGHT
+Comment: 0,0:00:47.36,0:00:48.06,UNDEAD,,0,0,0,karaoke,{\k30}HAL{\k40}LOW!
+Comment: 0,0:00:47.87,0:00:49.53,2Wink,,0,0,0,karaoke,{\k49}saa, {\k25}ko{\k21}ta{\k25}e{\k46}te
+Comment: 0,0:00:49.26,0:00:49.96,UNDEAD,,0,0,0,karaoke,{\k27}HOL{\k43}LOW!
+Comment: 0,0:00:49.76,0:00:51.82,2Wink,,0,0,0,karaoke,{\k27}nee? {\k21}TRICK {\k19}OR {\k52}TREAT {\k23}TRICK {\k20}OR {\k44}TREAT
+Comment: 0,0:00:50.43,0:00:51.81,UNDEAD,,0,0,0,karaoke,{\k95}TREAT! {\k43}TREAT!
+Comment: 0,0:00:51.85,0:00:53.27,2Wink,,0,0,0,karaoke,{\k26}doc{\k26}chi {\k24}ni {\k22}su{\k44}ru?
+Comment: 0,0:00:53.03,0:00:53.76,UNDEAD,,0,0,0,karaoke,{\k25}LET'S {\k23}PAR{\k25}TY!
+Comment: 0,0:00:53.72,0:00:55.20,2Wink,,0,0,0,karaoke,{\k29}sa{\k23}ke{\k21}bu {\k27}ku{\k48}rai
+Comment: 0,0:00:54.91,0:00:55.63,UNDEAD,,0,0,0,karaoke,{\k27}HAL{\k45}LOW!
+Comment: 0,0:00:55.41,0:00:57.04,2Wink,,0,0,0,karaoke,{\k13}wa{\k11}re{\k22}wa{\k24}se{\k24}cha{\k23}u {\k46}yo
+Comment: 0,0:00:56.73,0:00:57.50,UNDEAD,,0,0,0,karaoke,{\k31}HOL{\k46}LOW!
+Comment: 0,0:00:57.22,0:01:00.66,2Wink,,0,0,0,karaoke,{\k28}saa, {\k22}mo{\k23}t{\k46}to {\k28}sa{\k21}wa{\k49}gou {\k25}UN{\k20}DER {\k26}THE {\k22}MOON{\k34}LIGHT!
+Comment: 0,0:00:57.95,0:00:59.31,UNDEAD,,0,0,0,karaoke,{\k95}WOW! {\k41}WOW!
+Comment: 0,0:01:00.73,0:01:01.36,UNDEAD,,0,0,0,karaoke,{\k63}YEAH!
+Comment: 0,0:01:04.01,0:01:05.14,ALL,,0,0,0,karaoke,{\k17}HAL{\k14}LO{\k22}WEEN {\k21}NIGHT{\k39}MARE
+Comment: 0,0:01:07.72,0:01:08.79,ALL,,0,0,0,karaoke,{\k28}TRICK {\k24}OR {\k55}TREAT?
+Comment: 0,0:01:13.21,0:01:15.79,Hinata,,0,0,0,karaoke,{\k21}u{\k27}ra {\k24}ga {\k24}o{\k23}mo{\k26}te {\k21}ni {\k25}na{\k67}ri
+Comment: 0,0:01:15.95,0:01:16.83,UNDEAD,,0,0,0,karaoke,{\k31}T{\k57}REAT!
+Comment: 0,0:01:16.98,0:01:19.61,Yuuta,,0,0,0,karaoke,{\k21}o{\k22}mo{\k25}te {\k23}ga {\k24}u{\k22}ra {\k26}ni {\k26}na{\k74}ru
+Comment: 0,0:01:19.74,0:01:20.59,UNDEAD,,0,0,0,karaoke,{\k28}T{\k57}RICK!
+Comment: 0,0:01:20.67,0:01:23.44,Hinata,,0,0,0,karaoke,{\k27}mou {\k21}doc{\k12}chi {\k15}ga {\k20}doc{\k13}chi {\k14}ka {\k44}wak{\k25}kan{\k86}nai
+Comment: 0,0:01:23.50,0:01:24.33,UNDEAD,,0,0,0,karaoke,{\k26}T{\k57}REAT
+Comment: 0,0:01:24.47,0:01:26.45,Yuuta,,0,0,0,karaoke,{\k21}SHUF{\k28}F{\k22}LE {\k22}shi{\k24}chat{\k81}te
+Comment: 0,0:01:26.78,0:01:30.71,2Wink,,0,0,0,karaoke,{\k23}ho{\k27}ra {\k23}ne {\k47}GOOD {\k46}BAT! {\k45}BAD {\k47}BAT! {\k25}o{\k25}de{\k24}ma{\k23}shi {\k38}sa!
+Comment: 0,0:01:30.48,0:01:31.24,UNDEAD,,0,0,0,karaoke,{\k31}NIGHT{\k45}MARE!
+Comment: 0,0:01:31.00,0:01:32.64,2Wink,,0,0,0,karaoke,{\k27}to{\k21}bi {\k26}da{\k22}shi{\k23}cha{\k45}e!
+Comment: 0,0:01:32.36,0:01:33.29,UNDEAD,,0,0,0,karaoke,{\k28}LET'S {\k25}PAR{\k40}TY!
+Comment: 0,0:01:33.08,0:01:34.63,2Wink,,0,0,0,karaoke,{\k30}HAL{\k24}LO{\k47}WEEN {\k54}NIGHT
+Comment: 0,0:01:34.17,0:01:34.92,UNDEAD,,0,0,0,karaoke,{\k35}HAL{\k40}LOW!
+Comment: 0,0:01:34.72,0:01:36.41,2Wink,,0,0,0,karaoke,{\k49}saa, {\k29}ko{\k20}ta{\k26}e{\k45}te
+Comment: 0,0:01:36.14,0:01:36.83,UNDEAD,,0,0,0,karaoke,{\k27}HOL{\k42}LOW!
+Comment: 0,0:01:36.60,0:01:38.69,2Wink,,0,0,0,karaoke,{\k30}nee? {\k22}TRICK {\k18}OR {\k54}TREAT {\k22}TRICK {\k20}OR {\k43}TREAT
+Comment: 0,0:01:37.29,0:01:38.69,UNDEAD,,0,0,0,karaoke,{\k96}TREAT! {\k44}TREAT!
+Comment: 0,0:01:38.75,0:01:40.06,2Wink,,0,0,0,karaoke,{\k26}doc{\k24}chi {\k24}ni {\k23}su{\k34}ru?
+Comment: 0,0:01:39.91,0:01:40.61,UNDEAD,,0,0,0,karaoke,{\k25}LET'S {\k24}PAR{\k21}TY!
+Comment: 0,0:01:40.55,0:01:42.05,2Wink,,0,0,0,karaoke,{\k32}sa{\k26}ke{\k19}bu {\k28}ku{\k45}rai
+Comment: 0,0:01:41.76,0:01:42.43,UNDEAD,,0,0,0,karaoke,{\k29}HAL{\k38}LOW!
+Comment: 0,0:01:42.25,0:01:43.92,2Wink,,0,0,0,karaoke,{\k15}wa{\k13}re{\k22}wa{\k24}se{\k25}cha{\k22}u {\k46}yo
+Comment: 0,0:01:43.64,0:01:44.29,UNDEAD,,0,0,0,karaoke,{\k29}HOL{\k36}LOW!
+Comment: 0,0:01:44.11,0:01:46.24,2Wink,,0,0,0,karaoke,{\k27}JACK {\k26}IN {\k21}THE {\k48}BOX! {\k24}CAN{\k24}DY {\k43}SWEETS!
+Comment: 0,0:01:44.85,0:01:46.24,UNDEAD,,0,0,0,karaoke,{\k77}BOX! {\k62}SWEETS!
+Comment: 0,0:01:46.24,0:01:47.68,2Wink,,0,0,0,karaoke,{\k26}ki{\k24}me{\k45}chat{\k49}te!
+Comment: 0,0:01:47.16,0:01:48.25,UNDEAD,,0,0,0,karaoke,{\k28}S{\k16}C{\k65}REAM!
+Comment: 0,0:01:48.15,0:01:49.53,2Wink,,0,0,0,karaoke,{\k22}o{\k25}ka{\k45}shii {\k46}no?
+Comment: 0,0:01:49.23,0:01:50.00,UNDEAD,,0,0,0,karaoke,{\k31}HAL{\k46}LOW!
+Comment: 0,0:01:49.77,0:01:51.43,2Wink,,0,0,0,karaoke,{\k23}o{\k26}ka{\k22}shi {\k26}ga {\k22}ii {\k47}no?
+Comment: 0,0:01:51.09,0:01:51.88,UNDEAD,,0,0,0,karaoke,{\k33}HOL{\k46}LOW!
+Comment: 0,0:01:51.60,0:01:53.71,2Wink,,0,0,0,karaoke,{\k30}nee? {\k22}TRICK {\k18}OR {\k54}TREAT {\k22}TRICK {\k20}OR {\k45}TREAT
+Comment: 0,0:01:52.32,0:01:53.71,UNDEAD,,0,0,0,karaoke,{\k96}TREAT! {\k43}TREAT!
+Comment: 0,0:01:53.76,0:01:55.07,2Wink,,0,0,0,karaoke,{\k24}docc{\k24}hi {\k45}demo {\k38}ii!
+Comment: 0,0:01:54.67,0:01:55.63,UNDEAD,,0,0,0,karaoke,{\k25}YES! {\k24}LET’S {\k23}PAR{\k24}TY!
+Comment: 0,0:01:55.16,0:01:57.02,2Wink,,0,0,0,karaoke,{\k24}i{\k22}re{\k26}ka{\k24}wa{\k24}t{\k23}te {\k43}mo
+Comment: 0,0:01:56.72,0:01:57.43,UNDEAD,,0,0,0,karaoke,{\k31}HAL{\k40}LOW!
+Comment: 0,0:01:57.26,0:01:58.92,2Wink,,0,0,0,karaoke,{\k16}ta{\k9}no{\k21}shi{\k27}i {\k24}NIGH{\k24}T{\k45}MARE
+Comment: 0,0:01:58.62,0:01:59.36,UNDEAD,,0,0,0,karaoke,{\k33}HOL{\k46}LOW!
+Comment: 0,0:01:59.11,0:02:02.50,2Wink,,0,0,0,karaoke,{\k28}saa, {\k25}mo{\k22}t{\k48}to {\k24}sa{\k21}wa{\k48}gou {\k24}UN{\k23}DER {\k24}THE {\k23}MOON{\k29}LIGHT!
+Comment: 0,0:01:59.86,0:02:01.19,UNDEAD,,0,0,0,karaoke,{\k95}WOW! {\k38}WOW!
+Comment: 0,0:02:02.56,0:02:03.12,UNDEAD,,0,0,0,karaoke,{\k56}YEAH!
+Comment: 0,0:02:03.16,0:02:04.88,Yuuta,,0,0,0,karaoke,{\k21}bik{\k11}ku{\k13}ri {\k50}to {\k21}{\rHinata}nik{\k13}ko{\k11}ri {\k32}no
+Comment: 0,0:02:05.01,0:02:06.39,2Wink,,0,0,0,karaoke,{\k24}ai {\k24}wo {\k24}a{\k22}ge{\k44}you!
+Comment: 0,0:02:06.16,0:02:07.00,UNDEAD,,0,0,0,karaoke,{\k13}HAL{\k11}LO{\k60}WEEN!
+Comment: 0,0:02:09.64,0:02:10.79,ALL,,0,0,0,karaoke,{\k17}HAL{\k14}LO{\k22}WEEN {\k27}NIGHT{\k35}MARE
+Comment: 0,0:02:13.42,0:02:14.50,ALL,,0,0,0,karaoke,{\k14}HAL{\k14}LO{\k22}WEEN {\k24}NIGHT{\k34}MARE
+Comment: 0,0:02:17.15,0:02:18.28,ALL,,0,0,0,karaoke,{\k17}HAL{\k14}LO{\k18}WEEN {\k25}NIGHT{\k39}MARE
+Comment: 0,0:02:20.86,0:02:22.03,ALL,,0,0,0,karaoke,{\k31}TRICK {\k21}OR {\k65}TREAT?
+Dialogue: 0,0:00:10.61,0:00:12.60,ALL,,0,0,0,fx,{\k90\fad(300,200)}{\k28}TRICK {\k24}OR {\k37}TREAT?
+Dialogue: 0,0:00:11.83,0:00:16.49,Yuuta,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ko{\k23}yo{\k24}i {\k71}wa {\k11}a{\k14}ya{\k43}shii {\k25}a{\k26}ku{\k25}mu {\k21}no {\k49}yoi
+Dialogue: 0,0:00:15.60,0:00:19.72,Hinata,,0,0,0,fx,{\k90\fad(300,200)}{\k20}o{\k28}ka{\k23}shi {\k72}wa {\k23}mot{\k23}te {\k22}ki{\k23}ta {\k24}ka {\k44}na?
+Dialogue: 0,0:00:19.37,0:00:23.86,Yuuta,,0,0,0,fx,{\k90\fad(300,200)}{\k20}bo{\k26}ku{\k23}ra {\k71}wa {\k9}i{\k15}ta{\k23}zu{\k22}ra {\k22}na {\k25}ko{\k21}u{\k26}mo{\k36}ri
+Dialogue: 0,0:00:23.11,0:00:27.20,Hinata,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ya{\k23}mi{\k23}yo {\k71}wo {\k10}to{\k14}bi {\k24}ma{\k23}wac{\k21}cha{\k25}u {\k42}yo
+Dialogue: 0,0:00:26.32,0:00:28.33,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k30}T{\k61}RICK!
+Dialogue: 0,0:00:27.29,0:00:30.99,Yuuta,,0,0,0,fx,{\k90\fad(300,200)}{\k25}da{\k23}re {\k24}mo {\k22}i{\k26}na{\k24}i {\k24}ya{\k22}ka{\k70}ta
+Dialogue: 0,0:00:30.08,0:00:32.06,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k29}PA{\k59}NIC!
+Dialogue: 0,0:00:31.05,0:00:34.83,Hinata,,0,0,0,fx,{\k90\fad(300,200)}{\k26}mi{\k18}n{\k29}na {\k24}de {\k24}a{\k23}tsu{\k21}ma{\k24}t{\k79}te
+Dialogue: 0,0:00:33.85,0:00:35.80,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k25}MA{\k60}GIC!
+Dialogue: 0,0:00:34.83,0:00:38.68,Yuuta,,0,0,0,fx,{\k90\fad(300,200)}{\k10}so{\k13}no {\k25}to{\k10}bi{\k13}ra {\k21}wo {\k24}hi{\k47}rai{\k24}ta{\k88}ra
+Dialogue: 0,0:00:37.64,0:00:39.56,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k21}MU{\k61}SIC!
+Dialogue: 0,0:00:38.55,0:00:41.78,Hinata,,0,0,0,fx,{\k90\fad(300,200)}{\k27}to{\k23}bi {\k21}da{\k25}shi{\k23}cha{\k94}u
+Dialogue: 0,0:00:40.86,0:00:45.89,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ho{\k24}ra {\k22}ne {\k46}JAC{\k46}K-O'-{\k49}LAN{\k49}TERN {\k27}o{\k21}de{\k21}ma{\k23}shi {\k39}sa!
+Dialogue: 0,0:00:44.59,0:00:46.60,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k29}LET'S {\k25}PAR{\k37}TY!
+Dialogue: 0,0:00:45.31,0:00:47.92,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k30}HAL{\k24}LO{\k47}WEEN {\k50}NIGHT
+Dialogue: 0,0:00:46.46,0:00:48.26,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k30}HAL{\k40}LOW!
+Dialogue: 0,0:00:46.97,0:00:49.73,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k49}saa, {\k25}ko{\k21}ta{\k25}e{\k46}te
+Dialogue: 0,0:00:48.36,0:00:50.16,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k27}HOL{\k43}LOW!
+Dialogue: 0,0:00:48.86,0:00:52.02,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k27}nee? {\k21}TRICK {\k19}OR {\k52}TREAT {\k23}TRICK {\k20}OR {\k44}TREAT
+Dialogue: 0,0:00:49.53,0:00:52.01,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k95}TREAT! {\k43}TREAT!
+Dialogue: 0,0:00:50.95,0:00:53.47,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k26}doc{\k26}chi {\k24}ni {\k22}su{\k44}ru?
+Dialogue: 0,0:00:52.13,0:00:53.96,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k25}LET'S {\k23}PAR{\k25}TY!
+Dialogue: 0,0:00:52.82,0:00:55.40,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k29}sa{\k23}ke{\k21}bu {\k27}ku{\k48}rai
+Dialogue: 0,0:00:54.01,0:00:55.83,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k27}HAL{\k45}LOW!
+Dialogue: 0,0:00:54.51,0:00:57.24,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k13}wa{\k11}re{\k22}wa{\k24}se{\k24}cha{\k23}u {\k46}yo
+Dialogue: 0,0:00:55.83,0:00:57.70,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k31}HOL{\k46}LOW!
+Dialogue: 0,0:00:56.32,0:01:00.86,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k28}saa, {\k22}mo{\k23}t{\k46}to {\k28}sa{\k21}wa{\k49}gou {\k25}UN{\k20}DER {\k26}THE {\k22}MOON{\k34}LIGHT!
+Dialogue: 0,0:00:57.05,0:00:59.51,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k95}WOW! {\k41}WOW!
+Dialogue: 0,0:00:59.83,0:01:01.56,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k63}YEAH!
+Dialogue: 0,0:01:03.11,0:01:05.34,ALL,,0,0,0,fx,{\k90\fad(300,200)}{\k17}HAL{\k14}LO{\k22}WEEN {\k21}NIGHT{\k39}MARE
+Dialogue: 0,0:01:06.82,0:01:08.99,ALL,,0,0,0,fx,{\k90\fad(300,200)}{\k28}TRICK {\k24}OR {\k55}TREAT?
+Dialogue: 0,0:01:12.31,0:01:15.99,Hinata,,0,0,0,fx,{\k90\fad(300,200)}{\k21}u{\k27}ra {\k24}ga {\k24}o{\k23}mo{\k26}te {\k21}ni {\k25}na{\k67}ri
+Dialogue: 0,0:01:15.05,0:01:17.03,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k31}T{\k57}REAT!
+Dialogue: 0,0:01:16.08,0:01:19.81,Yuuta,,0,0,0,fx,{\k90\fad(300,200)}{\k21}o{\k22}mo{\k25}te {\k23}ga {\k24}u{\k22}ra {\k26}ni {\k26}na{\k74}ru
+Dialogue: 0,0:01:18.84,0:01:20.79,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k28}T{\k57}RICK!
+Dialogue: 0,0:01:19.77,0:01:23.64,Hinata,,0,0,0,fx,{\k90\fad(300,200)}{\k27}mou {\k21}doc{\k12}chi {\k15}ga {\k20}doc{\k13}chi {\k14}ka {\k44}wak{\k25}kan{\k86}nai
+Dialogue: 0,0:01:22.60,0:01:24.53,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k26}T{\k57}REAT
+Dialogue: 0,0:01:23.57,0:01:26.65,Yuuta,,0,0,0,fx,{\k90\fad(300,200)}{\k21}SHUF{\k28}F{\k22}LE {\k22}shi{\k24}chat{\k81}te
+Dialogue: 0,0:01:25.88,0:01:30.91,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ho{\k27}ra {\k23}ne {\k47}GOOD {\k46}BAT! {\k45}BAD {\k47}BAT! {\k25}o{\k25}de{\k24}ma{\k23}shi {\k38}sa!
+Dialogue: 0,0:01:29.58,0:01:31.44,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k31}NIGHT{\k45}MARE!
+Dialogue: 0,0:01:30.10,0:01:32.84,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k27}to{\k21}bi {\k26}da{\k22}shi{\k23}cha{\k45}e!
+Dialogue: 0,0:01:31.46,0:01:33.49,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k28}LET'S {\k25}PAR{\k40}TY!
+Dialogue: 0,0:01:32.18,0:01:34.83,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k30}HAL{\k24}LO{\k47}WEEN {\k54}NIGHT
+Dialogue: 0,0:01:33.27,0:01:35.12,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k35}HAL{\k40}LOW!
+Dialogue: 0,0:01:33.82,0:01:36.61,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k49}saa, {\k29}ko{\k20}ta{\k26}e{\k45}te
+Dialogue: 0,0:01:35.24,0:01:37.03,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k27}HOL{\k42}LOW!
+Dialogue: 0,0:01:35.70,0:01:38.89,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k30}nee? {\k22}TRICK {\k18}OR {\k54}TREAT {\k22}TRICK {\k20}OR {\k43}TREAT
+Dialogue: 0,0:01:36.39,0:01:38.89,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k96}TREAT! {\k44}TREAT!
+Dialogue: 0,0:01:37.85,0:01:40.26,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k26}doc{\k24}chi {\k24}ni {\k23}su{\k34}ru?
+Dialogue: 0,0:01:39.01,0:01:40.81,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k25}LET'S {\k24}PAR{\k21}TY!
+Dialogue: 0,0:01:39.65,0:01:42.25,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k32}sa{\k26}ke{\k19}bu {\k28}ku{\k45}rai
+Dialogue: 0,0:01:40.86,0:01:42.63,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k29}HAL{\k38}LOW!
+Dialogue: 0,0:01:41.35,0:01:44.12,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k15}wa{\k13}re{\k22}wa{\k24}se{\k25}cha{\k22}u {\k46}yo
+Dialogue: 0,0:01:42.74,0:01:44.49,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k29}HOL{\k36}LOW!
+Dialogue: 0,0:01:43.21,0:01:46.44,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k27}JACK {\k26}IN {\k21}THE {\k48}BOX! {\k24}CAN{\k24}DY {\k43}SWEETS!
+Dialogue: 0,0:01:43.95,0:01:46.44,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k77}BOX! {\k62}SWEETS!
+Dialogue: 0,0:01:45.34,0:01:47.88,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ki{\k24}me{\k45}chat{\k49}te!
+Dialogue: 0,0:01:46.26,0:01:48.45,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k28}S{\k16}C{\k65}REAM!
+Dialogue: 0,0:01:47.25,0:01:49.73,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k22}o{\k25}ka{\k45}shii {\k46}no?
+Dialogue: 0,0:01:48.33,0:01:50.20,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k31}HAL{\k46}LOW!
+Dialogue: 0,0:01:48.87,0:01:51.63,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k23}o{\k26}ka{\k22}shi {\k26}ga {\k22}ii {\k47}no?
+Dialogue: 0,0:01:50.19,0:01:52.08,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k33}HOL{\k46}LOW!
+Dialogue: 0,0:01:50.70,0:01:53.91,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k30}nee? {\k22}TRICK {\k18}OR {\k54}TREAT {\k22}TRICK {\k20}OR {\k45}TREAT
+Dialogue: 0,0:01:51.42,0:01:53.91,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k96}TREAT! {\k43}TREAT!
+Dialogue: 0,0:01:52.86,0:01:55.27,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k24}docc{\k24}hi {\k45}demo {\k38}ii!
+Dialogue: 0,0:01:53.77,0:01:55.83,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k25}YES! {\k24}LET’S {\k23}PAR{\k24}TY!
+Dialogue: 0,0:01:54.26,0:01:57.22,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k24}i{\k22}re{\k26}ka{\k24}wa{\k24}t{\k23}te {\k43}mo
+Dialogue: 0,0:01:55.82,0:01:57.63,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k31}HAL{\k40}LOW!
+Dialogue: 0,0:01:56.36,0:01:59.12,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ta{\k9}no{\k21}shi{\k27}i {\k24}NIGH{\k24}T{\k45}MARE
+Dialogue: 0,0:01:57.72,0:01:59.56,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k33}HOL{\k46}LOW!
+Dialogue: 0,0:01:58.21,0:02:02.70,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k28}saa, {\k25}mo{\k22}t{\k48}to {\k24}sa{\k21}wa{\k48}gou {\k24}UN{\k23}DER {\k24}THE {\k23}MOON{\k29}LIGHT!
+Dialogue: 0,0:01:58.96,0:02:01.39,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k95}WOW! {\k38}WOW!
+Dialogue: 0,0:02:01.66,0:02:03.32,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k56}YEAH!
+Dialogue: 0,0:02:02.26,0:02:05.08,Yuuta,,0,0,0,fx,{\k90\fad(300,200)}{\k21}bik{\k11}ku{\k13}ri {\k50}to {\k21}{\rHinata}nik{\k13}ko{\k11}ri {\k32}no
+Dialogue: 0,0:02:04.11,0:02:06.59,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ai {\k24}wo {\k24}a{\k22}ge{\k44}you!
+Dialogue: 0,0:02:05.26,0:02:07.20,UNDEAD,,0,0,0,fx,{\k90\fad(300,200)}{\k13}HAL{\k11}LO{\k60}WEEN!
+Dialogue: 0,0:02:08.74,0:02:10.99,ALL,,0,0,0,fx,{\k90\fad(300,200)}{\k17}HAL{\k14}LO{\k22}WEEN {\k27}NIGHT{\k35}MARE
+Dialogue: 0,0:02:12.52,0:02:14.70,ALL,,0,0,0,fx,{\k90\fad(300,200)}{\k14}HAL{\k14}LO{\k22}WEEN {\k24}NIGHT{\k34}MARE
+Dialogue: 0,0:02:16.25,0:02:18.48,ALL,,0,0,0,fx,{\k90\fad(300,200)}{\k17}HAL{\k14}LO{\k18}WEEN {\k25}NIGHT{\k39}MARE
+Dialogue: 0,0:02:19.96,0:02:22.23,ALL,,0,0,0,fx,{\k90\fad(300,200)}{\k31}TRICK {\k21}OR {\k65}TREAT?
