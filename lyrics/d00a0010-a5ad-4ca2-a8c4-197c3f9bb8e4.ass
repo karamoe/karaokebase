@@ -1,0 +1,162 @@
+﻿[Script Info]
+Title: GIMME MORE
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+LayoutResX: 0
+LayoutResY: 0
+Original Timing: Uwhipa
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Chorus,Arial,22,&H00FFFFFF,&H001819FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: English,Arial,22,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Japanese,Arial,22,&H00FFFFFF,&H00FFAB00,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,English,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.71,0:00:02.71,English,,0,0,0,karaoke,{\k30}Gim{\k28}me {\k41}more, {\k25}make {\k43}it {\k33}shine
+Comment: 0,0:00:02.91,0:00:04.90,English,,0,0,0,karaoke,{\k28}Gim{\k27}me {\k42}more, {\k29}so {\k38}di{\k35}vine
+Comment: 0,0:00:05.09,0:00:07.89,English,,0,0,0,karaoke,{\k28}Gim{\k27}me {\k28}more, {\k13}I’ll {\k26}make {\k43}it {\k54}all {\k61}mine
+Comment: 0,0:00:09.74,0:00:13.55,Japanese,,0,0,0,karaoke,{\k21}dou {\k6}shi{\k18}you {\k23}mo {\k96}nai {\k26}{\rEnglish}my {\k28}hun{\k54}ger’s {\k28}on {\k27}fi{\k54}re{\r}
+Comment: 0,0:00:14.08,0:00:17.92,Japanese,,0,0,0,karaoke,{\k29}to{\k15}me{\k30}ran{\k89}nai {\k30}{\rEnglish}de{\k28}si{\k54}re, {\k27}I {\k31}warned {\k51}ya{\r}
+Comment: 0,0:00:18.46,0:00:22.48,Japanese,,0,0,0,karaoke,{\k46}yu{\k36}me {\k27}nan{\k15}te {\k40}mon {\k53}wa {\k14}ka{\k9}na{\k33}e{\k28}te {\k26}{\rEnglish}num{\k28}ber {\k47}one{\r}
+Comment: 0,0:00:22.83,0:00:24.73,Japanese,,0,0,0,karaoke,{\k43}yuu{\k39}gen {\k26}nan{\k19}te {\k37}nai {\k26}wa
+Comment: 0,0:00:25.00,0:00:26.85,English,,0,0,0,karaoke,{\k28}‘Cause {\k29}that’s {\k25}no {\k103}fun!
+Comment: 0,0:00:27.19,0:00:30.00,Japanese,,0,0,0,karaoke,{\k26}ko{\k29}ko{\k28}ro {\k26}ni {\k28}u{\k28}ka{\k24}bu {\k44}gan{\k48}bou
+Comment: 0,0:00:30.74,0:00:34.56,Japanese,,0,0,0,karaoke,{\k27}zen{\k55}bu {\k27}su{\k27}de {\k28}ni {\k27}bo{\k27}ku {\k27}no {\k28}{\rEnglish}pos{\k41}ses{\k68}sion{\r}
+Comment: 0,0:00:35.10,0:00:37.00,Japanese,,0,0,0,karaoke,{\k14}u{\k25}ra{\k43}mik{\k27}ko{\k25}na{\k28}shi {\k28}yo
+Comment: 0,0:00:37.27,0:00:39.40,Japanese,,0,0,0,karaoke,{\k15}cho{\k19}to{\k9}tsu {\k40}mou{\k27}shin {\k28}sen{\k27}kou {\k40}shou{\k8}bu
+Comment: 0,0:00:40.01,0:00:42.70,English,,0,0,0,karaoke,{\k19}Dare {\k20}you {\k14}to {\k29}keep {\k25}up, {\k17}you’re {\k27}gon{\k13}na {\k27}eat {\k27}my {\k51}dust
+Comment: 0,0:00:43.56,0:00:45.64,English,,0,0,0,karaoke,{\k29}I’ll {\k25}run {\k16}the {\k38}world, {\k28}don’t {\k27}be {\k13}ab{\k32}surd
+Comment: 0,0:00:45.74,0:00:47.87,English,,0,0,0,karaoke,{\k27}It {\k27}ain’t {\k14}a {\k41}sin {\k27}if {\k28}you {\k49}win
+Comment: 0,0:00:48.19,0:00:50.10,Japanese,,0,0,0,karaoke,{\k14}mi{\k28}chi{\k40}ta{\k14}ri{\k39}nai {\k16}{\rEnglish}po{\k40}wer{\r}
+Comment: 0,0:00:50.38,0:00:52.34,Japanese,,0,0,0,karaoke,{\k27}o{\k27}na{\k28}ka {\k27}su{\k27}i{\k27}ta {\k33}wa
+Comment: 0,0:00:52.55,0:00:54.43,English,,0,0,0,karaoke,{\k28}Feed {\k15}me {\k66}more, {\k28}I {\k14}need {\k37}more
+Comment: 0,0:00:54.47,0:00:56.84,English,,0,0,0,karaoke,{\k27}Oh {\k27}you’ll {\k14}be {\k40}beg{\k28}gin’ {\k27}on {\k14}all {\k60}fours
+Comment: 0,0:00:57.19,0:00:59.06,Japanese,,0,0,0,karaoke,{\k28}ji{\k27}bun {\k14}shi{\k41}dai {\k27}shou{\k50}gai
+Comment: 0,0:00:59.37,0:01:01.80,English,,0,0,0,karaoke,{\k28}Ah {\k27}{\rJapanese}bo{\k14}ku {\k40}no {\k32}{\r}show{\k102}time
+Comment: 0,0:01:02.65,0:01:04.23,English,,0,0,0,karaoke,{\k27}Gim{\k27}me {\k28}some {\k76}more
+Comment: 0,0:01:04.83,0:01:06.43,English,,0,0,0,karaoke,{\k28}Gim{\k27}me {\k28}some {\k77}more
+Comment: 0,0:01:07.00,0:01:08.73,English,,0,0,0,karaoke,{\k29}Gim{\k27}me {\k27}some {\k90}more
+Comment: 0,0:01:10.56,0:01:14.06,Japanese,,0,0,0,karaoke,{\k54}ONE, {\k44}TWO, {\k24}ma{\k15}kyo {\k16}ni {\k10}i{\k29}to{\k26}ma {\k54}ga {\k45}nai {\k33}no
+Comment: 0,0:01:14.91,0:01:18.51,Japanese,,0,0,0,karaoke,{\k56}gan{\k40}chuu {\k27}hi{\k13}to {\k28}na{\k27}shi {\k28}{\rEnglish}I {\k55}don’t {\k40}need {\k46}you{\r}
+Comment: 0,0:01:19.02,0:01:19.91,Chorus,,0,0,0,karaoke,{\k27}Waz{\k62}zup?
+Comment: 0,0:01:20.09,0:01:21.45,Japanese,,0,0,0,karaoke,{\k28}shu{\k28}bi {\k27}jou{\k53}jou
+Comment: 0,0:01:21.15,0:01:22.09,Chorus,,0,0,0,karaoke,{\k32}Waz{\k62}zup?
+Comment: 0,0:01:22.24,0:01:23.59,English,,0,0,0,karaoke,{\k32}Count {\k27}me {\k27}no-{\k49}show
+Comment: 0,0:01:23.64,0:01:27.92,English,,0,0,0,karaoke,{\k55}I’m {\k15}bu{\k40}sy {\k13}ma{\k42}king {\k26}stacks {\k26}that {\k42}you’ll {\k42}ne{\k32}ver {\k95}hold
+Comment: 0,0:01:28.28,0:01:31.24,Japanese,,0,0,0,karaoke,{\k27}ko{\k28}ko{\k27}ro {\k31}ni {\k23}u{\k29}ka{\k25}bu {\k47}kan{\k59}jou
+Comment: 0,0:01:31.82,0:01:35.64,English,,0,0,0,karaoke,{\k28}It {\k55}all {\k27}de{\k27}pends {\k28}on {\k27}my {\k27}in{\k26}ter{\k29}pre{\k40}ta{\k68}tion
+Comment: 0,0:01:36.19,0:01:38.09,Japanese,,0,0,0,karaoke,{\k14}ki{\k25}ma{\k43}gu{\k27}re {\k28}na {\k27}shi{\k26}non
+Comment: 0,0:01:38.37,0:01:40.68,Japanese,,0,0,0,karaoke,{\k14}na{\k8}ru {\k19}wa {\k42}sei{\k27}shin {\k27}sei{\k29}ton {\k53}jou{\k12}zu
+Comment: 0,0:01:41.10,0:01:43.79,English,,0,0,0,karaoke,{\k19}Dare {\k19}you {\k16}to {\k28}keep {\k27}up, {\k15}you’re {\k27}gon{\k13}na {\k27}eat {\k27}my {\k51}dust
+Comment: 0,0:01:44.65,0:01:46.73,English,,0,0,0,karaoke,{\k29}I’ll {\k25}run {\k16}the {\k38}world, {\k28}don’t {\k27}be {\k13}ab{\k32}surd
+Comment: 0,0:01:46.83,0:01:48.96,English,,0,0,0,karaoke,{\k27}It {\k27}ain’t {\k14}a {\k41}sin {\k27}if {\k28}you {\k49}win
+Comment: 0,0:01:49.28,0:01:51.19,Japanese,,0,0,0,karaoke,{\k14}mi{\k28}chi{\k40}ta{\k14}ri{\k39}nai {\k16}{\rEnglish}po{\k40}wer{\r}
+Comment: 0,0:01:51.47,0:01:53.43,Japanese,,0,0,0,karaoke,{\k27}o{\k27}na{\k28}ka {\k27}su{\k27}i{\k27}ta {\k33}wa
+Comment: 0,0:01:53.64,0:01:55.52,English,,0,0,0,karaoke,{\k28}Feed {\k15}me {\k66}more, {\k28}I {\k14}need {\k37}more
+Comment: 0,0:01:55.56,0:01:57.93,English,,0,0,0,karaoke,{\k27}Oh {\k27}you’ll {\k14}be {\k40}beg{\k28}gin’ {\k27}on {\k14}all {\k60}fours
+Comment: 0,0:01:58.28,0:02:00.15,Japanese,,0,0,0,karaoke,{\k28}ji{\k27}bun {\k14}shi{\k41}dai {\k27}shou{\k50}gai
+Comment: 0,0:02:00.46,0:02:02.89,English,,0,0,0,karaoke,{\k28}Ah {\k27}{\rJapanese}bo{\k14}ku {\k40}no {\k32}{\r}show{\k102}time
+Comment: 0,0:02:03.74,0:02:05.32,English,,0,0,0,karaoke,{\k27}Gim{\k27}me {\k28}some {\k76}more
+Comment: 0,0:02:05.92,0:02:07.52,English,,0,0,0,karaoke,{\k28}Gim{\k27}me {\k28}some {\k77}more
+Comment: 0,0:02:08.09,0:02:09.82,English,,0,0,0,karaoke,{\k29}Gim{\k27}me {\k27}some {\k90}more
+Comment: 0,0:02:10.28,0:02:12.10,English,,0,0,0,karaoke,{\k15}Just {\k12}a {\k29}lit{\k26}tle {\k27}bit {\k73}more
+Comment: 0,0:02:12.47,0:02:14.10,English,,0,0,0,karaoke,{\k26}Gim{\k28}me {\k27}some {\k82}more
+Comment: 0,0:02:14.64,0:02:16.41,English,,0,0,0,karaoke,{\k28}Gim{\k27}me {\k29}some {\k93}more
+Comment: 0,0:02:16.82,0:02:18.66,English,,0,0,0,karaoke,{\k28}Gim{\k28}me {\k27}some {\k101}more
+Comment: 0,0:02:20.38,0:02:22.50,English,,0,0,0,karaoke,{\k40}Next, {\k41}next, {\k55}next, {\k27}{\rJapanese}o{\k16}wa{\k12}ra{\k21}nai{\r}
+Comment: 0,0:02:22.56,0:02:25.82,English,,0,0,0,karaoke,{\k39}Test, {\k41}test, {\k56}test, {\k28}{\rJapanese}e{\k13}ra{\k14}ba{\k27}nai{\r} {\k27}A{\k28}B{\k53}C
+Comment: 0,0:02:26.37,0:02:28.19,English,,0,0,0,karaoke,{\k28}Per{\k27}fect {\k27}an{\k26}swer {\k74}sheet
+Comment: 0,0:02:29.10,0:02:32.43,Japanese,,0,0,0,karaoke,{\k40}sei{\k42}kai {\k51}ka? {\k58}iya {\k27}fu{\k39}sei{\k42}kai {\k34}ka?
+Comment: 0,0:02:32.64,0:02:36.28,English,,0,0,0,karaoke,{\k28}Hands {\k54}up! {\k45}No {\k36}one {\k28}can {\k39}ques{\k44}tion {\k27}the {\k63}queen
+Comment: 0,0:02:54.47,0:02:56.55,English,,0,0,0,karaoke,{\k29}I’ll {\k25}run {\k16}the {\k38}world, {\k28}don’t {\k27}be {\k13}ab{\k32}surd
+Comment: 0,0:02:56.65,0:02:58.78,English,,0,0,0,karaoke,{\k27}It {\k27}ain’t {\k14}a {\k41}sin {\k27}if {\k28}you {\k49}win
+Comment: 0,0:02:59.10,0:03:01.01,Japanese,,0,0,0,karaoke,{\k14}mi{\k28}chi{\k40}ta{\k14}ri{\k39}nai {\k16}{\rEnglish}po{\k40}wer{\r}
+Comment: 0,0:03:01.29,0:03:03.25,Japanese,,0,0,0,karaoke,{\k27}o{\k27}na{\k28}ka {\k27}su{\k27}i{\k27}ta {\k33}wa
+Comment: 0,0:03:03.46,0:03:05.34,English,,0,0,0,karaoke,{\k28}Feed {\k15}me {\k66}more, {\k28}I {\k14}need {\k37}more
+Comment: 0,0:03:05.38,0:03:07.75,English,,0,0,0,karaoke,{\k27}Oh {\k27}you’ll {\k14}be {\k40}beg{\k28}gin’ {\k27}on {\k14}all {\k60}fours
+Comment: 0,0:03:08.10,0:03:09.97,Japanese,,0,0,0,karaoke,{\k28}ji{\k27}bun {\k14}shi{\k41}dai {\k27}shou{\k50}gai
+Comment: 0,0:03:10.28,0:03:12.71,English,,0,0,0,karaoke,{\k28}Ah {\k27}{\rJapanese}bo{\k14}ku {\k40}no {\k32}{\r}show{\k102}time
+Comment: 0,0:03:13.56,0:03:15.14,English,,0,0,0,karaoke,{\k27}Gim{\k27}me {\k28}some {\k76}more
+Comment: 0,0:03:15.74,0:03:17.34,English,,0,0,0,karaoke,{\k28}Gim{\k27}me {\k28}some {\k77}more
+Comment: 0,0:03:17.91,0:03:19.64,English,,0,0,0,karaoke,{\k29}Gim{\k27}me {\k27}some {\k90}more
+Comment: 0,0:03:20.10,0:03:21.92,English,,0,0,0,karaoke,{\k15}Just {\k12}a {\k29}lit{\k26}tle {\k27}bit {\k73}more
+Comment: 0,0:03:22.29,0:03:23.92,English,,0,0,0,karaoke,{\k26}Gim{\k28}me {\k27}some {\k82}more
+Comment: 0,0:03:24.46,0:03:26.23,English,,0,0,0,karaoke,{\k28}Gim{\k27}me {\k29}some {\k93}more
+Comment: 0,0:03:26.64,0:03:28.48,English,,0,0,0,karaoke,{\k28}Gim{\k28}me {\k27}some {\k101}more
+Dialogue: 0,0:00:00.00,0:00:02.91,English,,0,0,0,fx,{\k71\fad(710,200)}{\k30}Gim{\k28}me {\k41}more, {\k25}make {\k43}it {\k33}shine
+Dialogue: 0,0:00:02.01,0:00:05.10,English,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Gim{\k27}me {\k42}more, {\k29}so {\k38}di{\k35}vine
+Dialogue: 0,0:00:04.19,0:00:08.09,English,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Gim{\k27}me {\k28}more, {\k13}I’ll {\k26}make {\k43}it {\k54}all {\k61}mine
+Dialogue: 0,0:00:08.84,0:00:13.75,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k21}dou {\k6}shi{\k18}you {\k23}mo {\k96}nai {\k26}{\rEnglish}my {\k28}hun{\k54}ger’s {\k28}on {\k27}fi{\k54}re{\r}
+Dialogue: 0,0:00:13.18,0:00:18.12,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k29}to{\k15}me{\k30}ran{\k89}nai {\k30}{\rEnglish}de{\k28}si{\k54}re, {\k27}I {\k31}warned {\k51}ya{\r}
+Dialogue: 0,0:00:17.56,0:00:22.68,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k46}yu{\k36}me {\k27}nan{\k15}te {\k40}mon {\k53}wa {\k14}ka{\k9}na{\k33}e{\k28}te {\k26}{\rEnglish}num{\k28}ber {\k47}one{\r}
+Dialogue: 0,0:00:21.93,0:00:24.93,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k43}yuu{\k39}gen {\k26}nan{\k19}te {\k37}nai {\k26}wa
+Dialogue: 0,0:00:24.10,0:00:27.05,English,,0,0,0,fx,{\k90\fad(300,200)}{\k28}‘Cause {\k29}that’s {\k25}no {\k103}fun!
+Dialogue: 0,0:00:26.29,0:00:30.20,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ko{\k29}ko{\k28}ro {\k26}ni {\k28}u{\k28}ka{\k24}bu {\k44}gan{\k48}bou
+Dialogue: 0,0:00:29.84,0:00:34.76,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k27}zen{\k55}bu {\k27}su{\k27}de {\k28}ni {\k27}bo{\k27}ku {\k27}no {\k28}{\rEnglish}pos{\k41}ses{\k68}sion{\r}
+Dialogue: 0,0:00:34.20,0:00:37.20,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k14}u{\k25}ra{\k43}mik{\k27}ko{\k25}na{\k28}shi {\k28}yo
+Dialogue: 0,0:00:36.37,0:00:39.60,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k15}cho{\k19}to{\k9}tsu {\k40}mou{\k27}shin {\k28}sen{\k27}kou {\k40}shou{\k8}bu
+Dialogue: 0,0:00:39.11,0:00:42.90,English,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Dare {\k20}you {\k14}to {\k29}keep {\k25}up, {\k17}you’re {\k27}gon{\k13}na {\k27}eat {\k27}my {\k51}dust
+Dialogue: 0,0:00:42.66,0:00:45.84,English,,0,0,0,fx,{\k90\fad(300,200)}{\k29}I’ll {\k25}run {\k16}the {\k38}world, {\k28}don’t {\k27}be {\k13}ab{\k32}surd
+Dialogue: 0,0:00:44.84,0:00:48.07,English,,0,0,0,fx,{\k90\fad(300,200)}{\k27}It {\k27}ain’t {\k14}a {\k41}sin {\k27}if {\k28}you {\k49}win
+Dialogue: 0,0:00:47.29,0:00:50.30,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k14}mi{\k28}chi{\k40}ta{\k14}ri{\k39}nai {\k16}{\rEnglish}po{\k40}wer{\r}
+Dialogue: 0,0:00:49.48,0:00:52.54,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k27}o{\k27}na{\k28}ka {\k27}su{\k27}i{\k27}ta {\k33}wa
+Dialogue: 0,0:00:51.65,0:00:54.63,English,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Feed {\k15}me {\k66}more, {\k28}I {\k14}need {\k37}more
+Dialogue: 0,0:00:53.57,0:00:57.04,English,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Oh {\k27}you’ll {\k14}be {\k40}beg{\k28}gin’ {\k27}on {\k14}all {\k60}fours
+Dialogue: 0,0:00:56.29,0:00:59.26,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ji{\k27}bun {\k14}shi{\k41}dai {\k27}shou{\k50}gai
+Dialogue: 0,0:00:58.47,0:01:02.00,English,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Ah {\k27}{\rJapanese}bo{\k14}ku {\k40}no {\k32}{\r}show{\k102}time
+Dialogue: 0,0:01:01.75,0:01:04.43,English,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Gim{\k27}me {\k28}some {\k76}more
+Dialogue: 0,0:01:03.93,0:01:06.63,English,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Gim{\k27}me {\k28}some {\k77}more
+Dialogue: 0,0:01:06.10,0:01:08.93,English,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Gim{\k27}me {\k27}some {\k90}more
+Dialogue: 0,0:01:09.66,0:01:14.26,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k54}ONE, {\k44}TWO, {\k24}ma{\k15}kyo {\k16}ni {\k10}i{\k29}to{\k26}ma {\k54}ga {\k45}nai {\k33}no
+Dialogue: 0,0:01:14.01,0:01:18.71,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k56}gan{\k40}chuu {\k27}hi{\k13}to {\k28}na{\k27}shi {\k28}{\rEnglish}I {\k55}don’t {\k40}need {\k46}you{\r}
+Dialogue: 0,0:01:18.12,0:01:20.11,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Waz{\k62}zup?
+Dialogue: 0,0:01:19.19,0:01:21.65,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k28}shu{\k28}bi {\k27}jou{\k53}jou
+Dialogue: 0,0:01:20.25,0:01:22.29,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Waz{\k62}zup?
+Dialogue: 0,0:01:21.34,0:01:23.79,English,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Count {\k27}me {\k27}no-{\k49}show
+Dialogue: 0,0:01:22.74,0:01:28.12,English,,0,0,0,fx,{\k90\fad(300,200)}{\k55}I’m {\k15}bu{\k40}sy {\k13}ma{\k42}king {\k26}stacks {\k26}that {\k42}you’ll {\k42}ne{\k32}ver {\k95}hold
+Dialogue: 0,0:01:27.38,0:01:31.44,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ko{\k28}ko{\k27}ro {\k31}ni {\k23}u{\k29}ka{\k25}bu {\k47}kan{\k59}jou
+Dialogue: 0,0:01:30.92,0:01:35.84,English,,0,0,0,fx,{\k90\fad(300,200)}{\k28}It {\k55}all {\k27}de{\k27}pends {\k28}on {\k27}my {\k27}in{\k26}ter{\k29}pre{\k40}ta{\k68}tion
+Dialogue: 0,0:01:35.29,0:01:38.29,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ki{\k25}ma{\k43}gu{\k27}re {\k28}na {\k27}shi{\k26}non
+Dialogue: 0,0:01:37.47,0:01:40.88,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k14}na{\k8}ru {\k19}wa {\k42}sei{\k27}shin {\k27}sei{\k29}ton {\k53}jou{\k12}zu
+Dialogue: 0,0:01:40.20,0:01:43.99,English,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Dare {\k19}you {\k16}to {\k28}keep {\k27}up, {\k15}you’re {\k27}gon{\k13}na {\k27}eat {\k27}my {\k51}dust
+Dialogue: 0,0:01:43.75,0:01:46.93,English,,0,0,0,fx,{\k90\fad(300,200)}{\k29}I’ll {\k25}run {\k16}the {\k38}world, {\k28}don’t {\k27}be {\k13}ab{\k32}surd
+Dialogue: 0,0:01:45.93,0:01:49.16,English,,0,0,0,fx,{\k90\fad(300,200)}{\k27}It {\k27}ain’t {\k14}a {\k41}sin {\k27}if {\k28}you {\k49}win
+Dialogue: 0,0:01:48.38,0:01:51.39,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k14}mi{\k28}chi{\k40}ta{\k14}ri{\k39}nai {\k16}{\rEnglish}po{\k40}wer{\r}
+Dialogue: 0,0:01:50.57,0:01:53.63,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k27}o{\k27}na{\k28}ka {\k27}su{\k27}i{\k27}ta {\k33}wa
+Dialogue: 0,0:01:52.74,0:01:55.72,English,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Feed {\k15}me {\k66}more, {\k28}I {\k14}need {\k37}more
+Dialogue: 0,0:01:54.66,0:01:58.13,English,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Oh {\k27}you’ll {\k14}be {\k40}beg{\k28}gin’ {\k27}on {\k14}all {\k60}fours
+Dialogue: 0,0:01:57.38,0:02:00.35,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ji{\k27}bun {\k14}shi{\k41}dai {\k27}shou{\k50}gai
+Dialogue: 0,0:01:59.56,0:02:03.09,English,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Ah {\k27}{\rJapanese}bo{\k14}ku {\k40}no {\k32}{\r}show{\k102}time
+Dialogue: 0,0:02:02.84,0:02:05.52,English,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Gim{\k27}me {\k28}some {\k76}more
+Dialogue: 0,0:02:05.02,0:02:07.72,English,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Gim{\k27}me {\k28}some {\k77}more
+Dialogue: 0,0:02:07.19,0:02:10.02,English,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Gim{\k27}me {\k27}some {\k90}more
+Dialogue: 0,0:02:09.38,0:02:12.30,English,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Just {\k12}a {\k29}lit{\k26}tle {\k27}bit {\k73}more
+Dialogue: 0,0:02:11.57,0:02:14.30,English,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Gim{\k28}me {\k27}some {\k82}more
+Dialogue: 0,0:02:13.74,0:02:16.61,English,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Gim{\k27}me {\k29}some {\k93}more
+Dialogue: 0,0:02:15.92,0:02:18.86,English,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Gim{\k28}me {\k27}some {\k101}more
+Dialogue: 0,0:02:19.48,0:02:22.70,English,,0,0,0,fx,{\k90\fad(300,200)}{\k40}Next, {\k41}next, {\k55}next, {\k27}{\rJapanese}o{\k16}wa{\k12}ra{\k21}nai{\r}
+Dialogue: 0,0:02:21.66,0:02:26.02,English,,0,0,0,fx,{\k90\fad(300,200)}{\k39}Test, {\k41}test, {\k56}test, {\k28}{\rJapanese}e{\k13}ra{\k14}ba{\k27}nai{\r} {\k27}A{\k28}B{\k53}C
+Dialogue: 0,0:02:25.47,0:02:28.39,English,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Per{\k27}fect {\k27}an{\k26}swer {\k74}sheet
+Dialogue: 0,0:02:28.20,0:02:32.63,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k40}sei{\k42}kai {\k51}ka? {\k58}iya {\k27}fu{\k39}sei{\k42}kai {\k34}ka?
+Dialogue: 0,0:02:31.74,0:02:36.48,English,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Hands {\k54}up! {\k45}No {\k36}one {\k28}can {\k39}ques{\k44}tion {\k27}the {\k63}queen
+Dialogue: 0,0:02:53.57,0:02:56.75,English,,0,0,0,fx,{\k90\fad(300,200)}{\k29}I’ll {\k25}run {\k16}the {\k38}world, {\k28}don’t {\k27}be {\k13}ab{\k32}surd
+Dialogue: 0,0:02:55.75,0:02:58.98,English,,0,0,0,fx,{\k90\fad(300,200)}{\k27}It {\k27}ain’t {\k14}a {\k41}sin {\k27}if {\k28}you {\k49}win
+Dialogue: 0,0:02:58.20,0:03:01.21,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k14}mi{\k28}chi{\k40}ta{\k14}ri{\k39}nai {\k16}{\rEnglish}po{\k40}wer{\r}
+Dialogue: 0,0:03:00.39,0:03:03.45,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k27}o{\k27}na{\k28}ka {\k27}su{\k27}i{\k27}ta {\k33}wa
+Dialogue: 0,0:03:02.56,0:03:05.54,English,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Feed {\k15}me {\k66}more, {\k28}I {\k14}need {\k37}more
+Dialogue: 0,0:03:04.48,0:03:07.95,English,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Oh {\k27}you’ll {\k14}be {\k40}beg{\k28}gin’ {\k27}on {\k14}all {\k60}fours
+Dialogue: 0,0:03:07.20,0:03:10.17,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ji{\k27}bun {\k14}shi{\k41}dai {\k27}shou{\k50}gai
+Dialogue: 0,0:03:09.38,0:03:12.91,English,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Ah {\k27}{\rJapanese}bo{\k14}ku {\k40}no {\k32}{\r}show{\k102}time
+Dialogue: 0,0:03:12.66,0:03:15.34,English,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Gim{\k27}me {\k28}some {\k76}more
+Dialogue: 0,0:03:14.84,0:03:17.54,English,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Gim{\k27}me {\k28}some {\k77}more
+Dialogue: 0,0:03:17.01,0:03:19.84,English,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Gim{\k27}me {\k27}some {\k90}more
+Dialogue: 0,0:03:19.20,0:03:22.12,English,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Just {\k12}a {\k29}lit{\k26}tle {\k27}bit {\k73}more
+Dialogue: 0,0:03:21.39,0:03:24.12,English,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Gim{\k28}me {\k27}some {\k82}more
+Dialogue: 0,0:03:23.56,0:03:26.43,English,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Gim{\k27}me {\k29}some {\k93}more
+Dialogue: 0,0:03:25.74,0:03:28.68,English,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Gim{\k28}me {\k27}some {\k101}more
