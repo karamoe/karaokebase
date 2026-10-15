@@ -1,0 +1,97 @@
+﻿[Script Info]
+Title: Kero to March FR
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: PC.709
+PlayResX: 0
+PlayResY: 0
+LayoutResX: 0
+LayoutResY: 0
+Original Timing: KazamaAsu
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,24,&H000088EF,&H00FFFFFF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.66,0:00:03.10,Default,,0,0,0,karaoke,{\k85}THREE, {\k86}TWO, {\k73}ONE
+Comment: 0,0:00:03.20,0:00:04.00,Default,,0,0,0,karaoke,{\k80}FIRE
+Comment: 0,0:00:06.53,0:00:07.84,Default,,0,0,0,karaoke,{\k22}Ke{\k25}ro, {\k18}ke{\k26}ro, {\k19}ke{\k21}ro
+Comment: 0,0:00:07.84,0:00:09.65,Default,,0,0,0,karaoke,{\k16}l’a{\k23}ven{\k22}ture {\k40}com{\k65}men{\k15}ce
+Comment: 0,0:00:09.98,0:00:13.30,Default,,0,0,0,karaoke,{\k15}Il {\k25}nous {\k20}faut {\k22}com{\k19}pter {\k39}sur {\k42}la {\k90}chan{\k60}ce
+Comment: 0,0:00:13.59,0:00:14.86,Default,,0,0,0,karaoke,{\k26}Mes {\k15}pe{\k29}tites {\k14}gre{\k43}nouilles
+Comment: 0,0:00:14.86,0:00:16.40,Default,,0,0,0,karaoke,{\k29}pré{\k16}pa{\k38}rez{\k71}-vous
+Comment: 0,0:00:16.55,0:00:18.29,Default,,0,0,0,karaoke,{\k18}En {\k14}a{\k17}vant {\k37}la {\k46}ver{\k42}mine
+Comment: 0,0:00:18.29,0:00:20.00,Default,,0,0,0,karaoke,{\k40}re{\k29}belle {\k15}s’at{\k31}taque {\k14}à {\k42}nous
+Comment: 0,0:00:20.40,0:00:23.30,Default,,0,0,0,karaoke,{\k16}A {\k11}vos {\k60}or{\k83}dres ! {\k18}Tou{\k55}jours {\k47}prêts !
+Comment: 0,0:00:23.85,0:00:25.40,Default,,0,0,0,karaoke,{\k28}Pre{\k19}nez {\k32}garde, {\k15}nous {\k20}ar{\k20}ri{\k21}vons
+Comment: 0,0:00:25.40,0:00:29.30,Default,,0,0,0,karaoke,{\k20}Ca{\k27}chez {\k16}bien {\k20}vos {\k23}jou{\kf242}ets {\k42}!
+Comment: 0,0:00:29.40,0:00:31.16,Default,,0,0,0,karaoke,{\k35}Dans {\k15}tout {\k42}l’u{\k43}ni{\k41}vers
+Comment: 0,0:00:31.16,0:00:33.00,Default,,0,0,0,karaoke,{\k27}à {\k18}tra{\k26}vers {\k17}les {\k23}ga{\k21}la{\k52}xies
+Comment: 0,0:00:33.10,0:00:34.57,Default,,0,0,0,karaoke,{\k21}le {\k24}ser{\k18}gent {\k28}Ke{\k17}ro{\k39}ro
+Comment: 0,0:00:34.57,0:00:36.40,Default,,0,0,0,karaoke,{\k29}se{\k18}ra {\k22}tou{\k21}jours {\k27}votre {\k14}a{\k52}mi
+Comment: 0,0:00:36.55,0:00:37.55,Default,,0,0,0,karaoke,{\k19}Nous {\k40}ve{\k41}nons
+Comment: 0,0:00:37.55,0:00:39.85,Default,,0,0,0,karaoke,{\k31}pour {\k15}en{\k26}va{\k19}hir {\k62}tou{\k8}te {\k19}la {\k50}Terre
+Comment: 0,0:00:39.95,0:00:41.90,Default,,0,0,0,karaoke,{\k20}Mais {\k29}nos {\k15}bê{\k24}tises {\k20}font {\k38}rire {\k29}le {\k20}monde
+Comment: 0,0:00:41.90,0:00:43.45,Default,,0,0,0,karaoke,{\k25}et {\k15}tout {\k30}l’u{\k15}ni{\k70}vers
+Comment: 0,0:00:46.80,0:00:48.17,Default,,0,0,0,karaoke,{\k22}Ke{\k30}ro, {\k12}ke{\k31}ro, {\k13}ke{\k29}ro
+Comment: 0,0:00:48.17,0:00:49.80,Default,,0,0,0,karaoke,{\k13}al{\k29}lez {\k16}mes {\k43}am{\k62}is
+Comment: 0,0:00:50.25,0:00:52.90,Default,,0,0,0,karaoke,{\k20}Les {\k26}hum{\k14}ains {\k30}sont {\k15}plu{\k41}tôt {\k45}gen{\k74}tils
+Comment: 0,0:00:52.90,0:00:53.65,Default,,0,0,0,karaoke,{\k75}Oui !
+Comment: 0,0:00:53.85,0:00:56.65,Default,,0,0,0,karaoke,{\k31}Nous {\k14}ai{\k31}mons {\k14}jou{\k41}er {\k28}et {\k15}ri{\k43}go{\k63}ler
+Comment: 0,0:00:56.85,0:00:57.72,Default,,0,0,0,karaoke,{\k18}Mais {\k12}chaque {\k18}ins{\k39}tant
+Comment: 0,0:00:57.72,0:01:00.25,Default,,0,0,0,karaoke,{\k43}se {\k44}trans{\k45}forme {\k31}en {\k10}ca{\k30}la{\k15}mi{\k35}té
+Comment: 0,0:01:01.00,0:01:03.00,Default,,0,0,0,karaoke,{\k20}La {\k18}mis{\k30}sion {\k19}est {\k13}un {\k29}é{\k71}chec !
+Comment: 0,0:01:04.10,0:01:05.70,Default,,0,0,0,karaoke,{\k35}Pre{\k16}nez {\k27}garde, {\k16}nous {\k25}a{\k15}rri{\k26}vons
+Comment: 0,0:01:05.70,0:01:09.50,Default,,0,0,0,karaoke,{\k19}On {\k24}va {\k17}bien {\k26}s’a{\k17}mu{\kf245}ser {\k32}!
+Comment: 0,0:01:09.70,0:01:11.47,Default,,0,0,0,karaoke,{\k34}Dans {\k15}tout {\k43}l’u{\k41}ni{\k44}vers
+Comment: 0,0:01:11.47,0:01:13.30,Default,,0,0,0,karaoke,{\k25}à {\k16}tra{\k31}vers {\k15}les {\k23}ga{\k19}la{\k54}xies
+Comment: 0,0:01:13.40,0:01:14.84,Default,,0,0,0,karaoke,{\k19}le {\k24}ser{\k20}gent {\k28}Ke{\k14}ro{\k39}ro
+Comment: 0,0:01:14.84,0:01:16.70,Default,,0,0,0,karaoke,{\k31}se{\k16}ra {\k25}tou{\k19}jours {\k26}votre {\k15}a{\k54}mi
+Comment: 0,0:01:16.80,0:01:20.10,Default,,0,0,0,karaoke,{\k21}A{\k41}vec {\k39}nous {\k34}la {\k13}vie {\k28}est {\k17}vrai{\k66}ment {\k19}su{\k52}per
+Comment: 0,0:01:20.30,0:01:22.19,Default,,0,0,0,karaoke,{\k16}Car {\k28}nos {\k14}bê{\k28}tises {\k15}font {\k38}rire {\k31}le {\k19}monde
+Comment: 0,0:01:22.19,0:01:23.50,Default,,0,0,0,karaoke,{\k26}et {\k16}tout {\k28}l’u{\k14}ni{\k47}vers
+Comment: 0,0:01:23.72,0:01:25.56,Default,,0,0,0,karaoke,{\k16}Car {\k28}nos {\k14}bê{\k28}tises {\k15}font {\k38}rire {\k28}le {\k17}monde
+Comment: 0,0:01:25.56,0:01:27.10,Default,,0,0,0,karaoke,{\k29}et {\k12}tout {\k30}l’u{\k14}ni{\k69}vers
+Dialogue: 0,0:00:00.00,0:00:03.30,Default,,0,0,0,fx,{\k66}{\fad(680,200)}{\k85}THREE, {\k86}TWO, {\k93}ONE
+Dialogue: 0,0:00:02.30,0:00:04.20,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k100}FIRE
+Dialogue: 0,0:00:05.63,0:00:08.04,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k22}Ke{\k25}ro, {\k18}ke{\k26}ro, {\k19}ke{\k41}ro
+Dialogue: 0,0:00:06.94,0:00:09.85,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k16}l’a{\k23}ven{\k22}ture {\k40}com{\k65}men{\k35}ce
+Dialogue: 0,0:00:09.08,0:00:13.50,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k15}Il {\k25}nous {\k20}faut {\k22}com{\k19}pter {\k39}sur {\k42}la {\k90}chan{\k80}ce
+Dialogue: 0,0:00:12.69,0:00:15.06,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k26}Mes {\k15}pe{\k29}tites {\k14}gre{\k63}nouilles
+Dialogue: 0,0:00:13.96,0:00:16.60,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k29}pré{\k16}pa{\k38}rez{\k91}-vous
+Dialogue: 0,0:00:15.65,0:00:18.49,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k18}En {\k14}a{\k17}vant {\k37}la {\k46}ver{\k62}mine
+Dialogue: 0,0:00:17.39,0:00:20.20,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k40}re{\k29}belle {\k15}s’at{\k31}taque {\k14}à {\k62}nous
+Dialogue: 0,0:00:19.50,0:00:23.50,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k16}A {\k11}vos {\k60}or{\k83}dres ! {\k18}Tou{\k55}jours {\k67}prêts !
+Dialogue: 0,0:00:22.95,0:00:25.60,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k28}Pre{\k19}nez {\k32}garde, {\k15}nous {\k20}ar{\k20}ri{\k41}vons
+Dialogue: 0,0:00:24.50,0:00:29.50,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k20}Ca{\k27}chez {\k16}bien {\k20}vos {\k23}jou{\kf242}ets {\k62}!
+Dialogue: 0,0:00:28.50,0:00:31.36,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k35}Dans {\k15}tout {\k42}l’u{\k43}ni{\k61}vers
+Dialogue: 0,0:00:30.26,0:00:33.20,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k27}à {\k18}tra{\k26}vers {\k17}les {\k23}ga{\k21}la{\k72}xies
+Dialogue: 0,0:00:32.20,0:00:34.77,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k21}le {\k24}ser{\k18}gent {\k28}Ke{\k17}ro{\k59}ro
+Dialogue: 0,0:00:33.67,0:00:36.60,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k29}se{\k18}ra {\k22}tou{\k21}jours {\k27}votre {\k14}a{\k72}mi
+Dialogue: 0,0:00:35.65,0:00:37.75,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k19}Nous {\k40}ve{\k61}nons
+Dialogue: 0,0:00:36.65,0:00:40.05,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k31}pour {\k15}en{\k26}va{\k19}hir {\k62}tou{\k8}te {\k19}la {\k70}Terre
+Dialogue: 0,0:00:39.05,0:00:42.10,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k20}Mais {\k29}nos {\k15}bê{\k24}tises {\k20}font {\k38}rire {\k29}le {\k40}monde
+Dialogue: 0,0:00:41.00,0:00:43.65,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k25}et {\k15}tout {\k30}l’u{\k15}ni{\k90}vers
+Dialogue: 0,0:00:45.90,0:00:48.37,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k22}Ke{\k30}ro, {\k12}ke{\k31}ro, {\k13}ke{\k49}ro
+Dialogue: 0,0:00:47.27,0:00:50.00,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k13}al{\k29}lez {\k16}mes {\k43}am{\k82}is
+Dialogue: 0,0:00:49.35,0:00:53.10,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k20}Les {\k26}hum{\k14}ains {\k30}sont {\k15}plu{\k41}tôt {\k45}gen{\k94}tils
+Dialogue: 0,0:00:52.00,0:00:53.85,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k95}Oui !
+Dialogue: 0,0:00:52.95,0:00:56.85,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k31}Nous {\k14}ai{\k31}mons {\k14}jou{\k41}er {\k28}et {\k15}ri{\k43}go{\k83}ler
+Dialogue: 0,0:00:55.95,0:00:57.92,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k18}Mais {\k12}chaque {\k18}ins{\k59}tant
+Dialogue: 0,0:00:56.82,0:01:00.45,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k43}se {\k44}trans{\k45}forme {\k31}en {\k10}ca{\k30}la{\k15}mi{\k55}té
+Dialogue: 0,0:01:00.10,0:01:03.20,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k20}La {\k18}mis{\k30}sion {\k19}est {\k13}un {\k29}é{\k91}chec !
+Dialogue: 0,0:01:03.20,0:01:05.90,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k35}Pre{\k16}nez {\k27}garde, {\k16}nous {\k25}a{\k15}rri{\k46}vons
+Dialogue: 0,0:01:04.80,0:01:09.70,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k19}On {\k24}va {\k17}bien {\k26}s’a{\k17}mu{\kf245}ser {\k52}!
+Dialogue: 0,0:01:08.80,0:01:11.67,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k34}Dans {\k15}tout {\k43}l’u{\k41}ni{\k64}vers
+Dialogue: 0,0:01:10.57,0:01:13.50,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k25}à {\k16}tra{\k31}vers {\k15}les {\k23}ga{\k19}la{\k74}xies
+Dialogue: 0,0:01:12.50,0:01:15.04,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k19}le {\k24}ser{\k20}gent {\k28}Ke{\k14}ro{\k59}ro
+Dialogue: 0,0:01:13.94,0:01:16.90,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k31}se{\k16}ra {\k25}tou{\k19}jours {\k26}votre {\k15}a{\k74}mi
+Dialogue: 0,0:01:15.90,0:01:20.30,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k21}A{\k41}vec {\k39}nous {\k34}la {\k13}vie {\k28}est {\k17}vrai{\k66}ment {\k19}su{\k72}per
+Dialogue: 0,0:01:19.40,0:01:22.39,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k16}Car {\k28}nos {\k14}bê{\k28}tises {\k15}font {\k38}rire {\k31}le {\k39}monde
+Dialogue: 0,0:01:21.29,0:01:23.70,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k26}et {\k16}tout {\k28}l’u{\k14}ni{\k67}vers
+Dialogue: 0,0:01:22.82,0:01:25.76,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k16}Car {\k28}nos {\k14}bê{\k28}tises {\k15}font {\k38}rire {\k28}le {\k37}monde
+Dialogue: 0,0:01:24.66,0:01:27.30,Default,,0,0,0,fx,{\k90}{\fad(300,200)}{\k29}et {\k12}tout {\k30}l’u{\k14}ni{\k89}vers
