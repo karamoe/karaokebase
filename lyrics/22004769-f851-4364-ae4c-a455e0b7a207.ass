@@ -1,0 +1,143 @@
+﻿[Script Info]
+Title: Pink Pony Club
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: piharatamo, ono3000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Rie,Arial,24,&H00FFFFFF,&H00C49EE7,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:02.67,0:00:04.01,Rie,,0,0,0,karaoke,{\k83}hawk {\k51}tuah
+Comment: 0,0:00:05.28,0:00:08.14,Rie,,0,0,0,karaoke,{\k39}here's {\k13}your {\k25}sig{\k22}ma{\k36}star {\k24}to{\kf127}night!
+Comment: 0,0:00:08.95,0:00:10.27,Rie,,0,0,0,karaoke,{\k21}yeah {\k17}you {\k21}know {\k17}who {\k21}this {\k35}is
+Comment: 0,0:00:10.74,0:00:13.53,Rie,,0,0,0,karaoke,{\k15}it's {\k20}your {\k18}one {\k20}and {\k21}on{\k18}ly {\k53}pizz{\k15}la {\k21}in {\k14}da {\k64}bowl!
+Comment: 0,0:00:14.80,0:00:16.40,Rie,,0,0,0,karaoke,{\k16}I'm {\k9}a{\k20}bout {\k11}to {\k14}go {\k24}down {\k14}on {\k18}your {\k34}mom
+Comment: 0,0:00:17.05,0:00:18.01,Rie,,0,0,0,karaoke,{\k14}she's {\k9}gon{\k19}na {\k54}cream
+Comment: 0,0:00:18.20,0:00:19.40,Rie,,0,0,0,karaoke,{\k19}so {\k13}li{\k11}sten {\k32}up, {\k16}be{\k29}ta!
+Comment: 0,0:00:20.32,0:00:21.35,Rie,,0,0,0,karaoke,{\k21}here {\k40}I {\k42}goon
+Comment: 0,0:00:21.50,0:00:22.89,Rie,,0,0,0,karaoke,{\k22}o{\k19}me{\k21}ga {\k34}rizz{\k43}ler
+Comment: 0,0:00:23.47,0:00:24.33,Rie,,0,0,0,karaoke,{\k19}all {\k20}gyatts {\k19}on {\k28}me
+Comment: 0,0:00:24.59,0:00:25.94,Rie,,0,0,0,karaoke,{\k37}no {\k23}gyatts {\k39}on {\k36}you
+Comment: 0,0:00:26.55,0:00:27.54,Rie,,0,0,0,karaoke,{\k18}you {\k18}think {\k13}I'm {\k21}sus{\k29}sy?
+Comment: 0,0:00:28.10,0:00:29.55,Rie,,0,0,0,karaoke,{\k15}I'm {\k22}here {\k20}to {\k23}rizz {\k19}ya {\k46}girl
+Comment: 0,0:00:29.63,0:00:30.82,Rie,,0,0,0,karaoke,{\k21}I'm {\k15}gon{\k22}na {\k61}edge
+Comment: 0,0:00:30.82,0:00:32.54,Rie,,0,0,0,karaoke,{\k36}edge {\k39}til {\k22}the {\kf75}end!
+Comment: 0,0:00:33.56,0:00:34.91,Rie,,0,0,0,karaoke,{\k16}I {\k19}am {\k19}a {\k22}sig{\k29}ma {\k30}chad
+Comment: 0,0:00:35.09,0:00:36.47,Rie,,0,0,0,karaoke,{\k17}in{\k18}side {\k17}of {\k24}kai {\k36}ce{\k26}nat
+Comment: 0,0:00:36.64,0:00:38.05,Rie,,0,0,0,karaoke,{\k18}I {\k20}am {\k19}the {\k20}one {\k39}that {\k25}plaps
+Comment: 0,0:00:38.19,0:00:39.58,Rie,,0,0,0,karaoke,{\k12}you {\k26}simp {\k19}for {\k32}my {\k26}phat {\k24}gyatt
+Comment: 0,0:00:39.78,0:00:41.08,Rie,,0,0,0,karaoke,{\k14}I {\k19}am {\k20}a {\k20}sig{\k25}ma {\k32}chad
+Comment: 0,0:00:41.28,0:00:42.62,Rie,,0,0,0,karaoke,{\k21}in{\k17}side {\k16}of {\k25}X{\k19}Q{\k36}C
+Comment: 0,0:00:42.84,0:00:44.18,Rie,,0,0,0,karaoke,{\k17}I {\k21}am {\k23}the {\k31}ski{\k21}bi{\k21}di
+Comment: 0,0:00:44.36,0:00:45.55,Rie,,0,0,0,karaoke,{\k40}yeah, {\k18}the {\k21}rizz{\k40}ler!
+Comment: 0,0:00:45.73,0:00:46.88,Rie,,0,0,0,karaoke,{\k38}I {\k20}was {\k18}a {\k39}simp
+Comment: 0,0:00:47.08,0:00:48.42,Rie,,0,0,0,karaoke,{\k18}who {\k41}gooned {\k19}to {\k19}3{\k37}D
+Comment: 0,0:00:48.60,0:00:51.46,Rie,,0,0,0,karaoke,{\k22}some{\k38}bo{\k38}dy {\k35}edg{\k41}ing {\k41}in {\k18}O{\k18}hi{\k35}o
+Comment: 0,0:00:51.51,0:00:53.07,Rie,,0,0,0,karaoke,{\k19}but {\k17}your {\k39}mom {\k19}real{\k12}ly {\k50}sucked
+Comment: 0,0:00:53.07,0:00:54.62,Rie,,0,0,0,karaoke,{\k33}she {\k42}was {\k23}the {\k17}throat {\k40}goat
+Comment: 0,0:00:54.82,0:00:57.72,Rie,,0,0,0,karaoke,{\k17}it's {\k41}how {\k38}I {\k39}lost {\k38}my {\kf117}streak
+Comment: 0,0:00:58.12,0:00:59.27,Rie,,0,0,0,karaoke,{\k38}then {\k19}ba{\k19}by {\k39}Gronk
+Comment: 0,0:00:59.66,0:01:00.81,Rie,,0,0,0,karaoke,{\k38}and {\k20}M{\k20}r {\k37}Beast
+Comment: 0,0:01:01.18,0:01:03.93,Rie,,0,0,0,karaoke,{\k41}taught {\k28}me {\k49}how {\k35}to {\k59}match {\k22}their {\k41}freak
+Comment: 0,0:01:04.30,0:01:05.41,Rie,,0,0,0,karaoke,{\k18}you {\k16}may {\k17}call {\k20}me {\k40}cringe
+Comment: 0,0:01:05.47,0:01:07.00,Rie,,0,0,0,karaoke,{\k13}but {\k26}you {\k26}have {\k26}ze{\k22}ro {\k21}au{\k19}ra
+Comment: 0,0:01:07.03,0:01:09.93,Rie,,0,0,0,karaoke,{\k18}in {\k16}this {\k39}chun{\k42}gus {\k35}life {\k40}of {\kf100}mine
+Comment: 0,0:01:10.88,0:01:13.20,Rie,,0,0,0,karaoke,{\k39}I {\k38}must {\k39}mog {\k37}all {\k37}my {\k42}opps
+Comment: 0,0:01:13.20,0:01:14.75,Rie,,0,0,0,karaoke,{\k21}and {\k48}looks{\k40}maxx {\k46}til
+Comment: 0,0:01:14.92,0:01:17.04,Rie,,0,0,0,karaoke,{\k21}I {\k27}rizz {\k30}up {\k18}the {\k23}sta{\k32}ceys {\k22}to{\k39}night
+Comment: 0,0:01:17.04,0:01:19.78,Rie,,0,0,0,karaoke,{\k24}I {\k57}won't {\k38}give {\k30}back{\k48}shots {\k40}to {\k37}just
+Comment: 0,0:01:19.78,0:01:21.38,Rie,,0,0,0,karaoke,{\k59}a{\k21}ny{\kf80}one
+Comment: 0,0:01:22.24,0:01:23.27,Rie,,0,0,0,karaoke,{\k23}here {\k39}I {\k41}goon
+Comment: 0,0:01:23.45,0:01:24.81,Rie,,0,0,0,karaoke,{\k22}o{\k19}me{\k21}ga {\k34}rizz{\k43}ler
+Comment: 0,0:01:25.40,0:01:26.38,Rie,,0,0,0,karaoke,{\k19}all {\k20}gyatts {\k19}on {\k28}me
+Comment: 0,0:01:26.57,0:01:27.92,Rie,,0,0,0,karaoke,{\k37}no {\k23}gyatts {\k39}on {\k36}you
+Comment: 0,0:01:28.47,0:01:29.46,Rie,,0,0,0,karaoke,{\k18}you {\k18}think {\k13}I'm {\k21}sus{\k29}sy?
+Comment: 0,0:01:30.03,0:01:31.39,Rie,,0,0,0,karaoke,{\k15}I'm {\k22}here {\k20}to {\k23}rizz {\k19}ya {\k46}girl
+Comment: 0,0:01:31.58,0:01:32.55,Rie,,0,0,0,karaoke,{\k21}I'm {\k15}gon{\k22}na {\k61}edge
+Comment: 0,0:01:32.75,0:01:34.49,Rie,,0,0,0,karaoke,{\k36}edge {\k39}til {\k22}the {\kf75}end!
+Comment: 0,0:01:34.69,0:01:35.65,Rie,,0,0,0,karaoke,{\k18}I {\k22}have {\k20}dem{\k36}ure
+Comment: 0,0:01:35.86,0:01:37.22,Rie,,0,0,0,karaoke,{\k19}bus{\k20}sy-{\k18}des{\k20}troy{\k18}ing {\k41}nuts
+Comment: 0,0:01:37.80,0:01:38.75,Rie,,0,0,0,karaoke,{\k19}they {\k15}will {\k23}cre{\k38}ate
+Comment: 0,0:01:38.96,0:01:40.49,Rie,,0,0,0,karaoke,{\k25}w {\k31}rizz {\k20}in {\k19}your {\k58}womb
+Comment: 0,0:01:40.89,0:01:41.85,Rie,,0,0,0,karaoke,{\k17}no {\k16}mat{\k20}ter {\k43}gyatt
+Comment: 0,0:01:42.44,0:01:44.08,Rie,,0,0,0,karaoke,{\k18}the {\k18}goon {\k20}sesh {\k20}must {\k39}go {\k49}on!
+Comment: 0,0:01:44.75,0:01:45.90,Rie,,0,0,0,karaoke,{\k19}we're {\k15}in {\k24}the {\k20}gliz{\k20}zy {\k17}grind
+Comment: 0,0:01:45.90,0:01:48.08,Rie,,0,0,0,karaoke,{\k19}to{\k37}ge{\k40}ther {\k37}you {\k41}and {\k44}me
+Comment: 0,0:01:49.43,0:01:50.80,Rie,,0,0,0,karaoke,{\k18}I {\k20}am {\k16}a {\k22}sig{\k26}ma {\k35}chad
+Comment: 0,0:01:50.96,0:01:52.35,Rie,,0,0,0,karaoke,{\k17}in{\k18}side {\k17}of {\k24}kai {\k36}ce{\k26}nat
+Comment: 0,0:01:52.50,0:01:53.95,Rie,,0,0,0,karaoke,{\k18}I {\k20}am {\k19}the {\k20}one {\k39}that {\k25}plaps
+Comment: 0,0:01:54.06,0:01:55.57,Rie,,0,0,0,karaoke,{\k12}you {\k26}simp {\k19}for {\k32}my {\k26}phat {\k24}gyatt
+Comment: 0,0:01:55.65,0:01:56.96,Rie,,0,0,0,karaoke,{\k14}I {\k19}am {\k20}a {\k20}sig{\k25}ma {\k32}chad
+Comment: 0,0:01:57.16,0:01:58.49,Rie,,0,0,0,karaoke,{\k21}in{\k17}side {\k16}of {\k25}X{\k19}Q{\k36}C
+Comment: 0,0:01:58.70,0:02:00.22,Rie,,0,0,0,karaoke,{\k17}I {\k21}am {\k23}the {\k31}ski{\k21}bi{\k21}di
+Comment: 0,0:02:00.26,0:02:01.43,Rie,,0,0,0,karaoke,{\k36}yeah, {\k20}the {\k21}rizz{\k40}ler!
+Dialogue: 1,0:00:01.77,0:00:04.21,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k83}hawk {\k51}tuah
+Dialogue: 1,0:00:04.38,0:00:08.34,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k39}here's {\k13}your {\k25}sig{\k22}ma{\k36}star {\k24}to{\kf127}night!
+Dialogue: 1,0:00:08.05,0:00:10.47,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k21}yeah {\k17}you {\k21}know {\k17}who {\k21}this {\k35}is
+Dialogue: 1,0:00:09.84,0:00:13.73,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k15}it's {\k20}your {\k18}one {\k20}and {\k21}on{\k18}ly {\k53}pizz{\k15}la {\k21}in {\k14}da {\k64}bowl!
+Dialogue: 1,0:00:13.90,0:00:16.60,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k16}I'm {\k9}a{\k20}bout {\k11}to {\k14}go {\k24}down {\k14}on {\k18}your {\k34}mom
+Dialogue: 1,0:00:16.15,0:00:18.21,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k14}she's {\k9}gon{\k19}na {\k54}cream
+Dialogue: 1,0:00:17.30,0:00:19.60,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k19}so {\k13}li{\k11}sten {\k32}up, {\k16}be{\k29}ta!
+Dialogue: 1,0:00:19.42,0:00:21.55,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k21}here {\k40}I {\k42}goon
+Dialogue: 1,0:00:20.60,0:00:23.09,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k22}o{\k19}me{\k21}ga {\k34}rizz{\k43}ler
+Dialogue: 1,0:00:22.57,0:00:24.53,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k19}all {\k20}gyatts {\k19}on {\k28}me
+Dialogue: 1,0:00:23.69,0:00:26.14,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k37}no {\k23}gyatts {\k39}on {\k36}you
+Dialogue: 1,0:00:25.65,0:00:27.74,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k18}you {\k18}think {\k13}I'm {\k21}sus{\k29}sy?
+Dialogue: 1,0:00:27.20,0:00:29.75,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k15}I'm {\k22}here {\k20}to {\k23}rizz {\k19}ya {\k46}girl
+Dialogue: 1,0:00:28.73,0:00:31.02,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k21}I'm {\k15}gon{\k22}na {\k61}edge
+Dialogue: 1,0:00:29.92,0:00:32.74,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k36}edge {\k39}til {\k22}the {\kf75}end!
+Dialogue: 1,0:00:32.66,0:00:35.11,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k16}I {\k19}am {\k19}a {\k22}sig{\k29}ma {\k30}chad
+Dialogue: 1,0:00:34.19,0:00:36.67,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k17}in{\k18}side {\k17}of {\k24}kai {\k36}ce{\k26}nat
+Dialogue: 1,0:00:35.74,0:00:38.25,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k20}am {\k19}the {\k20}one {\k39}that {\k25}plaps
+Dialogue: 1,0:00:37.29,0:00:39.78,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k12}you {\k26}simp {\k19}for {\k32}my {\k26}phat {\k24}gyatt
+Dialogue: 1,0:00:38.88,0:00:41.28,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k14}I {\k19}am {\k20}a {\k20}sig{\k25}ma {\k32}chad
+Dialogue: 1,0:00:40.38,0:00:42.82,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k21}in{\k17}side {\k16}of {\k25}X{\k19}Q{\k36}C
+Dialogue: 1,0:00:41.94,0:00:44.38,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k21}am {\k23}the {\k31}ski{\k21}bi{\k21}di
+Dialogue: 1,0:00:43.46,0:00:45.75,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k40}yeah, {\k18}the {\k21}rizz{\k40}ler!
+Dialogue: 1,0:00:44.83,0:00:47.08,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k38}I {\k20}was {\k18}a {\k39}simp
+Dialogue: 1,0:00:46.18,0:00:48.62,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k18}who {\k41}gooned {\k19}to {\k19}3{\k37}D
+Dialogue: 1,0:00:47.70,0:00:51.66,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k22}some{\k38}bo{\k38}dy {\k35}edg{\k41}ing {\k41}in {\k18}O{\k18}hi{\k35}o
+Dialogue: 1,0:00:50.61,0:00:53.27,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k19}but {\k17}your {\k39}mom {\k19}real{\k12}ly {\k50}sucked
+Dialogue: 1,0:00:52.17,0:00:54.82,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k33}she {\k42}was {\k23}the {\k17}throat {\k40}goat
+Dialogue: 1,0:00:53.92,0:00:57.92,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k17}it's {\k41}how {\k38}I {\k39}lost {\k38}my {\kf117}streak
+Dialogue: 1,0:00:57.22,0:00:59.47,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k38}then {\k19}ba{\k19}by {\k39}Gronk
+Dialogue: 1,0:00:58.76,0:01:01.01,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k38}and {\k20}M{\k20}r {\k37}Beast
+Dialogue: 1,0:01:00.28,0:01:04.13,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k41}taught {\k28}me {\k49}how {\k35}to {\k59}match {\k22}their {\k41}freak
+Dialogue: 1,0:01:03.40,0:01:05.61,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k18}you {\k16}may {\k17}call {\k20}me {\k40}cringe
+Dialogue: 1,0:01:04.57,0:01:07.20,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k13}but {\k26}you {\k26}have {\k26}ze{\k22}ro {\k21}au{\k19}ra
+Dialogue: 1,0:01:06.13,0:01:10.13,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k18}in {\k16}this {\k39}chun{\k42}gus {\k35}life {\k40}of {\kf100}mine
+Dialogue: 1,0:01:09.98,0:01:13.40,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k39}I {\k38}must {\k39}mog {\k37}all {\k37}my {\k42}opps
+Dialogue: 1,0:01:12.30,0:01:14.95,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k21}and {\k48}looks{\k40}maxx {\k46}til
+Dialogue: 1,0:01:14.02,0:01:17.24,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k27}rizz {\k30}up {\k18}the {\k23}sta{\k32}ceys {\k22}to{\k39}night
+Dialogue: 1,0:01:16.14,0:01:19.98,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k57}won't {\k38}give {\k30}back{\k48}shots {\k40}to {\k37}just
+Dialogue: 1,0:01:18.88,0:01:21.58,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k59}a{\k21}ny{\kf80}one
+Dialogue: 1,0:01:21.34,0:01:23.47,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k23}here {\k39}I {\k41}goon
+Dialogue: 1,0:01:22.55,0:01:25.01,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k22}o{\k19}me{\k21}ga {\k34}rizz{\k43}ler
+Dialogue: 1,0:01:24.50,0:01:26.58,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k19}all {\k20}gyatts {\k19}on {\k28}me
+Dialogue: 1,0:01:25.67,0:01:28.12,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k37}no {\k23}gyatts {\k39}on {\k36}you
+Dialogue: 1,0:01:27.57,0:01:29.66,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k18}you {\k18}think {\k13}I'm {\k21}sus{\k29}sy?
+Dialogue: 1,0:01:29.13,0:01:31.59,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k15}I'm {\k22}here {\k20}to {\k23}rizz {\k19}ya {\k46}girl
+Dialogue: 1,0:01:30.68,0:01:32.75,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k21}I'm {\k15}gon{\k22}na {\k61}edge
+Dialogue: 1,0:01:31.85,0:01:34.69,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k36}edge {\k39}til {\k22}the {\kf75}end!
+Dialogue: 1,0:01:33.79,0:01:35.85,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k22}have {\k20}dem{\k36}ure
+Dialogue: 1,0:01:34.96,0:01:37.42,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k19}bus{\k20}sy-{\k18}des{\k20}troy{\k18}ing {\k41}nuts
+Dialogue: 1,0:01:36.90,0:01:38.95,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k19}they {\k15}will {\k23}cre{\k38}ate
+Dialogue: 1,0:01:38.06,0:01:40.69,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k25}w {\k31}rizz {\k20}in {\k19}your {\k58}womb
+Dialogue: 1,0:01:39.99,0:01:42.05,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k17}no {\k16}mat{\k20}ter {\k43}gyatt
+Dialogue: 1,0:01:41.54,0:01:44.28,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k18}the {\k18}goon {\k20}sesh {\k20}must {\k39}go {\k49}on!
+Dialogue: 1,0:01:43.85,0:01:46.10,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k19}we're {\k15}in {\k24}the {\k20}gliz{\k20}zy {\k17}grind
+Dialogue: 1,0:01:45.00,0:01:48.28,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k19}to{\k37}ge{\k40}ther {\k37}you {\k41}and {\k44}me
+Dialogue: 1,0:01:48.53,0:01:51.00,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k20}am {\k16}a {\k22}sig{\k26}ma {\k35}chad
+Dialogue: 1,0:01:50.06,0:01:52.55,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k17}in{\k18}side {\k17}of {\k24}kai {\k36}ce{\k26}nat
+Dialogue: 1,0:01:51.60,0:01:54.15,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k20}am {\k19}the {\k20}one {\k39}that {\k25}plaps
+Dialogue: 1,0:01:53.16,0:01:55.77,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k12}you {\k26}simp {\k19}for {\k32}my {\k26}phat {\k24}gyatt
+Dialogue: 1,0:01:54.75,0:01:57.16,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k14}I {\k19}am {\k20}a {\k20}sig{\k25}ma {\k32}chad
+Dialogue: 1,0:01:56.26,0:01:58.69,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k21}in{\k17}side {\k16}of {\k25}X{\k19}Q{\k36}C
+Dialogue: 1,0:01:57.80,0:02:00.42,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k21}am {\k23}the {\k31}ski{\k21}bi{\k21}di
+Dialogue: 1,0:01:59.36,0:02:01.63,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k36}yeah, {\k20}the {\k21}rizz{\k40}ler!
