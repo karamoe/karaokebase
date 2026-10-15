@@ -1,0 +1,68 @@
+﻿[Script Info]
+Title: DREAM OF BUTTERFLY
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Naruse
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: jap,Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: eng,Arial,24,&H00FFFFFF,&H005757FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.81,0:00:05.90,eng,,0,0,0,karaoke,{\k69}Am {\k58}I {\k68}drea{\k63}ming {\k63}of {\k56}a {\k37}but{\k20}ter{\kf75}fly?
+Comment: 0,0:00:05.90,0:00:11.12,eng,,0,0,0,karaoke,{\k65}Am {\k58}I {\k67}in {\k57}the {\k66}dream {\k36}of {\k29}a {\k32}but{\k23}ter{\kf89}fly?
+Comment: 0,0:00:15.70,0:00:20.96,eng,,0,0,0,karaoke,{\k30}The {\k48}dis{\k47}tance {\k28}be{\k52}tween {\k78}us {\k48}bends {\k44}all {\k36}di{\k34}men{\k81}sions
+Comment: 0,0:00:21.04,0:00:25.84,eng,,0,0,0,karaoke,{\k50}Cal{\k46}ling {\k30}me, {\k51}cal{\k38}ling {\k41}me, {\k40}no {\k53}trans{\k30}mis{\k48}sion{\k53}s
+Comment: 0,0:00:25.17,0:00:26.13,Sample KM [Choir],,0,0,0,karaoke,{\k48}Say {\k15}a{\k33}gain!
+Comment: 0,0:00:26.13,0:00:27.30,jap,,0,0,0,karaoke,{\k6}u{\k7}bat{\k17}ta{\k11}ri {\k7}u{\k9}ba{\k19}wa{\k13}re {\k28}tar'
+Comment: 0,0:00:27.34,0:00:28.63,jap,,0,0,0,karaoke,{\k18}da{\k14}re {\k17}no {\k20}ta{\k13}me {\k17}no {\reng}{\k30}REAL?
+Comment: 0,0:00:28.67,0:00:31.09,jap,,0,0,0,karaoke,{\k15}a{\k14}ga{\k14}ri {\k14}sa{\k20}ga{\k14}ri {\k14}ma{\k20}ku{\k12}ri {\k11}ma{\k20}ta {\k14}iya {\k16}na {\k12}yu{\k32}me
+Comment: 0,0:00:31.84,0:00:33.43,jap,,0,0,0,karaoke,{\k12}i{\k17}ga{\k8}mu {\k22}ku{\k21}ram' {\k14}me {\k8}wo {\k15}hi{\k42}rait'
+Comment: 0,0:00:33.43,0:00:34.89,jap,,0,0,0,karaoke,{\k17}sa{\k39}kai{\k13}me {\reng}{\k17}SUR{\k34}VI{\k26}VING
+Comment: 0,0:00:34.89,0:00:36.22,jap,,0,0,0,karaoke,{\k7}o{\k17}no{\k15}re {\k12}wo {\k20}sa{\k24}bai{\k38}ter'
+Comment: 0,0:00:36.27,0:00:39.85,eng,,0,0,0,karaoke,{\kf92}All {\kf83}in {\k73}for {\k33}it {\k77}all
+Comment: 0,0:00:40.02,0:00:43.77,jap,,0,0,0,karaoke,{\k31}u{\k33}shi{\k39}na{\k84}u {\k30}mo{\k38}no {\k33}na{\kf87}do
+Comment: 0,0:00:44.07,0:00:47.78,eng,,0,0,0,karaoke,{\kf100}All {\kf88}in {\k71}for {\k30}it {\kf82}all
+Comment: 0,0:00:47.90,0:00:53.32,jap,,0,0,0,karaoke,{\k27}a{\k37}re {\k30}wa {\k34}da{\k31}re {\k27}no {\kf195}yu{\kf161}me?
+Comment: 0,0:00:53.57,0:00:58.58,jap,,0,0,0,karaoke,{\k35}ko{\k26}no {\k20}yo {\k32}no {\k30}su{\k33}be{\k82}te {\k28}so{\k30}no {\k19}te {\k29}de {\k31}su{\k33}be{\k73}te
+Comment: 0,0:00:58.58,0:01:00.21,eng,,0,0,0,karaoke,{\k34}Are {\k31}you {\k34}hap{\k21}py {\k43}now?
+Comment: 0,0:01:00.21,0:01:03.42,eng,,0,0,0,karaoke,{\k17}What {\k40}did {\k23}you {\k48}get {\k19}to {\kf174}pay?
+Comment: 0,0:01:03.67,0:01:06.17,eng,,0,0,0,karaoke,{\k33}There {\k33}was {\k45}ho{\k23}pe {\k12}in {\k26}your {\k78}hands
+Comment: 0,0:01:06.21,0:01:08.71,eng,,0,0,0,karaoke,{\k35}When {\k28}you {\k49}played {\k27}in {\k38}the {\k73}sand
+Comment: 0,0:01:08.71,0:01:11.59,jap,,0,0,0,karaoke,{\k34}mo{\k30}u {\k35}na{\k17}ni{\k44}mo {\k47}nai {\k81}sa
+Comment: 0,0:01:11.93,0:01:16.72,jap,,0,0,0,karaoke,{\k47}ai {\k46}mo {\k31}mi{\k68}ra{\k57}i {\kf230}mo
+Comment: 0,0:01:16.97,0:01:21.94,eng,,0,0,0,karaoke,{\k63}Am {\k59}I {\k68}drea{\k62}ming {\k62}of {\k63}a {\k34}but{\k20}ter{\k66}fly?
+Comment: 0,0:01:22.02,0:01:27.27,eng,,0,0,0,karaoke,{\k64}Am {\k59}I {\k66}in {\k58}the {\k66}dream {\k29}of {\k36}a {\k32}but{\k23}ter{\kf92}fly?
+Dialogue: 0,0:00:00.00,0:00:06.10,eng,,0,0,0,fx,{\k81\fad(810,200)}{\k69}Am {\k58}I {\k68}drea{\k63}ming {\k63}of {\k56}a {\k37}but{\k20}ter{\kf75}fly?
+Dialogue: 0,0:00:05.00,0:00:11.32,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k65}Am {\k58}I {\k67}in {\k57}the {\k66}dream {\k36}of {\k29}a {\k32}but{\k23}ter{\kf89}fly?
+Dialogue: 0,0:00:14.80,0:00:21.16,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k30}The {\k48}dis{\k47}tance {\k28}be{\k52}tween {\k78}us {\k48}bends {\k44}all {\k36}di{\k34}men{\k81}sions
+Dialogue: 0,0:00:20.14,0:00:26.04,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k50}Cal{\k46}ling {\k30}me, {\k51}cal{\k38}ling {\k41}me, {\k40}no {\k53}trans{\k30}mis{\k48}sion{\k53}s
+Dialogue: 0,0:00:24.27,0:00:26.33,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Say {\k15}a{\k33}gain!
+Dialogue: 0,0:00:25.23,0:00:27.50,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k6}u{\k7}bat{\k17}ta{\k11}ri {\k7}u{\k9}ba{\k19}wa{\k13}re {\k28}tar'
+Dialogue: 0,0:00:26.44,0:00:28.83,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k18}da{\k14}re {\k17}no {\k20}ta{\k13}me {\k17}no {\reng}{\k30}REAL?
+Dialogue: 0,0:00:27.77,0:00:31.29,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k15}a{\k14}ga{\k14}ri {\k14}sa{\k20}ga{\k14}ri {\k14}ma{\k20}ku{\k12}ri {\k11}ma{\k20}ta {\k14}iya {\k16}na {\k12}yu{\k32}me
+Dialogue: 0,0:00:30.94,0:00:33.63,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k12}i{\k17}ga{\k8}mu {\k22}ku{\k21}ram' {\k14}me {\k8}wo {\k15}hi{\k42}rait'
+Dialogue: 0,0:00:32.53,0:00:35.09,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k17}sa{\k39}kai{\k13}me {\reng}{\k17}SUR{\k34}VI{\k26}VING
+Dialogue: 0,0:00:33.99,0:00:36.42,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k7}o{\k17}no{\k15}re {\k12}wo {\k20}sa{\k24}bai{\k38}ter'
+Dialogue: 0,0:00:35.37,0:00:40.05,eng,,0,0,0,fx,{\k90\fad(300,200)}{\kf92}All {\kf83}in {\k73}for {\k33}it {\k77}all
+Dialogue: 0,0:00:39.12,0:00:43.97,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k31}u{\k33}shi{\k39}na{\k84}u {\k30}mo{\k38}no {\k33}na{\kf87}do
+Dialogue: 0,0:00:43.17,0:00:47.98,eng,,0,0,0,fx,{\k90\fad(300,200)}{\kf100}All {\kf88}in {\k71}for {\k30}it {\kf82}all
+Dialogue: 0,0:00:47.00,0:00:53.52,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k27}a{\k37}re {\k30}wa {\k34}da{\k31}re {\k27}no {\kf195}yu{\kf161}me?
+Dialogue: 0,0:00:52.67,0:00:58.78,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ko{\k26}no {\k20}yo {\k32}no {\k30}su{\k33}be{\k82}te {\k28}so{\k30}no {\k19}te {\k29}de {\k31}su{\k33}be{\k73}te
+Dialogue: 0,0:00:57.68,0:01:00.41,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Are {\k31}you {\k34}hap{\k21}py {\k43}now?
+Dialogue: 0,0:00:59.31,0:01:03.62,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k17}What {\k40}did {\k23}you {\k48}get {\k19}to {\kf174}pay?
+Dialogue: 0,0:01:02.77,0:01:06.37,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k33}There {\k33}was {\k45}ho{\k23}pe {\k12}in {\k26}your {\k78}hands
+Dialogue: 0,0:01:05.31,0:01:08.91,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k35}When {\k28}you {\k49}played {\k27}in {\k38}the {\k73}sand
+Dialogue: 0,0:01:07.81,0:01:11.79,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k34}mo{\k30}u {\k35}na{\k17}ni{\k44}mo {\k47}nai {\k81}sa
+Dialogue: 0,0:01:11.03,0:01:16.92,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k47}ai {\k46}mo {\k31}mi{\k68}ra{\k57}i {\kf230}mo
+Dialogue: 0,0:01:16.07,0:01:22.14,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k63}Am {\k59}I {\k68}drea{\k62}ming {\k62}of {\k63}a {\k34}but{\k20}ter{\k66}fly?
+Dialogue: 0,0:01:21.12,0:01:27.47,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k64}Am {\k59}I {\k66}in {\k58}the {\k66}dream {\k29}of {\k36}a {\k32}but{\k23}ter{\kf92}fly?
