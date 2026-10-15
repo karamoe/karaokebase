@@ -7,132 +7,193 @@ Original Timing: matthu
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,24,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: KM_Up,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: KM_Choir,Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 1,0:00:00.20,0:00:00.20,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Comment: 1,0:00:10.50,0:00:13.70,Default,,0,0,0,karaoke,{\k35}The{\k15}o{\k45}do{\k15}sia {\k30}writes {\k15}me {\k15}a {\k15}let{\k20}ter {\k15}ev'{\k15}ry {\k75}day
-Comment: 1,0:00:15.70,0:00:18.60,Default,,0,0,0,karaoke,{\k15}I'm {\k20}keep{\k15}ing {\k15}her {\k30}bed {\k40}warm {\k15}while {\k10}her {\k20}hus{\k15}band {\k15}is {\k15}a{\k55}way
-Comment: 1,0:00:20.75,0:00:22.80,Default,,0,0,0,karaoke,{\k15}He's {\k15}on {\k15}the {\k15}Brit{\k15}ish {\k15}side {\k15}of {\k45}Geor{\k45}gia
-Comment: 1,0:00:22.90,0:00:24.95,Default,,0,0,0,karaoke,{\k15}He's {\k20}tryin' {\k10}to {\k15}keep {\k10}the {\k15}co{\k15}lo{\k15}nies {\k20}in {\k60}line
-Comment: 1,0:00:25.75,0:00:29.45,Default,,0,0,0,karaoke,{\k20}But {\k20}he {\k15}can {\k20}keep {\k20}all {\k15}of {\k25}Geor{\k55}gia {\k20}The{\k15}o{\k40}do{\k15}sia, {\k30}she's {\k50}mine
-Comment: 1,0:00:30.70,0:00:32.20,Default,,0,0,0,karaoke,{\k25}Love {\k15}does{\k15}n't {\k10}dis{\k15}cri{\k20}mi{\k40}nate
-Comment: 1,0:00:32.15,0:00:33.75,Default,,0,0,0,karaoke,{\k15}Bet{\k15}ween {\k15}the {\k20}sin{\k15}ners {\k15}and {\k15}the {\k40}saints,
-Comment: 1,0:00:33.80,0:00:35.65,Default,,0,0,0,karaoke,{\k15}It {\k30}takes {\k15}and {\k15}it {\k30}takes {\k15}and {\k15}it {\k40}takes
-Comment: 1,0:00:35.65,0:00:37.40,Default,,0,0,0,karaoke,{\k15}And {\k20}we {\k20}keep {\k15}lov{\k15}ing {\k15}a{\k15}ny{\k50}way
-Comment: 1,0:00:37.55,0:00:39.45,Default,,0,0,0,karaoke,{\k20}We {\k35}laugh {\k15}and {\k15}we {\k30}cry {\k15}and {\k15}we {\k35}break
-Comment: 1,0:00:39.40,0:00:40.70,Default,,0,0,0,karaoke,{\k15}And {\k15}we {\k30}make {\k15}our {\k15}mis{\k30}takes
-Comment: 1,0:00:40.65,0:00:43.30,Default,,0,0,0,karaoke,{\k15}And {\k30}if {\k30}there's {\k15}a {\k35}rea{\k25}son {\k20}I'm {\k30}by {\k20}her {\k35}side
-Comment: 1,0:00:43.20,0:00:44.60,Default,,0,0,0,karaoke,{\k15}When {\k30}so {\k25}ma{\k15}ny {\k10}have {\k35}tried
-Comment: 1,0:00:45.05,0:00:47.00,Default,,0,0,0,karaoke,{\k20}Then {\k30}I'm {\k20}wil{\k20}ling {\k15}to {\k20}wait {\k15}for {\k45}it
-Comment: 1,0:00:47.85,0:00:49.40,Default,,0,0,0,karaoke,{\k25}I'm {\k15}wil{\k15}ling {\k15}to {\k35}wait {\k15}for {\k25}it
-Comment: 1,0:00:51.45,0:00:54.30,Default,,0,0,0,karaoke,{\k15}My {\k20}grand{\k20}fa{\k15}ther {\k15}was {\k10}a {\k50}fire {\k15}and {\k35}brim{\k30}stone {\k15}prea{\k35}cher,
-Comment: 1,0:00:56.40,0:00:57.25,Default,,0,0,0,karaoke,{\k15}But {\k15}there {\k15}are {\k30}things
-Comment: 1,0:00:57.20,0:00:59.50,Default,,0,0,0,karaoke,{\k15}That {\k15}the {\k15}hom{\k20}il{\k20}ies {\k15}and {\k35}hymns {\k25}won't {\k15}teach {\k45}ya
-Comment: 1,0:01:01.80,0:01:03.55,Default,,0,0,0,karaoke,{\k20}My {\k20}mo{\k15}ther {\k15}was {\k15}a {\k30}gen{\k50}ius
-Comment: 1,0:01:03.80,0:01:05.85,Default,,0,0,0,karaoke,{\k10}My {\k30}fa{\k15}ther {\k25}com{\k25}man{\k15}ded {\k15}re{\k60}spect
-Comment: 1,0:01:06.65,0:01:09.25,Default,,0,0,0,karaoke,{\k15}When {\k15}they {\k35}died {\k30}they {\k35}left {\k25}no {\k20}in{\k25}struc{\k50}tions
-Comment: 1,0:01:09.20,0:01:10.80,Default,,0,0,0,karaoke,{\k15}Just {\k10}a {\k20}le{\k15}ga{\k15}cy {\k15}to {\k15}pro{\k45}tect
-Comment: 1,0:01:11.50,0:01:13.10,Default,,0,0,0,karaoke,{\k25}Death {\k15}does{\k10}n't {\k20}dis{\k15}cri{\k20}mi{\k45}nate
-Comment: 1,0:01:13.10,0:01:14.65,Default,,0,0,0,karaoke,{\k10}Bet{\k15}ween {\k15}the {\k15}sin{\k20}ners {\k15}and {\k15}the {\k40}saints,
-Comment: 1,0:01:14.60,0:01:16.45,Default,,0,0,0,karaoke,{\k15}It {\k35}takes {\k15}and {\k15}it {\k35}takes {\k15}and {\k15}it {\k30}takes
-Comment: 1,0:01:16.40,0:01:18.20,Default,,0,0,0,karaoke,{\k15}And {\k35}we {\k15}keep {\k15}liv{\k15}ing {\k15}a{\k15}ny{\k45}way
-Comment: 1,0:01:18.35,0:01:20.25,Default,,0,0,0,karaoke,{\k15}We {\k40}rise {\k15}and {\k15}we {\k30}fall {\k15}and {\k15}we {\k35}break
-Comment: 1,0:01:20.15,0:01:21.55,Default,,0,0,0,karaoke,{\k15}And {\k15}we {\k35}make {\k15}our {\k15}mis{\k35}takes
-Comment: 1,0:01:21.50,0:01:24.10,Default,,0,0,0,karaoke,{\k10}And {\k30}if {\k35}there's {\k15}a {\k30}rea{\k25}son {\k25}I'm {\k35}still {\k15}a{\k30}live
-Comment: 1,0:01:24.05,0:01:26.20,Default,,0,0,0,karaoke,{\k15}When {\k15}e{\k15}very{\k25}one {\k25}who {\k30}loves {\k15}me {\k15}has {\k50}died
-Comment: 1,0:01:26.15,0:01:27.65,Default,,0,0,0,karaoke,{\k20}I'm {\k15}wil{\k15}ling {\k20}to {\k30}wait {\k15}for {\k25}it
-Comment: 1,0:01:28.65,0:01:30.30,Default,,0,0,0,karaoke,{\k30}I'm {\k15}wil{\k15}ling {\k15}to {\k35}wait {\k20}for {\k25}it
-Comment: 1,0:01:32.05,0:01:33.00,Default,,0,0,0,karaoke,{\k35}Wait {\k15}for {\k35}it
-Comment: 1,0:01:34.65,0:01:39.10,Default,,0,0,0,karaoke,{\k10}I {\k10}am {\k15}the {\k35}one {\k30}thing {\k15}in {\k30}life {\k15}I{\k20}~ {\k30}can {\k35}con{\k20}trol{\k170}~
-Comment: 1,0:01:39.65,0:01:42.80,Default,,0,0,0,karaoke,{\k15}I {\k15}am {\k15}in{\k20}im{\k15}it{\k55}able, {\k15}I {\k15}am {\k10}an {\k15}or{\k15}ig{\k15}in{\k25}al{\k20}~{\k40}~
-Comment: 1,0:01:44.75,0:01:48.05,Default,,0,0,0,karaoke,{\k20}I'm {\k30}not {\k35}fal{\k25}ling {\k20}be{\k35}hind {\k10}or{\k20}~ {\k20}ru{\k15}~n{\k25}ning {\k25}late{\k40}~
-Comment: 1,0:01:49.80,0:01:53.95,Default,,0,0,0,karaoke,{\k15}I'm {\k30}not {\k35}stand{\k30}ing {\k40}still, {\k35}I {\k15}am {\k20}ly{\k15}ing {\k15}in{\k25}~ {\k70}wait{\k60}~
-Comment: 1,0:01:55.05,0:01:58.45,Default,,0,0,0,karaoke,{\k15}Ham{\k15}il{\k20}ton {\k30}fa{\k35}ces {\k15}an {\k25}end{\k15}less{\k20}~ {\k15}up{\k15}~{\k35}hill {\k35}climb{\k15}~{\k25}~
-Comment: 1,0:02:00.10,0:02:01.50,Default,,0,0,0,karaoke,{\k20}He {\k25}has {\k25}some{\k15}thing {\k15}to {\k30}prove
-Comment: 1,0:02:01.40,0:02:03.75,Default,,0,0,0,karaoke,{\k15}He {\k30}has {\k20}noth{\k15}ing {\k20}to {\k45}lose{\k25}~{\k55}~
-Comment: 1,0:02:05.20,0:02:08.70,Default,,0,0,0,karaoke,{\k15}Ham{\k15}il{\k20}ton's {\k30}pace {\k30}is {\k20}re{\k30}lent{\k30}less, {\k15}he {\k25}wastes {\k30}no {\k40}time{\k40}~
-Comment: 1,0:02:10.35,0:02:13.85,Default,,0,0,0,karaoke,{\k20}What {\k15}is {\k15}it {\k40}like {\k30}in {\k25}his {\k195}shoes?
-Comment: 1,0:02:16.50,0:02:18.20,Default,,0,0,0,karaoke,{\k15}Ham{\k10}il{\k15}ton {\k20}does{\k15}n't {\k20}he{\k15}si{\k50}tate
-Comment: 1,0:02:18.85,0:02:20.60,Default,,0,0,0,karaoke,{\k15}He {\k15}ex{\k15}hi{\k20}bits {\k20}no {\k20}re{\k60}straint
-Comment: 1,0:02:20.60,0:02:22.90,Default,,0,0,0,karaoke,{\k15}He {\k45}takes {\k15}and {\k20}he {\k55}takes {\k15}and {\k15}he {\k40}takes
-Comment: 1,0:02:22.85,0:02:25.10,Default,,0,0,0,karaoke,{\k15}And {\k40}he {\k25}keeps {\k25}win{\k20}ning {\k20}a{\k15}ny{\k55}way
-Comment: 1,0:02:25.35,0:02:26.85,Default,,0,0,0,karaoke,{\k15}He {\k50}chan{\k15}ges {\k15}the {\k45}game
-Comment: 1,0:02:26.85,0:02:28.70,Default,,0,0,0,karaoke,{\k10}He {\k35}plays {\k15}and {\k15}he {\k35}rais{\k15}es {\k20}the {\k30}stakes
-Comment: 1,0:02:28.60,0:02:31.10,Default,,0,0,0,karaoke,{\k15}And {\k35}if {\k35}there's {\k15}a {\k25}rea{\k15}son {\k30}he {\k30}seems {\k15}to {\k25}thrive
-Comment: 1,0:02:31.05,0:02:32.50,Default,,0,0,0,karaoke,{\k20}When {\k30}so {\k30}few {\k20}sur{\k35}vive,
-Comment: 1,0:02:32.40,0:02:34.95,Default,,0,0,0,karaoke,{\k15}Then {\k30}God {\k20}dam{\k15}mit {\k35}I'm {\k15}wil{\k15}ling {\k15}to {\k25}wait {\k20}for {\k40}it
-Comment: 1,0:02:35.70,0:02:37.50,Default,,0,0,0,karaoke,{\k30}I'm {\k20}wil{\k20}ling {\k15}to {\k30}wait {\k20}for {\k35}it
-Comment: 1,0:02:38.95,0:02:40.45,Default,,0,0,0,karaoke,{\k25}Life {\k15}does{\k15}n't {\k15}dis{\k15}cri{\k20}mi{\k35}nate
-Comment: 1,0:02:40.50,0:02:42.00,Default,,0,0,0,karaoke,{\k15}Bet{\k15}ween {\k15}the {\k15}sin{\k15}ners {\k15}and {\k15}the {\k35}saints
-Comment: 1,0:02:42.10,0:02:45.60,Default,,0,0,0,karaoke,{\k15}It {\k30}takes {\k15}and {\k15}it {\k35}takes {\k15}and {\k20}it {\k125}takes{\k15}~{\k55}~
-Comment: 1,0:02:45.95,0:02:47.30,Default,,0,0,0,karaoke,{\k30}We {\k95}rise
-Comment: 1,0:02:47.50,0:02:49.05,Default,,0,0,0,karaoke,{\k20}And {\k15}we {\k40}fall{\k40}~{\k15}~{\k15}~
-Comment: 1,0:02:49.00,0:02:51.65,Default,,0,0,0,karaoke,{\k10}And {\k35}if {\k35}there's {\k15}a {\k30}rea{\k20}son {\k20}I'm {\k35}still {\k20}a{\k35}live
-Comment: 1,0:02:51.55,0:02:53.40,Default,,0,0,0,karaoke,{\k15}When {\k25}so {\k15}ma{\k20}ny {\k15}have {\k25}died{\k60}~
-Comment: 1,0:02:53.40,0:02:54.60,Default,,0,0,0,karaoke,{\k20}Then {\k30}I'm {\k15}wil{\k15}lin' {\k30}to...
-Comment: 1,0:02:57.95,0:02:58.85,Default,,0,0,0,karaoke,{\k35}Wait {\k20}for {\k25}it
-Comment: 1,0:03:00.65,0:03:01.40,Default,,0,0,0,karaoke,{\k25}Wait {\k25}for {\k15}it
-Dialogue: 1,0:00:09.60,0:00:13.90,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}The{\k15}o{\k45}do{\k15}sia {\k30}writes {\k15}me {\k15}a {\k15}let{\k20}ter {\k15}ev'{\k15}ry {\k75}day
-Dialogue: 1,0:00:14.80,0:00:18.80,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}I'm {\k20}keep{\k15}ing {\k15}her {\k30}bed {\k40}warm {\k15}while {\k10}her {\k20}hus{\k15}band {\k15}is {\k15}a{\k55}way
-Dialogue: 1,0:00:19.85,0:00:23.00,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}He's {\k15}on {\k15}the {\k15}Brit{\k15}ish {\k15}side {\k15}of {\k45}Geor{\k45}gia
-Dialogue: 1,0:00:22.00,0:00:25.15,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}He's {\k20}tryin' {\k10}to {\k15}keep {\k10}the {\k15}co{\k15}lo{\k15}nies {\k20}in {\k60}line
-Dialogue: 1,0:00:24.85,0:00:29.65,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}But {\k20}he {\k15}can {\k20}keep {\k20}all {\k15}of {\k25}Geor{\k55}gia {\k20}The{\k15}o{\k40}do{\k15}sia, {\k30}she's {\k50}mine
-Dialogue: 1,0:00:29.80,0:00:32.40,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Love {\k15}does{\k15}n't {\k10}dis{\k15}cri{\k20}mi{\k40}nate
-Dialogue: 1,0:00:31.25,0:00:33.95,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Bet{\k15}ween {\k15}the {\k20}sin{\k15}ners {\k15}and {\k15}the {\k40}saints,
-Dialogue: 1,0:00:32.90,0:00:35.85,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}It {\k30}takes {\k15}and {\k15}it {\k30}takes {\k15}and {\k15}it {\k40}takes
-Dialogue: 1,0:00:34.75,0:00:37.60,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}And {\k20}we {\k20}keep {\k15}lov{\k15}ing {\k15}a{\k15}ny{\k50}way
-Dialogue: 1,0:00:36.65,0:00:39.65,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}We {\k35}laugh {\k15}and {\k15}we {\k30}cry {\k15}and {\k15}we {\k35}break
-Dialogue: 1,0:00:38.50,0:00:40.90,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}And {\k15}we {\k30}make {\k15}our {\k15}mis{\k30}takes
-Dialogue: 1,0:00:39.75,0:00:43.50,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}And {\k30}if {\k30}there's {\k15}a {\k35}rea{\k25}son {\k20}I'm {\k30}by {\k20}her {\k35}side
-Dialogue: 1,0:00:42.30,0:00:44.80,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}When {\k30}so {\k25}ma{\k15}ny {\k10}have {\k35}tried
-Dialogue: 1,0:00:44.15,0:00:47.20,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Then {\k30}I'm {\k20}wil{\k20}ling {\k15}to {\k20}wait {\k15}for {\k45}it
-Dialogue: 1,0:00:46.95,0:00:49.60,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I'm {\k15}wil{\k15}ling {\k15}to {\k35}wait {\k15}for {\k25}it
-Dialogue: 1,0:00:50.55,0:00:54.50,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}My {\k20}grand{\k20}fa{\k15}ther {\k15}was {\k10}a {\k50}fire {\k15}and {\k35}brim{\k30}stone {\k15}prea{\k35}cher,
-Dialogue: 1,0:00:55.50,0:00:57.45,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}But {\k15}there {\k15}are {\k30}things
-Dialogue: 1,0:00:56.30,0:00:59.70,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}That {\k15}the {\k15}hom{\k20}il{\k20}ies {\k15}and {\k35}hymns {\k25}won't {\k15}teach {\k45}ya
-Dialogue: 1,0:01:00.90,0:01:03.75,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}My {\k20}mo{\k15}ther {\k15}was {\k15}a {\k30}gen{\k50}ius
-Dialogue: 1,0:01:02.90,0:01:06.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k10}My {\k30}fa{\k15}ther {\k25}com{\k25}man{\k15}ded {\k15}re{\k60}spect
-Dialogue: 1,0:01:05.75,0:01:09.45,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}When {\k15}they {\k35}died {\k30}they {\k35}left {\k25}no {\k20}in{\k25}struc{\k50}tions
-Dialogue: 1,0:01:08.30,0:01:11.00,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Just {\k10}a {\k20}le{\k15}ga{\k15}cy {\k15}to {\k15}pro{\k45}tect
-Dialogue: 1,0:01:10.60,0:01:13.30,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Death {\k15}does{\k10}n't {\k20}dis{\k15}cri{\k20}mi{\k45}nate
-Dialogue: 1,0:01:12.20,0:01:14.85,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k10}Bet{\k15}ween {\k15}the {\k15}sin{\k20}ners {\k15}and {\k15}the {\k40}saints,
-Dialogue: 1,0:01:13.70,0:01:16.65,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}It {\k35}takes {\k15}and {\k15}it {\k35}takes {\k15}and {\k15}it {\k30}takes
-Dialogue: 1,0:01:15.50,0:01:18.40,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}And {\k35}we {\k15}keep {\k15}liv{\k15}ing {\k15}a{\k15}ny{\k45}way
-Dialogue: 1,0:01:17.45,0:01:20.45,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}We {\k40}rise {\k15}and {\k15}we {\k30}fall {\k15}and {\k15}we {\k35}break
-Dialogue: 1,0:01:19.25,0:01:21.75,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}And {\k15}we {\k35}make {\k15}our {\k15}mis{\k35}takes
-Dialogue: 1,0:01:20.60,0:01:24.30,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k10}And {\k30}if {\k35}there's {\k15}a {\k30}rea{\k25}son {\k25}I'm {\k35}still {\k15}a{\k30}live
-Dialogue: 1,0:01:23.15,0:01:26.40,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}When {\k15}e{\k15}very{\k25}one {\k25}who {\k30}loves {\k15}me {\k15}has {\k50}died
-Dialogue: 1,0:01:25.25,0:01:27.85,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}I'm {\k15}wil{\k15}ling {\k20}to {\k30}wait {\k15}for {\k25}it
-Dialogue: 1,0:01:27.75,0:01:30.50,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k30}I'm {\k15}wil{\k15}ling {\k15}to {\k35}wait {\k20}for {\k25}it
-Dialogue: 1,0:01:31.15,0:01:33.20,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Wait {\k15}for {\k35}it
-Dialogue: 1,0:01:33.75,0:01:39.30,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k10}I {\k10}am {\k15}the {\k35}one {\k30}thing {\k15}in {\k30}life {\k15}I{\k20}~ {\k30}can {\k35}con{\k20}trol{\k170}~
-Dialogue: 1,0:01:38.75,0:01:43.00,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}I {\k15}am {\k15}in{\k20}im{\k15}it{\k55}able, {\k15}I {\k15}am {\k10}an {\k15}or{\k15}ig{\k15}in{\k25}al{\k20}~{\k40}~
-Dialogue: 1,0:01:43.85,0:01:48.25,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}I'm {\k30}not {\k35}fal{\k25}ling {\k20}be{\k35}hind {\k10}or{\k20}~ {\k20}ru{\k15}~n{\k25}ning {\k25}late{\k40}~
-Dialogue: 1,0:01:48.90,0:01:54.15,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}I'm {\k30}not {\k35}stand{\k30}ing {\k40}still, {\k35}I {\k15}am {\k20}ly{\k15}ing {\k15}in{\k25}~ {\k70}wait{\k60}~
-Dialogue: 1,0:01:54.15,0:01:58.65,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Ham{\k15}il{\k20}ton {\k30}fa{\k35}ces {\k15}an {\k25}end{\k15}less{\k20}~ {\k15}up{\k15}~{\k35}hill {\k35}climb{\k15}~{\k25}~
-Dialogue: 1,0:01:59.20,0:02:01.70,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}He {\k25}has {\k25}some{\k15}thing {\k15}to {\k30}prove
-Dialogue: 1,0:02:00.50,0:02:03.95,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}He {\k30}has {\k20}noth{\k15}ing {\k20}to {\k45}lose{\k25}~{\k55}~
-Dialogue: 1,0:02:04.30,0:02:08.90,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Ham{\k15}il{\k20}ton's {\k30}pace {\k30}is {\k20}re{\k30}lent{\k30}less, {\k15}he {\k25}wastes {\k30}no {\k40}time{\k40}~
-Dialogue: 1,0:02:09.45,0:02:14.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}What {\k15}is {\k15}it {\k40}like {\k30}in {\k25}his {\k195}shoes?
-Dialogue: 1,0:02:15.60,0:02:18.40,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Ham{\k10}il{\k15}ton {\k20}does{\k15}n't {\k20}he{\k15}si{\k50}tate
-Dialogue: 1,0:02:17.95,0:02:20.80,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}He {\k15}ex{\k15}hi{\k20}bits {\k20}no {\k20}re{\k60}straint
-Dialogue: 1,0:02:19.70,0:02:23.10,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}He {\k45}takes {\k15}and {\k20}he {\k55}takes {\k15}and {\k15}he {\k40}takes
-Dialogue: 1,0:02:21.95,0:02:25.30,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}And {\k40}he {\k25}keeps {\k25}win{\k20}ning {\k20}a{\k15}ny{\k55}way
-Dialogue: 1,0:02:24.45,0:02:27.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}He {\k50}chan{\k15}ges {\k15}the {\k45}game
-Dialogue: 1,0:02:25.95,0:02:28.90,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k10}He {\k35}plays {\k15}and {\k15}he {\k35}rais{\k15}es {\k20}the {\k30}stakes
-Dialogue: 1,0:02:27.70,0:02:31.30,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}And {\k35}if {\k35}there's {\k15}a {\k25}rea{\k15}son {\k30}he {\k30}seems {\k15}to {\k25}thrive
-Dialogue: 1,0:02:30.15,0:02:32.70,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}When {\k30}so {\k30}few {\k20}sur{\k35}vive,
-Dialogue: 1,0:02:31.50,0:02:35.15,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Then {\k30}God {\k20}dam{\k15}mit {\k35}I'm {\k15}wil{\k15}ling {\k15}to {\k25}wait {\k20}for {\k40}it
-Dialogue: 1,0:02:34.80,0:02:37.70,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k30}I'm {\k20}wil{\k20}ling {\k15}to {\k30}wait {\k20}for {\k35}it
-Dialogue: 1,0:02:38.05,0:02:40.65,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Life {\k15}does{\k15}n't {\k15}dis{\k15}cri{\k20}mi{\k35}nate
-Dialogue: 1,0:02:39.60,0:02:42.20,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Bet{\k15}ween {\k15}the {\k15}sin{\k15}ners {\k15}and {\k15}the {\k35}saints
-Dialogue: 1,0:02:41.20,0:02:45.80,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}It {\k30}takes {\k15}and {\k15}it {\k35}takes {\k15}and {\k20}it {\k125}takes{\k15}~{\k55}~
-Dialogue: 1,0:02:45.05,0:02:47.50,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k30}We {\k95}rise
-Dialogue: 1,0:02:46.60,0:02:49.25,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}And {\k15}we {\k40}fall{\k40}~{\k15}~{\k15}~
-Dialogue: 1,0:02:48.10,0:02:51.85,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k10}And {\k35}if {\k35}there's {\k15}a {\k30}rea{\k20}son {\k20}I'm {\k35}still {\k20}a{\k35}live
-Dialogue: 1,0:02:50.65,0:02:53.60,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}When {\k25}so {\k15}ma{\k20}ny {\k15}have {\k25}died{\k60}~
-Dialogue: 1,0:02:52.50,0:02:54.80,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Then {\k30}I'm {\k15}wil{\k15}lin' {\k30}to...
-Dialogue: 1,0:02:57.05,0:02:59.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Wait {\k20}for {\k25}it
-Dialogue: 1,0:02:59.75,0:03:01.60,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Wait {\k25}for {\k15}it
+Comment: 1,0:00:00.20,0:00:00.20,KM_Up,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:10.52,0:00:13.40,KM_Up,,0,0,0,karaoke,{\k20}The{\k19}o{\k43}do{\k20}sia {\k30}writes {\k18}me {\k15}a {\k15}let{\k17}ter {\k14}eve{\k18}ry {\k59}day
+Comment: 1,0:00:15.70,0:00:16.99,KM_Up,,0,0,0,karaoke,{\k15}I'm {\k11}keep{\k18}ing {\k17}her {\k31}bed {\k37}warm
+Comment: 1,0:00:16.99,0:00:18.50,KM_Up,,0,0,0,karaoke,{\k14}While {\k15}her {\k16}hus{\k17}band {\k14}is {\k16}a{\k59}way
+Comment: 1,0:00:20.65,0:00:22.80,KM_Up,,0,0,0,karaoke,{\k16}He's {\k16}on {\k14}the {\k14}Brit{\k15}ish {\k22}side {\k13}of {\k45}Geor{\k60}gia
+Comment: 1,0:00:22.90,0:00:24.95,KM_Up,,0,0,0,karaoke,{\k12}He's {\k10}try{\k9}in' {\k11}to {\k16}keep {\k15}the {\k19}co{\k16}lo{\k14}nies {\k18}in {\k65}line
+Comment: 1,0:00:25.74,0:00:27.64,KM_Up,,0,0,0,karaoke,{\k16}But {\k16}he {\k13}can {\k19}keep {\k25}all {\k19}of {\k35}Geor{\k47}gia
+Comment: 1,0:00:27.64,0:00:29.45,KM_Up,,0,0,0,karaoke,{\k16}The{\k18}o{\k29}do{\k17}sia, {\k33}she's {\k68}mine
+Comment: 1,0:00:30.60,0:00:32.05,KM_Up,,0,0,0,karaoke,{\k29}Love {\k13}does{\k15}n't {\k18}dis{\k16}cri{\k14}mi{\k40}nate
+Comment: 1,0:00:32.12,0:00:33.72,KM_Up,,0,0,0,karaoke,{\k16}Bet{\k15}ween {\k18}the {\k14}sin{\k15}ners {\k15}and {\k17}the {\k50}saints
+Comment: 1,0:00:33.72,0:00:35.48,KM_Up,,0,0,0,karaoke,{\k17}It {\k32}takes {\k14}and {\k15}it {\k35}takes {\k14}and {\k15}it {\k34}takes
+Comment: 1,0:00:35.48,0:00:37.20,KM_Up,,0,0,0,karaoke,{\k20}And {\k25}we {\k18}keep {\k16}lov{\k16}ing {\k16}an{\k17}y{\k44}way
+Comment: 1,0:00:37.55,0:00:39.30,KM_Up,,0,0,0,karaoke,{\k16}We {\k32}laugh {\k14}and {\k13}we {\k40}cry {\k11}and {\k15}we {\k34}break
+Comment: 1,0:00:39.30,0:00:40.60,KM_Up,,0,0,0,karaoke,{\k14}And {\k15}we {\k36}make {\k14}our {\k19}mis{\k32}takes
+Comment: 1,0:00:40.60,0:00:43.12,KM_Up,,0,0,0,karaoke,{\k14}And {\k33}if {\k28}there's {\k18}a {\k30}rea{\k21}son {\k23}I'm {\k36}by {\k16}her {\k33}side
+Comment: 1,0:00:43.12,0:00:44.70,KM_Up,,0,0,0,karaoke,{\k16}When {\k32}so {\k15}ma{\k16}ny {\k16}have {\k63}tried
+Comment: 1,0:00:45.05,0:00:46.90,KM_Up,,0,0,0,karaoke,{\k15}Then {\k31}I'm {\k16}will{\k16}ing {\k16}to {\k25}wait {\k23}for {\k43}it
+Comment: 1,0:00:47.75,0:00:49.40,KM_Up,,0,0,0,karaoke,{\k29}I'm {\k18}will{\k14}ing {\k18}to {\k31}wait {\k20}for {\k35}it
+Comment: 1,0:00:51.28,0:00:52.87,KM_Up,,0,0,0,karaoke,{\k19}My {\k27}grand{\k17}fa{\k15}ther {\k17}was {\k14}a {\k50}fire
+Comment: 1,0:00:52.87,0:00:54.30,KM_Up,,0,0,0,karaoke,{\k18}And {\k29}brim{\k30}stone {\k18}prea{\k48}cher
+Comment: 0,0:00:54.30,0:00:56.20,KM_Choir,,0,0,0,karaoke,{\k15}Prea{\k48}cher, {\k15}prea{\k48}cher, {\k16}prea{\k48}cher
+Comment: 1,0:00:56.32,0:00:57.96,KM_Up,,0,0,0,karaoke,{\k17}But {\k17}there {\k15}are {\k32}things {\k18}that {\k17}the {\k18}hom{\k15}il{\k15}ies
+Comment: 1,0:00:57.96,0:00:59.32,KM_Up,,0,0,0,karaoke,{\k12}And {\k33}hymns {\k33}won't {\k18}teach {\k40}ya
+Comment: 0,0:00:59.41,0:01:01.31,KM_Choir,,0,0,0,karaoke,{\k18}Teach {\k45}ya, {\k16}teach {\k51}ya, {\k14}teach {\k46}ya
+Comment: 1,0:01:01.76,0:01:03.46,KM_Up,,0,0,0,karaoke,{\k15}My {\k18}mo{\k16}ther {\k14}was {\k19}a {\k26}ge{\k16}ni{\k46}us
+Comment: 0,0:01:03.26,0:01:04.00,KM_Choir,,0,0,0,karaoke,{\k30}Gen{\k44}ius
+Comment: 1,0:01:03.70,0:01:05.75,KM_Up,,0,0,0,karaoke,{\k16}My {\k31}fa{\k14}ther {\k21}com{\k30}man{\k15}ded {\k31}re{\k47}spect
+Comment: 0,0:01:05.62,0:01:06.90,KM_Choir,,0,0,0,karaoke,{\k13}Re{\k50}spect, {\k13}re{\k52}spect
+Comment: 1,0:01:06.55,0:01:09.10,KM_Up,,0,0,0,karaoke,{\k18}When {\k15}they {\k32}died, {\k29}they {\k36}left {\k18}no {\k30}in{\k30}struc{\k47}tions
+Comment: 1,0:01:09.12,0:01:10.90,KM_Up,,0,0,0,karaoke,{\k15}Just {\k13}a {\k18}le{\k18}ga{\k15}cy {\k11}to {\k21}pro{\k67}tect
+Comment: 1,0:01:11.40,0:01:13.00,KM_Up,,0,0,0,karaoke,{\k29}Death {\k19}does{\k13}n't {\k16}dis{\k16}cri{\k16}mi{\k51}nate
+Comment: 1,0:01:13.01,0:01:14.58,KM_Up,,0,0,0,karaoke,{\k14}Bet{\k16}ween {\k12}the {\k18}sin{\k16}ners {\k12}and {\k18}the {\k51}saints
+Comment: 1,0:01:14.58,0:01:16.32,KM_Up,,0,0,0,karaoke,{\k15}It {\k33}takes {\k15}and {\k16}it {\k38}takes {\k10}and {\k18}it {\k29}takes
+Comment: 1,0:01:16.32,0:01:18.20,KM_Up,,0,0,0,karaoke,{\k19}And {\k29}we {\k17}keep {\k15}liv{\k16}ing {\k15}an{\k17}y{\k60}way
+Comment: 1,0:01:18.40,0:01:20.18,KM_Up,,0,0,0,karaoke,{\k15}We {\k32}rise {\k12}and {\k17}we {\k39}fall {\k12}and {\k13}we {\k38}break
+Comment: 1,0:01:20.18,0:01:21.40,KM_Up,,0,0,0,karaoke,{\k13}And {\k16}we {\k32}make {\k16}our {\k16}mis{\k29}takes
+Comment: 1,0:01:21.40,0:01:23.98,KM_Up,,0,0,0,karaoke,{\k19}And {\k32}if {\k31}there's {\k16}a {\k29}rea{\k23}son {\k24}I'm {\k33}still {\k19}a{\k32}live
+Comment: 1,0:01:23.98,0:01:26.05,KM_Up,,0,0,0,karaoke,{\k19}When {\k14}eve{\k16}ry{\k31}one {\k13}who {\k34}loves {\k15}me {\k16}has {\k49}died
+Comment: 1,0:01:26.05,0:01:27.70,KM_Up,,0,0,0,karaoke,{\k29}I'm {\k18}will{\k14}ing {\k18}to {\k31}wait {\k20}for {\k35}it
+Comment: 0,0:01:27.52,0:01:28.52,KM_Choir,,0,0,0,karaoke,{\k28}Wait {\k18}for {\k54}it
+Comment: 1,0:01:28.62,0:01:30.27,KM_Up,,0,0,0,karaoke,{\k29}I'm {\k18}will{\k14}ing {\k18}to {\k31}wait {\k20}for {\k35}it
+Comment: 1,0:01:31.96,0:01:32.91,KM_Up,,0,0,0,karaoke,{\k35}Wait {\k15}for {\k45}it
+Comment: 0,0:01:32.62,0:01:34.68,KM_Choir,,0,0,0,karaoke,{\k28}Wait {\k21}for {\k13}it, {\k32}wait {\k18}for {\k14}it, {\k31}wait {\k16}for {\k33}it
+Comment: 1,0:01:34.53,0:01:39.18,KM_Up,,0,0,0,karaoke,{\k11}I {\k22}am {\k9}the {\k24}one {\k42}thing {\k15}in {\k32}life {\k32}I {\k31}can {\k29}con{\kf218}trol
+Comment: 0,0:01:37.04,0:01:38.33,KM_Choir,,0,0,0,karaoke,{\k37}Wait {\k15}for {\k13}it, {\k29}wait {\k16}for {\k19}it
+Comment: 0,0:01:38.33,0:01:39.75,KM_Choir,,0,0,0,karaoke,{\k34}Wait {\k15}for {\k18}it, {\k28}wait {\k17}for {\k30}it
+Comment: 1,0:01:39.65,0:01:43.44,KM_Up,,0,0,0,karaoke,{\k10}I {\k22}am {\k13}i{\k18}nim{\k13}i{\k16}ta{\k32}ble, {\k14}I {\k19}am {\k13}an {\k19}o{\k12}rig{\k19}i{\kf159}nal
+Comment: 0,0:01:42.18,0:01:43.47,KM_Choir,,0,0,0,karaoke,{\k37}Wait {\k15}for {\k13}it, {\k29}wait {\k16}for {\k19}it
+Comment: 0,0:01:43.47,0:01:44.89,KM_Choir,,0,0,0,karaoke,{\k34}Wait {\k15}for {\k18}it, {\k28}wait {\k17}for {\k30}it
+Comment: 1,0:01:44.73,0:01:48.05,KM_Up,,0,0,0,karaoke,{\k13}I'm {\k30}not {\k33}fall{\k34}ing {\k16}be{\k32}hind {\k33}or {\k33}run{\k30}ning {\k78}late
+Comment: 0,0:01:47.30,0:01:48.59,KM_Choir,,0,0,0,karaoke,{\k37}Wait {\k15}for {\k13}it, {\k29}wait {\k16}for {\k19}it
+Comment: 0,0:01:48.59,0:01:50.21,KM_Choir,,0,0,0,karaoke,{\k34}Wait {\k15}for {\k14}it, {\k32}wait {\k17}for {\k50}it
+Comment: 1,0:01:49.82,0:01:53.70,KM_Up,,0,0,0,karaoke,{\k17}I'm {\k29}not {\k32}stand{\k30}ing {\k35}still, {\k34}I {\k21}am {\k20}ly{\k15}ing {\k28}in {\kf127}wait
+Comment: 0,0:01:53.09,0:01:54.98,KM_Choir,,0,0,0,karaoke,{\k63}Wait, {\k64}wait, {\k62}wait
+Comment: 1,0:01:55.03,0:01:58.25,KM_Up,,0,0,0,karaoke,{\k13}Ham{\k15}il{\k18}ton {\k32}fa{\k28}ces {\k18}an {\k26}end{\k36}less {\k30}up{\k31}hill {\k75}climb
+Comment: 0,0:01:58.21,0:02:00.13,KM_Choir,,0,0,0,karaoke,{\k63}Climb, {\k64}climb, {\k65}climb
+Comment: 1,0:02:00.10,0:02:01.35,KM_Up,,0,0,0,karaoke,{\k17}He {\k28}has {\k22}some{\k10}thing {\k16}to {\k32}prove
+Comment: 1,0:02:01.39,0:02:03.59,KM_Up,,0,0,0,karaoke,{\k12}He {\k29}has {\k22}noth{\k18}ing {\k14}to {\kf125}lose
+Comment: 0,0:02:03.04,0:02:05.71,KM_Choir,,0,0,0,karaoke,{\k56}Lose, {\k69}lose, {\k60}lose, {\k82}lose
+Comment: 1,0:02:05.20,0:02:06.95,KM_Up,,0,0,0,karaoke,{\k14}Ham{\k15}il{\k18}ton's {\k34}pace {\k30}is {\k18}re{\k32}lent{\k14}less
+Comment: 1,0:02:06.95,0:02:08.50,KM_Up,,0,0,0,karaoke,{\k16}He {\k33}wastes {\k30}no {\k76}time
+Comment: 0,0:02:08.40,0:02:10.32,KM_Choir,,0,0,0,karaoke,{\k62}Time, {\k61}time, {\k69}time
+Comment: 1,0:02:10.32,0:02:13.85,KM_Up,,0,0,0,karaoke,{\k15}What {\k18}is {\k15}it {\k36}like {\k33}in {\k28}his {\kf208}shoes?
+Comment: 1,0:02:16.30,0:02:18.20,KM_Up,,0,0,0,karaoke,{\k14}Ham{\k21}il{\k21}ton {\k17}does{\k16}n't {\k16}he{\k24}si{\k61}tate
+Comment: 1,0:02:18.76,0:02:20.52,KM_Up,,0,0,0,karaoke,{\k12}He {\k12}ex{\k21}hi{\k21}bits {\k19}no {\k22}re{\k69}straint
+Comment: 1,0:02:20.52,0:02:22.80,KM_Up,,0,0,0,karaoke,{\k16}He {\k46}takes {\k19}and {\k15}he {\k48}takes {\k15}and {\k21}he {\k48}takes
+Comment: 1,0:02:22.80,0:02:25.00,KM_Up,,0,0,0,karaoke,{\k20}And {\k38}he {\k21}keeps {\k24}win{\k20}ning {\k17}an{\k18}y{\k62}way
+Comment: 1,0:02:25.35,0:02:26.81,KM_Up,,0,0,0,karaoke,{\k16}He {\k38}chan{\k19}ges {\k15}the {\k58}game
+Comment: 1,0:02:26.81,0:02:28.60,KM_Up,,0,0,0,karaoke,{\k10}He {\k37}plays {\k16}and {\k14}he {\k30}rais{\k18}es {\k15}the {\k39}stakes
+Comment: 1,0:02:28.60,0:02:31.04,KM_Up,,0,0,0,karaoke,{\k15}And {\k29}if {\k27}there's {\k17}a {\k29}rea{\k20}son {\k24}he {\k34}seems {\k16}to {\k33}thrive
+Comment: 1,0:02:31.04,0:02:33.12,KM_Up,,0,0,0,karaoke,{\k15}When {\k33}so {\k29}few {\k19}sur{\k32}vive, {\k17}then {\k30}god{\k18}dam{\k15}mit
+Comment: 1,0:02:33.12,0:02:34.80,KM_Up,,0,0,0,karaoke,{\k33}I'm {\k14}will{\k16}ing {\k17}to {\k31}wait {\k17}for {\k40}it
+Comment: 0,0:02:34.58,0:02:35.68,KM_Choir,,0,0,0,karaoke,{\k27}Wait {\k23}for {\k60}it
+Comment: 1,0:02:35.68,0:02:37.50,KM_Up,,0,0,0,karaoke,{\k29}I'm {\k17}will{\k16}ing {\k18}to {\k31}wait {\k20}for {\k51}it
+Comment: 1,0:02:38.86,0:02:40.47,KM_Up,,0,0,0,karaoke,{\k32}Life {\k16}does{\k15}n't {\k16}dis{\k15}cri{\k15}mi{\k52}nate
+Comment: 1,0:02:40.49,0:02:41.99,KM_Up,,0,0,0,karaoke,{\k14}Bet{\k16}ween {\k12}the {\k20}sin{\k15}ners {\k15}and {\k14}the {\k44}saints
+Comment: 1,0:02:42.07,0:02:45.60,KM_Up,,0,0,0,karaoke,{\k15}It {\k33}takes {\k15}and {\k16}it {\k38}takes {\k10}and {\k13}it {\kf213}takes
+Comment: 0,0:02:42.07,0:02:43.81,KM_Choir,,0,0,0,karaoke,{\k15}It {\k33}takes {\k15}and {\k16}it {\k38}takes {\k10}and {\k13}it {\k34}takes
+Comment: 1,0:02:43.81,0:02:45.69,KM_Choir,,0,0,0,karaoke,{\k19}And {\k29}we {\k17}keep {\k15}liv{\k16}ing {\k15}an{\k17}y{\k60}way
+Comment: 1,0:02:45.91,0:02:47.64,KM_Choir,,0,0,0,karaoke,{\k15}We {\k32}rise {\k12}and {\k19}we {\k37}fall {\k12}and {\k14}we {\k32}break
+Comment: 1,0:02:45.89,0:02:47.30,KM_Up,,0,0,0,karaoke,{\k17}We {\kf124}rise
+Comment: 1,0:02:47.49,0:02:48.91,KM_Up,,0,0,0,karaoke,{\k15}And {\k18}we {\kf109}fall
+Comment: 1,0:02:47.64,0:02:48.91,KM_Choir,,0,0,0,karaoke,{\k16}And {\k16}we {\k33}make {\k15}our {\k18}mis{\k24}takes
+Comment: 1,0:02:48.91,0:02:51.46,KM_Up,,0,0,0,karaoke,{\k17}And {\k31}if {\k32}there's {\k16}a {\k31}rea{\k17}son {\k25}I'm {\k38}still {\k14}a{\k34}live
+Comment: 1,0:02:51.46,0:02:53.40,KM_Up,,0,0,0,karaoke,{\k19}When {\k32}so {\k15}ma{\k15}ny {\k18}have {\k95}died
+Comment: 1,0:02:53.41,0:02:54.70,KM_Up,,0,0,0,karaoke,{\k14}Then {\k33}I'm {\k16}will{\k14}in' {\k52}to...
+Comment: 1,0:02:57.94,0:02:59.05,KM_Up,,0,0,0,karaoke,{\k29}Wait {\k18}for {\k64}it
+Comment: 0,0:02:58.57,0:03:00.13,KM_Choir,,0,0,0,karaoke,{\k34}Wait {\k15}for {\k18}it, {\k32}wait {\k18}for {\k39}it
+Comment: 1,0:03:00.57,0:03:01.70,KM_Up,,0,0,0,karaoke,{\k27}Wait {\k21}for {\k65}it
+Comment: 0,0:03:01.23,0:03:02.68,KM_Choir,,0,0,0,karaoke,{\k32}Wait {\k12}for {\k19}it, {\k32}wait {\k14}for {\k36}it
+Comment: 0,0:03:02.54,0:03:03.99,KM_Choir,,0,0,0,karaoke,{\k34}Wait {\k15}for {\k15}it, {\k31}wait {\k17}for {\k33}it
+Comment: 0,0:03:03.83,0:03:05.28,KM_Choir,,0,0,0,karaoke,{\k34}Wait {\k15}for {\k14}it, {\k32}wait {\k17}for {\k33}it
+Comment: 0,0:03:05.14,0:03:06.59,KM_Choir,,0,0,0,karaoke,{\k34}Wait {\k15}for {\k14}it, {\k32}wait {\k17}for {\k33}it
+Dialogue: 1,0:00:09.62,0:00:13.60,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k20}The{\k19}o{\k43}do{\k20}sia {\k30}writes {\k18}me {\k15}a {\k15}let{\k17}ter {\k14}eve{\k18}ry {\k59}day
+Dialogue: 1,0:00:14.80,0:00:17.19,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k15}I'm {\k11}keep{\k18}ing {\k17}her {\k31}bed {\k37}warm
+Dialogue: 1,0:00:16.09,0:00:18.70,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k14}While {\k15}her {\k16}hus{\k17}band {\k14}is {\k16}a{\k59}way
+Dialogue: 1,0:00:19.75,0:00:23.00,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k16}He's {\k16}on {\k14}the {\k14}Brit{\k15}ish {\k22}side {\k13}of {\k45}Geor{\k60}gia
+Dialogue: 1,0:00:22.00,0:00:25.15,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k12}He's {\k10}try{\k9}in' {\k11}to {\k16}keep {\k15}the {\k19}co{\k16}lo{\k14}nies {\k18}in {\k65}line
+Dialogue: 1,0:00:24.84,0:00:27.84,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k16}But {\k16}he {\k13}can {\k19}keep {\k25}all {\k19}of {\k35}Geor{\k47}gia
+Dialogue: 1,0:00:26.74,0:00:29.65,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k16}The{\k18}o{\k29}do{\k17}sia, {\k33}she's {\k68}mine
+Dialogue: 1,0:00:29.70,0:00:32.25,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Love {\k13}does{\k15}n't {\k18}dis{\k16}cri{\k14}mi{\k40}nate
+Dialogue: 1,0:00:31.22,0:00:33.92,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Bet{\k15}ween {\k18}the {\k14}sin{\k15}ners {\k15}and {\k17}the {\k50}saints
+Dialogue: 1,0:00:32.82,0:00:35.68,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k17}It {\k32}takes {\k14}and {\k15}it {\k35}takes {\k14}and {\k15}it {\k34}takes
+Dialogue: 1,0:00:34.58,0:00:37.40,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k20}And {\k25}we {\k18}keep {\k16}lov{\k16}ing {\k16}an{\k17}y{\k44}way
+Dialogue: 1,0:00:36.65,0:00:39.50,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k16}We {\k32}laugh {\k14}and {\k13}we {\k40}cry {\k11}and {\k15}we {\k34}break
+Dialogue: 1,0:00:38.40,0:00:40.80,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k14}And {\k15}we {\k36}make {\k14}our {\k19}mis{\k32}takes
+Dialogue: 1,0:00:39.70,0:00:43.32,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k14}And {\k33}if {\k28}there's {\k18}a {\k30}rea{\k21}son {\k23}I'm {\k36}by {\k16}her {\k33}side
+Dialogue: 1,0:00:42.22,0:00:44.90,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k16}When {\k32}so {\k15}ma{\k16}ny {\k16}have {\k63}tried
+Dialogue: 1,0:00:44.15,0:00:47.10,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Then {\k31}I'm {\k16}will{\k16}ing {\k16}to {\k25}wait {\k23}for {\k43}it
+Dialogue: 1,0:00:46.85,0:00:49.60,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k29}I'm {\k18}will{\k14}ing {\k18}to {\k31}wait {\k20}for {\k35}it
+Dialogue: 1,0:00:50.38,0:00:53.07,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k19}My {\k27}grand{\k17}fa{\k15}ther {\k17}was {\k14}a {\k50}fire
+Dialogue: 1,0:00:51.97,0:00:54.50,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k18}And {\k29}brim{\k30}stone {\k18}prea{\k48}cher
+Dialogue: 1,0:00:53.40,0:00:56.40,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Prea{\k48}cher, {\k15}prea{\k48}cher, {\k16}prea{\k48}cher
+Dialogue: 1,0:00:55.42,0:00:58.16,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k17}But {\k17}there {\k15}are {\k32}things {\k18}that {\k17}the {\k18}hom{\k15}il{\k15}ies
+Dialogue: 1,0:00:57.06,0:00:59.52,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k12}And {\k33}hymns {\k33}won't {\k18}teach {\k40}ya
+Dialogue: 1,0:00:58.51,0:01:01.51,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Teach {\k45}ya, {\k16}teach {\k51}ya, {\k14}teach {\k46}ya
+Dialogue: 1,0:01:00.86,0:01:03.66,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k15}My {\k18}mo{\k16}ther {\k14}was {\k19}a {\k26}ge{\k16}ni{\k46}us
+Dialogue: 1,0:01:02.36,0:01:04.20,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Gen{\k44}ius
+Dialogue: 1,0:01:02.80,0:01:05.95,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k16}My {\k31}fa{\k14}ther {\k21}com{\k30}man{\k15}ded {\k31}re{\k47}spect
+Dialogue: 1,0:01:04.72,0:01:07.10,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Re{\k50}spect, {\k13}re{\k52}spect
+Dialogue: 1,0:01:05.65,0:01:09.30,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k18}When {\k15}they {\k32}died, {\k29}they {\k36}left {\k18}no {\k30}in{\k30}struc{\k47}tions
+Dialogue: 1,0:01:08.22,0:01:11.10,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Just {\k13}a {\k18}le{\k18}ga{\k15}cy {\k11}to {\k21}pro{\k67}tect
+Dialogue: 1,0:01:10.50,0:01:13.20,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Death {\k19}does{\k13}n't {\k16}dis{\k16}cri{\k16}mi{\k51}nate
+Dialogue: 1,0:01:12.11,0:01:14.78,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Bet{\k16}ween {\k12}the {\k18}sin{\k16}ners {\k12}and {\k18}the {\k51}saints
+Dialogue: 1,0:01:13.68,0:01:16.52,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k15}It {\k33}takes {\k15}and {\k16}it {\k38}takes {\k10}and {\k18}it {\k29}takes
+Dialogue: 1,0:01:15.42,0:01:18.40,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k19}And {\k29}we {\k17}keep {\k15}liv{\k16}ing {\k15}an{\k17}y{\k60}way
+Dialogue: 1,0:01:17.50,0:01:20.38,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k15}We {\k32}rise {\k12}and {\k17}we {\k39}fall {\k12}and {\k13}we {\k38}break
+Dialogue: 1,0:01:19.28,0:01:21.60,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k13}And {\k16}we {\k32}make {\k16}our {\k16}mis{\k29}takes
+Dialogue: 1,0:01:20.50,0:01:24.18,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k19}And {\k32}if {\k31}there's {\k16}a {\k29}rea{\k23}son {\k24}I'm {\k33}still {\k19}a{\k32}live
+Dialogue: 1,0:01:23.08,0:01:26.25,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k19}When {\k14}eve{\k16}ry{\k31}one {\k13}who {\k34}loves {\k15}me {\k16}has {\k49}died
+Dialogue: 1,0:01:25.15,0:01:27.90,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k29}I'm {\k18}will{\k14}ing {\k18}to {\k31}wait {\k20}for {\k35}it
+Dialogue: 1,0:01:26.62,0:01:28.72,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Wait {\k18}for {\k54}it
+Dialogue: 1,0:01:27.72,0:01:30.47,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k29}I'm {\k18}will{\k14}ing {\k18}to {\k31}wait {\k20}for {\k35}it
+Dialogue: 1,0:01:31.06,0:01:33.11,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Wait {\k15}for {\k45}it
+Dialogue: 1,0:01:31.72,0:01:34.88,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Wait {\k21}for {\k13}it, {\k32}wait {\k18}for {\k14}it, {\k31}wait {\k16}for {\k33}it
+Dialogue: 1,0:01:33.63,0:01:39.38,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k11}I {\k22}am {\k9}the {\k24}one {\k42}thing {\k15}in {\k32}life {\k32}I {\k31}can {\k29}con{\kf218}trol
+Dialogue: 1,0:01:36.14,0:01:38.53,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Wait {\k15}for {\k13}it, {\k29}wait {\k16}for {\k19}it
+Dialogue: 1,0:01:37.43,0:01:39.95,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Wait {\k15}for {\k18}it, {\k28}wait {\k17}for {\k30}it
+Dialogue: 1,0:01:38.75,0:01:43.64,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k10}I {\k22}am {\k13}i{\k18}nim{\k13}i{\k16}ta{\k32}ble, {\k14}I {\k19}am {\k13}an {\k19}o{\k12}rig{\k19}i{\kf159}nal
+Dialogue: 1,0:01:41.28,0:01:43.67,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Wait {\k15}for {\k13}it, {\k29}wait {\k16}for {\k19}it
+Dialogue: 1,0:01:42.57,0:01:45.09,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Wait {\k15}for {\k18}it, {\k28}wait {\k17}for {\k30}it
+Dialogue: 1,0:01:43.83,0:01:48.25,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k13}I'm {\k30}not {\k33}fall{\k34}ing {\k16}be{\k32}hind {\k33}or {\k33}run{\k30}ning {\k78}late
+Dialogue: 1,0:01:46.40,0:01:48.79,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Wait {\k15}for {\k13}it, {\k29}wait {\k16}for {\k19}it
+Dialogue: 1,0:01:47.69,0:01:50.41,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Wait {\k15}for {\k14}it, {\k32}wait {\k17}for {\k50}it
+Dialogue: 1,0:01:48.92,0:01:53.90,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k17}I'm {\k29}not {\k32}stand{\k30}ing {\k35}still, {\k34}I {\k21}am {\k20}ly{\k15}ing {\k28}in {\kf127}wait
+Dialogue: 1,0:01:52.19,0:01:55.18,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k63}Wait, {\k64}wait, {\k62}wait
+Dialogue: 1,0:01:54.13,0:01:58.45,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Ham{\k15}il{\k18}ton {\k32}fa{\k28}ces {\k18}an {\k26}end{\k36}less {\k30}up{\k31}hill {\k75}climb
+Dialogue: 1,0:01:57.31,0:02:00.33,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k63}Climb, {\k64}climb, {\k65}climb
+Dialogue: 1,0:01:59.20,0:02:01.55,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k17}He {\k28}has {\k22}some{\k10}thing {\k16}to {\k32}prove
+Dialogue: 1,0:02:00.49,0:02:03.79,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k12}He {\k29}has {\k22}noth{\k18}ing {\k14}to {\kf125}lose
+Dialogue: 1,0:02:02.14,0:02:05.91,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k56}Lose, {\k69}lose, {\k60}lose, {\k82}lose
+Dialogue: 1,0:02:04.30,0:02:07.15,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ham{\k15}il{\k18}ton's {\k34}pace {\k30}is {\k18}re{\k32}lent{\k14}less
+Dialogue: 1,0:02:06.05,0:02:08.70,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k16}He {\k33}wastes {\k30}no {\k76}time
+Dialogue: 1,0:02:07.50,0:02:10.52,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k62}Time, {\k61}time, {\k69}time
+Dialogue: 1,0:02:09.42,0:02:14.05,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k15}What {\k18}is {\k15}it {\k36}like {\k33}in {\k28}his {\kf208}shoes?
+Dialogue: 1,0:02:15.40,0:02:18.40,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ham{\k21}il{\k21}ton {\k17}does{\k16}n't {\k16}he{\k24}si{\k61}tate
+Dialogue: 1,0:02:17.86,0:02:20.72,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k12}He {\k12}ex{\k21}hi{\k21}bits {\k19}no {\k22}re{\k69}straint
+Dialogue: 1,0:02:19.62,0:02:23.00,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k16}He {\k46}takes {\k19}and {\k15}he {\k48}takes {\k15}and {\k21}he {\k48}takes
+Dialogue: 1,0:02:21.90,0:02:25.20,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k20}And {\k38}he {\k21}keeps {\k24}win{\k20}ning {\k17}an{\k18}y{\k62}way
+Dialogue: 1,0:02:24.45,0:02:27.01,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k16}He {\k38}chan{\k19}ges {\k15}the {\k58}game
+Dialogue: 1,0:02:25.91,0:02:28.80,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k10}He {\k37}plays {\k16}and {\k14}he {\k30}rais{\k18}es {\k15}the {\k39}stakes
+Dialogue: 1,0:02:27.70,0:02:31.24,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k15}And {\k29}if {\k27}there's {\k17}a {\k29}rea{\k20}son {\k24}he {\k34}seems {\k16}to {\k33}thrive
+Dialogue: 1,0:02:30.14,0:02:33.32,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k15}When {\k33}so {\k29}few {\k19}sur{\k32}vive, {\k17}then {\k30}god{\k18}dam{\k15}mit
+Dialogue: 1,0:02:32.22,0:02:35.00,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k33}I'm {\k14}will{\k16}ing {\k17}to {\k31}wait {\k17}for {\k40}it
+Dialogue: 1,0:02:33.68,0:02:35.88,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Wait {\k23}for {\k60}it
+Dialogue: 1,0:02:34.78,0:02:37.70,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k29}I'm {\k17}will{\k16}ing {\k18}to {\k31}wait {\k20}for {\k51}it
+Dialogue: 1,0:02:37.96,0:02:40.67,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Life {\k16}does{\k15}n't {\k16}dis{\k15}cri{\k15}mi{\k52}nate
+Dialogue: 1,0:02:39.59,0:02:42.19,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Bet{\k16}ween {\k12}the {\k20}sin{\k15}ners {\k15}and {\k14}the {\k44}saints
+Dialogue: 1,0:02:41.17,0:02:45.80,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k15}It {\k33}takes {\k15}and {\k16}it {\k38}takes {\k10}and {\k13}it {\kf213}takes
+Dialogue: 1,0:02:41.17,0:02:44.01,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k15}It {\k33}takes {\k15}and {\k16}it {\k38}takes {\k10}and {\k13}it {\k34}takes
+Dialogue: 1,0:02:42.91,0:02:45.89,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k19}And {\k29}we {\k17}keep {\k15}liv{\k16}ing {\k15}an{\k17}y{\k60}way
+Dialogue: 1,0:02:45.01,0:02:47.84,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k15}We {\k32}rise {\k12}and {\k19}we {\k37}fall {\k12}and {\k14}we {\k32}break
+Dialogue: 1,0:02:44.99,0:02:47.50,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k17}We {\kf124}rise
+Dialogue: 1,0:02:46.59,0:02:49.11,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k15}And {\k18}we {\kf109}fall
+Dialogue: 1,0:02:46.74,0:02:49.11,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k16}And {\k16}we {\k33}make {\k15}our {\k18}mis{\k24}takes
+Dialogue: 1,0:02:48.01,0:02:51.66,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k17}And {\k31}if {\k32}there's {\k16}a {\k31}rea{\k17}son {\k25}I'm {\k38}still {\k14}a{\k34}live
+Dialogue: 1,0:02:50.56,0:02:53.60,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k19}When {\k32}so {\k15}ma{\k15}ny {\k18}have {\k95}died
+Dialogue: 1,0:02:52.51,0:02:54.90,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Then {\k33}I'm {\k16}will{\k14}in' {\k52}to...
+Dialogue: 1,0:02:57.04,0:02:59.25,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Wait {\k18}for {\k64}it
+Dialogue: 1,0:02:57.67,0:03:00.33,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Wait {\k15}for {\k18}it, {\k32}wait {\k18}for {\k39}it
+Dialogue: 1,0:02:59.67,0:03:01.90,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Wait {\k21}for {\k65}it
+Dialogue: 1,0:03:00.33,0:03:02.88,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Wait {\k12}for {\k19}it, {\k32}wait {\k14}for {\k36}it
+Dialogue: 1,0:03:01.64,0:03:04.19,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Wait {\k15}for {\k15}it, {\k31}wait {\k17}for {\k33}it
+Dialogue: 1,0:03:02.93,0:03:05.48,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Wait {\k15}for {\k14}it, {\k32}wait {\k17}for {\k33}it
+Dialogue: 1,0:03:04.24,0:03:06.79,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Wait {\k15}for {\k14}it, {\k32}wait {\k17}for {\k33}it
