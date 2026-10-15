@@ -1,0 +1,186 @@
+﻿[Script Info]
+Title: Ohayo-EST Gozai-MASTER ♡
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+LayoutResX: 0
+LayoutResY: 0
+Original Timing: Uwhipa
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Chorus,Arial,22,&H00FFFFFF,&H001819FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: English,Arial,22,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Japanese,Arial,22,&H00FFFFFF,&H00FFAB00,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.44,0:00:00.52,English,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.47,0:00:03.65,English,,0,0,0,karaoke,{\k24}Eve{\k19}ry{\k42}day {\k16}I {\k26}wake {\k45}up {\k22}with {\k42}this {\k44}year{\k38}ning
+Comment: 0,0:00:03.88,0:00:07.07,English,,0,0,0,karaoke,{\k22}To {\k23}ful{\k42}fill {\k23}all {\k18}my {\k47}dreams {\k20}now {\k21}that's {\k21}a {\k43}sure {\k39}thing
+Comment: 0,0:00:07.34,0:00:10.48,English,,0,0,0,karaoke,{\k22}Now's {\k19}the {\k42}time {\k21}to {\k24}get {\k43}up {\k18}so {\k24}quit {\k22}the {\k40}chat{\k39}ter
+Comment: 0,0:00:10.73,0:00:13.98,English,,0,0,0,karaoke,{\k24}Leave {\k22}it {\k42}to {\k15}the {\k8}O{\k20}ha{\k42}yo-EST {\k22}Go{\k20}za{\k24}i-{\k41}MAS{\k45}TER!
+Comment: 0,0:00:13.79,0:00:17.12,English,,0,0,0,karaoke,{\k20}Hel{\k28}lo, {\k38}how {\k18}do {\k34}you {\k31}do? {\k20}Are {\k35}you {\k30}still {\k22}in {\k35}{\rJapanese}mu{\k22}chuu{\r}
+Comment: 0,0:00:17.19,0:00:20.46,English,,0,0,0,karaoke,{\k21}I'd {\k36}say {\k28}you {\k22}do {\k31}you {\k33}but {\k22}you {\k34}be {\k29}loo{\k22}king {\k30}too {\k19}blue
+Comment: 0,0:00:20.16,0:00:20.58,Chorus,,0,0,0,karaoke,{\k23}It's {\k19}true!
+Comment: 0,0:00:20.58,0:00:22.11,English,,0,0,0,karaoke,{\k25}'Cause {\k30}my {\k33}words {\k22}are {\k23}hea{\k20}vy
+Comment: 0,0:00:22.11,0:00:23.75,English,,0,0,0,karaoke,{\k12}and {\k10}they {\k21}be {\k21}sha{\k22}king {\k21}the {\k57}ground
+Comment: 0,0:00:24.05,0:00:27.05,English,,0,0,0,karaoke,{\k20}No {\k36}time {\k29}for {\k21}han{\k33}go{\k31}vers {\k22}{\rJapanese}jin{\k22}sei {\k20}is{\k23}shun {\k43}sa{\r}
+Comment: 0,0:00:27.19,0:00:28.05,Chorus,,0,0,0,karaoke,{\k48}Let's {\k38}start!
+Comment: 0,0:00:27.88,0:00:31.11,English,,0,0,0,karaoke,{\k21}If {\k23}you’re {\k44}down {\k22}and {\k21}out {\k43}here’s {\k20}a {\k22}{\rJapanese}P{\k20}RE{\k42}SEN{\k45}T{\r}
+Comment: 0,0:00:31.33,0:00:34.47,English,,0,0,0,karaoke,{\k15}Good {\k49}vibes {\k21}ta{\k21}king {\k22}flight {\k41}right {\k21}in{\k20}to {\k19}your {\k47}{\rJapanese}HEA{\k38}D{\r}
+Comment: 0,0:00:34.54,0:00:36.02,English,,0,0,0,karaoke,{\k36}Time’s {\k29}up, {\k21}no {\k21}{\rJapanese}ni{\k15}do{\k26}ne{\r}
+Comment: 0,0:00:36.26,0:00:37.68,English,,0,0,0,karaoke,{\k26}Get {\k38}up, {\k22}you {\k21}slee{\k11}py {\k24}head
+Comment: 0,0:00:37.33,0:00:37.89,Chorus,,0,0,0,karaoke,{\k14}O{\k42}kay!
+Comment: 0,0:00:38.18,0:00:41.48,English,,0,0,0,karaoke,{\k22}You’re {\k21}the {\k43}best, {\k21}but {\k22}are {\k43}you {\k22}the {\k40}O{\k45}high{\k51}est?
+Comment: 0,0:00:41.78,0:00:44.52,English,,0,0,0,karaoke,{\k46}One, {\k40}two, {\k45}pow {\k25}po-{\k39}ow {\k24}kick {\k55}punch
+Comment: 0,0:00:44.57,0:00:46.19,English,,0,0,0,karaoke,{\k45}Keep {\k23}your {\k46}hands {\k20}u-{\k28}up
+Comment: 0,0:00:46.28,0:00:48.11,Chorus,,0,0,0,karaoke,{\k47}Keep {\k19}your {\k50}hands {\k67}up
+Comment: 0,0:00:48.65,0:00:53.24,English,,0,0,0,karaoke,{\k45}How {\k45}to {\k41}{\rJapanese}sai{\k23}ko{\k40}u! {\k24}i{\k20}ji{\k44}gen {\k42}ma{\k19}de{\r} {\k47}let’s {\k69}go
+Comment: 0,0:00:54.04,0:00:55.08,English,,0,0,0,karaoke,{\k22}Ah-{\k21}ah-{\k22}ah-{\k19}ah-{\k20}ah
+Comment: 0,0:00:55.12,0:00:59.33,English,,0,0,0,karaoke,{\k43}Now {\k40}and {\k24}e{\k42}ver, {\k20}O{\k23}ha{\k21}yo-{\k22}EST {\k20}Go{\k23}zai-{\k21}MAS{\k22}TER {\k43}ba{\k57}by
+Comment: 0,0:00:59.60,0:01:01.67,English,,0,0,0,karaoke,{\k17}If {\k27}you’re {\k43}{\rJapanese}ne{\k25}mii{\r} {\k18}can’t {\k43}beat {\k34}me
+Comment: 0,0:01:01.72,0:01:04.32,English,,0,0,0,karaoke,{\k25}Say {\k65}yeah! {\k12}{\rJapanese}fu{\k9}ki{\k13}to{\k22}ba{\k29}sh'te {\k42}yan {\k43}yo{\r}
+Comment: 0,0:01:02.33,0:01:02.67,Chorus,,0,0,0,karaoke,{\k34}Yeah!
+Comment: 0,0:01:04.52,0:01:07.17,English,,0,0,0,karaoke,{\k17}You {\k21}and {\k22}your {\k50}heart{\kf155}sleeves
+Comment: 0,0:01:07.75,0:01:08.83,English,,0,0,0,karaoke,{\k22}Ah-{\k21}ah-{\k22}ah-{\k21}ah-{\k22}ah
+Comment: 0,0:01:08.83,0:01:11.11,English,,0,0,0,karaoke,{\k44}Now {\k40}or {\k22}ne{\k40}ver, {\k23}we’re {\k22}three, {\k21}two, {\k16}one
+Comment: 0,0:01:11.18,0:01:13.14,English,,0,0,0,karaoke,{\k21}go {\k22}blas{\k21}ting {\k22}off {\k43}ba{\k67}by
+Comment: 0,0:01:13.33,0:01:15.35,Japanese,,0,0,0,karaoke,{\k22}E{\k18}NER{\k41}GY {\k27}so{\k21}no {\k42}me {\k31}ni
+Comment: 0,0:01:15.46,0:01:17.75,English,,0,0,0,karaoke,{\k23}Say {\k64}yeah! {\k10}{\rJapanese}to{\k12}bi{\k13}o{\k17}ki{\k34}cha{\k56}e{\r}
+Comment: 0,0:01:16.03,0:01:16.44,Chorus,,0,0,0,karaoke,{\k41}Yeah!
+Comment: 0,0:01:18.02,0:01:20.48,English,,0,0,0,karaoke,{\k12}Soon {\k11}e{\k25}nough {\k18}you’ll {\k21}be {\k44}soa{\k115}ring
+Comment: 0,0:01:20.60,0:01:22.98,English,,0,0,0,karaoke,{\k44}Flap {\k22}your {\k21}wings {\k20}and {\k23}tell {\k21}your {\k23}sto{\k64}ry
+Comment: 0,0:01:22.73,0:01:25.98,English,,0,0,0,karaoke,{\k26}Leave {\k17}it {\k40}to {\k16}the {\k4}O{\k28}ha{\k43}yo-EST {\k19}Go{\k24}za{\k22}i-{\k42}MAS{\k44}TER!
+Comment: 0,0:01:25.98,0:01:27.61,English,,0,0,0,karaoke,{\k19}What {\k23}came {\k43}first? {\k21}Pain {\k14}or {\k43}thirst?
+Comment: 0,0:01:27.67,0:01:29.36,English,,0,0,0,karaoke,{\k24}Hap{\k21}py {\k21}en{\k21}ding {\k22}in {\k10}re{\k50}verse
+Comment: 0,0:01:29.39,0:01:32.36,English,,0,0,0,karaoke,{\k22}No{\k22}thing {\k42}feels {\k44}worse, {\k21}than {\k22}a {\k34}un{\k30}fi{\k21}nished {\k39}verse
+Comment: 0,0:01:32.61,0:01:35.78,Japanese,,0,0,0,karaoke,{\k21}A{\k37}LAR{\k26}M {\k22}na{\k34}ra{\k31}su {\k8}a{\k12}sa {\k24}ro{\k12}ku{\k20}ji {\k29}shup{\k41}patsu
+Comment: 0,0:01:35.81,0:01:39.16,Japanese,,0,0,0,karaoke,{\k24}den{\k22}sha {\k19}ma{\k15}e {\k28}no {\k22}go{\k32}fun {\k30}wa {\k23}mon{\k34}dai{\rEnglish} {\k30}of {\k20}{\r}shi{\k36}katsu
+Comment: 0,0:01:39.69,0:01:42.67,English,,0,0,0,karaoke,{\k21}What {\k24}you {\k19}thought {\k22}was {\k21}nor{\k15}mal {\k28}has {\k18}be{\k24}come {\k22}a {\k22}lu{\k21}xu{\k41}ry
+Comment: 0,0:01:42.90,0:01:46.04,Japanese,,0,0,0,karaoke,{\k8}ku{\k11}chi{\k12}ba{\k11}shi {\k21}de {\k23}tsu{\k21}tsu{\k19}i{\k23}ta{\k21}ra {\k13}go{\k10}ki{\k22}gen {\k23}na{\k19}na{\k22}me {\k35}ni
+Comment: 0,0:01:46.33,0:01:49.55,English,,0,0,0,karaoke,{\k22}And {\k22}then {\k14}it {\k28}will {\k14}hit {\k29}har{\k20}der {\k22}than {\k21}a {\k22}cup {\k21}of {\k22}strong {\k22}cof{\k43}fee!
+Comment: 0,0:01:49.96,0:01:52.84,English,,0,0,0,karaoke,{\k22}Nan{\k10}d{\k12}ra-{\k21}kan{\k12}d{\k10}ra {\k13}{\rJapanese}i{\k9}ta{\k14}zu{\k9}ra {\k11}na {\k8}ki{\k10}mi {\k12}no {\k20}me{\k23}za{\k42}ma{\k30}shi{\r}
+Comment: 0,0:01:52.75,0:01:53.43,Chorus,,0,0,0,karaoke,{\k28}That’s {\k40}me!
+Comment: 0,0:01:53.79,0:01:56.53,English,,0,0,0,karaoke,{\k46}One, {\k40}two, {\k45}pow {\k25}po-{\k39}ow {\k24}kick {\k55}punch
+Comment: 0,0:01:56.58,0:01:58.20,English,,0,0,0,karaoke,{\k45}Keep {\k23}your {\k46}hands {\k20}u-{\k28}up
+Comment: 0,0:01:58.29,0:02:00.12,Chorus,,0,0,0,karaoke,{\k47}Keep {\k19}your {\k50}hands {\k67}up
+Comment: 0,0:02:00.66,0:02:05.25,English,,0,0,0,karaoke,{\k45}How {\k45}to {\k41}{\rJapanese}sai{\k23}ko{\k40}u! {\k24}i{\k20}ji{\k44}gen {\k42}ma{\k19}de{\r} {\k47}let’s {\k69}go
+Comment: 0,0:02:06.05,0:02:07.09,English,,0,0,0,karaoke,{\k22}Ah-{\k21}ah-{\k22}ah-{\k19}ah-{\k20}ah
+Comment: 0,0:02:07.13,0:02:11.34,English,,0,0,0,karaoke,{\k43}Now {\k40}and {\k24}e{\k42}ver, {\k20}O{\k23}ha{\k21}yo-{\k22}EST {\k20}Go{\k23}zai-{\k21}MAS{\k22}TER {\k43}ba{\k57}by
+Comment: 0,0:02:11.62,0:02:13.57,English,,0,0,0,karaoke,{\k20}Peck {\k24}{\rJapanese}ka{\k42}gen {\k21}wa {\k23}shi{\k42}nai {\k23}ze{\r}
+Comment: 0,0:02:13.76,0:02:16.03,English,,0,0,0,karaoke,{\k27}Say {\k59}yeah! {\k21}No {\k23}dress {\k11}re{\k31}hear{\k55}sal
+Comment: 0,0:02:14.32,0:02:14.78,Chorus,,0,0,0,karaoke,{\k46}Yeah!
+Comment: 0,0:02:16.11,0:02:19.24,English,,0,0,0,karaoke,{\k41}Ow! {\k25}Time {\k12}to {\k29}start {\k17}the {\k35}show {\kf154}now
+Comment: 0,0:02:19.76,0:02:20.84,English,,0,0,0,karaoke,{\k22}Ah-{\k21}ah-{\k22}ah-{\k21}ah-{\k22}ah
+Comment: 0,0:02:20.84,0:02:23.12,English,,0,0,0,karaoke,{\k44}Now {\k40}or {\k22}ne{\k40}ver, {\k23}we’re {\k22}three, {\k21}two, {\k16}one
+Comment: 0,0:02:23.19,0:02:25.15,English,,0,0,0,karaoke,{\k21}go {\k22}blas{\k21}ting {\k22}off {\k43}ba{\k67}by
+Comment: 0,0:02:25.31,0:02:27.35,Japanese,,0,0,0,karaoke,{\k22}ha{\k22}ba{\k45}ta{\k41}i{\k37}te{\k37}mi
+Comment: 0,0:02:27.41,0:02:29.82,English,,0,0,0,karaoke,{\k26}Say {\k66}yeah! {\k11}{\rJapanese}o{\k12}ki{\k13}a{\k17}ga{\k33}re {\k63}yo{\r}
+Comment: 0,0:02:28.05,0:02:28.42,Chorus,,0,0,0,karaoke,{\k37}Yeah!
+Comment: 0,0:02:30.04,0:02:32.21,English,,0,0,0,karaoke,{\k22}Who {\k22}cares {\k21}if {\k21}you're {\k43}{\rJapanese}da{\k88}rii{\r}
+Comment: 0,0:02:32.61,0:02:34.76,English,,0,0,0,karaoke,{\k45}Peck {\k37}off, {\k25}you’re {\k23}pec{\k20}king {\k23}la{\k42}zy!
+Comment: 0,0:02:35.40,0:02:39.93,English,,0,0,0,karaoke,{\k46}Mas{\k125}ter! {\k44}Mas{\k127}ter! {\k44}Mas{\k67}ter!
+Comment: 0,0:02:40.32,0:02:41.36,English,,0,0,0,karaoke,{\k22}Ah-{\k21}ah-{\k22}ah-{\k19}ah-{\k20}ah
+Comment: 0,0:02:41.40,0:02:45.61,English,,0,0,0,karaoke,{\k43}Now {\k40}and {\k24}e{\k42}ver, {\k20}O{\k23}ha{\k21}yo-{\k22}EST {\k20}Go{\k23}zai-{\k22}MAS{\k21}TER {\k43}ba{\k57}by
+Comment: 0,0:02:45.88,0:02:47.95,English,,0,0,0,karaoke,{\k17}If {\k27}you’re {\k43}{\rJapanese}ne{\k25}mii{\r} {\k18}can’t {\k43}beat {\k34}me
+Comment: 0,0:02:48.00,0:02:50.60,English,,0,0,0,karaoke,{\k25}Say {\k65}yeah! {\k12}{\rJapanese}fu{\k9}ki{\k13}to{\k22}ba{\k29}sh'te {\k42}yan {\k43}yo{\r}
+Comment: 0,0:02:48.61,0:02:48.95,Chorus,,0,0,0,karaoke,{\k34}Yeah!
+Comment: 0,0:02:50.80,0:02:53.45,English,,0,0,0,karaoke,{\k17}You {\k21}and {\k22}your {\k50}heart{\kf155}sleeves
+Comment: 0,0:02:54.03,0:02:55.11,English,,0,0,0,karaoke,{\k22}Ah-{\k21}ah-{\k22}ah-{\k21}ah-{\k22}ah
+Comment: 0,0:02:55.11,0:02:57.39,English,,0,0,0,karaoke,{\k44}Now {\k40}or {\k22}ne{\k40}ver, {\k23}we’re {\k22}three, {\k21}two, {\k16}one
+Comment: 0,0:02:57.46,0:02:59.42,English,,0,0,0,karaoke,{\k21}go {\k22}blas{\k21}ting {\k22}off {\k43}ba{\k67}by
+Comment: 0,0:02:59.61,0:03:01.63,Japanese,,0,0,0,karaoke,{\k22}E{\k18}NER{\k41}GY {\k27}so{\k21}no {\k42}me {\k31}ni
+Comment: 0,0:03:01.74,0:03:04.03,English,,0,0,0,karaoke,{\k23}Say {\k64}yeah! {\k10}{\rJapanese}to{\k12}bi{\k13}o{\k17}ki{\k34}cha{\k56}e{\r}
+Comment: 0,0:03:02.31,0:03:02.72,Chorus,,0,0,0,karaoke,{\k41}Yeah!
+Comment: 0,0:03:04.30,0:03:06.76,English,,0,0,0,karaoke,{\k12}Soon {\k11}e{\k25}nough {\k18}you’ll {\k21}be {\k44}soa{\k115}ring
+Comment: 0,0:03:06.88,0:03:09.26,English,,0,0,0,karaoke,{\k44}Flap {\k22}your {\k21}wings {\k20}and {\k23}tell {\k21}your {\k23}sto{\k64}ry
+Comment: 0,0:03:12.46,0:03:15.64,English,,0,0,0,karaoke,{\k24}Eve{\k19}ry{\k42}day {\k16}I {\k26}wake {\k45}up {\k22}with {\k42}this {\k44}year{\k38}ning
+Comment: 0,0:03:15.87,0:03:19.06,English,,0,0,0,karaoke,{\k22}To {\k23}ful{\k42}fill {\k23}all {\k18}my {\k47}dreams {\k20}now {\k21}that's {\k21}a {\k43}sure {\k39}thing
+Comment: 0,0:03:19.33,0:03:22.47,English,,0,0,0,karaoke,{\k22}Now's {\k19}the {\k42}time {\k21}to {\k24}get {\k43}up {\k18}so {\k24}quit {\k22}the {\k40}chat{\k39}ter
+Comment: 0,0:03:22.72,0:03:25.97,English,,0,0,0,karaoke,{\k24}Leave {\k22}it {\k42}to {\k15}the {\k8}O{\k20}ha{\k42}yo-EST {\k22}Go{\k20}za{\k24}i-{\k41}MAS{\k45}TER!
+Dialogue: 0,0:00:00.00,0:00:03.85,English,,0,0,0,fx,{\k47\fad(470,200)}{\k24}Eve{\k19}ry{\k42}day {\k16}I {\k26}wake {\k45}up {\k22}with {\k42}this {\k44}year{\k38}ning
+Dialogue: 0,0:00:02.98,0:00:07.27,English,,0,0,0,fx,{\k90\fad(300,200)}{\k22}To {\k23}ful{\k42}fill {\k23}all {\k18}my {\k47}dreams {\k20}now {\k21}that's {\k21}a {\k43}sure {\k39}thing
+Dialogue: 0,0:00:06.44,0:00:10.68,English,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Now's {\k19}the {\k42}time {\k21}to {\k24}get {\k43}up {\k18}so {\k24}quit {\k22}the {\k40}chat{\k39}ter
+Dialogue: 0,0:00:09.83,0:00:14.18,English,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Leave {\k22}it {\k42}to {\k15}the {\k8}O{\k20}ha{\k42}yo-EST {\k22}Go{\k20}za{\k24}i-{\k41}MAS{\k45}TER!
+Dialogue: 0,0:00:12.89,0:00:17.32,English,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Hel{\k28}lo, {\k38}how {\k18}do {\k34}you {\k31}do? {\k20}Are {\k35}you {\k30}still {\k22}in {\k35}{\rJapanese}mu{\k22}chuu{\r}
+Dialogue: 0,0:00:16.29,0:00:20.66,English,,0,0,0,fx,{\k90\fad(300,200)}{\k21}I'd {\k36}say {\k28}you {\k22}do {\k31}you {\k33}but {\k22}you {\k34}be {\k29}loo{\k22}king {\k30}too {\k19}blue
+Dialogue: 0,0:00:19.26,0:00:20.78,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k23}It's {\k19}true!
+Dialogue: 0,0:00:19.68,0:00:22.31,English,,0,0,0,fx,{\k90\fad(300,200)}{\k25}'Cause {\k30}my {\k33}words {\k22}are {\k23}hea{\k20}vy
+Dialogue: 0,0:00:21.21,0:00:23.95,English,,0,0,0,fx,{\k90\fad(300,200)}{\k12}and {\k10}they {\k21}be {\k21}sha{\k22}king {\k21}the {\k57}ground
+Dialogue: 0,0:00:23.15,0:00:27.25,English,,0,0,0,fx,{\k90\fad(300,200)}{\k20}No {\k36}time {\k29}for {\k21}han{\k33}go{\k31}vers {\k22}{\rJapanese}jin{\k22}sei {\k20}is{\k23}shun {\k43}sa{\r}
+Dialogue: 0,0:00:26.29,0:00:28.25,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k48}Let's {\k38}start!
+Dialogue: 0,0:00:26.98,0:00:31.31,English,,0,0,0,fx,{\k90\fad(300,200)}{\k21}If {\k23}you’re {\k44}down {\k22}and {\k21}out {\k43}here’s {\k20}a {\k22}{\rJapanese}P{\k20}RE{\k42}SEN{\k45}T{\r}
+Dialogue: 0,0:00:30.43,0:00:34.67,English,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Good {\k49}vibes {\k21}ta{\k21}king {\k22}flight {\k41}right {\k21}in{\k20}to {\k19}your {\k47}{\rJapanese}HEA{\k38}D{\r}
+Dialogue: 0,0:00:33.64,0:00:36.22,English,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Time’s {\k29}up, {\k21}no {\k21}{\rJapanese}ni{\k15}do{\k26}ne{\r}
+Dialogue: 0,0:00:35.36,0:00:37.88,English,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Get {\k38}up, {\k22}you {\k21}slee{\k11}py {\k24}head
+Dialogue: 0,0:00:36.43,0:00:38.09,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k14}O{\k42}kay!
+Dialogue: 0,0:00:37.28,0:00:41.68,English,,0,0,0,fx,{\k90\fad(300,200)}{\k22}You’re {\k21}the {\k43}best, {\k21}but {\k22}are {\k43}you {\k22}the {\k40}O{\k45}high{\k51}est?
+Dialogue: 0,0:00:40.88,0:00:44.72,English,,0,0,0,fx,{\k90\fad(300,200)}{\k46}One, {\k40}two, {\k45}pow {\k25}po-{\k39}ow {\k24}kick {\k55}punch
+Dialogue: 0,0:00:43.67,0:00:46.39,English,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Keep {\k23}your {\k46}hands {\k20}u-{\k28}up
+Dialogue: 0,0:00:45.38,0:00:48.31,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k47}Keep {\k19}your {\k50}hands {\k67}up
+Dialogue: 0,0:00:47.75,0:00:53.44,English,,0,0,0,fx,{\k90\fad(300,200)}{\k45}How {\k45}to {\k41}{\rJapanese}sai{\k23}ko{\k40}u! {\k24}i{\k20}ji{\k44}gen {\k42}ma{\k19}de{\r} {\k47}let’s {\k69}go
+Dialogue: 0,0:00:53.14,0:00:55.28,English,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ah-{\k21}ah-{\k22}ah-{\k19}ah-{\k20}ah
+Dialogue: 0,0:00:54.22,0:00:59.53,English,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Now {\k40}and {\k24}e{\k42}ver, {\k20}O{\k23}ha{\k21}yo-{\k22}EST {\k20}Go{\k23}zai-{\k21}MAS{\k22}TER {\k43}ba{\k57}by
+Dialogue: 0,0:00:58.70,0:01:01.87,English,,0,0,0,fx,{\k90\fad(300,200)}{\k17}If {\k27}you’re {\k43}{\rJapanese}ne{\k25}mii{\r} {\k18}can’t {\k43}beat {\k34}me
+Dialogue: 0,0:01:00.82,0:01:04.52,English,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Say {\k65}yeah! {\k12}{\rJapanese}fu{\k9}ki{\k13}to{\k22}ba{\k29}sh'te {\k42}yan {\k43}yo{\r}
+Dialogue: 0,0:01:01.43,0:01:02.87,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Yeah!
+Dialogue: 0,0:01:03.62,0:01:07.37,English,,0,0,0,fx,{\k90\fad(300,200)}{\k17}You {\k21}and {\k22}your {\k50}heart{\kf155}sleeves
+Dialogue: 0,0:01:06.85,0:01:09.03,English,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ah-{\k21}ah-{\k22}ah-{\k21}ah-{\k22}ah
+Dialogue: 0,0:01:07.93,0:01:11.31,English,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Now {\k40}or {\k22}ne{\k40}ver, {\k23}we’re {\k22}three, {\k21}two, {\k16}one
+Dialogue: 0,0:01:10.28,0:01:13.34,English,,0,0,0,fx,{\k90\fad(300,200)}{\k21}go {\k22}blas{\k21}ting {\k22}off {\k43}ba{\k67}by
+Dialogue: 0,0:01:12.43,0:01:15.55,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k22}E{\k18}NER{\k41}GY {\k27}so{\k21}no {\k42}me {\k31}ni
+Dialogue: 0,0:01:14.56,0:01:17.95,English,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Say {\k64}yeah! {\k10}{\rJapanese}to{\k12}bi{\k13}o{\k17}ki{\k34}cha{\k56}e{\r}
+Dialogue: 0,0:01:15.13,0:01:16.64,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k41}Yeah!
+Dialogue: 0,0:01:17.12,0:01:20.68,English,,0,0,0,fx,{\k90\fad(300,200)}{\k12}Soon {\k11}e{\k25}nough {\k18}you’ll {\k21}be {\k44}soa{\k115}ring
+Dialogue: 0,0:01:19.70,0:01:23.18,English,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Flap {\k22}your {\k21}wings {\k20}and {\k23}tell {\k21}your {\k23}sto{\k64}ry
+Dialogue: 0,0:01:21.83,0:01:26.18,English,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Leave {\k17}it {\k40}to {\k16}the {\k4}O{\k28}ha{\k43}yo-EST {\k19}Go{\k24}za{\k22}i-{\k42}MAS{\k44}TER!
+Dialogue: 0,0:01:25.08,0:01:27.81,English,,0,0,0,fx,{\k90\fad(300,200)}{\k19}What {\k23}came {\k43}first? {\k21}Pain {\k14}or {\k43}thirst?
+Dialogue: 0,0:01:26.77,0:01:29.56,English,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Hap{\k21}py {\k21}en{\k21}ding {\k22}in {\k10}re{\k50}verse
+Dialogue: 0,0:01:28.49,0:01:32.56,English,,0,0,0,fx,{\k90\fad(300,200)}{\k22}No{\k22}thing {\k42}feels {\k44}worse, {\k21}than {\k22}a {\k34}un{\k30}fi{\k21}nished {\k39}verse
+Dialogue: 0,0:01:31.71,0:01:35.98,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k21}A{\k37}LAR{\k26}M {\k22}na{\k34}ra{\k31}su {\k8}a{\k12}sa {\k24}ro{\k12}ku{\k20}ji {\k29}shup{\k41}patsu
+Dialogue: 0,0:01:34.91,0:01:39.36,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k24}den{\k22}sha {\k19}ma{\k15}e {\k28}no {\k22}go{\k32}fun {\k30}wa {\k23}mon{\k34}dai{\rEnglish} {\k30}of {\k20}{\r}shi{\k36}katsu
+Dialogue: 0,0:01:38.79,0:01:42.87,English,,0,0,0,fx,{\k90\fad(300,200)}{\k21}What {\k24}you {\k19}thought {\k22}was {\k21}nor{\k15}mal {\k28}has {\k18}be{\k24}come {\k22}a {\k22}lu{\k21}xu{\k41}ry
+Dialogue: 0,0:01:42.00,0:01:46.24,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k8}ku{\k11}chi{\k12}ba{\k11}shi {\k21}de {\k23}tsu{\k21}tsu{\k19}i{\k23}ta{\k21}ra {\k13}go{\k10}ki{\k22}gen {\k23}na{\k19}na{\k22}me {\k35}ni
+Dialogue: 0,0:01:45.43,0:01:49.75,English,,0,0,0,fx,{\k90\fad(300,200)}{\k22}And {\k22}then {\k14}it {\k28}will {\k14}hit {\k29}har{\k20}der {\k22}than {\k21}a {\k22}cup {\k21}of {\k22}strong {\k22}cof{\k43}fee!
+Dialogue: 0,0:01:49.06,0:01:53.04,English,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Nan{\k10}d{\k12}ra-{\k21}kan{\k12}d{\k10}ra {\k13}{\rJapanese}i{\k9}ta{\k14}zu{\k9}ra {\k11}na {\k8}ki{\k10}mi {\k12}no {\k20}me{\k23}za{\k42}ma{\k30}shi{\r}
+Dialogue: 0,0:01:51.85,0:01:53.63,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k28}That’s {\k40}me!
+Dialogue: 0,0:01:52.89,0:01:56.73,English,,0,0,0,fx,{\k90\fad(300,200)}{\k46}One, {\k40}two, {\k45}pow {\k25}po-{\k39}ow {\k24}kick {\k55}punch
+Dialogue: 0,0:01:55.68,0:01:58.40,English,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Keep {\k23}your {\k46}hands {\k20}u-{\k28}up
+Dialogue: 0,0:01:57.39,0:02:00.32,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k47}Keep {\k19}your {\k50}hands {\k67}up
+Dialogue: 0,0:01:59.76,0:02:05.45,English,,0,0,0,fx,{\k90\fad(300,200)}{\k45}How {\k45}to {\k41}{\rJapanese}sai{\k23}ko{\k40}u! {\k24}i{\k20}ji{\k44}gen {\k42}ma{\k19}de{\r} {\k47}let’s {\k69}go
+Dialogue: 0,0:02:05.15,0:02:07.29,English,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ah-{\k21}ah-{\k22}ah-{\k19}ah-{\k20}ah
+Dialogue: 0,0:02:06.23,0:02:11.54,English,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Now {\k40}and {\k24}e{\k42}ver, {\k20}O{\k23}ha{\k21}yo-{\k22}EST {\k20}Go{\k23}zai-{\k21}MAS{\k22}TER {\k43}ba{\k57}by
+Dialogue: 0,0:02:10.72,0:02:13.77,English,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Peck {\k24}{\rJapanese}ka{\k42}gen {\k21}wa {\k23}shi{\k42}nai {\k23}ze{\r}
+Dialogue: 0,0:02:12.86,0:02:16.23,English,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Say {\k59}yeah! {\k21}No {\k23}dress {\k11}re{\k31}hear{\k55}sal
+Dialogue: 0,0:02:13.42,0:02:14.98,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k46}Yeah!
+Dialogue: 0,0:02:15.21,0:02:19.44,English,,0,0,0,fx,{\k90\fad(300,200)}{\k41}Ow! {\k25}Time {\k12}to {\k29}start {\k17}the {\k35}show {\kf154}now
+Dialogue: 0,0:02:18.86,0:02:21.04,English,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ah-{\k21}ah-{\k22}ah-{\k21}ah-{\k22}ah
+Dialogue: 0,0:02:19.94,0:02:23.32,English,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Now {\k40}or {\k22}ne{\k40}ver, {\k23}we’re {\k22}three, {\k21}two, {\k16}one
+Dialogue: 0,0:02:22.29,0:02:25.35,English,,0,0,0,fx,{\k90\fad(300,200)}{\k21}go {\k22}blas{\k21}ting {\k22}off {\k43}ba{\k67}by
+Dialogue: 0,0:02:24.41,0:02:27.55,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ha{\k22}ba{\k45}ta{\k41}i{\k37}te{\k37}mi
+Dialogue: 0,0:02:26.51,0:02:30.02,English,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Say {\k66}yeah! {\k11}{\rJapanese}o{\k12}ki{\k13}a{\k17}ga{\k33}re {\k63}yo{\r}
+Dialogue: 0,0:02:27.15,0:02:28.62,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Yeah!
+Dialogue: 0,0:02:29.14,0:02:32.41,English,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Who {\k22}cares {\k21}if {\k21}you're {\k43}{\rJapanese}da{\k88}rii{\r}
+Dialogue: 0,0:02:31.71,0:02:34.96,English,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Peck {\k37}off, {\k25}you’re {\k23}pec{\k20}king {\k23}la{\k42}zy!
+Dialogue: 0,0:02:34.50,0:02:40.13,English,,0,0,0,fx,{\k90\fad(300,200)}{\k46}Mas{\k125}ter! {\k44}Mas{\k127}ter! {\k44}Mas{\k67}ter!
+Dialogue: 0,0:02:39.42,0:02:41.56,English,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ah-{\k21}ah-{\k22}ah-{\k19}ah-{\k20}ah
+Dialogue: 0,0:02:40.50,0:02:45.81,English,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Now {\k40}and {\k24}e{\k42}ver, {\k20}O{\k23}ha{\k21}yo-{\k22}EST {\k20}Go{\k23}zai-{\k22}MAS{\k21}TER {\k43}ba{\k57}by
+Dialogue: 0,0:02:44.98,0:02:48.15,English,,0,0,0,fx,{\k90\fad(300,200)}{\k17}If {\k27}you’re {\k43}{\rJapanese}ne{\k25}mii{\r} {\k18}can’t {\k43}beat {\k34}me
+Dialogue: 0,0:02:47.10,0:02:50.80,English,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Say {\k65}yeah! {\k12}{\rJapanese}fu{\k9}ki{\k13}to{\k22}ba{\k29}sh'te {\k42}yan {\k43}yo{\r}
+Dialogue: 0,0:02:47.71,0:02:49.15,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Yeah!
+Dialogue: 0,0:02:49.90,0:02:53.65,English,,0,0,0,fx,{\k90\fad(300,200)}{\k17}You {\k21}and {\k22}your {\k50}heart{\kf155}sleeves
+Dialogue: 0,0:02:53.13,0:02:55.31,English,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ah-{\k21}ah-{\k22}ah-{\k21}ah-{\k22}ah
+Dialogue: 0,0:02:54.21,0:02:57.59,English,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Now {\k40}or {\k22}ne{\k40}ver, {\k23}we’re {\k22}three, {\k21}two, {\k16}one
+Dialogue: 0,0:02:56.56,0:02:59.62,English,,0,0,0,fx,{\k90\fad(300,200)}{\k21}go {\k22}blas{\k21}ting {\k22}off {\k43}ba{\k67}by
+Dialogue: 0,0:02:58.71,0:03:01.83,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k22}E{\k18}NER{\k41}GY {\k27}so{\k21}no {\k42}me {\k31}ni
+Dialogue: 0,0:03:00.84,0:03:04.23,English,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Say {\k64}yeah! {\k10}{\rJapanese}to{\k12}bi{\k13}o{\k17}ki{\k34}cha{\k56}e{\r}
+Dialogue: 0,0:03:01.41,0:03:02.92,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k41}Yeah!
+Dialogue: 0,0:03:03.40,0:03:06.96,English,,0,0,0,fx,{\k90\fad(300,200)}{\k12}Soon {\k11}e{\k25}nough {\k18}you’ll {\k21}be {\k44}soa{\k115}ring
+Dialogue: 0,0:03:05.98,0:03:09.46,English,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Flap {\k22}your {\k21}wings {\k20}and {\k23}tell {\k21}your {\k23}sto{\k64}ry
+Dialogue: 0,0:03:11.56,0:03:15.84,English,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Eve{\k19}ry{\k42}day {\k16}I {\k26}wake {\k45}up {\k22}with {\k42}this {\k44}year{\k38}ning
+Dialogue: 0,0:03:14.97,0:03:19.26,English,,0,0,0,fx,{\k90\fad(300,200)}{\k22}To {\k23}ful{\k42}fill {\k23}all {\k18}my {\k47}dreams {\k20}now {\k21}that's {\k21}a {\k43}sure {\k39}thing
+Dialogue: 0,0:03:18.43,0:03:22.67,English,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Now's {\k19}the {\k42}time {\k21}to {\k24}get {\k43}up {\k18}so {\k24}quit {\k22}the {\k40}chat{\k39}ter
+Dialogue: 0,0:03:21.82,0:03:26.17,English,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Leave {\k22}it {\k42}to {\k15}the {\k8}O{\k20}ha{\k42}yo-EST {\k22}Go{\k20}za{\k24}i-{\k41}MAS{\k45}TER!
