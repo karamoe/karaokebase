@@ -1,0 +1,132 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+PlayResX: 0
+PlayResY: 0
+Title: Umapyoi Densetsu
+Original Timing: Ichinyaaan, PrZozor
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: All,Arial,24,&H00DCB44F,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.08,0:00:00.08,All,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:02.12,0:00:03.27,All,,0,0,0,karaoke,{\k20}ooh {\k63}ah {\k32}pa
+Comment: 0,0:00:03.79,0:00:05.54,All,,0,0,0,karaoke,{\k83}pa {\k62}pa{\k30}-a
+Comment: 0,0:00:05.54,0:00:06.59,All,,0,0,0,karaoke,{\k11}ooh {\k64}ah {\k30}pa
+Comment: 0,0:00:07.12,0:00:08.77,All,,0,0,0,karaoke,{\k83}pa {\k62}pa{\k20}-a
+Comment: 0,0:00:08.77,0:00:09.99,All,,0,0,0,karaoke,{\k21}ooh {\k64}ah {\k37}pa
+Comment: 0,0:00:10.45,0:00:12.25,All,,0,0,0,karaoke,{\k83}pa {\k62}pa{\k35}-a
+Comment: 0,0:00:12.10,0:00:16.49,All,,0,0,0,karaoke,{\k21}ooh {\k43}ah {\k41}pa {\k22}pa{\k40}pa {\kf272}paaa
+Comment: 0,0:00:14.40,0:00:16.49,All,,0,0,0,karaoke,{\k20}pa{\k22}pa{\k18}pa{\k42}pa {\kf107}pa
+Comment: 0,0:00:16.45,0:00:17.74,All,,0,0,0,karaoke,{\k24}na{\k19}i {\k23}shi{\k20}ra{\k20}se {\k23}wa
+Comment: 0,0:00:18.57,0:00:19.87,All,,0,0,0,karaoke,{\k12}i{\k17}i {\k34}shi{\k36}ra{\k31}se
+Comment: 0,0:00:20.00,0:00:22.71,All,,0,0,0,karaoke,{\k43}nan{\k21}kyo{\k17}ku {\k24}shi{\k17}ra{\k26}se {\k20}wa {\k17}o{\k26}shi{\k17}a{\k18}wa{\k25}se
+Comment: 0,0:00:22.94,0:00:25.36,All,,0,0,0,karaoke,{\k39}nic{\k24}chi {\k17}mo {\k43}sac{\k22}chi {\k18}mo {\k24}i{\k22}ka{\k19}na{\k14}i
+Comment: 0,0:00:25.45,0:00:26.86,All,,0,0,0,karaoke,{\k39}NI{\k23}CHE {\k20}na {\k19}ki{\k22}mo{\k18}chi
+Comment: 0,0:00:27.11,0:00:28.94,All,,0,0,0,karaoke,{\k38}toc{\k25}chi{\k20}ra {\k42}kat{\k21}te{\k20}ru {\k17}no
+Comment: 0,0:00:29.82,0:00:32.48,All,,0,0,0,karaoke,{\k19}mu{\k23}ga {\k19}mu{\kf100}chu {\k25}sho{\k21}u{\k19}u{\k40}chu
+Comment: 0,0:00:32.93,0:00:35.78,All,,0,0,0,karaoke,{\k42}kou{\k37}shin{\k108}-chu {\k22}ki{\k20}mi {\k18}ni {\k38}chu
+Comment: 0,0:00:36.44,0:00:40.03,All,,0,0,0,karaoke,{\k26}sa{\k21}ma{\k17}yo{\k64}u {\k22}a{\k20}na{\k17}ta{\k25}-sa{\k22}ma {\kf62}yo{\k21}o{\k42}o
+Comment: 0,0:00:40.64,0:00:42.16,All,,0,0,0,karaoke,{\k12}mo{\k14}shi {\k22}mo{\k35}sh' {\k9}ki{\k9}ko{\k15}e{\k11}te{\k25}ru?
+Comment: 0,0:00:43.99,0:00:46.67,All,,0,0,0,karaoke,{\k42}den{\k20}pa {\k42}den{\k20}pa {\k21}no {\k43}kai{\k21}de{\k21}n{\k38}pa
+Comment: 0,0:00:46.69,0:00:50.22,All,,0,0,0,karaoke,{\k18}u{\k24}chu{\k20}u {\k42}ni {\k37}mu{\k26}chu{\k21}u {\k21}de {\k58}kou{\k43}shin{\k21}-chu{\k22}u
+Comment: 0,0:00:50.65,0:00:53.34,All,,0,0,0,karaoke,{\k42}ken{\k21}pa {\k42}ken{\k21}pa {\k20}de {\k42}sen {\k21}M{\k21}E{\k39}TER
+Comment: 0,0:00:53.34,0:00:55.21,All,,0,0,0,karaoke,{\k22}ne{\k22}ko {\k20}ni {\k22}ki{\k21}ra{\k20}wa{\k21}re{\k19}te {\k20}mo
+Comment: 0,0:00:55.23,0:00:57.04,All,,0,0,0,karaoke,{\k20}ma{\k22}ma {\k18}ni {\k23}shi{\k22}ka{\k20}ra{\k21}re{\k18}te {\k17}mo
+Comment: 0,0:00:57.11,0:00:58.65,All,,0,0,0,karaoke,{\k41}wa{\k17}ta{\k25}shi {\k21}to {\k19}ni{\k31}au
+Comment: 0,0:00:58.77,0:01:00.65,All,,0,0,0,karaoke,{\k40}a{\k24}na{\k21}ta {\k20}ni {\k20}de{\k21}a{\k21}u {\k21}no
+Comment: 0,0:01:13.98,0:01:15.61,All,,0,0,0,karaoke,{\k17}C{\k21}Q{\k24}C{\k21}Q {\k13}do{\k10}ko {\k12}na{\k8}no {\k13}A{\k8}LI{\k16}EN
+Comment: 0,0:01:15.64,0:01:17.21,All,,0,0,0,karaoke,{\k20}shi{\k23}ku {\k20}shi{\k21}ku {\k10}ko{\k10}do{\k10}ku {\k12}na {\k11}A{\k10}RE{\k10}A
+Comment: 0,0:01:17.30,0:01:18.91,All,,0,0,0,karaoke,{\k20}wo {\k24}ai {\k37}ni, {\k14}HEL{\k20}LO {\k11}HOW {\k22}ARE {\k13}YOU?
+Comment: 0,0:01:18.98,0:01:20.54,All,,0,0,0,karaoke,{\k12}LO{\k10}VE {\k20}AND {\k41}PEACE {\k11}ha{\k18}chou {\k12}ga {\k32}au
+Comment: 0,0:01:20.64,0:01:22.10,All,,0,0,0,karaoke,{\k12}u{\k9}chi {\k11}ka{\k8}ra {\k15}so{\k8}ko {\k10}ma{\k11}de {\k21}nan{\k21}-kou{\k20}nen?
+Comment: 0,0:01:22.12,0:01:23.75,All,,0,0,0,karaoke,{\k10}te{\k7}ka {\k10}so{\k14}re {\k10}to{\k11}mo {\k10}to{\k10}na{\k11}ri {\k9}no {\k20}san{\k23}-chou{\k18}me?
+Comment: 0,0:01:23.77,0:01:25.20,All,,0,0,0,karaoke,{\k21}kya{\k31}tot{\k7}ta {\k24}HEAR{\k13}T {\k9}wa {\k7}i{\k11}zu{\k20}ko?
+Comment: 0,0:01:25.24,0:01:26.87,All,,0,0,0,karaoke,{\k23}***Q{\k20}LO {\k30}DOWN {\k7}ja {\k15}u{\k16}chuu {\k13}wa {\k10}IS {\k5}IT {\k24}COLD?
+Comment: 0,0:01:26.68,0:01:29.82,All,,0,0,0,karaoke,{\k20}na{\k23}no{\k20}ni {\k35}sa {\k29}su{\k20}ga{\k21}ta {\k21}ga {\k19}mi{\k22}a{\k42}tan{\k42}nai
+Comment: 0,0:01:30.02,0:01:33.32,All,,0,0,0,karaoke,{\k21}G{\k21}RA{\k20}Y {\k42}na {\k22}ki{\k17}mo{\k24}chi {\k19}ga {\k44}chuu{\k21}bu{\k42}ra{\k37}rin
+Comment: 0,0:01:33.56,0:01:35.95,All,,0,0,0,karaoke,{\k21}mi{\k20}tsu{\k22}ke{\k21}te {\k21}ya{\k19}ru{\k21}zo {\k44}U{\k50}FO!
+Comment: 0,0:01:36.39,0:01:39.48,All,,0,0,0,karaoke,{\k52}son{\k20}de {\k41}ai{\k20}ta{\k43}kat{\k42}tat{\k20}te {\k40}iu {\k31}no
+Comment: 0,0:01:40.67,0:01:43.28,All,,0,0,0,karaoke,{\k40}den{\k22}pa {\k41}den{\k42}pa {\k41}ah {\k42}ken{\k33}gai
+Comment: 0,0:01:43.34,0:01:46.91,All,,0,0,0,karaoke,{\k22}so{\k22}re{\k19}de{\k38}mo {\k42}mu{\k46}chu {\k21}de {\k55}kou{\k44}shin{\k27}-chu{\k21}u
+Comment: 0,0:01:47.30,0:01:49.89,All,,0,0,0,karaoke,{\k43}nan{\k23}ka {\k38}hen {\k23}da{\k22}yo {\k40}IN{\k42}VA{\k28}DER
+Comment: 0,0:01:50.02,0:01:53.69,All,,0,0,0,karaoke,{\k22}ki{\k21}mi {\k40}da{\k23}ke {\k13}ni {\k25}so{\k23}so{\k21}gu {\k18}a{\k22}i {\kf139}no
+Comment: 0,0:01:54.00,0:01:56.64,All,,0,0,0,karaoke,{\k40}den{\k21}pa {\k42}den{\k19}pa {\k22}no {\k41}kai{\k22}de{\k21}n{\k36}pa
+Comment: 0,0:01:56.69,0:02:00.21,All,,0,0,0,karaoke,{\k19}u{\k22}chu{\k23}u {\k39}ni {\k39}mu{\k21}chu{\k24}u {\k21}de {\k54}kou{\k47}shin{\k24}-chu{\k19}u
+Comment: 0,0:02:00.65,0:02:03.24,All,,0,0,0,karaoke,{\k40}nan{\k22}ka {\k41}hen {\k23}da{\k19}yo {\k43}IN{\k42}VA{\k29}DER
+Comment: 0,0:02:03.35,0:02:07.00,All,,0,0,0,karaoke,{\k21}ki{\k21}mi {\k41}da{\k21}ke {\k17}ni {\k22}sa{\k24}sa{\k20}gu {\k22}a{\k20}i {\kf43}wo {\kf93}
+Comment: 0,0:02:06.07,0:02:07.00,All,,0,0,0,karaoke,{\kf40}{\pos(304,47)}ah{\kf53}
+Comment: 0,0:02:06.47,0:02:07.00,All,,0,0,0,karaoke,{\kf20}{\pos(328.5,47)}hhh{\kf33}
+Comment: 0,0:02:06.68,0:02:07.00,All,,0,0,0,karaoke,{\kf32}{\pos(383,47)}hhhhhhhh
+Comment: 0,0:02:07.31,0:02:09.98,All,,0,0,0,karaoke,{\k42}dеn{\k20}pa {\k42}den{\k21}pa {\k22}a{\k42}kai {\k41}den{\k37}pa
+Comment: 0,0:02:10.03,0:02:13.57,All,,0,0,0,karaoke,{\k20}RI{\k43}BON {\k37}ni {\k44}tsu{\k43}tsun{\k22}de {\k58}sou{\k40}shin{\k24}-chu{\k23}u
+Comment: 0,0:02:13.98,0:02:16.63,All,,0,0,0,karaoke,{\k42}den{\k21}pa {\k42}den{\k20}pa {\k21}ki{\k21}ko{\k22}e{\k20}te{\k20}ru {\k36}no?
+Comment: 0,0:02:16.67,0:02:18.53,All,,0,0,0,karaoke,{\k23}ko{\k20}ko{\k19}ro {\k25}sa{\k20}ra{\k21}wa{\k19}re{\k20}te {\k19}mo
+Comment: 0,0:02:18.77,0:02:20.41,All,,0,0,0,karaoke,{\k37}i{\k45}ma {\k20}wa{\k21}ta{\k22}shi {\k19}no
+Comment: 0,0:02:20.45,0:02:21.89,All,,0,0,0,karaoke,{\k40}wa{\k19}ta{\k23}shi {\k20}da{\k21}ke {\k21}no
+Comment: 0,0:02:22.11,0:02:24.07,All,,0,0,0,karaoke,{\k39}a{\k22}na{\k22}ta {\k21}ni {\k21}de{\k21}a{\k21}u {\k29}no
+Comment: 0,0:02:25.64,0:02:28.56,All,,0,0,0,karaoke,{\k76}FOUR {\kf89}SEA{\kf127}SON
+Comment: 0,0:02:28.99,0:02:33.72,All,,0,0,0,karaoke,{\k80}I {\k86}MISS {\kf307}YOU
+Comment: 0,0:02:34.01,0:02:37.61,All,,0,0,0,karaoke,{\k78}I {\kf90}MISS {\kf192}YOU
+Dialogue: 0,0:00:01.22,0:00:03.47,All,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ooh {\k63}ah {\k32}pa
+Dialogue: 0,0:00:02.89,0:00:05.74,All,,0,0,0,fx,{\k90\fad(300,200)}{\k83}pa {\k62}pa{\k30}-a
+Dialogue: 0,0:00:04.64,0:00:06.79,All,,0,0,0,fx,{\k90\fad(300,200)}{\k11}ooh {\k64}ah {\k30}pa
+Dialogue: 0,0:00:06.22,0:00:08.97,All,,0,0,0,fx,{\k90\fad(300,200)}{\k83}pa {\k62}pa{\k20}-a
+Dialogue: 0,0:00:07.87,0:00:10.19,All,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ooh {\k64}ah {\k37}pa
+Dialogue: 0,0:00:09.55,0:00:12.45,All,,0,0,0,fx,{\k90\fad(300,200)}{\k83}pa {\k62}pa{\k35}-a
+Dialogue: 0,0:00:11.20,0:00:16.69,All,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ooh {\k43}ah {\k41}pa {\k22}pa{\k40}pa {\kf272}paaa
+Dialogue: 0,0:00:13.50,0:00:16.69,All,,0,0,0,fx,{\k90\fad(300,200)}{\k20}pa{\k22}pa{\k18}pa{\k42}pa {\kf107}pa
+Dialogue: 0,0:00:15.55,0:00:17.94,All,,0,0,0,fx,{\k90\fad(300,200)}{\k24}na{\k19}i {\k23}shi{\k20}ra{\k20}se {\k23}wa
+Dialogue: 0,0:00:17.67,0:00:20.07,All,,0,0,0,fx,{\k90\fad(300,200)}{\k12}i{\k17}i {\k34}shi{\k36}ra{\k31}se
+Dialogue: 0,0:00:19.10,0:00:22.91,All,,0,0,0,fx,{\k90\fad(300,200)}{\k43}nan{\k21}kyo{\k17}ku {\k24}shi{\k17}ra{\k26}se {\k20}wa {\k17}o{\k26}shi{\k17}a{\k18}wa{\k25}se
+Dialogue: 0,0:00:22.04,0:00:25.56,All,,0,0,0,fx,{\k90\fad(300,200)}{\k39}nic{\k24}chi {\k17}mo {\k43}sac{\k22}chi {\k18}mo {\k24}i{\k22}ka{\k19}na{\k14}i
+Dialogue: 0,0:00:24.55,0:00:27.06,All,,0,0,0,fx,{\k90\fad(300,200)}{\k39}NI{\k23}CHE {\k20}na {\k19}ki{\k22}mo{\k18}chi
+Dialogue: 0,0:00:26.21,0:00:29.14,All,,0,0,0,fx,{\k90\fad(300,200)}{\k38}toc{\k25}chi{\k20}ra {\k42}kat{\k21}te{\k20}ru {\k17}no
+Dialogue: 0,0:00:28.92,0:00:32.68,All,,0,0,0,fx,{\k90\fad(300,200)}{\k19}mu{\k23}ga {\k19}mu{\kf100}chu {\k25}sho{\k21}u{\k19}u{\k40}chu
+Dialogue: 0,0:00:32.03,0:00:35.98,All,,0,0,0,fx,{\k90\fad(300,200)}{\k42}kou{\k37}shin{\k108}-chu {\k22}ki{\k20}mi {\k18}ni {\k38}chu
+Dialogue: 0,0:00:35.54,0:00:40.23,All,,0,0,0,fx,{\k90\fad(300,200)}{\k26}sa{\k21}ma{\k17}yo{\k64}u {\k22}a{\k20}na{\k17}ta{\k25}-sa{\k22}ma {\kf62}yo{\k21}o{\k42}o
+Dialogue: 0,0:00:39.74,0:00:42.36,All,,0,0,0,fx,{\k90\fad(300,200)}{\k12}mo{\k14}shi {\k22}mo{\k35}sh' {\k9}ki{\k9}ko{\k15}e{\k11}te{\k25}ru?
+Dialogue: 0,0:00:43.09,0:00:46.87,All,,0,0,0,fx,{\k90\fad(300,200)}{\k42}den{\k20}pa {\k42}den{\k20}pa {\k21}no {\k43}kai{\k21}de{\k21}n{\k38}pa
+Dialogue: 0,0:00:45.79,0:00:50.42,All,,0,0,0,fx,{\k90\fad(300,200)}{\k18}u{\k24}chu{\k20}u {\k42}ni {\k37}mu{\k26}chu{\k21}u {\k21}de {\k58}kou{\k43}shin{\k21}-chu{\k22}u
+Dialogue: 0,0:00:49.75,0:00:53.54,All,,0,0,0,fx,{\k90\fad(300,200)}{\k42}ken{\k21}pa {\k42}ken{\k21}pa {\k20}de {\k42}sen {\k21}M{\k21}E{\k39}TER
+Dialogue: 0,0:00:52.44,0:00:55.41,All,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ne{\k22}ko {\k20}ni {\k22}ki{\k21}ra{\k20}wa{\k21}re{\k19}te {\k20}mo
+Dialogue: 0,0:00:54.33,0:00:57.24,All,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ma{\k22}ma {\k18}ni {\k23}shi{\k22}ka{\k20}ra{\k21}re{\k18}te {\k17}mo
+Dialogue: 0,0:00:56.21,0:00:58.85,All,,0,0,0,fx,{\k90\fad(300,200)}{\k41}wa{\k17}ta{\k25}shi {\k21}to {\k19}ni{\k31}au
+Dialogue: 0,0:00:57.87,0:01:00.85,All,,0,0,0,fx,{\k90\fad(300,200)}{\k40}a{\k24}na{\k21}ta {\k20}ni {\k20}de{\k21}a{\k21}u {\k21}no
+Dialogue: 0,0:01:13.08,0:01:15.81,All,,0,0,0,fx,{\k90\fad(300,200)}{\k17}C{\k21}Q{\k24}C{\k21}Q {\k13}do{\k10}ko {\k12}na{\k8}no {\k13}A{\k8}LI{\k16}EN
+Dialogue: 0,0:01:14.74,0:01:17.41,All,,0,0,0,fx,{\k90\fad(300,200)}{\k20}shi{\k23}ku {\k20}shi{\k21}ku {\k10}ko{\k10}do{\k10}ku {\k12}na {\k11}A{\k10}RE{\k10}A
+Dialogue: 0,0:01:16.40,0:01:19.11,All,,0,0,0,fx,{\k90\fad(300,200)}{\k20}wo {\k24}ai {\k37}ni, {\k14}HEL{\k20}LO {\k11}HOW {\k22}ARE {\k13}YOU?
+Dialogue: 0,0:01:18.08,0:01:20.74,All,,0,0,0,fx,{\k90\fad(300,200)}{\k12}LO{\k10}VE {\k20}AND {\k41}PEACE {\k11}ha{\k18}chou {\k12}ga {\k32}au
+Dialogue: 0,0:01:19.74,0:01:22.30,All,,0,0,0,fx,{\k90\fad(300,200)}{\k12}u{\k9}chi {\k11}ka{\k8}ra {\k15}so{\k8}ko {\k10}ma{\k11}de {\k21}nan{\k21}-kou{\k20}nen?
+Dialogue: 0,0:01:21.22,0:01:23.95,All,,0,0,0,fx,{\k90\fad(300,200)}{\k10}te{\k7}ka {\k10}so{\k14}re {\k10}to{\k11}mo {\k10}to{\k10}na{\k11}ri {\k9}no {\k20}san{\k23}-chou{\k18}me?
+Dialogue: 0,0:01:22.87,0:01:25.40,All,,0,0,0,fx,{\k90\fad(300,200)}{\k21}kya{\k31}tot{\k7}ta {\k24}HEAR{\k13}T {\k9}wa {\k7}i{\k11}zu{\k20}ko?
+Dialogue: 0,0:01:24.34,0:01:27.07,All,,0,0,0,fx,{\k90\fad(300,200)}{\k23}***Q{\k20}LO {\k30}DOWN {\k7}ja {\k15}u{\k16}chuu {\k13}wa {\k10}IS {\k5}IT {\k24}COLD?
+Dialogue: 0,0:01:25.78,0:01:30.02,All,,0,0,0,fx,{\k90\fad(300,200)}{\k20}na{\k23}no{\k20}ni {\k35}sa {\k29}su{\k20}ga{\k21}ta {\k21}ga {\k19}mi{\k22}a{\k42}tan{\k42}nai
+Dialogue: 0,0:01:29.12,0:01:33.52,All,,0,0,0,fx,{\k90\fad(300,200)}{\k21}G{\k21}RA{\k20}Y {\k42}na {\k22}ki{\k17}mo{\k24}chi {\k19}ga {\k44}chuu{\k21}bu{\k42}ra{\k37}rin
+Dialogue: 0,0:01:32.66,0:01:36.15,All,,0,0,0,fx,{\k90\fad(300,200)}{\k21}mi{\k20}tsu{\k22}ke{\k21}te {\k21}ya{\k19}ru{\k21}zo {\k44}U{\k50}FO!
+Dialogue: 0,0:01:35.49,0:01:39.68,All,,0,0,0,fx,{\k90\fad(300,200)}{\k52}son{\k20}de {\k41}ai{\k20}ta{\k43}kat{\k42}tat{\k20}te {\k40}iu {\k31}no
+Dialogue: 0,0:01:39.77,0:01:43.48,All,,0,0,0,fx,{\k90\fad(300,200)}{\k40}den{\k22}pa {\k41}den{\k42}pa {\k41}ah {\k42}ken{\k33}gai
+Dialogue: 0,0:01:42.44,0:01:47.11,All,,0,0,0,fx,{\k90\fad(300,200)}{\k22}so{\k22}re{\k19}de{\k38}mo {\k42}mu{\k46}chu {\k21}de {\k55}kou{\k44}shin{\k27}-chu{\k21}u
+Dialogue: 0,0:01:46.40,0:01:50.09,All,,0,0,0,fx,{\k90\fad(300,200)}{\k43}nan{\k23}ka {\k38}hen {\k23}da{\k22}yo {\k40}IN{\k42}VA{\k28}DER
+Dialogue: 0,0:01:49.12,0:01:53.89,All,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ki{\k21}mi {\k40}da{\k23}ke {\k13}ni {\k25}so{\k23}so{\k21}gu {\k18}a{\k22}i {\kf139}no
+Dialogue: 0,0:01:53.10,0:01:56.84,All,,0,0,0,fx,{\k90\fad(300,200)}{\k40}den{\k21}pa {\k42}den{\k19}pa {\k22}no {\k41}kai{\k22}de{\k21}n{\k36}pa
+Dialogue: 0,0:01:55.79,0:02:00.41,All,,0,0,0,fx,{\k90\fad(300,200)}{\k19}u{\k22}chu{\k23}u {\k39}ni {\k39}mu{\k21}chu{\k24}u {\k21}de {\k54}kou{\k47}shin{\k24}-chu{\k19}u
+Dialogue: 0,0:01:59.75,0:02:03.44,All,,0,0,0,fx,{\k90\fad(300,200)}{\k40}nan{\k22}ka {\k41}hen {\k23}da{\k19}yo {\k43}IN{\k42}VA{\k29}DER
+Dialogue: 0,0:02:02.45,0:02:07.20,All,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ki{\k21}mi {\k41}da{\k21}ke {\k17}ni {\k22}sa{\k24}sa{\k20}gu {\k22}a{\k20}i {\kf43}wo {\kf93}
+Dialogue: 0,0:02:05.17,0:02:07.20,All,,0,0,0,fx,{\k90\fad(300,200)}{\kf40}{\pos(304,47)}ah{\kf53}
+Dialogue: 0,0:02:05.57,0:02:07.20,All,,0,0,0,fx,{\k90\fad(300,200)}{\kf20}{\pos(328.5,47)}hhh{\kf33}
+Dialogue: 0,0:02:05.78,0:02:07.20,All,,0,0,0,fx,{\k90\fad(300,200)}{\kf32}{\pos(383,47)}hhhhhhhh
+Dialogue: 0,0:02:06.41,0:02:10.18,All,,0,0,0,fx,{\k90\fad(300,200)}{\k42}dеn{\k20}pa {\k42}den{\k21}pa {\k22}a{\k42}kai {\k41}den{\k37}pa
+Dialogue: 0,0:02:09.13,0:02:13.77,All,,0,0,0,fx,{\k90\fad(300,200)}{\k20}RI{\k43}BON {\k37}ni {\k44}tsu{\k43}tsun{\k22}de {\k58}sou{\k40}shin{\k24}-chu{\k23}u
+Dialogue: 0,0:02:13.08,0:02:16.83,All,,0,0,0,fx,{\k90\fad(300,200)}{\k42}den{\k21}pa {\k42}den{\k20}pa {\k21}ki{\k21}ko{\k22}e{\k20}te{\k20}ru {\k36}no?
+Dialogue: 0,0:02:15.77,0:02:18.73,All,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ko{\k20}ko{\k19}ro {\k25}sa{\k20}ra{\k21}wa{\k19}re{\k20}te {\k19}mo
+Dialogue: 0,0:02:17.87,0:02:20.61,All,,0,0,0,fx,{\k90\fad(300,200)}{\k37}i{\k45}ma {\k20}wa{\k21}ta{\k22}shi {\k19}no
+Dialogue: 0,0:02:19.55,0:02:22.09,All,,0,0,0,fx,{\k90\fad(300,200)}{\k40}wa{\k19}ta{\k23}shi {\k20}da{\k21}ke {\k21}no
+Dialogue: 0,0:02:21.21,0:02:24.27,All,,0,0,0,fx,{\k90\fad(300,200)}{\k39}a{\k22}na{\k22}ta {\k21}ni {\k21}de{\k21}a{\k21}u {\k29}no
+Dialogue: 0,0:02:24.74,0:02:28.76,All,,0,0,0,fx,{\k90\fad(300,200)}{\k76}FOUR {\kf89}SEA{\kf127}SON
+Dialogue: 0,0:02:28.09,0:02:33.92,All,,0,0,0,fx,{\k90\fad(300,200)}{\k80}I {\k86}MISS {\kf307}YOU
+Dialogue: 0,0:02:33.11,0:02:37.81,All,,0,0,0,fx,{\k90\fad(300,200)}{\k78}I {\kf90}MISS {\kf192}YOU
