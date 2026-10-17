@@ -1,0 +1,124 @@
+﻿[Script Info]
+Title: Abracadabra
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+Original Timing: Defty
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,24,&H000088EF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:01.25,0:00:05.10,Default,,0,0,0,karaoke,{\k35}A{\k11}bra{\k23}ca{\k23}da{\k23}bra {\k23}a{\k23}bra{\k23}ca{\k95}da{\k89}bra
+Comment: 1,0:00:05.06,0:00:10.82,Default,,0,0,0,karaoke,{\k35}A{\k11}bra{\k23}ca{\k23}da{\k23}bra {\k23}a{\k23}bra{\k23}ca{\k95}da{\k279}bra
+Comment: 1,0:00:16.49,0:00:19.72,Default,,0,0,0,karaoke,{\k23}Pay {\k11}the {\k130}toll {\k11}to {\k11}the {\k23}an{\k98}gels
+Comment: 1,0:00:19.82,0:00:23.11,Default,,0,0,0,karaoke,{\k11}Draw{\k23}ing {\k35}cir{\k119}cles {\k11}in {\k35}the {\k80}ground
+Comment: 1,0:00:24.11,0:00:27.42,Default,,0,0,0,karaoke,{\k23}Keep {\k11}your {\k130}mind {\k11}on {\k11}the {\k23}dis{\k107}tance
+Comment: 1,0:00:27.44,0:00:30.91,Default,,0,0,0,karaoke,{\k23}When {\k11}the {\k35}de{\k119}vil {\k11}turns {\k35}a{\k98}round
+Comment: 1,0:00:31.73,0:00:34.89,Default,,0,0,0,karaoke,{\k47}Hold {\k47}me {\k47}in {\k23}your {\k47}heart {\k47}to{\k44}night
+Comment: 1,0:00:34.82,0:00:39.00,Default,,0,0,0,karaoke,{\k23}In {\k23}the {\k47}ma{\k47}gic {\k71}of {\k23}the {\k47}dark {\k47}moon{\k74}light
+Comment: 1,0:00:39.35,0:00:44.12,Default,,0,0,0,karaoke,{\k47}Save {\k47}me {\k47}from {\k23}this {\k47}emp{\k47}ty {\k71}fi{\k23}i{\k110}ight
+Comment: 1,0:00:44.59,0:00:46.56,Default,,0,0,0,karaoke,{\k23}In {\k23}the {\k23}game {\k47}of {\k68}life
+Comment: 1,0:00:46.49,0:00:50.10,Default,,0,0,0,karaoke,{\k23}Like {\k23}a {\k71}poem {\k71}said {\k23}by {\k23}a {\k23}la{\k23}dy {\k23}in {\k41}red
+Comment: 1,0:00:50.06,0:00:53.64,Default,,0,0,0,karaoke,{\k23}You {\k23}hear {\k23}the {\k47}last {\k47}few {\k23}words {\k23}of {\k23}your {\k110}life
+Comment: 1,0:00:54.11,0:00:57.75,Default,,0,0,0,karaoke,{\k23}With {\k23}a {\k47}haunt{\k23}ing {\k71}dance, {\k23}now {\k23}you're {\k23}both {\k23}in {\k23}a {\k44}trance
+Comment: 1,0:00:57.68,0:01:01.26,Default,,0,0,0,karaoke,{\k23}It's {\k23}time {\k23}to {\k47}cast {\k47}your {\k23}spell {\k23}on {\k23}the {\k110}night
+Comment: 1,0:01:02.20,0:01:05.55,Default,,0,0,0,karaoke,{\k23}A{\k23}bra{\k23}ca{\k47}da{\k23}bra {\k23}a{\k23}mor-{\k23}oo-{\k47}na-{\k62}na
+Comment: 1,0:01:05.54,0:01:09.57,Default,,0,0,0,karaoke,{\k23}A{\k23}bra{\k23}ca{\k47}da{\k71}bra {\k23}mor{\k23}ta-{\k23}oo-{\k47}ga-{\k83}ga
+Comment: 1,0:01:09.82,0:01:13.17,Default,,0,0,0,karaoke,{\k23}A{\k23}bra{\k23}ca{\k47}da{\k23}bra {\k23}ab{\k23}ra-{\k23}oo-{\k47}na-{\k62}na
+Comment: 1,0:01:13.16,0:01:15.31,Default,,0,0,0,karaoke,{\k23}In {\k23}her {\k47}tongue {\k23}she {\k86}said
+Comment: 1,0:01:15.54,0:01:19.33,Default,,0,0,0,karaoke,{\k47}Death {\k47}or {\k47}love {\k23}to{\k202}night
+Comment: 1,0:01:19.35,0:01:23.20,Default,,0,0,0,karaoke,{\k35}A{\k11}bra{\k23}ca{\k23}da{\k23}bra {\k23}a{\k23}bra{\k23}ca{\k95}da{\k89}bra
+Comment: 1,0:01:23.16,0:01:27.01,Default,,0,0,0,karaoke,{\k35}A{\k11}bra{\k23}ca{\k23}da{\k23}bra {\k23}a{\k23}bra{\k23}ca{\k95}da{\k89}bra
+Comment: 1,0:01:26.97,0:01:30.85,Default,,0,0,0,karaoke,{\k35}Feel {\k11}the {\k23}beat {\k23}un{\k23}der {\k23}your {\k23}feet {\k23}the {\k47}floor's {\k47}on {\k47}fi{\k44}re
+Comment: 1,0:01:30.78,0:01:34.63,Default,,0,0,0,karaoke,{\k35}A{\k11}bra{\k23}ca{\k23}da{\k23}bra {\k23}a{\k23}bra{\k23}ca{\k95}da{\k89}bra
+Comment: 1,0:01:34.59,0:01:37.81,Default,,0,0,0,karaoke,{\k23}Choose {\k11}the {\k130}road {\k11}on {\k11}the {\k23}west {\k98}side
+Comment: 1,0:01:37.92,0:01:41.38,Default,,0,0,0,karaoke,{\k23}As {\k11}the {\k35}dust {\k119}flies, {\k11}watch {\k35}it {\k98}burn
+Comment: 1,0:01:42.20,0:01:45.43,Default,,0,0,0,karaoke,{\k23}Don't {\k23}waste {\k95}time {\k23}on {\k11}a {\k35}feel{\k98}ing
+Comment: 1,0:01:45.54,0:01:49.83,Default,,0,0,0,karaoke,{\k23}Use {\k11}your {\k35}pa{\k119}ssion, {\k23}no {\k11}re{\k83}tu{\k23}r{\k86}n
+Comment: 1,0:01:49.82,0:01:52.99,Default,,0,0,0,karaoke,{\k47}Hold {\k47}me {\k47}in {\k23}your {\k47}heart {\k47}to{\k44}night
+Comment: 1,0:01:52.92,0:01:57.10,Default,,0,0,0,karaoke,{\k23}In {\k23}the {\k47}ma{\k47}gic {\k71}of {\k23}the {\k47}dark {\k47}moon{\k74}light
+Comment: 1,0:01:57.44,0:02:02.22,Default,,0,0,0,karaoke,{\k47}Save {\k47}me {\k47}from {\k23}this {\k47}emp{\k47}ty {\k71}fi{\k23}i{\k110}ight
+Comment: 1,0:02:02.68,0:02:04.66,Default,,0,0,0,karaoke,{\k23}In {\k23}the {\k23}game {\k47}of {\k68}life
+Comment: 1,0:02:04.59,0:02:08.20,Default,,0,0,0,karaoke,{\k23}Like {\k23}a {\k71}poem {\k71}said {\k23}by {\k23}a {\k23}la{\k23}dy {\k23}in {\k41}red
+Comment: 1,0:02:08.16,0:02:11.74,Default,,0,0,0,karaoke,{\k23}You {\k23}hear {\k23}the {\k47}last {\k47}few {\k23}words {\k23}of {\k23}your {\k110}life
+Comment: 1,0:02:12.20,0:02:15.85,Default,,0,0,0,karaoke,{\k23}With {\k23}a {\k47}haunt{\k23}ing {\k71}dance, {\k23}now {\k23}you're {\k23}both {\k23}in {\k23}a {\k44}trance
+Comment: 1,0:02:15.78,0:02:19.36,Default,,0,0,0,karaoke,{\k23}It's {\k23}time {\k23}to {\k47}cast {\k47}your {\k23}spell {\k23}on {\k23}the {\k110}night
+Comment: 1,0:02:20.30,0:02:23.64,Default,,0,0,0,karaoke,{\k23}A{\k23}bra{\k23}ca{\k47}da{\k23}bra {\k23}a{\k23}mor-{\k23}oo-{\k47}na-{\k62}na
+Comment: 1,0:02:23.63,0:02:27.66,Default,,0,0,0,karaoke,{\k23}A{\k23}bra{\k23}ca{\k47}da{\k71}bra {\k23}mor{\k23}ta-{\k23}oo-{\k47}ga-{\k83}ga
+Comment: 1,0:02:27.92,0:02:31.26,Default,,0,0,0,karaoke,{\k23}A{\k23}bra{\k23}ca{\k47}da{\k23}bra {\k23}ab{\k23}ra-{\k23}oo-{\k47}na-{\k62}na
+Comment: 1,0:02:31.25,0:02:33.41,Default,,0,0,0,karaoke,{\k23}In {\k23}her {\k47}tongue {\k23}she {\k86}said
+Comment: 1,0:02:33.63,0:02:37.42,Default,,0,0,0,karaoke,{\k47}Death {\k47}or {\k47}love {\k23}to{\k202}night
+Comment: 1,0:02:37.44,0:02:41.29,Default,,0,0,0,karaoke,{\k35}A{\k11}bra{\k23}ca{\k23}da{\k23}bra {\k23}a{\k23}bra{\k23}ca{\k95}da{\k89}bra
+Comment: 1,0:02:41.25,0:02:45.10,Default,,0,0,0,karaoke,{\k35}A{\k11}bra{\k23}ca{\k23}da{\k23}bra {\k23}a{\k23}bra{\k23}ca{\k95}da{\k89}bra
+Comment: 1,0:02:45.06,0:02:48.94,Default,,0,0,0,karaoke,{\k35}Feel {\k11}the {\k23}beat {\k23}un{\k23}der {\k23}your {\k23}feet {\k23}the {\k47}floor's {\k47}on {\k47}fi{\k44}re
+Comment: 1,0:02:48.87,0:02:51.77,Default,,0,0,0,karaoke,{\k35}A{\k11}bra{\k23}ca{\k23}da{\k23}bra {\k23}a{\k23}bra{\k23}ca{\k89}dabra
+Comment: 1,0:02:51.73,0:02:58.88,Default,,0,0,0,karaoke,{\k23}Phan{\k23}tom {\k23}of {\k23}the {\k142}dance {\k47}floor, {\k95}come {\k95}to {\k229}me
+Comment: 1,0:02:59.35,0:03:06.95,Default,,0,0,0,karaoke,{\k23}Sing {\k23}for {\k23}me {\k23}a {\k142}sin{\k47}ful {\k95}me{\k95}lo{\k273}dy
+Comment: 1,0:03:06.97,0:03:09.24,Default,,0,0,0,karaoke,{\k23}Ah {\k23}ah {\k23}ah {\k23}ah {\k122}ah
+Comment: 1,0:03:09.35,0:03:13.88,Default,,0,0,0,karaoke,{\k47}Ah {\k95}ah {\k95}ah {\k205}ah
+Comment: 1,0:03:14.59,0:03:16.95,Default,,0,0,0,karaoke,{\k23}Ah {\k23}ah {\k23}ah {\k23}ah {\k130}ah~
+Comment: 1,0:03:16.97,0:03:22.69,Default,,0,0,0,karaoke,{\k47}Ah {\k95}ah {\k95}ah {\k324}ah
+Comment: 1,0:03:23.16,0:03:26.50,Default,,0,0,0,karaoke,{\k23}A{\k23}bra{\k23}ca{\k47}da{\k23}bra {\k23}a{\k23}mor-{\k23}oo-{\k47}na-{\k62}na
+Comment: 1,0:03:26.49,0:03:30.52,Default,,0,0,0,karaoke,{\k23}A{\k23}bra{\k23}ca{\k47}da{\k71}bra {\k23}mor{\k23}ta-{\k23}oo-{\k47}ga-{\k83}ga
+Comment: 1,0:03:30.78,0:03:34.12,Default,,0,0,0,karaoke,{\k23}A{\k23}bra{\k23}ca{\k47}da{\k23}bra {\k23}ab{\k23}ra-{\k23}oo-{\k47}na-{\k62}na
+Comment: 1,0:03:34.11,0:03:36.26,Default,,0,0,0,karaoke,{\k23}In {\k23}her {\k47}tongue {\k23}she {\k86}said
+Comment: 1,0:03:36.49,0:03:40.73,Default,,0,0,0,karaoke,{\k47}Death {\k47}or {\k47}love {\k23}to{\k247}night
+Dialogue: 1,0:00:00.35,0:00:05.30,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}A{\k11}bra{\k23}ca{\k23}da{\k23}bra {\k23}a{\k23}bra{\k23}ca{\k95}da{\k89}bra
+Dialogue: 1,0:00:04.16,0:00:11.02,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}A{\k11}bra{\k23}ca{\k23}da{\k23}bra {\k23}a{\k23}bra{\k23}ca{\k95}da{\k279}bra
+Dialogue: 1,0:00:15.59,0:00:19.92,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Pay {\k11}the {\k130}toll {\k11}to {\k11}the {\k23}an{\k98}gels
+Dialogue: 1,0:00:18.92,0:00:23.31,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k11}Draw{\k23}ing {\k35}cir{\k119}cles {\k11}in {\k35}the {\k80}ground
+Dialogue: 1,0:00:23.21,0:00:27.62,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Keep {\k11}your {\k130}mind {\k11}on {\k11}the {\k23}dis{\k107}tance
+Dialogue: 1,0:00:26.54,0:00:31.11,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}When {\k11}the {\k35}de{\k119}vil {\k11}turns {\k35}a{\k98}round
+Dialogue: 1,0:00:30.83,0:00:35.09,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k47}Hold {\k47}me {\k47}in {\k23}your {\k47}heart {\k47}to{\k44}night
+Dialogue: 1,0:00:33.92,0:00:39.20,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}In {\k23}the {\k47}ma{\k47}gic {\k71}of {\k23}the {\k47}dark {\k47}moon{\k74}light
+Dialogue: 1,0:00:38.45,0:00:44.32,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k47}Save {\k47}me {\k47}from {\k23}this {\k47}emp{\k47}ty {\k71}fi{\k23}i{\k110}ight
+Dialogue: 1,0:00:43.69,0:00:46.76,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}In {\k23}the {\k23}game {\k47}of {\k68}life
+Dialogue: 1,0:00:45.59,0:00:50.30,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Like {\k23}a {\k71}poem {\k71}said {\k23}by {\k23}a {\k23}la{\k23}dy {\k23}in {\k41}red
+Dialogue: 1,0:00:49.16,0:00:53.84,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}You {\k23}hear {\k23}the {\k47}last {\k47}few {\k23}words {\k23}of {\k23}your {\k110}life
+Dialogue: 1,0:00:53.21,0:00:57.95,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}With {\k23}a {\k47}haunt{\k23}ing {\k71}dance, {\k23}now {\k23}you're {\k23}both {\k23}in {\k23}a {\k44}trance
+Dialogue: 1,0:00:56.78,0:01:01.46,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}It's {\k23}time {\k23}to {\k47}cast {\k47}your {\k23}spell {\k23}on {\k23}the {\k110}night
+Dialogue: 1,0:01:01.30,0:01:05.75,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}A{\k23}bra{\k23}ca{\k47}da{\k23}bra {\k23}a{\k23}mor-{\k23}oo-{\k47}na-{\k62}na
+Dialogue: 1,0:01:04.64,0:01:09.77,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}A{\k23}bra{\k23}ca{\k47}da{\k71}bra {\k23}mor{\k23}ta-{\k23}oo-{\k47}ga-{\k83}ga
+Dialogue: 1,0:01:08.92,0:01:13.37,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}A{\k23}bra{\k23}ca{\k47}da{\k23}bra {\k23}ab{\k23}ra-{\k23}oo-{\k47}na-{\k62}na
+Dialogue: 1,0:01:12.26,0:01:15.51,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}In {\k23}her {\k47}tongue {\k23}she {\k86}said
+Dialogue: 1,0:01:14.64,0:01:19.53,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k47}Death {\k47}or {\k47}love {\k23}to{\k202}night
+Dialogue: 1,0:01:18.45,0:01:23.40,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}A{\k11}bra{\k23}ca{\k23}da{\k23}bra {\k23}a{\k23}bra{\k23}ca{\k95}da{\k89}bra
+Dialogue: 1,0:01:22.26,0:01:27.21,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}A{\k11}bra{\k23}ca{\k23}da{\k23}bra {\k23}a{\k23}bra{\k23}ca{\k95}da{\k89}bra
+Dialogue: 1,0:01:26.07,0:01:31.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Feel {\k11}the {\k23}beat {\k23}un{\k23}der {\k23}your {\k23}feet {\k23}the {\k47}floor's {\k47}on {\k47}fi{\k44}re
+Dialogue: 1,0:01:29.88,0:01:34.83,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}A{\k11}bra{\k23}ca{\k23}da{\k23}bra {\k23}a{\k23}bra{\k23}ca{\k95}da{\k89}bra
+Dialogue: 1,0:01:33.69,0:01:38.01,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Choose {\k11}the {\k130}road {\k11}on {\k11}the {\k23}west {\k98}side
+Dialogue: 1,0:01:37.02,0:01:41.58,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}As {\k11}the {\k35}dust {\k119}flies, {\k11}watch {\k35}it {\k98}burn
+Dialogue: 1,0:01:41.30,0:01:45.63,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Don't {\k23}waste {\k95}time {\k23}on {\k11}a {\k35}feel{\k98}ing
+Dialogue: 1,0:01:44.64,0:01:50.03,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Use {\k11}your {\k35}pa{\k119}ssion, {\k23}no {\k11}re{\k83}tu{\k23}r{\k86}n
+Dialogue: 1,0:01:48.92,0:01:53.19,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k47}Hold {\k47}me {\k47}in {\k23}your {\k47}heart {\k47}to{\k44}night
+Dialogue: 1,0:01:52.02,0:01:57.30,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}In {\k23}the {\k47}ma{\k47}gic {\k71}of {\k23}the {\k47}dark {\k47}moon{\k74}light
+Dialogue: 1,0:01:56.54,0:02:02.42,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k47}Save {\k47}me {\k47}from {\k23}this {\k47}emp{\k47}ty {\k71}fi{\k23}i{\k110}ight
+Dialogue: 1,0:02:01.78,0:02:04.86,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}In {\k23}the {\k23}game {\k47}of {\k68}life
+Dialogue: 1,0:02:03.69,0:02:08.40,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Like {\k23}a {\k71}poem {\k71}said {\k23}by {\k23}a {\k23}la{\k23}dy {\k23}in {\k41}red
+Dialogue: 1,0:02:07.26,0:02:11.94,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}You {\k23}hear {\k23}the {\k47}last {\k47}few {\k23}words {\k23}of {\k23}your {\k110}life
+Dialogue: 1,0:02:11.30,0:02:16.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}With {\k23}a {\k47}haunt{\k23}ing {\k71}dance, {\k23}now {\k23}you're {\k23}both {\k23}in {\k23}a {\k44}trance
+Dialogue: 1,0:02:14.88,0:02:19.56,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}It's {\k23}time {\k23}to {\k47}cast {\k47}your {\k23}spell {\k23}on {\k23}the {\k110}night
+Dialogue: 1,0:02:19.40,0:02:23.84,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}A{\k23}bra{\k23}ca{\k47}da{\k23}bra {\k23}a{\k23}mor-{\k23}oo-{\k47}na-{\k62}na
+Dialogue: 1,0:02:22.73,0:02:27.86,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}A{\k23}bra{\k23}ca{\k47}da{\k71}bra {\k23}mor{\k23}ta-{\k23}oo-{\k47}ga-{\k83}ga
+Dialogue: 1,0:02:27.02,0:02:31.46,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}A{\k23}bra{\k23}ca{\k47}da{\k23}bra {\k23}ab{\k23}ra-{\k23}oo-{\k47}na-{\k62}na
+Dialogue: 1,0:02:30.35,0:02:33.61,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}In {\k23}her {\k47}tongue {\k23}she {\k86}said
+Dialogue: 1,0:02:32.73,0:02:37.62,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k47}Death {\k47}or {\k47}love {\k23}to{\k202}night
+Dialogue: 1,0:02:36.54,0:02:41.49,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}A{\k11}bra{\k23}ca{\k23}da{\k23}bra {\k23}a{\k23}bra{\k23}ca{\k95}da{\k89}bra
+Dialogue: 1,0:02:40.35,0:02:45.30,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}A{\k11}bra{\k23}ca{\k23}da{\k23}bra {\k23}a{\k23}bra{\k23}ca{\k95}da{\k89}bra
+Dialogue: 1,0:02:44.16,0:02:49.14,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Feel {\k11}the {\k23}beat {\k23}un{\k23}der {\k23}your {\k23}feet {\k23}the {\k47}floor's {\k47}on {\k47}fi{\k44}re
+Dialogue: 1,0:02:47.97,0:02:51.97,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}A{\k11}bra{\k23}ca{\k23}da{\k23}bra {\k23}a{\k23}bra{\k23}ca{\k89}dabra
+Dialogue: 1,0:02:50.83,0:02:59.08,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Phan{\k23}tom {\k23}of {\k23}the {\k142}dance {\k47}floor, {\k95}come {\k95}to {\k229}me
+Dialogue: 1,0:02:58.45,0:03:07.15,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Sing {\k23}for {\k23}me {\k23}a {\k142}sin{\k47}ful {\k95}me{\k95}lo{\k273}dy
+Dialogue: 1,0:03:06.07,0:03:09.44,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Ah {\k23}ah {\k23}ah {\k23}ah {\k122}ah
+Dialogue: 1,0:03:08.45,0:03:14.08,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k47}Ah {\k95}ah {\k95}ah {\k205}ah
+Dialogue: 1,0:03:13.69,0:03:17.15,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Ah {\k23}ah {\k23}ah {\k23}ah {\k130}ah~
+Dialogue: 1,0:03:16.07,0:03:22.89,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k47}Ah {\k95}ah {\k95}ah {\k324}ah
+Dialogue: 1,0:03:22.26,0:03:26.70,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}A{\k23}bra{\k23}ca{\k47}da{\k23}bra {\k23}a{\k23}mor-{\k23}oo-{\k47}na-{\k62}na
+Dialogue: 1,0:03:25.59,0:03:30.72,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}A{\k23}bra{\k23}ca{\k47}da{\k71}bra {\k23}mor{\k23}ta-{\k23}oo-{\k47}ga-{\k83}ga
+Dialogue: 1,0:03:29.88,0:03:34.32,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}A{\k23}bra{\k23}ca{\k47}da{\k23}bra {\k23}ab{\k23}ra-{\k23}oo-{\k47}na-{\k62}na
+Dialogue: 1,0:03:33.21,0:03:36.46,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}In {\k23}her {\k47}tongue {\k23}she {\k86}said
+Dialogue: 1,0:03:35.59,0:03:40.93,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k47}Death {\k47}or {\k47}love {\k23}to{\k247}night
