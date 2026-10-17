@@ -1,0 +1,161 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Title: Rizz
+Original Timing: ono3000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,60,1
+Style: English,Arial,24,&H00FFFFFF,&H00FFC124,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Korean,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&HFFC124&}English {\c}| {\c&H008AFF&}Korean
+Comment: 0,0:00:06.23,0:00:08.07,English,,0,0,0,karaoke,{\k25}Yeah, {\k23}I {\k23}got {\k21}that {\k46}rizz {\k46}rizz
+Comment: 0,0:00:08.07,0:00:09.41,English,,0,0,0,karaoke,{\k43}Rizz {\k44}rizz {\k47}rizz
+Comment: 0,0:00:09.41,0:00:11.61,English,,0,0,0,karaoke,{\k21}Bo{\k22}dy {\k22}mo{\k23}vin' {\k22}with {\k20}a {\k45}hiss {\k45}hiss
+Comment: 0,0:00:11.61,0:00:12.96,English,,0,0,0,karaoke,{\k45}Hiss {\k44}hiss {\k46}hiss
+Comment: 0,0:00:12.96,0:00:15.19,English,,0,0,0,karaoke,{\k21}Love {\k22}the {\k23}way {\k20}you're {\k23}say{\k23}in' {\k43}please {\k48}please
+Comment: 0,0:00:15.19,0:00:16.51,English,,0,0,0,karaoke,{\k42}Please {\k44}please {\k46}please
+Comment: 0,0:00:16.51,0:00:18.72,Korean,,0,0,0,karaoke,{\k22}bul{\k21}ge {\k23}pi{\k22}ro {\k22}mul{\k21}deun {\k44}{\rEnglish}kiss {\k46}kiss
+Comment: 0,0:00:18.72,0:00:20.18,English,,0,0,0,karaoke,{\k44}Kiss {\k43}kiss {\k59}kiss
+Comment: 0,0:00:20.52,0:00:21.84,English,,0,0,0,karaoke,{\k19}Watch, {\k21}we {\k25}slayed {\k67}it
+Comment: 0,0:00:21.84,0:00:23.64,English,,0,0,0,karaoke,{\k23}Hit {\k19}the {\k47}floor, {\k25}pull {\k18}the {\k23}trig{\k25}ger
+Comment: 0,0:00:23.66,0:00:25.44,English,,0,0,0,karaoke,{\k18}Now {\k22}I'm {\k23}{\rKorean}neo{\k21}reul {\k44}hyang{\k50}hae
+Comment: 0,0:00:25.44,0:00:27.18,English,,0,0,0,karaoke,{\k16}Take {\k21}it {\k46}slow, {\k25}boy, {\k21}I'm {\k22}gon{\k23}na
+Comment: 0,0:00:27.18,0:00:29.18,English,,0,0,0,karaoke,{\k21}Kill {\k22}it {\k44}hard {\k46}like {\k67}yeah
+Comment: 0,0:00:29.18,0:00:32.07,Korean,,0,0,0,karaoke,{\k20}jip{\k24}jung{\k21}hae {\k23}i{\k21}je {\k28}pa{\k19}ni {\k22}ba{\k21}kkwin {\k25}{\rEnglish}pa{\k24}ra{\k41}dise
+Comment: 0,0:00:32.07,0:00:33.87,Korean,,0,0,0,karaoke,{\k21}geu{\k20}man {\k25}da{\k21}pae {\k24}{\rEnglish}say {\k20}it {\k27}to {\k22}me
+Comment: 0,0:00:33.87,0:00:35.61,English,,0,0,0,karaoke,{\k18}You {\k26}can {\k29}choose, {\k14}it's {\k24}do {\k19}or {\k44}die
+Comment: 0,0:00:35.61,0:00:38.26,English,,0,0,0,karaoke,{\k46}Rizz {\k43}rizz {\k45}rizz {\k45}rizz {\k43}rizz {\k43}rizz
+Comment: 0,0:00:38.26,0:00:39.61,English,,0,0,0,karaoke,{\k25}Tryin' {\k21}to {\k22}taste {\k22}your {\k45}juice
+Comment: 0,0:00:39.61,0:00:41.57,English,,0,0,0,karaoke,{\k22}Now {\k21}you're {\k23}stuck, {\k19}no {\k26}choice, {\k22}no {\k63}use
+Comment: 0,0:00:41.39,0:00:42.72,Korean,,0,0,0,karaoke,{\k18}i{\k25}je {\k23}kkok{\k23}kkok {\k21}su{\k23}meo
+Comment: 0,0:00:42.73,0:00:45.38,English,,0,0,0,karaoke,{\k46}Rizz {\k43}rizz {\k45}rizz {\k45}rizz {\k43}rizz {\k43}rizz
+Comment: 0,0:00:45.63,0:00:47.41,English,,0,0,0,karaoke,{\k16}Think {\k23}you {\k21}can't {\k27}sur{\k23}vive {\k22}the {\k46}night
+Comment: 0,0:00:47.41,0:00:50.73,English,,0,0,0,karaoke,{\k20}You're {\k21}down {\k26}to {\k44}all {\kf221}in
+Comment: 0,0:00:50.66,0:00:52.50,English,,0,0,0,karaoke,{\k25}Yeah, {\k23}I {\k23}got {\k21}that {\k46}rizz {\k46}rizz
+Comment: 0,0:00:52.50,0:00:53.84,English,,0,0,0,karaoke,{\k43}Rizz {\k44}rizz {\k47}rizz
+Comment: 0,0:00:53.84,0:00:56.04,English,,0,0,0,karaoke,{\k21}Bo{\k22}dy {\k22}mo{\k23}vin' {\k22}with {\k20}a {\k45}hiss {\k45}hiss
+Comment: 0,0:00:56.04,0:00:57.39,English,,0,0,0,karaoke,{\k45}Hiss {\k44}hiss {\k46}hiss
+Comment: 0,0:00:57.39,0:00:59.62,English,,0,0,0,karaoke,{\k21}Love {\k22}the {\k23}way {\k20}you're {\k23}say{\k23}in' {\k43}please {\k48}please
+Comment: 0,0:00:59.62,0:01:00.94,English,,0,0,0,karaoke,{\k42}Please {\k44}please {\k46}please
+Comment: 0,0:01:00.94,0:01:03.15,Korean,,0,0,0,karaoke,{\k22}bul{\k21}ge {\k23}pi{\k22}ro {\k22}mul{\k21}deun {\k44}{\rEnglish}kiss {\k46}kiss
+Comment: 0,0:01:03.15,0:01:04.61,English,,0,0,0,karaoke,{\k44}Kiss {\k43}kiss {\k59}kiss
+Comment: 0,0:01:04.92,0:01:06.76,English,,0,0,0,karaoke,{\k25}Yeah, {\k23}I {\k23}got {\k21}that {\k46}rizz {\k46}rizz
+Comment: 0,0:01:06.76,0:01:08.10,English,,0,0,0,karaoke,{\k43}Rizz {\k44}rizz {\k47}rizz
+Comment: 0,0:01:08.10,0:01:10.30,English,,0,0,0,karaoke,{\k21}Eve{\k18}ry {\k24}step {\k19}I {\k26}take {\k20}no {\k45}miss {\k47}miss
+Comment: 0,0:01:10.29,0:01:11.64,English,,0,0,0,karaoke,{\k45}Miss {\k44}miss {\k46}miss
+Comment: 0,0:01:11.64,0:01:13.87,English,,0,0,0,karaoke,{\k21}Got {\k22}you {\k23}fall{\k20}in' {\k23}deep {\k23}like {\k43}this {\k48}this
+Comment: 0,0:01:13.87,0:01:15.19,English,,0,0,0,karaoke,{\k42}This {\k44}this {\k46}this
+Comment: 0,0:01:15.19,0:01:17.40,Korean,,0,0,0,karaoke,{\k22}bul{\k21}ge {\k23}pi{\k22}ro {\k22}mul{\k21}deun {\k44}{\rEnglish}kiss {\k46}kiss
+Comment: 0,0:01:17.40,0:01:18.86,English,,0,0,0,karaoke,{\k44}Kiss {\k43}kiss {\k59}kiss
+Comment: 0,0:01:19.20,0:01:20.52,English,,0,0,0,karaoke,{\k19}Watch, {\k21}we {\k25}slayed {\k67}it
+Comment: 0,0:01:20.43,0:01:22.19,English,,0,0,0,karaoke,{\k12}What's {\k17}hyp{\k13}no{\k20}ti{\k34}zin'? {\k19}I'm {\k21}just {\k17}vi{\k23}bin'
+Comment: 0,0:01:22.27,0:01:24.10,Korean,,0,0,0,karaoke,{\k19}geu{\k18}jeo {\k19}meot{\k22}dae{\k13}ro {\k44}{\rEnglish}ooh {\k48}ah
+Comment: 0,0:01:24.10,0:01:25.75,Korean,,0,0,0,karaoke,{\k13}i{\k18}beul {\k25}da{\k29}kka {\k22}il{\k19}sang{\k21}cheo{\k18}reom
+Comment: 0,0:01:25.75,0:01:27.68,English,,0,0,0,karaoke,{\k13}'Cause {\k11}I {\k28}just {\k17}ate {\k27}up, {\k47}ooh {\k50}ah
+Comment: 0,0:01:27.68,0:01:29.40,Korean,,0,0,0,karaoke,{\k15}neo{\k19}ye {\k24}{\rEnglish}gos{\k24}sip {\k23}{\rKorean}kkeu{\k17}ni{\k25}meop{\k25}si
+Comment: 0,0:01:29.40,0:01:31.40,English,,0,0,0,karaoke,{\k19}I'm {\k16}the {\k30}to{\k23}pic, {\k45}ooh {\k67}ah
+Comment: 0,0:01:31.62,0:01:33.66,Korean,,0,0,0,karaoke,{\k17}ma'{\k14}eum {\k14}ga{\k17}neun{\k15}dae{\k12}ro {\k22}{\rEnglish}look {\k16}at {\k11}how {\k11}I {\k19}re{\k36}bel
+Comment: 0,0:01:33.40,0:01:35.17,English,,0,0,0,karaoke,{\kf89}I-I {\k44}move, {\k44}yeah
+Comment: 0,0:01:35.17,0:01:36.95,English,,0,0,0,karaoke,{\kf90}Go {\k44}deep, {\k44}yeah
+Comment: 0,0:01:36.95,0:01:40.23,English,,0,0,0,karaoke,{\kf90}That {\k44}dan{\k44}ger {\kf89}now, {\k61}yeah
+Comment: 0,0:01:39.84,0:01:41.77,English,,0,0,0,karaoke,{\k21}And {\k22}like-{\k19}uh {\k27}prey, {\k22}you {\k22}run {\k24}a{\k36}way
+Comment: 0,0:01:41.77,0:01:43.51,English,,0,0,0,karaoke,{\k26}That's {\k11}how {\k14}I {\k37}play, {\k27}that's {\k25}the {\k34}thrill
+Comment: 0,0:01:43.51,0:01:44.70,English,,0,0,0,karaoke,{\k10}I {\k22}live {\k23}to {\k64}prove
+Comment: 0,0:01:44.94,0:01:46.72,Korean,,0,0,0,karaoke,{\k21}deul{\k16}li{\k19}neun'{\k6}geo'{\k8}e {\k21}da {\k16}chong'{\k20}eul {\k20}sso{\k10}a {\k21}nan
+Comment: 0,0:01:46.75,0:01:48.73,English,,0,0,0,karaoke,{\k23}Ea{\k14}sy {\k17}moves, {\k12}I {\k9}do {\k11}it {\k48}smooth, {\k64}yeah
+Comment: 0,0:01:48.52,0:01:51.65,English,,0,0,0,karaoke,{\kf136}Now {\k39}I {\k51}steal {\k39}your {\k48}breath
+Comment: 0,0:01:51.65,0:01:53.44,English,,0,0,0,karaoke,{\k23}Can't {\k21}de{\k44}ny {\k21}what {\k21}you {\k49}feel
+Comment: 0,0:01:53.44,0:01:55.62,Korean,,0,0,0,karaoke,{\k21}mae{\k21}beon {\k23}bul {\k21}bu{\k22}chi{\k19}neun {\kf91}{\rEnglish}fuse
+Comment: 0,0:01:55.62,0:01:58.75,English,,0,0,0,karaoke,{\kf126}How {\k50}you {\k48}stop {\k43}the {\k46}game?
+Comment: 0,0:01:58.75,0:02:00.54,English,,0,0,0,karaoke,{\k27}Go {\k19}a{\k42}head, {\k26}take {\k20}the {\k45}fall
+Comment: 0,0:02:00.54,0:02:01.82,English,,0,0,0,karaoke,{\k24}For {\k20}the {\k22}hell {\k14}of {\k48}it
+Comment: 0,0:02:03.59,0:02:05.43,English,,0,0,0,karaoke,{\k25}Yeah, {\k23}I {\k23}got {\k21}that {\k46}rizz {\k46}rizz
+Comment: 0,0:02:05.43,0:02:06.77,English,,0,0,0,karaoke,{\k43}Rizz {\k44}rizz {\k47}rizz
+Comment: 0,0:02:06.77,0:02:08.97,English,,0,0,0,karaoke,{\k21}Bo{\k22}dy {\k22}mo{\k23}vin' {\k22}with {\k20}a {\k45}hiss {\k45}hiss
+Comment: 0,0:02:08.97,0:02:10.32,English,,0,0,0,karaoke,{\k45}Hiss {\k44}hiss {\k46}hiss
+Comment: 0,0:02:10.32,0:02:12.55,English,,0,0,0,karaoke,{\k21}Love {\k22}the {\k23}way {\k20}you're {\k23}say{\k23}in' {\k43}please {\k48}please
+Comment: 0,0:02:12.55,0:02:13.87,English,,0,0,0,karaoke,{\k42}Please {\k44}please {\k46}please
+Comment: 0,0:02:13.87,0:02:16.08,Korean,,0,0,0,karaoke,{\k22}bul{\k21}ge {\k23}pi{\k22}ro {\k22}mul{\k21}deun {\k44}{\rEnglish}kiss {\k46}kiss
+Comment: 0,0:02:16.08,0:02:17.54,English,,0,0,0,karaoke,{\k44}Kiss {\k43}kiss {\k59}kiss
+Comment: 0,0:02:17.88,0:02:19.20,English,,0,0,0,karaoke,{\k19}Watch, {\k21}we {\k25}slayed {\k67}it
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&HFFC124&}English {\c}| {\c&H008AFF&}Korean
+Dialogue: 0,0:00:05.33,0:00:08.27,English,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Yeah, {\k23}I {\k23}got {\k21}that {\k46}rizz {\k46}rizz
+Dialogue: 0,0:00:07.17,0:00:09.61,English,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Rizz {\k44}rizz {\k47}rizz
+Dialogue: 0,0:00:08.51,0:00:11.81,English,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Bo{\k22}dy {\k22}mo{\k23}vin' {\k22}with {\k20}a {\k45}hiss {\k45}hiss
+Dialogue: 0,0:00:10.71,0:00:13.16,English,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Hiss {\k44}hiss {\k46}hiss
+Dialogue: 0,0:00:12.06,0:00:15.39,English,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Love {\k22}the {\k23}way {\k20}you're {\k23}say{\k23}in' {\k43}please {\k48}please
+Dialogue: 0,0:00:14.29,0:00:16.71,English,,0,0,0,fx,{\k90\fad(300,200)}{\k42}Please {\k44}please {\k46}please
+Dialogue: 0,0:00:15.61,0:00:18.92,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k22}bul{\k21}ge {\k23}pi{\k22}ro {\k22}mul{\k21}deun {\k44}{\rEnglish}kiss {\k46}kiss
+Dialogue: 0,0:00:17.82,0:00:20.38,English,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Kiss {\k43}kiss {\k59}kiss
+Dialogue: 0,0:00:19.62,0:00:22.04,English,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Watch, {\k21}we {\k25}slayed {\k67}it
+Dialogue: 0,0:00:20.94,0:00:23.84,English,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Hit {\k19}the {\k47}floor, {\k25}pull {\k18}the {\k23}trig{\k25}ger
+Dialogue: 0,0:00:22.76,0:00:25.64,English,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Now {\k22}I'm {\k23}{\rKorean}neo{\k21}reul {\k44}hyang{\k50}hae
+Dialogue: 0,0:00:24.54,0:00:27.38,English,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Take {\k21}it {\k46}slow, {\k25}boy, {\k21}I'm {\k22}gon{\k23}na
+Dialogue: 0,0:00:26.28,0:00:29.38,English,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Kill {\k22}it {\k44}hard {\k46}like {\k67}yeah
+Dialogue: 0,0:00:28.28,0:00:32.27,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k20}jip{\k24}jung{\k21}hae {\k23}i{\k21}je {\k28}pa{\k19}ni {\k22}ba{\k21}kkwin {\k25}{\rEnglish}pa{\k24}ra{\k41}dise
+Dialogue: 0,0:00:31.17,0:00:34.07,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k21}geu{\k20}man {\k25}da{\k21}pae {\k24}{\rEnglish}say {\k20}it {\k27}to {\k22}me
+Dialogue: 0,0:00:32.97,0:00:35.81,English,,0,0,0,fx,{\k90\fad(300,200)}{\k18}You {\k26}can {\k29}choose, {\k14}it's {\k24}do {\k19}or {\k44}die
+Dialogue: 0,0:00:34.71,0:00:38.46,English,,0,0,0,fx,{\k90\fad(300,200)}{\k46}Rizz {\k43}rizz {\k45}rizz {\k45}rizz {\k43}rizz {\k43}rizz
+Dialogue: 0,0:00:37.36,0:00:39.81,English,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Tryin' {\k21}to {\k22}taste {\k22}your {\k45}juice
+Dialogue: 0,0:00:38.71,0:00:41.77,English,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Now {\k21}you're {\k23}stuck, {\k19}no {\k26}choice, {\k22}no {\k63}use
+Dialogue: 0,0:00:40.49,0:00:42.92,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k18}i{\k25}je {\k23}kkok{\k23}kkok {\k21}su{\k23}meo
+Dialogue: 0,0:00:41.83,0:00:45.58,English,,0,0,0,fx,{\k90\fad(300,200)}{\k46}Rizz {\k43}rizz {\k45}rizz {\k45}rizz {\k43}rizz {\k43}rizz
+Dialogue: 0,0:00:44.73,0:00:47.61,English,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Think {\k23}you {\k21}can't {\k27}sur{\k23}vive {\k22}the {\k46}night
+Dialogue: 0,0:00:46.51,0:00:50.93,English,,0,0,0,fx,{\k90\fad(300,200)}{\k20}You're {\k21}down {\k26}to {\k44}all {\kf221}in
+Dialogue: 0,0:00:49.76,0:00:52.70,English,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Yeah, {\k23}I {\k23}got {\k21}that {\k46}rizz {\k46}rizz
+Dialogue: 0,0:00:51.60,0:00:54.04,English,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Rizz {\k44}rizz {\k47}rizz
+Dialogue: 0,0:00:52.94,0:00:56.24,English,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Bo{\k22}dy {\k22}mo{\k23}vin' {\k22}with {\k20}a {\k45}hiss {\k45}hiss
+Dialogue: 0,0:00:55.14,0:00:57.59,English,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Hiss {\k44}hiss {\k46}hiss
+Dialogue: 0,0:00:56.49,0:00:59.82,English,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Love {\k22}the {\k23}way {\k20}you're {\k23}say{\k23}in' {\k43}please {\k48}please
+Dialogue: 0,0:00:58.72,0:01:01.14,English,,0,0,0,fx,{\k90\fad(300,200)}{\k42}Please {\k44}please {\k46}please
+Dialogue: 0,0:01:00.04,0:01:03.35,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k22}bul{\k21}ge {\k23}pi{\k22}ro {\k22}mul{\k21}deun {\k44}{\rEnglish}kiss {\k46}kiss
+Dialogue: 0,0:01:02.25,0:01:04.81,English,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Kiss {\k43}kiss {\k59}kiss
+Dialogue: 0,0:01:04.02,0:01:06.96,English,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Yeah, {\k23}I {\k23}got {\k21}that {\k46}rizz {\k46}rizz
+Dialogue: 0,0:01:05.86,0:01:08.30,English,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Rizz {\k44}rizz {\k47}rizz
+Dialogue: 0,0:01:07.20,0:01:10.50,English,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Eve{\k18}ry {\k24}step {\k19}I {\k26}take {\k20}no {\k45}miss {\k47}miss
+Dialogue: 0,0:01:09.39,0:01:11.84,English,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Miss {\k44}miss {\k46}miss
+Dialogue: 0,0:01:10.74,0:01:14.07,English,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Got {\k22}you {\k23}fall{\k20}in' {\k23}deep {\k23}like {\k43}this {\k48}this
+Dialogue: 0,0:01:12.97,0:01:15.39,English,,0,0,0,fx,{\k90\fad(300,200)}{\k42}This {\k44}this {\k46}this
+Dialogue: 0,0:01:14.29,0:01:17.60,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k22}bul{\k21}ge {\k23}pi{\k22}ro {\k22}mul{\k21}deun {\k44}{\rEnglish}kiss {\k46}kiss
+Dialogue: 0,0:01:16.50,0:01:19.06,English,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Kiss {\k43}kiss {\k59}kiss
+Dialogue: 0,0:01:18.30,0:01:20.72,English,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Watch, {\k21}we {\k25}slayed {\k67}it
+Dialogue: 0,0:01:19.53,0:01:22.39,English,,0,0,0,fx,{\k90\fad(300,200)}{\k12}What's {\k17}hyp{\k13}no{\k20}ti{\k34}zin'? {\k19}I'm {\k21}just {\k17}vi{\k23}bin'
+Dialogue: 0,0:01:21.37,0:01:24.30,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k19}geu{\k18}jeo {\k19}meot{\k22}dae{\k13}ro {\k44}{\rEnglish}ooh {\k48}ah
+Dialogue: 0,0:01:23.20,0:01:25.95,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k13}i{\k18}beul {\k25}da{\k29}kka {\k22}il{\k19}sang{\k21}cheo{\k18}reom
+Dialogue: 0,0:01:24.85,0:01:27.88,English,,0,0,0,fx,{\k90\fad(300,200)}{\k13}'Cause {\k11}I {\k28}just {\k17}ate {\k27}up, {\k47}ooh {\k50}ah
+Dialogue: 0,0:01:26.78,0:01:29.60,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k15}neo{\k19}ye {\k24}{\rEnglish}gos{\k24}sip {\k23}{\rKorean}kkeu{\k17}ni{\k25}meop{\k25}si
+Dialogue: 0,0:01:28.50,0:01:31.60,English,,0,0,0,fx,{\k90\fad(300,200)}{\k19}I'm {\k16}the {\k30}to{\k23}pic, {\k45}ooh {\k67}ah
+Dialogue: 0,0:01:30.72,0:01:33.86,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ma'{\k14}eum {\k14}ga{\k17}neun{\k15}dae{\k12}ro {\k22}{\rEnglish}look {\k16}at {\k11}how {\k11}I {\k19}re{\k36}bel
+Dialogue: 0,0:01:32.50,0:01:35.37,English,,0,0,0,fx,{\k90\fad(300,200)}{\kf89}I-I {\k44}move, {\k44}yeah
+Dialogue: 0,0:01:34.27,0:01:37.15,English,,0,0,0,fx,{\k90\fad(300,200)}{\kf90}Go {\k44}deep, {\k44}yeah
+Dialogue: 0,0:01:36.05,0:01:40.43,English,,0,0,0,fx,{\k90\fad(300,200)}{\kf90}That {\k44}dan{\k44}ger {\kf89}now, {\k61}yeah
+Dialogue: 0,0:01:38.94,0:01:41.97,English,,0,0,0,fx,{\k90\fad(300,200)}{\k21}And {\k22}like-{\k19}uh {\k27}prey, {\k22}you {\k22}run {\k24}a{\k36}way
+Dialogue: 0,0:01:40.87,0:01:43.71,English,,0,0,0,fx,{\k90\fad(300,200)}{\k26}That's {\k11}how {\k14}I {\k37}play, {\k27}that's {\k25}the {\k34}thrill
+Dialogue: 0,0:01:42.61,0:01:44.90,English,,0,0,0,fx,{\k90\fad(300,200)}{\k10}I {\k22}live {\k23}to {\k64}prove
+Dialogue: 0,0:01:44.04,0:01:46.92,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k21}deul{\k16}li{\k19}neun'{\k6}geo'{\k8}e {\k21}da {\k16}chong'{\k20}eul {\k20}sso{\k10}a {\k21}nan
+Dialogue: 0,0:01:45.85,0:01:48.93,English,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Ea{\k14}sy {\k17}moves, {\k12}I {\k9}do {\k11}it {\k48}smooth, {\k64}yeah
+Dialogue: 0,0:01:47.62,0:01:51.85,English,,0,0,0,fx,{\k90\fad(300,200)}{\kf136}Now {\k39}I {\k51}steal {\k39}your {\k48}breath
+Dialogue: 0,0:01:50.75,0:01:53.64,English,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Can't {\k21}de{\k44}ny {\k21}what {\k21}you {\k49}feel
+Dialogue: 0,0:01:52.54,0:01:55.82,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k21}mae{\k21}beon {\k23}bul {\k21}bu{\k22}chi{\k19}neun {\kf91}{\rEnglish}fuse
+Dialogue: 0,0:01:54.72,0:01:58.95,English,,0,0,0,fx,{\k90\fad(300,200)}{\kf126}How {\k50}you {\k48}stop {\k43}the {\k46}game?
+Dialogue: 0,0:01:57.85,0:02:00.74,English,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Go {\k19}a{\k42}head, {\k26}take {\k20}the {\k45}fall
+Dialogue: 0,0:01:59.64,0:02:02.02,English,,0,0,0,fx,{\k90\fad(300,200)}{\k24}For {\k20}the {\k22}hell {\k14}of {\k48}it
+Dialogue: 0,0:02:02.69,0:02:05.63,English,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Yeah, {\k23}I {\k23}got {\k21}that {\k46}rizz {\k46}rizz
+Dialogue: 0,0:02:04.53,0:02:06.97,English,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Rizz {\k44}rizz {\k47}rizz
+Dialogue: 0,0:02:05.87,0:02:09.17,English,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Bo{\k22}dy {\k22}mo{\k23}vin' {\k22}with {\k20}a {\k45}hiss {\k45}hiss
+Dialogue: 0,0:02:08.07,0:02:10.52,English,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Hiss {\k44}hiss {\k46}hiss
+Dialogue: 0,0:02:09.42,0:02:12.75,English,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Love {\k22}the {\k23}way {\k20}you're {\k23}say{\k23}in' {\k43}please {\k48}please
+Dialogue: 0,0:02:11.65,0:02:14.07,English,,0,0,0,fx,{\k90\fad(300,200)}{\k42}Please {\k44}please {\k46}please
+Dialogue: 0,0:02:12.97,0:02:16.28,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k22}bul{\k21}ge {\k23}pi{\k22}ro {\k22}mul{\k21}deun {\k44}{\rEnglish}kiss {\k46}kiss
+Dialogue: 0,0:02:15.18,0:02:17.74,English,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Kiss {\k43}kiss {\k59}kiss
+Dialogue: 0,0:02:16.98,0:02:19.40,English,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Watch, {\k21}we {\k25}slayed {\k67}it
