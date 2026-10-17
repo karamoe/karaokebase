@@ -1,0 +1,145 @@
+﻿[Script Info]
+Title: Bang Bang Bang
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
+LayoutResX: 0
+LayoutResY: 0
+Original Timing: Pafnaffan
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:03.90,0:00:05.49,Sample KM [Up],,0,0,0,karaoke,{\k21}My {\k23}ri{\k45}val, {\k22}my {\k23}I{\k25}dol
+Comment: 0,0:00:05.69,0:00:07.35,Sample KM [Up],,0,0,0,karaoke,{\k22}You {\k23}got {\k23}me {\k24}su{\k21}i{\k23}ci{\k30}dal
+Comment: 0,0:00:07.48,0:00:09.12,Sample KM [Up],,0,0,0,karaoke,{\k23}My {\k66}love, {\k25}your {\k50}rage
+Comment: 0,0:00:09.30,0:00:10.99,Sample KM [Up],,0,0,0,karaoke,{\k22}Our {\k27}dy{\k19}ing {\k22}claim {\k22}to {\k57}fame
+Comment: 0,0:00:11.06,0:00:12.72,Sample KM [Up],,0,0,0,karaoke,{\k26}Our {\k19}ba{\k30}ttle {\k16}le{\k25}gen{\k25}da{\k25}ry
+Comment: 0,0:00:12.91,0:00:14.56,Sample KM [Up],,0,0,0,karaoke,{\k23}Our {\k21}fi{\k24}ckle {\k24}fra{\k20}ter{\k23}ni{\k30}zing
+Comment: 0,0:00:14.72,0:00:16.34,Sample KM [Up],,0,0,0,karaoke,{\k22}A {\k24}war {\k15}in{\k28}side {\k25}my {\k48}heart
+Comment: 0,0:00:16.53,0:00:18.06,Sample KM [Up],,0,0,0,karaoke,{\k21}Un{\k27}til {\k18}**** {\k22}do {\k24}us {\k41}past
+Comment: 0,0:00:18.06,0:00:20.29,Sample KM [Up],,0,0,0,karaoke,{\k49}BANG {\k45}BANG {\k45}BANG {\k47}BANG {\k37}BANG
+Comment: 0,0:00:20.29,0:00:21.71,Sample KM [Up],,0,0,0,karaoke,{\k31}'til {\k21}i {\k45}take {\k45}you
+Comment: 0,0:00:21.71,0:00:23.42,Sample KM [Up],,0,0,0,karaoke,{\k45}DOWN {\k45}DOWN {\k45}DOWN {\k36}DOWN
+Comment: 0,0:00:23.76,0:00:25.30,Sample KM [Up],,0,0,0,karaoke,{\k19}I {\k28}want {\k19}you {\k22}in {\k20}the {\k46}ground
+Comment: 0,0:00:25.31,0:00:27.48,Sample KM [Up],,0,0,0,karaoke,{\k45}BANG {\k45}BANG {\k45}BANG {\k46}BANG {\k36}BANG
+Comment: 0,0:00:27.52,0:00:28.91,Sample KM [Up],,0,0,0,karaoke,{\k27}'til {\k23}i {\k45}take {\k44}you
+Comment: 0,0:00:28.91,0:00:30.65,Sample KM [Up],,0,0,0,karaoke,{\k46}DOWN {\k46}DOWN {\k46}DOWN {\k36}DOWN
+Comment: 0,0:00:30.98,0:00:32.68,Sample KM [Up],,0,0,0,karaoke,{\k19}I {\k28}want {\k19}you {\k23}in {\k20}the {\k61}gound
+Comment: 0,0:00:39.97,0:00:42.14,Sample KM [Up],,0,0,0,karaoke,{\k20}I've {\k28}had {\k23}a {\k23}lot {\k22}of {\k22}re{\k79}grets
+Comment: 0,0:00:42.50,0:00:44.73,Sample KM [Up],,0,0,0,karaoke,{\k19}But {\k24}with {\k15}the {\k50}time {\k29}I {\k45}have {\k41}left
+Comment: 0,0:00:44.73,0:00:46.96,Sample KM [Up],,0,0,0,karaoke,{\k22}I {\k44}want {\k46}you {\k26}to {\k41}use {\k44}me
+Comment: 0,0:00:47.18,0:00:49.45,Sample KM [Up],,0,0,0,karaoke,{\k25}I {\k22}wan{\k21}na {\k41}take {\k50}her {\k68}down
+Comment: 0,0:00:49.45,0:00:52.19,Sample KM [Up],,0,0,0,karaoke,{\k46}So {\k20}with {\k24}the {\k41}strength {\k26}that {\k63}you {\k54}have
+Comment: 0,0:00:52.19,0:00:54.27,Sample KM [Up],,0,0,0,karaoke,{\k22}Go {\k67}on {\k19}and {\k44}eat {\k56}me
+Comment: 0,0:00:54.39,0:00:56.61,Sample KM [Up],,0,0,0,karaoke,{\k25}Bet{\k46}ween {\k15}Yo{\k17}ru {\k35}or {\k84}D's
+Comment: 0,0:00:56.71,0:00:59.10,Sample KM [Up],,0,0,0,karaoke,{\k42}I {\k41}can't {\k47}seem {\k14}to {\k31}see {\k15}a {\k49}choise
+Comment: 0,0:00:59.10,0:01:01.41,Sample KM [Up],,0,0,0,karaoke,{\k27}That {\k40}seems {\k50}sa{\k24}tis{\k36}fac{\k12}to{\k42}ry
+Comment: 0,0:01:01.49,0:01:03.68,Sample KM [Up],,0,0,0,karaoke,{\k34}So {\k25}I'{\k29}ma {\k18}do {\k20}my {\k45}own {\k48}thing
+Comment: 0,0:01:03.90,0:01:05.61,Sample KM [Up],,0,0,0,karaoke,{\k22}And {\k21}make {\k22}my {\k44}own {\k62}world
+Comment: 0,0:01:05.89,0:01:08.63,Sample KM [Up],,0,0,0,karaoke,{\k35}Won't {\k40}you {\k42}be {\k40}there {\k22}be{\k40}side {\k55}me
+Comment: 0,0:01:10.61,0:01:12.28,Sample KM [Up],,0,0,0,karaoke,{\k25}My {\k25}al{\k44}most {\k23}ex{\k23}-girl{\k27}friend
+Comment: 0,0:01:12.48,0:01:14.03,Sample KM [Up],,0,0,0,karaoke,{\k21}Is {\k22}fuck{\k23}ing {\k20}ge{\k24}no{\k20}ci{\k25}dal
+Comment: 0,0:01:14.27,0:01:15.91,Sample KM [Up],,0,0,0,karaoke,{\k21}Your {\k70}war, {\k23}you {\k50}wage
+Comment: 0,0:01:16.08,0:01:17.62,Sample KM [Up],,0,0,0,karaoke,{\k21}To {\k24}keep {\k22}your {\k23}claim {\k21}to {\k43}fame
+Comment: 0,0:01:17.87,0:01:19.52,Sample KM [Up],,0,0,0,karaoke,{\k22}Our {\k22}ba{\k23}ttle {\k22}le{\k24}gen{\k22}da{\k30}ry
+Comment: 0,0:01:19.69,0:01:21.31,Sample KM [Up],,0,0,0,karaoke,{\k22}Our {\k19}fi{\k25}ckle {\k23}fra{\k22}ter{\k25}ni{\k26}zing
+Comment: 0,0:01:21.48,0:01:23.13,Sample KM [Up],,0,0,0,karaoke,{\k25}I'm {\k21}get{\k22}ting {\k22}bru{\k23}tal {\k23}brui{\k29}ses
+Comment: 0,0:01:23.30,0:01:24.87,Sample KM [Up],,0,0,0,karaoke,{\k21}Yet {\k23}all {\k22}I {\k24}wan{\k22}na {\k24}do {\k21}is
+Comment: 0,0:01:24.87,0:01:27.01,Sample KM [Up],,0,0,0,karaoke,{\k45}BANG {\k44}BANG {\k45}BANG {\k44}BANG {\k36}BANG
+Comment: 0,0:01:27.13,0:01:28.46,Sample KM [Up],,0,0,0,karaoke,{\k23}'Til {\k22}the {\k45}sun {\k43}comes
+Comment: 0,0:01:28.46,0:01:30.36,Sample KM [Up],,0,0,0,karaoke,{\k47}DOWN {\k45}DOWN {\k45}DOWN {\k53}DOWN
+Comment: 0,0:01:30.50,0:01:32.07,Sample KM [Up],,0,0,0,karaoke,{\k21}Po{\k26}chi{\k22}ta, {\k25}are {\k23}you {\k40}proud?
+Comment: 0,0:02:08.36,0:02:09.94,Sample KM [Up],,0,0,0,karaoke,{\k29}What's {\k64}this? {\k18}I {\k29}got {\k18}it!
+Comment: 0,0:02:10.20,0:02:11.86,Sample KM [Up],,0,0,0,karaoke,{\k19}How {\k25}could {\k21}I {\k25}have {\k23}for{\k23}got{\k30}ten?
+Comment: 0,0:02:12.03,0:02:13.64,Sample KM [Up],,0,0,0,karaoke,{\k21}The {\k22}po{\k22}wer, {\k24}oh, {\k21}so {\k51}strong
+Comment: 0,0:02:13.80,0:02:15.47,Sample KM [Up],,0,0,0,karaoke,{\k24}They {\k23}made {\k19}an {\k24}A{\k25}tom {\k52}Bomb
+Comment: 0,0:02:15.60,0:02:17.20,Sample KM [Up],,0,0,0,karaoke,{\k24}The {\k26}fear {\k26}of {\k19}war {\k19}a{\k24}ri{\k22}sing
+Comment: 0,0:02:17.49,0:02:19.00,Sample KM [Up],,0,0,0,karaoke,{\k15}The {\k24}peo{\k21}ple {\k23}are {\k23}in {\k45}awe!
+Comment: 0,0:02:19.21,0:02:20.89,Sample KM [Up],,0,0,0,karaoke,{\k24}I {\k23}don't {\k21}love {\k24}Chain{\k22}saw {\k54}Man
+Comment: 0,0:02:20.98,0:02:22.59,Sample KM [Up],,0,0,0,karaoke,{\k27}I {\k20}love {\k24}A{\k24}me{\k22}ri{\k44}ca
+Comment: 0,0:02:22.59,0:02:24.77,Sample KM [Up],,0,0,0,karaoke,{\k48}BANG {\k45}BANG {\k44}BANG {\k47}BANG {\k34}BANG
+Comment: 0,0:02:24.77,0:02:26.20,Sample KM [Up],,0,0,0,karaoke,{\k33}'Til {\k23}I {\k43}take {\k44}you
+Comment: 0,0:02:26.20,0:02:28.01,Sample KM [Up],,0,0,0,karaoke,{\k48}DOWN {\k44}DOWN {\k44}DOWN {\k45}DOWN
+Comment: 0,0:02:28.17,0:02:29.83,Sample KM [Up],,0,0,0,karaoke,{\k30}I {\k20}want {\k26}you {\k21}in {\k23}the {\k46}ground
+Comment: 0,0:02:29.83,0:02:32.03,Sample KM [Up],,0,0,0,karaoke,{\k46}BANG {\k46}BANG {\k44}BANG {\k44}BANG {\k40}BANG
+Comment: 0,0:02:32.03,0:02:33.43,Sample KM [Up],,0,0,0,karaoke,{\k26}'Til {\k24}I {\k45}take {\k45}you
+Comment: 0,0:02:33.43,0:02:35.14,Sample KM [Up],,0,0,0,karaoke,{\k46}DOWN {\k44}DOWN {\k45}DOWN {\k36}DOWN
+Comment: 0,0:02:35.44,0:02:37.05,Sample KM [Up],,0,0,0,karaoke,{\k26}I {\k24}want {\k21}you {\k23}in {\k24}the {\k43}ground
+Comment: 0,0:02:37.05,0:02:39.24,Sample KM [Up],,0,0,0,karaoke,{\k46}BANG {\k46}BANG {\k44}BANG {\k45}BANG {\k38}BANG
+Comment: 0,0:02:39.24,0:02:40.65,Sample KM [Up],,0,0,0,karaoke,{\k28}'Til {\k21}I {\k47}take {\k45}you
+Comment: 0,0:02:40.65,0:02:42.41,Sample KM [Up],,0,0,0,karaoke,{\k46}DOWN {\k46}DOWN {\k44}DOWN {\k40}DOWN
+Comment: 0,0:02:42.65,0:02:44.25,Sample KM [Up],,0,0,0,karaoke,{\k24}I {\k23}want {\k28}you {\k19}in {\k24}the {\k42}ground
+Comment: 0,0:02:44.25,0:02:46.46,Sample KM [Up],,0,0,0,karaoke,{\k46}BANG {\k46}BANG {\k46}BANG {\k45}BANG {\k38}BANG
+Comment: 0,0:02:46.46,0:02:47.86,Sample KM [Up],,0,0,0,karaoke,{\k29}'Til {\k23}I {\k43}take {\k45}you
+Comment: 0,0:02:47.86,0:02:48.32,Sample KM [Up],,0,0,0,karaoke,{\k46}DOWN{\k0}
+Dialogue: 0,0:00:03.00,0:00:05.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}My {\k23}ri{\k45}val, {\k22}my {\k23}I{\k25}dol
+Dialogue: 0,0:00:04.79,0:00:07.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}You {\k23}got {\k23}me {\k24}su{\k21}i{\k23}ci{\k30}dal
+Dialogue: 0,0:00:06.58,0:00:09.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}My {\k66}love, {\k25}your {\k50}rage
+Dialogue: 0,0:00:08.40,0:00:11.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Our {\k27}dy{\k19}ing {\k22}claim {\k22}to {\k57}fame
+Dialogue: 0,0:00:10.16,0:00:12.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Our {\k19}ba{\k30}ttle {\k16}le{\k25}gen{\k25}da{\k25}ry
+Dialogue: 0,0:00:12.01,0:00:14.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Our {\k21}fi{\k24}ckle {\k24}fra{\k20}ter{\k23}ni{\k30}zing
+Dialogue: 0,0:00:13.82,0:00:16.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}A {\k24}war {\k15}in{\k28}side {\k25}my {\k48}heart
+Dialogue: 0,0:00:15.63,0:00:18.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Un{\k27}til {\k18}**** {\k22}do {\k24}us {\k41}past
+Dialogue: 0,0:00:17.16,0:00:20.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}BANG {\k45}BANG {\k45}BANG {\k47}BANG {\k37}BANG
+Dialogue: 0,0:00:19.39,0:00:21.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}'til {\k21}i {\k45}take {\k45}you
+Dialogue: 0,0:00:20.81,0:00:23.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}DOWN {\k45}DOWN {\k45}DOWN {\k36}DOWN
+Dialogue: 0,0:00:22.86,0:00:25.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k28}want {\k19}you {\k22}in {\k20}the {\k46}ground
+Dialogue: 0,0:00:24.41,0:00:27.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}BANG {\k45}BANG {\k45}BANG {\k46}BANG {\k36}BANG
+Dialogue: 0,0:00:26.62,0:00:29.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}'til {\k23}i {\k45}take {\k44}you
+Dialogue: 0,0:00:28.01,0:00:30.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}DOWN {\k46}DOWN {\k46}DOWN {\k36}DOWN
+Dialogue: 0,0:00:30.08,0:00:32.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k28}want {\k19}you {\k23}in {\k20}the {\k61}gound
+Dialogue: 0,0:00:39.07,0:00:42.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}I've {\k28}had {\k23}a {\k23}lot {\k22}of {\k22}re{\k79}grets
+Dialogue: 0,0:00:41.60,0:00:44.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}But {\k24}with {\k15}the {\k50}time {\k29}I {\k45}have {\k41}left
+Dialogue: 0,0:00:43.83,0:00:47.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k44}want {\k46}you {\k26}to {\k41}use {\k44}me
+Dialogue: 0,0:00:46.28,0:00:49.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k22}wan{\k21}na {\k41}take {\k50}her {\k68}down
+Dialogue: 0,0:00:48.55,0:00:52.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}So {\k20}with {\k24}the {\k41}strength {\k26}that {\k63}you {\k54}have
+Dialogue: 0,0:00:51.29,0:00:54.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Go {\k67}on {\k19}and {\k44}eat {\k56}me
+Dialogue: 0,0:00:53.49,0:00:56.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Bet{\k46}ween {\k15}Yo{\k17}ru {\k35}or {\k84}D's
+Dialogue: 0,0:00:55.81,0:00:59.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}I {\k41}can't {\k47}seem {\k14}to {\k31}see {\k15}a {\k49}choise
+Dialogue: 0,0:00:58.20,0:01:01.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}That {\k40}seems {\k50}sa{\k24}tis{\k36}fac{\k12}to{\k42}ry
+Dialogue: 0,0:01:00.59,0:01:03.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}So {\k25}I'{\k29}ma {\k18}do {\k20}my {\k45}own {\k48}thing
+Dialogue: 0,0:01:03.00,0:01:05.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}And {\k21}make {\k22}my {\k44}own {\k62}world
+Dialogue: 0,0:01:04.99,0:01:08.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Won't {\k40}you {\k42}be {\k40}there {\k22}be{\k40}side {\k55}me
+Dialogue: 0,0:01:09.71,0:01:12.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}My {\k25}al{\k44}most {\k23}ex{\k23}-girl{\k27}friend
+Dialogue: 0,0:01:11.58,0:01:14.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Is {\k22}fuck{\k23}ing {\k20}ge{\k24}no{\k20}ci{\k25}dal
+Dialogue: 0,0:01:13.37,0:01:16.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Your {\k70}war, {\k23}you {\k50}wage
+Dialogue: 0,0:01:15.18,0:01:17.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}To {\k24}keep {\k22}your {\k23}claim {\k21}to {\k43}fame
+Dialogue: 0,0:01:16.97,0:01:19.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Our {\k22}ba{\k23}ttle {\k22}le{\k24}gen{\k22}da{\k30}ry
+Dialogue: 0,0:01:18.79,0:01:21.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Our {\k19}fi{\k25}ckle {\k23}fra{\k22}ter{\k25}ni{\k26}zing
+Dialogue: 0,0:01:20.58,0:01:23.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}I'm {\k21}get{\k22}ting {\k22}bru{\k23}tal {\k23}brui{\k29}ses
+Dialogue: 0,0:01:22.40,0:01:25.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Yet {\k23}all {\k22}I {\k24}wan{\k22}na {\k24}do {\k21}is
+Dialogue: 0,0:01:23.97,0:01:27.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}BANG {\k44}BANG {\k45}BANG {\k44}BANG {\k36}BANG
+Dialogue: 0,0:01:26.23,0:01:28.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}'Til {\k22}the {\k45}sun {\k43}comes
+Dialogue: 0,0:01:27.56,0:01:30.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}DOWN {\k45}DOWN {\k45}DOWN {\k53}DOWN
+Dialogue: 0,0:01:29.60,0:01:32.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Po{\k26}chi{\k22}ta, {\k25}are {\k23}you {\k40}proud?
+Dialogue: 0,0:02:07.46,0:02:10.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}What's {\k64}this? {\k18}I {\k29}got {\k18}it!
+Dialogue: 0,0:02:09.30,0:02:12.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}How {\k25}could {\k21}I {\k25}have {\k23}for{\k23}got{\k30}ten?
+Dialogue: 0,0:02:11.13,0:02:13.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}The {\k22}po{\k22}wer, {\k24}oh, {\k21}so {\k51}strong
+Dialogue: 0,0:02:12.90,0:02:15.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}They {\k23}made {\k19}an {\k24}A{\k25}tom {\k52}Bomb
+Dialogue: 0,0:02:14.70,0:02:17.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}The {\k26}fear {\k26}of {\k19}war {\k19}a{\k24}ri{\k22}sing
+Dialogue: 0,0:02:16.59,0:02:19.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}The {\k24}peo{\k21}ple {\k23}are {\k23}in {\k45}awe!
+Dialogue: 0,0:02:18.31,0:02:21.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k23}don't {\k21}love {\k24}Chain{\k22}saw {\k54}Man
+Dialogue: 0,0:02:20.08,0:02:22.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}I {\k20}love {\k24}A{\k24}me{\k22}ri{\k44}ca
+Dialogue: 0,0:02:21.69,0:02:24.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}BANG {\k45}BANG {\k44}BANG {\k47}BANG {\k34}BANG
+Dialogue: 0,0:02:23.87,0:02:26.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}'Til {\k23}I {\k43}take {\k44}you
+Dialogue: 0,0:02:25.30,0:02:28.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}DOWN {\k44}DOWN {\k44}DOWN {\k45}DOWN
+Dialogue: 0,0:02:27.27,0:02:30.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}I {\k20}want {\k26}you {\k21}in {\k23}the {\k46}ground
+Dialogue: 0,0:02:28.93,0:02:32.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}BANG {\k46}BANG {\k44}BANG {\k44}BANG {\k40}BANG
+Dialogue: 0,0:02:31.13,0:02:33.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}'Til {\k24}I {\k45}take {\k45}you
+Dialogue: 0,0:02:32.53,0:02:35.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}DOWN {\k44}DOWN {\k45}DOWN {\k36}DOWN
+Dialogue: 0,0:02:34.54,0:02:37.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}I {\k24}want {\k21}you {\k23}in {\k24}the {\k43}ground
+Dialogue: 0,0:02:36.15,0:02:39.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}BANG {\k46}BANG {\k44}BANG {\k45}BANG {\k38}BANG
+Dialogue: 0,0:02:38.34,0:02:40.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}'Til {\k21}I {\k47}take {\k45}you
+Dialogue: 0,0:02:39.75,0:02:42.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}DOWN {\k46}DOWN {\k44}DOWN {\k40}DOWN
+Dialogue: 0,0:02:41.75,0:02:44.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k23}want {\k28}you {\k19}in {\k24}the {\k42}ground
+Dialogue: 0,0:02:43.35,0:02:46.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}BANG {\k46}BANG {\k46}BANG {\k45}BANG {\k38}BANG
+Dialogue: 0,0:02:45.56,0:02:48.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}'Til {\k23}I {\k43}take {\k45}you
+Dialogue: 0,0:02:46.96,0:02:48.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}DOWN{\k0}
