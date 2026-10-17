@@ -1,0 +1,344 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+LayoutResX: 0
+LayoutResY: 0
+Title: BURNOUT
+Original Timing: Himbeeerchen
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:01.48,0:00:03.98,Sample KM [Up],,0,0,0,karaoke,{\k33}A {\k69}place {\k53}for {\k17}the {\k17}taint{\k61}ed
+Comment: 0,0:00:04.54,0:00:06.67,Sample KM [Up],,0,0,0,karaoke,{\k19}Noth{\k36}ing {\k34}but {\k34}a {\k90}sound
+Comment: 0,0:00:06.96,0:00:09.65,Sample KM [Up],,0,0,0,karaoke,{\k33}I {\k66}try {\k56}to {\k15}be {\k19}frank {\k35}with {\k45}you
+Comment: 0,0:00:09.71,0:00:12.00,Sample KM [Up],,0,0,0,karaoke,{\k30}But {\k19}words {\k37}won't {\k34}leave {\k35}my {\k74}mouth
+Comment: 0,0:00:12.44,0:00:17.66,Sample KM [Up],,0,0,0,karaoke,{\k19}I'd {\k114}lie {\k23}if {\k117}I {\k19}could {\k83}take {\k21}lit{\k33}tle {\k93}more
+Comment: 0,0:00:18.60,0:00:21.26,Sample KM [Up],,0,0,0,karaoke,{\k17}What {\k55}was {\k16}I {\k35}rest{\k34}ing {\k109}for?
+Comment: 0,0:00:22.04,0:00:24.27,Sample KM [Up],,0,0,0,karaoke,{\k35}Some {\kf188}day
+Comment: 0,0:00:24.62,0:00:27.80,Sample KM [Up],,0,0,0,karaoke,{\k18}There's {\k16}a {\k35}point {\k30}of {\k36}break {\k37}where {\k33}I {\k35}will {\k34}beg {\k17}me {\k27}to
+Comment: 0,0:00:27.80,0:00:29.76,Sample KM [Up],,0,0,0,karaoke,{\kf196}Stay
+Comment: 0,0:00:30.11,0:00:33.35,Sample KM [Up],,0,0,0,karaoke,{\k17}Where {\k17}I {\k34}was {\k34}be{\k34}fore {\k35}my {\k33}feet {\k36}kept {\k34}mis{\k17}sing {\k33}the
+Comment: 0,0:00:33.35,0:00:35.07,Sample KM [Up],,0,0,0,karaoke,{\kf172}Brakes
+Comment: 0,0:00:35.59,0:00:38.74,Sample KM [Up],,0,0,0,karaoke,{\k17}Thou{\k18}sand {\k36}miles {\k32}an {\k35}hour {\k32}I {\k36}come {\k34}back {\k35}home {\k17}and {\k23}I
+Comment: 0,0:00:38.84,0:00:41.07,Sample KM [Up],,0,0,0,karaoke,{\kf223}Fade
+Comment: 0,0:00:41.58,0:00:43.64,Sample KM [Up],,0,0,0,karaoke,{\kf206}Fade
+Comment: 0,0:00:43.81,0:00:45.52,Sample KM [Up],,0,0,0,karaoke,{\k18}I {\k17}have {\k17}a {\k35}stone {\k34}that's {\k18}crush{\k16}ing {\k18}me
+Comment: 0,0:00:45.52,0:00:46.48,Sample KM [Up],,0,0,0,karaoke,{\k18}on {\k17}top {\k18}of {\k17}my {\k26}chest
+Comment: 0,0:00:46.56,0:00:49.17,Sample KM [Up],,0,0,0,karaoke,{\k18}I {\k17}pray {\k17}for {\k34}peace {\k34}e-{\k18}eve{\k13}ry{\k20}time {\k17}I {\k16}walk {\k19}to {\k18}my {\k20}bed
+Comment: 0,0:00:49.31,0:00:50.85,Sample KM [Up],,0,0,0,karaoke,{\k17}Oh {\k17}how {\k17}I {\k15}wish {\k19}to {\k14}tell {\k20}you {\k19}some{\k16}thing
+Comment: 0,0:00:50.85,0:00:51.91,Sample KM [Up],,0,0,0,karaoke,{\k16}worth {\k17}your {\k18}time {\k18}here {\k17}with {\k20}me
+Comment: 0,0:00:52.04,0:00:53.60,Sample KM [Up],,0,0,0,karaoke,{\k18}Al{\k17}rea{\k15}dy {\k19}break{\k18}ing {\k17}as {\k16}the {\k18}per{\k17}son
+Comment: 0,0:00:53.60,0:00:54.66,Sample KM [Up],,0,0,0,karaoke,{\k17}that {\k16}I'm {\k18}try{\k16}ing {\k19}to {\k20}be
+Comment: 0,0:00:54.79,0:00:56.49,Sample KM [Up],,0,0,0,karaoke,{\k18}For {\k17}eve{\k16}ry {\k35}time {\k34}I {\k17}forced {\k17}my{\k17}self
+Comment: 0,0:00:56.49,0:00:57.46,Sample KM [Up],,0,0,0,karaoke,{\k18}to {\k16}push {\k19}through {\k17}my {\k27}bounds
+Comment: 0,0:00:57.54,0:00:58.26,Sample KM [Up],,0,0,0,karaoke,{\k16}I {\k17}hear {\k17}a {\k22}cry
+Comment: 0,0:00:58.39,0:01:00.16,Sample KM [Up],,0,0,0,karaoke,{\k35}A {\k17}child {\k17}in {\k16}me {\k18}that {\k16}wants {\k18}to {\k18}be {\k22}proud
+Comment: 0,0:01:00.27,0:01:03.01,Sample KM [Up],,0,0,0,karaoke,{\k18}I {\k17}said {\k17}it's {\k17}love {\k18}un{\k17}til {\k17}I {\k17}re{\k17}a{\k19}lised {\k15}it's {\k18}hate {\k17}in {\k17}dis{\k33}guise
+Comment: 0,0:01:03.01,0:01:04.05,Sample KM [Up],,0,0,0,karaoke,{\k18}I {\k17}hate {\k17}my{\k18}self {\k17}for {\k17}times
+Comment: 0,0:01:04.05,0:01:05.62,Sample KM [Up],,0,0,0,karaoke,{\k17}I {\k18}was{\k16}n't {\k18}a{\k17}ble {\k16}mak{\k19}ing {\k17}it {\k19}right
+Comment: 0,0:01:05.76,0:01:06.27,Sample KM [Choir],,0,0,0,karaoke,{\k51}Oh
+Comment: 0,0:01:06.42,0:01:08.01,Sample KM [Up],,0,0,0,karaoke,{\k20}I {\k17}take {\k17}the {\k18}pain {\k16}and {\k17}lock {\k18}it {\k18}deep{\k18}ly
+Comment: 0,0:01:08.14,0:01:08.99,Sample KM [Up],,0,0,0,karaoke,{\k19}Cause {\k18}I {\k16}de{\k18}serve {\k14}it
+Comment: 0,0:01:09.19,0:01:10.76,Sample KM [Up],,0,0,0,karaoke,{\k18}I {\k17}take {\k17}my {\k17}shame {\k17}and {\k17}lock {\k18}it {\k16}deep{\k20}ly
+Comment: 0,0:01:10.90,0:01:11.73,Sample KM [Up],,0,0,0,karaoke,{\k18}Cause {\k17}I {\k17}de{\k18}serve {\k13}it
+Comment: 0,0:01:11.93,0:01:13.51,Sample KM [Up],,0,0,0,karaoke,{\k17}I {\k18}take {\k17}the {\k18}stress {\k16}and {\k18}lock {\k16}it {\k18}deep{\k20}ly
+Comment: 0,0:01:13.63,0:01:14.47,Sample KM [Up],,0,0,0,karaoke,{\k19}Cause {\k17}I {\k17}de{\k18}serve {\k13}it
+Comment: 0,0:01:14.68,0:01:16.26,Sample KM [Up],,0,0,0,karaoke,{\k17}I {\k17}took {\k17}my {\k18}state {\k16}and {\k18}kept {\k17}it {\k18}in {\k20}me
+Comment: 0,0:01:16.38,0:01:17.24,Sample KM [Up],,0,0,0,karaoke,{\k18}Cause {\k18}I'm {\k16}so {\k18}"per{\k16}fect"
+Comment: 0,0:01:17.41,0:01:19.00,Sample KM [Up],,0,0,0,karaoke,{\k18}I {\k17}take {\k17}the {\k18}pain {\k16}and {\k18}lock {\k18}it {\k16}deep{\k21}ly
+Comment: 0,0:01:19.12,0:01:19.96,Sample KM [Up],,0,0,0,karaoke,{\k18}Cause {\k18}I {\k17}de{\k18}serve {\k13}it
+Comment: 0,0:01:20.16,0:01:21.75,Sample KM [Up],,0,0,0,karaoke,{\k17}I {\k18}take {\k16}my {\k18}shame {\k17}and {\k18}lock {\k16}it {\k17}deep{\k22}ly
+Comment: 0,0:01:21.86,0:01:22.71,Sample KM [Up],,0,0,0,karaoke,{\k19}Cause {\k17}I {\k17}de{\k18}serve {\k14}it
+Comment: 0,0:01:22.89,0:01:24.48,Sample KM [Up],,0,0,0,karaoke,{\k19}I {\k17}take {\k15}the {\k20}stress {\k16}and {\k18}lock {\k16}it {\k18}deep{\k20}ly
+Comment: 0,0:01:24.60,0:01:25.45,Sample KM [Up],,0,0,0,karaoke,{\k19}Cause {\k18}I {\k16}de{\k18}serve {\k14}it
+Comment: 0,0:01:25.64,0:01:27.20,Sample KM [Up],,0,0,0,karaoke,{\k18}I {\k17}took {\k17}my {\k18}state {\k17}and {\k18}kept {\k16}it {\k17}in {\k18}me
+Comment: 0,0:01:27.35,0:01:28.20,Sample KM [Up],,0,0,0,karaoke,{\k18}Cause {\k18}I'm {\k17}so {\k17}"per{\k15}fect"
+Comment: 0,0:01:39.30,0:01:39.86,Sample KM [Up],,0,0,20,karaoke,{\k9}When {\k8}I {\k13}close {\k13}my {\k13}eyes
+Comment: 0,0:01:39.86,0:01:40.38,Sample KM [Up],,0,0,40,karaoke,{\k10}When {\k9}I {\k9}close {\k12}my {\k12}eyes
+Comment: 0,0:01:40.38,0:01:40.91,Sample KM [Up],,0,0,60,karaoke,{\k9}When {\k9}I {\k10}close {\k12}my {\k13}eyes
+Comment: 0,0:01:40.91,0:01:41.94,Sample KM [Up],,0,0,80,karaoke,{\k6}I {\k11}can {\k8}feel {\k8}my {\k20}heart {\k8}it's {\k16}push{\k9}ing {\k17}now
+Comment: 0,0:01:42.07,0:01:42.54,Sample KM [Up],,0,0,20,karaoke,{\k13}Pres{\k9}sure {\k8}me {\k8}all {\k9}night
+Comment: 0,0:01:42.61,0:01:43.06,Sample KM [Up],,0,0,40,karaoke,{\k11}Pres{\k8}sure {\k8}me {\k8}all {\k10}night
+Comment: 0,0:01:43.12,0:01:43.58,Sample KM [Up],,0,0,60,karaoke,{\k11}Pres{\k9}sure {\k8}me {\k8}all {\k10}night
+Comment: 0,0:01:43.65,0:01:44.67,Sample KM [Up],,0,0,80,karaoke,{\k8}Won{\k10}der {\k8}what {\k9}the {\k16}fuck {\k9}I'm {\k14}do{\k13}ing {\k15}now
+Comment: 0,0:01:44.85,0:01:45.43,Sample KM [Up],,0,0,20,karaoke,{\k7}I {\k8}don't {\k8}wan{\k11}na {\k24}try
+Comment: 0,0:01:45.43,0:01:45.95,Sample KM [Up],,0,0,40,karaoke,{\k8}Don't {\k8}wan{\k11}na {\k24}try
+Comment: 0,0:01:45.95,0:01:46.47,Sample KM [Up],,0,0,60,karaoke,{\k10}Don't {\k8}wan{\k10}na {\k26}try
+Comment: 0,0:01:46.47,0:01:46.98,Sample KM [Up],,0,0,80,karaoke,{\k7}Don't {\k7}wan{\k12}na {\k25}try
+Comment: 0,0:01:46.98,0:01:47.50,Sample KM [Up],,0,0,100,karaoke,{\k9}Don't {\k8}wan{\k10}na {\k25}try
+Comment: 0,0:01:47.50,0:01:48.01,Sample KM [Up],,0,0,20,karaoke,{\k10}Don't {\k8}wan{\k8}na {\k25}try
+Comment: 0,0:01:48.01,0:01:48.54,Sample KM [Up],,0,0,40,karaoke,{\k10}Don't {\k8}wan{\k10}na {\k25}try
+Comment: 0,0:01:48.54,0:01:49.04,Sample KM [Up],,0,0,60,karaoke,{\k9}Don't {\k6}wan{\k11}na {\k24}try
+Comment: 0,0:01:49.04,0:01:50.16,Sample KM [Up],,0,0,80,karaoke,{\k9}Don't {\k8}wan{\k10}na {\k9}try {\k10}to {\k12}force {\k11}my{\k16}self {\k11}all {\k16}out
+Comment: 0,0:01:50.32,0:01:50.88,Sample KM [Up],,0,0,20,karaoke,{\k17}Just {\k10}want {\k9}the {\k20}fight
+Comment: 0,0:01:50.88,0:01:51.40,Sample KM [Up],,0,0,40,karaoke,{\k13}Just {\k9}want {\k10}the {\k20}fight
+Comment: 0,0:01:51.40,0:01:51.90,Sample KM [Up],,0,0,60,karaoke,{\k13}Just {\k8}want {\k10}the {\k19}fight
+Comment: 0,0:01:51.90,0:01:52.90,Sample KM [Up],,0,0,80,karaoke,{\k14}Just {\k9}want {\k9}the {\k13}fight {\k13}to {\k15}set{\k11}tle {\k16}down
+Comment: 0,0:01:53.12,0:01:53.63,Sample KM [Up],,0,0,20,karaoke,{\k12}Just {\k9}want {\k9}a {\k21}night
+Comment: 0,0:01:53.63,0:01:54.15,Sample KM [Up],,0,0,40,karaoke,{\k12}Just {\k11}want {\k8}a {\k21}night
+Comment: 0,0:01:54.15,0:01:54.66,Sample KM [Up],,0,0,60,karaoke,{\k11}Just {\k11}want {\k8}a {\k21}night
+Comment: 0,0:01:54.66,0:01:55.66,Sample KM [Up],,0,0,80,karaoke,{\k12}Just {\k10}want {\k9}a {\k15}night {\k12}to {\k16}let {\k9}it {\k17}out
+Comment: 0,0:01:55.86,0:01:56.38,Sample KM [Up],,0,0,20,karaoke,{\k11}Just {\k10}wan{\k9}na {\k22}cry
+Comment: 0,0:01:56.38,0:01:56.89,Sample KM [Up],,0,0,40,karaoke,{\k11}Just {\k9}wan{\k9}na {\k22}cry
+Comment: 0,0:01:56.89,0:01:57.41,Sample KM [Up],,0,0,60,karaoke,{\k12}Just {\k9}wan{\k9}na {\k22}cry
+Comment: 0,0:01:57.41,0:01:57.91,Sample KM [Up],,0,0,80,karaoke,{\k10}Just {\k8}wan{\k12}na {\k20}cry
+Comment: 0,0:01:57.91,0:01:58.43,Sample KM [Up],,0,0,100,karaoke,{\k12}Just {\k10}wan{\k9}na {\k21}cry
+Comment: 0,0:01:58.43,0:01:58.95,Sample KM [Up],,0,0,20,karaoke,{\k12}Just {\k9}wan{\k9}na {\k22}cry
+Comment: 0,0:01:58.95,0:01:59.47,Sample KM [Up],,0,0,40,karaoke,{\k11}Just {\k8}wan{\k10}na {\k23}cry
+Comment: 0,0:01:59.47,0:01:59.98,Sample KM [Up],,0,0,60,karaoke,{\k12}Just {\k8}wan{\k9}na {\k22}cry
+Comment: 0,0:01:59.98,0:02:00.35,Sample KM [Up],,0,0,80,karaoke,{\k11}Just {\k9}wan{\k9}na {\k8}cry
+Comment: 0,0:02:00.35,0:02:01.13,Sample KM [Up],,0,0,100,karaoke,{\k10}It {\k18}out {\k8}in {\k17}pain {\k8}a{\k17}loud
+Comment: 0,0:02:01.24,0:02:01.82,Sample KM [Up],,0,0,20,karaoke,{\k13}When {\k10}I {\k12}close {\k10}my {\k13}eyes
+Comment: 0,0:02:01.82,0:02:02.33,Sample KM [Up],,0,0,40,karaoke,{\k10}When {\k10}I {\k10}close {\k10}my {\k11}eyes
+Comment: 0,0:02:02.33,0:02:02.85,Sample KM [Up],,0,0,60,karaoke,{\k9}When {\k9}I {\k10}close {\k10}my {\k14}eyes
+Comment: 0,0:02:02.91,0:02:03.87,Sample KM [Up],,0,0,80,karaoke,{\k11}Can {\k6}feel {\k12}my {\k16}heart {\k10}it's {\k14}push{\k11}ing {\k16}now
+Comment: 0,0:02:04.02,0:02:04.56,Sample KM [Up],,0,0,20,karaoke,{\k11}Pres{\k10}sure {\k9}me {\k8}all {\k16}night
+Comment: 0,0:02:04.56,0:02:05.06,Sample KM [Up],,0,0,40,karaoke,{\k9}Pres{\k8}sure {\k10}me {\k9}all {\k14}night
+Comment: 0,0:02:05.06,0:02:05.58,Sample KM [Up],,0,0,60,karaoke,{\k10}Pres{\k9}sure {\k9}me {\k9}all {\k15}night
+Comment: 0,0:02:05.58,0:02:06.62,Sample KM [Up],,0,0,80,karaoke,{\k10}Won{\k8}der {\k8}what {\k9}the {\k16}fuck {\k9}I'm {\k15}do{\k11}ing {\k18}now
+Comment: 0,0:02:06.75,0:02:07.37,Sample KM [Up],,0,0,20,karaoke,{\k12}Don't {\k10}wan{\k14}na {\k26}try
+Comment: 0,0:02:07.37,0:02:07.88,Sample KM [Up],,0,0,40,karaoke,{\k9}Don't {\k9}wan{\k10}na {\k23}try
+Comment: 0,0:02:07.88,0:02:08.40,Sample KM [Up],,0,0,60,karaoke,{\k11}Don't {\k8}wan{\k9}na {\k24}try
+Comment: 0,0:02:08.40,0:02:08.93,Sample KM [Up],,0,0,80,karaoke,{\k10}Don't {\k10}wan{\k9}na {\k24}try
+Comment: 0,0:02:08.93,0:02:09.44,Sample KM [Up],,0,0,100,karaoke,{\k9}Don't {\k8}wan{\k9}na {\k25}try
+Comment: 0,0:02:09.44,0:02:09.97,Sample KM [Up],,0,0,20,karaoke,{\k9}Don't {\k10}wan{\k9}na {\k27}try
+Comment: 0,0:02:09.97,0:02:10.47,Sample KM [Up],,0,0,40,karaoke,{\k9}Don't {\k8}wan{\k10}na {\k23}try
+Comment: 0,0:02:10.47,0:02:10.98,Sample KM [Up],,0,0,60,karaoke,{\k9}Don't {\k9}wan{\k9}na {\k24}try
+Comment: 0,0:02:10.98,0:02:12.11,Sample KM [Up],,0,0,80,karaoke,{\k9}Don't {\k9}wan{\k9}na {\k18}try {\k9}to {\k16}force {\k8}my{\k9}self {\k9}all {\k17}out
+Comment: 0,0:02:12.32,0:02:12.82,Sample KM [Up],,0,0,20,karaoke,{\k11}Just {\k10}want {\k10}the {\k17}fight
+Comment: 0,0:02:12.82,0:02:13.34,Sample KM [Up],,0,0,40,karaoke,{\k13}Just {\k10}want {\k10}the {\k21}fight
+Comment: 0,0:02:13.34,0:02:13.85,Sample KM [Up],,0,0,60,karaoke,{\k12}Just {\k10}want {\k9}the {\k20}fight
+Comment: 0,0:02:13.85,0:02:14.85,Sample KM [Up],,0,0,80,karaoke,{\k12}Just {\k9}want {\k10}the {\k17}fight {\k9}to {\k13}set{\k13}tle {\k17}down
+Comment: 0,0:02:15.07,0:02:15.57,Sample KM [Up],,0,0,20,karaoke,{\k11}Just {\k10}want {\k9}a {\k20}night
+Comment: 0,0:02:15.57,0:02:16.09,Sample KM [Up],,0,0,40,karaoke,{\k11}Just {\k11}want {\k9}a {\k21}night
+Comment: 0,0:02:16.09,0:02:16.60,Sample KM [Up],,0,0,60,karaoke,{\k13}Just {\k9}want {\k9}a {\k20}night
+Comment: 0,0:02:16.60,0:02:17.60,Sample KM [Up],,0,0,80,karaoke,{\k11}Just {\k11}want {\k9}a {\k17}night {\k9}to {\k11}let {\k14}it {\k18}out
+Comment: 0,0:02:17.80,0:02:18.32,Sample KM [Up],,0,0,20,karaoke,{\k12}Just {\k9}wan{\k9}na {\k22}cry
+Comment: 0,0:02:18.32,0:02:18.84,Sample KM [Up],,0,0,40,karaoke,{\k11}Just {\k9}wan{\k11}na {\k21}cry
+Comment: 0,0:02:18.84,0:02:19.34,Sample KM [Up],,0,0,60,karaoke,{\k10}Just {\k10}wan{\k9}na {\k21}cry
+Comment: 0,0:02:19.34,0:02:19.86,Sample KM [Up],,0,0,80,karaoke,{\k11}Just {\k9}wan{\k10}na {\k22}cry
+Comment: 0,0:02:19.86,0:02:20.38,Sample KM [Up],,0,0,100,karaoke,{\k11}Just {\k9}wan{\k10}na {\k19}cry
+Comment: 0,0:02:20.38,0:02:20.90,Sample KM [Up],,0,0,20,karaoke,{\k13}Just {\k11}wan{\k10}na {\k18}cry
+Comment: 0,0:02:20.90,0:02:21.41,Sample KM [Up],,0,0,40,karaoke,{\k9}Just {\k10}wan{\k9}na {\k23}cry
+Comment: 0,0:02:21.41,0:02:21.92,Sample KM [Up],,0,0,60,karaoke,{\k11}Just {\k11}wan{\k8}na {\k21}cry
+Comment: 0,0:02:21.92,0:02:22.43,Sample KM [Up],,0,0,80,karaoke,{\k10}Just {\k8}wan{\k10}na {\k18}cry
+Comment: 0,0:02:22.54,0:02:24.27,Sample KM [Up],,0,0,0,karaoke,{\k16}I {\k21}have {\k16}a {\k35}stone {\k34}that's {\k18}crush{\k16}ing {\k17}me
+Comment: 0,0:02:24.27,0:02:25.23,Sample KM [Up],,0,0,0,karaoke,{\k17}on {\k18}top {\k17}of {\k18}my {\k26}chest
+Comment: 0,0:02:25.31,0:02:27.93,Sample KM [Up],,0,0,0,karaoke,{\k14}I {\k20}pray {\k17}for {\k34}peace {\k35}e-{\k15}eve{\k17}ry{\k19}time {\k16}I {\k18}walk {\k17}to {\k17}my {\k23}bed
+Comment: 0,0:02:28.05,0:02:29.58,Sample KM [Up],,0,0,0,karaoke,{\k16}Oh {\k14}how {\k16}I {\k20}wish {\k18}to {\k16}tell {\k19}you {\k19}some{\k16}thing
+Comment: 0,0:02:29.58,0:02:30.64,Sample KM [Up],,0,0,0,karaoke,{\k15}worth {\k17}your {\k19}time {\k17}here {\k19}with {\k18}me
+Comment: 0,0:02:30.79,0:02:32.32,Sample KM [Up],,0,0,0,karaoke,{\k17}Al{\k17}rea{\k15}dy {\k18}break{\k19}ing {\k17}as {\k17}the {\k17}per{\k17}son
+Comment: 0,0:02:32.32,0:02:33.36,Sample KM [Up],,0,0,0,karaoke,{\k17}that {\k17}I'm {\k15}try{\k18}ing {\k19}to {\k17}be
+Comment: 0,0:02:33.52,0:02:35.23,Sample KM [Up],,0,0,0,karaoke,{\k19}For {\k14}eve{\k18}ry {\k36}time {\k34}I {\k18}forced {\k16}my{\k16}self
+Comment: 0,0:02:35.23,0:02:36.20,Sample KM [Up],,0,0,0,karaoke,{\k19}to {\k16}push {\k18}through {\k17}my {\k27}bounds
+Comment: 0,0:02:36.27,0:02:37.03,Sample KM [Up],,0,0,0,karaoke,{\k18}I {\k14}hear {\k18}a {\k26}cry
+Comment: 0,0:02:37.13,0:02:38.96,Sample KM [Up],,0,0,0,karaoke,{\k35}A {\k17}child {\k17}in {\k17}me {\k16}that {\k18}wants {\k17}to {\k15}be {\k31}proud
+Comment: 0,0:02:39.02,0:02:41.77,Sample KM [Up],,0,0,0,karaoke,{\k18}I {\k16}said {\k15}it's {\k20}love {\k16}un{\k18}til {\k17}I {\k18}re{\k16}a{\k18}lised {\k14}it's {\k18}hate {\k20}in {\k16}dis{\k35}guise
+Comment: 0,0:02:41.77,0:02:42.80,Sample KM [Up],,0,0,0,karaoke,{\k17}I {\k17}hate {\k16}my{\k18}self {\k16}for {\k18}times
+Comment: 0,0:02:42.80,0:02:44.50,Sample KM [Up],,0,0,0,karaoke,{\k18}I {\k16}was{\k17}n't {\k17}a{\k19}ble {\k13}mak{\k21}ing {\k14}it {\k35}right
+Comment: 0,0:02:44.50,0:02:46.22,Sample KM [Up],,0,0,0,karaoke,{\k18}I {\k18}have {\k15}a {\k35}stone {\k35}that's {\k17}crush{\k17}ing {\k17}me
+Comment: 0,0:02:46.22,0:02:47.17,Sample KM [Up],,0,0,0,karaoke,{\k17}on {\k17}top {\k18}of {\k17}my {\k26}chest
+Comment: 0,0:02:47.25,0:02:49.86,Sample KM [Up],,0,0,0,karaoke,{\k17}I {\k17}pray {\k18}for {\k34}peace {\k34}e-{\k17}eve{\k16}ry{\k18}time {\k17}I {\k18}walk {\k17}to {\k17}my {\k21}bed
+Comment: 0,0:02:50.00,0:02:51.53,Sample KM [Up],,0,0,0,karaoke,{\k17}Oh {\k18}how {\k15}I {\k16}wish {\k19}to {\k14}tell {\k20}you {\k18}some{\k17}thing
+Comment: 0,0:02:51.53,0:02:52.72,Sample KM [Up],,0,0,0,karaoke,{\k16}worth {\k16}your {\k19}time {\k18}here {\k17}with {\k33}me
+Comment: 0,0:02:52.72,0:02:54.28,Sample KM [Up],,0,0,0,karaoke,{\k18}Al{\k18}rea{\k16}dy {\k18}break{\k17}ing {\k17}as {\k17}the {\k18}per{\k17}son
+Comment: 0,0:02:54.28,0:02:55.34,Sample KM [Up],,0,0,0,karaoke,{\k17}that {\k16}I'm {\k18}try{\k17}ing {\k18}to {\k20}be
+Comment: 0,0:02:55.48,0:02:57.17,Sample KM [Up],,0,0,0,karaoke,{\k17}For {\k17}eve{\k17}ry {\k34}time {\k34}I {\k18}forced {\k17}my{\k16}self
+Comment: 0,0:02:57.17,0:02:58.14,Sample KM [Up],,0,0,0,karaoke,{\k18}to {\k18}push {\k18}through {\k16}my {\k27}bounds
+Comment: 0,0:02:58.22,0:02:58.94,Sample KM [Up],,0,0,0,karaoke,{\k17}I {\k17}hear {\k17}a {\k21}cry
+Comment: 0,0:02:59.07,0:03:00.91,Sample KM [Up],,0,0,0,karaoke,{\k36}A {\k17}child {\k16}in {\k18}me {\k16}that {\k18}wants {\k17}to {\k17}be {\k29}proud
+Comment: 0,0:03:00.98,0:03:03.70,Sample KM [Up],,0,0,0,karaoke,{\k16}I {\k17}said {\k16}it's {\k18}love {\k17}un{\k17}til {\k17}I {\k18}re{\k17}a{\k18}lised {\k16}it's {\k17}hate {\k17}in {\k17}dis{\k34}guise
+Comment: 0,0:03:03.70,0:03:04.73,Sample KM [Up],,0,0,0,karaoke,{\k18}I {\k17}hate {\k16}my{\k18}self {\k17}for {\k18}times
+Comment: 0,0:03:04.73,0:03:06.30,Sample KM [Up],,0,0,0,karaoke,{\k17}I {\k19}was{\k16}n't {\k17}a{\k17}ble {\k17}mak{\k17}ing {\k18}it {\k19}right
+Comment: 0,0:03:06.30,0:03:10.91,Sample KM [Choir],,0,0,0,karaoke,{\kf461}Oh
+Comment: 0,0:03:07.12,0:03:08.75,Sample KM [Up],,0,0,0,karaoke,{\k19}I {\k16}take {\k18}the {\k17}pain {\k17}and {\k18}lock {\k17}it {\k17}deep{\k24}ly
+Comment: 0,0:03:08.83,0:03:09.71,Sample KM [Up],,0,0,0,karaoke,{\k19}Cause {\k18}I {\k16}de{\k18}serve {\k17}it
+Comment: 0,0:03:09.87,0:03:11.46,Sample KM [Up],,0,0,0,karaoke,{\k18}I {\k17}take {\k18}my {\k16}shame {\k17}and {\k18}lock {\k17}it {\k17}deep{\k21}ly
+Comment: 0,0:03:11.57,0:03:12.46,Sample KM [Up],,0,0,0,karaoke,{\k19}Cause {\k18}I {\k18}de{\k16}serve {\k18}it
+Comment: 0,0:03:11.76,0:03:16.39,Sample KM [Choir],,0,0,0,karaoke,{\kf463}Oh
+Comment: 0,0:03:12.62,0:03:14.22,Sample KM [Up],,0,0,0,karaoke,{\k18}I {\k16}take {\k18}the {\k17}stress {\k17}and {\k17}lock {\k17}it {\k17}deep{\k23}ly
+Comment: 0,0:03:14.31,0:03:15.20,Sample KM [Up],,0,0,0,karaoke,{\k20}Cause {\k17}I {\k17}de{\k17}serve {\k18}it
+Comment: 0,0:03:15.36,0:03:16.91,Sample KM [Up],,0,0,0,karaoke,{\k18}I {\k17}took {\k17}my {\k17}state {\k17}and {\k17}kept {\k17}it {\k18}in {\k17}me
+Comment: 0,0:03:17.06,0:03:17.94,Sample KM [Up],,0,0,0,karaoke,{\k19}Cause {\k17}I'm {\k17}so {\k18}"per{\k17}fect"
+Comment: 0,0:03:17.25,0:03:21.88,Sample KM [Choir],,0,0,0,karaoke,{\kf463}Oh
+Comment: 0,0:03:18.11,0:03:19.67,Sample KM [Up],,0,0,0,karaoke,{\k16}I {\k18}take {\k17}the {\k18}pain {\k16}and {\k17}lock {\k17}it {\k18}deep{\k19}ly
+Comment: 0,0:03:19.81,0:03:20.69,Sample KM [Up],,0,0,0,karaoke,{\k18}Cause {\k17}I {\k18}de{\k17}serve {\k18}it
+Comment: 0,0:03:20.84,0:03:22.40,Sample KM [Up],,0,0,0,karaoke,{\k18}I {\k17}take {\k18}my {\k17}shame {\k16}and {\k18}lock {\k17}it {\k17}deep{\k18}ly
+Comment: 0,0:03:22.54,0:03:23.42,Sample KM [Up],,0,0,0,karaoke,{\k20}Cause {\k17}I {\k17}de{\k17}serve {\k17}it
+Comment: 0,0:03:22.74,0:03:27.36,Sample KM [Choir],,0,0,0,karaoke,{\kf462}Oh
+Comment: 0,0:03:23.59,0:03:25.15,Sample KM [Up],,0,0,0,karaoke,{\k17}I {\k18}take {\k17}the {\k18}stress {\k16}and {\k18}lock {\k16}it {\k17}deep{\k19}ly
+Comment: 0,0:03:25.29,0:03:26.18,Sample KM [Up],,0,0,0,karaoke,{\k19}Cause {\k17}I {\k17}de{\k18}serve {\k18}it
+Comment: 0,0:03:26.33,0:03:27.88,Sample KM [Up],,0,0,0,karaoke,{\k17}I {\k18}took {\k16}my {\k18}state {\k17}and {\k17}kept {\k18}it {\k17}in {\k17}me
+Comment: 0,0:03:28.05,0:03:28.95,Sample KM [Up],,0,0,0,karaoke,{\k17}Cause {\k17}I'm {\k17}so {\k18}"per{\k21}fect"
+Dialogue: 0,0:00:00.58,0:00:04.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}A {\k69}place {\k53}for {\k17}the {\k17}taint{\k61}ed
+Dialogue: 0,0:00:03.64,0:00:06.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Noth{\k36}ing {\k34}but {\k34}a {\k90}sound
+Dialogue: 0,0:00:06.06,0:00:09.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}I {\k66}try {\k56}to {\k15}be {\k19}frank {\k35}with {\k45}you
+Dialogue: 0,0:00:08.81,0:00:12.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}But {\k19}words {\k37}won't {\k34}leave {\k35}my {\k74}mouth
+Dialogue: 0,0:00:11.54,0:00:17.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I'd {\k114}lie {\k23}if {\k117}I {\k19}could {\k83}take {\k21}lit{\k33}tle {\k93}more
+Dialogue: 0,0:00:17.70,0:00:21.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}What {\k55}was {\k16}I {\k35}rest{\k34}ing {\k109}for?
+Dialogue: 0,0:00:21.14,0:00:24.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Some {\kf188}day
+Dialogue: 0,0:00:23.72,0:00:28.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}There's {\k16}a {\k35}point {\k30}of {\k36}break {\k37}where {\k33}I {\k35}will {\k34}beg {\k17}me {\k27}to
+Dialogue: 0,0:00:26.90,0:00:29.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf196}Stay
+Dialogue: 0,0:00:29.21,0:00:33.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Where {\k17}I {\k34}was {\k34}be{\k34}fore {\k35}my {\k33}feet {\k36}kept {\k34}mis{\k17}sing {\k33}the
+Dialogue: 0,0:00:32.45,0:00:35.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf172}Brakes
+Dialogue: 0,0:00:34.69,0:00:38.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Thou{\k18}sand {\k36}miles {\k32}an {\k35}hour {\k32}I {\k36}come {\k34}back {\k35}home {\k17}and {\k23}I
+Dialogue: 0,0:00:37.94,0:00:41.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf223}Fade
+Dialogue: 0,0:00:40.68,0:00:43.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf206}Fade
+Dialogue: 0,0:00:42.91,0:00:45.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k17}have {\k17}a {\k35}stone {\k34}that's {\k18}crush{\k16}ing {\k18}me
+Dialogue: 0,0:00:44.62,0:00:46.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}on {\k17}top {\k18}of {\k17}my {\k26}chest
+Dialogue: 0,0:00:45.66,0:00:49.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k17}pray {\k17}for {\k34}peace {\k34}e-{\k18}eve{\k13}ry{\k20}time {\k17}I {\k16}walk {\k19}to {\k18}my {\k20}bed
+Dialogue: 0,0:00:48.41,0:00:51.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Oh {\k17}how {\k17}I {\k15}wish {\k19}to {\k14}tell {\k20}you {\k19}some{\k16}thing
+Dialogue: 0,0:00:49.95,0:00:52.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}worth {\k17}your {\k18}time {\k18}here {\k17}with {\k20}me
+Dialogue: 0,0:00:51.14,0:00:53.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Al{\k17}rea{\k15}dy {\k19}break{\k18}ing {\k17}as {\k16}the {\k18}per{\k17}son
+Dialogue: 0,0:00:52.70,0:00:54.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}that {\k16}I'm {\k18}try{\k16}ing {\k19}to {\k20}be
+Dialogue: 0,0:00:53.89,0:00:56.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}For {\k17}eve{\k16}ry {\k35}time {\k34}I {\k17}forced {\k17}my{\k17}self
+Dialogue: 0,0:00:55.59,0:00:57.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}to {\k16}push {\k19}through {\k17}my {\k27}bounds
+Dialogue: 0,0:00:56.64,0:00:58.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}I {\k17}hear {\k17}a {\k22}cry
+Dialogue: 0,0:00:57.49,0:01:00.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}A {\k17}child {\k17}in {\k16}me {\k18}that {\k16}wants {\k18}to {\k18}be {\k22}proud
+Dialogue: 0,0:00:59.37,0:01:03.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k17}said {\k17}it's {\k17}love {\k18}un{\k17}til {\k17}I {\k17}re{\k17}a{\k19}lised {\k15}it's {\k18}hate {\k17}in {\k17}dis{\k33}guise
+Dialogue: 0,0:01:02.11,0:01:04.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k17}hate {\k17}my{\k18}self {\k17}for {\k17}times
+Dialogue: 0,0:01:03.15,0:01:05.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k18}was{\k16}n't {\k18}a{\k17}ble {\k16}mak{\k19}ing {\k17}it {\k19}right
+Dialogue: 0,0:01:04.86,0:01:06.47,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k51}Oh
+Dialogue: 0,0:01:05.52,0:01:08.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}I {\k17}take {\k17}the {\k18}pain {\k16}and {\k17}lock {\k18}it {\k18}deep{\k18}ly
+Dialogue: 0,0:01:07.24,0:01:09.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Cause {\k18}I {\k16}de{\k18}serve {\k14}it
+Dialogue: 0,0:01:08.29,0:01:10.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k17}take {\k17}my {\k17}shame {\k17}and {\k17}lock {\k18}it {\k16}deep{\k20}ly
+Dialogue: 0,0:01:10.00,0:01:11.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Cause {\k17}I {\k17}de{\k18}serve {\k13}it
+Dialogue: 0,0:01:11.03,0:01:13.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k18}take {\k17}the {\k18}stress {\k16}and {\k18}lock {\k16}it {\k18}deep{\k20}ly
+Dialogue: 0,0:01:12.73,0:01:14.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Cause {\k17}I {\k17}de{\k18}serve {\k13}it
+Dialogue: 0,0:01:13.78,0:01:16.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k17}took {\k17}my {\k18}state {\k16}and {\k18}kept {\k17}it {\k18}in {\k20}me
+Dialogue: 0,0:01:15.48,0:01:17.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Cause {\k18}I'm {\k16}so {\k18}"per{\k16}fect"
+Dialogue: 0,0:01:16.51,0:01:19.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k17}take {\k17}the {\k18}pain {\k16}and {\k18}lock {\k18}it {\k16}deep{\k21}ly
+Dialogue: 0,0:01:18.22,0:01:20.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Cause {\k18}I {\k17}de{\k18}serve {\k13}it
+Dialogue: 0,0:01:19.26,0:01:21.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k18}take {\k16}my {\k18}shame {\k17}and {\k18}lock {\k16}it {\k17}deep{\k22}ly
+Dialogue: 0,0:01:20.96,0:01:22.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Cause {\k17}I {\k17}de{\k18}serve {\k14}it
+Dialogue: 0,0:01:21.99,0:01:24.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k17}take {\k15}the {\k20}stress {\k16}and {\k18}lock {\k16}it {\k18}deep{\k20}ly
+Dialogue: 0,0:01:23.70,0:01:25.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Cause {\k18}I {\k16}de{\k18}serve {\k14}it
+Dialogue: 0,0:01:24.74,0:01:27.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k17}took {\k17}my {\k18}state {\k17}and {\k18}kept {\k16}it {\k17}in {\k18}me
+Dialogue: 0,0:01:26.45,0:01:28.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Cause {\k18}I'm {\k17}so {\k17}"per{\k15}fect"
+Dialogue: 0,0:01:38.40,0:01:40.06,Sample KM [Up],,0,0,20,fx,{\k90\fad(300,200)}{\k9}When {\k8}I {\k13}close {\k13}my {\k13}eyes
+Dialogue: 0,0:01:38.96,0:01:40.58,Sample KM [Up],,0,0,40,fx,{\k90\fad(300,200)}{\k10}When {\k9}I {\k9}close {\k12}my {\k12}eyes
+Dialogue: 0,0:01:39.48,0:01:41.11,Sample KM [Up],,0,0,60,fx,{\k90\fad(300,200)}{\k9}When {\k9}I {\k10}close {\k12}my {\k13}eyes
+Dialogue: 0,0:01:40.01,0:01:42.14,Sample KM [Up],,0,0,80,fx,{\k90\fad(300,200)}{\k6}I {\k11}can {\k8}feel {\k8}my {\k20}heart {\k8}it's {\k16}push{\k9}ing {\k17}now
+Dialogue: 0,0:01:41.17,0:01:42.74,Sample KM [Up],,0,0,20,fx,{\k90\fad(300,200)}{\k13}Pres{\k9}sure {\k8}me {\k8}all {\k9}night
+Dialogue: 0,0:01:41.71,0:01:43.26,Sample KM [Up],,0,0,40,fx,{\k90\fad(300,200)}{\k11}Pres{\k8}sure {\k8}me {\k8}all {\k10}night
+Dialogue: 0,0:01:42.22,0:01:43.78,Sample KM [Up],,0,0,60,fx,{\k90\fad(300,200)}{\k11}Pres{\k9}sure {\k8}me {\k8}all {\k10}night
+Dialogue: 0,0:01:42.75,0:01:44.87,Sample KM [Up],,0,0,80,fx,{\k90\fad(300,200)}{\k8}Won{\k10}der {\k8}what {\k9}the {\k16}fuck {\k9}I'm {\k14}do{\k13}ing {\k15}now
+Dialogue: 0,0:01:43.95,0:01:45.63,Sample KM [Up],,0,0,20,fx,{\k90\fad(300,200)}{\k7}I {\k8}don't {\k8}wan{\k11}na {\k24}try
+Dialogue: 0,0:01:44.53,0:01:46.15,Sample KM [Up],,0,0,40,fx,{\k90\fad(300,200)}{\k8}Don't {\k8}wan{\k11}na {\k24}try
+Dialogue: 0,0:01:45.05,0:01:46.67,Sample KM [Up],,0,0,60,fx,{\k90\fad(300,200)}{\k10}Don't {\k8}wan{\k10}na {\k26}try
+Dialogue: 0,0:01:45.57,0:01:47.18,Sample KM [Up],,0,0,80,fx,{\k90\fad(300,200)}{\k7}Don't {\k7}wan{\k12}na {\k25}try
+Dialogue: 0,0:01:46.08,0:01:47.70,Sample KM [Up],,0,0,100,fx,{\k90\fad(300,200)}{\k9}Don't {\k8}wan{\k10}na {\k25}try
+Dialogue: 0,0:01:46.60,0:01:48.21,Sample KM [Up],,0,0,20,fx,{\k90\fad(300,200)}{\k10}Don't {\k8}wan{\k8}na {\k25}try
+Dialogue: 0,0:01:47.11,0:01:48.74,Sample KM [Up],,0,0,40,fx,{\k90\fad(300,200)}{\k10}Don't {\k8}wan{\k10}na {\k25}try
+Dialogue: 0,0:01:47.64,0:01:49.24,Sample KM [Up],,0,0,60,fx,{\k90\fad(300,200)}{\k9}Don't {\k6}wan{\k11}na {\k24}try
+Dialogue: 0,0:01:48.14,0:01:50.36,Sample KM [Up],,0,0,80,fx,{\k90\fad(300,200)}{\k9}Don't {\k8}wan{\k10}na {\k9}try {\k10}to {\k12}force {\k11}my{\k16}self {\k11}all {\k16}out
+Dialogue: 0,0:01:49.42,0:01:51.08,Sample KM [Up],,0,0,20,fx,{\k90\fad(300,200)}{\k17}Just {\k10}want {\k9}the {\k20}fight
+Dialogue: 0,0:01:49.98,0:01:51.60,Sample KM [Up],,0,0,40,fx,{\k90\fad(300,200)}{\k13}Just {\k9}want {\k10}the {\k20}fight
+Dialogue: 0,0:01:50.50,0:01:52.10,Sample KM [Up],,0,0,60,fx,{\k90\fad(300,200)}{\k13}Just {\k8}want {\k10}the {\k19}fight
+Dialogue: 0,0:01:51.00,0:01:53.10,Sample KM [Up],,0,0,80,fx,{\k90\fad(300,200)}{\k14}Just {\k9}want {\k9}the {\k13}fight {\k13}to {\k15}set{\k11}tle {\k16}down
+Dialogue: 0,0:01:52.22,0:01:53.83,Sample KM [Up],,0,0,20,fx,{\k90\fad(300,200)}{\k12}Just {\k9}want {\k9}a {\k21}night
+Dialogue: 0,0:01:52.73,0:01:54.35,Sample KM [Up],,0,0,40,fx,{\k90\fad(300,200)}{\k12}Just {\k11}want {\k8}a {\k21}night
+Dialogue: 0,0:01:53.25,0:01:54.86,Sample KM [Up],,0,0,60,fx,{\k90\fad(300,200)}{\k11}Just {\k11}want {\k8}a {\k21}night
+Dialogue: 0,0:01:53.76,0:01:55.86,Sample KM [Up],,0,0,80,fx,{\k90\fad(300,200)}{\k12}Just {\k10}want {\k9}a {\k15}night {\k12}to {\k16}let {\k9}it {\k17}out
+Dialogue: 0,0:01:54.96,0:01:56.58,Sample KM [Up],,0,0,20,fx,{\k90\fad(300,200)}{\k11}Just {\k10}wan{\k9}na {\k22}cry
+Dialogue: 0,0:01:55.48,0:01:57.09,Sample KM [Up],,0,0,40,fx,{\k90\fad(300,200)}{\k11}Just {\k9}wan{\k9}na {\k22}cry
+Dialogue: 0,0:01:55.99,0:01:57.61,Sample KM [Up],,0,0,60,fx,{\k90\fad(300,200)}{\k12}Just {\k9}wan{\k9}na {\k22}cry
+Dialogue: 0,0:01:56.51,0:01:58.11,Sample KM [Up],,0,0,80,fx,{\k90\fad(300,200)}{\k10}Just {\k8}wan{\k12}na {\k20}cry
+Dialogue: 0,0:01:57.01,0:01:58.63,Sample KM [Up],,0,0,100,fx,{\k90\fad(300,200)}{\k12}Just {\k10}wan{\k9}na {\k21}cry
+Dialogue: 0,0:01:57.53,0:01:59.15,Sample KM [Up],,0,0,20,fx,{\k90\fad(300,200)}{\k12}Just {\k9}wan{\k9}na {\k22}cry
+Dialogue: 0,0:01:58.05,0:01:59.67,Sample KM [Up],,0,0,40,fx,{\k90\fad(300,200)}{\k11}Just {\k8}wan{\k10}na {\k23}cry
+Dialogue: 0,0:01:58.57,0:02:00.18,Sample KM [Up],,0,0,60,fx,{\k90\fad(300,200)}{\k12}Just {\k8}wan{\k9}na {\k22}cry
+Dialogue: 0,0:01:59.08,0:02:00.55,Sample KM [Up],,0,0,80,fx,{\k90\fad(300,200)}{\k11}Just {\k9}wan{\k9}na {\k8}cry
+Dialogue: 0,0:01:59.45,0:02:01.33,Sample KM [Up],,0,0,100,fx,{\k90\fad(300,200)}{\k10}It {\k18}out {\k8}in {\k17}pain {\k8}a{\k17}loud
+Dialogue: 0,0:02:00.34,0:02:02.02,Sample KM [Up],,0,0,20,fx,{\k90\fad(300,200)}{\k13}When {\k10}I {\k12}close {\k10}my {\k13}eyes
+Dialogue: 0,0:02:00.92,0:02:02.53,Sample KM [Up],,0,0,40,fx,{\k90\fad(300,200)}{\k10}When {\k10}I {\k10}close {\k10}my {\k11}eyes
+Dialogue: 0,0:02:01.43,0:02:03.05,Sample KM [Up],,0,0,60,fx,{\k90\fad(300,200)}{\k9}When {\k9}I {\k10}close {\k10}my {\k14}eyes
+Dialogue: 0,0:02:02.01,0:02:04.07,Sample KM [Up],,0,0,80,fx,{\k90\fad(300,200)}{\k11}Can {\k6}feel {\k12}my {\k16}heart {\k10}it's {\k14}push{\k11}ing {\k16}now
+Dialogue: 0,0:02:03.12,0:02:04.76,Sample KM [Up],,0,0,20,fx,{\k90\fad(300,200)}{\k11}Pres{\k10}sure {\k9}me {\k8}all {\k16}night
+Dialogue: 0,0:02:03.66,0:02:05.26,Sample KM [Up],,0,0,40,fx,{\k90\fad(300,200)}{\k9}Pres{\k8}sure {\k10}me {\k9}all {\k14}night
+Dialogue: 0,0:02:04.16,0:02:05.78,Sample KM [Up],,0,0,60,fx,{\k90\fad(300,200)}{\k10}Pres{\k9}sure {\k9}me {\k9}all {\k15}night
+Dialogue: 0,0:02:04.68,0:02:06.82,Sample KM [Up],,0,0,80,fx,{\k90\fad(300,200)}{\k10}Won{\k8}der {\k8}what {\k9}the {\k16}fuck {\k9}I'm {\k15}do{\k11}ing {\k18}now
+Dialogue: 0,0:02:05.85,0:02:07.57,Sample KM [Up],,0,0,20,fx,{\k90\fad(300,200)}{\k12}Don't {\k10}wan{\k14}na {\k26}try
+Dialogue: 0,0:02:06.47,0:02:08.08,Sample KM [Up],,0,0,40,fx,{\k90\fad(300,200)}{\k9}Don't {\k9}wan{\k10}na {\k23}try
+Dialogue: 0,0:02:06.98,0:02:08.60,Sample KM [Up],,0,0,60,fx,{\k90\fad(300,200)}{\k11}Don't {\k8}wan{\k9}na {\k24}try
+Dialogue: 0,0:02:07.50,0:02:09.13,Sample KM [Up],,0,0,80,fx,{\k90\fad(300,200)}{\k10}Don't {\k10}wan{\k9}na {\k24}try
+Dialogue: 0,0:02:08.03,0:02:09.64,Sample KM [Up],,0,0,100,fx,{\k90\fad(300,200)}{\k9}Don't {\k8}wan{\k9}na {\k25}try
+Dialogue: 0,0:02:08.54,0:02:10.17,Sample KM [Up],,0,0,20,fx,{\k90\fad(300,200)}{\k9}Don't {\k10}wan{\k9}na {\k27}try
+Dialogue: 0,0:02:09.07,0:02:10.67,Sample KM [Up],,0,0,40,fx,{\k90\fad(300,200)}{\k9}Don't {\k8}wan{\k10}na {\k23}try
+Dialogue: 0,0:02:09.57,0:02:11.18,Sample KM [Up],,0,0,60,fx,{\k90\fad(300,200)}{\k9}Don't {\k9}wan{\k9}na {\k24}try
+Dialogue: 0,0:02:10.08,0:02:12.31,Sample KM [Up],,0,0,80,fx,{\k90\fad(300,200)}{\k9}Don't {\k9}wan{\k9}na {\k18}try {\k9}to {\k16}force {\k8}my{\k9}self {\k9}all {\k17}out
+Dialogue: 0,0:02:11.42,0:02:13.02,Sample KM [Up],,0,0,20,fx,{\k90\fad(300,200)}{\k11}Just {\k10}want {\k10}the {\k17}fight
+Dialogue: 0,0:02:11.92,0:02:13.54,Sample KM [Up],,0,0,40,fx,{\k90\fad(300,200)}{\k13}Just {\k10}want {\k10}the {\k21}fight
+Dialogue: 0,0:02:12.44,0:02:14.05,Sample KM [Up],,0,0,60,fx,{\k90\fad(300,200)}{\k12}Just {\k10}want {\k9}the {\k20}fight
+Dialogue: 0,0:02:12.95,0:02:15.05,Sample KM [Up],,0,0,80,fx,{\k90\fad(300,200)}{\k12}Just {\k9}want {\k10}the {\k17}fight {\k9}to {\k13}set{\k13}tle {\k17}down
+Dialogue: 0,0:02:14.17,0:02:15.77,Sample KM [Up],,0,0,20,fx,{\k90\fad(300,200)}{\k11}Just {\k10}want {\k9}a {\k20}night
+Dialogue: 0,0:02:14.67,0:02:16.29,Sample KM [Up],,0,0,40,fx,{\k90\fad(300,200)}{\k11}Just {\k11}want {\k9}a {\k21}night
+Dialogue: 0,0:02:15.19,0:02:16.80,Sample KM [Up],,0,0,60,fx,{\k90\fad(300,200)}{\k13}Just {\k9}want {\k9}a {\k20}night
+Dialogue: 0,0:02:15.70,0:02:17.80,Sample KM [Up],,0,0,80,fx,{\k90\fad(300,200)}{\k11}Just {\k11}want {\k9}a {\k17}night {\k9}to {\k11}let {\k14}it {\k18}out
+Dialogue: 0,0:02:16.90,0:02:18.52,Sample KM [Up],,0,0,20,fx,{\k90\fad(300,200)}{\k12}Just {\k9}wan{\k9}na {\k22}cry
+Dialogue: 0,0:02:17.42,0:02:19.04,Sample KM [Up],,0,0,40,fx,{\k90\fad(300,200)}{\k11}Just {\k9}wan{\k11}na {\k21}cry
+Dialogue: 0,0:02:17.94,0:02:19.54,Sample KM [Up],,0,0,60,fx,{\k90\fad(300,200)}{\k10}Just {\k10}wan{\k9}na {\k21}cry
+Dialogue: 0,0:02:18.44,0:02:20.06,Sample KM [Up],,0,0,80,fx,{\k90\fad(300,200)}{\k11}Just {\k9}wan{\k10}na {\k22}cry
+Dialogue: 0,0:02:18.96,0:02:20.58,Sample KM [Up],,0,0,100,fx,{\k90\fad(300,200)}{\k11}Just {\k9}wan{\k10}na {\k19}cry
+Dialogue: 0,0:02:19.48,0:02:21.10,Sample KM [Up],,0,0,20,fx,{\k90\fad(300,200)}{\k13}Just {\k11}wan{\k10}na {\k18}cry
+Dialogue: 0,0:02:20.00,0:02:21.61,Sample KM [Up],,0,0,40,fx,{\k90\fad(300,200)}{\k9}Just {\k10}wan{\k9}na {\k23}cry
+Dialogue: 0,0:02:20.51,0:02:22.12,Sample KM [Up],,0,0,60,fx,{\k90\fad(300,200)}{\k11}Just {\k11}wan{\k8}na {\k21}cry
+Dialogue: 0,0:02:21.02,0:02:22.63,Sample KM [Up],,0,0,80,fx,{\k90\fad(300,200)}{\k10}Just {\k8}wan{\k10}na {\k18}cry
+Dialogue: 0,0:02:21.64,0:02:24.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}I {\k21}have {\k16}a {\k35}stone {\k34}that's {\k18}crush{\k16}ing {\k17}me
+Dialogue: 0,0:02:23.37,0:02:25.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}on {\k18}top {\k17}of {\k18}my {\k26}chest
+Dialogue: 0,0:02:24.41,0:02:28.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}I {\k20}pray {\k17}for {\k34}peace {\k35}e-{\k15}eve{\k17}ry{\k19}time {\k16}I {\k18}walk {\k17}to {\k17}my {\k23}bed
+Dialogue: 0,0:02:27.15,0:02:29.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Oh {\k14}how {\k16}I {\k20}wish {\k18}to {\k16}tell {\k19}you {\k19}some{\k16}thing
+Dialogue: 0,0:02:28.68,0:02:30.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}worth {\k17}your {\k19}time {\k17}here {\k19}with {\k18}me
+Dialogue: 0,0:02:29.89,0:02:32.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Al{\k17}rea{\k15}dy {\k18}break{\k19}ing {\k17}as {\k17}the {\k17}per{\k17}son
+Dialogue: 0,0:02:31.42,0:02:33.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}that {\k17}I'm {\k15}try{\k18}ing {\k19}to {\k17}be
+Dialogue: 0,0:02:32.62,0:02:35.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}For {\k14}eve{\k18}ry {\k36}time {\k34}I {\k18}forced {\k16}my{\k16}self
+Dialogue: 0,0:02:34.33,0:02:36.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}to {\k16}push {\k18}through {\k17}my {\k27}bounds
+Dialogue: 0,0:02:35.37,0:02:37.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k14}hear {\k18}a {\k26}cry
+Dialogue: 0,0:02:36.23,0:02:39.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}A {\k17}child {\k17}in {\k17}me {\k16}that {\k18}wants {\k17}to {\k15}be {\k31}proud
+Dialogue: 0,0:02:38.12,0:02:41.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k16}said {\k15}it's {\k20}love {\k16}un{\k18}til {\k17}I {\k18}re{\k16}a{\k18}lised {\k14}it's {\k18}hate {\k20}in {\k16}dis{\k35}guise
+Dialogue: 0,0:02:40.87,0:02:43.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k17}hate {\k16}my{\k18}self {\k16}for {\k18}times
+Dialogue: 0,0:02:41.90,0:02:44.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k16}was{\k17}n't {\k17}a{\k19}ble {\k13}mak{\k21}ing {\k14}it {\k35}right
+Dialogue: 0,0:02:43.60,0:02:46.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k18}have {\k15}a {\k35}stone {\k35}that's {\k17}crush{\k17}ing {\k17}me
+Dialogue: 0,0:02:45.32,0:02:47.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}on {\k17}top {\k18}of {\k17}my {\k26}chest
+Dialogue: 0,0:02:46.35,0:02:50.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k17}pray {\k18}for {\k34}peace {\k34}e-{\k17}eve{\k16}ry{\k18}time {\k17}I {\k18}walk {\k17}to {\k17}my {\k21}bed
+Dialogue: 0,0:02:49.10,0:02:51.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Oh {\k18}how {\k15}I {\k16}wish {\k19}to {\k14}tell {\k20}you {\k18}some{\k17}thing
+Dialogue: 0,0:02:50.63,0:02:52.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}worth {\k16}your {\k19}time {\k18}here {\k17}with {\k33}me
+Dialogue: 0,0:02:51.82,0:02:54.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Al{\k18}rea{\k16}dy {\k18}break{\k17}ing {\k17}as {\k17}the {\k18}per{\k17}son
+Dialogue: 0,0:02:53.38,0:02:55.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}that {\k16}I'm {\k18}try{\k17}ing {\k18}to {\k20}be
+Dialogue: 0,0:02:54.58,0:02:57.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}For {\k17}eve{\k17}ry {\k34}time {\k34}I {\k18}forced {\k17}my{\k16}self
+Dialogue: 0,0:02:56.27,0:02:58.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}to {\k18}push {\k18}through {\k16}my {\k27}bounds
+Dialogue: 0,0:02:57.32,0:02:59.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k17}hear {\k17}a {\k21}cry
+Dialogue: 0,0:02:58.17,0:03:01.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}A {\k17}child {\k16}in {\k18}me {\k16}that {\k18}wants {\k17}to {\k17}be {\k29}proud
+Dialogue: 0,0:03:00.08,0:03:03.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}I {\k17}said {\k16}it's {\k18}love {\k17}un{\k17}til {\k17}I {\k18}re{\k17}a{\k18}lised {\k16}it's {\k17}hate {\k17}in {\k17}dis{\k34}guise
+Dialogue: 0,0:03:02.80,0:03:04.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k17}hate {\k16}my{\k18}self {\k17}for {\k18}times
+Dialogue: 0,0:03:03.83,0:03:06.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k19}was{\k16}n't {\k17}a{\k17}ble {\k17}mak{\k17}ing {\k18}it {\k19}right
+Dialogue: 0,0:03:05.40,0:03:11.11,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf461}Oh
+Dialogue: 0,0:03:06.22,0:03:08.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k16}take {\k18}the {\k17}pain {\k17}and {\k18}lock {\k17}it {\k17}deep{\k24}ly
+Dialogue: 0,0:03:07.93,0:03:09.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Cause {\k18}I {\k16}de{\k18}serve {\k17}it
+Dialogue: 0,0:03:08.97,0:03:11.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k17}take {\k18}my {\k16}shame {\k17}and {\k18}lock {\k17}it {\k17}deep{\k21}ly
+Dialogue: 0,0:03:10.67,0:03:12.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Cause {\k18}I {\k18}de{\k16}serve {\k18}it
+Dialogue: 0,0:03:10.86,0:03:16.59,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf463}Oh
+Dialogue: 0,0:03:11.72,0:03:14.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k16}take {\k18}the {\k17}stress {\k17}and {\k17}lock {\k17}it {\k17}deep{\k23}ly
+Dialogue: 0,0:03:13.41,0:03:15.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Cause {\k17}I {\k17}de{\k17}serve {\k18}it
+Dialogue: 0,0:03:14.46,0:03:17.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k17}took {\k17}my {\k17}state {\k17}and {\k17}kept {\k17}it {\k18}in {\k17}me
+Dialogue: 0,0:03:16.16,0:03:18.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Cause {\k17}I'm {\k17}so {\k18}"per{\k17}fect"
+Dialogue: 0,0:03:16.35,0:03:22.08,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf463}Oh
+Dialogue: 0,0:03:17.21,0:03:19.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}I {\k18}take {\k17}the {\k18}pain {\k16}and {\k17}lock {\k17}it {\k18}deep{\k19}ly
+Dialogue: 0,0:03:18.91,0:03:20.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Cause {\k17}I {\k18}de{\k17}serve {\k18}it
+Dialogue: 0,0:03:19.94,0:03:22.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k17}take {\k18}my {\k17}shame {\k16}and {\k18}lock {\k17}it {\k17}deep{\k18}ly
+Dialogue: 0,0:03:21.64,0:03:23.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Cause {\k17}I {\k17}de{\k17}serve {\k17}it
+Dialogue: 0,0:03:21.84,0:03:27.56,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf462}Oh
+Dialogue: 0,0:03:22.69,0:03:25.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k18}take {\k17}the {\k18}stress {\k16}and {\k18}lock {\k16}it {\k17}deep{\k19}ly
+Dialogue: 0,0:03:24.39,0:03:26.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Cause {\k17}I {\k17}de{\k18}serve {\k18}it
+Dialogue: 0,0:03:25.43,0:03:28.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k18}took {\k16}my {\k18}state {\k17}and {\k17}kept {\k18}it {\k17}in {\k17}me
+Dialogue: 0,0:03:27.15,0:03:29.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Cause {\k17}I'm {\k17}so {\k18}"per{\k21}fect"
