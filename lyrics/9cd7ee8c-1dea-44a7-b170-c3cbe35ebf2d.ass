@@ -1,0 +1,126 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: En Apesanteur
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.42,0:00:02.00,Sample KM [Up],,0,0,0,karaoke,{\k29}J'ar{\k20}rive {\k22}à {\k15}me {\k24}glis{\k48}ser
+Comment: 0,0:00:02.00,0:00:06.47,Sample KM [Up],,0,0,0,karaoke,{\k46}Juste {\k39}a{\k43}vant {\k43}que {\k42}les {\k46}portes {\k40}ne {\k45}se {\k36}re{\k67}ferment
+Comment: 0,0:00:07.35,0:00:08.85,Sample KM [Up],,0,0,0,karaoke,{\k21}Elle {\k21}me {\k19}dit {\k25}quel {\k21}é{\k43}tage
+Comment: 0,0:00:08.85,0:00:13.32,Sample KM [Up],,0,0,0,karaoke,{\k39}Et {\k43}sa {\k45}voix {\k38}me {\k50}fait {\k41}quit{\k39}ter {\k45}la {\k43}terre {\k64}ferme
+Comment: 0,0:00:13.32,0:00:14.56,Sample KM [Up],,0,0,0,karaoke,{\k24}A{\kf100}lors
+Comment: 0,0:00:15.90,0:00:18.93,Sample KM [Up],,0,0,0,karaoke,{\k17}Les {\k46}chif{\k42}fres {\kf198}dansent
+Comment: 0,0:00:19.32,0:00:22.36,Sample KM [Up],,0,0,0,karaoke,{\k24}Tout {\k40}se {\k44}mé{\kf196}lange
+Comment: 0,0:00:22.73,0:00:27.35,Sample KM [Up],,0,0,0,karaoke,{\k22}Je {\k41}suis {\k49}en {\k43}tête-{\k41}à-{\k42}tête {\k45}a{\k40}vec {\k42}un {\kf97}ange
+Comment: 0,0:00:27.35,0:00:29.99,Sample KM [Up],,0,0,0,karaoke,{\k19}Ah {\k59}ah {\k40}ah {\k43}ah {\kf103}ah
+Comment: 0,0:00:30.04,0:00:33.23,Sample KM [Up],,0,0,0,karaoke,{\k28}En {\k28}a{\k28}pe{\k44}san{\kf191}teur
+Comment: 0,0:00:34.11,0:00:36.64,Sample KM [Up],,0,0,0,karaoke,{\k24}Ah {\k60}ah {\k44}ah {\k41}ah {\k84}ah
+Comment: 0,0:00:36.89,0:00:40.51,Sample KM [Up],,0,0,0,karaoke,{\k32}Pour{\k26}vu {\k27}que {\k41}les {\k25}se{\k39}condes {\k46}soient {\k40}des {\k86}heures
+Comment: 0,0:00:40.95,0:00:43.52,Sample KM [Up],,0,0,0,karaoke,{\k24}Ah {\k61}ah {\k46}ah {\k40}ah {\k86}ah
+Comment: 0,0:00:43.75,0:00:46.90,Sample KM [Up],,0,0,0,karaoke,{\k29}En {\k30}a{\k25}pe{\k42}san{\kf189}teur
+Comment: 0,0:00:47.82,0:00:50.30,Sample KM [Up],,0,0,0,karaoke,{\k23}Ah {\k62}ah {\k44}ah {\k42}ah {\k77}ah
+Comment: 0,0:00:50.57,0:00:52.94,Sample KM [Up],,0,0,0,karaoke,{\k32}Pour{\k23}vu {\k27}qu'on {\k50}soit {\k22}les {\k83}seuls
+Comment: 0,0:00:53.42,0:00:55.19,Sample KM [Up],,0,0,0,karaoke,{\k34}Dans {\k28}cet {\k31}a{\k32}scen{\k52}seur
+Comment: 0,0:00:55.35,0:00:57.26,Sample KM [Up],,0,0,0,karaoke,{\k19}Elle {\k24}ar{\k53}range {\k25}ses {\k30}che{\k40}veux
+Comment: 0,0:00:57.68,0:01:00.43,Sample KM [Up],,0,0,0,karaoke,{\k23}J'ai {\k21}le {\k44}cœur {\k40}juste {\k24}au {\k44}bord {\k21}des {\k58}yeux
+Comment: 0,0:01:02.20,0:01:05.75,Sample KM [Up],,0,0,0,karaoke,{\k16}Et {\k25}sans {\k19}la {\k23}re{\k25}gar{\k43}der {\k36}je {\k53}sens {\k36}la {\k48}cha{\k31}leur
+Comment: 0,0:01:05.84,0:01:08.19,Sample KM [Up],,0,0,0,karaoke,{\k44}D'un {\k38}au{\k52}tre {\k33}lan{\k68}gage
+Comment: 0,0:01:08.19,0:01:09.20,Sample KM [Up],,0,0,0,karaoke,{\k21}A{\k80}lors
+Comment: 0,0:01:10.75,0:01:13.55,Sample KM [Up],,0,0,0,karaoke,{\k19}Les {\k46}yeux {\k38}ri{\kf177}vés
+Comment: 0,0:01:14.11,0:01:17.19,Sample KM [Up],,0,0,0,karaoke,{\k27}Sur {\k40}les {\k42}é{\kf199}tages
+Comment: 0,0:01:17.61,0:01:22.12,Sample KM [Up],,0,0,0,karaoke,{\k19}Pour{\k45}vu {\k34}que {\k50}rien {\k42}n'ar{\k82}rête {\k23}le {\k26}vo{\kf130}yage
+Comment: 0,0:01:22.12,0:01:24.81,Sample KM [Up],,0,0,0,karaoke,{\k20}Ah {\k64}ah {\k42}ah {\k37}ah {\kf106}ah
+Comment: 0,0:01:24.87,0:01:28.05,Sample KM [Up],,0,0,0,karaoke,{\k25}En {\k34}a{\k26}pe{\k43}san{\kf190}teur
+Comment: 0,0:01:28.97,0:01:31.48,Sample KM [Up],,0,0,0,karaoke,{\k19}Ah {\k66}ah {\k46}ah {\k44}ah {\k76}ah
+Comment: 0,0:01:31.76,0:01:35.34,Sample KM [Up],,0,0,0,karaoke,{\k32}Pour{\k29}vu {\k25}que {\k41}les {\k25}se{\k36}condes {\k47}soient {\k39}des {\k84}heures
+Comment: 0,0:01:35.83,0:01:38.34,Sample KM [Up],,0,0,0,karaoke,{\k23}Ah {\k62}ah {\k44}ah {\k41}ah {\k81}ah
+Comment: 0,0:01:38.60,0:01:41.72,Sample KM [Up],,0,0,0,karaoke,{\k30}En {\k32}a{\k22}pe{\k43}san{\kf185}teur
+Comment: 0,0:01:42.68,0:01:45.17,Sample KM [Up],,0,0,0,karaoke,{\k23}Ah {\k62}ah {\k43}ah {\k44}ah {\k77}ah
+Comment: 0,0:01:45.46,0:01:47.85,Sample KM [Up],,0,0,0,karaoke,{\k30}Pour{\k24}vu {\k27}qu'on {\k48}soit {\k24}les {\k86}seuls
+Comment: 0,0:01:48.28,0:01:50.34,Sample KM [Up],,0,0,0,karaoke,{\k31}Dans {\k33}cet {\k24}a{\k36}scen{\k82}seur
+Comment: 0,0:01:51.75,0:01:54.05,Sample KM [Up],,0,0,0,karaoke,{\k30}Dans {\k30}cet {\k26}a{\k34}scen{\kf110}seur
+Comment: 0,0:01:57.01,0:01:58.57,Sample KM [Up],,0,0,0,karaoke,{\k25}J'ar{\k20}rive {\k22}à {\k17}me {\k25}glis{\k47}ser
+Comment: 0,0:01:58.57,0:02:02.98,Sample KM [Up],,0,0,0,karaoke,{\k43}Juste {\k44}a{\k39}vant {\k42}que {\k44}les {\k45}portes {\k37}ne {\k50}se {\k31}re{\k66}ferment
+Comment: 0,0:02:03.35,0:02:08.88,Sample KM [Up],,0,0,0,karaoke,{\k17}Ah {\k66}ah {\k58}ah {\k48}ah {\kf136}ah {\kf228}ah
+Comment: 0,0:02:10.32,0:02:13.99,Sample KM [Up],,0,0,0,karaoke,{\k72}Ah {\k57}ah {\k42}ah {\kf196}ah
+Comment: 0,0:02:16.96,0:02:19.51,Sample KM [Up],,0,0,0,karaoke,{\k22}Ah {\k64}ah {\k44}ah {\k42}ah {\k83}ah
+Comment: 0,0:02:19.76,0:02:22.80,Sample KM [Up],,0,0,0,karaoke,{\k28}En {\k31}a{\k24}pe{\k44}san{\kf177}teur
+Comment: 0,0:02:23.84,0:02:26.48,Sample KM [Up],,0,0,0,karaoke,{\k20}Ah {\k64}ah {\k43}ah {\k43}ah {\k94}ah
+Comment: 0,0:02:26.62,0:02:30.21,Sample KM [Up],,0,0,0,karaoke,{\k32}Pour{\k26}vu {\k24}que {\k42}les {\k26}se{\k36}condes {\k48}soient {\k44}des {\k81}heures
+Comment: 0,0:02:30.66,0:02:33.12,Sample KM [Up],,0,0,0,karaoke,{\k26}Ah {\k63}ah {\k41}ah {\k43}ah {\k73}ah
+Comment: 0,0:02:33.44,0:02:36.49,Sample KM [Up],,0,0,0,karaoke,{\k28}En {\k34}a{\k26}pe{\k43}san{\kf174}teur
+Comment: 0,0:02:37.52,0:02:40.24,Sample KM [Up],,0,0,0,karaoke,{\k23}Ah {\k63}ah {\k47}ah {\k42}ah {\kf97}ah
+Comment: 0,0:02:40.33,0:02:42.68,Sample KM [Up],,0,0,0,karaoke,{\k34}Pour{\k23}vu {\k25}qu'on {\k46}soit {\k23}les {\k84}seuls
+Comment: 0,0:02:43.12,0:02:45.26,Sample KM [Up],,0,0,0,karaoke,{\k31}Dans {\k32}cet {\k23}a{\k37}scen{\k91}seur
+Comment: 0,0:02:46.63,0:02:49.12,Sample KM [Up],,0,0,0,karaoke,{\k25}En {\k26}a{\k28}pe{\k37}san{\kf133}teur
+Comment: 0,0:02:51.24,0:02:53.66,Sample KM [Up],,0,0,0,karaoke,{\k23}Ah {\k61}ah {\k45}ah {\k44}ah {\k69}ah
+Comment: 0,0:02:54.02,0:02:57.90,Sample KM [Up],,0,0,0,karaoke,{\k32}Pour{\k25}vu {\k29}que {\k39}les {\k29}se{\k39}condes {\k45}soient {\k38}des {\kf112}heures
+Comment: 0,0:03:00.25,0:03:02.94,Sample KM [Up],,0,0,0,karaoke,{\k31}En {\k31}a{\k26}pe{\k36}san{\kf145}teur
+Comment: 0,0:03:07.74,0:03:10.02,Sample KM [Up],,0,0,0,karaoke,{\k31}Pour{\k28}vu {\k23}qu'on {\k48}soit {\k22}les {\k76}seuls
+Comment: 0,0:03:10.53,0:03:12.67,Sample KM [Up],,0,0,0,karaoke,{\k34}Dans {\k29}cet {\k24}a{\k39}scen{\k88}seur
+Comment: 0,0:03:12.14,0:03:17.32,Sample KM [Up],,0,0,0,karaoke,{\k20}Ah {\k47}ah {\k62}ah {\k35}ah {\kf150}ah {\kf204}ah
+Dialogue: 0,0:00:00.00,0:00:02.20,Sample KM [Up],,0,0,0,fx,{\k42\fad(420,200)}{\k29}J'ar{\k20}rive {\k22}à {\k15}me {\k24}glis{\k48}ser
+Dialogue: 0,0:00:01.10,0:00:06.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Juste {\k39}a{\k43}vant {\k43}que {\k42}les {\k46}portes {\k40}ne {\k45}se {\k36}re{\k67}ferment
+Dialogue: 0,0:00:06.45,0:00:09.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Elle {\k21}me {\k19}dit {\k25}quel {\k21}é{\k43}tage
+Dialogue: 0,0:00:07.95,0:00:13.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Et {\k43}sa {\k45}voix {\k38}me {\k50}fait {\k41}quit{\k39}ter {\k45}la {\k43}terre {\k64}ferme
+Dialogue: 0,0:00:12.42,0:00:14.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}A{\kf100}lors
+Dialogue: 0,0:00:15.00,0:00:19.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Les {\k46}chif{\k42}fres {\kf198}dansent
+Dialogue: 0,0:00:18.42,0:00:22.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Tout {\k40}se {\k44}mé{\kf196}lange
+Dialogue: 0,0:00:21.83,0:00:27.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Je {\k41}suis {\k49}en {\k43}tête-{\k41}à-{\k42}tête {\k45}a{\k40}vec {\k42}un {\kf97}ange
+Dialogue: 0,0:00:26.45,0:00:30.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Ah {\k59}ah {\k40}ah {\k43}ah {\kf103}ah
+Dialogue: 0,0:00:29.14,0:00:33.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}En {\k28}a{\k28}pe{\k44}san{\kf191}teur
+Dialogue: 0,0:00:33.21,0:00:36.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Ah {\k60}ah {\k44}ah {\k41}ah {\k84}ah
+Dialogue: 0,0:00:35.99,0:00:40.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Pour{\k26}vu {\k27}que {\k41}les {\k25}se{\k39}condes {\k46}soient {\k40}des {\k86}heures
+Dialogue: 0,0:00:40.05,0:00:43.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Ah {\k61}ah {\k46}ah {\k40}ah {\k86}ah
+Dialogue: 0,0:00:42.85,0:00:47.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}En {\k30}a{\k25}pe{\k42}san{\kf189}teur
+Dialogue: 0,0:00:46.92,0:00:50.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Ah {\k62}ah {\k44}ah {\k42}ah {\k77}ah
+Dialogue: 0,0:00:49.67,0:00:53.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Pour{\k23}vu {\k27}qu'on {\k50}soit {\k22}les {\k83}seuls
+Dialogue: 0,0:00:52.52,0:00:55.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Dans {\k28}cet {\k31}a{\k32}scen{\k52}seur
+Dialogue: 0,0:00:54.45,0:00:57.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Elle {\k24}ar{\k53}range {\k25}ses {\k30}che{\k40}veux
+Dialogue: 0,0:00:56.78,0:01:00.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}J'ai {\k21}le {\k44}cœur {\k40}juste {\k24}au {\k44}bord {\k21}des {\k58}yeux
+Dialogue: 0,0:01:01.30,0:01:05.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Et {\k25}sans {\k19}la {\k23}re{\k25}gar{\k43}der {\k36}je {\k53}sens {\k36}la {\k48}cha{\k31}leur
+Dialogue: 0,0:01:04.94,0:01:08.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}D'un {\k38}au{\k52}tre {\k33}lan{\k68}gage
+Dialogue: 0,0:01:07.29,0:01:09.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}A{\k80}lors
+Dialogue: 0,0:01:09.85,0:01:13.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Les {\k46}yeux {\k38}ri{\kf177}vés
+Dialogue: 0,0:01:13.21,0:01:17.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Sur {\k40}les {\k42}é{\kf199}tages
+Dialogue: 0,0:01:16.71,0:01:22.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Pour{\k45}vu {\k34}que {\k50}rien {\k42}n'ar{\k82}rête {\k23}le {\k26}vo{\kf130}yage
+Dialogue: 0,0:01:21.22,0:01:25.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Ah {\k64}ah {\k42}ah {\k37}ah {\kf106}ah
+Dialogue: 0,0:01:23.97,0:01:28.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}En {\k34}a{\k26}pe{\k43}san{\kf190}teur
+Dialogue: 0,0:01:28.07,0:01:31.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Ah {\k66}ah {\k46}ah {\k44}ah {\k76}ah
+Dialogue: 0,0:01:30.86,0:01:35.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Pour{\k29}vu {\k25}que {\k41}les {\k25}se{\k36}condes {\k47}soient {\k39}des {\k84}heures
+Dialogue: 0,0:01:34.93,0:01:38.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Ah {\k62}ah {\k44}ah {\k41}ah {\k81}ah
+Dialogue: 0,0:01:37.70,0:01:41.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}En {\k32}a{\k22}pe{\k43}san{\kf185}teur
+Dialogue: 0,0:01:41.78,0:01:45.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Ah {\k62}ah {\k43}ah {\k44}ah {\k77}ah
+Dialogue: 0,0:01:44.56,0:01:48.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Pour{\k24}vu {\k27}qu'on {\k48}soit {\k24}les {\k86}seuls
+Dialogue: 0,0:01:47.38,0:01:50.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Dans {\k33}cet {\k24}a{\k36}scen{\k82}seur
+Dialogue: 0,0:01:50.85,0:01:54.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Dans {\k30}cet {\k26}a{\k34}scen{\kf110}seur
+Dialogue: 0,0:01:56.11,0:01:58.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}J'ar{\k20}rive {\k22}à {\k17}me {\k25}glis{\k47}ser
+Dialogue: 0,0:01:57.67,0:02:03.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Juste {\k44}a{\k39}vant {\k42}que {\k44}les {\k45}portes {\k37}ne {\k50}se {\k31}re{\k66}ferment
+Dialogue: 0,0:02:02.45,0:02:09.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Ah {\k66}ah {\k58}ah {\k48}ah {\kf136}ah {\kf228}ah
+Dialogue: 0,0:02:09.42,0:02:14.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k72}Ah {\k57}ah {\k42}ah {\kf196}ah
+Dialogue: 0,0:02:16.06,0:02:19.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ah {\k64}ah {\k44}ah {\k42}ah {\k83}ah
+Dialogue: 0,0:02:18.86,0:02:23.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}En {\k31}a{\k24}pe{\k44}san{\kf177}teur
+Dialogue: 0,0:02:22.94,0:02:26.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Ah {\k64}ah {\k43}ah {\k43}ah {\k94}ah
+Dialogue: 0,0:02:25.72,0:02:30.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Pour{\k26}vu {\k24}que {\k42}les {\k26}se{\k36}condes {\k48}soient {\k44}des {\k81}heures
+Dialogue: 0,0:02:29.76,0:02:33.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Ah {\k63}ah {\k41}ah {\k43}ah {\k73}ah
+Dialogue: 0,0:02:32.54,0:02:36.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}En {\k34}a{\k26}pe{\k43}san{\kf174}teur
+Dialogue: 0,0:02:36.62,0:02:40.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Ah {\k63}ah {\k47}ah {\k42}ah {\kf97}ah
+Dialogue: 0,0:02:39.43,0:02:42.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Pour{\k23}vu {\k25}qu'on {\k46}soit {\k23}les {\k84}seuls
+Dialogue: 0,0:02:42.22,0:02:45.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Dans {\k32}cet {\k23}a{\k37}scen{\k91}seur
+Dialogue: 0,0:02:45.73,0:02:49.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}En {\k26}a{\k28}pe{\k37}san{\kf133}teur
+Dialogue: 0,0:02:50.34,0:02:53.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Ah {\k61}ah {\k45}ah {\k44}ah {\k69}ah
+Dialogue: 0,0:02:53.12,0:02:58.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Pour{\k25}vu {\k29}que {\k39}les {\k29}se{\k39}condes {\k45}soient {\k38}des {\kf112}heures
+Dialogue: 0,0:02:59.35,0:03:03.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}En {\k31}a{\k26}pe{\k36}san{\kf145}teur
+Dialogue: 0,0:03:06.84,0:03:10.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Pour{\k28}vu {\k23}qu'on {\k48}soit {\k22}les {\k76}seuls
+Dialogue: 0,0:03:09.63,0:03:12.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Dans {\k29}cet {\k24}a{\k39}scen{\k88}seur
+Dialogue: 0,0:03:11.24,0:03:17.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Ah {\k47}ah {\k62}ah {\k35}ah {\kf150}ah {\kf204}ah
