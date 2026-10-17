@@ -10,19 +10,19 @@ Original Timing: KazamaAsu
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,24,&H000088EF,&H00FFFFFF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
-Style: Sample KM [Choir],Arial,24,&H00EB68C8,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,100,1
-Style: Sample KM [Choir] Green,Arial,24,&H0057B857,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,100,1
-Style: Sample KM [Choir] Blue,Arial,24,&H00FEBA61,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,100,1
-Style: Sample KM [Choir] Red,Arial,24,&H004949E2,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,100,1
+Style: Default,Arial,24,&H000088EF,&H00FFFFFF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,15,1
+Style: Sample KM [Choir],Arial,24,&H00EB68C8,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: Sample KM [Choir] Green,Arial,24,&H0057B857,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: Sample KM [Choir] Blue,Arial,24,&H00FEBA61,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: Sample KM [Choir] Red,Arial,24,&H004949E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Comment: 1,0:00:06.00,0:00:08.80,Sample KM [Choir],,0,0,0,karaoke,{\k17}ha{\k20}ji{\k16}me{\k22}te {\k15}ki{\k16}mi {\k18}to {\k40}sha{\k36}bet{\k80}ta
+Comment: 1,0:00:05.99,0:00:08.80,Sample KM [Choir],,0,0,0,karaoke,{\k17}ha{\k20}ji{\k16}me{\k22}te {\k15}ki{\k16}mi {\k18}to {\k40}sha{\k36}bet{\k81}ta
 Comment: 0,0:00:08.29,0:00:11.50,Default,,0,0,0,karaoke,{\k18}ki{\k20}mi {\k37}wa {\k15}wa{\k15}ra{\k38}t{\k19}te {\k18}ku{\k35}re{\k106}ta
-Comment: 0,0:00:11.64,0:00:14.70,Sample KM [Choir],,0,0,0,karaoke,{\k20}ha{\k18}ji{\k15}me{\k20}te {\k16}ki{\k19}mi {\k14}to {\k40}sha{\k14}be{\k23}re{\k107}ta
-Comment: 0,0:00:13.85,0:00:16.80,Default,,0,0,0,karaoke,{\k25}bo{\k19}ku {\k38}no {\k18}ko{\k15}no {\k37}ko{\k18}to{\k16}ba {\k109}de
+Comment: 0,0:00:11.64,0:00:14.70,Sample KM [Choir],,0,0,0,karaoke,{\k20}ha{\k18}ji{\k17}me{\k18}te {\k16}ki{\k19}mi {\k14}to {\k40}sha{\k14}be{\k23}re{\k107}ta
+Comment: 0,0:00:13.87,0:00:16.80,Default,,0,0,0,karaoke,{\k25}bo{\k19}ku {\k38}no {\k18}ko{\k15}no {\k37}ko{\k18}to{\k16}ba {\k107}de
 Comment: 0,0:00:16.92,0:00:19.80,Default,,0,0,0,karaoke,{\k17}bo{\k16}ku {\k24}na{\k13}n{\k17}ka {\k20}ga {\k18}sha{\k16}be{\k20}ri {\k19}ka{\k37}ke{\k16}ta{\k55}ra
 Comment: 0,0:00:19.77,0:00:22.45,Default,,0,0,0,karaoke,{\k36}mei{\k20}wa{\k15}ku {\k17}ni {\k18}o{\k20}mo{\k16}u {\k20}ka{\k106}na
 Comment: 0,0:00:22.48,0:00:25.50,Default,,0,0,0,karaoke,{\k29}so{\k19}n{\k35}na {\k35}fu{\k35}an {\k38}wo {\k15}ka{\k17}ka{\k20}e{\k59}te
@@ -36,20 +36,20 @@ Comment: 0,0:00:43.06,0:00:45.70,Default,,0,0,0,karaoke,{\k20}u{\k18}ka{\k15}re{
 Comment: 0,0:00:45.90,0:00:48.41,Default,,0,0,0,karaoke,{\k18}da{\k19}ke{\k18}do {\k15}ki{\k18}mi {\k37}wa {\k15}bo{\k20}ku {\k37}na{\k36}n{\k18}te
 Comment: 0,0:00:48.41,0:00:52.55,Default,,0,0,0,karaoke,{\k20}na{\k34}n{\k32}to{\k33}mo {\k23}o{\k33}mot{\k17}te{\k38}na{\k16}i {\k21}yo {\k147}ne
 Comment: 0,0:00:53.06,0:00:55.40,Default,,0,0,0,karaoke,{\k22}se{\k19}tsu{\k19}na{\k14}i {\k160}yo
-Comment: 0,0:00:55.86,0:00:56.90,Default,,0,0,0,karaoke,{\k22}da{\k39}ke{\k63}do
-Comment: 0,0:00:56.76,0:00:59.55,Sample KM [Choir] Green,,0,0,0,karaoke,{\k18}ha{\k21}ji{\k16}me{\k21}te {\k18}ki{\k17}mi {\k18}to {\k40}sha{\k35}bet{\k75}ta
+Comment: 0,0:00:55.89,0:00:56.90,Default,,0,0,0,karaoke,{\k22}da{\k39}ke{\k40}do
+Comment: 0,0:00:56.76,0:00:59.55,Sample KM [Choir] Green,,0,0,0,karaoke,{\k18}ha{\k20}ji{\k16}me{\k21}te {\k18}ki{\k17}mi {\k18}to {\k40}sha{\k35}bet{\k76}ta
 Comment: 0,0:00:59.13,0:01:02.40,Default,,0,0,0,karaoke,{\k20}ki{\k17}mi {\k37}wa {\k17}wa{\k18}ra{\k34}t{\k19}te {\k16}ku{\k34}re{\k115}ta
 Comment: 0,0:01:02.48,0:01:05.60,Sample KM [Choir] Blue,,0,0,0,karaoke,{\k19}ha{\k21}ji{\k16}me{\k20}te {\k16}ki{\k19}mi {\k16}to {\k40}sha{\k15}be{\k22}re{\k108}ta
 Comment: 0,0:01:04.78,0:01:08.10,Default,,0,0,0,karaoke,{\k21}bo{\k20}ku {\k36}no {\k17}ko{\k17}no {\k35}ko{\k16}to{\k17}ba {\k118}DE{\k35}!
 Comment: 0,0:01:08.12,0:01:11.20,Sample KM [Choir],,0,0,0,karaoke,{\k17}ha{\k19}ji{\k18}me{\k17}te {\k16}ki{\k20}mi {\k17}to {\k37}sha{\k35}bet{\k112}ta
 Comment: 0,0:01:10.42,0:01:14.00,Default,,0,0,0,karaoke,{\k18}ki{\k17}mi {\k38}wa {\k16}wa{\k17}ra{\k37}t{\k18}te {\k16}ku{\k37}re{\k144}ta
-Comment: 0,0:01:13.79,0:01:16.90,Sample KM [Choir] Red,,0,0,0,karaoke,{\k18}ha{\k18}ji{\k16}me{\k20}te {\k15}ki{\k19}mi {\k18}to {\k38}sha{\k16}be{\k16}re{\k137}ta
-Comment: 0,0:01:16.06,0:01:20.00,Default,,0,0,0,karaoke,{\k22}bo{\k17}ku {\k34}no {\k18}ko{\k20}no {\k34}ko{\k16}to{\k18}ba {\kf150}de!{\kf65}
-Comment: 0,0:01:19.31,0:01:23.60,Sample KM [Choir],,0,0,0,karaoke,{\k21}ha{\k14}ji{\k15}me{\k21}te {\k16}ki{\k18}mi {\k17}to {\k39}sha{\k33}bet{\kf130}ta{\k105}
-Dialogue: 1,0:00:05.10,0:00:09.00,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k17}ha{\k20}ji{\k16}me{\k22}te {\k15}ki{\k16}mi {\k18}to {\k40}sha{\k36}bet{\k80}ta
+Comment: 0,0:01:13.79,0:01:16.90,Sample KM [Choir] Red,,0,0,0,karaoke,{\k18}ha{\k17}ji{\k16}me{\k20}te {\k16}ki{\k18}mi {\k17}to {\k38}sha{\k16}be{\k16}re{\k119}ta
+Comment: 0,0:01:16.06,0:01:20.00,Default,,0,0,0,karaoke,{\k22}bo{\k17}ku {\k34}no {\k18}ko{\k20}no {\k34}ko{\k16}to{\k18}ba {\kf200}de!{\kf15}
+Comment: 0,0:01:19.31,0:01:23.60,Sample KM [Choir],,0,0,0,karaoke,{\k21}ha{\k14}ji{\k15}me{\k21}te {\k16}ki{\k17}mi {\k16}to {\k39}sha{\k34}bet{\kf200}ta{\k36}
+Dialogue: 1,0:00:05.09,0:00:09.00,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k17}ha{\k20}ji{\k16}me{\k22}te {\k15}ki{\k16}mi {\k18}to {\k40}sha{\k36}bet{\k81}ta
 Dialogue: 1,0:00:07.39,0:00:11.70,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ki{\k20}mi {\k37}wa {\k15}wa{\k15}ra{\k38}t{\k19}te {\k18}ku{\k35}re{\k106}ta
-Dialogue: 1,0:00:10.74,0:00:14.90,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}ha{\k18}ji{\k15}me{\k20}te {\k16}ki{\k19}mi {\k14}to {\k40}sha{\k14}be{\k23}re{\k107}ta
-Dialogue: 1,0:00:12.95,0:00:17.00,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}bo{\k19}ku {\k38}no {\k18}ko{\k15}no {\k37}ko{\k18}to{\k16}ba {\k109}de
+Dialogue: 1,0:00:10.74,0:00:14.90,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}ha{\k18}ji{\k17}me{\k18}te {\k16}ki{\k19}mi {\k14}to {\k40}sha{\k14}be{\k23}re{\k107}ta
+Dialogue: 1,0:00:12.97,0:00:17.00,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}bo{\k19}ku {\k38}no {\k18}ko{\k15}no {\k37}ko{\k18}to{\k16}ba {\k107}de
 Dialogue: 1,0:00:16.02,0:00:20.00,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}bo{\k16}ku {\k24}na{\k13}n{\k17}ka {\k20}ga {\k18}sha{\k16}be{\k20}ri {\k19}ka{\k37}ke{\k16}ta{\k55}ra
 Dialogue: 1,0:00:18.87,0:00:22.65,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k36}mei{\k20}wa{\k15}ku {\k17}ni {\k18}o{\k20}mo{\k16}u {\k20}ka{\k106}na
 Dialogue: 1,0:00:21.58,0:00:25.70,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k29}so{\k19}n{\k35}na {\k35}fu{\k35}an {\k38}wo {\k15}ka{\k17}ka{\k20}e{\k59}te
@@ -63,13 +63,13 @@ Dialogue: 1,0:00:42.16,0:00:45.90,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}u{\
 Dialogue: 1,0:00:45.00,0:00:48.61,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}da{\k19}ke{\k18}do {\k15}ki{\k18}mi {\k37}wa {\k15}bo{\k20}ku {\k37}na{\k36}n{\k18}te
 Dialogue: 1,0:00:47.51,0:00:52.75,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}na{\k34}n{\k32}to{\k33}mo {\k23}o{\k33}mot{\k17}te{\k38}na{\k16}i {\k21}yo {\k147}ne
 Dialogue: 1,0:00:52.16,0:00:55.60,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k22}se{\k19}tsu{\k19}na{\k14}i {\k160}yo
-Dialogue: 1,0:00:54.96,0:00:57.10,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k22}da{\k39}ke{\k63}do
-Dialogue: 1,0:00:55.86,0:00:59.75,Sample KM [Choir] Green,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ha{\k21}ji{\k16}me{\k21}te {\k18}ki{\k17}mi {\k18}to {\k40}sha{\k35}bet{\k75}ta
+Dialogue: 1,0:00:54.99,0:00:57.10,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k22}da{\k39}ke{\k40}do
+Dialogue: 1,0:00:55.86,0:00:59.75,Sample KM [Choir] Green,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ha{\k20}ji{\k16}me{\k21}te {\k18}ki{\k17}mi {\k18}to {\k40}sha{\k35}bet{\k76}ta
 Dialogue: 1,0:00:58.23,0:01:02.60,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ki{\k17}mi {\k37}wa {\k17}wa{\k18}ra{\k34}t{\k19}te {\k16}ku{\k34}re{\k115}ta
 Dialogue: 1,0:01:01.58,0:01:05.80,Sample KM [Choir] Blue,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ha{\k21}ji{\k16}me{\k20}te {\k16}ki{\k19}mi {\k16}to {\k40}sha{\k15}be{\k22}re{\k108}ta
 Dialogue: 1,0:01:03.88,0:01:08.30,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}bo{\k20}ku {\k36}no {\k17}ko{\k17}no {\k35}ko{\k16}to{\k17}ba {\k118}DE{\k35}!
 Dialogue: 1,0:01:07.22,0:01:11.40,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k17}ha{\k19}ji{\k18}me{\k17}te {\k16}ki{\k20}mi {\k17}to {\k37}sha{\k35}bet{\k112}ta
 Dialogue: 1,0:01:09.52,0:01:14.20,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ki{\k17}mi {\k38}wa {\k16}wa{\k17}ra{\k37}t{\k18}te {\k16}ku{\k37}re{\k144}ta
-Dialogue: 1,0:01:12.89,0:01:17.10,Sample KM [Choir] Red,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ha{\k18}ji{\k16}me{\k20}te {\k15}ki{\k19}mi {\k18}to {\k38}sha{\k16}be{\k16}re{\k137}ta
-Dialogue: 1,0:01:15.16,0:01:20.20,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k22}bo{\k17}ku {\k34}no {\k18}ko{\k20}no {\k34}ko{\k16}to{\k18}ba {\kf150}de!{\kf65}
-Dialogue: 1,0:01:18.41,0:01:23.80,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}ha{\k14}ji{\k15}me{\k21}te {\k16}ki{\k18}mi {\k17}to {\k39}sha{\k33}bet{\kf130}ta{\k105}
+Dialogue: 1,0:01:12.89,0:01:17.10,Sample KM [Choir] Red,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ha{\k17}ji{\k16}me{\k20}te {\k16}ki{\k18}mi {\k17}to {\k38}sha{\k16}be{\k16}re{\k119}ta
+Dialogue: 1,0:01:15.16,0:01:20.20,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k22}bo{\k17}ku {\k34}no {\k18}ko{\k20}no {\k34}ko{\k16}to{\k18}ba {\kf200}de!{\kf15}
+Dialogue: 1,0:01:18.41,0:01:23.80,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}ha{\k14}ji{\k15}me{\k21}te {\k16}ki{\k17}mi {\k16}to {\k39}sha{\k34}bet{\kf200}ta{\k36}
