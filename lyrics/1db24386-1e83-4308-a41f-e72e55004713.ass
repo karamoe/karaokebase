@@ -1,0 +1,117 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Star Trace
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Up]_kor,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H00FFFFFF,&H005050E2,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}English {\2cHFFFFFF}| {\rSample KM [Up]_kor}Korean {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:11.32,0:00:14.15,Sample KM [Up],,0,0,0,karaoke,{\k20}I'm {\k18}a{\k35}lone {\k18}but {\k35}I {\k15}don't {\k16}real{\k15}ly {\k20}feel {\k17}a{\k74}lone
+Comment: 0,0:00:16.82,0:00:19.67,Sample KM [Up]_kor,,0,0,0,karaoke,{\k14}eon{\k22}je{\k18}de{\k17}un {\k17}eo{\k27}di{\k25}seo{\k17}deun {\k17}bo{\k15}i{\k16}ni{\k80}kka
+Comment: 0,0:00:21.12,0:00:22.73,Sample KM [Up],,0,0,0,karaoke,{\k17}Don't {\k16}wan{\k17}na {\k17}live {\k16}with{\k78}out
+Comment: 0,0:00:23.53,0:00:25.36,Sample KM [Up],,0,0,0,karaoke,{\k34}Stars {\k17}that {\k17}light {\k31}the {\k84}sky
+Comment: 0,0:00:27.03,0:00:30.98,Sample KM [Up],,0,0,0,karaoke,{\k44}Just {\k36}tell {\k31}me {\k22}what {\k27}it's {\k32}like {\k14}to {\k26}see {\k20}the {\k29}o{\k37}ther {\k77}side
+Comment: 0,0:00:33.09,0:00:35.69,Sample KM [Up],,0,0,0,karaoke,{\k19}I'm {\k15}stuck {\k17}here {\k19}lo{\k18}vin' {\k15}a{\k35}far {\k18}my {\k34}de{\k33}si{\k37}re
+Comment: 0,0:00:35.84,0:00:38.45,Sample KM [Up],,0,0,0,karaoke,{\k18}When {\k16}we're {\k18}a{\k35}part {\k17}it {\k34}ne{\k17}ver {\k33}grows {\k37}ti{\k36}red
+Comment: 0,0:00:38.75,0:00:40.12,Sample KM [Up],,0,0,0,karaoke,{\k35}I {\k57}need {\k45}it
+Comment: 0,0:00:41.45,0:00:43.68,Sample KM [Up],,0,0,0,karaoke,{\k23}Can {\k16}you {\k54}hear {\kf130}me?
+Comment: 0,0:00:43.90,0:00:46.88,Sample KM [Up],,0,0,0,karaoke,{\k85}I {\k22}coul{\k14}dn't {\k33}wait {\k34}'til {\k17}you {\k38}pull {\k17}me {\k38}up
+Comment: 0,0:00:47.51,0:00:50.55,Sample KM [Up],,0,0,0,karaoke,{\k16}When {\k18}a {\k34}star {\k32}falls {\k37}on {\k33}you {\k36\rSample KM [Up]_kor}neo{\k17}reul {\k31}wi{\k31}hae{\k19}seo
+Comment: 0,0:00:50.55,0:00:53.13,Sample KM [Up],,0,0,0,karaoke,{\k20}I {\k22}want {\k13}it {\k20}to {\k11}be {\k23}close {\k15}to {\k17}you {\k33}right {\k84}now
+Comment: 0,0:00:53.32,0:00:54.88,Sample KM [Choir],,0,0,0,karaoke,{\k35}Oh {\k36}oh {\k39}oh {\k28}oh {\k18}oh
+Comment: 0,0:00:54.88,0:00:57.76,Sample KM [Up],,0,0,0,karaoke,{\k81}I {\k19}can't {\k19}con{\k37}tain {\k30}this {\k18}you {\k36}light {\k20}me {\k28}up
+Comment: 0,0:00:58.48,0:01:01.40,Sample KM [Up],,0,0,0,karaoke,{\k17}When {\k17}a {\k33}star {\k37}falls {\k35}on {\k35}you {\k31\rSample KM [Up]_kor}neo{\k18}reul {\k32}wi{\k25}hae{\k12}seo
+Comment: 0,0:01:01.40,0:01:03.95,Sample KM [Up],,0,0,0,karaoke,{\k32}I {\k20}want {\k14}it {\k19}to {\k15}be {\k20}close {\k14}to {\k20}you {\k35}right {\k66}now
+Comment: 0,0:01:16.80,0:01:19.38,Sample KM [Up],,0,0,0,karaoke,{\k35}Moves {\k20}like {\k15}a {\k18}sig{\k17}nal {\k17}pul{\k18}ling {\k32}me {\k35}a{\k51}gain
+Comment: 0,0:01:19.41,0:01:22.27,Sample KM [Up]_kor,,0,0,0,karaoke,{\k38}tteol {\k11}eo{\k18}ji{\k18}neun {\k18}byeo{\k13}ri {\k23}seon'{\k14}i {\k34}bich{\k36}nal {\k63}ttae
+Comment: 0,0:01:22.31,0:01:24.78,Sample KM [Up],,0,0,0,karaoke,{\k18}Ba{\k15}by {\k17}it's {\k16}a {\k19}fee{\k16}ling {\k17}that {\k18}I've {\k34}ne{\k35}ver {\k42}felt
+Comment: 0,0:01:24.86,0:01:28.11,Sample KM [Up],,0,0,0,karaoke,{\k41}Trust {\k23}me {\k13}I {\k14}will {\k15}hold {\k18}you {\k18}and {\k16}we'll {\k33}be {\k29}o{\kf105}kay
+Comment: 0,0:01:27.96,0:01:30.56,Sample KM [Up],,0,0,0,karaoke,{\k14}I'm {\k19}stuck {\k18}herе {\k18}lo{\k18}ving {\k16}a{\k32}far {\k19}you're {\k18}my {\k16}de{\k36}si{\k36}re
+Comment: 0,0:01:30.70,0:01:33.46,Sample KM [Up],,0,0,0,karaoke,{\k18}Whеn {\k16}we're {\k18}a{\k34}part {\k18}it {\k31}ne{\k20}ver {\k35}grows {\k34}ti{\k52}red
+Comment: 0,0:01:33.61,0:01:34.96,Sample KM [Up],,0,0,0,karaoke,{\k36}I {\k51}need {\k48}it
+Comment: 0,0:01:36.31,0:01:38.52,Sample KM [Up],,0,0,0,karaoke,{\k23}Can {\k15}you {\k55}hear {\kf128}me?
+Comment: 0,0:01:38.76,0:01:41.74,Sample KM [Up],,0,0,0,karaoke,{\k85}I {\k22}coul{\k14}dn't {\k33}wait {\k34}'til {\k17}you {\k38}pull {\k17}me {\k38}up
+Comment: 0,0:01:42.37,0:01:45.41,Sample KM [Up],,0,0,0,karaoke,{\k16}When {\k18}a {\k34}star {\k32}falls {\k37}on {\k33}you {\k36\rSample KM [Up]_kor}neo{\k17}reul {\k31}wi{\k31}hae{\k19}seo
+Comment: 0,0:01:45.41,0:01:47.99,Sample KM [Up],,0,0,0,karaoke,{\k20}I {\k22}want {\k13}it {\k20}to {\k11}be {\k23}close {\k15}to {\k17}you {\k33}right {\k84}now
+Comment: 0,0:01:48.18,0:01:49.74,Sample KM [Choir],,0,0,0,karaoke,{\k35}Oh {\k36}oh {\k39}oh {\k28}oh {\k18}oh
+Comment: 0,0:01:49.74,0:01:52.62,Sample KM [Up],,0,0,0,karaoke,{\k81}I {\k19}can't {\k19}con{\k37}tain {\k30}this {\k18}you {\k36}light {\k20}me {\k28}up
+Comment: 0,0:01:53.34,0:01:56.26,Sample KM [Up],,0,0,0,karaoke,{\k17}When {\k17}a {\k33}star {\k37}falls {\k35}on {\k35}you {\k31\rSample KM [Up]_kor}neo{\k18}reul {\k32}wi{\k25}hae{\k12}seo
+Comment: 0,0:01:56.26,0:01:58.81,Sample KM [Up],,0,0,0,karaoke,{\k32}I {\k20}want {\k14}it {\k19}to {\k15}be {\k20}close {\k14}to {\k20}you {\k35}right {\k66}now
+Comment: 0,0:02:00.67,0:02:04.25,Sample KM [Up],,0,0,0,karaoke,{\kf132}Woah {\kf97}oh {\k18}oh-{\k17}oh-{\k94}oh
+Comment: 0,0:02:06.15,0:02:09.64,Sample KM [Up],,0,0,0,karaoke,{\kf125}Woah {\kf105}oh {\k16}oh-{\k16}oh-{\k87}oh
+Comment: 0,0:02:10.97,0:02:21.29,Sample KM [Up],,0,0,0,karaoke,{\k71}This {\kf121}is {\kf135}the {\kf157}time {\k67}of {\k66}our {\kf415}lives
+Comment: 0,0:02:22.32,0:02:22.63,Sample KM [Choir],,0,0,0,karaoke,{\k31}Go
+Comment: 0,0:02:33.61,0:02:36.59,Sample KM [Up],,0,0,0,karaoke,{\k85}I {\k22}coul{\k14}dn't {\k33}wait {\k34}'til {\k17}you {\k38}pull {\k17}me {\k38}up
+Comment: 0,0:02:37.22,0:02:40.26,Sample KM [Up],,0,0,0,karaoke,{\k16}When {\k18}a {\k34}star {\k32}falls {\k37}on {\k33}you {\k36\rSample KM [Up]_kor}neo{\k17}reul {\k31}wi{\k31}hae{\k19}seo
+Comment: 0,0:02:40.26,0:02:42.84,Sample KM [Up],,0,0,0,karaoke,{\k20}I {\k22}want {\k13}it {\k20}to {\k11}be {\k23}close {\k15}to {\k17}you {\k33}right {\k84}now
+Comment: 0,0:02:43.03,0:02:44.59,Sample KM [Choir],,0,0,0,karaoke,{\k35}Oh {\k36}oh {\k39}oh {\k28}oh {\k18}oh
+Comment: 0,0:02:44.59,0:02:47.47,Sample KM [Up],,0,0,0,karaoke,{\k81}I {\k19}can't {\k19}con{\k37}tain {\k30}this {\k18}you {\k36}light {\k20}me {\k28}up
+Comment: 0,0:02:48.19,0:02:51.11,Sample KM [Up],,0,0,0,karaoke,{\k17}When {\k17}a {\k33}star {\k37}falls {\k35}on {\k35}you {\k31\rSample KM [Up]_kor}neo{\k18}reul {\k32}wi{\k25}hae{\k12}seo
+Comment: 0,0:02:51.11,0:02:53.66,Sample KM [Up],,0,0,0,karaoke,{\k32}I {\k20}want {\k14}it {\k19}to {\k15}be {\k20}close {\k14}to {\k20}you {\k35}right {\k66}now
+Comment: 0,0:03:03.78,0:03:06.76,Sample KM [Up],,0,0,0,karaoke,{\k85}I {\k22}coul{\k14}dn't {\k33}wait {\k34}'til {\k17}you {\k38}pull {\k17}me {\k38}up
+Comment: 0,0:03:07.39,0:03:10.43,Sample KM [Up],,0,0,0,karaoke,{\k16}When {\k18}a {\k34}star {\k32}falls {\k37}on {\k33}you {\k36\rSample KM [Up]_kor}neo{\k17}reul {\k31}wi{\k31}hae{\k19}seo
+Comment: 0,0:03:10.43,0:03:13.01,Sample KM [Up],,0,0,0,karaoke,{\k20}I {\k22}want {\k13}it {\k20}to {\k11}be {\k23}close {\k15}to {\k17}you {\k33}right {\k84}now
+Comment: 0,0:03:13.20,0:03:14.76,Sample KM [Choir],,0,0,0,karaoke,{\k35}Oh {\k36}oh {\k39}oh {\k28}oh {\k18}oh
+Comment: 0,0:03:14.76,0:03:17.64,Sample KM [Up],,0,0,0,karaoke,{\k81}I {\k19}can't {\k19}con{\k37}tain {\k30}this {\k18}you {\k36}light {\k20}me {\k28}up
+Comment: 0,0:03:18.36,0:03:21.28,Sample KM [Up],,0,0,0,karaoke,{\k17}When {\k17}a {\k33}star {\k37}falls {\k35}on {\k35}you {\k31\rSample KM [Up]_kor}neo{\k18}reul {\k32}wi{\k25}hae{\k12}seo
+Comment: 0,0:03:21.28,0:03:23.83,Sample KM [Up],,0,0,0,karaoke,{\k32}I {\k20}want {\k14}it {\k19}to {\k15}be {\k20}close {\k14}to {\k20}you {\k35}right {\k66}now
+Dialogue: 0,0:00:10.42,0:00:14.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}I'm {\k18}a{\k35}lone {\k18}but {\k35}I {\k15}don't {\k16}real{\k15}ly {\k20}feel {\k17}a{\k74}lone
+Dialogue: 0,0:00:15.92,0:00:19.87,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k14}eon{\k22}je{\k18}de{\k17}un {\k17}eo{\k27}di{\k25}seo{\k17}deun {\k17}bo{\k15}i{\k16}ni{\k80}kka
+Dialogue: 0,0:00:20.22,0:00:22.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Don't {\k16}wan{\k17}na {\k17}live {\k16}with{\k78}out
+Dialogue: 0,0:00:22.63,0:00:25.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Stars {\k17}that {\k17}light {\k31}the {\k84}sky
+Dialogue: 0,0:00:26.13,0:00:31.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Just {\k36}tell {\k31}me {\k22}what {\k27}it's {\k32}like {\k14}to {\k26}see {\k20}the {\k29}o{\k37}ther {\k77}side
+Dialogue: 0,0:00:32.19,0:00:35.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I'm {\k15}stuck {\k17}here {\k19}lo{\k18}vin' {\k15}a{\k35}far {\k18}my {\k34}de{\k33}si{\k37}re
+Dialogue: 0,0:00:34.94,0:00:38.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}When {\k16}we're {\k18}a{\k35}part {\k17}it {\k34}ne{\k17}ver {\k33}grows {\k37}ti{\k36}red
+Dialogue: 0,0:00:37.85,0:00:40.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}I {\k57}need {\k45}it
+Dialogue: 0,0:00:40.55,0:00:43.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Can {\k16}you {\k54}hear {\kf130}me?
+Dialogue: 0,0:00:43.00,0:00:47.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k85}I {\k22}coul{\k14}dn't {\k33}wait {\k34}'til {\k17}you {\k38}pull {\k17}me {\k38}up
+Dialogue: 0,0:00:46.61,0:00:50.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}When {\k18}a {\k34}star {\k32}falls {\k37}on {\k33}you {\k36\rSample KM [Up]_kor}neo{\k17}reul {\k31}wi{\k31}hae{\k19}seo
+Dialogue: 0,0:00:49.65,0:00:53.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}I {\k22}want {\k13}it {\k20}to {\k11}be {\k23}close {\k15}to {\k17}you {\k33}right {\k84}now
+Dialogue: 0,0:00:52.42,0:00:55.08,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Oh {\k36}oh {\k39}oh {\k28}oh {\k18}oh
+Dialogue: 0,0:00:53.98,0:00:57.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k81}I {\k19}can't {\k19}con{\k37}tain {\k30}this {\k18}you {\k36}light {\k20}me {\k28}up
+Dialogue: 0,0:00:57.58,0:01:01.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}When {\k17}a {\k33}star {\k37}falls {\k35}on {\k35}you {\k31\rSample KM [Up]_kor}neo{\k18}reul {\k32}wi{\k25}hae{\k12}seo
+Dialogue: 0,0:01:00.50,0:01:04.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}I {\k20}want {\k14}it {\k19}to {\k15}be {\k20}close {\k14}to {\k20}you {\k35}right {\k66}now
+Dialogue: 0,0:01:15.90,0:01:19.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Moves {\k20}like {\k15}a {\k18}sig{\k17}nal {\k17}pul{\k18}ling {\k32}me {\k35}a{\k51}gain
+Dialogue: 0,0:01:18.51,0:01:22.47,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k38}tteol {\k11}eo{\k18}ji{\k18}neun {\k18}byeo{\k13}ri {\k23}seon'{\k14}i {\k34}bich{\k36}nal {\k63}ttae
+Dialogue: 0,0:01:21.41,0:01:24.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Ba{\k15}by {\k17}it's {\k16}a {\k19}fee{\k16}ling {\k17}that {\k18}I've {\k34}ne{\k35}ver {\k42}felt
+Dialogue: 0,0:01:23.96,0:01:28.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Trust {\k23}me {\k13}I {\k14}will {\k15}hold {\k18}you {\k18}and {\k16}we'll {\k33}be {\k29}o{\kf105}kay
+Dialogue: 0,0:01:27.06,0:01:30.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}I'm {\k19}stuck {\k18}herе {\k18}lo{\k18}ving {\k16}a{\k32}far {\k19}you're {\k18}my {\k16}de{\k36}si{\k36}re
+Dialogue: 0,0:01:29.80,0:01:33.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Whеn {\k16}we're {\k18}a{\k34}part {\k18}it {\k31}ne{\k20}ver {\k35}grows {\k34}ti{\k52}red
+Dialogue: 0,0:01:32.71,0:01:35.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}I {\k51}need {\k48}it
+Dialogue: 0,0:01:35.41,0:01:38.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Can {\k15}you {\k55}hear {\kf128}me?
+Dialogue: 0,0:01:37.86,0:01:41.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k85}I {\k22}coul{\k14}dn't {\k33}wait {\k34}'til {\k17}you {\k38}pull {\k17}me {\k38}up
+Dialogue: 0,0:01:41.47,0:01:45.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}When {\k18}a {\k34}star {\k32}falls {\k37}on {\k33}you {\k36\rSample KM [Up]_kor}neo{\k17}reul {\k31}wi{\k31}hae{\k19}seo
+Dialogue: 0,0:01:44.51,0:01:48.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}I {\k22}want {\k13}it {\k20}to {\k11}be {\k23}close {\k15}to {\k17}you {\k33}right {\k84}now
+Dialogue: 0,0:01:47.28,0:01:49.94,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Oh {\k36}oh {\k39}oh {\k28}oh {\k18}oh
+Dialogue: 0,0:01:48.84,0:01:52.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k81}I {\k19}can't {\k19}con{\k37}tain {\k30}this {\k18}you {\k36}light {\k20}me {\k28}up
+Dialogue: 0,0:01:52.44,0:01:56.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}When {\k17}a {\k33}star {\k37}falls {\k35}on {\k35}you {\k31\rSample KM [Up]_kor}neo{\k18}reul {\k32}wi{\k25}hae{\k12}seo
+Dialogue: 0,0:01:55.36,0:01:59.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}I {\k20}want {\k14}it {\k19}to {\k15}be {\k20}close {\k14}to {\k20}you {\k35}right {\k66}now
+Dialogue: 0,0:01:59.77,0:02:04.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf132}Woah {\kf97}oh {\k18}oh-{\k17}oh-{\k94}oh
+Dialogue: 0,0:02:05.25,0:02:09.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf125}Woah {\kf105}oh {\k16}oh-{\k16}oh-{\k87}oh
+Dialogue: 0,0:02:10.07,0:02:21.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k71}This {\kf121}is {\kf135}the {\kf157}time {\k67}of {\k66}our {\kf415}lives
+Dialogue: 0,0:02:21.42,0:02:22.83,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Go
+Dialogue: 0,0:02:32.71,0:02:36.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k85}I {\k22}coul{\k14}dn't {\k33}wait {\k34}'til {\k17}you {\k38}pull {\k17}me {\k38}up
+Dialogue: 0,0:02:36.32,0:02:40.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}When {\k18}a {\k34}star {\k32}falls {\k37}on {\k33}you {\k36\rSample KM [Up]_kor}neo{\k17}reul {\k31}wi{\k31}hae{\k19}seo
+Dialogue: 0,0:02:39.36,0:02:43.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}I {\k22}want {\k13}it {\k20}to {\k11}be {\k23}close {\k15}to {\k17}you {\k33}right {\k84}now
+Dialogue: 0,0:02:42.13,0:02:44.79,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Oh {\k36}oh {\k39}oh {\k28}oh {\k18}oh
+Dialogue: 0,0:02:43.69,0:02:47.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k81}I {\k19}can't {\k19}con{\k37}tain {\k30}this {\k18}you {\k36}light {\k20}me {\k28}up
+Dialogue: 0,0:02:47.29,0:02:51.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}When {\k17}a {\k33}star {\k37}falls {\k35}on {\k35}you {\k31\rSample KM [Up]_kor}neo{\k18}reul {\k32}wi{\k25}hae{\k12}seo
+Dialogue: 0,0:02:50.21,0:02:53.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}I {\k20}want {\k14}it {\k19}to {\k15}be {\k20}close {\k14}to {\k20}you {\k35}right {\k66}now
+Dialogue: 0,0:03:02.88,0:03:06.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k85}I {\k22}coul{\k14}dn't {\k33}wait {\k34}'til {\k17}you {\k38}pull {\k17}me {\k38}up
+Dialogue: 0,0:03:06.49,0:03:10.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}When {\k18}a {\k34}star {\k32}falls {\k37}on {\k33}you {\k36\rSample KM [Up]_kor}neo{\k17}reul {\k31}wi{\k31}hae{\k19}seo
+Dialogue: 0,0:03:09.53,0:03:13.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}I {\k22}want {\k13}it {\k20}to {\k11}be {\k23}close {\k15}to {\k17}you {\k33}right {\k84}now
+Dialogue: 0,0:03:12.30,0:03:14.96,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Oh {\k36}oh {\k39}oh {\k28}oh {\k18}oh
+Dialogue: 0,0:03:13.86,0:03:17.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k81}I {\k19}can't {\k19}con{\k37}tain {\k30}this {\k18}you {\k36}light {\k20}me {\k28}up
+Dialogue: 0,0:03:17.46,0:03:21.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}When {\k17}a {\k33}star {\k37}falls {\k35}on {\k35}you {\k31\rSample KM [Up]_kor}neo{\k18}reul {\k32}wi{\k25}hae{\k12}seo
+Dialogue: 0,0:03:20.38,0:03:24.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}I {\k20}want {\k14}it {\k19}to {\k15}be {\k20}close {\k14}to {\k20}you {\k35}right {\k66}now
