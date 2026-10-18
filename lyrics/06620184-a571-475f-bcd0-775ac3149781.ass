@@ -1,0 +1,38 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: BOY'S HEART
+Original Timing: HayatoKurokami
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:06.06,0:00:08.68,Sample KM [Up],,0,0,0,karaoke,{\k52}na{\k97}ze {\k50}na{\k63}ze
+Comment: 0,0:00:09.47,0:00:17.05,Sample KM [Up],,0,0,0,karaoke,{\k50}ko{\k45}ko{\k50}ro {\k98}ga {\k49}i{\k89}ta{\k48}mu {\k97}to {\k33}na{\k19}mi{\k44}da {\k47}ni {\k47}na{\k42}ru
+Comment: 0,0:00:17.55,0:00:19.95,Sample KM [Up],,0,0,0,karaoke,{\k51}na{\k96}ze {\k46}na{\k47}ze
+Comment: 0,0:00:20.91,0:00:28.46,Sample KM [Up],,0,0,0,karaoke,{\k49}na{\k47}mi{\k47}da {\k96}ga {\k46}o{\k96}chi{\k49}ru {\k92}to {\k30}hi{\k24}to{\k43}ri {\k49}ni {\k47}na{\k40}ru
+Comment: 0,0:00:28.99,0:00:34.07,Sample KM [Up],,0,0,0,karaoke,{\k55}chi{\k71}i{\k25}sa{\k47}na {\k45}hi{\k68}za {\k29}ka{\kf139}ka{\k29}e
+Comment: 0,0:00:34.73,0:00:42.31,Sample KM [Up],,0,0,0,karaoke,{\k48}to{\k77}o{\k32}ku {\k34}wo {\k46}ma{\k56}ta {\k43}mi{\kf232}a{\k51}ge{\kf139}ru
+Comment: 0,0:00:43.42,0:00:48.68,Sample KM [Up],,0,0,0,karaoke,{\k34}hi{\k25}ro{\k94}i {\k25}hi{\k22}ro{\k90}i {\k28}ko{\k25}no {\k45}so{\k71}ra {\k32}yo{\k35}ri
+Comment: 0,0:00:49.38,0:00:54.38,Sample KM [Up],,0,0,0,karaoke,{\k32}mo{\k47}t{\k49}to {\k25}hi{\k25}ro{\k89}i {\k51}ha{\kf140}zu {\k42}da
+Comment: 0,0:00:54.89,0:01:00.39,Sample KM [Up],,0,0,0,karaoke,{\k30}ta{\k26}ka{\k86}i {\k31}ta{\k24}ka{\k91}i {\k28}a{\k23}no {\k47}ku{\k43}mo {\k48}yo{\k73}ri
+Comment: 0,0:01:00.82,0:01:05.84,Sample KM [Up],,0,0,0,karaoke,{\k33}mo{\k42}t{\k49}to {\k29}ta{\k18}ka{\k96}i {\k51}ha{\kf134}zu {\k50}da
+Comment: 0,0:01:06.34,0:01:11.06,Sample KM [Up],,0,0,0,karaoke,{\k36}ki{\k23}mi {\k135}no {\k50}ko{\k71}ko{\k26}ro {\kf131}mo
+Dialogue: 0,0:00:05.16,0:00:08.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}na{\k97}ze {\k50}na{\k63}ze
+Dialogue: 0,0:00:08.57,0:00:17.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}ko{\k45}ko{\k50}ro {\k98}ga {\k49}i{\k89}ta{\k48}mu {\k97}to {\k33}na{\k19}mi{\k44}da {\k47}ni {\k47}na{\k42}ru
+Dialogue: 0,0:00:16.65,0:00:20.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k51}na{\k96}ze {\k46}na{\k47}ze
+Dialogue: 0,0:00:20.01,0:00:28.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}na{\k47}mi{\k47}da {\k96}ga {\k46}o{\k96}chi{\k49}ru {\k92}to {\k30}hi{\k24}to{\k43}ri {\k49}ni {\k47}na{\k40}ru
+Dialogue: 0,0:00:28.09,0:00:34.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k55}chi{\k71}i{\k25}sa{\k47}na {\k45}hi{\k68}za {\k29}ka{\kf139}ka{\k29}e
+Dialogue: 0,0:00:33.83,0:00:42.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}to{\k77}o{\k32}ku {\k34}wo {\k46}ma{\k56}ta {\k43}mi{\kf232}a{\k51}ge{\kf139}ru
+Dialogue: 0,0:00:42.52,0:00:48.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}hi{\k25}ro{\k94}i {\k25}hi{\k22}ro{\k90}i {\k28}ko{\k25}no {\k45}so{\k71}ra {\k32}yo{\k35}ri
+Dialogue: 0,0:00:48.48,0:00:54.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}mo{\k47}t{\k49}to {\k25}hi{\k25}ro{\k89}i {\k51}ha{\kf140}zu {\k42}da
+Dialogue: 0,0:00:53.99,0:01:00.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}ta{\k26}ka{\k86}i {\k31}ta{\k24}ka{\k91}i {\k28}a{\k23}no {\k47}ku{\k43}mo {\k48}yo{\k73}ri
+Dialogue: 0,0:00:59.92,0:01:06.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}mo{\k42}t{\k49}to {\k29}ta{\k18}ka{\k96}i {\k51}ha{\kf134}zu {\k50}da
+Dialogue: 0,0:01:05.44,0:01:11.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}ki{\k23}mi {\k135}no {\k50}ko{\k71}ko{\k26}ro {\kf131}mo
