@@ -1,0 +1,75 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+LayoutResX: 0
+LayoutResY: 0
+Title: Love Rabbits Party!!
+Original Timing: Skytree
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Hajime,Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Tomoya,Arial,24,&H00FFFFFF,&H000FA5D6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mitsuru,Arial,24,&H00FFFFFF,&H004779F8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Ensemble,Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Nazuna,Arial,24,&H00FFFFFF,&H000B05F4,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Hajime,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:19.95,0:00:24.05,Hajime,,0,0,0,karaoke,{\k29}hi{\k20}mi{\k32}tsu {\k28}no {\k26}I{\k23}N{\k20}VI{\k91}TA{\kf141}TION
+Comment: 0,0:00:24.05,0:00:28.02,Tomoya,,0,0,0,karaoke,{\k33}cha{\k24}n{\k24}to {\k25}to{\k26}do{\k24}i{\k28}te{\kf93}ru {\k55}ka {\k45}na
+Comment: 0,0:00:27.82,0:00:35.71,Ensemble,,0,0,0,karaoke,{\k118}nee, {\k27}ki{\k41}mi {\k27}wo {\k52}mu{\k52}ka{\k26}e{\k77}ru {\k31}jun{\k32}bi {\k26}wa {\k37}mou {\k26}de{\k26}ki{\k26}te{\k39}ru {\k106}yo
+Comment: 0,0:00:36.35,0:00:40.38,Mitsuru,,0,0,0,karaoke,{\k26}ka{\k21}a{\k30}te{\k26}n {\k23}no {\k26}ko{\k28}chi{\k50}ra {\k47}ga{\k126}wa
+Comment: 0,0:00:40.38,0:00:44.31,Nazuna,,0,0,0,karaoke,{\k27}so{\k21}wa {\k36}so{\k17}wa {\k24}shi{\k34}te{\k25}ru {\k102}ne {\k43}mi{\k10}n{\k34}na
+Comment: 0,0:00:44.11,0:00:49.29,Ensemble,,0,0,0,karaoke,{\k126}saa, {\k34}ji{\k36}ka{\k24}n {\k48}do{\k56}o{\k48}ri {\k27}na{\k26}ga{\k49}re{\k18}da{\k26}su
+Comment: 0,0:00:49.29,0:00:52.29,Ensemble,,0,0,0,karaoke,{\k26}MU{\k34}SIC {\k22}ON {\k22}THE {\kf176}STAGE
+Comment: 0,0:00:52.88,0:00:56.79,Ensemble,,0,0,0,karaoke,{\k50}hi{\k50}to {\k58}a{\k92}ji {\k51}chi{\k38}ga{\k32}u
+Comment: 0,0:00:57.01,0:01:01.02,Ensemble,,0,0,0,karaoke,{\k43}bo{\k53}ku{\k56}ra {\k105}no {\k40}mi{\k33}ryo{\k51}ku
+Comment: 0,0:01:00.82,0:01:05.79,Ensemble,,0,0,0,karaoke,{\k28}ko{\k27}yo{\k52}i {\k17}o{\k30}hi{\k29}ro{\k40}me {\k54}shi{\k48}cha{\k38}u{\k20}n{\k114}da
+Comment: 0,0:01:05.79,0:01:08.76,Ensemble,,0,0,0,karaoke,{\k40}THREE, {\k26}TWO, {\k23}ONE, {\k45}PAR{\k143}TY!!
+Comment: 0,0:01:09.00,0:01:11.08,Ensemble,,0,0,0,karaoke,{\k27}LA {\k27}LA {\k51}BEATS {\k25}LOVE {\k29}RA*{\k49}BITS
+Comment: 0,0:01:11.08,0:01:13.33,Ensemble,,0,0,0,karaoke,{\k17}is{\k34}sho {\k47}ni {\k36}DREAM{\k15}Y {\k56}NIGHTS
+Comment: 0,0:01:13.13,0:01:17.20,Hajime,,0,0,0,karaoke,{\k24}do{\k21}ki {\k23}do{\k31}ki {\k19}E{\k25}S{\k31}CO{\k55}R{\k34}T {\k44}sa{\k50}se{\k50}te
+Comment: 0,0:01:17.00,0:01:21.26,Ensemble,,0,0,0,karaoke,{\k48}ho{\k24}n{\k31}no {\k45}su{\k19}ko{\k37}shi {\k47}se{\k25}no{\k28}bi {\k44}shi{\k29}ta{\k29}ra
+Comment: 0,0:01:21.27,0:01:24.99,Mitsuru,,0,0,0,karaoke,{\k23}hi{\k31}to{\k25}mi {\k26}no {\k17}o{\k33}ku {\k25}ni {\k42}DIV{\kf130}ING!!
+Comment: 0,0:01:25.35,0:01:27.42,Ensemble,,0,0,0,karaoke,{\k27}LA {\k27}LA {\k40}BEATS {\k34}LOVE {\k25}RA*{\k54}BITS
+Comment: 0,0:01:27.42,0:01:29.67,Ensemble,,0,0,0,karaoke,{\k17}is{\k35}sho {\k45}ni {\k30}STAR{\k22}RY {\k56}NIGHT
+Comment: 0,0:01:29.47,0:01:33.50,Tomoya,,0,0,0,karaoke,{\k20}to{\k21}bi{\k22}ki{\k29}ri {\k31}no {\k31}yo{\k25}ru {\k37}ni {\k59}shi{\k39}ta{\k39}i {\k30}yo
+Comment: 0,0:01:33.51,0:01:37.59,Ensemble,,0,0,0,karaoke,{\k29}yu{\k28}da{\k29}n {\k43}shi{\k29}te{\k43}ru {\k33}ki{\k23}mi {\k45}no {\kf86}HEART
+Comment: 0,0:01:37.55,0:01:41.21,Nazuna,,0,0,0,karaoke,{\k32}mu{\k28}chu{\k24}u {\k18}ni {\k23}sa{\k36}se{\k21}ru {\k42}ka{\kf142}ra
+Comment: 0,0:01:41.71,0:01:45.62,Nazuna,,0,0,0,karaoke,{\k23}to{\k26}ki{\k25}me{\k30}ki {\k19}wo {\k29}shi{\k18}n{\k50}ko{\kf151}kyuu
+Comment: 0,0:01:45.80,0:01:49.75,Hajime,,0,0,0,karaoke,{\k26}ka{\k26}ra{\k26}da{\k25}ju{\k26}u {\k51}HAP{\k76}PY {\k119}ni
+Comment: 0,0:01:49.84,0:01:54.60,Mitsuru,,0,0,0,karaoke,{\k27}a{\k17}shi{\k34}ta {\k29}mo {\k24}ta{\k18}no{\k34}shi{\k42}ku {\k61}na{\k48}ru {\k27}yo{\k28}u {\k67}ni
+Comment: 0,0:01:54.75,0:01:56.64,Ensemble,,0,0,0,karaoke,{\k34}MAKE {\k28}YOU {\kf107}SMILE
+Comment: 0,0:01:56.44,0:02:02.36,Ensemble,,0,0,0,karaoke,{\k23}saa {\k37}SING {\k50}FOR {\kf119}JOY {\k62}u{\k50}ta{\kf231}ou
+Dialogue: 0,0:00:19.05,0:00:24.25,Hajime,,0,0,0,fx,{\k90\fad(300,200)}{\k29}hi{\k20}mi{\k32}tsu {\k28}no {\k26}I{\k23}N{\k20}VI{\k91}TA{\kf141}TION
+Dialogue: 0,0:00:23.15,0:00:28.22,Tomoya,,0,0,0,fx,{\k90\fad(300,200)}{\k33}cha{\k24}n{\k24}to {\k25}to{\k26}do{\k24}i{\k28}te{\kf93}ru {\k55}ka {\k45}na
+Dialogue: 0,0:00:26.92,0:00:35.91,Ensemble,,0,0,0,fx,{\k90\fad(300,200)}{\k118}nee, {\k27}ki{\k41}mi {\k27}wo {\k52}mu{\k52}ka{\k26}e{\k77}ru {\k31}jun{\k32}bi {\k26}wa {\k37}mou {\k26}de{\k26}ki{\k26}te{\k39}ru {\k106}yo
+Dialogue: 0,0:00:35.45,0:00:40.58,Mitsuru,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ka{\k21}a{\k30}te{\k26}n {\k23}no {\k26}ko{\k28}chi{\k50}ra {\k47}ga{\k126}wa
+Dialogue: 0,0:00:39.48,0:00:44.51,Nazuna,,0,0,0,fx,{\k90\fad(300,200)}{\k27}so{\k21}wa {\k36}so{\k17}wa {\k24}shi{\k34}te{\k25}ru {\k102}ne {\k43}mi{\k10}n{\k34}na
+Dialogue: 0,0:00:43.21,0:00:49.49,Ensemble,,0,0,0,fx,{\k90\fad(300,200)}{\k126}saa, {\k34}ji{\k36}ka{\k24}n {\k48}do{\k56}o{\k48}ri {\k27}na{\k26}ga{\k49}re{\k18}da{\k26}su
+Dialogue: 0,0:00:48.39,0:00:52.49,Ensemble,,0,0,0,fx,{\k90\fad(300,200)}{\k26}MU{\k34}SIC {\k22}ON {\k22}THE {\kf176}STAGE
+Dialogue: 0,0:00:51.98,0:00:56.99,Ensemble,,0,0,0,fx,{\k90\fad(300,200)}{\k50}hi{\k50}to {\k58}a{\k92}ji {\k51}chi{\k38}ga{\k32}u
+Dialogue: 0,0:00:56.11,0:01:01.22,Ensemble,,0,0,0,fx,{\k90\fad(300,200)}{\k43}bo{\k53}ku{\k56}ra {\k105}no {\k40}mi{\k33}ryo{\k51}ku
+Dialogue: 0,0:00:59.92,0:01:05.99,Ensemble,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ko{\k27}yo{\k52}i {\k17}o{\k30}hi{\k29}ro{\k40}me {\k54}shi{\k48}cha{\k38}u{\k20}n{\k114}da
+Dialogue: 0,0:01:04.89,0:01:08.96,Ensemble,,0,0,0,fx,{\k90\fad(300,200)}{\k40}THREE, {\k26}TWO, {\k23}ONE, {\k45}PAR{\k143}TY!!
+Dialogue: 0,0:01:08.10,0:01:11.28,Ensemble,,0,0,0,fx,{\k90\fad(300,200)}{\k27}LA {\k27}LA {\k51}BEATS {\k25}LOVE {\k29}RA*{\k49}BITS
+Dialogue: 0,0:01:10.18,0:01:13.53,Ensemble,,0,0,0,fx,{\k90\fad(300,200)}{\k17}is{\k34}sho {\k47}ni {\k36}DREAM{\k15}Y {\k56}NIGHTS
+Dialogue: 0,0:01:12.23,0:01:17.40,Hajime,,0,0,0,fx,{\k90\fad(300,200)}{\k24}do{\k21}ki {\k23}do{\k31}ki {\k19}E{\k25}S{\k31}CO{\k55}R{\k34}T {\k44}sa{\k50}se{\k50}te
+Dialogue: 0,0:01:16.10,0:01:21.46,Ensemble,,0,0,0,fx,{\k90\fad(300,200)}{\k48}ho{\k24}n{\k31}no {\k45}su{\k19}ko{\k37}shi {\k47}se{\k25}no{\k28}bi {\k44}shi{\k29}ta{\k29}ra
+Dialogue: 0,0:01:20.37,0:01:25.19,Mitsuru,,0,0,0,fx,{\k90\fad(300,200)}{\k23}hi{\k31}to{\k25}mi {\k26}no {\k17}o{\k33}ku {\k25}ni {\k42}DIV{\kf130}ING!!
+Dialogue: 0,0:01:24.45,0:01:27.62,Ensemble,,0,0,0,fx,{\k90\fad(300,200)}{\k27}LA {\k27}LA {\k40}BEATS {\k34}LOVE {\k25}RA*{\k54}BITS
+Dialogue: 0,0:01:26.52,0:01:29.87,Ensemble,,0,0,0,fx,{\k90\fad(300,200)}{\k17}is{\k35}sho {\k45}ni {\k30}STAR{\k22}RY {\k56}NIGHT
+Dialogue: 0,0:01:28.57,0:01:33.70,Tomoya,,0,0,0,fx,{\k90\fad(300,200)}{\k20}to{\k21}bi{\k22}ki{\k29}ri {\k31}no {\k31}yo{\k25}ru {\k37}ni {\k59}shi{\k39}ta{\k39}i {\k30}yo
+Dialogue: 0,0:01:32.61,0:01:37.79,Ensemble,,0,0,0,fx,{\k90\fad(300,200)}{\k29}yu{\k28}da{\k29}n {\k43}shi{\k29}te{\k43}ru {\k33}ki{\k23}mi {\k45}no {\kf86}HEART
+Dialogue: 0,0:01:36.65,0:01:41.41,Nazuna,,0,0,0,fx,{\k90\fad(300,200)}{\k32}mu{\k28}chu{\k24}u {\k18}ni {\k23}sa{\k36}se{\k21}ru {\k42}ka{\kf142}ra
+Dialogue: 0,0:01:40.81,0:01:45.82,Nazuna,,0,0,0,fx,{\k90\fad(300,200)}{\k23}to{\k26}ki{\k25}me{\k30}ki {\k19}wo {\k29}shi{\k18}n{\k50}ko{\kf151}kyuu
+Dialogue: 0,0:01:44.90,0:01:49.95,Hajime,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ka{\k26}ra{\k26}da{\k25}ju{\k26}u {\k51}HAP{\k76}PY {\k119}ni
+Dialogue: 0,0:01:48.94,0:01:54.80,Mitsuru,,0,0,0,fx,{\k90\fad(300,200)}{\k27}a{\k17}shi{\k34}ta {\k29}mo {\k24}ta{\k18}no{\k34}shi{\k42}ku {\k61}na{\k48}ru {\k27}yo{\k28}u {\k67}ni
+Dialogue: 0,0:01:53.85,0:01:56.84,Ensemble,,0,0,0,fx,{\k90\fad(300,200)}{\k34}MAKE {\k28}YOU {\kf107}SMILE
+Dialogue: 0,0:01:55.54,0:02:02.56,Ensemble,,0,0,0,fx,{\k90\fad(300,200)}{\k23}saa {\k37}SING {\k50}FOR {\kf119}JOY {\k62}u{\k50}ta{\kf231}ou
