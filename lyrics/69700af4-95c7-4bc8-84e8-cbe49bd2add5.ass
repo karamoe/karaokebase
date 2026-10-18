@@ -1,0 +1,77 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Title: I Can't Wait
+Original Timing: Himbeeerchen
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:01.89,0:00:02.44,Sample KM [Up],,0,0,0,karaoke,{\k55}Aa
+Comment: 0,0:00:02.82,0:00:04.07,Sample KM [Up],,0,0,0,karaoke,{\k44}I {\k49}can't {\k32}wait
+Comment: 0,0:00:04.21,0:00:05.62,Sample KM [Up],,0,0,0,karaoke,{\k47}No {\k47}mis{\k35}take
+Comment: 0,0:00:05.62,0:00:06.87,Sample KM [Up],,0,0,0,karaoke,{\k47}I'm {\k47}in {\k31}love
+Comment: 0,0:00:07.02,0:00:09.65,Sample KM [Up],,0,0,0,karaoke,{\k47}Like {\k46}a {\k47}drug {\k47}pick {\k47}me {\k29}up
+Comment: 0,0:00:09.83,0:00:11.22,Sample KM [Up],,0,0,0,karaoke,{\k46}These {\k47}feel{\k46}ings
+Comment: 0,0:00:11.22,0:00:13.90,Sample KM [Up],,0,0,0,karaoke,{\k47}Will {\k48}ne{\k47}ver {\k46}leave {\k46}my {\k34}heart
+Comment: 0,0:00:14.03,0:00:17.78,Sample KM [Up],,0,0,0,karaoke,{\k48}Love {\k46}me {\k47}love {\k46}me {\k48}a-{\k45}a-{\k48}a-{\k47}a
+Comment: 0,0:00:17.78,0:00:19.03,Sample KM [Up],,0,0,0,karaoke,{\k46}I {\k47}can't {\k32}wait
+Comment: 0,0:00:19.17,0:00:20.57,Sample KM [Up],,0,0,0,karaoke,{\k48}No {\k45}mis{\k47}take
+Comment: 0,0:00:20.57,0:00:21.84,Sample KM [Up],,0,0,0,karaoke,{\k47}I'm {\k47}in {\k33}love
+Comment: 0,0:00:21.97,0:00:24.62,Sample KM [Up],,0,0,0,karaoke,{\k47}Like {\k47}a {\k47}drug {\k46}pick {\k47}me {\k31}up
+Comment: 0,0:00:24.77,0:00:26.17,Sample KM [Up],,0,0,0,karaoke,{\k48}These {\k47}feel{\k45}ings
+Comment: 0,0:00:26.25,0:00:28.86,Sample KM [Up],,0,0,0,karaoke,{\k40}Will {\k47}ne{\k47}ver {\k47}leave {\k46}my {\k34}heart
+Comment: 0,0:00:28.99,0:00:32.74,Sample KM [Up],,0,0,0,karaoke,{\k46}Love {\k48}me {\k47}love {\k45}me {\k48}a-{\k46}a-{\k46}a-{\k49}a
+Comment: 0,0:00:48.59,0:00:52.25,Sample KM [Up],,0,0,0,karaoke,{\k48}do{\k48}ki{\k42}do{\k52}ki {\k42}ai{\k51}shi{\k47}te{\k36}ru
+Comment: 0,0:00:52.32,0:00:55.52,Sample KM [Up],,0,0,0,karaoke,{\k51}zut{\k47}to {\k45}ha{\k46}na{\k48}sa{\k47}na{\k36}i
+Comment: 0,0:00:55.62,0:00:59.76,Sample KM [Up],,0,0,0,karaoke,{\k48}ko{\k46}no {\k46}FEEL{\k48}I-{\k47}I-{\k46}ING {\k47}GO{\k47}O-{\k39}OD
+Comment: 0,0:00:59.81,0:01:03.57,Sample KM [Up],,0,0,0,karaoke,{\k49}ai{\k24}shi{\k24}te {\k44}ai{\k25}shi{\k24}te {\k47}a-{\k46}a-{\k46}a-{\k47}a
+Comment: 0,0:01:03.57,0:01:04.83,Sample KM [Up],,0,0,0,karaoke,{\k47}I {\k47}can't {\k32}wait
+Comment: 0,0:01:04.97,0:01:06.37,Sample KM [Up],,0,0,0,karaoke,{\k47}No {\k47}mis{\k46}take
+Comment: 0,0:01:06.37,0:01:07.64,Sample KM [Up],,0,0,0,karaoke,{\k47}I'm {\k46}in {\k34}love
+Comment: 0,0:01:07.77,0:01:10.43,Sample KM [Up],,0,0,0,karaoke,{\k48}Like {\k44}a {\k49}drug {\k47}pick {\k46}me {\k32}up
+Comment: 0,0:01:10.59,0:01:11.98,Sample KM [Up],,0,0,0,karaoke,{\k46}These {\k47}feel{\k46}ings
+Comment: 0,0:01:12.05,0:01:14.66,Sample KM [Up],,0,0,0,karaoke,{\k40}Will {\k47}ne{\k47}ver {\k47}leave {\k46}my {\k34}heart
+Comment: 0,0:01:14.79,0:01:18.53,Sample KM [Up],,0,0,0,karaoke,{\k47}Love {\k47}me {\k46}love {\k49}me {\k45}a-{\k46}a-{\k47}a-{\k47}a
+Comment: 0,0:01:18.53,0:01:21.33,Sample KM [Up],,0,0,0,karaoke,{\k47}a-{\k47}a-{\k46}a-{\k47}a-{\k47}a-{\k46}a
+Comment: 0,0:01:21.33,0:01:24.14,Sample KM [Up],,0,0,0,karaoke,{\k47}a-{\k47}a-{\k47}a-{\k46}a-{\k47}a-{\k47}a
+Comment: 0,0:01:24.14,0:01:29.75,Sample KM [Up],,0,0,0,karaoke,{\k47}a-{\k46}a-{\k47}a-{\k46}a-{\k47}a-{\k47}a-{\k48}a-{\k46}a-{\k46}a-{\k48}a-{\k45}a-{\k48}a
+Comment: 0,0:01:29.75,0:01:33.49,Sample KM [Up],,0,0,0,karaoke,{\k50}a-{\k50}a-{\k50}a-{\k50}a-{\k50}a-{\k50}a-{\k49}a-{\k25}a
+Dialogue: 0,0:00:00.99,0:00:02.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k55}Aa
+Dialogue: 0,0:00:01.92,0:00:04.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}I {\k49}can't {\k32}wait
+Dialogue: 0,0:00:03.31,0:00:05.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}No {\k47}mis{\k35}take
+Dialogue: 0,0:00:04.72,0:00:07.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}I'm {\k47}in {\k31}love
+Dialogue: 0,0:00:06.12,0:00:09.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Like {\k46}a {\k47}drug {\k47}pick {\k47}me {\k29}up
+Dialogue: 0,0:00:08.93,0:00:11.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}These {\k47}feel{\k46}ings
+Dialogue: 0,0:00:10.32,0:00:14.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Will {\k48}ne{\k47}ver {\k46}leave {\k46}my {\k34}heart
+Dialogue: 0,0:00:13.13,0:00:17.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Love {\k46}me {\k47}love {\k46}me {\k48}a-{\k45}a-{\k48}a-{\k47}a
+Dialogue: 0,0:00:16.88,0:00:19.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}I {\k47}can't {\k32}wait
+Dialogue: 0,0:00:18.27,0:00:20.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}No {\k45}mis{\k47}take
+Dialogue: 0,0:00:19.67,0:00:22.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}I'm {\k47}in {\k33}love
+Dialogue: 0,0:00:21.07,0:00:24.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Like {\k47}a {\k47}drug {\k46}pick {\k47}me {\k31}up
+Dialogue: 0,0:00:23.87,0:00:26.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}These {\k47}feel{\k45}ings
+Dialogue: 0,0:00:25.35,0:00:29.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Will {\k47}ne{\k47}ver {\k47}leave {\k46}my {\k34}heart
+Dialogue: 0,0:00:28.09,0:00:32.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Love {\k48}me {\k47}love {\k45}me {\k48}a-{\k46}a-{\k46}a-{\k49}a
+Dialogue: 0,0:00:47.69,0:00:52.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}do{\k48}ki{\k42}do{\k52}ki {\k42}ai{\k51}shi{\k47}te{\k36}ru
+Dialogue: 0,0:00:51.42,0:00:55.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k51}zut{\k47}to {\k45}ha{\k46}na{\k48}sa{\k47}na{\k36}i
+Dialogue: 0,0:00:54.72,0:00:59.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}ko{\k46}no {\k46}FEEL{\k48}I-{\k47}I-{\k46}ING {\k47}GO{\k47}O-{\k39}OD
+Dialogue: 0,0:00:58.91,0:01:03.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}ai{\k24}shi{\k24}te {\k44}ai{\k25}shi{\k24}te {\k47}a-{\k46}a-{\k46}a-{\k47}a
+Dialogue: 0,0:01:02.67,0:01:05.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}I {\k47}can't {\k32}wait
+Dialogue: 0,0:01:04.07,0:01:06.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}No {\k47}mis{\k46}take
+Dialogue: 0,0:01:05.47,0:01:07.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}I'm {\k46}in {\k34}love
+Dialogue: 0,0:01:06.87,0:01:10.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Like {\k44}a {\k49}drug {\k47}pick {\k46}me {\k32}up
+Dialogue: 0,0:01:09.69,0:01:12.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}These {\k47}feel{\k46}ings
+Dialogue: 0,0:01:11.15,0:01:14.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Will {\k47}ne{\k47}ver {\k47}leave {\k46}my {\k34}heart
+Dialogue: 0,0:01:13.89,0:01:18.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Love {\k47}me {\k46}love {\k49}me {\k45}a-{\k46}a-{\k47}a-{\k47}a
+Dialogue: 0,0:01:17.63,0:01:21.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}a-{\k47}a-{\k46}a-{\k47}a-{\k47}a-{\k46}a
+Dialogue: 0,0:01:20.43,0:01:24.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}a-{\k47}a-{\k47}a-{\k46}a-{\k47}a-{\k47}a
+Dialogue: 0,0:01:23.24,0:01:29.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}a-{\k46}a-{\k47}a-{\k46}a-{\k47}a-{\k47}a-{\k48}a-{\k46}a-{\k46}a-{\k48}a-{\k45}a-{\k48}a
+Dialogue: 0,0:01:28.85,0:01:33.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}a-{\k50}a-{\k50}a-{\k50}a-{\k50}a-{\k50}a-{\k49}a-{\k25}a
