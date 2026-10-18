@@ -1,0 +1,53 @@
+﻿[Script Info]
+Title: Mai Kuraki - Togetsukyou ~Kimi Omou~
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
+Original Timing: Kylian
+LayoutResX: 0
+LayoutResY: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,24,&H006F72F0,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.85,0:00:05.04,Default,,0,0,0,karaoke,{\k16}yo{\k20}ri{\k46}sou {\k17}fu{\k37}ta{\k32}ri {\k26}ni {\k33}ki{\k31}mi {\k33}ga {\k33}O{\k37}VER{\k58}LAP
+Comment: 0,0:00:06.03,0:00:10.07,Default,,0,0,0,karaoke,{\k13}i{\k20}ro {\k43}na{\k16}ki {\k32}ka{\k36}ze {\k29}ni {\k31}o{\k34}mo{\k34}i {\k27}ha{\k33}se{\k56}te
+Comment: 0,0:00:11.11,0:00:15.01,Default,,0,0,0,karaoke,{\k32}fu{\k30}re{\k32}ta {\k36}te {\k28}no {\k35}nu{\k30}ku{\k36}mo{\k30}ri {\k29}i{\k32}ma {\k40}mo
+Comment: 0,0:00:15.79,0:00:20.38,Default,,0,0,0,karaoke,{\k73}STOP {\k100}{\k27}ji{\k37}ka{\k28}n {\k47}wo {\k48}to{\k32}me{\k67}te
+Comment: 0,0:00:20.95,0:00:24.95,Default,,0,0,0,karaoke,{\kf102}sou {\k30}i{\k33}tsu {\k32}no {\k32}hi {\k35}da{\k42}t{\kf94}te
+Comment: 0,0:00:25.71,0:00:30.56,Default,,0,0,0,karaoke,{\k20}ki{\k19}mi {\k58}no {\k37}{\k32}ko{\k34}to{\k30}ba {\k33}wa{\k31}su{\k64}re{\k34}na{\k29}i {\k64}no
+Comment: 0,0:00:30.91,0:00:33.27,Default,,0,0,0,karaoke,{\k29}ai{\k33}tai {\k14}to{\k17}ki {\k33}ni {\k31}a{\k35}e{\k22}na{\k22}i
+Comment: 0,0:00:33.47,0:00:35.81,Default,,0,0,0,karaoke,{\k29}ai{\k34}tai {\k14}to{\k16}ki {\k33}ni {\k30}a{\k35}e{\k20}na{\k23}i
+Comment: 0,0:00:35.95,0:00:42.29,Default,,0,0,0,karaoke,{\k36}se{\k59}tsu{\k37}{\k32}na{\k49}ku{\k44}te {\k39}mo{\k91}do{\k39}ka{\kf208}shii
+Comment: 0,0:00:42.71,0:00:46.01,Default,,0,0,0,karaoke,{\k66}ka{\k60}ra {\k98}ku{\k30}re{\k76}nai
+Comment: 0,0:00:46.20,0:00:48.84,Default,,0,0,0,karaoke,{\k30}ni {\k34}so{\k32}ma{\k28}ru {\k20}to{\k19}ge{\k26}tsu{\k24}kyo{\k51}u
+Comment: 0,0:00:49.07,0:00:52.33,Default,,0,0,0,karaoke,{\k19}mi{\k13}chi{\k14}bi{\k18}ka{\k33}re{\k19}ru {\k44}hi {\k32}ne{\k32}ga{\k31}t{\k71}te
+Comment: 0,0:00:52.57,0:00:56.20,Default,,0,0,0,karaoke,{\k33}ka{\k64}wa {\k64}no {\kf96}na{\k37}ga{\k69}re
+Comment: 0,0:00:56.42,0:00:59.03,Default,,0,0,0,karaoke,{\k31}ni {\k32}i{\k32}no{\k32}ri {\k29}wo {\k34}ko{\k18}me{\k53}te
+Comment: 0,0:00:59.25,0:01:01.52,Default,,0,0,0,karaoke,{\k36}I’ve {\k31}been {\k32}think{\k17}ing {\k46}’bout {\k65}you
+Comment: 0,0:01:01.82,0:01:04.09,Default,,0,0,0,karaoke,{\k34}I’ve {\k32}been {\k30}think{\k19}ing {\k47}’bout {\k65}you
+Comment: 0,0:01:04.39,0:01:08.98,Default,,0,0,0,karaoke,{\k35}i{\k29}tsu {\k42}mo {\k21}{\k32}ko{\k33}ko{\k40}ro {\k24}{\k31}ki{\k33}mi {\k35}no {\k29}so{\k75}ba
+Dialogue: 0,0:00:00.00,0:00:05.24,Default,,0,0,0,fx,{\k85\fad(850,200)}{\k16}yo{\k20}ri{\k46}sou {\k17}fu{\k37}ta{\k32}ri {\k26}ni {\k33}ki{\k31}mi {\k33}ga {\k33}O{\k37}VER{\k58}LAP
+Dialogue: 0,0:00:05.13,0:00:10.27,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k13}i{\k20}ro {\k43}na{\k16}ki {\k32}ka{\k36}ze {\k29}ni {\k31}o{\k34}mo{\k34}i {\k27}ha{\k33}se{\k56}te
+Dialogue: 0,0:00:10.21,0:00:15.21,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k32}fu{\k30}re{\k32}ta {\k36}te {\k28}no {\k35}nu{\k30}ku{\k36}mo{\k30}ri {\k29}i{\k32}ma {\k40}mo
+Dialogue: 0,0:00:14.89,0:00:20.58,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k73}STOP {\k100}{\k27}ji{\k37}ka{\k28}n {\k47}wo {\k48}to{\k32}me{\k67}te
+Dialogue: 0,0:00:20.05,0:00:25.15,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf102}sou {\k30}i{\k33}tsu {\k32}no {\k32}hi {\k35}da{\k42}t{\kf94}te
+Dialogue: 0,0:00:24.81,0:00:30.76,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ki{\k19}mi {\k58}no {\k37}{\k32}ko{\k34}to{\k30}ba {\k33}wa{\k31}su{\k64}re{\k34}na{\k29}i {\k64}no
+Dialogue: 0,0:00:30.01,0:00:33.47,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ai{\k33}tai {\k14}to{\k17}ki {\k33}ni {\k31}a{\k35}e{\k22}na{\k22}i
+Dialogue: 0,0:00:32.57,0:00:36.01,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ai{\k34}tai {\k14}to{\k16}ki {\k33}ni {\k30}a{\k35}e{\k20}na{\k23}i
+Dialogue: 0,0:00:35.05,0:00:42.49,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k36}se{\k59}tsu{\k37}{\k32}na{\k49}ku{\k44}te {\k39}mo{\k91}do{\k39}ka{\kf208}shii
+Dialogue: 0,0:00:41.81,0:00:46.21,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k66}ka{\k60}ra {\k98}ku{\k30}re{\k76}nai
+Dialogue: 0,0:00:45.30,0:00:49.04,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ni {\k34}so{\k32}ma{\k28}ru {\k20}to{\k19}ge{\k26}tsu{\k24}kyo{\k51}u
+Dialogue: 0,0:00:48.17,0:00:52.53,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}mi{\k13}chi{\k14}bi{\k18}ka{\k33}re{\k19}ru {\k44}hi {\k32}ne{\k32}ga{\k31}t{\k71}te
+Dialogue: 0,0:00:51.67,0:00:56.40,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ka{\k64}wa {\k64}no {\kf96}na{\k37}ga{\k69}re
+Dialogue: 0,0:00:55.52,0:00:59.23,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ni {\k32}i{\k32}no{\k32}ri {\k29}wo {\k34}ko{\k18}me{\k53}te
+Dialogue: 0,0:00:58.35,0:01:01.72,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k36}I’ve {\k31}been {\k32}think{\k17}ing {\k46}’bout {\k65}you
+Dialogue: 0,0:01:00.92,0:01:04.29,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k34}I’ve {\k32}been {\k30}think{\k19}ing {\k47}’bout {\k65}you
+Dialogue: 0,0:01:03.49,0:01:09.18,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}i{\k29}tsu {\k42}mo {\k21}{\k32}ko{\k33}ko{\k40}ro {\k24}{\k31}ki{\k33}mi {\k35}no {\k29}so{\k75}ba
