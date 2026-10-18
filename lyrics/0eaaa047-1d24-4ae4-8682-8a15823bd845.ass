@@ -1,0 +1,174 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+LayoutResX: 0
+LayoutResY: 0
+Title: BiiiG
+Original Timing: Variabels
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Taeyang,Arial,24,&H00FFFFFF,&H00D175FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: GD,Arial,24,&H00FFFFFF,&H0041B5E6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Daesung,Arial,24,&H00FFFFFF,&H00FDC50E,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:10.00,GD,,0,0,0,guide,{\align(2)\k1000\k0}G-Dragon{\rTaeyang} Taeyang {\rDaesung}Daesung
+Comment: 0,0:00:11.37,0:00:13.69,GD,,0,0,0,karaoke,{\k36}B-{\k34}B, {\k31}G, {\k36}Tae, {\k32}Dae{\k20}sung'{\k43}i
+Comment: 0,0:00:14.09,0:00:15.10,GD,,0,0,0,karaoke,{\k11}yu{\k20}haeng'{\k21}i{\k14}ra{\k20}ji {\k15}ma
+Comment: 0,0:00:15.10,0:00:16.28,GD,,0,0,0,karaoke,{\k31}Been {\k38}there, {\k16}done {\k33}it
+Comment: 0,0:00:16.73,0:00:18.97,GD,,0,0,0,karaoke,{\k40}BIG{\k38}BANG, {\k30}B. {\k32}Thing, {\k27}be {\k25}some{\k32}thin'
+Comment: 0,0:00:19.48,0:00:21.82,GD,,0,0,0,karaoke,{\k34}FAN {\k34}ZONE {\k34}"baeng{\k34}bong" {\k32}bi{\k30}nnal {\k36}hui
+Comment: 0,0:00:22.47,0:00:24.51,Taeyang,,0,0,0,karaoke,{\k23}E{\k18}very{\k30}thing {\k34}big, {\k27}big, {\k41}big, {\k31}big
+Comment: 0,0:00:25.03,0:00:26.98,Taeyang,,0,0,0,karaoke,{\k15}We {\k19}a{\k18}ny{\k34}thing {\k65}big, {\k44}big
+Comment: 0,0:00:27.85,0:00:29.89,Daesung,,0,0,0,karaoke,{\k21}E{\k17}very{\k36}thing {\k33}big, {\k34}big, {\k32}big, {\k31}big
+Comment: 0,0:00:30.42,0:00:31.82,Daesung,,0,0,0,karaoke,{\k19}That {\k17}e{\k16}very{\k34}thing {\k54}big
+Comment: 0,0:00:31.38,0:00:32.43,Taeyang,,0,0,0,karaoke,{\k54}It's {\k51}me
+Comment: 0,0:00:32.92,0:00:34.97,GD,,0,0,0,karaoke,{\k21}Our {\k18}own {\k66}way, {\k17}all {\k18}the {\k35}way {\k30}up
+Comment: 0,0:00:35.64,0:00:36.65,GD,,0,0,0,karaoke,{\k16}gu{\k23}gwan'{\k13}i {\k19}myeong{\k30}gwan
+Comment: 0,0:00:36.65,0:00:37.85,GD,,0,0,0,karaoke,{\k23}ibi {\k14}tteok {\k21}ha{\k18}ni {\k44}beolss'
+Comment: 0,0:00:38.29,0:00:39.33,GD,,0,0,0,karaoke,{\k23}Twe{\k21}nty {\k37}years, {\k23}man
+Comment: 0,0:00:39.35,0:00:40.56,GD,,0,0,0,karaoke,{\k21}seu{\k15}mu{\k19}go{\k23}gae {\k43}TWERK
+Comment: 0,0:00:40.99,0:00:42.38,GD,,0,0,0,karaoke,{\k23}seong'{\k20}in{\k31}sik {\k18}jeong{\k15}na{\k20}raha{\k12}ge
+Comment: 0,0:00:42.38,0:00:43.06,GD,,0,0,0,karaoke,{\k39}World {\k29}tour
+Comment: 0,0:00:43.72,0:00:44.91,GD,,0,0,0,karaoke,{\k23}kki{\k15}ga {\k17}EX{\k16}TRA {\k48}LARGE
+Comment: 0,0:00:45.03,0:00:46.18,GD,,0,0,0,karaoke,{\k25}geuni{\k14}kka {\k14}ye{\k21}sul {\k41}haji
+Comment: 0,0:00:46.39,0:00:47.71,GD,,0,0,0,karaoke,{\k24}BIG {\k23}BANG {\k10}i{\k16}ra {\k12}il{\k19}go {\k28}sseo
+Comment: 0,0:00:47.80,0:00:48.82,GD,,0,0,0,karaoke,{\k9}u{\k9}ju {\k15}AM{\k18}BAS{\k17}SA{\k34}DOR
+Comment: 0,0:00:49.13,0:00:50.11,GD,,0,0,0,karaoke,{\k23}Would {\k18}you {\k11}pick {\k18}me {\k28}up?
+Comment: 0,0:00:50.35,0:00:51.49,GD,,0,0,0,karaoke,{\k14}Got {\k14}a {\k18}show {\k20}live {\k17}on {\k31}Earth
+Comment: 0,0:00:51.82,0:00:54.35,GD,,0,0,0,karaoke,{\k25}B {\k26}I {\k19}G{\k50}~ {\k17}a{\k13}ra{\k27}seo {\k19}gi{\k21}eo{\k36}wa
+Comment: 0,0:00:54.86,0:00:56.76,Taeyang,,0,0,0,karaoke,{\k19}u{\k17}rin {\k12}ga{\k23}chi {\k16}tta{\k17}ro {\k31}nol{\k55}ji
+Comment: 0,0:00:57.26,0:00:59.66,Taeyang,,0,0,0,karaoke,{\k14}ui{\k18}sik {\k16}gong{\k18}gan{\k26}do {\k23}cho{\k11}wol{\k32}ha{\k82}ni
+Comment: 0,0:00:59.93,0:01:02.10,Taeyang,,0,0,0,karaoke,{\k30}Big {\k37}shots, {\k16}Sal{\k17}va{\k36}dor {\k34}Da{\k47}lí
+Comment: 0,0:01:02.44,0:01:04.87,Taeyang,,0,0,0,karaoke,{\k19}We {\k16}like {\k18}to {\k18}par{\k14}ty {\k17}af{\k18}ter {\k18}par{\k15}ty, {\k29}no {\k61}sleep
+Comment: 0,0:01:04.88,0:01:08.86,Daesung,,0,0,0,karaoke,{\kf122}OH,{\k24} {\k20}da{\k15}deul {\k18}ba{\k16}kkeu{\k17}ro {\k17}na{\k34}wa {\kf115}GO
+Comment: 0,0:01:08.87,0:01:10.39,Daesung,,0,0,0,karaoke,{\k16}keu{\k16}ge {\k20}so{\k15}ri {\k19}ji{\k19}lleo {\k11}jo{\k36}a
+Comment: 0,0:01:10.39,0:01:12.89,Daesung,,0,0,0,karaoke,{\k19}ma{\k46}chim {\k22}o{\k47}neul {\k20}bul{\k43}geun {\k22}no'{\k31}eul
+Comment: 0,0:01:12.95,0:01:14.44,Daesung,,0,0,0,karaoke,{\k30}Yeah {\k17}we {\k18}do {\k15}it, {\k24}yeah {\k11}we {\k16}do {\k18}it
+Comment: 0,0:01:14.44,0:01:15.65,Daesung,,0,0,0,karaoke,{\k28}Big, {\k39}big, {\k34}big, {\k20}big
+Comment: 0,0:01:16.12,0:01:18.39,GD,,0,0,0,karaoke,{\k34}B-{\k34}B, {\k31}G, {\k36}Tae, {\k32}Dae{\k20}sung'{\k40}i
+Comment: 0,0:01:18.82,0:01:19.82,GD,,0,0,0,karaoke,{\k11}yu{\k20}haeng'{\k20}i{\k15}ra{\k19}ji {\k15}ma
+Comment: 0,0:01:19.84,0:01:20.99,GD,,0,0,0,karaoke,{\k31}Been {\k38}there, {\k16}done {\k30}it
+Comment: 0,0:01:21.47,0:01:23.65,GD,,0,0,0,karaoke,{\k38}BIG{\k38}BANG, {\k30}B. {\k32}Thing, {\k27}be {\k25}some{\k28}thin'
+Comment: 0,0:01:24.21,0:01:26.50,GD,,0,0,0,karaoke,{\k34}FAN {\k34}ZONE {\k34}"baeng{\k34}bong" {\k32}bi{\k30}nnal {\k31}hui
+Comment: 0,0:01:27.20,0:01:29.22,Taeyang,,0,0,0,karaoke,{\k22}E{\k18}very{\k30}thing {\k34}big, {\k27}big, {\k41}big, {\k30}big
+Comment: 0,0:01:29.74,0:01:31.76,Taeyang,,0,0,0,karaoke,{\k15}We {\k19}a{\k18}ny{\k39}thing {\k62}big, {\k49}big
+Comment: 0,0:01:32.61,0:01:34.56,Taeyang,,0,0,0,karaoke,{\k18}E{\k17}very{\k36}thing {\k33}big, {\k34}big, {\k32}big, {\k25}big
+Comment: 0,0:01:35.20,0:01:36.48,Taeyang,,0,0,0,karaoke,{\k14}That {\k17}e{\k16}very{\k34}thing {\k47}big
+Comment: 0,0:01:36.01,0:01:37.04,Taeyang,,0,0,0,karaoke,{\k70}It's {\k33}me
+Comment: 0,0:01:37.63,0:01:40.27,GD,,0,0,0,karaoke,{\k72}yang{\k30}ja'{\k39}yeo{\k68}kak {\k21}bal{\k34}hyeon
+Comment: 0,0:01:40.37,0:01:42.92,GD,,0,0,0,karaoke,{\k63}ssang{\k30}pa{\k38}llyeon {\k53}SOUTH {\k19}KO{\k20}RE{\k32}AN
+Comment: 0,0:01:43.06,0:01:45.65,GD,,0,0,0,karaoke,{\k53}MAM{\k17}MA {\k20}MI{\k48}A {\k42}kkan{\k23}tta{\k18}ppi'{\k38}ya
+Comment: 0,0:01:44.85,0:01:46.39,GD,,0,0,0,karaoke,{\k12}jeo{\k12}leu{\k17}mui {\k13}do{\k22}sim {\k18}han'{\k24}ga'{\k11}un{\k25}de
+Comment: 0,0:01:46.28,0:01:47.11,GD,,0,0,0,karaoke,{\k10}cheong{\k9}chu{\k14}ne {\k18}do{\k19}chwi{\k13}han
+Comment: 0,0:01:47.11,0:01:47.63,GD,,0,0,0,karaoke,{\k30}BOUN{\k22}DARY
+Comment: 0,0:01:47.42,0:01:48.45,GD,,0,0,0,karaoke,{\k20}E{\k19}very{\k14}thing {\k16}is {\k34}big
+Comment: 0,0:01:48.62,0:01:49.72,GD,,0,0,0,karaoke,{\k20}You {\k17}know {\k16}that {\k15}I'm {\k20}a {\k22}G
+Comment: 0,0:01:49.95,0:01:51.06,GD,,0,0,0,karaoke,{\k21}tteot{\k13}da {\k13}ham{\k9}yeon {\k12}bi{\k21}haen{\k22}ggi
+Comment: 0,0:01:51.27,0:01:52.41,GD,,0,0,0,karaoke,{\k22}sseot{\k11}da {\k11}ham{\k16}yeon {\k15}il{\k17}dae{\k22}gi
+Comment: 0,0:01:52.63,0:01:53.85,GD,,0,0,0,karaoke,{\k19}Name {\k18}e{\k17}very{\k14}thing {\k22}is {\k32}big
+Comment: 0,0:01:54.00,0:01:55.23,GD,,0,0,0,karaoke,{\k19}bu{\k19}lleo {\k17}BANG {\k11}OF {\k9}a{\k13}beo{\k35}ji
+Comment: 0,0:01:55.37,0:01:56.56,GD,,0,0,0,karaoke,{\k19}Yeah {\k16}this {\k16}is {\k17}how {\k18}we {\k14}do {\k19}it
+Comment: 0,0:01:56.56,0:01:58.82,GD,,0,0,0,karaoke,{\k16}Get{\k17}tin' {\k22}down {\k14}to {\k28}busi{\k40}ness, {\k33}big {\k24}ge{\k32}nius
+Comment: 0,0:01:59.59,0:02:01.41,Daesung,,0,0,0,karaoke,{\k19}u{\k17}rin {\k12}ga{\k22}chi {\k17}tta{\k17}ro {\k31}nol{\k47}ji
+Comment: 0,0:02:01.95,0:02:04.35,Daesung,,0,0,0,karaoke,{\k16}na{\k19}ra{\k19}dan{\k16}yeo {\k29}RING {\k22}na{\k15}bi{\k30}ga{\k74}chi
+Comment: 0,0:02:04.66,0:02:06.77,Daesung,,0,0,0,karaoke,{\k34}Big {\k29}shots, {\k16}Mu{\k18}ham{\k37}mad {\k34}A{\k43}li
+Comment: 0,0:02:07.17,0:02:09.54,Daesung,,0,0,0,karaoke,{\k19}We {\k16}like {\k18}to {\k18}par{\k14}ty {\k17}af{\k18}ter {\k18}par{\k15}ty, {\k29}no {\k55}sleep
+Comment: 0,0:02:09.64,0:02:13.37,Taeyang,,0,0,0,karaoke,{\kf108}OH,{\k32} {\k19}ha{\k18}neul {\k14}ba{\k20}kkeu{\k17}ro {\k16}na{\k34}wa {\kf95}GO
+Comment: 0,0:02:13.76,0:02:15.11,Taeyang,,0,0,0,karaoke,{\k21}keuge {\k12}meo{\k17}lli {\k17}sil{\k18}keot {\k16}do{\k34}ra
+Comment: 0,0:02:15.11,0:02:17.61,Taeyang,,0,0,0,karaoke,{\k19}na{\k47}chim{\k20}ba{\k47}neun {\k21}pu{\k46}reun {\k19}no'{\k31}eul
+Comment: 0,0:02:17.77,0:02:19.16,Taeyang,,0,0,0,karaoke,{\k20}Yeah {\k17}we {\k18}do {\k15}it, {\k24}yeah {\k11}we {\k16}do {\k18}it
+Comment: 0,0:02:19.17,0:02:20.37,Taeyang,,0,0,0,karaoke,{\k28}Big, {\k39}big, {\k34}big, {\k19}big
+Comment: 0,0:02:20.82,0:02:23.14,GD,,0,0,0,karaoke,{\k36}B-{\k34}B, {\k31}G, {\k36}Tae, {\k32}Dae{\k20}sung'{\k43}i
+Comment: 0,0:02:23.54,0:02:24.55,GD,,0,0,0,karaoke,{\k11}yu{\k20}haeng'{\k21}i{\k14}ra{\k20}ji {\k15}ma
+Comment: 0,0:02:24.55,0:02:25.73,GD,,0,0,0,karaoke,{\k31}Been {\k38}there, {\k16}done {\k33}it
+Comment: 0,0:02:26.18,0:02:28.42,GD,,0,0,0,karaoke,{\k40}BIG{\k38}BANG, {\k30}B. {\k32}Thing, {\k27}be {\k25}some{\k32}thin'
+Comment: 0,0:02:28.93,0:02:31.27,GD,,0,0,0,karaoke,{\k34}FAN {\k34}ZONE {\k34}"baeng{\k34}bong" {\k32}bi{\k30}nnal {\k36}hui
+Comment: 0,0:02:31.92,0:02:33.96,Daesung,,0,0,0,karaoke,{\k23}E{\k18}very{\k30}thing {\k34}big, {\k27}big, {\k41}big, {\k31}big
+Comment: 0,0:02:34.48,0:02:36.43,Daesung,,0,0,0,karaoke,{\k15}We {\k19}a{\k18}ny{\k34}thing {\k65}big, {\k44}big
+Comment: 0,0:02:37.30,0:02:39.34,Daesung,,0,0,0,karaoke,{\k21}E{\k17}very{\k36}thing {\k33}big, {\k34}big, {\k32}big, {\k31}big
+Comment: 0,0:02:39.87,0:02:41.27,Daesung,,0,0,0,karaoke,{\k19}That {\k17}e{\k16}very{\k34}thing {\k54}big
+Comment: 0,0:02:40.83,0:02:41.88,Daesung,,0,0,0,karaoke,{\k54}It's {\k51}me
+Dialogue: 0,0:00:10.47,0:00:13.89,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k36}B-{\k34}B, {\k31}G, {\k36}Tae, {\k32}Dae{\k20}sung'{\k43}i
+Dialogue: 0,0:00:13.19,0:00:15.30,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k11}yu{\k20}haeng'{\k21}i{\k14}ra{\k20}ji {\k15}ma
+Dialogue: 0,0:00:14.20,0:00:16.48,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Been {\k38}there, {\k16}done {\k33}it
+Dialogue: 0,0:00:15.83,0:00:19.17,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k40}BIG{\k38}BANG, {\k30}B. {\k32}Thing, {\k27}be {\k25}some{\k32}thin'
+Dialogue: 0,0:00:18.58,0:00:22.02,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k34}FAN {\k34}ZONE {\k34}"baeng{\k34}bong" {\k32}bi{\k30}nnal {\k36}hui
+Dialogue: 0,0:00:21.57,0:00:24.71,Taeyang,,0,0,0,fx,{\k90\fad(300,200)}{\k23}E{\k18}very{\k30}thing {\k34}big, {\k27}big, {\k41}big, {\k31}big
+Dialogue: 0,0:00:24.13,0:00:27.18,Taeyang,,0,0,0,fx,{\k90\fad(300,200)}{\k15}We {\k19}a{\k18}ny{\k34}thing {\k65}big, {\k44}big
+Dialogue: 0,0:00:26.95,0:00:30.09,Daesung,,0,0,0,fx,{\k90\fad(300,200)}{\k21}E{\k17}very{\k36}thing {\k33}big, {\k34}big, {\k32}big, {\k31}big
+Dialogue: 0,0:00:29.52,0:00:32.02,Daesung,,0,0,0,fx,{\k90\fad(300,200)}{\k19}That {\k17}e{\k16}very{\k34}thing {\k54}big
+Dialogue: 0,0:00:30.48,0:00:32.63,Taeyang,,0,0,0,fx,{\k90\fad(300,200)}{\k54}It's {\k51}me
+Dialogue: 0,0:00:32.02,0:00:35.17,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Our {\k18}own {\k66}way, {\k17}all {\k18}the {\k35}way {\k30}up
+Dialogue: 0,0:00:34.74,0:00:36.85,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k16}gu{\k23}gwan'{\k13}i {\k19}myeong{\k30}gwan
+Dialogue: 0,0:00:35.75,0:00:38.05,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ibi {\k14}tteok {\k21}ha{\k18}ni {\k44}beolss'
+Dialogue: 0,0:00:37.39,0:00:39.53,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Twe{\k21}nty {\k37}years, {\k23}man
+Dialogue: 0,0:00:38.45,0:00:40.76,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k21}seu{\k15}mu{\k19}go{\k23}gae {\k43}TWERK
+Dialogue: 0,0:00:40.09,0:00:42.58,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k23}seong'{\k20}in{\k31}sik {\k18}jeong{\k15}na{\k20}raha{\k12}ge
+Dialogue: 0,0:00:41.48,0:00:43.26,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k39}World {\k29}tour
+Dialogue: 0,0:00:42.82,0:00:45.11,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k23}kki{\k15}ga {\k17}EX{\k16}TRA {\k48}LARGE
+Dialogue: 0,0:00:44.13,0:00:46.38,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k25}geuni{\k14}kka {\k14}ye{\k21}sul {\k41}haji
+Dialogue: 0,0:00:45.49,0:00:47.91,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k24}BIG {\k23}BANG {\k10}i{\k16}ra {\k12}il{\k19}go {\k28}sseo
+Dialogue: 0,0:00:46.90,0:00:49.02,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k9}u{\k9}ju {\k15}AM{\k18}BAS{\k17}SA{\k34}DOR
+Dialogue: 0,0:00:48.23,0:00:50.31,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Would {\k18}you {\k11}pick {\k18}me {\k28}up?
+Dialogue: 0,0:00:49.45,0:00:51.69,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Got {\k14}a {\k18}show {\k20}live {\k17}on {\k31}Earth
+Dialogue: 0,0:00:50.92,0:00:54.55,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k25}B {\k26}I {\k19}G{\k50}~ {\k17}a{\k13}ra{\k27}seo {\k19}gi{\k21}eo{\k36}wa
+Dialogue: 0,0:00:53.96,0:00:56.96,Taeyang,,0,0,0,fx,{\k90\fad(300,200)}{\k19}u{\k17}rin {\k12}ga{\k23}chi {\k16}tta{\k17}ro {\k31}nol{\k55}ji
+Dialogue: 0,0:00:56.36,0:00:59.86,Taeyang,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ui{\k18}sik {\k16}gong{\k18}gan{\k26}do {\k23}cho{\k11}wol{\k32}ha{\k82}ni
+Dialogue: 0,0:00:59.03,0:01:02.30,Taeyang,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Big {\k37}shots, {\k16}Sal{\k17}va{\k36}dor {\k34}Da{\k47}lí
+Dialogue: 0,0:01:01.54,0:01:05.07,Taeyang,,0,0,0,fx,{\k90\fad(300,200)}{\k19}We {\k16}like {\k18}to {\k18}par{\k14}ty {\k17}af{\k18}ter {\k18}par{\k15}ty, {\k29}no {\k61}sleep
+Dialogue: 0,0:01:03.98,0:01:09.06,Daesung,,0,0,0,fx,{\k90\fad(300,200)}{\kf122}OH,{\k24} {\k20}da{\k15}deul {\k18}ba{\k16}kkeu{\k17}ro {\k17}na{\k34}wa {\kf115}GO
+Dialogue: 0,0:01:07.97,0:01:10.59,Daesung,,0,0,0,fx,{\k90\fad(300,200)}{\k16}keu{\k16}ge {\k20}so{\k15}ri {\k19}ji{\k19}lleo {\k11}jo{\k36}a
+Dialogue: 0,0:01:09.49,0:01:13.09,Daesung,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ma{\k46}chim {\k22}o{\k47}neul {\k20}bul{\k43}geun {\k22}no'{\k31}eul
+Dialogue: 0,0:01:12.05,0:01:14.64,Daesung,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Yeah {\k17}we {\k18}do {\k15}it, {\k24}yeah {\k11}we {\k16}do {\k18}it
+Dialogue: 0,0:01:13.54,0:01:15.85,Daesung,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Big, {\k39}big, {\k34}big, {\k20}big
+Dialogue: 0,0:01:15.22,0:01:18.59,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k34}B-{\k34}B, {\k31}G, {\k36}Tae, {\k32}Dae{\k20}sung'{\k40}i
+Dialogue: 0,0:01:17.92,0:01:20.02,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k11}yu{\k20}haeng'{\k20}i{\k15}ra{\k19}ji {\k15}ma
+Dialogue: 0,0:01:18.94,0:01:21.19,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Been {\k38}there, {\k16}done {\k30}it
+Dialogue: 0,0:01:20.57,0:01:23.85,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k38}BIG{\k38}BANG, {\k30}B. {\k32}Thing, {\k27}be {\k25}some{\k28}thin'
+Dialogue: 0,0:01:23.31,0:01:26.70,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k34}FAN {\k34}ZONE {\k34}"baeng{\k34}bong" {\k32}bi{\k30}nnal {\k31}hui
+Dialogue: 0,0:01:26.30,0:01:29.42,Taeyang,,0,0,0,fx,{\k90\fad(300,200)}{\k22}E{\k18}very{\k30}thing {\k34}big, {\k27}big, {\k41}big, {\k30}big
+Dialogue: 0,0:01:28.84,0:01:31.96,Taeyang,,0,0,0,fx,{\k90\fad(300,200)}{\k15}We {\k19}a{\k18}ny{\k39}thing {\k62}big, {\k49}big
+Dialogue: 0,0:01:31.71,0:01:34.76,Taeyang,,0,0,0,fx,{\k90\fad(300,200)}{\k18}E{\k17}very{\k36}thing {\k33}big, {\k34}big, {\k32}big, {\k25}big
+Dialogue: 0,0:01:34.30,0:01:36.68,Taeyang,,0,0,0,fx,{\k90\fad(300,200)}{\k14}That {\k17}e{\k16}very{\k34}thing {\k47}big
+Dialogue: 0,0:01:35.11,0:01:37.24,Taeyang,,0,0,0,fx,{\k90\fad(300,200)}{\k70}It's {\k33}me
+Dialogue: 0,0:01:36.73,0:01:40.47,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k72}yang{\k30}ja'{\k39}yeo{\k68}kak {\k21}bal{\k34}hyeon
+Dialogue: 0,0:01:39.47,0:01:43.12,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k63}ssang{\k30}pa{\k38}llyeon {\k53}SOUTH {\k19}KO{\k20}RE{\k32}AN
+Dialogue: 0,0:01:42.16,0:01:45.85,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k53}MAM{\k17}MA {\k20}MI{\k48}A {\k42}kkan{\k23}tta{\k18}ppi'{\k38}ya
+Dialogue: 0,0:01:43.95,0:01:46.59,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k12}jeo{\k12}leu{\k17}mui {\k13}do{\k22}sim {\k18}han'{\k24}ga'{\k11}un{\k25}de
+Dialogue: 0,0:01:45.38,0:01:47.31,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k10}cheong{\k9}chu{\k14}ne {\k18}do{\k19}chwi{\k13}han
+Dialogue: 0,0:01:46.21,0:01:47.83,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k30}BOUN{\k22}DARY
+Dialogue: 0,0:01:46.52,0:01:48.65,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k20}E{\k19}very{\k14}thing {\k16}is {\k34}big
+Dialogue: 0,0:01:47.72,0:01:49.92,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k20}You {\k17}know {\k16}that {\k15}I'm {\k20}a {\k22}G
+Dialogue: 0,0:01:49.05,0:01:51.26,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k21}tteot{\k13}da {\k13}ham{\k9}yeon {\k12}bi{\k21}haen{\k22}ggi
+Dialogue: 0,0:01:50.37,0:01:52.61,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k22}sseot{\k11}da {\k11}ham{\k16}yeon {\k15}il{\k17}dae{\k22}gi
+Dialogue: 0,0:01:51.73,0:01:54.05,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Name {\k18}e{\k17}very{\k14}thing {\k22}is {\k32}big
+Dialogue: 0,0:01:53.10,0:01:55.43,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k19}bu{\k19}lleo {\k17}BANG {\k11}OF {\k9}a{\k13}beo{\k35}ji
+Dialogue: 0,0:01:54.47,0:01:56.76,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Yeah {\k16}this {\k16}is {\k17}how {\k18}we {\k14}do {\k19}it
+Dialogue: 0,0:01:55.66,0:01:59.02,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Get{\k17}tin' {\k22}down {\k14}to {\k28}busi{\k40}ness, {\k33}big {\k24}ge{\k32}nius
+Dialogue: 0,0:01:58.69,0:02:01.61,Daesung,,0,0,0,fx,{\k90\fad(300,200)}{\k19}u{\k17}rin {\k12}ga{\k22}chi {\k17}tta{\k17}ro {\k31}nol{\k47}ji
+Dialogue: 0,0:02:01.05,0:02:04.55,Daesung,,0,0,0,fx,{\k90\fad(300,200)}{\k16}na{\k19}ra{\k19}dan{\k16}yeo {\k29}RING {\k22}na{\k15}bi{\k30}ga{\k74}chi
+Dialogue: 0,0:02:03.76,0:02:06.97,Daesung,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Big {\k29}shots, {\k16}Mu{\k18}ham{\k37}mad {\k34}A{\k43}li
+Dialogue: 0,0:02:06.27,0:02:09.74,Daesung,,0,0,0,fx,{\k90\fad(300,200)}{\k19}We {\k16}like {\k18}to {\k18}par{\k14}ty {\k17}af{\k18}ter {\k18}par{\k15}ty, {\k29}no {\k55}sleep
+Dialogue: 0,0:02:08.74,0:02:13.57,Taeyang,,0,0,0,fx,{\k90\fad(300,200)}{\kf108}OH,{\k32} {\k19}ha{\k18}neul {\k14}ba{\k20}kkeu{\k17}ro {\k16}na{\k34}wa {\kf95}GO
+Dialogue: 0,0:02:12.86,0:02:15.31,Taeyang,,0,0,0,fx,{\k90\fad(300,200)}{\k21}keuge {\k12}meo{\k17}lli {\k17}sil{\k18}keot {\k16}do{\k34}ra
+Dialogue: 0,0:02:14.21,0:02:17.81,Taeyang,,0,0,0,fx,{\k90\fad(300,200)}{\k19}na{\k47}chim{\k20}ba{\k47}neun {\k21}pu{\k46}reun {\k19}no'{\k31}eul
+Dialogue: 0,0:02:16.87,0:02:19.36,Taeyang,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Yeah {\k17}we {\k18}do {\k15}it, {\k24}yeah {\k11}we {\k16}do {\k18}it
+Dialogue: 0,0:02:18.27,0:02:20.57,Taeyang,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Big, {\k39}big, {\k34}big, {\k19}big
+Dialogue: 0,0:02:19.92,0:02:23.34,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k36}B-{\k34}B, {\k31}G, {\k36}Tae, {\k32}Dae{\k20}sung'{\k43}i
+Dialogue: 0,0:02:22.64,0:02:24.75,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k11}yu{\k20}haeng'{\k21}i{\k14}ra{\k20}ji {\k15}ma
+Dialogue: 0,0:02:23.65,0:02:25.93,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Been {\k38}there, {\k16}done {\k33}it
+Dialogue: 0,0:02:25.28,0:02:28.62,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k40}BIG{\k38}BANG, {\k30}B. {\k32}Thing, {\k27}be {\k25}some{\k32}thin'
+Dialogue: 0,0:02:28.03,0:02:31.47,GD,,0,0,0,fx,{\k90\fad(300,200)}{\k34}FAN {\k34}ZONE {\k34}"baeng{\k34}bong" {\k32}bi{\k30}nnal {\k36}hui
+Dialogue: 0,0:02:31.02,0:02:34.16,Daesung,,0,0,0,fx,{\k90\fad(300,200)}{\k23}E{\k18}very{\k30}thing {\k34}big, {\k27}big, {\k41}big, {\k31}big
+Dialogue: 0,0:02:33.58,0:02:36.63,Daesung,,0,0,0,fx,{\k90\fad(300,200)}{\k15}We {\k19}a{\k18}ny{\k34}thing {\k65}big, {\k44}big
+Dialogue: 0,0:02:36.40,0:02:39.54,Daesung,,0,0,0,fx,{\k90\fad(300,200)}{\k21}E{\k17}very{\k36}thing {\k33}big, {\k34}big, {\k32}big, {\k31}big
+Dialogue: 0,0:02:38.97,0:02:41.47,Daesung,,0,0,0,fx,{\k90\fad(300,200)}{\k19}That {\k17}e{\k16}very{\k34}thing {\k54}big
+Dialogue: 0,0:02:39.93,0:02:42.08,Daesung,,0,0,0,fx,{\k90\fad(300,200)}{\k54}It's {\k51}me
