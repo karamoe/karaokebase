@@ -1,0 +1,41 @@
+﻿[Script Info]
+Title: Iori - Kimi ga Ireba
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
+Original Timing: Kylian
+LayoutResX: 0
+LayoutResY: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,24,&H006F72F0,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:14.93,0:00:18.64,Default,,0,0,0,karaoke,{\k23}u{\k24}tsu{\k41}mu{\k54}ku {\k34}{\k31}so{\k21}no {\k48}se{\k43}na{\k26}ka {\k26}ni
+Comment: 0,0:00:19.06,0:00:22.31,Default,,0,0,0,karaoke,{\k22}i{\k25}ta{\k20}i {\k25}a{\k46}me {\k22}ga {\k23}tsu{\k42}ki{\k48}sa{\k25}sa{\k27}ru
+Comment: 0,0:00:22.73,0:00:29.03,Default,,0,0,0,karaoke,{\k46}i{\k45}no{\k47}ru {\k45}o{\k41}mo{\k51}i{\k45}de {\k47}mi{\k22}te {\k23}i{\kf218}ta
+Comment: 0,0:00:29.59,0:00:33.30,Default,,0,0,0,karaoke,{\k23}ko{\k23}no {\k47}yo {\k48}ni {\k42}{\k22}mo{\k24}shi{\k42}mo {\k46}ka{\k27}sa {\k27}ga
+Comment: 0,0:00:33.71,0:00:36.96,Default,,0,0,0,karaoke,{\k25}ta{\k22}t{\k23}ta {\k22}hi{\k47}to{\k21}tsu {\k24}da {\k41}to {\k50}shi{\k23}te {\k27}mo
+Comment: 0,0:00:37.36,0:00:43.61,Default,,0,0,0,karaoke,{\k48}sa{\k44}ga{\k48}shi{\k45}te {\k46}ki{\k47}mi {\k45}ni {\k46}wa{\k21}ta{\k25}su {\kf210}yo
+Comment: 0,0:00:44.25,0:00:47.96,Default,,0,0,0,karaoke,{\k46}na{\k46}ni {\k68}mo {\k24}de{\k22}ki{\k23}na{\k23}i {\k46}ke{\k73}do
+Comment: 0,0:00:48.37,0:00:50.94,Default,,0,0,0,karaoke,{\k47}ki{\k23}mi {\k43}no {\k24}ka{\k26}wa{\kf94}ri
+Comment: 0,0:00:51.35,0:00:58.39,Default,,0,0,0,karaoke,{\k21}nu{\k23}re{\k23}ru {\k45}ku{\k25}ra{\k64}i {\k51}{\k46}wa{\k22}ke {\k23}mo {\k23}na{\k41}i {\kf297}sa
+Comment: 0,0:00:58.92,0:01:02.62,Default,,0,0,0,karaoke,{\k22}o{\k23}ne{\k46}ga{\k49}i {\k40}{\k26}so{\k22}no {\k46}na{\k46}ya{\k23}mi {\k27}wo
+Comment: 0,0:01:03.02,0:01:10.25,Default,,0,0,0,karaoke,{\k24}do{\k19}u {\k26}ka {\k23}wa{\k43}ta{\k26}shi {\k24}ni {\k47}u{\k43}chi{\k22}a{\k46}ke{\kf380}te
+Dialogue: 0,0:00:14.03,0:00:18.84,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}u{\k24}tsu{\k41}mu{\k54}ku {\k34}{\k31}so{\k21}no {\k48}se{\k43}na{\k26}ka {\k26}ni
+Dialogue: 0,0:00:18.16,0:00:22.51,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k22}i{\k25}ta{\k20}i {\k25}a{\k46}me {\k22}ga {\k23}tsu{\k42}ki{\k48}sa{\k25}sa{\k27}ru
+Dialogue: 0,0:00:21.83,0:00:29.23,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k46}i{\k45}no{\k47}ru {\k45}o{\k41}mo{\k51}i{\k45}de {\k47}mi{\k22}te {\k23}i{\kf218}ta
+Dialogue: 0,0:00:28.69,0:00:33.50,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ko{\k23}no {\k47}yo {\k48}ni {\k42}{\k22}mo{\k24}shi{\k42}mo {\k46}ka{\k27}sa {\k27}ga
+Dialogue: 0,0:00:32.81,0:00:37.16,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ta{\k22}t{\k23}ta {\k22}hi{\k47}to{\k21}tsu {\k24}da {\k41}to {\k50}shi{\k23}te {\k27}mo
+Dialogue: 0,0:00:36.46,0:00:43.81,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k48}sa{\k44}ga{\k48}shi{\k45}te {\k46}ki{\k47}mi {\k45}ni {\k46}wa{\k21}ta{\k25}su {\kf210}yo
+Dialogue: 0,0:00:43.35,0:00:48.16,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k46}na{\k46}ni {\k68}mo {\k24}de{\k22}ki{\k23}na{\k23}i {\k46}ke{\k73}do
+Dialogue: 0,0:00:47.47,0:00:51.14,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k47}ki{\k23}mi {\k43}no {\k24}ka{\k26}wa{\kf94}ri
+Dialogue: 0,0:00:50.45,0:00:58.59,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}nu{\k23}re{\k23}ru {\k45}ku{\k25}ra{\k64}i {\k51}{\k46}wa{\k22}ke {\k23}mo {\k23}na{\k41}i {\kf297}sa
+Dialogue: 0,0:00:58.02,0:01:02.82,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k22}o{\k23}ne{\k46}ga{\k49}i {\k40}{\k26}so{\k22}no {\k46}na{\k46}ya{\k23}mi {\k27}wo
+Dialogue: 0,0:01:02.12,0:01:10.45,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}do{\k19}u {\k26}ka {\k23}wa{\k43}ta{\k26}shi {\k24}ni {\k47}u{\k43}chi{\k22}a{\k46}ke{\kf380}te
