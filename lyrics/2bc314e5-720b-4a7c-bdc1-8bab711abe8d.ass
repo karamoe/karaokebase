@@ -1,0 +1,102 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+LayoutResX: 0
+LayoutResY: 0
+Title: Joyful Box
+Original Timing: Skytree
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Tomoya,Arial,24,&H00FFFFFF,&H000FA5D6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Hajime,Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Nazuna,Arial,24,&H00FFFFFF,&H000B05F4,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM  [Voice Ensemble],Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mitsuru,Arial,24,&H00FFFFFF,&H004779F8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM  [Voice Ensemble],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:10.19,0:00:18.13,Sample KM  [Voice Ensemble],,0,0,0,karaoke,{\k45}La {\k52}La {\k15}La {\k16}La {\k60}La {\k26}La {\k26}La {\k59}La {\k167}La {\k36}hi{\k24}ra{\k14}ke {\k59}JOY{\k62}FUL {\kf113}BOX
+Comment: 0,0:00:23.81,0:00:27.16,Hajime,,0,0,0,karaoke,{\k25}ha{\k25}ji{\k19}ma{\k42}ri {\k27}no {\k29}P{\k25}RE{\k22}L{\k56}U{\k45}DE
+Comment: 0,0:00:28.23,0:00:31.19,Nazuna,,0,0,0,karaoke,{\k30}mou {\k22}ma{\k17}chi {\k45}ki{\k23}re{\k27}na{\k32}ku{\k80}te
+Comment: 0,0:00:32.70,0:00:36.30,Tomoya,,0,0,0,karaoke,{\k67}COUNT{\k86}DOWN {\k39}su{\k31}ru {\k49}mi{\k68}tai
+Comment: 0,0:00:37.06,0:00:39.87,Mitsuru,,0,0,0,karaoke,{\k79}HEART {\k32}ga {\k30}to{\k35}ma{\k17}ra{\k68}nai!
+Comment: 0,0:00:41.61,0:00:44.81,Hajime,,0,0,0,karaoke,{\k25}bu{\k26}ri{\k14}ki {\k43}no {\k28}D{\k29}O{\k17}LL {\k28}sa{\k66}sot{\k44}te
+Comment: 0,0:00:46.02,0:00:48.93,Nazuna,,0,0,0,karaoke,{\k28}bo{\k29}ku{\k14}ra {\k40}mo {\k27}o{\k32}do{\k101}rou
+Comment: 0,0:00:50.37,0:00:54.10,Tomoya,,0,0,0,karaoke,{\k37}tsu{\k21}mi{\k18}ki {\k35}no {\k38}ST{\k45}A{\k33}GE {\k44}de {\k82}STEP
+Comment: 0,0:00:54.78,0:00:58.12,Mitsuru,,0,0,0,karaoke,{\k41}sha{\k16}bo{\k13}n{\k16}da{\k33}ma {\k32}ga {\k30}fu{\k18}ru {\kf115}yo!
+Comment: 0,0:00:58.85,0:01:03.21,Tomoya,,0,0,0,karaoke,{\k22}a{\k41}ta{\k42}ra{\k49}shi{\k35}i {\k24}yu{\k19}me {\k68}no {\k38}ta{\k78}ne
+Comment: 0,0:01:03.14,0:01:06.89,Nazuna,,0,0,0,karaoke,{\k28}kit{\k28}to {\k35}ha{\k29}na {\k19}ga {\k31}sa{\k29}ku {\k34}ka{\kf142}ra
+Comment: 0,0:01:07.27,0:01:09.46,Mitsuru,,0,0,0,karaoke,{\k43\k17\k54\}mabushii {\k36}ki{\k19}mo{\k30}chi
+Comment: 0,0:01:09.37,0:01:11.79,Hajime,,0,0,0,karaoke,{\k26}ka{\k15}pu{\k39}se{\k25}ru {\k22}ni {\k37}tsu{\k17}me{\k41}te
+Comment: 0,0:01:12.14,0:01:19.24,Sample KM  [Voice Ensemble],,0,0,0,karaoke,{\k25}ha{\k30}ko {\k51}wo {\k35}yu{\k14}ra{\k137}su {\k63}MU{\k98}SIC {\k93}STA{\k19}RT {\k145}sa!
+Comment: 0,0:01:19.35,0:01:21.13,Sample KM [Choir],,0,0,0,karaoke,{\k13}ha{\k25}ji{\k19}ma{\k15}ru {\k22}WON{\k19}DER{\k45}LAND☆
+Comment: 0,0:01:21.57,0:01:24.26,Sample KM  [Voice Ensemble],,0,0,0,karaoke,{\k29}to{\k25}bi{\k12}da{\k46}su {\k24}yo {\k30}JOY{\k27}FUL {\k56}BOX!
+Comment: 0,0:01:23.82,0:01:24.60,Sample KM [Choir],,0,0,0,karaoke,{\k25}Oh {\k33}Yes!
+Comment: 0,0:01:24.33,0:01:30.26,Sample KM  [Voice Ensemble],,0,0,0,karaoke,{\k28}ko{\k30}wa{\k28}ga{\k24}ra{\k29}zu {\k82}ni {\k31}da{\k22}i{\k25}jou{\k24}bu {\k35}a{\k53}ke{\k60}te {\k59}mi{\k63}te!
+Comment: 0,0:01:30.47,0:01:33.12,Sample KM  [Voice Ensemble],,0,0,0,karaoke,{\k29}ki{\k20}ra{\k17} ki{\k43}ra {\k30}no {\k24}WON{\k31}DER {\k51}LIVE!
+Comment: 0,0:01:32.70,0:01:33.45,Sample KM [Choir],,0,0,0,karaoke,{\k22}Oh {\k33}Yeah!
+Comment: 0,0:01:33.25,0:01:37.88,Mitsuru,,0,0,0,karaoke,{\k23}o{\k31}i{\k28}de {\k28}yo {\k28}ho{\k70}ra {\k33}ki{\k35}ko{\k49}e{\k28}te {\k36}ku{\k54}ru♪
+Comment: 0,0:01:37.68,0:01:38.72,Tomoya,,0,0,0,karaoke,{\k51}GOOD {\k33}DAY!
+Comment: 0,0:01:38.52,0:01:39.27,Mitsuru,,0,0,0,karaoke,{\k28\k27\}GOOD DREAM!
+Comment: 0,0:01:39.07,0:01:39.85,Hajime,,0,0,0,karaoke,{\k22}HA{\k36}PPY!
+Comment: 0,0:01:39.65,0:01:40.36,Nazuna,,0,0,0,karaoke,{\k25}PAR{\k26}TY!
+Comment: 0,0:01:40.16,0:01:41.48,Sample KM  [Voice Ensemble],,0,0,0,karaoke,{\k112}TIME☆
+Comment: 0,0:01:51.32,0:01:54.30,Sample KM  [Voice Ensemble],,0,0,0,karaoke,{\k53}to{\k23}bi{\k14}da{\k42}su {\k31}yo {\k29}JOY{\k28}FUL {\k58}BOX!
+Comment: 0,0:01:53.83,0:01:54.56,Sample KM [Choir],,0,0,0,karaoke,{\k22}Oh {\k31}Yes!
+Comment: 0,0:01:54.36,0:02:00.18,Sample KM  [Voice Ensemble],,0,0,0,karaoke,{\k28}ko{\k27}wa{\k29}ga{\k27}ra{\k27}zu {\k83}ni {\k30}da{\k23}i{\k24}jou{\k26}bu {\k37}a{\k56}ke{\k46}te {\k65}ho{\k34}ra!
+Comment: 0,0:02:00.46,0:02:03.14,Sample KM  [Voice Ensemble],,0,0,0,karaoke,{\k31}ki{\k24}ra {\k15}ki{\k41}ra {\k27}no {\k28}WON{\k28}DER {\k54}LIVE!
+Comment: 0,0:02:02.70,0:02:03.42,Sample KM [Choir],,0,0,0,karaoke,{\k22}Oh {\k30}Yeah!
+Comment: 0,0:02:03.22,0:02:07.90,Sample KM  [Voice Ensemble],,0,0,0,karaoke,{\k28}o{\k30}i{\k28}de {\k29}yo {\k25}ho{\k71}ra {\k37}ki{\k32}ko{\k49}e{\k29}te {\k62}ku{\k28}ru♪
+Comment: 0,0:02:07.96,0:02:08.70,Tomoya,,0,0,0,karaoke,{\k23}GOOD {\k31}DAY!
+Comment: 0,0:02:08.50,0:02:09.30,Mitsuru,,0,0,0,karaoke,{\k27\k33\}GOOD DREAM!
+Comment: 0,0:02:09.10,0:02:09.84,Hajime,,0,0,0,karaoke,{\k23}HA{\k31}PPY!
+Comment: 0,0:02:09.64,0:02:10.37,Nazuna,,0,0,0,karaoke,{\k26}PAR{\k27}TY!
+Comment: 0,0:02:10.17,0:02:11.85,Sample KM  [Voice Ensemble],,0,0,0,karaoke,{\k27}WEL{\k29}COME! {\k22}WEL{\k34}COME! {\k26}WEL{\k30}COME!
+Comment: 0,0:02:11.85,0:02:13.78,Sample KM  [Voice Ensemble],,0,0,0,karaoke,{\k26}JOY{\k26}FUL {\kf93}TI{\k28}ME☆
+Comment: 0,0:02:14.59,0:02:23.17,Sample KM  [Voice Ensemble],,0,0,0,karaoke,{\k50}La {\k51}La {\k16}La {\k17}La {\k59}La {\k24}La {\k31}La {\k54}La {\k163}La {\k41}hi{\k24}ra{\k14}ke {\k63}JOY{\k55}FUL {\kf176}BOX
+Dialogue: 0,0:00:09.29,0:00:18.33,Sample KM  [Voice Ensemble],,0,0,0,fx,{\k90\fad(300,200)}{\k45}La {\k52}La {\k15}La {\k16}La {\k60}La {\k26}La {\k26}La {\k59}La {\k167}La {\k36}hi{\k24}ra{\k14}ke {\k59}JOY{\k62}FUL {\kf113}BOX
+Dialogue: 0,0:00:22.91,0:00:27.36,Hajime,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ha{\k25}ji{\k19}ma{\k42}ri {\k27}no {\k29}P{\k25}RE{\k22}L{\k56}U{\k45}DE
+Dialogue: 0,0:00:27.33,0:00:31.39,Nazuna,,0,0,0,fx,{\k90\fad(300,200)}{\k30}mou {\k22}ma{\k17}chi {\k45}ki{\k23}re{\k27}na{\k32}ku{\k80}te
+Dialogue: 0,0:00:31.80,0:00:36.50,Tomoya,,0,0,0,fx,{\k90\fad(300,200)}{\k67}COUNT{\k86}DOWN {\k39}su{\k31}ru {\k49}mi{\k68}tai
+Dialogue: 0,0:00:36.16,0:00:40.07,Mitsuru,,0,0,0,fx,{\k90\fad(300,200)}{\k79}HEART {\k32}ga {\k30}to{\k35}ma{\k17}ra{\k68}nai!
+Dialogue: 0,0:00:40.71,0:00:45.01,Hajime,,0,0,0,fx,{\k90\fad(300,200)}{\k25}bu{\k26}ri{\k14}ki {\k43}no {\k28}D{\k29}O{\k17}LL {\k28}sa{\k66}sot{\k44}te
+Dialogue: 0,0:00:45.12,0:00:49.13,Nazuna,,0,0,0,fx,{\k90\fad(300,200)}{\k28}bo{\k29}ku{\k14}ra {\k40}mo {\k27}o{\k32}do{\k101}rou
+Dialogue: 0,0:00:49.47,0:00:54.30,Tomoya,,0,0,0,fx,{\k90\fad(300,200)}{\k37}tsu{\k21}mi{\k18}ki {\k35}no {\k38}ST{\k45}A{\k33}GE {\k44}de {\k82}STEP
+Dialogue: 0,0:00:53.88,0:00:58.32,Mitsuru,,0,0,0,fx,{\k90\fad(300,200)}{\k41}sha{\k16}bo{\k13}n{\k16}da{\k33}ma {\k32}ga {\k30}fu{\k18}ru {\kf115}yo!
+Dialogue: 0,0:00:57.95,0:01:03.41,Tomoya,,0,0,0,fx,{\k90\fad(300,200)}{\k22}a{\k41}ta{\k42}ra{\k49}shi{\k35}i {\k24}yu{\k19}me {\k68}no {\k38}ta{\k78}ne
+Dialogue: 0,0:01:02.24,0:01:07.09,Nazuna,,0,0,0,fx,{\k90\fad(300,200)}{\k28}kit{\k28}to {\k35}ha{\k29}na {\k19}ga {\k31}sa{\k29}ku {\k34}ka{\kf142}ra
+Dialogue: 0,0:01:06.37,0:01:09.66,Mitsuru,,0,0,0,fx,{\k90\fad(300,200)}{\k43\k17\k54\}mabushii {\k36}ki{\k19}mo{\k30}chi
+Dialogue: 0,0:01:08.47,0:01:11.99,Hajime,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ka{\k15}pu{\k39}se{\k25}ru {\k22}ni {\k37}tsu{\k17}me{\k41}te
+Dialogue: 0,0:01:11.24,0:01:19.44,Sample KM  [Voice Ensemble],,0,0,0,fx,{\k90\fad(300,200)}{\k25}ha{\k30}ko {\k51}wo {\k35}yu{\k14}ra{\k137}su {\k63}MU{\k98}SIC {\k93}STA{\k19}RT {\k145}sa!
+Dialogue: 0,0:01:18.45,0:01:21.33,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k13}ha{\k25}ji{\k19}ma{\k15}ru {\k22}WON{\k19}DER{\k45}LAND☆
+Dialogue: 0,0:01:20.67,0:01:24.46,Sample KM  [Voice Ensemble],,0,0,0,fx,{\k90\fad(300,200)}{\k29}to{\k25}bi{\k12}da{\k46}su {\k24}yo {\k30}JOY{\k27}FUL {\k56}BOX!
+Dialogue: 0,0:01:22.92,0:01:24.80,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Oh {\k33}Yes!
+Dialogue: 0,0:01:23.43,0:01:30.46,Sample KM  [Voice Ensemble],,0,0,0,fx,{\k90\fad(300,200)}{\k28}ko{\k30}wa{\k28}ga{\k24}ra{\k29}zu {\k82}ni {\k31}da{\k22}i{\k25}jou{\k24}bu {\k35}a{\k53}ke{\k60}te {\k59}mi{\k63}te!
+Dialogue: 0,0:01:29.57,0:01:33.32,Sample KM  [Voice Ensemble],,0,0,0,fx,{\k90\fad(300,200)}{\k29}ki{\k20}ra{\k17} ki{\k43}ra {\k30}no {\k24}WON{\k31}DER {\k51}LIVE!
+Dialogue: 0,0:01:31.80,0:01:33.65,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Oh {\k33}Yeah!
+Dialogue: 0,0:01:32.35,0:01:38.08,Mitsuru,,0,0,0,fx,{\k90\fad(300,200)}{\k23}o{\k31}i{\k28}de {\k28}yo {\k28}ho{\k70}ra {\k33}ki{\k35}ko{\k49}e{\k28}te {\k36}ku{\k54}ru♪
+Dialogue: 0,0:01:36.78,0:01:38.92,Tomoya,,0,0,0,fx,{\k90\fad(300,200)}{\k51}GOOD {\k33}DAY!
+Dialogue: 0,0:01:37.62,0:01:39.47,Mitsuru,,0,0,0,fx,{\k90\fad(300,200)}{\k28\k27\}GOOD DREAM!
+Dialogue: 0,0:01:38.17,0:01:40.05,Hajime,,0,0,0,fx,{\k90\fad(300,200)}{\k22}HA{\k36}PPY!
+Dialogue: 0,0:01:38.75,0:01:40.56,Nazuna,,0,0,0,fx,{\k90\fad(300,200)}{\k25}PAR{\k26}TY!
+Dialogue: 0,0:01:39.26,0:01:41.68,Sample KM  [Voice Ensemble],,0,0,0,fx,{\k90\fad(300,200)}{\k112}TIME☆
+Dialogue: 0,0:01:50.42,0:01:54.50,Sample KM  [Voice Ensemble],,0,0,0,fx,{\k90\fad(300,200)}{\k53}to{\k23}bi{\k14}da{\k42}su {\k31}yo {\k29}JOY{\k28}FUL {\k58}BOX!
+Dialogue: 0,0:01:52.93,0:01:54.76,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Oh {\k31}Yes!
+Dialogue: 0,0:01:53.46,0:02:00.38,Sample KM  [Voice Ensemble],,0,0,0,fx,{\k90\fad(300,200)}{\k28}ko{\k27}wa{\k29}ga{\k27}ra{\k27}zu {\k83}ni {\k30}da{\k23}i{\k24}jou{\k26}bu {\k37}a{\k56}ke{\k46}te {\k65}ho{\k34}ra!
+Dialogue: 0,0:01:59.56,0:02:03.34,Sample KM  [Voice Ensemble],,0,0,0,fx,{\k90\fad(300,200)}{\k31}ki{\k24}ra {\k15}ki{\k41}ra {\k27}no {\k28}WON{\k28}DER {\k54}LIVE!
+Dialogue: 0,0:02:01.80,0:02:03.62,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Oh {\k30}Yeah!
+Dialogue: 0,0:02:02.32,0:02:08.10,Sample KM  [Voice Ensemble],,0,0,0,fx,{\k90\fad(300,200)}{\k28}o{\k30}i{\k28}de {\k29}yo {\k25}ho{\k71}ra {\k37}ki{\k32}ko{\k49}e{\k29}te {\k62}ku{\k28}ru♪
+Dialogue: 0,0:02:07.06,0:02:08.90,Tomoya,,0,0,0,fx,{\k90\fad(300,200)}{\k23}GOOD {\k31}DAY!
+Dialogue: 0,0:02:07.60,0:02:09.50,Mitsuru,,0,0,0,fx,{\k90\fad(300,200)}{\k27\k33\}GOOD DREAM!
+Dialogue: 0,0:02:08.20,0:02:10.04,Hajime,,0,0,0,fx,{\k90\fad(300,200)}{\k23}HA{\k31}PPY!
+Dialogue: 0,0:02:08.74,0:02:10.57,Nazuna,,0,0,0,fx,{\k90\fad(300,200)}{\k26}PAR{\k27}TY!
+Dialogue: 0,0:02:09.27,0:02:12.05,Sample KM  [Voice Ensemble],,0,0,0,fx,{\k90\fad(300,200)}{\k27}WEL{\k29}COME! {\k22}WEL{\k34}COME! {\k26}WEL{\k30}COME!
+Dialogue: 0,0:02:10.95,0:02:13.98,Sample KM  [Voice Ensemble],,0,0,0,fx,{\k90\fad(300,200)}{\k26}JOY{\k26}FUL {\kf93}TI{\k28}ME☆
+Dialogue: 0,0:02:13.69,0:02:23.37,Sample KM  [Voice Ensemble],,0,0,0,fx,{\k90\fad(300,200)}{\k50}La {\k51}La {\k16}La {\k17}La {\k59}La {\k24}La {\k31}La {\k54}La {\k163}La {\k41}hi{\k24}ra{\k14}ke {\k63}JOY{\k55}FUL {\kf176}BOX
