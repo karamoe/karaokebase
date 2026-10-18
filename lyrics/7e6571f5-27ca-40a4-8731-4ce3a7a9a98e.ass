@@ -1,0 +1,117 @@
+﻿[Script Info]
+Title: PARADISE!
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+LayoutResX: 1920
+LayoutResY: 1080
+YCbCr Matrix: TV.709
+Original Timing: Uwhipa
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: English,Arial,24,&H00FFFFFF,&H00FFAB00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Japanese,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Chorus,Arial,24,&H00FFFFFF,&H001819FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:04.89,0:00:06.59,English,,0,0,0,karaoke,{\k13}Eve{\k12}ry{\k25}thing {\k13}gon{\k11}na {\k36}be {\k36}al{\k24}right
+Comment: 0,0:00:06.83,0:00:08.64,English,,0,0,0,karaoke,{\k12}Eve{\k12}ry{\k25}thing {\k13}gon{\k11}na {\k38}feel {\k35}so {\k35}good
+Comment: 0,0:00:10.46,0:00:12.48,English,,0,0,0,karaoke,{\k48}Woah, {\k26}woah-{\k23}oh, {\k24}woah-{\k24}oh, {\k13}ne{\k11}ver {\k13}give {\k20}up
+Comment: 0,0:00:12.65,0:00:14.37,English,,0,0,0,karaoke,{\k11}Eve{\k12}ry{\k25}thing {\k11}gon{\k13}na {\k35}be {\k37}al{\k28}right
+Comment: 0,0:00:14.58,0:00:16.35,English,,0,0,0,karaoke,{\k12}Eve{\k12}ry{\k25}thing {\k11}gon{\k12}na {\k37}feel {\k37}so {\k31}good
+Comment: 0,0:00:20.37,0:00:24.05,Japanese,,0,0,0,karaoke,{\k26}tsu{\k23}zu{\k25}ku {\k36}sui{\k36}hei{\k49}sen {\k24}mai{\k12}ni{\k12}chi {\k24}ga {\k36}SO {\k37}GOOD {\k28}DAY
+Comment: 0,0:00:24.25,0:00:27.97,Japanese,,0,0,0,karaoke,{\k24}nan {\k25}dat{\k23}te {\k37}chou{\k37}sen, {\k24}ship{\k24}pai {\k24}shi{\k25}tat{\k24}te {\k24}ii {\k24}ja{\k24}na{\k33}i
+Comment: 0,0:00:28.14,0:00:31.07,Japanese,,0,0,0,karaoke,{\k11}te {\k12}to {\k23}te {\k10}to{\k15}ri{\k36}at{\k38}te {\k47}to{\k23}bi{\k26}ko{\k23}me{\k29}ba
+Comment: 0,0:00:31.27,0:00:35.36,English,,0,0,0,karaoke,{\k13}So {\k24}a{\k38}ma{\k117}zing, {\k15}come {\k22}on {\k37}ba{\k98}by, {\k21}o{\k24}kay!
+Comment: 0,0:00:32.23,0:00:33.24,Chorus,,0,0,0,karaoke,{\k13}So {\k26}a{\k35}ma{\k27}zing!
+Comment: 0,0:00:35.38,0:00:37.26,Japanese,,0,0,0,karaoke,{\k11}mi{\k13}wa{\k25}tas' {\k13}ka{\k24}gi{\k23}ri {\k12}no {\k25}O{\k23}CEAN {\k19}VIEW
+Comment: 0,0:00:37.32,0:00:38.76,Japanese,,0,0,0,karaoke,{\k23}bou{\k29}ken {\k9}shi{\k23}tai {\k14}no {\k23}WITH {\k23}YOU
+Comment: 0,0:00:38.77,0:00:39.32,Chorus,,0,0,0,karaoke,{\k25}With {\k30}you!
+Comment: 0,0:00:39.26,0:00:41.14,Japanese,,0,0,0,karaoke,{\k10}na{\k14}ni {\k21}ga {\k14}o{\k26}ko{\k23}ru {\k12}ka {\k25}wa{\k24}kan{\k19}nai
+Comment: 0,0:00:41.19,0:00:42.86,Japanese,,0,0,0,karaoke,{\k10}do{\k14}ki{\k19}do{\k5}ki {\k13}na {\k22}THE{\k14}ME {\k24}PAR{\k46}K
+Comment: 0,0:00:42.64,0:00:43.31,Chorus,,0,0,0,karaoke,{\k21}Oh {\k46}yeah!
+Comment: 0,0:00:43.13,0:00:44.58,Chorus,,0,0,0,karaoke,{\k48}koc{\k23}chi {\k25}mu{\k25}i{\k24}te
+Comment: 0,0:00:44.58,0:00:47.19,Japanese,,0,0,0,karaoke,{\k12}ho{\k11}ra {\k25}e{\k24}gao {\k24}ga {\k13}i{\k13}chi{\k23}ban {\k12}ni{\k24}at{\k12}te{\k24}ru{\k44}yo
+Comment: 0,0:00:47.00,0:00:48.44,Chorus,,0,0,0,karaoke,{\k48}mat{\k24}te{\k48}tan{\k24}da
+Comment: 0,0:00:48.44,0:00:52.05,Japanese,,0,0,0,karaoke,{\k27}ki{\k22}mi {\k96}wo, {\k50}sou {\k23}zu{\k26}t{\k117}to
+Comment: 0,0:00:51.11,0:00:54.98,English,,0,0,0,karaoke,{\k36}This {\k36}place {\k25}is {\k24}pa{\k28}ra{\k44}dise, {\k24}pa{\k29}ra{\k44}dise, {\k24}pa{\k25}ra{\k48}dise
+Comment: 0,0:00:54.75,0:00:56.90,English,,0,0,0,karaoke,{\k23}So {\k36}this {\k37}place {\k24}is {\k23}pa{\k26}ra{\k46}dise
+Comment: 0,0:00:56.92,0:00:58.73,Japanese,,0,0,0,karaoke,{\k10}ma{\k38}yo{\k13}wa{\k36}su {\k12}REA{\k35}DY? {\k14}DO {\k23}IT!
+Comment: 0,0:00:58.85,0:01:02.47,English,,0,0,0,karaoke,{\k39}This {\k34}place {\k24}is {\k24}pa{\k25}ra{\k48}dise, {\k25}pa{\k23}ra{\k49}dise, {\k24}pa{\k24}ra{\k23}dise
+Comment: 0,0:01:02.47,0:01:04.68,Japanese,,0,0,0,karaoke,{\k13}ta{\k12}me{\k24}rat{\k12}te{\k25}nai{\k9}de {\k15}ho{\k11}ra {\k13}i{\k11}za {\k26}SHOW {\k50}TIME!
+Comment: 0,0:01:05.12,0:01:09.12,Japanese,,0,0,0,karaoke,{\k50}ki{\k48}mi {\k38}to {\k35}sai{\k25}kou {\k21}ni {\k27}ha{\k25}sha {\k12}gi{\k24}tai {\k24}na {\k37}PAR{\k34}TY
+Comment: 0,0:01:09.26,0:01:10.08,Chorus,,0,0,0,karaoke,{\k82}Yeah!
+Comment: 0,0:01:09.72,0:01:12.88,Japanese,,0,0,0,karaoke,{\k25}ko{\k14}ko {\k23}de {\k21}a{\k15}e{\k24}ta {\k25}so{\k24}re {\k23}da{\k15}ke {\k21}de {\k26}MY {\k36}BUD{\k24}DY
+Comment: 0,0:01:13.12,0:01:13.84,Chorus,,0,0,0,karaoke,{\k72}Foo!
+Comment: 0,0:01:13.59,0:01:16.23,Japanese,,0,0,0,karaoke,{\k27}hi{\k22}bi{\k26}ke {\k36}WOAH-{\k36}OH-{\k36}OH-{\k37}OH-{\k44}OH
+Comment: 0,0:01:16.27,0:01:18.33,Chorus,,0,0,0,karaoke,{\k37}Woah-{\k37}oh-{\k36}oh-{\k35}oh-{\k61}oh
+Comment: 0,0:01:17.94,0:01:20.85,Japanese,,0,0,0,karaoke,{\k14}se{\k37}kai{\k24}juu {\k25}wo {\k24}te{\k24}ra{\k12}shi{\k23}da{\k26}sh'te {\k36}MU{\k46}SIC
+Comment: 0,0:01:21.35,0:01:24.51,Japanese,,0,0,0,karaoke,{\k25}da{\k12}re {\k24}mo {\k37}ka{\k23}re {\k25}mo {\k25}o{\k23}do{\k13}ri{\k24}da{\k24}su {\k37}DAN{\k24}CING
+Comment: 0,0:01:24.75,0:01:25.38,Chorus,,0,0,0,karaoke,{\k63}Yeah!
+Comment: 0,0:01:25.22,0:01:28.59,Japanese,,0,0,0,karaoke,{\k24}na{\k15}ka{\k20}ma{\k38}ha{\k25}zu{\k23}re {\k26}nan{\k22}te {\k13}ko{\k27}ko {\k22}ja {\k36}NON{\k46}SENSE
+Comment: 0,0:01:28.59,0:01:29.30,Chorus,,0,0,0,karaoke,{\k71}Foo!
+Comment: 0,0:01:29.05,0:01:31.76,Japanese,,0,0,0,karaoke,{\k28}sa{\k25}ke{\k25}be {\k36}WOAH-{\k37}OH-{\k35}OH-{\k34}OH-{\k51}OH
+Comment: 0,0:01:31.76,0:01:33.60,Chorus,,0,0,0,karaoke,{\k38}Woah-{\k36}oh-{\k36}oh-{\k35}oh-{\k39}oh
+Comment: 0,0:01:33.45,0:01:36.12,Japanese,,0,0,0,karaoke,{\k12}sa{\k36}i{\k26}kou {\k22}no {\k25}FI{\k25}NA{\k12}LE {\k23}he {\k25}to {\k36}GO{\k25}ING
+Comment: 0,0:01:36.35,0:01:39.23,Japanese,,0,0,0,karaoke,{\k26}WO{\k48}AH-{\k35}OH-{\k179}OH
+Comment: 0,0:01:38.06,0:01:41.40,Chorus,,0,0,0,karaoke,{\k47}La-{\k48}la-{\k50}la-{\k48}la-{\k48}la-{\k49}la-{\k44}la
+Comment: 0,0:01:41.19,0:01:43.37,Japanese,,0,0,0,karaoke,{\k25}ki{\k23}bou {\k10}mi{\k27}rai {\k13}do{\k12}re {\k11}mo {\k25}shin{\k12}ji{\k23}tai {\k13}da{\k13}ka{\k11}ra
+Comment: 0,0:01:41.92,0:01:45.44,Chorus,,0,0,0,karaoke,{\k48}La-{\k49}la-{\k49}la-{\k48}la-{\k48}la-{\k49}la-{\k61}la
+Comment: 0,0:01:43.37,0:01:45.44,English,,0,0,0,karaoke,{\k49}Woah, {\k24}woah-{\k24}oh, {\k24}woah-{\k25}oh, {\k12}ne{\k12}ver {\k13}give {\k24}up
+Comment: 0,0:01:45.79,0:01:49.07,Chorus,,0,0,0,karaoke,{\k49}La-{\k48}la-{\k49}la-{\k49}la-{\k48}la-{\k48}la-{\k37}la
+Comment: 0,0:01:48.95,0:01:50.87,Japanese,,0,0,0,karaoke,{\k9}ta{\k14}no{\k25}shin{\k12}de{\k23}nai {\k13}ji{\k24}kan {\k24}mot{\k24}tai{\k24}nai
+Comment: 0,0:01:49.66,0:01:50.87,Chorus,,0,0,0,karaoke,{\k48}La-{\k49}la-{\k24}la
+Comment: 0,0:01:50.87,0:01:53.79,Japanese,,0,0,0,karaoke,{\k12}to{\k13}ki {\k24}wa {\k11}e{\k12}ga{\k25}ki{\k13}da{\k11}su {\k26}PA{\k23}RA{\k122}DISE
+Dialogue: 0,0:00:03.99,0:00:06.79,English,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Eve{\k12}ry{\k25}thing {\k13}gon{\k11}na {\k36}be {\k36}al{\k24}right
+Dialogue: 0,0:00:05.93,0:00:08.84,English,,0,0,0,fx,{\k90\fad(300,200)}{\k12}Eve{\k12}ry{\k25}thing {\k13}gon{\k11}na {\k38}feel {\k35}so {\k35}good
+Dialogue: 0,0:00:09.56,0:00:12.68,English,,0,0,0,fx,{\k90\fad(300,200)}{\k48}Woah, {\k26}woah-{\k23}oh, {\k24}woah-{\k24}oh, {\k13}ne{\k11}ver {\k13}give {\k20}up
+Dialogue: 0,0:00:11.75,0:00:14.57,English,,0,0,0,fx,{\k90\fad(300,200)}{\k11}Eve{\k12}ry{\k25}thing {\k11}gon{\k13}na {\k35}be {\k37}al{\k28}right
+Dialogue: 0,0:00:13.68,0:00:16.55,English,,0,0,0,fx,{\k90\fad(300,200)}{\k12}Eve{\k12}ry{\k25}thing {\k11}gon{\k12}na {\k37}feel {\k37}so {\k31}good
+Dialogue: 0,0:00:19.47,0:00:24.25,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k26}tsu{\k23}zu{\k25}ku {\k36}sui{\k36}hei{\k49}sen {\k24}mai{\k12}ni{\k12}chi {\k24}ga {\k36}SO {\k37}GOOD {\k28}DAY
+Dialogue: 0,0:00:23.35,0:00:28.17,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k24}nan {\k25}dat{\k23}te {\k37}chou{\k37}sen, {\k24}ship{\k24}pai {\k24}shi{\k25}tat{\k24}te {\k24}ii {\k24}ja{\k24}na{\k33}i
+Dialogue: 0,0:00:27.24,0:00:31.27,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k11}te {\k12}to {\k23}te {\k10}to{\k15}ri{\k36}at{\k38}te {\k47}to{\k23}bi{\k26}ko{\k23}me{\k29}ba
+Dialogue: 0,0:00:30.37,0:00:35.56,English,,0,0,0,fx,{\k90\fad(300,200)}{\k13}So {\k24}a{\k38}ma{\k117}zing, {\k15}come {\k22}on {\k37}ba{\k98}by, {\k21}o{\k24}kay!
+Dialogue: 0,0:00:31.33,0:00:33.44,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k13}So {\k26}a{\k35}ma{\k27}zing!
+Dialogue: 0,0:00:34.48,0:00:37.46,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k11}mi{\k13}wa{\k25}tas' {\k13}ka{\k24}gi{\k23}ri {\k12}no {\k25}O{\k23}CEAN {\k19}VIEW
+Dialogue: 0,0:00:36.42,0:00:38.96,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k23}bou{\k29}ken {\k9}shi{\k23}tai {\k14}no {\k23}WITH {\k23}YOU
+Dialogue: 0,0:00:37.87,0:00:39.52,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k25}With {\k30}you!
+Dialogue: 0,0:00:38.36,0:00:41.34,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k10}na{\k14}ni {\k21}ga {\k14}o{\k26}ko{\k23}ru {\k12}ka {\k25}wa{\k24}kan{\k19}nai
+Dialogue: 0,0:00:40.29,0:00:43.06,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k10}do{\k14}ki{\k19}do{\k5}ki {\k13}na {\k22}THE{\k14}ME {\k24}PAR{\k46}K
+Dialogue: 0,0:00:41.74,0:00:43.51,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Oh {\k46}yeah!
+Dialogue: 0,0:00:42.23,0:00:44.78,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k48}koc{\k23}chi {\k25}mu{\k25}i{\k24}te
+Dialogue: 0,0:00:43.68,0:00:47.39,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ho{\k11}ra {\k25}e{\k24}gao {\k24}ga {\k13}i{\k13}chi{\k23}ban {\k12}ni{\k24}at{\k12}te{\k24}ru{\k44}yo
+Dialogue: 0,0:00:46.10,0:00:48.64,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k48}mat{\k24}te{\k48}tan{\k24}da
+Dialogue: 0,0:00:47.54,0:00:52.25,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ki{\k22}mi {\k96}wo, {\k50}sou {\k23}zu{\k26}t{\k117}to
+Dialogue: 0,0:00:50.21,0:00:55.18,English,,0,0,0,fx,{\k90\fad(300,200)}{\k36}This {\k36}place {\k25}is {\k24}pa{\k28}ra{\k44}dise, {\k24}pa{\k29}ra{\k44}dise, {\k24}pa{\k25}ra{\k48}dise
+Dialogue: 0,0:00:53.85,0:00:57.10,English,,0,0,0,fx,{\k90\fad(300,200)}{\k23}So {\k36}this {\k37}place {\k24}is {\k23}pa{\k26}ra{\k46}dise
+Dialogue: 0,0:00:56.02,0:00:58.93,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k10}ma{\k38}yo{\k13}wa{\k36}su {\k12}REA{\k35}DY? {\k14}DO {\k23}IT!
+Dialogue: 0,0:00:57.95,0:01:02.67,English,,0,0,0,fx,{\k90\fad(300,200)}{\k39}This {\k34}place {\k24}is {\k24}pa{\k25}ra{\k48}dise, {\k25}pa{\k23}ra{\k49}dise, {\k24}pa{\k24}ra{\k23}dise
+Dialogue: 0,0:01:01.57,0:01:04.88,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ta{\k12}me{\k24}rat{\k12}te{\k25}nai{\k9}de {\k15}ho{\k11}ra {\k13}i{\k11}za {\k26}SHOW {\k50}TIME!
+Dialogue: 0,0:01:04.22,0:01:09.32,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k50}ki{\k48}mi {\k38}to {\k35}sai{\k25}kou {\k21}ni {\k27}ha{\k25}sha {\k12}gi{\k24}tai {\k24}na {\k37}PAR{\k34}TY
+Dialogue: 0,0:01:08.36,0:01:10.28,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k82}Yeah!
+Dialogue: 0,0:01:08.82,0:01:13.08,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ko{\k14}ko {\k23}de {\k21}a{\k15}e{\k24}ta {\k25}so{\k24}re {\k23}da{\k15}ke {\k21}de {\k26}MY {\k36}BUD{\k24}DY
+Dialogue: 0,0:01:12.22,0:01:14.04,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k72}Foo!
+Dialogue: 0,0:01:12.69,0:01:16.43,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k27}hi{\k22}bi{\k26}ke {\k36}WOAH-{\k36}OH-{\k36}OH-{\k37}OH-{\k44}OH
+Dialogue: 0,0:01:15.37,0:01:18.53,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Woah-{\k37}oh-{\k36}oh-{\k35}oh-{\k61}oh
+Dialogue: 0,0:01:17.04,0:01:21.05,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k14}se{\k37}kai{\k24}juu {\k25}wo {\k24}te{\k24}ra{\k12}shi{\k23}da{\k26}sh'te {\k36}MU{\k46}SIC
+Dialogue: 0,0:01:20.45,0:01:24.71,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k25}da{\k12}re {\k24}mo {\k37}ka{\k23}re {\k25}mo {\k25}o{\k23}do{\k13}ri{\k24}da{\k24}su {\k37}DAN{\k24}CING
+Dialogue: 0,0:01:23.85,0:01:25.58,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k63}Yeah!
+Dialogue: 0,0:01:24.32,0:01:28.79,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k24}na{\k15}ka{\k20}ma{\k38}ha{\k25}zu{\k23}re {\k26}nan{\k22}te {\k13}ko{\k27}ko {\k22}ja {\k36}NON{\k46}SENSE
+Dialogue: 0,0:01:27.69,0:01:29.50,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k71}Foo!
+Dialogue: 0,0:01:28.15,0:01:31.96,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k28}sa{\k25}ke{\k25}be {\k36}WOAH-{\k37}OH-{\k35}OH-{\k34}OH-{\k51}OH
+Dialogue: 0,0:01:30.86,0:01:33.80,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Woah-{\k36}oh-{\k36}oh-{\k35}oh-{\k39}oh
+Dialogue: 0,0:01:32.55,0:01:36.32,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k12}sa{\k36}i{\k26}kou {\k22}no {\k25}FI{\k25}NA{\k12}LE {\k23}he {\k25}to {\k36}GO{\k25}ING
+Dialogue: 0,0:01:35.45,0:01:39.43,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k26}WO{\k48}AH-{\k35}OH-{\k179}OH
+Dialogue: 0,0:01:37.16,0:01:41.60,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k47}La-{\k48}la-{\k50}la-{\k48}la-{\k48}la-{\k49}la-{\k44}la
+Dialogue: 0,0:01:40.29,0:01:43.57,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ki{\k23}bou {\k10}mi{\k27}rai {\k13}do{\k12}re {\k11}mo {\k25}shin{\k12}ji{\k23}tai {\k13}da{\k13}ka{\k11}ra
+Dialogue: 0,0:01:41.02,0:01:45.64,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k48}La-{\k49}la-{\k49}la-{\k48}la-{\k48}la-{\k49}la-{\k61}la
+Dialogue: 0,0:01:42.47,0:01:45.64,English,,0,0,0,fx,{\k90\fad(300,200)}{\k49}Woah, {\k24}woah-{\k24}oh, {\k24}woah-{\k25}oh, {\k12}ne{\k12}ver {\k13}give {\k24}up
+Dialogue: 0,0:01:44.89,0:01:49.27,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k49}La-{\k48}la-{\k49}la-{\k49}la-{\k48}la-{\k48}la-{\k37}la
+Dialogue: 0,0:01:48.05,0:01:51.07,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k9}ta{\k14}no{\k25}shin{\k12}de{\k23}nai {\k13}ji{\k24}kan {\k24}mot{\k24}tai{\k24}nai
+Dialogue: 0,0:01:48.76,0:01:51.07,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k48}La-{\k49}la-{\k24}la
+Dialogue: 0,0:01:49.97,0:01:53.99,Japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k12}to{\k13}ki {\k24}wa {\k11}e{\k12}ga{\k25}ki{\k13}da{\k11}su {\k26}PA{\k23}RA{\k122}DISE
