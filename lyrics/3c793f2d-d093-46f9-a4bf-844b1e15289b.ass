@@ -8,25 +8,44 @@ Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,0,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+Style: Default,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.47,0:00:02.58,Default,,0,0,0,,{\k100}{\k14}Za {\k18}da {\k42}da {\k14}Zai{\k23}der!
-Dialogue: 0,0:00:01.78,0:00:03.94,Default,,0,0,0,,{\k100}{\k16}Za {\k18}da {\k42}da {\k14}Zai{\k26}der!
-Dialogue: 0,0:00:03.16,0:00:09.64,Default,,0,0,0,,{\k100}{\k69}Za{\k72}i{\k152}der{\k30}be{\k24}ck {\k92}wa {\k18}Zai{\k46}der{\k45}beck
-Dialogue: 0,0:00:08.90,0:00:11.80,Default,,0,0,0,,{\k100}{\k19}wa{\k18}re{\k19}ra {\k24}no {\k26}ho{\k30}ko{\k54}ri
-Dialogue: 0,0:00:11.04,0:00:15.47,Default,,0,0,0,,{\k100}{\k21}OH {\k45}OH {\k37}min{\k29}na {\k21}no {\k19}ho{\k34}ko{\k137}ri
-Dialogue: 0,0:00:14.64,0:00:21.11,Default,,0,0,0,,{\k100}{\k32}Za{\k82}i{\k172}der{\k32}be{\k24}ck {\k90}wa {\k19}Zai{\k52}der{\k44}beck
-Dialogue: 0,0:00:20.40,0:00:23.28,Default,,0,0,0,,{\k100}{\k17}wa{\k19}re{\k20}ra {\k24}no {\k27}chi{\k29}ka{\k52}ra
-Dialogue: 0,0:00:22.49,0:00:26.83,Default,,0,0,0,,{\k100}{\k23}OH {\k45}OH {\k37}min{\k27}na {\k20}no {\k21}chi{\k29}ka{\k132}ra
-Dialogue: 0,0:00:26.01,0:00:29.50,Default,,0,0,0,,{\k100}{\k32}Za{\k34}i{\k79}der{\k28}be{\k27}ck {\k49}wa
-Dialogue: 0,0:00:28.80,0:00:32.36,Default,,0,0,0,,{\k100}{\k34}i{\k37}ka{\k35}ri {\k38}wo {\k34}ko{\k24}me{\k54}te
-Dialogue: 0,0:00:31.65,0:00:35.38,Default,,0,0,0,,{\k100}{\k31}Za{\k41}i{\k75}der{\k29}be{\k25}ck {\k72}wa
-Dialogue: 0,0:00:34.77,0:00:40.77,Default,,0,0,0,,{\k100}{\k37}ne{\k37}ga{\k37}i {\k80}wo {\k25}ko{\k36}me{\k248}te
-Dialogue: 0,0:00:40.14,0:00:43.82,Default,,0,0,0,,{\k100}{\k34}se{\k26}ka{\k24}i {\k62}no {\k34}ha{\k37}te {\k20}ma{\k31}de
-Dialogue: 0,0:00:43.03,0:00:46.62,Default,,0,0,0,,{\k100}{\k32}u{\k30}chu{\k27}u {\k52}no {\k33}ha{\k36}te {\k24}ma{\k25}de
-Dialogue: 0,0:00:45.83,0:00:49.48,Default,,0,0,0,,{\k100}{\k23}su{\k33}su{\k128}me {\k33}OH {\k48}OH
-Dialogue: 0,0:00:48.72,0:00:52.31,Default,,0,0,0,,{\k100}{\k22}su{\k32}su{\k124}me {\k30}OH {\k51}OH
-Dialogue: 0,0:00:51.52,0:00:55.66,Default,,0,0,0,,{\k100}{\k23}A{\k22}ku{\k22}ma{\k23}i{\k104}zer {\k48}one {\k72}two
-Dialogue: 0,0:00:54.87,0:00:57.68,Default,,0,0,0,,{\k100}{\k21}A{\k19}ku{\k21}ma{\k20}i{\k29}zer {\k71}three
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:01.47,0:00:02.58,Default,,0,0,0,karaoke,{\k14}Za {\k18}da {\k42}da {\k14}Zai{\k23}der!
+Comment: 0,0:00:02.78,0:00:03.94,Default,,0,0,0,karaoke,{\k16}Za {\k18}da {\k42}da {\k14}Zai{\k26}der!
+Comment: 0,0:00:04.16,0:00:09.64,Default,,0,0,0,karaoke,{\k69}Za{\k72}i{\k152}der{\k30}be{\k24}ck {\k92}wa {\k18}Zai{\k46}der{\k45}beck
+Comment: 0,0:00:09.90,0:00:11.80,Default,,0,0,0,karaoke,{\k19}wa{\k18}re{\k19}ra {\k24}no {\k26}ho{\k30}ko{\k54}ri
+Comment: 0,0:00:12.04,0:00:15.47,Default,,0,0,0,karaoke,{\k21}OH {\k45}OH {\k37}min{\k29}na {\k21}no {\k19}ho{\k34}ko{\k137}ri
+Comment: 0,0:00:15.64,0:00:21.11,Default,,0,0,0,karaoke,{\k32}Za{\k82}i{\k172}der{\k32}be{\k24}ck {\k90}wa {\k19}Zai{\k52}der{\k44}beck
+Comment: 0,0:00:21.40,0:00:23.28,Default,,0,0,0,karaoke,{\k17}wa{\k19}re{\k20}ra {\k24}no {\k27}chi{\k29}ka{\k52}ra
+Comment: 0,0:00:23.49,0:00:26.83,Default,,0,0,0,karaoke,{\k23}OH {\k45}OH {\k37}min{\k27}na {\k20}no {\k21}chi{\k29}ka{\k132}ra
+Comment: 0,0:00:27.01,0:00:29.50,Default,,0,0,0,karaoke,{\k32}Za{\k34}i{\k79}der{\k28}be{\k27}ck {\k49}wa
+Comment: 0,0:00:29.80,0:00:32.36,Default,,0,0,0,karaoke,{\k34}i{\k37}ka{\k35}ri {\k38}wo {\k34}ko{\k24}me{\k54}te
+Comment: 0,0:00:32.65,0:00:35.38,Default,,0,0,0,karaoke,{\k31}Za{\k41}i{\k75}der{\k29}be{\k25}ck {\k72}wa
+Comment: 0,0:00:35.77,0:00:40.77,Default,,0,0,0,karaoke,{\k37}ne{\k37}ga{\k37}i {\k80}wo {\k25}ko{\k36}me{\k248}te
+Comment: 0,0:00:41.14,0:00:43.82,Default,,0,0,0,karaoke,{\k34}se{\k26}ka{\k24}i {\k62}no {\k34}ha{\k37}te {\k20}ma{\k31}de
+Comment: 0,0:00:44.03,0:00:46.62,Default,,0,0,0,karaoke,{\k32}u{\k30}chu{\k27}u {\k52}no {\k33}ha{\k36}te {\k24}ma{\k25}de
+Comment: 0,0:00:46.83,0:00:49.48,Default,,0,0,0,karaoke,{\k23}su{\k33}su{\k128}me {\k33}OH {\k48}OH
+Comment: 0,0:00:49.72,0:00:52.31,Default,,0,0,0,karaoke,{\k22}su{\k32}su{\k124}me {\k30}OH {\k51}OH
+Comment: 0,0:00:52.52,0:00:55.66,Default,,0,0,0,karaoke,{\k23}A{\k22}ku{\k22}ma{\k23}i{\k104}zer {\k48}one {\k72}two
+Comment: 0,0:00:55.87,0:00:57.68,Default,,0,0,0,karaoke,{\k21}A{\k19}ku{\k21}ma{\k20}i{\k29}zer {\k71}three
+Dialogue: 0,0:00:00.57,0:00:02.78,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Za {\k18}da {\k42}da {\k14}Zai{\k23}der!
+Dialogue: 0,0:00:01.88,0:00:04.14,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Za {\k18}da {\k42}da {\k14}Zai{\k26}der!
+Dialogue: 0,0:00:03.26,0:00:09.84,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k69}Za{\k72}i{\k152}der{\k30}be{\k24}ck {\k92}wa {\k18}Zai{\k46}der{\k45}beck
+Dialogue: 0,0:00:09.00,0:00:12.00,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}wa{\k18}re{\k19}ra {\k24}no {\k26}ho{\k30}ko{\k54}ri
+Dialogue: 0,0:00:11.14,0:00:15.67,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}OH {\k45}OH {\k37}min{\k29}na {\k21}no {\k19}ho{\k34}ko{\k137}ri
+Dialogue: 0,0:00:14.74,0:00:21.31,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Za{\k82}i{\k172}der{\k32}be{\k24}ck {\k90}wa {\k19}Zai{\k52}der{\k44}beck
+Dialogue: 0,0:00:20.50,0:00:23.48,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}wa{\k19}re{\k20}ra {\k24}no {\k27}chi{\k29}ka{\k52}ra
+Dialogue: 0,0:00:22.59,0:00:27.03,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}OH {\k45}OH {\k37}min{\k27}na {\k20}no {\k21}chi{\k29}ka{\k132}ra
+Dialogue: 0,0:00:26.11,0:00:29.70,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Za{\k34}i{\k79}der{\k28}be{\k27}ck {\k49}wa
+Dialogue: 0,0:00:28.90,0:00:32.56,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k34}i{\k37}ka{\k35}ri {\k38}wo {\k34}ko{\k24}me{\k54}te
+Dialogue: 0,0:00:31.75,0:00:35.58,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Za{\k41}i{\k75}der{\k29}be{\k25}ck {\k72}wa
+Dialogue: 0,0:00:34.87,0:00:40.97,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k37}ne{\k37}ga{\k37}i {\k80}wo {\k25}ko{\k36}me{\k248}te
+Dialogue: 0,0:00:40.24,0:00:44.02,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k34}se{\k26}ka{\k24}i {\k62}no {\k34}ha{\k37}te {\k20}ma{\k31}de
+Dialogue: 0,0:00:43.13,0:00:46.82,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k32}u{\k30}chu{\k27}u {\k52}no {\k33}ha{\k36}te {\k24}ma{\k25}de
+Dialogue: 0,0:00:45.93,0:00:49.68,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}su{\k33}su{\k128}me {\k33}OH {\k48}OH
+Dialogue: 0,0:00:48.82,0:00:52.51,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k22}su{\k32}su{\k124}me {\k30}OH {\k51}OH
+Dialogue: 0,0:00:51.62,0:00:55.86,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}A{\k22}ku{\k22}ma{\k23}i{\k104}zer {\k48}one {\k72}two
+Dialogue: 0,0:00:54.97,0:00:57.88,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}A{\k19}ku{\k21}ma{\k20}i{\k29}zer {\k71}three
