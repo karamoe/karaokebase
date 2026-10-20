@@ -1,0 +1,205 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: LEMONADE
+Original Timing: ono3000
+Original Script: Karaoke Mugen
+Original Editing: puyo
+Synch Point: ono3000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,60,1
+Style: Korean,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: English,Arial,24,&H00FFFFFF,&H00FFC124,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H008AFF&}Korean {\c}| {\c&HFFC124&}English
+Comment: 0,0:00:07.16,0:00:07.62,English,,0,0,0,karaoke,{\k46}Woo
+Comment: 0,0:00:07.65,0:00:09.52,English,,0,0,0,karaoke,{\k34}I {\k36}go {\k24}in {\k23}all {\k22}the {\k48}way
+Comment: 0,0:00:09.89,0:00:11.42,English,,0,0,0,karaoke,{\k33}Don't {\k24}step {\k24}on {\k22}the {\k50}brakes
+Comment: 0,0:00:11.43,0:00:13.26,English,,0,0,0,karaoke,{\k29}I {\k38}take {\k23}my {\k23}dra{\k24}ma {\k46}straight
+Comment: 0,0:00:13.26,0:00:15.14,English,,0,0,0,karaoke,{\k35}I'll {\k36}make {\k22}it {\k23}le{\k23}mo{\k49}nade
+Comment: 0,0:00:15.14,0:00:17.14,Korean,,0,0,0,karaoke,{\k34}geop {\k34}eop{\k26}shi {\k23}{\rEnglish}walk {\k28}my {\k55}way
+Comment: 0,0:00:17.38,0:00:18.88,Korean,,0,0,0,karaoke,{\k32}deon{\k26}jeo {\k24}{\rEnglish}on {\k22}my {\k46}stage
+Comment: 0,0:00:18.90,0:00:20.77,English,,0,0,0,karaoke,{\k35}I {\k32}take {\k23}my {\k25}kar{\k23}ma {\k49}straight
+Comment: 0,0:00:20.77,0:00:22.86,English,,0,0,0,karaoke,{\k35}I'll {\k36}make {\k22}it {\k23}le{\k23}mo{\k70}nade
+Comment: 0,0:00:22.65,0:00:24.08,English,,0,0,0,karaoke,{\k42}Wait, {\k20}hold {\k37}up, {\k44}no
+Comment: 0,0:00:24.08,0:00:25.76,English,,0,0,0,karaoke,{\k12}I {\k22}can't {\k15}con{\k20}trol {\k21}my {\k78}mind
+Comment: 0,0:00:25.92,0:00:27.81,Korean,,0,0,0,karaoke,{\k16}son{\k19}kkeu{\k12}te {\k29}{\rEnglish}crush{\k18}in' {\k17}{\rKorean}go{\k22}mi{\k14}neun {\k19}{\rEnglish}jui{\k23}cy
+Comment: 0,0:00:27.81,0:00:29.35,Korean,,0,0,0,karaoke,{\k24}da {\k13}sam{\k9}kyeo{\k26}beo{\k21}rin {\k21}da'{\k40}eum
+Comment: 0,0:00:29.59,0:00:30.93,English,,0,0,0,karaoke,{\k9}A{\k21}po{\k17}lo{\k22}gies {\k15}in {\k18}ad{\k32}vance
+Comment: 0,0:00:30.98,0:00:32.03,English,,0,0,0,karaoke,{\k10}If {\k7}I {\k17}show {\k23}up {\k15}and {\k10}I {\k23}get
+Comment: 0,0:00:32.03,0:00:33.91,English,,0,0,0,karaoke,{\k22}Way {\k23}too {\k47}loud {\k24}{\rKorean}kkae{\k23}eo{\k49}na
+Comment: 0,0:00:33.91,0:00:35.54,English,,0,0,0,karaoke,{\k18}Me, {\k17}my{\k26}self {\k8}and {\k22}I, {\k24}that's {\k24}all {\k24}mine
+Comment: 0,0:00:35.55,0:00:36.96,English,,0,0,0,karaoke,{\k11}With {\k12}a {\k22}bless{\k22}ing {\k14}{\rKorean}chi{\k12}weo{\k23}beo{\k25}ryeo
+Comment: 0,0:00:36.96,0:00:38.18,English,,0,0,0,karaoke,{\k22}All {\k23}doubts, {\k23}you {\k24}pro{\k13}bab{\k17}ly
+Comment: 0,0:00:38.28,0:00:39.45,English,,0,0,0,karaoke,{\k7}Should{\k23}n't {\k23}talk {\k23}right {\k41}now
+Comment: 0,0:00:39.31,0:00:41.16,English,,0,0,0,karaoke,{\k20}Like {\k120}zip, {\k11}I {\k11}don't {\k23}care
+Comment: 0,0:00:41.37,0:00:42.69,English,,0,0,0,karaoke,{\k16}I {\k10}can {\k15}take {\k13}wha{\k10}te{\k10}ver, {\k12}put {\k11}it {\k14}all {\k10}o{\k11}ver
+Comment: 0,0:00:42.69,0:00:44.93,English,,0,0,0,karaoke,{\k12}My {\k13}bo{\k10}dy {\k11}{\rKorean}geu{\k13}ge {\k35}{\rEnglish}fash{\k82}ion, {\k23}uh-{\k25}huh
+Comment: 0,0:00:45.14,0:00:46.10,Korean,,0,0,0,karaoke,{\k15}seo{\k10}ro {\k13}da{\k10}reun {\k14}se{\k10}gye{\k12}deu{\k12}re
+Comment: 0,0:00:46.12,0:00:47.59,Korean,,0,0,0,karaoke,{\k10}da{\k15}ga{\k10}seo{\k9}myeon {\k13}i{\k10}reo{\k14}na{\k10}neun {\k36}{\rEnglish}ac{\k20}tion
+Comment: 0,0:00:47.64,0:00:48.66,English,,0,0,0,karaoke,{\k8}Dir{\k28}ty {\k32}dan{\k34}cin'
+Comment: 0,0:00:48.68,0:00:50.31,English,,0,0,0,karaoke,{\k10}I'{\k12}ma {\k23}go {\k23}hot, {\k13}don't {\k10}know {\k24}what {\k24}hap{\k24}pened
+Comment: 0,0:00:50.31,0:00:51.48,English,,0,0,0,karaoke,{\k23}'Cause {\k23}my {\k24}day {\k15}to {\k32}day's
+Comment: 0,0:00:51.48,0:00:53.04,English,,0,0,0,karaoke,{\k10}In {\k13}a {\k14}dif{\k9}fe{\k16}rent {\k22}lane {\k10}at {\k22}a {\k25}speed {\k15}that
+Comment: 0,0:00:53.04,0:00:54.45,English,,0,0,0,karaoke,{\k20}You're {\k11}ne{\k23}ver {\k24}cat{\k24}ching, {\k39}yeah
+Comment: 0,0:00:54.53,0:00:56.40,English,,0,0,0,karaoke,{\k34}I {\k36}go {\k24}in {\k23}all {\k22}the {\k48}way
+Comment: 0,0:00:56.77,0:00:58.30,English,,0,0,0,karaoke,{\k33}Don't {\k24}step {\k24}on {\k22}the {\k50}brakes
+Comment: 0,0:00:58.31,0:01:00.14,English,,0,0,0,karaoke,{\k29}I {\k38}take {\k23}my {\k23}dra{\k24}ma {\k46}straight
+Comment: 0,0:01:00.14,0:01:02.02,English,,0,0,0,karaoke,{\k35}I'll {\k36}make {\k22}it {\k23}le{\k23}mo{\k49}nade
+Comment: 0,0:01:02.02,0:01:04.02,Korean,,0,0,0,karaoke,{\k34}geop {\k34}eop{\k26}shi {\k23}{\rEnglish}walk {\k28}my {\k55}way
+Comment: 0,0:01:04.26,0:01:05.76,Korean,,0,0,0,karaoke,{\k32}deon{\k26}jeo {\k24}{\rEnglish}on {\k22}my {\k46}stage
+Comment: 0,0:01:05.78,0:01:07.65,English,,0,0,0,karaoke,{\k35}I {\k32}take {\k23}my {\k25}kar{\k23}ma {\k49}straight
+Comment: 0,0:01:07.65,0:01:09.74,English,,0,0,0,karaoke,{\k35}I'll {\k36}make {\k22}it {\k23}le{\k23}mo{\k70}nade
+Comment: 0,0:01:09.76,0:01:11.40,English,,0,0,0,karaoke,{\k23}No {\k71}way, {\k23}no {\k47}way
+Comment: 0,0:01:11.40,0:01:15.14,English,,0,0,0,karaoke,{\k24}I {\k13}ain't {\k34}got {\k26}no {\k19}E{\k25}T{\k68}A-{\k26}T{\k67}A-{\k26}T{\k46}A
+Comment: 0,0:01:15.15,0:01:17.25,English,,0,0,0,karaoke,{\k37}I'll {\k33}make {\k24}it {\k23}le{\k24}mo{\k69}nade
+Comment: 0,0:01:17.25,0:01:18.89,English,,0,0,0,karaoke,{\k23}No {\k71}way, {\k23}no {\k47}way
+Comment: 0,0:01:18.89,0:01:22.63,English,,0,0,0,karaoke,{\k24}I {\k13}ain't {\k34}got {\k26}no {\k19}E{\k25}T{\k68}A-{\k26}T{\k67}A-{\k26}T{\k46}A
+Comment: 0,0:01:22.64,0:01:24.74,English,,0,0,0,karaoke,{\k37}I'll {\k33}make {\k24}it {\k23}le{\k24}mo{\k69}nade
+Comment: 0,0:01:24.56,0:01:25.94,English,,0,0,0,karaoke,{\k43}Wait, {\k14}oh {\k12}my {\k27}god, {\k42}stop
+Comment: 0,0:01:25.94,0:01:27.80,Korean,,0,0,0,karaoke,{\k22}eol{\k22}kyeo{\k24}beo{\k13}rin {\k21}mun{\k12}jel {\k23}da {\k24}{\rEnglish}mix{\k25}ing
+Comment: 0,0:01:27.80,0:01:29.68,English,,0,0,0,karaoke,{\k23}Like {\k23}a {\k23}hur{\k13}ri{\k22}cane {\k13}{\rKorean}hwi{\k12}jeo{\k10}eo {\k25}{\rEnglish}pie{\k24}ces
+Comment: 0,0:01:29.68,0:01:31.71,English,,0,0,0,karaoke,{\k22}All {\k24}the {\k23}le{\k23}mons {\k15}{\rKorean}nan {\k10}ga{\k22}ra {\k23}ma{\k19}sheo {\k22}da
+Comment: 0,0:01:31.71,0:01:33.67,English,,0,0,0,karaoke,{\k8}I {\k22}don't {\k24}care {\k13}if {\k22}you {\k12}say {\k24}I'm {\k22}frea{\k49}ky
+Comment: 0,0:01:33.42,0:01:35.22,Korean,,0,0,0,karaoke,{\k23}mu{\k23}pyo{\k33}jeong'{\k8}eu{\k20}ro {\k10}nan {\k29}{\rEnglish}sa{\k34}vour
+Comment: 0,0:01:35.30,0:01:37.06,English,,0,0,0,karaoke,{\k22}Mu{\k28}chas {\k26}gra{\k11}ci{\k29}as {\k13}mi {\k11}a{\k36}mor
+Comment: 0,0:01:37.15,0:01:39.29,Korean,,0,0,0,karaoke,{\k26}jeon{\k23}bu {\k23}sam{\k18}kyeo{\k30}nae {\k13}{\rEnglish}like {\k11}a {\k17}piece {\k18}of {\k35}cake
+Comment: 0,0:01:39.29,0:01:41.40,English,,0,0,0,karaoke,{\k15}Make {\k15}me, {\k16}what {\k15}you {\k28}still {\k17}wai{\k11}ting {\k47}for? {\k47}Ya
+Comment: 0,0:01:41.40,0:01:43.27,English,,0,0,0,karaoke,{\k34}I {\k36}go {\k24}in {\k23}all {\k22}the {\k48}way
+Comment: 0,0:01:43.64,0:01:45.17,English,,0,0,0,karaoke,{\k33}Don't {\k24}step {\k24}on {\k22}the {\k50}brakes
+Comment: 0,0:01:45.18,0:01:47.01,English,,0,0,0,karaoke,{\k29}I {\k38}take {\k23}my {\k23}dra{\k24}ma {\k46}straight
+Comment: 0,0:01:47.01,0:01:48.89,English,,0,0,0,karaoke,{\k35}I'll {\k36}make {\k22}it {\k23}le{\k23}mo{\k49}nade
+Comment: 0,0:01:48.89,0:01:50.89,Korean,,0,0,0,karaoke,{\k34}geop {\k34}eop{\k26}shi {\k23}{\rEnglish}walk {\k24}my {\k59}way
+Comment: 0,0:01:51.13,0:01:52.63,Korean,,0,0,0,karaoke,{\k32}deon{\k26}jeo {\k24}{\rEnglish}on {\k22}my {\k46}stage
+Comment: 0,0:01:52.65,0:01:54.52,English,,0,0,0,karaoke,{\k35}I {\k32}take {\k23}my {\k25}kar{\k23}ma {\k49}straight
+Comment: 0,0:01:54.52,0:01:56.61,English,,0,0,0,karaoke,{\k35}I'll {\k36}make {\k22}it {\k23}le{\k23}mo{\k70}nade
+Comment: 0,0:01:56.63,0:01:58.27,English,,0,0,0,karaoke,{\k23}No {\k71}way, {\k23}no {\k47}way
+Comment: 0,0:01:58.27,0:02:02.01,English,,0,0,0,karaoke,{\k24}I {\k13}ain't {\k34}got {\k26}no {\k19}E{\k25}T{\k68}A-{\k26}T{\k67}A-{\k26}T{\k46}A
+Comment: 0,0:02:02.02,0:02:04.12,English,,0,0,0,karaoke,{\k37}I'll {\k33}make {\k24}it {\k23}le{\k24}mo{\k69}nade
+Comment: 0,0:02:04.12,0:02:05.76,English,,0,0,0,karaoke,{\k23}No {\k71}way, {\k23}no {\k47}way
+Comment: 0,0:02:05.76,0:02:09.50,English,,0,0,0,karaoke,{\k24}I {\k13}ain't {\k34}got {\k26}no {\k19}E{\k25}T{\k68}A-{\k26}T{\k67}A-{\k26}T{\k46}A
+Comment: 0,0:02:09.51,0:02:11.61,English,,0,0,0,karaoke,{\k37}I'll {\k33}make {\k24}it {\k23}le{\k24}mo{\k69}nade
+Comment: 0,0:02:11.87,0:02:15.40,English,,0,0,0,karaoke,{\k47}Ain't {\k57}no {\k38}e{\k21}mer{\k22}gen{\k25}cy {\k46}con{\k97}tact
+Comment: 0,0:02:15.63,0:02:19.16,Korean,,0,0,0,karaoke,{\k44}mo{\k50}deun {\k42}geon {\k29}nal {\k20}wi{\k23}han {\k51}{\rEnglish}par{\k94}ty
+Comment: 0,0:02:19.36,0:02:22.22,English,,0,0,0,karaoke,{\k25}Bring {\k22}me {\k47}that {\k52}new {\k21}fla{\k21}vor, {\k25}you {\k73}know
+Comment: 0,0:02:22.22,0:02:24.07,Korean,,0,0,0,karaoke,{\k17}deo {\k26}keun {\k24}se{\k23}sang'{\k28}eu{\k67}ro
+Comment: 0,0:02:24.07,0:02:27.23,English,,0,0,0,karaoke,{\k20}Wel{\k25}come {\k24}back {\k23}to {\k23}my {\kf201}world
+Comment: 0,0:02:26.88,0:02:28.39,English,,0,0,0,karaoke,{\k13}I'{\k9}ma {\k23}stand {\k24}all {\k9}on {\k14}my {\k59}own
+Comment: 0,0:02:28.50,0:02:30.38,Korean,,0,0,0,karaoke,{\k23}eo{\k23}di{\k12}ra{\k12}do {\k24}{\rEnglish}now {\k10}I {\k14}can {\k70}go
+Comment: 0,0:02:30.60,0:02:32.02,Korean,,0,0,0,karaoke,{\k10}sae{\k16}rop{\k24}ge {\k22}{\rEnglish}o{\k10}pen {\k14}the {\k46}door
+Comment: 0,0:02:32.02,0:02:37.72,English,,0,0,0,karaoke,{\k36}I {\k34}need {\k22}more {\k50}le{\k43}mo{\kf385}nade
+Comment: 0,0:02:33.90,0:02:35.77,English,,0,0,0,karaoke,{\k34}I {\k36}go {\k24}in {\k23}all {\k22}the {\k48}way
+Comment: 0,0:02:36.14,0:02:37.67,English,,0,0,0,karaoke,{\k33}Don't {\k24}step {\k24}on {\k22}the {\k50}brakes
+Comment: 0,0:02:37.68,0:02:39.51,English,,0,0,0,karaoke,{\k29}I {\k38}take {\k23}my {\k23}dra{\k24}ma {\k46}straight
+Comment: 0,0:02:39.51,0:02:41.39,English,,0,0,0,karaoke,{\k35}I'll {\k36}make {\k22}it {\k23}le{\k23}mo{\k49}nade
+Comment: 0,0:02:41.39,0:02:43.39,Korean,,0,0,0,karaoke,{\k34}geop {\k34}eop{\k26}shi {\k23}{\rEnglish}walk {\k24}my {\k59}way
+Comment: 0,0:02:43.63,0:02:45.13,Korean,,0,0,0,karaoke,{\k32}deon{\k26}jeo {\k24}{\rEnglish}on {\k22}my {\k46}stage
+Comment: 0,0:02:45.15,0:02:47.02,English,,0,0,0,karaoke,{\k35}I {\k32}take {\k23}my {\k25}kar{\k23}ma {\k49}straight
+Comment: 0,0:02:47.02,0:02:49.11,English,,0,0,0,karaoke,{\k35}I'll {\k36}make {\k22}it {\k23}le{\k23}mo{\k70}nade
+Comment: 0,0:02:49.13,0:02:50.77,English,,0,0,0,karaoke,{\k23}No {\k71}way, {\k23}no {\k47}way
+Comment: 0,0:02:50.77,0:02:54.51,English,,0,0,0,karaoke,{\k24}I {\k13}ain't {\k34}got {\k26}no {\k19}E{\k25}T{\k68}A-{\k26}T{\k67}A-{\k26}T{\k46}A
+Comment: 0,0:02:54.52,0:02:56.62,English,,0,0,0,karaoke,{\k37}I'll {\k33}make {\k24}it {\k23}le{\k24}mo{\k69}nade
+Comment: 0,0:02:56.62,0:02:58.26,English,,0,0,0,karaoke,{\k23}No {\k71}way, {\k23}no {\k47}way
+Comment: 0,0:02:58.26,0:03:02.00,English,,0,0,0,karaoke,{\k24}I {\k13}ain't {\k34}got {\k26}no {\k19}E{\k25}T{\k68}A-{\k26}T{\k67}A-{\k26}T{\k46}A
+Comment: 0,0:03:02.01,0:03:04.11,English,,0,0,0,karaoke,{\k37}I'll {\k33}make {\k24}it {\k23}le{\k24}mo{\k69}nade
+Comment: 0,0:03:03.91,0:03:05.40,English,,0,0,0,karaoke,{\k41}Wait, {\k21}hold {\k37}up, {\k50}stop
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H008AFF&}Korean {\c}| {\c&HFFC124&}English
+Dialogue: 0,0:00:06.26,0:00:07.82,English,,0,0,0,fx,{\k90\fad(300,200)}{\k46}Woo
+Dialogue: 0,0:00:06.75,0:00:09.72,English,,0,0,0,fx,{\k90\fad(300,200)}{\k34}I {\k36}go {\k24}in {\k23}all {\k22}the {\k48}way
+Dialogue: 0,0:00:08.99,0:00:11.62,English,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Don't {\k24}step {\k24}on {\k22}the {\k50}brakes
+Dialogue: 0,0:00:10.53,0:00:13.46,English,,0,0,0,fx,{\k90\fad(300,200)}{\k29}I {\k38}take {\k23}my {\k23}dra{\k24}ma {\k46}straight
+Dialogue: 0,0:00:12.36,0:00:15.34,English,,0,0,0,fx,{\k90\fad(300,200)}{\k35}I'll {\k36}make {\k22}it {\k23}le{\k23}mo{\k49}nade
+Dialogue: 0,0:00:14.24,0:00:17.34,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k34}geop {\k34}eop{\k26}shi {\k23}{\rEnglish}walk {\k28}my {\k55}way
+Dialogue: 0,0:00:16.48,0:00:19.08,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k32}deon{\k26}jeo {\k24}{\rEnglish}on {\k22}my {\k46}stage
+Dialogue: 0,0:00:18.00,0:00:20.97,English,,0,0,0,fx,{\k90\fad(300,200)}{\k35}I {\k32}take {\k23}my {\k25}kar{\k23}ma {\k49}straight
+Dialogue: 0,0:00:19.87,0:00:23.06,English,,0,0,0,fx,{\k90\fad(300,200)}{\k35}I'll {\k36}make {\k22}it {\k23}le{\k23}mo{\k70}nade
+Dialogue: 0,0:00:21.75,0:00:24.28,English,,0,0,0,fx,{\k90\fad(300,200)}{\k42}Wait, {\k20}hold {\k37}up, {\k44}no
+Dialogue: 0,0:00:23.18,0:00:25.96,English,,0,0,0,fx,{\k90\fad(300,200)}{\k12}I {\k22}can't {\k15}con{\k20}trol {\k21}my {\k78}mind
+Dialogue: 0,0:00:25.02,0:00:28.01,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k16}son{\k19}kkeu{\k12}te {\k29}{\rEnglish}crush{\k18}in' {\k17}{\rKorean}go{\k22}mi{\k14}neun {\k19}{\rEnglish}jui{\k23}cy
+Dialogue: 0,0:00:26.91,0:00:29.55,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k24}da {\k13}sam{\k9}kyeo{\k26}beo{\k21}rin {\k21}da'{\k40}eum
+Dialogue: 0,0:00:28.69,0:00:31.13,English,,0,0,0,fx,{\k90\fad(300,200)}{\k9}A{\k21}po{\k17}lo{\k22}gies {\k15}in {\k18}ad{\k32}vance
+Dialogue: 0,0:00:30.08,0:00:32.23,English,,0,0,0,fx,{\k90\fad(300,200)}{\k10}If {\k7}I {\k17}show {\k23}up {\k15}and {\k10}I {\k23}get
+Dialogue: 0,0:00:31.13,0:00:34.11,English,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Way {\k23}too {\k47}loud {\k24}{\rKorean}kkae{\k23}eo{\k49}na
+Dialogue: 0,0:00:33.01,0:00:35.74,English,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Me, {\k17}my{\k26}self {\k8}and {\k22}I, {\k24}that's {\k24}all {\k24}mine
+Dialogue: 0,0:00:34.65,0:00:37.16,English,,0,0,0,fx,{\k90\fad(300,200)}{\k11}With {\k12}a {\k22}bless{\k22}ing {\k14}{\rKorean}chi{\k12}weo{\k23}beo{\k25}ryeo
+Dialogue: 0,0:00:36.06,0:00:38.38,English,,0,0,0,fx,{\k90\fad(300,200)}{\k22}All {\k23}doubts, {\k23}you {\k24}pro{\k13}bab{\k17}ly
+Dialogue: 0,0:00:37.38,0:00:39.65,English,,0,0,0,fx,{\k90\fad(300,200)}{\k7}Should{\k23}n't {\k23}talk {\k23}right {\k41}now
+Dialogue: 0,0:00:38.41,0:00:41.36,English,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Like {\k120}zip, {\k11}I {\k11}don't {\k23}care
+Dialogue: 0,0:00:40.47,0:00:42.89,English,,0,0,0,fx,{\k90\fad(300,200)}{\k16}I {\k10}can {\k15}take {\k13}wha{\k10}te{\k10}ver, {\k12}put {\k11}it {\k14}all {\k10}o{\k11}ver
+Dialogue: 0,0:00:41.79,0:00:45.13,English,,0,0,0,fx,{\k90\fad(300,200)}{\k12}My {\k13}bo{\k10}dy {\k11}{\rKorean}geu{\k13}ge {\k35}{\rEnglish}fash{\k82}ion, {\k23}uh-{\k25}huh
+Dialogue: 0,0:00:44.24,0:00:46.30,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k15}seo{\k10}ro {\k13}da{\k10}reun {\k14}se{\k10}gye{\k12}deu{\k12}re
+Dialogue: 0,0:00:45.22,0:00:47.79,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k10}da{\k15}ga{\k10}seo{\k9}myeon {\k13}i{\k10}reo{\k14}na{\k10}neun {\k36}{\rEnglish}ac{\k20}tion
+Dialogue: 0,0:00:46.74,0:00:48.86,English,,0,0,0,fx,{\k90\fad(300,200)}{\k8}Dir{\k28}ty {\k32}dan{\k34}cin'
+Dialogue: 0,0:00:47.78,0:00:50.51,English,,0,0,0,fx,{\k90\fad(300,200)}{\k10}I'{\k12}ma {\k23}go {\k23}hot, {\k13}don't {\k10}know {\k24}what {\k24}hap{\k24}pened
+Dialogue: 0,0:00:49.41,0:00:51.68,English,,0,0,0,fx,{\k90\fad(300,200)}{\k23}'Cause {\k23}my {\k24}day {\k15}to {\k32}day's
+Dialogue: 0,0:00:50.58,0:00:53.24,English,,0,0,0,fx,{\k90\fad(300,200)}{\k10}In {\k13}a {\k14}dif{\k9}fe{\k16}rent {\k22}lane {\k10}at {\k22}a {\k25}speed {\k15}that
+Dialogue: 0,0:00:52.14,0:00:54.65,English,,0,0,0,fx,{\k90\fad(300,200)}{\k20}You're {\k11}ne{\k23}ver {\k24}cat{\k24}ching, {\k39}yeah
+Dialogue: 0,0:00:53.63,0:00:56.60,English,,0,0,0,fx,{\k90\fad(300,200)}{\k34}I {\k36}go {\k24}in {\k23}all {\k22}the {\k48}way
+Dialogue: 0,0:00:55.87,0:00:58.50,English,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Don't {\k24}step {\k24}on {\k22}the {\k50}brakes
+Dialogue: 0,0:00:57.41,0:01:00.34,English,,0,0,0,fx,{\k90\fad(300,200)}{\k29}I {\k38}take {\k23}my {\k23}dra{\k24}ma {\k46}straight
+Dialogue: 0,0:00:59.24,0:01:02.22,English,,0,0,0,fx,{\k90\fad(300,200)}{\k35}I'll {\k36}make {\k22}it {\k23}le{\k23}mo{\k49}nade
+Dialogue: 0,0:01:01.12,0:01:04.22,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k34}geop {\k34}eop{\k26}shi {\k23}{\rEnglish}walk {\k28}my {\k55}way
+Dialogue: 0,0:01:03.36,0:01:05.96,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k32}deon{\k26}jeo {\k24}{\rEnglish}on {\k22}my {\k46}stage
+Dialogue: 0,0:01:04.88,0:01:07.85,English,,0,0,0,fx,{\k90\fad(300,200)}{\k35}I {\k32}take {\k23}my {\k25}kar{\k23}ma {\k49}straight
+Dialogue: 0,0:01:06.75,0:01:09.94,English,,0,0,0,fx,{\k90\fad(300,200)}{\k35}I'll {\k36}make {\k22}it {\k23}le{\k23}mo{\k70}nade
+Dialogue: 0,0:01:08.86,0:01:11.60,English,,0,0,0,fx,{\k90\fad(300,200)}{\k23}No {\k71}way, {\k23}no {\k47}way
+Dialogue: 0,0:01:10.50,0:01:15.34,English,,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k13}ain't {\k34}got {\k26}no {\k19}E{\k25}T{\k68}A-{\k26}T{\k67}A-{\k26}T{\k46}A
+Dialogue: 0,0:01:14.25,0:01:17.45,English,,0,0,0,fx,{\k90\fad(300,200)}{\k37}I'll {\k33}make {\k24}it {\k23}le{\k24}mo{\k69}nade
+Dialogue: 0,0:01:16.35,0:01:19.09,English,,0,0,0,fx,{\k90\fad(300,200)}{\k23}No {\k71}way, {\k23}no {\k47}way
+Dialogue: 0,0:01:17.99,0:01:22.83,English,,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k13}ain't {\k34}got {\k26}no {\k19}E{\k25}T{\k68}A-{\k26}T{\k67}A-{\k26}T{\k46}A
+Dialogue: 0,0:01:21.74,0:01:24.94,English,,0,0,0,fx,{\k90\fad(300,200)}{\k37}I'll {\k33}make {\k24}it {\k23}le{\k24}mo{\k69}nade
+Dialogue: 0,0:01:23.66,0:01:26.14,English,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Wait, {\k14}oh {\k12}my {\k27}god, {\k42}stop
+Dialogue: 0,0:01:25.04,0:01:28.00,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k22}eol{\k22}kyeo{\k24}beo{\k13}rin {\k21}mun{\k12}jel {\k23}da {\k24}{\rEnglish}mix{\k25}ing
+Dialogue: 0,0:01:26.90,0:01:29.88,English,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Like {\k23}a {\k23}hur{\k13}ri{\k22}cane {\k13}{\rKorean}hwi{\k12}jeo{\k10}eo {\k25}{\rEnglish}pie{\k24}ces
+Dialogue: 0,0:01:28.78,0:01:31.91,English,,0,0,0,fx,{\k90\fad(300,200)}{\k22}All {\k24}the {\k23}le{\k23}mons {\k15}{\rKorean}nan {\k10}ga{\k22}ra {\k23}ma{\k19}sheo {\k22}da
+Dialogue: 0,0:01:30.81,0:01:33.87,English,,0,0,0,fx,{\k90\fad(300,200)}{\k8}I {\k22}don't {\k24}care {\k13}if {\k22}you {\k12}say {\k24}I'm {\k22}frea{\k49}ky
+Dialogue: 0,0:01:32.52,0:01:35.42,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k23}mu{\k23}pyo{\k33}jeong'{\k8}eu{\k20}ro {\k10}nan {\k29}{\rEnglish}sa{\k34}vour
+Dialogue: 0,0:01:34.40,0:01:37.26,English,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Mu{\k28}chas {\k26}gra{\k11}ci{\k29}as {\k13}mi {\k11}a{\k36}mor
+Dialogue: 0,0:01:36.25,0:01:39.49,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k26}jeon{\k23}bu {\k23}sam{\k18}kyeo{\k30}nae {\k13}{\rEnglish}like {\k11}a {\k17}piece {\k18}of {\k35}cake
+Dialogue: 0,0:01:38.39,0:01:41.60,English,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Make {\k15}me, {\k16}what {\k15}you {\k28}still {\k17}wai{\k11}ting {\k47}for? {\k47}Ya
+Dialogue: 0,0:01:40.50,0:01:43.47,English,,0,0,0,fx,{\k90\fad(300,200)}{\k34}I {\k36}go {\k24}in {\k23}all {\k22}the {\k48}way
+Dialogue: 0,0:01:42.74,0:01:45.37,English,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Don't {\k24}step {\k24}on {\k22}the {\k50}brakes
+Dialogue: 0,0:01:44.28,0:01:47.21,English,,0,0,0,fx,{\k90\fad(300,200)}{\k29}I {\k38}take {\k23}my {\k23}dra{\k24}ma {\k46}straight
+Dialogue: 0,0:01:46.11,0:01:49.09,English,,0,0,0,fx,{\k90\fad(300,200)}{\k35}I'll {\k36}make {\k22}it {\k23}le{\k23}mo{\k49}nade
+Dialogue: 0,0:01:47.99,0:01:51.09,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k34}geop {\k34}eop{\k26}shi {\k23}{\rEnglish}walk {\k24}my {\k59}way
+Dialogue: 0,0:01:50.23,0:01:52.83,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k32}deon{\k26}jeo {\k24}{\rEnglish}on {\k22}my {\k46}stage
+Dialogue: 0,0:01:51.75,0:01:54.72,English,,0,0,0,fx,{\k90\fad(300,200)}{\k35}I {\k32}take {\k23}my {\k25}kar{\k23}ma {\k49}straight
+Dialogue: 0,0:01:53.62,0:01:56.81,English,,0,0,0,fx,{\k90\fad(300,200)}{\k35}I'll {\k36}make {\k22}it {\k23}le{\k23}mo{\k70}nade
+Dialogue: 0,0:01:55.73,0:01:58.47,English,,0,0,0,fx,{\k90\fad(300,200)}{\k23}No {\k71}way, {\k23}no {\k47}way
+Dialogue: 0,0:01:57.37,0:02:02.21,English,,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k13}ain't {\k34}got {\k26}no {\k19}E{\k25}T{\k68}A-{\k26}T{\k67}A-{\k26}T{\k46}A
+Dialogue: 0,0:02:01.12,0:02:04.32,English,,0,0,0,fx,{\k90\fad(300,200)}{\k37}I'll {\k33}make {\k24}it {\k23}le{\k24}mo{\k69}nade
+Dialogue: 0,0:02:03.22,0:02:05.96,English,,0,0,0,fx,{\k90\fad(300,200)}{\k23}No {\k71}way, {\k23}no {\k47}way
+Dialogue: 0,0:02:04.86,0:02:09.70,English,,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k13}ain't {\k34}got {\k26}no {\k19}E{\k25}T{\k68}A-{\k26}T{\k67}A-{\k26}T{\k46}A
+Dialogue: 0,0:02:08.61,0:02:11.81,English,,0,0,0,fx,{\k90\fad(300,200)}{\k37}I'll {\k33}make {\k24}it {\k23}le{\k24}mo{\k69}nade
+Dialogue: 0,0:02:10.97,0:02:15.60,English,,0,0,0,fx,{\k90\fad(300,200)}{\k47}Ain't {\k57}no {\k38}e{\k21}mer{\k22}gen{\k25}cy {\k46}con{\k97}tact
+Dialogue: 0,0:02:14.73,0:02:19.36,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k44}mo{\k50}deun {\k42}geon {\k29}nal {\k20}wi{\k23}han {\k51}{\rEnglish}par{\k94}ty
+Dialogue: 0,0:02:18.46,0:02:22.42,English,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Bring {\k22}me {\k47}that {\k52}new {\k21}fla{\k21}vor, {\k25}you {\k73}know
+Dialogue: 0,0:02:21.32,0:02:24.27,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k17}deo {\k26}keun {\k24}se{\k23}sang'{\k28}eu{\k67}ro
+Dialogue: 0,0:02:23.17,0:02:27.43,English,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Wel{\k25}come {\k24}back {\k23}to {\k23}my {\kf201}world
+Dialogue: 0,0:02:25.98,0:02:28.59,English,,0,0,0,fx,{\k90\fad(300,200)}{\k13}I'{\k9}ma {\k23}stand {\k24}all {\k9}on {\k14}my {\k59}own
+Dialogue: 0,0:02:27.60,0:02:30.58,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k23}eo{\k23}di{\k12}ra{\k12}do {\k24}{\rEnglish}now {\k10}I {\k14}can {\k70}go
+Dialogue: 0,0:02:29.70,0:02:32.22,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k10}sae{\k16}rop{\k24}ge {\k22}{\rEnglish}o{\k10}pen {\k14}the {\k46}door
+Dialogue: 0,0:02:31.12,0:02:37.92,English,,0,0,0,fx,{\k90\fad(300,200)}{\k36}I {\k34}need {\k22}more {\k50}le{\k43}mo{\kf385}nade
+Dialogue: 0,0:02:33.00,0:02:35.97,English,,0,0,0,fx,{\k90\fad(300,200)}{\k34}I {\k36}go {\k24}in {\k23}all {\k22}the {\k48}way
+Dialogue: 0,0:02:35.24,0:02:37.87,English,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Don't {\k24}step {\k24}on {\k22}the {\k50}brakes
+Dialogue: 0,0:02:36.78,0:02:39.71,English,,0,0,0,fx,{\k90\fad(300,200)}{\k29}I {\k38}take {\k23}my {\k23}dra{\k24}ma {\k46}straight
+Dialogue: 0,0:02:38.61,0:02:41.59,English,,0,0,0,fx,{\k90\fad(300,200)}{\k35}I'll {\k36}make {\k22}it {\k23}le{\k23}mo{\k49}nade
+Dialogue: 0,0:02:40.49,0:02:43.59,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k34}geop {\k34}eop{\k26}shi {\k23}{\rEnglish}walk {\k24}my {\k59}way
+Dialogue: 0,0:02:42.73,0:02:45.33,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k32}deon{\k26}jeo {\k24}{\rEnglish}on {\k22}my {\k46}stage
+Dialogue: 0,0:02:44.25,0:02:47.22,English,,0,0,0,fx,{\k90\fad(300,200)}{\k35}I {\k32}take {\k23}my {\k25}kar{\k23}ma {\k49}straight
+Dialogue: 0,0:02:46.12,0:02:49.31,English,,0,0,0,fx,{\k90\fad(300,200)}{\k35}I'll {\k36}make {\k22}it {\k23}le{\k23}mo{\k70}nade
+Dialogue: 0,0:02:48.23,0:02:50.97,English,,0,0,0,fx,{\k90\fad(300,200)}{\k23}No {\k71}way, {\k23}no {\k47}way
+Dialogue: 0,0:02:49.87,0:02:54.71,English,,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k13}ain't {\k34}got {\k26}no {\k19}E{\k25}T{\k68}A-{\k26}T{\k67}A-{\k26}T{\k46}A
+Dialogue: 0,0:02:53.62,0:02:56.82,English,,0,0,0,fx,{\k90\fad(300,200)}{\k37}I'll {\k33}make {\k24}it {\k23}le{\k24}mo{\k69}nade
+Dialogue: 0,0:02:55.72,0:02:58.46,English,,0,0,0,fx,{\k90\fad(300,200)}{\k23}No {\k71}way, {\k23}no {\k47}way
+Dialogue: 0,0:02:57.36,0:03:02.20,English,,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k13}ain't {\k34}got {\k26}no {\k19}E{\k25}T{\k68}A-{\k26}T{\k67}A-{\k26}T{\k46}A
+Dialogue: 0,0:03:01.11,0:03:04.31,English,,0,0,0,fx,{\k90\fad(300,200)}{\k37}I'll {\k33}make {\k24}it {\k23}le{\k24}mo{\k69}nade
+Dialogue: 0,0:03:03.01,0:03:05.60,English,,0,0,0,fx,{\k90\fad(300,200)}{\k41}Wait, {\k21}hold {\k37}up, {\k50}stop
