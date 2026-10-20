@@ -1,0 +1,87 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+LayoutResX: 0
+LayoutResY: 0
+Title: デートプランA to Z
+Original Timing: Variabels
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H008CCD29,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Niki,Arial,24,&H00FFFFFF,&H00B8A89B,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Kaoru,Arial,24,&H00FFFFFF,&H0041B5E6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Natsume,Arial,24,&H00FFFFFF,&H003E3FE0,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: chiaki,Arial,24,&H00FFFFFF,&H00B05EF1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mitsuru,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Group,Arial,24,&H00FFFFFF,&H002BE02D,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: chiaki S,Arial,30,&H00B05EF1,&H00B05EF1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Niki S,Arial,30,&H00B8A89B,&H00B8A89B,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Natsume S,Arial,30,&H003E3FE0,&H003E3FE0,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mitsuru S,Arial,28,&H00008AFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Kaoru S,Arial,25,&H0041B5E6,&H0041B5E6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Up],,0,0,0,guide,{\k1000\k0}{\alignment(2)}ALL  {\rGroup}Group\N{\k0\rchiaki S}♠ {\rchiaki}Chiaki {\k0\rNiki S}♣ {\rNiki}Niki {\k0\rNatsume S}♥ {\rNatsume}Natsume {\k0\rMitsuru S}♦ {\rMitsuru}Mitsuru {\k0\rKaoru S}♪ {\rKaoru}Kaoru
+Comment: 0,0:00:03.41,0:00:06.80,Kaoru,,0,0,0,karaoke,{\k0\rKaoru S}♪{\r} {\k21}yu{\k20}bi{\k21}o{\k21}ri {\k22}ka{\k21}zo{\k24}e{\k41}te {\k22}a{\k21}to {\k41}mou {\k22}su{\k21}ko{\k21}shi
+Comment: 0,0:00:07.01,0:00:10.36,chiaki,,0,0,0,karaoke,{\k0\rchiaki S}♠{\r} {\k22}HE{\k25}AR{\k41}T {\k43}ga {\k22}TIC{\k22}K-{\k20}TOC{\k24}K {\k40}kyuu {\k43}sek{\k33}kin
+Comment: 0,0:00:10.43,0:00:13.82,Group,niki natsu mitsu,0,0,0,karaoke,{\k0\rNiki S}♣{\r} {\k0\rMitsuru S}♦{\r} {\k0\rNatsume S}♥{\r} {\k47}SHOW {\k42}WIN{\k42}DOW {\k44}de {\k38}sai{\k45}shuu {\k46}CHEC{\k35}K
+Comment: 0,0:00:14.32,0:00:20.92,Sample KM [Up],,0,0,0,karaoke,{\k43}kyou {\k22}wa {\k19}ma{\k22}chi {\k23}wa{\k21}bi{\k20}ta {\k24}ha{\k21}tsu {\k43}DA{\k42}TE {\k34}a{\kf136}a{\k23} {\k22}a{\kf145}a!
+Comment: 0,0:00:24.59,0:00:27.49,Mitsuru,,0,0,0,karaoke,{\k0\rMitsuru S}♦{\r} {\k44}chot{\k41}to {\k25}se{\k20}no{\k21}bi {\k22}no {\k23}P{\k41}LAN {\k22}A{\k31}~
+Comment: 0,0:00:28.00,0:00:31.34,Niki,,0,0,0,karaoke,{\k0\rNiki S}♣{\r} {\k46}yap{\k42}pa {\k22}i{\k22}tsu{\k21}mo {\k21}do{\k23}o{\k41}ri {\k23}P{\k42}LAN {\k31}B
+Comment: 0,0:00:31.44,0:00:34.29,Natsume,,0,0,0,karaoke,{\k0\rNatsume S}♥{\r} {\k44}zet{\k43}tai {\k24}ha{\k18}zu{\k23}shi{\k21}ta {\k23}ku{\k24}na{\k37}in{\k28}da
+Comment: 0,0:00:34.38,0:00:39.16,Kaoru,,0,0,0,karaoke,{\k0\rKaoru S}♪{\r} {\k29}ki{\k21}mi {\k22}no {\k23}e{\k22}ga{\k18}o {\k47}wo {\k19}hi{\k22}to{\k20}ri{\k22}ji{\k21}me {\k22}de{\k43}ki{\k21}ru {\k22}hi {\k84}ni
+Comment: 0,0:00:39.59,0:00:41.69,chiaki,,0,0,0,karaoke,{\k0\rchiaki S}♠{\r} {\k22}don{\k23}na {\k20}ka{\k13}o {\k30}shi{\k21}te {\k22}o{\k13}ha{\k23}yo {\k23}tte
+Comment: 0,0:00:41.76,0:00:46.02,Group,chiakao,0,0,0,karaoke,{\k0\rchiaki S}♠{\r} {\k0\rKaoru S}♪{\r} {\k64}a{\k21}re {\k64}ko{\k20}re {\k22}ka{\k23}sa{\k21}ne{\k18}ta {\k24}SI{\k22}MU{\k43}LA{\k84}TION
+Comment: 0,0:00:47.94,0:00:49.69,Sample KM [Up],,0,0,0,karaoke,{\k23}da{\k21}ke{\k21}do {\k22}i{\k21}mi {\k26}na{\k17}i {\k24}na
+Comment: 0,0:00:49.88,0:00:51.38,Sample KM [Up],,0,0,0,karaoke,{\k21}a{\k23}e{\k21}ba {\k21}to{\k43}tan {\k21}ni
+Comment: 0,0:00:51.57,0:00:54.89,Sample KM [Up],,0,0,0,karaoke,{\k23}HE{\k23}AR{\k43}T {\k43}wa {\k21}ba{\k21}ku {\k22}ba{\k22}ku {\k43}dai{\k42}on{\k29}ryou
+Comment: 0,0:00:55.02,0:00:58.50,Sample KM [Up],,0,0,0,karaoke,{\k44}jun{\k17}bi {\k23}shi{\k24}te {\k22}ki{\k43}ta {\k21}wa{\k21}da{\k22}i {\k20}mo {\k44}zen{\k47}bu
+Comment: 0,0:00:58.89,0:01:05.45,Sample KM [Up],,0,0,0,karaoke,{\k21}ka{\k23}ta{\k20}ko{\k21}to {\k23}mu{\k18}na{\k23}shi{\k21}ku {\k43}kon{\k41}ran{\k46}chuu {\k42}a{\kf129}a{\k22} {\k16}a{\kf147}a!
+Comment: 0,0:01:15.96,0:01:19.26,Sample KM [Up],,0,0,0,karaoke,{\k94}MY {\k85}GIRL {\k21}a{\k21}ki{\k22}re{\k23}te{\k64}mo
+Comment: 0,0:01:19.68,0:01:22.76,Sample KM [Up],,0,0,0,karaoke,{\k21}do{\k22}u{\k19}ka {\k23}ki{\k25}ra{\k19}i {\k42}ni {\k22}na{\k21}ra{\k22}na{\k21}i{\k22}de {\k29}ne
+Comment: 0,0:01:22.90,0:01:25.95,Sample KM [Up],,0,0,0,karaoke,{\k85}MY {\k86}GIRL {\k21}wa{\k21}ru{\k21}i {\k23}ke{\k48}do
+Comment: 0,0:01:26.31,0:01:29.43,Sample KM [Up],,0,0,0,karaoke,{\k44}me{\k43}cha{\k42}ku{\k43}cha {\k13}ta{\k10}no{\k20}shin {\k20}jat{\k24}te{\k53}mas'
+Comment: 0,0:01:30.82,0:01:34.25,chiaki,,0,0,0,karaoke,{\k0\rchiaki S}♠{\r} {\k21}yu{\k19}bi{\k25}o{\k18}ri {\k24}ka{\k23}zo{\k21}e{\k41}te {\k44}kyou {\k22}ga {\k24}ho{\k18}n{\k25}ba{\k18}n
+Comment: 0,0:01:34.47,0:01:37.77,Kaoru,,0,0,0,karaoke,{\k0\rKaoru S}♪{\r} {\k20}HE{\k23}AR{\k43}T {\k43}ga {\k43}kyun{\k42}kyun {\k40}kyuu {\k45}sek{\k31}kin
+Comment: 0,0:01:37.86,0:01:41.38,Niki,,0,0,0,karaoke,{\k0\rNiki S}♣{\r} {\k45}jun{\k15}bi {\k27}shi{\k21}te {\k25}ki{\k41}ta {\k20}do{\k23}no {\k21}wa{\k21}da{\k21}i {\k24}yo{\k48}ri
+Comment: 0,0:01:41.74,0:01:44.61,Group,natsu mitsu,0,0,0,karaoke,{\k0\rMitsuru S}♦{\r} {\k0\rNatsume S}♥{\r} {\k21}ha{\k21}zu{\k23}n{\k20}da {\k42}kai{\k23}wa {\k21}ga {\k44}shou{\k40}mei{\k32}chuu
+Comment: 0,0:01:44.75,0:01:47.96,Sample KM [Up],,0,0,0,karaoke,{\k44}at{\k42}to {\k42}iu {\k44}ma {\k21}ne{\k21}e {\k43}dou {\k42}dat{\k22}ta?
+Comment: 0,0:01:48.18,0:01:51.40,Sample KM [Up],,0,0,0,karaoke,{\k21}ma{\k18}ta {\k42}sa{\k42}so{\k27}t{\k22}te{\k19}mo {\k22}i{\k43}i {\k39}ka{\k27}na
+Comment: 0,0:01:51.56,0:01:55.01,Sample KM [Up],,0,0,0,karaoke,{\k47}SHOW {\k43}WIN{\k42}DOW {\k43}ni {\k20}u{\k22}tsu{\k23}t{\k22}ta {\k21}kyo{\k22}ri {\k40}ga
+Comment: 0,0:01:55.47,0:02:01.82,Sample KM [Up],,0,0,0,karaoke,{\k17}a{\k26}sa {\k21}yo{\k16}ri {\k27}chi{\k19}ka{\k23}zu{\k20}ke{\k22}ta {\k22}ki{\k21}ga{\k23}shi{\k42}te {\k40}a{\kf132}a{\k21} {\k21}a{\kf122}a!
+Comment: 0,0:02:02.09,0:02:07.43,Sample KM [Up],,0,0,0,karaoke,{\k22}wa{\k61}ku{\k25}wa{\k65}ku {\k19}ka{\k25}sa{\k19}ne{\k21}te{\k19}ku {\k47}A {\k41}TO {\kf170}Z
+Dialogue: 0,0:00:02.51,0:00:07.00,Kaoru,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rKaoru S}♪{\r} {\k21}yu{\k20}bi{\k21}o{\k21}ri {\k22}ka{\k21}zo{\k24}e{\k41}te {\k22}a{\k21}to {\k41}mou {\k22}su{\k21}ko{\k21}shi
+Dialogue: 0,0:00:06.11,0:00:10.56,chiaki,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rchiaki S}♠{\r} {\k22}HE{\k25}AR{\k41}T {\k43}ga {\k22}TIC{\k22}K-{\k20}TOC{\k24}K {\k40}kyuu {\k43}sek{\k33}kin
+Dialogue: 0,0:00:09.53,0:00:14.02,Group,niki natsu mitsu,0,0,0,fx,{\k90\fad(300,200)}{\k0\rNiki S}♣{\r} {\k0\rMitsuru S}♦{\r} {\k0\rNatsume S}♥{\r} {\k47}SHOW {\k42}WIN{\k42}DOW {\k44}de {\k38}sai{\k45}shuu {\k46}CHEC{\k35}K
+Dialogue: 0,0:00:13.42,0:00:21.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}kyou {\k22}wa {\k19}ma{\k22}chi {\k23}wa{\k21}bi{\k20}ta {\k24}ha{\k21}tsu {\k43}DA{\k42}TE {\k34}a{\kf136}a{\k23} {\k22}a{\kf145}a!
+Dialogue: 0,0:00:23.69,0:00:27.69,Mitsuru,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rMitsuru S}♦{\r} {\k44}chot{\k41}to {\k25}se{\k20}no{\k21}bi {\k22}no {\k23}P{\k41}LAN {\k22}A{\k31}~
+Dialogue: 0,0:00:27.10,0:00:31.54,Niki,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rNiki S}♣{\r} {\k46}yap{\k42}pa {\k22}i{\k22}tsu{\k21}mo {\k21}do{\k23}o{\k41}ri {\k23}P{\k42}LAN {\k31}B
+Dialogue: 0,0:00:30.54,0:00:34.49,Natsume,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rNatsume S}♥{\r} {\k44}zet{\k43}tai {\k24}ha{\k18}zu{\k23}shi{\k21}ta {\k23}ku{\k24}na{\k37}in{\k28}da
+Dialogue: 0,0:00:33.48,0:00:39.36,Kaoru,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rKaoru S}♪{\r} {\k29}ki{\k21}mi {\k22}no {\k23}e{\k22}ga{\k18}o {\k47}wo {\k19}hi{\k22}to{\k20}ri{\k22}ji{\k21}me {\k22}de{\k43}ki{\k21}ru {\k22}hi {\k84}ni
+Dialogue: 0,0:00:38.69,0:00:41.89,chiaki,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rchiaki S}♠{\r} {\k22}don{\k23}na {\k20}ka{\k13}o {\k30}shi{\k21}te {\k22}o{\k13}ha{\k23}yo {\k23}tte
+Dialogue: 0,0:00:40.86,0:00:46.22,Group,chiakao,0,0,0,fx,{\k90\fad(300,200)}{\k0\rchiaki S}♠{\r} {\k0\rKaoru S}♪{\r} {\k64}a{\k21}re {\k64}ko{\k20}re {\k22}ka{\k23}sa{\k21}ne{\k18}ta {\k24}SI{\k22}MU{\k43}LA{\k84}TION
+Dialogue: 0,0:00:47.04,0:00:49.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}da{\k21}ke{\k21}do {\k22}i{\k21}mi {\k26}na{\k17}i {\k24}na
+Dialogue: 0,0:00:48.98,0:00:51.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}a{\k23}e{\k21}ba {\k21}to{\k43}tan {\k21}ni
+Dialogue: 0,0:00:50.67,0:00:55.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}HE{\k23}AR{\k43}T {\k43}wa {\k21}ba{\k21}ku {\k22}ba{\k22}ku {\k43}dai{\k42}on{\k29}ryou
+Dialogue: 0,0:00:54.12,0:00:58.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}jun{\k17}bi {\k23}shi{\k24}te {\k22}ki{\k43}ta {\k21}wa{\k21}da{\k22}i {\k20}mo {\k44}zen{\k47}bu
+Dialogue: 0,0:00:57.99,0:01:05.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}ka{\k23}ta{\k20}ko{\k21}to {\k23}mu{\k18}na{\k23}shi{\k21}ku {\k43}kon{\k41}ran{\k46}chuu {\k42}a{\kf129}a{\k22} {\k16}a{\kf147}a!
+Dialogue: 0,0:01:15.06,0:01:19.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k94}MY {\k85}GIRL {\k21}a{\k21}ki{\k22}re{\k23}te{\k64}mo
+Dialogue: 0,0:01:18.78,0:01:22.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}do{\k22}u{\k19}ka {\k23}ki{\k25}ra{\k19}i {\k42}ni {\k22}na{\k21}ra{\k22}na{\k21}i{\k22}de {\k29}ne
+Dialogue: 0,0:01:22.00,0:01:26.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k85}MY {\k86}GIRL {\k21}wa{\k21}ru{\k21}i {\k23}ke{\k48}do
+Dialogue: 0,0:01:25.41,0:01:29.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}me{\k43}cha{\k42}ku{\k43}cha {\k13}ta{\k10}no{\k20}shin {\k20}jat{\k24}te{\k53}mas'
+Dialogue: 0,0:01:29.92,0:01:34.45,chiaki,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rchiaki S}♠{\r} {\k21}yu{\k19}bi{\k25}o{\k18}ri {\k24}ka{\k23}zo{\k21}e{\k41}te {\k44}kyou {\k22}ga {\k24}ho{\k18}n{\k25}ba{\k18}n
+Dialogue: 0,0:01:33.57,0:01:37.97,Kaoru,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rKaoru S}♪{\r} {\k20}HE{\k23}AR{\k43}T {\k43}ga {\k43}kyun{\k42}kyun {\k40}kyuu {\k45}sek{\k31}kin
+Dialogue: 0,0:01:36.96,0:01:41.58,Niki,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rNiki S}♣{\r} {\k45}jun{\k15}bi {\k27}shi{\k21}te {\k25}ki{\k41}ta {\k20}do{\k23}no {\k21}wa{\k21}da{\k21}i {\k24}yo{\k48}ri
+Dialogue: 0,0:01:40.84,0:01:44.81,Group,natsu mitsu,0,0,0,fx,{\k90\fad(300,200)}{\k0\rMitsuru S}♦{\r} {\k0\rNatsume S}♥{\r} {\k21}ha{\k21}zu{\k23}n{\k20}da {\k42}kai{\k23}wa {\k21}ga {\k44}shou{\k40}mei{\k32}chuu
+Dialogue: 0,0:01:43.85,0:01:48.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}at{\k42}to {\k42}iu {\k44}ma {\k21}ne{\k21}e {\k43}dou {\k42}dat{\k22}ta?
+Dialogue: 0,0:01:47.28,0:01:51.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}ma{\k18}ta {\k42}sa{\k42}so{\k27}t{\k22}te{\k19}mo {\k22}i{\k43}i {\k39}ka{\k27}na
+Dialogue: 0,0:01:50.66,0:01:55.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}SHOW {\k43}WIN{\k42}DOW {\k43}ni {\k20}u{\k22}tsu{\k23}t{\k22}ta {\k21}kyo{\k22}ri {\k40}ga
+Dialogue: 0,0:01:54.57,0:02:02.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}a{\k26}sa {\k21}yo{\k16}ri {\k27}chi{\k19}ka{\k23}zu{\k20}ke{\k22}ta {\k22}ki{\k21}ga{\k23}shi{\k42}te {\k40}a{\kf132}a{\k21} {\k21}a{\kf122}a!
+Dialogue: 0,0:02:01.19,0:02:07.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}wa{\k61}ku{\k25}wa{\k65}ku {\k19}ka{\k25}sa{\k19}ne{\k21}te{\k19}ku {\k47}A {\k41}TO {\kf170}Z
