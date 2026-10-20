@@ -1,0 +1,88 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Dora
+Original Timing: Pyrospower
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: PCN,Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Drismer,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: PCN (backs),Arial,24,&H00FFB858,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,PCN,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.19,0:00:02.76,PCN,,0,0,0,karaoke,{\k19}Do{\k23}ra, {\k19}Do{\k16}ra, {\k30}Do{\k27}ra {\k24}l'ex{\k20}plo{\k24}ra{\k55}trice
+Comment: 0,0:00:04.00,0:00:05.64,Drismer,,0,0,0,karaoke,{\k32}Chi{\k34}peur, {\k19}a{\k25}rrête {\k8}de {\k23}chi{\k23}per
+Comment: 0,0:00:05.84,0:00:07.52,Drismer,,0,0,0,karaoke,{\k32}Chi{\k37}peur, {\k19}a{\k25}rrête {\k7}de {\k28}chi{\k20}per
+Comment: 0,0:00:07.52,0:00:09.36,Drismer,,0,0,0,karaoke,{\k25}J'suis {\k24}dans {\k21}l'bloc {\k10}tout {\k29}l'monde {\k18}est {\k11}a{\k25}gi{\k21}té
+Comment: 0,0:00:09.36,0:00:11.23,Drismer,,0,0,0,karaoke,{\k21}Ra{\k28}mène {\k14}ta {\k13}chi{\k33}cha {\k14}on {\k13}va {\k16}chi{\k35}cher
+Comment: 0,0:00:11.37,0:00:13.08,Drismer,,0,0,0,karaoke,{\k32}Chi{\k35}peur, {\k20}a{\k26}rrête {\k7}de {\k24}chi{\k27}per
+Comment: 0,0:00:13.25,0:00:14.89,Drismer,,0,0,0,karaoke,{\k30}Chi{\k37}peur, {\k19}a{\k26}rrête {\k6}de {\k26}chi{\k20}per
+Comment: 0,0:00:14.89,0:00:16.72,Drismer,,0,0,0,karaoke,{\k26}J'suis {\k25}dans {\k20}l'bloc {\k13}tout {\k26}l'monde {\k18}est {\k9}a{\k27}gi{\k19}té
+Comment: 0,0:00:16.72,0:00:18.59,Drismer,,0,0,0,karaoke,{\k28}Ra{\k23}mène {\k16}ta {\k15}chi{\k29}cha {\k18}on {\k13}va {\k19}chi{\k26}cher
+Comment: 0,0:00:18.34,0:00:18.81,PCN (backs),,0,0,0,karaoke,{\k13}On {\k12}y {\k22}va
+Comment: 0,0:00:18.81,0:00:20.41,PCN,,0,0,0,karaoke,{\k12}Do{\k10}ra {\k7}y {\k15}a {\k11}quoi {\k18}là {\k16}dans {\k9}ton {\k21}sac {\k13}à {\k28}dos ?
+Comment: 0,0:00:20.63,0:00:22.08,PCN,,0,0,0,karaoke,{\k12}Y'a {\k17}d'la {\k10}peu{\k20}fra, {\k17}d'la {\k10}bon{\k20}ne, {\k15}de {\k12}l'hé{\k12}ro
+Comment: 0,0:00:22.08,0:00:24.02,PCN,,0,0,0,karaoke,{\k23}C'est {\k13}mon{\k15}sieur {\k19}la {\k15}car{\k14}te {\k17}qui {\k12}con{\k17}trôle {\k18}la {\k11}ne{\k20}-zo
+Comment: 0,0:00:24.02,0:00:25.89,PCN,,0,0,0,karaoke,{\k7}Et {\k24}son {\k14}po{\k15}to {\k18}Ba{\k12}bouche {\k16}qui {\k12}fi{\k16}xe {\k18}les {\k16}ta{\k19}ro'
+Comment: 0,0:00:26.17,0:00:27.62,PCN,,0,0,0,karaoke,{\k10}De{\k12}vant {\k23}ses {\k10}da{\k21}rons {\k7}elle {\k23}s'tient {\k15}à {\k12}ca{\k12}rreaux
+Comment: 0,0:00:27.62,0:00:29.58,PCN,,0,0,0,karaoke,{\k14}Mais {\k25}si {\k15}elle {\k15}prend {\k9}pas {\k18}sa {\k22}dose {\k14}elle {\k10}de{\k21}vient {\k13}pa{\k20}ro'
+Comment: 0,0:00:29.86,0:00:31.24,PCN,,0,0,0,karaoke,{\k15}Elle {\k10}vi{\k16}sser' {\k20}jus{\k14}qu'à {\k17}Por{\k11}to{\k18}-Ri{\k17}co
+Comment: 0,0:00:31.24,0:00:32.77,PCN,,0,0,0,karaoke,{\k15}Et {\k9}quand {\k21}les {\k18}keufs {\k13}l'ont {\k8}pé{\k8}té {\k13}ils {\k3}lui {\k11}ont {\k17}d'man{\k17}dé
+Comment: 0,0:00:32.75,0:00:34.65,PCN,,0,0,0,karaoke,{\k18}Mais {\k15}Do{\k15}ra {\k3}y {\k12}a {\k16}quoi {\k25}là, {\k31}sac {\k21}à {\k34}dos ?
+Comment: 0,0:00:34.79,0:00:36.36,PCN,,0,0,0,karaoke,{\k14}Do{\k14}ra {\k6}y {\k12}a {\k21}quoi {\k8}dans {\k9}ton {\k31}sac {\k21}à {\k21}dos ?
+Comment: 0,0:00:36.37,0:00:38.47,PCN,,0,0,0,karaoke,{\k11}A{\k14}llez{\k16} Do{\k13}ra {\k3}y {\k14}a {\k18}quoi {\k24}là, {\k30}sac {\k20}à {\k47}dos ?
+Comment: 0,0:00:38.47,0:00:40.02,PCN,,0,0,0,karaoke,{\k18}Do{\k11}ra {\k6}y {\k12}a {\k18}quoi {\k12}dans {\k9}ton {\k30}sac {\k23}à {\k16}dos ?
+Comment: 0,0:00:40.31,0:00:42.16,PCN,,0,0,0,karaoke,{\k15}Do{\k14}ra {\k5}y {\k12}a {\k20}quoi {\k22}là, {\k29}sac {\k21}à {\k47}dos ?
+Comment: 0,0:00:42.16,0:00:43.72,PCN,,0,0,0,karaoke,{\k18}Do{\k12}ra {\k3}y {\k7}a {\k26}quoi {\k10}dans {\k9}ton {\k31}sac {\k17}à {\k18}dos {\k5}?
+Comment: 0,0:00:44.02,0:00:45.86,PCN,,0,0,0,karaoke,{\k15}Do{\k12}ra {\k4}y {\k13}a {\k19}quoi {\k23}là, {\k30}sac {\k21}à {\k47}dos ?
+Comment: 0,0:00:45.86,0:00:47.47,PCN,,0,0,0,karaoke,{\k17}Do{\k12}ra {\k5}y {\k11}a {\k21}quoi {\k9}dans {\k10}ton {\k30}sac {\k23}à {\k23}dos ?
+Comment: 0,0:00:47.47,0:00:48.57,PCN,,0,0,0,karaoke,{\k38}Do{\k11}ra {\k5}y {\k14}a {\k16}quoi {\k26}là
+Comment: 0,0:00:48.32,0:00:49.98,Drismer,,0,0,0,karaoke,{\k31}Chi{\k33}peur, {\k21}a{\k25}rrête {\k7}de {\k30}chi{\k19}per
+Comment: 0,0:00:50.14,0:00:51.81,Drismer,,0,0,0,karaoke,{\k33}Chi{\k37}peur, {\k22}a{\k22}rrête {\k7}de {\k24}chi{\k22}per
+Comment: 0,0:00:51.81,0:00:53.70,Drismer,,0,0,0,karaoke,{\k26}J'suis {\k24}dans {\k21}l'bloc {\k10}tout {\k30}l'monde {\k18}est {\k12}a{\k23}gi{\k25}té
+Comment: 0,0:00:53.70,0:00:55.54,Drismer,,0,0,0,karaoke,{\k18}Ra{\k28}mène {\k13}ta {\k14}chi{\k33}cha {\k13}on {\k14}va {\k19}chi{\k32}cher
+Comment: 0,0:00:55.67,0:00:57.38,Drismer,,0,0,0,karaoke,{\k34}Chi{\k35}peur, {\k20}a{\k25}rrête {\k7}de {\k24}chi{\k26}per
+Comment: 0,0:00:57.55,0:00:59.20,Drismer,,0,0,0,karaoke,{\k30}Chi{\k38}peur, {\k18}a{\k26}rrête {\k7}de {\k26}chi{\k20}per
+Comment: 0,0:00:59.20,0:01:01.08,Drismer,,0,0,0,karaoke,{\k26}J'suis {\k25}dans {\k21}l'bloc {\k10}tout {\k28}l'monde {\k18}est {\k9}a{\k27}gi{\k24}té
+Comment: 0,0:01:01.08,0:01:02.92,Drismer,,0,0,0,karaoke,{\k23}Ra{\k23}mène {\k15}ta {\k15}chi{\k30}cha {\k18}on {\k11}va {\k18}chi{\k31}cher
+Dialogue: 0,0:00:00.00,0:00:02.96,PCN,,0,0,0,fx,{\k19\fad(190,200)}{\k19}Do{\k23}ra, {\k19}Do{\k16}ra, {\k30}Do{\k27}ra {\k24}l'ex{\k20}plo{\k24}ra{\k55}trice
+Dialogue: 0,0:00:03.10,0:00:05.84,Drismer,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Chi{\k34}peur, {\k19}a{\k25}rrête {\k8}de {\k23}chi{\k23}per
+Dialogue: 0,0:00:04.94,0:00:07.72,Drismer,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Chi{\k37}peur, {\k19}a{\k25}rrête {\k7}de {\k28}chi{\k20}per
+Dialogue: 0,0:00:06.62,0:00:09.56,Drismer,,0,0,0,fx,{\k90\fad(300,200)}{\k25}J'suis {\k24}dans {\k21}l'bloc {\k10}tout {\k29}l'monde {\k18}est {\k11}a{\k25}gi{\k21}té
+Dialogue: 0,0:00:08.46,0:00:11.43,Drismer,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Ra{\k28}mène {\k14}ta {\k13}chi{\k33}cha {\k14}on {\k13}va {\k16}chi{\k35}cher
+Dialogue: 0,0:00:10.47,0:00:13.28,Drismer,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Chi{\k35}peur, {\k20}a{\k26}rrête {\k7}de {\k24}chi{\k27}per
+Dialogue: 0,0:00:12.35,0:00:15.09,Drismer,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Chi{\k37}peur, {\k19}a{\k26}rrête {\k6}de {\k26}chi{\k20}per
+Dialogue: 0,0:00:13.99,0:00:16.92,Drismer,,0,0,0,fx,{\k90\fad(300,200)}{\k26}J'suis {\k25}dans {\k20}l'bloc {\k13}tout {\k26}l'monde {\k18}est {\k9}a{\k27}gi{\k19}té
+Dialogue: 0,0:00:15.82,0:00:18.79,Drismer,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Ra{\k23}mène {\k16}ta {\k15}chi{\k29}cha {\k18}on {\k13}va {\k19}chi{\k26}cher
+Dialogue: 0,0:00:17.44,0:00:19.01,PCN (backs),,0,0,0,fx,{\k90\fad(300,200)}{\k13}On {\k12}y {\k22}va
+Dialogue: 0,0:00:17.91,0:00:20.61,PCN,,0,0,0,fx,{\k90\fad(300,200)}{\k12}Do{\k10}ra {\k7}y {\k15}a {\k11}quoi {\k18}là {\k16}dans {\k9}ton {\k21}sac {\k13}à {\k28}dos ?
+Dialogue: 0,0:00:19.73,0:00:22.28,PCN,,0,0,0,fx,{\k90\fad(300,200)}{\k12}Y'a {\k17}d'la {\k10}peu{\k20}fra, {\k17}d'la {\k10}bon{\k20}ne, {\k15}de {\k12}l'hé{\k12}ro
+Dialogue: 0,0:00:21.18,0:00:24.22,PCN,,0,0,0,fx,{\k90\fad(300,200)}{\k23}C'est {\k13}mon{\k15}sieur {\k19}la {\k15}car{\k14}te {\k17}qui {\k12}con{\k17}trôle {\k18}la {\k11}ne{\k20}-zo
+Dialogue: 0,0:00:23.12,0:00:26.09,PCN,,0,0,0,fx,{\k90\fad(300,200)}{\k7}Et {\k24}son {\k14}po{\k15}to {\k18}Ba{\k12}bouche {\k16}qui {\k12}fi{\k16}xe {\k18}les {\k16}ta{\k19}ro'
+Dialogue: 0,0:00:25.27,0:00:27.82,PCN,,0,0,0,fx,{\k90\fad(300,200)}{\k10}De{\k12}vant {\k23}ses {\k10}da{\k21}rons {\k7}elle {\k23}s'tient {\k15}à {\k12}ca{\k12}rreaux
+Dialogue: 0,0:00:26.72,0:00:29.78,PCN,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Mais {\k25}si {\k15}elle {\k15}prend {\k9}pas {\k18}sa {\k22}dose {\k14}elle {\k10}de{\k21}vient {\k13}pa{\k20}ro'
+Dialogue: 0,0:00:28.96,0:00:31.44,PCN,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Elle {\k10}vi{\k16}sser' {\k20}jus{\k14}qu'à {\k17}Por{\k11}to{\k18}-Ri{\k17}co
+Dialogue: 0,0:00:30.34,0:00:32.97,PCN,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Et {\k9}quand {\k21}les {\k18}keufs {\k13}l'ont {\k8}pé{\k8}té {\k13}ils {\k3}lui {\k11}ont {\k17}d'man{\k17}dé
+Dialogue: 0,0:00:31.85,0:00:34.85,PCN,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Mais {\k15}Do{\k15}ra {\k3}y {\k12}a {\k16}quoi {\k25}là, {\k31}sac {\k21}à {\k34}dos ?
+Dialogue: 0,0:00:33.89,0:00:36.56,PCN,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Do{\k14}ra {\k6}y {\k12}a {\k21}quoi {\k8}dans {\k9}ton {\k31}sac {\k21}à {\k21}dos ?
+Dialogue: 0,0:00:35.47,0:00:38.67,PCN,,0,0,0,fx,{\k90\fad(300,200)}{\k11}A{\k14}llez{\k16} Do{\k13}ra {\k3}y {\k14}a {\k18}quoi {\k24}là, {\k30}sac {\k20}à {\k47}dos ?
+Dialogue: 0,0:00:37.57,0:00:40.22,PCN,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Do{\k11}ra {\k6}y {\k12}a {\k18}quoi {\k12}dans {\k9}ton {\k30}sac {\k23}à {\k16}dos ?
+Dialogue: 0,0:00:39.41,0:00:42.36,PCN,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Do{\k14}ra {\k5}y {\k12}a {\k20}quoi {\k22}là, {\k29}sac {\k21}à {\k47}dos ?
+Dialogue: 0,0:00:41.26,0:00:43.92,PCN,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Do{\k12}ra {\k3}y {\k7}a {\k26}quoi {\k10}dans {\k9}ton {\k31}sac {\k17}à {\k18}dos {\k5}?
+Dialogue: 0,0:00:43.12,0:00:46.06,PCN,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Do{\k12}ra {\k4}y {\k13}a {\k19}quoi {\k23}là, {\k30}sac {\k21}à {\k47}dos ?
+Dialogue: 0,0:00:44.96,0:00:47.67,PCN,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Do{\k12}ra {\k5}y {\k11}a {\k21}quoi {\k9}dans {\k10}ton {\k30}sac {\k23}à {\k23}dos ?
+Dialogue: 0,0:00:46.57,0:00:48.77,PCN,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Do{\k11}ra {\k5}y {\k14}a {\k16}quoi {\k26}là
+Dialogue: 0,0:00:47.42,0:00:50.18,Drismer,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Chi{\k33}peur, {\k21}a{\k25}rrête {\k7}de {\k30}chi{\k19}per
+Dialogue: 0,0:00:49.24,0:00:52.01,Drismer,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Chi{\k37}peur, {\k22}a{\k22}rrête {\k7}de {\k24}chi{\k22}per
+Dialogue: 0,0:00:50.91,0:00:53.90,Drismer,,0,0,0,fx,{\k90\fad(300,200)}{\k26}J'suis {\k24}dans {\k21}l'bloc {\k10}tout {\k30}l'monde {\k18}est {\k12}a{\k23}gi{\k25}té
+Dialogue: 0,0:00:52.80,0:00:55.74,Drismer,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Ra{\k28}mène {\k13}ta {\k14}chi{\k33}cha {\k13}on {\k14}va {\k19}chi{\k32}cher
+Dialogue: 0,0:00:54.77,0:00:57.58,Drismer,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Chi{\k35}peur, {\k20}a{\k25}rrête {\k7}de {\k24}chi{\k26}per
+Dialogue: 0,0:00:56.65,0:00:59.40,Drismer,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Chi{\k38}peur, {\k18}a{\k26}rrête {\k7}de {\k26}chi{\k20}per
+Dialogue: 0,0:00:58.30,0:01:01.28,Drismer,,0,0,0,fx,{\k90\fad(300,200)}{\k26}J'suis {\k25}dans {\k21}l'bloc {\k10}tout {\k28}l'monde {\k18}est {\k9}a{\k27}gi{\k24}té
+Dialogue: 0,0:01:00.18,0:01:03.12,Drismer,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Ra{\k23}mène {\k15}ta {\k15}chi{\k30}cha {\k18}on {\k11}va {\k18}chi{\k31}cher
