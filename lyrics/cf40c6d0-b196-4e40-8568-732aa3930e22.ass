@@ -1,0 +1,131 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Stygia
+Original Timing: Himbeeerchen
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 2],Arial,24,&H00FFFFFF,&H005757FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 1&2],Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:26.48,0:00:27.97,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k33}Burn {\k46}this {\k70}world!
+Comment: 0,0:00:37.26,0:00:41.92,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k89}Hear {\k87}me{\k58} {\k89}cal{\k56}ling {\k30}to {\k57}you
+Comment: 0,0:00:41.92,0:00:48.34,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k91}E{\k85}ons{\k58} {\k58}I've {\k43}been {\k44}wait{\k30}ing {\k58}for {\k87}you {\k88}to
+Comment: 0,0:00:48.91,0:00:53.00,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k59}Find {\k29}me {\k87}and {\k61}to {\k88}hear {\k85}me
+Comment: 0,0:00:53.57,0:00:55.33,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k46}Cal{\k42}ling {\k88}for
+Comment: 0,0:00:55.91,0:00:58.90,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k87}Purge {\k30}the {\k14}sun{\k44}light {\k16}that {\k13}we {\k30}once {\k65}knew
+Comment: 0,0:00:59.40,0:01:01.03,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k44}Burn {\k44}this {\k75}world
+Comment: 0,0:01:01.16,0:01:04.90,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k57}My {\k44}pain {\k44}and {\k29}my {\k44}de{\k44}li{\k29}ver{\k83}ance
+Comment: 0,0:01:05.24,0:01:05.95,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k71}Burn!
+Comment: 0,0:01:06.10,0:01:08.28,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k31}This {\k15}i{\k44}mage {\k13}in{\k14}to {\k29}your {\k72}souls
+Comment: 0,0:01:08.44,0:01:10.69,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k29}We'll {\k43}cru{\k44}ci{\k29}fy {\k80}you
+Comment: 0,0:01:11.05,0:01:12.69,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k45}Burn {\k43}this {\k76}world
+Comment: 0,0:01:12.81,0:01:15.71,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k58}I'll {\k60}take {\k56}you {\k116}down
+Comment: 0,0:01:23.28,0:01:27.60,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k59}My {\k87}ram{\k87}page {\k61}my {\k138}voice
+Comment: 0,0:01:27.94,0:01:32.92,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k59}My {\k88}on{\k87}ly{\k48} {\kf216}light
+Comment: 0,0:01:33.18,0:01:37.56,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k90}Hear {\k86}me{\k59} {\k91}cal{\k54}ling {\k29}to {\k29}you
+Comment: 0,0:01:37.85,0:01:44.33,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k90}E{\k114}ons{\k30} {\k58}I've {\k28}been {\k60}wait{\k28}ing {\k58}for {\k88}you {\k94}to
+Comment: 0,0:01:44.84,0:01:48.82,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k59}Find {\k31}me {\k85}and {\k60}to {\k88}hear {\k75}me
+Comment: 0,0:01:49.41,0:01:54.44,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k54}Cal{\k43}ling {\k73}for {\k72}your {\kf261}soul
+Comment: 0,0:01:51.10,0:01:54.44,Sample KM Duo [Voice 2],,0,0,60,karaoke,{\k73}Your {\kf261}soul
+Comment: 0,0:02:10.40,0:02:13.53,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k95}Lose {\k29}all {\k14}con{\k45}trol {\k14}of {\k43}this {\k73}hate
+Comment: 0,0:02:13.68,0:02:18.21,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k30}That {\k42}my {\k44}soul {\k74}is{\k40} {\k32}re{\k44}mem{\k43}ber{\k104}ing
+Comment: 0,0:02:19.78,0:02:24.20,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k46}Lose {\k42}your {\k30}con{\k44}trol {\k43}of {\k30}this {\k43}up{\k44}side {\k58}down {\k62}world
+Comment: 0,0:02:24.48,0:02:30.86,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k46}Cha{\k40}os, {\k58}in{\k28}fer{\k44}no,{\k73} {\k58}se{\k58}re{\k56}ni{\kf177}ty
+Comment: 0,0:02:38.72,0:02:42.39,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k30}Your {\k29}time {\k29}is {\k29}pro{\k30}mised {\k28}when {\k30}noth{\k29}ing {\k29}is {\k29}fore{\k75}told
+Comment: 0,0:02:43.39,0:02:45.16,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k29}Noth{\k58}ing {\k30}i{\k28}ma{\k32}gined
+Comment: 0,0:02:45.42,0:02:47.92,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k61}Re{\k57}sis{\k132}tance
+Comment: 0,0:02:47.75,0:02:52.23,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k88}Hear {\k87}me{\k59} {\k88}cal{\k56}ling {\k31}to {\k39}you
+Comment: 0,0:02:52.42,0:02:58.95,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k86}E{\k98}ons{\k49} {\k58}I've {\k36}been {\k52}wait{\k28}ing {\k59}for {\k85}you {\k102}to
+Comment: 0,0:02:59.40,0:03:03.47,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k59}Find {\k32}me {\k84}and {\k61}to {\k85}hear {\k86}me
+Comment: 0,0:03:04.06,0:03:10.02,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k50}Cal{\k38}ling {\k87}for {\k58}your {\kf363}soul
+Comment: 0,0:03:05.83,0:03:10.52,Sample KM Duo [Voice 2],,0,0,60,karaoke,{\k56}Your {\kf413}soul
+Comment: 0,0:03:10.77,0:03:12.95,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k29}The {\k44}cruel{\k43}est {\k102}pain
+Comment: 0,0:03:13.10,0:03:15.43,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k31}The {\k44}wretch{\k41}ed {\k117}stain
+Comment: 0,0:03:15.72,0:03:22.11,Sample KM Duo [Voice 1],,0,0,60,karaoke,{\k116}A{\k82}a{\k35} {\k116}a{\k83}a{\k52} {\k155}aa
+Comment: 0,0:03:19.79,0:03:22.11,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k30}I'm {\k29}the {\k45}cast{\k42}a{\k86}way
+Comment: 0,0:03:22.42,0:03:25.24,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k29}The {\k46}cast{\k41}a{\kf166}way
+Comment: 0,0:03:43.36,0:03:45.54,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k26}Through {\k53}fire {\k34}I {\k105}row
+Comment: 0,0:03:45.94,0:03:51.47,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k61}For {\k56}I {\k58}need {\k59}to {\k46}cross {\k41}an {\k59}o{\k29}cean {\k28}of {\k29}hell{\k87}fire
+Comment: 0,0:03:52.64,0:03:57.59,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k30}A {\k43}cast{\k45}a{\k89}way{\k26} {\k30}with {\k58}no {\k58}voice {\k59}left {\k57}to
+Comment: 0,0:03:57.83,0:04:03.27,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k37}Scream {\k27}in {\k90}pain{\k27} {\k29}but {\k44}my {\k43}rage {\k29}will {\k67}reach {\kf151}you
+Comment: 0,0:04:09.25,0:04:13.32,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k44}My {\k46}rage {\k56}will {\k51}reach{\k35} {\kf175}you
+Comment: 0,0:04:20.89,0:04:27.00,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k117}Hear {\k87}me{\k30} {\k116}cal{\kf261}ling
+Comment: 0,0:04:30.36,0:04:39.24,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k103}Hear {\k116}me {\k116}cal{\kf553}ling
+Comment: 0,0:04:46.23,0:04:50.61,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k30}My {\k44}rage {\k44}will {\k47}reach {\kf273}you
+Comment: 0,0:04:51.19,0:04:55.85,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k90}Hear {\k85}me{\k59} {\k86}cal{\k58}ling {\k30}to {\k58}you
+Comment: 0,0:04:55.85,0:05:02.40,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k87}E{\k105}ons{\k40} {\k59}I've {\k30}been {\k57}wait{\k30}ing {\k58}for {\k87}you {\k102}to
+Comment: 0,0:05:02.84,0:05:06.62,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k88}Find {\k87}me {\k58}for {\kf145}you
+Comment: 0,0:05:06.91,0:05:09.39,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k44}For {\kf204}you
+Comment: 0,0:05:09.83,0:05:14.19,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k87}Hear {\k100}me{\k47} {\k90}cal{\k53}ling {\k30}to {\k29}you
+Comment: 0,0:05:14.49,0:05:20.89,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k88}E{\k116}ons{\k30} {\k57}I've {\k29}been {\k58}wait{\k30}ing {\k58}for {\k87}you {\k87}to
+Comment: 0,0:05:21.48,0:05:25.83,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k58}Find {\k59}me {\k59}and {\k57}to {\k117}hear {\k85}me
+Comment: 0,0:05:26.15,0:05:31.95,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k60}Cal{\k57}ling {\k56}for {\k60}your {\kf347}soul
+Comment: 0,0:05:37.80,0:05:44.64,Sample KM Duo [Voice 1],,0,0,60,karaoke,{\k102}A{\k130}a {\k116}a{\k132}a {\k275}aa
+Comment: 0,0:05:46.81,0:05:47.09,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k28}Oh
+Comment: 0,0:05:57.35,0:06:02.88,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k36}Scream {\k29}in {\k87}pain{\k29} {\k29}but {\k44}my {\k44}rage {\k29}will {\k64}reach {\k162}you
+Dialogue: 0,0:00:25.58,0:00:28.17,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Burn {\k46}this {\k70}world!
+Dialogue: 0,0:00:36.36,0:00:42.12,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k89}Hear {\k87}me{\k58} {\k89}cal{\k56}ling {\k30}to {\k57}you
+Dialogue: 0,0:00:41.02,0:00:48.54,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k91}E{\k85}ons{\k58} {\k58}I've {\k43}been {\k44}wait{\k30}ing {\k58}for {\k87}you {\k88}to
+Dialogue: 0,0:00:48.01,0:00:53.20,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k59}Find {\k29}me {\k87}and {\k61}to {\k88}hear {\k85}me
+Dialogue: 0,0:00:52.67,0:00:55.53,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Cal{\k42}ling {\k88}for
+Dialogue: 0,0:00:55.01,0:00:59.10,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k87}Purge {\k30}the {\k14}sun{\k44}light {\k16}that {\k13}we {\k30}once {\k65}knew
+Dialogue: 0,0:00:58.50,0:01:01.23,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Burn {\k44}this {\k75}world
+Dialogue: 0,0:01:00.26,0:01:05.10,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k57}My {\k44}pain {\k44}and {\k29}my {\k44}de{\k44}li{\k29}ver{\k83}ance
+Dialogue: 0,0:01:04.34,0:01:06.15,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k71}Burn!
+Dialogue: 0,0:01:05.20,0:01:08.48,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k31}This {\k15}i{\k44}mage {\k13}in{\k14}to {\k29}your {\k72}souls
+Dialogue: 0,0:01:07.54,0:01:10.89,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k29}We'll {\k43}cru{\k44}ci{\k29}fy {\k80}you
+Dialogue: 0,0:01:10.15,0:01:12.89,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Burn {\k43}this {\k76}world
+Dialogue: 0,0:01:11.91,0:01:15.91,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k58}I'll {\k60}take {\k56}you {\k116}down
+Dialogue: 0,0:01:22.38,0:01:27.80,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k59}My {\k87}ram{\k87}page {\k61}my {\k138}voice
+Dialogue: 0,0:01:27.04,0:01:33.12,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k59}My {\k88}on{\k87}ly{\k48} {\kf216}light
+Dialogue: 0,0:01:32.28,0:01:37.76,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k90}Hear {\k86}me{\k59} {\k91}cal{\k54}ling {\k29}to {\k29}you
+Dialogue: 0,0:01:36.95,0:01:44.53,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k90}E{\k114}ons{\k30} {\k58}I've {\k28}been {\k60}wait{\k28}ing {\k58}for {\k88}you {\k94}to
+Dialogue: 0,0:01:43.94,0:01:49.02,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k59}Find {\k31}me {\k85}and {\k60}to {\k88}hear {\k75}me
+Dialogue: 0,0:01:48.51,0:01:54.64,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k54}Cal{\k43}ling {\k73}for {\k72}your {\kf261}soul
+Dialogue: 0,0:01:50.20,0:01:54.64,Sample KM Duo [Voice 2],,0,0,60,fx,{\k90\fad(300,200)}{\k73}Your {\kf261}soul
+Dialogue: 0,0:02:09.50,0:02:13.73,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k95}Lose {\k29}all {\k14}con{\k45}trol {\k14}of {\k43}this {\k73}hate
+Dialogue: 0,0:02:12.78,0:02:18.41,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k30}That {\k42}my {\k44}soul {\k74}is{\k40} {\k32}re{\k44}mem{\k43}ber{\k104}ing
+Dialogue: 0,0:02:18.88,0:02:24.40,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Lose {\k42}your {\k30}con{\k44}trol {\k43}of {\k30}this {\k43}up{\k44}side {\k58}down {\k62}world
+Dialogue: 0,0:02:23.58,0:02:31.06,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Cha{\k40}os, {\k58}in{\k28}fer{\k44}no,{\k73} {\k58}se{\k58}re{\k56}ni{\kf177}ty
+Dialogue: 0,0:02:37.82,0:02:42.59,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Your {\k29}time {\k29}is {\k29}pro{\k30}mised {\k28}when {\k30}noth{\k29}ing {\k29}is {\k29}fore{\k75}told
+Dialogue: 0,0:02:42.49,0:02:45.36,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Noth{\k58}ing {\k30}i{\k28}ma{\k32}gined
+Dialogue: 0,0:02:44.52,0:02:48.12,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k61}Re{\k57}sis{\k132}tance
+Dialogue: 0,0:02:46.85,0:02:52.43,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k88}Hear {\k87}me{\k59} {\k88}cal{\k56}ling {\k31}to {\k39}you
+Dialogue: 0,0:02:51.52,0:02:59.15,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k86}E{\k98}ons{\k49} {\k58}I've {\k36}been {\k52}wait{\k28}ing {\k59}for {\k85}you {\k102}to
+Dialogue: 0,0:02:58.50,0:03:03.67,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k59}Find {\k32}me {\k84}and {\k61}to {\k85}hear {\k86}me
+Dialogue: 0,0:03:03.16,0:03:10.22,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Cal{\k38}ling {\k87}for {\k58}your {\kf363}soul
+Dialogue: 0,0:03:04.93,0:03:10.72,Sample KM Duo [Voice 2],,0,0,60,fx,{\k90\fad(300,200)}{\k56}Your {\kf413}soul
+Dialogue: 0,0:03:09.87,0:03:13.15,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k29}The {\k44}cruel{\k43}est {\k102}pain
+Dialogue: 0,0:03:12.20,0:03:15.63,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k31}The {\k44}wretch{\k41}ed {\k117}stain
+Dialogue: 0,0:03:14.82,0:03:22.31,Sample KM Duo [Voice 1],,0,0,60,fx,{\k90\fad(300,200)}{\k116}A{\k82}a{\k35} {\k116}a{\k83}a{\k52} {\k155}aa
+Dialogue: 0,0:03:18.89,0:03:22.31,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k30}I'm {\k29}the {\k45}cast{\k42}a{\k86}way
+Dialogue: 0,0:03:21.52,0:03:25.44,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k29}The {\k46}cast{\k41}a{\kf166}way
+Dialogue: 0,0:03:42.46,0:03:45.74,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Through {\k53}fire {\k34}I {\k105}row
+Dialogue: 0,0:03:45.04,0:03:51.67,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k61}For {\k56}I {\k58}need {\k59}to {\k46}cross {\k41}an {\k59}o{\k29}cean {\k28}of {\k29}hell{\k87}fire
+Dialogue: 0,0:03:51.74,0:03:57.79,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k30}A {\k43}cast{\k45}a{\k89}way{\k26} {\k30}with {\k58}no {\k58}voice {\k59}left {\k57}to
+Dialogue: 0,0:03:56.93,0:04:03.47,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Scream {\k27}in {\k90}pain{\k27} {\k29}but {\k44}my {\k43}rage {\k29}will {\k67}reach {\kf151}you
+Dialogue: 0,0:04:08.35,0:04:13.52,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k44}My {\k46}rage {\k56}will {\k51}reach{\k35} {\kf175}you
+Dialogue: 0,0:04:19.99,0:04:27.20,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k117}Hear {\k87}me{\k30} {\k116}cal{\kf261}ling
+Dialogue: 0,0:04:29.46,0:04:39.44,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k103}Hear {\k116}me {\k116}cal{\kf553}ling
+Dialogue: 0,0:04:45.33,0:04:50.81,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k30}My {\k44}rage {\k44}will {\k47}reach {\kf273}you
+Dialogue: 0,0:04:50.29,0:04:56.05,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k90}Hear {\k85}me{\k59} {\k86}cal{\k58}ling {\k30}to {\k58}you
+Dialogue: 0,0:04:54.95,0:05:02.60,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k87}E{\k105}ons{\k40} {\k59}I've {\k30}been {\k57}wait{\k30}ing {\k58}for {\k87}you {\k102}to
+Dialogue: 0,0:05:01.94,0:05:06.82,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k88}Find {\k87}me {\k58}for {\kf145}you
+Dialogue: 0,0:05:06.01,0:05:09.59,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k44}For {\kf204}you
+Dialogue: 0,0:05:08.93,0:05:14.39,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k87}Hear {\k100}me{\k47} {\k90}cal{\k53}ling {\k30}to {\k29}you
+Dialogue: 0,0:05:13.59,0:05:21.09,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k88}E{\k116}ons{\k30} {\k57}I've {\k29}been {\k58}wait{\k30}ing {\k58}for {\k87}you {\k87}to
+Dialogue: 0,0:05:20.58,0:05:26.03,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k58}Find {\k59}me {\k59}and {\k57}to {\k117}hear {\k85}me
+Dialogue: 0,0:05:25.25,0:05:32.15,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k60}Cal{\k57}ling {\k56}for {\k60}your {\kf347}soul
+Dialogue: 0,0:05:36.90,0:05:44.84,Sample KM Duo [Voice 1],,0,0,60,fx,{\k90\fad(300,200)}{\k102}A{\k130}a {\k116}a{\k132}a {\k275}aa
+Dialogue: 0,0:05:45.91,0:05:47.29,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Oh
+Dialogue: 0,0:05:56.45,0:06:03.08,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Scream {\k29}in {\k87}pain{\k29} {\k29}but {\k44}my {\k44}rage {\k29}will {\k64}reach {\k162}you
