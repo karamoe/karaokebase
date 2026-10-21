@@ -1,0 +1,139 @@
+﻿[Script Info]
+Title: Lord Verity - Master of Humanity
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
+Original Timing: Pafnaffan
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Up] - yellow,Arial,24,&H0000DBDE,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Choir,Arial,24,&H001819FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:03.80,0:00:06.69,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k28}They {\k34}call {\k26}me {\k114}Lord {\k30}Ve{\k16}ri{\k41}ty
+Comment: 0,0:00:06.99,0:00:08.85,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k29}Mas{\k29}ter {\k29}of {\k29}Hu{\k28}ma{\k16}ni{\k26}ty
+Comment: 0,0:00:08.85,0:00:11.24,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k16}I {\k29}said {\k114}Lord {\k29}Ve{\k15}ri{\k36}ty
+Comment: 0,0:00:11.33,0:00:13.74,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k13}Call {\k15}me {\k29}Mas{\k57}ter, {\k29}Mas{\k55}ter, {\k43}ow!
+Comment: 0,0:00:13.90,0:00:15.34,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k112}Kneel, {\k32}stop!
+Comment: 0,0:00:16.49,0:00:19.53,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k31}I {\k30}want {\k27}this {\k28}thing {\k30}to {\k15}ne{\k40}ver, {\k20}ne{\k14}ver {\k69}end
+Comment: 0,0:00:19.68,0:00:20.83,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k13}Ne{\k15}ver {\k15}ne{\k15}ver {\k27}end {\k30}ah!
+Comment: 0,0:00:21.98,0:00:23.11,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k12}Ne{\k18}ver {\k14}ne{\k15}ver {\k27}end {\k27}ah!
+Comment: 0,0:00:23.16,0:00:25.71,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k113}Wait, {\k30}dro{\k57}p! {\k55}ow!
+Comment: 0,0:00:25.71,0:00:28.90,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k32}I {\k30}wan{\k27}na {\k29}be {\k28}your {\k32}one {\k27}and {\k29}on{\k30}ly {\k55}friend
+Comment: 0,0:00:28.90,0:00:29.99,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k15}One {\k16}and {\k13}on{\k14}ly {\k26}friend {\k25}ah!
+Comment: 0,0:00:31.22,0:00:32.36,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k13}One {\k14}and {\k17}on{\k12}ly {\k29}friend {\k29}ah!
+Comment: 0,0:00:31.49,0:00:34.37,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k28}They {\k32}call {\k28}me {\k116}Lord {\k28}Ve{\k15}ri{\k41}ty
+Comment: 0,0:00:34.69,0:00:36.55,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k29}Mas{\k26}ter {\k31}of {\k28}Hu{\k29}ma{\k16}ni{\k27}ty
+Comment: 0,0:00:36.55,0:00:39.00,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k15}I {\k28}said {\k117}Lord {\k28}Ve{\k15}ri{\k42}ty
+Comment: 0,0:00:39.00,0:00:41.40,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k15}Call {\k16}me {\k27}Mas{\k59}ter, {\k27}Mas{\k58}ter, {\k38}ow!
+Comment: 0,0:00:41.60,0:00:43.61,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k116}Lord {\k28}Ve{\k15}ri{\k42}ty
+Comment: 0,0:00:43.89,0:00:45.78,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k31}Mas{\k29}ter {\k30}of {\k28}Hu{\k29}ma{\k15}ni{\k27}ty
+Comment: 0,0:00:45.78,0:00:48.20,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k15}I {\k28}said {\k117}Lord {\k27}Ve{\k16}ri{\k39}ty
+Comment: 0,0:00:48.20,0:00:50.66,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k18}Call {\k15}me {\k28}Mas{\k58}ter, {\k30}Mas{\k57}ter, {\k40}ow!
+Comment: 0,0:00:50.82,0:00:52.21,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k112}Hell {\k27}no!
+Comment: 0,0:00:53.40,0:00:56.61,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k32}I {\k28}will {\k29}not {\k31}e{\k27}ver {\k29}let {\k29}you {\k30}go {\k27}a{\k59}way
+Comment: 0,0:00:56.61,0:00:57.65,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k14}Ne{\k14}ver {\k14}go {\k15}a{\k29}way {\k18}ah!
+Comment: 0,0:00:58.90,0:01:00.06,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k14}Ne{\k15}ver {\k11}go {\k19}a{\k29}way {\k28}ah!
+Comment: 0,0:01:00.06,0:01:01.78,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k101}Now {\k71}you!
+Comment: 0,0:01:02.64,0:01:05.82,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k30}Are {\k30}trapped {\k28}for{\k30}e{\k28}ver, {\k29}this {\k29}is {\k31}my {\k27}do{\k56}main
+Comment: 0,0:01:05.82,0:01:06.99,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k15}Trapped {\k15}in {\k14}my {\k16}do{\k27}main {\k30}ah!
+Comment: 0,0:01:08.14,0:01:09.19,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k14}Trapped {\k15}in {\k15}my {\k14}do{\k28}main {\k19}ah!
+Comment: 0,0:01:08.42,0:01:11.30,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k28}They {\k30}call {\k29}me {\k115}Lord {\k29}Ve{\k16}ri{\k41}ty
+Comment: 0,0:01:11.60,0:01:13.48,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k29}Mas{\k29}ter {\k28}of {\k30}Hu{\k30}ma{\k15}ni{\k27}ty
+Comment: 0,0:01:13.48,0:01:15.90,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k14}I {\k29}said {\k115}Lord {\k27}Ve{\k17}ri{\k40}ty
+Comment: 0,0:01:15.90,0:01:18.50,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k17}Call {\k16}me {\k27}Mas{\k58}ter, {\k29}Mas{\k57}ter, {\k56}ow!
+Comment: 0,0:01:18.50,0:01:20.53,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k119}Lord {\k28}Ve{\k14}ri{\k42}ty
+Comment: 0,0:01:20.83,0:01:22.70,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k30}Mas{\k29}ter {\k28}of {\k28}Hu{\k29}ma{\k16}ni{\k27}ty
+Comment: 0,0:01:22.70,0:01:25.06,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k15}I {\k29}said {\k115}Lord {\k29}Ve{\k15}ri{\k33}ty
+Comment: 0,0:01:25.16,0:01:27.56,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k15}Call {\k15}me {\k27}Mas{\k59}ter, {\k30}Mas{\k52}ter, {\k42}ow!
+Comment: 0,0:01:27.58,0:01:30.21,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k18}Al{\k97}right, {\k34}your {\k20}fi{\k22}nal {\k72}chance
+Comment: 0,0:01:30.52,0:01:32.94,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k36}Ask {\k77}me {\k11}a{\k32}ny{\k86}thing
+Comment: 0,0:01:33.09,0:01:34.75,Sample KM [Up],,0,0,0,karaoke,{\k15}Can {\k38}I {\k13}e{\k22}ver {\k14}af{\k8}ford {\k14}a {\k42}house?
+Comment: 0,0:01:34.70,0:01:35.90,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k120}NOOO!{\k0}
+Comment: 0,0:01:36.12,0:01:37.71,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k29}They {\k28}call {\k30}me {\k72}ow!
+Comment: 0,0:01:37.71,0:01:38.71,Sample KM [Up],,0,0,0,karaoke,{\k26}What {\k19}day {\k10}is {\k16}it {\k13}to{\k16}day?
+Comment: 0,0:01:38.71,0:01:40.73,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k57}Your {\k145}last!
+Comment: 0,0:01:40.73,0:01:42.17,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k28}They {\k31}call {\k27}me {\k58}ow!
+Comment: 0,0:01:42.17,0:01:43.74,Sample KM [Up],,0,0,0,karaoke,{\k16}How {\k30}old {\k26}is {\k15}Tay{\k28}lor {\k42}Swift?
+Comment: 0,0:01:43.48,0:01:45.72,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k29}I {\k58}don’t {\k28}give {\k44}a {\k65}damn
+Comment: 0,0:01:45.72,0:01:50.13,Choir,,0,0,0,karaoke,{\k34}ha{\k39}ha{\k33}ha{\k33}ha{\k27}ha{\k29}ha{\k19}ha{\k39}ha{\k18}ha{\k40}ha{\k22}ha{\k34}ha{\k74}ha
+Comment: 0,0:01:46.22,0:01:48.12,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k115}Lord {\k30}Ve{\k12}ri{\k33}ty
+Comment: 0,0:01:48.51,0:01:50.28,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k33}Mas{\k24}ter {\k31}of {\k30}Hu{\k28}ma{\k17}ni{\k14}ty
+Comment: 0,0:01:50.28,0:01:52.76,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k35}If {\k22}these {\k30}are {\k16}real{\k11}ly {\k19}your {\k38}last {\k33}ques{\k44}tions
+Comment: 0,0:01:52.87,0:01:55.30,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k24}You {\k27}don’t {\k23}de{\k23}serve {\k30}your {\k44}brain {\k16}at {\k56}all!
+Comment: 0,0:01:55.45,0:01:57.44,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k115}Lord {\k28}Ve{\k19}ri{\k37}ty
+Comment: 0,0:01:57.65,0:01:59.73,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k41}Mas{\k27}ter {\k29}of {\k29}Hu{\k29}ma{\k17}ni{\k36}ty
+Comment: 0,0:01:59.75,0:02:02.03,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k10}I {\k21}said {\k115}Lord {\k29}Ve{\k17}ri{\k36}ty
+Comment: 0,0:02:02.12,0:02:04.51,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k12}Call {\k14}me {\k33}Mas{\k54}ter, {\k30}Mas{\k54}ter, {\k42}ow!
+Comment: 0,0:02:04.67,0:02:06.69,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k117}Lord {\k28}Ve{\k15}ri{\k42}ty
+Comment: 0,0:02:06.99,0:02:08.76,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k29}Mas{\k28}ter {\k29}of {\k29}Hu{\k29}ma{\k16}ni{\k17}ty
+Comment: 0,0:02:08.89,0:02:11.18,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k11}I {\k30}said {\k115}Lord {\k29}Ve{\k15}ri{\k29}ty
+Comment: 0,0:02:11.31,0:02:13.75,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k17}Call {\k13}me {\k28}Mas{\k58}ter, {\k28}Mas{\k58}ter, {\k42}ow!
+Comment: 0,0:02:15.93,0:02:18.63,Sample KM [Up] - yellow,,0,0,0,karaoke,{\k14}Call {\k14}me {\k29}Mas{\k58}ter, {\k30}Mas{\k55}ter, {\k70}ow!
+Dialogue: 0,0:00:02.90,0:00:06.89,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k28}They {\k34}call {\k26}me {\k114}Lord {\k30}Ve{\k16}ri{\k41}ty
+Dialogue: 0,0:00:06.09,0:00:09.05,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Mas{\k29}ter {\k29}of {\k29}Hu{\k28}ma{\k16}ni{\k26}ty
+Dialogue: 0,0:00:07.95,0:00:11.44,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k16}I {\k29}said {\k114}Lord {\k29}Ve{\k15}ri{\k36}ty
+Dialogue: 0,0:00:10.43,0:00:13.94,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Call {\k15}me {\k29}Mas{\k57}ter, {\k29}Mas{\k55}ter, {\k43}ow!
+Dialogue: 0,0:00:13.00,0:00:15.54,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k112}Kneel, {\k32}stop!
+Dialogue: 0,0:00:15.59,0:00:19.73,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k31}I {\k30}want {\k27}this {\k28}thing {\k30}to {\k15}ne{\k40}ver, {\k20}ne{\k14}ver {\k69}end
+Dialogue: 0,0:00:18.78,0:00:21.03,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Ne{\k15}ver {\k15}ne{\k15}ver {\k27}end {\k30}ah!
+Dialogue: 0,0:00:21.08,0:00:23.31,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k12}Ne{\k18}ver {\k14}ne{\k15}ver {\k27}end {\k27}ah!
+Dialogue: 0,0:00:22.26,0:00:25.91,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k113}Wait, {\k30}dro{\k57}p! {\k55}ow!
+Dialogue: 0,0:00:24.81,0:00:29.10,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k32}I {\k30}wan{\k27}na {\k29}be {\k28}your {\k32}one {\k27}and {\k29}on{\k30}ly {\k55}friend
+Dialogue: 0,0:00:28.00,0:00:30.19,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k15}One {\k16}and {\k13}on{\k14}ly {\k26}friend {\k25}ah!
+Dialogue: 0,0:00:30.32,0:00:32.56,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k13}One {\k14}and {\k17}on{\k12}ly {\k29}friend {\k29}ah!
+Dialogue: 0,0:00:30.59,0:00:34.57,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k28}They {\k32}call {\k28}me {\k116}Lord {\k28}Ve{\k15}ri{\k41}ty
+Dialogue: 0,0:00:33.79,0:00:36.75,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Mas{\k26}ter {\k31}of {\k28}Hu{\k29}ma{\k16}ni{\k27}ty
+Dialogue: 0,0:00:35.65,0:00:39.20,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k15}I {\k28}said {\k117}Lord {\k28}Ve{\k15}ri{\k42}ty
+Dialogue: 0,0:00:38.10,0:00:41.60,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Call {\k16}me {\k27}Mas{\k59}ter, {\k27}Mas{\k58}ter, {\k38}ow!
+Dialogue: 0,0:00:40.70,0:00:43.81,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k116}Lord {\k28}Ve{\k15}ri{\k42}ty
+Dialogue: 0,0:00:42.99,0:00:45.98,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Mas{\k29}ter {\k30}of {\k28}Hu{\k29}ma{\k15}ni{\k27}ty
+Dialogue: 0,0:00:44.88,0:00:48.40,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k15}I {\k28}said {\k117}Lord {\k27}Ve{\k16}ri{\k39}ty
+Dialogue: 0,0:00:47.30,0:00:50.86,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Call {\k15}me {\k28}Mas{\k58}ter, {\k30}Mas{\k57}ter, {\k40}ow!
+Dialogue: 0,0:00:49.92,0:00:52.41,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k112}Hell {\k27}no!
+Dialogue: 0,0:00:52.50,0:00:56.81,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k32}I {\k28}will {\k29}not {\k31}e{\k27}ver {\k29}let {\k29}you {\k30}go {\k27}a{\k59}way
+Dialogue: 0,0:00:55.71,0:00:57.85,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ne{\k14}ver {\k14}go {\k15}a{\k29}way {\k18}ah!
+Dialogue: 0,0:00:58.00,0:01:00.26,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ne{\k15}ver {\k11}go {\k19}a{\k29}way {\k28}ah!
+Dialogue: 0,0:00:59.16,0:01:01.98,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k101}Now {\k71}you!
+Dialogue: 0,0:01:01.74,0:01:06.02,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Are {\k30}trapped {\k28}for{\k30}e{\k28}ver, {\k29}this {\k29}is {\k31}my {\k27}do{\k56}main
+Dialogue: 0,0:01:04.92,0:01:07.19,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Trapped {\k15}in {\k14}my {\k16}do{\k27}main {\k30}ah!
+Dialogue: 0,0:01:07.24,0:01:09.39,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Trapped {\k15}in {\k15}my {\k14}do{\k28}main {\k19}ah!
+Dialogue: 0,0:01:07.52,0:01:11.50,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k28}They {\k30}call {\k29}me {\k115}Lord {\k29}Ve{\k16}ri{\k41}ty
+Dialogue: 0,0:01:10.70,0:01:13.68,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Mas{\k29}ter {\k28}of {\k30}Hu{\k30}ma{\k15}ni{\k27}ty
+Dialogue: 0,0:01:12.58,0:01:16.10,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k14}I {\k29}said {\k115}Lord {\k27}Ve{\k17}ri{\k40}ty
+Dialogue: 0,0:01:15.00,0:01:18.70,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Call {\k16}me {\k27}Mas{\k58}ter, {\k29}Mas{\k57}ter, {\k56}ow!
+Dialogue: 0,0:01:17.60,0:01:20.73,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k119}Lord {\k28}Ve{\k14}ri{\k42}ty
+Dialogue: 0,0:01:19.93,0:01:22.90,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Mas{\k29}ter {\k28}of {\k28}Hu{\k29}ma{\k16}ni{\k27}ty
+Dialogue: 0,0:01:21.80,0:01:25.26,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k15}I {\k29}said {\k115}Lord {\k29}Ve{\k15}ri{\k33}ty
+Dialogue: 0,0:01:24.26,0:01:27.76,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Call {\k15}me {\k27}Mas{\k59}ter, {\k30}Mas{\k52}ter, {\k42}ow!
+Dialogue: 0,0:01:26.68,0:01:30.41,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Al{\k97}right, {\k34}your {\k20}fi{\k22}nal {\k72}chance
+Dialogue: 0,0:01:29.62,0:01:33.14,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Ask {\k77}me {\k11}a{\k32}ny{\k86}thing
+Dialogue: 0,0:01:32.19,0:01:34.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Can {\k38}I {\k13}e{\k22}ver {\k14}af{\k8}ford {\k14}a {\k42}house?
+Dialogue: 0,0:01:33.80,0:01:36.10,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k120}NOOO!{\k0}
+Dialogue: 0,0:01:35.22,0:01:37.91,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k29}They {\k28}call {\k30}me {\k72}ow!
+Dialogue: 0,0:01:36.81,0:01:38.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}What {\k19}day {\k10}is {\k16}it {\k13}to{\k16}day?
+Dialogue: 0,0:01:37.81,0:01:40.93,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k57}Your {\k145}last!
+Dialogue: 0,0:01:39.83,0:01:42.37,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k28}They {\k31}call {\k27}me {\k58}ow!
+Dialogue: 0,0:01:41.27,0:01:43.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}How {\k30}old {\k26}is {\k15}Tay{\k28}lor {\k42}Swift?
+Dialogue: 0,0:01:42.58,0:01:45.92,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k29}I {\k58}don’t {\k28}give {\k44}a {\k65}damn
+Dialogue: 0,0:01:44.82,0:01:50.33,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k34}ha{\k39}ha{\k33}ha{\k33}ha{\k27}ha{\k29}ha{\k19}ha{\k39}ha{\k18}ha{\k40}ha{\k22}ha{\k34}ha{\k74}ha
+Dialogue: 0,0:01:45.32,0:01:48.32,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k115}Lord {\k30}Ve{\k12}ri{\k33}ty
+Dialogue: 0,0:01:47.61,0:01:50.48,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Mas{\k24}ter {\k31}of {\k30}Hu{\k28}ma{\k17}ni{\k14}ty
+Dialogue: 0,0:01:49.38,0:01:52.96,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k35}If {\k22}these {\k30}are {\k16}real{\k11}ly {\k19}your {\k38}last {\k33}ques{\k44}tions
+Dialogue: 0,0:01:51.97,0:01:55.50,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k24}You {\k27}don’t {\k23}de{\k23}serve {\k30}your {\k44}brain {\k16}at {\k56}all!
+Dialogue: 0,0:01:54.55,0:01:57.64,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k115}Lord {\k28}Ve{\k19}ri{\k37}ty
+Dialogue: 0,0:01:56.75,0:01:59.93,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k41}Mas{\k27}ter {\k29}of {\k29}Hu{\k29}ma{\k17}ni{\k36}ty
+Dialogue: 0,0:01:58.85,0:02:02.23,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k10}I {\k21}said {\k115}Lord {\k29}Ve{\k17}ri{\k36}ty
+Dialogue: 0,0:02:01.22,0:02:04.71,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k12}Call {\k14}me {\k33}Mas{\k54}ter, {\k30}Mas{\k54}ter, {\k42}ow!
+Dialogue: 0,0:02:03.77,0:02:06.89,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k117}Lord {\k28}Ve{\k15}ri{\k42}ty
+Dialogue: 0,0:02:06.09,0:02:08.96,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Mas{\k28}ter {\k29}of {\k29}Hu{\k29}ma{\k16}ni{\k17}ty
+Dialogue: 0,0:02:07.99,0:02:11.38,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k11}I {\k30}said {\k115}Lord {\k29}Ve{\k15}ri{\k29}ty
+Dialogue: 0,0:02:10.41,0:02:13.95,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Call {\k13}me {\k28}Mas{\k58}ter, {\k28}Mas{\k58}ter, {\k42}ow!
+Dialogue: 0,0:02:15.03,0:02:18.83,Sample KM [Up] - yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Call {\k14}me {\k29}Mas{\k58}ter, {\k30}Mas{\k55}ter, {\k70}ow!
