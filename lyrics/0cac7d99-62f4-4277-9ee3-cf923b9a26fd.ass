@@ -1,0 +1,84 @@
+﻿[Script Info]
+Title: Heart of Lahai-roi
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: XxoT_Yue
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Casey Lee Williams,Arial,24,&H00FFFFFF,&H00FFAB00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Victor Borba,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Both,Arial,24,&H00FFFFFF,&H00FF00BC,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:03.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.73,0:00:02.08,Casey Lee Williams,,0,0,0,karaoke,{\k31}Ec{\k29}lip{\k75}se
+Comment: 0,0:00:19.13,0:00:22.65,Both,,0,0,0,karaoke,{\k38}E{\k33}le{\k47}vate, {\k24}as{\k41}cend {\k30}to {\k24}the {\k45}heights {\k26}hand {\k24}in {\k20}hand
+Comment: 0,0:00:22.92,0:00:24.61,Both,,0,0,0,karaoke,{\k24}Our {\k23}bur{\k23}ning {\k36}fire {\k35}ig{\k28}nites
+Comment: 0,0:00:24.81,0:00:26.50,Both,,0,0,0,karaoke,{\k19}Through {\k28}dark{\k21}ness {\k50}shines {\k24}the {\k27}light
+Comment: 0,0:00:26.70,0:00:30.24,Both,,0,0,0,karaoke,{\k43}Os{\k27}cil{\k48}la{\k22}ting, {\k48}cra{\k22}shing {\k20}the {\k53}tide {\k23}hand {\k24}in {\k24}hand
+Comment: 0,0:00:30.47,0:00:33.95,Both,,0,0,0,karaoke,{\k23}To{\k24}ge{\k24}ther {\k31}we'll {\k40}tran{\kf206}scend
+Comment: 0,0:00:34.26,0:00:37.36,Both,,0,0,0,karaoke,{\k37}E{\k33}le{\k47}vate, {\k20}as{\k46}cend {\k29}to {\k24}the {\k74}heights
+Comment: 0,0:00:37.44,0:00:41.42,Both,,0,0,0,karaoke,{\k13}The {\k47}fi{\k27}nal {\k44}mo{\k46}ment {\k47}of {\k48}eve{\k24}ry {\kf102}day
+Comment: 0,0:00:41.81,0:00:44.82,Both,,0,0,0,karaoke,{\k41}Os{\k30}cil{\k47}la{\k25}ting, {\k46}cra{\k24}shing {\k21}the {\k67}tide
+Comment: 0,0:00:44.88,0:00:49.07,Both,,0,0,0,karaoke,{\k25}Now {\k46}u{\k24}ni{\k41}fied {\k42}'til {\k35}the {\kf206}end
+Comment: 0,0:01:04.96,0:01:11.75,Casey Lee Williams,,0,0,0,karaoke,{\k37}Des{\k27}pi{\k20}er{\k106}ta, {\k26}as{\k35}cen{\k128}so, {\k29}re{\k28}na{\k131}cer, {\k25}ac{\k36}ti{\k51}var
+Comment: 0,0:01:12.37,0:01:18.89,Casey Lee Williams,,0,0,0,karaoke,{\k35}Sin{\k40}cro{\k125}nía, {\k32}as{\k35}cen{\k125}so, {\k22}sin{\k35}cro{\k135}nía, {\k32}la{\k36}zo
+Comment: 0,0:01:20.55,0:01:26.52,Victor Borba,,0,0,0,karaoke,{\k24}Feel {\k24}the {\k36}me{\k23}mo{\k36}ries {\k46}fade {\k68}in{\kf145}to {\k24}the {\kf171}wind
+Comment: 0,0:01:28.10,0:01:33.76,Victor Borba,,0,0,0,karaoke,{\k25}As {\k24}these {\k47}waves {\k47}drift {\k43}in{\k75}to {\kf118}no{\k47}thing{\kf140}ness
+Comment: 0,0:01:34.00,0:01:37.50,Victor Borba,,0,0,0,karaoke,{\k24}How {\k48}could {\k48}mor{\k23}tal {\k34}wis{\k38}dom {\k47}lift {\k47}you {\k41}up
+Comment: 0,0:01:37.80,0:01:41.24,Victor Borba,,0,0,0,karaoke,{\k22}To {\k49}tran{\k44}scend {\k26}sal{\k24}va{\k48}tion {\k47}from {\k47}a{\k37}bove?
+Comment: 0,0:01:41.58,0:01:45.34,Victor Borba,,0,0,0,karaoke,{\k24}When {\k23}it {\k36}seemed {\k35}I {\k48}lost {\k42}all {\k50}strength {\k49}to {\k69}fly
+Comment: 0,0:01:45.59,0:01:49.55,Victor Borba,,0,0,0,karaoke,{\k22}You {\k50}brought {\k23}me {\k41}back {\k54}to {\kf206}life
+Comment: 0,0:01:51.03,0:01:56.05,Casey Lee Williams,,0,0,0,karaoke,{\k23}Des{\k14}pi{\k24}er{\k340}ta {\k24}as{\k36}cen{\k41}so
+Comment: 0,0:01:57.18,0:02:03.95,Both,,0,0,0,karaoke,{\kf164}Oh,{\kf213} whoa,{\kf189} whoa,{\kf111} oh!
+Comment: 0,0:02:04.97,0:02:08.50,Both,,0,0,0,karaoke,{\k44}E{\k27}le{\k47}vate, {\k21}as{\k46}cend {\k27}to {\k23}the {\k48}heights {\k23}hand {\k24}in {\k23}hand
+Comment: 0,0:02:08.74,0:02:10.45,Both,,0,0,0,karaoke,{\k25}Our {\k23}bur{\k23}ning {\k36}fire {\k35}ig{\k29}nites
+Comment: 0,0:02:10.62,0:02:12.33,Both,,0,0,0,karaoke,{\k22}Through {\k27}dark{\k21}ness {\k37}shines {\k34}the {\k30}light
+Comment: 0,0:02:12.53,0:02:16.13,Both,,0,0,0,karaoke,{\k37}Os{\k32}cil{\k49}la{\k23}ting, {\k40}cra{\k31}shing {\k16}the {\k55}tide {\k24}hand {\k24}in {\k29}hand
+Comment: 0,0:02:16.28,0:02:19.67,Both,,0,0,0,karaoke,{\k26}To{\k24}ge{\k23}ther {\k32}we'll {\k30}tran{\kf204}scend
+Comment: 0,0:02:20.08,0:02:22.97,Both,,0,0,0,karaoke,{\k37}E{\k34}le{\k47}vate, {\k22}as{\k47}cend {\k27}to {\k23}the {\k52}heights
+Comment: 0,0:02:23.16,0:02:27.28,Victor Borba,,0,0,0,karaoke,{\k23}The {\k46}fi{\k25}nal {\k46}mo{\k48}ment {\k48}of {\k46}eve{\k25}ry {\kf105}day
+Comment: 0,0:02:27.65,0:02:30.53,Both,,0,0,0,karaoke,{\k45}Os{\k25}cil{\k47}la{\k22}ting, {\k48}cra{\k24}shing {\k18}the {\k59}tide
+Comment: 0,0:02:30.71,0:02:34.83,Victor Borba,,0,0,0,karaoke,{\k24}Now {\k46}u{\k25}ni{\k43}fied {\k41}'til {\k34}the {\kf199}end
+Comment: 0,0:02:35.45,0:02:38.68,Casey Lee Williams,,0,0,0,karaoke,{\k23}E{\k23}le{\k47}vate, {\k25}as{\k41}cend {\k28}to {\k36}the {\kf100}heights
+Comment: 0,0:02:42.77,0:02:46.16,Casey Lee Williams,,0,0,0,karaoke,{\k36}Os{\k33}cil{\k49}la{\k23}ting, {\k41}cra{\k30}shing {\k23}the {\kf104}tide
+Comment: 0,0:03:05.42,0:03:08.97,Both,,0,0,0,karaoke,{\k46}E{\k27}le{\k51}vate, {\k17}as{\k44}cend {\k33}to {\k13}the {\kf124}heights
+Comment: 0,0:03:12.94,0:03:16.60,Both,,0,0,0,karaoke,{\k46}Os{\k31}cil{\k47}la{\k22}ting, {\k44}cra{\k28}shing {\k16}the {\kf132}tide
+Dialogue: 0,0:00:00.00,0:00:02.28,Casey Lee Williams,,0,0,0,fx,{\k73\fad(730,200)}{\k31}Ec{\k29}lip{\k75}se
+Dialogue: 0,0:00:18.23,0:00:22.85,Both,,0,0,0,fx,{\k90\fad(300,200)}{\k38}E{\k33}le{\k47}vate, {\k24}as{\k41}cend {\k30}to {\k24}the {\k45}heights {\k26}hand {\k24}in {\k20}hand
+Dialogue: 0,0:00:22.02,0:00:24.81,Both,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Our {\k23}bur{\k23}ning {\k36}fire {\k35}ig{\k28}nites
+Dialogue: 0,0:00:23.91,0:00:26.70,Both,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Through {\k28}dark{\k21}ness {\k50}shines {\k24}the {\k27}light
+Dialogue: 0,0:00:25.80,0:00:30.44,Both,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Os{\k27}cil{\k48}la{\k22}ting, {\k48}cra{\k22}shing {\k20}the {\k53}tide {\k23}hand {\k24}in {\k24}hand
+Dialogue: 0,0:00:29.57,0:00:34.15,Both,,0,0,0,fx,{\k90\fad(300,200)}{\k23}To{\k24}ge{\k24}ther {\k31}we'll {\k40}tran{\kf206}scend
+Dialogue: 0,0:00:33.36,0:00:37.56,Both,,0,0,0,fx,{\k90\fad(300,200)}{\k37}E{\k33}le{\k47}vate, {\k20}as{\k46}cend {\k29}to {\k24}the {\k74}heights
+Dialogue: 0,0:00:36.54,0:00:41.62,Both,,0,0,0,fx,{\k90\fad(300,200)}{\k13}The {\k47}fi{\k27}nal {\k44}mo{\k46}ment {\k47}of {\k48}eve{\k24}ry {\kf102}day
+Dialogue: 0,0:00:40.91,0:00:45.02,Both,,0,0,0,fx,{\k90\fad(300,200)}{\k41}Os{\k30}cil{\k47}la{\k25}ting, {\k46}cra{\k24}shing {\k21}the {\k67}tide
+Dialogue: 0,0:00:43.98,0:00:49.27,Both,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Now {\k46}u{\k24}ni{\k41}fied {\k42}'til {\k35}the {\kf206}end
+Dialogue: 0,0:01:04.06,0:01:11.95,Casey Lee Williams,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Des{\k27}pi{\k20}er{\k106}ta, {\k26}as{\k35}cen{\k128}so, {\k29}re{\k28}na{\k131}cer, {\k25}ac{\k36}ti{\k51}var
+Dialogue: 0,0:01:11.47,0:01:19.09,Casey Lee Williams,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Sin{\k40}cro{\k125}nía, {\k32}as{\k35}cen{\k125}so, {\k22}sin{\k35}cro{\k135}nía, {\k32}la{\k36}zo
+Dialogue: 0,0:01:19.65,0:01:26.72,Victor Borba,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Feel {\k24}the {\k36}me{\k23}mo{\k36}ries {\k46}fade {\k68}in{\kf145}to {\k24}the {\kf171}wind
+Dialogue: 0,0:01:27.20,0:01:33.96,Victor Borba,,0,0,0,fx,{\k90\fad(300,200)}{\k25}As {\k24}these {\k47}waves {\k47}drift {\k43}in{\k75}to {\kf118}no{\k47}thing{\kf140}ness
+Dialogue: 0,0:01:33.10,0:01:37.70,Victor Borba,,0,0,0,fx,{\k90\fad(300,200)}{\k24}How {\k48}could {\k48}mor{\k23}tal {\k34}wis{\k38}dom {\k47}lift {\k47}you {\k41}up
+Dialogue: 0,0:01:36.90,0:01:41.44,Victor Borba,,0,0,0,fx,{\k90\fad(300,200)}{\k22}To {\k49}tran{\k44}scend {\k26}sal{\k24}va{\k48}tion {\k47}from {\k47}a{\k37}bove?
+Dialogue: 0,0:01:40.68,0:01:45.54,Victor Borba,,0,0,0,fx,{\k90\fad(300,200)}{\k24}When {\k23}it {\k36}seemed {\k35}I {\k48}lost {\k42}all {\k50}strength {\k49}to {\k69}fly
+Dialogue: 0,0:01:44.69,0:01:49.75,Victor Borba,,0,0,0,fx,{\k90\fad(300,200)}{\k22}You {\k50}brought {\k23}me {\k41}back {\k54}to {\kf206}life
+Dialogue: 0,0:01:50.13,0:01:56.25,Casey Lee Williams,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Des{\k14}pi{\k24}er{\k340}ta {\k24}as{\k36}cen{\k41}so
+Dialogue: 0,0:01:56.28,0:02:04.15,Both,,0,0,0,fx,{\k90\fad(300,200)}{\kf164}Oh,{\kf213} whoa,{\kf189} whoa,{\kf111} oh!
+Dialogue: 0,0:02:04.07,0:02:08.70,Both,,0,0,0,fx,{\k90\fad(300,200)}{\k44}E{\k27}le{\k47}vate, {\k21}as{\k46}cend {\k27}to {\k23}the {\k48}heights {\k23}hand {\k24}in {\k23}hand
+Dialogue: 0,0:02:07.84,0:02:10.65,Both,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Our {\k23}bur{\k23}ning {\k36}fire {\k35}ig{\k29}nites
+Dialogue: 0,0:02:09.72,0:02:12.53,Both,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Through {\k27}dark{\k21}ness {\k37}shines {\k34}the {\k30}light
+Dialogue: 0,0:02:11.63,0:02:16.33,Both,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Os{\k32}cil{\k49}la{\k23}ting, {\k40}cra{\k31}shing {\k16}the {\k55}tide {\k24}hand {\k24}in {\k29}hand
+Dialogue: 0,0:02:15.38,0:02:19.87,Both,,0,0,0,fx,{\k90\fad(300,200)}{\k26}To{\k24}ge{\k23}ther {\k32}we'll {\k30}tran{\kf204}scend
+Dialogue: 0,0:02:19.18,0:02:23.17,Both,,0,0,0,fx,{\k90\fad(300,200)}{\k37}E{\k34}le{\k47}vate, {\k22}as{\k47}cend {\k27}to {\k23}the {\k52}heights
+Dialogue: 0,0:02:22.26,0:02:27.48,Victor Borba,,0,0,0,fx,{\k90\fad(300,200)}{\k23}The {\k46}fi{\k25}nal {\k46}mo{\k48}ment {\k48}of {\k46}eve{\k25}ry {\kf105}day
+Dialogue: 0,0:02:26.75,0:02:30.73,Both,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Os{\k25}cil{\k47}la{\k22}ting, {\k48}cra{\k24}shing {\k18}the {\k59}tide
+Dialogue: 0,0:02:29.81,0:02:35.03,Victor Borba,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Now {\k46}u{\k25}ni{\k43}fied {\k41}'til {\k34}the {\kf199}end
+Dialogue: 0,0:02:34.55,0:02:38.88,Casey Lee Williams,,0,0,0,fx,{\k90\fad(300,200)}{\k23}E{\k23}le{\k47}vate, {\k25}as{\k41}cend {\k28}to {\k36}the {\kf100}heights
+Dialogue: 0,0:02:41.87,0:02:46.36,Casey Lee Williams,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Os{\k33}cil{\k49}la{\k23}ting, {\k41}cra{\k30}shing {\k23}the {\kf104}tide
+Dialogue: 0,0:03:04.52,0:03:09.17,Both,,0,0,0,fx,{\k90\fad(300,200)}{\k46}E{\k27}le{\k51}vate, {\k17}as{\k44}cend {\k33}to {\k13}the {\kf124}heights
+Dialogue: 0,0:03:12.04,0:03:16.80,Both,,0,0,0,fx,{\k90\fad(300,200)}{\k46}Os{\k31}cil{\k47}la{\k22}ting, {\k44}cra{\k28}shing {\k16}the {\kf132}tide
