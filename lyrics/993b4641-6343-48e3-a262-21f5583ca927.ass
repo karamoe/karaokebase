@@ -1,0 +1,83 @@
+﻿[Script Info]
+Title: Only by Chasing the Wind
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: XxoT_Yue
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Robin,Arial,24,&H00FFC04C,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,20,1
+Style: Choir,Arial,24,&H001819FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:03.00,Robin,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:11.67,0:00:15.16,Robin,,0,0,0,karaoke,{\k20}Who {\k25}can {\k29}sure{\k26}ly {\k92}know {\k29}how {\k15}the {\k28}wind {\k85}blows?
+Comment: 0,0:00:15.53,0:00:18.96,Robin,,0,0,0,karaoke,{\k26}Where {\k21}the {\k23}bal{\k30}loon's {\k39}ta{\k56}king {\k31}me {\k41}to {\k76}roam?
+Comment: 0,0:00:19.44,0:00:23.29,Robin,,0,0,0,karaoke,{\k26}When {\k25}sho{\k25}wers {\k25}of {\k88}notes {\k26}fall {\k19}like {\k31}spar{\kf120}kles
+Comment: 0,0:00:23.31,0:00:27.80,Robin,,0,0,0,karaoke,{\k39}I {\k21}let {\k32}them {\k58}form {\k42}ran{\k38}dom {\k33}new {\kf186}songs
+Comment: 0,0:00:28.13,0:00:32.04,Robin,,0,0,0,karaoke,{\k37}Find {\k35}your {\k29}own {\k72}pace, {\k43}own {\kf175}path
+Comment: 0,0:00:34.86,0:00:36.98,Choir,,0,0,0,karaoke,{\kf212}Woah
+Comment: 0,0:00:38.76,0:00:40.42,Choir,,0,0,0,karaoke,{\kf166}Woah
+Comment: 0,0:00:42.63,0:00:44.71,Choir,,0,0,0,karaoke,{\kf208}Woah
+Comment: 0,0:00:45.06,0:00:46.44,Choir,,0,0,0,karaoke,{\k24}Ta-{\k25}ra {\k24}ta-{\k24}ra {\k24}ta-{\k17}ra
+Comment: 0,0:00:47.48,0:00:48.27,Choir,,0,0,0,karaoke,{\k23}Ta-{\k18}ra {\k38}ta
+Comment: 0,0:00:48.46,0:00:49.77,Robin,,0,0,0,karaoke,{\k35}As {\k36}a {\k39}dis{\k21}cord
+Comment: 0,0:00:49.90,0:00:53.84,Robin,,0,0,0,karaoke,{\k30}Wing {\k18}it {\k47}now! {\k26}cast {\k21}a{\k51}side {\k47}the {\k27}un{\k44}chan{\k19}ging {\k64}score
+Comment: 0,0:00:53.73,0:00:57.68,Robin,,0,0,0,karaoke,{\k52}Swing {\k49}now! {\k23}we {\k19}aren't {\k49}bol{\k53}ted {\k38}parts {\k35}a{\k23}ny{\k54}more
+Comment: 0,0:00:57.64,0:01:01.82,Robin,,0,0,0,karaoke,{\k24}Win {\k24}it {\k48}now! {\k24}be {\k25}the {\k48}sharp {\k48}no {\k36}one {\k37}can {\k26}ig{\k78}nore
+Comment: 0,0:01:02.23,0:01:03.79,Robin,,0,0,0,karaoke,{\k24}Ready {\k24}to {\k25}sur{\k29}prise {\k21}them {\k33}all
+Comment: 0,0:01:03.88,0:01:05.84,Robin,,0,0,0,karaoke,{\k37}Free{\k36}ly, {\k27}a{\kf96}loud
+Comment: 0,0:01:05.87,0:01:07.79,Robin,,0,0,0,karaoke,{\k73}Hey! {\k12}wor{\k12}ried {\k15}'bout {\k32}it? {\k18}don't {\k8}you {\k15}doubt {\k7}it
+Comment: 0,0:01:08.04,0:01:09.57,Robin,,0,0,0,karaoke,{\k24}Let's {\k25}go, {\k16}hit {\k10}that {\k12}pe{\k13}dal {\k13}to {\k7}the {\k17}me{\k16}tal
+Comment: 0,0:01:09.72,0:01:11.77,Robin,,0,0,0,karaoke,{\k72}Hmm, {\k17}mend {\k7}your {\k26}pace {\k14}and {\k25}step {\k16}it {\k28}up!
+Comment: 0,0:01:11.88,0:01:13.72,Robin,,0,0,0,karaoke,{\k18}Play {\k9}the {\k18}ace, {\k12}po{\k10}wer {\k8}it {\k26}on, {\k25}let's {\k17}amp {\k20}it {\k21}up!
+Comment: 0,0:01:13.85,0:01:15.42,Robin,,0,0,0,karaoke,{\k24}Lights {\k23}on {\k22}our {\k27}star, {\k16}su{\k9}per{\k23}charge {\k13}it!
+Comment: 0,0:01:15.45,0:01:17.67,Robin,,0,0,0,karaoke,{\k9}E{\k20}lec{\k19}tri{\k20}fy, {\k14}our {\k19}en{\k21}ding {\k21}line {\k12}is {\k16}right {\k20}in {\k31}sight
+Comment: 0,0:01:17.72,0:01:19.56,Robin,,0,0,0,karaoke,{\k27}Birds {\k21}of {\k24}a {\k20}fea{\k15}ther, {\k14}to{\k19}ge{\k20}ther, {\k24}now
+Comment: 0,0:01:19.66,0:01:23.22,Robin,,0,0,0,karaoke,{\k24}Free{\k24}ly, {\k16}a{\kf292}loud
+Comment: 0,0:01:24.73,0:01:28.68,Robin,,0,0,0,karaoke,{\k31}Wing {\k18}it {\k47}now! {\k25}cast {\k23}a{\k50}side {\k47}the {\k34}un{\k40}chan{\k17}ging {\k63}score
+Comment: 0,0:01:28.58,0:01:32.54,Robin,,0,0,0,karaoke,{\k51}Swing {\k48}now! {\k24}we {\k24}aren't {\k45}bol{\k52}ted {\k38}parts {\k35}a{\k24}ny{\k55}more
+Comment: 0,0:01:32.48,0:01:36.43,Robin,,0,0,0,karaoke,{\k24}Win {\k25}it {\k47}now! {\k25}be {\k23}the {\k49}sharp {\k51}no {\k32}one {\k38}can {\k24}ig{\k57}nore
+Comment: 0,0:01:36.84,0:01:38.63,Robin,,0,0,0,karaoke,{\k48}Join {\k24}us, {\k11}let {\k13}me {\k24}hear {\k24}you {\k35}shout
+Comment: 0,0:01:38.70,0:01:40.64,Robin,,0,0,0,karaoke,{\k54}Strike {\k24}out {\k25}your {\k48}chord, {\k43}yeah!
+Comment: 0,0:01:40.70,0:01:44.56,Robin,,0,0,0,karaoke,{\kf218}Woah!{\k23} {\k24}keep {\k26}on {\k24}mo{\k24}vin', {\k24}groo{\k23}vin'
+Comment: 0,0:01:44.58,0:01:48.32,Robin,,0,0,0,karaoke,{\kf217}Woah!{\k25} jump {\k24}high {\k24}and {\k84}fly
+Comment: 0,0:01:48.44,0:01:52.36,Robin,,0,0,0,karaoke,{\kf217}Woah!{\k20} {\k29}speed {\k24}up, {\k25}move {\k24}it, {\k25}prove {\k28}it
+Comment: 0,0:01:52.32,0:01:56.28,Robin,,0,0,0,karaoke,{\kf209}Woah! {\k28}jump {\k29}high {\k26}and {\kf104}fly
+Dialogue: 0,0:00:10.77,0:00:15.36,Robin,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Who {\k25}can {\k29}sure{\k26}ly {\k92}know {\k29}how {\k15}the {\k28}wind {\k85}blows?
+Dialogue: 0,0:00:14.63,0:00:19.16,Robin,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Where {\k21}the {\k23}bal{\k30}loon's {\k39}ta{\k56}king {\k31}me {\k41}to {\k76}roam?
+Dialogue: 0,0:00:18.54,0:00:23.49,Robin,,0,0,0,fx,{\k90\fad(300,200)}{\k26}When {\k25}sho{\k25}wers {\k25}of {\k88}notes {\k26}fall {\k19}like {\k31}spar{\kf120}kles
+Dialogue: 0,0:00:22.41,0:00:28.00,Robin,,0,0,0,fx,{\k90\fad(300,200)}{\k39}I {\k21}let {\k32}them {\k58}form {\k42}ran{\k38}dom {\k33}new {\kf186}songs
+Dialogue: 0,0:00:27.23,0:00:32.24,Robin,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Find {\k35}your {\k29}own {\k72}pace, {\k43}own {\kf175}path
+Dialogue: 0,0:00:33.96,0:00:37.18,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\kf212}Woah
+Dialogue: 0,0:00:37.86,0:00:40.62,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\kf166}Woah
+Dialogue: 0,0:00:41.73,0:00:44.91,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\kf208}Woah
+Dialogue: 0,0:00:44.16,0:00:46.64,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Ta-{\k25}ra {\k24}ta-{\k24}ra {\k24}ta-{\k17}ra
+Dialogue: 0,0:00:46.58,0:00:48.47,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Ta-{\k18}ra {\k38}ta
+Dialogue: 0,0:00:47.56,0:00:49.97,Robin,,0,0,0,fx,{\k90\fad(300,200)}{\k35}As {\k36}a {\k39}dis{\k21}cord
+Dialogue: 0,0:00:49.00,0:00:54.04,Robin,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Wing {\k18}it {\k47}now! {\k26}cast {\k21}a{\k51}side {\k47}the {\k27}un{\k44}chan{\k19}ging {\k64}score
+Dialogue: 0,0:00:52.83,0:00:57.88,Robin,,0,0,0,fx,{\k90\fad(300,200)}{\k52}Swing {\k49}now! {\k23}we {\k19}aren't {\k49}bol{\k53}ted {\k38}parts {\k35}a{\k23}ny{\k54}more
+Dialogue: 0,0:00:56.74,0:01:02.02,Robin,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Win {\k24}it {\k48}now! {\k24}be {\k25}the {\k48}sharp {\k48}no {\k36}one {\k37}can {\k26}ig{\k78}nore
+Dialogue: 0,0:01:01.33,0:01:03.99,Robin,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Ready {\k24}to {\k25}sur{\k29}prise {\k21}them {\k33}all
+Dialogue: 0,0:01:02.98,0:01:06.04,Robin,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Free{\k36}ly, {\k27}a{\kf96}loud
+Dialogue: 0,0:01:04.97,0:01:07.99,Robin,,0,0,0,fx,{\k90\fad(300,200)}{\k73}Hey! {\k12}wor{\k12}ried {\k15}'bout {\k32}it? {\k18}don't {\k8}you {\k15}doubt {\k7}it
+Dialogue: 0,0:01:07.14,0:01:09.77,Robin,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Let's {\k25}go, {\k16}hit {\k10}that {\k12}pe{\k13}dal {\k13}to {\k7}the {\k17}me{\k16}tal
+Dialogue: 0,0:01:08.82,0:01:11.97,Robin,,0,0,0,fx,{\k90\fad(300,200)}{\k72}Hmm, {\k17}mend {\k7}your {\k26}pace {\k14}and {\k25}step {\k16}it {\k28}up!
+Dialogue: 0,0:01:10.98,0:01:13.92,Robin,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Play {\k9}the {\k18}ace, {\k12}po{\k10}wer {\k8}it {\k26}on, {\k25}let's {\k17}amp {\k20}it {\k21}up!
+Dialogue: 0,0:01:12.95,0:01:15.62,Robin,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Lights {\k23}on {\k22}our {\k27}star, {\k16}su{\k9}per{\k23}charge {\k13}it!
+Dialogue: 0,0:01:14.55,0:01:17.87,Robin,,0,0,0,fx,{\k90\fad(300,200)}{\k9}E{\k20}lec{\k19}tri{\k20}fy, {\k14}our {\k19}en{\k21}ding {\k21}line {\k12}is {\k16}right {\k20}in {\k31}sight
+Dialogue: 0,0:01:16.82,0:01:19.76,Robin,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Birds {\k21}of {\k24}a {\k20}fea{\k15}ther, {\k14}to{\k19}ge{\k20}ther, {\k24}now
+Dialogue: 0,0:01:18.76,0:01:23.42,Robin,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Free{\k24}ly, {\k16}a{\kf292}loud
+Dialogue: 0,0:01:23.83,0:01:28.88,Robin,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Wing {\k18}it {\k47}now! {\k25}cast {\k23}a{\k50}side {\k47}the {\k34}un{\k40}chan{\k17}ging {\k63}score
+Dialogue: 0,0:01:27.68,0:01:32.74,Robin,,0,0,0,fx,{\k90\fad(300,200)}{\k51}Swing {\k48}now! {\k24}we {\k24}aren't {\k45}bol{\k52}ted {\k38}parts {\k35}a{\k24}ny{\k55}more
+Dialogue: 0,0:01:31.58,0:01:36.63,Robin,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Win {\k25}it {\k47}now! {\k25}be {\k23}the {\k49}sharp {\k51}no {\k32}one {\k38}can {\k24}ig{\k57}nore
+Dialogue: 0,0:01:35.94,0:01:38.83,Robin,,0,0,0,fx,{\k90\fad(300,200)}{\k48}Join {\k24}us, {\k11}let {\k13}me {\k24}hear {\k24}you {\k35}shout
+Dialogue: 0,0:01:37.80,0:01:40.84,Robin,,0,0,0,fx,{\k90\fad(300,200)}{\k54}Strike {\k24}out {\k25}your {\k48}chord, {\k43}yeah!
+Dialogue: 0,0:01:39.80,0:01:44.76,Robin,,0,0,0,fx,{\k90\fad(300,200)}{\kf218}Woah!{\k23} {\k24}keep {\k26}on {\k24}mo{\k24}vin', {\k24}groo{\k23}vin'
+Dialogue: 0,0:01:43.68,0:01:48.52,Robin,,0,0,0,fx,{\k90\fad(300,200)}{\kf217}Woah!{\k25} jump {\k24}high {\k24}and {\k84}fly
+Dialogue: 0,0:01:47.54,0:01:52.56,Robin,,0,0,0,fx,{\k90\fad(300,200)}{\kf217}Woah!{\k20} {\k29}speed {\k24}up, {\k25}move {\k24}it, {\k25}prove {\k28}it
+Dialogue: 0,0:01:51.42,0:01:56.48,Robin,,0,0,0,fx,{\k90\fad(300,200)}{\kf209}Woah! {\k28}jump {\k29}high {\k26}and {\kf104}fly
