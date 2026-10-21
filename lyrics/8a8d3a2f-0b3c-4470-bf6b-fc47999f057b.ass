@@ -1,0 +1,149 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: I'm Sorry! (Court-Ordered Apology)
+Original Timing: ono3000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: KM_Up,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: KM_Choir,Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,KM_Up,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.24,0:00:01.92,KM_Up,,0,0,0,karaoke,{\k25}I'm {\k63}sor{\k80}ry
+Comment: 0,0:00:02.30,0:00:04.61,KM_Up,,0,0,0,karaoke,{\k44}Oh, {\k55}I'm {\k64}sor{\k68}ry
+Comment: 0,0:00:04.88,0:00:07.24,KM_Up,,0,0,0,karaoke,{\k17}This {\k22}is {\k21}ac{\k27}coun{\k21}ta{\k24}bi{\k29}li{\k75}ty
+Comment: 0,0:00:07.62,0:00:09.16,KM_Up,,0,0,0,karaoke,{\k19}Be{\k46}cause {\k31}I'm {\k28}sor{\k30}ry
+Comment: 0,0:00:09.36,0:00:11.24,KM_Up,,0,0,0,karaoke,{\k25}I'm {\k36}so {\k25}sor{\k39}ry, {\k31}I'm {\k32}so
+Comment: 0,0:00:11.24,0:00:13.77,KM_Up,,0,0,0,karaoke,{\k21}Sor{\k17}ry {\k14}that {\k14}I'm {\k67}rich, {\k20}sor{\k15}ry {\k16}that {\k15}I'm {\k54}cool
+Comment: 0,0:00:13.93,0:00:16.44,KM_Up,,0,0,0,karaoke,{\k16}Sor{\k14}ry {\k16}that {\k19}my {\k36}man{\k25}sion {\k21}has {\k16}e{\k16}le{\k17}ven {\k55}pools
+Comment: 0,0:00:16.57,0:00:17.58,KM_Up,,0,0,0,karaoke,{\k18}Check {\k16}your {\k33}girl's {\k34}phone
+Comment: 0,0:00:17.58,0:00:19.12,KM_Up,,0,0,0,karaoke,{\k14}Bet {\k17}she {\k18}fol{\k16}low{\k15}ing {\k17}the {\k31}Prank {\k26}Squad
+Comment: 0,0:00:19.22,0:00:20.24,KM_Up,,0,0,0,karaoke,{\k18}When {\k16}she {\k16}com{\k17}in' {\k18}o{\k17}ver
+Comment: 0,0:00:20.24,0:00:21.96,KM_Up,,0,0,0,karaoke,{\k14}She {\k17}be {\k18}cal{\k16}ling {\k15}me {\k14}the {\k35}Prank {\k43}God
+Comment: 0,0:00:21.96,0:00:23.30,KM_Up,,0,0,0,karaoke,{\k23}That's {\k33}what {\k28}clout {\k50}do
+Comment: 0,0:00:23.30,0:00:24.40,KM_Up,,0,0,0,karaoke,{\k17}What {\k26}that {\k33}mouth {\k34}do?
+Comment: 0,0:00:24.57,0:00:25.58,KM_Up,,0,0,0,karaoke,{\k17}Sign {\k16}a {\k13}le{\k18}gal {\k19}wai{\k18}ver
+Comment: 0,0:00:25.58,0:00:27.21,KM_Up,,0,0,0,karaoke,{\k20}That {\k28}says {\k14}that {\k18}I {\k22}can {\k30}mount {\k31}you
+Comment: 0,0:00:27.26,0:00:29.57,KM_Up,,0,0,0,karaoke,{\k20}Yeah, {\k20}I {\k23}got {\k26}law{\k24}yers {\k20}'cause {\k19}I {\k31}get {\k48}sued
+Comment: 0,0:00:29.64,0:00:30.92,KM_Up,,0,0,0,karaoke,{\k11}Now {\k15}I'm {\k31}banned {\k13}from {\k18}O{\k18}hi{\k22}o
+Comment: 0,0:00:30.92,0:00:32.22,KM_Up,,0,0,0,karaoke,{\k11}For {\k16}the {\k33}pranks {\k28}I {\k42}do
+Comment: 0,0:00:32.29,0:00:33.54,KM_Up,,0,0,0,karaoke,{\k8}And {\k17}I {\k30}can't {\k26}go {\k44}back
+Comment: 0,0:00:33.54,0:00:34.96,KM_Up,,0,0,0,karaoke,{\k20}Un{\k16}til {\k19}I {\k33}tell {\k31}you {\k23}that
+Comment: 0,0:00:34.96,0:00:36.61,KM_Up,,0,0,0,karaoke,{\k27}I'm {\k53}sor{\k85}ry
+Comment: 0,0:00:36.12,0:00:37.26,KM_Choir,,0,0,0,karaoke,{\k11}This {\k16}is {\k31}sin{\k56}cere
+Comment: 0,0:00:36.90,0:00:39.26,KM_Up,,0,0,0,karaoke,{\k36}Oh, {\k33}bitch, {\k35}I'm {\k60}sor{\k72}ry
+Comment: 0,0:00:38.54,0:00:40.17,KM_Choir,,0,0,0,karaoke,{\k92}Yeah, {\k71}bitch
+Comment: 0,0:00:39.56,0:00:42.01,KM_Up,,0,0,0,karaoke,{\k31}Court-{\k27}or{\k23}dered {\k20}a{\k33}po{\k20}lo{\k91}gy
+Comment: 0,0:00:41.38,0:00:42.40,KM_Choir,,0,0,0,karaoke,{\k20}From {\k23}the {\k59}heart
+Comment: 0,0:00:42.94,0:00:44.53,KM_Choir,,0,0,0,karaoke,{\k18}Ho{\k14}mie {\k17}Joe{\k10}y {\k11}in {\k14}the {\k18}hiz-{\k57}ouse
+Comment: 0,0:00:42.26,0:00:44.58,KM_Up,,0,0,0,karaoke,{\k16}Be{\k50}cause {\k32}I'm {\k28}sor{\k42}ry, {\k33}I'm {\k31}so
+Comment: 0,0:00:44.62,0:00:45.72,KM_Up,,0,0,0,karaoke,{\k17}Sor{\k15}ry {\k12}that {\k16}you're {\k50}poor
+Comment: 0,0:00:45.90,0:00:47.04,KM_Up,,0,0,0,karaoke,{\k16}Sor{\k17}ry {\k11}that {\k20}you're {\k50}mad
+Comment: 0,0:00:47.20,0:00:49.61,KM_Up,,0,0,0,karaoke,{\k14}Sor{\k19}ry {\k13}that {\k22}you're {\k18}jea{\k16}lous {\k16}of {\k19}my {\k18}ba{\k15}che{\k16}lor {\k55}pad
+Comment: 0,0:00:49.69,0:00:52.18,KM_Up,,0,0,0,karaoke,{\k17}I {\k15}did{\k23}n't {\k18}get {\k13}a {\k31}trust {\k32}fund {\k19}from {\k17}a {\k33}rich {\k31}dad
+Comment: 0,0:00:52.18,0:00:54.41,KM_Up,,0,0,0,karaoke,{\k16}So {\k17}I {\k19}had {\k16}to {\k17}make {\k19}my {\k34}friends {\k20}eat {\k29}Tide {\k36}Pods
+Comment: 0,0:00:54.41,0:00:55.38,KM_Up,,0,0,0,karaoke,{\k25}'Til {\k11}one {\k8}of {\k17}them {\k36}died {\k0}
+Comment: 0,0:00:55.22,0:00:55.81,KM_Choir,,0,0,0,karaoke,{\k18}Khe-{\k41}khem
+Comment: 0,0:00:55.89,0:00:56.76,KM_Up,,0,0,0,karaoke,{\k7}Oh, {\k24}right, {\k26}yeah, {\k6}wha{\k8}te{\k16}ver
+Comment: 0,0:00:56.76,0:00:59.24,KM_Up,,0,0,0,karaoke,{\k19}Al{\k22}le{\k25}ged{\k43}ly! {\k15}That's {\k20}a {\k14}ru{\k18}mor {\k15}from {\k22}my {\k19}ha{\k16}ters
+Comment: 0,0:00:58.92,0:00:59.88,KM_Choir,,0,0,0,karaoke,{\k16}Ha{\k80}ter
+Comment: 0,0:00:59.28,0:01:01.85,KM_Up,,0,0,0,karaoke,{\k11}But {\k19}it {\k31}made {\k15}me {\k19}a {\k17}fa{\k17}mous {\k13}In{\k18}ter{\k31}net {\k18}cre{\k20}a{\k28}tor
+Comment: 0,0:01:01.89,0:01:03.40,KM_Up,,0,0,0,karaoke,{\k13}And {\k21}the {\k17}thing {\k14}a{\k17}bout {\k17}the {\k19}Rock {\k17}and {\k16}Roll
+Comment: 0,0:01:03.40,0:01:05.22,KM_Up,,0,0,0,karaoke,{\k16}Hall {\k16}of {\k19}Fame {\k16}is{\k16}n't {\k18}true, {\k16}I {\k14}did{\k17}n't {\k17}do {\k17}it
+Comment: 0,0:01:05.22,0:01:06.33,KM_Up,,0,0,0,karaoke,{\k15}I {\k20}would {\k17}ne{\k17}ver {\k16}jerk {\k26}off
+Comment: 0,0:01:06.33,0:01:08.70,KM_Up,,0,0,0,karaoke,{\k9}With {\k14}the {\k25}Bon {\k18}Jo{\k16}vi {\k18}ex{\k18}hi{\k40}bit, {\k33}that's {\k46}wack
+Comment: 0,0:01:08.70,0:01:10.18,KM_Up,,0,0,0,karaoke,{\k19}Like {\k14}why {\k14}would {\k10}they {\k13}e{\k18}ven {\k25}say {\k35}that?
+Comment: 0,0:01:10.18,0:01:12.24,KM_Up,,0,0,0,karaoke,{\k8}And {\k18}then {\k13}they {\k14}get {\k12}the {\k12}se{\k15}cu{\k9}ri{\k14}ty {\k23}guard {\k13}to {\k21}tes{\k14}ti{\k20}fy
+Comment: 0,0:01:12.26,0:01:14.37,KM_Up,,0,0,0,karaoke,{\k13}He {\k26}saw {\k14}me {\k16}rub {\k18}my {\k22}dick {\k25}on {\k12}the {\k14}gui{\k51}tars?
+Comment: 0,0:01:14.46,0:01:15.84,KM_Up,,0,0,0,karaoke,{\k29}That's {\k36}not {\k25}jer{\k17}king {\k31}off
+Comment: 0,0:01:16.06,0:01:17.32,KM_Up,,0,0,0,karaoke,{\k32}If {\k22}my {\k25}dick {\k20}was {\k27}out
+Comment: 0,0:01:17.32,0:01:19.52,KM_Up,,0,0,0,karaoke,{\k8}It {\k16}was {\k27}ful{\k23}ly {\k43}soft, {\k38}as {\k19}a {\k46}joke
+Comment: 0,0:01:20.09,0:01:20.53,KM_Choir,,0,0,0,karaoke,{\k44}Bro
+Comment: 0,0:01:20.62,0:01:22.26,KM_Up,,0,0,0,karaoke,{\k32}I'm {\k50}sor{\k82}ry
+Comment: 0,0:01:22.54,0:01:24.70,KM_Up,,0,0,0,karaoke,{\k71}Oh, {\k33}I'm {\k63}sor{\k49}ry
+Comment: 0,0:01:24.96,0:01:27.58,KM_Up,,0,0,0,karaoke,{\k20}I {\k19}did{\k20}n't {\k26}jerk {\k25}off {\k25}on {\k30}Bon {\k31}Jo{\k66}vi
+Comment: 0,0:01:27.92,0:01:30.30,KM_Up,,0,0,0,karaoke,{\k20}But {\k39}I'm {\k38}still {\k27}sor{\k44}ry, {\k31}I'm {\k39}still
+Comment: 0,0:01:21.61,0:01:23.14,KM_Choir,,0,0,0,karaoke,{\k62}Stop {\k32}ly{\k59}ing
+Comment: 0,0:01:24.25,0:01:26.05,KM_Choir,,0,0,0,karaoke,{\k19}O{\k22}hi{\k15}o {\k46}hates {\k78}jokes
+Comment: 0,0:01:27.28,0:01:28.54,KM_Choir,,0,0,0,karaoke,{\kf126}Gah
+Comment: 0,0:01:29.61,0:01:31.64,KM_Up,,0,0,0,karaoke,{\k65}Man, {\k39}fuck {\k24}O{\k33}hi{\k42}o
+Comment: 0,0:01:31.81,0:01:33.52,KM_Up,,0,0,0,karaoke,{\k18}I'm {\k24}sor{\k16}ry {\k24}I'm {\k37}not {\k28}sor{\k24}ry
+Comment: 0,0:01:33.59,0:01:35.05,KM_Up,,0,0,0,karaoke,{\k12}How {\k22}'bout {\k30}that, {\k40}Cleve{\k42}land?
+Comment: 0,0:01:35.41,0:01:37.01,KM_Up,,0,0,0,karaoke,{\k20}Ra{\k12}ger {\k18}at {\k29}my {\k32}house {\k18}to{\k31}night
+Comment: 0,0:01:37.05,0:01:38.24,KM_Up,,0,0,0,karaoke,{\k17}Eve{\k16}ry{\k33}one's {\k26}wel{\k27}come
+Comment: 0,0:01:38.33,0:01:39.60,KM_Up,,0,0,0,karaoke,{\k8}Un{\k16}less {\k12}you're {\k18}from {\k11}you-{\k21}know-{\k41}where
+Comment: 0,0:01:39.81,0:01:41.68,KM_Up,,0,0,0,karaoke,{\k34}My {\k45}dick {\k32}was {\k76}soft
+Comment: 0,0:01:42.52,0:01:44.08,KM_Up,,0,0,0,karaoke,{\k14}What's {\k29}up? {\k18}Ho{\k16}mie {\k22}Joe{\k18}y {\k39}here
+Comment: 0,0:01:44.34,0:01:45.50,KM_Up,,0,0,0,karaoke,{\k13}I {\k8}went {\k20}out {\k15}the {\k28}win{\k32}dow
+Dialogue: 0,0:00:00.00,0:00:02.12,KM_Up,,0,0,0,fx,{\k24\fad(240,200)}{\k25}I'm {\k63}sor{\k80}ry
+Dialogue: 0,0:00:01.40,0:00:04.81,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Oh, {\k55}I'm {\k64}sor{\k68}ry
+Dialogue: 0,0:00:03.98,0:00:07.44,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k17}This {\k22}is {\k21}ac{\k27}coun{\k21}ta{\k24}bi{\k29}li{\k75}ty
+Dialogue: 0,0:00:06.72,0:00:09.36,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Be{\k46}cause {\k31}I'm {\k28}sor{\k30}ry
+Dialogue: 0,0:00:08.46,0:00:11.44,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I'm {\k36}so {\k25}sor{\k39}ry, {\k31}I'm {\k32}so
+Dialogue: 0,0:00:10.34,0:00:13.97,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Sor{\k17}ry {\k14}that {\k14}I'm {\k67}rich, {\k20}sor{\k15}ry {\k16}that {\k15}I'm {\k54}cool
+Dialogue: 0,0:00:13.03,0:00:16.64,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Sor{\k14}ry {\k16}that {\k19}my {\k36}man{\k25}sion {\k21}has {\k16}e{\k16}le{\k17}ven {\k55}pools
+Dialogue: 0,0:00:15.67,0:00:17.78,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Check {\k16}your {\k33}girl's {\k34}phone
+Dialogue: 0,0:00:16.68,0:00:19.32,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Bet {\k17}she {\k18}fol{\k16}low{\k15}ing {\k17}the {\k31}Prank {\k26}Squad
+Dialogue: 0,0:00:18.32,0:00:20.44,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k18}When {\k16}she {\k16}com{\k17}in' {\k18}o{\k17}ver
+Dialogue: 0,0:00:19.34,0:00:22.16,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k14}She {\k17}be {\k18}cal{\k16}ling {\k15}me {\k14}the {\k35}Prank {\k43}God
+Dialogue: 0,0:00:21.06,0:00:23.50,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k23}That's {\k33}what {\k28}clout {\k50}do
+Dialogue: 0,0:00:22.40,0:00:24.60,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k17}What {\k26}that {\k33}mouth {\k34}do?
+Dialogue: 0,0:00:23.67,0:00:25.78,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Sign {\k16}a {\k13}le{\k18}gal {\k19}wai{\k18}ver
+Dialogue: 0,0:00:24.68,0:00:27.41,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k20}That {\k28}says {\k14}that {\k18}I {\k22}can {\k30}mount {\k31}you
+Dialogue: 0,0:00:26.36,0:00:29.77,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Yeah, {\k20}I {\k23}got {\k26}law{\k24}yers {\k20}'cause {\k19}I {\k31}get {\k48}sued
+Dialogue: 0,0:00:28.74,0:00:31.12,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k11}Now {\k15}I'm {\k31}banned {\k13}from {\k18}O{\k18}hi{\k22}o
+Dialogue: 0,0:00:30.02,0:00:32.42,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k11}For {\k16}the {\k33}pranks {\k28}I {\k42}do
+Dialogue: 0,0:00:31.39,0:00:33.74,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k8}And {\k17}I {\k30}can't {\k26}go {\k44}back
+Dialogue: 0,0:00:32.64,0:00:35.16,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Un{\k16}til {\k19}I {\k33}tell {\k31}you {\k23}that
+Dialogue: 0,0:00:34.06,0:00:36.81,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k27}I'm {\k53}sor{\k85}ry
+Dialogue: 0,0:00:35.22,0:00:37.46,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k11}This {\k16}is {\k31}sin{\k56}cere
+Dialogue: 0,0:00:36.00,0:00:39.46,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Oh, {\k33}bitch, {\k35}I'm {\k60}sor{\k72}ry
+Dialogue: 0,0:00:37.64,0:00:40.37,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k92}Yeah, {\k71}bitch
+Dialogue: 0,0:00:38.66,0:00:42.21,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Court-{\k27}or{\k23}dered {\k20}a{\k33}po{\k20}lo{\k91}gy
+Dialogue: 0,0:00:40.48,0:00:42.60,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k20}From {\k23}the {\k59}heart
+Dialogue: 0,0:00:42.04,0:00:44.73,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Ho{\k14}mie {\k17}Joe{\k10}y {\k11}in {\k14}the {\k18}hiz-{\k57}ouse
+Dialogue: 0,0:00:41.36,0:00:44.78,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Be{\k50}cause {\k32}I'm {\k28}sor{\k42}ry, {\k33}I'm {\k31}so
+Dialogue: 0,0:00:43.72,0:00:45.92,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Sor{\k15}ry {\k12}that {\k16}you're {\k50}poor
+Dialogue: 0,0:00:45.00,0:00:47.24,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Sor{\k17}ry {\k11}that {\k20}you're {\k50}mad
+Dialogue: 0,0:00:46.30,0:00:49.81,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Sor{\k19}ry {\k13}that {\k22}you're {\k18}jea{\k16}lous {\k16}of {\k19}my {\k18}ba{\k15}che{\k16}lor {\k55}pad
+Dialogue: 0,0:00:48.79,0:00:52.38,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k15}did{\k23}n't {\k18}get {\k13}a {\k31}trust {\k32}fund {\k19}from {\k17}a {\k33}rich {\k31}dad
+Dialogue: 0,0:00:51.28,0:00:54.61,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k16}So {\k17}I {\k19}had {\k16}to {\k17}make {\k19}my {\k34}friends {\k20}eat {\k29}Tide {\k36}Pods
+Dialogue: 0,0:00:53.51,0:00:55.58,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k25}'Til {\k11}one {\k8}of {\k17}them {\k36}died {\k0}
+Dialogue: 0,0:00:54.32,0:00:56.01,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Khe-{\k41}khem
+Dialogue: 0,0:00:54.99,0:00:56.96,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k7}Oh, {\k24}right, {\k26}yeah, {\k6}wha{\k8}te{\k16}ver
+Dialogue: 0,0:00:55.86,0:00:59.44,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Al{\k22}le{\k25}ged{\k43}ly! {\k15}That's {\k20}a {\k14}ru{\k18}mor {\k15}from {\k22}my {\k19}ha{\k16}ters
+Dialogue: 0,0:00:58.02,0:01:00.08,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Ha{\k80}ter
+Dialogue: 0,0:00:58.38,0:01:02.05,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k11}But {\k19}it {\k31}made {\k15}me {\k19}a {\k17}fa{\k17}mous {\k13}In{\k18}ter{\k31}net {\k18}cre{\k20}a{\k28}tor
+Dialogue: 0,0:01:00.99,0:01:03.60,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k13}And {\k21}the {\k17}thing {\k14}a{\k17}bout {\k17}the {\k19}Rock {\k17}and {\k16}Roll
+Dialogue: 0,0:01:02.50,0:01:05.42,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Hall {\k16}of {\k19}Fame {\k16}is{\k16}n't {\k18}true, {\k16}I {\k14}did{\k17}n't {\k17}do {\k17}it
+Dialogue: 0,0:01:04.32,0:01:06.53,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k15}I {\k20}would {\k17}ne{\k17}ver {\k16}jerk {\k26}off
+Dialogue: 0,0:01:05.43,0:01:08.90,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k9}With {\k14}the {\k25}Bon {\k18}Jo{\k16}vi {\k18}ex{\k18}hi{\k40}bit, {\k33}that's {\k46}wack
+Dialogue: 0,0:01:07.80,0:01:10.38,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Like {\k14}why {\k14}would {\k10}they {\k13}e{\k18}ven {\k25}say {\k35}that?
+Dialogue: 0,0:01:09.28,0:01:12.44,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k8}And {\k18}then {\k13}they {\k14}get {\k12}the {\k12}se{\k15}cu{\k9}ri{\k14}ty {\k23}guard {\k13}to {\k21}tes{\k14}ti{\k20}fy
+Dialogue: 0,0:01:11.36,0:01:14.57,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k13}He {\k26}saw {\k14}me {\k16}rub {\k18}my {\k22}dick {\k25}on {\k12}the {\k14}gui{\k51}tars?
+Dialogue: 0,0:01:13.56,0:01:16.04,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k29}That's {\k36}not {\k25}jer{\k17}king {\k31}off
+Dialogue: 0,0:01:15.16,0:01:17.52,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k32}If {\k22}my {\k25}dick {\k20}was {\k27}out
+Dialogue: 0,0:01:16.42,0:01:19.72,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k8}It {\k16}was {\k27}ful{\k23}ly {\k43}soft, {\k38}as {\k19}a {\k46}joke
+Dialogue: 0,0:01:19.19,0:01:20.73,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Bro
+Dialogue: 0,0:01:19.72,0:01:22.46,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k32}I'm {\k50}sor{\k82}ry
+Dialogue: 0,0:01:21.64,0:01:24.90,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k71}Oh, {\k33}I'm {\k63}sor{\k49}ry
+Dialogue: 0,0:01:24.06,0:01:27.78,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k20}I {\k19}did{\k20}n't {\k26}jerk {\k25}off {\k25}on {\k30}Bon {\k31}Jo{\k66}vi
+Dialogue: 0,0:01:27.02,0:01:30.50,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k20}But {\k39}I'm {\k38}still {\k27}sor{\k44}ry, {\k31}I'm {\k39}still
+Dialogue: 0,0:01:20.71,0:01:23.34,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k62}Stop {\k32}ly{\k59}ing
+Dialogue: 0,0:01:23.35,0:01:26.25,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k19}O{\k22}hi{\k15}o {\k46}hates {\k78}jokes
+Dialogue: 0,0:01:26.38,0:01:28.74,KM_Choir,,0,0,0,fx,{\k90\fad(300,200)}{\kf126}Gah
+Dialogue: 0,0:01:28.71,0:01:31.84,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k65}Man, {\k39}fuck {\k24}O{\k33}hi{\k42}o
+Dialogue: 0,0:01:30.91,0:01:33.72,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k18}I'm {\k24}sor{\k16}ry {\k24}I'm {\k37}not {\k28}sor{\k24}ry
+Dialogue: 0,0:01:32.69,0:01:35.25,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k12}How {\k22}'bout {\k30}that, {\k40}Cleve{\k42}land?
+Dialogue: 0,0:01:34.51,0:01:37.21,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Ra{\k12}ger {\k18}at {\k29}my {\k32}house {\k18}to{\k31}night
+Dialogue: 0,0:01:36.15,0:01:38.44,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Eve{\k16}ry{\k33}one's {\k26}wel{\k27}come
+Dialogue: 0,0:01:37.43,0:01:39.80,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k8}Un{\k16}less {\k12}you're {\k18}from {\k11}you-{\k21}know-{\k41}where
+Dialogue: 0,0:01:38.91,0:01:41.88,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k34}My {\k45}dick {\k32}was {\k76}soft
+Dialogue: 0,0:01:41.62,0:01:44.28,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k14}What's {\k29}up? {\k18}Ho{\k16}mie {\k22}Joe{\k18}y {\k39}here
+Dialogue: 0,0:01:43.44,0:01:45.70,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k13}I {\k8}went {\k20}out {\k15}the {\k28}win{\k32}dow
