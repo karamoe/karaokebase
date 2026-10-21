@@ -1,0 +1,72 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Wendy's Audition Song
+Original Timing: ono3000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: KM_Up,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,KM_Up,,0,0,0,template pre-line all keeptags,!retime("line",$start < 700 and -$start or -700,200)!{!$start < 700 and "\\k" .. ($start/10) or "\\k70"!\fad(!$start < 700 and $start or 300!,200)}
+Comment: 0,0:00:03.72,0:00:06.50,KM_Up,,0,0,0,karaoke,{\k78}Miss{\k77}es {\k29}Lan{\k16}ders {\k17}was {\k18}a {\k19}health {\k24}nut
+Comment: 0,0:00:06.60,0:00:07.72,KM_Up,,0,0,0,karaoke,{\k13}She {\k20}cooked {\k16}food {\k15}in {\k18}a {\k30}wok
+Comment: 0,0:00:07.82,0:00:09.17,KM_Up,,0,0,0,karaoke,{\k15}Mis{\k15}ter {\k19}Har{\k18}ris {\k17}was {\k14}her {\k18}boy{\k19}friend
+Comment: 0,0:00:09.18,0:00:10.16,KM_Up,,0,0,0,karaoke,{\k17}And {\k16}he {\k16}had {\k15}a {\k16}great {\k18}big
+Comment: 0,0:00:10.16,0:00:11.28,KM_Up,,0,0,0,karaoke,{\k22}Cock-{\k17}a-{\k16}dood{\k19}le-{\k17}dood{\k21}le
+Comment: 0,0:00:11.44,0:00:12.46,KM_Up,,0,0,0,karaoke,{\k15}The {\k19}roos{\k14}ter {\k18}just {\k18}won't {\k18}quit
+Comment: 0,0:00:12.80,0:00:14.01,KM_Up,,0,0,0,karaoke,{\k16}And {\k19}I {\k18}don't {\k13}want {\k17}my {\k19}break{\k19}fast
+Comment: 0,0:00:14.16,0:00:14.96,KM_Up,,0,0,0,karaoke,{\k14}Be{\k20}cause {\k15}it {\k16}tastes {\k15}like
+Comment: 0,0:00:15.02,0:00:16.14,KM_Up,,0,0,0,karaoke,{\k18}Shih {\k18}Tzus {\k17}make {\k14}good {\k21}house {\k24}pets
+Comment: 0,0:00:16.26,0:00:17.50,KM_Up,,0,0,0,karaoke,{\k22}They're {\k18}cud{\k16}d{\k14}ly {\k17}and {\k37}sweet
+Comment: 0,0:00:17.76,0:00:18.99,KM_Up,,0,0,0,karaoke,{\k20}Mon{\k18}keys {\k18}are{\k18}n't {\k15}good {\k15}to {\k19}have
+Comment: 0,0:00:19.02,0:00:19.90,KM_Up,,0,0,0,karaoke,{\k8}'Cause {\k11}they {\k15}like {\k17}to {\k17}beat {\k20}their
+Comment: 0,0:00:19.90,0:00:20.98,KM_Up,,0,0,0,karaoke,{\k16}Mee{\k18}ting {\k19}in {\k17}the {\k19}of{\k19}fice
+Comment: 0,0:00:21.16,0:00:22.42,KM_Up,,0,0,0,karaoke,{\k16}A {\k18}mee{\k18}ting {\k16}in {\k19}the {\k39}hall
+Comment: 0,0:00:22.60,0:00:23.86,KM_Up,,0,0,0,karaoke,{\k14}The {\k20}boss, {\k15}he {\k19}wants {\k17}to {\k17}see {\k24}you
+Comment: 0,0:00:24.00,0:00:24.88,KM_Up,,0,0,0,karaoke,{\k17}So {\k13}you {\k21}can {\k16}suck {\k21}his
+Comment: 0,0:00:24.88,0:00:26.04,KM_Up,,0,0,0,karaoke,{\k22}Bal{\k20}zac {\k16}was {\k16}a {\k22}wri{\k20}ter
+Comment: 0,0:00:26.18,0:00:27.24,KM_Up,,0,0,0,karaoke,{\k16}He {\k17}lived {\k18}with {\k16}Al{\k17}len {\k22}Funt
+Comment: 0,0:00:27.44,0:00:28.85,KM_Up,,0,0,0,karaoke,{\k14}Miss{\k17}es {\k19}Ro{\k21}berts {\k16}did{\k14}n't {\k21}like {\k19}him
+Comment: 0,0:00:29.01,0:00:29.86,KM_Up,,0,0,0,karaoke,{\k17}But {\k18}that's {\k18}'cause {\k16}she's {\k16}a
+Comment: 0,0:00:29.92,0:00:31.22,KM_Up,,0,0,0,karaoke,{\k17}Con{\k24}ta{\k17}mi{\k17}na{\k17}ted {\k21}wa{\k17}ter
+Comment: 0,0:00:31.37,0:00:32.54,KM_Up,,0,0,0,karaoke,{\k17}Can {\k17}real{\k18}ly {\k15}make {\k17}you {\k33}sick
+Comment: 0,0:00:32.73,0:00:34.00,KM_Up,,0,0,0,karaoke,{\k17}Your {\k19}blad{\k14}der {\k21}gets {\k15}in{\k17}fec{\k24}ted
+Comment: 0,0:00:34.11,0:00:34.91,KM_Up,,0,0,0,karaoke,{\k13}And {\k18}blood {\k19}comes {\k16}out {\k14}your
+Comment: 0,0:00:34.96,0:00:36.09,KM_Up,,0,0,0,karaoke,{\k17}Dic{\k17}tate {\k16}what {\k20}I'm {\k16}say{\k27}ing
+Comment: 0,0:00:36.22,0:00:37.38,KM_Up,,0,0,0,karaoke,{\k15}'Cause {\k17}it {\k18}will {\k14}bring {\k18}you {\k34}luck
+Comment: 0,0:00:37.55,0:00:38.70,KM_Up,,0,0,0,karaoke,{\k17}And {\k16}if {\k18}you {\k14}all {\k17}don't {\k19}like {\k14}it
+Comment: 0,0:00:38.70,0:00:39.96,KM_Up,,0,0,0,karaoke,{\k17}I {\k18}don't {\k15}give {\k19}a {\k16}fly{\k17}ing {\k24}fuck!
+Dialogue: 0,0:00:03.02,0:00:06.70,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k78}Miss{\k77}es {\k29}Lan{\k16}ders {\k17}was {\k18}a {\k19}health {\k24}nut
+Dialogue: 0,0:00:05.90,0:00:07.92,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k13}She {\k20}cooked {\k16}food {\k15}in {\k18}a {\k30}wok
+Dialogue: 0,0:00:07.12,0:00:09.37,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k15}Mis{\k15}ter {\k19}Har{\k18}ris {\k17}was {\k14}her {\k18}boy{\k19}friend
+Dialogue: 0,0:00:08.48,0:00:10.36,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k17}And {\k16}he {\k16}had {\k15}a {\k16}great {\k18}big
+Dialogue: 0,0:00:09.46,0:00:11.48,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k22}Cock-{\k17}a-{\k16}dood{\k19}le-{\k17}dood{\k21}le
+Dialogue: 0,0:00:10.74,0:00:12.66,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k15}The {\k19}roos{\k14}ter {\k18}just {\k18}won't {\k18}quit
+Dialogue: 0,0:00:12.10,0:00:14.21,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k16}And {\k19}I {\k18}don't {\k13}want {\k17}my {\k19}break{\k19}fast
+Dialogue: 0,0:00:13.46,0:00:15.16,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k14}Be{\k20}cause {\k15}it {\k16}tastes {\k15}like
+Dialogue: 0,0:00:14.32,0:00:16.34,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k18}Shih {\k18}Tzus {\k17}make {\k14}good {\k21}house {\k24}pets
+Dialogue: 0,0:00:15.56,0:00:17.70,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k22}They're {\k18}cud{\k16}d{\k14}ly {\k17}and {\k37}sweet
+Dialogue: 0,0:00:17.06,0:00:19.19,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k20}Mon{\k18}keys {\k18}are{\k18}n't {\k15}good {\k15}to {\k19}have
+Dialogue: 0,0:00:18.32,0:00:20.10,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k8}'Cause {\k11}they {\k15}like {\k17}to {\k17}beat {\k20}their
+Dialogue: 0,0:00:19.20,0:00:21.18,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k16}Mee{\k18}ting {\k19}in {\k17}the {\k19}of{\k19}fice
+Dialogue: 0,0:00:20.46,0:00:22.62,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k16}A {\k18}mee{\k18}ting {\k16}in {\k19}the {\k39}hall
+Dialogue: 0,0:00:21.90,0:00:24.06,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k14}The {\k20}boss, {\k15}he {\k19}wants {\k17}to {\k17}see {\k24}you
+Dialogue: 0,0:00:23.30,0:00:25.08,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k17}So {\k13}you {\k21}can {\k16}suck {\k21}his
+Dialogue: 0,0:00:24.18,0:00:26.24,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k22}Bal{\k20}zac {\k16}was {\k16}a {\k22}wri{\k20}ter
+Dialogue: 0,0:00:25.48,0:00:27.44,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k16}He {\k17}lived {\k18}with {\k16}Al{\k17}len {\k22}Funt
+Dialogue: 0,0:00:26.74,0:00:29.05,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k14}Miss{\k17}es {\k19}Ro{\k21}berts {\k16}did{\k14}n't {\k21}like {\k19}him
+Dialogue: 0,0:00:28.31,0:00:30.06,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k17}But {\k18}that's {\k18}'cause {\k16}she's {\k16}a
+Dialogue: 0,0:00:29.22,0:00:31.42,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k17}Con{\k24}ta{\k17}mi{\k17}na{\k17}ted {\k21}wa{\k17}ter
+Dialogue: 0,0:00:30.67,0:00:32.74,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k17}Can {\k17}real{\k18}ly {\k15}make {\k17}you {\k33}sick
+Dialogue: 0,0:00:32.03,0:00:34.20,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k17}Your {\k19}blad{\k14}der {\k21}gets {\k15}in{\k17}fec{\k24}ted
+Dialogue: 0,0:00:33.41,0:00:35.11,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k13}And {\k18}blood {\k19}comes {\k16}out {\k14}your
+Dialogue: 0,0:00:34.26,0:00:36.29,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k17}Dic{\k17}tate {\k16}what {\k20}I'm {\k16}say{\k27}ing
+Dialogue: 0,0:00:35.52,0:00:37.58,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k15}'Cause {\k17}it {\k18}will {\k14}bring {\k18}you {\k34}luck
+Dialogue: 0,0:00:36.85,0:00:38.90,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k17}And {\k16}if {\k18}you {\k14}all {\k17}don't {\k19}like {\k14}it
+Dialogue: 0,0:00:38.00,0:00:40.16,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k17}I {\k18}don't {\k15}give {\k19}a {\k16}fly{\k17}ing {\k24}fuck!
