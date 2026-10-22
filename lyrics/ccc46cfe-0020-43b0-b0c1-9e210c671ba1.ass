@@ -1,0 +1,168 @@
+﻿[Script Info]
+Title: Chandelier
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
+Original Timing: amro98
+LayoutResX: 1920
+LayoutResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Moka,Arial,24,&H00E0A54C,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Choir,Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,2,2,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:03.10,0:00:05.15,Moka,,0,0,0,karaoke,{\k20}Par{\k18}ty {\k73}girls {\k37}don't {\k28}get{\k29} hurt
+Comment: 1,0:00:05.17,0:00:06.47,Moka,,0,0,0,karaoke,{\k29}Can't {\k28}feel {\k14}a{\k18}ny{\k41}thing
+Comment: 1,0:00:06.60,0:00:07.87,Moka,,0,0,0,karaoke,{\k30}When {\k20}will {\k33}I {\k44}learn
+Comment: 1,0:00:07.92,0:00:09.32,Moka,,0,0,0,karaoke,{\k38}I {\k25}push {\k28}it {\k49}down
+Comment: 1,0:00:09.63,0:00:11.52,Moka,,0,0,0,karaoke,{\k23}Push {\k34}it {\k34}do-{\k25}o-{\k73}own
+Comment: 1,0:00:14.11,0:00:16.22,Moka,,0,0,0,karaoke,{\k22}I'm {\k18}the {\k35}one {\k18}for {\k14}a {\k38}good {\k34}time {\k32}call
+Comment: 1,0:00:16.22,0:00:17.56,Moka,,0,0,0,karaoke,{\k37}Phone's {\k34}blow{\k17}in' {\k46}up
+Comment: 1,0:00:17.62,0:00:18.97,Moka,,0,0,0,karaoke,{\k16}Ring{\k19}in' {\k34}my {\k34}door{\k32}bell
+Comment: 1,0:00:19.21,0:00:20.30,Moka,,0,0,0,karaoke,{\k13}I {\k33}feel {\k19}the {\k44}love
+Comment: 1,0:00:20.45,0:00:22.58,Moka,,0,0,0,karaoke,{\k29}I {\k29}feel {\k17}the {\k37}lo-{\k30}o-{\k71}ove
+Comment: 1,0:00:24.86,0:00:25.84,Moka,,0,0,0,karaoke,{\k28}One {\k41}two {\k29}three
+Comment: 1,0:00:25.89,0:00:27.39,Moka,,0,0,0,karaoke,{\k27}One {\k42}two {\k35}three {\k46}drink
+Comment: 1,0:00:27.61,0:00:28.59,Moka,,0,0,0,karaoke,{\k31}One {\k38}two {\k29}three
+Comment: 1,0:00:28.64,0:00:30.15,Moka,,0,0,0,karaoke,{\k29}One {\k40}two {\k35}three {\k47}drink
+Comment: 1,0:00:30.37,0:00:31.35,Moka,,0,0,0,karaoke,{\k35}One {\k35}two {\k28}three
+Comment: 1,0:00:31.40,0:00:32.90,Moka,,0,0,0,karaoke,{\k36}One {\k34}two {\k34}three {\k46}drink
+Comment: 1,0:00:33.13,0:00:36.04,Moka,,0,0,0,karaoke,{\k34}Throw {\k19}'em {\k63}back {\k12}'till {\k45}I {\k34}lose {\k84}count
+Comment: 1,0:00:35.85,0:00:43.43,Moka,,0,0,0,karaoke,{\kf227}I'm {\k36}gon{\k30}na {\kf190}swing {\k56}from {\k18}the {\k33}chan{\k18}de{\kf150}lier
+Comment: 1,0:00:43.57,0:00:46.87,Moka,,0,0,0,karaoke,{\k41}From {\k19}the {\k34}chan{\k17}de{\kf219}lier
+Comment: 1,0:00:46.92,0:00:50.84,Moka,,0,0,0,karaoke,{\kf217}I'm {\k37}gon{\k22}na {\k116}live
+Comment: 1,0:00:51.06,0:00:54.54,Moka,,0,0,0,karaoke,{\k53}Like {\k17}to{\k34}mor{\k34}row {\k31}does{\k21}n't {\k30}e{\kf128}xist
+Comment: 1,0:00:54.58,0:00:58.04,Moka,,0,0,0,karaoke,{\k35}Like {\k17}it {\k43}does{\k18}n't {\k38}e{\kf195}xist
+Comment: 1,0:00:57.95,0:01:02.06,Moka,,0,0,0,karaoke,{\kf195}I'm{\k27} {\k37}gon{\k36}na {\kf116}fly
+Comment: 1,0:01:02.09,0:01:05.30,Moka,,0,0,0,karaoke,{\k69}Like {\k69}a {\k53}bird {\k34}through {\k16}the {\k80}night
+Comment: 1,0:01:05.71,0:01:08.48,Moka,,0,0,0,karaoke,{\k36}Feel {\k17}my {\k33}tears {\k19}as {\k33}they {\kf139}dry
+Comment: 1,0:01:08.99,0:01:16.75,Moka,,0,0,0,karaoke,{\kf208}I'm{\kf20} {\k31}gon{\k39}na {\kf186}swing {\k51}from {\k18}the {\k34}chan{\k26}de{\kf163}lier
+Comment: 1,0:01:16.69,0:01:20.23,Moka,,0,0,0,karaoke,{\k41}From {\k23}the {\k32}chan{\k13}de{\kf245}lier
+Comment: 0,0:01:19.13,0:01:21.43,Choir,,0,0,0,karaoke,{\k21}But {\k17}I'm {\k29}hol{\k22}din' {\k22}on {\k17}for {\k31}dear {\k71}life
+Comment: 1,0:01:21.57,0:01:24.05,Moka,,0,0,0,karaoke,{\k35}Won't {\k18}look {\k52}down {\k17}won't {\k27}o{\k25}pen {\k17}my {\k57}eyes
+Comment: 1,0:01:24.30,0:01:27.01,Moka,,0,0,0,karaoke,{\k36}Keep {\k20}my {\k32}glass {\k20}full {\k16}un{\k34}til {\k19}mor{\k16}ning {\k78}light
+Comment: 1,0:01:27.07,0:01:29.70,Moka,,0,0,0,karaoke,{\k29}'Cause {\k22}I'm {\k26}just {\k29}hol{\k18}ding {\k33}on {\k20}for {\k15}to{\k71}night
+Comment: 1,0:01:29.82,0:01:32.55,Moka,,0,0,0,karaoke,{\k38}Help {\k18}me {\k25}I'm {\k25}hol{\k18}ding {\k35}on {\k17}for {\k17}dear {\k80}life
+Comment: 1,0:01:32.61,0:01:35.14,Moka,,0,0,0,karaoke,{\k36}Won't {\k17}look {\k51}down {\k17}won't {\k35}o{\k17}pen {\k17}my {\k63}eyes
+Comment: 1,0:01:35.36,0:01:38.03,Moka,,0,0,0,karaoke,{\k35}Keep {\k18}my {\k34}glass {\k17}full {\k25}un{\k27}til {\k16}mor{\k19}ning {\k76}light
+Comment: 1,0:01:38.11,0:01:40.62,Moka,,0,0,0,karaoke,{\k28}'Cause {\k24}I'm {\k27}just {\k27}hol{\k17}ding {\k34}on {\k17}for {\k18}to{\k59}night
+Comment: 1,0:01:40.65,0:01:42.20,Moka,,0,0,0,karaoke,{\k41}On {\k11}for {\k24}to{\k79}night
+Comment: 1,0:01:42.34,0:01:44.44,Moka,,0,0,0,karaoke,{\k28}Sun {\k17}is {\k67}up {\k20}I'm {\k35}a {\k43}mess
+Comment: 1,0:01:44.52,0:01:45.82,Moka,,0,0,0,karaoke,{\k19}Got{\k15}ta {\k17}get {\k34}out {\k45}now
+Comment: 1,0:01:45.90,0:01:47.22,Moka,,0,0,0,karaoke,{\k17}Got{\k12}ta {\k39}run {\k35}from {\k29}this
+Comment: 1,0:01:47.24,0:01:48.61,Moka,,0,0,0,karaoke,{\k38}Here {\k33}comes {\k19}the {\k47}shame
+Comment: 1,0:01:48.74,0:01:50.97,Moka,,0,0,0,karaoke,{\k25}Here{\k38} comes{\k23} the{\k28} sha-{\k35}a-{\k74}ame
+Comment: 1,0:01:53.14,0:01:54.11,Moka,,0,0,0,karaoke,{\k32}One {\k36}two {\k29}three
+Comment: 1,0:01:54.17,0:01:55.66,Moka,,0,0,0,karaoke,{\k32}One {\k36}two {\k34}three {\k47}drink
+Comment: 1,0:01:55.88,0:01:56.86,Moka,,0,0,0,karaoke,{\k32}One {\k38}two {\k28}three
+Comment: 1,0:01:56.92,0:01:58.42,Moka,,0,0,0,karaoke,{\k31}One {\k38}two {\k35}three {\k46}drink
+Comment: 1,0:01:58.66,0:01:59.62,Moka,,0,0,0,karaoke,{\k32}One {\k36}two {\k28}three
+Comment: 1,0:01:59.68,0:02:01.17,Moka,,0,0,0,karaoke,{\k38}One {\k31}two {\k35}three {\k45}drink
+Comment: 1,0:02:01.40,0:02:04.31,Moka,,0,0,0,karaoke,{\k35}Throw {\k23}'em {\k59}back {\k19}'till {\k33}I {\k38}lose {\k84}count
+Comment: 1,0:02:04.13,0:02:11.70,Moka,,0,0,0,karaoke,{\kf233}I'm {\k34}gon{\k29}na {\kf190}swing {\k49}from {\k20}the {\k35}chan{\k24}de{\kf143}lier
+Comment: 1,0:02:11.84,0:02:15.14,Moka,,0,0,0,karaoke,{\k41}From {\k19}the {\k36}chan{\k21}de{\kf213}lier
+Comment: 1,0:02:15.14,0:02:19.11,Moka,,0,0,0,karaoke,{\kf213}I'm{\k17} {\k34}gon{\k27}na {\k106}live
+Comment: 1,0:02:19.34,0:02:22.81,Moka,,0,0,0,karaoke,{\k56}Like {\k13}to{\k41}mor{\k29}row {\k34}does{\k16}n't {\k38}e{\kf120}xist
+Comment: 1,0:02:22.96,0:02:26.31,Moka,,0,0,0,karaoke,{\k23}Like {\k22}it {\k40}does{\k18}n't {\k40}e{\k191}xist
+Comment: 1,0:02:26.19,0:02:30.33,Moka,,0,0,0,karaoke,{\kf203}I'm{\kf22} {\k38}gon{\k28}na {\kf123}fly
+Comment: 1,0:02:30.37,0:02:33.57,Moka,,0,0,0,karaoke,{\k68}Like {\k71}a {\k53}bird {\k33}through {\k20}the {\k75}night
+Comment: 1,0:02:34.00,0:02:36.75,Moka,,0,0,0,karaoke,{\k33}Feel {\k20}my {\k36}tears {\k14}as {\k33}they {\kf139}dry
+Comment: 1,0:02:37.19,0:02:45.02,Moka,,0,0,0,karaoke,{\kf232}I'm {\k37}gon{\k35}na {\kf187}swing {\k51}from {\k18}the {\k39}chan{\k20}de{\kf164}lier
+Comment: 1,0:02:45.05,0:02:48.50,Moka,,0,0,0,karaoke,{\k33}From {\k20}the {\k37}chan{\k19}de{\kf236}lier
+Comment: 0,0:02:47.40,0:02:49.70,Choir,,0,0,0,karaoke,{\k21}But {\k22}I'm {\k29}hol{\k19}din' {\k26}on {\k15}for {\k27}dear {\k71}life
+Comment: 1,0:02:49.86,0:02:52.32,Moka,,0,0,0,karaoke,{\k34}Won't {\k26}look {\k43}down {\k18}won't {\k24}o{\k27}pen {\k17}my {\k57}eyes
+Comment: 1,0:02:52.55,0:02:55.28,Moka,,0,0,0,karaoke,{\k41}Keep {\k17}my {\k34}glass {\k16}full {\k27}un{\k27}til {\k16}mor{\k17}ning {\k78}light
+Comment: 1,0:02:55.37,0:02:57.97,Moka,,0,0,0,karaoke,{\k31}'Cause {\k21}I'm {\k30}just {\k28}hol{\k19}ding {\k30}on {\k22}for {\k18}to{\k61}night
+Comment: 1,0:02:58.12,0:03:00.82,Moka,,0,0,0,karaoke,{\k36}Help {\k17}me {\k22}I'm {\k28}hol{\k19}ding {\k35}on {\k18}for {\k23}dear {\k72}life
+Comment: 1,0:03:00.88,0:03:03.41,Moka,,0,0,0,karaoke,{\k34}Won't {\k18}look {\k52}down {\k18}won't {\k28}o{\k24}pen {\k17}my {\k62}eyes
+Comment: 1,0:03:03.59,0:03:06.30,Moka,,0,0,0,karaoke,{\k33}Keep {\k25}my {\k32}glass {\k14}full {\k28}un{\k30}til {\k16}mor{\k18}ning {\k75}light
+Comment: 1,0:03:06.40,0:03:08.89,Moka,,0,0,0,karaoke,{\k27}'Cause {\k23}I'm {\k22}just {\k32}hol{\k17}ding {\k35}on {\k14}for {\k20}to{\k59}night
+Comment: 1,0:03:08.92,0:03:11.79,Moka,,0,0,0,karaoke,{\k37}On {\k14}for {\k26}to{\k67}night {\k34}on {\k12}for {\k28}to{\k69}night
+Comment: 1,0:03:11.91,0:03:14.55,Moka,,0,0,0,karaoke,{\k27}'Cause {\k24}I'm {\k22}just {\k33}hol{\k21}ding {\k29}on {\k15}for {\k22}to{\k71}night
+Comment: 1,0:03:14.69,0:03:17.12,Moka,,0,0,0,karaoke,{\k34}Oh {\k12}I'm {\k34}just {\k25}hol{\k18}ding {\k33}on {\k14}for {\k22}to{\k51}night
+Comment: 1,0:03:17.21,0:03:20.08,Moka,,0,0,0,karaoke,{\k33}On {\k18}for {\k20}to{\k70}night {\k35}on {\k13}for {\k24}to{\k74}night
+Comment: 1,0:03:20.17,0:03:22.87,Moka,,0,0,0,karaoke,{\k27}'Cause {\k27}I'm {\k31}just {\k26}hol{\k20}ding {\k30}on {\k15}for {\k26}to{\k68}night
+Comment: 1,0:03:22.94,0:03:25.44,Moka,,0,0,0,karaoke,{\k30}'Cause {\k27}I'm {\k26}just {\k29}hol{\k19}ding {\k29}on {\k14}for {\k25}to{\k51}night
+Comment: 1,0:03:25.71,0:03:28.14,Moka,,0,0,0,karaoke,{\k35}Oh {\k11}I'm {\k29}just {\k31}hol{\k20}ding {\k25}on {\k22}for {\k24}to{\k46}night
+Comment: 1,0:03:28.23,0:03:31.10,Moka,,0,0,0,karaoke,{\k37}On {\k18}for {\k26}to{\k64}night {\k29}on {\k21}for {\k30}to{\k62}night
+Dialogue: 1,0:00:02.20,0:00:05.35,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Par{\k18}ty {\k73}girls {\k37}don't {\k28}get{\k29} hurt
+Dialogue: 1,0:00:04.27,0:00:06.67,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Can't {\k28}feel {\k14}a{\k18}ny{\k41}thing
+Dialogue: 1,0:00:05.70,0:00:08.07,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k30}When {\k20}will {\k33}I {\k44}learn
+Dialogue: 1,0:00:07.02,0:00:09.52,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k38}I {\k25}push {\k28}it {\k49}down
+Dialogue: 1,0:00:08.73,0:00:11.72,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Push {\k34}it {\k34}do-{\k25}o-{\k73}own
+Dialogue: 1,0:00:13.21,0:00:16.42,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k22}I'm {\k18}the {\k35}one {\k18}for {\k14}a {\k38}good {\k34}time {\k32}call
+Dialogue: 1,0:00:15.32,0:00:17.76,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Phone's {\k34}blow{\k17}in' {\k46}up
+Dialogue: 1,0:00:16.72,0:00:19.17,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Ring{\k19}in' {\k34}my {\k34}door{\k32}bell
+Dialogue: 1,0:00:18.31,0:00:20.50,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k13}I {\k33}feel {\k19}the {\k44}love
+Dialogue: 1,0:00:19.55,0:00:22.78,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k29}I {\k29}feel {\k17}the {\k37}lo-{\k30}o-{\k71}ove
+Dialogue: 1,0:00:23.96,0:00:26.04,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k28}One {\k41}two {\k29}three
+Dialogue: 1,0:00:24.99,0:00:27.59,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k27}One {\k42}two {\k35}three {\k46}drink
+Dialogue: 1,0:00:26.71,0:00:28.79,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k31}One {\k38}two {\k29}three
+Dialogue: 1,0:00:27.74,0:00:30.35,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k29}One {\k40}two {\k35}three {\k47}drink
+Dialogue: 1,0:00:29.47,0:00:31.55,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k35}One {\k35}two {\k28}three
+Dialogue: 1,0:00:30.50,0:00:33.10,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k36}One {\k34}two {\k34}three {\k46}drink
+Dialogue: 1,0:00:32.23,0:00:36.24,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Throw {\k19}'em {\k63}back {\k12}'till {\k45}I {\k34}lose {\k84}count
+Dialogue: 1,0:00:34.95,0:00:43.63,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\kf227}I'm {\k36}gon{\k30}na {\kf190}swing {\k56}from {\k18}the {\k33}chan{\k18}de{\kf150}lier
+Dialogue: 1,0:00:42.67,0:00:47.07,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k41}From {\k19}the {\k34}chan{\k17}de{\kf219}lier
+Dialogue: 1,0:00:46.02,0:00:51.04,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\kf217}I'm {\k37}gon{\k22}na {\k116}live
+Dialogue: 1,0:00:50.16,0:00:54.74,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k53}Like {\k17}to{\k34}mor{\k34}row {\k31}does{\k21}n't {\k30}e{\kf128}xist
+Dialogue: 1,0:00:53.68,0:00:58.24,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Like {\k17}it {\k43}does{\k18}n't {\k38}e{\kf195}xist
+Dialogue: 1,0:00:57.05,0:01:02.26,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\kf195}I'm{\k27} {\k37}gon{\k36}na {\kf116}fly
+Dialogue: 1,0:01:01.19,0:01:05.50,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k69}Like {\k69}a {\k53}bird {\k34}through {\k16}the {\k80}night
+Dialogue: 1,0:01:04.81,0:01:08.68,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Feel {\k17}my {\k33}tears {\k19}as {\k33}they {\kf139}dry
+Dialogue: 1,0:01:08.09,0:01:16.95,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\kf208}I'm{\kf20} {\k31}gon{\k39}na {\kf186}swing {\k51}from {\k18}the {\k34}chan{\k26}de{\kf163}lier
+Dialogue: 1,0:01:15.79,0:01:20.43,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k41}From {\k23}the {\k32}chan{\k13}de{\kf245}lier
+Dialogue: 1,0:01:18.23,0:01:21.63,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k21}But {\k17}I'm {\k29}hol{\k22}din' {\k22}on {\k17}for {\k31}dear {\k71}life
+Dialogue: 1,0:01:20.67,0:01:24.25,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Won't {\k18}look {\k52}down {\k17}won't {\k27}o{\k25}pen {\k17}my {\k57}eyes
+Dialogue: 1,0:01:23.40,0:01:27.21,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Keep {\k20}my {\k32}glass {\k20}full {\k16}un{\k34}til {\k19}mor{\k16}ning {\k78}light
+Dialogue: 1,0:01:26.17,0:01:29.90,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k29}'Cause {\k22}I'm {\k26}just {\k29}hol{\k18}ding {\k33}on {\k20}for {\k15}to{\k71}night
+Dialogue: 1,0:01:28.92,0:01:32.75,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Help {\k18}me {\k25}I'm {\k25}hol{\k18}ding {\k35}on {\k17}for {\k17}dear {\k80}life
+Dialogue: 1,0:01:31.71,0:01:35.34,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Won't {\k17}look {\k51}down {\k17}won't {\k35}o{\k17}pen {\k17}my {\k63}eyes
+Dialogue: 1,0:01:34.46,0:01:38.23,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Keep {\k18}my {\k34}glass {\k17}full {\k25}un{\k27}til {\k16}mor{\k19}ning {\k76}light
+Dialogue: 1,0:01:37.21,0:01:40.82,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k28}'Cause {\k24}I'm {\k27}just {\k27}hol{\k17}ding {\k34}on {\k17}for {\k18}to{\k59}night
+Dialogue: 1,0:01:39.75,0:01:42.40,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k41}On {\k11}for {\k24}to{\k79}night
+Dialogue: 1,0:01:41.44,0:01:44.64,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Sun {\k17}is {\k67}up {\k20}I'm {\k35}a {\k43}mess
+Dialogue: 1,0:01:43.62,0:01:46.02,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Got{\k15}ta {\k17}get {\k34}out {\k45}now
+Dialogue: 1,0:01:45.00,0:01:47.42,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Got{\k12}ta {\k39}run {\k35}from {\k29}this
+Dialogue: 1,0:01:46.34,0:01:48.81,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Here {\k33}comes {\k19}the {\k47}shame
+Dialogue: 1,0:01:47.84,0:01:51.17,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Here{\k38} comes{\k23} the{\k28} sha-{\k35}a-{\k74}ame
+Dialogue: 1,0:01:52.24,0:01:54.31,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k32}One {\k36}two {\k29}three
+Dialogue: 1,0:01:53.27,0:01:55.86,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k32}One {\k36}two {\k34}three {\k47}drink
+Dialogue: 1,0:01:54.98,0:01:57.06,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k32}One {\k38}two {\k28}three
+Dialogue: 1,0:01:56.02,0:01:58.62,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k31}One {\k38}two {\k35}three {\k46}drink
+Dialogue: 1,0:01:57.76,0:01:59.82,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k32}One {\k36}two {\k28}three
+Dialogue: 1,0:01:58.78,0:02:01.37,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k38}One {\k31}two {\k35}three {\k45}drink
+Dialogue: 1,0:02:00.50,0:02:04.51,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Throw {\k23}'em {\k59}back {\k19}'till {\k33}I {\k38}lose {\k84}count
+Dialogue: 1,0:02:03.23,0:02:11.90,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\kf233}I'm {\k34}gon{\k29}na {\kf190}swing {\k49}from {\k20}the {\k35}chan{\k24}de{\kf143}lier
+Dialogue: 1,0:02:10.94,0:02:15.34,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k41}From {\k19}the {\k36}chan{\k21}de{\kf213}lier
+Dialogue: 1,0:02:14.24,0:02:19.31,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\kf213}I'm{\k17} {\k34}gon{\k27}na {\k106}live
+Dialogue: 1,0:02:18.44,0:02:23.01,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k56}Like {\k13}to{\k41}mor{\k29}row {\k34}does{\k16}n't {\k38}e{\kf120}xist
+Dialogue: 1,0:02:22.06,0:02:26.51,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Like {\k22}it {\k40}does{\k18}n't {\k40}e{\k191}xist
+Dialogue: 1,0:02:25.29,0:02:30.53,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\kf203}I'm{\kf22} {\k38}gon{\k28}na {\kf123}fly
+Dialogue: 1,0:02:29.47,0:02:33.77,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k68}Like {\k71}a {\k53}bird {\k33}through {\k20}the {\k75}night
+Dialogue: 1,0:02:33.10,0:02:36.95,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Feel {\k20}my {\k36}tears {\k14}as {\k33}they {\kf139}dry
+Dialogue: 1,0:02:36.29,0:02:45.22,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\kf232}I'm {\k37}gon{\k35}na {\kf187}swing {\k51}from {\k18}the {\k39}chan{\k20}de{\kf164}lier
+Dialogue: 1,0:02:44.15,0:02:48.70,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k33}From {\k20}the {\k37}chan{\k19}de{\kf236}lier
+Dialogue: 1,0:02:46.50,0:02:49.90,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k21}But {\k22}I'm {\k29}hol{\k19}din' {\k26}on {\k15}for {\k27}dear {\k71}life
+Dialogue: 1,0:02:48.96,0:02:52.52,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Won't {\k26}look {\k43}down {\k18}won't {\k24}o{\k27}pen {\k17}my {\k57}eyes
+Dialogue: 1,0:02:51.65,0:02:55.48,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k41}Keep {\k17}my {\k34}glass {\k16}full {\k27}un{\k27}til {\k16}mor{\k17}ning {\k78}light
+Dialogue: 1,0:02:54.47,0:02:58.17,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k31}'Cause {\k21}I'm {\k30}just {\k28}hol{\k19}ding {\k30}on {\k22}for {\k18}to{\k61}night
+Dialogue: 1,0:02:57.22,0:03:01.02,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Help {\k17}me {\k22}I'm {\k28}hol{\k19}ding {\k35}on {\k18}for {\k23}dear {\k72}life
+Dialogue: 1,0:02:59.98,0:03:03.61,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Won't {\k18}look {\k52}down {\k18}won't {\k28}o{\k24}pen {\k17}my {\k62}eyes
+Dialogue: 1,0:03:02.69,0:03:06.50,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Keep {\k25}my {\k32}glass {\k14}full {\k28}un{\k30}til {\k16}mor{\k18}ning {\k75}light
+Dialogue: 1,0:03:05.50,0:03:09.09,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k27}'Cause {\k23}I'm {\k22}just {\k32}hol{\k17}ding {\k35}on {\k14}for {\k20}to{\k59}night
+Dialogue: 1,0:03:08.02,0:03:11.99,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k37}On {\k14}for {\k26}to{\k67}night {\k34}on {\k12}for {\k28}to{\k69}night
+Dialogue: 1,0:03:11.01,0:03:14.75,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k27}'Cause {\k24}I'm {\k22}just {\k33}hol{\k21}ding {\k29}on {\k15}for {\k22}to{\k71}night
+Dialogue: 1,0:03:13.79,0:03:17.32,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Oh {\k12}I'm {\k34}just {\k25}hol{\k18}ding {\k33}on {\k14}for {\k22}to{\k51}night
+Dialogue: 1,0:03:16.31,0:03:20.28,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k33}On {\k18}for {\k20}to{\k70}night {\k35}on {\k13}for {\k24}to{\k74}night
+Dialogue: 1,0:03:19.27,0:03:23.07,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k27}'Cause {\k27}I'm {\k31}just {\k26}hol{\k20}ding {\k30}on {\k15}for {\k26}to{\k68}night
+Dialogue: 1,0:03:22.04,0:03:25.64,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k30}'Cause {\k27}I'm {\k26}just {\k29}hol{\k19}ding {\k29}on {\k14}for {\k25}to{\k51}night
+Dialogue: 1,0:03:24.81,0:03:28.34,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Oh {\k11}I'm {\k29}just {\k31}hol{\k20}ding {\k25}on {\k22}for {\k24}to{\k46}night
+Dialogue: 1,0:03:27.33,0:03:31.30,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k37}On {\k18}for {\k26}to{\k64}night {\k29}on {\k21}for {\k30}to{\k62}night
