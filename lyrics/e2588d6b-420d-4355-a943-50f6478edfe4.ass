@@ -1,0 +1,205 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: J'aimerais tellement
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Up]_eng,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H00FFFFFF,&H005050E2,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Français {\2cHFFFFFF}| {\rSample KM [Up]_eng}Anglais {\2cHFFFFFF}| {\rSample KM [Choir]}Choeurs
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:12.35,0:00:15.24,Sample KM [Up],,0,0,0,karaoke,{\k25}Ce {\k35}n'est {\k28}qu'u{\k58}ne {\kf143}larme
+Comment: 0,0:00:15.79,0:00:18.63,Sample KM [Up],,0,0,0,karaoke,{\k50}Juste {\k40}un {\k40}res{\k24}te {\k44}du {\k39}pas{\k47}sé
+Comment: 0,0:00:19.19,0:00:21.86,Sample KM [Up],,0,0,0,karaoke,{\k34}Dont {\k26}je {\k54}m'é{\kf153}loigne
+Comment: 0,0:00:22.23,0:00:25.28,Sample KM [Up],,0,0,0,karaoke,{\k17}Mais {\k44}qui {\k20}ne {\k45}cesse {\k38}de {\k50}me {\k32}han{\k59}ter
+Comment: 0,0:00:25.39,0:00:28.57,Sample KM [Up],,0,0,0,karaoke,{\k37}Ce {\k36}n'est {\k29}qu'u{\k56}ne {\kf160}lame
+Comment: 0,0:00:29.05,0:00:31.87,Sample KM [Up],,0,0,0,karaoke,{\k42}Qui {\k22}en{\k46}tail{\k35}le {\k41}mes {\k41}pen{\k55}sées
+Comment: 0,0:00:32.08,0:00:35.22,Sample KM [Up],,0,0,0,karaoke,{\k29}Je {\k37}re{\k35}trouve {\k51}mon {\kf162}âme
+Comment: 0,0:00:35.55,0:00:40.93,Sample KM [Up],,0,0,0,karaoke,{\k46}Ton {\k26}re{\k41}gard {\k35}me {\k42}donne {\k36}en{\k45}vie {\k39}d'a{\k35}van{\kf193}cer
+Comment: 0,0:00:40.32,0:00:41.82,Sample KM [Choir],,0,0,0,karaoke,{\k21}Hey {\k62}hey {\k21}oh-{\k46}oh
+Comment: 0,0:00:41.93,0:00:44.22,Sample KM [Up],,0,0,0,karaoke,{\k26}Laisse-{\k33}moi {\k23}l'ou{\k28}bli{\kf119}er
+Comment: 0,0:00:43.61,0:00:45.23,Sample KM [Choir],,0,0,0,karaoke,{\k22}Hey {\k63}hey {\k21}oh-{\k18}oh-{\k38}oh
+Comment: 0,0:00:45.23,0:00:47.65,Sample KM [Up],,0,0,0,karaoke,{\k24}Laisse-{\k29}moi {\k26}l'ef{\k29}fa{\kf134}cer
+Comment: 0,0:00:46.91,0:00:48.36,Sample KM [Choir],,0,0,0,karaoke,{\k22}Hey {\k60}hey {\k22}oh-{\k41}oh
+Comment: 0,0:00:48.53,0:00:51.05,Sample KM [Up],,0,0,0,karaoke,{\k22}Pour {\k37}mieux {\k24}tout {\k24}te {\k43}don{\kf102}ner
+Comment: 0,0:00:50.20,0:00:51.63,Sample KM [Choir],,0,0,0,karaoke,{\k20}Hey {\k66}hey {\k18}oh-{\k19}oh-{\k20}oh
+Comment: 0,0:00:51.95,0:00:53.64,Sample KM [Up],,0,0,0,karaoke,{\k46}J'aime{\k42}rais {\k24}telle{\k18}ment {\k21}te {\k18}dire
+Comment: 0,0:00:53.65,0:00:54.89,Sample KM [Up],,0,0,0,karaoke,{\k24}Ce {\k21}que {\k19}veut {\k22}mon {\k38}cœur
+Comment: 0,0:00:55.12,0:00:58.13,Sample KM [Up],,0,0,0,karaoke,{\k18}Mais {\k22}je {\k22}n'ai {\k23}plus {\k18}les {\k20}mo-{\k21}o-{\k83}ots {\k21\rSample KM [Up]_eng}no-{\k22}o-{\k31}o
+Comment: 0,0:00:58.54,0:01:00.22,Sample KM [Up],,0,0,0,karaoke,{\k50}J'aime{\k36}rais {\k22}telle{\k18}ment {\k24}te {\k18}dire
+Comment: 0,0:01:00.25,0:01:01.46,Sample KM [Up],,0,0,0,karaoke,{\k19}Que {\k21}je {\k21}n'ai {\k25}plus {\k35}peur
+Comment: 0,0:01:01.72,0:01:04.77,Sample KM [Up],,0,0,0,karaoke,{\k17}Mais {\k24}ces {\k16}mots {\k23}son{\k19}nent {\k25}faux {\k20}oh {\k79}oh {\k21}woah-{\k24}ooh-{\k37}oh
+Comment: 0,0:01:05.12,0:01:08.04,Sample KM [Up],,0,0,0,karaoke,{\k49}Je {\k36}dois {\k25}tout {\k21}re{\k18}com{\k19}men{\k24}cer {\k20}une {\k21}nou{\k20}velle {\k39}fois
+Comment: 0,0:01:08.47,0:01:11.35,Sample KM [Up]_eng,,0,0,0,karaoke,{\k43}Ba{\k41}by {\k21\rSample KM [Up]}par{\k19}donne-{\k19}moi {\k21}si {\k21}je {\k21}fais {\k19}un {\k27}faux {\k36}pas
+Comment: 0,0:01:11.57,0:01:13.35,Sample KM [Up],,0,0,0,karaoke,{\k34}Tu {\k24}sais {\k22}j'aime{\k20}rais {\k23}telle{\k18}ment {\k21}te {\k16}dire
+Comment: 0,0:01:13.35,0:01:14.60,Sample KM [Up],,0,0,0,karaoke,{\k26}Ce {\k22}que {\k18}veut {\k24}mon {\k35}cœur
+Comment: 0,0:01:14.87,0:01:16.65,Sample KM [Up],,0,0,0,karaoke,{\k16}Mais {\k21}je {\k23}n'ai {\k21}plus {\k19}les {\k22}mo-{\k20}o-{\k36}ots
+Comment: 0,0:01:17.12,0:01:20.19,Sample KM [Choir],,0,0,0,karaoke,{\k44}No {\kf158}oh {\kf105}woah
+Comment: 0,0:01:18.05,0:01:20.93,Sample KM [Up],,0,0,0,karaoke,{\k30}J'ai {\k42}peur {\k19}de {\k40}cette {\kf157}flamme
+Comment: 0,0:01:21.63,0:01:24.31,Sample KM [Up],,0,0,0,karaoke,{\k43}Qui {\k37}a{\k40}vant {\k24}toi {\k40}m'a {\k40}brû{\k44}lée
+Comment: 0,0:01:24.70,0:01:27.58,Sample KM [Up],,0,0,0,karaoke,{\k20}Tes {\k41}yeux {\k24}me {\k54}dé{\kf149}sarment
+Comment: 0,0:01:28.16,0:01:31.01,Sample KM [Up],,0,0,0,karaoke,{\k46}Je {\k39}n'ose {\k45}plus {\k18}les {\k36}af{\k45}fron{\k56}ter
+Comment: 0,0:01:31.27,0:01:34.37,Sample KM [Up],,0,0,0,karaoke,{\k23}Mes {\k40}rê{\k21}ves {\k52}se {\kf174}fanent
+Comment: 0,0:01:34.72,0:01:37.47,Sample KM [Up],,0,0,0,karaoke,{\k45}Seul {\k37}le {\k47}temps {\k22}pour{\k39}ra {\k41}m'ai{\k44}der
+Comment: 0,0:01:37.84,0:01:40.72,Sample KM [Up],,0,0,0,karaoke,{\k21}Mais {\k41}quand {\k21}tu {\k58}t'é{\kf147}loignes
+Comment: 0,0:01:41.09,0:01:45.79,Sample KM [Up],,0,0,0,karaoke,{\k24}J'ai {\k38}fi{\k25}nale{\k44}ment {\k36}en{\k45}vie {\k37}de {\k39}te {\k47}voir {\k41}res{\k94}ter
+Comment: 0,0:01:45.86,0:01:47.47,Sample KM [Up]_eng,,0,0,0,karaoke,{\k19}Gim{\k19}me {\k45}time {\k21}gim{\k18}me {\k39}time
+Comment: 0,0:01:46.05,0:01:47.47,Sample KM [Choir],,0,0,0,karaoke,{\k21}Hey {\k63}hey {\k20}oh-{\k38}oh
+Comment: 0,0:01:47.66,0:01:49.93,Sample KM [Up],,0,0,0,karaoke,{\k23}Tu {\k35}sais {\k29}me {\k25}par{\kf115}ler
+Comment: 0,0:01:48.72,0:01:50.82,Sample KM [Up]_eng,,0,0,0,karaoke,{\k41}Just {\k22}gim{\k21}me {\k41}time {\k22}gim{\k21}me {\k42}time
+Comment: 0,0:01:49.35,0:01:50.82,Sample KM [Choir],,0,0,0,karaoke,{\k21}Hey {\k61}hey {\k23}oh-{\k20}oh-{\k22}oh
+Comment: 0,0:01:50.98,0:01:53.17,Sample KM [Up],,0,0,0,karaoke,{\k18}Tu {\k37}sais {\k25}m'é{\k25}cou{\kf114}ter
+Comment: 0,0:01:52.43,0:01:54.08,Sample KM [Up]_eng,,0,0,0,karaoke,{\k18}Gim{\k20}me {\k44}time {\k22}gim{\k18}me {\k43}time
+Comment: 0,0:01:52.63,0:01:53.90,Sample KM [Choir],,0,0,0,karaoke,{\k20}Hey {\k64}hey {\k19}oh-{\k24}oh
+Comment: 0,0:01:54.30,0:01:55.92,Sample KM [Up]_eng,,0,0,0,karaoke,{\k20}Ba{\k22}by {\k21}please {\k40}let {\k59}me
+Comment: 0,0:01:55.33,0:01:57.39,Sample KM [Up]_eng,,0,0,0,karaoke,{\k22}Ba{\k20}by {\k18}gim{\k19}me {\k41}time {\k20}gim{\k21}me {\k45}time
+Comment: 0,0:01:55.95,0:01:57.39,Sample KM [Choir],,0,0,0,karaoke,{\k20}Hey {\k63}hey {\k19}oh-{\k20}oh-{\k22}oh
+Comment: 0,0:01:56.53,0:02:00.04,Sample KM [Choir],,0,0,0,karaoke,{\k24}Laisse-{\k18}moi {\k46}juste {\k38}me {\k40}re{\k40}trou{\kf145}ver
+Comment: 0,0:01:57.74,0:01:59.39,Sample KM [Up],,0,0,0,karaoke,{\k43}J'aime{\k42}rais {\k24}telle{\k18}ment {\k21}te {\k17}dire
+Comment: 0,0:01:59.39,0:02:00.64,Sample KM [Up],,0,0,0,karaoke,{\k22}Ce {\k24}que {\k20}veut {\k19}mon {\k40}cœur
+Comment: 0,0:02:00.88,0:02:03.88,Sample KM [Up],,0,0,0,karaoke,{\k17}Mais {\k25}je {\k19}n'ai {\k22}plus {\k19}les {\k23}mo-{\k22}o-{\k75}ots {\k24\rSample KM [Up]_eng}no-{\k21}o-{\k33}o
+Comment: 0,0:02:04.33,0:02:06.00,Sample KM [Up],,0,0,0,karaoke,{\k45}J'aime{\k38}rais {\k24}telle{\k18}ment {\k22}te {\k20}dire
+Comment: 0,0:02:06.00,0:02:07.23,Sample KM [Up],,0,0,0,karaoke,{\k19}Que {\k23}je {\k21}n'ai {\k23}plus {\k37}peur
+Comment: 0,0:02:07.47,0:02:10.51,Sample KM [Up],,0,0,0,karaoke,{\k18}Mais {\k18}ces {\k23}mots {\k22}son{\k17}nent {\k26}faux {\k22}oh {\k76}oh {\k23}woah-{\k23}ooh-{\k36}oh
+Comment: 0,0:02:10.93,0:02:13.80,Sample KM [Up],,0,0,0,karaoke,{\k42}Je {\k36}dois {\k24}tout {\k24}re{\k18}com{\k18}men{\k23}cer {\k20}une {\k20}nou{\k22}velle {\k40}fois
+Comment: 0,0:02:14.22,0:02:17.09,Sample KM [Up]_eng,,0,0,0,karaoke,{\k45}Ba{\k38}by {\k22\rSample KM [Up]}par{\k20}donne-{\k18}moi {\k19}si {\k21}je {\k21}fais {\k21}un {\k25}faux {\k37}pas
+Comment: 0,0:02:17.33,0:02:19.13,Sample KM [Up],,0,0,0,karaoke,{\k35}Tu {\k21}sais {\k23}j'aime{\k20}rais {\k21}telle{\k22}ment {\k20}te {\k18}dire
+Comment: 0,0:02:19.13,0:02:20.37,Sample KM [Up],,0,0,0,karaoke,{\k23}Ce {\k22}que {\k19}veut {\k22}mon {\k38}cœur
+Comment: 0,0:02:20.60,0:02:22.35,Sample KM [Up],,0,0,0,karaoke,{\k20}Mais {\k19}je {\k23}n'ai {\k22}plus {\k18}les {\k23}mo-{\k21}o-{\k29}ots
+Comment: 0,0:02:22.86,0:02:25.87,Sample KM [Choir],,0,0,0,karaoke,{\k45}No {\kf155}oh {\kf101}woah
+Comment: 0,0:02:24.88,0:02:30.07,Sample KM [Up],,0,0,0,karaoke,{\k42}J'aime{\k43}rais {\k42}telle{\k83}ment {\k29}don{\k54}ner {\k21}au{\kf121}tant{\k41} {\k19}que {\k24}toi
+Comment: 0,0:02:31.24,0:02:37.45,Sample KM [Up],,0,0,0,karaoke,{\k22}Je {\k43}trouv'{\k42}rais {\k41}les {\k83}mots {\k18}que {\k63}tu {\k20}at{\kf127}tends{\k38} {\k19}en {\kf105}moi
+Comment: 0,0:02:36.75,0:02:39.71,Sample KM [Up],,0,0,0,karaoke,{\k23}Je {\k66}te {\k33}de{\kf174}mande
+Comment: 0,0:02:41.71,0:02:51.14,Sample KM [Up],,0,0,0,karaoke,{\k23}Je {\k64}te {\k25}de{\k56}man{\k24}de {\k56}juste {\k26}du {\kf669}temps
+Comment: 0,0:02:50.29,0:02:51.95,Sample KM [Up],,0,0,0,karaoke,{\k47}J'aime{\k37}rais {\k27}telle{\k16}ment {\k23}te {\k16}dire
+Comment: 0,0:02:51.95,0:02:53.18,Sample KM [Up],,0,0,0,karaoke,{\k25}Ce {\k23}que {\k19}veut {\k22}mon {\k34}cœur
+Comment: 0,0:02:53.49,0:02:56.47,Sample KM [Up],,0,0,0,karaoke,{\k14}Mais {\k23}je {\k18}n'ai {\k26}plus {\k21}les {\k24}mo-{\k20}o-{\k82}ots {\k22\rSample KM [Up]_eng}no-{\k20}o-{\k28}o
+Comment: 0,0:02:56.91,0:02:58.56,Sample KM [Up],,0,0,0,karaoke,{\k37}J'aime{\k41}rais {\k26}telle{\k19}ment {\k21}te {\k21}dire
+Comment: 0,0:02:58.60,0:02:59.79,Sample KM [Up],,0,0,0,karaoke,{\k17}Que {\k23}je {\k22}n'ai {\k25}plus {\k32}peur
+Comment: 0,0:03:00.02,0:03:03.08,Sample KM [Up],,0,0,0,karaoke,{\k18}Mais {\k17}ces {\k23}mots {\k25}son{\k21}nent {\k24}faux {\k22}oh {\k80}oh {\k24}woah-{\k22}ooh-{\k30}oh
+Comment: 0,0:03:03.49,0:03:06.43,Sample KM [Up],,0,0,0,karaoke,{\k42}Je {\k41}dois {\k26}tout {\k19}re{\k21}com{\k18}men{\k24}cer {\k21}une {\k19}nou{\k20}velle {\k43}fois
+Comment: 0,0:03:06.84,0:03:09.69,Sample KM [Up]_eng,,0,0,0,karaoke,{\k45}Ba{\k41}by {\k20\rSample KM [Up]}par{\k18}donne-{\k18}moi {\k21}si {\k22}je {\k21}fais {\k19}un {\k27}faux {\k33}pas
+Comment: 0,0:03:09.93,0:03:11.78,Sample KM [Up],,0,0,0,karaoke,{\k30}Tu {\k25}sais {\k27}j'aime{\k21}rais {\k20}telle{\k19}ment {\k24}te {\k19}dire
+Comment: 0,0:03:11.78,0:03:12.95,Sample KM [Up],,0,0,0,karaoke,{\k17}Ce {\k22}que {\k20}veut {\k20}mon {\k38}cœur
+Comment: 0,0:03:13.22,0:03:14.96,Sample KM [Up],,0,0,0,karaoke,{\k15}Et {\k21}je {\k25}trouve{\k20}rai {\k21}les {\k22}mo-{\k22}o-{\k28}ots
+Comment: 0,0:03:15.46,0:03:21.56,Sample KM [Choir],,0,0,0,karaoke,{\k46}No {\k40}oh {\k36}oh {\k45}oh {\k41}oh {\kf270}oh {\k19}oh {\k21}ooh {\k92}oh
+Comment: 0,0:03:16.65,0:03:18.31,Sample KM [Up],,0,0,0,karaoke,{\k47}J'aime{\k38}rais {\k23}telle{\k18}ment {\k23}te {\k17}dire
+Comment: 0,0:03:18.31,0:03:19.57,Sample KM [Up],,0,0,0,karaoke,{\k22}Ce {\k22}que {\k21}veut {\k21}mon {\k40}cœur
+Comment: 0,0:03:19.76,0:03:22.83,Sample KM [Up],,0,0,0,karaoke,{\k21}Mais {\k25}je {\k19}n'ai {\k21}plus {\k20}les {\k22}mo-{\k19}o-{\k80}ots {\k22\rSample KM [Up]_eng}no-{\k20}o-{\k38}o
+Comment: 0,0:03:23.25,0:03:24.91,Sample KM [Up],,0,0,0,karaoke,{\k43}J'aime{\k39}rais {\k23}telle{\k16}ment {\k25}te {\k20}dire
+Comment: 0,0:03:24.91,0:03:26.15,Sample KM [Up],,0,0,0,karaoke,{\k20}Que {\k19}je {\k21}n'ai {\k24}plus {\k40}peur
+Comment: 0,0:03:26.36,0:03:29.42,Sample KM [Up],,0,0,0,karaoke,{\k17}Mais {\k23}ces {\k19}mots {\k22}son{\k19}nent {\k22}faux {\k19}oh {\k83}oh {\k23}woah-{\k22}ooh-{\k37}oh
+Comment: 0,0:03:29.81,0:03:32.72,Sample KM [Up],,0,0,0,karaoke,{\k43}Je {\k40}dois {\k23}tout {\k18}re{\k21}com{\k19}men{\k25}cer {\k19}une {\k21}nou{\k19}velle {\k43}fois
+Comment: 0,0:03:33.11,0:03:36.00,Sample KM [Up]_eng,,0,0,0,karaoke,{\k44}Ba{\k42}by {\k22\rSample KM [Up]}par{\k18}donne-{\k19}moi {\k20}si {\k22}je {\k21}fais {\k21}un {\k23}faux {\k37}pas
+Comment: 0,0:03:36.23,0:03:38.04,Sample KM [Up],,0,0,0,karaoke,{\k32}Tu {\k26}sais {\k21}j'aime{\k21}rais {\k20}telle{\k21}ment {\k20}te {\k20}dire
+Comment: 0,0:03:38.04,0:03:39.25,Sample KM [Up],,0,0,0,karaoke,{\k20}Ce {\k23}que {\k20}veut {\k22}mon {\k36}cœur
+Comment: 0,0:03:39.50,0:03:41.35,Sample KM [Up],,0,0,0,karaoke,{\k19}Mais {\k20}je {\k22}n'ai {\k22}plus {\k19}les {\k21}mo-{\k20}o-{\k42}ots
+Comment: 0,0:03:41.77,0:03:44.91,Sample KM [Choir],,0,0,0,karaoke,{\k42}No {\k59}oh {\k22}oh {\k40}oh {\k41}ooh {\kf110}oh
+Comment: 0,0:03:44.17,0:03:45.88,Sample KM [Up]_eng,,0,0,0,karaoke,{\k21}Gim{\k23}me {\k43}time {\k21}gim{\k18}me {\k45}time
+Comment: 0,0:03:44.40,0:03:45.69,Sample KM [Choir],,0,0,0,karaoke,{\k22}Hey {\k62}hey {\k20}oh-{\k25}oh
+Comment: 0,0:03:45.69,0:03:47.47,Sample KM [Up]_eng,,0,0,0,karaoke,{\k19}I {\k22}need {\k40}it {\k20}I {\k37}need {\k40}time
+Comment: 0,0:03:47.06,0:03:49.17,Sample KM [Up]_eng,,0,0,0,karaoke,{\k46}Just {\k19}gim{\k20}me {\k42}time {\k22}gim{\k21}me {\k41}time
+Comment: 0,0:03:47.72,0:03:49.17,Sample KM [Choir],,0,0,0,karaoke,{\k22}Hey {\k62}hey {\k20}oh-{\k21}oh-{\k20}oh
+Comment: 0,0:03:49.17,0:03:50.63,Sample KM [Up]_eng,,0,0,0,karaoke,{\k22}I {\k38}need {\k21}I {\k21}mean {\k19}it {\k25}stop
+Dialogue: 0,0:00:11.45,0:00:15.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Ce {\k35}n'est {\k28}qu'u{\k58}ne {\kf143}larme
+Dialogue: 0,0:00:14.89,0:00:18.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Juste {\k40}un {\k40}res{\k24}te {\k44}du {\k39}pas{\k47}sé
+Dialogue: 0,0:00:18.29,0:00:22.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Dont {\k26}je {\k54}m'é{\kf153}loigne
+Dialogue: 0,0:00:21.33,0:00:25.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Mais {\k44}qui {\k20}ne {\k45}cesse {\k38}de {\k50}me {\k32}han{\k59}ter
+Dialogue: 0,0:00:24.49,0:00:28.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Ce {\k36}n'est {\k29}qu'u{\k56}ne {\kf160}lame
+Dialogue: 0,0:00:28.15,0:00:32.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Qui {\k22}en{\k46}tail{\k35}le {\k41}mes {\k41}pen{\k55}sées
+Dialogue: 0,0:00:31.18,0:00:35.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Je {\k37}re{\k35}trouve {\k51}mon {\kf162}âme
+Dialogue: 0,0:00:34.65,0:00:41.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Ton {\k26}re{\k41}gard {\k35}me {\k42}donne {\k36}en{\k45}vie {\k39}d'a{\k35}van{\kf193}cer
+Dialogue: 0,0:00:39.42,0:00:42.02,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Hey {\k62}hey {\k21}oh-{\k46}oh
+Dialogue: 0,0:00:41.03,0:00:44.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Laisse-{\k33}moi {\k23}l'ou{\k28}bli{\kf119}er
+Dialogue: 0,0:00:42.71,0:00:45.43,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Hey {\k63}hey {\k21}oh-{\k18}oh-{\k38}oh
+Dialogue: 0,0:00:44.33,0:00:47.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Laisse-{\k29}moi {\k26}l'ef{\k29}fa{\kf134}cer
+Dialogue: 0,0:00:46.01,0:00:48.56,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Hey {\k60}hey {\k22}oh-{\k41}oh
+Dialogue: 0,0:00:47.63,0:00:51.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Pour {\k37}mieux {\k24}tout {\k24}te {\k43}don{\kf102}ner
+Dialogue: 0,0:00:49.30,0:00:51.83,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Hey {\k66}hey {\k18}oh-{\k19}oh-{\k20}oh
+Dialogue: 0,0:00:51.05,0:00:53.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}J'aime{\k42}rais {\k24}telle{\k18}ment {\k21}te {\k18}dire
+Dialogue: 0,0:00:52.75,0:00:55.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Ce {\k21}que {\k19}veut {\k22}mon {\k38}cœur
+Dialogue: 0,0:00:54.22,0:00:58.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Mais {\k22}je {\k22}n'ai {\k23}plus {\k18}les {\k20}mo-{\k21}o-{\k83}ots {\k21\rSample KM [Up]_eng}no-{\k22}o-{\k31}o
+Dialogue: 0,0:00:57.64,0:01:00.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}J'aime{\k36}rais {\k22}telle{\k18}ment {\k24}te {\k18}dire
+Dialogue: 0,0:00:59.35,0:01:01.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Que {\k21}je {\k21}n'ai {\k25}plus {\k35}peur
+Dialogue: 0,0:01:00.82,0:01:04.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Mais {\k24}ces {\k16}mots {\k23}son{\k19}nent {\k25}faux {\k20}oh {\k79}oh {\k21}woah-{\k24}ooh-{\k37}oh
+Dialogue: 0,0:01:04.22,0:01:08.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Je {\k36}dois {\k25}tout {\k21}re{\k18}com{\k19}men{\k24}cer {\k20}une {\k21}nou{\k20}velle {\k39}fois
+Dialogue: 0,0:01:07.57,0:01:11.55,Sample KM [Up]_eng,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Ba{\k41}by {\k21\rSample KM [Up]}par{\k19}donne-{\k19}moi {\k21}si {\k21}je {\k21}fais {\k19}un {\k27}faux {\k36}pas
+Dialogue: 0,0:01:10.67,0:01:13.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Tu {\k24}sais {\k22}j'aime{\k20}rais {\k23}telle{\k18}ment {\k21}te {\k16}dire
+Dialogue: 0,0:01:12.45,0:01:14.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Ce {\k22}que {\k18}veut {\k24}mon {\k35}cœur
+Dialogue: 0,0:01:13.97,0:01:16.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Mais {\k21}je {\k23}n'ai {\k21}plus {\k19}les {\k22}mo-{\k20}o-{\k36}ots
+Dialogue: 0,0:01:16.22,0:01:20.39,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k44}No {\kf158}oh {\kf105}woah
+Dialogue: 0,0:01:17.15,0:01:21.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}J'ai {\k42}peur {\k19}de {\k40}cette {\kf157}flamme
+Dialogue: 0,0:01:20.73,0:01:24.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Qui {\k37}a{\k40}vant {\k24}toi {\k40}m'a {\k40}brû{\k44}lée
+Dialogue: 0,0:01:23.80,0:01:27.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Tes {\k41}yeux {\k24}me {\k54}dé{\kf149}sarment
+Dialogue: 0,0:01:27.26,0:01:31.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Je {\k39}n'ose {\k45}plus {\k18}les {\k36}af{\k45}fron{\k56}ter
+Dialogue: 0,0:01:30.37,0:01:34.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Mes {\k40}rê{\k21}ves {\k52}se {\kf174}fanent
+Dialogue: 0,0:01:33.82,0:01:37.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Seul {\k37}le {\k47}temps {\k22}pour{\k39}ra {\k41}m'ai{\k44}der
+Dialogue: 0,0:01:36.94,0:01:40.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Mais {\k41}quand {\k21}tu {\k58}t'é{\kf147}loignes
+Dialogue: 0,0:01:40.19,0:01:45.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}J'ai {\k38}fi{\k25}nale{\k44}ment {\k36}en{\k45}vie {\k37}de {\k39}te {\k47}voir {\k41}res{\k94}ter
+Dialogue: 0,0:01:44.96,0:01:47.67,Sample KM [Up]_eng,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Gim{\k19}me {\k45}time {\k21}gim{\k18}me {\k39}time
+Dialogue: 0,0:01:45.15,0:01:47.67,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Hey {\k63}hey {\k20}oh-{\k38}oh
+Dialogue: 0,0:01:46.76,0:01:50.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Tu {\k35}sais {\k29}me {\k25}par{\kf115}ler
+Dialogue: 0,0:01:47.82,0:01:51.02,Sample KM [Up]_eng,,0,0,0,fx,{\k90\fad(300,200)}{\k41}Just {\k22}gim{\k21}me {\k41}time {\k22}gim{\k21}me {\k42}time
+Dialogue: 0,0:01:48.45,0:01:51.02,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Hey {\k61}hey {\k23}oh-{\k20}oh-{\k22}oh
+Dialogue: 0,0:01:50.08,0:01:53.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Tu {\k37}sais {\k25}m'é{\k25}cou{\kf114}ter
+Dialogue: 0,0:01:51.53,0:01:54.28,Sample KM [Up]_eng,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Gim{\k20}me {\k44}time {\k22}gim{\k18}me {\k43}time
+Dialogue: 0,0:01:51.73,0:01:54.10,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Hey {\k64}hey {\k19}oh-{\k24}oh
+Dialogue: 0,0:01:53.40,0:01:56.12,Sample KM [Up]_eng,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Ba{\k22}by {\k21}please {\k40}let {\k59}me
+Dialogue: 0,0:01:54.43,0:01:57.59,Sample KM [Up]_eng,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ba{\k20}by {\k18}gim{\k19}me {\k41}time {\k20}gim{\k21}me {\k45}time
+Dialogue: 0,0:01:55.05,0:01:57.59,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Hey {\k63}hey {\k19}oh-{\k20}oh-{\k22}oh
+Dialogue: 0,0:01:55.63,0:02:00.24,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Laisse-{\k18}moi {\k46}juste {\k38}me {\k40}re{\k40}trou{\kf145}ver
+Dialogue: 0,0:01:56.84,0:01:59.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}J'aime{\k42}rais {\k24}telle{\k18}ment {\k21}te {\k17}dire
+Dialogue: 0,0:01:58.49,0:02:00.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ce {\k24}que {\k20}veut {\k19}mon {\k40}cœur
+Dialogue: 0,0:01:59.98,0:02:04.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Mais {\k25}je {\k19}n'ai {\k22}plus {\k19}les {\k23}mo-{\k22}o-{\k75}ots {\k24\rSample KM [Up]_eng}no-{\k21}o-{\k33}o
+Dialogue: 0,0:02:03.43,0:02:06.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}J'aime{\k38}rais {\k24}telle{\k18}ment {\k22}te {\k20}dire
+Dialogue: 0,0:02:05.10,0:02:07.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Que {\k23}je {\k21}n'ai {\k23}plus {\k37}peur
+Dialogue: 0,0:02:06.57,0:02:10.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Mais {\k18}ces {\k23}mots {\k22}son{\k17}nent {\k26}faux {\k22}oh {\k76}oh {\k23}woah-{\k23}ooh-{\k36}oh
+Dialogue: 0,0:02:10.03,0:02:14.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Je {\k36}dois {\k24}tout {\k24}re{\k18}com{\k18}men{\k23}cer {\k20}une {\k20}nou{\k22}velle {\k40}fois
+Dialogue: 0,0:02:13.32,0:02:17.29,Sample KM [Up]_eng,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Ba{\k38}by {\k22\rSample KM [Up]}par{\k20}donne-{\k18}moi {\k19}si {\k21}je {\k21}fais {\k21}un {\k25}faux {\k37}pas
+Dialogue: 0,0:02:16.43,0:02:19.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Tu {\k21}sais {\k23}j'aime{\k20}rais {\k21}telle{\k22}ment {\k20}te {\k18}dire
+Dialogue: 0,0:02:18.23,0:02:20.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Ce {\k22}que {\k19}veut {\k22}mon {\k38}cœur
+Dialogue: 0,0:02:19.70,0:02:22.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Mais {\k19}je {\k23}n'ai {\k22}plus {\k18}les {\k23}mo-{\k21}o-{\k29}ots
+Dialogue: 0,0:02:21.96,0:02:26.07,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}No {\kf155}oh {\kf101}woah
+Dialogue: 0,0:02:23.98,0:02:30.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}J'aime{\k43}rais {\k42}telle{\k83}ment {\k29}don{\k54}ner {\k21}au{\kf121}tant{\k41} {\k19}que {\k24}toi
+Dialogue: 0,0:02:30.34,0:02:37.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Je {\k43}trouv'{\k42}rais {\k41}les {\k83}mots {\k18}que {\k63}tu {\k20}at{\kf127}tends{\k38} {\k19}en {\kf105}moi
+Dialogue: 0,0:02:35.85,0:02:39.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Je {\k66}te {\k33}de{\kf174}mande
+Dialogue: 0,0:02:40.81,0:02:51.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Je {\k64}te {\k25}de{\k56}man{\k24}de {\k56}juste {\k26}du {\kf669}temps
+Dialogue: 0,0:02:49.39,0:02:52.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}J'aime{\k37}rais {\k27}telle{\k16}ment {\k23}te {\k16}dire
+Dialogue: 0,0:02:51.05,0:02:53.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Ce {\k23}que {\k19}veut {\k22}mon {\k34}cœur
+Dialogue: 0,0:02:52.59,0:02:56.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Mais {\k23}je {\k18}n'ai {\k26}plus {\k21}les {\k24}mo-{\k20}o-{\k82}ots {\k22\rSample KM [Up]_eng}no-{\k20}o-{\k28}o
+Dialogue: 0,0:02:56.01,0:02:58.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}J'aime{\k41}rais {\k26}telle{\k19}ment {\k21}te {\k21}dire
+Dialogue: 0,0:02:57.70,0:02:59.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Que {\k23}je {\k22}n'ai {\k25}plus {\k32}peur
+Dialogue: 0,0:02:59.12,0:03:03.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Mais {\k17}ces {\k23}mots {\k25}son{\k21}nent {\k24}faux {\k22}oh {\k80}oh {\k24}woah-{\k22}ooh-{\k30}oh
+Dialogue: 0,0:03:02.59,0:03:06.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Je {\k41}dois {\k26}tout {\k19}re{\k21}com{\k18}men{\k24}cer {\k21}une {\k19}nou{\k20}velle {\k43}fois
+Dialogue: 0,0:03:05.94,0:03:09.89,Sample KM [Up]_eng,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Ba{\k41}by {\k20\rSample KM [Up]}par{\k18}donne-{\k18}moi {\k21}si {\k22}je {\k21}fais {\k19}un {\k27}faux {\k33}pas
+Dialogue: 0,0:03:09.03,0:03:11.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Tu {\k25}sais {\k27}j'aime{\k21}rais {\k20}telle{\k19}ment {\k24}te {\k19}dire
+Dialogue: 0,0:03:10.88,0:03:13.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Ce {\k22}que {\k20}veut {\k20}mon {\k38}cœur
+Dialogue: 0,0:03:12.32,0:03:15.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Et {\k21}je {\k25}trouve{\k20}rai {\k21}les {\k22}mo-{\k22}o-{\k28}ots
+Dialogue: 0,0:03:14.56,0:03:21.76,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k46}No {\k40}oh {\k36}oh {\k45}oh {\k41}oh {\kf270}oh {\k19}oh {\k21}ooh {\k92}oh
+Dialogue: 0,0:03:15.75,0:03:18.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}J'aime{\k38}rais {\k23}telle{\k18}ment {\k23}te {\k17}dire
+Dialogue: 0,0:03:17.41,0:03:19.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ce {\k22}que {\k21}veut {\k21}mon {\k40}cœur
+Dialogue: 0,0:03:18.86,0:03:23.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Mais {\k25}je {\k19}n'ai {\k21}plus {\k20}les {\k22}mo-{\k19}o-{\k80}ots {\k22\rSample KM [Up]_eng}no-{\k20}o-{\k38}o
+Dialogue: 0,0:03:22.35,0:03:25.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}J'aime{\k39}rais {\k23}telle{\k16}ment {\k25}te {\k20}dire
+Dialogue: 0,0:03:24.01,0:03:26.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Que {\k19}je {\k21}n'ai {\k24}plus {\k40}peur
+Dialogue: 0,0:03:25.46,0:03:29.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Mais {\k23}ces {\k19}mots {\k22}son{\k19}nent {\k22}faux {\k19}oh {\k83}oh {\k23}woah-{\k22}ooh-{\k37}oh
+Dialogue: 0,0:03:28.91,0:03:32.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Je {\k40}dois {\k23}tout {\k18}re{\k21}com{\k19}men{\k25}cer {\k19}une {\k21}nou{\k19}velle {\k43}fois
+Dialogue: 0,0:03:32.21,0:03:36.20,Sample KM [Up]_eng,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Ba{\k42}by {\k22\rSample KM [Up]}par{\k18}donne-{\k19}moi {\k20}si {\k22}je {\k21}fais {\k21}un {\k23}faux {\k37}pas
+Dialogue: 0,0:03:35.33,0:03:38.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Tu {\k26}sais {\k21}j'aime{\k21}rais {\k20}telle{\k21}ment {\k20}te {\k20}dire
+Dialogue: 0,0:03:37.14,0:03:39.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Ce {\k23}que {\k20}veut {\k22}mon {\k36}cœur
+Dialogue: 0,0:03:38.60,0:03:41.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Mais {\k20}je {\k22}n'ai {\k22}plus {\k19}les {\k21}mo-{\k20}o-{\k42}ots
+Dialogue: 0,0:03:40.87,0:03:45.11,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k42}No {\k59}oh {\k22}oh {\k40}oh {\k41}ooh {\kf110}oh
+Dialogue: 0,0:03:43.27,0:03:46.08,Sample KM [Up]_eng,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Gim{\k23}me {\k43}time {\k21}gim{\k18}me {\k45}time
+Dialogue: 0,0:03:43.50,0:03:45.89,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Hey {\k62}hey {\k20}oh-{\k25}oh
+Dialogue: 0,0:03:44.79,0:03:47.67,Sample KM [Up]_eng,,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k22}need {\k40}it {\k20}I {\k37}need {\k40}time
+Dialogue: 0,0:03:46.16,0:03:49.37,Sample KM [Up]_eng,,0,0,0,fx,{\k90\fad(300,200)}{\k46}Just {\k19}gim{\k20}me {\k42}time {\k22}gim{\k21}me {\k41}time
+Dialogue: 0,0:03:46.82,0:03:49.37,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Hey {\k62}hey {\k20}oh-{\k21}oh-{\k20}oh
+Dialogue: 0,0:03:48.27,0:03:50.83,Sample KM [Up]_eng,,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k38}need {\k21}I {\k21}mean {\k19}it {\k25}stop
