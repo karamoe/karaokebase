@@ -1,0 +1,47 @@
+﻿[Script Info]
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+Original Timing: NextFire, yohane 2026.5.0 (https://github.com/Japan7/yohane)
+ScriptType: v4.00+
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
+Title: Umamusume Pretty Derby - INS - Danger Zone
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.68,0:00:01.70,Default,,0,0,0,karaoke,{\k11}de {\k9}de {\k14}de {\k35}den {\k33}den
+Comment: 0,0:00:01.76,0:00:02.84,Default,,0,0,0,karaoke,{\k20}de {\k19}de {\k33}den {\k36}den
+Comment: 0,0:00:03.08,0:00:04.79,Default,,0,0,0,karaoke,{\k53}de {\k39}den {\k38}den {\k41}de
+Comment: 0,0:00:04.79,0:00:05.89,Default,,0,0,0,karaoke,{\k20}de {\k19}de {\k18}de {\k17}de {\k36}den
+Comment: 0,0:00:06.11,0:00:10.46,Default,,0,0,0,karaoke,{\k56}den {\k39}de {\k37}de {\k38}de {\k30}de{\kf235}~
+Comment: 0,0:00:10.90,0:00:11.99,Default,,0,0,0,karaoke,{\k22}de{\k17}re{\k36}ren {\k34}den
+Comment: 0,0:00:12.23,0:00:13.88,Default,,0,0,0,karaoke,{\k58}den {\k37}de {\k39}de {\k31}de
+Comment: 0,0:00:13.95,0:00:15.05,Default,,0,0,0,karaoke,{\k21}de{\k17}re{\k17}re{\k19}re {\k36}den
+Comment: 0,0:00:15.28,0:00:16.66,Default,,0,0,0,karaoke,{\k56}den {\k38}de {\k44}de
+Comment: 0,0:00:16.97,0:00:18.07,Default,,0,0,0,karaoke,{\k19}Rev{\k5}vin' {\k13}up {\k18}you{\k22}r {\k18}en{\k15}gine
+Comment: 0,0:00:18.49,0:00:20.91,Default,,0,0,0,karaoke,{\k21}Lis{\k21}ten {\k19}to {\k19}her {\k38}how{\k22}lin' {\k102}roar
+Comment: 0,0:00:23.11,0:00:24.47,Default,,0,0,0,karaoke,{\k25}Me{\k22}tal {\k18}un{\k15}der {\k26}ten{\k30}sion
+Comment: 0,0:00:24.65,0:00:26.95,Default,,0,0,0,karaoke,{\k32}Beg{\k16}gin' {\k16}you {\k10}to {\k38}touch {\k28}and {\k90}go
+Comment: 0,0:00:29.23,0:00:33.70,Default,,0,0,0,karaoke,{\k77}High{\k76}way {\k72}to {\k75}the {\k25}dan{\k36}ger {\k86}zone
+Comment: 0,0:00:35.34,0:00:39.97,Default,,0,0,0,karaoke,{\k74}Ride {\k76}in{\k73}to {\k76}the {\k26}dan{\k35}ger {\k103}zone
+Dialogue: 0,0:00:00.00,0:00:01.90,Default,,0,0,0,fx,{\k68\fad(680,200)}{\k11}de {\k9}de {\k14}de {\k35}den {\k33}den
+Dialogue: 0,0:00:00.86,0:00:03.04,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}de {\k19}de {\k33}den {\k36}den
+Dialogue: 0,0:00:02.18,0:00:04.99,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k53}de {\k39}den {\k38}den {\k41}de
+Dialogue: 0,0:00:03.89,0:00:06.09,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}de {\k19}de {\k18}de {\k17}de {\k36}den
+Dialogue: 0,0:00:05.21,0:00:10.66,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k56}den {\k39}de {\k37}de {\k38}de {\k30}de{\kf235}~
+Dialogue: 0,0:00:10.00,0:00:12.19,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k22}de{\k17}re{\k36}ren {\k34}den
+Dialogue: 0,0:00:11.33,0:00:14.08,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k58}den {\k37}de {\k39}de {\k31}de
+Dialogue: 0,0:00:13.05,0:00:15.25,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}de{\k17}re{\k17}re{\k19}re {\k36}den
+Dialogue: 0,0:00:14.38,0:00:16.86,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k56}den {\k38}de {\k44}de
+Dialogue: 0,0:00:16.07,0:00:18.27,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Rev{\k5}vin' {\k13}up {\k18}you{\k22}r {\k18}en{\k15}gine
+Dialogue: 0,0:00:17.59,0:00:21.11,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Lis{\k21}ten {\k19}to {\k19}her {\k38}how{\k22}lin' {\k102}roar
+Dialogue: 0,0:00:22.21,0:00:24.67,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Me{\k22}tal {\k18}un{\k15}der {\k26}ten{\k30}sion
+Dialogue: 0,0:00:23.75,0:00:27.15,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Beg{\k16}gin' {\k16}you {\k10}to {\k38}touch {\k28}and {\k90}go
+Dialogue: 0,0:00:28.33,0:00:33.90,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k77}High{\k76}way {\k72}to {\k75}the {\k25}dan{\k36}ger {\k86}zone
+Dialogue: 0,0:00:34.44,0:00:40.17,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k74}Ride {\k76}in{\k73}to {\k76}the {\k26}dan{\k35}ger {\k103}zone
