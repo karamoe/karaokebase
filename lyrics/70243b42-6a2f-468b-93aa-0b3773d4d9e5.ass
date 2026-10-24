@@ -1,0 +1,63 @@
+﻿[Script Info]
+Title: Aline
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
+Original Timing: Voltini
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,24,&H000084FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:01.00,0:00:08.70,Default,,0,0,0,karaoke,{\kf770}Ouh~
+Comment: 0,0:00:09.06,0:00:16.96,Default,,0,0,0,karaoke,{\kf790}Ouh~
+Comment: 0,0:00:20.25,0:00:23.74,Default,,0,0,0,karaoke,{\kf156}Sors{\kf44} {\k15}et {\k30}fu{\kf104}is
+Comment: 0,0:00:24.51,0:00:27.71,Default,,0,0,0,karaoke,{\kf132}Je{\kf35} {\k39}t’en {\kf114}prie
+Comment: 0,0:00:28.43,0:00:31.01,Default,,0,0,0,karaoke,{\k73}Fuis {\k40}ce {\k27}tab{\k49}leau {\k31}mau{\k38}dit
+Comment: 0,0:00:31.25,0:00:36.39,Default,,0,0,0,karaoke,{\k35}Ce{\k19}tte {\k61}toile {\k24}d’une {\kf90}fau{\kf129}sse {\kf156}vie
+Comment: 0,0:00:37.96,0:00:41.56,Default,,0,0,0,karaoke,{\kf100}Por{\kf103}trait {\kf100}rê{\kf57}vé
+Comment: 0,0:00:42.00,0:00:45.45,Default,,0,0,0,karaoke,{\kf167}Im{\k29}par{\kf149}fait
+Comment: 0,0:00:46.23,0:00:54.63,Default,,0,0,0,karaoke,{\kf112}Chai{\k63}ne {\k38}de {\kf112}ta {\kf86}li{\kf224}ber{\kf205}té
+Comment: 0,0:00:59.69,0:01:07.02,Default,,0,0,0,karaoke,{\kf733}Ouh~
+Comment: 0,0:01:07.02,0:01:15.02,Default,,0,0,0,karaoke,{\kf800}Ouh~
+Comment: 0,0:01:17.97,0:01:22.53,Default,,0,0,0,karaoke,{\k26}A{\k33}lors {\k112}tranche {\k57}en {\k28}la {\kf175}tra{\k25}me
+Comment: 0,0:01:23.42,0:01:30.30,Default,,0,0,0,karaoke,{\kf97}Dé{\kf111}couds{\kf8} {\k30}la {\k40}si{\k90}nis{\k13}tre {\k75}e{\kf206}squi{\k18}sse
+Comment: 0,0:01:32.10,0:01:37.20,Default,,0,0,0,karaoke,{\kf510}Ouh~
+Comment: 0,0:01:37.86,0:01:40.81,Default,,0,0,0,karaoke,{\kf90}Sors{\kf85} {\k16}et {\k36}fu{\kf68}is
+Comment: 0,0:01:41.94,0:01:44.95,Default,,0,0,0,karaoke,{\kf123}Je{\kf23} {\k59}t’en {\kf96}prie
+Comment: 0,0:01:45.91,0:01:48.50,Default,,0,0,0,karaoke,{\k65}Fuis {\k51}ce {\k30}tab{\k44}leau {\k28}mau{\k41}dit
+Comment: 0,0:01:48.58,0:01:53.53,Default,,0,0,0,karaoke,{\k44}Ce{\k21}tte {\k48}toile {\k23}d’une {\kf100}fau{\kf118}sse {\kf141}vie
+Comment: 0,0:01:55.78,0:01:59.95,Default,,0,0,0,karaoke,{\kf109}Por{\kf110}trait {\kf102}rê{\kf96}vé
+Comment: 0,0:02:00.19,0:02:03.46,Default,,0,0,0,karaoke,{\kf155}Im{\k29}par{\kf143}fait
+Comment: 0,0:02:04.06,0:02:11.93,Default,,0,0,0,karaoke,{\kf153}Chai{\k28}ne {\k31}de {\kf113}ta {\k78}li{\kf216}ber{\kf168}té
+Comment: 0,0:02:16.14,0:02:24.53,Default,,0,0,0,karaoke,{\kf839}Ouh~
+Comment: 0,0:02:25.02,0:02:27.93,Default,,0,0,0,karaoke,{\kf291}Ouh~
+Dialogue: 0,0:00:00.10,0:00:08.90,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf770}Ouh~
+Dialogue: 0,0:00:08.16,0:00:17.16,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf790}Ouh~
+Dialogue: 0,0:00:19.35,0:00:23.94,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf156}Sors{\kf44} {\k15}et {\k30}fu{\kf104}is
+Dialogue: 0,0:00:23.61,0:00:27.91,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf132}Je{\kf35} {\k39}t’en {\kf114}prie
+Dialogue: 0,0:00:27.53,0:00:31.21,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k73}Fuis {\k40}ce {\k27}tab{\k49}leau {\k31}mau{\k38}dit
+Dialogue: 0,0:00:30.35,0:00:36.59,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Ce{\k19}tte {\k61}toile {\k24}d’une {\kf90}fau{\kf129}sse {\kf156}vie
+Dialogue: 0,0:00:37.06,0:00:41.76,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf100}Por{\kf103}trait {\kf100}rê{\kf57}vé
+Dialogue: 0,0:00:41.10,0:00:45.65,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf167}Im{\k29}par{\kf149}fait
+Dialogue: 0,0:00:45.33,0:00:54.83,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf112}Chai{\k63}ne {\k38}de {\kf112}ta {\kf86}li{\kf224}ber{\kf205}té
+Dialogue: 0,0:00:58.79,0:01:07.22,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf733}Ouh~
+Dialogue: 0,0:01:06.12,0:01:15.22,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf800}Ouh~
+Dialogue: 0,0:01:17.07,0:01:22.73,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k26}A{\k33}lors {\k112}tranche {\k57}en {\k28}la {\kf175}tra{\k25}me
+Dialogue: 0,0:01:22.52,0:01:30.50,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf97}Dé{\kf111}couds{\kf8} {\k30}la {\k40}si{\k90}nis{\k13}tre {\k75}e{\kf206}squi{\k18}sse
+Dialogue: 0,0:01:31.20,0:01:37.40,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf510}Ouh~
+Dialogue: 0,0:01:36.96,0:01:41.01,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf90}Sors{\kf85} {\k16}et {\k36}fu{\kf68}is
+Dialogue: 0,0:01:41.04,0:01:45.15,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf123}Je{\kf23} {\k59}t’en {\kf96}prie
+Dialogue: 0,0:01:45.01,0:01:48.70,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k65}Fuis {\k51}ce {\k30}tab{\k44}leau {\k28}mau{\k41}dit
+Dialogue: 0,0:01:47.68,0:01:53.73,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Ce{\k21}tte {\k48}toile {\k23}d’une {\kf100}fau{\kf118}sse {\kf141}vie
+Dialogue: 0,0:01:54.88,0:02:00.15,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf109}Por{\kf110}trait {\kf102}rê{\kf96}vé
+Dialogue: 0,0:01:59.29,0:02:03.66,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf155}Im{\k29}par{\kf143}fait
+Dialogue: 0,0:02:03.16,0:02:12.13,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf153}Chai{\k28}ne {\k31}de {\kf113}ta {\k78}li{\kf216}ber{\kf168}té
+Dialogue: 0,0:02:15.24,0:02:24.73,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf839}Ouh~
+Dialogue: 0,0:02:24.12,0:02:28.13,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf291}Ouh~
