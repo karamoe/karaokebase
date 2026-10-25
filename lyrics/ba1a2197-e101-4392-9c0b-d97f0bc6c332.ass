@@ -1,0 +1,113 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: FOR THE BRAND-NEW DREAM
+Original Timing: HayatoKurokami
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:23.55,0:00:26.02,Sample KM [Up],,0,0,0,karaoke,{\k18}Don't {\k20}you {\k21}cry {\k34}now, {\k33}don't {\k35}be {\k38}sor{\k48}ry
+Comment: 0,0:00:26.02,0:00:28.06,Sample KM [Up],,0,0,0,karaoke,{\k40}Yes{\k37}ter{\k36}day {\k21}is {\k70}gone
+Comment: 0,0:00:28.59,0:00:32.88,Sample KM [Up],,0,0,0,karaoke,{\k36}'Cause {\k57}ba{\k69}by, {\k52}all {\k38}good {\k35}things {\k35}must {\kf107}end
+Comment: 0,0:00:34.99,0:00:37.35,Sample KM [Up],,0,0,0,karaoke,{\k22}Try {\k18}to {\k25}smile {\k32}now, {\k31}don't {\k40}you {\k39}wor{\k29}ry
+Comment: 0,0:00:37.42,0:00:39.53,Sample KM [Up],,0,0,0,karaoke,{\k15}To{\k38}mor{\k37}row's {\k22}gon{\k35}na {\k64}come
+Comment: 0,0:00:40.11,0:00:45.28,Sample KM [Up],,0,0,0,karaoke,{\k36}And {\k58}ba{\k78}by, {\k43}we {\k22}can {\k15}s{\k37}till {\k34}be {\kf194}friends
+Comment: 0,0:00:46.57,0:00:48.67,Sample KM [Up],,0,0,0,karaoke,{\k20}Though {\k19}we {\k34}have {\k19}to {\kf118}part
+Comment: 0,0:00:48.02,0:00:50.15,Sample KM [Choir],,0,0,0,karaoke,{\k38}It's {\k36}time {\k38}to {\kf101}go
+Comment: 0,0:00:49.45,0:00:51.43,Sample KM [Up],,0,0,0,karaoke,{\k22}I {\k17}know {\k35}in {\k19}my {\kf105}heart
+Comment: 0,0:00:50.89,0:00:53.74,Sample KM [Choir],,0,0,0,karaoke,{\k36}One {\k37}thing {\k37}I {\kf175}know
+Comment: 0,0:00:52.35,0:00:54.47,Sample KM [Up],,0,0,0,karaoke,{\k19}Li{\k19}fe's {\k17}what {\k36}we {\k53}make {\k38}it, {\k30}girl
+Comment: 0,0:00:54.49,0:00:57.30,Sample KM [Up],,0,0,0,karaoke,{\k38}And {\k36}this {\k36}is {\k37}just {\k18}the {\kf116}start
+Comment: 0,0:00:58.11,0:01:00.46,Sample KM [Up],,0,0,0,karaoke,{\k39}So {\k21}ba{\k36}by, {\k49}please {\k38}re{\k19}mem{\k33}ber
+Comment: 0,0:01:00.64,0:01:03.06,Sample KM [Up],,0,0,0,karaoke,{\k36}When {\k39}we {\k33}say {\k23}good{\kf111}bye
+Comment: 0,0:01:03.86,0:01:05.85,Sample KM [Up],,0,0,0,karaoke,{\k27}There'{\k12}ll {\k22}be {\k35}a {\k33}brand-{\k36}new {\k34}dream
+Comment: 0,0:01:06.02,0:01:08.83,Sample KM [Up],,0,0,0,karaoke,{\k38}For {\k74}you {\k70}and {\kf99}I
+Comment: 0,0:01:09.62,0:01:12.00,Sample KM [Up],,0,0,0,karaoke,{\k35}Good {\k22}luck {\k37}and {\k34}good{\k39}bye, {\k34}ba{\k37}by
+Comment: 0,0:01:12.50,0:01:14.89,Sample KM [Up],,0,0,0,karaoke,{\k23}Doe{\k16}sn't {\k24}mean {\k30}the {\k38}end {\k34}now, {\k17}my {\k23}ba{\k34}by
+Comment: 0,0:01:15.39,0:01:17.72,Sample KM [Up],,0,0,0,karaoke,{\k38}We'll {\k21}meet {\k33}a{\k37}gain {\k34}now, {\k36}ba{\k34}by
+Comment: 0,0:01:18.26,0:01:19.62,Sample KM [Up],,0,0,0,karaoke,{\k40}We'll {\k34}find {\k19}a {\k43}way
+Comment: 0,0:01:19.70,0:01:22.41,Sample KM [Up],,0,0,0,karaoke,{\k20}For {\k20}the {\k33}brand-{\k37}new {\kf161}dream
+Comment: 0,0:01:32.68,0:01:35.00,Sample KM [Up],,0,0,0,karaoke,{\k18}Did {\k21}you {\k21}e{\k33}ver {\k35}get {\k37}that {\k34}fee{\k33}ling
+Comment: 0,0:01:35.19,0:01:37.29,Sample KM [Up],,0,0,0,karaoke,{\k40}Dreams {\k35}could {\k37}all {\k20}come {\kf78}true
+Comment: 0,0:01:37.72,0:01:42.28,Sample KM [Up],,0,0,0,karaoke,{\k39}Just {\k56}may{\k85}be, {\k38}if {\k36}you {\k35}real{\k28}ly {\kf139}try
+Comment: 0,0:01:44.21,0:01:46.53,Sample KM [Up],,0,0,0,karaoke,{\k19}Now {\k16}it's {\k21}time {\k39}to {\k34}let {\k35}that {\k40}fee{\k28}ling
+Comment: 0,0:01:46.72,0:01:48.69,Sample KM [Up],,0,0,0,karaoke,{\k39}Take {\k31}con{\k26}trol {\k30}of {\kf71}you
+Comment: 0,0:01:49.25,0:01:54.42,Sample KM [Up],,0,0,0,karaoke,{\k38}Oh {\k57}ba{\k68}by, {\k15}s{\k34}pread {\k40}your {\k36}wings {\k37}and {\kf192}fly
+Comment: 0,0:01:55.73,0:01:57.45,Sample KM [Up],,0,0,0,karaoke,{\k23}There's {\k17}so {\k24}much {\k27}a{\kf81}head
+Comment: 0,0:01:57.17,0:01:59.47,Sample KM [Choir],,0,0,0,karaoke,{\k32}There's {\k42}so {\k39}much {\kf117}more
+Comment: 0,0:01:58.61,0:02:00.60,Sample KM [Up],,0,0,0,karaoke,{\k24}Life's {\k14}an {\k22}o{\k32}pen {\kf107}door
+Comment: 0,0:01:59.96,0:02:02.62,Sample KM [Choir],,0,0,0,karaoke,{\k46}So {\k36}much {\k35}in {\kf149}store
+Comment: 0,0:02:01.49,0:02:03.56,Sample KM [Up],,0,0,0,karaoke,{\k35}It's {\k21}such {\k33}a {\k54}great {\k39}big {\k25}world
+Comment: 0,0:02:03.65,0:02:06.47,Sample KM [Up],,0,0,0,karaoke,{\k39}What {\k35}are {\k38}you {\k35}wai{\k22}ting {\kf113}for
+Comment: 0,0:02:07.16,0:02:09.49,Sample KM [Up],,0,0,0,karaoke,{\k44}So {\k24}ba{\k35}by, {\k46}please {\k36}re{\k18}mem{\k30}ber
+Comment: 0,0:02:09.72,0:02:12.04,Sample KM [Up],,0,0,0,karaoke,{\k37}When {\k37}we {\k35}say {\k22}good{\kf101}bye
+Comment: 0,0:02:12.95,0:02:14.97,Sample KM [Up],,0,0,0,karaoke,{\k38}There'll {\k20}be {\k34}a {\k37}brand-{\k35}new {\k38}dream
+Comment: 0,0:02:15.12,0:02:18.16,Sample KM [Up],,0,0,0,karaoke,{\k38}For {\k70}you {\k55}and {\kf141}I
+Comment: 0,0:02:18.74,0:02:21.08,Sample KM [Up],,0,0,0,karaoke,{\k32}Good {\k25}luck {\k35}and {\k33}good{\k39}bye, {\k34}ba{\k36}by
+Comment: 0,0:02:21.60,0:02:23.95,Sample KM [Up],,0,0,0,karaoke,{\k21}Doe{\k16}sn't {\k23}mean {\k33}the {\k35}end {\k35}now, {\k19}my {\k21}ba{\k32}by
+Comment: 0,0:02:24.47,0:02:26.83,Sample KM [Up],,0,0,0,karaoke,{\k39}We'll {\k17}meet {\k35}a{\k38}gain {\k34}now, {\k38}ba{\k35}by
+Comment: 0,0:02:27.35,0:02:29.68,Sample KM [Up],,0,0,0,karaoke,{\k16}I {\k24}just {\k18}got{\k34}ta {\k36}say {\k35}now, {\k18}my {\k19}ba{\k33}by
+Comment: 0,0:02:30.23,0:02:32.59,Sample KM [Up],,0,0,0,karaoke,{\k35}Good {\k22}luck {\k36}and {\k35}good{\k37}bye, {\k36}ba{\k35}by
+Comment: 0,0:02:33.14,0:02:35.65,Sample KM [Up],,0,0,0,karaoke,{\k21}Doe{\k17}sn't {\k20}mean {\k50}the {\k30}end {\k26}now, {\k17}my {\k27}ba{\k43}by
+Comment: 0,0:02:36.04,0:02:38.34,Sample KM [Up],,0,0,0,karaoke,{\k37}We'll {\k20}meet {\k32}a{\k40}gain {\k34}now, {\k34}ba{\k33}by
+Comment: 0,0:02:38.92,0:02:41.42,Sample KM [Up],,0,0,0,karaoke,{\k14}But {\k24}un{\k19}til {\k51}that {\k29}day {\k25}now, {\k20}my {\k26}ba{\k42}by
+Comment: 0,0:02:41.78,0:02:44.11,Sample KM [Up],,0,0,0,karaoke,{\k38}Good {\k21}luck {\k36}and {\k32}good{\k37}bye, {\k34}ba{\k35}by
+Comment: 0,0:02:44.63,0:02:45.97,Sample KM [Up],,0,0,0,karaoke,{\k39}We'll {\k34}find {\k17}a {\k44}way
+Comment: 0,0:02:47.52,0:02:51.34,Sample KM [Up],,0,0,0,karaoke,{\k20}For {\k16}the {\k38}brand-{\k35}new {\kf273}dream
+Dialogue: 0,0:00:22.65,0:00:26.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Don't {\k20}you {\k21}cry {\k34}now, {\k33}don't {\k35}be {\k38}sor{\k48}ry
+Dialogue: 0,0:00:25.12,0:00:28.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Yes{\k37}ter{\k36}day {\k21}is {\k70}gone
+Dialogue: 0,0:00:27.69,0:00:33.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}'Cause {\k57}ba{\k69}by, {\k52}all {\k38}good {\k35}things {\k35}must {\kf107}end
+Dialogue: 0,0:00:34.09,0:00:37.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Try {\k18}to {\k25}smile {\k32}now, {\k31}don't {\k40}you {\k39}wor{\k29}ry
+Dialogue: 0,0:00:36.52,0:00:39.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}To{\k38}mor{\k37}row's {\k22}gon{\k35}na {\k64}come
+Dialogue: 0,0:00:39.21,0:00:45.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}And {\k58}ba{\k78}by, {\k43}we {\k22}can {\k15}s{\k37}till {\k34}be {\kf194}friends
+Dialogue: 0,0:00:45.67,0:00:48.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Though {\k19}we {\k34}have {\k19}to {\kf118}part
+Dialogue: 0,0:00:47.12,0:00:50.35,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}It's {\k36}time {\k38}to {\kf101}go
+Dialogue: 0,0:00:48.55,0:00:51.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k17}know {\k35}in {\k19}my {\kf105}heart
+Dialogue: 0,0:00:49.99,0:00:53.94,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k36}One {\k37}thing {\k37}I {\kf175}know
+Dialogue: 0,0:00:51.45,0:00:54.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Li{\k19}fe's {\k17}what {\k36}we {\k53}make {\k38}it, {\k30}girl
+Dialogue: 0,0:00:53.59,0:00:57.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}And {\k36}this {\k36}is {\k37}just {\k18}the {\kf116}start
+Dialogue: 0,0:00:57.21,0:01:00.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}So {\k21}ba{\k36}by, {\k49}please {\k38}re{\k19}mem{\k33}ber
+Dialogue: 0,0:00:59.74,0:01:03.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}When {\k39}we {\k33}say {\k23}good{\kf111}bye
+Dialogue: 0,0:01:02.96,0:01:06.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}There'{\k12}ll {\k22}be {\k35}a {\k33}brand-{\k36}new {\k34}dream
+Dialogue: 0,0:01:05.12,0:01:09.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}For {\k74}you {\k70}and {\kf99}I
+Dialogue: 0,0:01:08.72,0:01:12.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Good {\k22}luck {\k37}and {\k34}good{\k39}bye, {\k34}ba{\k37}by
+Dialogue: 0,0:01:11.60,0:01:15.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Doe{\k16}sn't {\k24}mean {\k30}the {\k38}end {\k34}now, {\k17}my {\k23}ba{\k34}by
+Dialogue: 0,0:01:14.49,0:01:17.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}We'll {\k21}meet {\k33}a{\k37}gain {\k34}now, {\k36}ba{\k34}by
+Dialogue: 0,0:01:17.36,0:01:19.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}We'll {\k34}find {\k19}a {\k43}way
+Dialogue: 0,0:01:18.80,0:01:22.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}For {\k20}the {\k33}brand-{\k37}new {\kf161}dream
+Dialogue: 0,0:01:31.78,0:01:35.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Did {\k21}you {\k21}e{\k33}ver {\k35}get {\k37}that {\k34}fee{\k33}ling
+Dialogue: 0,0:01:34.29,0:01:37.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Dreams {\k35}could {\k37}all {\k20}come {\kf78}true
+Dialogue: 0,0:01:36.82,0:01:42.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Just {\k56}may{\k85}be, {\k38}if {\k36}you {\k35}real{\k28}ly {\kf139}try
+Dialogue: 0,0:01:43.31,0:01:46.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Now {\k16}it's {\k21}time {\k39}to {\k34}let {\k35}that {\k40}fee{\k28}ling
+Dialogue: 0,0:01:45.82,0:01:48.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Take {\k31}con{\k26}trol {\k30}of {\kf71}you
+Dialogue: 0,0:01:48.35,0:01:54.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Oh {\k57}ba{\k68}by, {\k15}s{\k34}pread {\k40}your {\k36}wings {\k37}and {\kf192}fly
+Dialogue: 0,0:01:54.83,0:01:57.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}There's {\k17}so {\k24}much {\k27}a{\kf81}head
+Dialogue: 0,0:01:56.27,0:01:59.67,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k32}There's {\k42}so {\k39}much {\kf117}more
+Dialogue: 0,0:01:57.71,0:02:00.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Life's {\k14}an {\k22}o{\k32}pen {\kf107}door
+Dialogue: 0,0:01:59.06,0:02:02.82,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k46}So {\k36}much {\k35}in {\kf149}store
+Dialogue: 0,0:02:00.59,0:02:03.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}It's {\k21}such {\k33}a {\k54}great {\k39}big {\k25}world
+Dialogue: 0,0:02:02.75,0:02:06.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}What {\k35}are {\k38}you {\k35}wai{\k22}ting {\kf113}for
+Dialogue: 0,0:02:06.26,0:02:09.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}So {\k24}ba{\k35}by, {\k46}please {\k36}re{\k18}mem{\k30}ber
+Dialogue: 0,0:02:08.82,0:02:12.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}When {\k37}we {\k35}say {\k22}good{\kf101}bye
+Dialogue: 0,0:02:12.05,0:02:15.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}There'll {\k20}be {\k34}a {\k37}brand-{\k35}new {\k38}dream
+Dialogue: 0,0:02:14.22,0:02:18.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}For {\k70}you {\k55}and {\kf141}I
+Dialogue: 0,0:02:17.84,0:02:21.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Good {\k25}luck {\k35}and {\k33}good{\k39}bye, {\k34}ba{\k36}by
+Dialogue: 0,0:02:20.70,0:02:24.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Doe{\k16}sn't {\k23}mean {\k33}the {\k35}end {\k35}now, {\k19}my {\k21}ba{\k32}by
+Dialogue: 0,0:02:23.57,0:02:27.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}We'll {\k17}meet {\k35}a{\k38}gain {\k34}now, {\k38}ba{\k35}by
+Dialogue: 0,0:02:26.45,0:02:29.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}I {\k24}just {\k18}got{\k34}ta {\k36}say {\k35}now, {\k18}my {\k19}ba{\k33}by
+Dialogue: 0,0:02:29.33,0:02:32.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Good {\k22}luck {\k36}and {\k35}good{\k37}bye, {\k36}ba{\k35}by
+Dialogue: 0,0:02:32.24,0:02:35.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Doe{\k17}sn't {\k20}mean {\k50}the {\k30}end {\k26}now, {\k17}my {\k27}ba{\k43}by
+Dialogue: 0,0:02:35.14,0:02:38.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}We'll {\k20}meet {\k32}a{\k40}gain {\k34}now, {\k34}ba{\k33}by
+Dialogue: 0,0:02:38.02,0:02:41.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}But {\k24}un{\k19}til {\k51}that {\k29}day {\k25}now, {\k20}my {\k26}ba{\k42}by
+Dialogue: 0,0:02:40.88,0:02:44.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Good {\k21}luck {\k36}and {\k32}good{\k37}bye, {\k34}ba{\k35}by
+Dialogue: 0,0:02:43.73,0:02:46.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}We'll {\k34}find {\k17}a {\k44}way
+Dialogue: 0,0:02:46.62,0:02:51.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}For {\k16}the {\k38}brand-{\k35}new {\kf273}dream
