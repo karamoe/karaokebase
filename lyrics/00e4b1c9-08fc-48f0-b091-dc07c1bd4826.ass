@@ -1,0 +1,134 @@
+﻿[Script Info]
+Title: Tokyo Gals
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Nemesise
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: JP,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: ENG,Arial,24,&H00FFFFFF,&H00FFAB00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Choir,Arial,24,&H00FFFFFF,&H007D7DDC,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,JP,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:05.49,0:00:07.43,ENG,,0,0,0,karaoke,{\k40}Now {\k39}I’m {\k29}ru{\k23}nnin’ {\k24}the {\k39}crowd
+Comment: 0,0:00:07.62,0:00:08.89,ENG,,0,0,0,karaoke,{\k12}Ba{\k9}by {\k33}gi{\k25}mme {\k20}my {\k28}crown
+Comment: 0,0:00:08.96,0:00:10.51,ENG,,0,0,0,karaoke,{\k43}Skin {\k28}deep {\k31}tough {\k19}like {\k34}brown
+Comment: 0,0:00:10.76,0:00:12.11,ENG,,0,0,0,karaoke,{\k19}We {\k30}rise {\k28}ne{\k19}ver {\k39}drown
+Comment: 0,0:00:12.31,0:00:15.46,JP,,0,0,0,karaoke,{\k37}a{\k22}sa {\k19}nan{\k18}te {\k20}ko{\k21}nai {\k21}gi{\k18}ra{\k19}gi{\k20}ra {\k18}gal{\k20}s {\k20}To{\k23}ky{\k19}o
+Comment: 0,0:00:15.59,0:00:18.64,JP,,0,0,0,karaoke,{\k22}ki{\k21}rei{\k19}go{\k20}to {\k18}ma{\k20}ji {\k19}mu{\k16}ri {\k26}s'gu {\k13}ni {\k27}SPIT {\k17}IT {\k38}OUT {\k29}huh
+Comment: 0,0:00:19.13,0:00:21.84,ENG,,0,0,0,karaoke,{\k79}Yeah {\k39}life {\k19}mo{\k19}ving {\k19}at {\k15}a {\k27}stu{\k15}nning {\k39}pace
+Comment: 0,0:00:21.86,0:00:23.61,ENG,,0,0,0,karaoke,{\k19}I {\k20}ain’t {\k19}got {\k18}no {\k21}time {\k8}to {\k9}be {\k20}do{\k21}zin’ {\k20}off
+Comment: 0,0:00:23.61,0:00:25.16,ENG,,0,0,0,karaoke,{\k18}in {\k21}this {\k18}messed {\k19}u{\k12}p {\k67}space
+Comment: 0,0:00:25.37,0:00:27.64,ENG,,0,0,0,karaoke,{\k36}I’m {\k22}here {\k20}a{\k20}gain {\k20}to{\k32}day {\k43}still {\k21}pla{\k13}yin’
+Comment: 0,0:00:27.70,0:00:31.16,ENG,,0,0,0,karaoke,{\k40}This {\k19}life-{\k20}or-{\k38}death {\k40}game {\k39}with {\k19}o{\k20}thers {\k38}and {\k37}my{\k36}self
+Comment: 0,0:00:31.19,0:00:33.95,JP,,0,0,0,karaoke,{\k21}ka{\k19}wa{\k20}ii {\k20}THE {\k40}BAD{\k37}DEST {\k21}YOU {\k18}KNOW {\k35}THAT’S {\k45}TRUE
+Comment: 0,0:00:34.33,0:00:37.07,ENG,,0,0,0,karaoke,{\k18}Ain’t {\k20}no{\k20}bo{\k18}dy {\k20}fle{\k18}xin’ {\k21}like {\k20}us {\k19}it’s {\k20}just {\k19}ou{\k19}r {\k42}crew
+Comment: 0,0:00:37.41,0:00:40.17,ENG,,0,0,0,karaoke,{\k22}Sho{\k24}win’ {\k36}your {\k39}heart {\k37}nah {\k22}that’s {\k17}what {\k41}fools {\k38}do
+Comment: 0,0:00:40.36,0:00:43.31,ENG,,0,0,0,karaoke,{\k20}But {\k18}with {\k18}my {\k23}ho{\k19}mies {\k36}I {\k41}ride {\k18}we {\k20}stick {\k40}like {\k42}glue
+Comment: 0,0:00:44.01,0:00:45.29,ENG,,0,0,0,karaoke,{\k25}It’s {\k19}a {\k40}vibe {\k25}ain’t {\k19}it
+Comment: 0,0:00:45.42,0:00:46.82,JP,,0,0,0,karaoke,{\k19}SO {\k22}HU{\k19}ST{\k19}LER {\k19}no {\k20}i{\k22}mi
+Comment: 0,0:00:46.97,0:00:49.87,ENG,,0,0,0,karaoke,{\k22}kus{\k20}see {\k18}o{\k21}ji {\k18}no {\k21}ku{\k19}ru{\k19}shi{\k19}mi {\k39}dou {\k20}de{\k17}mo {\k37}ii
+Comment: 0,0:00:49.51,0:00:51.09,ENG,,0,0,0,karaoke,{\k11}ta{\k9}no{\k18}shi{\k22}ke{\k20}rya {\k19}ii {\k11}ba{\k8}chi{\k21}ba{\k19}chi
+Comment: 0,0:00:51.09,0:00:52.93,ENG,,0,0,0,karaoke,{\k18}MEN{\k20}TA{\k18}LI{\k20}TY {\k21}gal{\k18}s {\k21}ta{\k18}ma{\k30}shii
+Comment: 0,0:00:53.23,0:00:55.76,ENG,,0,0,0,karaoke,{\k18}I {\k20}don’t {\k19}mind {\k21}with {\k18}it {\k23}pour {\k20}it {\k35}up {\k23}pour {\k20}it {\k29}up
+Comment: 0,0:00:55.75,0:00:56.23,ENG,,0,0,0,karaoke,{\k20}Rea{\k28}dy
+Comment: 0,0:00:56.14,0:00:59.24,Choir,,0,0,0,karaoke,{\k58}Coun{\k20}tin’ {\k22}mon{\k16}ey {\k38}ho {\k58}coun{\k22}tin’ {\k19}mon{\k19}ey {\k38}ho
+Comment: 0,0:00:59.24,0:01:00.69,Choir,,0,0,0,karaoke,{\k58}coun{\k22}tin’ {\k19}mon{\k19}ey {\k27}ho
+Comment: 0,0:01:01.20,0:01:02.35,ENG,,0,0,0,karaoke,{\k20}I'm {\k16}a {\k23}To{\k19}kyo {\k37}gal
+Comment: 0,0:01:02.36,0:01:05.38,Choir,,0,0,0,karaoke,{\k59}Coun{\k20}tin’ {\k21}mon{\k17}ey {\k38}ho {\k59}coun{\k21}tin’ {\k20}mon{\k18}ey {\k29}ho
+Comment: 0,0:01:05.67,0:01:07.78,ENG,,0,0,0,karaoke,{\k18}do{\k23}ko{\k19}ma{\k20}de {\k18}mo {\k22}tsu{\k18}mi{\k20}a{\k18}ge{\k20}te{\k15}ku
+Comment: 0,0:01:07.83,0:01:08.71,ENG,,0,0,0,karaoke,{\k18}Bring {\k14}the {\k56}smoke
+Comment: 0,0:01:08.98,0:01:11.81,ENG,,0,0,0,karaoke,{\k24}u{\k16}za{\k20}ta{\k18}ka{\k77}ku {\k22}ko{\k20}e{\k19}te {\k19}yu{\k48}ku
+Comment: 0,0:01:12.09,0:01:14.90,ENG,,0,0,0,karaoke,{\k21}wa{\k17}ta{\k24}shi {\k19}wo {\k19}mi{\k21}o{\k17}ro{\k20}su {\k18}ma{\k22}te{\k18}n{\k19}ro{\k46}u
+Comment: 0,0:01:15.20,0:01:19.64,ENG,,0,0,0,karaoke,{\k23}so{\k19}ra {\k19}wo {\k21}ki{\k74}ru {\k22}tsu{\k18}ba{\k21}sa {\k19}ha{\k29}ya{\k10}shi{\kf169}te
+Comment: 0,0:01:21.05,0:01:23.70,ENG,,0,0,0,karaoke,{\k40}Came {\k22}from {\k18}the {\k40}block {\k22}where {\k16}we {\k18}hu{\k22}stle {\k34}and {\k33}steal
+Comment: 0,0:01:23.80,0:01:26.88,ENG,,0,0,0,karaoke,{\k20}Made {\k17}it {\k19}to {\k19}the {\k42}top {\k38}now {\k36}I’m {\k24}clo{\k20}sing {\k18}the {\k55}deal
+Comment: 0,0:01:27.31,0:01:30.05,ENG,,0,0,0,karaoke,{\k39}My {\k20}vibe {\k19}too {\k39}raw {\k39}yeah {\k20}I’m {\k19}kee{\k21}pin’ {\k18}it {\k40}ill
+Comment: 0,0:01:30.43,0:01:33.19,ENG,,0,0,0,karaoke,{\k39}Mess {\k15}with {\k18}my {\k46}squad {\k38}you {\k18}gon {\k20}see {\k17}how {\k21}we {\k44}kill
+Comment: 0,0:01:33.55,0:01:35.42,ENG,,0,0,0,karaoke,{\k35}Nah {\k24}I {\k19}stay {\k20}coun{\k18}tin’ {\k23}mon{\k16}ey {\k32}huh
+Comment: 0,0:01:35.49,0:01:36.99,ENG,,0,0,0,karaoke,{\k20}Coun{\k20}tin’ {\k10}Yu{\k7}ki{\k21}chi {\k19}Eii{\k19}chi {\k34}huh
+Comment: 0,0:01:37.04,0:01:38.40,JP,,0,0,0,karaoke,{\k18}o{\k20}ji {\k22}FOS{\k19}SIL {\k19}DON’T {\k13}HIT {\k6}ME {\k19}UP
+Comment: 0,0:01:38.40,0:01:39.83,JP,,0,0,0,karaoke,{\k20}I’M {\k19}ON {\k21}MY {\k41}GRIND {\k42}SHIT
+Comment: 0,0:01:39.98,0:01:42.30,ENG,,0,0,0,karaoke,{\k19}I’ll {\k20}li{\k18}sten {\k20}to {\k19}you {\k20}but {\k20}it’s {\k19}ten {\k19}K {\k19}a {\k20}se{\k19}cond
+Comment: 0,0:01:42.32,0:01:44.19,ENG,,0,0,0,karaoke,{\k17}mec{\k21}cha {\k15}a{\k21}se {\k20}kai{\k22}ten{\k18}na {\k16}kis{\k25}shoi {\k12}na
+Comment: 0,0:01:44.19,0:01:46.17,ENG,,0,0,0,karaoke,{\k8}so{\k18}re{\k20}de{\k19}mo {\k20}maa {\k19}ko{\k19}re {\k20}shi{\k20}dai {\k35}da
+Comment: 0,0:01:46.38,0:01:47.65,ENG,,0,0,0,karaoke,{\k25}It’s {\k17}a {\k40}vibe {\k25}ain’t {\k20}it
+Comment: 0,0:01:47.75,0:01:49.24,ENG,,0,0,0,karaoke,{\k19}SO {\k22}HU{\k19}ST{\k19}LER {\k19}no {\k20}i{\k31}mi
+Comment: 0,0:01:49.31,0:01:52.20,ENG,,0,0,0,karaoke,{\k21}kus{\k21}see {\k18}o{\k24}ji {\k15}no {\k21}ku{\k19}ru{\k21}shi{\k17}mi {\k39}dou {\k20}de{\k18}mo {\k35}ii
+Comment: 0,0:01:51.83,0:01:53.43,ENG,,0,0,0,karaoke,{\k11}ta{\k13}no{\k18}shi{\k22}ke{\k20}rya {\k17}ii {\k11}ba{\k8}chi{\k21}ba{\k19}chi
+Comment: 0,0:01:53.43,0:01:55.31,ENG,,0,0,0,karaoke,{\k16}MEN{\k25}TA{\k17}LI{\k18}TY {\k21}gal{\k19}s {\k20}ta{\k20}ma{\k32}shii
+Comment: 0,0:01:55.56,0:01:58.11,ENG,,0,0,0,karaoke,{\k18}I {\k20}don’t {\k19}mind {\k21}with {\k18}it {\k23}pour {\k20}it {\k35}up {\k21}pour {\k17}it {\k43}up
+Comment: 0,0:01:58.00,0:01:58.47,ENG,,0,0,0,karaoke,{\k20}Rea{\k28}dy
+Comment: 0,0:01:58.47,0:02:01.57,Choir,,0,0,0,karaoke,{\k58}Coun{\k20}tin’ {\k22}mon{\k16}ey {\k38}ho {\k58}coun{\k22}tin’ {\k19}mon{\k19}ey {\k38}ho
+Comment: 0,0:02:01.57,0:02:03.08,Choir,,0,0,0,karaoke,{\k58}coun{\k22}tin’ {\k19}mon{\k19}ey {\k27}ho
+Comment: 0,0:02:03.55,0:02:04.71,ENG,,0,0,0,karaoke,{\k20}I'm {\k16}a {\k23}To{\k19}kyo {\k37}gal
+Comment: 0,0:02:04.71,0:02:07.67,Choir,,0,0,0,karaoke,{\k59}Coun{\k20}tin’ {\k21}mon{\k17}ey {\k38}ho {\k59}coun{\k21}tin’ {\k20}mon{\k18}ey {\k29}ho
+Comment: 0,0:02:08.01,0:02:10.12,JP,,0,0,0,karaoke,{\k18}do{\k23}ko{\k19}ma{\k20}de {\k18}mo {\k22}tsu{\k18}mi{\k20}a{\k18}ge{\k20}te{\k15}ku
+Comment: 0,0:02:10.17,0:02:11.01,ENG,,0,0,0,karaoke,{\k18}Bring {\k14}the {\k56}smoke
+Comment: 0,0:02:11.31,0:02:14.21,JP,,0,0,0,karaoke,{\k24}u{\k16}za{\k20}ta{\k18}ka{\k77}ku {\k22}ko{\k20}e{\k19}te {\k19}yu{\k48}ku
+Comment: 0,0:02:14.44,0:02:17.19,JP,,0,0,0,karaoke,{\k21}wa{\k17}ta{\k24}shi {\k19}wo {\k19}mi{\k21}o{\k17}ro{\k20}su {\k18}ma{\k22}te{\k18}n{\k19}ro{\k46}u
+Comment: 0,0:02:17.53,0:02:22.49,JP,,0,0,0,karaoke,{\k23}so{\k19}ra {\k19}wo {\k21}ki{\k74}ru {\k22}tsu{\k18}ba{\k21}sa {\k19}ha{\k29}ya{\k10}shi{\kf169}te
+Dialogue: 0,0:00:04.59,0:00:07.63,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k40}Now {\k39}I’m {\k29}ru{\k23}nnin’ {\k24}the {\k39}crowd
+Dialogue: 0,0:00:06.72,0:00:09.09,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k12}Ba{\k9}by {\k33}gi{\k25}mme {\k20}my {\k28}crown
+Dialogue: 0,0:00:08.06,0:00:10.71,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Skin {\k28}deep {\k31}tough {\k19}like {\k34}brown
+Dialogue: 0,0:00:09.86,0:00:12.31,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k19}We {\k30}rise {\k28}ne{\k19}ver {\k39}drown
+Dialogue: 0,0:00:11.41,0:00:15.66,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k37}a{\k22}sa {\k19}nan{\k18}te {\k20}ko{\k21}nai {\k21}gi{\k18}ra{\k19}gi{\k20}ra {\k18}gal{\k20}s {\k20}To{\k23}ky{\k19}o
+Dialogue: 0,0:00:14.69,0:00:18.84,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ki{\k21}rei{\k19}go{\k20}to {\k18}ma{\k20}ji {\k19}mu{\k16}ri {\k26}s'gu {\k13}ni {\k27}SPIT {\k17}IT {\k38}OUT {\k29}huh
+Dialogue: 0,0:00:18.23,0:00:22.04,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k79}Yeah {\k39}life {\k19}mo{\k19}ving {\k19}at {\k15}a {\k27}stu{\k15}nning {\k39}pace
+Dialogue: 0,0:00:20.96,0:00:23.81,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k20}ain’t {\k19}got {\k18}no {\k21}time {\k8}to {\k9}be {\k20}do{\k21}zin’ {\k20}off
+Dialogue: 0,0:00:22.71,0:00:25.36,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k18}in {\k21}this {\k18}messed {\k19}u{\k12}p {\k67}space
+Dialogue: 0,0:00:24.47,0:00:27.84,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k36}I’m {\k22}here {\k20}a{\k20}gain {\k20}to{\k32}day {\k43}still {\k21}pla{\k13}yin’
+Dialogue: 0,0:00:26.80,0:00:31.36,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k40}This {\k19}life-{\k20}or-{\k38}death {\k40}game {\k39}with {\k19}o{\k20}thers {\k38}and {\k37}my{\k36}self
+Dialogue: 0,0:00:30.29,0:00:34.15,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ka{\k19}wa{\k20}ii {\k20}THE {\k40}BAD{\k37}DEST {\k21}YOU {\k18}KNOW {\k35}THAT’S {\k45}TRUE
+Dialogue: 0,0:00:33.43,0:00:37.27,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Ain’t {\k20}no{\k20}bo{\k18}dy {\k20}fle{\k18}xin’ {\k21}like {\k20}us {\k19}it’s {\k20}just {\k19}ou{\k19}r {\k42}crew
+Dialogue: 0,0:00:36.51,0:00:40.37,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Sho{\k24}win’ {\k36}your {\k39}heart {\k37}nah {\k22}that’s {\k17}what {\k41}fools {\k38}do
+Dialogue: 0,0:00:39.46,0:00:43.51,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k20}But {\k18}with {\k18}my {\k23}ho{\k19}mies {\k36}I {\k41}ride {\k18}we {\k20}stick {\k40}like {\k42}glue
+Dialogue: 0,0:00:43.11,0:00:45.49,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k25}It’s {\k19}a {\k40}vibe {\k25}ain’t {\k19}it
+Dialogue: 0,0:00:44.52,0:00:47.02,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k19}SO {\k22}HU{\k19}ST{\k19}LER {\k19}no {\k20}i{\k22}mi
+Dialogue: 0,0:00:46.07,0:00:50.07,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k22}kus{\k20}see {\k18}o{\k21}ji {\k18}no {\k21}ku{\k19}ru{\k19}shi{\k19}mi {\k39}dou {\k20}de{\k17}mo {\k37}ii
+Dialogue: 0,0:00:48.61,0:00:51.29,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k11}ta{\k9}no{\k18}shi{\k22}ke{\k20}rya {\k19}ii {\k11}ba{\k8}chi{\k21}ba{\k19}chi
+Dialogue: 0,0:00:50.19,0:00:53.13,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k18}MEN{\k20}TA{\k18}LI{\k20}TY {\k21}gal{\k18}s {\k21}ta{\k18}ma{\k30}shii
+Dialogue: 0,0:00:52.33,0:00:55.96,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k20}don’t {\k19}mind {\k21}with {\k18}it {\k23}pour {\k20}it {\k35}up {\k23}pour {\k20}it {\k29}up
+Dialogue: 0,0:00:54.85,0:00:56.43,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Rea{\k28}dy
+Dialogue: 0,0:00:55.24,0:00:59.44,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k58}Coun{\k20}tin’ {\k22}mon{\k16}ey {\k38}ho {\k58}coun{\k22}tin’ {\k19}mon{\k19}ey {\k38}ho
+Dialogue: 0,0:00:58.34,0:01:00.89,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k58}coun{\k22}tin’ {\k19}mon{\k19}ey {\k27}ho
+Dialogue: 0,0:01:00.30,0:01:02.55,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k20}I'm {\k16}a {\k23}To{\k19}kyo {\k37}gal
+Dialogue: 0,0:01:01.46,0:01:05.58,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k59}Coun{\k20}tin’ {\k21}mon{\k17}ey {\k38}ho {\k59}coun{\k21}tin’ {\k20}mon{\k18}ey {\k29}ho
+Dialogue: 0,0:01:04.77,0:01:07.98,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k18}do{\k23}ko{\k19}ma{\k20}de {\k18}mo {\k22}tsu{\k18}mi{\k20}a{\k18}ge{\k20}te{\k15}ku
+Dialogue: 0,0:01:06.93,0:01:08.91,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Bring {\k14}the {\k56}smoke
+Dialogue: 0,0:01:08.08,0:01:12.01,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k24}u{\k16}za{\k20}ta{\k18}ka{\k77}ku {\k22}ko{\k20}e{\k19}te {\k19}yu{\k48}ku
+Dialogue: 0,0:01:11.19,0:01:15.10,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k21}wa{\k17}ta{\k24}shi {\k19}wo {\k19}mi{\k21}o{\k17}ro{\k20}su {\k18}ma{\k22}te{\k18}n{\k19}ro{\k46}u
+Dialogue: 0,0:01:14.30,0:01:19.84,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k23}so{\k19}ra {\k19}wo {\k21}ki{\k74}ru {\k22}tsu{\k18}ba{\k21}sa {\k19}ha{\k29}ya{\k10}shi{\kf169}te
+Dialogue: 0,0:01:20.15,0:01:23.90,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k40}Came {\k22}from {\k18}the {\k40}block {\k22}where {\k16}we {\k18}hu{\k22}stle {\k34}and {\k33}steal
+Dialogue: 0,0:01:22.90,0:01:27.08,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Made {\k17}it {\k19}to {\k19}the {\k42}top {\k38}now {\k36}I’m {\k24}clo{\k20}sing {\k18}the {\k55}deal
+Dialogue: 0,0:01:26.41,0:01:30.25,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k39}My {\k20}vibe {\k19}too {\k39}raw {\k39}yeah {\k20}I’m {\k19}kee{\k21}pin’ {\k18}it {\k40}ill
+Dialogue: 0,0:01:29.53,0:01:33.39,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k39}Mess {\k15}with {\k18}my {\k46}squad {\k38}you {\k18}gon {\k20}see {\k17}how {\k21}we {\k44}kill
+Dialogue: 0,0:01:32.65,0:01:35.62,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Nah {\k24}I {\k19}stay {\k20}coun{\k18}tin’ {\k23}mon{\k16}ey {\k32}huh
+Dialogue: 0,0:01:34.59,0:01:37.19,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Coun{\k20}tin’ {\k10}Yu{\k7}ki{\k21}chi {\k19}Eii{\k19}chi {\k34}huh
+Dialogue: 0,0:01:36.14,0:01:38.60,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k18}o{\k20}ji {\k22}FOS{\k19}SIL {\k19}DON’T {\k13}HIT {\k6}ME {\k19}UP
+Dialogue: 0,0:01:37.50,0:01:40.03,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k20}I’M {\k19}ON {\k21}MY {\k41}GRIND {\k42}SHIT
+Dialogue: 0,0:01:39.08,0:01:42.50,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k19}I’ll {\k20}li{\k18}sten {\k20}to {\k19}you {\k20}but {\k20}it’s {\k19}ten {\k19}K {\k19}a {\k20}se{\k19}cond
+Dialogue: 0,0:01:41.42,0:01:44.39,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k17}mec{\k21}cha {\k15}a{\k21}se {\k20}kai{\k22}ten{\k18}na {\k16}kis{\k25}shoi {\k12}na
+Dialogue: 0,0:01:43.29,0:01:46.37,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k8}so{\k18}re{\k20}de{\k19}mo {\k20}maa {\k19}ko{\k19}re {\k20}shi{\k20}dai {\k35}da
+Dialogue: 0,0:01:45.48,0:01:47.85,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k25}It’s {\k17}a {\k40}vibe {\k25}ain’t {\k20}it
+Dialogue: 0,0:01:46.85,0:01:49.44,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k19}SO {\k22}HU{\k19}ST{\k19}LER {\k19}no {\k20}i{\k31}mi
+Dialogue: 0,0:01:48.41,0:01:52.40,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k21}kus{\k21}see {\k18}o{\k24}ji {\k15}no {\k21}ku{\k19}ru{\k21}shi{\k17}mi {\k39}dou {\k20}de{\k18}mo {\k35}ii
+Dialogue: 0,0:01:50.93,0:01:53.63,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k11}ta{\k13}no{\k18}shi{\k22}ke{\k20}rya {\k17}ii {\k11}ba{\k8}chi{\k21}ba{\k19}chi
+Dialogue: 0,0:01:52.53,0:01:55.51,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k16}MEN{\k25}TA{\k17}LI{\k18}TY {\k21}gal{\k19}s {\k20}ta{\k20}ma{\k32}shii
+Dialogue: 0,0:01:54.66,0:01:58.31,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k20}don’t {\k19}mind {\k21}with {\k18}it {\k23}pour {\k20}it {\k35}up {\k21}pour {\k17}it {\k43}up
+Dialogue: 0,0:01:57.10,0:01:58.67,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Rea{\k28}dy
+Dialogue: 0,0:01:57.57,0:02:01.77,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k58}Coun{\k20}tin’ {\k22}mon{\k16}ey {\k38}ho {\k58}coun{\k22}tin’ {\k19}mon{\k19}ey {\k38}ho
+Dialogue: 0,0:02:00.67,0:02:03.28,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k58}coun{\k22}tin’ {\k19}mon{\k19}ey {\k27}ho
+Dialogue: 0,0:02:02.65,0:02:04.91,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k20}I'm {\k16}a {\k23}To{\k19}kyo {\k37}gal
+Dialogue: 0,0:02:03.81,0:02:07.87,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k59}Coun{\k20}tin’ {\k21}mon{\k17}ey {\k38}ho {\k59}coun{\k21}tin’ {\k20}mon{\k18}ey {\k29}ho
+Dialogue: 0,0:02:07.11,0:02:10.32,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k18}do{\k23}ko{\k19}ma{\k20}de {\k18}mo {\k22}tsu{\k18}mi{\k20}a{\k18}ge{\k20}te{\k15}ku
+Dialogue: 0,0:02:09.27,0:02:11.21,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Bring {\k14}the {\k56}smoke
+Dialogue: 0,0:02:10.41,0:02:14.41,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k24}u{\k16}za{\k20}ta{\k18}ka{\k77}ku {\k22}ko{\k20}e{\k19}te {\k19}yu{\k48}ku
+Dialogue: 0,0:02:13.54,0:02:17.39,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k21}wa{\k17}ta{\k24}shi {\k19}wo {\k19}mi{\k21}o{\k17}ro{\k20}su {\k18}ma{\k22}te{\k18}n{\k19}ro{\k46}u
+Dialogue: 0,0:02:16.63,0:02:22.69,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k23}so{\k19}ra {\k19}wo {\k21}ki{\k74}ru {\k22}tsu{\k18}ba{\k21}sa {\k19}ha{\k29}ya{\k10}shi{\kf169}te
