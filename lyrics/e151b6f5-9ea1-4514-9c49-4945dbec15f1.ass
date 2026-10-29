@@ -1,0 +1,73 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: ZUKIZUKI
+Original Timing: karaMoe (automatic)
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Choir,Arial,24,&H00FFFFFF,&H007D7DDC,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: JUNNA,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Kotoko Satou,Arial,24,&H00FFFFFF,&H00FFAB00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Duo,Arial,24,&H00FFFFFF,&H00CCFF48,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Legend,Arial,24,&H00FFFFFF,&H00CCFF48,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,2,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:10.00,Legend,,0,0,40,,{\k1000} Duo {\2cFFFFFF}| {\rJUNNA}JUNNA {\2cFFFFFF}| {\rKotoko Satou}Kotoko Satou {\2cFFFFFF}| {\rChoir}Choir
+Comment: 0,0:00:12.03,0:00:12.70,Choir,,0,0,0,karaoke,{\k34}Break {\k33}that!
+Comment: 0,0:00:23.00,0:00:27.86,JUNNA,,0,0,0,karaoke,{\k36}ko{\k64}no {\k70}sai{\k67}bou {\k34}ga {\k31}no{\k52}zom' {\k16}ma{\k10}ma
+Comment: 0,0:00:27.34,0:00:30.25,Choir,,0,0,0,karaoke,{\k72}False {\k60}your{\kf159}self
+Comment: 0,0:00:28.36,0:00:32.58,JUNNA,,0,0,0,karaoke,{\k39}e{\k61}gur' {\k65}kou{\k70}kots' {\k32}ga {\k30}ho{\k54}shii {\k17}ka{\k54}ra
+Comment: 0,0:00:32.59,0:00:33.65,Kotoko Satou,,0,0,0,karaoke,{\k28}a{\k18}ta{\k16}ma {\k16}no {\k16}na{\k12}ka
+Comment: 0,0:00:33.69,0:00:38.78,Kotoko Satou,,0,0,0,karaoke,{\k20}chi{\k15}ra{\k65}bat{\k68}ta {\k67}dou{\k33}ri {\k32}no {\k52}ka{\k18}ke{\kf139}ra
+Comment: 0,0:00:38.05,0:00:43.16,Choir,,0,0,0,karaoke,{\k65}It's {\k31}left {\k36}in {\k135}the {\kf244}past
+Comment: 0,0:00:39.02,0:00:43.40,Kotoko Satou,,0,0,0,karaoke,{\k37}i{\k66}mi {\k67}no {\k64}nai {\k34}mo{\k34}no {\k51}da{\k16}ka{\k69}ra
+Comment: 0,0:00:43.37,0:00:44.74,Choir,,0,0,0,karaoke,{\k17}BA{\k21}RA{\k14}BA{\k19}RA{\k17}BA{\k16}RA{\k17}BA{\k16}RA
+Comment: 0,0:00:44.33,0:00:46.49,Kotoko Satou,,0,0,0,karaoke,{\k38}ku{\k50}rut{\k10}te{\k6}ru {\k18}no {\k16}ga {\k32}fu{\k46}tsuu
+Comment: 0,0:00:46.53,0:00:48.30,Kotoko Satou,,0,0,0,karaoke,{\k16}da{\k18}ka{\k16}ra {\k34}mu{\k52}chuu {\k16}ni {\k16}na{\k9}ru
+Comment: 0,0:00:48.35,0:00:49.99,Kotoko Satou,,0,0,0,karaoke,{\k35}T{\k31}RUE {\k20}su{\k17}gi {\k16}na {\k17}ki{\k28}zuk'
+Comment: 0,0:00:50.36,0:00:51.87,Kotoko Satou,,0,0,0,karaoke,{\k21}ki{\k15}zu{\k16}gu{\k17}chi {\k17}ga {\k15}zu{\k17}ki{\k16}zu{\k28}ki
+Comment: 0,0:00:51.86,0:00:54.11,Kotoko Satou,,0,0,0,karaoke,{\k16}i{\k18}ta{\k18}mu {\k16}no {\k17}ga {\k20}i{\k13}ki{\k16}te {\k16}i{\k17}ru {\k17}shi{\k16}ru{\k25}shi
+Comment: 0,0:00:54.86,0:00:57.87,JUNNA,,0,0,0,karaoke,{\k20}ma{\k16}ji {\k14}de {\k16}i{\k18}ki{\k16}zu{\k17}ra{\k33}kut{\k28}te {\k11}shi{\k46}you {\k19}ga {\k47}nai
+Comment: 0,0:00:57.70,0:00:58.75,Choir,,0,0,0,karaoke,{\k32}Ah-{\k47}ah
+Comment: 0,0:00:58.02,0:01:00.71,JUNNA,,0,0,0,karaoke,{\k19}ko{\k14}no {\k19}se{\k18}ka{\k30}i {\k32}wa {\k53}shou {\k18}mo {\k66}nai
+Comment: 0,0:01:00.49,0:01:01.41,Choir,,0,0,0,karaoke,{\k32}Ah-{\k37}ah
+Comment: 0,0:01:01.04,0:01:03.31,JUNNA,,0,0,0,karaoke,{\k17}i{\k20}tsu{\k29}dat{\k16}te {\k17}kyo{\k34}kou {\k16}no {\k18}mi{\k32}rai {\k28}ni
+Comment: 0,0:01:03.36,0:01:05.42,JUNNA,,0,0,0,karaoke,{\k18}ba{\k16}ka {\k17}ga {\k16}mu{\k34}ra{\k30}gat{\k93}ter'
+Comment: 0,0:01:05.53,0:01:08.40,Kotoko Satou,,0,0,0,karaoke,{\k18}da{\k16}ka{\k17}ra {\k16}ta{\k17}ga {\k16}wo {\k19}ha{\k22}zu{\k10}shi{\k33}te {\k45}mi{\k19}ru {\k39}yo
+Comment: 0,0:01:08.37,0:01:09.23,Choir,,0,0,0,karaoke,{\k32}Ah-{\k37}ah
+Comment: 0,0:01:08.70,0:01:11.43,Kotoko Satou,,0,0,0,karaoke,{\k16}wa{\k16}ga{\k18}ma{\k16}ma {\k44}ni {\k24}a{\k49}ru{\k19}ku {\k71}yo
+Comment: 0,0:01:11.03,0:01:12.02,Choir,,0,0,0,karaoke,{\k41}Ah-{\k58}ah
+Comment: 0,0:01:11.66,0:01:16.31,Kotoko Satou,,0,0,0,karaoke,{\k22}ze{\k15}tsu{\k34}bou {\k16}wo {\k17}gyu{\k33}gyut{\k16}to {\rDuo}{\k18}da{\k30}ki{\k36}shi{\kf134}me{\kf94}te
+Comment: 0,0:01:24.39,0:01:24.86,Choir,,0,0,0,karaoke,{\k47}Yes!
+Dialogue: 0,0:00:11.13,0:00:12.90,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Break {\k33}that!
+Dialogue: 0,0:00:22.10,0:00:28.06,JUNNA,,0,0,0,fx,{\k90\fad(300,200)}{\k36}ko{\k64}no {\k70}sai{\k67}bou {\k34}ga {\k31}no{\k52}zom' {\k16}ma{\k10}ma
+Dialogue: 0,0:00:26.44,0:00:30.45,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k72}False {\k60}your{\kf159}self
+Dialogue: 0,0:00:27.46,0:00:32.78,JUNNA,,0,0,0,fx,{\k90\fad(300,200)}{\k39}e{\k61}gur' {\k65}kou{\k70}kots' {\k32}ga {\k30}ho{\k54}shii {\k17}ka{\k54}ra
+Dialogue: 0,0:00:31.69,0:00:33.85,Kotoko Satou,,0,0,0,fx,{\k90\fad(300,200)}{\k28}a{\k18}ta{\k16}ma {\k16}no {\k16}na{\k12}ka
+Dialogue: 0,0:00:32.79,0:00:38.98,Kotoko Satou,,0,0,0,fx,{\k90\fad(300,200)}{\k20}chi{\k15}ra{\k65}bat{\k68}ta {\k67}dou{\k33}ri {\k32}no {\k52}ka{\k18}ke{\kf139}ra
+Dialogue: 0,0:00:37.15,0:00:43.36,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k65}It's {\k31}left {\k36}in {\k135}the {\kf244}past
+Dialogue: 0,0:00:38.12,0:00:43.60,Kotoko Satou,,0,0,0,fx,{\k90\fad(300,200)}{\k37}i{\k66}mi {\k67}no {\k64}nai {\k34}mo{\k34}no {\k51}da{\k16}ka{\k69}ra
+Dialogue: 0,0:00:42.47,0:00:44.94,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k17}BA{\k21}RA{\k14}BA{\k19}RA{\k17}BA{\k16}RA{\k17}BA{\k16}RA
+Dialogue: 0,0:00:43.43,0:00:46.69,Kotoko Satou,,0,0,0,fx,{\k90\fad(300,200)}{\k38}ku{\k50}rut{\k10}te{\k6}ru {\k18}no {\k16}ga {\k32}fu{\k46}tsuu
+Dialogue: 0,0:00:45.63,0:00:48.50,Kotoko Satou,,0,0,0,fx,{\k90\fad(300,200)}{\k16}da{\k18}ka{\k16}ra {\k34}mu{\k52}chuu {\k16}ni {\k16}na{\k9}ru
+Dialogue: 0,0:00:47.45,0:00:50.19,Kotoko Satou,,0,0,0,fx,{\k90\fad(300,200)}{\k35}T{\k31}RUE {\k20}su{\k17}gi {\k16}na {\k17}ki{\k28}zuk'
+Dialogue: 0,0:00:49.46,0:00:52.07,Kotoko Satou,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ki{\k15}zu{\k16}gu{\k17}chi {\k17}ga {\k15}zu{\k17}ki{\k16}zu{\k28}ki
+Dialogue: 0,0:00:50.96,0:00:54.31,Kotoko Satou,,0,0,0,fx,{\k90\fad(300,200)}{\k16}i{\k18}ta{\k18}mu {\k16}no {\k17}ga {\k20}i{\k13}ki{\k16}te {\k16}i{\k17}ru {\k17}shi{\k16}ru{\k25}shi
+Dialogue: 0,0:00:53.96,0:00:58.07,JUNNA,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ma{\k16}ji {\k14}de {\k16}i{\k18}ki{\k16}zu{\k17}ra{\k33}kut{\k28}te {\k11}shi{\k46}you {\k19}ga {\k47}nai
+Dialogue: 0,0:00:56.80,0:00:58.95,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Ah-{\k47}ah
+Dialogue: 0,0:00:57.12,0:01:00.91,JUNNA,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ko{\k14}no {\k19}se{\k18}ka{\k30}i {\k32}wa {\k53}shou {\k18}mo {\k66}nai
+Dialogue: 0,0:00:59.59,0:01:01.61,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Ah-{\k37}ah
+Dialogue: 0,0:01:00.14,0:01:03.51,JUNNA,,0,0,0,fx,{\k90\fad(300,200)}{\k17}i{\k20}tsu{\k29}dat{\k16}te {\k17}kyo{\k34}kou {\k16}no {\k18}mi{\k32}rai {\k28}ni
+Dialogue: 0,0:01:02.46,0:01:05.62,JUNNA,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ba{\k16}ka {\k17}ga {\k16}mu{\k34}ra{\k30}gat{\k93}ter'
+Dialogue: 0,0:01:04.63,0:01:08.60,Kotoko Satou,,0,0,0,fx,{\k90\fad(300,200)}{\k18}da{\k16}ka{\k17}ra {\k16}ta{\k17}ga {\k16}wo {\k19}ha{\k22}zu{\k10}shi{\k33}te {\k45}mi{\k19}ru {\k39}yo
+Dialogue: 0,0:01:07.47,0:01:09.43,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Ah-{\k37}ah
+Dialogue: 0,0:01:07.80,0:01:11.63,Kotoko Satou,,0,0,0,fx,{\k90\fad(300,200)}{\k16}wa{\k16}ga{\k18}ma{\k16}ma {\k44}ni {\k24}a{\k49}ru{\k19}ku {\k71}yo
+Dialogue: 0,0:01:10.13,0:01:12.22,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k41}Ah-{\k58}ah
+Dialogue: 0,0:01:10.76,0:01:16.51,Kotoko Satou,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ze{\k15}tsu{\k34}bou {\k16}wo {\k17}gyu{\k33}gyut{\k16}to {\rDuo}{\k18}da{\k30}ki{\k36}shi{\kf134}me{\kf94}te
+Dialogue: 0,0:01:23.49,0:01:25.06,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k47}Yes!
