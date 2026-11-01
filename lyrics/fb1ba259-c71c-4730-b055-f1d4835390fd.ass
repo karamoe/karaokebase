@@ -10,17 +10,17 @@ Original Timing: kmeuh
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,1.5,2,10,10,10,1
+Style: spoken,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,1.5,2,10,10,40,1
 Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
 Style: Sample KM [Choir],Arial,24,&H001819FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Comment: 0,0:00:01.76,0:00:05.72,Default,,0,0,0,karaoke,{\k90}La carta del vento, la carta dell'ombra
-Comment: 0,0:00:05.74,0:00:08.46,Default,,0,0,0,karaoke,{\k90}La carta del fulmine, la carta del fiore
-Comment: 0,0:00:08.49,0:00:12.06,Default,,0,0,0,karaoke,{\k90}La carta dello splendore, la carta del cerchio
-Comment: 0,0:00:12.07,0:00:15.50,Default,,0,0,0,karaoke,{\k90}La carta del canto, la carta della forza
+Dialogue: 0,0:00:01.76,0:00:05.72,spoken,,0,0,0,spoken,La carta del vento, la carta dell'ombra
+Dialogue: 0,0:00:05.74,0:00:08.46,spoken,,0,0,0,spoken,La carta del fulmine, la carta del fiore
+Dialogue: 0,0:00:08.49,0:00:12.06,spoken,,0,0,0,spoken,La carta dello splendore, la carta del cerchio
+Dialogue: 0,0:00:12.07,0:00:15.50,spoken,,0,0,0,spoken,La carta del canto, la carta della forza
 Comment: 0,0:00:15.78,0:00:18.40,Sample KM [Up],,0,0,0,karaoke,{\k24}Quan{\k25}te {\k25}car{\k24}te {\k24}da{\k27}van{\k26}ti a {\k87}te
 Comment: 0,0:00:19.02,0:00:21.10,Sample KM [Up],,0,0,0,karaoke,{\k27}Mia {\k26}dol{\k22}ce {\k27}Sa{\k21}ku{\k85}ra
 Comment: 0,0:00:23.66,0:00:26.26,Sample KM [Up],,0,0,0,karaoke,{\k13}Le {\k24}hai {\k23}tro{\k25}va{\k21}te {\k14}in {\k16}un {\k25}li{\k25}bro {\k74}che
@@ -57,10 +57,6 @@ Comment: 0,0:01:54.02,0:01:56.94,Sample KM [Up],,0,0,0,karaoke,{\k27}Dai {\k22}c
 Comment: 0,0:01:57.76,0:02:01.30,Sample KM [Up],,0,0,0,karaoke,{\k26}Pes{\k13}ca {\k12}un'{\k23}al{\k27}tra {\k50}car{\k26}ta {\k48}Sa{\k24}ku{\k105}ra
 Comment: 0,0:02:02.03,0:02:05.42,Sample KM [Up],,0,0,0,karaoke,{\k25}E {\k23}non {\k27}a{\k23}rren{\k27}der{\k71}ti {\k143}mai
 Comment: 0,0:02:05.77,0:02:08.98,Sample KM [Up],,0,0,0,karaoke,{\k25}Pes{\k24}ca {\k25}la {\k25}tua {\k28}car{\k18}ta {\k28}e {\k148}vai
-Dialogue: 0,0:00:00.86,0:00:05.92,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k90}La carta del vento, la carta dell'ombra
-Dialogue: 0,0:00:04.84,0:00:08.66,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k90}La carta del fulmine, la carta del fiore
-Dialogue: 0,0:00:07.59,0:00:12.26,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k90}La carta dello splendore, la carta del cerchio
-Dialogue: 0,0:00:11.17,0:00:15.70,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k90}La carta del canto, la carta della forza
 Dialogue: 0,0:00:14.88,0:00:18.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Quan{\k25}te {\k25}car{\k24}te {\k24}da{\k27}van{\k26}ti a {\k87}te
 Dialogue: 0,0:00:18.12,0:00:21.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Mia {\k26}dol{\k22}ce {\k27}Sa{\k21}ku{\k85}ra
 Dialogue: 0,0:00:22.76,0:00:26.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Le {\k24}hai {\k23}tro{\k25}va{\k21}te {\k14}in {\k16}un {\k25}li{\k25}bro {\k74}che

@@ -8,11 +8,11 @@ Original Timing: Atsuyas
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Sample KM [Up],Arial,24,&H000000FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Sample KM [Up],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:03.90,0:00:03.90,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
 Comment: 0,0:00:04.42,0:00:07.53,Sample KM [Up],,0,0,0,karaoke,{\k10}{\i1}mu{\k21}shi {\k10}su{\k15}ru {\k15}tsu{\k10}mo{\k16}ri {\k15}ga {\k15}ma {\k15}ni {\k5}u{\k15}ke {\k10}ta{\k10}ra{\k10}re{\k16}ba {\k10}ho{\k16}ra {\k10}ma{\k16}ta {\k10}ki{\k10}zu{\k15}tsu{\k5}i{\k11}ta
 Comment: 0,0:00:07.76,0:00:09.60,Sample KM [Up],,0,0,0,karaoke,{\k40}na{\k8}ni {\k27}yat{\k10}te {\k6}mo {\k5}u{\k16}ma{\k12}ku {\k9}i{\k12}ka{\k39}nai
 Comment: 0,0:00:09.50,0:00:12.10,Sample KM [Up],,0,0,0,karaoke,{\k19}nou{\k21}nai {\k15}ja {\k29}sen{\k20}sou {\k12}da {\k24}mon {\k15}ne, {\k21}tsut{\k22}ta{\k11}tte{\k30}tat{\k21}te

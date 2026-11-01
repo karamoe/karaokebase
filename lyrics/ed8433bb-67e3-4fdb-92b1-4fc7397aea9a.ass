@@ -10,11 +10,11 @@ Original Timing: YorokobeZasshu
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Sample KM [Up],Arial,24,&H000000FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Sample KM [Up],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:20.60,0:00:22.60,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
 Comment: 0,0:00:14.40,0:00:16.70,Sample KM [Up],,0,0,0,karaoke,{\k9} {\k25}gen{\k25}ji{\k14}tsu {\k20}tou{\k19}hi {\k14}no {\k28}nou{\k32}nai {\k61}de
 Comment: 0,0:00:16.87,0:00:19.08,Sample KM [Up],,0,0,0,karaoke,{\k26}an{\k33}nei {\k25}no {\k17}yu{\k13}me {\k8}mu{\k25}sa{\k25}bot{\k49}te
 Comment: 0,0:00:19.08,0:00:21.13,Sample KM [Up],,0,0,0,karaoke,{\k8} {\k31}non{\k15}ki {\k12}na {\k31}hei{\k16}wa {\k16}ga {\k18}i{\k12}tsu {\k14}ma{\k13}de {\k19}mo

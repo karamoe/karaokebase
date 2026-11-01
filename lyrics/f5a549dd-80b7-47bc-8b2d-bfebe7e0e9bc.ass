@@ -10,11 +10,11 @@ Original Timing: Nemesise
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Harusaruhi,Arial,24,&H000000FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Harusaruhi,Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,Harusaruhi,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
 Comment: 0,0:00:00.18,0:00:02.72,Harusaruhi,,0,0,0,karaoke,{\k13}to{\k21}ke{\k9}ru {\k32}ko{\k21}to {\k29}na{\k30}i {\k28}kan{\k31}shou {\k40}wo
 Comment: 0,0:00:02.75,0:00:05.19,Harusaruhi,,0,0,0,karaoke,{\k30}mi{\k21}na{\k31}mo {\k30}ni {\k26}u{\k34}ka{\k27}be{\k45}te
 Comment: 0,0:00:05.49,0:00:07.92,Harusaruhi,,0,0,0,karaoke,{\k28}mi{\k22}tsu{\k29}ke{\k33}ta {\k32}e{\k22}n{\k39}sa {\k38}ni
