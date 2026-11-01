@@ -1,0 +1,15 @@
+---
+header:
+  description: Karaoke Mugen Hook File
+  version: 1
+hook:
+  name: (Franchise) Tantei wa Mô, Shinde Iru.
+  repository: kara.moe
+  conditions:
+    tagPresence:
+    - 75612a46-1643-47a8-b19f-21634c1b51b9 # Tantei wa Mô, Shinde Iru.
+    - cf9a29a5-7b1f-43e7-91c8-ee2ce063c93d # Tantei wa Mô, Shinde Iru. Season 2
+  actions:
+    addTag:
+    - tid: f7bd72ae-fe4e-4adf-97eb-9b0c21d7baf5 # Tantei wa Mô, Shinde Iru.
+      type: 18
