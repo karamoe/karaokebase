@@ -368,6 +368,379 @@ New songs : 302
 - JPN, KOR - NewJeans - MV - Supernatural (ono3000)
 - SPA - Clio Aite - MV - Tequila - Clio ver. \~ Cover Vers (Ichinyaaan)
 
+# September 2026
+
+Kara count: 30 864
+
+Contributors:
+
+- Azuli_E86
+- Azurys
+- Bakaclub
+- Cygfir
+- DaBi
+- DaftPakkun
+- Defty
+- Demoto
+- GahyeonEnjoyer
+- Hakken
+- Hanaku
+- HayatoKurokami
+- Himbeeerchen
+- Holmg
+- Ichinyaaan
+- IkuY
+- ItoVeVe
+- IvannAkiyama
+- KazamaAsu
+- Kuro_Yuki_
+- Kylian
+- Lasagna
+- Leonmachar
+- Louis Royer
+- M.C.K/Fox
+- Manos
+- Mathxxl
+- MediumRare
+- Miryuni
+- Naruse
+- Nemesise
+- NikoNikoD
+- Nock
+- Nodamin
+- Pafnaffan
+- Pingoleon3000
+- PrZozor
+- Pyrospower
+- Seruuuu
+- Sinclair
+- Skytree
+- Sodachi
+- Spotty Len
+- Tdude
+- TenmaWorks
+- Thaksin
+- TheMio
+- Timmy Does
+- Tnight
+- Uwhipa
+- Variabels
+- Voltaik
+- Xashy
+- XxoT_Yue
+- Yothiel
+- asdFer
+- clockingoutontime
+- drferno
+- dziugaske
+- fabthehedgehog
+- jekkt01
+- kmeuh
+- lilo3005
+- meulahke
+- natsumi
+- ono3000
+- pecka
+- puyo
+- quotidious
+- red5h4d0w
+- removecroissant
+- torash
+- vicktoben
+
+## Added
+
+New songs : 288
+
+- CHI - Shànghǎi Tān - MV - Shànghǎi Tān (quotidious)
+- CHI, ENG - Zenless Zone Zero - PV - Come Alive (XxoT_Yue)
+- ENG - AEW - AMV - Elevated (NikoNikoD)
+- ENG - Amelia Watson - REMIX AUDIO - I'm Mining \~ Cover Vers (Tnight)
+- ENG - Baelz Hakos - AUDIO - 818 (Uwhipa)
+- ENG - Baelz Hakos - AUDIO - Ride (Uwhipa)
+- ENG - Cardfight!! Vanguard: Divinez Deluxe Kesshô-hen - IN - Lunatic Keeper (HayatoKurokami)
+- ENG - DryftiN - MV - /REND (Himbeeerchen)
+- ENG - EPIC: The Musical - The Cut Saga - AMV - Appetite (Pyrospower)
+- ENG - Eiffel 65 - MV - Move Your Body (NikoNikoD)
+- ENG - Eimi Isami - MV - Dissonance (Ichinyaaan)
+- ENG - Eimi Isami - MV - NOT CUTE ANYMORE \~ Cover Vers (Ichinyaaan, puyo)
+- ENG - Eimi Isami, Muu Muyu - MV - Beauty and a Beat - Eimi and Muyu ver. \~ Cover Vers (vicktoben, Ichinyaaan)
+- ENG - Equestria Girls: Rainbow Rocks - MOVIE IN - Welcome to the Show (Variabels)
+- ENG - Fate/Strange Fake - AMV - AVALONIAN (Holmg)
+- ENG - Genshin Impact - GAME IN - Come and build a snowman (NikoNikoD)
+- ENG - KASA - GAME SWITCH AMV - Flower Man \~ Cover Vers (Pafnaffan)
+- ENG - KATSEYE - MV - Animal (ono3000)
+- ENG - KATSEYE - MV - Debut (ono3000)
+- ENG - KATSEYE - MV - Gameboy (ono3000)
+- ENG - KATSEYE - MV - Gnarly (ono3000)
+- ENG - KATSEYE - MV - M.I.A (ono3000)
+- ENG - KATSEYE - MV - PINKY UP (ono3000)
+- ENG - Mari Mari - MV - My Oh My \~ Mari Mari Vers. \~ Cover Vers (Ichinyaaan)
+- ENG - Ollie Kureiji - AUDIO - Speed (Tnight)
+- ENG - Persona 3 - GAME PS2 AUDIO - When The Moon's Reaching Out Stars (lilo3005)
+- ENG - Persona 3 Reload - GAME XBOXONE AUDIO - Color Your Night (lilo3005)
+- ENG - Project Perseverance - MV - gremtember \~ Cover Vers (M.C.K/Fox)
+- ENG - Ringing Fate - ONA OVA IN - Listen To Your Heartbeat (HayatoKurokami)
+- ENG - Shiguang Dailiren II - IN - Flash (Voltaik)
+- ENG - Tekken 8 - GAME PC AUDIO - My Last Stand (M.C.K/Fox)
+- ENG - That Handsome Devil - MV - Charlie's Inferno (jekkt01)
+- ENG - Vargskelethor Joel - AUDIO - Divorced By Car (Muffler) (Seruuuu)
+- ENG - XenobladeX - GAME AMV - Melancholia (Pingoleon3000, XxoT_Yue)
+- ENG - hololive English -Myth- - MV - THIS IS MYTH (Cygfir)
+- ENG, JPN - Boruto: Naruto Next Generations - ED12 - Fireworks (GahyeonEnjoyer)
+- ENG, JPN - Gakuen iDOLM@STER - MV - Katamari on the Doun (DaBi)
+- ENG, JPN - ILLIT - AUDIO - Swingin’ Magic (Nemesise)
+- ENG, JPN - Kuhaku Gokko - MV - Little Bit (Defty)
+- ENG, JPN - Love Live! Nijigasaki Gakuen School Idol Dôkôkai - AUDIO - Monochrome Labyrinth (Azurys)
+- ENG, JPN - Love Live! Superstar!! - LIVE - Rhythm (torash, Azurys)
+- ENG, JPN - NEK! - MV - Get Over (IvannAkiyama)
+- ENG, JPN - Uma Musume: Pretty Derby - AUDIO - Kakushinteki⇔Supernova (Nemesise)
+- ENG, JPN - Yôjo Senki II - MV - Why? RED induction \~ Full Vers (clockingoutontime, Naruse)
+- ENG, KOR - NewJeans - MV - ETA (ono3000)
+- ENG, KOR - aespa - MV - LEMONADE (ono3000)
+- ENG, SPA - KATSEYE - MV - Gabriela (ono3000)
+- FIN - Korpiklaani - MV - Viinamäen Mies (drferno)
+- FRE - ALIEN STAGE - ONA IN - KARMA \~ Cover Vers (natsumi)
+- FRE - Aishite Knight - AUDIO IN - Fire (DaftPakkun)
+- FRE - Jonathan Barré - MOVIE MV - L'Autoroute de l'amour (Nock)
+- FRE - Mister MV - STREAM - Papayou (fabthehedgehog)
+- FRE - Oliver & Compagnie - MOVIE IN - En Bonne Compagnie (NikoNikoD)
+- FRE - Oliver & Compagnie - MOVIE IN - Il était une fois à New York City (NikoNikoD)
+- FRE - Oliver & Compagnie - MOVIE IN - La Perfection, c'est Moi (NikoNikoD)
+- FRE - Show-Case Recording - MV - Apéro (Spotty Len)
+- JPN - Akane Lize - MV - Batsubyou \~ Cover Vers (Sodachi)
+- JPN - Akuruyo no Hitsuji - MV - Hibi wo Koete \~ Full Vers (Nemesise)
+- JPN - Amaenaide yo!! Katsu!! - OP - Amaenaide yo!! (NikoNikoD)
+- JPN - Amagami-san Chi no Enmusubi - AUDIO - Kimi ni Koi wo Musunde \~ Full Vers (Kylian)
+- JPN - Azur Lane - MV - BLUE SIGNAL (Nemesise)
+- JPN - BULLBUSTER - OP - Try · Lai · Lai (NikoNikoD)
+- JPN - Baldr Force Exe Resolution - OVA OP - Face of Fact -RESOLUTION ver.- (NikoNikoD)
+- JPN - BanG Dream! Girls Band Party! - GAME MV - Kono Aoki Yami to Hikari (IvannAkiyama)
+- JPN - BanG Dream! Our Notes - AUDIO - Narasu (Nemesise)
+- JPN - BanG Dream! Our Notes - GAME AUDIO - A Song Of Romance (IvannAkiyama)
+- JPN - BanG Dream! Yume∞Mita - IN - Ai wa Shoudou (Naruse)
+- JPN - BanG Dream! Yume∞Mita - IN - in my words (Naruse)
+- JPN - Bishôjo Senshi Sailor Moon R: Make-Up! Sailor Senshi - MOVIE IN - STAR LIGHT ni Kiss Shite (HayatoKurokami)
+- JPN - Black Cat - ED2 - Kutsuzure (HayatoKurokami)
+- JPN - Chloe Sakamata, Kanata Amane - MV - Tenkaidokyuu Oshigoto Road (Cygfir)
+- JPN - Chôjûshin Gravion Zwei - ED - LA♪LA♪BYE (HayatoKurokami)
+- JPN - Cosmic Baton Girl Comet-san☆ - ED2 - Hoshi no Parade☆ (HayatoKurokami)
+- JPN - Dance Dance Danseur - ED - Kaze, Hana (Azuli_E86)
+- JPN - Denpa Kyôshi (2015) - OP1 - Youthful Dreamer (NikoNikoD)
+- JPN - Denpa Kyôshi (2015) - OP2 - vivid brilliant door! (NikoNikoD)
+- JPN - EasyPop - AUDIO - Happy Synthesizer (natsumi)
+- JPN - Ensemble Stars! (anime) - IN - Sajô no Rôkaku (HayatoKurokami)
+- JPN - Ensemble Stars! - GAME MV - Joyful Box (Skytree)
+- JPN - Ensemble Stars! - GAME MV - Mémoire Antique (Skytree)
+- JPN - Ensemble Stars! - GAME MV - Twilight Pentagram (Variabels)
+- JPN - Ensemble Stars!! -Road to Show!!- - MOVIE ED - Life is so Dramatic!! (Variabels)
+- JPN - Ensemble Stars!! -Road to Show!!- - MOVIE ED - Life is so Dramatic!! \~ Off Vocal Vers (Variabels)
+- JPN - Ensemble Stars!! -Road to Show!!- - MOVIE MV - Life is so Dramatic!! \~ Short Vers (Variabels)
+- JPN - Fate/stay night: Unlimited Blade Works Movie - MOVIE ED - Voice \~Tadoritsuku Basho\~ (HayatoKurokami)
+- JPN - Fubuki Shirakami - MV - Glow Embrace (Cygfir)
+- JPN - Fubuki Shirakami - MV - LOVE 2000 \~ Cover Vers (Louis Royer, dziugaske)
+- JPN - Fubuki Shirakami - MV - SUPERNOVA \~ Short Vers (Cygfir)
+- JPN - Fubuki Shirakami - MV - ●utlaws \~ Cover Vers (Uwhipa)
+- JPN - Fushigi Yûgi OVA (1996) - OVA ED2 - Ashita wa Ii Hi ni Naru (HayatoKurokami)
+- JPN - Gachiakuta - ED2 - BAN (Azuli_E86)
+- JPN - Gakuen iDOLM@STER - AUDIO - Be proud (Sodachi)
+- JPN - Gakuen iDOLM@STER - AUDIO - Itsuka no Watashi (DaBi)
+- JPN - Gakuen iDOLM@STER - AUDIO - Kaisou Lullaby (DaBi)
+- JPN - Gakuen iDOLM@STER - AUDIO - Me (Sodachi)
+- JPN - Gakuen iDOLM@STER - AUDIO - ORDER FAKE (Sodachi)
+- JPN - Gakuen iDOLM@STER - AUDIO - Shugakuryokou (DaBi)
+- JPN - Gakuen iDOLM@STER - AUDIO - nazonazo (DaBi)
+- JPN - Gakuen iDOLM@STER - LIVE - Be proud (Sodachi)
+- JPN - Gakuen iDOLM@STER - LIVE - Me (Sodachi)
+- JPN - Gakuen iDOLM@STER - LIVE - My Stage (Sodachi)
+- JPN - Gakuen iDOLM@STER - LIVE - ORDER FAKE (Sodachi)
+- JPN - Gakuen iDOLM@STER - LIVE - Riron Busô Shite (Sodachi)
+- JPN - Gakuen iDOLM@STER - MV - Akogare wo Ippai (DaBi)
+- JPN - Gakuen iDOLM@STER - MV - Gamushara ni Ikou! (DaBi)
+- JPN - Gakuen iDOLM@STER - MV - Kin no Ono, Gin no Ono, Emerald no Ono (DaBi)
+- JPN - Gakuen iDOLM@STER - MV - Let's GO!! ICHI-NO-NI!! (DaBi)
+- JPN - Gakuen iDOLM@STER - MV - Michinaru Hirogaru (Sodachi)
+- JPN - Gakuen iDOLM@STER - MV - Tokimeki no Solfège (DaBi)
+- JPN - Gakuen iDOLM@STER - MV - Unhappy Light (Sodachi)
+- JPN - Gekijôban Ansatsu Kyôshitsu: Minna no Jikan - MOVIE MV - Teacher (Nemesise)
+- JPN - Gekijôban Kimetsu no Yaiba: Mugen-jô Hen - MOVIE ED - Zankoku na Yoru ni Kagayake (TenmaWorks)
+- JPN - Gekijôban Meitantei Precure! Fushigi na Niwa to Futari no Himitsu - AUDIO - FIRST PRISM \~ Full Vers (Nemesise)
+- JPN - Genshin Impact - GAME PC IN - Yukidaruma Tsugurimashou (NikoNikoD)
+- JPN - Ghost Meets Gal! - ED - Nikoichi Mirai (HayatoKurokami)
+- JPN - Ghost Sweeper Mikami - ED - BELIEVE ME (HayatoKurokami)
+- JPN - Girls und Panzer: Motto Love Love Sakusen desu! - MOVIE ED2 - Iie! Motto LOVE Deshô? \~Can't Stop Tank Love\~ (PrZozor)
+- JPN - Gotôbun no Hanayome* - SPECIAL ED - Memories (HayatoKurokami)
+- JPN - Grand Blue Season 3 - ED - Hadaka no Mermaid (Kylian)
+- JPN - Grand Blue Season 3 - OP - Natsuko (Defty)
+- JPN - Hachimitsu to Clover II - IN - Je t'aime \~ Acoustic Vers (HayatoKurokami)
+- JPN - Hengen Taima Yakô Karura Mau! Sendai Kokeshi Enka - OVA ED - Tenohira ni Yume wo no se (HayatoKurokami)
+- JPN - Henrii, nenne - MV - Creamsoda and Chandelier (Sinclair)
+- JPN - Hiatari Ryôkô! - IN - Boys in Love (ItoVeVe)
+- JPN - Hiatari Ryôkô! - OP2 - Kaette Kita Machikado (ItoVeVe)
+- JPN - Hitozukiai ga Nigate na Mibôjin no Yukionna-san to Noroi no Yubiwa - ED - Chou Cream (Nemesise)
+- JPN - Hololive Dreams - GAME AUDIO - GHOST \~ Short Vers (Nodamin, Variabels)
+- JPN - Idoly Pride - GAME MV - Bittersweet Echo (Naruse)
+- JPN - Idoly Pride - GAME MV - Blow Up (Naruse)
+- JPN - Idoly Pride - GAME MV - Inside Out (Naruse)
+- JPN - Idoly Pride - GAME MV - Night Pool (Naruse)
+- JPN - Ikizu Live! LOVE LIVE! BLUEBIRD - LIVE - Tale of Primavera (DaBi)
+- JPN - Ikizu Live! LOVE LIVE! BLUEBIRD - MV - Tale of Primavera (DaBi)
+- JPN - Itazura na Kiss - ED1 - Kataomoi Fighter (HayatoKurokami)
+- JPN - I★Chu: Halfway Through the Idol - IN - Bokura no Oto (HayatoKurokami)
+- JPN - K-ON!! - LIVE - No, Thank You! \~ Full Vers (kmeuh, Leonmachar)
+- JPN - KAITO, Miku Hatsune - MV - Cantarella (Bakaclub, Lasagna)
+- JPN - KAITO, Miku Hatsune - MV - Cantarella \~ Off Vocal Vers (Bakaclub, Lasagna)
+- JPN - Kami Kuzu☆Idol - OP - Let's ZING! (NikoNikoD)
+- JPN - Kanade Otonose - MV - Kanade \~ Cover Vers (PrZozor)
+- JPN - Kanojo mo Kanojo Season 2 - MV - Dramatic ni Koi Shitai \~ Full Vers (Kylian)
+- JPN - Kikuo - MV - Batsu Neko (Himbeeerchen)
+- JPN - Kimi ga Shinu made Koi wo Shitai - IN - Cookie & Cream (Nemesise)
+- JPN - Kochira Katsushika-ku Kameari Kôenmae Hashutsujo - ED8 - Mainichi, No Problem (HayatoKurokami)
+- JPN - Kono Aozora ni Yakusoku wo: Yôkoso Tsugumi-ryô he - ED - Aozora no Fantasia (HayatoKurokami)
+- JPN - Koori no Jôheki 2nd Season - ED - Hanakage (Nemesise, HayatoKurokami)
+- JPN - Kunoichi Tsubaki no Mune no Uchi - ED8 - Akane-gumi Katsudou Nisshi \~I-han\~ (NikoNikoD)
+- JPN - Lady Lady!! - ED - Futari dake no Moonlight (HayatoKurokami)
+- JPN - LiSA - LIVE - best day, best way (NikoNikoD)
+- JPN - LiSA - MV - DECOTORA15 (NikoNikoD)
+- JPN - Link! Like! Love Live! - AUDIO - Anna ni Issho Datta no Ni \~ Cover Vers (DaBi, fabthehedgehog)
+- JPN - Link! Like! Love Live! - AUDIO - Aozora Jumping Heart \~ Cover Vers (Thaksin, Azurys, DaBi)
+- JPN - Link! Like! Love Live! - AUDIO - BOW AND ARROW \~ Cover Vers (HayatoKurokami, DaBi)
+- JPN - Link! Like! Love Live! - AUDIO - Blessing \~ Cover Short Vers (DaBi)
+- JPN - Link! Like! Love Live! - AUDIO - Bokura wa Ima no Naka de \~ Cover Vers (Mathxxl, Variabels, DaBi)
+- JPN - Link! Like! Love Live! - AUDIO - Connect \~ Cover Vers (DaBi, kmeuh)
+- JPN - Link! Like! Love Live! - AUDIO - Gekkô \~ Cover Short Vers (Mathxxl, DaBi)
+- JPN - Link! Like! Love Live! - AUDIO - Hitoshizuku \~ Cover Vers (IkuY, DaBi)
+- JPN - Link! Like! Love Live! - AUDIO - Kimagure Romantic \~ Cover Short Vers (Louis Royer, DaBi)
+- JPN - Link! Like! Love Live! - AUDIO - Niji-iro Passions! \~ Cover Vers (Mathxxl, DaBi)
+- JPN - Link! Like! Love Live! - AUDIO - Romeo and Cinderella \~ Cover Short Vers (asdFer, Lasagna, DaBi)
+- JPN - Link! Like! Love Live! - AUDIO - Rondo-Revolution \~ Cover Vers (meulahke, Azuli_E86, DaBi)
+- JPN - Link! Like! Love Live! - AUDIO - Shocking Party \~ Cover Vers (Miryuni, DaBi)
+- JPN - Link! Like! Love Live! - AUDIO - diamondz (DaBi)
+- JPN - Link! Like! Love Live! - AUDIO1 - START!! True dreams \~ Cover Vers (Mathxxl, DaBi)
+- JPN - Link! Like! Love Live! - GAME AUDIO - Zattô, Bokura no Machi \~ Cover Vers (Hanaku, Azurys)
+- JPN - Link! Like! Love Live! - LIVE - Sayo-Shigure (torash, Azurys)
+- JPN - Link! Like! Love Live! - MV - Blue Moment (DaBi)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Dôkôkai - AUDIO - Fly into the sky (Sodachi)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Dôkôkai - AUDIO - YES! to Tomorrow (Sodachi)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Dôkôkai - LIVE - Meccha Going!! (Hanaku)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Dôkôkai - LIVE - Nijiiro☆Lumiere (Hanaku)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Dôkôkai - LIVE - Starlight (Hanaku)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Dôkôkai - LIVE - The Sweetest Time♡ (Hanaku)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Dôkôkai - LIVE - VIVA! (Hanaku)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Dôkôkai: Kanketsu-hen 2 - MOVIE AUDIO - Yakusoku ni Nare Bokura no Uta (DaBi)
+- JPN - Love Live! School Idol Musical - AUDIO - Atarashii Chance (DaBi)
+- JPN - Love Live! School Idol Musical - AUDIO - Heibon na Mirai (DaBi)
+- JPN - Love Live! School Idol Musical - AUDIO - Hossoku! Tsubakisakuhana Idol Club (DaBi)
+- JPN - Love Live! School Idol Musical - AUDIO - Itsuka Watashi mo (DaBi)
+- JPN - Love Live! School Idol Musical - AUDIO - Kagayakashii Mirai (DaBi)
+- JPN - Love Live! School Idol Musical - AUDIO - Nakushite Hajimete Kizuku Koto (DaBi)
+- JPN - Love Live! School Idol Project - AUDIO - Puwa Puwa-O! (torash)
+- JPN - Love Live! Sunshine!! - AUDIO - Aikotoba (DaBi)
+- JPN - Love Live! Sunshine!! - AUDIO - Aru Hi...Eien Mitai ni! (DaBi)
+- JPN - Love Live! Sunshine!! - AUDIO - Braveheart Coaster (Sodachi)
+- JPN - Love Live! Sunshine!! - AUDIO - RED GEM WINK (DaBi)
+- JPN - Love Live! Sunshine!! - AUDIO - Wake up, Challenger!! (Hanaku)
+- JPN - Love Live! Sunshine!! - AUDIO - peace piece pizza (Sodachi)
+- JPN - Love Live! Sunshine!! - LIVE - Shoujo Ijou no Koi ga Shitai (Hanaku)
+- JPN - Love Live! Superstar!! - LIVE - Luca (torash, Sodachi)
+- JPN - Love Live! Superstar!! - LIVE - Musubiba (torash, Sodachi)
+- JPN - Love Live! Superstar!! - LIVE - Orange no Mama de (Azurys)
+- JPN - Love Live! Superstar!! - LIVE - Over Over (torash, Sodachi)
+- JPN - Love Live! Superstar!! - LIVE - Sagashite! Future (torash, Sodachi)
+- JPN - Love Live! Superstar!! - LIVE - Sky Linker (Sodachi, torash)
+- JPN - Love Live! Superstar!! - LIVE - Utopia Magic \~ 11 Members Vers. (Xashy, torash)
+- JPN - Love Live! Superstar!! - MV - Mebae (torash)
+- JPN - Mahô Shôjo Lyrical Nanoha EXCEEDS: Gun Blaze Vengeance - IN - Anchor Flame (HayatoKurokami)
+- JPN - Maison Ikkoku - IN - Aoi Hitomi no Eris (HayatoKurokami)
+- JPN - Megami Tengoku - OVA ED - DREAMING HEART (HayatoKurokami)
+- JPN - Meitantei Conan - OP62 - Ai no FIRE (Azuli_E86)
+- JPN - Meitantei Conan: Tenkuu no Lost Ship - MOVIE ED - Over Drive (Kylian)
+- JPN - Meitantei Precure! - ED3 - FIRST PRISM (Nemesise)
+- JPN - Miko Sakura - MV - Sakihokore Idol (Tdude)
+- JPN - Miku Hatsune - MV - LOL -lots of laugh- (Lasagna)
+- JPN - Miku Hatsune - MV - LOL -lots of laugh- \~ Off Vocal Vers (Lasagna)
+- JPN - Miku Hatsune - MV - Ren'ai Philosophia (Lasagna)
+- JPN - Miku Hatsune - MV - Ren'ai Philosophia \~ Off Vocal Vers (Lasagna)
+- JPN - Miku Hatsune - MV - Romeo and Cinderella \~ Off Vocal Vers (asdFer, Lasagna)
+- JPN - Mirai Keisatsu Urashiman - IN - Fire Dancing (HayatoKurokami)
+- JPN - Mushoku Tensei III: Isekai Ittara Honki Dasu - IN - Shûen no Honoo (Nemesise)
+- JPN - NEK! - MV - Dreams!!!! (IvannAkiyama)
+- JPN - NEK! - MV - MUTE (IvannAkiyama)
+- JPN - NEK! - MV - Reigen Shoujo (IvannAkiyama)
+- JPN - NEK! - MV - Scrap Book (IvannAkiyama)
+- JPN - Nako Misaki - MV - Ao no Ashiato (Azurys)
+- JPN - Naruto - ED8 - Hajimete Kimi to Shabetta (KazamaAsu)
+- JPN - Naruto - OP5 - Seishun Kyôsôkyoku (KazamaAsu, fabthehedgehog)
+- JPN - Natsuki Karin - AUDIO - Christmas Slop (Defty)
+- JPN - Nene Momosuzu - MV - Nenenenenenenene Daibakusou (dziugaske)
+- JPN - Nene Momosuzu - MV - Tetoris \~ Cover Vers (removecroissant, Manos)
+- JPN - Niji-iro Days - OP1 - Best Friend (NikoNikoD)
+- JPN - Niji-iro Days - OP2 - ONE-SIDED LOVE (NikoNikoD)
+- JPN - Nippon Sangoku - ED - Chikai (Azuli_E86)
+- JPN - Nukitashi the Animation - ED - Saikai-kei Joshi wa Dôsurya Ii Desuka? (Voltaik)
+- JPN - Omakase Scrappers - OP - Midnight Jungle (HayatoKurokami)
+- JPN - Onegai Teacher - MV - I can't get over your best smile (Yothiel)
+- JPN - Onsen Yôsei Hakone-chan - OP - Hakone Hakoiri Musume (NikoNikoD)
+- JPN - Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken 2 - MV - Heavy Rotation \~ Cover Full Vers (Kuro_Yuki_, Thaksin)
+- JPN - Outoto no Ane - MV - Mirishira Romeo to Cinderella (Lasagna)
+- JPN - PLAVE - MV - Flame (NikoNikoD)
+- JPN - Paris ni Saku Étoile - MOVIE ED - Kaze ni Noru (Nemesise)
+- JPN - Penthouse - MV - Ichiran (Holmg)
+- JPN - Pokémon (2023) - ED6 - Nete mo Samete mo (HayatoKurokami)
+- JPN - Princess Connect! Re:Dive - ED2 - Connecting Happy!! (pecka)
+- JPN - Princess-Session Orchestra - IN - Signal Lyrical (Timmy Does)
+- JPN - Project SEKAI the Movie: Kowareta SEKAI to Utaenai MIKU - MOVIE IN - SToRY (HayatoKurokami)
+- JPN - Ranma ½ - ED9 - Niji to Taiyô no Oka (HayatoKurokami)
+- JPN - Re:Zero kara Hajimeru Isekai Seikatsu -DEATH OR KISS- - GAME PS4 OP - yell! \~Kuchibiru kara Hajimaru Mahô\~ (Nemesise)
+- JPN - Re:Zero kara Hajimeru Isekai Seikatsu -INFINITY- - GAME CS MV - Two Colors (Nemesise)
+- JPN - Re:Zero kara Hajimeru Isekai Seikatsu 3rd Season - AUDIO - Kenki Renka Dai Ni Maku \~ Full Vers (Nemesise)
+- JPN - Re:Zero kara Hajimeru Isekai Seikatsu 3rd Season - IN - Kenki Renka Dai Ni Maku (Nemesise)
+- JPN - Re:Zero kara Hajimeru Isekai Seikatsu 3rd Season - IN - Minamo ni Yureru Priestella (Nemesise)
+- JPN - Renmei Kuugun Koukuu Mahou Ongakutai: Luminous Witches - IN - Masshiro Ribbon (HayatoKurokami)
+- JPN - Rosenthal Aki, dtto. - MV - Departure \~ Cover Vers (Cygfir)
+- JPN - Sachiko Kobayashi - MV - Romeo and Cinderella \~ Cover Vers (asdFer, Lasagna)
+- JPN - Saijo no Osewa: Takane no Hanadarake na Meimonkô de, Gakuin Ichi no Ojô-sama (Seikatsu Nôryoku Kaimu) wo Kagenagara Osewa suru Koto ni Narimashita - OP - Sai Sai Saikoukyû no Osewa Shite (NikoNikoD)
+- JPN - Sakura-sô no Pet na Kanojo - ED - Prime number \~Kimi to Deaeru Hi\~ \~ Full Vers (Kylian)
+- JPN - Shin Bikkuriman - OP - Saint Jewel wo Sagase! (HayatoKurokami)
+- JPN - Shiotaiô no Satô-san ga Ore ni dake Amai - ED - Hatsukoi Reply (Nemesise)
+- JPN - Shûmatsu Touring - OP - Touring (NikoNikoD)
+- JPN - Sora wa Akai Kawa no Hotori - OP - Akatsuki no Sora (NikoNikoD)
+- JPN - Sound! Euphonium: The Final Movie Part 2 - MOVIE MV - ReCoda \~ The Final Movie Vers. (kmeuh, Azurys)
+- JPN - Steel Ball Run: JoJo no Kimyô na Bôken - ONA OP - SPIN (Variabels)
+- JPN - Strike the Blood - ED1 - Strike my soul (NikoNikoD)
+- JPN - Superfly - AUDIO - Hanakage \~ Full Vers (Nemesise)
+- JPN - THE iDOLM@STER - AUDIO - Flower Knows (Nemesise)
+- JPN - THE iDOLM@STER - AUDIO - Flower Knows \~ Off Vocal Vers (Nemesise)
+- JPN - THE iDOLM@STER - LIVE - Flower Knows (Nemesise)
+- JPN - THE iDOLM@STER Cinderella Girls Starlight Stage - AUDIO - Nautilus Sonar \~ Full Off Vocal Vers (Nemesise)
+- JPN - THE iDOLM@STER Cinderella Girls Starlight Stage - AUDIO - Nautilus Sonar \~ Full Vers (Nemesise)
+- JPN - THE iDOLM@STER Cinderella Girls Starlight Stage - GAME MV - Nautilus Sonar (Nemesise)
+- JPN - THE iDOLM@STER Million Live! - MV - Ittan Aishite♡ (DaBi)
+- JPN - THE iDOLM@STER Shiny Colors - AUDIO - Ginyoku no Allegiance -blade of truth- (Nemesise)
+- JPN - THE iDOLM@STER Shiny Colors - AUDIO - Ginyoku no Allegiance -blade of truth- \~ Off Vocal Vers (Nemesise)
+- JPN - THE iDOLM@STER Shiny Colors - LIVE - Ginyoku no Allegiance -blade of truth- (Nemesise)
+- JPN - Takane no Nadeshiko - MV - Bokura no ao (Hanaku)
+- JPN - Takane no Nadeshiko - MV - Ikiteryaii (Hanaku)
+- JPN - Tele - MV - Glass no Sen \~ Full Vers (Sinclair)
+- JPN - Tensei Kizoku, Kantei Skill de Nariagaru 3rd Season - ED - Hibi wo Koete (Nemesise)
+- JPN - Tokyo Revengers: Santen Sensô-hen - AUDIO - TRICK STAR \~ Full Vers (Nemesise)
+- JPN - Tommy heavenly6 - MV - Pray \~ Full Vers (clockingoutontime, fabthehedgehog)
+- JPN - Tongari Bôshi no Atelier - MV - Wind’s Anthem \~ Full Vers (Kylian)
+- JPN - Tôka Gettan - ED - Kono Sekai ga Itsuka wa (Nemesise)
+- JPN - Ultraman Omega - OP - BRIGHT EYES (Timmy Does)
+- JPN - Uma Musume: Pretty Derby - GAME MV - Beyond \~ Sakura Chiyono O Vers. (DaBi)
+- JPN - UtsuP - MV - Ikiryô (Himbeeerchen)
+- JPN - UtsuP,DevilishP,Kuma - MV - Ghost Under the Umbrella (Himbeeerchen)
+- JPN - Vaundy - MV - Koikaze ni nosete (MediumRare)
+- JPN - Vertex Force - OP - Synchro Blue (Nemesise)
+- JPN - Watame Tsunomaki - MV - My song \~ Short Vers (kmeuh, yt2ass, Cygfir)
+- JPN - Yuru Yuri II - AUDIO IS - Happy Time wa Owaranai (Defty)
+- JPN - haku. - MV - The Spaceship Heart (Demoto, TheMio)
+- JPN - millsage - MV - everscape (red5h4d0w)
+- JPN - okameP - AUDIO - Miserere Novice (Hakken)
+- JPN - yuiko (Primary) - AUDIO - Inai Sekai (Defty)
+- JPN - Ôshitsu Kyôshi Heine - OP - Shoppai Namida (NikoNikoD)
+
 # August 2026
 
 Kara count: 30 548
