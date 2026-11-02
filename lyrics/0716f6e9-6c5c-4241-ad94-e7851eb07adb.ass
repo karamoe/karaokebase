@@ -11,21 +11,21 @@ Original Timing: Nock
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
-Style: Narration,Times New Roman,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,20,20,50,1
+Style: Narration,Arial,20,&H00FFFFFF,&H005757FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,20,20,50,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Dialogue: 0,0:00:03.30,0:00:05.34,Narration,,0,0,0,karaoke,hitozato harareta yama no oku ni aru
-Dialogue: 0,0:00:05.66,0:00:06.76,Narration,,0,0,0,karaoke,chiisana toshokan
-Dialogue: 0,0:00:08.51,0:00:09.09,Narration,,0,0,0,karaoke,soko ni wa
-Dialogue: 0,0:00:09.53,0:00:11.78,Narration,,0,0,0,karaoke,odoyaka de yasashii onna no ko ga atte
-Dialogue: 0,0:00:12.81,0:00:14.58,Narration,,0,0,0,karaoke,shikkari mono no onna no ko ga atte
-Dialogue: 0,0:00:15.61,0:00:16.40,Narration,,0,0,0,karaoke,toshokan to
-Dialogue: 0,0:00:16.62,0:00:18.81,Narration,,0,0,0,karaoke,onaji namae no onna no ko ga iru no desu
+Comment: 0,0:00:03.30,0:00:05.34,Narration,,0,0,0,karaoke,hitozato harareta yama no oku ni aru
+Comment: 0,0:00:05.66,0:00:06.76,Narration,,0,0,0,karaoke,chiisana toshokan
+Comment: 0,0:00:08.51,0:00:09.09,Narration,,0,0,0,karaoke,soko ni wa
+Comment: 0,0:00:09.53,0:00:11.78,Narration,,0,0,0,karaoke,odoyaka de yasashii onna no ko ga atte
+Comment: 0,0:00:12.81,0:00:14.58,Narration,,0,0,0,karaoke,shikkari mono no onna no ko ga atte
+Comment: 0,0:00:15.61,0:00:16.40,Narration,,0,0,0,karaoke,toshokan to
+Comment: 0,0:00:16.62,0:00:18.81,Narration,,0,0,0,karaoke,onaji namae no onna no ko ga iru no desu
 Comment: 0,0:00:26.20,0:00:29.00,Default,,0,0,0,karaoke,{\k16}kyo{\k17}u {\k31}ha{\k32}na {\k18}ga {\k50}sa{\k33}i{\k20}ta {\k63}yo
 Comment: 0,0:00:30.80,0:00:35.41,Default,,0,0,0,karaoke,{\k30}mas{\k38}shi{\k18}ro {\k177}na {\k35}chis{\k33}sa{\k14}i {\k52}ha{\k64}na
-Comment: 0,0:00:36.74,0:00:39.65,Default,,0,0,0,karaoke,{\k18}BE{\k17}RA{\k33}N{\k31}DA {\k14}no {\k49}ha{\k38}chi{\k19}u{\k72}e
+Comment: 0,0:00:36.74,0:00:39.65,Default,,0,0,0,karaoke,{\k18}VE{\k17}RA{\k33}N{\k31}DA {\k14}no {\k49}ha{\k38}chi{\k19}u{\k72}e
 Comment: 0,0:00:41.36,0:00:42.97,Default,,0,0,0,karaoke,{\k33}ka{\k33}t{\k17}te {\k78}ni
 Comment: 0,0:00:43.97,0:00:46.85,Default,,0,0,0,karaoke,{\k34}ki{\k33}mi {\k22}ga {\k46}kat{\k67}ta {\k33}ki{\k53}ta
 Comment: 0,0:00:48.28,0:00:51.82,Default,,0,0,0,karaoke,{\k18}na{\k17}ma{\k20}e {\k42}nan{\k165}te {\k36}su{\k56}gu
@@ -34,12 +34,19 @@ Comment: 0,0:00:59.16,0:01:02.91,Default,,0,0,0,karaoke,{\k33}ma{\k33}i{\k30}a{\
 Comment: 0,0:01:04.44,0:01:06.66,Default,,0,0,0,karaoke,{\k32}a{\k34}ge{\k32}ta {\k28}no {\k96}sa
 Comment: 0,0:01:08.39,0:01:10.67,Default,,0,0,0,karaoke,{\k33}u{\k35}ta {\k18}wo {\k47}u{\k33}ta{\k62}ou
 Comment: 0,0:01:12.33,0:01:14.65,Default,,0,0,0,karaoke,{\k35}bo{\k33}ku {\k32}no {\k29}ku{\k23}chi {\k48}ka{\k32}ra
-Comment: 0,0:01:15.00,0:01:18.59,Default,,0,0,0,karaoke,{\k30}de{\k36}ta{\k32}ra{\k33}me {\k63}ME{\k69}RO{\k96}DII
+Comment: 0,0:01:15.00,0:01:18.59,Default,,0,0,0,karaoke,{\k30}de{\k36}ta{\k32}ra{\k33}me {\k63}ME{\k69}LO{\k96}DY
 Comment: 0,0:01:18.95,0:01:23.71,Default,,0,0,0,karaoke,{\k34}da{\k32}re {\k20}mo {\k47}shi{\k33}ra{\k197}nai {\k33}u{\k80}ta
 Comment: 0,0:01:25.54,0:01:27.85,Default,,0,0,0,karaoke,{\k33}ki{\k33}mi {\k33}no {\k34}ko{\k98}to
 Comment: 0,0:01:28.17,0:01:30.45,Default,,0,0,0,karaoke,{\k17}da{\k15}i{\k35}su{\k63}ki {\k15}da{\k19}yo{\k33}t{\k31}te
 Comment: 0,0:01:30.80,0:01:34.07,Default,,0,0,0,karaoke,{\k14}o{\k20}mo{\k65}t{\k34}te {\k67}ta{\k127}ra
-Comment: 0,0:01:37.41,0:01:40.33,Default,,0,0,0,karaoke,{\k34}u{\k32}ma{\k20}re{\k31}ta {\k47}ME{\k20}RO{\k108}DII
+Comment: 0,0:01:37.41,0:01:40.33,Default,,0,0,0,karaoke,{\k34}u{\k32}ma{\k20}re{\k31}ta {\k47}ME{\k20}LO{\k108}DY
+Dialogue: 0,0:00:02.40,0:00:05.54,Narration,,0,0,0,fx,{\k90\fad(300,200)}hitozato harareta yama no oku ni aru
+Dialogue: 0,0:00:04.76,0:00:06.96,Narration,,0,0,0,fx,{\k90\fad(300,200)}chiisana toshokan
+Dialogue: 0,0:00:07.61,0:00:09.29,Narration,,0,0,0,fx,{\k90\fad(300,200)}soko ni wa
+Dialogue: 0,0:00:08.63,0:00:11.98,Narration,,0,0,0,fx,{\k90\fad(300,200)}odoyaka de yasashii onna no ko ga atte
+Dialogue: 0,0:00:11.91,0:00:14.78,Narration,,0,0,0,fx,{\k90\fad(300,200)}shikkari mono no onna no ko ga atte
+Dialogue: 0,0:00:14.71,0:00:16.60,Narration,,0,0,0,fx,{\k90\fad(300,200)}toshokan to
+Dialogue: 0,0:00:15.72,0:00:19.01,Narration,,0,0,0,fx,{\k90\fad(300,200)}onaji namae no onna no ko ga iru no desu
 Dialogue: 0,0:00:25.30,0:00:29.20,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k16}kyo{\k17}u {\k31}ha{\k32}na {\k18}ga {\k50}sa{\k33}i{\k20}ta {\k63}yo
 Dialogue: 0,0:00:29.90,0:00:35.61,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k30}mas{\k38}shi{\k18}ro {\k177}na {\k35}chis{\k33}sa{\k14}i {\k52}ha{\k64}na
 Dialogue: 0,0:00:35.84,0:00:39.85,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}VE{\k17}RA{\k33}N{\k31}DA {\k14}no {\k49}ha{\k38}chi{\k19}u{\k72}e

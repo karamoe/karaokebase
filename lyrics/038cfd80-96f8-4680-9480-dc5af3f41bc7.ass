@@ -10,10 +10,9 @@ Original Timing: Hanaku
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
 Style: Masshiro na Canvas,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Onodera Azusa,Arial,24,&H00FFFFFF,&H00FFCF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
-Style: Miura Nanako,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Miura Nanako,Arial,24,&H00FFFFFF,&H005757FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Hashimoto Mio,Arial,24,&H00FFFFFF,&H00E19DF6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Nishino Chiaki,Arial,24,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Hamabe Yurina,Arial,24,&H00FFFFFF,&H00FF00B0,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
@@ -23,7 +22,7 @@ Style: Masshiro na Canvas  END,Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,Masshiro na Canvas,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
 Comment: 0,0:00:32.45,0:00:36.88,Miura Nanako,,0,0,0,karaoke,{\k36}ji{\k30}met{\k15}to {\k33}nu{\k17}ru{\k58}i {\k34}ka{\k18}ze {\k32}ga {\k13}to{\k31}u{\k20}ru {\k31}ku{\k18}u{\k57}ki
 Comment: 0,0:00:37.38,0:00:42.17,Miura Nanako,,0,0,0,karaoke,{\k30}ta{\k15}da {\k36}na{\k16}ni {\k29}mo {\k19}se{\k57}zu {\k38}te{\k17}n{\k15}jo{\k14}u {\k16}wo {\k30}na{\k15}ga{\k31}me{\k19}te{\k82}ru
 Comment: 0,0:00:42.62,0:00:47.19,Hashimoto Mio,,0,0,0,karaoke,{\k28}i{\k26}ma {\k23}no {\k31}bo{\k16}ku {\k63}ga {\k29}na{\k21}ya{\k30}n{\k18}de {\k39}i{\k34}ru {\k19}ko{\k80}to

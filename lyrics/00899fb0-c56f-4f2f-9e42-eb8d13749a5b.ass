@@ -13,12 +13,12 @@ Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour,
 Style: Suzuka,Arial,24,&H00FFFFFF,&H00FFFF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Mizyu,Arial,24,&H00FFFFFF,&H00E475FB,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Atarashii Gakko,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
-Style: Rin AG,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Rin AG,Arial,24,&H00FFFFFF,&H005757FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Kanon AG,Arial,24,&H00FFFFFF,&H0000FF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,Atarashii Gakko,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
 Comment: 0,0:00:20.31,0:00:22.02,Suzuka,,0,0,0,karaoke,{\k14}ki{\k10}zu{\k10}ke{\k26}ba {\k9}ko{\k14}ko {\k16}ni {\k24}tat{\k48}te
 Comment: 0,0:00:22.02,0:00:24.48,Suzuka,,0,0,0,karaoke,{\k24}mu{\k10}ki {\k21}ni {\k27}nat{\k31}te {\k10}su{\k7}gu {\k35}shin{\k11}ji{\k40}mat{\k30}te
 Comment: 0,0:00:24.48,0:00:26.28,Suzuka,,0,0,0,karaoke,{\k9}yo{\k9}mi{\k9}ga{\k17}et{\k18}te {\k27}rin{\k15}ne {\k28}ten{\k48}sei

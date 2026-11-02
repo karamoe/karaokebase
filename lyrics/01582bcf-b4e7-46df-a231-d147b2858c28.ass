@@ -10,7 +10,7 @@ Original Timing: Nemesise
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Choir,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: Choir,Arial,24,&H00FFFFFF,&H005757FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
 Style: Sincere,Arial,24,&H00FFFFFF,&H00C96733,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
 Style: Purity,Arial,24,&H00FFFFFF,&H00FFD500,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
 Style: Duo,Arial,24,&H00FFFFFF,&H00FF7ABA,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
@@ -19,7 +19,7 @@ Style: Legend,Arial,24,&H00FFFFFF,&H00FF7ABA,&H00000000,&H00000000,-1,-1,0,0,100
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Dialogue: 0,0:00:00.00,0:00:10.00,Legend,,0,0,40,,{\k1000}{\k0}Duo {\2cHFFFFFF}| {\rPurity}Purity {\2cHFFFFFF}| {\rSincere}Sincere {\2cHFFFFFF}| {\rChoir}Choir
+Comment: 0,0:00:00.00,0:00:10.00,Legend,,0,0,40,karaoke,{\k1000}{\k0}Duo {\2cHFFFFFF}| {\rPurity}Purity {\2cHFFFFFF}| {\rSincere}Sincere {\2cHFFFFFF}| {\rChoir}Choir
 Comment: 0,0:00:27.56,0:00:30.74,Purity,,0,0,0,karaoke,{\k22}hi{\k43}e{\k20}ta {\k42}ka{\k41}ze {\k22}tsu{\k44}mi {\k21}no{\k20}ko{\k20}ri{\k23}ga
 Comment: 0,0:00:31.14,0:00:34.16,Choir,,0,0,0,karaoke,{\k44}sou {\k11}ma{\k10}bu{\k11}ta {\k10}no {\k22}u{\k59}ra {\k46}sou {\k11}a{\k11}ma{\k9}i {\k11}za{\k20}n{\k27}zou
 Comment: 0,0:00:34.33,0:00:37.58,Sincere,,0,0,0,karaoke,{\k22}yu{\k39}me{\k21}u{\k42}tsu{\k44}tsu {\k22}o{\k41}i{\k19}ka{\k24}ke{\k24}te {\k27}mo
@@ -46,6 +46,7 @@ Comment: 0,0:01:23.52,0:01:26.29,Sincere,,0,0,0,karaoke,{\k25}ki{\k20}zu{\k42}a{
 Comment: 0,0:01:26.47,0:01:29.64,Purity,,0,0,0,karaoke,{\k69}yo{\k19}ru {\k62}wo {\k15}ma{\k29}tot{\k20}te {\k23}fu{\k21}ru{\k59}e
 Comment: 0,0:01:29.87,0:01:30.95,Sincere,,0,0,0,karaoke,{\k65}tsu{\k11}ra{\k9}nu{\k23}ku
 Comment: 0,0:01:31.15,0:01:33.99,Duo,,0,0,0,karaoke,{\k38}RE{\kf246}GRET
+Dialogue: 0,0:00:00.00,0:00:10.20,Legend,,0,0,40,fx,{\k0\fad(0,200)}{\k1000}{\k0}Duo {\2cHFFFFFF}| {\rPurity}Purity {\2cHFFFFFF}| {\rSincere}Sincere {\2cHFFFFFF}| {\rChoir}Choir
 Dialogue: 0,0:00:26.66,0:00:30.94,Purity,,0,0,0,fx,{\k90\fad(300,200)}{\k22}hi{\k43}e{\k20}ta {\k42}ka{\k41}ze {\k22}tsu{\k44}mi {\k21}no{\k20}ko{\k20}ri{\k23}ga
 Dialogue: 0,0:00:30.24,0:00:34.36,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k44}sou {\k11}ma{\k10}bu{\k11}ta {\k10}no {\k22}u{\k59}ra {\k46}sou {\k11}a{\k11}ma{\k9}i {\k11}za{\k20}n{\k27}zou
 Dialogue: 0,0:00:33.43,0:00:37.78,Sincere,,0,0,0,fx,{\k90\fad(300,200)}{\k22}yu{\k39}me{\k21}u{\k42}tsu{\k44}tsu {\k22}o{\k41}i{\k19}ka{\k24}ke{\k24}te {\k27}mo
