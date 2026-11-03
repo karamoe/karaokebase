@@ -1,0 +1,65 @@
+﻿[Script Info]
+Title: Kyoko - Happy Birthday
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
+Original Timing: Kylian
+LayoutResX: 0
+LayoutResY: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,24,&H006F72F0,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:30.83,0:00:34.35,Default,,0,0,0,karaoke,{\k45}u{\k29}ma{\k50}ku {\k24}ha{\k47}nash’ {\k25}ga {\k13}de{\k31}ki{\k28}na{\k25}ku{\k35}te
+Comment: 0,0:00:34.99,0:00:38.23,Default,,0,0,0,karaoke,{\k45}hon{\k24}tou {\k26}wa {\k48}s’ma{\k23}na{\k23}i {\k16}to {\k10}o{\k24}mo{\k24}t{\k28}te{\k33}ru
+Comment: 0,0:00:38.86,0:00:42.18,Default,,0,0,0,karaoke,{\k19}shi{\k27}ba{\k12}ra{\k38}ku {\k23}na{\k48}yan {\k25}de{\k12}mo {\k36}mi{\k20}ta {\k29}ke{\k43}do
+Comment: 0,0:00:42.72,0:00:45.85,Default,,0,0,0,karaoke,{\k22}so{\k27}no {\k14}u{\k36}chi {\k14}tsu{\k31}ka{\k22}re{\k27}te {\k22}ne{\k27}mu{\k23}t{\k25}te{\k23}ru
+Comment: 0,0:00:46.37,0:00:49.88,Default,,0,0,0,karaoke,{\k43}shuu{\k38}mats’ {\k37}no {\k26}ko{\k24}no {\k26}ma{\k19}chi {\k10}no {\k42}ku{\k20}u{\k28}ki {\k38}wa
+Comment: 0,0:00:50.96,0:00:53.77,Default,,0,0,0,karaoke,{\k21}hi{\k22}to {\k9}i{\k42}ki{\k25}re {\k26}de {\k16}mu{\k28}se {\k28}ka{\k29}e{\k35}ri
+Comment: 0,0:00:54.36,0:00:57.55,Default,,0,0,0,karaoke,{\k18}fu{\k29}ka{\k45}ku {\k28}ta{\k24}me{\k19}i{\k22}ki {\k16}wo {\k40}tsu{\k20}i{\k28}ta{\k30}ra
+Comment: 0,0:00:58.18,0:01:01.53,Default,,0,0,0,karaoke,{\k49}gai{\k46}tou {\k54}SPEAK{\k24}E{\k24}R {\k22}ni {\k19}ke{\k32}sa{\k23}re{\k42}ta
+Comment: 0,0:01:03.22,0:01:09.11,Default,,0,0,0,karaoke,{\k33}so{\k22}re{\k21}ra{\k54}shi{\k44}i {\k97}{\k51}ko{\k24}to{\k27}ba {\k23}wo {\k25}na{\k23}ra{\k23}be{\k49}te {\k73}mo
+Comment: 0,0:01:10.80,0:01:16.39,Default,,0,0,0,karaoke,{\k23}tsu{\k26}ta{\k25}wa{\k25}ru {\k48}ko{\k50}to {\k47}na{\k23}do {\k30}ha{\k66}ji{\k22}me {\k78}ka{\k23}ra {\k73}nai
+Comment: 0,0:01:17.36,0:01:22.03,Default,,0,0,0,karaoke,{\k46}ni{\k31}gi{\k40}ya{\k56}ka {\k42}na {\k52}ko{\k48}no {\k51}ma{\k46}chi {\k55}no
+Comment: 0,0:01:22.64,0:01:24.14,Default,,0,0,0,karaoke,{\k53}so{\k25}ra {\k72}ni
+Comment: 0,0:01:25.10,0:01:31.92,Default,,0,0,0,karaoke,{\k49}o{\k33}mo{\k37}i {\k52}ki{\k48}ri {\k49}ha{\k49}ri{\k50}a{\k46}ge{\k58}ta {\k57}{\k55}ko{\k24}e {\k75}wa
+Comment: 0,0:01:32.63,0:01:36.10,Default,,0,0,0,karaoke,{\k23}do{\k23}ko {\k25}ka {\k25}to{\k22}o{\k26}ku {\k24}no {\k27}ma{\k22}chi {\k25}ni {\k48}i{\k57}ru
+Comment: 0,0:01:36.98,0:01:41.05,Default,,0,0,0,karaoke,{\k22}a{\k41}no {\k9}hi{\k23}to {\k51}he {\k48}no {\k47}HAP{\k47}PY {\k51}BIRTH{\k68}DAY
+Comment: 0,0:01:58.05,0:02:02.78,Default,,0,0,0,karaoke,{\k47}ni{\k32}gi{\k38}ya{\k54}ka {\k44}na {\k52}ko{\k48}no {\k48}ma{\k49}chi {\k61}no
+Comment: 0,0:02:03.32,0:02:04.82,Default,,0,0,0,karaoke,{\k54}so{\k26}ra {\k70}ni
+Comment: 0,0:02:05.80,0:02:12.71,Default,,0,0,0,karaoke,{\k48}o{\k34}mo{\k35}i {\k54}ki{\k48}ri {\k49}ha{\k49}ri{\k48}a{\k46}ge{\k60}ta {\k60}{\k51}ko{\k25}e {\k84}wa
+Comment: 0,0:02:13.57,0:02:18.21,Default,,0,0,0,karaoke,{\k47}ni{\k31}gi{\k37}ya{\k53}ka {\k43}na {\k54}ko{\k49}no {\k49}ma{\k48}chi {\k53}no
+Comment: 0,0:02:18.85,0:02:20.20,Default,,0,0,0,karaoke,{\k49}so{\k28}ra {\k58}ni
+Comment: 0,0:02:21.31,0:02:28.13,Default,,0,0,0,karaoke,{\k49}o{\k37}mo{\k32}i {\k52}ki{\k49}ri {\k48}ha{\k49}ri{\k48}a{\k47}ge{\k57}ta {\k60}{\k54}ko{\k24}e {\k76}wa
+Comment: 0,0:02:28.78,0:02:32.35,Default,,0,0,0,karaoke,{\k25}do{\k24}ko {\k23}ka {\k29}to{\k21}o{\k28}ku {\k22}no {\k27}ma{\k23}chi {\k25}ni {\k47}i{\k63}ru
+Comment: 0,0:02:33.16,0:02:38.21,Default,,0,0,0,karaoke,{\k26}a{\k37}no {\k9}hi{\k25}to {\k50}he {\k47}no {\k48}HAP{\k44}PY {\k53}BIRTH{\kf166}DAY
+Dialogue: 0,0:00:29.93,0:00:34.55,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k45}u{\k29}ma{\k50}ku {\k24}ha{\k47}nash’ {\k25}ga {\k13}de{\k31}ki{\k28}na{\k25}ku{\k35}te
+Dialogue: 0,0:00:34.09,0:00:38.43,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k45}hon{\k24}tou {\k26}wa {\k48}s’ma{\k23}na{\k23}i {\k16}to {\k10}o{\k24}mo{\k24}t{\k28}te{\k33}ru
+Dialogue: 0,0:00:37.96,0:00:42.38,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}shi{\k27}ba{\k12}ra{\k38}ku {\k23}na{\k48}yan {\k25}de{\k12}mo {\k36}mi{\k20}ta {\k29}ke{\k43}do
+Dialogue: 0,0:00:41.82,0:00:46.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k22}so{\k27}no {\k14}u{\k36}chi {\k14}tsu{\k31}ka{\k22}re{\k27}te {\k22}ne{\k27}mu{\k23}t{\k25}te{\k23}ru
+Dialogue: 0,0:00:45.47,0:00:50.08,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k43}shuu{\k38}mats’ {\k37}no {\k26}ko{\k24}no {\k26}ma{\k19}chi {\k10}no {\k42}ku{\k20}u{\k28}ki {\k38}wa
+Dialogue: 0,0:00:50.06,0:00:53.97,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}hi{\k22}to {\k9}i{\k42}ki{\k25}re {\k26}de {\k16}mu{\k28}se {\k28}ka{\k29}e{\k35}ri
+Dialogue: 0,0:00:53.46,0:00:57.75,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}fu{\k29}ka{\k45}ku {\k28}ta{\k24}me{\k19}i{\k22}ki {\k16}wo {\k40}tsu{\k20}i{\k28}ta{\k30}ra
+Dialogue: 0,0:00:57.28,0:01:01.73,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k49}gai{\k46}tou {\k54}SPEAK{\k24}E{\k24}R {\k22}ni {\k19}ke{\k32}sa{\k23}re{\k42}ta
+Dialogue: 0,0:01:02.32,0:01:09.31,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k33}so{\k22}re{\k21}ra{\k54}shi{\k44}i {\k97}{\k51}ko{\k24}to{\k27}ba {\k23}wo {\k25}na{\k23}ra{\k23}be{\k49}te {\k73}mo
+Dialogue: 0,0:01:09.90,0:01:16.59,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}tsu{\k26}ta{\k25}wa{\k25}ru {\k48}ko{\k50}to {\k47}na{\k23}do {\k30}ha{\k66}ji{\k22}me {\k78}ka{\k23}ra {\k73}nai
+Dialogue: 0,0:01:16.46,0:01:22.23,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k46}ni{\k31}gi{\k40}ya{\k56}ka {\k42}na {\k52}ko{\k48}no {\k51}ma{\k46}chi {\k55}no
+Dialogue: 0,0:01:21.74,0:01:24.34,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k53}so{\k25}ra {\k72}ni
+Dialogue: 0,0:01:24.20,0:01:32.12,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k49}o{\k33}mo{\k37}i {\k52}ki{\k48}ri {\k49}ha{\k49}ri{\k50}a{\k46}ge{\k58}ta {\k57}{\k55}ko{\k24}e {\k75}wa
+Dialogue: 0,0:01:31.73,0:01:36.30,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}do{\k23}ko {\k25}ka {\k25}to{\k22}o{\k26}ku {\k24}no {\k27}ma{\k22}chi {\k25}ni {\k48}i{\k57}ru
+Dialogue: 0,0:01:36.08,0:01:41.25,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k22}a{\k41}no {\k9}hi{\k23}to {\k51}he {\k48}no {\k47}HAP{\k47}PY {\k51}BIRTH{\k68}DAY
+Dialogue: 0,0:01:57.15,0:02:02.98,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k47}ni{\k32}gi{\k38}ya{\k54}ka {\k44}na {\k52}ko{\k48}no {\k48}ma{\k49}chi {\k61}no
+Dialogue: 0,0:02:02.42,0:02:05.02,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k54}so{\k26}ra {\k70}ni
+Dialogue: 0,0:02:04.90,0:02:12.91,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k48}o{\k34}mo{\k35}i {\k54}ki{\k48}ri {\k49}ha{\k49}ri{\k48}a{\k46}ge{\k60}ta {\k60}{\k51}ko{\k25}e {\k84}wa
+Dialogue: 0,0:02:12.67,0:02:18.41,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k47}ni{\k31}gi{\k37}ya{\k53}ka {\k43}na {\k54}ko{\k49}no {\k49}ma{\k48}chi {\k53}no
+Dialogue: 0,0:02:17.95,0:02:20.40,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k49}so{\k28}ra {\k58}ni
+Dialogue: 0,0:02:20.41,0:02:28.33,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k49}o{\k37}mo{\k32}i {\k52}ki{\k49}ri {\k48}ha{\k49}ri{\k48}a{\k47}ge{\k57}ta {\k60}{\k54}ko{\k24}e {\k76}wa
+Dialogue: 0,0:02:27.88,0:02:32.55,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}do{\k24}ko {\k23}ka {\k29}to{\k21}o{\k28}ku {\k22}no {\k27}ma{\k23}chi {\k25}ni {\k47}i{\k63}ru
+Dialogue: 0,0:02:32.26,0:02:38.41,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k26}a{\k37}no {\k9}hi{\k25}to {\k50}he {\k47}no {\k48}HAP{\k44}PY {\k53}BIRTH{\kf166}DAY
