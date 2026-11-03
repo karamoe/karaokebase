@@ -16,7 +16,7 @@ Style: Suzumi,Arial,24,&H00FFFFFF,&H00FFFF00,&H00000000,&H00000000,-1,0,0,0,100,
 Style: Momoko,Arial,24,&H00FFFFFF,&H00590093,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Nao,Arial,24,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Hina,Arial,24,&H00FFFFFF,&H00E475FB,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
-Style: Mikuru,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mikuru,Arial,24,&H00FFFFFF,&H005757FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Momona,Arial,24,&H00FFFFFF,&H00E2B0DF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Himeri,Arial,24,&H00FFFFFF,&H009E6E25,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Hazuki,Arial,24,&H000066B5,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
@@ -26,7 +26,7 @@ Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H0067B7&}Takane{\c} | {\c&H4795FF&}Erisa{\c} | {\c&HFFFF00&}Suzumi{\c} | {\c&H590093&}Momoko{\c} | {\c&H00FFFF&}Nao{\c} | {\c&HE475FB&}Hina{\c} | {\c&H0000FF&}Mikuru{\c} | {\c&HE2B0DF&}Momona{\c} | {\c&H9E6E25&}Himeri{\c} | {\c&HFFFFFF&}Hazuki
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H0067B7&}Takane{\c} | {\c&H4795FF&}Erisa{\c} | {\c&HFFFF00&}Suzumi{\c} | {\c&H590093&}Momoko{\c} | {\c&H00FFFF&}Nao{\c} | {\c&HE475FB&}Hina{\c} | {\c&H5757FF&}Mikuru{\c} | {\c&HE2B0DF&}Momona{\c} | {\c&H9E6E25&}Himeri{\c} | {\c&HFFFFFF&}Hazuki
 Comment: 0,0:00:04.35,0:00:06.74,Erisa,,0,0,0,karaoke,{\k20}na{\k11}tsu {\k16}ga {\k12}bo{\k18}ku{\k17}ra {\k28}wo {\k15}ko{\k18}do{\k28}mo {\k16}ni {\k16}su{\k24}ru
 Comment: 0,0:00:06.93,0:00:07.55,Erisa,,0,0,0,karaoke,{\k33}Wow {\k29}oh
 Comment: 0,0:00:07.73,0:00:09.20,Erisa,,0,0,0,karaoke,{\k15}a{\k17}o {\k27}ni {\k33}e{\k15}ga{\k17}ko{\k23}u
@@ -98,7 +98,7 @@ Comment: 0,0:02:40.34,0:02:41.93,Takane,,0,0,0,karaoke,{\k15}su{\k17}ki {\k31}wo
 Comment: 0,0:02:42.30,0:02:44.41,Takane,,0,0,0,karaoke,{\k34}SHY {\k18}ga {\k29}to{\k30}ke{\k32}te {\k15}tsu{\k15}na{\k38}gu
 Comment: 0,0:02:44.49,0:02:46.94,Takane,,0,0,0,karaoke,{\k30}mo{\k46}u {\k15}na{\k18}tsu {\k29}no {\k35}sei {\k12}ni {\k13}shi{\k47}you
 Comment: 0,0:02:46.94,0:02:49.62,Erisa,,0,0,0,karaoke,{\k33}a{\kf235}a
-Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H0067B7&}Takane{\c} | {\c&H4795FF&}Erisa{\c} | {\c&HFFFF00&}Suzumi{\c} | {\c&H590093&}Momoko{\c} | {\c&H00FFFF&}Nao{\c} | {\c&HE475FB&}Hina{\c} | {\c&H0000FF&}Mikuru{\c} | {\c&HE2B0DF&}Momona{\c} | {\c&H9E6E25&}Himeri{\c} | {\c&HFFFFFF&}Hazuki
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H0067B7&}Takane{\c} | {\c&H4795FF&}Erisa{\c} | {\c&HFFFF00&}Suzumi{\c} | {\c&H590093&}Momoko{\c} | {\c&H00FFFF&}Nao{\c} | {\c&HE475FB&}Hina{\c} | {\c&H5757FF&}Mikuru{\c} | {\c&HE2B0DF&}Momona{\c} | {\c&H9E6E25&}Himeri{\c} | {\c&HFFFFFF&}Hazuki
 Dialogue: 0,0:00:03.45,0:00:06.94,Erisa,,0,0,0,fx,{\k90\fad(300,200)}{\k20}na{\k11}tsu {\k16}ga {\k12}bo{\k18}ku{\k17}ra {\k28}wo {\k15}ko{\k18}do{\k28}mo {\k16}ni {\k16}su{\k24}ru
 Dialogue: 0,0:00:06.03,0:00:07.75,Erisa,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Wow {\k29}oh
 Dialogue: 0,0:00:06.83,0:00:09.40,Erisa,,0,0,0,fx,{\k90\fad(300,200)}{\k15}a{\k17}o {\k27}ni {\k33}e{\k15}ga{\k17}ko{\k23}u
