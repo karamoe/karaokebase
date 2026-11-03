@@ -1,0 +1,196 @@
+﻿[Script Info]
+Title: Seeing Stars
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+PlayResX: 0
+PlayResY: 0
+Original Timing: Pyrospower
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Calli,Arial,24,&H00FFFFFF,&H00D175FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Lotus Juice,Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Lotus Juice (backs),Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Choir,Arial,24,&H00FFFFFF,&H00FF66A0,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:03:40.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:10.56,0:00:12.97,Calli,,0,0,0,karaoke,{\k49}Don't {\k49}look {\k44}back, {\k51}look {\k16}for{\k32}ward
+Comment: 0,0:00:13.11,0:00:15.55,Calli,,0,0,0,karaoke,{\k36}Find {\k44}some{\k17}thing {\k30}you {\k17}can {\k42}move {\k21}to{\k37}ward
+Comment: 0,0:00:15.65,0:00:17.86,Calli,,0,0,0,karaoke,{\k48}Don't {\k47}look {\k47}back, {\k39}look {\k23}for{\k17}ward
+Comment: 0,0:00:18.14,0:00:20.31,Calli,,0,0,0,karaoke,{\k52}Don't {\k47}look {\kf118}back
+Comment: 0,0:00:20.52,0:00:21.48,Lotus Juice,,0,0,0,karaoke,{\k8}I'm {\k28}sli{\k13}ppin' {\k16}then {\k12}fa{\k19}llin',
+Comment: 0,0:00:21.48,0:00:23.23,Lotus Juice,,0,0,0,karaoke,{\k17}kept {\k13}on {\k19}loo{\k14}king {\k6}for {\k24}some{\k16}thin' {\k19}to {\k13}bring {\k14}me {\k20}up
+Comment: 0,0:00:23.23,0:00:24.72,Lotus Juice,,0,0,0,karaoke,{\k18}Odds {\k4}a{\k26}gainst {\k14}me, {\k9}no {\k20}such {\k20}thing {\k15}as {\k23}hope
+Comment: 0,0:00:24.72,0:00:25.70,Lotus Juice,,0,0,0,karaoke,{\k21}On{\k14}ly {\k22}down, {\k15}no {\k26}ups
+Comment: 0,0:00:25.70,0:00:27.94,Lotus Juice,,0,0,0,karaoke,{\k21}Walked {\k8}on {\k40}thin {\k35}ice {\k6}and {\k8}it {\k32}sha{\k14}ttered {\k16}in {\k19}pie{\k25}ces
+Comment: 0,0:00:27.94,0:00:29.22,Lotus Juice,,0,0,0,karaoke,{\k21}More {\k14}that {\k16}I {\k25}reach, {\k12}it {\k40}seems
+Comment: 0,0:00:29.22,0:00:30.81,Lotus Juice,,0,0,0,karaoke,{\k13}all {\k12}my {\k17}chan{\k22}ces {\k24}de{\k16}crea{\k23}ses, {\k32}but
+Comment: 0,0:00:30.18,0:00:32.71,Calli,,0,0,0,karaoke,{\k30}If {\k18}it's {\k9}un{\k17}win{\k10}na{\k21}ble, {\k16}cy{\k20}ni{\k16}cal {\k16}as {\k13}I {\k20}just {\k31}might {\k16}be
+Comment: 0,0:00:32.86,0:00:34.12,Calli,,0,0,0,karaoke,{\k16}Our {\k8}en{\k11}ding {\k29}still {\k15}is {\k15}un{\k17}wri{\k15}tten,
+Comment: 0,0:00:34.12,0:00:35.39,Calli,,0,0,0,karaoke,{\k17}I {\k14}think {\k17}I'm {\k17}'bout {\k14}to {\k15}break {\k33}free
+Comment: 0,0:00:35.39,0:00:36.64,Calli,,0,0,0,karaoke,{\k10}My {\k13}li{\k22}mits {\k16}clo{\k17}sing {\k16}a{\k19}round {\k12}me,
+Comment: 0,0:00:36.64,0:00:37.92,Calli,,0,0,0,karaoke,{\k8}they're {\k25}soun{\k15}ding {\k17}less {\k7}and {\k24}less {\k32}real
+Comment: 0,0:00:37.92,0:00:39.33,Calli,,0,0,0,karaoke,{\k15}Be{\k15}cause {\k14}my {\k18}heart {\k16}is {\k16}bea{\k16}ting {\k16}lou{\k15}der
+Comment: 0,0:00:39.33,0:00:40.43,Calli,,0,0,0,karaoke,{\k14}than {\k14}the {\k21}fear {\k14}that {\k12}I {\k35}feel
+Comment: 0,0:00:40.43,0:00:41.52,Lotus Juice,,0,0,0,karaoke,{\k15}My {\k18}mind's {\k16}al{\k13}rea{\k18}dy {\k29}made,
+Comment: 0,0:00:41.52,0:00:43.44,Lotus Juice,,0,0,0,karaoke,{\k13}not {\k18}a{\k16}fraid {\k15}of {\k32}un{\k26}real{\k18}is{\k15}tic {\k39}dream
+Comment: 0,0:00:43.44,0:00:44.59,Lotus Juice,,0,0,0,karaoke,{\k12}Loo{\k15}king {\k13}for {\k9}my {\k40}supreme {\k26}team,
+Comment: 0,0:00:44.59,0:00:45.86,Lotus Juice,,0,0,0,karaoke,{\k25}so {\k13}I {\k17}can {\k34}walk {\k13}on {\k16}wa{\k9}ter
+Comment: 0,0:00:46.28,0:00:48.48,Lotus Juice,,0,0,0,karaoke,{\k16}I used {\k16}to {\k16}look {\k15}for {\k21}per{\k19}fec{\k21}tion, {\k11}now {\k23}it's {\k25}pro{\k37}gress
+Comment: 0,0:00:48.48,0:00:50.25,Lotus Juice,,0,0,0,karaoke,{\k30}Every {\k29}dues {\k32}paid, {\k16}part {\k13}of {\k28}pro{\k29}cess
+Comment: 0,0:00:50.25,0:00:55.52,Calli,,0,0,0,karaoke,{\k44}In {\k28}this {\k36}mo{\kf147}ment, {\k26}may{\k17}be {\k32}it's {\k35}hope{\kf162}less
+Comment: 0,0:00:54.75,0:00:55.83,Lotus Juice (backs),,0,0,0,karaoke,{\k23}Don't {\k10}be {\k16}a{\k59}fraid
+Comment: 0,0:00:56.49,0:01:00.41,Calli,,0,0,0,karaoke,{\k22}Not {\k15}kno{\k15}wing {\k18}if {\k15}I {\kf63}ne{\k43}ver {\kf201}try
+Comment: 0,0:00:59.53,0:01:00.81,Lotus Juice (backs),,0,0,0,karaoke,{\k18}One {\k21}day {\k24}or {\k26}day {\k39}one
+Comment: 0,0:01:00.41,0:01:05.68,Calli,,0,0,0,karaoke,{\k30}Chan{\k41}ging {\k24}pha{\kf151}ses, {\k14}en{\k13}ve{\k19}loped {\k28}in {\k52}moon{\kf155}light
+Comment: 0,0:01:02.50,0:01:03.03,Lotus Juice (backs),,0,0,0,karaoke,{\k53}Yeah
+Comment: 0,0:01:05.12,0:01:06.33,Lotus Juice (backs),,0,0,0,karaoke,{\k26}One {\k10}more {\k38}step {\k17}for{\k30}ward
+Comment: 0,0:01:06.65,0:01:09.26,Calli,,0,0,0,karaoke,{\k27}I {\k10}can {\k22}see {\k84}stars {\k118}now,
+Comment: 0,0:01:09.26,0:01:13.84,Calli,,0,0,0,karaoke,{\k23}ru{\k16}nning {\k16}through {\k15}an {\k48}end{\k62}less {\kf278}sky
+Comment: 0,0:01:08.38,0:01:08.70,Lotus Juice (backs),,0,0,0,karaoke,{\k16}Uh{\k16}-huh
+Comment: 0,0:01:13.84,0:01:15.57,Lotus Juice (backs),,0,0,0,karaoke,{\k10}On{\k14}ly {\k26}one {\k11}mo{\k18}ment {\k18}for {\k32}you {\k12}to {\k32}live,
+Comment: 0,0:01:15.57,0:01:16.75,Lotus Juice (backs),,0,0,0,karaoke,{\k34}how {\k17}do {\k16}you {\k18}want {\k33}it?
+Comment: 0,0:01:26.36,0:01:28.87,Lotus Juice,,0,0,0,karaoke,{\k47}Don't {\k50}look {\k60}back, {\k24}look {\k24}for{\k46}ward
+Comment: 0,0:01:28.87,0:01:31.42,Lotus Juice,,0,0,0,karaoke,{\k35}Find {\k38}some{\k24}thing {\k25}you {\k22}can {\k39}move {\k20}to{\k52}ward
+Comment: 0,0:01:31.42,0:01:33.93,Lotus Juice,,0,0,0,karaoke,{\k49}Don't {\k48}look {\k58}back, {\k24}look {\k25}for{\k47}ward
+Comment: 0,0:01:33.93,0:01:36.09,Lotus Juice,,0,0,0,karaoke,{\k51}Don't {\k47}look {\kf118}back
+Comment: 0,0:01:36.00,0:01:37.28,Calli,,0,0,0,karaoke,{\k6}I {\k31}fight {\k6}a{\k20}no{\k17}ther {\k48}day,
+Comment: 0,0:01:37.28,0:01:38.88,Calli,,0,0,0,karaoke,{\k16}these {\k17}ba{\k17}ttles {\k13}in{\k33}side {\k15}and {\k13}out{\k36}side
+Comment: 0,0:01:38.88,0:01:39.79,Calli,,0,0,0,karaoke,{\k15}Have {\k16}all {\k14}that {\k17}I {\k14}wan{\k15}ted,
+Comment: 0,0:01:39.79,0:01:41.39,Calli,,0,0,0,karaoke,{\k22}why {\k8}am {\k8}I {\k26}still {\k8}not {\k23}sa{\k18}tis{\k47}fied?
+Comment: 0,0:01:41.39,0:01:42.70,Calli,,0,0,0,karaoke,{\k15}Lost {\k17}ta{\k29}xis {\k9}and {\k24}street {\k37}signs,
+Comment: 0,0:01:42.70,0:01:44.06,Calli,,0,0,0,karaoke,{\k15}this {\k12}ci{\k14}ty {\k12}mi{\k19}rro{\k18}rin' {\k15}my {\k31}mind
+Comment: 0,0:01:44.06,0:01:46.16,Calli,,0,0,0,karaoke,{\k14}A{\k16}lley{\k19}ways {\k14}to {\k16}love {\k10}will {\k24}take {\k13}for{\k32}ever {\k8}to {\k44}find
+Comment: 0,0:01:46.16,0:01:47.50,Lotus Juice,,0,0,0,karaoke,{\k30}Yeah, {\k12}the {\k34}world {\k12}de{\k34}clined {\k12}me,
+Comment: 0,0:01:47.50,0:01:49.34,Lotus Juice,,0,0,0,karaoke,{\k10}I {\k25}was {\k13}al{\k18}ways {\k18}dope {\k15}but {\k12}they {\k14}were {\k22}like, {\k37}Nah
+Comment: 0,0:01:49.34,0:01:51.93,Lotus Juice,,0,0,0,karaoke,{\k23}Now, {\k19}it's {\k14}up {\k13}to {\k17}me {\k16}to {\k32}rise, {\k19}give {\k13}'em {\k8}li{\k10}ttle {\k28}sur{\k47}prise
+Comment: 0,0:01:51.93,0:01:54.07,Lotus Juice,,0,0,0,karaoke,{\k14}My {\k51}mind {\k14}ne{\k15}ver {\k36}slides, {\k7}al{\k21}ways {\k17}ri{\k16}ding {\k23}high
+Comment: 0,0:01:54.07,0:01:56.51,Lotus Juice,,0,0,0,karaoke,{\k10}I {\k31}thrive {\k12}on {\k14}this {\k18}love{\k18}ly {\k33}hate, {\k17}my {\k28}fuel {\k17}dis{\k46}guised
+Comment: 0,0:01:56.51,0:01:57.65,Calli,,0,0,0,karaoke,{\k14}Out{\k15}run{\k21}ning {\k15}all {\k8}my {\k25}sha{\k16}dows
+Comment: 0,0:01:57.65,0:01:58.75,Calli,,0,0,0,karaoke,{\k16}still {\k15}in {\k15}worn {\k18}out {\k46}shoes
+Comment: 0,0:01:58.75,0:01:59.87,Calli,,0,0,0,karaoke,{\k16}With {\k13}e{\k16}very{\k19}thing {\k13}to {\k35}gain,
+Comment: 0,0:01:59.87,0:02:01.29,Calli,,0,0,0,karaoke,{\k14}e{\k15}ven {\k16}more {\k14}to {\k17}give {\k13}up {\k15}and {\k38}lose
+Comment: 0,0:02:01.29,0:02:02.99,Calli,,0,0,0,karaoke,{\k15}This {\k15}time {\k14}you {\k13}go{\k13}tta {\k37}choose, {\k19}no {\k11}ex{\k33}cuse,
+Comment: 0,0:02:02.99,0:02:04.11,Calli,,0,0,0,karaoke,{\k19}tired {\k8}of {\k23}slee{\k14}ping, {\k15}go{\k13}tta {\k20}move
+Comment: 0,0:02:04.11,0:02:06.79,Calli,,0,0,0,karaoke,{\k16}En{\k10}vi{\k22}sion {\k16}to{\k11}mo{\k19}rrows {\k18}that {\k15}are {\k16}too {\k17}good {\k14}to {\k16}re{\k78}fuse
+Comment: 0,0:02:06.79,0:02:11.23,Calli,,0,0,0,karaoke,{\k32}Brigh{\k19}ter {\k77}skies {\k30}wai{\k58}ting, {\k17}but {\k19}I've {\k62}lost {\k52}my {\k78}aim
+Comment: 0,0:02:11.86,0:02:16.28,Calli,,0,0,0,karaoke,{\k32}More {\k31}things {\k95}change, {\k24}the {\k40}more {\k17}they {\k78}stay {\k41}the {\kf84}same
+Comment: 0,0:02:16.91,0:02:21.34,Calli,,0,0,0,karaoke,{\k32}Bur{\k21}ning {\kf135}strife {\k46}and {\kf209}shame
+Comment: 0,0:02:21.65,0:02:27.33,Calli,,0,0,0,karaoke,{\k32}This {\k31}pain {\k32}will {\kf127}be {\k44}my {\kf302}strength
+Comment: 0,0:02:28.60,0:02:34.61,Calli,,0,0,0,karaoke,{\k60}In {\k26}this {\k37}mo{\kf145}ment, {\k28}may{\k17}be {\k38}it's {\k34}hope{\kf216}less
+Comment: 0,0:02:33.27,0:02:34.38,Lotus Juice (backs),,0,0,0,karaoke,{\k23}Don't {\k11}be {\k12}a{\k65}fraid
+Comment: 0,0:02:35.07,0:02:38.81,Calli,,0,0,0,karaoke,{\k16}Not {\k14}kno{\k17}wing {\k16}if {\k16}I {\kf61}ne{\k45}ver {\kf189}try
+Comment: 0,0:02:38.07,0:02:39.49,Lotus Juice (backs),,0,0,0,karaoke,{\k16}One {\k32}day {\k12}or {\k35}day {\k47}one
+Comment: 0,0:02:38.86,0:02:44.23,Calli,,0,0,0,karaoke,{\k47}Chan{\k32}ging {\k31}pha{\kf143}ses, {\k15}en{\k9}ve{\k23}loped {\k26}in {\k50}moon{\kf161}light
+Comment: 0,0:02:41.07,0:02:41.53,Lotus Juice (backs),,0,0,0,karaoke,{\k46}Yeah
+Comment: 0,0:02:43.60,0:02:44.81,Lotus Juice (backs),,0,0,0,karaoke,{\k23}One {\k15}more {\k42}step {\k15}for{\k26}ward
+Comment: 0,0:02:45.27,0:02:49.12,Calli,,0,0,0,karaoke,{\k17}I {\k11}can {\k22}see {\k20}the {\k63}stars {\k126}now, {\k16}gui{\k15}ding {\k9}me {\k23}to {\k63}find
+Comment: 0,0:02:46.91,0:02:47.35,Lotus Juice (backs),,0,0,0,karaoke,{\k16}Uh{\k28}-huh
+Comment: 0,0:02:49.12,0:02:54.33,Calli,,0,0,0,karaoke,{\k32}For {\k25}this {\k38}mo{\kf142}ment, {\k14}we're {\k16}no {\k17}lon{\k31}ger {\k42}bro{\kf164}ken
+Comment: 0,0:02:53.52,0:02:54.80,Lotus Juice (backs),,0,0,0,karaoke,{\k34}Life {\k13}will {\k81}change
+Comment: 0,0:02:55.44,0:02:59.38,Calli,,0,0,0,karaoke,{\k16}Ne{\k15}ver {\k16}lea{\k16}ving {\k63}love {\k46}be{\kf222}hind
+Comment: 0,0:02:58.60,0:02:59.38,Lotus Juice (backs),,0,0,0,karaoke,{\k16}Pur{\k16}pose {\k15}of {\k31}life
+Comment: 0,0:02:59.54,0:03:04.41,Calli,,0,0,0,karaoke,{\k25}This {\k34}mor{\kf147}ning, {\k16}I'll {\k16}wake {\k13}up {\k18}to {\k63}sun{\kf155}light
+Comment: 0,0:03:01.28,0:03:01.75,Lotus Juice (backs),,0,0,0,karaoke,{\k47}Yeah
+Comment: 0,0:03:03.89,0:03:04.75,Lotus Juice (backs),,0,0,0,karaoke,{\k23}To {\k16}the {\k32}light, {\k15}ah
+Comment: 0,0:03:05.54,0:03:08.07,Calli,,0,0,0,karaoke,{\k16}Li{\k15}ving {\k15}with {\k8}re{\k72}solve, {\k127}now,
+Comment: 0,0:03:08.07,0:03:12.61,Calli,,0,0,0,karaoke,{\k16}run{\k15}ning {\k16}with {\k13}a {\k66}fear{\k48}less {\kf280}stride
+Comment: 0,0:03:07.12,0:03:07.57,Lotus Juice (backs),,0,0,0,karaoke,{\k16}Uh{\k29}-huh
+Comment: 0,0:03:12.49,0:03:14.32,Lotus Juice (backs),,0,0,0,karaoke,{\k16}On{\k15}ly {\k29}one {\k19}mo{\k12}ment {\k12}for {\k35}you {\k13}to {\k32}live,
+Comment: 0,0:03:14.32,0:03:15.49,Lotus Juice (backs),,0,0,0,karaoke,{\k30}how {\k15}do {\k25}you {\k20}want {\k27}it?
+Comment: 0,0:03:15.02,0:03:17.51,Calli,,0,0,0,karaoke,{\k47}Don't {\k47}look {\k48}back, {\k39}look {\k24}for{\k44}ward
+Comment: 0,0:03:17.51,0:03:20.00,Lotus Juice,,0,0,0,karaoke,{\k51}Don't {\k47}look {\k61}back, {\k16}look {\k32}for{\k42}ward
+Comment: 0,0:03:20.00,0:03:22.57,Calli,,0,0,0,karaoke,{\k45}Find {\k41}some{\k16}thing {\k29}you {\k18}can {\k45}move {\k18}to{\k45}ward
+Comment: 0,0:03:22.57,0:03:24.72,Choir,,0,0,0,karaoke,{\k50}Don't {\k47}look {\kf118}back
+Dialogue: 0,0:00:09.66,0:00:13.17,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k49}Don't {\k49}look {\k44}back, {\k51}look {\k16}for{\k32}ward
+Dialogue: 0,0:00:12.21,0:00:15.75,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Find {\k44}some{\k17}thing {\k30}you {\k17}can {\k42}move {\k21}to{\k37}ward
+Dialogue: 0,0:00:14.75,0:00:18.06,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k48}Don't {\k47}look {\k47}back, {\k39}look {\k23}for{\k17}ward
+Dialogue: 0,0:00:17.24,0:00:20.51,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k52}Don't {\k47}look {\kf118}back
+Dialogue: 0,0:00:19.62,0:00:21.68,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k8}I'm {\k28}sli{\k13}ppin' {\k16}then {\k12}fa{\k19}llin',
+Dialogue: 0,0:00:20.58,0:00:23.43,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k17}kept {\k13}on {\k19}loo{\k14}king {\k6}for {\k24}some{\k16}thin' {\k19}to {\k13}bring {\k14}me {\k20}up
+Dialogue: 0,0:00:22.33,0:00:24.92,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Odds {\k4}a{\k26}gainst {\k14}me, {\k9}no {\k20}such {\k20}thing {\k15}as {\k23}hope
+Dialogue: 0,0:00:23.82,0:00:25.90,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k21}On{\k14}ly {\k22}down, {\k15}no {\k26}ups
+Dialogue: 0,0:00:24.80,0:00:28.14,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Walked {\k8}on {\k40}thin {\k35}ice {\k6}and {\k8}it {\k32}sha{\k14}ttered {\k16}in {\k19}pie{\k25}ces
+Dialogue: 0,0:00:27.04,0:00:29.42,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k21}More {\k14}that {\k16}I {\k25}reach, {\k12}it {\k40}seems
+Dialogue: 0,0:00:28.32,0:00:31.01,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k13}all {\k12}my {\k17}chan{\k22}ces {\k24}de{\k16}crea{\k23}ses, {\k32}but
+Dialogue: 0,0:00:29.28,0:00:32.91,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k30}If {\k18}it's {\k9}un{\k17}win{\k10}na{\k21}ble, {\k16}cy{\k20}ni{\k16}cal {\k16}as {\k13}I {\k20}just {\k31}might {\k16}be
+Dialogue: 0,0:00:31.96,0:00:34.32,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Our {\k8}en{\k11}ding {\k29}still {\k15}is {\k15}un{\k17}wri{\k15}tten,
+Dialogue: 0,0:00:33.22,0:00:35.59,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k14}think {\k17}I'm {\k17}'bout {\k14}to {\k15}break {\k33}free
+Dialogue: 0,0:00:34.49,0:00:36.84,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k10}My {\k13}li{\k22}mits {\k16}clo{\k17}sing {\k16}a{\k19}round {\k12}me,
+Dialogue: 0,0:00:35.74,0:00:38.12,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k8}they're {\k25}soun{\k15}ding {\k17}less {\k7}and {\k24}less {\k32}real
+Dialogue: 0,0:00:37.02,0:00:39.53,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Be{\k15}cause {\k14}my {\k18}heart {\k16}is {\k16}bea{\k16}ting {\k16}lou{\k15}der
+Dialogue: 0,0:00:38.43,0:00:40.63,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k14}than {\k14}the {\k21}fear {\k14}that {\k12}I {\k35}feel
+Dialogue: 0,0:00:39.53,0:00:41.72,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k15}My {\k18}mind's {\k16}al{\k13}rea{\k18}dy {\k29}made,
+Dialogue: 0,0:00:40.62,0:00:43.64,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k13}not {\k18}a{\k16}fraid {\k15}of {\k32}un{\k26}real{\k18}is{\k15}tic {\k39}dream
+Dialogue: 0,0:00:42.54,0:00:44.79,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k12}Loo{\k15}king {\k13}for {\k9}my {\k40}supreme {\k26}team,
+Dialogue: 0,0:00:43.69,0:00:46.06,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k25}so {\k13}I {\k17}can {\k34}walk {\k13}on {\k16}wa{\k9}ter
+Dialogue: 0,0:00:45.38,0:00:48.68,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k16}I used {\k16}to {\k16}look {\k15}for {\k21}per{\k19}fec{\k21}tion, {\k11}now {\k23}it's {\k25}pro{\k37}gress
+Dialogue: 0,0:00:47.58,0:00:50.45,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Every {\k29}dues {\k32}paid, {\k16}part {\k13}of {\k28}pro{\k29}cess
+Dialogue: 0,0:00:49.35,0:00:55.72,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k44}In {\k28}this {\k36}mo{\kf147}ment, {\k26}may{\k17}be {\k32}it's {\k35}hope{\kf162}less
+Dialogue: 0,0:00:53.85,0:00:56.03,Lotus Juice (backs),,0,0,0,fx,{\k90\fad(300,200)}{\k23}Don't {\k10}be {\k16}a{\k59}fraid
+Dialogue: 0,0:00:55.59,0:01:00.61,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Not {\k15}kno{\k15}wing {\k18}if {\k15}I {\kf63}ne{\k43}ver {\kf201}try
+Dialogue: 0,0:00:58.63,0:01:01.01,Lotus Juice (backs),,0,0,0,fx,{\k90\fad(300,200)}{\k18}One {\k21}day {\k24}or {\k26}day {\k39}one
+Dialogue: 0,0:00:59.51,0:01:05.88,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Chan{\k41}ging {\k24}pha{\kf151}ses, {\k14}en{\k13}ve{\k19}loped {\k28}in {\k52}moon{\kf155}light
+Dialogue: 0,0:01:01.60,0:01:03.23,Lotus Juice (backs),,0,0,0,fx,{\k90\fad(300,200)}{\k53}Yeah
+Dialogue: 0,0:01:04.22,0:01:06.53,Lotus Juice (backs),,0,0,0,fx,{\k90\fad(300,200)}{\k26}One {\k10}more {\k38}step {\k17}for{\k30}ward
+Dialogue: 0,0:01:05.75,0:01:09.46,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k27}I {\k10}can {\k22}see {\k84}stars {\k118}now,
+Dialogue: 0,0:01:08.36,0:01:14.04,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ru{\k16}nning {\k16}through {\k15}an {\k48}end{\k62}less {\kf278}sky
+Dialogue: 0,0:01:07.48,0:01:08.90,Lotus Juice (backs),,0,0,0,fx,{\k90\fad(300,200)}{\k16}Uh{\k16}-huh
+Dialogue: 0,0:01:12.94,0:01:15.77,Lotus Juice (backs),,0,0,0,fx,{\k90\fad(300,200)}{\k10}On{\k14}ly {\k26}one {\k11}mo{\k18}ment {\k18}for {\k32}you {\k12}to {\k32}live,
+Dialogue: 0,0:01:14.67,0:01:16.95,Lotus Juice (backs),,0,0,0,fx,{\k90\fad(300,200)}{\k34}how {\k17}do {\k16}you {\k18}want {\k33}it?
+Dialogue: 0,0:01:25.46,0:01:29.07,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k47}Don't {\k50}look {\k60}back, {\k24}look {\k24}for{\k46}ward
+Dialogue: 0,0:01:27.97,0:01:31.62,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Find {\k38}some{\k24}thing {\k25}you {\k22}can {\k39}move {\k20}to{\k52}ward
+Dialogue: 0,0:01:30.52,0:01:34.13,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k49}Don't {\k48}look {\k58}back, {\k24}look {\k25}for{\k47}ward
+Dialogue: 0,0:01:33.03,0:01:36.29,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k51}Don't {\k47}look {\kf118}back
+Dialogue: 0,0:01:35.10,0:01:37.48,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k6}I {\k31}fight {\k6}a{\k20}no{\k17}ther {\k48}day,
+Dialogue: 0,0:01:36.38,0:01:39.08,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k16}these {\k17}ba{\k17}ttles {\k13}in{\k33}side {\k15}and {\k13}out{\k36}side
+Dialogue: 0,0:01:37.98,0:01:39.99,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Have {\k16}all {\k14}that {\k17}I {\k14}wan{\k15}ted,
+Dialogue: 0,0:01:38.89,0:01:41.59,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k22}why {\k8}am {\k8}I {\k26}still {\k8}not {\k23}sa{\k18}tis{\k47}fied?
+Dialogue: 0,0:01:40.49,0:01:42.90,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Lost {\k17}ta{\k29}xis {\k9}and {\k24}street {\k37}signs,
+Dialogue: 0,0:01:41.80,0:01:44.26,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k15}this {\k12}ci{\k14}ty {\k12}mi{\k19}rro{\k18}rin' {\k15}my {\k31}mind
+Dialogue: 0,0:01:43.16,0:01:46.36,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k14}A{\k16}lley{\k19}ways {\k14}to {\k16}love {\k10}will {\k24}take {\k13}for{\k32}ever {\k8}to {\k44}find
+Dialogue: 0,0:01:45.26,0:01:47.70,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Yeah, {\k12}the {\k34}world {\k12}de{\k34}clined {\k12}me,
+Dialogue: 0,0:01:46.60,0:01:49.54,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k10}I {\k25}was {\k13}al{\k18}ways {\k18}dope {\k15}but {\k12}they {\k14}were {\k22}like, {\k37}Nah
+Dialogue: 0,0:01:48.44,0:01:52.13,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Now, {\k19}it's {\k14}up {\k13}to {\k17}me {\k16}to {\k32}rise, {\k19}give {\k13}'em {\k8}li{\k10}ttle {\k28}sur{\k47}prise
+Dialogue: 0,0:01:51.03,0:01:54.27,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k14}My {\k51}mind {\k14}ne{\k15}ver {\k36}slides, {\k7}al{\k21}ways {\k17}ri{\k16}ding {\k23}high
+Dialogue: 0,0:01:53.17,0:01:56.71,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k10}I {\k31}thrive {\k12}on {\k14}this {\k18}love{\k18}ly {\k33}hate, {\k17}my {\k28}fuel {\k17}dis{\k46}guised
+Dialogue: 0,0:01:55.61,0:01:57.85,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Out{\k15}run{\k21}ning {\k15}all {\k8}my {\k25}sha{\k16}dows
+Dialogue: 0,0:01:56.75,0:01:58.95,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k16}still {\k15}in {\k15}worn {\k18}out {\k46}shoes
+Dialogue: 0,0:01:57.85,0:02:00.07,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k16}With {\k13}e{\k16}very{\k19}thing {\k13}to {\k35}gain,
+Dialogue: 0,0:01:58.97,0:02:01.49,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k14}e{\k15}ven {\k16}more {\k14}to {\k17}give {\k13}up {\k15}and {\k38}lose
+Dialogue: 0,0:02:00.39,0:02:03.19,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k15}This {\k15}time {\k14}you {\k13}go{\k13}tta {\k37}choose, {\k19}no {\k11}ex{\k33}cuse,
+Dialogue: 0,0:02:02.09,0:02:04.31,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k19}tired {\k8}of {\k23}slee{\k14}ping, {\k15}go{\k13}tta {\k20}move
+Dialogue: 0,0:02:03.21,0:02:06.99,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k16}En{\k10}vi{\k22}sion {\k16}to{\k11}mo{\k19}rrows {\k18}that {\k15}are {\k16}too {\k17}good {\k14}to {\k16}re{\k78}fuse
+Dialogue: 0,0:02:05.89,0:02:11.43,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Brigh{\k19}ter {\k77}skies {\k30}wai{\k58}ting, {\k17}but {\k19}I've {\k62}lost {\k52}my {\k78}aim
+Dialogue: 0,0:02:10.96,0:02:16.48,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k32}More {\k31}things {\k95}change, {\k24}the {\k40}more {\k17}they {\k78}stay {\k41}the {\kf84}same
+Dialogue: 0,0:02:16.01,0:02:21.54,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Bur{\k21}ning {\kf135}strife {\k46}and {\kf209}shame
+Dialogue: 0,0:02:20.75,0:02:27.53,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k32}This {\k31}pain {\k32}will {\kf127}be {\k44}my {\kf302}strength
+Dialogue: 0,0:02:27.70,0:02:34.81,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k60}In {\k26}this {\k37}mo{\kf145}ment, {\k28}may{\k17}be {\k38}it's {\k34}hope{\kf216}less
+Dialogue: 0,0:02:32.37,0:02:34.58,Lotus Juice (backs),,0,0,0,fx,{\k90\fad(300,200)}{\k23}Don't {\k11}be {\k12}a{\k65}fraid
+Dialogue: 0,0:02:34.17,0:02:39.01,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Not {\k14}kno{\k17}wing {\k16}if {\k16}I {\kf61}ne{\k45}ver {\kf189}try
+Dialogue: 0,0:02:37.17,0:02:39.69,Lotus Juice (backs),,0,0,0,fx,{\k90\fad(300,200)}{\k16}One {\k32}day {\k12}or {\k35}day {\k47}one
+Dialogue: 0,0:02:37.96,0:02:44.43,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k47}Chan{\k32}ging {\k31}pha{\kf143}ses, {\k15}en{\k9}ve{\k23}loped {\k26}in {\k50}moon{\kf161}light
+Dialogue: 0,0:02:40.17,0:02:41.73,Lotus Juice (backs),,0,0,0,fx,{\k90\fad(300,200)}{\k46}Yeah
+Dialogue: 0,0:02:42.70,0:02:45.01,Lotus Juice (backs),,0,0,0,fx,{\k90\fad(300,200)}{\k23}One {\k15}more {\k42}step {\k15}for{\k26}ward
+Dialogue: 0,0:02:44.37,0:02:49.32,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k11}can {\k22}see {\k20}the {\k63}stars {\k126}now, {\k16}gui{\k15}ding {\k9}me {\k23}to {\k63}find
+Dialogue: 0,0:02:46.01,0:02:47.55,Lotus Juice (backs),,0,0,0,fx,{\k90\fad(300,200)}{\k16}Uh{\k28}-huh
+Dialogue: 0,0:02:48.22,0:02:54.53,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k32}For {\k25}this {\k38}mo{\kf142}ment, {\k14}we're {\k16}no {\k17}lon{\k31}ger {\k42}bro{\kf164}ken
+Dialogue: 0,0:02:52.62,0:02:55.00,Lotus Juice (backs),,0,0,0,fx,{\k90\fad(300,200)}{\k34}Life {\k13}will {\k81}change
+Dialogue: 0,0:02:54.54,0:02:59.58,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Ne{\k15}ver {\k16}lea{\k16}ving {\k63}love {\k46}be{\kf222}hind
+Dialogue: 0,0:02:57.70,0:02:59.58,Lotus Juice (backs),,0,0,0,fx,{\k90\fad(300,200)}{\k16}Pur{\k16}pose {\k15}of {\k31}life
+Dialogue: 0,0:02:58.64,0:03:04.61,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k25}This {\k34}mor{\kf147}ning, {\k16}I'll {\k16}wake {\k13}up {\k18}to {\k63}sun{\kf155}light
+Dialogue: 0,0:03:00.38,0:03:01.95,Lotus Juice (backs),,0,0,0,fx,{\k90\fad(300,200)}{\k47}Yeah
+Dialogue: 0,0:03:02.99,0:03:04.95,Lotus Juice (backs),,0,0,0,fx,{\k90\fad(300,200)}{\k23}To {\k16}the {\k32}light, {\k15}ah
+Dialogue: 0,0:03:04.64,0:03:08.27,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Li{\k15}ving {\k15}with {\k8}re{\k72}solve, {\k127}now,
+Dialogue: 0,0:03:07.17,0:03:12.81,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k16}run{\k15}ning {\k16}with {\k13}a {\k66}fear{\k48}less {\kf280}stride
+Dialogue: 0,0:03:06.22,0:03:07.77,Lotus Juice (backs),,0,0,0,fx,{\k90\fad(300,200)}{\k16}Uh{\k29}-huh
+Dialogue: 0,0:03:11.59,0:03:14.52,Lotus Juice (backs),,0,0,0,fx,{\k90\fad(300,200)}{\k16}On{\k15}ly {\k29}one {\k19}mo{\k12}ment {\k12}for {\k35}you {\k13}to {\k32}live,
+Dialogue: 0,0:03:13.42,0:03:15.69,Lotus Juice (backs),,0,0,0,fx,{\k90\fad(300,200)}{\k30}how {\k15}do {\k25}you {\k20}want {\k27}it?
+Dialogue: 0,0:03:14.12,0:03:17.71,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k47}Don't {\k47}look {\k48}back, {\k39}look {\k24}for{\k44}ward
+Dialogue: 0,0:03:16.61,0:03:20.20,Lotus Juice,,0,0,0,fx,{\k90\fad(300,200)}{\k51}Don't {\k47}look {\k61}back, {\k16}look {\k32}for{\k42}ward
+Dialogue: 0,0:03:19.10,0:03:22.77,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Find {\k41}some{\k16}thing {\k29}you {\k18}can {\k45}move {\k18}to{\k45}ward
+Dialogue: 0,0:03:21.67,0:03:24.92,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k50}Don't {\k47}look {\kf118}back
