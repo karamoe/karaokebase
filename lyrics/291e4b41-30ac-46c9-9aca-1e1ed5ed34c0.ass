@@ -1,0 +1,292 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Chasse à l'homme
+Original Timing: Pyrospower
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:13.33,0:00:15.14,Sample KM [Up],,0,0,0,karaoke,{\kf60}Ouais {\k14}la {\k42}ci{\k44}té, {\k21}là
+Comment: 0,0:00:15.37,0:00:16.06,Sample KM [Up],,0,0,0,karaoke,{\kf69}Ouais
+Comment: 0,0:00:17.55,0:00:18.26,Sample KM [Up],,0,0,0,karaoke,{\k11}De {\k28}la {\k32}B
+Comment: 0,0:00:20.57,0:00:21.66,Sample KM [Up],,0,0,0,karaoke,{\k15}Que {\k29}du, {\k15}que {\k24}du, {\k16}que {\k10}du
+Comment: 0,0:00:21.74,0:00:23.45,Sample KM [Choir],,0,0,0,karaoke,{\k17}Dou{\k16}ble {\k22}X {\k7}on {\k14}the {\k37}track, {\k58}bitch
+Comment: 0,0:00:23.69,0:00:24.23,Sample KM [Up],,0,0,0,karaoke,{\k6}Que {\k8}du {\k40}sale
+Comment: 0,0:00:25.03,0:00:26.31,Sample KM [Up],,0,0,0,karaoke,{\k23}Sa{\k11}lade, {\k16}to{\k14}mate {\k7}et {\k12}sans {\k22}oi{\k23}gnons
+Comment: 0,0:00:26.68,0:00:27.61,Sample KM [Up],,0,0,0,karaoke,{\k16}Mets {\k8}de {\k9}la {\k18}sauce {\k10}sur {\k11}les {\k21}frites
+Comment: 0,0:00:26.31,0:00:26.68,Sample KM [Down],,0,0,0,karaoke,{\k37}Huh
+Comment: 0,0:00:27.85,0:00:28.20,Sample KM [Down],,0,0,0,karaoke,{\k18}Bâ{\k17}tard
+Comment: 0,0:00:28.08,0:00:29.34,Sample KM [Up],,0,0,0,karaoke,{\k10}J'ai {\k16}mis {\k9}l'é{\k16}las{\k12}tique {\k12}sur {\k15}le {\k18}po{\k18}gnon
+Comment: 0,0:00:29.34,0:00:29.60,Sample KM [Down],,0,0,0,karaoke,{\k13}Voi{\k13}là
+Comment: 0,0:00:29.64,0:00:30.79,Sample KM [Up],,0,0,0,karaoke,{\k5}Y {\k4}a{\k18}vait {\k13}trop {\k13}de {\k9}bi{\k14}llets {\k13}de {\k26}dix
+Comment: 0,0:00:30.95,0:00:31.12,Sample KM [Down],,0,0,0,karaoke,{\k17}Oui
+Comment: 0,0:00:31.31,0:00:32.39,Sample KM [Up],,0,0,0,karaoke,{\k11}Dites{\k13}-moi {\k12}le {\k15}prix {\k9}de {\k15}la {\k18}Mer{\k15}co
+Comment: 0,0:00:32.48,0:00:32.71,Sample KM [Down],,0,0,0,karaoke,{\k23}Dis
+Comment: 0,0:00:32.71,0:00:33.90,Sample KM [Up],,0,0,0,karaoke,{\k16}Dieu {\k10}mer{\k10}ci, {\k15}j'co{\k13}nnais {\k13}plus {\k12}la {\k30}crise
+Comment: 0,0:00:34.02,0:00:34.38,Sample KM [Down],,0,0,0,karaoke,{\k36}Non
+Comment: 0,0:00:34.19,0:00:34.95,Sample KM [Up],,0,0,0,karaoke,{\k27}J'te {\k18}paye {\k15}en {\k16}quoi ?
+Comment: 0,0:00:35.16,0:00:36.84,Sample KM [Up],,0,0,0,karaoke,{\k10}Bi{\k12}llets {\k18}de {\k28}banque {\k11}ou {\k9}bi{\k12}llets {\k15}du {\k53}crime ?
+Comment: 0,0:00:36.73,0:00:37.41,Sample KM [Down],,0,0,0,karaoke,{\k11}Bi{\k57}atch
+Comment: 0,0:00:37.48,0:00:38.67,Sample KM [Up],,0,0,0,karaoke,{\k7}Bi{\k15}llets {\k14}o{\k33}ranges {\k9}ou {\k10}bi{\k7}llets {\k24}verts ?
+Comment: 0,0:00:38.52,0:00:38.91,Sample KM [Down],,0,0,0,karaoke,{\k39}Hein ?
+Comment: 0,0:00:39.01,0:00:40.27,Sample KM [Up],,0,0,0,karaoke,{\k12}Tu {\k9}veux {\k19}la {\k29}blanche {\k9}ou {\k12}bien {\k8}la {\k28}verte ?
+Comment: 0,0:00:40.13,0:00:40.43,Sample KM [Down],,0,0,0,karaoke,{\k25}Quoi ?
+Comment: 0,0:00:40.43,0:00:41.69,Sample KM [Up],,0,0,0,karaoke,{\k12}En {\k11}com{\k12}bien {\k17}de {\k25}temps {\k7}tu {\k16}vas {\k6}le {\k20}faire ?
+Comment: 0,0:00:41.69,0:00:42.02,Sample KM [Down],,0,0,0,karaoke,{\k14}Com{\k19}bien ?
+Comment: 0,0:00:42.02,0:00:43.24,Sample KM [Up],,0,0,0,karaoke,{\k20}Joue {\k9}pas {\k16}le {\k24}con, {\k11}crois {\k14}pas {\k11}m'la {\k17}faire
+Comment: 0,0:00:43.24,0:00:43.40,Sample KM [Down],,0,0,0,karaoke,{\k16}Nan
+Comment: 0,0:00:43.40,0:00:44.19,Sample KM [Up],,0,0,0,karaoke,{\k8}Il {\k12}a {\k13}plu {\k11}des {\k17}car{\k10}touches {\k8}et
+Comment: 0,0:00:44.19,0:00:45.87,Sample KM [Up],,0,0,0,karaoke,{\k20}j'vois {\k16}qu'la {\k10}mé{\k11}té{\k17}o {\k9}n'a {\k14}pas {\k14}pré{\k10}vu {\k12}l'a{\k35}verse
+Comment: 0,0:00:45.94,0:00:46.53,Sample KM [Down],,0,0,0,karaoke,{\k12}Bouh {\k12}bouh {\k15}bouh {\k20}bouh
+Comment: 0,0:00:46.44,0:00:47.97,Sample KM [Up],,0,0,0,karaoke,{\k10}Si {\k12}je {\k14}monte {\k14}sur {\k15}un {\k18}plan {\k10}et {\k8}que {\k16}je {\k12}vois {\k9}l'ar{\k15}gent,
+Comment: 0,0:00:47.97,0:00:48.86,Sample KM [Up],,0,0,0,karaoke,{\k16}c'est {\k13}pour {\k12}ren{\k10}trer {\k16}a{\k22}vec
+Comment: 0,0:00:49.01,0:00:49.33,Sample KM [Down],,0,0,0,karaoke,{\k14}Voi{\k18}là
+Comment: 0,0:00:49.30,0:00:51.64,Sample KM [Up],,0,0,0,karaoke,{\k47}Sale, {\k16}comme {\k55}la {\k25}chatte {\k22}à {\k15}Ni{\k23}cki {\k16}Mi{\k15}naj
+Comment: 0,0:00:50.17,0:00:50.48,Sample KM [Down],,0,0,0,karaoke,{\k16}Comme {\k15}la
+Comment: 0,0:00:51.71,0:00:52.08,Sample KM [Down],,0,0,0,karaoke,{\k16}Mi{\k21}naj
+Comment: 0,0:00:52.08,0:00:53.64,Sample KM [Up],,0,0,0,karaoke,{\k16}C'est {\k25}moi {\k13}qui {\k26}fais {\k12}l'o{\k64}seille,
+Comment: 0,0:00:53.64,0:00:54.81,Sample KM [Up],,0,0,0,karaoke,{\k17}pé{\k24}tasse {\k14}fais {\k22}le {\k14}mé{\k26}nage
+Comment: 0,0:00:53.25,0:00:53.60,Sample KM [Down],,0,0,0,karaoke,{\k11}O{\k24}seille
+Comment: 0,0:00:54.81,0:00:55.18,Sample KM [Down],,0,0,0,karaoke,{\k14}Ra{\k23}masse
+Comment: 0,0:00:55.39,0:00:56.67,Sample KM [Up],,0,0,0,karaoke,{\k14}Le {\k14}cul {\k13}de {\k14}ma {\k9}maî{\k17}tresse {\k10}est {\k20}moe{\k17}lleux
+Comment: 0,0:00:56.67,0:00:58.39,Sample KM [Up],,0,0,0,karaoke,{\k16}Ché{\k28}rie, {\k17}par{\k17}don, {\k19}c'est {\k13}pas {\k8}ma {\k20}fau{\k34}te
+Comment: 0,0:00:58.17,0:00:58.59,Sample KM [Down],,0,0,0,karaoke,{\k25}Ja{\k17}main
+Comment: 0,0:00:58.52,0:00:59.79,Sample KM [Up],,0,0,0,karaoke,{\k11}En {\k14}garde {\k10}à {\k15}vue, {\k13}ton {\k14}pote {\k12}t'a {\k16}pou{\k22}cave
+Comment: 0,0:00:59.79,0:01:01.47,Sample KM [Up],,0,0,0,karaoke,{\k17}Il {\k25}leur {\k13}a {\k18}dit {\k5}qu'{\k13}c'est {\k12}de {\k8}ta {\k22}fau{\k35}te
+Comment: 0,0:01:01.31,0:01:01.83,Sample KM [Down],,0,0,0,karaoke,{\k18}Ba{\k34}lance
+Comment: 0,0:01:03.10,0:01:04.25,Sample KM [Up],,0,0,0,karaoke,{\k15}Par{\k14}don, {\k23}j'ai {\k15}pas {\k22}com{\k26}pris
+Comment: 0,0:01:04.77,0:01:05.00,Sample KM [Up],,0,0,0,karaoke,{\k19}Quoi ?
+Comment: 0,0:01:06.12,0:01:07.26,Sample KM [Up],,0,0,0,karaoke,{\k11}Qu'est{\k9}-ce {\k12}que {\k27}j'fais {\k11}dans {\k27}la {\k17}vie ?
+Comment: 0,0:01:07.26,0:01:08.05,Sample KM [Down],,0,0,0,karaoke,{\k20}Tu {\k11}veux {\k25}sa{\k23}voir ?
+Comment: 0,0:01:08.05,0:01:09.22,Sample KM [Up],,0,0,0,karaoke,{\k10}On {\k21}fait {\k26}d'la {\k22}trap {\k19}mon {\k19}pote
+Comment: 0,0:01:09.22,0:01:10.38,Sample KM [Up],,0,0,0,karaoke,{\k15}On {\k21}vend {\k24}d'la {\k15}dope, {\k20}mon {\k21}pote
+Comment: 0,0:01:10.38,0:01:11.14,Sample KM [Down],,0,0,0,karaoke,{\k15}On {\k15}vend {\k27}la {\k19}weed
+Comment: 0,0:01:11.14,0:01:13.60,Sample KM [Up],,0,0,0,karaoke,{\k19}Ma {\k20}mère {\k18}ne {\k13}tra{\k26}vaille {\k28}plus, {\k14}quel{\k14}que {\k19}part, {\k21}j'suis {\k20}ra{\k34}vi
+Comment: 0,0:01:14.43,0:01:16.92,Sample KM [Up],,0,0,0,karaoke,{\k14}O{\k23}G {\k14}kush {\k13}sous {\k83}l'blunt, {\k14}ça {\k28}sonne {\k20}sur {\k18}mon {\k22}phone
+Comment: 0,0:01:15.36,0:01:15.90,Sample KM [Down],,0,0,0,karaoke,{\k54}Oui
+Comment: 0,0:01:16.92,0:01:17.37,Sample KM [Down],,0,0,0,karaoke,{\k21}A{\k24}llô ?
+Comment: 0,0:01:17.47,0:01:19.96,Sample KM [Up],,0,0,0,karaoke,{\k14}J're{\k27}çois {\k16}un {\k20}coup {\k66}d'fil, {\k11}les {\k23}enne{\k18}mis {\k16}veulent {\k21}un {\k17}bail
+Comment: 0,0:01:18.37,0:01:18.87,Sample KM [Down],,0,0,0,karaoke,{\k29}C'est {\k21}qui ?
+Comment: 0,0:01:19.96,0:01:20.33,Sample KM [Down],,0,0,0,karaoke,{\k22}Ah {\k15}bon ?
+Comment: 0,0:01:20.49,0:01:23.11,Sample KM [Up],,0,0,0,karaoke,{\k25}Sur {\k18}la {\k21}vie {\k20}d'ma {\k76}mère, {\k11}ils {\k28}ont {\k15}pas {\k22}com{\k26}pris
+Comment: 0,0:01:21.44,0:01:21.91,Sample KM [Down],,0,0,0,karaoke,{\k27}J'a{\k20}rrive
+Comment: 0,0:01:23.21,0:01:23.47,Sample KM [Down],,0,0,0,karaoke,{\k26}Hein ?
+Comment: 0,0:01:23.61,0:01:26.14,Sample KM [Up],,0,0,0,karaoke,{\k16}Ra{\k25}mène {\k10}mon {\k25}fu{\k61}sil, {\k18}ils {\k15}re{\k23}vien{\k13}dront {\k29}ja{\k18}mais
+Comment: 0,0:01:24.57,0:01:24.98,Sample KM [Down],,0,0,0,karaoke,{\k24}Ra{\k17}mène
+Comment: 0,0:01:26.20,0:01:27.25,Sample KM [Up],,0,0,0,karaoke,{\k50}Shoot, {\k13}balle {\k9}dans {\k16}la {\k17}tête
+Comment: 0,0:01:27.48,0:01:27.76,Sample KM [Down],,0,0,0,karaoke,{\k28}Bang
+Comment: 0,0:01:27.76,0:01:28.83,Sample KM [Up],,0,0,0,karaoke,{\k47}Shoot, {\k12}balle {\k11}dans {\k16}la {\k21}tête
+Comment: 0,0:01:28.83,0:01:29.29,Sample KM [Down],,0,0,0,karaoke,{\k22}Bang, {\k24}bang
+Comment: 0,0:01:29.29,0:01:30.34,Sample KM [Up],,0,0,0,karaoke,{\k49}Shoot, {\k13}balle {\k8}dans {\k17}la {\k18}tête
+Comment: 0,0:01:30.47,0:01:31.91,Sample KM [Up],,0,0,0,karaoke,{\k31}Shoot, {\k52}shoot, {\k12}balle {\k9}dans {\k18}la {\k22}tête
+Comment: 0,0:01:32.35,0:01:33.39,Sample KM [Up],,0,0,0,karaoke,{\k51}Shoot, {\k12}balle {\k10}dans {\k16}la {\k15}tête
+Comment: 0,0:01:33.64,0:01:33.92,Sample KM [Down],,0,0,0,karaoke,{\k28}Bang
+Comment: 0,0:01:33.92,0:01:34.98,Sample KM [Up],,0,0,0,karaoke,{\k47}Shoot, {\k12}balle {\k10}dans {\k16}la {\k21}tête
+Comment: 0,0:01:34.98,0:01:35.45,Sample KM [Down],,0,0,0,karaoke,{\k21}Bang, {\k26}bang
+Comment: 0,0:01:35.45,0:01:36.45,Sample KM [Up],,0,0,0,karaoke,{\k49}Shoot, {\k13}balle {\k9}dans {\k15}la {\k14}tête
+Comment: 0,0:01:36.62,0:01:38.00,Sample KM [Up],,0,0,0,karaoke,{\k40}Shoot, {\k43}shoot, {\k15}balle {\k6}dans {\k19}la {\k15}tête
+Comment: 0,0:01:37.10,0:01:37.56,Sample KM [Down],,0,0,0,karaoke,{\k46}Eh
+Comment: 0,0:01:38.61,0:01:41.15,Sample KM [Up],,0,0,0,karaoke,{\k17}I{\k18}go, {\k22}faut {\k18}l'ar{\k82}gent, {\k16}bi{\k18}bi, {\k16}faut {\k22}l'ar{\k25}gent
+Comment: 0,0:01:41.15,0:01:41.49,Sample KM [Down],,0,0,0,karaoke,{\k15}Ar{\k19}gent
+Comment: 0,0:01:41.55,0:01:42.68,Sample KM [Up],,0,0,0,karaoke,{\k14}Pour {\k15}man{\k23}ger, {\k19}faut {\k17}l'ar{\k25}gent
+Comment: 0,0:01:43.09,0:01:44.18,Sample KM [Up],,0,0,0,karaoke,{\k15}Pour {\k13}bai{\k23}ser, {\k17}faut {\k18}l'ar{\k23}gent
+Comment: 0,0:01:42.77,0:01:43.09,Sample KM [Down],,0,0,0,karaoke,{\k32}'gent
+Comment: 0,0:01:44.18,0:01:44.59,Sample KM [Down],,0,0,0,karaoke,{\k19}Ar{\k22}gent
+Comment: 0,0:01:44.59,0:01:45.77,Sample KM [Up],,0,0,0,karaoke,{\k15}J'ai {\k22}vo{\k23}lé {\k11}pour {\k20}l'ar{\k27}gent
+Comment: 0,0:01:45.98,0:01:47.35,Sample KM [Up],,0,0,0,karaoke,{\k9}mais {\k21}j'ai {\k20}rien {\k21}fait, {\k21}m'sieur {\k15}l'a{\k30}gent
+Comment: 0,0:01:48.17,0:01:50.42,Sample KM [Up],,0,0,0,karaoke,{\k23}Vive {\k17}l'ar{\k44}gent, {\k20}j'suis {\k20}dans l'{\k23}ben{\k16}do {\k34}pour {\k12}l'in{\k16}stant
+Comment: 0,0:01:50.62,0:01:51.95,Sample KM [Down],,0,0,0,karaoke,{\k36}Boo{\kf97}min
+Comment: 0,0:01:52.29,0:01:53.64,Sample KM [Up],,0,0,0,karaoke,{\k16}La {\k13}ca{\k14}goule {\k7}e{\k14}ffra{\k14}yait {\k13}la {\k15}ban{\k29}quière
+Comment: 0,0:01:53.64,0:01:55.15,Sample KM [Down],,0,0,0,karaoke,{\k38}Oh {\kf113}oui
+Comment: 0,0:01:55.35,0:01:56.72,Sample KM [Up],,0,0,0,karaoke,{\k18}Le {\k14}ga{\k14}mos {\k11}a {\k10}pa{\k13}ssé {\k8}la {\k21}fron{\k28}tière
+Comment: 0,0:01:57.07,0:01:58.14,Sample KM [Up],,0,0,0,karaoke,{\k41}Oh {\k10}ma {\k9}ma{\k18}ma {\k9}co{\k20}sa
+Comment: 0,0:01:58.25,0:01:59.78,Sample KM [Up],,0,0,0,karaoke,{\k9}On {\k14}veut {\k12}des {\k19}llets{\k21}-bi {\k8}co{\k16}ffrés {\k17}dans l'{\k12}cou{\k25}ssin
+Comment: 0,0:01:59.78,0:02:00.13,Sample KM [Down],,0,0,0,karaoke,{\k17}Ben{\k18}do
+Comment: 0,0:02:00.16,0:02:01.22,Sample KM [Up],,0,0,0,karaoke,{\k41}Oh {\k10}ma {\k8}ma{\k17}ma {\k10}co{\k20}sa
+Comment: 0,0:02:01.33,0:02:02.84,Sample KM [Up],,0,0,0,karaoke,{\k13}De{\k11}puis {\k15}qu'j'ai {\k15}per{\k19}cé, {\k16}j'ai {\k12}beau{\k15}coup {\k12}d'cou{\k23}sins
+Comment: 0,0:02:02.84,0:02:03.11,Sample KM [Down],,0,0,0,karaoke,{\k27}Oui
+Comment: 0,0:02:03.11,0:02:04.16,Sample KM [Up],,0,0,0,karaoke,{\k53}Shoot, {\k13}balle {\k10}dans {\k16}la {\k13}tête
+Comment: 0,0:02:04.34,0:02:05.85,Sample KM [Up],,0,0,0,karaoke,{\k10}T'es {\k12}par{\k8}ti {\k14}en {\k17}pre{\k10}mier {\k7}mais {\k18}c'est {\k11}moi {\k15}le {\k11}mei{\k18}lleur
+Comment: 0,0:02:05.95,0:02:06.18,Sample KM [Down],,0,0,0,karaoke,{\k11}Voi{\k12}là
+Comment: 0,0:02:06.18,0:02:07.25,Sample KM [Up],,0,0,0,karaoke,{\k37}Fonce, {\k16}te {\k18}casse {\k9}pas {\k14}la {\k13}tête
+Comment: 0,0:02:07.49,0:02:08.98,Sample KM [Up],,0,0,0,karaoke,{\k15}Même {\k7}où {\k17}j'ha{\k15}bite, {\k11}le {\k11}gue{\k14}tteur {\k10}de{\k15}vient {\k14}dea{\k20}ler
+Comment: 0,0:02:09.68,0:02:10.84,Sample KM [Up],,0,0,0,karaoke,{\k16}C'est {\k17}nous {\k17}on {\k20}parle {\k18}en {\k28}bails
+Comment: 0,0:02:10.84,0:02:12.00,Sample KM [Up],,0,0,0,karaoke,{\k18}C'est {\k12}nous {\k19}on {\k20}parle {\k14}en {\k33}zer
+Comment: 0,0:02:12.07,0:02:12.48,Sample KM [Down],,0,0,0,karaoke,{\k22}9{\k19}1
+Comment: 0,0:02:12.73,0:02:13.96,Sample KM [Up],,0,0,0,karaoke,{\k15}C'est {\k17}nous, {\k19}les {\k14}plus {\k25}vio{\k33}lents
+Comment: 0,0:02:13.96,0:02:15.04,Sample KM [Up],,0,0,0,karaoke,{\k10}De {\k17}toute {\k11}la {\k27}France {\k19}en{\k24}tière
+Comment: 0,0:02:15.04,0:02:15.57,Sample KM [Down],,0,0,0,karaoke,{\k8}Ah {\k18}oui, {\k27}oui
+Comment: 0,0:02:15.97,0:02:18.47,Sample KM [Up],,0,0,0,karaoke,{\k14}O{\k22}G {\k12}kush {\k26}sous {\k73}l'blunt, {\k15}ça {\k27}sonne {\k17}sur {\k20}mon {\k24}phone
+Comment: 0,0:02:16.89,0:02:17.42,Sample KM [Down],,0,0,0,karaoke,{\k53}Oui
+Comment: 0,0:02:18.45,0:02:18.87,Sample KM [Down],,0,0,0,karaoke,{\k20}A{\k22}llô ?
+Comment: 0,0:02:19.01,0:02:21.50,Sample KM [Up],,0,0,0,karaoke,{\k14}J're{\k26}çois {\k17}un {\k19}coup {\k66}d'fil, {\k10}les {\k25}enne{\k17}mis {\k16}veulent {\k22}un {\k17}bail
+Comment: 0,0:02:19.91,0:02:20.41,Sample KM [Down],,0,0,0,karaoke,{\k28}C'est {\k22}qui ?
+Comment: 0,0:02:21.50,0:02:21.84,Sample KM [Down],,0,0,0,karaoke,{\k21}Ah {\k13}bon ?
+Comment: 0,0:02:22.03,0:02:24.61,Sample KM [Up],,0,0,0,karaoke,{\k24}Sur {\k19}la {\k21}vie {\k20}d'ma {\k75}mère, {\k11}ils {\k28}ont {\k16}pas {\k22}com{\k22}pris
+Comment: 0,0:02:22.99,0:02:23.45,Sample KM [Down],,0,0,0,karaoke,{\k25}J'a{\k21}rrive
+Comment: 0,0:02:24.74,0:02:25.00,Sample KM [Down],,0,0,0,karaoke,{\k26}Hein ?
+Comment: 0,0:02:25.15,0:02:27.69,Sample KM [Up],,0,0,0,karaoke,{\k12}Ra{\k30}mène {\k7}mon {\k27}fu{\k61}sil, {\k16}ils {\k17}re{\k23}vien{\k12}dront {\k29}ja{\k20}mais
+Comment: 0,0:02:26.12,0:02:26.52,Sample KM [Down],,0,0,0,karaoke,{\k22}Ra{\k18}mène
+Comment: 0,0:02:27.73,0:02:28.78,Sample KM [Up],,0,0,0,karaoke,{\k51}Shoot, {\k12}balle {\k10}dans {\k16}la {\k16}tête
+Comment: 0,0:02:29.02,0:02:29.30,Sample KM [Down],,0,0,0,karaoke,{\k28}Bang
+Comment: 0,0:02:29.30,0:02:30.33,Sample KM [Up],,0,0,0,karaoke,{\k47}Shoot, {\k12}balle {\k10}dans {\k16}la {\k18}tête
+Comment: 0,0:02:30.37,0:02:30.76,Sample KM [Down],,0,0,0,karaoke,{\k20}Bang, {\k19}bang
+Comment: 0,0:02:30.84,0:02:31.84,Sample KM [Up],,0,0,0,karaoke,{\k48}Shoot, {\k12}balle {\k10}dans {\k15}la {\k15}tête
+Comment: 0,0:02:32.01,0:02:33.39,Sample KM [Up],,0,0,0,karaoke,{\k39}Shoot, {\k44}shoot, {\k12}balle {\k9}dans {\k18}la {\k16}tête
+Comment: 0,0:02:33.90,0:02:34.92,Sample KM [Up],,0,0,0,karaoke,{\k50}Shoot, {\k12}balle {\k9}dans {\k17}la {\k14}tête
+Comment: 0,0:02:35.18,0:02:35.45,Sample KM [Down],,0,0,0,karaoke,{\k27}Bang
+Comment: 0,0:02:35.45,0:02:36.48,Sample KM [Up],,0,0,0,karaoke,{\k47}Shoot, {\k13}balle {\k11}dans {\k15}la {\k17}tête
+Comment: 0,0:02:36.52,0:02:36.90,Sample KM [Down],,0,0,0,karaoke,{\k20}Bang, {\k18}bang
+Comment: 0,0:02:36.98,0:02:37.99,Sample KM [Up],,0,0,0,karaoke,{\k50}Shoot, {\k12}balle {\k9}dans {\k16}la {\k14}tête
+Comment: 0,0:02:38.16,0:02:39.53,Sample KM [Up],,0,0,0,karaoke,{\k40}Shoot, {\k44}shoot, {\k10}balle {\k10}dans {\k19}la {\k14}tête
+Comment: 0,0:02:41.34,0:02:41.73,Sample KM [Down],,0,0,0,karaoke,{\k39}Bang
+Comment: 0,0:02:42.68,0:02:43.12,Sample KM [Down],,0,0,0,karaoke,{\k19}Bang, {\k25}bang
+Comment: 0,0:02:47.48,0:02:47.88,Sample KM [Down],,0,0,0,karaoke,{\k40}Bang
+Comment: 0,0:02:48.83,0:02:49.22,Sample KM [Down],,0,0,0,karaoke,{\k20}Bang, {\k19}bang
+Dialogue: 0,0:00:12.43,0:00:15.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf60}Ouais {\k14}la {\k42}ci{\k44}té, {\k21}là
+Dialogue: 0,0:00:14.47,0:00:16.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf69}Ouais
+Dialogue: 0,0:00:16.65,0:00:18.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}De {\k28}la {\k32}B
+Dialogue: 0,0:00:19.67,0:00:21.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Que {\k29}du, {\k15}que {\k24}du, {\k16}que {\k10}du
+Dialogue: 0,0:00:20.84,0:00:23.65,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Dou{\k16}ble {\k22}X {\k7}on {\k14}the {\k37}track, {\k58}bitch
+Dialogue: 0,0:00:22.79,0:00:24.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k6}Que {\k8}du {\k40}sale
+Dialogue: 0,0:00:24.13,0:00:26.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Sa{\k11}lade, {\k16}to{\k14}mate {\k7}et {\k12}sans {\k22}oi{\k23}gnons
+Dialogue: 0,0:00:25.78,0:00:27.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Mets {\k8}de {\k9}la {\k18}sauce {\k10}sur {\k11}les {\k21}frites
+Dialogue: 0,0:00:25.41,0:00:26.88,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Huh
+Dialogue: 0,0:00:26.95,0:00:28.40,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Bâ{\k17}tard
+Dialogue: 0,0:00:27.18,0:00:29.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}J'ai {\k16}mis {\k9}l'é{\k16}las{\k12}tique {\k12}sur {\k15}le {\k18}po{\k18}gnon
+Dialogue: 0,0:00:28.44,0:00:29.80,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Voi{\k13}là
+Dialogue: 0,0:00:28.74,0:00:30.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k5}Y {\k4}a{\k18}vait {\k13}trop {\k13}de {\k9}bi{\k14}llets {\k13}de {\k26}dix
+Dialogue: 0,0:00:30.05,0:00:31.32,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Oui
+Dialogue: 0,0:00:30.41,0:00:32.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Dites{\k13}-moi {\k12}le {\k15}prix {\k9}de {\k15}la {\k18}Mer{\k15}co
+Dialogue: 0,0:00:31.58,0:00:32.91,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Dis
+Dialogue: 0,0:00:31.81,0:00:34.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Dieu {\k10}mer{\k10}ci, {\k15}j'co{\k13}nnais {\k13}plus {\k12}la {\k30}crise
+Dialogue: 0,0:00:33.12,0:00:34.58,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Non
+Dialogue: 0,0:00:33.29,0:00:35.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}J'te {\k18}paye {\k15}en {\k16}quoi ?
+Dialogue: 0,0:00:34.26,0:00:37.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}Bi{\k12}llets {\k18}de {\k28}banque {\k11}ou {\k9}bi{\k12}llets {\k15}du {\k53}crime ?
+Dialogue: 0,0:00:35.83,0:00:37.61,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Bi{\k57}atch
+Dialogue: 0,0:00:36.58,0:00:38.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k7}Bi{\k15}llets {\k14}o{\k33}ranges {\k9}ou {\k10}bi{\k7}llets {\k24}verts ?
+Dialogue: 0,0:00:37.62,0:00:39.11,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Hein ?
+Dialogue: 0,0:00:38.11,0:00:40.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Tu {\k9}veux {\k19}la {\k29}blanche {\k9}ou {\k12}bien {\k8}la {\k28}verte ?
+Dialogue: 0,0:00:39.23,0:00:40.63,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Quoi ?
+Dialogue: 0,0:00:39.53,0:00:41.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}En {\k11}com{\k12}bien {\k17}de {\k25}temps {\k7}tu {\k16}vas {\k6}le {\k20}faire ?
+Dialogue: 0,0:00:40.79,0:00:42.22,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Com{\k19}bien ?
+Dialogue: 0,0:00:41.12,0:00:43.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Joue {\k9}pas {\k16}le {\k24}con, {\k11}crois {\k14}pas {\k11}m'la {\k17}faire
+Dialogue: 0,0:00:42.34,0:00:43.60,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Nan
+Dialogue: 0,0:00:42.50,0:00:44.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k8}Il {\k12}a {\k13}plu {\k11}des {\k17}car{\k10}touches {\k8}et
+Dialogue: 0,0:00:43.29,0:00:46.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}j'vois {\k16}qu'la {\k10}mé{\k11}té{\k17}o {\k9}n'a {\k14}pas {\k14}pré{\k10}vu {\k12}l'a{\k35}verse
+Dialogue: 0,0:00:45.04,0:00:46.73,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Bouh {\k12}bouh {\k15}bouh {\k20}bouh
+Dialogue: 0,0:00:45.54,0:00:48.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}Si {\k12}je {\k14}monte {\k14}sur {\k15}un {\k18}plan {\k10}et {\k8}que {\k16}je {\k12}vois {\k9}l'ar{\k15}gent,
+Dialogue: 0,0:00:47.07,0:00:49.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}c'est {\k13}pour {\k12}ren{\k10}trer {\k16}a{\k22}vec
+Dialogue: 0,0:00:48.11,0:00:49.53,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Voi{\k18}là
+Dialogue: 0,0:00:48.40,0:00:51.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Sale, {\k16}comme {\k55}la {\k25}chatte {\k22}à {\k15}Ni{\k23}cki {\k16}Mi{\k15}naj
+Dialogue: 0,0:00:49.27,0:00:50.68,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Comme {\k15}la
+Dialogue: 0,0:00:50.81,0:00:52.28,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Mi{\k21}naj
+Dialogue: 0,0:00:51.18,0:00:53.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}C'est {\k25}moi {\k13}qui {\k26}fais {\k12}l'o{\k64}seille,
+Dialogue: 0,0:00:52.74,0:00:55.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}pé{\k24}tasse {\k14}fais {\k22}le {\k14}mé{\k26}nage
+Dialogue: 0,0:00:52.35,0:00:53.80,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k11}O{\k24}seille
+Dialogue: 0,0:00:53.91,0:00:55.38,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ra{\k23}masse
+Dialogue: 0,0:00:54.49,0:00:56.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Le {\k14}cul {\k13}de {\k14}ma {\k9}maî{\k17}tresse {\k10}est {\k20}moe{\k17}lleux
+Dialogue: 0,0:00:55.77,0:00:58.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Ché{\k28}rie, {\k17}par{\k17}don, {\k19}c'est {\k13}pas {\k8}ma {\k20}fau{\k34}te
+Dialogue: 0,0:00:57.27,0:00:58.79,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Ja{\k17}main
+Dialogue: 0,0:00:57.62,0:00:59.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}En {\k14}garde {\k10}à {\k15}vue, {\k13}ton {\k14}pote {\k12}t'a {\k16}pou{\k22}cave
+Dialogue: 0,0:00:58.89,0:01:01.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Il {\k25}leur {\k13}a {\k18}dit {\k5}qu'{\k13}c'est {\k12}de {\k8}ta {\k22}fau{\k35}te
+Dialogue: 0,0:01:00.41,0:01:02.03,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Ba{\k34}lance
+Dialogue: 0,0:01:02.20,0:01:04.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Par{\k14}don, {\k23}j'ai {\k15}pas {\k22}com{\k26}pris
+Dialogue: 0,0:01:03.87,0:01:05.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Quoi ?
+Dialogue: 0,0:01:05.22,0:01:07.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Qu'est{\k9}-ce {\k12}que {\k27}j'fais {\k11}dans {\k27}la {\k17}vie ?
+Dialogue: 0,0:01:06.36,0:01:08.25,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Tu {\k11}veux {\k25}sa{\k23}voir ?
+Dialogue: 0,0:01:07.15,0:01:09.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}On {\k21}fait {\k26}d'la {\k22}trap {\k19}mon {\k19}pote
+Dialogue: 0,0:01:08.32,0:01:10.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}On {\k21}vend {\k24}d'la {\k15}dope, {\k20}mon {\k21}pote
+Dialogue: 0,0:01:09.48,0:01:11.34,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k15}On {\k15}vend {\k27}la {\k19}weed
+Dialogue: 0,0:01:10.24,0:01:13.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Ma {\k20}mère {\k18}ne {\k13}tra{\k26}vaille {\k28}plus, {\k14}quel{\k14}que {\k19}part, {\k21}j'suis {\k20}ra{\k34}vi
+Dialogue: 0,0:01:13.53,0:01:17.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}O{\k23}G {\k14}kush {\k13}sous {\k83}l'blunt, {\k14}ça {\k28}sonne {\k20}sur {\k18}mon {\k22}phone
+Dialogue: 0,0:01:14.46,0:01:16.10,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k54}Oui
+Dialogue: 0,0:01:16.02,0:01:17.57,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k21}A{\k24}llô ?
+Dialogue: 0,0:01:16.57,0:01:20.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}J're{\k27}çois {\k16}un {\k20}coup {\k66}d'fil, {\k11}les {\k23}enne{\k18}mis {\k16}veulent {\k21}un {\k17}bail
+Dialogue: 0,0:01:17.47,0:01:19.07,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k29}C'est {\k21}qui ?
+Dialogue: 0,0:01:19.06,0:01:20.53,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ah {\k15}bon ?
+Dialogue: 0,0:01:19.59,0:01:23.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Sur {\k18}la {\k21}vie {\k20}d'ma {\k76}mère, {\k11}ils {\k28}ont {\k15}pas {\k22}com{\k26}pris
+Dialogue: 0,0:01:20.54,0:01:22.11,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k27}J'a{\k20}rrive
+Dialogue: 0,0:01:22.31,0:01:23.67,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Hein ?
+Dialogue: 0,0:01:22.71,0:01:26.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Ra{\k25}mène {\k10}mon {\k25}fu{\k61}sil, {\k18}ils {\k15}re{\k23}vien{\k13}dront {\k29}ja{\k18}mais
+Dialogue: 0,0:01:23.67,0:01:25.18,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Ra{\k17}mène
+Dialogue: 0,0:01:25.30,0:01:27.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Shoot, {\k13}balle {\k9}dans {\k16}la {\k17}tête
+Dialogue: 0,0:01:26.58,0:01:27.96,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Bang
+Dialogue: 0,0:01:26.86,0:01:29.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Shoot, {\k12}balle {\k11}dans {\k16}la {\k21}tête
+Dialogue: 0,0:01:27.93,0:01:29.49,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Bang, {\k24}bang
+Dialogue: 0,0:01:28.39,0:01:30.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Shoot, {\k13}balle {\k8}dans {\k17}la {\k18}tête
+Dialogue: 0,0:01:29.57,0:01:32.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Shoot, {\k52}shoot, {\k12}balle {\k9}dans {\k18}la {\k22}tête
+Dialogue: 0,0:01:31.45,0:01:33.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k51}Shoot, {\k12}balle {\k10}dans {\k16}la {\k15}tête
+Dialogue: 0,0:01:32.74,0:01:34.12,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Bang
+Dialogue: 0,0:01:33.02,0:01:35.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Shoot, {\k12}balle {\k10}dans {\k16}la {\k21}tête
+Dialogue: 0,0:01:34.08,0:01:35.65,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Bang, {\k26}bang
+Dialogue: 0,0:01:34.55,0:01:36.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Shoot, {\k13}balle {\k9}dans {\k15}la {\k14}tête
+Dialogue: 0,0:01:35.72,0:01:38.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Shoot, {\k43}shoot, {\k15}balle {\k6}dans {\k19}la {\k15}tête
+Dialogue: 0,0:01:36.20,0:01:37.76,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Eh
+Dialogue: 0,0:01:37.71,0:01:41.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}I{\k18}go, {\k22}faut {\k18}l'ar{\k82}gent, {\k16}bi{\k18}bi, {\k16}faut {\k22}l'ar{\k25}gent
+Dialogue: 0,0:01:40.25,0:01:41.69,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Ar{\k19}gent
+Dialogue: 0,0:01:40.65,0:01:42.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Pour {\k15}man{\k23}ger, {\k19}faut {\k17}l'ar{\k25}gent
+Dialogue: 0,0:01:42.19,0:01:44.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Pour {\k13}bai{\k23}ser, {\k17}faut {\k18}l'ar{\k23}gent
+Dialogue: 0,0:01:41.87,0:01:43.29,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k32}'gent
+Dialogue: 0,0:01:43.28,0:01:44.79,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Ar{\k22}gent
+Dialogue: 0,0:01:43.69,0:01:45.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}J'ai {\k22}vo{\k23}lé {\k11}pour {\k20}l'ar{\k27}gent
+Dialogue: 0,0:01:45.08,0:01:47.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}mais {\k21}j'ai {\k20}rien {\k21}fait, {\k21}m'sieur {\k15}l'a{\k30}gent
+Dialogue: 0,0:01:47.27,0:01:50.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Vive {\k17}l'ar{\k44}gent, {\k20}j'suis {\k20}dans l'{\k23}ben{\k16}do {\k34}pour {\k12}l'in{\k16}stant
+Dialogue: 0,0:01:49.72,0:01:52.15,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Boo{\kf97}min
+Dialogue: 0,0:01:51.39,0:01:53.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}La {\k13}ca{\k14}goule {\k7}e{\k14}ffra{\k14}yait {\k13}la {\k15}ban{\k29}quière
+Dialogue: 0,0:01:52.74,0:01:55.35,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Oh {\kf113}oui
+Dialogue: 0,0:01:54.45,0:01:56.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Le {\k14}ga{\k14}mos {\k11}a {\k10}pa{\k13}ssé {\k8}la {\k21}fron{\k28}tière
+Dialogue: 0,0:01:56.17,0:01:58.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Oh {\k10}ma {\k9}ma{\k18}ma {\k9}co{\k20}sa
+Dialogue: 0,0:01:57.35,0:01:59.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}On {\k14}veut {\k12}des {\k19}llets{\k21}-bi {\k8}co{\k16}ffrés {\k17}dans l'{\k12}cou{\k25}ssin
+Dialogue: 0,0:01:58.88,0:02:00.33,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Ben{\k18}do
+Dialogue: 0,0:01:59.26,0:02:01.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Oh {\k10}ma {\k8}ma{\k17}ma {\k10}co{\k20}sa
+Dialogue: 0,0:02:00.43,0:02:03.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}De{\k11}puis {\k15}qu'j'ai {\k15}per{\k19}cé, {\k16}j'ai {\k12}beau{\k15}coup {\k12}d'cou{\k23}sins
+Dialogue: 0,0:02:01.94,0:02:03.31,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Oui
+Dialogue: 0,0:02:02.21,0:02:04.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k53}Shoot, {\k13}balle {\k10}dans {\k16}la {\k13}tête
+Dialogue: 0,0:02:03.44,0:02:06.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}T'es {\k12}par{\k8}ti {\k14}en {\k17}pre{\k10}mier {\k7}mais {\k18}c'est {\k11}moi {\k15}le {\k11}mei{\k18}lleur
+Dialogue: 0,0:02:05.05,0:02:06.38,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Voi{\k12}là
+Dialogue: 0,0:02:05.28,0:02:07.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Fonce, {\k16}te {\k18}casse {\k9}pas {\k14}la {\k13}tête
+Dialogue: 0,0:02:06.59,0:02:09.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Même {\k7}où {\k17}j'ha{\k15}bite, {\k11}le {\k11}gue{\k14}tteur {\k10}de{\k15}vient {\k14}dea{\k20}ler
+Dialogue: 0,0:02:08.78,0:02:11.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}C'est {\k17}nous {\k17}on {\k20}parle {\k18}en {\k28}bails
+Dialogue: 0,0:02:09.94,0:02:12.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}C'est {\k12}nous {\k19}on {\k20}parle {\k14}en {\k33}zer
+Dialogue: 0,0:02:11.17,0:02:12.68,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k22}9{\k19}1
+Dialogue: 0,0:02:11.83,0:02:14.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}C'est {\k17}nous, {\k19}les {\k14}plus {\k25}vio{\k33}lents
+Dialogue: 0,0:02:13.06,0:02:15.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}De {\k17}toute {\k11}la {\k27}France {\k19}en{\k24}tière
+Dialogue: 0,0:02:14.14,0:02:15.77,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k8}Ah {\k18}oui, {\k27}oui
+Dialogue: 0,0:02:15.07,0:02:18.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}O{\k22}G {\k12}kush {\k26}sous {\k73}l'blunt, {\k15}ça {\k27}sonne {\k17}sur {\k20}mon {\k24}phone
+Dialogue: 0,0:02:15.99,0:02:17.62,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k53}Oui
+Dialogue: 0,0:02:17.55,0:02:19.07,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k20}A{\k22}llô ?
+Dialogue: 0,0:02:18.11,0:02:21.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}J're{\k26}çois {\k17}un {\k19}coup {\k66}d'fil, {\k10}les {\k25}enne{\k17}mis {\k16}veulent {\k22}un {\k17}bail
+Dialogue: 0,0:02:19.01,0:02:20.61,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k28}C'est {\k22}qui ?
+Dialogue: 0,0:02:20.60,0:02:22.04,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Ah {\k13}bon ?
+Dialogue: 0,0:02:21.13,0:02:24.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Sur {\k19}la {\k21}vie {\k20}d'ma {\k75}mère, {\k11}ils {\k28}ont {\k16}pas {\k22}com{\k22}pris
+Dialogue: 0,0:02:22.09,0:02:23.65,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k25}J'a{\k21}rrive
+Dialogue: 0,0:02:23.84,0:02:25.20,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Hein ?
+Dialogue: 0,0:02:24.25,0:02:27.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Ra{\k30}mène {\k7}mon {\k27}fu{\k61}sil, {\k16}ils {\k17}re{\k23}vien{\k12}dront {\k29}ja{\k20}mais
+Dialogue: 0,0:02:25.22,0:02:26.72,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ra{\k18}mène
+Dialogue: 0,0:02:26.83,0:02:28.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k51}Shoot, {\k12}balle {\k10}dans {\k16}la {\k16}tête
+Dialogue: 0,0:02:28.12,0:02:29.50,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Bang
+Dialogue: 0,0:02:28.40,0:02:30.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Shoot, {\k12}balle {\k10}dans {\k16}la {\k18}tête
+Dialogue: 0,0:02:29.47,0:02:30.96,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Bang, {\k19}bang
+Dialogue: 0,0:02:29.94,0:02:32.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Shoot, {\k12}balle {\k10}dans {\k15}la {\k15}tête
+Dialogue: 0,0:02:31.11,0:02:33.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Shoot, {\k44}shoot, {\k12}balle {\k9}dans {\k18}la {\k16}tête
+Dialogue: 0,0:02:33.00,0:02:35.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Shoot, {\k12}balle {\k9}dans {\k17}la {\k14}tête
+Dialogue: 0,0:02:34.28,0:02:35.65,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Bang
+Dialogue: 0,0:02:34.55,0:02:36.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Shoot, {\k13}balle {\k11}dans {\k15}la {\k17}tête
+Dialogue: 0,0:02:35.62,0:02:37.10,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Bang, {\k18}bang
+Dialogue: 0,0:02:36.08,0:02:38.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Shoot, {\k12}balle {\k9}dans {\k16}la {\k14}tête
+Dialogue: 0,0:02:37.26,0:02:39.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Shoot, {\k44}shoot, {\k10}balle {\k10}dans {\k19}la {\k14}tête
+Dialogue: 0,0:02:40.44,0:02:41.93,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Bang
+Dialogue: 0,0:02:41.78,0:02:43.32,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Bang, {\k25}bang
+Dialogue: 0,0:02:46.58,0:02:48.08,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Bang
+Dialogue: 0,0:02:47.93,0:02:49.42,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Bang, {\k19}bang
