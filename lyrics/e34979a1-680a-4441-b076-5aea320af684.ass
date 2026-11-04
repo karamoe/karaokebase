@@ -1,0 +1,180 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+LayoutResX: 0
+LayoutResY: 0
+Title: Hey Chat!
+Original Timing: Himbeeerchen
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:04.53,0:00:04.98,Sample KM [Up],,0,0,0,karaoke,{\k19}Pog{\k26}gers
+Comment: 0,0:00:05.73,0:00:07.78,Sample KM [Up],,0,0,0,karaoke,{\k19}Hey {\k18}chat,{\k38} {\k17}I'm {\k20}hunt{\k19}ing {\k18}in {\k16}the {\k40}streets
+Comment: 0,0:00:08.67,0:00:11.11,Sample KM [Up],,0,0,0,karaoke,{\k22}Tune {\k32}in,{\k23} {\k18}I'll {\k19}stop {\k19}a {\k19}coup{\k18}le {\k37}heart {\k37}beats
+Comment: 0,0:00:11.66,0:00:13.70,Sample KM [Up],,0,0,0,karaoke,{\k19}Let's {\k28}go{\k27} {\k18}and {\k17}thank {\k21}you {\k19}for {\k19}the {\k36}raid
+Comment: 0,0:00:14.62,0:00:15.18,Sample KM [Up],,0,0,0,karaoke,{\k18}Get {\k38}hyped
+Comment: 0,0:00:15.36,0:00:17.03,Sample KM [Up],,0,0,0,karaoke,{\k20}Your {\k18}o{\k19}shi {\k19}has {\k14}a {\k38}switch {\k39}blade
+Comment: 0,0:00:17.58,0:00:19.62,Sample KM [Up],,0,0,0,karaoke,{\k19}Hey {\k27}chat,{\k30} {\k7}if {\k10}you {\k19}gift {\k18}a {\k19}sub {\k19}I {\k36}might
+Comment: 0,0:00:19.80,0:00:21.10,Sample KM [Up],,0,0,0,karaoke,{\k20}Take {\k18}one {\k19}more {\k17}life {\k20}to{\k36}night
+Comment: 0,0:00:21.29,0:00:22.95,Sample KM [Up],,0,0,0,karaoke,{\k17}Let's {\k20}clip {\k19}it {\k19}for {\k18}my {\k37}high{\k36}lights
+Comment: 0,0:00:23.51,0:00:25.47,Sample KM [Up],,0,0,0,karaoke,{\k19}Sub{\k56}scribe {\k18}and {\k19}don't {\k18}for{\k19}get {\k18}to {\k29}like
+Comment: 0,0:00:25.74,0:00:27.03,Sample KM [Up],,0,0,0,karaoke,{\k18}I've {\k19}sharp{\k18}ened {\k19}up {\k18}my {\k37}knife
+Comment: 0,0:00:27.03,0:00:28.51,Sample KM [Up],,0,0,0,karaoke,{\k19}Now {\k19}let's {\k17}get {\k18}in{\k18}to {\k20}a {\k37}fight
+Comment: 0,0:00:28.88,0:00:29.81,Sample KM [Up],,0,0,0,karaoke,{\k38}Hey, {\k18}look {\k19}at {\k18}me
+Comment: 0,0:00:29.99,0:00:31.11,Sample KM [Up],,0,0,0,karaoke,{\k19}There {\k17}is {\k20}blood {\k19}on {\k17}the {\k20}screen
+Comment: 0,0:00:31.29,0:00:32.82,Sample KM [Up],,0,0,0,karaoke,{\k19}I {\k18}got {\k19}a {\k18}spon{\k19}sor{\k18}ship {\k18}from {\k24}death
+Comment: 0,0:00:32.95,0:00:34.71,Sample KM [Up],,0,0,0,karaoke,{\k20}Now {\k18}it's {\k19}time {\k18}to {\k18}take {\k19}your {\k36}last {\k28}breath
+Comment: 0,0:00:34.81,0:00:35.74,Sample KM [Up],,0,0,0,karaoke,{\k37}Hey, {\k19}look {\k18}at {\k19}me
+Comment: 0,0:00:35.92,0:00:37.04,Sample KM [Up],,0,0,0,karaoke,{\k17}Give {\k19}your {\k18}love {\k20}to {\k18}your {\k20}queen
+Comment: 0,0:00:37.21,0:00:38.88,Sample KM [Up],,0,0,0,karaoke,{\k20}You {\k18}bet{\k18}ter {\k20}do{\k18}nate {\k18}to {\k19}my {\k18}chan{\k18}nel
+Comment: 0,0:00:38.88,0:00:40.74,Sample KM [Up],,0,0,0,karaoke,{\k19}Or {\k19}I'll {\k18}make {\k19}you {\k19}an {\k18}ex{\k37}amp{\k37}le
+Comment: 0,0:00:41.11,0:00:41.85,Sample KM [Up],,0,0,0,karaoke,{\k37}Hey {\k37}chat
+Comment: 0,0:00:42.04,0:00:43.33,Sample KM [Up],,0,0,0,karaoke,{\k37}H-{\k18}h-{\k37}hey {\k37}chat
+Comment: 0,0:00:43.33,0:00:44.07,Sample KM [Choir],,0,0,0,karaoke,{\k37}Hey {\k37}chat
+Comment: 0,0:00:44.07,0:00:44.81,Sample KM [Up],,0,0,0,karaoke,{\k37}Hey {\k37}chat
+Comment: 0,0:00:45.01,0:00:46.29,Sample KM [Up],,0,0,0,karaoke,{\k36}H-{\k18}h-{\k36}hey {\k38}chat
+Comment: 0,0:00:45.54,0:00:47.03,Sample KM [Choir],,0,0,0,karaoke,{\k38}Hey {\k37}hey {\k38}hey {\k36}chat
+Comment: 0,0:00:47.03,0:00:47.77,Sample KM [Up],,0,0,0,karaoke,{\k38}Hey {\k36}chat
+Comment: 0,0:00:47.97,0:00:49.25,Sample KM [Up],,0,0,0,karaoke,{\k36}H-{\k18}h-{\k38}hey {\k36}chat
+Comment: 0,0:00:49.25,0:00:50.00,Sample KM [Choir],,0,0,0,karaoke,{\k37}Hey {\k38}chat
+Comment: 0,0:00:50.00,0:00:50.73,Sample KM [Up],,0,0,0,karaoke,{\k37}Hey {\k36}chat
+Comment: 0,0:00:50.93,0:00:52.21,Sample KM [Up],,0,0,0,karaoke,{\k37}H-{\k18}h-{\k38}hey {\k35}chat
+Comment: 0,0:00:51.46,0:00:52.58,Sample KM [Choir],,0,0,0,karaoke,{\k39}Hey {\k37}hey {\k36}hey
+Comment: 0,0:00:53.15,0:00:55.18,Sample KM [Up],,0,0,0,karaoke,{\k18}Hey {\k22}chat,{\k34} {\k9}do {\k9}you {\k19}think {\k18}I {\k20}have {\k17}a {\k37}soul?
+Comment: 0,0:00:56.11,0:00:56.66,Sample KM [Up],,0,0,0,karaoke,{\k18}Who {\k37}cares?
+Comment: 0,0:00:56.84,0:00:58.52,Sample KM [Up],,0,0,0,karaoke,{\k9}I'm {\k10}a{\k19}bout {\k18}to {\k19}hit {\k18}my {\k37}sub {\k38}goal
+Comment: 0,0:00:59.07,0:01:01.10,Sample KM [Up],,0,0,0,karaoke,{\k18}Hey {\k24}chat,{\k31} {\k10}should {\k10}I {\k18}set {\k18}this {\k20}house {\k18}a{\k36}flame?
+Comment: 0,0:01:02.03,0:01:04.43,Sample KM [Up],,0,0,0,karaoke,{\k19}Let's {\k33}go,{\k23} {\k18}and {\k18}thank {\k19}you {\k19}for {\k18}the {\k37}hype {\k36}train
+Comment: 0,0:01:05.00,0:01:07.05,Sample KM [Up],,0,0,0,karaoke,{\k18}Hey {\k27}chat,{\k29} {\k9}if {\k9}you {\k18}gift {\k19}a {\k19}sub {\k18}I {\k39}might
+Comment: 0,0:01:07.22,0:01:08.51,Sample KM [Up],,0,0,0,karaoke,{\k18}Feel {\k19}way {\k19}more {\k18}just{\k19}i{\k36}fied
+Comment: 0,0:01:08.68,0:01:10.54,Sample KM [Up],,0,0,0,karaoke,{\k21}To {\k18}feed {\k19}up{\k19}on {\k18}their {\k37}in{\k54}sides
+Comment: 0,0:01:10.91,0:01:12.98,Sample KM [Up],,0,0,0,karaoke,{\k19}Sub{\k38}scribe{\k19} {\k18}and {\k19}don't {\k18}for{\k18}get {\k19}to {\k39}like
+Comment: 0,0:01:13.15,0:01:14.44,Sample KM [Up],,0,0,0,karaoke,{\k18}This {\k19}con{\k18}tent {\k20}has {\k16}a {\k38}price
+Comment: 0,0:01:14.44,0:01:15.95,Sample KM [Up],,0,0,0,karaoke,{\k19}So {\k19}let's {\k18}draw {\k15}some {\k22}blood {\k18}to{\k40}night
+Comment: 0,0:01:16.33,0:01:17.27,Sample KM [Up],,0,0,0,karaoke,{\k33}Hey, {\k19}look {\k20}at {\k22}me
+Comment: 0,0:01:17.40,0:01:18.70,Sample KM [Up],,0,0,0,karaoke,{\k19}There {\k18}is {\k21}blood {\k16}on {\k20}the {\k36}screen
+Comment: 0,0:01:18.70,0:01:20.23,Sample KM [Up],,0,0,0,karaoke,{\k19}I {\k19}got {\k17}a {\k18}spon{\k20}sor{\k16}ship {\k21}from {\k23}death
+Comment: 0,0:01:20.36,0:01:22.10,Sample KM [Up],,0,0,0,karaoke,{\k17}Now {\k20}it's {\k20}time {\k18}to {\k16}take {\k21}your {\k35}last {\k27}breath
+Comment: 0,0:01:22.22,0:01:23.15,Sample KM [Up],,0,0,0,karaoke,{\k37}Hey, {\k19}look {\k18}at {\k19}me
+Comment: 0,0:01:23.33,0:01:24.44,Sample KM [Up],,0,0,0,karaoke,{\k17}Give {\k20}your {\k17}love {\k20}to {\k19}your {\k18}queen
+Comment: 0,0:01:24.62,0:01:26.29,Sample KM [Up],,0,0,0,karaoke,{\k19}You {\k19}bet{\k18}ter {\k19}do{\k20}nate {\k16}to {\k19}my {\k19}chan{\k18}nel
+Comment: 0,0:01:26.29,0:01:28.14,Sample KM [Up],,0,0,0,karaoke,{\k19}Or {\k19}I'll {\k15}make {\k22}you {\k19}an {\k17}ex{\k38}am{\k36}ple
+Comment: 0,0:01:28.14,0:01:29.09,Sample KM [Up],,0,0,0,karaoke,{\k37}Hey, {\k20}look {\k18}at {\k20}me
+Comment: 0,0:01:29.26,0:01:30.37,Sample KM [Up],,0,0,0,karaoke,{\k18}There {\k18}is {\k19}blood {\k19}on {\k18}the {\k19}screen
+Comment: 0,0:01:30.55,0:01:32.07,Sample KM [Up],,0,0,0,karaoke,{\k19}I {\k18}got {\k19}a {\k18}spon{\k19}sor{\k17}ship {\k20}from {\k22}death
+Comment: 0,0:01:32.22,0:01:34.07,Sample KM [Up],,0,0,0,karaoke,{\k18}Now {\k18}it's {\k20}time {\k18}to {\k19}take {\k18}your {\k36}last {\k38}breath
+Comment: 0,0:01:34.07,0:01:35.01,Sample KM [Up],,0,0,0,karaoke,{\k37}Hey, {\k18}look {\k20}at {\k19}me
+Comment: 0,0:01:35.18,0:01:36.30,Sample KM [Up],,0,0,0,karaoke,{\k18}Give {\k19}your {\k18}love {\k19}to {\k19}your {\k19}queen
+Comment: 0,0:01:36.47,0:01:38.14,Sample KM [Up],,0,0,0,karaoke,{\k19}You {\k19}bet{\k19}ter {\k18}do{\k20}nate {\k15}to {\k21}my {\k18}chan{\k18}nel
+Comment: 0,0:01:38.14,0:01:40.00,Sample KM [Up],,0,0,0,karaoke,{\k19}Or {\k19}I'll {\k18}make {\k19}you {\k18}an {\k19}ex{\k36}am{\k38}ple
+Comment: 0,0:01:40.36,0:01:41.10,Sample KM [Up],,0,0,0,karaoke,{\k37}Hey {\k37}chat
+Comment: 0,0:01:41.29,0:01:42.59,Sample KM [Up],,0,0,0,karaoke,{\k37}H-{\k21}h-{\k35}hey {\k37}chat
+Comment: 0,0:01:42.59,0:01:43.33,Sample KM [Choir],,0,0,0,karaoke,{\k38}Hey {\k36}chat
+Comment: 0,0:01:43.33,0:01:44.07,Sample KM [Up],,0,0,0,karaoke,{\k37}Hey {\k37}chat
+Comment: 0,0:01:44.26,0:01:45.55,Sample KM [Up],,0,0,0,karaoke,{\k37}H-{\k19}h-{\k36}hey {\k37}chat
+Comment: 0,0:01:44.80,0:01:46.29,Sample KM [Choir],,0,0,0,karaoke,{\k38}Hey {\k37}hey {\k37}hey {\k37}chat
+Comment: 0,0:01:46.29,0:01:47.04,Sample KM [Up],,0,0,0,karaoke,{\k38}Hey {\k37}chat
+Comment: 0,0:01:47.22,0:01:48.51,Sample KM [Up],,0,0,0,karaoke,{\k37}H-{\k18}h-{\k38}hey {\k36}chat
+Comment: 0,0:01:48.51,0:01:49.25,Sample KM [Choir],,0,0,0,karaoke,{\k37}Hey {\k37}chat
+Comment: 0,0:01:49.25,0:01:50.00,Sample KM [Up],,0,0,0,karaoke,{\k38}Hey {\k37}chat
+Comment: 0,0:01:50.18,0:01:51.47,Sample KM [Up],,0,0,0,karaoke,{\k38}H-{\k18}h-{\k37}hey {\k36}chat
+Comment: 0,0:01:50.72,0:01:51.85,Sample KM [Choir],,0,0,0,karaoke,{\k39}Hey {\k37}hey {\k37}hey
+Comment: 0,0:02:09.58,0:02:12.95,Sample KM [Up],,0,0,0,karaoke,{\k116}Hey {\kf221}chat
+Comment: 0,0:02:12.95,0:02:17.31,Sample KM [Up],,0,0,0,karaoke,{\k38}This {\k36}is {\k40}what {\k109}I {\k111}live {\k102}for
+Comment: 0,0:02:17.35,0:02:20.00,Sample KM [Up],,0,0,0,karaoke,{\k43}Sing {\k37}me {\k36}your {\kf149}praise
+Comment: 0,0:02:20.00,0:02:24.47,Sample KM [Up],,0,0,0,karaoke,{\k32}As {\k42}your {\k65}blood {\k45}spills {\k74}to {\k38}the {\kf151}floor
+Comment: 0,0:02:24.79,0:02:31.86,Sample KM [Up],,0,0,0,karaoke,{\k39}Now {\k111}give {\k111}me {\kf446}more
+Comment: 0,0:02:45.18,0:02:46.85,Sample KM [Up],,0,0,0,karaoke,{\k111}Hey {\k56}chat
+Comment: 0,0:02:47.40,0:02:49.05,Sample KM [Up],,0,0,0,karaoke,{\k112}Hey {\k53}chat
+Comment: 0,0:02:49.62,0:02:51.29,Sample KM [Up],,0,0,0,karaoke,{\k112}Hey {\k55}chat
+Comment: 0,0:02:51.84,0:02:53.34,Sample KM [Up],,0,0,0,karaoke,{\k112}Hey {\k38}chat
+Dialogue: 0,0:00:03.63,0:00:05.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Pog{\k26}gers
+Dialogue: 0,0:00:04.83,0:00:07.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Hey {\k18}chat,{\k38} {\k17}I'm {\k20}hunt{\k19}ing {\k18}in {\k16}the {\k40}streets
+Dialogue: 0,0:00:07.77,0:00:11.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Tune {\k32}in,{\k23} {\k18}I'll {\k19}stop {\k19}a {\k19}coup{\k18}le {\k37}heart {\k37}beats
+Dialogue: 0,0:00:10.76,0:00:13.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Let's {\k28}go{\k27} {\k18}and {\k17}thank {\k21}you {\k19}for {\k19}the {\k36}raid
+Dialogue: 0,0:00:13.72,0:00:15.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Get {\k38}hyped
+Dialogue: 0,0:00:14.46,0:00:17.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Your {\k18}o{\k19}shi {\k19}has {\k14}a {\k38}switch {\k39}blade
+Dialogue: 0,0:00:16.68,0:00:19.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Hey {\k27}chat,{\k30} {\k7}if {\k10}you {\k19}gift {\k18}a {\k19}sub {\k19}I {\k36}might
+Dialogue: 0,0:00:18.90,0:00:21.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Take {\k18}one {\k19}more {\k17}life {\k20}to{\k36}night
+Dialogue: 0,0:00:20.39,0:00:23.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Let's {\k20}clip {\k19}it {\k19}for {\k18}my {\k37}high{\k36}lights
+Dialogue: 0,0:00:22.61,0:00:25.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Sub{\k56}scribe {\k18}and {\k19}don't {\k18}for{\k19}get {\k18}to {\k29}like
+Dialogue: 0,0:00:24.84,0:00:27.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}I've {\k19}sharp{\k18}ened {\k19}up {\k18}my {\k37}knife
+Dialogue: 0,0:00:26.13,0:00:28.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Now {\k19}let's {\k17}get {\k18}in{\k18}to {\k20}a {\k37}fight
+Dialogue: 0,0:00:27.98,0:00:30.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Hey, {\k18}look {\k19}at {\k18}me
+Dialogue: 0,0:00:29.09,0:00:31.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}There {\k17}is {\k20}blood {\k19}on {\k17}the {\k20}screen
+Dialogue: 0,0:00:30.39,0:00:33.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k18}got {\k19}a {\k18}spon{\k19}sor{\k18}ship {\k18}from {\k24}death
+Dialogue: 0,0:00:32.05,0:00:34.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Now {\k18}it's {\k19}time {\k18}to {\k18}take {\k19}your {\k36}last {\k28}breath
+Dialogue: 0,0:00:33.91,0:00:35.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Hey, {\k19}look {\k18}at {\k19}me
+Dialogue: 0,0:00:35.02,0:00:37.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Give {\k19}your {\k18}love {\k20}to {\k18}your {\k20}queen
+Dialogue: 0,0:00:36.31,0:00:39.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}You {\k18}bet{\k18}ter {\k20}do{\k18}nate {\k18}to {\k19}my {\k18}chan{\k18}nel
+Dialogue: 0,0:00:37.98,0:00:40.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Or {\k19}I'll {\k18}make {\k19}you {\k19}an {\k18}ex{\k37}amp{\k37}le
+Dialogue: 0,0:00:40.21,0:00:42.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Hey {\k37}chat
+Dialogue: 0,0:00:41.14,0:00:43.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}H-{\k18}h-{\k37}hey {\k37}chat
+Dialogue: 0,0:00:42.43,0:00:44.27,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Hey {\k37}chat
+Dialogue: 0,0:00:43.17,0:00:45.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Hey {\k37}chat
+Dialogue: 0,0:00:44.11,0:00:46.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}H-{\k18}h-{\k36}hey {\k38}chat
+Dialogue: 0,0:00:44.64,0:00:47.23,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Hey {\k37}hey {\k38}hey {\k36}chat
+Dialogue: 0,0:00:46.13,0:00:47.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Hey {\k36}chat
+Dialogue: 0,0:00:47.07,0:00:49.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}H-{\k18}h-{\k38}hey {\k36}chat
+Dialogue: 0,0:00:48.35,0:00:50.20,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Hey {\k38}chat
+Dialogue: 0,0:00:49.10,0:00:50.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Hey {\k36}chat
+Dialogue: 0,0:00:50.03,0:00:52.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}H-{\k18}h-{\k38}hey {\k35}chat
+Dialogue: 0,0:00:50.56,0:00:52.78,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Hey {\k37}hey {\k36}hey
+Dialogue: 0,0:00:52.25,0:00:55.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Hey {\k22}chat,{\k34} {\k9}do {\k9}you {\k19}think {\k18}I {\k20}have {\k17}a {\k37}soul?
+Dialogue: 0,0:00:55.21,0:00:56.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Who {\k37}cares?
+Dialogue: 0,0:00:55.94,0:00:58.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}I'm {\k10}a{\k19}bout {\k18}to {\k19}hit {\k18}my {\k37}sub {\k38}goal
+Dialogue: 0,0:00:58.17,0:01:01.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Hey {\k24}chat,{\k31} {\k10}should {\k10}I {\k18}set {\k18}this {\k20}house {\k18}a{\k36}flame?
+Dialogue: 0,0:01:01.13,0:01:04.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Let's {\k33}go,{\k23} {\k18}and {\k18}thank {\k19}you {\k19}for {\k18}the {\k37}hype {\k36}train
+Dialogue: 0,0:01:04.10,0:01:07.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Hey {\k27}chat,{\k29} {\k9}if {\k9}you {\k18}gift {\k19}a {\k19}sub {\k18}I {\k39}might
+Dialogue: 0,0:01:06.32,0:01:08.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Feel {\k19}way {\k19}more {\k18}just{\k19}i{\k36}fied
+Dialogue: 0,0:01:07.78,0:01:10.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}To {\k18}feed {\k19}up{\k19}on {\k18}their {\k37}in{\k54}sides
+Dialogue: 0,0:01:10.01,0:01:13.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Sub{\k38}scribe{\k19} {\k18}and {\k19}don't {\k18}for{\k18}get {\k19}to {\k39}like
+Dialogue: 0,0:01:12.25,0:01:14.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}This {\k19}con{\k18}tent {\k20}has {\k16}a {\k38}price
+Dialogue: 0,0:01:13.54,0:01:16.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}So {\k19}let's {\k18}draw {\k15}some {\k22}blood {\k18}to{\k40}night
+Dialogue: 0,0:01:15.43,0:01:17.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Hey, {\k19}look {\k20}at {\k22}me
+Dialogue: 0,0:01:16.50,0:01:18.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}There {\k18}is {\k21}blood {\k16}on {\k20}the {\k36}screen
+Dialogue: 0,0:01:17.80,0:01:20.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k19}got {\k17}a {\k18}spon{\k20}sor{\k16}ship {\k21}from {\k23}death
+Dialogue: 0,0:01:19.46,0:01:22.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Now {\k20}it's {\k20}time {\k18}to {\k16}take {\k21}your {\k35}last {\k27}breath
+Dialogue: 0,0:01:21.32,0:01:23.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Hey, {\k19}look {\k18}at {\k19}me
+Dialogue: 0,0:01:22.43,0:01:24.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Give {\k20}your {\k17}love {\k20}to {\k19}your {\k18}queen
+Dialogue: 0,0:01:23.72,0:01:26.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}You {\k19}bet{\k18}ter {\k19}do{\k20}nate {\k16}to {\k19}my {\k19}chan{\k18}nel
+Dialogue: 0,0:01:25.39,0:01:28.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Or {\k19}I'll {\k15}make {\k22}you {\k19}an {\k17}ex{\k38}am{\k36}ple
+Dialogue: 0,0:01:27.24,0:01:29.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Hey, {\k20}look {\k18}at {\k20}me
+Dialogue: 0,0:01:28.36,0:01:30.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}There {\k18}is {\k19}blood {\k19}on {\k18}the {\k19}screen
+Dialogue: 0,0:01:29.65,0:01:32.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k18}got {\k19}a {\k18}spon{\k19}sor{\k17}ship {\k20}from {\k22}death
+Dialogue: 0,0:01:31.32,0:01:34.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Now {\k18}it's {\k20}time {\k18}to {\k19}take {\k18}your {\k36}last {\k38}breath
+Dialogue: 0,0:01:33.17,0:01:35.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Hey, {\k18}look {\k20}at {\k19}me
+Dialogue: 0,0:01:34.28,0:01:36.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Give {\k19}your {\k18}love {\k19}to {\k19}your {\k19}queen
+Dialogue: 0,0:01:35.57,0:01:38.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}You {\k19}bet{\k19}ter {\k18}do{\k20}nate {\k15}to {\k21}my {\k18}chan{\k18}nel
+Dialogue: 0,0:01:37.24,0:01:40.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Or {\k19}I'll {\k18}make {\k19}you {\k18}an {\k19}ex{\k36}am{\k38}ple
+Dialogue: 0,0:01:39.46,0:01:41.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Hey {\k37}chat
+Dialogue: 0,0:01:40.39,0:01:42.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}H-{\k21}h-{\k35}hey {\k37}chat
+Dialogue: 0,0:01:41.69,0:01:43.53,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Hey {\k36}chat
+Dialogue: 0,0:01:42.43,0:01:44.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Hey {\k37}chat
+Dialogue: 0,0:01:43.36,0:01:45.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}H-{\k19}h-{\k36}hey {\k37}chat
+Dialogue: 0,0:01:43.90,0:01:46.49,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Hey {\k37}hey {\k37}hey {\k37}chat
+Dialogue: 0,0:01:45.39,0:01:47.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Hey {\k37}chat
+Dialogue: 0,0:01:46.32,0:01:48.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}H-{\k18}h-{\k38}hey {\k36}chat
+Dialogue: 0,0:01:47.61,0:01:49.45,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Hey {\k37}chat
+Dialogue: 0,0:01:48.35,0:01:50.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Hey {\k37}chat
+Dialogue: 0,0:01:49.28,0:01:51.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}H-{\k18}h-{\k37}hey {\k36}chat
+Dialogue: 0,0:01:49.82,0:01:52.05,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Hey {\k37}hey {\k37}hey
+Dialogue: 0,0:02:08.68,0:02:13.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k116}Hey {\kf221}chat
+Dialogue: 0,0:02:12.05,0:02:17.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}This {\k36}is {\k40}what {\k109}I {\k111}live {\k102}for
+Dialogue: 0,0:02:16.45,0:02:20.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Sing {\k37}me {\k36}your {\kf149}praise
+Dialogue: 0,0:02:19.10,0:02:24.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}As {\k42}your {\k65}blood {\k45}spills {\k74}to {\k38}the {\kf151}floor
+Dialogue: 0,0:02:23.89,0:02:32.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Now {\k111}give {\k111}me {\kf446}more
+Dialogue: 0,0:02:44.28,0:02:47.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k111}Hey {\k56}chat
+Dialogue: 0,0:02:46.50,0:02:49.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k112}Hey {\k53}chat
+Dialogue: 0,0:02:48.72,0:02:51.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k112}Hey {\k55}chat
+Dialogue: 0,0:02:50.94,0:02:53.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k112}Hey {\k38}chat
