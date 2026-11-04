@@ -1,0 +1,112 @@
+﻿[Script Info]
+Title: Daidaidaidai Daisuki na Kimi he
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: Zeflipsplash
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: All,Arial,24,&H00A2D347,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sub,Arial,24,&H00A2D347,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.63,0:00:00.63,All,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:05.50,0:00:08.55,All,,0,0,0,karaoke,{\k39}Don't {\k33}you {\kf91}no{\k36}tice {\kf106}how
+Comment: 0,0:00:08.99,0:00:11.87,All,,0,0,0,karaoke,{\k37}I {\k32}get {\k40}qui{\k35}et {\k35}when {\k35}there's {\k34}no {\k40}one
+Comment: 0,0:00:12.06,0:00:14.49,All,,0,0,0,karaoke,{\kf91}Else {\k41}a{\kf111}round?
+Comment: 0,0:00:14.82,0:00:17.70,All,,0,0,0,karaoke,{\k38}Me {\k40}and {\k36}you {\k32}and {\k37}aw{\k35}kward {\k31}si{\k39}lence
+Comment: 0,0:00:17.94,0:00:23.24,All,,0,0,0,karaoke,{\k53}Don't {\k60}you {\kf101}dare {\k40}look {\k38}at {\k55}me {\k55}that {\kf128}way
+Comment: 0,0:00:23.60,0:00:26.43,All,,0,0,0,karaoke,{\k37}I {\k34}don't {\k38}need {\k36}re{\k40}min{\k33}ders {\k41}of {\k24}how
+Comment: 0,0:00:26.68,0:00:28.53,All,,0,0,0,karaoke,{\k20}You {\k38}don't {\k39}feel {\k31}the {\k57}same
+Comment: 0,0:00:28.92,0:00:31.86,All,,0,0,0,karaoke,{\k37}Oh, {\k34}the {\kf89}bur{\k37}ning {\kf97}pain
+Comment: 0,0:00:32.43,0:00:35.20,All,,0,0,0,karaoke,{\k35}Liste{\k33}ning {\k32}to {\k40}you {\k39}harp {\k36}on {\k34}'bout {\k28}some
+Comment: 0,0:00:35.54,0:00:37.83,All,,0,0,0,karaoke,{\k85}New {\k41}soul{\kf103}mate
+Comment: 0,0:00:38.26,0:00:40.95,All,,0,0,0,karaoke,{\k34}"She's {\k37}so {\k36}per{\k37}fect" {\k37}blah, {\k36}blah, {\k37}blah {\k15}oh
+Comment: 0,0:00:41.33,0:00:43.15,All,,0,0,0,karaoke,{\k61}How {\k47}I {\k74}wish
+Comment: 0,0:00:43.51,0:00:46.64,All,,0,0,0,karaoke,{\k39}You'll {\k36}wake {\k57}up {\k58}one {\kf123}day
+Comment: 0,0:00:47.02,0:00:49.49,All,,0,0,0,karaoke,{\k35}Run {\k37}to {\k35}me, {\k38}con{\k41}fess {\k30}your {\k42}love
+Comment: 0,0:00:49.58,0:00:51.90,All,,0,0,0,karaoke,{\k35}At {\k45}least {\k28}just {\k41}let {\k31}me {\k52}say
+Comment: 0,0:00:52.35,0:00:55.54,All,,0,0,0,karaoke,{\k68}That {\k58}when {\k56}I {\k53}talk {\k43}to {\k41}you
+Comment: 0,0:00:55.60,0:00:58.41,All,,0,0,0,karaoke,{\k34}Oh, {\k59}Cu{\k53}pid {\k58}walks {\k51}right {\k26}through
+Comment: 0,0:00:58.51,0:00:59.26,All,,0,0,0,karaoke,{\k35}And {\k40}shoots
+Comment: 0,0:00:59.48,0:01:03.47,All,,0,0,0,karaoke,{\k52}An {\k54}ar{\k55}row {\k32}through {\k41}my {\kf165}heart
+Comment: 0,0:01:04.37,0:01:07.22,All,,0,0,0,karaoke,{\k38}And {\k48}I {\k64}sound {\k53}like {\k50}a {\k32}loon
+Comment: 0,0:01:07.32,0:01:10.20,All,,0,0,0,karaoke,{\k35}But {\k56}don't {\k59}you {\k66}feel {\k37}it {\k35}too?
+Comment: 0,0:01:10.25,0:01:15.55,All,,0,0,0,karaoke,{\k33}Con{\k63}fess {\k49}I {\k58}loved {\k53}you {\k39}from {\k68}the {\kf167}start
+Comment: 0,0:01:18.87,0:01:20.83,Sub,,0,0,0,karaoke,{\k18}pa {\k16}la {\k18}la {\kf144}la
+Comment: 0,0:01:21.39,0:01:23.20,Sub,,0,0,0,karaoke,{\k40}ba {\k17}la {\k16}la {\k21}la {\kf87}la
+Comment: 0,0:01:23.20,0:01:26.69,Sub,,0,0,0,karaoke,{\k56}na {\k76}na {\kf217}pa
+Comment: 0,0:01:27.44,0:01:30.19,Sub,,0,0,0,karaoke,{\k37}pa {\k35}la {\k72}dou {\k24}da {\k33}la {\k74}tai
+Comment: 0,0:01:30.58,0:01:32.90,Sub,,0,0,0,karaoke,{\k37}pa {\k69}pou {\k17}na {\k18}na {\k19}na {\k17}na {\k18}na {\k23}na {\k14}na
+Comment: 0,0:01:32.90,0:01:34.66,Sub,,0,0,0,karaoke,{\k21}ra {\k19}pa {\k35}ta {\k18}la {\k20}la {\k63}ta
+Comment: 0,0:01:34.93,0:01:38.30,Sub,,0,0,0,karaoke,{\k38}pa {\kf92}la {\k63}la {\kf144}la
+Comment: 0,0:01:39.14,0:01:42.36,All,,0,0,0,karaoke,{\k43}What's {\k30}a {\k92}girl {\k37}to {\k120}do?
+Comment: 0,0:01:42.62,0:01:47.93,All,,0,0,0,karaoke,{\k34}Ly{\k38}ing {\k34}on {\k41}my {\k33}bed, {\k39}sta{\k43}ring {\k47}in{\k91}to {\k40}the {\k91}blue
+Comment: 0,0:01:48.47,0:01:51.34,All,,0,0,0,karaoke,{\k32}Un{\k40}re{\k37}qui{\k35}ted, {\k40}ter{\k37}ri{\k34}fy{\k32}ing
+Comment: 0,0:01:51.58,0:01:56.87,All,,0,0,0,karaoke,{\k60}Love {\k50}is {\k59}dri{\k48}ving {\k43}me {\k33}a {\k55}bit {\k54}in{\kf127}sane
+Comment: 0,0:01:57.26,0:01:59.81,All,,0,0,0,karaoke,{\k39}Have {\k34}to {\k35}get {\k37}this {\k34}off {\k33}my {\k43}chest
+Comment: 0,0:01:59.84,0:02:02.14,All,,0,0,0,karaoke,{\k51}I'm {\k28}tel{\k28}ling {\k36}you {\k38}to{\k49}day
+Comment: 0,0:02:02.61,0:02:05.78,All,,0,0,0,karaoke,{\k66}That {\k57}when {\k49}I {\k61}talk {\k51}to {\k33}you
+Comment: 0,0:02:05.87,0:02:08.74,All,,0,0,0,karaoke,{\k33}Oh, {\k56}Cu{\k51}pid {\k67}walks {\k48}right {\k32}through
+Comment: 0,0:02:08.76,0:02:09.37,All,,0,0,0,karaoke,{\k33}And {\k28}shoots
+Comment: 0,0:02:09.50,0:02:09.74,Sub,,0,0,0,karaoke,{\k24}Phew
+Comment: 0,0:02:10.06,0:02:13.66,All,,0,0,0,karaoke,{\k35}An {\k38}ar{\k54}row {\k36}through {\k37}my {\kf160}heart
+Comment: 0,0:02:14.60,0:02:17.50,All,,0,0,0,karaoke,{\k33}And {\k54}I {\k65}sound {\k53}like {\k55}a {\k30}loon
+Comment: 0,0:02:17.57,0:02:20.41,All,,0,0,0,karaoke,{\k35}But {\k56}don't {\k56}you {\k71}feel {\k33}it {\k33}too?
+Comment: 0,0:02:20.49,0:02:25.58,All,,0,0,0,karaoke,{\k34}Con{\k58}fess {\k50}I {\k58}loved {\k53}you {\k40}from {\k69}the {\kf147}start
+Comment: 0,0:02:26.35,0:02:28.89,All,,0,0,0,karaoke,{\k35}Con{\k61}fess {\k52}I {\k55}loved {\k51}you
+Comment: 0,0:02:29.26,0:02:35.72,All,,0,0,0,karaoke,{\k50}Just {\k53}thin{\k57}king {\kf138}of {\kf135}you {\kf121}I {\kf92}know
+Comment: 0,0:02:36.23,0:02:38.61,All,,0,0,0,karaoke,{\k88}I've {\k80}loved {\k70}you
+Comment: 0,0:02:39.53,0:02:44.79,All,,0,0,0,karaoke,{\k80}From {\k77}the {\kf369}start
+Dialogue: 0,0:00:04.60,0:00:08.75,All,,0,0,0,fx,{\k90\fad(300,200)}{\k39}Don't {\k33}you {\kf91}no{\k36}tice {\kf106}how
+Dialogue: 0,0:00:08.09,0:00:12.07,All,,0,0,0,fx,{\k90\fad(300,200)}{\k37}I {\k32}get {\k40}qui{\k35}et {\k35}when {\k35}there's {\k34}no {\k40}one
+Dialogue: 0,0:00:11.16,0:00:14.69,All,,0,0,0,fx,{\k90\fad(300,200)}{\kf91}Else {\k41}a{\kf111}round?
+Dialogue: 0,0:00:13.92,0:00:17.90,All,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Me {\k40}and {\k36}you {\k32}and {\k37}aw{\k35}kward {\k31}si{\k39}lence
+Dialogue: 0,0:00:17.04,0:00:23.44,All,,0,0,0,fx,{\k90\fad(300,200)}{\k53}Don't {\k60}you {\kf101}dare {\k40}look {\k38}at {\k55}me {\k55}that {\kf128}way
+Dialogue: 0,0:00:22.70,0:00:26.63,All,,0,0,0,fx,{\k90\fad(300,200)}{\k37}I {\k34}don't {\k38}need {\k36}re{\k40}min{\k33}ders {\k41}of {\k24}how
+Dialogue: 0,0:00:25.78,0:00:28.73,All,,0,0,0,fx,{\k90\fad(300,200)}{\k20}You {\k38}don't {\k39}feel {\k31}the {\k57}same
+Dialogue: 0,0:00:28.02,0:00:32.06,All,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Oh, {\k34}the {\kf89}bur{\k37}ning {\kf97}pain
+Dialogue: 0,0:00:31.53,0:00:35.40,All,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Liste{\k33}ning {\k32}to {\k40}you {\k39}harp {\k36}on {\k34}'bout {\k28}some
+Dialogue: 0,0:00:34.64,0:00:38.03,All,,0,0,0,fx,{\k90\fad(300,200)}{\k85}New {\k41}soul{\kf103}mate
+Dialogue: 0,0:00:37.36,0:00:41.15,All,,0,0,0,fx,{\k90\fad(300,200)}{\k34}"She's {\k37}so {\k36}per{\k37}fect" {\k37}blah, {\k36}blah, {\k37}blah {\k15}oh
+Dialogue: 0,0:00:40.43,0:00:43.35,All,,0,0,0,fx,{\k90\fad(300,200)}{\k61}How {\k47}I {\k74}wish
+Dialogue: 0,0:00:42.61,0:00:46.84,All,,0,0,0,fx,{\k90\fad(300,200)}{\k39}You'll {\k36}wake {\k57}up {\k58}one {\kf123}day
+Dialogue: 0,0:00:46.12,0:00:49.69,All,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Run {\k37}to {\k35}me, {\k38}con{\k41}fess {\k30}your {\k42}love
+Dialogue: 0,0:00:48.68,0:00:52.10,All,,0,0,0,fx,{\k90\fad(300,200)}{\k35}At {\k45}least {\k28}just {\k41}let {\k31}me {\k52}say
+Dialogue: 0,0:00:51.45,0:00:55.74,All,,0,0,0,fx,{\k90\fad(300,200)}{\k68}That {\k58}when {\k56}I {\k53}talk {\k43}to {\k41}you
+Dialogue: 0,0:00:54.70,0:00:58.61,All,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Oh, {\k59}Cu{\k53}pid {\k58}walks {\k51}right {\k26}through
+Dialogue: 0,0:00:57.61,0:00:59.46,All,,0,0,0,fx,{\k90\fad(300,200)}{\k35}And {\k40}shoots
+Dialogue: 0,0:00:58.58,0:01:03.67,All,,0,0,0,fx,{\k90\fad(300,200)}{\k52}An {\k54}ar{\k55}row {\k32}through {\k41}my {\kf165}heart
+Dialogue: 0,0:01:03.47,0:01:07.42,All,,0,0,0,fx,{\k90\fad(300,200)}{\k38}And {\k48}I {\k64}sound {\k53}like {\k50}a {\k32}loon
+Dialogue: 0,0:01:06.42,0:01:10.40,All,,0,0,0,fx,{\k90\fad(300,200)}{\k35}But {\k56}don't {\k59}you {\k66}feel {\k37}it {\k35}too?
+Dialogue: 0,0:01:09.35,0:01:15.75,All,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Con{\k63}fess {\k49}I {\k58}loved {\k53}you {\k39}from {\k68}the {\kf167}start
+Dialogue: 0,0:01:17.97,0:01:21.03,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k18}pa {\k16}la {\k18}la {\kf144}la
+Dialogue: 0,0:01:20.49,0:01:23.40,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k40}ba {\k17}la {\k16}la {\k21}la {\kf87}la
+Dialogue: 0,0:01:22.30,0:01:26.89,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k56}na {\k76}na {\kf217}pa
+Dialogue: 0,0:01:26.54,0:01:30.39,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k37}pa {\k35}la {\k72}dou {\k24}da {\k33}la {\k74}tai
+Dialogue: 0,0:01:29.68,0:01:33.10,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k37}pa {\k69}pou {\k17}na {\k18}na {\k19}na {\k17}na {\k18}na {\k23}na {\k14}na
+Dialogue: 0,0:01:32.00,0:01:34.86,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ra {\k19}pa {\k35}ta {\k18}la {\k20}la {\k63}ta
+Dialogue: 0,0:01:34.03,0:01:38.50,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k38}pa {\kf92}la {\k63}la {\kf144}la
+Dialogue: 0,0:01:38.24,0:01:42.56,All,,0,0,0,fx,{\k90\fad(300,200)}{\k43}What's {\k30}a {\k92}girl {\k37}to {\k120}do?
+Dialogue: 0,0:01:41.72,0:01:48.13,All,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Ly{\k38}ing {\k34}on {\k41}my {\k33}bed, {\k39}sta{\k43}ring {\k47}in{\k91}to {\k40}the {\k91}blue
+Dialogue: 0,0:01:47.57,0:01:51.54,All,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Un{\k40}re{\k37}qui{\k35}ted, {\k40}ter{\k37}ri{\k34}fy{\k32}ing
+Dialogue: 0,0:01:50.68,0:01:57.07,All,,0,0,0,fx,{\k90\fad(300,200)}{\k60}Love {\k50}is {\k59}dri{\k48}ving {\k43}me {\k33}a {\k55}bit {\k54}in{\kf127}sane
+Dialogue: 0,0:01:56.36,0:02:00.01,All,,0,0,0,fx,{\k90\fad(300,200)}{\k39}Have {\k34}to {\k35}get {\k37}this {\k34}off {\k33}my {\k43}chest
+Dialogue: 0,0:01:58.94,0:02:02.34,All,,0,0,0,fx,{\k90\fad(300,200)}{\k51}I'm {\k28}tel{\k28}ling {\k36}you {\k38}to{\k49}day
+Dialogue: 0,0:02:01.71,0:02:05.98,All,,0,0,0,fx,{\k90\fad(300,200)}{\k66}That {\k57}when {\k49}I {\k61}talk {\k51}to {\k33}you
+Dialogue: 0,0:02:04.97,0:02:08.94,All,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Oh, {\k56}Cu{\k51}pid {\k67}walks {\k48}right {\k32}through
+Dialogue: 0,0:02:07.86,0:02:09.57,All,,0,0,0,fx,{\k90\fad(300,200)}{\k33}And {\k28}shoots
+Dialogue: 0,0:02:08.60,0:02:09.94,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Phew
+Dialogue: 0,0:02:09.16,0:02:13.86,All,,0,0,0,fx,{\k90\fad(300,200)}{\k35}An {\k38}ar{\k54}row {\k36}through {\k37}my {\kf160}heart
+Dialogue: 0,0:02:13.70,0:02:17.70,All,,0,0,0,fx,{\k90\fad(300,200)}{\k33}And {\k54}I {\k65}sound {\k53}like {\k55}a {\k30}loon
+Dialogue: 0,0:02:16.67,0:02:20.61,All,,0,0,0,fx,{\k90\fad(300,200)}{\k35}But {\k56}don't {\k56}you {\k71}feel {\k33}it {\k33}too?
+Dialogue: 0,0:02:19.59,0:02:25.78,All,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Con{\k58}fess {\k50}I {\k58}loved {\k53}you {\k40}from {\k69}the {\kf147}start
+Dialogue: 0,0:02:25.45,0:02:29.09,All,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Con{\k61}fess {\k52}I {\k55}loved {\k51}you
+Dialogue: 0,0:02:28.36,0:02:35.92,All,,0,0,0,fx,{\k90\fad(300,200)}{\k50}Just {\k53}thin{\k57}king {\kf138}of {\kf135}you {\kf121}I {\kf92}know
+Dialogue: 0,0:02:35.33,0:02:38.81,All,,0,0,0,fx,{\k90\fad(300,200)}{\k88}I've {\k80}loved {\k70}you
+Dialogue: 0,0:02:38.63,0:02:44.99,All,,0,0,0,fx,{\k90\fad(300,200)}{\k80}From {\k77}the {\kf369}start
