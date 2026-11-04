@@ -1,0 +1,115 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Humains pour la vie
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:04.87,0:00:05.97,Sample KM [Up],,0,0,0,karaoke,{\k26}Si {\k33}j'é{\k16}tais {\k16}hu{\k19}main
+Comment: 0,0:00:05.97,0:00:08.66,Sample KM [Up],,0,0,0,karaoke,{\k24}Je {\k25}vi{\k55}vrais {\k8}à {\k23}la {\k45}Nou{\k10}velle-{\k26}Or{\k15}lé{\k38}ans
+Comment: 0,0:00:09.10,0:00:11.36,Sample KM [Up],,0,0,0,karaoke,{\k11}Et {\k28}je {\k16}de{\k20}vien{\k36}drais {\k29}le {\k27}king {\k19}du {\k40}swing
+Comment: 0,0:00:11.36,0:00:13.22,Sample KM [Up],,0,0,0,karaoke,{\k26}Le {\k19}meil{\k18}leur {\k17}de {\k27}tous {\k23}les {\k56}temps
+Comment: 0,0:00:13.42,0:00:15.60,Sample KM [Up],,0,0,0,karaoke,{\k14}Et {\k17}il {\k29}y'a{\k31}vait {\k22}Lou{\k23}is {\k31}Arm{\k51}strong
+Comment: 0,0:00:15.90,0:00:17.69,Sample KM [Up],,0,0,0,karaoke,{\k29}Mis{\k24}ter {\k27}Sid{\k19}ney {\k23}Be{\k57}chet
+Comment: 0,0:00:18.07,0:00:19.88,Sample KM [Up],,0,0,0,karaoke,{\k25}Ter{\k19}mi{\k34}né {\k19}ils {\k16}sont {\k17}dé{\k23}pas{\k28}sés
+Comment: 0,0:00:19.88,0:00:22.62,Sample KM [Up],,0,0,0,karaoke,{\k21}L'ex-{\k15}a{\k19}lli{\k24}ga{\k24}tor {\k38}va {\k22}se {\k22}lâ{\k27}cher {\k16}é{\k46}coute
+Comment: 0,0:00:25.27,0:00:27.45,Sample KM [Choir],,0,0,0,karaoke,{\k29}Oh {\k61}oui {\k23}ha {\k26}ha {\k23}ha {\k25}ha {\k31}ha
+Comment: 0,0:00:31.00,0:00:34.76,Sample KM [Up],,0,0,0,karaoke,{\k50}Quand {\k51}je {\k48}se{\k68}rai {\k23}hu{\k30}main {\k26}pour {\k25}la {\k55}vie
+Comment: 0,0:00:34.92,0:00:37.12,Sample KM [Up],,0,0,0,karaoke,{\k11}J'en{\k13}ten{\k13}drai {\k18}les {\k26}trom{\k24}pet{\k12}tes {\k15}de {\k16}la {\k24}re{\k19}no{\k29}mée
+Comment: 0,0:00:37.12,0:00:39.54,Sample KM [Up],,0,0,0,karaoke,{\k29}Et {\k21}j'au{\k11}rai {\k23}le {\k16}monde {\k12}en{\k29}tier {\k40}à {\k27}mes {\k34}pieds
+Comment: 0,0:00:40.08,0:00:42.31,Sample KM [Choir],,0,0,0,karaoke,{\k27}Mer{\k40}ci, {\k37}mer{\k38}ci, {\k46}oh {\k21}mer{\k14}ci
+Comment: 0,0:00:42.31,0:00:43.64,Sample KM [Choir],,0,0,0,karaoke,{\k24}Oui {\k20}j't'a{\k14}dore {\k16}aus{\k19}si {\k17}ché{\k23}rie
+Comment: 0,0:00:46.32,0:00:47.33,Sample KM [Up],,0,0,0,karaoke,{\k27}Quand {\k26}j'é{\k27}tais {\k21}moi
+Comment: 0,0:00:47.33,0:00:49.83,Sample KM [Up],,0,0,0,karaoke,{\k24}J'a{\k25}vais {\k12}u{\k27}ne {\k39}vie {\k17}presque {\k26}i{\k14}dé{\k66}ale
+Comment: 0,0:00:50.21,0:00:52.40,Sample KM [Up],,0,0,0,karaoke,{\k14}J'al{\k23}lais {\k27}tous {\k16}les {\k42}soirs {\k25}faire {\k19}la {\k29}fê{\k24}te
+Comment: 0,0:00:52.62,0:00:54.56,Sample KM [Up],,0,0,0,karaoke,{\k21}Et {\k22}c'é{\k23}tait {\k24}pas {\k23}trop {\k81}mal
+Comment: 0,0:00:54.56,0:00:56.43,Sample KM [Up],,0,0,0,karaoke,{\k13}À {\k18}ma {\k24}gauche {\k27}u{\k27}ne {\k25}rou{\k33}qui{\k20}ne
+Comment: 0,0:00:56.70,0:00:58.35,Sample KM [Up],,0,0,0,karaoke,{\k13}À {\k23}droite {\k23}u{\k27}ne {\k23}bru{\k33}net{\k23}te
+Comment: 0,0:00:58.77,0:01:00.99,Sample KM [Up],,0,0,0,karaoke,{\k13}Une {\k30}blonde {\k17}ou {\k35}deux {\k20}mu{\k35}sique {\k22}ma{\k23}es{\k27}tro
+Comment: 0,0:01:01.00,0:01:03.18,Sample KM [Up],,0,0,0,karaoke,{\k14}On {\k20}con{\k29}naît {\k23}tous {\k18}la {\k13}re{\k26}cette {\k25}hein {\k21}Lou{\k29}is?
+Comment: 0,0:01:03.41,0:01:05.17,Sample KM [Up],,0,0,0,karaoke,{\k24}C'est {\k18}la {\k28}vie {\k15}elle {\k10}ne {\k26}fait {\k21}qu'pas{\k34}ser
+Comment: 0,0:01:05.30,0:01:07.29,Sample KM [Up],,0,0,0,karaoke,{\k14}On {\k24}est {\k19}sur {\k38}terre {\k17}pour {\k34}s'a{\k20}mu{\k33}ser
+Comment: 0,0:01:07.45,0:01:09.18,Sample KM [Up],,0,0,0,karaoke,{\k14}Faut {\k21}pas {\k22}cher{\k25}cher {\k21}plus {\k70}loin
+Comment: 0,0:01:08.80,0:01:09.46,Sample KM [Choir],,0,0,0,karaoke,{\k18}Tu {\k19}l'as {\k29}dit !
+Comment: 0,0:01:09.71,0:01:13.49,Sample KM [Up],,0,0,0,karaoke,{\k56}Quand {\k47}je {\k40}se{\k73}rai {\k28}hu{\k27}main {\k30}pour {\k17}la {\k60}vie
+Comment: 0,0:01:13.63,0:01:15.87,Sample KM [Up],,0,0,0,karaoke,{\k14}Je {\k12}vais {\k14}en {\k19}pro{\k24}fi{\k36}ter {\k17}comme {\k12}c'est {\k19}pas {\k22}per{\k35}mis
+Comment: 0,0:01:16.07,0:01:18.25,Sample KM [Up],,0,0,0,karaoke,{\k10}Tu {\k23}as {\k29}ma {\k26}ro{\k24}yale {\k27}ga{\k22}ran{\k57}tie
+Comment: 0,0:01:18.45,0:01:20.35,Sample KM [Choir],,0,0,0,karaoke,{\k18}Je {\k15}vous {\k15}rap{\k27}pelle {\k10}que {\k9}vous {\k10}al{\k9}lez {\k22}vous {\k18}ma{\k37}rier
+Comment: 0,0:01:20.49,0:01:22.84,Sample KM [Choir],,0,0,0,karaoke,{\k47}Ah {\k24}c'est {\k55}vrai {\k25}quand {\k16}j'pense {\k19}à {\k17}tous {\k12}les {\k20}coeurs
+Comment: 0,0:01:22.84,0:01:24.51,Sample KM [Choir],,0,0,0,karaoke,{\k16}Bri{\k18}sés {\k16}que {\k13}j'vais {\k19}lais{\k19}ser {\k15}der{\k19}rière {\k32}moi
+Comment: 0,0:01:24.51,0:01:26.40,Sample KM [Up],,0,0,0,karaoke,{\k23}Quelle {\k18}mo{\k25}des{\k30}tie {\k23}mon {\k28}sei{\k42}gneur
+Comment: 0,0:01:26.59,0:01:28.69,Sample KM [Up],,0,0,0,karaoke,{\k19}Je {\k13}ne {\k26}suis {\k16}vrai{\k13}ment {\k27}pas {\k25}de {\k22}votre {\k23}a{\k26}vis
+Comment: 0,0:01:28.69,0:01:30.91,Sample KM [Up],,0,0,0,karaoke,{\k12}Re{\k24}gar{\k42}dez {\k14}les {\k26}a{\k24}beilles {\k17}sur {\k28}les {\k35}fleurs
+Comment: 0,0:01:31.14,0:01:33.04,Sample KM [Up],,0,0,0,karaoke,{\k10}Elles {\k22}ont {\k22}trou{\k25}vé {\k23}le {\k14}se{\k25}cret {\k20}d'la {\k29}vie
+Comment: 0,0:01:33.26,0:01:35.01,Sample KM [Up],,0,0,0,karaoke,{\k14}Je {\k39}ne {\k13}per{\k24}drai {\k28}pas {\k21}mon {\k36}temps
+Comment: 0,0:01:35.40,0:01:37.04,Sample KM [Up],,0,0,0,karaoke,{\k13}Quand {\k24}je {\k28}s'rai {\k26}comme {\k30}a{\k43}vant
+Comment: 0,0:01:37.34,0:01:39.51,Sample KM [Up],,0,0,0,karaoke,{\k21}Cha{\k14}que {\k18}jour {\k23}on {\k25}doit {\k24}se {\k16}mettre {\k18}au {\k24}tra{\k34}vail
+Comment: 0,0:01:39.82,0:01:41.79,Sample KM [Up],,0,0,0,karaoke,{\k18}Si {\k26}l'on {\k11}veut {\k24}ga{\k21}gner {\k26}la {\k26}ba{\k45}taille
+Comment: 0,0:01:41.97,0:01:43.81,Sample KM [Up],,0,0,0,karaoke,{\k25}Le {\k15}suc{\k45}cès {\k25}dé{\k27}pend {\k15}de {\k32}toi
+Comment: 0,0:01:44.01,0:01:45.84,Sample KM [Up],,0,0,0,karaoke,{\k12}Mon {\k17}pa{\k13}pa {\k23}n'ar{\k19}rê{\k10}tait {\k18}pas {\k9}de {\k16}ré{\k11}pé{\k14}ter {\k21}ça
+Comment: 0,0:01:46.21,0:01:48.05,Sample KM [Up],,0,0,0,karaoke,{\k8}Et {\k42}je {\k14}le {\k15}dis {\k23}à {\k26}mon {\k56}tour
+Comment: 0,0:01:48.43,0:01:52.11,Sample KM [Up],,0,0,0,karaoke,{\k55}Quand {\k52}nous {\k36}se{\k71}rons {\k30}hu{\k27}mains {\k27}pour {\k19}la {\k51}vie
+Comment: 0,0:01:52.35,0:01:53.56,Sample KM [Up],,0,0,0,karaoke,{\k11}En {\k16}a{\k13}vant {\k16}les {\k24}so{\k41}los
+Comment: 0,0:01:55.59,0:01:57.47,Sample KM [Up],,0,0,0,karaoke,{\k14}Et {\k14}en {\k11}a{\k25}vant {\k16}la {\k23}belle {\k85}vie
+Comment: 0,0:01:57.68,0:01:58.78,Sample KM [Up],,0,0,0,karaoke,{\k16}Je {\k15}fe{\k15}rai {\k22}de {\k19}mon {\k23}mieux
+Comment: 0,0:01:58.78,0:02:02.32,Sample KM [Up],,0,0,0,karaoke,{\k20}J'au{\k17}rai {\k26}ma {\k37}place {\k44}au {\k47}so{\kf163}leil
+Comment: 0,0:02:02.85,0:02:09.52,Sample KM [Up],,0,0,0,karaoke,{\kf214}Pour {\kf192}toute{\k20} {\k32}la {\kf209}vie
+Dialogue: 0,0:00:03.97,0:00:06.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Si {\k33}j'é{\k16}tais {\k16}hu{\k19}main
+Dialogue: 0,0:00:05.07,0:00:08.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Je {\k25}vi{\k55}vrais {\k8}à {\k23}la {\k45}Nou{\k10}velle-{\k26}Or{\k15}lé{\k38}ans
+Dialogue: 0,0:00:08.20,0:00:11.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Et {\k28}je {\k16}de{\k20}vien{\k36}drais {\k29}le {\k27}king {\k19}du {\k40}swing
+Dialogue: 0,0:00:10.46,0:00:13.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Le {\k19}meil{\k18}leur {\k17}de {\k27}tous {\k23}les {\k56}temps
+Dialogue: 0,0:00:12.52,0:00:15.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Et {\k17}il {\k29}y'a{\k31}vait {\k22}Lou{\k23}is {\k31}Arm{\k51}strong
+Dialogue: 0,0:00:15.00,0:00:17.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Mis{\k24}ter {\k27}Sid{\k19}ney {\k23}Be{\k57}chet
+Dialogue: 0,0:00:17.17,0:00:20.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Ter{\k19}mi{\k34}né {\k19}ils {\k16}sont {\k17}dé{\k23}pas{\k28}sés
+Dialogue: 0,0:00:18.98,0:00:22.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}L'ex-{\k15}a{\k19}lli{\k24}ga{\k24}tor {\k38}va {\k22}se {\k22}lâ{\k27}cher {\k16}é{\k46}coute
+Dialogue: 0,0:00:24.37,0:00:27.65,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Oh {\k61}oui {\k23}ha {\k26}ha {\k23}ha {\k25}ha {\k31}ha
+Dialogue: 0,0:00:30.10,0:00:34.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Quand {\k51}je {\k48}se{\k68}rai {\k23}hu{\k30}main {\k26}pour {\k25}la {\k55}vie
+Dialogue: 0,0:00:34.02,0:00:37.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}J'en{\k13}ten{\k13}drai {\k18}les {\k26}trom{\k24}pet{\k12}tes {\k15}de {\k16}la {\k24}re{\k19}no{\k29}mée
+Dialogue: 0,0:00:36.22,0:00:39.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Et {\k21}j'au{\k11}rai {\k23}le {\k16}monde {\k12}en{\k29}tier {\k40}à {\k27}mes {\k34}pieds
+Dialogue: 0,0:00:39.18,0:00:42.51,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Mer{\k40}ci, {\k37}mer{\k38}ci, {\k46}oh {\k21}mer{\k14}ci
+Dialogue: 0,0:00:41.41,0:00:43.84,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Oui {\k20}j't'a{\k14}dore {\k16}aus{\k19}si {\k17}ché{\k23}rie
+Dialogue: 0,0:00:45.42,0:00:47.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Quand {\k26}j'é{\k27}tais {\k21}moi
+Dialogue: 0,0:00:46.43,0:00:50.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}J'a{\k25}vais {\k12}u{\k27}ne {\k39}vie {\k17}presque {\k26}i{\k14}dé{\k66}ale
+Dialogue: 0,0:00:49.31,0:00:52.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}J'al{\k23}lais {\k27}tous {\k16}les {\k42}soirs {\k25}faire {\k19}la {\k29}fê{\k24}te
+Dialogue: 0,0:00:51.72,0:00:54.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Et {\k22}c'é{\k23}tait {\k24}pas {\k23}trop {\k81}mal
+Dialogue: 0,0:00:53.66,0:00:56.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}À {\k18}ma {\k24}gauche {\k27}u{\k27}ne {\k25}rou{\k33}qui{\k20}ne
+Dialogue: 0,0:00:55.80,0:00:58.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}À {\k23}droite {\k23}u{\k27}ne {\k23}bru{\k33}net{\k23}te
+Dialogue: 0,0:00:57.87,0:01:01.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Une {\k30}blonde {\k17}ou {\k35}deux {\k20}mu{\k35}sique {\k22}ma{\k23}es{\k27}tro
+Dialogue: 0,0:01:00.10,0:01:03.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}On {\k20}con{\k29}naît {\k23}tous {\k18}la {\k13}re{\k26}cette {\k25}hein {\k21}Lou{\k29}is?
+Dialogue: 0,0:01:02.51,0:01:05.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}C'est {\k18}la {\k28}vie {\k15}elle {\k10}ne {\k26}fait {\k21}qu'pas{\k34}ser
+Dialogue: 0,0:01:04.40,0:01:07.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}On {\k24}est {\k19}sur {\k38}terre {\k17}pour {\k34}s'a{\k20}mu{\k33}ser
+Dialogue: 0,0:01:06.55,0:01:09.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Faut {\k21}pas {\k22}cher{\k25}cher {\k21}plus {\k70}loin
+Dialogue: 0,0:01:07.90,0:01:09.66,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Tu {\k19}l'as {\k29}dit !
+Dialogue: 0,0:01:08.81,0:01:13.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k56}Quand {\k47}je {\k40}se{\k73}rai {\k28}hu{\k27}main {\k30}pour {\k17}la {\k60}vie
+Dialogue: 0,0:01:12.73,0:01:16.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Je {\k12}vais {\k14}en {\k19}pro{\k24}fi{\k36}ter {\k17}comme {\k12}c'est {\k19}pas {\k22}per{\k35}mis
+Dialogue: 0,0:01:15.17,0:01:18.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}Tu {\k23}as {\k29}ma {\k26}ro{\k24}yale {\k27}ga{\k22}ran{\k57}tie
+Dialogue: 0,0:01:17.55,0:01:20.55,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Je {\k15}vous {\k15}rap{\k27}pelle {\k10}que {\k9}vous {\k10}al{\k9}lez {\k22}vous {\k18}ma{\k37}rier
+Dialogue: 0,0:01:19.59,0:01:23.04,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Ah {\k24}c'est {\k55}vrai {\k25}quand {\k16}j'pense {\k19}à {\k17}tous {\k12}les {\k20}coeurs
+Dialogue: 0,0:01:21.94,0:01:24.71,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Bri{\k18}sés {\k16}que {\k13}j'vais {\k19}lais{\k19}ser {\k15}der{\k19}rière {\k32}moi
+Dialogue: 0,0:01:23.61,0:01:26.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Quelle {\k18}mo{\k25}des{\k30}tie {\k23}mon {\k28}sei{\k42}gneur
+Dialogue: 0,0:01:25.69,0:01:28.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Je {\k13}ne {\k26}suis {\k16}vrai{\k13}ment {\k27}pas {\k25}de {\k22}votre {\k23}a{\k26}vis
+Dialogue: 0,0:01:27.79,0:01:31.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Re{\k24}gar{\k42}dez {\k14}les {\k26}a{\k24}beilles {\k17}sur {\k28}les {\k35}fleurs
+Dialogue: 0,0:01:30.24,0:01:33.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}Elles {\k22}ont {\k22}trou{\k25}vé {\k23}le {\k14}se{\k25}cret {\k20}d'la {\k29}vie
+Dialogue: 0,0:01:32.36,0:01:35.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Je {\k39}ne {\k13}per{\k24}drai {\k28}pas {\k21}mon {\k36}temps
+Dialogue: 0,0:01:34.50,0:01:37.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Quand {\k24}je {\k28}s'rai {\k26}comme {\k30}a{\k43}vant
+Dialogue: 0,0:01:36.44,0:01:39.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Cha{\k14}que {\k18}jour {\k23}on {\k25}doit {\k24}se {\k16}mettre {\k18}au {\k24}tra{\k34}vail
+Dialogue: 0,0:01:38.92,0:01:41.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Si {\k26}l'on {\k11}veut {\k24}ga{\k21}gner {\k26}la {\k26}ba{\k45}taille
+Dialogue: 0,0:01:41.07,0:01:44.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Le {\k15}suc{\k45}cès {\k25}dé{\k27}pend {\k15}de {\k32}toi
+Dialogue: 0,0:01:43.11,0:01:46.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Mon {\k17}pa{\k13}pa {\k23}n'ar{\k19}rê{\k10}tait {\k18}pas {\k9}de {\k16}ré{\k11}pé{\k14}ter {\k21}ça
+Dialogue: 0,0:01:45.31,0:01:48.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k8}Et {\k42}je {\k14}le {\k15}dis {\k23}à {\k26}mon {\k56}tour
+Dialogue: 0,0:01:47.53,0:01:52.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k55}Quand {\k52}nous {\k36}se{\k71}rons {\k30}hu{\k27}mains {\k27}pour {\k19}la {\k51}vie
+Dialogue: 0,0:01:51.45,0:01:53.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}En {\k16}a{\k13}vant {\k16}les {\k24}so{\k41}los
+Dialogue: 0,0:01:54.69,0:01:57.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Et {\k14}en {\k11}a{\k25}vant {\k16}la {\k23}belle {\k85}vie
+Dialogue: 0,0:01:56.78,0:01:58.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Je {\k15}fe{\k15}rai {\k22}de {\k19}mon {\k23}mieux
+Dialogue: 0,0:01:57.88,0:02:02.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}J'au{\k17}rai {\k26}ma {\k37}place {\k44}au {\k47}so{\kf163}leil
+Dialogue: 0,0:02:01.95,0:02:09.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf214}Pour {\kf192}toute{\k20} {\k32}la {\kf209}vie
