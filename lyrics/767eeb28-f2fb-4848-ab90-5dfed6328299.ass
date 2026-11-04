@@ -1,0 +1,129 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Survive in Hell
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:24.96,0:00:27.76,Sample KM [Up],,0,0,0,karaoke,{\k50}Still {\k19}in {\k22}the {\k39}dark {\k22}scrat{\k24}ches {\k21}in {\k21}the {\k62}gray
+Comment: 0,0:00:28.45,0:00:31.22,Sample KM [Up],,0,0,0,karaoke,{\k42}Worn {\k26}by {\k18}the {\k42}time {\k25}but {\k18}I {\k24}still {\k19}re{\k63}main
+Comment: 0,0:00:31.84,0:00:34.80,Sample KM [Up],,0,0,0,karaoke,{\k47}Safe {\k21}in {\k21}the {\k44}light {\k19}no{\k24}thing's {\k22}gon{\k21}na {\k77}change
+Comment: 0,0:00:35.10,0:00:38.35,Sample KM [Up],,0,0,0,karaoke,{\k18}The {\k45}chance {\k44}is {\k63}now {\k24}or {\k42}ne{\k89}ver
+Comment: 0,0:00:39.17,0:00:41.92,Sample KM [Up],,0,0,0,karaoke,{\k22}All {\k21}the {\k40}safe {\k46}hands {\k34}hold {\k28}me {\k84}down
+Comment: 0,0:00:42.56,0:00:45.34,Sample KM [Up],,0,0,0,karaoke,{\k24}All {\k25}the {\k40}still{\k37}ness {\k42}seals {\k35}me {\k75}in
+Comment: 0,0:00:45.95,0:00:48.54,Sample KM [Up],,0,0,0,karaoke,{\k29}So {\k21}I {\k43}break {\k37}the {\k39}scab{\k34}bard {\k56}now
+Comment: 0,0:00:48.54,0:00:51.81,Sample KM [Up],,0,0,0,karaoke,{\k23}Not {\k24}to {\k35}lose {\k24}my {\kf221}edge
+Comment: 0,0:00:52.02,0:00:53.75,Sample KM [Up],,0,0,0,karaoke,{\k21}We {\k17}are {\k30}cut{\k18}ting {\k24}through {\k21}the {\k42}night
+Comment: 0,0:00:53.75,0:00:55.28,Sample KM [Up],,0,0,0,karaoke,{\k21}Like {\k19}a {\k34}sil{\k31}ver {\k48}line
+Comment: 0,0:00:55.44,0:00:57.09,Sample KM [Up],,0,0,0,karaoke,{\k27}Don't {\k20}be {\k21}a{\k20}fraid {\k21}to {\k21}go {\k35}blind
+Comment: 0,0:00:57.17,0:00:58.71,Sample KM [Up],,0,0,0,karaoke,{\k19}With {\k19}the {\k41}heat {\k25}in{\k50}side
+Comment: 0,0:00:58.90,0:01:00.59,Sample KM [Up],,0,0,0,karaoke,{\k20}We {\k19}are {\k26}dy{\k20}ing {\k22}in {\k19}the {\k43}fight
+Comment: 0,0:01:00.59,0:01:02.12,Sample KM [Up],,0,0,0,karaoke,{\k24}But {\k19}it's {\k33}just {\k31}a {\k46}start
+Comment: 0,0:01:02.30,0:01:03.98,Sample KM [Up],,0,0,0,karaoke,{\k24}Di{\k21}ving {\k21}deep {\k20}in{\k23}to {\k17}the {\k42}grave
+Comment: 0,0:01:04.03,0:01:05.59,Sample KM [Up],,0,0,0,karaoke,{\k17}To {\k25}sur{\k32}vive {\k27}in {\k55}hell
+Comment: 0,0:01:05.75,0:01:07.46,Sample KM [Up],,0,0,0,karaoke,{\k20}We {\k21}are {\k25}cut{\k18}ting {\k25}through {\k20}the {\k42}night
+Comment: 0,0:01:12.61,0:01:14.29,Sample KM [Up],,0,0,0,karaoke,{\k20}We {\k20}are {\k25}dy{\k20}ing {\k21}in {\k23}the {\k39}fight
+Comment: 0,0:01:19.42,0:01:20.72,Sample KM [Choir],,0,0,0,karaoke,{\k22}To {\k22}sur{\k28}vive {\k15}in {\k43}hell
+Comment: 0,0:01:33.12,0:01:34.46,Sample KM [Up],,0,0,0,karaoke,{\k20}To {\k27}sur{\k25}vive {\k19}in {\k43}hell
+Comment: 0,0:01:35.33,0:01:38.05,Sample KM [Up],,0,0,0,karaoke,{\k20}Go{\k19}ing {\k86}blind {\k22}I {\k16}can {\k28}see {\k20}it {\k61}clear
+Comment: 0,0:01:38.67,0:01:41.46,Sample KM [Up],,0,0,0,karaoke,{\k29}Scars {\k21}are {\k85}lines {\k44}carved {\k22}in {\k20}my {\k58}face
+Comment: 0,0:01:41.76,0:01:44.43,Sample KM [Up],,0,0,0,karaoke,{\k43}They're {\k42}not {\k22}a {\k59}badge {\k22}of {\k79}pride
+Comment: 0,0:01:44.74,0:01:47.68,Sample KM [Up],,0,0,0,karaoke,{\k35}They {\k31}re{\k63}mind {\k51}me {\k27}I'm {\k29}a{\k58}live
+Comment: 0,0:01:47.73,0:01:50.34,Sample KM [Up],,0,0,0,karaoke,{\k22}All {\k19}the {\k42}stains {\k48}are {\k33}burned {\k30}off {\k67}now
+Comment: 0,0:01:51.17,0:01:54.06,Sample KM [Up],,0,0,0,karaoke,{\k22}And {\k21}I'm {\k41}wal{\k45}king {\k33}through {\k32}the {\k95}ash
+Comment: 0,0:01:54.61,0:01:57.06,Sample KM [Up],,0,0,0,karaoke,{\k22}E{\k22}ven {\k41}on {\k43}this {\k35}bloo{\k25}dy {\k57}ground
+Comment: 0,0:01:57.17,0:02:00.25,Sample KM [Up],,0,0,0,karaoke,{\k22}I {\k22}will {\k31}ne{\k29}ver {\kf204}fall
+Comment: 0,0:02:01.26,0:02:04.17,Sample KM [Up],,0,0,0,karaoke,{\k17}No {\k27}scab{\k103}bard {\k25}no{\k20}where {\k21}to {\k78}fit
+Comment: 0,0:02:04.67,0:02:07.71,Sample KM [Up],,0,0,0,karaoke,{\k23}No {\k26}re{\k98}gret {\k25}and {\k25}now {\k14}I {\k93}see
+Comment: 0,0:02:08.15,0:02:11.55,Sample KM [Up],,0,0,0,karaoke,{\k23}Eve{\k22}ry {\k121}stride {\k26}eve{\k22}ry {\kf126}scar
+Comment: 0,0:02:11.55,0:02:14.22,Sample KM [Up],,0,0,0,karaoke,{\k23}Made {\k18}me {\k88}what {\k60}I {\k78}am
+Comment: 0,0:02:15.14,0:02:17.89,Sample KM [Up],,0,0,0,karaoke,{\k22}All {\k20}the {\k42}safe {\k49}hands {\k33}hold {\k30}me {\k79}down
+Comment: 0,0:02:18.62,0:02:21.25,Sample KM [Up],,0,0,0,karaoke,{\k23}All {\k18}the {\k44}still{\k36}ness {\k36}seals {\k37}me {\k69}in
+Comment: 0,0:02:21.96,0:02:24.57,Sample KM [Up],,0,0,0,karaoke,{\k29}So {\k21}I {\k40}break {\k39}the {\k38}scab{\k35}bard {\k59}now
+Comment: 0,0:02:24.63,0:02:27.84,Sample KM [Up],,0,0,0,karaoke,{\k22}Not {\k18}to {\k33}lose {\k28}my {\kf220}edge
+Comment: 0,0:02:28.02,0:02:29.91,Sample KM [Up],,0,0,0,karaoke,{\k22}We {\k18}are {\k30}cut{\k19}ting {\k20}through {\k21}the {\k59}night
+Comment: 0,0:02:34.88,0:02:36.73,Sample KM [Up],,0,0,0,karaoke,{\k22}We {\k19}are {\k26}dy{\k21}ing {\k22}in {\k19}the {\k56}fight
+Comment: 0,0:02:41.75,0:02:43.46,Sample KM [Up],,0,0,0,karaoke,{\k19}We {\k16}are {\k30}cut{\k21}ting {\k22}through {\k22}the {\k41}night
+Comment: 0,0:02:43.46,0:02:45.02,Sample KM [Up],,0,0,0,karaoke,{\k22}Like {\k18}a {\k35}sil{\k32}ver {\k49}line
+Comment: 0,0:02:45.18,0:02:46.89,Sample KM [Up],,0,0,0,karaoke,{\k22}Don't {\k20}be {\k21}a{\k21}fraid {\k24}to {\k19}go {\k44}blind
+Comment: 0,0:02:46.89,0:02:48.48,Sample KM [Up],,0,0,0,karaoke,{\k20}With {\k19}the {\k39}heat {\k26}in{\k55}side
+Comment: 0,0:02:48.60,0:02:50.26,Sample KM [Up],,0,0,0,karaoke,{\k20}We {\k21}are {\k27}dy{\k19}ing {\k20}in {\k20}the {\k39}fight
+Comment: 0,0:02:50.31,0:02:51.89,Sample KM [Up],,0,0,0,karaoke,{\k22}But {\k19}it's {\k35}just {\k29}a {\k53}start
+Comment: 0,0:02:52.02,0:02:53.71,Sample KM [Up],,0,0,0,karaoke,{\k24}Di{\k21}ving {\k22}deep {\k20}in{\k22}to {\k16}the {\k44}grave
+Comment: 0,0:02:53.73,0:02:55.24,Sample KM [Up],,0,0,0,karaoke,{\k19}To {\k25}sur{\k33}vive {\k30}in {\k44}hell
+Comment: 0,0:02:55.47,0:02:57.15,Sample KM [Up],,0,0,0,karaoke,{\k21}We {\k20}are {\k26}cut{\k17}ting {\k23}through {\k21}the {\k40}night
+Comment: 0,0:02:57.15,0:02:58.68,Sample KM [Up],,0,0,0,karaoke,{\k24}Like {\k18}a {\k35}sil{\k29}ver {\k47}line
+Comment: 0,0:02:58.84,0:03:00.59,Sample KM [Up],,0,0,0,karaoke,{\k25}Don't {\k24}be {\k16}a{\k22}fraid {\k25}to {\k20}go {\k43}blind
+Comment: 0,0:03:00.59,0:03:02.09,Sample KM [Up],,0,0,0,karaoke,{\k20}With {\k23}the {\k36}heat {\k24}in{\k47}side
+Comment: 0,0:03:02.29,0:03:04.00,Sample KM [Up],,0,0,0,karaoke,{\k21}We {\k21}are {\k24}dy{\k20}ing {\k23}in {\k17}the {\k45}fight
+Comment: 0,0:03:04.00,0:03:05.54,Sample KM [Up],,0,0,0,karaoke,{\k24}But {\k21}it's {\k34}just {\k28}a {\k47}start
+Comment: 0,0:03:05.73,0:03:07.44,Sample KM [Up],,0,0,0,karaoke,{\k24}Di{\k21}ving {\k20}deep {\k21}in{\k22}to {\k19}the {\k44}grave
+Comment: 0,0:03:07.44,0:03:09.00,Sample KM [Up],,0,0,0,karaoke,{\k20}To {\k23}sur{\k36}vive {\k30}in {\k47}hell
+Comment: 0,0:03:22.87,0:03:24.19,Sample KM [Choir],,0,0,0,karaoke,{\k22}To {\k22}sur{\k24}vive {\k19}in {\k45}hell
+Comment: 0,0:03:29.73,0:03:31.23,Sample KM [Choir],,0,0,0,karaoke,{\k22}To {\k22}sur{\k23}vive {\k20}in {\k63}hell
+Dialogue: 0,0:00:24.06,0:00:27.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Still {\k19}in {\k22}the {\k39}dark {\k22}scrat{\k24}ches {\k21}in {\k21}the {\k62}gray
+Dialogue: 0,0:00:27.55,0:00:31.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Worn {\k26}by {\k18}the {\k42}time {\k25}but {\k18}I {\k24}still {\k19}re{\k63}main
+Dialogue: 0,0:00:30.94,0:00:35.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Safe {\k21}in {\k21}the {\k44}light {\k19}no{\k24}thing's {\k22}gon{\k21}na {\k77}change
+Dialogue: 0,0:00:34.20,0:00:38.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}The {\k45}chance {\k44}is {\k63}now {\k24}or {\k42}ne{\k89}ver
+Dialogue: 0,0:00:38.27,0:00:42.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}All {\k21}the {\k40}safe {\k46}hands {\k34}hold {\k28}me {\k84}down
+Dialogue: 0,0:00:41.66,0:00:45.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}All {\k25}the {\k40}still{\k37}ness {\k42}seals {\k35}me {\k75}in
+Dialogue: 0,0:00:45.05,0:00:48.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}So {\k21}I {\k43}break {\k37}the {\k39}scab{\k34}bard {\k56}now
+Dialogue: 0,0:00:47.64,0:00:52.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Not {\k24}to {\k35}lose {\k24}my {\kf221}edge
+Dialogue: 0,0:00:51.12,0:00:53.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}We {\k17}are {\k30}cut{\k18}ting {\k24}through {\k21}the {\k42}night
+Dialogue: 0,0:00:52.85,0:00:55.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Like {\k19}a {\k34}sil{\k31}ver {\k48}line
+Dialogue: 0,0:00:54.54,0:00:57.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Don't {\k20}be {\k21}a{\k20}fraid {\k21}to {\k21}go {\k35}blind
+Dialogue: 0,0:00:56.27,0:00:58.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}With {\k19}the {\k41}heat {\k25}in{\k50}side
+Dialogue: 0,0:00:58.00,0:01:00.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}We {\k19}are {\k26}dy{\k20}ing {\k22}in {\k19}the {\k43}fight
+Dialogue: 0,0:00:59.69,0:01:02.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}But {\k19}it's {\k33}just {\k31}a {\k46}start
+Dialogue: 0,0:01:01.40,0:01:04.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Di{\k21}ving {\k21}deep {\k20}in{\k23}to {\k17}the {\k42}grave
+Dialogue: 0,0:01:03.13,0:01:05.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}To {\k25}sur{\k32}vive {\k27}in {\k55}hell
+Dialogue: 0,0:01:04.85,0:01:07.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}We {\k21}are {\k25}cut{\k18}ting {\k25}through {\k20}the {\k42}night
+Dialogue: 0,0:01:11.71,0:01:14.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}We {\k20}are {\k25}dy{\k20}ing {\k21}in {\k23}the {\k39}fight
+Dialogue: 0,0:01:18.52,0:01:20.92,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}To {\k22}sur{\k28}vive {\k15}in {\k43}hell
+Dialogue: 0,0:01:32.22,0:01:34.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}To {\k27}sur{\k25}vive {\k19}in {\k43}hell
+Dialogue: 0,0:01:34.43,0:01:38.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Go{\k19}ing {\k86}blind {\k22}I {\k16}can {\k28}see {\k20}it {\k61}clear
+Dialogue: 0,0:01:37.77,0:01:41.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Scars {\k21}are {\k85}lines {\k44}carved {\k22}in {\k20}my {\k58}face
+Dialogue: 0,0:01:40.86,0:01:44.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}They're {\k42}not {\k22}a {\k59}badge {\k22}of {\k79}pride
+Dialogue: 0,0:01:43.84,0:01:47.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}They {\k31}re{\k63}mind {\k51}me {\k27}I'm {\k29}a{\k58}live
+Dialogue: 0,0:01:46.83,0:01:50.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}All {\k19}the {\k42}stains {\k48}are {\k33}burned {\k30}off {\k67}now
+Dialogue: 0,0:01:50.27,0:01:54.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}And {\k21}I'm {\k41}wal{\k45}king {\k33}through {\k32}the {\k95}ash
+Dialogue: 0,0:01:53.71,0:01:57.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}E{\k22}ven {\k41}on {\k43}this {\k35}bloo{\k25}dy {\k57}ground
+Dialogue: 0,0:01:56.27,0:02:00.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k22}will {\k31}ne{\k29}ver {\kf204}fall
+Dialogue: 0,0:02:00.36,0:02:04.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}No {\k27}scab{\k103}bard {\k25}no{\k20}where {\k21}to {\k78}fit
+Dialogue: 0,0:02:03.77,0:02:07.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}No {\k26}re{\k98}gret {\k25}and {\k25}now {\k14}I {\k93}see
+Dialogue: 0,0:02:07.25,0:02:11.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Eve{\k22}ry {\k121}stride {\k26}eve{\k22}ry {\kf126}scar
+Dialogue: 0,0:02:10.65,0:02:14.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Made {\k18}me {\k88}what {\k60}I {\k78}am
+Dialogue: 0,0:02:14.24,0:02:18.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}All {\k20}the {\k42}safe {\k49}hands {\k33}hold {\k30}me {\k79}down
+Dialogue: 0,0:02:17.72,0:02:21.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}All {\k18}the {\k44}still{\k36}ness {\k36}seals {\k37}me {\k69}in
+Dialogue: 0,0:02:21.06,0:02:24.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}So {\k21}I {\k40}break {\k39}the {\k38}scab{\k35}bard {\k59}now
+Dialogue: 0,0:02:23.73,0:02:28.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Not {\k18}to {\k33}lose {\k28}my {\kf220}edge
+Dialogue: 0,0:02:27.12,0:02:30.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}We {\k18}are {\k30}cut{\k19}ting {\k20}through {\k21}the {\k59}night
+Dialogue: 0,0:02:33.98,0:02:36.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}We {\k19}are {\k26}dy{\k21}ing {\k22}in {\k19}the {\k56}fight
+Dialogue: 0,0:02:40.85,0:02:43.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}We {\k16}are {\k30}cut{\k21}ting {\k22}through {\k22}the {\k41}night
+Dialogue: 0,0:02:42.56,0:02:45.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Like {\k18}a {\k35}sil{\k32}ver {\k49}line
+Dialogue: 0,0:02:44.28,0:02:47.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Don't {\k20}be {\k21}a{\k21}fraid {\k24}to {\k19}go {\k44}blind
+Dialogue: 0,0:02:45.99,0:02:48.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}With {\k19}the {\k39}heat {\k26}in{\k55}side
+Dialogue: 0,0:02:47.70,0:02:50.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}We {\k21}are {\k27}dy{\k19}ing {\k20}in {\k20}the {\k39}fight
+Dialogue: 0,0:02:49.41,0:02:52.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}But {\k19}it's {\k35}just {\k29}a {\k53}start
+Dialogue: 0,0:02:51.12,0:02:53.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Di{\k21}ving {\k22}deep {\k20}in{\k22}to {\k16}the {\k44}grave
+Dialogue: 0,0:02:52.83,0:02:55.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}To {\k25}sur{\k33}vive {\k30}in {\k44}hell
+Dialogue: 0,0:02:54.57,0:02:57.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}We {\k20}are {\k26}cut{\k17}ting {\k23}through {\k21}the {\k40}night
+Dialogue: 0,0:02:56.25,0:02:58.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Like {\k18}a {\k35}sil{\k29}ver {\k47}line
+Dialogue: 0,0:02:57.94,0:03:00.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Don't {\k24}be {\k16}a{\k22}fraid {\k25}to {\k20}go {\k43}blind
+Dialogue: 0,0:02:59.69,0:03:02.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}With {\k23}the {\k36}heat {\k24}in{\k47}side
+Dialogue: 0,0:03:01.39,0:03:04.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}We {\k21}are {\k24}dy{\k20}ing {\k23}in {\k17}the {\k45}fight
+Dialogue: 0,0:03:03.10,0:03:05.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}But {\k21}it's {\k34}just {\k28}a {\k47}start
+Dialogue: 0,0:03:04.83,0:03:07.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Di{\k21}ving {\k20}deep {\k21}in{\k22}to {\k19}the {\k44}grave
+Dialogue: 0,0:03:06.54,0:03:09.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}To {\k23}sur{\k36}vive {\k30}in {\k47}hell
+Dialogue: 0,0:03:21.97,0:03:24.39,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}To {\k22}sur{\k24}vive {\k19}in {\k45}hell
+Dialogue: 0,0:03:28.83,0:03:31.43,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}To {\k22}sur{\k23}vive {\k20}in {\k63}hell
