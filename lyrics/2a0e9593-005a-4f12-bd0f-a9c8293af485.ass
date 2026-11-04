@@ -1,0 +1,233 @@
+﻿[Script Info]
+Title: Aaron Burr, Sir
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+PlayResX: 0
+PlayResY: 0
+Original Timing: Danmcfoo, ono3000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,60,1
+Style: Group,Arial,24,&H00FFFFFF,&H00FFC124,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Group_Sub,Arial,24,&H00FFFFFF,&H00FFC124,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+Style: Hamilton,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Burr,Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Laurens,Arial,24,&H00FFFFFF,&H005757FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Laurens_Sub,Arial,24,&H00FFFFFF,&H005757FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+Style: Lafayette,Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Lafayette_Sub,Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+Style: Mulligan,Arial,24,&H00FFFFFF,&H0057B857,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Mulligan_Sub,Arial,24,&H00FFFFFF,&H0057B857,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+Style: HamiltonS,Arial,24,&H00008AFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: BurrS,Arial,24,&H00EB4DC1,&H00EB4DC1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: LaurensS,Arial,24,&H005757FF,&H005757FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: LafayetteS,Arial,24,&H00FF843C,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: MulliganS,Arial,24,&H0057B857,&H0057B857,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:10.00,Group,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!" "!
+Comment: 0,0:00:00.00,0:00:10.00,Mulligan_Sub,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}{\rMulliganS}!"♠ "!{\r}
+Comment: 0,0:00:00.00,0:00:10.00,Hamilton,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}{\rHamiltonS}!"♦ "!{\r}
+Comment: 0,0:00:00.00,0:00:10.00,Lafayette,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}{\rLafayetteS}!"♥ "!{\r}
+Comment: 0,0:00:00.00,0:00:10.00,Laurens_Sub,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}{\rLaurensS}!"♣ "!{\r}
+Comment: 0,0:00:00.00,0:00:10.00,Burr,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}{\rBurrS}!"● "!{\r}
+Comment: 0,0:00:00.00,0:00:10.00,Lafayette_Sub,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}{\rLafayetteS}!"♥ "!{\r}
+Comment: 0,0:00:00.00,0:00:10.00,Laurens,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}{\rLaurensS}!"♣ "!{\r}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!" "!
+Comment: 0,0:00:00.00,0:00:10.00,Group_Sub,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!" "!
+Comment: 0,0:00:00.00,0:00:10.00,Mulligan,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}{\rMulliganS}!"♠ "!{\r}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&HFFC124&\i1}Group {\c\i0}| {\c&H008AFF&}♦ Hamilton {\c}| {\c&HEB4DC1&}● Burr {\c}| {\c&H5757FF&}♣ Laurens {\c}|\N{\c&H57B857&}♥ Lafayette {\c}| {\c&HFF843C&}♠ Mulligan {\c}
+Comment: 1,0:00:06.13,0:00:08.00,Group,,0,0,0,karaoke,{\k21}Se{\k18}ven{\k38}teen {\k23}se{\k13}ven{\k21}ty {\k53}six
+Comment: 1,0:00:12.13,0:00:13.44,Group,,0,0,0,karaoke,{\k38}New {\k39}York {\k18}Ci{\k36}ty
+Comment: 1,0:00:13.69,0:00:15.99,Hamilton,,0,0,0,karaoke,{\k20}Par{\k16}don {\k37}me, {\k17}are {\k15}you {\k17}Aa{\k17}ron {\k56}Burr, {\k35}sir?
+Comment: 1,0:00:16.33,0:00:17.78,Burr,,0,0,0,karaoke,{\k21}That {\k11}de{\k43}pends, {\k17}who’s {\k31}as{\k22}king?
+Comment: 1,0:00:17.78,0:00:18.98,Hamilton,,0,0,0,karaoke,{\k13}Oh, {\k16}well, {\k53}sure, {\k38}sir
+Comment: 1,0:00:18.99,0:00:20.51,Hamilton,,0,0,0,karaoke,{\k17}I’m {\k19}Al{\k17}ex{\k25}an{\k16}der {\k19}Ham{\k19}il{\k20}ton
+Comment: 1,0:00:20.51,0:00:21.88,Hamilton,,0,0,0,karaoke,{\k16}I’m {\k19}at {\k19}your {\k40}ser{\k17}vice, {\k26}sir
+Comment: 1,0:00:22.04,0:00:23.50,Hamilton,,0,0,0,karaoke,{\k18}I {\k18}have {\k43}been {\k15}loo{\k26}king {\k14}for {\k12}you
+Comment: 1,0:00:23.64,0:00:24.59,Burr,,0,0,0,karaoke,{\k18}I’m {\k12}get{\k20}ting {\k23}ner{\k22}vous
+Comment: 1,0:00:24.62,0:00:25.76,Hamilton,,0,0,0,karaoke,{\k38}Sir, {\k15}I {\k18}heard {\k18}your {\k25}name
+Comment: 1,0:00:25.76,0:00:27.13,Hamilton,,0,0,0,karaoke,{\k19}At {\k25}Prince{\k12}ton {\k18}I {\k22}was {\k23}see{\k18}king
+Comment: 1,0:00:27.13,0:00:29.06,Hamilton,,0,0,0,karaoke,{\k15}An {\k20}ac{\k18}ce{\k16}le{\k22}ra{\k14}ted {\k18}course {\k21}of {\k16}stu{\k33}dy
+Comment: 1,0:00:29.15,0:00:30.63,Hamilton,,0,0,0,karaoke,{\k8}When {\k9}I {\k18}got {\k14}sort {\k18}of {\k24}out {\k21}of {\k36}sorts
+Comment: 1,0:00:30.63,0:00:31.85,Hamilton,,0,0,0,karaoke,{\k12}With {\k12}a {\k14}bud{\k19}dy {\k22}of {\k43}yours
+Comment: 1,0:00:31.86,0:00:33.90,Hamilton,,0,0,0,karaoke,{\k13}I {\k15}may {\k18}have {\k22}punched {\k39}him {\k6}it’s {\k7}a {\k53}blur, {\k31}sir
+Comment: 1,0:00:34.05,0:00:35.54,Hamilton,,0,0,0,karaoke,{\k12}He {\k22}hand{\k19}les {\k17}the {\k23}fi{\k31}nan{\k25}cials?
+Comment: 1,0:00:35.62,0:00:36.75,Burr,,0,0,0,karaoke,{\k16}You {\k29}punched {\k15}the {\k22}bur{\k31}sar?
+Comment: 1,0:00:37.10,0:00:38.77,Hamilton,,0,0,0,karaoke,{\k47}Yes, {\k9}I {\k12}wan{\k13}ted {\k14}to {\k18}do {\k15}what {\k22}you {\k17}did
+Comment: 1,0:00:38.80,0:00:41.02,Hamilton,,0,0,0,karaoke,{\k22}Grad{\k15}u{\k18}ate {\k17}in {\k21}two, {\k20}then {\k25}join {\k14}the {\k17}rev{\k16}o{\k19}lu{\k18}tion
+Comment: 1,0:00:41.08,0:00:42.72,Hamilton,,0,0,0,karaoke,{\k14}He {\k21}looked {\k18}at {\k17}me {\k20}like {\k17}I {\k18}was {\k23}stu{\k16}pid
+Comment: 1,0:00:42.72,0:00:43.66,Hamilton,,0,0,0,karaoke,{\k19}I’m {\k32}not {\k19}stu{\k24}pid
+Comment: 1,0:00:43.96,0:00:44.78,Hamilton,,0,0,0,karaoke,{\k12}So {\k18}how’d {\k15}you {\k13}do {\k24}it?
+Comment: 1,0:00:45.01,0:00:46.41,Hamilton,,0,0,0,karaoke,{\k15}How’d {\k8}you {\k16}grad{\k13}u{\k17}ate {\k26}so {\k45}fast?
+Comment: 1,0:00:46.98,0:00:48.43,Burr,,0,0,0,karaoke,{\k10}It {\k15}was {\k22}my {\k21}pa{\k22}rent’s {\k22}dy{\k11}ing {\k22}wish
+Comment: 1,0:00:48.48,0:00:49.51,Burr,,0,0,0,karaoke,{\k14}Be{\k16}fore {\k19}they {\k54}passed
+Comment: 1,0:00:49.51,0:00:51.64,Hamilton,,0,0,0,karaoke,{\k10}You’re {\k10}an {\k23}or{\k41}phan, {\k14}of {\k58}course, {\k11}I’m {\k11}an {\k19}or{\k16}phan
+Comment: 1,0:00:51.64,0:00:53.02,Hamilton,,0,0,0,karaoke,{\k18}God, {\k17}I {\k21}wish {\k18}there {\k16}was {\k14}a {\k34}war
+Comment: 1,0:00:53.04,0:00:54.48,Hamilton,,0,0,0,karaoke,{\k10}Then {\k15}we {\k17}could {\k25}prove {\k12}that {\k20}we’re {\k23}worth {\k22}more
+Comment: 1,0:00:54.50,0:00:55.65,Hamilton,,0,0,0,karaoke,{\k8}Than {\k10}a{\k14}ny{\k15}one {\k23}bar{\k21}gained {\k24}for
+Comment: 1,0:00:56.22,0:00:57.40,Burr,,0,0,0,karaoke,{\k10}Can {\k18}I {\k20}buy {\k9}you {\k16}a {\k45}drink?
+Comment: 1,0:00:57.85,0:00:58.56,Hamilton,,0,0,0,karaoke,{\k14}That {\k16}would {\k14}be {\k27}nice
+Comment: 1,0:00:59.09,0:00:59.84,Burr,,0,0,0,karaoke,{\k14}While {\k17}we’re {\k27}tal{\k17}king
+Comment: 1,0:00:59.84,0:01:01.91,Burr,,0,0,0,karaoke,{\k20}Let {\k14}me {\k18}of{\k20}fer {\k20}you {\k21}some {\k23}free {\k10}ad{\k61}vice
+Comment: 1,0:01:02.50,0:01:03.86,Burr,,0,0,0,karaoke,{\k72}Talk {\k64}less
+Comment: 1,0:01:04.29,0:01:04.68,Hamilton,,0,0,0,karaoke,{\k39}What?
+Comment: 1,0:01:05.50,0:01:06.93,Burr,,0,0,0,karaoke,{\k83}Smile {\k68}more
+Comment: 1,0:01:07.32,0:01:07.69,Hamilton,,0,0,0,karaoke,{\k37}Ha
+Comment: 1,0:01:08.07,0:01:11.04,Burr,,0,0,0,karaoke,{\k31}Don’t {\k24}let {\k32}them {\k57}know {\k40}what {\k27}you’re {\k34}a{\k52}gainst
+Comment: 1,0:01:11.06,0:01:13.45,Burr,,0,0,0,karaoke,{\k20}Or {\k37}what {\k94}you’re {\k88}for
+Comment: 1,0:01:14.76,0:01:15.84,Hamilton,,0,0,0,karaoke,{\k6}You {\k20}can’t {\k12}be {\k24}ser{\k13}i{\k33}ous
+Comment: 1,0:01:16.54,0:01:18.41,Burr,,0,0,0,karaoke,{\k12}You {\k59}wan{\k18}na {\k15}get {\k17}a{\k66}head?
+Comment: 1,0:01:18.52,0:01:18.94,Hamilton,,0,0,0,karaoke,{\k42}Yes
+Comment: 1,0:01:19.65,0:01:21.99,Burr,,0,0,0,karaoke,{\k57}Fools {\k20}who {\k16}run {\k23}their {\k75}mouths {\k43}off
+Comment: 1,0:01:21.99,0:01:23.59,Burr,,0,0,0,karaoke,{\k61}Wind {\k52}up {\k47}dead
+Comment: 1,0:01:23.70,0:01:25.37,Laurens,,0,0,0,karaoke,{\k15}A-{\k22}ya-{\k35}yow {\k19}ya-{\k38}yow-{\k38}yow
+Comment: 1,0:01:25.40,0:01:26.64,Laurens,,0,0,0,karaoke,{\k32}What {\k41}time {\k20}is {\k31}it?
+Comment: 1,0:01:26.84,0:01:27.92,Group,,0,0,0,karaoke,{\rLaurensS}♣ {\rLafayetteS}♥ {\rMulliganS}♠ {\r}{\k38}Show {\k70}time
+Comment: 1,0:01:28.06,0:01:30.60,Burr,,0,0,0,karaoke,{\k33}Like {\k63}I {\kf158}said
+Comment: 1,0:01:29.85,0:01:31.69,Laurens,,0,0,0,karaoke,{\k38}Show {\k35}time, {\k37}show {\k35}time, {\k39}yo
+Comment: 0,0:01:31.30,0:01:31.70,Group_Sub,,0,0,0,karaoke,{\rLafayetteS}♥ {\rMulliganS}♠ {\r}{\k40}Yah!
+Comment: 1,0:01:31.72,0:01:34.15,Laurens,,0,0,0,karaoke,{\k37}I’m {\k36}John {\k24}Lau{\k17}ren’s {\k17}in {\k14}the {\k36}place {\k27}to {\k35}be
+Comment: 1,0:01:34.16,0:01:35.89,Laurens,,0,0,0,karaoke,{\k16}A-{\k25}two {\k36}pints {\k18}of {\k27}Sam {\k23}A{\k28}dams
+Comment: 1,0:01:35.92,0:01:37.45,Laurens,,0,0,0,karaoke,{\k7}But {\k15}I’m {\k19}wor{\k10}kin’ {\k31}on {\k71}three
+Comment: 0,0:01:37.14,0:01:37.91,Mulligan_Sub,,0,0,0,karaoke,{\k39}Ha-{\k38}ha!
+Comment: 1,0:01:37.84,0:01:39.84,Laurens,,0,0,0,karaoke,{\k15}Those {\k24}red{\k35}coats {\k36}don’t {\k26}want {\k9}it {\k29}with {\k26}me
+Comment: 1,0:01:39.91,0:01:41.49,Laurens,,0,0,0,karaoke,{\k14}’Cause {\k19}I {\k13}will {\k36}pop {\k21}chick-{\k16}a {\k39}pop
+Comment: 0,0:01:40.73,0:01:41.45,Mulligan_Sub,,0,0,0,karaoke,{\k72}Woah!
+Comment: 1,0:01:41.49,0:01:43.03,Laurens,,0,0,0,karaoke,{\k23}These {\k32}cops {\k16}till {\k37}I’m {\k46}free
+Comment: 1,0:01:42.72,0:01:44.20,Lafayette,,0,0,0,karaoke,{\k21}Now, {\k27}oui, {\k34}oui, {\k16}mon {\k17}a{\k33}mi
+Comment: 1,0:01:44.20,0:01:45.58,Lafayette,,0,0,0,karaoke,{\k18}Je {\k15}m’ap{\k33}pelle {\k16}La{\k17}fa{\k39}yette
+Comment: 1,0:01:45.75,0:01:48.24,Lafayette,,0,0,0,karaoke,{\k13}The {\k24}Lan{\k22}ce{\k23}lot {\k15}of {\k18}the {\k15}rev{\k19}o{\k14}lu{\k17}tion{\k16}ar{\k17}y {\k36}set
+Comment: 1,0:01:48.47,0:01:51.02,Lafayette,,0,0,0,karaoke,{\k12}I {\k35}came {\k20}from {\k18}a{\k32}far {\k19}just {\k16}to {\k32}say {\k31}bon{\k61}soir
+Comment: 0,0:01:49.49,0:01:49.83,Mulligan_Sub,,0,0,0,karaoke,{\k39}Ay!
+Comment: 0,0:01:50.71,0:01:51.11,Mulligan_Sub,,0,0,0,karaoke,{\k24}Ha-{\k16}ha!
+Comment: 1,0:01:51.06,0:01:52.37,Lafayette,,0,0,0,karaoke,{\k15}Tell {\k18}the {\k35}king {\k11}cas{\k14}se-{\k38}toi
+Comment: 1,0:01:52.37,0:01:53.88,Lafayette,,0,0,0,karaoke,{\k7}Who {\k18}is {\k9}the {\k56}best, {\k19}c’est {\k42}moi
+Comment: 1,0:01:54.19,0:01:56.95,Mulligan,,0,0,0,karaoke,{\k38}Brah, {\k73}brah, {\k21}I {\k15}am {\k21}Her{\k19}cu{\k33}les {\k21}Mul{\k17}li{\k18}gan
+Comment: 1,0:01:56.95,0:01:58.71,Mulligan,,0,0,0,karaoke,{\k19}Up {\k22}in {\k17}it, {\k22}lo{\k19}vin’ {\k19}it, {\k15}yes {\k25}I {\k18}heard
+Comment: 1,0:01:58.71,0:02:00.30,Mulligan,,0,0,0,karaoke,{\k23}Ya {\k19}mo{\k18}ther {\k20}said, {\k28}"Come {\k21}a{\k30}gain?"
+Comment: 1,0:02:00.35,0:02:01.26,Group_Sub,,0,0,0,karaoke,{\rLaurensS}♣ {\rLafayetteS}♥ {\r}{\k91}Ayy
+Comment: 1,0:02:00.65,0:02:03.05,Mulligan,,0,0,0,karaoke,{\k18}Lock {\k20}up {\k14}ya {\k18}daugh{\k16}ters {\k24}and {\k35}hor{\k42}ses, {\k18}of {\k35}course
+Comment: 1,0:02:03.05,0:02:04.55,Mulligan,,0,0,0,karaoke,{\k16}It’s {\k25}hard {\k16}to {\k18}have {\k22}in{\k18}ter{\k35}course
+Comment: 1,0:02:04.56,0:02:06.69,Mulligan,,0,0,0,karaoke,{\k22}O{\k16}ver {\k37}four {\k22}sets {\k24}of {\k39}cor{\k53}sets
+Comment: 0,0:02:06.48,0:02:06.95,Lafayette_Sub,,0,0,0,karaoke,{\k47}Wow
+Comment: 1,0:02:06.54,0:02:07.85,Laurens,,0,0,0,karaoke,{\k41}Oh, {\k21}no {\k30}more {\k39}sex
+Comment: 1,0:02:07.85,0:02:09.57,Laurens,,0,0,0,karaoke,{\k21}Pour {\k11}me {\k13}a{\k19}no{\k21}ther {\k51}brew, {\k36}son
+Comment: 1,0:02:09.57,0:02:10.88,Laurens,,0,0,0,karaoke,{\k18}Let’s {\k23}raise {\k14}a {\k16}cou{\k24}ple {\k36}more
+Comment: 1,0:02:10.88,0:02:12.39,Group,,0,0,0,karaoke,{\rLaurensS}♣ {\rMulliganS}♠ {\r}{\k13}To {\k18}the {\k18}re{\k20}vo{\k47}lu{\k35}tion
+Comment: 1,0:02:10.82,0:02:12.39,Lafayette_Sub,,0,0,0,karaoke,{\k19}C'il {\k18}y a {\k18}re{\k20}vo{\k47}lu{\k35}tion
+Comment: 1,0:02:12.54,0:02:13.89,Laurens,,0,0,0,karaoke,{\k12}Well, {\k18}if {\k14}it {\k21}ain’t {\k15}the {\k25}pro{\k15}di{\k15}gy
+Comment: 1,0:02:13.89,0:02:14.90,Laurens,,0,0,0,karaoke,{\k17}Of {\k22}Prince{\k17}ton {\k27}col{\k18}lege
+Comment: 1,0:02:15.20,0:02:16.30,Mulligan,,0,0,0,karaoke,{\k25}Aa{\k30}ron {\k55}Burr
+Comment: 1,0:02:15.97,0:02:17.99,Laurens,,0,0,0,karaoke,{\k13}Give {\k17}us {\k19}a {\k36}verse, {\k31}drop {\k21}some {\k27}know{\k38}ledge
+Comment: 1,0:02:18.76,0:02:20.77,Burr,,0,0,0,karaoke,{\k14}Good {\k21}luck {\k16}with {\k24}that, {\k15}you’re {\k27}ta{\k13}kin’ {\k24}a {\k47}stand
+Comment: 1,0:02:20.77,0:02:22.27,Burr,,0,0,0,karaoke,{\k34}You {\k39}spit, {\k22}Im{\k20}ma {\k35}sit
+Comment: 1,0:02:22.28,0:02:24.36,Burr,,0,0,0,karaoke,{\k25}We’ll {\k27}see {\k25}where {\k29}we {\k102}land
+Comment: 0,0:02:23.36,0:02:24.33,Group_Sub,,0,0,0,karaoke,{\rLafayetteS}♥ {\rMulliganS}♠ {\r}{\k97}Boo
+Comment: 1,0:02:23.81,0:02:25.56,Laurens,,0,0,0,karaoke,{\k21}Burr, {\k13}the {\k21}re{\k14}vo{\k18}lu{\k22}tion’s {\k21}im{\k13}mi{\k32}nent
+Comment: 1,0:02:25.62,0:02:27.04,Laurens,,0,0,0,karaoke,{\k20}What {\k12}do {\k25}you {\k45}stall {\k40}for?
+Comment: 1,0:02:26.68,0:02:28.44,Hamilton,,0,0,0,karaoke,{\k24}If {\k29}you {\k38}stand {\k16}for {\k18}no{\k21}thing, {\k30}Burr
+Comment: 1,0:02:28.47,0:02:29.68,Hamilton,,0,0,0,karaoke,{\k13}What{\k19}’ll {\k19}you {\k38}fall {\k32}for?
+Comment: 1,0:02:30.06,0:02:31.45,Laurens,,0,0,0,karaoke,{\k24}Ooh, {\k16}who {\k17}are {\k33}you? {\rMulliganS}♠ {\r}{\rMulligan}{\k16}Who {\k14}are {\k19}you?
+Comment: 1,0:02:31.55,0:02:32.49,Lafayette,,0,0,0,karaoke,{\k14}Who {\k24}are {\k56}you?
+Comment: 1,0:02:32.58,0:02:33.81,Group,,0,0,0,karaoke,{\rLaurensS}♣ {\rLafayetteS}♥ {\rMulliganS}♠ {\r}{\k29}Ooh, {\k21}who {\k11}is {\k33}this {\k29}kid?
+Comment: 1,0:02:33.87,0:02:34.86,Group,,0,0,0,karaoke,{\rLaurensS}♣ {\rLafayetteS}♥ {\rMulliganS}♠ {\r}{\k20}What’s {\k14}he {\k23}gon{\k9}na {\k33}do?
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)} {\c&HFFC124&\i1}Group {\c\i0}| {\c&H008AFF&}♦ Hamilton {\c}| {\c&HEB4DC1&}● Burr {\c}| {\c&H5757FF&}♣ Laurens {\c}|\N{\c&H57B857&}♥ Lafayette {\c}| {\c&HFF843C&}♠ Mulligan {\c}
+Dialogue: 0,0:00:05.23,0:00:08.20,Group,,0,0,0,fx,{\k90\fad(300,200)} {\k21}Se{\k18}ven{\k38}teen {\k23}se{\k13}ven{\k21}ty {\k53}six
+Dialogue: 0,0:00:11.23,0:00:13.64,Group,,0,0,0,fx,{\k90\fad(300,200)} {\k38}New {\k39}York {\k18}Ci{\k36}ty
+Dialogue: 0,0:00:12.79,0:00:16.19,Hamilton,,0,0,0,fx,{\k90\fad(300,200)}{\rHamiltonS}♦ {\r}{\k20}Par{\k16}don {\k37}me, {\k17}are {\k15}you {\k17}Aa{\k17}ron {\k56}Burr, {\k35}sir?
+Dialogue: 0,0:00:15.43,0:00:17.98,Burr,,0,0,0,fx,{\k90\fad(300,200)}{\rBurrS}● {\r}{\k21}That {\k11}de{\k43}pends, {\k17}who’s {\k31}as{\k22}king?
+Dialogue: 0,0:00:16.88,0:00:19.18,Hamilton,,0,0,0,fx,{\k90\fad(300,200)}{\rHamiltonS}♦ {\r}{\k13}Oh, {\k16}well, {\k53}sure, {\k38}sir
+Dialogue: 0,0:00:18.09,0:00:20.71,Hamilton,,0,0,0,fx,{\k90\fad(300,200)}{\rHamiltonS}♦ {\r}{\k17}I’m {\k19}Al{\k17}ex{\k25}an{\k16}der {\k19}Ham{\k19}il{\k20}ton
+Dialogue: 0,0:00:19.61,0:00:22.08,Hamilton,,0,0,0,fx,{\k90\fad(300,200)}{\rHamiltonS}♦ {\r}{\k16}I’m {\k19}at {\k19}your {\k40}ser{\k17}vice, {\k26}sir
+Dialogue: 0,0:00:21.14,0:00:23.70,Hamilton,,0,0,0,fx,{\k90\fad(300,200)}{\rHamiltonS}♦ {\r}{\k18}I {\k18}have {\k43}been {\k15}loo{\k26}king {\k14}for {\k12}you
+Dialogue: 0,0:00:22.74,0:00:24.79,Burr,,0,0,0,fx,{\k90\fad(300,200)}{\rBurrS}● {\r}{\k18}I’m {\k12}get{\k20}ting {\k23}ner{\k22}vous
+Dialogue: 0,0:00:23.72,0:00:25.96,Hamilton,,0,0,0,fx,{\k90\fad(300,200)}{\rHamiltonS}♦ {\r}{\k38}Sir, {\k15}I {\k18}heard {\k18}your {\k25}name
+Dialogue: 0,0:00:24.86,0:00:27.33,Hamilton,,0,0,0,fx,{\k90\fad(300,200)}{\rHamiltonS}♦ {\r}{\k19}At {\k25}Prince{\k12}ton {\k18}I {\k22}was {\k23}see{\k18}king
+Dialogue: 0,0:00:26.23,0:00:29.26,Hamilton,,0,0,0,fx,{\k90\fad(300,200)}{\rHamiltonS}♦ {\r}{\k15}An {\k20}ac{\k18}ce{\k16}le{\k22}ra{\k14}ted {\k18}course {\k21}of {\k16}stu{\k33}dy
+Dialogue: 0,0:00:28.25,0:00:30.83,Hamilton,,0,0,0,fx,{\k90\fad(300,200)}{\rHamiltonS}♦ {\r}{\k8}When {\k9}I {\k18}got {\k14}sort {\k18}of {\k24}out {\k21}of {\k36}sorts
+Dialogue: 0,0:00:29.73,0:00:32.05,Hamilton,,0,0,0,fx,{\k90\fad(300,200)}{\rHamiltonS}♦ {\r}{\k12}With {\k12}a {\k14}bud{\k19}dy {\k22}of {\k43}yours
+Dialogue: 0,0:00:30.96,0:00:34.10,Hamilton,,0,0,0,fx,{\k90\fad(300,200)}{\rHamiltonS}♦ {\r}{\k13}I {\k15}may {\k18}have {\k22}punched {\k39}him {\k6}it’s {\k7}a {\k53}blur, {\k31}sir
+Dialogue: 0,0:00:33.15,0:00:35.74,Hamilton,,0,0,0,fx,{\k90\fad(300,200)}{\rHamiltonS}♦ {\r}{\k12}He {\k22}hand{\k19}les {\k17}the {\k23}fi{\k31}nan{\k25}cials?
+Dialogue: 0,0:00:34.72,0:00:36.95,Burr,,0,0,0,fx,{\k90\fad(300,200)}{\rBurrS}● {\r}{\k16}You {\k29}punched {\k15}the {\k22}bur{\k31}sar?
+Dialogue: 0,0:00:36.20,0:00:38.97,Hamilton,,0,0,0,fx,{\k90\fad(300,200)}{\rHamiltonS}♦ {\r}{\k47}Yes, {\k9}I {\k12}wan{\k13}ted {\k14}to {\k18}do {\k15}what {\k22}you {\k17}did
+Dialogue: 0,0:00:37.90,0:00:41.22,Hamilton,,0,0,0,fx,{\k90\fad(300,200)}{\rHamiltonS}♦ {\r}{\k22}Grad{\k15}u{\k18}ate {\k17}in {\k21}two, {\k20}then {\k25}join {\k14}the {\k17}rev{\k16}o{\k19}lu{\k18}tion
+Dialogue: 0,0:00:40.18,0:00:42.92,Hamilton,,0,0,0,fx,{\k90\fad(300,200)}{\rHamiltonS}♦ {\r}{\k14}He {\k21}looked {\k18}at {\k17}me {\k20}like {\k17}I {\k18}was {\k23}stu{\k16}pid
+Dialogue: 0,0:00:41.82,0:00:43.86,Hamilton,,0,0,0,fx,{\k90\fad(300,200)}{\rHamiltonS}♦ {\r}{\k19}I’m {\k32}not {\k19}stu{\k24}pid
+Dialogue: 0,0:00:43.06,0:00:44.98,Hamilton,,0,0,0,fx,{\k90\fad(300,200)}{\rHamiltonS}♦ {\r}{\k12}So {\k18}how’d {\k15}you {\k13}do {\k24}it?
+Dialogue: 0,0:00:44.11,0:00:46.61,Hamilton,,0,0,0,fx,{\k90\fad(300,200)}{\rHamiltonS}♦ {\r}{\k15}How’d {\k8}you {\k16}grad{\k13}u{\k17}ate {\k26}so {\k45}fast?
+Dialogue: 0,0:00:46.08,0:00:48.63,Burr,,0,0,0,fx,{\k90\fad(300,200)}{\rBurrS}● {\r}{\k10}It {\k15}was {\k22}my {\k21}pa{\k22}rent’s {\k22}dy{\k11}ing {\k22}wish
+Dialogue: 0,0:00:47.58,0:00:49.71,Burr,,0,0,0,fx,{\k90\fad(300,200)}{\rBurrS}● {\r}{\k14}Be{\k16}fore {\k19}they {\k54}passed
+Dialogue: 0,0:00:48.61,0:00:51.84,Hamilton,,0,0,0,fx,{\k90\fad(300,200)}{\rHamiltonS}♦ {\r}{\k10}You’re {\k10}an {\k23}or{\k41}phan, {\k14}of {\k58}course, {\k11}I’m {\k11}an {\k19}or{\k16}phan
+Dialogue: 0,0:00:50.74,0:00:53.22,Hamilton,,0,0,0,fx,{\k90\fad(300,200)}{\rHamiltonS}♦ {\r}{\k18}God, {\k17}I {\k21}wish {\k18}there {\k16}was {\k14}a {\k34}war
+Dialogue: 0,0:00:52.14,0:00:54.68,Hamilton,,0,0,0,fx,{\k90\fad(300,200)}{\rHamiltonS}♦ {\r}{\k10}Then {\k15}we {\k17}could {\k25}prove {\k12}that {\k20}we’re {\k23}worth {\k22}more
+Dialogue: 0,0:00:53.60,0:00:55.85,Hamilton,,0,0,0,fx,{\k90\fad(300,200)}{\rHamiltonS}♦ {\r}{\k8}Than {\k10}a{\k14}ny{\k15}one {\k23}bar{\k21}gained {\k24}for
+Dialogue: 0,0:00:55.32,0:00:57.60,Burr,,0,0,0,fx,{\k90\fad(300,200)}{\rBurrS}● {\r}{\k10}Can {\k18}I {\k20}buy {\k9}you {\k16}a {\k45}drink?
+Dialogue: 0,0:00:56.95,0:00:58.76,Hamilton,,0,0,0,fx,{\k90\fad(300,200)}{\rHamiltonS}♦ {\r}{\k14}That {\k16}would {\k14}be {\k27}nice
+Dialogue: 0,0:00:58.19,0:01:00.04,Burr,,0,0,0,fx,{\k90\fad(300,200)}{\rBurrS}● {\r}{\k14}While {\k17}we’re {\k27}tal{\k17}king
+Dialogue: 0,0:00:58.94,0:01:02.11,Burr,,0,0,0,fx,{\k90\fad(300,200)}{\rBurrS}● {\r}{\k20}Let {\k14}me {\k18}of{\k20}fer {\k20}you {\k21}some {\k23}free {\k10}ad{\k61}vice
+Dialogue: 0,0:01:01.60,0:01:04.06,Burr,,0,0,0,fx,{\k90\fad(300,200)}{\rBurrS}● {\r}{\k72}Talk {\k64}less
+Dialogue: 0,0:01:03.39,0:01:04.88,Hamilton,,0,0,0,fx,{\k90\fad(300,200)}{\rHamiltonS}♦ {\r}{\k39}What?
+Dialogue: 0,0:01:04.60,0:01:07.13,Burr,,0,0,0,fx,{\k90\fad(300,200)}{\rBurrS}● {\r}{\k83}Smile {\k68}more
+Dialogue: 0,0:01:06.42,0:01:07.89,Hamilton,,0,0,0,fx,{\k90\fad(300,200)}{\rHamiltonS}♦ {\r}{\k37}Ha
+Dialogue: 0,0:01:07.17,0:01:11.24,Burr,,0,0,0,fx,{\k90\fad(300,200)}{\rBurrS}● {\r}{\k31}Don’t {\k24}let {\k32}them {\k57}know {\k40}what {\k27}you’re {\k34}a{\k52}gainst
+Dialogue: 0,0:01:10.16,0:01:13.65,Burr,,0,0,0,fx,{\k90\fad(300,200)}{\rBurrS}● {\r}{\k20}Or {\k37}what {\k94}you’re {\k88}for
+Dialogue: 0,0:01:13.86,0:01:16.04,Hamilton,,0,0,0,fx,{\k90\fad(300,200)}{\rHamiltonS}♦ {\r}{\k6}You {\k20}can’t {\k12}be {\k24}ser{\k13}i{\k33}ous
+Dialogue: 0,0:01:15.64,0:01:18.61,Burr,,0,0,0,fx,{\k90\fad(300,200)}{\rBurrS}● {\r}{\k12}You {\k59}wan{\k18}na {\k15}get {\k17}a{\k66}head?
+Dialogue: 0,0:01:17.62,0:01:19.14,Hamilton,,0,0,0,fx,{\k90\fad(300,200)}{\rHamiltonS}♦ {\r}{\k42}Yes
+Dialogue: 0,0:01:18.75,0:01:22.19,Burr,,0,0,0,fx,{\k90\fad(300,200)}{\rBurrS}● {\r}{\k57}Fools {\k20}who {\k16}run {\k23}their {\k75}mouths {\k43}off
+Dialogue: 0,0:01:21.09,0:01:23.79,Burr,,0,0,0,fx,{\k90\fad(300,200)}{\rBurrS}● {\r}{\k61}Wind {\k52}up {\k47}dead
+Dialogue: 0,0:01:22.80,0:01:25.57,Laurens,,0,0,0,fx,{\k90\fad(300,200)}{\rLaurensS}♣ {\r}{\k15}A-{\k22}ya-{\k35}yow {\k19}ya-{\k38}yow-{\k38}yow
+Dialogue: 0,0:01:24.50,0:01:26.84,Laurens,,0,0,0,fx,{\k90\fad(300,200)}{\rLaurensS}♣ {\r}{\k32}What {\k41}time {\k20}is {\k31}it?
+Dialogue: 0,0:01:25.94,0:01:28.12,Group,,0,0,0,fx,{\k90\fad(300,200)} {\rLaurensS}♣ {\rLafayetteS}♥ {\rMulliganS}♠ {\r}{\k38}Show {\k70}time
+Dialogue: 0,0:01:27.16,0:01:30.80,Burr,,0,0,0,fx,{\k90\fad(300,200)}{\rBurrS}● {\r}{\k33}Like {\k63}I {\kf158}said
+Dialogue: 0,0:01:28.95,0:01:31.89,Laurens,,0,0,0,fx,{\k90\fad(300,200)}{\rLaurensS}♣ {\r}{\k38}Show {\k35}time, {\k37}show {\k35}time, {\k39}yo
+Dialogue: 0,0:01:30.40,0:01:31.90,Group_Sub,,0,0,0,fx,{\k90\fad(300,200)} {\rLafayetteS}♥ {\rMulliganS}♠ {\r}{\k40}Yah!
+Dialogue: 0,0:01:30.82,0:01:34.35,Laurens,,0,0,0,fx,{\k90\fad(300,200)}{\rLaurensS}♣ {\r}{\k37}I’m {\k36}John {\k24}Lau{\k17}ren’s {\k17}in {\k14}the {\k36}place {\k27}to {\k35}be
+Dialogue: 0,0:01:33.26,0:01:36.09,Laurens,,0,0,0,fx,{\k90\fad(300,200)}{\rLaurensS}♣ {\r}{\k16}A-{\k25}two {\k36}pints {\k18}of {\k27}Sam {\k23}A{\k28}dams
+Dialogue: 0,0:01:35.02,0:01:37.65,Laurens,,0,0,0,fx,{\k90\fad(300,200)}{\rLaurensS}♣ {\r}{\k7}But {\k15}I’m {\k19}wor{\k10}kin’ {\k31}on {\k71}three
+Dialogue: 0,0:01:36.24,0:01:38.11,Mulligan_Sub,,0,0,0,fx,{\k90\fad(300,200)}{\rMulliganS}♠ {\r}{\k39}Ha-{\k38}ha!
+Dialogue: 0,0:01:36.94,0:01:40.04,Laurens,,0,0,0,fx,{\k90\fad(300,200)}{\rLaurensS}♣ {\r}{\k15}Those {\k24}red{\k35}coats {\k36}don’t {\k26}want {\k9}it {\k29}with {\k26}me
+Dialogue: 0,0:01:39.01,0:01:41.69,Laurens,,0,0,0,fx,{\k90\fad(300,200)}{\rLaurensS}♣ {\r}{\k14}’Cause {\k19}I {\k13}will {\k36}pop {\k21}chick-{\k16}a {\k39}pop
+Dialogue: 0,0:01:39.83,0:01:41.65,Mulligan_Sub,,0,0,0,fx,{\k90\fad(300,200)}{\rMulliganS}♠ {\r}{\k72}Woah!
+Dialogue: 0,0:01:40.59,0:01:43.23,Laurens,,0,0,0,fx,{\k90\fad(300,200)}{\rLaurensS}♣ {\r}{\k23}These {\k32}cops {\k16}till {\k37}I’m {\k46}free
+Dialogue: 0,0:01:41.82,0:01:44.40,Lafayette,,0,0,0,fx,{\k90\fad(300,200)}{\rLafayetteS}♥ {\r}{\k21}Now, {\k27}oui, {\k34}oui, {\k16}mon {\k17}a{\k33}mi
+Dialogue: 0,0:01:43.30,0:01:45.78,Lafayette,,0,0,0,fx,{\k90\fad(300,200)}{\rLafayetteS}♥ {\r}{\k18}Je {\k15}m’ap{\k33}pelle {\k16}La{\k17}fa{\k39}yette
+Dialogue: 0,0:01:44.85,0:01:48.44,Lafayette,,0,0,0,fx,{\k90\fad(300,200)}{\rLafayetteS}♥ {\r}{\k13}The {\k24}Lan{\k22}ce{\k23}lot {\k15}of {\k18}the {\k15}rev{\k19}o{\k14}lu{\k17}tion{\k16}ar{\k17}y {\k36}set
+Dialogue: 0,0:01:47.57,0:01:51.22,Lafayette,,0,0,0,fx,{\k90\fad(300,200)}{\rLafayetteS}♥ {\r}{\k12}I {\k35}came {\k20}from {\k18}a{\k32}far {\k19}just {\k16}to {\k32}say {\k31}bon{\k61}soir
+Dialogue: 0,0:01:48.59,0:01:50.03,Mulligan_Sub,,0,0,0,fx,{\k90\fad(300,200)}{\rMulliganS}♠ {\r}{\k39}Ay!
+Dialogue: 0,0:01:49.81,0:01:51.31,Mulligan_Sub,,0,0,0,fx,{\k90\fad(300,200)}{\rMulliganS}♠ {\r}{\k24}Ha-{\k16}ha!
+Dialogue: 0,0:01:50.16,0:01:52.57,Lafayette,,0,0,0,fx,{\k90\fad(300,200)}{\rLafayetteS}♥ {\r}{\k15}Tell {\k18}the {\k35}king {\k11}cas{\k14}se-{\k38}toi
+Dialogue: 0,0:01:51.47,0:01:54.08,Lafayette,,0,0,0,fx,{\k90\fad(300,200)}{\rLafayetteS}♥ {\r}{\k7}Who {\k18}is {\k9}the {\k56}best, {\k19}c’est {\k42}moi
+Dialogue: 0,0:01:53.29,0:01:57.15,Mulligan,,0,0,0,fx,{\k90\fad(300,200)}{\rMulliganS}♠ {\r}{\k38}Brah, {\k73}brah, {\k21}I {\k15}am {\k21}Her{\k19}cu{\k33}les {\k21}Mul{\k17}li{\k18}gan
+Dialogue: 0,0:01:56.05,0:01:58.91,Mulligan,,0,0,0,fx,{\k90\fad(300,200)}{\rMulliganS}♠ {\r}{\k19}Up {\k22}in {\k17}it, {\k22}lo{\k19}vin’ {\k19}it, {\k15}yes {\k25}I {\k18}heard
+Dialogue: 0,0:01:57.81,0:02:00.50,Mulligan,,0,0,0,fx,{\k90\fad(300,200)}{\rMulliganS}♠ {\r}{\k23}Ya {\k19}mo{\k18}ther {\k20}said, {\k28}"Come {\k21}a{\k30}gain?"
+Dialogue: 0,0:01:59.45,0:02:01.46,Group_Sub,,0,0,0,fx,{\k90\fad(300,200)} {\rLaurensS}♣ {\rLafayetteS}♥ {\r}{\k91}Ayy
+Dialogue: 0,0:01:59.75,0:02:03.25,Mulligan,,0,0,0,fx,{\k90\fad(300,200)}{\rMulliganS}♠ {\r}{\k18}Lock {\k20}up {\k14}ya {\k18}daugh{\k16}ters {\k24}and {\k35}hor{\k42}ses, {\k18}of {\k35}course
+Dialogue: 0,0:02:02.15,0:02:04.75,Mulligan,,0,0,0,fx,{\k90\fad(300,200)}{\rMulliganS}♠ {\r}{\k16}It’s {\k25}hard {\k16}to {\k18}have {\k22}in{\k18}ter{\k35}course
+Dialogue: 0,0:02:03.66,0:02:06.89,Mulligan,,0,0,0,fx,{\k90\fad(300,200)}{\rMulliganS}♠ {\r}{\k22}O{\k16}ver {\k37}four {\k22}sets {\k24}of {\k39}cor{\k53}sets
+Dialogue: 0,0:02:05.58,0:02:07.15,Lafayette_Sub,,0,0,0,fx,{\k90\fad(300,200)}{\rLafayetteS}♥ {\r}{\k47}Wow
+Dialogue: 0,0:02:05.64,0:02:08.05,Laurens,,0,0,0,fx,{\k90\fad(300,200)}{\rLaurensS}♣ {\r}{\k41}Oh, {\k21}no {\k30}more {\k39}sex
+Dialogue: 0,0:02:06.95,0:02:09.77,Laurens,,0,0,0,fx,{\k90\fad(300,200)}{\rLaurensS}♣ {\r}{\k21}Pour {\k11}me {\k13}a{\k19}no{\k21}ther {\k51}brew, {\k36}son
+Dialogue: 0,0:02:08.67,0:02:11.08,Laurens,,0,0,0,fx,{\k90\fad(300,200)}{\rLaurensS}♣ {\r}{\k18}Let’s {\k23}raise {\k14}a {\k16}cou{\k24}ple {\k36}more
+Dialogue: 0,0:02:09.98,0:02:12.59,Group,,0,0,0,fx,{\k90\fad(300,200)} {\rLaurensS}♣ {\rMulliganS}♠ {\r}{\k13}To {\k18}the {\k18}re{\k20}vo{\k47}lu{\k35}tion
+Dialogue: 0,0:02:09.92,0:02:12.59,Lafayette_Sub,,0,0,0,fx,{\k90\fad(300,200)}{\rLafayetteS}♥ {\r}{\k19}C'il {\k18}y a {\k18}re{\k20}vo{\k47}lu{\k35}tion
+Dialogue: 0,0:02:11.64,0:02:14.09,Laurens,,0,0,0,fx,{\k90\fad(300,200)}{\rLaurensS}♣ {\r}{\k12}Well, {\k18}if {\k14}it {\k21}ain’t {\k15}the {\k25}pro{\k15}di{\k15}gy
+Dialogue: 0,0:02:12.99,0:02:15.10,Laurens,,0,0,0,fx,{\k90\fad(300,200)}{\rLaurensS}♣ {\r}{\k17}Of {\k22}Prince{\k17}ton {\k27}col{\k18}lege
+Dialogue: 0,0:02:14.30,0:02:16.50,Mulligan,,0,0,0,fx,{\k90\fad(300,200)}{\rMulliganS}♠ {\r}{\k25}Aa{\k30}ron {\k55}Burr
+Dialogue: 0,0:02:15.07,0:02:18.19,Laurens,,0,0,0,fx,{\k90\fad(300,200)}{\rLaurensS}♣ {\r}{\k13}Give {\k17}us {\k19}a {\k36}verse, {\k31}drop {\k21}some {\k27}know{\k38}ledge
+Dialogue: 0,0:02:17.86,0:02:20.97,Burr,,0,0,0,fx,{\k90\fad(300,200)}{\rBurrS}● {\r}{\k14}Good {\k21}luck {\k16}with {\k24}that, {\k15}you’re {\k27}ta{\k13}kin’ {\k24}a {\k47}stand
+Dialogue: 0,0:02:19.87,0:02:22.47,Burr,,0,0,0,fx,{\k90\fad(300,200)}{\rBurrS}● {\r}{\k34}You {\k39}spit, {\k22}Im{\k20}ma {\k35}sit
+Dialogue: 0,0:02:21.38,0:02:24.56,Burr,,0,0,0,fx,{\k90\fad(300,200)}{\rBurrS}● {\r}{\k25}We’ll {\k27}see {\k25}where {\k29}we {\k102}land
+Dialogue: 0,0:02:22.46,0:02:24.53,Group_Sub,,0,0,0,fx,{\k90\fad(300,200)}{\rLafayetteS}♥ {\rMulliganS}♠ {\r}{\k97}Boo
+Dialogue: 0,0:02:22.91,0:02:25.76,Laurens,,0,0,0,fx,{\k90\fad(300,200)}{\rLaurensS}♣ {\r}{\k21}Burr, {\k13}the {\k21}re{\k14}vo{\k18}lu{\k22}tion’s {\k21}im{\k13}mi{\k32}nent
+Dialogue: 0,0:02:24.72,0:02:27.24,Laurens,,0,0,0,fx,{\k90\fad(300,200)}{\rLaurensS}♣ {\r}{\k20}What {\k12}do {\k25}you {\k45}stall {\k40}for?
+Dialogue: 0,0:02:25.78,0:02:28.64,Hamilton,,0,0,0,fx,{\k90\fad(300,200)}{\rHamiltonS}♦ {\r}{\k24}If {\k29}you {\k38}stand {\k16}for {\k18}no{\k21}thing, {\k30}Burr
+Dialogue: 0,0:02:27.57,0:02:29.88,Hamilton,,0,0,0,fx,{\k90\fad(300,200)}{\rHamiltonS}♦ {\r}{\k13}What{\k19}’ll {\k19}you {\k38}fall {\k32}for?
+Dialogue: 0,0:02:29.16,0:02:31.65,Laurens,,0,0,0,fx,{\k90\fad(300,200)}{\rLaurensS}♣ {\r}{\k24}Ooh, {\k16}who {\k17}are {\k33}you? {\rMulliganS}♠ {\r}{\rMulligan}{\k16}Who {\k14}are {\k19}you?
+Dialogue: 0,0:02:30.65,0:02:32.69,Lafayette,,0,0,0,fx,{\k90\fad(300,200)}{\rLafayetteS}♥ {\r}{\k14}Who {\k24}are {\k56}you?
+Dialogue: 0,0:02:31.68,0:02:34.01,Group,,0,0,0,fx,{\k90\fad(300,200)} {\rLaurensS}♣ {\rLafayetteS}♥ {\rMulliganS}♠ {\r}{\k29}Ooh, {\k21}who {\k11}is {\k33}this {\k29}kid?
+Dialogue: 0,0:02:32.97,0:02:35.06,Group,,0,0,0,fx,{\k90\fad(300,200)} {\rLaurensS}♣ {\rLafayetteS}♥ {\rMulliganS}♠ {\r}{\k20}What’s {\k14}he {\k23}gon{\k9}na {\k33}do?
