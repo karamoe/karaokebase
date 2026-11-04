@@ -1,0 +1,128 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+LayoutResX: 1920
+LayoutResY: 1080
+Title: HEADSHOT
+Original Timing: Uwhipa
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:01.88,0:00:03.66,Sample KM [Choir],,0,0,0,karaoke,{\k44}Na-{\k23}na-{\k48}na-{\k22}na-{\k41}na
+Comment: 0,0:00:04.61,0:00:05.46,Sample KM [Choir],,0,0,0,karaoke,{\k12}Ted{\k36}dy{\k37}Loid
+Comment: 0,0:00:05.58,0:00:07.33,Sample KM [Choir],,0,0,0,karaoke,{\k43}Na-{\k24}na-{\k47}na-{\k23}na-{\k38}na
+Comment: 0,0:00:09.48,0:00:11.28,Sample KM [Up],,0,0,0,karaoke,{\k24}Tar{\k23}get {\k23}in {\k23}my {\k23}sight {\k35}to{\k29}night
+Comment: 0,0:00:11.33,0:00:13.30,Sample KM [Up],,0,0,0,karaoke,{\k23}La{\k22}sers {\k25}cut{\k23}ting {\k23}through {\k34}the {\k47}light
+Comment: 0,0:00:14.75,0:00:16.62,Sample KM [Up],,0,0,0,karaoke,{\k28}Pres{\k23}sure {\k23}ri{\k23}sing {\k23}o{\k21}ver{\k46}load
+Comment: 0,0:00:16.87,0:00:18.71,Sample KM [Up],,0,0,0,karaoke,{\k22}The {\k25}sta{\k22}tic {\k24}though {\k23}we're {\k32}a{\k36}part
+Comment: 0,0:00:18.71,0:00:20.49,Sample KM [Up],,0,0,0,karaoke,{\k24}Our {\k24}eyes {\k22}they {\k23}meet {\k23}through {\k35}the {\k27}dark
+Comment: 0,0:00:20.79,0:00:23.46,Sample KM [Up],,0,0,0,karaoke,{\k24}Feel {\k23}the {\k22}e{\k24}cho {\k23}of {\k22}the {\kf129}spark
+Comment: 0,0:00:23.79,0:00:26.38,Sample KM [Up],,0,0,0,karaoke,{\k24}So {\k45}lo-{\k47}lo-{\k23}locked {\k23}on{\k23}to {\k74}you
+Comment: 0,0:00:26.79,0:00:30.95,Sample KM [Up],,0,0,0,karaoke,{\k23}Moon{\k24}light {\k23}fal{\k23}ling {\kf139}in{\k23}to {\kf161}view
+Comment: 0,0:00:31.29,0:00:33.24,Sample KM [Up],,0,0,0,karaoke,{\k12}But {\k20}no{\k26}thing's {\k23}gon{\k11}na {\k22}break {\k25}my {\k34}fo{\k22}cus
+Comment: 0,0:00:33.24,0:00:36.93,Sample KM [Up],,0,0,0,karaoke,{\k25}Strike {\k23}your {\k23}heart, {\k22}I'll {\k46}leave {\k23}a {\kf207}mark
+Comment: 0,0:00:36.95,0:00:38.78,Sample KM [Choir],,0,0,0,karaoke,{\k46}Na-{\k23}na-{\k46}na-{\k23}na-{\k45}na
+Comment: 0,0:00:39.03,0:00:40.62,Sample KM [Up],,0,0,0,karaoke,{\k22}I'm {\k47}aimed {\k44}at {\k46}you
+Comment: 0,0:00:40.62,0:00:42.41,Sample KM [Choir],,0,0,0,karaoke,{\k48}Na-{\k23}na-{\k47}na-{\k22}na-{\k39}na
+Comment: 0,0:00:42.46,0:00:44.25,Sample KM [Up],,0,0,0,karaoke,{\k26}Hold {\k23}your {\k23}breath {\k23}and {\k22}take {\k24}the {\k38}shot
+Comment: 0,0:00:44.30,0:00:47.72,Sample KM [Up],,0,0,0,karaoke,{\k73}Ah-{\k69}ah-{\k49}ah-{\k67}ah-{\k84}ah
+Comment: 0,0:00:47.79,0:00:51.24,Sample KM [Choir],,0,0,0,karaoke,{\k13}Na-{\k11}na-{\k32}na-{\k38}na, {\k11}na-{\k11}na-{\k33}na-{\k37}na, {\k12}na-{\k11}na-{\kf136}na—
+Comment: 0,0:00:51.24,0:00:51.72,Sample KM [Up],,0,0,0,karaoke,{\k48}Now
+Comment: 0,0:00:57.04,0:00:59.09,Sample KM [Choir],,0,0,0,karaoke,{\k11}Na-{\k11}na-{\k34}na-{\k35}na, {\k12}na-{\k10}na-{\kf92}na—
+Comment: 0,0:01:02.56,0:01:04.65,Sample KM [Choir],,0,0,0,karaoke,{\k13}Na-{\k11}na-{\k35}na-{\k34}na, {\k12}na-{\k11}na-{\kf93}na—
+Comment: 0,0:01:06.72,0:01:08.55,Sample KM [Up],,0,0,0,karaoke,{\k24}Sha{\k23}dow {\k22}in {\k24}the {\k22}ne{\k28}on {\k40}haze
+Comment: 0,0:01:08.55,0:01:10.86,Sample KM [Up],,0,0,0,karaoke,{\k24}Sil{\k23}ver {\k24}li{\k24}ning {\k22}of {\k35}your {\k79}face
+Comment: 0,0:01:12.00,0:01:13.84,Sample KM [Up],,0,0,0,karaoke,{\k21}Vol{\k26}tage {\k26}ru{\k23}shing {\k23}o{\k19}ver{\k46}flow
+Comment: 0,0:01:14.10,0:01:15.91,Sample KM [Up],,0,0,0,karaoke,{\k23}{\i1}ma{\k24}da {\k23}shi{\k23}kai {\k23}no {\k36}zan{\k29}zou{\i0}
+Comment: 0,0:01:15.91,0:01:17.64,Sample KM [Up],,0,0,0,karaoke,{\k27}{\i1}ka{\k23}ta{\k23}ru {\k24}na {\k11}so{\k9}no {\k42}kan{\k14}jou{\i0}
+Comment: 0,0:01:17.78,0:01:19.17,Sample KM [Up],,0,0,0,karaoke,{\k14}{\i1}ko{\k11}shi{\k23}tan{\k22}tan {\k13}ka{\k12}ra {\k22}ran{\k22}tou{\i0}
+Comment: 0,0:01:19.41,0:01:20.93,Sample KM [Up],,0,0,0,karaoke,{\k14}{\i1}shi{\k19}sen {\k14}ga {\k7}mou {\k26}dan{\k36}dou {\k36}YEAH{\i0}
+Comment: 0,0:01:21.02,0:01:23.64,Sample KM [Up],,0,0,0,karaoke,{\k24}So {\k46}lo-{\k46}lo-{\k23}locked {\k23}on{\k24}to {\k76}you
+Comment: 0,0:01:23.95,0:01:28.13,Sample KM [Up],,0,0,0,karaoke,{\k31}Heart{\k29}beat's {\k20}ra{\k20}cing, {\kf116}what {\k23}do {\k23}I {\kf156}do?
+Comment: 0,0:01:28.52,0:01:30.47,Sample KM [Up],,0,0,0,karaoke,{\k12}But {\k22}no{\k23}thing's {\k24}gon{\k12}na {\k17}shake {\k29}my {\k33}fo{\k23}cus
+Comment: 0,0:01:30.47,0:01:34.13,Sample KM [Up],,0,0,0,karaoke,{\k25}Break {\k23}your {\k24}heart, {\k22}I'll {\k46}nе{\k23}ver {\kf203}stop
+Comment: 0,0:01:39.50,0:01:41.56,Sample KM [Choir],,0,0,0,karaoke,{\k12}Na-{\k10}na-{\k36}na-{\k34}na, {\k12}na-{\k11}na-{\kf91}na—
+Comment: 0,0:01:48.92,0:01:51.08,Sample KM [Up],,0,0,0,karaoke,{\k51}Eyes {\k24}fixed {\k46}in {\k23}thе {\k72}light
+Comment: 0,0:01:51.22,0:01:52.57,Sample KM [Up],,0,0,0,karaoke,{\k49}Per{\k46}fect {\k40}view
+Comment: 0,0:01:52.64,0:01:54.52,Sample KM [Up],,0,0,0,karaoke,{\k43}Eve{\k28}ry {\k50}step {\k20}to {\k47}you
+Comment: 0,0:01:54.71,0:01:56.38,Sample KM [Up],,0,0,0,karaoke,{\k21}A {\k28}game {\k19}I {\k29}can{\k21}not {\k49}lose
+Comment: 0,0:01:56.31,0:01:59.79,Sample KM [Up],,0,0,0,karaoke,{\k78}Ah-{\k67}ah-{\k46}ah-{\k70}ah-{\k87}ah
+Comment: 0,0:01:59.79,0:02:02.79,Sample KM [Up],,0,0,0,karaoke,{\k11}I {\k20}can {\k26}see {\k34}it, {\k14}can {\k13}you {\k39}feel {\k31}it? {\k12}It's {\k12}a {\k88}tie
+Comment: 0,0:02:03.72,0:02:05.56,Sample KM [Choir],,0,0,0,karaoke,{\k46}Na-{\k22}na-{\k47}na-{\k24}na-{\k45}na
+Comment: 0,0:02:07.41,0:02:09.24,Sample KM [Choir],,0,0,0,karaoke,{\k46}Na-{\k23}na-{\k46}na-{\k23}na-{\k45}na
+Comment: 0,0:02:11.06,0:02:12.94,Sample KM [Up],,0,0,0,karaoke,{\k28}Eve{\k22}ry {\k23}se{\k23}cond {\k24}pulls {\k15}me {\k32}clo{\k21}ser
+Comment: 0,0:02:12.94,0:02:18.02,Sample KM [Up],,0,0,0,karaoke,{\k24}Fi{\k24}nal {\k22}shot, {\k24}I'll {\k45}make {\k24}it {\kf345}count
+Comment: 0,0:02:18.02,0:02:18.49,Sample KM [Up],,0,0,0,karaoke,{\k47}Aw!
+Comment: 0,0:02:18.49,0:02:20.24,Sample KM [Choir],,0,0,0,karaoke,{\k45}Na-{\k23}na-{\k46}na-{\k24}na-{\k37}na
+Comment: 0,0:02:20.52,0:02:22.41,Sample KM [Up],,0,0,0,karaoke,{\k28}I'm {\k45}aimed {\k46}at {\k70}you!
+Comment: 0,0:02:22.18,0:02:23.90,Sample KM [Choir],,0,0,0,karaoke,{\k46}Na-{\k23}na-{\k46}na-{\k23}na-{\k34}na
+Comment: 0,0:02:23.78,0:02:26.25,Sample KM [Up],,0,0,0,karaoke,{\k23}So {\k28}hold {\k19}your {\k23}breath, {\k23}I'll {\k22}take {\k24}my {\k85}shot
+Comment: 0,0:02:25.84,0:02:29.25,Sample KM [Up],,0,0,0,karaoke,{\k73}Ah-{\k69}ah-{\k49}ah-{\k66}ah-{\k84}ah
+Comment: 0,0:02:29.33,0:02:32.79,Sample KM [Choir],,0,0,0,karaoke,{\k13}Na-{\k11}na-{\k32}na-{\k38}na, {\k11}na-{\k11}na-{\k33}na-{\k37}na, {\k12}na-{\k11}na-{\kf136}na—
+Comment: 0,0:02:32.79,0:02:33.25,Sample KM [Up],,0,0,0,karaoke,{\k46}Now
+Comment: 0,0:02:38.58,0:02:40.64,Sample KM [Choir],,0,0,0,karaoke,{\k11}Na-{\k11}na-{\k34}na-{\k35}na, {\k12}na-{\k10}na-{\kf93}na—
+Comment: 0,0:02:44.10,0:02:46.18,Sample KM [Choir],,0,0,0,karaoke,{\k11}Na-{\k11}na-{\k34}na-{\k35}na, {\k12}na-{\k10}na-{\kf95}na—
+Dialogue: 0,0:00:00.98,0:00:03.86,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Na-{\k23}na-{\k48}na-{\k22}na-{\k41}na
+Dialogue: 0,0:00:03.71,0:00:05.66,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Ted{\k36}dy{\k37}Loid
+Dialogue: 0,0:00:04.68,0:00:07.53,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Na-{\k24}na-{\k47}na-{\k23}na-{\k38}na
+Dialogue: 0,0:00:08.58,0:00:11.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Tar{\k23}get {\k23}in {\k23}my {\k23}sight {\k35}to{\k29}night
+Dialogue: 0,0:00:10.43,0:00:13.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}La{\k22}sers {\k25}cut{\k23}ting {\k23}through {\k34}the {\k47}light
+Dialogue: 0,0:00:13.85,0:00:16.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Pres{\k23}sure {\k23}ri{\k23}sing {\k23}o{\k21}ver{\k46}load
+Dialogue: 0,0:00:15.97,0:00:18.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}The {\k25}sta{\k22}tic {\k24}though {\k23}we're {\k32}a{\k36}part
+Dialogue: 0,0:00:17.81,0:00:20.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Our {\k24}eyes {\k22}they {\k23}meet {\k23}through {\k35}the {\k27}dark
+Dialogue: 0,0:00:19.89,0:00:23.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Feel {\k23}the {\k22}e{\k24}cho {\k23}of {\k22}the {\kf129}spark
+Dialogue: 0,0:00:22.89,0:00:26.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}So {\k45}lo-{\k47}lo-{\k23}locked {\k23}on{\k23}to {\k74}you
+Dialogue: 0,0:00:25.89,0:00:31.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Moon{\k24}light {\k23}fal{\k23}ling {\kf139}in{\k23}to {\kf161}view
+Dialogue: 0,0:00:30.39,0:00:33.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}But {\k20}no{\k26}thing's {\k23}gon{\k11}na {\k22}break {\k25}my {\k34}fo{\k22}cus
+Dialogue: 0,0:00:32.34,0:00:37.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Strike {\k23}your {\k23}heart, {\k22}I'll {\k46}leave {\k23}a {\kf207}mark
+Dialogue: 0,0:00:36.05,0:00:38.98,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Na-{\k23}na-{\k46}na-{\k23}na-{\k45}na
+Dialogue: 0,0:00:38.13,0:00:40.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}I'm {\k47}aimed {\k44}at {\k46}you
+Dialogue: 0,0:00:39.72,0:00:42.61,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Na-{\k23}na-{\k47}na-{\k22}na-{\k39}na
+Dialogue: 0,0:00:41.56,0:00:44.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Hold {\k23}your {\k23}breath {\k23}and {\k22}take {\k24}the {\k38}shot
+Dialogue: 0,0:00:43.40,0:00:47.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k73}Ah-{\k69}ah-{\k49}ah-{\k67}ah-{\k84}ah
+Dialogue: 0,0:00:46.89,0:00:51.44,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Na-{\k11}na-{\k32}na-{\k38}na, {\k11}na-{\k11}na-{\k33}na-{\k37}na, {\k12}na-{\k11}na-{\kf136}na—
+Dialogue: 0,0:00:50.34,0:00:51.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Now
+Dialogue: 0,0:00:56.14,0:00:59.29,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Na-{\k11}na-{\k34}na-{\k35}na, {\k12}na-{\k10}na-{\kf92}na—
+Dialogue: 0,0:01:01.66,0:01:04.85,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Na-{\k11}na-{\k35}na-{\k34}na, {\k12}na-{\k11}na-{\kf93}na—
+Dialogue: 0,0:01:05.82,0:01:08.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Sha{\k23}dow {\k22}in {\k24}the {\k22}ne{\k28}on {\k40}haze
+Dialogue: 0,0:01:07.65,0:01:11.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Sil{\k23}ver {\k24}li{\k24}ning {\k22}of {\k35}your {\k79}face
+Dialogue: 0,0:01:11.10,0:01:14.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Vol{\k26}tage {\k26}ru{\k23}shing {\k23}o{\k19}ver{\k46}flow
+Dialogue: 0,0:01:13.20,0:01:16.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}{\i1}ma{\k24}da {\k23}shi{\k23}kai {\k23}no {\k36}zan{\k29}zou{\i0}
+Dialogue: 0,0:01:15.01,0:01:17.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}{\i1}ka{\k23}ta{\k23}ru {\k24}na {\k11}so{\k9}no {\k42}kan{\k14}jou{\i0}
+Dialogue: 0,0:01:16.88,0:01:19.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}{\i1}ko{\k11}shi{\k23}tan{\k22}tan {\k13}ka{\k12}ra {\k22}ran{\k22}tou{\i0}
+Dialogue: 0,0:01:18.51,0:01:21.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}{\i1}shi{\k19}sen {\k14}ga {\k7}mou {\k26}dan{\k36}dou {\k36}YEAH{\i0}
+Dialogue: 0,0:01:20.12,0:01:23.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}So {\k46}lo-{\k46}lo-{\k23}locked {\k23}on{\k24}to {\k76}you
+Dialogue: 0,0:01:23.05,0:01:28.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Heart{\k29}beat's {\k20}ra{\k20}cing, {\kf116}what {\k23}do {\k23}I {\kf156}do?
+Dialogue: 0,0:01:27.62,0:01:30.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}But {\k22}no{\k23}thing's {\k24}gon{\k12}na {\k17}shake {\k29}my {\k33}fo{\k23}cus
+Dialogue: 0,0:01:29.57,0:01:34.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Break {\k23}your {\k24}heart, {\k22}I'll {\k46}nе{\k23}ver {\kf203}stop
+Dialogue: 0,0:01:38.60,0:01:41.76,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Na-{\k10}na-{\k36}na-{\k34}na, {\k12}na-{\k11}na-{\kf91}na—
+Dialogue: 0,0:01:48.02,0:01:51.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k51}Eyes {\k24}fixed {\k46}in {\k23}thе {\k72}light
+Dialogue: 0,0:01:50.32,0:01:52.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Per{\k46}fect {\k40}view
+Dialogue: 0,0:01:51.74,0:01:54.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Eve{\k28}ry {\k50}step {\k20}to {\k47}you
+Dialogue: 0,0:01:53.81,0:01:56.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}A {\k28}game {\k19}I {\k29}can{\k21}not {\k49}lose
+Dialogue: 0,0:01:55.41,0:01:59.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k78}Ah-{\k67}ah-{\k46}ah-{\k70}ah-{\k87}ah
+Dialogue: 0,0:01:58.89,0:02:02.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}I {\k20}can {\k26}see {\k34}it, {\k14}can {\k13}you {\k39}feel {\k31}it? {\k12}It's {\k12}a {\k88}tie
+Dialogue: 0,0:02:02.82,0:02:05.76,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Na-{\k22}na-{\k47}na-{\k24}na-{\k45}na
+Dialogue: 0,0:02:06.51,0:02:09.44,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Na-{\k23}na-{\k46}na-{\k23}na-{\k45}na
+Dialogue: 0,0:02:10.16,0:02:13.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Eve{\k22}ry {\k23}se{\k23}cond {\k24}pulls {\k15}me {\k32}clo{\k21}ser
+Dialogue: 0,0:02:12.04,0:02:18.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Fi{\k24}nal {\k22}shot, {\k24}I'll {\k45}make {\k24}it {\kf345}count
+Dialogue: 0,0:02:17.12,0:02:18.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Aw!
+Dialogue: 0,0:02:17.59,0:02:20.44,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Na-{\k23}na-{\k46}na-{\k24}na-{\k37}na
+Dialogue: 0,0:02:19.62,0:02:22.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}I'm {\k45}aimed {\k46}at {\k70}you!
+Dialogue: 0,0:02:21.28,0:02:24.10,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Na-{\k23}na-{\k46}na-{\k23}na-{\k34}na
+Dialogue: 0,0:02:22.88,0:02:26.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}So {\k28}hold {\k19}your {\k23}breath, {\k23}I'll {\k22}take {\k24}my {\k85}shot
+Dialogue: 0,0:02:24.94,0:02:29.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k73}Ah-{\k69}ah-{\k49}ah-{\k66}ah-{\k84}ah
+Dialogue: 0,0:02:28.43,0:02:32.99,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Na-{\k11}na-{\k32}na-{\k38}na, {\k11}na-{\k11}na-{\k33}na-{\k37}na, {\k12}na-{\k11}na-{\kf136}na—
+Dialogue: 0,0:02:31.89,0:02:33.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Now
+Dialogue: 0,0:02:37.68,0:02:40.84,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Na-{\k11}na-{\k34}na-{\k35}na, {\k12}na-{\k10}na-{\kf93}na—
+Dialogue: 0,0:02:43.20,0:02:46.38,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Na-{\k11}na-{\k34}na-{\k35}na, {\k12}na-{\k10}na-{\kf95}na—
