@@ -1,0 +1,103 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+LayoutResX: 1280
+LayoutResY: 720
+Title: SKYWARD BOUQUET
+Original Timing: Timmy Does
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Ripple,Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Zeal,Arial,24,&H00FFFFFF,&H005050E2,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: All,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Meteor,Arial,24,&H00FFFFFF,&H006CE692,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Legend,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,2,2,2,20,1
+Style: Multi,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Meteor Symbol,Arial,24,&H006CE692,&H006CE692,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Zeal Symbol,Arial,24,&H005050E2,&H005050E2,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Ripple Symbol,Arial,24,&H00FF843C,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,All,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,Multi,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,Meteor,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rMeteor Symbol}♣{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Zeal,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rZeal Symbol}♦{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Ripple,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rRipple Symbol}●{\\r\\fs\\4a&HFF&} "!
+Dialogue: 0,0:00:00.00,0:00:10.00,Legend,,0,0,0,legend,{\k1000}{\k0}ORCHERIA{\2cHFFFFFF} | {\rRipple}● Ripple {\2cHFFFFFF}| {\rZeal}♦ Zeal {\2cHFFFFFF}| {\rMeteor}♦ Meteor
+Comment: 0,0:00:17.35,0:00:22.35,Ripple,,0,0,0,karaoke,{\k22}ki{\k14}mi {\k80}wo {\k9}u{\k14}ta{\k36}ga{\k33}u {\k24}ko{\k37}to {\k35}na{\kf196}ku
+Comment: 0,0:00:22.71,0:00:24.79,Ripple,,0,0,0,karaoke,{\k22}ta{\k12}da {\k19}o{\k38}i{\k23}ka{\k24}te{\k23}te{\k47}ta
+Comment: 0,0:00:24.79,0:00:29.86,Zeal,,0,0,0,karaoke,{\k22}ko{\k17}no {\k75}te {\k14}ha{\k18}na{\k29}shi{\k37}te {\k20}shi{\k34}ma{\k37}e {\kf204}ba
+Comment: 0,0:00:30.15,0:00:32.24,Zeal,,0,0,0,karaoke,{\k21}na{\k24}ku{\k12}shi{\k34}te {\k25}shi{\k23}ma{\k23}u {\k47}to
+Comment: 0,0:00:32.24,0:00:37.12,Meteor,,0,0,0,karaoke,{\k23}wa{\k17}ke {\k76}wo {\k22}shin{\k38}jit{\k33}su {\k23}wa {\k34}do{\k40}ko {\kf182}ni
+Comment: 0,0:00:37.58,0:00:39.66,Meteor,,0,0,0,karaoke,{\k24}ko{\k22}ta{\k13}e {\k38}wo {\k19}sa{\k24}ga{\k23}shi{\k45}te
+Comment: 0,0:00:39.91,0:00:42.63,Multi,,0,0,0,karaoke,{\rRipple Symbol}● {\rZeal Symbol}♣ {\rMeteor Symbol}♠ {\k9}{\rRipple}to{\k16}do{\k58}ke {\rZeal}{\k10}to{\k13}do{\k70}ke {\rMeteor}{\k11}to{\k14}do{\k71}ke
+Comment: 0,0:00:42.69,0:00:46.42,All,,0,0,0,karaoke,{\k12}ko{\k12}ko{\k35}ro {\k35}ma{\kf279}de
+Comment: 0,0:00:46.84,0:00:50.34,All,,0,0,0,karaoke,{\k28}ki{\k23}re{\k23}i{\k22}go{\k12}to {\k35}da{\k24}t{\k73}te {\k7}tsu{\k13}ra{\k47}nu{\k43}ku
+Comment: 0,0:00:50.37,0:00:53.59,Multi,,0,0,0,karaoke,{\rRipple Symbol}● {\rZeal Symbol}♣ {\rMeteor Symbol}♠ {\k35\rRipple}yuu{\k33}ki {\k27}ga {\rZeal}{\k20}chi{\k11}ka{\k36}ra{\k25} ga {\rMeteor}{\k24}o{\k15}mo{\k29}i {\k67}ga
+Comment: 0,0:00:53.83,0:00:57.85,All,,0,0,0,karaoke,{\k12}ya{\k15}mi {\k31}wo {\k38}ha{\k23}ra{\k67}i {\k11}hi{\k14}ka{\k36}ri {\k35}ni {\k23}na{\kf97}ru
+Comment: 0,0:00:58.26,0:01:01.28,All,,0,0,0,karaoke,{\k72}DON'T{\k46} LOOK {\kf184}BACK
+Comment: 0,0:01:01.28,0:01:05.54,All,,0,0,0,karaoke,{\k13}ki{\k12}bo{\k22}u {\k13}wa {\k35}ho{\k24}ra {\k22}me {\k12}no {\k35}ma{\k69}e {\kf169}BELIEVE
+Comment: 0,0:01:06.19,0:01:10.55,All,,0,0,0,karaoke,{\k26}ma{\k21}n{\k22}te{\k24}n {\k71}no {\k24}ho{\k67}shi {\k23}ka{\k70}na{\k25}de{\k63}ru
+Comment: 0,0:01:10.85,0:01:14.50,All,,0,0,0,karaoke,{\k38}gen{\k32}sho {\k25}no {\k22}shi{\k22}ra{\k23}be {\k24}ga {\k35}no{\k35}ko{\k22}shi{\kf87}ta
+Comment: 0,0:01:14.72,0:01:18.27,Multi,,0,0,0,karaoke,{\rRipple Symbol}● {\rZeal Symbol}♣ {\rMeteor Symbol}♠ {\k17\rRipple}de{\k15}a{\k65}i {\rZeal}{\k14}wa{\k13}ka{\k56}re {\rMeteor}{\k21}ki{\k16}se{\k70}ki {\rAll}{\k10}su{\k13}be{\k45}te
+Comment: 0,0:01:18.27,0:01:20.71,All,,0,0,0,karaoke,{\k34}ya{\k38}ku{\k20}so{\k36}ku {\k36}ni {\k22}na{\k58}ru
+Comment: 0,0:01:21.06,0:01:25.40,All,,0,0,0,karaoke,{\k27}mi{\k21}chi{\k21}bi{\k26}ki {\k67}no {\k27}ka{\k70}ne {\k21}tsu{\k71}do{\k23}t{\k60}te
+Comment: 0,0:01:25.76,0:01:29.43,All,,0,0,0,karaoke,{\k19}tsu{\k13}na{\k35}ga{\k23}t{\k43}ta {\k27}ki{\k23}zu{\k21}na {\k17}ta{\kf146}chi
+Comment: 0,0:01:29.63,0:01:33.15,Multi,,0,0,0,karaoke,{\rRipple Symbol}● {\rZeal Symbol}♣ {\rMeteor Symbol}♠ {\k16\rRipple}hi{\k11}to{\k67}ri {\rZeal}{\k15}ja{\k12}na{\k65}i {\rMeteor}{\k16}yu{\k14}ko{\k67}u {\rAll}{\k11}to{\k14}mo {\k44}ni
+Comment: 0,0:01:33.44,0:01:36.88,All,,0,0,0,karaoke,{\k18}tsu{\k24}yo{\k23}ku {\k38}te {\k38}wo {\k18}tsu{\k35}na{\k35}i{\kf115}de
+Comment: 0,0:01:37.11,0:01:38.75,All,,0,0,0,karaoke,{\k22}tsu{\k29}ta{\k20}e{\k34}ru{\k35}n{\k24}da
+Comment: 0,0:01:38.75,0:01:41.48,Multi,,0,0,0,karaoke,{\rRipple Symbol}● {\rZeal Symbol}♣ {\rMeteor Symbol}♠ {\k22\rRipple}mu{\k12}ne {\k58}ni {\rZeal}{\k26}at{\k8}su{\k55}ku {\rMeteor}{\k30}ya{\k11}do{\k51}ru
+Comment: 0,0:01:41.53,0:01:46.39,All,,0,0,0,karaoke,{\k36}a{\k34}ri{\k23}ga{\k70}tou {\kf323}wo
+Comment: 0,0:02:01.89,0:02:06.22,All,,0,0,0,karaoke,{\k46}man{\k23}te{\k24}n {\k67}no {\k25}ho{\k70}shi {\k23}ka{\k70}na{\k23}de{\k62}ru
+Comment: 0,0:02:06.52,0:02:10.26,All,,0,0,0,karaoke,{\k17}wa{\k16}ta{\k39}shi{\k28}ta{\k19}chi {\k20}da{\k25}ke {\k24}no {\k34}SE{\k35}S{\k25}SI{\kf92}ON
+Comment: 0,0:02:10.47,0:02:13.88,Multi,,0,0,0,karaoke,{\rRipple Symbol}● {\rZeal Symbol}♣ {\rMeteor Symbol}♠ {\k12\rRipple}ki{\k13}mi {\k68}he {\rZeal}{\k16}sa{\k10}sa{\k70}gu {\rMeteor}{\k9}o{\k14}mo{\k67}i {\rAll}{\k13}ko{\k12}me{\k37}ta
+Comment: 0,0:02:13.98,0:02:16.37,All,,0,0,0,karaoke,{\k34}ta{\k35}ma{\k23}shi{\k35}i {\k36}no {\k22}u{\k54}ta
+Comment: 0,0:02:16.74,0:02:21.01,All,,0,0,0,karaoke,{\k29}mi{\k21}chi{\k20}bi{\k27}ki {\k68}no {\k25}ka{\k70}ne {\k22}tsu{\k69}do{\k24}t{\k52}te
+Comment: 0,0:02:21.42,0:02:25.08,All,,0,0,0,karaoke,{\k23}tsu{\k12}na{\k33}ga{\k26}t{\k41}ta {\k28}ki{\k23}zu{\k23}na {\k16}ta{\kf141}chi
+Comment: 0,0:02:25.36,0:02:28.88,Multi,,0,0,0,karaoke,{\rRipple Symbol}● {\rZeal Symbol}♣ {\rMeteor Symbol}♠ {\k12\rRipple}hi{\k14}to{\k69}ri {\rZeal}{\k10}ja{\k13}na{\k65}i {\rMeteor}{\k15}yu{\k12}ko{\k71}u {\rAll}{\k10}to{\k13}mo {\k48}ni
+Comment: 0,0:02:29.12,0:02:32.54,All,,0,0,0,karaoke,{\k18}tsu{\k26}yo{\k23}ku {\k35}te {\k37}wo {\k21}tsu{\k34}na{\k39}i{\kf109}de
+Comment: 0,0:02:32.87,0:02:34.45,All,,0,0,0,karaoke,{\k18}tsu{\k18}ta{\k28}e{\k34}a{\k60}u
+Comment: 0,0:02:34.45,0:02:37.80,Multi,,0,0,0,karaoke,{\rRipple Symbol}● {\rZeal Symbol}♣ {\rMeteor Symbol}♠ {\k19\rRipple}mu{\k12}ne {\k59}ni {\rZeal}{\k25}at{\k9}su{\k54}ku {\rMeteor}{\k33}ya{\k10}do{\kf114}ru
+Comment: 0,0:02:41.65,0:02:44.62,Multi,,0,0,0,karaoke,{\rRipple Symbol}● {\rZeal Symbol}♣ {\rMeteor Symbol}♠ {\k10\rRipple}yo{\k11}ro{\k22}ko{\k13}bi {\k53}to {\rZeal}{\k30}kei{\k68}i {\rMeteor}{\k23}so{\k13}shi{\k54}te
+Comment: 0,0:02:44.66,0:02:49.36,All,,0,0,0,karaoke,{\k35}a{\k34}ri{\k25}ga{\k68}tou {\kf308}wo
+Dialogue: 0,0:00:16.45,0:00:22.55,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\rRipple Symbol}●{\r\fs\4a&HFF&} {\k22}ki{\k14}mi {\k80}wo {\k9}u{\k14}ta{\k36}ga{\k33}u {\k24}ko{\k37}to {\k35}na{\kf196}ku
+Dialogue: 0,0:00:21.81,0:00:24.99,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\rRipple Symbol}●{\r\fs\4a&HFF&} {\k22}ta{\k12}da {\k19}o{\k38}i{\k23}ka{\k24}te{\k23}te{\k47}ta
+Dialogue: 0,0:00:23.89,0:00:30.06,Zeal,,0,0,0,fx,{\k90\fad(300,200)}{\rZeal Symbol}♦{\r\fs\4a&HFF&} {\k22}ko{\k17}no {\k75}te {\k14}ha{\k18}na{\k29}shi{\k37}te {\k20}shi{\k34}ma{\k37}e {\kf204}ba
+Dialogue: 0,0:00:29.25,0:00:32.44,Zeal,,0,0,0,fx,{\k90\fad(300,200)}{\rZeal Symbol}♦{\r\fs\4a&HFF&} {\k21}na{\k24}ku{\k12}shi{\k34}te {\k25}shi{\k23}ma{\k23}u {\k47}to
+Dialogue: 0,0:00:31.34,0:00:37.32,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\rMeteor Symbol}♣{\r\fs\4a&HFF&} {\k23}wa{\k17}ke {\k76}wo {\k22}shin{\k38}jit{\k33}su {\k23}wa {\k34}do{\k40}ko {\kf182}ni
+Dialogue: 0,0:00:36.68,0:00:39.86,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\rMeteor Symbol}♣{\r\fs\4a&HFF&} {\k24}ko{\k22}ta{\k13}e {\k38}wo {\k19}sa{\k24}ga{\k23}shi{\k45}te
+Dialogue: 0,0:00:39.01,0:00:42.83,Multi,,0,0,0,fx,{\k90\fad(300,200)}{\rRipple Symbol}● {\rZeal Symbol}♣ {\rMeteor Symbol}♠ {\k9}{\rRipple}to{\k16}do{\k58}ke {\rZeal}{\k10}to{\k13}do{\k70}ke {\rMeteor}{\k11}to{\k14}do{\k71}ke
+Dialogue: 0,0:00:41.79,0:00:46.62,All,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ko{\k12}ko{\k35}ro {\k35}ma{\kf279}de
+Dialogue: 0,0:00:45.94,0:00:50.54,All,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ki{\k23}re{\k23}i{\k22}go{\k12}to {\k35}da{\k24}t{\k73}te {\k7}tsu{\k13}ra{\k47}nu{\k43}ku
+Dialogue: 0,0:00:49.47,0:00:53.79,Multi,,0,0,0,fx,{\k90\fad(300,200)}{\rRipple Symbol}● {\rZeal Symbol}♣ {\rMeteor Symbol}♠ {\k35\rRipple}yuu{\k33}ki {\k27}ga {\rZeal}{\k20}chi{\k11}ka{\k36}ra{\k25} ga {\rMeteor}{\k24}o{\k15}mo{\k29}i {\k67}ga
+Dialogue: 0,0:00:52.93,0:00:58.05,All,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ya{\k15}mi {\k31}wo {\k38}ha{\k23}ra{\k67}i {\k11}hi{\k14}ka{\k36}ri {\k35}ni {\k23}na{\kf97}ru
+Dialogue: 0,0:00:57.36,0:01:01.48,All,,0,0,0,fx,{\k90\fad(300,200)}{\k72}DON'T{\k46} LOOK {\kf184}BACK
+Dialogue: 0,0:01:00.38,0:01:05.74,All,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ki{\k12}bo{\k22}u {\k13}wa {\k35}ho{\k24}ra {\k22}me {\k12}no {\k35}ma{\k69}e {\kf169}BELIEVE
+Dialogue: 0,0:01:05.29,0:01:10.75,All,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ma{\k21}n{\k22}te{\k24}n {\k71}no {\k24}ho{\k67}shi {\k23}ka{\k70}na{\k25}de{\k63}ru
+Dialogue: 0,0:01:09.95,0:01:14.70,All,,0,0,0,fx,{\k90\fad(300,200)}{\k38}gen{\k32}sho {\k25}no {\k22}shi{\k22}ra{\k23}be {\k24}ga {\k35}no{\k35}ko{\k22}shi{\kf87}ta
+Dialogue: 0,0:01:13.82,0:01:18.47,Multi,,0,0,0,fx,{\k90\fad(300,200)}{\rRipple Symbol}● {\rZeal Symbol}♣ {\rMeteor Symbol}♠ {\k17\rRipple}de{\k15}a{\k65}i {\rZeal}{\k14}wa{\k13}ka{\k56}re {\rMeteor}{\k21}ki{\k16}se{\k70}ki {\rAll}{\k10}su{\k13}be{\k45}te
+Dialogue: 0,0:01:17.37,0:01:20.91,All,,0,0,0,fx,{\k90\fad(300,200)}{\k34}ya{\k38}ku{\k20}so{\k36}ku {\k36}ni {\k22}na{\k58}ru
+Dialogue: 0,0:01:20.16,0:01:25.60,All,,0,0,0,fx,{\k90\fad(300,200)}{\k27}mi{\k21}chi{\k21}bi{\k26}ki {\k67}no {\k27}ka{\k70}ne {\k21}tsu{\k71}do{\k23}t{\k60}te
+Dialogue: 0,0:01:24.86,0:01:29.63,All,,0,0,0,fx,{\k90\fad(300,200)}{\k19}tsu{\k13}na{\k35}ga{\k23}t{\k43}ta {\k27}ki{\k23}zu{\k21}na {\k17}ta{\kf146}chi
+Dialogue: 0,0:01:28.73,0:01:33.35,Multi,,0,0,0,fx,{\k90\fad(300,200)}{\rRipple Symbol}● {\rZeal Symbol}♣ {\rMeteor Symbol}♠ {\k16\rRipple}hi{\k11}to{\k67}ri {\rZeal}{\k15}ja{\k12}na{\k65}i {\rMeteor}{\k16}yu{\k14}ko{\k67}u {\rAll}{\k11}to{\k14}mo {\k44}ni
+Dialogue: 0,0:01:32.54,0:01:37.08,All,,0,0,0,fx,{\k90\fad(300,200)}{\k18}tsu{\k24}yo{\k23}ku {\k38}te {\k38}wo {\k18}tsu{\k35}na{\k35}i{\kf115}de
+Dialogue: 0,0:01:36.21,0:01:38.95,All,,0,0,0,fx,{\k90\fad(300,200)}{\k22}tsu{\k29}ta{\k20}e{\k34}ru{\k35}n{\k24}da
+Dialogue: 0,0:01:37.85,0:01:41.68,Multi,,0,0,0,fx,{\k90\fad(300,200)}{\rRipple Symbol}● {\rZeal Symbol}♣ {\rMeteor Symbol}♠ {\k22\rRipple}mu{\k12}ne {\k58}ni {\rZeal}{\k26}at{\k8}su{\k55}ku {\rMeteor}{\k30}ya{\k11}do{\k51}ru
+Dialogue: 0,0:01:40.63,0:01:46.59,All,,0,0,0,fx,{\k90\fad(300,200)}{\k36}a{\k34}ri{\k23}ga{\k70}tou {\kf323}wo
+Dialogue: 0,0:02:00.99,0:02:06.42,All,,0,0,0,fx,{\k90\fad(300,200)}{\k46}man{\k23}te{\k24}n {\k67}no {\k25}ho{\k70}shi {\k23}ka{\k70}na{\k23}de{\k62}ru
+Dialogue: 0,0:02:05.62,0:02:10.46,All,,0,0,0,fx,{\k90\fad(300,200)}{\k17}wa{\k16}ta{\k39}shi{\k28}ta{\k19}chi {\k20}da{\k25}ke {\k24}no {\k34}SE{\k35}S{\k25}SI{\kf92}ON
+Dialogue: 0,0:02:09.57,0:02:14.08,Multi,,0,0,0,fx,{\k90\fad(300,200)}{\rRipple Symbol}● {\rZeal Symbol}♣ {\rMeteor Symbol}♠ {\k12\rRipple}ki{\k13}mi {\k68}he {\rZeal}{\k16}sa{\k10}sa{\k70}gu {\rMeteor}{\k9}o{\k14}mo{\k67}i {\rAll}{\k13}ko{\k12}me{\k37}ta
+Dialogue: 0,0:02:13.08,0:02:16.57,All,,0,0,0,fx,{\k90\fad(300,200)}{\k34}ta{\k35}ma{\k23}shi{\k35}i {\k36}no {\k22}u{\k54}ta
+Dialogue: 0,0:02:15.84,0:02:21.21,All,,0,0,0,fx,{\k90\fad(300,200)}{\k29}mi{\k21}chi{\k20}bi{\k27}ki {\k68}no {\k25}ka{\k70}ne {\k22}tsu{\k69}do{\k24}t{\k52}te
+Dialogue: 0,0:02:20.52,0:02:25.28,All,,0,0,0,fx,{\k90\fad(300,200)}{\k23}tsu{\k12}na{\k33}ga{\k26}t{\k41}ta {\k28}ki{\k23}zu{\k23}na {\k16}ta{\kf141}chi
+Dialogue: 0,0:02:24.46,0:02:29.08,Multi,,0,0,0,fx,{\k90\fad(300,200)}{\rRipple Symbol}● {\rZeal Symbol}♣ {\rMeteor Symbol}♠ {\k12\rRipple}hi{\k14}to{\k69}ri {\rZeal}{\k10}ja{\k13}na{\k65}i {\rMeteor}{\k15}yu{\k12}ko{\k71}u {\rAll}{\k10}to{\k13}mo {\k48}ni
+Dialogue: 0,0:02:28.22,0:02:32.74,All,,0,0,0,fx,{\k90\fad(300,200)}{\k18}tsu{\k26}yo{\k23}ku {\k35}te {\k37}wo {\k21}tsu{\k34}na{\k39}i{\kf109}de
+Dialogue: 0,0:02:31.97,0:02:34.65,All,,0,0,0,fx,{\k90\fad(300,200)}{\k18}tsu{\k18}ta{\k28}e{\k34}a{\k60}u
+Dialogue: 0,0:02:33.55,0:02:38.00,Multi,,0,0,0,fx,{\k90\fad(300,200)}{\rRipple Symbol}● {\rZeal Symbol}♣ {\rMeteor Symbol}♠ {\k19\rRipple}mu{\k12}ne {\k59}ni {\rZeal}{\k25}at{\k9}su{\k54}ku {\rMeteor}{\k33}ya{\k10}do{\kf114}ru
+Dialogue: 0,0:02:40.75,0:02:44.82,Multi,,0,0,0,fx,{\k90\fad(300,200)}{\rRipple Symbol}● {\rZeal Symbol}♣ {\rMeteor Symbol}♠ {\k10\rRipple}yo{\k11}ro{\k22}ko{\k13}bi {\k53}to {\rZeal}{\k30}kei{\k68}i {\rMeteor}{\k23}so{\k13}shi{\k54}te
+Dialogue: 0,0:02:43.76,0:02:49.56,All,,0,0,0,fx,{\k90\fad(300,200)}{\k35}a{\k34}ri{\k25}ga{\k68}tou {\kf308}wo
