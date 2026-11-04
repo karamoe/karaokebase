@@ -5,6 +5,8 @@ ScaledBorderAndShadow: yes
 PlayResX: 0
 PlayResY: 0
 YCbCr Matrix: TV.709
+LayoutResX: 0
+LayoutResY: 0
 Title: BUKUBU NEW STARS!!
 Original Timing: Variabels
 
@@ -27,7 +29,7 @@ Style: Yuta Symbol,Arial,24,&H00A0E552,&H00A0E552,&H00000000,&H00000000,-1,0,0,0
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Comment: 0,0:00:00.00,0:00:10.00,Sample KM [Up],,0,0,0,karaoke,{\k1000\k0}{\alignment(2)}{\k1000\k0}{\alignment(2)}ALL {\rDuo}Multiple Singers\N{\rRei Symbol}♣ {\rRei}Rei  {\rMao Symbol}♥ {\rMao}Mao  {\rKoga Symbol}♠ {\rKoga}Noel  {\rHinata Symbol}♦ {\rHinata}Flare  {\rYuta Symbol}♪ {\rYuta}Kanade
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Up],,0,0,0,guide,{\k1000\k0}{\alignment(2)}{\k1000\k0}{\alignment(2)}ALL {\rDuo}Multiple Singers\N{\rRei Symbol}♣ {\rRei}Rei  {\rMao Symbol}♥ {\rMao}Mao  {\rKoga Symbol}♠ {\rKoga}Koga  {\rHinata Symbol}♦ {\rHinata}Hinata  {\rYuta Symbol}♪ {\rYuta}Yuta
 Comment: 0,0:00:03.11,0:00:04.86,Koga,,0,0,0,karaoke,{\k0\rKoga Symbol}♠{\r} {\k24}yu{\k27}me {\k24}ga {\k23}ka{\k27}sa{\k29}na{\k21}ru
 Comment: 0,0:00:05.16,0:00:07.41,Koga,,0,0,0,karaoke,{\k0\rKoga Symbol}♠{\r} {\k24}u{\k26}ta {\k24}ga {\k29}u{\k23}ma{\k25}re{\k74}ru
 Comment: 0,0:00:07.70,0:00:11.54,Sample KM [Up],,0,0,0,karaoke,{\k26}a{\k25}ta{\k23}ra{\k39}shii {\k40}S{\k26}TA{\k26}~{\k25}GE {\kf154}he
@@ -67,7 +69,6 @@ Comment: 0,0:01:43.94,0:01:46.85,Koga,,0,0,0,karaoke,{\k0\rKoga Symbol}♠{\r} {
 Comment: 0,0:01:46.23,0:01:47.97,Sample KM [Up],,0,0,0,karaoke,{\k26}to{\k26}do{\k28}ke {\k36}EN{\k38}SEM{\k20}BLE
 Comment: 0,0:01:48.28,0:01:50.05,Sample KM [Up],,0,0,0,karaoke,{\k26}tsu{\k25}zu{\k28}i{\k37}te {\k38}i{\k23}ku
 Comment: 0,0:01:50.33,0:01:53.81,Sample KM [Up],,0,0,0,karaoke,{\k23}u{\k28}n{\k26}me{\k40}i {\k34}no {\k22}PH{\kf175}RASE
-Dialogue: 0,0:00:00.00,0:00:10.20,Sample KM [Up],,0,0,0,fx,{\k0\fad(0,200)}{\k1000\k0}{\alignment(2)}{\k1000\k0}{\alignment(2)}ALL {\rDuo}Multiple Singers\N{\rRei Symbol}♣ {\rRei}Rei  {\rMao Symbol}♥ {\rMao}Mao  {\rKoga Symbol}♠ {\rKoga}Noel  {\rHinata Symbol}♦ {\rHinata}Flare  {\rYuta Symbol}♪ {\rYuta}Kanade
 Dialogue: 0,0:00:02.21,0:00:05.06,Koga,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rKoga Symbol}♠{\r} {\k24}yu{\k27}me {\k24}ga {\k23}ka{\k27}sa{\k29}na{\k21}ru
 Dialogue: 0,0:00:04.26,0:00:07.61,Koga,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rKoga Symbol}♠{\r} {\k24}u{\k26}ta {\k24}ga {\k29}u{\k23}ma{\k25}re{\k74}ru
 Dialogue: 0,0:00:06.80,0:00:11.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}a{\k25}ta{\k23}ra{\k39}shii {\k40}S{\k26}TA{\k26}~{\k25}GE {\kf154}he
