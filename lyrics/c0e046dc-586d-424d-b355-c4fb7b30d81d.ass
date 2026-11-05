@@ -1,0 +1,147 @@
+﻿[Script Info]
+Title: Private Glitter
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+LayoutResX: 0
+LayoutResY: 0
+Original Timing: DaBi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sumika,Arial,24,&H0049D882,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: GakumasChoir,Arial,24,&H00FFFFFF,&H0049D882,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sumika,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:13.02,0:00:17.17,Sumika,,0,0,0,karaoke,{\k13}to{\k32}ki{\k36}mek' {\k27}sa{\k27}ga{\k27}shi{\k56}te {\k15}T{\k28}RE{\k25}N{\k14}D {\k27}no {\k29}sa{\k24}ki {\k35}he
+Comment: 0,0:00:17.38,0:00:21.47,Sumika,,0,0,0,karaoke,{\k16}DO {\k26}IT {\k67}NOW {\k27}da{\k28}i{\k29}ta{\k26}n {\k25}ni {\k15}ki{\k40}me{\k15}ru {\kf95}no
+Comment: 0,0:00:21.75,0:00:25.85,Sumika,,0,0,0,karaoke,{\k16}yu{\k26}bi{\k37}sak' {\k31}ki{\k26}ra{\k26}me{\k55}ku {\k15}ma{\k28}hou {\k39}wo {\k28}ka{\k28}ke{\k14}ta{\k41}ra
+Comment: 0,0:00:26.12,0:00:28.17,Sumika,,0,0,0,karaoke,{\k36}It's {\k44}all {\kf125}right
+Comment: 0,0:00:27.19,0:00:28.56,GakumasChoir,,0,0,0,karaoke,{\k36}It's {\k47}all {\k54}right
+Comment: 0,0:00:29.11,0:00:32.90,Sumika,,0,0,0,karaoke,{\k27}wa{\k26}ta{\k15}shi {\k41}da{\k28}ke {\k15}no {\k26}S{\k39}T{\k28}Y{\kf134}LE
+Comment: 0,0:00:31.30,0:00:34.66,GakumasChoir,,0,0,0,karaoke,{\k108}ha {\k109}ha {\k44}makes {\k39}me {\k36}smile
+Comment: 0,0:00:35.66,0:00:39.08,GakumasChoir,,0,0,0,karaoke,{\k107}ha {\k110}ha {\k41}feel {\k40}so {\k44}good
+Comment: 0,0:00:40.02,0:00:43.55,GakumasChoir,,0,0,0,karaoke,{\k109}ha {\k108}ha {\k43}find {\k39}my {\k54}thing
+Comment: 0,0:00:44.11,0:00:47.17,GakumasChoir,,0,0,0,karaoke,{\k82}bright {\k83}me {\kf141}up
+Comment: 0,0:00:49.01,0:00:52.41,Sumika,,0,0,0,karaoke,{\k28}SU{\k16}N{\k91}DAY {\k29}CUR{\k25}TAIN {\k30}wo {\k26}a{\k15}ke{\k80}te
+Comment: 0,0:00:53.11,0:00:56.37,Sumika,,0,0,0,karaoke,{\k27}LO{\k26}O{\k17}SE {\k93}ni {\k15}ko{\k12}na{\k15}shi{\k13}ta {\k29}MY {\k25}RO{\k15}U{\k39}TINE
+Comment: 0,0:00:56.65,0:01:00.82,Sumika,,0,0,0,karaoke,{\k26}ki{\k12}ki {\k98}na{\k28}re{\k27}ta {\k27}A{\k28}LAR{\k13}M {\k28}no {\k14}ME{\k27}LO{\k42}DY {\k47}mo
+Comment: 0,0:01:01.16,0:01:03.29,Sumika,,0,0,0,karaoke,{\k13}O{\k16}FF {\k12}MO{\k22}~{\k20}DE {\kf130}de
+Comment: 0,0:01:05.88,0:01:07.56,Sumika,,0,0,0,karaoke,{\k31}SWIPE {\k26}AND {\k28}TAP {\k16}de {\k12}sa{\k24}gash'{\k15}te {\k16}ru
+Comment: 0,0:01:08.11,0:01:09.90,Sumika,,0,0,0,karaoke,{\k26}FRESH {\k26}AND {\k27}FRE{\k12}SH {\k17}na {\k42}NEW {\k29}NAIL
+Comment: 0,0:01:10.01,0:01:10.99,Sumika,,0,0,0,karaoke,{\k28}Say {\k70}Yeah
+Comment: 0,0:01:11.38,0:01:11.99,GakumasChoir,,0,0,0,karaoke,{\k61}Yeah
+Comment: 0,0:01:12.18,0:01:13.11,Sumika,,0,0,0,karaoke,{\k28}Oh {\k65}Yeah
+Comment: 0,0:01:13.48,0:01:14.39,GakumasChoir,,0,0,0,karaoke,{\k91}Yeah
+Comment: 0,0:01:14.91,0:01:16.27,Sumika,,0,0,0,karaoke,{\k29}Tick {\k55}tack {\k27}tick {\k25}tack
+Comment: 0,0:01:16.45,0:01:19.06,Sumika,,0,0,0,karaoke,{\k12}ji{\k24}kan {\k17}wa{\k10}su{\k12}re{\k11}ru {\k7}ku{\k26}rai {\k12}ni {\k14}mu{\k17}chuu {\k14}de {\k11}i{\k42}tai {\k32}YEAH
+Comment: 0,0:01:19.29,0:01:20.61,Sumika,,0,0,0,karaoke,{\k28}New {\k50}kicks {\k31}New {\k23}bag
+Comment: 0,0:01:20.91,0:01:21.92,Sumika,,0,0,0,karaoke,{\k31}SAY {\k13}ma{\k13}da {\k13}ta{\k15}ri{\k16}nai
+Comment: 0,0:01:21.99,0:01:22.98,Sumika,,0,0,0,karaoke,{\k31}Catch {\k27}All {\k14}the {\k27}light
+Comment: 0,0:01:25.01,0:01:29.20,Sumika,,0,0,0,karaoke,{\k17}ka{\k27}ga{\k22}ya{\k17}i{\k27}ta {\k28}LI{\k28}NE {\k52}STONE {\k12}chi{\k29}i{\k25}sa{\k16}na {\k29}P{\k25}RI{\k28}S{\k37}M
+Comment: 0,0:01:29.38,0:01:33.45,Sumika,,0,0,0,karaoke,{\k18}so{\k23}n{\k66}na {\k30}su{\k27}be{\k26}te {\k28}ga {\k27}i{\k19}to{\k36}shi{\k15}i {\k92}no
+Comment: 0,0:01:33.73,0:01:37.79,Sumika,,0,0,0,karaoke,{\k16}ki{\k28}no{\k26}u {\k14}yo{\k25}ri {\k28}su{\k28}ko{\k41}shi {\k28}wa{\k25}ga{\k31}ma{\k11}ma {\k29}de {\k26}mo {\k15}i{\k35}i
+Comment: 0,0:01:38.11,0:01:40.41,Sumika,,0,0,0,karaoke,{\k40}It's {\k40}all {\kf150}right
+Comment: 0,0:01:39.19,0:01:40.54,GakumasChoir,,0,0,0,karaoke,{\k36}It's {\k47}all {\k54}right
+Comment: 0,0:01:41.10,0:01:43.00,Sumika,,0,0,0,karaoke,{\k28}a{\k27}ri{\k15}no{\k40}ma{\k26}ma {\k17}de {\k14}i{\k23}i
+Comment: 0,0:01:43.29,0:01:47.35,Sumika,,0,0,0,karaoke,{\k14}u{\k13}ma{\k26}ku {\k13}i{\k17}ka{\k26}nai {\k27}hi {\k42}dat{\k122}te {\k27}IT'S {\k20}O{\k59}KAY
+Comment: 0,0:01:47.65,0:01:51.72,Sumika,,0,0,0,karaoke,{\k27}nan{\k27}do{\k28}de{\k26}mo {\k27}ka{\k16}sa{\k28}ne{\k116}te {\k31}SHI{\k30}NING {\k14}SHI{\k37}NING
+Comment: 0,0:01:52.01,0:01:55.41,Sumika,,0,0,0,karaoke,{\k26}hi{\k29}ka{\k26}ri {\k55}ni {\k25}no{\k56}ba{\k29}shi{\k16}ta {\k26}te {\k52}wo
+Comment: 0,0:01:55.83,0:01:58.47,Sumika,,0,0,0,karaoke,{\k28}SO {\k25}shin{\k12}ji{\k19}ru {\k26}no {\k13}ne {\k12}he {\k19}mi{\k26}tsu{\k28}me{\k12}ta{\k44}ra
+Comment: 0,0:01:59.09,0:02:01.13,Sumika,,0,0,0,karaoke,{\k28}My {\k26}Pri{\k28}va{\k16}te {\k28}Glit{\k78}ter
+Comment: 0,0:02:09.74,0:02:13.12,Sumika,,0,0,0,karaoke,{\k26}WE{\k14}E{\k94}KEND {\k31}don{\k13}na {\k15}i{\k23}chi {\k29}ni{\k13}chi {\k80}mo
+Comment: 0,0:02:13.83,0:02:17.12,Sumika,,0,0,0,karaoke,{\k27}ji{\k26}bu{\k19}n {\k91}wo {\k19}ta{\k11}i{\k12}se{\k13}tsu {\k20}ni {\k8}su{\k27}gosh'{\k16}ta{\k40}i
+Comment: 0,0:02:17.37,0:02:21.64,Sumika,,0,0,0,karaoke,{\k27}na{\k17}ri{\k94}ta{\k27}i {\k27}wa{\k26}ta{\k29}shi {\k16}ni {\k25}na{\k13}re{\k26}ru {\k29}yo{\k17}u {\k54}ni
+Comment: 0,0:02:21.89,0:02:23.93,Sumika,,0,0,0,karaoke,{\k11}I{\k29}MA{\k27}GE {\k13}shi{\kf124}you
+Comment: 0,0:02:26.54,0:02:28.69,Sumika,,0,0,0,karaoke,{\k11}LI{\k27}QUI{\k13}D {\k15}no {\k13}na{\k32}ka {\k10}yu{\k17}re{\k9}ru {\k13}HO{\k15}LO{\k14}G{\k26}RAM
+Comment: 0,0:02:28.81,0:02:30.72,Sumika,,0,0,0,karaoke,{\k14}C{\k13}LE{\k15}AR {\k18}ni {\k10}tsu{\k8}ya{\k21}me{\k13}ku {\k15}IN {\k27}MY {\k37}EYES
+Comment: 0,0:02:30.87,0:02:32.73,Sumika,,0,0,0,karaoke,{\k15}hi{\k14}ka{\k12}ru {\k29}GLIT{\k17}TER {\k19}LIKE {\k16}A {\k44}STAR {\k20}LIGHT
+Comment: 0,0:02:32.92,0:02:34.90,Sumika,,0,0,0,karaoke,{\k25}chii{\k15}sa{\k12}na {\k30}CAN{\k14}VA{\k8}S {\k17}ni {\k15}ta{\k16}ku{\k13}su {\k11}P{\k9}RI{\k13}DE
+Comment: 0,0:02:35.37,0:02:37.30,Sumika,,0,0,0,karaoke,{\k16}KI{\k24}RA {\k15}KI{\k27}RA {\k11}chi{\k17}ri{\k12}ba{\k14}me{\k27}ta {\k15}LA{\k15}ME
+Comment: 0,0:02:37.56,0:02:39.53,Sumika,,0,0,0,karaoke,{\k14}ma{\k28}you {\k13}ji{\k28}kan {\k9}su{\k16}ra {\k11}ta{\k17}no{\k17}shi{\k11}mu {\k16}da{\k17}ke
+Comment: 0,0:02:39.61,0:02:41.46,Sumika,,0,0,0,karaoke,{\k13}wa{\k27}tash'{\k28}rash'{\k24}ku {\k31}JUST {\k27}TURN {\k12}IT {\k23}UP
+Comment: 0,0:02:44.91,0:02:45.79,Sumika,,0,0,0,karaoke,{\k25}So {\k27}It's {\k14}all {\k22}right
+Comment: 0,0:02:47.91,0:02:52.17,Sumika,,0,0,0,karaoke,{\k13}to{\k28}ki{\k40}mek' {\k27}sa{\k27}ga{\k30}shi{\k53}te {\k17}T{\k26}RE{\k25}N{\k14}D {\k29}no {\k27}sa{\k24}ki {\k46}he
+Comment: 0,0:02:52.30,0:02:56.17,Sumika,,0,0,0,karaoke,{\k16}DO {\k26}IT {\k67}NOW {\k27}da{\k28}i{\k29}ta{\k26}n {\k25}ni {\k15}ki{\k40}me{\k15}ru {\kf95}no
+Comment: 0,0:02:56.65,0:03:00.73,Sumika,,0,0,0,karaoke,{\k16}yu{\k26}bi{\k37}sak' {\k31}ki{\k26}ra{\k26}me{\k55}ku {\k15}ma{\k28}hou {\k39}wo {\k28}ka{\k28}ke{\k14}ta{\k41}ra
+Comment: 0,0:03:01.01,0:03:03.63,Sumika,,0,0,0,karaoke,{\k39}It's {\k45}all {\kf178}right
+Comment: 0,0:03:04.16,0:03:06.00,Sumika,,0,0,0,karaoke,{\k13}a{\k11}ri{\k16}no{\k23}ma{\k32}ma {\k26}de {\k18}i{\k45}i
+Comment: 0,0:03:07.55,0:03:11.95,Sumika,,0,0,0,karaoke,{\k17}ka{\k27}ga{\k22}ya{\k17}i{\k27}ta {\k28}LI{\k28}NE {\k52}STONE {\k12}chi{\k29}i{\k25}sa{\k16}na {\k29}P{\k25}RI{\k28}S{\k37}M
+Comment: 0,0:03:11.95,0:03:15.91,Sumika,,0,0,0,karaoke,{\k18}so{\k23}n{\k66}na {\k30}su{\k27}be{\k26}te {\k28}ga {\k27}i{\k14}to{\k39}shi{\k17}i {\k81}no
+Comment: 0,0:03:16.28,0:03:20.37,Sumika,,0,0,0,karaoke,{\k16}ki{\k28}no{\k26}u {\k14}yo{\k25}ri {\k28}su{\k28}ko{\k41}shi {\k28}wa{\k25}ga{\k31}ma{\k11}ma {\k29}de {\k26}mo {\k15}i{\k35}i
+Comment: 0,0:03:20.65,0:03:22.91,Sumika,,0,0,0,karaoke,{\k36}It's {\k44}all {\kf125}right
+Comment: 0,0:03:21.74,0:03:23.15,GakumasChoir,,0,0,0,karaoke,{\k36}It's {\k47}all {\k54}right
+Comment: 0,0:03:23.64,0:03:25.56,Sumika,,0,0,0,karaoke,{\k28}a{\k27}ri{\k15}no{\k40}ma{\k26}ma {\k17}de {\k14}i{\k23}i
+Comment: 0,0:03:25.85,0:03:29.91,Sumika,,0,0,0,karaoke,{\k13}u{\k14}ma{\k26}ku {\k13}i{\k14}ka{\k29}nai {\k27}hi {\k42}dat{\k122}te {\k27}IT'S {\k20}O{\k59}KAY
+Comment: 0,0:03:30.19,0:03:34.19,Sumika,,0,0,0,karaoke,{\k27}nan{\k27}do{\k28}de{\k26}mo {\k27}ka{\k16}sa{\k28}ne{\k120}te {\k27}SHI{\k30}NING {\k14}SHI{\k30}NING
+Comment: 0,0:03:34.57,0:03:38.11,Sumika,,0,0,0,karaoke,{\k26}a{\k29}shi{\k25}ta {\k55}ka{\k27}ra {\k56}no {\k27}wa{\k13}ta{\k29}shi {\k67}mo
+Comment: 0,0:03:38.39,0:03:41.11,Sumika,,0,0,0,karaoke,{\k27}sa {\k12}ma{\k16}e {\k23}ni {\k28}'kou {\k30}SO {\k15}su{\k25}su{\k26}n{\k11}de {\k59}'kou
+Comment: 0,0:03:41.65,0:03:43.98,Sumika,,0,0,0,karaoke,{\k28}My {\k26}Pri{\k28}va{\k16}te {\k28}Glit{\k78}ter
+Dialogue: 0,0:00:12.12,0:00:17.37,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k13}to{\k32}ki{\k36}mek' {\k27}sa{\k27}ga{\k27}shi{\k56}te {\k15}T{\k28}RE{\k25}N{\k14}D {\k27}no {\k29}sa{\k24}ki {\k35}he
+Dialogue: 0,0:00:16.48,0:00:21.67,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k16}DO {\k26}IT {\k67}NOW {\k27}da{\k28}i{\k29}ta{\k26}n {\k25}ni {\k15}ki{\k40}me{\k15}ru {\kf95}no
+Dialogue: 0,0:00:20.85,0:00:26.05,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k16}yu{\k26}bi{\k37}sak' {\k31}ki{\k26}ra{\k26}me{\k55}ku {\k15}ma{\k28}hou {\k39}wo {\k28}ka{\k28}ke{\k14}ta{\k41}ra
+Dialogue: 0,0:00:25.22,0:00:28.37,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k36}It's {\k44}all {\kf125}right
+Dialogue: 0,0:00:26.29,0:00:28.76,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k36}It's {\k47}all {\k54}right
+Dialogue: 0,0:00:28.21,0:00:33.10,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k27}wa{\k26}ta{\k15}shi {\k41}da{\k28}ke {\k15}no {\k26}S{\k39}T{\k28}Y{\kf134}LE
+Dialogue: 0,0:00:30.40,0:00:34.86,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k108}ha {\k109}ha {\k44}makes {\k39}me {\k36}smile
+Dialogue: 0,0:00:34.76,0:00:39.28,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k107}ha {\k110}ha {\k41}feel {\k40}so {\k44}good
+Dialogue: 0,0:00:39.12,0:00:43.75,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k109}ha {\k108}ha {\k43}find {\k39}my {\k54}thing
+Dialogue: 0,0:00:43.21,0:00:47.37,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k82}bright {\k83}me {\kf141}up
+Dialogue: 0,0:00:48.11,0:00:52.61,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k28}SU{\k16}N{\k91}DAY {\k29}CUR{\k25}TAIN {\k30}wo {\k26}a{\k15}ke{\k80}te
+Dialogue: 0,0:00:52.21,0:00:56.57,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k27}LO{\k26}O{\k17}SE {\k93}ni {\k15}ko{\k12}na{\k15}shi{\k13}ta {\k29}MY {\k25}RO{\k15}U{\k39}TINE
+Dialogue: 0,0:00:55.75,0:01:01.02,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ki{\k12}ki {\k98}na{\k28}re{\k27}ta {\k27}A{\k28}LAR{\k13}M {\k28}no {\k14}ME{\k27}LO{\k42}DY {\k47}mo
+Dialogue: 0,0:01:00.26,0:01:03.49,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k13}O{\k16}FF {\k12}MO{\k22}~{\k20}DE {\kf130}de
+Dialogue: 0,0:01:04.98,0:01:07.76,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k31}SWIPE {\k26}AND {\k28}TAP {\k16}de {\k12}sa{\k24}gash'{\k15}te {\k16}ru
+Dialogue: 0,0:01:07.21,0:01:10.10,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k26}FRESH {\k26}AND {\k27}FRE{\k12}SH {\k17}na {\k42}NEW {\k29}NAIL
+Dialogue: 0,0:01:09.11,0:01:11.19,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Say {\k70}Yeah
+Dialogue: 0,0:01:10.48,0:01:12.19,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k61}Yeah
+Dialogue: 0,0:01:11.28,0:01:13.31,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Oh {\k65}Yeah
+Dialogue: 0,0:01:12.58,0:01:14.59,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k91}Yeah
+Dialogue: 0,0:01:14.01,0:01:16.47,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Tick {\k55}tack {\k27}tick {\k25}tack
+Dialogue: 0,0:01:15.55,0:01:19.26,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ji{\k24}kan {\k17}wa{\k10}su{\k12}re{\k11}ru {\k7}ku{\k26}rai {\k12}ni {\k14}mu{\k17}chuu {\k14}de {\k11}i{\k42}tai {\k32}YEAH
+Dialogue: 0,0:01:18.39,0:01:20.81,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k28}New {\k50}kicks {\k31}New {\k23}bag
+Dialogue: 0,0:01:20.01,0:01:22.12,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k31}SAY {\k13}ma{\k13}da {\k13}ta{\k15}ri{\k16}nai
+Dialogue: 0,0:01:21.09,0:01:23.18,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Catch {\k27}All {\k14}the {\k27}light
+Dialogue: 0,0:01:24.11,0:01:29.40,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ka{\k27}ga{\k22}ya{\k17}i{\k27}ta {\k28}LI{\k28}NE {\k52}STONE {\k12}chi{\k29}i{\k25}sa{\k16}na {\k29}P{\k25}RI{\k28}S{\k37}M
+Dialogue: 0,0:01:28.48,0:01:33.65,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k18}so{\k23}n{\k66}na {\k30}su{\k27}be{\k26}te {\k28}ga {\k27}i{\k19}to{\k36}shi{\k15}i {\k92}no
+Dialogue: 0,0:01:32.83,0:01:37.99,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ki{\k28}no{\k26}u {\k14}yo{\k25}ri {\k28}su{\k28}ko{\k41}shi {\k28}wa{\k25}ga{\k31}ma{\k11}ma {\k29}de {\k26}mo {\k15}i{\k35}i
+Dialogue: 0,0:01:37.21,0:01:40.61,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k40}It's {\k40}all {\kf150}right
+Dialogue: 0,0:01:38.29,0:01:40.74,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k36}It's {\k47}all {\k54}right
+Dialogue: 0,0:01:40.20,0:01:43.20,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k28}a{\k27}ri{\k15}no{\k40}ma{\k26}ma {\k17}de {\k14}i{\k23}i
+Dialogue: 0,0:01:42.39,0:01:47.55,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k14}u{\k13}ma{\k26}ku {\k13}i{\k17}ka{\k26}nai {\k27}hi {\k42}dat{\k122}te {\k27}IT'S {\k20}O{\k59}KAY
+Dialogue: 0,0:01:46.75,0:01:51.92,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k27}nan{\k27}do{\k28}de{\k26}mo {\k27}ka{\k16}sa{\k28}ne{\k116}te {\k31}SHI{\k30}NING {\k14}SHI{\k37}NING
+Dialogue: 0,0:01:51.11,0:01:55.61,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k26}hi{\k29}ka{\k26}ri {\k55}ni {\k25}no{\k56}ba{\k29}shi{\k16}ta {\k26}te {\k52}wo
+Dialogue: 0,0:01:54.93,0:01:58.67,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k28}SO {\k25}shin{\k12}ji{\k19}ru {\k26}no {\k13}ne {\k12}he {\k19}mi{\k26}tsu{\k28}me{\k12}ta{\k44}ra
+Dialogue: 0,0:01:58.19,0:02:01.33,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k28}My {\k26}Pri{\k28}va{\k16}te {\k28}Glit{\k78}ter
+Dialogue: 0,0:02:08.84,0:02:13.32,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k26}WE{\k14}E{\k94}KEND {\k31}don{\k13}na {\k15}i{\k23}chi {\k29}ni{\k13}chi {\k80}mo
+Dialogue: 0,0:02:12.93,0:02:17.32,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ji{\k26}bu{\k19}n {\k91}wo {\k19}ta{\k11}i{\k12}se{\k13}tsu {\k20}ni {\k8}su{\k27}gosh'{\k16}ta{\k40}i
+Dialogue: 0,0:02:16.47,0:02:21.84,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k27}na{\k17}ri{\k94}ta{\k27}i {\k27}wa{\k26}ta{\k29}shi {\k16}ni {\k25}na{\k13}re{\k26}ru {\k29}yo{\k17}u {\k54}ni
+Dialogue: 0,0:02:20.99,0:02:24.13,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k11}I{\k29}MA{\k27}GE {\k13}shi{\kf124}you
+Dialogue: 0,0:02:25.64,0:02:28.89,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k11}LI{\k27}QUI{\k13}D {\k15}no {\k13}na{\k32}ka {\k10}yu{\k17}re{\k9}ru {\k13}HO{\k15}LO{\k14}G{\k26}RAM
+Dialogue: 0,0:02:27.91,0:02:30.92,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k14}C{\k13}LE{\k15}AR {\k18}ni {\k10}tsu{\k8}ya{\k21}me{\k13}ku {\k15}IN {\k27}MY {\k37}EYES
+Dialogue: 0,0:02:29.97,0:02:32.93,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k15}hi{\k14}ka{\k12}ru {\k29}GLIT{\k17}TER {\k19}LIKE {\k16}A {\k44}STAR {\k20}LIGHT
+Dialogue: 0,0:02:32.02,0:02:35.10,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k25}chii{\k15}sa{\k12}na {\k30}CAN{\k14}VA{\k8}S {\k17}ni {\k15}ta{\k16}ku{\k13}su {\k11}P{\k9}RI{\k13}DE
+Dialogue: 0,0:02:34.47,0:02:37.50,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k16}KI{\k24}RA {\k15}KI{\k27}RA {\k11}chi{\k17}ri{\k12}ba{\k14}me{\k27}ta {\k15}LA{\k15}ME
+Dialogue: 0,0:02:36.66,0:02:39.73,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ma{\k28}you {\k13}ji{\k28}kan {\k9}su{\k16}ra {\k11}ta{\k17}no{\k17}shi{\k11}mu {\k16}da{\k17}ke
+Dialogue: 0,0:02:38.71,0:02:41.66,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k13}wa{\k27}tash'{\k28}rash'{\k24}ku {\k31}JUST {\k27}TURN {\k12}IT {\k23}UP
+Dialogue: 0,0:02:44.01,0:02:45.99,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k25}So {\k27}It's {\k14}all {\k22}right
+Dialogue: 0,0:02:47.01,0:02:52.37,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k13}to{\k28}ki{\k40}mek' {\k27}sa{\k27}ga{\k30}shi{\k53}te {\k17}T{\k26}RE{\k25}N{\k14}D {\k29}no {\k27}sa{\k24}ki {\k46}he
+Dialogue: 0,0:02:51.40,0:02:56.37,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k16}DO {\k26}IT {\k67}NOW {\k27}da{\k28}i{\k29}ta{\k26}n {\k25}ni {\k15}ki{\k40}me{\k15}ru {\kf95}no
+Dialogue: 0,0:02:55.75,0:03:00.93,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k16}yu{\k26}bi{\k37}sak' {\k31}ki{\k26}ra{\k26}me{\k55}ku {\k15}ma{\k28}hou {\k39}wo {\k28}ka{\k28}ke{\k14}ta{\k41}ra
+Dialogue: 0,0:03:00.11,0:03:03.83,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k39}It's {\k45}all {\kf178}right
+Dialogue: 0,0:03:03.26,0:03:06.20,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k13}a{\k11}ri{\k16}no{\k23}ma{\k32}ma {\k26}de {\k18}i{\k45}i
+Dialogue: 0,0:03:06.65,0:03:12.15,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ka{\k27}ga{\k22}ya{\k17}i{\k27}ta {\k28}LI{\k28}NE {\k52}STONE {\k12}chi{\k29}i{\k25}sa{\k16}na {\k29}P{\k25}RI{\k28}S{\k37}M
+Dialogue: 0,0:03:11.05,0:03:16.11,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k18}so{\k23}n{\k66}na {\k30}su{\k27}be{\k26}te {\k28}ga {\k27}i{\k14}to{\k39}shi{\k17}i {\k81}no
+Dialogue: 0,0:03:15.38,0:03:20.57,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ki{\k28}no{\k26}u {\k14}yo{\k25}ri {\k28}su{\k28}ko{\k41}shi {\k28}wa{\k25}ga{\k31}ma{\k11}ma {\k29}de {\k26}mo {\k15}i{\k35}i
+Dialogue: 0,0:03:19.75,0:03:23.11,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k36}It's {\k44}all {\kf125}right
+Dialogue: 0,0:03:20.84,0:03:23.35,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k36}It's {\k47}all {\k54}right
+Dialogue: 0,0:03:22.74,0:03:25.76,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k28}a{\k27}ri{\k15}no{\k40}ma{\k26}ma {\k17}de {\k14}i{\k23}i
+Dialogue: 0,0:03:24.95,0:03:30.11,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k13}u{\k14}ma{\k26}ku {\k13}i{\k14}ka{\k29}nai {\k27}hi {\k42}dat{\k122}te {\k27}IT'S {\k20}O{\k59}KAY
+Dialogue: 0,0:03:29.29,0:03:34.39,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k27}nan{\k27}do{\k28}de{\k26}mo {\k27}ka{\k16}sa{\k28}ne{\k120}te {\k27}SHI{\k30}NING {\k14}SHI{\k30}NING
+Dialogue: 0,0:03:33.67,0:03:38.31,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k26}a{\k29}shi{\k25}ta {\k55}ka{\k27}ra {\k56}no {\k27}wa{\k13}ta{\k29}shi {\k67}mo
+Dialogue: 0,0:03:37.49,0:03:41.31,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k27}sa {\k12}ma{\k16}e {\k23}ni {\k28}'kou {\k30}SO {\k15}su{\k25}su{\k26}n{\k11}de {\k59}'kou
+Dialogue: 0,0:03:40.75,0:03:44.18,Sumika,,0,0,0,fx,{\k90\fad(300,200)}{\k28}My {\k26}Pri{\k28}va{\k16}te {\k28}Glit{\k78}ter
