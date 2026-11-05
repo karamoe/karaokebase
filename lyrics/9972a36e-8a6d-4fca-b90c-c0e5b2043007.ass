@@ -1,0 +1,77 @@
+﻿[Script Info]
+Title: Sweet Pea (ED Ver)
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+LayoutResX: 0
+LayoutResY: 0
+Original Timing: IvannAkiyama
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Mona,Arial,24,&H00FFFFFF,&H00D270EF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Miu,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Rinka,Arial,24,&H00FFFFFF,&H00BA0BB5,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Moka,Arial,24,&H00FFFFFF,&H00E0A54C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Phantom Siita,Arial,24,&H00FFFFFF,&H000000DB,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mona Choir,Arial,24,&H00FFFFFF,&H00D270EF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Moka Choir,Arial,24,&H00FFFFFF,&H00E0A54C,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Phantom Siita,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.56,0:00:04.25,Mona,,0,0,0,karaoke,{\k44}a{\k82}fu{\k38}re{\k83}te {\k43}i{\k79}ku
+Comment: 0,0:00:03.86,0:00:10.31,Moka,,0,0,0,karaoke,{\k43}mu{\k41}ne {\k46}no {\k37}zu{\k41}t{\k82}to {\k44}o{\k76}ku {\k49}no {\kf122}hou {\k64}de
+Comment: 0,0:00:05.16,0:00:10.31,Mona,,0,0,0,karaoke,{\k37}zu{\k41}t{\k82}to {\k44}o{\k76}ku {\k49}no {\kf122}hou {\k64}de
+Comment: 0,0:00:10.46,0:00:14.19,Mona,,0,0,0,karaoke,{\k47}na{\k82}ri{\k42}ya{\k80}ma{\k46}na{\k76}i
+Comment: 0,0:00:11.25,0:00:15.82,Miu,,0,0,0,karaoke,{\k50}na{\k42}ri{\k80}ya{\k44}ma{\k42}nai {\k40}o{\k42}mo{\k39}i{\k42}de {\k36}ga
+Comment: 0,0:00:15.88,0:00:19.43,Miu,,0,0,0,karaoke,{\k40}bo{\k42}ku {\k41}wo {\k45}ha{\k41}na{\k36}shi{\kf110}te
+Comment: 0,0:00:15.88,0:00:19.43,Rinka,,0,0,0,karaoke,{\k40}bo{\k42}ku {\k41}wo {\k45}ha{\k41}na{\k36}shi{\kf110}te
+Comment: 0,0:00:19.97,0:00:21.63,Mona,,0,0,0,karaoke,{\k44}ku{\k45}re{\k77}nai
+Comment: 0,0:00:29.96,0:00:34.08,Miu,,0,0,0,karaoke,{\k41}tsu{\k40}me{\k37}tai {\k47}a{\k38}me {\k64}shi{\k17}no{\k23}i{\k21}de {\k37}i{\k47}ku
+Comment: 0,0:00:34.89,0:00:39.46,Miu,,0,0,0,karaoke,{\k47}ki{\k40}mi {\k39}ni {\k41}mo{\k40}rat{\k65}ta {\k20}ka{\k20}sa {\k21}wo {\k38}sa{\k43}shi{\k43}te
+Comment: 0,0:00:39.40,0:00:42.54,Moka,,0,0,0,karaoke,{\k48}dou {\k42}sh'you {\k41}mo {\k81}nai {\k41}ko{\k61}to
+Comment: 0,0:00:42.73,0:00:46.18,Moka,,0,0,0,karaoke,{\k45}ba{\k84}ka{\k41}ri {\k40}no {\k39}se{\k45}kai {\k51}de
+Comment: 0,0:00:46.50,0:00:50.07,Moka,,0,0,0,karaoke,{\k42}i{\k41}ma {\k18}mo {\k22}wa{\k40}rat{\k88}te{\k39}ru {\k67}no
+Comment: 0,0:00:51.38,0:00:54.69,Rinka,,0,0,0,karaoke,{\k48}a{\k82}fu{\k45}re{\k82}te {\k41}i{\k33}ku
+Comment: 0,0:00:51.38,0:00:54.69,Mona Choir,,0,0,0,karaoke,{\k48}a{\k82}fu{\k45}re{\k82}te {\k41}i{\k33}ku
+Comment: 0,0:00:54.77,0:01:01.24,Rinka,,0,0,0,karaoke,{\k43}mu{\k41}ne {\k42}no {\k42}zu{\k38}t{\k83}to {\k43}o{\k82}ku {\k42}no {\kf126}hou {\k65}de
+Comment: 0,0:00:54.77,0:01:01.24,Mona Choir,,0,0,0,karaoke,{\k43}mu{\k41}ne {\k42}no {\k42}zu{\k38}t{\k83}to {\k43}o{\k82}ku {\k42}no {\kf126}hou {\k65}de
+Comment: 0,0:01:01.38,0:01:04.53,Miu,,0,0,0,karaoke,{\k46}na{\k81}ri{\k43}ya{\k81}ma{\k42}na{\k22}i
+Comment: 0,0:01:02.18,0:01:05.12,Moka Choir,,0,0,0,karaoke,{\k47}na{\k43}ri{\k40}ya{\k41}ma{\k42}na{\k81}i
+Comment: 0,0:01:04.71,0:01:13.40,Miu,,0,0,0,karaoke,{\k43}o{\k39}mo{\k45}i{\k39}de {\k43}ga {\k40}bo{\k41}ku {\k42}wo {\k42}ha{\k39}nash'{\k32}te {\k11}ku{\kf225}re{\k28}{\kf160}nai
+Comment: 0,0:01:05.59,0:01:13.40,Moka Choir,,0,0,0,karaoke,{\k38}dou {\k19}shi{\k40}te {\k24}ga {\k40}bo{\k41}ku {\k42}wo {\k42}ha{\k39}nash'{\k32}te {\k11}ku{\kf225}re{\k28}{\kf160}nai
+Comment: 0,0:01:11.56,0:01:17.91,Mona,,0,0,0,karaoke,{\k21}ki{\k40}mi {\k42}ni {\k43}mo {\k41}o{\k42}na{\k40}ji {\kf125}sen{\k107}ri{\k16}tsu {\kf118}ga
+Comment: 0,0:01:16.71,0:01:22.74,Rinka,,0,0,0,karaoke,{\k45}hi{\k39}bi{\k43}ki {\k40}tsu{\k41}zu{\k42}ke{\kf353}te
+Comment: 0,0:01:16.71,0:01:22.74,Moka Choir,,0,0,0,karaoke,{\k45}hi{\k39}bi{\k43}ki {\k40}tsu{\k41}zu{\k42}ke{\kf353}te
+Comment: 0,0:01:21.65,0:01:24.39,Mona,,0,0,0,karaoke,{\k44}to{\k39}o{\k45}ku {\k38}ni {\k43}i{\k43}te {\k22}mo
+Comment: 0,0:01:24.57,0:01:28.53,Phantom Siita,,0,0,0,karaoke,{\k42}i{\k42}ro{\k41}zu{\k41}ku {\k43}S{\k99}WEE{\k24}T {\k64}PEA
+Dialogue: 0,0:00:00.00,0:00:04.45,Mona,,0,0,0,fx,{\k56\fad(560,200)}{\k44}a{\k82}fu{\k38}re{\k83}te {\k43}i{\k79}ku
+Dialogue: 0,0:00:02.96,0:00:10.51,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k43}mu{\k41}ne {\k46}no {\k37}zu{\k41}t{\k82}to {\k44}o{\k76}ku {\k49}no {\kf122}hou {\k64}de
+Dialogue: 0,0:00:04.26,0:00:10.51,Mona,,0,0,0,fx,{\k90\fad(300,200)}{\k37}zu{\k41}t{\k82}to {\k44}o{\k76}ku {\k49}no {\kf122}hou {\k64}de
+Dialogue: 0,0:00:09.56,0:00:14.39,Mona,,0,0,0,fx,{\k90\fad(300,200)}{\k47}na{\k82}ri{\k42}ya{\k80}ma{\k46}na{\k76}i
+Dialogue: 0,0:00:10.35,0:00:16.02,Miu,,0,0,0,fx,{\k90\fad(300,200)}{\k50}na{\k42}ri{\k80}ya{\k44}ma{\k42}nai {\k40}o{\k42}mo{\k39}i{\k42}de {\k36}ga
+Dialogue: 0,0:00:14.98,0:00:19.63,Miu,,0,0,0,fx,{\k90\fad(300,200)}{\k40}bo{\k42}ku {\k41}wo {\k45}ha{\k41}na{\k36}shi{\kf110}te
+Dialogue: 0,0:00:14.98,0:00:19.63,Rinka,,0,0,0,fx,{\k90\fad(300,200)}{\k40}bo{\k42}ku {\k41}wo {\k45}ha{\k41}na{\k36}shi{\kf110}te
+Dialogue: 0,0:00:19.07,0:00:21.83,Mona,,0,0,0,fx,{\k90\fad(300,200)}{\k44}ku{\k45}re{\k77}nai
+Dialogue: 0,0:00:29.06,0:00:34.28,Miu,,0,0,0,fx,{\k90\fad(300,200)}{\k41}tsu{\k40}me{\k37}tai {\k47}a{\k38}me {\k64}shi{\k17}no{\k23}i{\k21}de {\k37}i{\k47}ku
+Dialogue: 0,0:00:33.99,0:00:39.66,Miu,,0,0,0,fx,{\k90\fad(300,200)}{\k47}ki{\k40}mi {\k39}ni {\k41}mo{\k40}rat{\k65}ta {\k20}ka{\k20}sa {\k21}wo {\k38}sa{\k43}shi{\k43}te
+Dialogue: 0,0:00:38.50,0:00:42.74,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k48}dou {\k42}sh'you {\k41}mo {\k81}nai {\k41}ko{\k61}to
+Dialogue: 0,0:00:41.83,0:00:46.38,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k45}ba{\k84}ka{\k41}ri {\k40}no {\k39}se{\k45}kai {\k51}de
+Dialogue: 0,0:00:45.60,0:00:50.27,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k42}i{\k41}ma {\k18}mo {\k22}wa{\k40}rat{\k88}te{\k39}ru {\k67}no
+Dialogue: 0,0:00:50.48,0:00:54.89,Rinka,,0,0,0,fx,{\k90\fad(300,200)}{\k48}a{\k82}fu{\k45}re{\k82}te {\k41}i{\k33}ku
+Dialogue: 0,0:00:50.48,0:00:54.89,Mona Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k48}a{\k82}fu{\k45}re{\k82}te {\k41}i{\k33}ku
+Dialogue: 0,0:00:53.87,0:01:01.44,Rinka,,0,0,0,fx,{\k90\fad(300,200)}{\k43}mu{\k41}ne {\k42}no {\k42}zu{\k38}t{\k83}to {\k43}o{\k82}ku {\k42}no {\kf126}hou {\k65}de
+Dialogue: 0,0:00:53.87,0:01:01.44,Mona Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k43}mu{\k41}ne {\k42}no {\k42}zu{\k38}t{\k83}to {\k43}o{\k82}ku {\k42}no {\kf126}hou {\k65}de
+Dialogue: 0,0:01:00.48,0:01:04.73,Miu,,0,0,0,fx,{\k90\fad(300,200)}{\k46}na{\k81}ri{\k43}ya{\k81}ma{\k42}na{\k22}i
+Dialogue: 0,0:01:01.28,0:01:05.32,Moka Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k47}na{\k43}ri{\k40}ya{\k41}ma{\k42}na{\k81}i
+Dialogue: 0,0:01:03.81,0:01:13.60,Miu,,0,0,0,fx,{\k90\fad(300,200)}{\k43}o{\k39}mo{\k45}i{\k39}de {\k43}ga {\k40}bo{\k41}ku {\k42}wo {\k42}ha{\k39}nash'{\k32}te {\k11}ku{\kf225}re{\k28}{\kf160}nai
+Dialogue: 0,0:01:04.69,0:01:13.60,Moka Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k38}dou {\k19}shi{\k40}te {\k24}ga {\k40}bo{\k41}ku {\k42}wo {\k42}ha{\k39}nash'{\k32}te {\k11}ku{\kf225}re{\k28}{\kf160}nai
+Dialogue: 0,0:01:10.66,0:01:18.11,Mona,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ki{\k40}mi {\k42}ni {\k43}mo {\k41}o{\k42}na{\k40}ji {\kf125}sen{\k107}ri{\k16}tsu {\kf118}ga
+Dialogue: 0,0:01:15.81,0:01:22.94,Rinka,,0,0,0,fx,{\k90\fad(300,200)}{\k45}hi{\k39}bi{\k43}ki {\k40}tsu{\k41}zu{\k42}ke{\kf353}te
+Dialogue: 0,0:01:15.81,0:01:22.94,Moka Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k45}hi{\k39}bi{\k43}ki {\k40}tsu{\k41}zu{\k42}ke{\kf353}te
+Dialogue: 0,0:01:20.75,0:01:24.59,Mona,,0,0,0,fx,{\k90\fad(300,200)}{\k44}to{\k39}o{\k45}ku {\k38}ni {\k43}i{\k43}te {\k22}mo
+Dialogue: 0,0:01:23.67,0:01:28.73,Phantom Siita,,0,0,0,fx,{\k90\fad(300,200)}{\k42}i{\k42}ro{\k41}zu{\k41}ku {\k43}S{\k99}WEE{\k24}T {\k64}PEA
