@@ -1,0 +1,32 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Kasukanaru Aogi no Irodori
+Original Timing: HayatoKurokami
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:15.87,0:00:23.31,Sample KM [Up],,0,0,0,karaoke,{\k105}ka{\k43}ma {\k49}di{\k50}ya {\k49}i{\k49}ya{\k49}ma {\k95}sor{\k100}ti {\k95}mor{\k60}ti
+Comment: 0,0:00:23.70,0:00:31.11,Sample KM [Up],,0,0,0,karaoke,{\k100}kas{\k46}ta {\k49}di{\k50}mi {\k48}i{\k48}ya{\k48}ma {\k99}sor{\k98}ti {\k97}de{\k58}ti
+Comment: 0,0:00:31.48,0:00:43.81,Sample KM [Up],,0,0,0,karaoke,{\k101}can{\k48}ta {\k48}ri{\kf350}ye,{\k41} {\k95}can{\k51}ta {\k61}ri{\kf438}ye…
+Comment: 0,0:00:47.09,0:00:54.66,Sample KM [Up],,0,0,0,karaoke,{\k99}ka{\k50}ma {\k48}di{\k50}ya {\k49}i{\k48}ya{\k48}ma {\k98}sor{\k97}ti {\k97}mor{\k73}ti
+Comment: 0,0:00:54.91,0:01:02.35,Sample KM [Up],,0,0,0,karaoke,{\k96}kas{\k51}ta {\k51}di{\k46}mi {\k52}i{\k47}ya{\k47}ma {\k98}sor{\k98}ti {\k99}de{\k59}ti
+Comment: 0,0:01:02.71,0:01:15.03,Sample KM [Up],,0,0,0,karaoke,{\k103}can{\k45}ta {\k49}ri{\kf340}ye,{\k50} {\k98}can{\k49}ta {\k62}ri{\kf436}ye…
+Comment: 0,0:01:26.13,0:01:36.48,Sample KM [Up],,0,0,0,karaoke,{\k104}ka{\k43}ma {\k48}di{\k50}mi {\k48}i{\k50}ya{\k50}ma {\k98}sor{\k96}ti {\k99}mor{\kf349}ti
+Comment: 0,0:01:41.74,0:01:52.21,Sample KM [Up],,0,0,0,karaoke,{\k97}kas{\k50}ta {\k52}di{\k45}mi {\k50}i{\k47}ya{\k50}ma {\k98}sor{\k97}ti {\k96}de{\kf365}ti
+Dialogue: 0,0:00:14.97,0:00:23.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k105}ka{\k43}ma {\k49}di{\k50}ya {\k49}i{\k49}ya{\k49}ma {\k95}sor{\k100}ti {\k95}mor{\k60}ti
+Dialogue: 0,0:00:22.80,0:00:31.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k100}kas{\k46}ta {\k49}di{\k50}mi {\k48}i{\k48}ya{\k48}ma {\k99}sor{\k98}ti {\k97}de{\k58}ti
+Dialogue: 0,0:00:30.58,0:00:44.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k101}can{\k48}ta {\k48}ri{\kf350}ye,{\k41} {\k95}can{\k51}ta {\k61}ri{\kf438}ye…
+Dialogue: 0,0:00:46.19,0:00:54.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k99}ka{\k50}ma {\k48}di{\k50}ya {\k49}i{\k48}ya{\k48}ma {\k98}sor{\k97}ti {\k97}mor{\k73}ti
+Dialogue: 0,0:00:54.01,0:01:02.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k96}kas{\k51}ta {\k51}di{\k46}mi {\k52}i{\k47}ya{\k47}ma {\k98}sor{\k98}ti {\k99}de{\k59}ti
+Dialogue: 0,0:01:01.81,0:01:15.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k103}can{\k45}ta {\k49}ri{\kf340}ye,{\k50} {\k98}can{\k49}ta {\k62}ri{\kf436}ye…
+Dialogue: 0,0:01:25.23,0:01:36.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k104}ka{\k43}ma {\k48}di{\k50}mi {\k48}i{\k50}ya{\k50}ma {\k98}sor{\k96}ti {\k99}mor{\kf349}ti
+Dialogue: 0,0:01:40.84,0:01:52.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k97}kas{\k50}ta {\k52}di{\k45}mi {\k50}i{\k47}ya{\k50}ma {\k98}sor{\k97}ti {\k96}de{\kf365}ti
