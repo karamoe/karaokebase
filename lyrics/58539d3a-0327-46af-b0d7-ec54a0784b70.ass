@@ -1,0 +1,78 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+LayoutResX: 0
+LayoutResY: 0
+Title: Mischievous Party Time!!
+Original Timing: Variabels
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: 2Wink,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Yuuta,Arial,24,&H00FFFFFF,&H00C4FF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Hinata,Arial,24,&H00FFFFFF,&H00B05EF1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: 2Wink [Down],Arial,24,&H00FFFFFF,&H005757FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,2Wink,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:01.26,0:00:06.50,2Wink,,0,0,0,karaoke,{\k43}i{\k45}ta{\k34}zu{\k32}ra {\k19}de {\k24}se{\k23}kai {\k22}ni {\k20}hi{\k14}ro{\k20}gat{\k33}te {\k21}i{\kf174}kou!
+Comment: 0,0:00:07.59,0:00:08.20,2Wink,,0,0,0,karaoke,{\k22}JOIN {\k39}US!
+Comment: 0,0:00:22.48,0:00:24.01,Yuuta,,0,0,0,karaoke,{\k14}ki {\k10}ni {\k20}nat{\k16}te {\k8}shi{\k31}mat{\k23}ta {\k12}ko {\k19}ni
+Comment: 0,0:00:24.25,0:00:25.78,Hinata,,0,0,0,karaoke,{\k10}i{\k12}ta{\k13}zu{\k14}ra {\k18}sh'te {\k11}shi{\k22}mau {\k32}KIDS {\k21}to
+Comment: 0,0:00:26.00,0:00:27.75,Yuuta,,0,0,0,karaoke,{\k23}its' {\k21}dat{\k22}te {\k15}o{\k18}na{\k22}ji {\k11}da {\k22}net{\k21}te
+Comment: 0,0:00:27.96,0:00:29.28,2Wink,,0,0,0,karaoke,{\k14}me {\k9}to {\k12}me {\k28}de {\k5}tsu{\k20}tae{\k23}at{\k21}te
+Comment: 0,0:00:29.40,0:00:30.61,Hinata,,0,0,0,karaoke,{\k11}RE{\k22}MI{\k21}X-{\k21}X {\k23}shi{\k12}ta{\k11}ri
+Comment: 0,0:00:30.83,0:00:32.01,Yuuta,,0,0,0,karaoke,{\k15}S{\k6}C{\k23}RAT{\k19}CH {\k23}shi{\k13}ta{\k19}ra
+Comment: 0,0:00:32.04,0:00:32.79,2Wink,,0,0,0,karaoke,{\k29}POP {\k25}TUNE {\k21}no
+Comment: 0,0:00:33.01,0:00:34.61,Hinata,,0,0,0,karaoke,{\k11}wa{\k10}ku {\k22}wa{\k22}ku {\k33}mi{\k34}tai {\k28}ni
+Comment: 0,0:00:34.75,0:00:35.97,Yuuta,,0,0,0,karaoke,{\k24}to{\k21}ma{\k21}ra{\k34}nai {\k22}yo!
+Comment: 0,0:00:36.08,0:00:37.57,2Wink,,0,0,0,karaoke,{\k23}YOU {\k63}ARE {\k23}D{\k40}J!
+Comment: 0,0:00:37.79,0:00:39.23,Hinata,,0,0,0,karaoke,{\k24}mot{\k34}to {\k33}a{\k22}ge{\k31}te!
+Comment: 0,0:00:39.78,0:00:41.08,2Wink,,0,0,0,karaoke,{\k68}YES! {\k11}mu{\k12}ne {\k39}no
+Comment: 0,0:00:41.23,0:00:42.84,Yuuta,,0,0,0,karaoke,{\k32}B{\k32}P{\k33}M-{\k21}M {\k43}wo
+Comment: 0,0:00:43.17,0:00:44.95,2Wink,,0,0,0,karaoke,{\k37}SUR{\k64}PRISE {\k29}AND {\k48}PRIZE
+Comment: 0,0:00:45.06,0:00:47.22,Yuuta,,0,0,0,karaoke,{\k43}o{\k43}do{\k33}ro{\k33}ki {\k23}no {\k41}BEAT
+Comment: 0,0:00:47.45,0:00:49.83,Hinata,,0,0,0,karaoke,{\k13}ma{\k14}wa{\k29}shi{\k32}te {\k22}go{\kf128}ran
+Comment: 0,0:00:49.66,0:00:50.13,2Wink [Down],,0,0,0,karaoke,{\k14}REA{\k8}DY {\k25}GO!
+Comment: 0,0:00:50.04,0:00:53.11,2Wink,,0,0,0,karaoke,{\k27}PAR{\k22}TY {\k23}T{\k22}I{\k9}ME {\k34}wo {\k22}i{\k22}ro{\k22}do{\k22}ru {\k19}TRAC{\k25}K {\k38}wa
+Comment: 0,0:00:53.59,0:00:56.21,2Wink,,0,0,0,karaoke,{\k22}min{\k22}na {\k21}no {\k22}e{\k13}ga{\k32}ot{\k22}te {\k20}iu {\k24}SE{\k31}T {\k33}LIST
+Comment: 0,0:00:56.86,0:01:00.05,Yuuta,,0,0,0,karaoke,{\k24}ho{\k20}ra {\k46}SYM{\k40}PA{\k37}THY {\k35}de {\k41}tsu{\k22}na{\k13}i {\k19}ja{\k22}e
+Comment: 0,0:01:00.38,0:01:03.21,2Wink,,0,0,0,karaoke,{\k22}o{\k21}re{\k37}ta{\k29}chi {\k44}wa {\k43}TURN{\k45}TA{\k21}B{\k21}LE!
+Comment: 0,0:01:03.42,0:01:07.24,2Wink,,0,0,0,karaoke,{\k47}mot{\k43}to {\k21}i{\k24}ta{\k20}zu{\k14}ra {\k29}wo {\k25}ka{\k20}so{\k21}ku {\k25}sa{\k20}se{\k22}ru {\k51}yo
+Comment: 0,0:01:07.61,0:01:10.15,2Wink,,0,0,0,karaoke,{\k21}tots'{\k44}zen {\k31}no {\k33}WIN{\k23}K {\k23}wa {\k21}dou {\k33}ka{\k25}na?
+Comment: 0,0:01:10.88,0:01:14.07,Hinata,,0,0,0,karaoke,{\k24}ya{\k20}p{\k46}pa{\k44}ri {\k33}ma{\k31}ta {\k45}ka{\k21}sa{\k16}na{\k18}run{\k21}da
+Comment: 0,0:01:14.39,0:01:16.10,2Wink,,0,0,0,karaoke,{\k14}So {\k10}we {\k11}are {\k32}2win{\k22}k {\k16}for {\k16}your {\k33}twin{\k22}kle
+Comment: 0,0:01:16.15,0:01:17.42,2Wink,,0,0,0,karaoke,{\k23}Eyes {\k8}and {\k57}smi{\k39}le
+Dialogue: 0,0:00:00.36,0:00:06.70,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k43}i{\k45}ta{\k34}zu{\k32}ra {\k19}de {\k24}se{\k23}kai {\k22}ni {\k20}hi{\k14}ro{\k20}gat{\k33}te {\k21}i{\kf174}kou!
+Dialogue: 0,0:00:06.69,0:00:08.40,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k22}JOIN {\k39}US!
+Dialogue: 0,0:00:21.58,0:00:24.21,Yuuta,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ki {\k10}ni {\k20}nat{\k16}te {\k8}shi{\k31}mat{\k23}ta {\k12}ko {\k19}ni
+Dialogue: 0,0:00:23.35,0:00:25.98,Hinata,,0,0,0,fx,{\k90\fad(300,200)}{\k10}i{\k12}ta{\k13}zu{\k14}ra {\k18}sh'te {\k11}shi{\k22}mau {\k32}KIDS {\k21}to
+Dialogue: 0,0:00:25.10,0:00:27.95,Yuuta,,0,0,0,fx,{\k90\fad(300,200)}{\k23}its' {\k21}dat{\k22}te {\k15}o{\k18}na{\k22}ji {\k11}da {\k22}net{\k21}te
+Dialogue: 0,0:00:27.06,0:00:29.48,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k14}me {\k9}to {\k12}me {\k28}de {\k5}tsu{\k20}tae{\k23}at{\k21}te
+Dialogue: 0,0:00:28.50,0:00:30.81,Hinata,,0,0,0,fx,{\k90\fad(300,200)}{\k11}RE{\k22}MI{\k21}X-{\k21}X {\k23}shi{\k12}ta{\k11}ri
+Dialogue: 0,0:00:29.93,0:00:32.21,Yuuta,,0,0,0,fx,{\k90\fad(300,200)}{\k15}S{\k6}C{\k23}RAT{\k19}CH {\k23}shi{\k13}ta{\k19}ra
+Dialogue: 0,0:00:31.14,0:00:32.99,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k29}POP {\k25}TUNE {\k21}no
+Dialogue: 0,0:00:32.11,0:00:34.81,Hinata,,0,0,0,fx,{\k90\fad(300,200)}{\k11}wa{\k10}ku {\k22}wa{\k22}ku {\k33}mi{\k34}tai {\k28}ni
+Dialogue: 0,0:00:33.85,0:00:36.17,Yuuta,,0,0,0,fx,{\k90\fad(300,200)}{\k24}to{\k21}ma{\k21}ra{\k34}nai {\k22}yo!
+Dialogue: 0,0:00:35.18,0:00:37.77,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k23}YOU {\k63}ARE {\k23}D{\k40}J!
+Dialogue: 0,0:00:36.89,0:00:39.43,Hinata,,0,0,0,fx,{\k90\fad(300,200)}{\k24}mot{\k34}to {\k33}a{\k22}ge{\k31}te!
+Dialogue: 0,0:00:38.88,0:00:41.28,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k68}YES! {\k11}mu{\k12}ne {\k39}no
+Dialogue: 0,0:00:40.33,0:00:43.04,Yuuta,,0,0,0,fx,{\k90\fad(300,200)}{\k32}B{\k32}P{\k33}M-{\k21}M {\k43}wo
+Dialogue: 0,0:00:42.27,0:00:45.15,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k37}SUR{\k64}PRISE {\k29}AND {\k48}PRIZE
+Dialogue: 0,0:00:44.16,0:00:47.42,Yuuta,,0,0,0,fx,{\k90\fad(300,200)}{\k43}o{\k43}do{\k33}ro{\k33}ki {\k23}no {\k41}BEAT
+Dialogue: 0,0:00:46.55,0:00:50.03,Hinata,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ma{\k14}wa{\k29}shi{\k32}te {\k22}go{\kf128}ran
+Dialogue: 0,0:00:48.76,0:00:50.33,2Wink [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k14}REA{\k8}DY {\k25}GO!
+Dialogue: 0,0:00:49.14,0:00:53.31,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k27}PAR{\k22}TY {\k23}T{\k22}I{\k9}ME {\k34}wo {\k22}i{\k22}ro{\k22}do{\k22}ru {\k19}TRAC{\k25}K {\k38}wa
+Dialogue: 0,0:00:52.69,0:00:56.41,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k22}min{\k22}na {\k21}no {\k22}e{\k13}ga{\k32}ot{\k22}te {\k20}iu {\k24}SE{\k31}T {\k33}LIST
+Dialogue: 0,0:00:55.96,0:01:00.25,Yuuta,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ho{\k20}ra {\k46}SYM{\k40}PA{\k37}THY {\k35}de {\k41}tsu{\k22}na{\k13}i {\k19}ja{\k22}e
+Dialogue: 0,0:00:59.48,0:01:03.41,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k22}o{\k21}re{\k37}ta{\k29}chi {\k44}wa {\k43}TURN{\k45}TA{\k21}B{\k21}LE!
+Dialogue: 0,0:01:02.52,0:01:07.44,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k47}mot{\k43}to {\k21}i{\k24}ta{\k20}zu{\k14}ra {\k29}wo {\k25}ka{\k20}so{\k21}ku {\k25}sa{\k20}se{\k22}ru {\k51}yo
+Dialogue: 0,0:01:06.71,0:01:10.35,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k21}tots'{\k44}zen {\k31}no {\k33}WIN{\k23}K {\k23}wa {\k21}dou {\k33}ka{\k25}na?
+Dialogue: 0,0:01:09.98,0:01:14.27,Hinata,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ya{\k20}p{\k46}pa{\k44}ri {\k33}ma{\k31}ta {\k45}ka{\k21}sa{\k16}na{\k18}run{\k21}da
+Dialogue: 0,0:01:13.49,0:01:16.30,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k14}So {\k10}we {\k11}are {\k32}2win{\k22}k {\k16}for {\k16}your {\k33}twin{\k22}kle
+Dialogue: 0,0:01:15.25,0:01:17.62,2Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Eyes {\k8}and {\k57}smi{\k39}le
