@@ -1,0 +1,61 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: La Complainte de Sally
+Original Timing: NikoNikoD
+
+[Aegisub Project Garbage]
+Audio File: C:\Users\Kylian\AppData\Roaming\karaokemugen-app\app\repos\kara.moe\medias\1d3173bd-048d-4153-a9e9-50dc67a87603.mp4
+Video File: C:\Users\Kylian\AppData\Roaming\karaokemugen-app\app\repos\kara.moe\medias\1d3173bd-048d-4153-a9e9-50dc67a87603.mp4
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Up] - Dialogue,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:03.09,0:00:04.07,Sample KM [Up] - Dialogue,,0,0,0,karaoke,{\k21}Au {\k38}revoir {\k39}Jack
+Comment: 0,0:00:05.30,0:00:06.93,Sample KM [Up] - Dialogue,,0,0,0,karaoke,{\k29}Mon {\k30}très {\k53}cher {\k51}Jack
+Comment: 0,0:00:08.39,0:00:09.43,Sample KM [Up] - Dialogue,,0,0,0,karaoke,{\k45}Oh {\k20}comme {\k19}j'aime{\k20}rais
+Comment: 0,0:00:09.45,0:00:11.16,Sample KM [Up] - Dialogue,,0,0,0,karaoke,{\k12}Que {\k13}ma {\k14}pré{\k13}mo{\k17}ni{\k18}tion {\k27}soit {\k57}fausse
+Comment: 0,0:00:17.07,0:00:21.85,Sample KM [Up],,0,0,0,karaoke,{\k46}Il {\k60}y a {\k47}une {\k52}om{\k58}bre {\k81}dans {\k25}le {\kf109}vent
+Comment: 0,0:00:22.39,0:00:27.20,Sample KM [Up],,0,0,0,karaoke,{\k50}Je {\k60}crois {\k48}qu'une {\k78}tra{\k38}gé{\k45}die {\k56}m'at{\kf106}tend
+Comment: 0,0:00:27.82,0:00:32.57,Sample KM [Up],,0,0,0,karaoke,{\k45}Com{\k55}ment {\k57}lui {\k58}a{\k51}vouer {\k74}comme {\k32}je {\kf103}l'aime
+Comment: 0,0:00:33.09,0:00:37.92,Sample KM [Up],,0,0,0,karaoke,{\k49}Sans {\k56}lui {\k53}faire {\k59}part {\k51}de {\k33}mes {\k75}pro{\kf107}blèmes
+Comment: 0,0:00:38.42,0:00:43.37,Sample KM [Up],,0,0,0,karaoke,{\k59}Le {\k53}pire {\k53}est {\k54}en{\k28}core {\k81}à {\k51}ve{\kf116}nir
+Comment: 0,0:00:43.79,0:00:51.94,Sample KM [Up],,0,0,0,karaoke,{\k55}Sait-{\k51}il {\k58}que {\kf108}pour {\kf120}lui{\k40} {\k54}je {\k57}donne{\k53}rai {\kf117}ma {\kf102}vie
+Comment: 0,0:00:52.31,0:00:59.39,Sample KM [Up],,0,0,0,karaoke,{\k59}Je {\k54}rêve {\k64}sou{\kf108}vent{\k49} {\k49}qu'il {\k78}m'aime {\k28}é{\k64}per{\k52}du{\kf103}ment
+Comment: 0,0:00:59.95,0:01:04.04,Sample KM [Up],,0,0,0,karaoke,{\k60}Même {\k49}si {\k52}c'est {\k54}un {\k57}tour{\kf137}ment
+Comment: 0,0:01:05.29,0:01:10.12,Sample KM [Up],,0,0,0,karaoke,{\k53}Que {\k52}de{\k53}vien{\k57}dra {\k56}mon {\k48}bon {\k51}a{\kf113}mi
+Comment: 0,0:01:10.69,0:01:15.46,Sample KM [Up],,0,0,0,karaoke,{\k48}Où {\k55}nous {\k50}con{\k65}dui{\k43}ra {\k31}sa {\k76}fo{\kf109}lie
+Comment: 0,0:01:16.02,0:01:20.91,Sample KM [Up],,0,0,0,karaoke,{\k48}Au{\k57}tour {\k48}de {\k58}moi {\k47}tout {\k53}l'monde {\k62}l'ac{\kf116}clame
+Comment: 0,0:01:21.41,0:01:26.14,Sample KM [Up],,0,0,0,karaoke,{\k52}Mais {\k30}je {\k73}brûle {\k59}d'une {\k26}toute {\k70}au{\k53}tre {\kf110}flamme
+Comment: 0,0:01:26.74,0:01:31.57,Sample KM [Up],,0,0,0,karaoke,{\k48}Par{\k61}fois {\k55}la {\k52}vie {\k48}me {\k38}semble {\k70}un {\kf111}drame
+Comment: 0,0:01:32.08,0:01:40.13,Sample KM [Up],,0,0,0,karaoke,{\k56}Sau{\k47}ra-{\k53}t-il {\kf110}un {\kf112}jour{\k51} {\k48}m'of{\k56}frir {\k58}son {\kf105}a{\kf109}mour
+Comment: 0,0:01:40.55,0:01:47.87,Sample KM [Up],,0,0,0,karaoke,{\k70}Sau{\k52}rais-je {\k51}lui {\kf111}plaire{\k49} {\k57}ce {\k63}n'est {\k51}pas {\k54}mon {\k68}des{\kf106}tin
+Comment: 0,0:01:48.31,0:01:53.64,Sample KM [Up],,0,0,0,karaoke,{\k58}Et {\k58}je {\k64}l'es{\k128}père {\k72}en {\kf153}vain
+Dialogue: 0,0:00:02.19,0:00:04.27,Sample KM [Up] - Dialogue,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Au {\k38}revoir {\k39}Jack
+Dialogue: 0,0:00:04.40,0:00:07.13,Sample KM [Up] - Dialogue,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Mon {\k30}très {\k53}cher {\k51}Jack
+Dialogue: 0,0:00:07.49,0:00:09.63,Sample KM [Up] - Dialogue,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Oh {\k20}comme {\k19}j'aime{\k20}rais
+Dialogue: 0,0:00:08.55,0:00:11.36,Sample KM [Up] - Dialogue,,0,0,0,fx,{\k90\fad(300,200)}{\k12}Que {\k13}ma {\k14}pré{\k13}mo{\k17}ni{\k18}tion {\k27}soit {\k57}fausse
+Dialogue: 0,0:00:16.17,0:00:22.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Il {\k60}y a {\k47}une {\k52}om{\k58}bre {\k81}dans {\k25}le {\kf109}vent
+Dialogue: 0,0:00:21.49,0:00:27.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Je {\k60}crois {\k48}qu'une {\k78}tra{\k38}gé{\k45}die {\k56}m'at{\kf106}tend
+Dialogue: 0,0:00:26.92,0:00:32.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Com{\k55}ment {\k57}lui {\k58}a{\k51}vouer {\k74}comme {\k32}je {\kf103}l'aime
+Dialogue: 0,0:00:32.19,0:00:38.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Sans {\k56}lui {\k53}faire {\k59}part {\k51}de {\k33}mes {\k75}pro{\kf107}blèmes
+Dialogue: 0,0:00:37.52,0:00:43.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k59}Le {\k53}pire {\k53}est {\k54}en{\k28}core {\k81}à {\k51}ve{\kf116}nir
+Dialogue: 0,0:00:42.89,0:00:52.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k55}Sait-{\k51}il {\k58}que {\kf108}pour {\kf120}lui{\k40} {\k54}je {\k57}donne{\k53}rai {\kf117}ma {\kf102}vie
+Dialogue: 0,0:00:51.41,0:00:59.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k59}Je {\k54}rêve {\k64}sou{\kf108}vent{\k49} {\k49}qu'il {\k78}m'aime {\k28}é{\k64}per{\k52}du{\kf103}ment
+Dialogue: 0,0:00:59.05,0:01:04.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k60}Même {\k49}si {\k52}c'est {\k54}un {\k57}tour{\kf137}ment
+Dialogue: 0,0:01:04.39,0:01:10.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k53}Que {\k52}de{\k53}vien{\k57}dra {\k56}mon {\k48}bon {\k51}a{\kf113}mi
+Dialogue: 0,0:01:09.79,0:01:15.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Où {\k55}nous {\k50}con{\k65}dui{\k43}ra {\k31}sa {\k76}fo{\kf109}lie
+Dialogue: 0,0:01:15.12,0:01:21.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Au{\k57}tour {\k48}de {\k58}moi {\k47}tout {\k53}l'monde {\k62}l'ac{\kf116}clame
+Dialogue: 0,0:01:20.51,0:01:26.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}Mais {\k30}je {\k73}brûle {\k59}d'une {\k26}toute {\k70}au{\k53}tre {\kf110}flamme
+Dialogue: 0,0:01:25.84,0:01:31.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Par{\k61}fois {\k55}la {\k52}vie {\k48}me {\k38}semble {\k70}un {\kf111}drame
+Dialogue: 0,0:01:31.18,0:01:40.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k56}Sau{\k47}ra-{\k53}t-il {\kf110}un {\kf112}jour{\k51} {\k48}m'of{\k56}frir {\k58}son {\kf105}a{\kf109}mour
+Dialogue: 0,0:01:39.65,0:01:48.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k70}Sau{\k52}rais-je {\k51}lui {\kf111}plaire{\k49} {\k57}ce {\k63}n'est {\k51}pas {\k54}mon {\k68}des{\kf106}tin
+Dialogue: 0,0:01:47.41,0:01:53.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k58}Et {\k58}je {\k64}l'es{\k128}père {\k72}en {\kf153}vain
