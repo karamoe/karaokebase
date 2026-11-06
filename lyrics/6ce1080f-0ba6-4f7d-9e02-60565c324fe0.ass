@@ -1,0 +1,217 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: TRAUMA
+Original Timing: Pyrospower
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM Duo [Group],Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Kiara],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [TIZ],Arial,24,&H00FFFFFF,&H00C787FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [KIIRI],Arial,24,&H00FFFFFF,&H00F5C03D,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:02.86,0:00:03.85,Sample KM Duo [KIIRI],,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♦ "!
+Comment: 0,0:00:02.86,0:00:03.85,Sample KM Duo [TIZ],,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"★ "!
+Comment: 0,0:00:02.86,0:00:03.85,Sample KM Duo [Kiara],,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♥ "!
+Comment: 0,0:00:02.86,0:00:03.85,Sample KM Duo [Group],,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!""!
+Comment: 0,0:00:02.86,0:00:03.85,Sample KM [Choir],,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!""!
+Dialogue: 0,0:00:00.00,0:00:05.00,Sample KM [Up],,0,0,200,,{\k1500}{\k0}{\2cHFFFFFF} {\rSample KM [Choir]}Choir{\r}{\2cHFFFFFF}  {\rSample KM Duo [Group]}Group{\r}
+Dialogue: 0,0:00:00.00,0:00:05.00,Sample KM [Up],,0,0,200,,{\k1500}{\k0}{\2cHFFFFFF}♦ {\rSample KM Duo [KIIRI]}KIIRI{\r}{\2cHFFFFFF}  ★ {\rSample KM Duo [TIZ]}TIZ{\r}{\2cHFFFFFF}  ♥ {\rSample KM Duo [Kiara]}Kiara{\r}
+Comment: 0,0:00:02.86,0:00:03.85,Sample KM Duo [Kiara],,0,0,0,karaoke,{\k23}We {\k19}so {\k57}loud
+Comment: 0,0:00:05.86,0:00:06.76,Sample KM Duo [Kiara],,0,0,0,karaoke,{\k26}We {\k16}so {\k48}loud
+Comment: 0,0:00:08.50,0:00:10.22,Sample KM Duo [Kiara],,0,0,0,karaoke,{\k20}Paint {\k25}your {\k41}doubt {\k27}in{\k20}side {\k39}out
+Comment: 0,0:00:10.22,0:00:11.48,Sample KM Duo [Group],,0,0,0,karaoke,{\k65}Uh {\k21}uh {\k40}uh
+Comment: 0,0:00:11.73,0:00:13.23,Sample KM Duo [Group],,0,0,0,karaoke,{\k44}Uh {\k21}uh {\k22}uh {\k21}uh {\k42}uh
+Comment: 0,0:00:13.67,0:00:14.93,Sample KM Duo [Group],,0,0,0,karaoke,{\k64}Uh {\k23}uh {\k39}uh
+Comment: 0,0:00:15.17,0:00:16.40,Sample KM Duo [Group],,0,0,0,karaoke,{\k44}Uh {\k22}uh {\k21}uh {\k22}uh {\k14}uh
+Comment: 0,0:00:16.26,0:00:16.78,Sample KM [Choir],,0,0,0,karaoke,{\k14}ga{\k38}ja!
+Comment: 0,0:00:16.70,0:00:18.10,Sample KM Duo [TIZ],,0,0,0,karaoke,{\k10}Walk {\k16}in{\k16}to {\k16}fire {\k15}like {\k13}a {\k22}war{\k32}ning
+Comment: 0,0:00:18.39,0:00:19.68,Sample KM Duo [TIZ],,0,0,0,karaoke,{\k27}Words {\k9}on {\k12}my {\k19}lips {\k12}like {\k11}a {\k22}wea{\k17}pon
+Comment: 0,0:00:20.16,0:00:21.47,Sample KM Duo [TIZ],,0,0,0,karaoke,{\k19}Side {\k24}eyes {\k23}freeze {\k7}un{\k13}der {\k22}pres{\k23}sure
+Comment: 0,0:00:21.65,0:00:23.22,Sample KM Duo [TIZ],,0,0,0,karaoke,{\k23}Pretty, {\k20}but {\k22}I {\k22}know, {\k11}yeah, {\k11}I'm {\k22}bet{\k26}ter
+Comment: 0,0:00:23.37,0:00:24.87,Sample KM Duo [KIIRI],,0,0,0,karaoke,{\k22}Click{\k24}-clack {\k10}at{\k11}ti{\k24}tude {\k18}wal{\k41}king
+Comment: 0,0:00:24.73,0:00:25.11,Sample KM [Choir],,0,0,0,karaoke,{\k18}Wal{\k20}kin'
+Comment: 0,0:00:24.87,0:00:26.19,Sample KM Duo [KIIRI],,0,0,0,karaoke,{\k24\i1}maeil{\i0} {\k20}my {\k23}tongue {\k22}keeps {\k25}tal{\k18}king
+Comment: 0,0:00:26.19,0:00:27.48,Sample KM Duo [KIIRI],,0,0,0,karaoke,{\k10}We {\k13}don’t {\k20}share {\k29}crowns, {\k15}we {\k28}toss {\k14}‘em
+Comment: 0,0:00:27.70,0:00:29.21,Sample KM Duo [KIIRI],,0,0,0,karaoke,{\k23}Catch {\k21}me {\k21}if {\k19}you {\k10}can, {\k14}we {\k16}blos{\k27}som
+Comment: 0,0:00:29.21,0:00:30.51,Sample KM [Choir],,0,0,0,karaoke,{\kf130}ahh
+Comment: 0,0:00:30.51,0:00:33.09,Sample KM Duo [Kiara],,0,0,0,karaoke,{\k16}I’m {\k14}on {\k14}a {\k127}roll, {\k17}too {\k28}much {\k42}bloom
+Comment: 0,0:00:31.36,0:00:33.94,Sample KM Duo [TIZ],,0,0,0,karaoke,{\k11}Li{\k12}ving {\k23}the {\k19}chal{\k83}lenge, {\k11}to {\k26}e{\k11}ver {\k22}be {\k21}less, {\k19}ah
+Comment: 0,0:00:33.94,0:00:34.81,Sample KM Duo [Kiara],,0,0,0,karaoke,{\k13}Count {\k32}me {\k42}in
+Comment: 0,0:00:34.59,0:00:36.21,Sample KM Duo [TIZ],,0,0,0,karaoke,{\k22}Three, {\k45}two, {\k12}move {\k19}like {\k12}Va{\k32}nes{\k20}sa
+Comment: 0,0:00:36.34,0:00:37.84,Sample KM Duo [TIZ],,0,0,0,karaoke,{\k21}Go {\k21}hard, {\k9}ne{\k16}ver {\k19}fold {\k9}un{\k18}der {\k25}pres{\k12}sure
+Comment: 0,0:00:37.84,0:00:39.24,Sample KM Duo [KIIRI],,0,0,0,karaoke,{\k23}Don’t {\k18}care {\k47}who {\k19}star{\k14}ted {\k19}this
+Comment: 0,0:00:39.36,0:00:41.36,Sample KM Duo [KIIRI],,0,0,0,karaoke,{\k42}I {\k24}ain’t {\k22}scared {\k20}of {\k33}fal{\k25}ling {\k34}hard
+Comment: 0,0:00:41.25,0:00:42.64,Sample KM Duo [Kiara],,0,0,0,karaoke,{\k46}Uh-huh, {\k12}I {\k18}know {\k17}my {\k20}sta{\k26}tus
+Comment: 0,0:00:42.79,0:00:44.32,Sample KM Duo [Kiara],,0,0,0,karaoke,{\k19}I{\k37}con, {\k22}lea{\k18}ding {\k15}the {\k42}way
+Comment: 0,0:00:44.71,0:00:47.26,Sample KM Duo [TIZ],,0,0,0,karaoke,{\k48}Heart{\k42}beat {\k44}syncs {\k22}with {\k19}the {\k45}count{\k35}down
+Comment: 0,0:00:47.34,0:00:48.07,Sample KM Duo [TIZ],,0,0,0,karaoke,{\k23}Three, {\k21}two, {\k29}one
+Comment: 0,0:00:48.24,0:00:50.66,Sample KM Duo [TIZ],,0,0,0,karaoke,{\k40}Heart{\k43}beat {\k44}syncs {\k21}with {\k17}the {\k48}count{\k29}down
+Comment: 0,0:00:50.78,0:00:51.85,Sample KM Duo [TIZ],,0,0,0,karaoke,{\k23}Three, {\k22}two, {\k21}one {\k22}right {\k19}now
+Comment: 0,0:00:51.85,0:00:53.88,Sample KM Duo [KIIRI],,0,0,0,karaoke,{\k23}Wel{\k22}come {\k10}to {\k12}my {\k25}trau{\k39}ma, {\k23}queen {\k22}e{\k27}ra
+Comment: 0,0:00:53.82,0:00:54.33,Sample KM [Choir],,0,0,0,karaoke,{\k21}E{\k30}ra!
+Comment: 0,0:00:54.24,0:00:55.54,Sample KM Duo [KIIRI],,0,0,0,karaoke,{\k22}Crown {\k22}too {\k22}bright {\k12}in {\k10}the {\k21}mir{\k21}ror
+Comment: 0,0:00:55.74,0:00:56.49,Sample KM Duo [KIIRI],,0,0,0,karaoke,{\k24}Can’t {\k27}break {\k24}us
+Comment: 0,0:00:56.62,0:00:57.27,Sample KM Duo [KIIRI],,0,0,0,karaoke,{\k25}No {\k11}sa{\k29}vior
+Comment: 0,0:00:57.27,0:00:58.13,Sample KM Duo [KIIRI],,0,0,0,karaoke,{\k10}Wel{\k11}come {\k11}to {\k11}my {\k22}trau{\k21}ma
+Comment: 0,0:00:58.13,0:01:00.19,Sample KM Duo [Kiara],,0,0,0,karaoke,{\k43}Wild{\k31}fi{\k34}re, {\k22}yeah {\k18}we {\k23}just {\k24}star{\k11}ted
+Comment: 0,0:01:00.28,0:01:02.39,Sample KM Duo [Kiara],,0,0,0,karaoke,{\k23}Vio{\k21}lent {\k22}hands {\k22}up {\k20}in {\k24}a {\k20}sky {\k22}so {\k37}high
+Comment: 0,0:01:02.44,0:01:04.07,Sample KM Duo [Kiara],,0,0,0,karaoke,{\k24}Girls {\k15}on {\k26}fi{\k18}re, {\k25}stay {\k23}to{\k32}night
+Comment: 0,0:01:04.07,0:01:05.04,Sample KM Duo [Kiara],,0,0,0,karaoke,{\k23}Su{\k30}gar {\k44}rush
+Comment: 0,0:01:05.04,0:01:07.62,Sample KM Duo [TIZ],,0,0,0,karaoke,{\k44}Riot {\k60}ride, {\k25}che{\k20}mi{\k22}cal {\k21}po{\k18}wer, {\k28}try {\k20}it
+Comment: 0,0:01:07.62,0:01:10.81,Sample KM Duo [TIZ],,0,0,0,karaoke,{\k23}Eve{\k22}ry {\k42}step {\k22}lou{\k17}der, {\k24}try{\k45}na {\k15}si{\k51}lence {\k58}us
+Comment: 0,0:01:10.81,0:01:11.90,Sample KM Duo [TIZ],,0,0,0,karaoke,{\k18}We {\k30}mul{\k23}ti{\k38}ply
+Comment: 0,0:01:11.73,0:01:13.89,Sample KM Duo [KIIRI],,0,0,0,karaoke,{\k26}Hands {\k84}up, {\k11}hol{\k9}ler, {\k11}un{\k10}der{\k31}stand {\k34}this
+Comment: 0,0:01:13.89,0:01:15.40,Sample KM Duo [KIIRI],,0,0,0,karaoke,{\k22}Heart {\k43}beats {\k15}to {\k13}a {\k15}diffe{\k17}rent {\k14}rhy{\k12}thm
+Comment: 0,0:01:15.40,0:01:17.29,Sample KM Duo [KIIRI],,0,0,0,karaoke,{\k19}E{\k12}ve{\k13}ry {\k43}move {\k16}got {\k14}‘em {\k13}jea{\k29}lous, {\k30}yeah
+Comment: 0,0:01:17.34,0:01:18.95,Sample KM Duo [KIIRI],,0,0,0,karaoke,{\k28}Go {\k37}hard, {\k18}ain’t {\k11}gon{\k17}na {\k31}back {\k19}down
+Comment: 0,0:01:18.85,0:01:20.98,Sample KM Duo [Kiara],,0,0,0,karaoke,{\k16}Lights {\k15}from {\k13}the {\k66}left, {\k22}flash {\k21}from {\k23}the {\k37}right
+Comment: 0,0:01:19.50,0:01:22.86,Sample KM Duo [TIZ],,0,0,0,karaoke,{\k26}My {\k102}speed, {\k23}don’t {\k66}blink, {\k43}oh, {\k22}no {\k54}brakes
+Comment: 0,0:01:21.31,0:01:22.00,Sample KM Duo [Kiara],,0,0,0,karaoke,{\k14}Whole {\k55}squad
+Comment: 0,0:01:22.69,0:01:24.60,Sample KM Duo [TIZ],,0,0,0,karaoke,{\k5}The {\k21}whole {\k22}world’s {\k36}too {\k30}low {\k19}for {\k58}us
+Comment: 0,0:01:24.23,0:01:26.19,Sample KM Duo [Kiara],,0,0,0,karaoke,{\k27}Count{\k44}down, {\k36}say {\k89}less
+Comment: 0,0:01:26.19,0:01:28.70,Sample KM Duo [TIZ],,0,0,0,karaoke,{\k43}Heart{\k46}beat {\k41}syncs {\k22}with {\k19}the {\k45}count{\k35}down
+Comment: 0,0:01:28.78,0:01:29.62,Sample KM Duo [TIZ],,0,0,0,karaoke,{\k22}Three, {\k22}two, {\k40}one
+Comment: 0,0:01:29.62,0:01:32.13,Sample KM Duo [TIZ],,0,0,0,karaoke,{\k46}Heart{\k43}beat {\k42}syncs {\k23}with {\k18}the {\k46}count{\k33}down
+Comment: 0,0:01:32.21,0:01:33.29,Sample KM Duo [TIZ],,0,0,0,karaoke,{\k24}Three, {\k22}two, {\k21}one {\k22}right {\k19}now
+Comment: 0,0:01:33.29,0:01:35.38,Sample KM Duo [Kiara],,0,0,0,karaoke,{\k23}Wel{\k21}come {\k11}to {\k11}my {\k25}trau{\k38}ma, {\k25}queen {\k18}e{\k37}ra
+Comment: 0,0:01:35.20,0:01:35.68,Sample KM [Choir],,0,0,0,karaoke,{\k27}E{\k21}ra!
+Comment: 0,0:01:35.68,0:01:36.54,Sample KM Duo [Kiara],,0,0,0,karaoke,{\k21}Crown {\k23}too {\k20}bright {\k10}in {\k12}the
+Comment: 0,0:01:36.54,0:01:38.19,Sample KM Duo [Kiara],,0,0,0,karaoke,{\k37}You’ll {\k29}re{\k44}mem{\k55}ber
+Comment: 0,0:01:38.01,0:01:39.57,Sample KM Duo [Kiara],,0,0,0,karaoke,{\k27}We {\k54}shine {\k21}through {\k11}the {\k22}em{\k21}bers
+Comment: 0,0:01:39.57,0:01:41.73,Sample KM Duo [KIIRI],,0,0,0,karaoke,{\k44}Wild{\k21}fi{\k41}re, {\k16}yeah {\k28}we {\k22}just {\k22}star{\k22}ted
+Comment: 0,0:01:41.73,0:01:43.89,Sample KM Duo [KIIRI],,0,0,0,karaoke,{\k23}Vio{\k20}lent {\k23}hands {\k21}up {\k21}in {\k22}a {\k21}sky {\k22}so {\k43}high
+Comment: 0,0:01:43.89,0:01:45.50,Sample KM Duo [KIIRI],,0,0,0,karaoke,{\k27}Girls {\k21}on {\k16}fi{\k22}re, {\k22}stay {\k21}to{\k32}night
+Comment: 0,0:01:45.50,0:01:46.48,Sample KM Duo [KIIRI],,0,0,0,karaoke,{\k23}Su{\k32}gar {\k43}rush
+Comment: 0,0:01:46.48,0:01:49.05,Sample KM Duo [KIIRI],,0,0,0,karaoke,{\k42}Riot {\k61}ride, {\k26}che{\k18}mi{\k23}cal {\k22}po{\k16}wer, {\k29}try {\k20}it
+Comment: 0,0:01:47.13,0:01:47.86,Sample KM [Choir],,0,0,0,karaoke,{\k21}Ah{\k52}-ha
+Comment: 0,0:01:49.05,0:01:52.24,Sample KM Duo [KIIRI],,0,0,0,karaoke,{\k24}Eve{\k22}ry {\k37}step {\k27}lou{\k17}der, {\k29}try{\k41}na {\k19}si{\k45}lence {\k58}us
+Comment: 0,0:01:52.30,0:01:53.49,Sample KM Duo [KIIRI],,0,0,0,karaoke,{\k13}We {\k31}mul{\k22}ti{\k53}ply
+Comment: 0,0:01:53.81,0:01:55.28,Sample KM Duo [Group],,0,0,0,karaoke,{\k65}Uh {\k22}uh {\k60}uh
+Comment: 0,0:01:55.32,0:01:56.95,Sample KM Duo [Group],,0,0,0,karaoke,{\k44}Uh {\k22}uh {\k21}uh {\k22}uh {\k54}uh
+Comment: 0,0:01:57.27,0:01:59.41,Sample KM Duo [KIIRI],,0,0,0,karaoke,{\k23}Hands {\k21}up {\k21}if {\k24}you {\k19}feel {\k22}that {\k21}au{\k22}ra {\k22}on {\k19}me
+Comment: 0,0:01:59.41,0:02:00.65,Sample KM Duo [TIZ],,0,0,0,karaoke,{\k37}Down, {\k30}three, {\k22}two, {\k35}one
+Comment: 0,0:02:00.72,0:02:02.02,Sample KM Duo [Group],,0,0,0,karaoke,{\k65}Uh {\k21}uh {\k44}uh
+Comment: 0,0:02:02.23,0:02:03.75,Sample KM Duo [Group],,0,0,0,karaoke,{\k43}Uh {\k22}uh {\k22}uh {\k21}uh {\k44}uh
+Comment: 0,0:02:04.17,0:02:05.58,Sample KM Duo [Kiara],,0,0,0,karaoke,{\k22}Hear {\k22}’em {\k22}say {\k21}my {\k54}name
+Comment: 0,0:02:05.58,0:02:07.19,Sample KM Duo [Kiara],,0,0,0,karaoke,{\k32}Queen {\k12}e{\k34}ra, {\k19}here {\k20}I {\k44}am
+Comment: 0,0:02:07.19,0:02:09.27,Sample KM Duo [Group],,0,0,0,karaoke,{\k44}Wild{\k19}fi{\k42}re, {\k23}yeah {\k22}we {\k24}just {\k23}star{\k11}ted
+Comment: 0,0:02:09.35,0:02:11.45,Sample KM Duo [Group],,0,0,0,karaoke,{\k25}Vio{\k19}lent {\k23}hands {\k21}up {\k24}in {\k19}a {\k21}sky {\k22}so {\k36}high
+Comment: 0,0:02:11.50,0:02:13.12,Sample KM Duo [Group],,0,0,0,karaoke,{\k23}Girls {\k23}on {\k17}fi{\k25}re, {\k22}stay {\k21}to{\k31}night
+Comment: 0,0:02:13.12,0:02:14.05,Sample KM Duo [Kiara],,0,0,0,karaoke,{\k23}Su{\k33}gar {\k37}rush
+Comment: 0,0:02:14.05,0:02:16.65,Sample KM Duo [Group],,0,0,0,karaoke,{\k49}Riot {\k60}ride, {\k26}che{\k19}mi{\k22}cal {\k16}po{\k20}wer, {\k30}try {\k18}it
+Comment: 0,0:02:16.65,0:02:19.82,Sample KM Duo [Group],,0,0,0,karaoke,{\k26}Eve{\k22}ry {\k36}step {\k29}lou{\k13}der, {\k30}try{\k43}na {\k22}si{\k43}lence {\k53}us
+Comment: 0,0:02:19.71,0:02:20.99,Sample KM Duo [KIIRI],,0,0,0,karaoke,{\k44}Boom {\k43}boom {\k41}boom
+Comment: 0,0:02:20.80,0:02:22.84,Sample KM Duo [Group],,0,0,0,karaoke,{\k21}Wel{\k22}come {\k9}to {\k11}my {\k29}trau{\k37}ma, {\k22}queen {\k17}e{\k36}ra
+Comment: 0,0:02:22.72,0:02:23.15,Sample KM [Choir],,0,0,0,karaoke,{\k16}E{\k27}ra!
+Comment: 0,0:02:23.15,0:02:24.35,Sample KM Duo [Group],,0,0,0,karaoke,{\k24}Crown {\k22}too {\k22}bright {\k12}in {\k12}the {\k12}mir{\k16}ror
+Comment: 0,0:02:24.35,0:02:26.30,Sample KM Duo [Group],,0,0,0,karaoke,{\k31}Say {\k23}my {\k62}name, {\k24}it's {\k23}clea{\k32}rer
+Comment: 0,0:02:26.18,0:02:28.14,Sample KM Duo [Group],,0,0,0,karaoke,{\k22}You {\k22}can {\k22}hate, {\k21}but {\k22}you’ll {\k21}re{\k23}mem{\k43}ber
+Comment: 0,0:02:27.70,0:02:29.75,Sample KM Duo [Group],,0,0,0,karaoke,{\k22}Wel{\k22}come {\k9}to {\k12}my {\k29}trau{\k35}ma, {\k19}queen {\k24}e{\k33}ra
+Comment: 0,0:02:29.63,0:02:30.06,Sample KM [Choir],,0,0,0,karaoke,{\k23}E{\k20}ra!
+Comment: 0,0:02:30.06,0:02:31.36,Sample KM Duo [Group],,0,0,0,karaoke,{\k22}Crown {\k23}too {\k22}bright {\k12}in {\k9}the {\k21}mir{\k21}ror
+Comment: 0,0:02:31.36,0:02:33.70,Sample KM Duo [Group],,0,0,0,karaoke,{\k23}All {\k22}those {\k20}try{\k44}na {\k19}si{\k46}lence {\k60}us
+Comment: 0,0:02:33.70,0:02:34.91,Sample KM Duo [Kiara],,0,0,0,karaoke,{\k28}We {\k23}still {\k21}sur{\k49}vive
+Dialogue: 0,0:00:01.96,0:00:04.05,Sample KM Duo [Kiara],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k23}We {\k19}so {\k57}loud
+Dialogue: 0,0:00:04.96,0:00:06.96,Sample KM Duo [Kiara],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k26}We {\k16}so {\k48}loud
+Dialogue: 0,0:00:07.60,0:00:10.42,Sample KM Duo [Kiara],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k20}Paint {\k25}your {\k41}doubt {\k27}in{\k20}side {\k39}out
+Dialogue: 0,0:00:09.32,0:00:11.68,Sample KM Duo [Group],,0,0,0,fx,{\k90\fad(300,200)}{\k65}Uh {\k21}uh {\k40}uh
+Dialogue: 0,0:00:10.83,0:00:13.43,Sample KM Duo [Group],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Uh {\k21}uh {\k22}uh {\k21}uh {\k42}uh
+Dialogue: 0,0:00:12.77,0:00:15.13,Sample KM Duo [Group],,0,0,0,fx,{\k90\fad(300,200)}{\k64}Uh {\k23}uh {\k39}uh
+Dialogue: 0,0:00:14.27,0:00:16.60,Sample KM Duo [Group],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Uh {\k22}uh {\k21}uh {\k22}uh {\k14}uh
+Dialogue: 0,0:00:15.36,0:00:16.98,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k14}ga{\k38}ja!
+Dialogue: 0,0:00:15.80,0:00:18.30,Sample KM Duo [TIZ],,0,0,0,fx,{\k90\fad(300,200)}★ {\k10}Walk {\k16}in{\k16}to {\k16}fire {\k15}like {\k13}a {\k22}war{\k32}ning
+Dialogue: 0,0:00:17.49,0:00:19.88,Sample KM Duo [TIZ],,0,0,0,fx,{\k90\fad(300,200)}★ {\k27}Words {\k9}on {\k12}my {\k19}lips {\k12}like {\k11}a {\k22}wea{\k17}pon
+Dialogue: 0,0:00:19.26,0:00:21.67,Sample KM Duo [TIZ],,0,0,0,fx,{\k90\fad(300,200)}★ {\k19}Side {\k24}eyes {\k23}freeze {\k7}un{\k13}der {\k22}pres{\k23}sure
+Dialogue: 0,0:00:20.75,0:00:23.42,Sample KM Duo [TIZ],,0,0,0,fx,{\k90\fad(300,200)}★ {\k23}Pretty, {\k20}but {\k22}I {\k22}know, {\k11}yeah, {\k11}I'm {\k22}bet{\k26}ter
+Dialogue: 0,0:00:22.47,0:00:25.07,Sample KM Duo [KIIRI],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k22}Click{\k24}-clack {\k10}at{\k11}ti{\k24}tude {\k18}wal{\k41}king
+Dialogue: 0,0:00:23.83,0:00:25.31,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Wal{\k20}kin'
+Dialogue: 0,0:00:23.97,0:00:26.39,Sample KM Duo [KIIRI],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k24\i1}maeil{\i0} {\k20}my {\k23}tongue {\k22}keeps {\k25}tal{\k18}king
+Dialogue: 0,0:00:25.29,0:00:27.68,Sample KM Duo [KIIRI],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k10}We {\k13}don’t {\k20}share {\k29}crowns, {\k15}we {\k28}toss {\k14}‘em
+Dialogue: 0,0:00:26.80,0:00:29.41,Sample KM Duo [KIIRI],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k23}Catch {\k21}me {\k21}if {\k19}you {\k10}can, {\k14}we {\k16}blos{\k27}som
+Dialogue: 0,0:00:28.31,0:00:30.71,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf130}ahh
+Dialogue: 0,0:00:29.61,0:00:33.29,Sample KM Duo [Kiara],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k16}I’m {\k14}on {\k14}a {\k127}roll, {\k17}too {\k28}much {\k42}bloom
+Dialogue: 0,0:00:30.46,0:00:34.14,Sample KM Duo [TIZ],,0,0,0,fx,{\k90\fad(300,200)}★ {\k11}Li{\k12}ving {\k23}the {\k19}chal{\k83}lenge, {\k11}to {\k26}e{\k11}ver {\k22}be {\k21}less, {\k19}ah
+Dialogue: 0,0:00:33.04,0:00:35.01,Sample KM Duo [Kiara],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k13}Count {\k32}me {\k42}in
+Dialogue: 0,0:00:33.69,0:00:36.41,Sample KM Duo [TIZ],,0,0,0,fx,{\k90\fad(300,200)}★ {\k22}Three, {\k45}two, {\k12}move {\k19}like {\k12}Va{\k32}nes{\k20}sa
+Dialogue: 0,0:00:35.44,0:00:38.04,Sample KM Duo [TIZ],,0,0,0,fx,{\k90\fad(300,200)}★ {\k21}Go {\k21}hard, {\k9}ne{\k16}ver {\k19}fold {\k9}un{\k18}der {\k25}pres{\k12}sure
+Dialogue: 0,0:00:36.94,0:00:39.44,Sample KM Duo [KIIRI],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k23}Don’t {\k18}care {\k47}who {\k19}star{\k14}ted {\k19}this
+Dialogue: 0,0:00:38.46,0:00:41.56,Sample KM Duo [KIIRI],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k42}I {\k24}ain’t {\k22}scared {\k20}of {\k33}fal{\k25}ling {\k34}hard
+Dialogue: 0,0:00:40.35,0:00:42.84,Sample KM Duo [Kiara],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k46}Uh-huh, {\k12}I {\k18}know {\k17}my {\k20}sta{\k26}tus
+Dialogue: 0,0:00:41.89,0:00:44.52,Sample KM Duo [Kiara],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k19}I{\k37}con, {\k22}lea{\k18}ding {\k15}the {\k42}way
+Dialogue: 0,0:00:43.81,0:00:47.46,Sample KM Duo [TIZ],,0,0,0,fx,{\k90\fad(300,200)}★ {\k48}Heart{\k42}beat {\k44}syncs {\k22}with {\k19}the {\k45}count{\k35}down
+Dialogue: 0,0:00:46.44,0:00:48.27,Sample KM Duo [TIZ],,0,0,0,fx,{\k90\fad(300,200)}★ {\k23}Three, {\k21}two, {\k29}one
+Dialogue: 0,0:00:47.34,0:00:50.86,Sample KM Duo [TIZ],,0,0,0,fx,{\k90\fad(300,200)}★ {\k40}Heart{\k43}beat {\k44}syncs {\k21}with {\k17}the {\k48}count{\k29}down
+Dialogue: 0,0:00:49.88,0:00:52.05,Sample KM Duo [TIZ],,0,0,0,fx,{\k90\fad(300,200)}★ {\k23}Three, {\k22}two, {\k21}one {\k22}right {\k19}now
+Dialogue: 0,0:00:50.95,0:00:54.08,Sample KM Duo [KIIRI],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k23}Wel{\k22}come {\k10}to {\k12}my {\k25}trau{\k39}ma, {\k23}queen {\k22}e{\k27}ra
+Dialogue: 0,0:00:52.92,0:00:54.53,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}E{\k30}ra!
+Dialogue: 0,0:00:53.34,0:00:55.74,Sample KM Duo [KIIRI],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k22}Crown {\k22}too {\k22}bright {\k12}in {\k10}the {\k21}mir{\k21}ror
+Dialogue: 0,0:00:54.84,0:00:56.69,Sample KM Duo [KIIRI],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k24}Can’t {\k27}break {\k24}us
+Dialogue: 0,0:00:55.72,0:00:57.47,Sample KM Duo [KIIRI],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k25}No {\k11}sa{\k29}vior
+Dialogue: 0,0:00:56.37,0:00:58.33,Sample KM Duo [KIIRI],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k10}Wel{\k11}come {\k11}to {\k11}my {\k22}trau{\k21}ma
+Dialogue: 0,0:00:57.23,0:01:00.39,Sample KM Duo [Kiara],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k43}Wild{\k31}fi{\k34}re, {\k22}yeah {\k18}we {\k23}just {\k24}star{\k11}ted
+Dialogue: 0,0:00:59.38,0:01:02.59,Sample KM Duo [Kiara],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k23}Vio{\k21}lent {\k22}hands {\k22}up {\k20}in {\k24}a {\k20}sky {\k22}so {\k37}high
+Dialogue: 0,0:01:01.54,0:01:04.27,Sample KM Duo [Kiara],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k24}Girls {\k15}on {\k26}fi{\k18}re, {\k25}stay {\k23}to{\k32}night
+Dialogue: 0,0:01:03.17,0:01:05.24,Sample KM Duo [Kiara],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k23}Su{\k30}gar {\k44}rush
+Dialogue: 0,0:01:04.14,0:01:07.82,Sample KM Duo [TIZ],,0,0,0,fx,{\k90\fad(300,200)}★ {\k44}Riot {\k60}ride, {\k25}che{\k20}mi{\k22}cal {\k21}po{\k18}wer, {\k28}try {\k20}it
+Dialogue: 0,0:01:06.72,0:01:11.01,Sample KM Duo [TIZ],,0,0,0,fx,{\k90\fad(300,200)}★ {\k23}Eve{\k22}ry {\k42}step {\k22}lou{\k17}der, {\k24}try{\k45}na {\k15}si{\k51}lence {\k58}us
+Dialogue: 0,0:01:09.91,0:01:12.10,Sample KM Duo [TIZ],,0,0,0,fx,{\k90\fad(300,200)}★ {\k18}We {\k30}mul{\k23}ti{\k38}ply
+Dialogue: 0,0:01:10.83,0:01:14.09,Sample KM Duo [KIIRI],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k26}Hands {\k84}up, {\k11}hol{\k9}ler, {\k11}un{\k10}der{\k31}stand {\k34}this
+Dialogue: 0,0:01:12.99,0:01:15.60,Sample KM Duo [KIIRI],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k22}Heart {\k43}beats {\k15}to {\k13}a {\k15}diffe{\k17}rent {\k14}rhy{\k12}thm
+Dialogue: 0,0:01:14.50,0:01:17.49,Sample KM Duo [KIIRI],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k19}E{\k12}ve{\k13}ry {\k43}move {\k16}got {\k14}‘em {\k13}jea{\k29}lous, {\k30}yeah
+Dialogue: 0,0:01:16.44,0:01:19.15,Sample KM Duo [KIIRI],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k28}Go {\k37}hard, {\k18}ain’t {\k11}gon{\k17}na {\k31}back {\k19}down
+Dialogue: 0,0:01:17.95,0:01:21.18,Sample KM Duo [Kiara],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k16}Lights {\k15}from {\k13}the {\k66}left, {\k22}flash {\k21}from {\k23}the {\k37}right
+Dialogue: 0,0:01:18.60,0:01:23.06,Sample KM Duo [TIZ],,0,0,0,fx,{\k90\fad(300,200)}★ {\k26}My {\k102}speed, {\k23}don’t {\k66}blink, {\k43}oh, {\k22}no {\k54}brakes
+Dialogue: 0,0:01:20.41,0:01:22.20,Sample KM Duo [Kiara],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k14}Whole {\k55}squad
+Dialogue: 0,0:01:21.79,0:01:24.80,Sample KM Duo [TIZ],,0,0,0,fx,{\k90\fad(300,200)}★ {\k5}The {\k21}whole {\k22}world’s {\k36}too {\k30}low {\k19}for {\k58}us
+Dialogue: 0,0:01:23.33,0:01:26.39,Sample KM Duo [Kiara],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k27}Count{\k44}down, {\k36}say {\k89}less
+Dialogue: 0,0:01:25.29,0:01:28.90,Sample KM Duo [TIZ],,0,0,0,fx,{\k90\fad(300,200)}★ {\k43}Heart{\k46}beat {\k41}syncs {\k22}with {\k19}the {\k45}count{\k35}down
+Dialogue: 0,0:01:27.88,0:01:29.82,Sample KM Duo [TIZ],,0,0,0,fx,{\k90\fad(300,200)}★ {\k22}Three, {\k22}two, {\k40}one
+Dialogue: 0,0:01:28.72,0:01:32.33,Sample KM Duo [TIZ],,0,0,0,fx,{\k90\fad(300,200)}★ {\k46}Heart{\k43}beat {\k42}syncs {\k23}with {\k18}the {\k46}count{\k33}down
+Dialogue: 0,0:01:31.31,0:01:33.49,Sample KM Duo [TIZ],,0,0,0,fx,{\k90\fad(300,200)}★ {\k24}Three, {\k22}two, {\k21}one {\k22}right {\k19}now
+Dialogue: 0,0:01:32.39,0:01:35.58,Sample KM Duo [Kiara],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k23}Wel{\k21}come {\k11}to {\k11}my {\k25}trau{\k38}ma, {\k25}queen {\k18}e{\k37}ra
+Dialogue: 0,0:01:34.30,0:01:35.88,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k27}E{\k21}ra!
+Dialogue: 0,0:01:34.78,0:01:36.74,Sample KM Duo [Kiara],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k21}Crown {\k23}too {\k20}bright {\k10}in {\k12}the
+Dialogue: 0,0:01:35.64,0:01:38.39,Sample KM Duo [Kiara],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k37}You’ll {\k29}re{\k44}mem{\k55}ber
+Dialogue: 0,0:01:37.11,0:01:39.77,Sample KM Duo [Kiara],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k27}We {\k54}shine {\k21}through {\k11}the {\k22}em{\k21}bers
+Dialogue: 0,0:01:38.67,0:01:41.93,Sample KM Duo [KIIRI],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k44}Wild{\k21}fi{\k41}re, {\k16}yeah {\k28}we {\k22}just {\k22}star{\k22}ted
+Dialogue: 0,0:01:40.83,0:01:44.09,Sample KM Duo [KIIRI],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k23}Vio{\k20}lent {\k23}hands {\k21}up {\k21}in {\k22}a {\k21}sky {\k22}so {\k43}high
+Dialogue: 0,0:01:42.99,0:01:45.70,Sample KM Duo [KIIRI],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k27}Girls {\k21}on {\k16}fi{\k22}re, {\k22}stay {\k21}to{\k32}night
+Dialogue: 0,0:01:44.60,0:01:46.68,Sample KM Duo [KIIRI],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k23}Su{\k32}gar {\k43}rush
+Dialogue: 0,0:01:45.58,0:01:49.25,Sample KM Duo [KIIRI],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k42}Riot {\k61}ride, {\k26}che{\k18}mi{\k23}cal {\k22}po{\k16}wer, {\k29}try {\k20}it
+Dialogue: 0,0:01:46.23,0:01:48.06,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Ah{\k52}-ha
+Dialogue: 0,0:01:48.15,0:01:52.44,Sample KM Duo [KIIRI],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k24}Eve{\k22}ry {\k37}step {\k27}lou{\k17}der, {\k29}try{\k41}na {\k19}si{\k45}lence {\k58}us
+Dialogue: 0,0:01:51.40,0:01:53.69,Sample KM Duo [KIIRI],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k13}We {\k31}mul{\k22}ti{\k53}ply
+Dialogue: 0,0:01:52.91,0:01:55.48,Sample KM Duo [Group],,0,0,0,fx,{\k90\fad(300,200)}{\k65}Uh {\k22}uh {\k60}uh
+Dialogue: 0,0:01:54.42,0:01:57.15,Sample KM Duo [Group],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Uh {\k22}uh {\k21}uh {\k22}uh {\k54}uh
+Dialogue: 0,0:01:56.37,0:01:59.61,Sample KM Duo [KIIRI],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k23}Hands {\k21}up {\k21}if {\k24}you {\k19}feel {\k22}that {\k21}au{\k22}ra {\k22}on {\k19}me
+Dialogue: 0,0:01:58.51,0:02:00.85,Sample KM Duo [TIZ],,0,0,0,fx,{\k90\fad(300,200)}★ {\k37}Down, {\k30}three, {\k22}two, {\k35}one
+Dialogue: 0,0:01:59.82,0:02:02.22,Sample KM Duo [Group],,0,0,0,fx,{\k90\fad(300,200)}{\k65}Uh {\k21}uh {\k44}uh
+Dialogue: 0,0:02:01.33,0:02:03.95,Sample KM Duo [Group],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Uh {\k22}uh {\k22}uh {\k21}uh {\k44}uh
+Dialogue: 0,0:02:03.27,0:02:05.78,Sample KM Duo [Kiara],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k22}Hear {\k22}’em {\k22}say {\k21}my {\k54}name
+Dialogue: 0,0:02:04.68,0:02:07.39,Sample KM Duo [Kiara],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k32}Queen {\k12}e{\k34}ra, {\k19}here {\k20}I {\k44}am
+Dialogue: 0,0:02:06.29,0:02:09.47,Sample KM Duo [Group],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Wild{\k19}fi{\k42}re, {\k23}yeah {\k22}we {\k24}just {\k23}star{\k11}ted
+Dialogue: 0,0:02:08.45,0:02:11.65,Sample KM Duo [Group],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Vio{\k19}lent {\k23}hands {\k21}up {\k24}in {\k19}a {\k21}sky {\k22}so {\k36}high
+Dialogue: 0,0:02:10.60,0:02:13.32,Sample KM Duo [Group],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Girls {\k23}on {\k17}fi{\k25}re, {\k22}stay {\k21}to{\k31}night
+Dialogue: 0,0:02:12.22,0:02:14.25,Sample KM Duo [Kiara],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k23}Su{\k33}gar {\k37}rush
+Dialogue: 0,0:02:13.15,0:02:16.85,Sample KM Duo [Group],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Riot {\k60}ride, {\k26}che{\k19}mi{\k22}cal {\k16}po{\k20}wer, {\k30}try {\k18}it
+Dialogue: 0,0:02:15.75,0:02:20.02,Sample KM Duo [Group],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Eve{\k22}ry {\k36}step {\k29}lou{\k13}der, {\k30}try{\k43}na {\k22}si{\k43}lence {\k53}us
+Dialogue: 0,0:02:18.81,0:02:21.19,Sample KM Duo [KIIRI],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k44}Boom {\k43}boom {\k41}boom
+Dialogue: 0,0:02:19.90,0:02:23.04,Sample KM Duo [Group],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Wel{\k22}come {\k9}to {\k11}my {\k29}trau{\k37}ma, {\k22}queen {\k17}e{\k36}ra
+Dialogue: 0,0:02:21.82,0:02:23.35,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k16}E{\k27}ra!
+Dialogue: 0,0:02:22.25,0:02:24.55,Sample KM Duo [Group],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Crown {\k22}too {\k22}bright {\k12}in {\k12}the {\k12}mir{\k16}ror
+Dialogue: 0,0:02:23.45,0:02:26.50,Sample KM Duo [Group],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Say {\k23}my {\k62}name, {\k24}it's {\k23}clea{\k32}rer
+Dialogue: 0,0:02:25.28,0:02:28.34,Sample KM Duo [Group],,0,0,0,fx,{\k90\fad(300,200)}{\k22}You {\k22}can {\k22}hate, {\k21}but {\k22}you’ll {\k21}re{\k23}mem{\k43}ber
+Dialogue: 0,0:02:26.80,0:02:29.95,Sample KM Duo [Group],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Wel{\k22}come {\k9}to {\k12}my {\k29}trau{\k35}ma, {\k19}queen {\k24}e{\k33}ra
+Dialogue: 0,0:02:28.73,0:02:30.26,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}E{\k20}ra!
+Dialogue: 0,0:02:29.16,0:02:31.56,Sample KM Duo [Group],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Crown {\k23}too {\k22}bright {\k12}in {\k9}the {\k21}mir{\k21}ror
+Dialogue: 0,0:02:30.46,0:02:33.90,Sample KM Duo [Group],,0,0,0,fx,{\k90\fad(300,200)}{\k23}All {\k22}those {\k20}try{\k44}na {\k19}si{\k46}lence {\k60}us
+Dialogue: 0,0:02:32.80,0:02:35.11,Sample KM Duo [Kiara],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k28}We {\k23}still {\k21}sur{\k49}vive
