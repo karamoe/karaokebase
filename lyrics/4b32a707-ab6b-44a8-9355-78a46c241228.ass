@@ -1,0 +1,38 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: live through our swordland
+Original Timing: HayatoKurokami
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:31.34,0:00:34.59,Sample KM [Up],,0,0,0,karaoke,{\k47}con{\k53}ti {\k42}an{\k65}tis{\k34}ta {\k38}a{\k46}ra
+Comment: 0,0:00:35.06,0:00:38.40,Sample KM [Up],,0,0,0,karaoke,{\k49}a{\k49}ri {\k39}ah {\k70}mis{\k68}ti{\k59}a
+Comment: 0,0:00:38.80,0:00:45.79,Sample KM [Up],,0,0,0,karaoke,{\k37}i{\k52}o{\k41}ri {\k72}ma{\k70}saa{\k44}ra {\k90}a{\k103}si{\k86}mi{\k104}a
+Comment: 0,0:01:20.74,0:01:24.26,Sample KM [Up],,0,0,0,karaoke,{\k94}kon{\k82}ti {\k105}sto{\k71}ra
+Comment: 0,0:01:24.45,0:01:27.94,Sample KM [Up],,0,0,0,karaoke,{\k92}ar{\k94}ti {\k88}a{\k75}sa
+Comment: 0,0:01:28.18,0:01:31.61,Sample KM [Up],,0,0,0,karaoke,{\k85}mor{\k92}ti {\k95}sto{\k71}ra
+Comment: 0,0:01:31.80,0:01:35.19,Sample KM [Up],,0,0,0,karaoke,{\k95}mi{\k92}di {\k91}mor{\k61}ti
+Comment: 0,0:01:35.54,0:01:38.85,Sample KM [Up],,0,0,0,karaoke,{\k89}kon{\k90}ti {\k97}sto{\k55}ra
+Comment: 0,0:01:39.19,0:01:42.64,Sample KM [Up],,0,0,0,karaoke,{\k94}kon{\k77}ti {\k109}sto{\k65}ra
+Comment: 0,0:01:42.89,0:01:46.29,Sample KM [Up],,0,0,0,karaoke,{\k93}ar{\k94}ti {\k91}a{\k62}sa
+Comment: 0,0:01:46.61,0:01:50.41,Sample KM [Up],,0,0,0,karaoke,{\k90}ir{\k94}vi {\k91}san{\k105}ti
+Dialogue: 0,0:00:30.44,0:00:34.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}con{\k53}ti {\k42}an{\k65}tis{\k34}ta {\k38}a{\k46}ra
+Dialogue: 0,0:00:34.16,0:00:38.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}a{\k49}ri {\k39}ah {\k70}mis{\k68}ti{\k59}a
+Dialogue: 0,0:00:37.90,0:00:45.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}i{\k52}o{\k41}ri {\k72}ma{\k70}saa{\k44}ra {\k90}a{\k103}si{\k86}mi{\k104}a
+Dialogue: 0,0:01:19.84,0:01:24.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k94}kon{\k82}ti {\k105}sto{\k71}ra
+Dialogue: 0,0:01:23.55,0:01:28.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k92}ar{\k94}ti {\k88}a{\k75}sa
+Dialogue: 0,0:01:27.28,0:01:31.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k85}mor{\k92}ti {\k95}sto{\k71}ra
+Dialogue: 0,0:01:30.90,0:01:35.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k95}mi{\k92}di {\k91}mor{\k61}ti
+Dialogue: 0,0:01:34.64,0:01:39.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k89}kon{\k90}ti {\k97}sto{\k55}ra
+Dialogue: 0,0:01:38.29,0:01:42.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k94}kon{\k77}ti {\k109}sto{\k65}ra
+Dialogue: 0,0:01:41.99,0:01:46.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k93}ar{\k94}ti {\k91}a{\k62}sa
+Dialogue: 0,0:01:45.71,0:01:50.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k90}ir{\k94}vi {\k91}san{\k105}ti
