@@ -1,0 +1,142 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: What Went Wrong
+Original Timing: NikoNikoD
+
+[Aegisub Project Garbage]
+Audio File: C:\Users\Kylian\AppData\Roaming\karaokemugen-app\app\repos\kara.moe\medias\720a75d8-2a36-4fdb-bcce-0edf3694f38d.mp4
+Video File: C:\Users\Kylian\AppData\Roaming\karaokemugen-app\app\repos\kara.moe\medias\720a75d8-2a36-4fdb-bcce-0edf3694f38d.mp4
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Stolas,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Octavia,Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Duo,Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Down],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.00,Sample KM [Down],,0,0,20,legend,{\k300}{\k0}{\rStolas}Stolas {\2cHFFFFFF}| {\rOctavia}Octavia {\2cHFFFFFF}| {\rDuo}Duo
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:03.43,0:00:05.97,Stolas,,0,0,0,karaoke,{\k39}My {\k79}star{\kf136}fire
+Comment: 0,0:00:07.02,0:00:08.99,Stolas,,0,0,0,karaoke,{\k22}There's {\k22}so {\k23}much {\k46}you {\k36}don't {\k48}know
+Comment: 0,0:00:08.99,0:00:11.58,Stolas,,0,0,0,karaoke,{\k28}That {\k38}you {\k43}can {\kf150}do
+Comment: 0,0:00:13.02,0:00:15.63,Stolas,,0,0,0,karaoke,{\k28}The {\k61}stars {\k16}were {\k35}made {\k18}to {\k46}share {\k21}with {\k36}you
+Comment: 0,0:00:15.63,0:00:18.58,Stolas,,0,0,0,karaoke,{\k33}Reach {\k81}in{\kf181}side
+Comment: 0,0:00:19.33,0:00:24.24,Stolas,,0,0,0,karaoke,{\k45}Name {\k22}the {\k34}he{\k35}si{\k35}ta{\k36}tion {\k44}trapped {\k44}with{\kf196}in
+Comment: 0,0:00:25.23,0:00:27.72,Stolas,,0,0,0,karaoke,{\k27}Un{\k24}lock {\k22}it {\k24}and {\k42}you'll {\k39}be{\k71}gin
+Comment: 0,0:00:28.28,0:00:31.19,Stolas,,0,0,0,karaoke,{\k23}To {\k41}find {\k16}the {\k58}words {\k35}con{\k41}quer {\k16}the {\k61}thoughts
+Comment: 0,0:00:31.19,0:00:33.92,Stolas,,0,0,0,karaoke,{\k17}That {\k50}blocked {\k32}you {\k55}all {\k18}a{\kf101}long
+Comment: 0,0:00:34.39,0:00:36.78,Stolas,,0,0,0,karaoke,{\k21}A {\k33}fi{\k19}re {\k57}lives {\k34}in{\k36}side {\k39}you
+Comment: 0,0:00:37.05,0:00:39.96,Stolas,,0,0,0,karaoke,{\k28}Light {\k29}the {\k41}spark {\k18}and {\k37}you'll {\k51}be {\k87}strong
+Comment: 0,0:00:40.44,0:00:43.20,Stolas,,0,0,0,karaoke,{\k22}I'll {\k29}help {\k30}you {\k73}look {\k23}with{\k18}in {\k30}your{\k51}self
+Comment: 0,0:00:43.42,0:00:48.20,Stolas,,0,0,0,karaoke,{\k25}So {\k34}tell {\k22}me {\k92}child {\k44}what {\k77}went {\kf184}wrong
+Comment: 0,0:00:47.82,0:00:49.24,Octavia,,0,0,0,karaoke,{\k44\i1}What {\k42}went {\k56}wrong?{\i0}
+Comment: 0,0:00:49.82,0:00:51.91,Octavia,,0,0,0,karaoke,{\k81\i1}Ugh, {\k18}you {\k26}should {\k31}know {\k53}that!{\i0}
+Comment: 0,0:00:52.28,0:00:53.38,Stolas,,0,0,0,karaoke,{\k16\i1}I {\k13}don't {\k14}un{\k26}der{\k41}stand{\i0}
+Comment: 0,0:00:53.38,0:00:55.94,Octavia,,0,0,0,karaoke,{\k120\i1}I, {\k16}I {\k11}al{\k30}most {\k39}lost {\k40}you!{\i0}
+Comment: 0,0:00:56.66,0:00:57.34,Stolas,,0,0,0,karaoke,{\k29\i1}Vi{\k39}a!{\i0}
+Comment: 0,0:00:58.60,0:01:01.16,Octavia,,0,0,0,karaoke,{\k17}Do {\k14}you {\k42}know {\k31}how {\k38}it {\kf114}feels
+Comment: 0,0:01:01.74,0:01:04.13,Octavia,,0,0,0,karaoke,{\k23}To {\k35}not {\k27}have {\k48}a {\kf106}voice
+Comment: 0,0:01:04.58,0:01:07.23,Octavia,,0,0,0,karaoke,{\k35}No {\k41}one {\k23}a{\k50}round {\k27}to {\k35}lis{\k54}ten
+Comment: 0,0:01:07.23,0:01:10.47,Octavia,,0,0,0,karaoke,{\k18}When {\k43}I {\k56}scream {\k33}in{\k36}to {\k23}the {\kf115}void
+Comment: 0,0:01:10.69,0:01:13.52,Octavia,,0,0,0,karaoke,{\k17}Do {\k19}you {\k41}know {\k27}what {\k48}it {\kf131}does
+Comment: 0,0:01:13.67,0:01:16.14,Octavia,,0,0,0,karaoke,{\k20}To {\k20}your {\k20}lit{\k42}tle {\k55}ow{\k90}lette
+Comment: 0,0:01:16.58,0:01:18.23,Octavia,,0,0,0,karaoke,{\k18}When {\k30}you {\k30}said {\k36}you'd {\k51}stay
+Comment: 0,0:01:18.23,0:01:22.32,Octavia,,0,0,0,karaoke,{\k21}Then {\k32}took {\k58}your{\k44}self {\k22}a{\k70}way {\k19}did {\k37}you {\k26}for{\k80}get
+Comment: 0,0:01:22.99,0:01:25.86,Octavia,,0,0,0,karaoke,{\k20}You {\k38}say {\k24}you {\k54}wan{\k16}na {\k55}clean {\k27}the {\k53}slate
+Comment: 0,0:01:25.86,0:01:28.32,Octavia,,0,0,0,karaoke,{\k20}And {\k52}make {\k25}it {\k55}bet{\k19}ter {\k75}now
+Comment: 0,0:01:28.91,0:01:30.60,Octavia,,0,0,0,karaoke,{\k36}But {\k28}how {\k14}the {\k22}hell {\k13}am {\k20}I {\k17}sup{\k19}posed
+Comment: 0,0:01:30.62,0:01:33.15,Octavia,,0,0,0,karaoke,{\k18}To {\k19}know {\k16}you {\k18}give {\k22}a {\k28}shit {\k15}a{\k34}bout {\k83}me
+Comment: 0,0:01:33.67,0:01:36.39,Octavia,,0,0,0,karaoke,{\k15}When {\k23}all {\k18}you've {\k26}ev{\k12}er {\k71}done {\k37}is {\k70}leave
+Comment: 0,0:01:36.70,0:01:38.78,Octavia,,0,0,0,karaoke,{\k19}It's {\k19}like {\k21}you {\k16}nev{\k18}er {\k23}think {\k18}a{\k27}bout {\k47}me
+Comment: 0,0:01:38.78,0:01:40.46,Octavia,,0,0,0,karaoke,{\k25}It's {\k50}all {\k20}a{\k34}bout {\k39}you
+Comment: 0,0:01:40.46,0:01:42.59,Octavia,,0,0,0,karaoke,{\k20}And {\k19}you {\k36}can't {\k61}see {\k19}me {\k58}here
+Comment: 0,0:01:42.59,0:01:44.76,Octavia,,0,0,0,karaoke,{\k18}With{\k31}out {\k59}you {\k22}when {\k33}you're {\k54}gone
+Comment: 0,0:01:45.01,0:01:49.55,Octavia,,0,0,0,karaoke,{\k22}Thought {\k20}you {\k36}were {\k79}gone {\k18}for{\k40}ev{\k23}er {\kf216}gone
+Comment: 0,0:01:49.97,0:01:55.34,Octavia,,0,0,0,karaoke,{\k22}So {\k40}don't {\k43}ask {\k68}me {\k72}what {\k72}went {\kf220}wrong
+Comment: 0,0:01:56.18,0:01:58.66,Stolas,,0,0,0,karaoke,{\k26}Do {\k20}you {\k38}know {\k26}how {\k42}it {\kf96}feels
+Comment: 0,0:01:59.42,0:02:01.93,Stolas,,0,0,0,karaoke,{\k26}To {\k30}live {\k24}with{\k40}out {\kf131}choice
+Comment: 0,0:02:02.33,0:02:05.31,Stolas,,0,0,0,karaoke,{\k32}Do {\k25}an{\k34}y{\k49}thing {\k30}to {\k52}numb {\k20}the {\k56}pain
+Comment: 0,0:02:05.55,0:02:08.14,Stolas,,0,0,0,karaoke,{\k20}What{\k27}ev{\k26}er {\k22}it {\k36}des{\kf128}troys
+Comment: 0,0:02:08.37,0:02:10.71,Stolas,,0,0,0,karaoke,{\k20}Do {\k19}you {\k43}know {\k25}what {\k43}it {\k84}does
+Comment: 0,0:02:11.37,0:02:13.81,Stolas,,0,0,0,karaoke,{\k26}To {\k27}dis{\k43}guise {\k23}who {\k40}you {\k85}are
+Comment: 0,0:02:14.37,0:02:17.06,Stolas,,0,0,0,karaoke,{\k45}To {\k26}thi{\k35}cken {\k41}up {\k44}your {\k47}skin {\k31}'til
+Comment: 0,0:02:17.06,0:02:19.77,Stolas,,0,0,0,karaoke,{\k32}Eve{\k36}ry {\k31}sin{\k29}gle {\k27}inch {\k42}is {\k74}scarred
+Comment: 0,0:02:20.51,0:02:23.08,Stolas,,0,0,0,karaoke,{\k43}Yet {\k37}all {\k20}of {\k54}these {\k28}ex{\k50}cu{\k25}ses
+Comment: 0,0:02:23.08,0:02:25.94,Stolas,,0,0,0,karaoke,{\k52}Don't {\k25}ex{\k54}cuse {\k18}the {\k58}way {\k24}I {\k55}act
+Comment: 0,0:02:26.51,0:02:28.93,Stolas,,0,0,0,karaoke,{\k31}Can't {\k25}re{\k29}write {\k24}the {\k39}way {\k34}I {\k60}left
+Comment: 0,0:02:28.93,0:02:32.08,Stolas,,0,0,0,karaoke,{\k34}But {\k27}now {\k51}I {\k38}al{\k37}ways {\k30}will {\k43}come {\k55}back
+Comment: 0,0:02:32.62,0:02:35.00,Stolas,,0,0,0,karaoke,{\k21}I {\k24}re{\k41}gret {\k27}the {\k50}life {\k26}I {\k49}led
+Comment: 0,0:02:35.00,0:02:37.99,Stolas,,0,0,0,karaoke,{\k21}The {\k37}things {\k34}I {\k57}said {\k24}the {\k53}owl {\k27}I {\k46}am
+Comment: 0,0:02:38.66,0:02:41.07,Stolas,,0,0,0,karaoke,{\k28}Vi{\k21}a {\k41}you're {\k21}the {\k37}on{\k36}ly {\k57}thing
+Comment: 0,0:02:41.07,0:02:45.75,Stolas,,0,0,0,karaoke,{\k33}I {\k27}ev{\k34}er {\k49}did {\k42}that's {\k38}worth {\k22}a {\kf223}damn
+Comment: 0,0:02:46.13,0:02:49.01,Stolas,,0,0,0,karaoke,{\k39}Help {\k23}me {\k21}to {\k50}turn {\k22}a {\k43}new {\k90}page
+Comment: 0,0:02:49.18,0:02:52.56,Octavia,,0,0,0,karaoke,{\k40}May{\k34}be {\k80}I {\kf184}can
+Comment: 0,0:02:52.92,0:02:55.91,Octavia,,0,0,0,karaoke,{\k29}If {\k23}you {\k28}are {\k35}hear{\k28}ing {\k28}me {\k24}in {\k22}a {\k39}new {\k43}way
+Comment: 0,0:02:55.91,0:02:59.18,Duo,,0,0,0,karaoke,{\k38}You {\k25}o{\k24}pen {\k31}my {\k57}eyes {\k26}you're {\k33}see{\k27}ing {\k18}me {\k48}now
+Comment: 0,0:02:59.32,0:03:03.73,Duo,,0,0,0,karaoke,{\k25}We're {\k29}sing{\k22}ing {\k27}the {\k49}same {\k24}bit{\k35}ter{\k50}sweet {\kf180}song
+Comment: 0,0:03:04.48,0:03:12.44,Duo,,0,0,0,karaoke,{\k49}I'm {\k64}still {\k69}here {\k29}no {\k27}mat{\k64}ter {\k80}what {\k79}went {\kf335}wrong
+Dialogue: 0,0:00:02.53,0:00:06.17,Stolas,,0,0,0,fx,{\k90\fad(300,200)}{\k39}My {\k79}star{\kf136}fire
+Dialogue: 0,0:00:06.12,0:00:09.19,Stolas,,0,0,0,fx,{\k90\fad(300,200)}{\k22}There's {\k22}so {\k23}much {\k46}you {\k36}don't {\k48}know
+Dialogue: 0,0:00:08.09,0:00:11.78,Stolas,,0,0,0,fx,{\k90\fad(300,200)}{\k28}That {\k38}you {\k43}can {\kf150}do
+Dialogue: 0,0:00:12.12,0:00:15.83,Stolas,,0,0,0,fx,{\k90\fad(300,200)}{\k28}The {\k61}stars {\k16}were {\k35}made {\k18}to {\k46}share {\k21}with {\k36}you
+Dialogue: 0,0:00:14.73,0:00:18.78,Stolas,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Reach {\k81}in{\kf181}side
+Dialogue: 0,0:00:18.43,0:00:24.44,Stolas,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Name {\k22}the {\k34}he{\k35}si{\k35}ta{\k36}tion {\k44}trapped {\k44}with{\kf196}in
+Dialogue: 0,0:00:24.33,0:00:27.92,Stolas,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Un{\k24}lock {\k22}it {\k24}and {\k42}you'll {\k39}be{\k71}gin
+Dialogue: 0,0:00:27.38,0:00:31.39,Stolas,,0,0,0,fx,{\k90\fad(300,200)}{\k23}To {\k41}find {\k16}the {\k58}words {\k35}con{\k41}quer {\k16}the {\k61}thoughts
+Dialogue: 0,0:00:30.29,0:00:34.12,Stolas,,0,0,0,fx,{\k90\fad(300,200)}{\k17}That {\k50}blocked {\k32}you {\k55}all {\k18}a{\kf101}long
+Dialogue: 0,0:00:33.49,0:00:36.98,Stolas,,0,0,0,fx,{\k90\fad(300,200)}{\k21}A {\k33}fi{\k19}re {\k57}lives {\k34}in{\k36}side {\k39}you
+Dialogue: 0,0:00:36.15,0:00:40.16,Stolas,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Light {\k29}the {\k41}spark {\k18}and {\k37}you'll {\k51}be {\k87}strong
+Dialogue: 0,0:00:39.54,0:00:43.40,Stolas,,0,0,0,fx,{\k90\fad(300,200)}{\k22}I'll {\k29}help {\k30}you {\k73}look {\k23}with{\k18}in {\k30}your{\k51}self
+Dialogue: 0,0:00:42.52,0:00:48.40,Stolas,,0,0,0,fx,{\k90\fad(300,200)}{\k25}So {\k34}tell {\k22}me {\k92}child {\k44}what {\k77}went {\kf184}wrong
+Dialogue: 0,0:00:46.92,0:00:49.44,Octavia,,0,0,0,fx,{\k90\fad(300,200)}{\k44\i1}What {\k42}went {\k56}wrong?{\i0}
+Dialogue: 0,0:00:48.92,0:00:52.11,Octavia,,0,0,0,fx,{\k90\fad(300,200)}{\k81\i1}Ugh, {\k18}you {\k26}should {\k31}know {\k53}that!{\i0}
+Dialogue: 0,0:00:51.38,0:00:53.58,Stolas,,0,0,0,fx,{\k90\fad(300,200)}{\k16\i1}I {\k13}don't {\k14}un{\k26}der{\k41}stand{\i0}
+Dialogue: 0,0:00:52.48,0:00:56.14,Octavia,,0,0,0,fx,{\k90\fad(300,200)}{\k120\i1}I, {\k16}I {\k11}al{\k30}most {\k39}lost {\k40}you!{\i0}
+Dialogue: 0,0:00:55.76,0:00:57.54,Stolas,,0,0,0,fx,{\k90\fad(300,200)}{\k29\i1}Vi{\k39}a!{\i0}
+Dialogue: 0,0:00:57.70,0:01:01.36,Octavia,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Do {\k14}you {\k42}know {\k31}how {\k38}it {\kf114}feels
+Dialogue: 0,0:01:00.84,0:01:04.33,Octavia,,0,0,0,fx,{\k90\fad(300,200)}{\k23}To {\k35}not {\k27}have {\k48}a {\kf106}voice
+Dialogue: 0,0:01:03.68,0:01:07.43,Octavia,,0,0,0,fx,{\k90\fad(300,200)}{\k35}No {\k41}one {\k23}a{\k50}round {\k27}to {\k35}lis{\k54}ten
+Dialogue: 0,0:01:06.33,0:01:10.67,Octavia,,0,0,0,fx,{\k90\fad(300,200)}{\k18}When {\k43}I {\k56}scream {\k33}in{\k36}to {\k23}the {\kf115}void
+Dialogue: 0,0:01:09.79,0:01:13.72,Octavia,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Do {\k19}you {\k41}know {\k27}what {\k48}it {\kf131}does
+Dialogue: 0,0:01:12.77,0:01:16.34,Octavia,,0,0,0,fx,{\k90\fad(300,200)}{\k20}To {\k20}your {\k20}lit{\k42}tle {\k55}ow{\k90}lette
+Dialogue: 0,0:01:15.68,0:01:18.43,Octavia,,0,0,0,fx,{\k90\fad(300,200)}{\k18}When {\k30}you {\k30}said {\k36}you'd {\k51}stay
+Dialogue: 0,0:01:17.33,0:01:22.52,Octavia,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Then {\k32}took {\k58}your{\k44}self {\k22}a{\k70}way {\k19}did {\k37}you {\k26}for{\k80}get
+Dialogue: 0,0:01:22.09,0:01:26.06,Octavia,,0,0,0,fx,{\k90\fad(300,200)}{\k20}You {\k38}say {\k24}you {\k54}wan{\k16}na {\k55}clean {\k27}the {\k53}slate
+Dialogue: 0,0:01:24.96,0:01:28.52,Octavia,,0,0,0,fx,{\k90\fad(300,200)}{\k20}And {\k52}make {\k25}it {\k55}bet{\k19}ter {\k75}now
+Dialogue: 0,0:01:28.01,0:01:30.80,Octavia,,0,0,0,fx,{\k90\fad(300,200)}{\k36}But {\k28}how {\k14}the {\k22}hell {\k13}am {\k20}I {\k17}sup{\k19}posed
+Dialogue: 0,0:01:29.72,0:01:33.35,Octavia,,0,0,0,fx,{\k90\fad(300,200)}{\k18}To {\k19}know {\k16}you {\k18}give {\k22}a {\k28}shit {\k15}a{\k34}bout {\k83}me
+Dialogue: 0,0:01:32.77,0:01:36.59,Octavia,,0,0,0,fx,{\k90\fad(300,200)}{\k15}When {\k23}all {\k18}you've {\k26}ev{\k12}er {\k71}done {\k37}is {\k70}leave
+Dialogue: 0,0:01:35.80,0:01:38.98,Octavia,,0,0,0,fx,{\k90\fad(300,200)}{\k19}It's {\k19}like {\k21}you {\k16}nev{\k18}er {\k23}think {\k18}a{\k27}bout {\k47}me
+Dialogue: 0,0:01:37.88,0:01:40.66,Octavia,,0,0,0,fx,{\k90\fad(300,200)}{\k25}It's {\k50}all {\k20}a{\k34}bout {\k39}you
+Dialogue: 0,0:01:39.56,0:01:42.79,Octavia,,0,0,0,fx,{\k90\fad(300,200)}{\k20}And {\k19}you {\k36}can't {\k61}see {\k19}me {\k58}here
+Dialogue: 0,0:01:41.69,0:01:44.96,Octavia,,0,0,0,fx,{\k90\fad(300,200)}{\k18}With{\k31}out {\k59}you {\k22}when {\k33}you're {\k54}gone
+Dialogue: 0,0:01:44.11,0:01:49.75,Octavia,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Thought {\k20}you {\k36}were {\k79}gone {\k18}for{\k40}ev{\k23}er {\kf216}gone
+Dialogue: 0,0:01:49.07,0:01:55.54,Octavia,,0,0,0,fx,{\k90\fad(300,200)}{\k22}So {\k40}don't {\k43}ask {\k68}me {\k72}what {\k72}went {\kf220}wrong
+Dialogue: 0,0:01:55.28,0:01:58.86,Stolas,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Do {\k20}you {\k38}know {\k26}how {\k42}it {\kf96}feels
+Dialogue: 0,0:01:58.52,0:02:02.13,Stolas,,0,0,0,fx,{\k90\fad(300,200)}{\k26}To {\k30}live {\k24}with{\k40}out {\kf131}choice
+Dialogue: 0,0:02:01.43,0:02:05.51,Stolas,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Do {\k25}an{\k34}y{\k49}thing {\k30}to {\k52}numb {\k20}the {\k56}pain
+Dialogue: 0,0:02:04.65,0:02:08.34,Stolas,,0,0,0,fx,{\k90\fad(300,200)}{\k20}What{\k27}ev{\k26}er {\k22}it {\k36}des{\kf128}troys
+Dialogue: 0,0:02:07.47,0:02:10.91,Stolas,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Do {\k19}you {\k43}know {\k25}what {\k43}it {\k84}does
+Dialogue: 0,0:02:10.47,0:02:14.01,Stolas,,0,0,0,fx,{\k90\fad(300,200)}{\k26}To {\k27}dis{\k43}guise {\k23}who {\k40}you {\k85}are
+Dialogue: 0,0:02:13.47,0:02:17.26,Stolas,,0,0,0,fx,{\k90\fad(300,200)}{\k45}To {\k26}thi{\k35}cken {\k41}up {\k44}your {\k47}skin {\k31}'til
+Dialogue: 0,0:02:16.16,0:02:19.97,Stolas,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Eve{\k36}ry {\k31}sin{\k29}gle {\k27}inch {\k42}is {\k74}scarred
+Dialogue: 0,0:02:19.61,0:02:23.28,Stolas,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Yet {\k37}all {\k20}of {\k54}these {\k28}ex{\k50}cu{\k25}ses
+Dialogue: 0,0:02:22.18,0:02:26.14,Stolas,,0,0,0,fx,{\k90\fad(300,200)}{\k52}Don't {\k25}ex{\k54}cuse {\k18}the {\k58}way {\k24}I {\k55}act
+Dialogue: 0,0:02:25.61,0:02:29.13,Stolas,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Can't {\k25}re{\k29}write {\k24}the {\k39}way {\k34}I {\k60}left
+Dialogue: 0,0:02:28.03,0:02:32.28,Stolas,,0,0,0,fx,{\k90\fad(300,200)}{\k34}But {\k27}now {\k51}I {\k38}al{\k37}ways {\k30}will {\k43}come {\k55}back
+Dialogue: 0,0:02:31.72,0:02:35.20,Stolas,,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k24}re{\k41}gret {\k27}the {\k50}life {\k26}I {\k49}led
+Dialogue: 0,0:02:34.10,0:02:38.19,Stolas,,0,0,0,fx,{\k90\fad(300,200)}{\k21}The {\k37}things {\k34}I {\k57}said {\k24}the {\k53}owl {\k27}I {\k46}am
+Dialogue: 0,0:02:37.76,0:02:41.27,Stolas,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Vi{\k21}a {\k41}you're {\k21}the {\k37}on{\k36}ly {\k57}thing
+Dialogue: 0,0:02:40.17,0:02:45.95,Stolas,,0,0,0,fx,{\k90\fad(300,200)}{\k33}I {\k27}ev{\k34}er {\k49}did {\k42}that's {\k38}worth {\k22}a {\kf223}damn
+Dialogue: 0,0:02:45.23,0:02:49.21,Stolas,,0,0,0,fx,{\k90\fad(300,200)}{\k39}Help {\k23}me {\k21}to {\k50}turn {\k22}a {\k43}new {\k90}page
+Dialogue: 0,0:02:48.28,0:02:52.76,Octavia,,0,0,0,fx,{\k90\fad(300,200)}{\k40}May{\k34}be {\k80}I {\kf184}can
+Dialogue: 0,0:02:52.02,0:02:56.11,Octavia,,0,0,0,fx,{\k90\fad(300,200)}{\k29}If {\k23}you {\k28}are {\k35}hear{\k28}ing {\k28}me {\k24}in {\k22}a {\k39}new {\k43}way
+Dialogue: 0,0:02:55.01,0:02:59.38,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k38}You {\k25}o{\k24}pen {\k31}my {\k57}eyes {\k26}you're {\k33}see{\k27}ing {\k18}me {\k48}now
+Dialogue: 0,0:02:58.42,0:03:03.93,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k25}We're {\k29}sing{\k22}ing {\k27}the {\k49}same {\k24}bit{\k35}ter{\k50}sweet {\kf180}song
+Dialogue: 0,0:03:03.58,0:03:12.64,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k49}I'm {\k64}still {\k69}here {\k29}no {\k27}mat{\k64}ter {\k80}what {\k79}went {\kf335}wrong
