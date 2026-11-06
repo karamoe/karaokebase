@@ -1,0 +1,91 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Nod-Krai
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:01.19,0:00:07.03,Sample KM [Up],,0,0,0,karaoke,{\k85}A {\k80}lu{\k115}na {\k37}ca{\k77}ra {\k33}can{\k42}ti{\kf115}ca
+Comment: 0,0:00:07.55,0:00:13.01,Sample KM [Up],,0,0,0,karaoke,{\k74}Ne {\k84}me {\k37}in {\k34}a{\k84}tra {\k81}de{\kf152}das
+Comment: 0,0:00:13.77,0:00:19.68,Sample KM [Up],,0,0,0,karaoke,{\k85}A{\k79}ves {\k120}ex {\k36}ur{\k81}be {\k38}au{\k48}re{\kf104}a~
+Comment: 0,0:00:20.16,0:00:26.00,Sample KM [Up],,0,0,0,karaoke,{\k80}Fer{\k82}te {\k28}in{\k41}di{\k51}ci{\k43}a {\k54}me{\kf205}a~
+Comment: 0,0:00:28.03,0:00:33.95,Sample KM [Up],,0,0,0,karaoke,{\k82}A{\k76}ves {\kf111}fer{\k41}te {\kf113}can{\k42}tam {\k81}ca{\k46}ra
+Comment: 0,0:00:34.40,0:00:40.17,Sample KM [Up],,0,0,0,karaoke,{\k39}Ut {\k34}lu{\k46}ge{\k39}am {\kf107}et {\k44}fa{\k82}ta {\k41}ma{\kf145}la
+Comment: 0,0:00:40.69,0:00:46.62,Sample KM [Up],,0,0,0,karaoke,{\k77}Num {\k78}in {\kf111}im{\k50}mun{\kf112}do{\k42}rum {\k53}te{\k32}r{\k38}ra
+Comment: 0,0:00:46.98,0:00:54.28,Sample KM [Up],,0,0,0,karaoke,{\k48}Cla{\k36}vus {\k38}il{\k44}le {\k106}ad{\k43}huc {\k44}cla{\k35}u{\k45}dit {\k62}pi{\kf229}a~
+Comment: 0,0:00:58.79,0:01:02.85,Sample KM [Choir],,0,0,0,karaoke,{\k33}Quan{\k27}do {\k26}tan{\k30}de{\k30}m {\k29}ca{\k30}re{\k27}bi{\k32}mus {\k28}tan{\k28}ta {\k16}mi{\k17}se{\k24}ri{\k29}a
+Comment: 0,0:01:03.46,0:01:07.59,Sample KM [Choir],,0,0,0,karaoke,{\k31}Quo{\k25}m {\k32}pa{\k31}tri{\k26}a {\k29}va{\k29}s{\k14}ta{\k12}ta {\k34}nunc {\k28}ia{\k27}cet {\k18}sub {\k15}ur{\k28}ti{\k34}cis
+Comment: 0,0:01:07.62,0:01:09.77,Sample KM [Choir],,0,0,0,karaoke,{\k19}U{\k30}bi {\k33}es {\k14}be{\k13}ni{\k29}gna {\k14}do{\k14}mi{\k29}n{\k20}a
+Comment: 0,0:01:09.87,0:01:12.08,Sample KM [Choir],,0,0,0,karaoke,{\k29}Cur {\k28}non {\k31}mit{\k14}tis {\k16}lu{\k14}cem {\k13}al{\k15}mam {\k14}tu{\k31}a{\k16}m
+Comment: 0,0:01:12.20,0:01:14.47,Sample KM [Choir],,0,0,0,karaoke,{\k31}Ec{\k28}ce {\k25}ter{\k17}ra {\k17}in{\k26}fe{\k14}li{\k18}x {\k28}a{\k23}tra
+Comment: 0,0:01:14.52,0:01:16.76,Sample KM [Choir],,0,0,0,karaoke,{\k32}Ve{\k28}ri{\k15}tas {\k16}con{\k25}tra {\k16}fal{\k15}sa {\k30}ne{\k30}qui{\k17}t
+Comment: 0,0:01:16.97,0:01:19.13,Sample KM [Choir],,0,0,0,karaoke,{\k21}Lu{\k26}na {\k32}do{\k14}mi{\k15}na {\k29}quo {\k13}ad{\k15}du{\k29}ce{\k22}s
+Comment: 0,0:01:19.18,0:01:21.53,Sample KM [Choir],,0,0,0,karaoke,{\k34}Per{\k25}ge{\k34}mus {\k12}quo{\k13}cum{\k28}que {\k15}ad{\k15}du{\k32}ce{\k27}s
+Comment: 0,0:01:21.53,0:01:23.87,Sample KM [Choir],,0,0,0,karaoke,{\k29}Po{\k28}tius {\k32}nox {\k12}te{\k15}gat {\k28}lu{\k30}mi{\k60}na
+Comment: 0,0:01:23.87,0:01:26.14,Sample KM [Choir],,0,0,0,karaoke,{\k27}Qu{\k28}am {\k14}in {\k15}fal{\k30}sa {\k15}lu{\k16}ce {\k25}es{\k34}s{\k23}e
+Comment: 0,0:02:22.06,0:02:24.33,Sample KM [Choir],,0,0,0,karaoke,{\k38}Car{\k25}men {\k31}tris{\k16}te {\k15}nos {\k24}non {\k17}ca{\k14}ni{\k24}mu{\k23}s
+Comment: 0,0:02:24.43,0:02:26.72,Sample KM [Choir],,0,0,0,karaoke,{\k25}Et{\k29}si {\k28}flen{\k21}tes {\k14}pro {\k16}nos{\k11}tro{\k10}rum {\k22}ma{\k26}l{\k27}o
+Comment: 0,0:02:26.72,0:02:29.03,Sample KM [Choir],,0,0,0,karaoke,{\k28}Sеd {\k31}non {\k31}la{\k13}cri{\k14}ma {\k30}tol{\k18}lit {\k16}du{\k29}r{\k21}a
+Comment: 0,0:02:29.09,0:02:31.34,Sample KM [Choir],,0,0,0,karaoke,{\k28}Pa{\k26}tria {\k21}som{\k15}no {\k28}non {\k14}po{\k14}test {\k28}red{\k27}d{\k24}i
+Comment: 0,0:02:31.42,0:02:33.64,Sample KM [Choir],,0,0,0,karaoke,{\k28}Il{\k31}la {\k25}vinc{\k29}ta {\k18}fu{\k13}it {\k15}pre{\k17}s{\k29}s{\k17}a
+Comment: 0,0:02:33.75,0:02:35.98,Sample KM [Choir],,0,0,0,karaoke,{\k29}Tеc{\k29}ta {\k29}au{\k16}re{\k12}a {\k18}vo{\k14}ra{\k26}vit {\k30}flam{\k20}ma
+Comment: 0,0:02:36.06,0:02:38.40,Sample KM [Choir],,0,0,0,karaoke,{\k30}Sed {\k29}re{\k33}nas{\k28}ce{\k16}tur {\k15}rur{\k25}su{\k58}m
+Comment: 0,0:02:38.43,0:02:41.01,Sample KM [Choir],,0,0,0,karaoke,{\k27}Re{\k29}di{\k14}bit {\k16}nos {\k29}la{\k17}rem {\k12}du{\k24}cet {\k58}sp{\k32}e
+Comment: 0,0:02:52.97,0:02:54.32,Sample KM [Up],,0,0,0,karaoke,{\k30}Ae{\k31}rum{\k36}no{\k38}sae?
+Comment: 0,0:02:57.25,0:02:58.75,Sample KM [Up],,0,0,0,karaoke,{\k27}Ae{\k38}rum{\k35}no{\k50}sae?
+Comment: 0,0:03:01.46,0:03:03.17,Sample KM [Up],,0,0,0,karaoke,{\k16}Cur {\k37}la{\k44}cri{\k29}mo{\k45}sae?
+Comment: 0,0:03:04.85,0:03:06.50,Sample KM [Up],,0,0,0,karaoke,{\k19}Cui {\k32}la{\k39}cri{\k37}mo{\k38}sae?
+Comment: 0,0:03:08.09,0:03:12.53,Sample KM [Up],,0,0,0,karaoke,{\k62}Lu{\k55}na {\k89}cla{\k30}ras {\k86}ter{\k31}ras {\k27}lus{\k30}t{\k34}ra
+Comment: 0,0:03:12.77,0:03:17.01,Sample KM [Up],,0,0,0,karaoke,{\k32}Si{\k25}cut {\k33}a{\k28}ves {\k87}per {\k30}um{\k55}bras {\k30}vo{\k31}l{\k73}a
+Comment: 0,0:03:17.44,0:03:21.84,Sample KM [Up],,0,0,0,karaoke,{\k59}Et {\k56}un{\k89}da {\k29}vas{\k84}ta {\k32}foe{\k29}da {\k32}pur{\k30}ga
+Comment: 0,0:03:22.08,0:03:26.76,Sample KM [Up],,0,0,0,karaoke,{\k34}Pro {\k26}tur{\k29}ba {\k30}fi{\k77}da {\k39}spem {\k32}cras{\k28}ti{\k27}nam {\k30}ser{\kf116}va
+Comment: 0,0:03:29.09,0:03:38.09,Sample KM [Up],,0,0,0,karaoke,{\k59}A {\k57}lu{\k121}na {\k87}no{\k25}va {\k61}sur{\k111}gat {\k58}lu{\k61}na {\k57}pu{\k58}ra {\k62}cas{\k83}ta
+Comment: 0,0:03:38.43,0:03:48.98,Sample KM [Up],,0,0,0,karaoke,{\k54}Fu{\k62}gi{\kf101}o {\kf128}ae{\k59}rum{\k114}nam {\k62}te{\k59}cum {\k63}nul{\k53}la {\k60}fle{\kf240}ta
+Comment: 0,0:04:06.58,0:04:11.06,Sample KM [Up],,0,0,0,karaoke,{\k51}Sub {\k38}lu{\k64}na {\k25}rursus {\k33}fi{\k80}et {\k35}cla{\k27}ra {\k33}ter{\k62}ra
+Dialogue: 0,0:00:00.29,0:00:07.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k85}A {\k80}lu{\k115}na {\k37}ca{\k77}ra {\k33}can{\k42}ti{\kf115}ca
+Dialogue: 0,0:00:06.65,0:00:13.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k74}Ne {\k84}me {\k37}in {\k34}a{\k84}tra {\k81}de{\kf152}das
+Dialogue: 0,0:00:12.87,0:00:19.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k85}A{\k79}ves {\k120}ex {\k36}ur{\k81}be {\k38}au{\k48}re{\kf104}a~
+Dialogue: 0,0:00:19.26,0:00:26.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k80}Fer{\k82}te {\k28}in{\k41}di{\k51}ci{\k43}a {\k54}me{\kf205}a~
+Dialogue: 0,0:00:27.13,0:00:34.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k82}A{\k76}ves {\kf111}fer{\k41}te {\kf113}can{\k42}tam {\k81}ca{\k46}ra
+Dialogue: 0,0:00:33.50,0:00:40.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Ut {\k34}lu{\k46}ge{\k39}am {\kf107}et {\k44}fa{\k82}ta {\k41}ma{\kf145}la
+Dialogue: 0,0:00:39.79,0:00:46.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k77}Num {\k78}in {\kf111}im{\k50}mun{\kf112}do{\k42}rum {\k53}te{\k32}r{\k38}ra
+Dialogue: 0,0:00:46.08,0:00:54.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Cla{\k36}vus {\k38}il{\k44}le {\k106}ad{\k43}huc {\k44}cla{\k35}u{\k45}dit {\k62}pi{\kf229}a~
+Dialogue: 0,0:00:57.89,0:01:03.05,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Quan{\k27}do {\k26}tan{\k30}de{\k30}m {\k29}ca{\k30}re{\k27}bi{\k32}mus {\k28}tan{\k28}ta {\k16}mi{\k17}se{\k24}ri{\k29}a
+Dialogue: 0,0:01:02.56,0:01:07.79,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Quo{\k25}m {\k32}pa{\k31}tri{\k26}a {\k29}va{\k29}s{\k14}ta{\k12}ta {\k34}nunc {\k28}ia{\k27}cet {\k18}sub {\k15}ur{\k28}ti{\k34}cis
+Dialogue: 0,0:01:06.72,0:01:09.97,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k19}U{\k30}bi {\k33}es {\k14}be{\k13}ni{\k29}gna {\k14}do{\k14}mi{\k29}n{\k20}a
+Dialogue: 0,0:01:08.97,0:01:12.28,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Cur {\k28}non {\k31}mit{\k14}tis {\k16}lu{\k14}cem {\k13}al{\k15}mam {\k14}tu{\k31}a{\k16}m
+Dialogue: 0,0:01:11.30,0:01:14.67,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Ec{\k28}ce {\k25}ter{\k17}ra {\k17}in{\k26}fe{\k14}li{\k18}x {\k28}a{\k23}tra
+Dialogue: 0,0:01:13.62,0:01:16.96,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Ve{\k28}ri{\k15}tas {\k16}con{\k25}tra {\k16}fal{\k15}sa {\k30}ne{\k30}qui{\k17}t
+Dialogue: 0,0:01:16.07,0:01:19.33,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Lu{\k26}na {\k32}do{\k14}mi{\k15}na {\k29}quo {\k13}ad{\k15}du{\k29}ce{\k22}s
+Dialogue: 0,0:01:18.28,0:01:21.73,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Per{\k25}ge{\k34}mus {\k12}quo{\k13}cum{\k28}que {\k15}ad{\k15}du{\k32}ce{\k27}s
+Dialogue: 0,0:01:20.63,0:01:24.07,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Po{\k28}tius {\k32}nox {\k12}te{\k15}gat {\k28}lu{\k30}mi{\k60}na
+Dialogue: 0,0:01:22.97,0:01:26.34,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Qu{\k28}am {\k14}in {\k15}fal{\k30}sa {\k15}lu{\k16}ce {\k25}es{\k34}s{\k23}e
+Dialogue: 0,0:02:21.16,0:02:24.53,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Car{\k25}men {\k31}tris{\k16}te {\k15}nos {\k24}non {\k17}ca{\k14}ni{\k24}mu{\k23}s
+Dialogue: 0,0:02:23.53,0:02:26.92,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Et{\k29}si {\k28}flen{\k21}tes {\k14}pro {\k16}nos{\k11}tro{\k10}rum {\k22}ma{\k26}l{\k27}o
+Dialogue: 0,0:02:25.82,0:02:29.23,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Sеd {\k31}non {\k31}la{\k13}cri{\k14}ma {\k30}tol{\k18}lit {\k16}du{\k29}r{\k21}a
+Dialogue: 0,0:02:28.19,0:02:31.54,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Pa{\k26}tria {\k21}som{\k15}no {\k28}non {\k14}po{\k14}test {\k28}red{\k27}d{\k24}i
+Dialogue: 0,0:02:30.52,0:02:33.84,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Il{\k31}la {\k25}vinc{\k29}ta {\k18}fu{\k13}it {\k15}pre{\k17}s{\k29}s{\k17}a
+Dialogue: 0,0:02:32.85,0:02:36.18,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Tеc{\k29}ta {\k29}au{\k16}re{\k12}a {\k18}vo{\k14}ra{\k26}vit {\k30}flam{\k20}ma
+Dialogue: 0,0:02:35.16,0:02:38.60,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Sed {\k29}re{\k33}nas{\k28}ce{\k16}tur {\k15}rur{\k25}su{\k58}m
+Dialogue: 0,0:02:37.53,0:02:41.21,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Re{\k29}di{\k14}bit {\k16}nos {\k29}la{\k17}rem {\k12}du{\k24}cet {\k58}sp{\k32}e
+Dialogue: 0,0:02:52.07,0:02:54.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Ae{\k31}rum{\k36}no{\k38}sae?
+Dialogue: 0,0:02:56.35,0:02:58.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Ae{\k38}rum{\k35}no{\k50}sae?
+Dialogue: 0,0:03:00.56,0:03:03.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Cur {\k37}la{\k44}cri{\k29}mo{\k45}sae?
+Dialogue: 0,0:03:03.95,0:03:06.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Cui {\k32}la{\k39}cri{\k37}mo{\k38}sae?
+Dialogue: 0,0:03:07.19,0:03:12.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k62}Lu{\k55}na {\k89}cla{\k30}ras {\k86}ter{\k31}ras {\k27}lus{\k30}t{\k34}ra
+Dialogue: 0,0:03:11.87,0:03:17.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Si{\k25}cut {\k33}a{\k28}ves {\k87}per {\k30}um{\k55}bras {\k30}vo{\k31}l{\k73}a
+Dialogue: 0,0:03:16.54,0:03:22.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k59}Et {\k56}un{\k89}da {\k29}vas{\k84}ta {\k32}foe{\k29}da {\k32}pur{\k30}ga
+Dialogue: 0,0:03:21.18,0:03:26.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Pro {\k26}tur{\k29}ba {\k30}fi{\k77}da {\k39}spem {\k32}cras{\k28}ti{\k27}nam {\k30}ser{\kf116}va
+Dialogue: 0,0:03:28.19,0:03:38.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k59}A {\k57}lu{\k121}na {\k87}no{\k25}va {\k61}sur{\k111}gat {\k58}lu{\k61}na {\k57}pu{\k58}ra {\k62}cas{\k83}ta
+Dialogue: 0,0:03:37.53,0:03:49.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k54}Fu{\k62}gi{\kf101}o {\kf128}ae{\k59}rum{\k114}nam {\k62}te{\k59}cum {\k63}nul{\k53}la {\k60}fle{\kf240}ta
+Dialogue: 0,0:04:05.68,0:04:11.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k51}Sub {\k38}lu{\k64}na {\k25}rursus {\k33}fi{\k80}et {\k35}cla{\k27}ra {\k33}ter{\k62}ra
