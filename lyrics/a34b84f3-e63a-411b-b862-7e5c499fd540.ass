@@ -1,0 +1,31 @@
+﻿[Script Info]
+Title: Iori - Kizuna
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
+Original Timing: Kylian
+LayoutResX: 0
+LayoutResY: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,24,&H006F72F0,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:05.47,Default,,0,0,0,karaoke,{\kf103}sou {\k102}{\k23}a{\k24}ru{\kf144}ku {\k53}mi{\k98}chi
+Comment: 0,0:00:05.82,0:00:13.21,Default,,0,0,0,karaoke,{\k30}na{\k29}ki {\kf143}na{\k98}ga{\k49}ra {\k39}{\k32}ma{\k26}yo{\kf142}t{\k51}te {\k100}mo
+Comment: 0,0:00:13.63,0:00:20.89,Default,,0,0,0,karaoke,{\k25}te {\k24}wo {\kf147}no{\k41}ba{\kf151}se{\k49}ba {\k151}i{\k40}tsu {\k98}mo
+Comment: 0,0:00:21.42,0:00:29.15,Default,,0,0,0,karaoke,{\k41}a{\kf149}na{\k47}ta {\k103}ga {\k43}{\k49}i{\kf341}ta
+Comment: 0,0:00:29.65,0:00:36.82,Default,,0,0,0,karaoke,{\k189}tsu{\k192}yo{\k194}ku{\kf142}te
+Comment: 0,0:00:37.31,0:00:44.28,Default,,0,0,0,karaoke,{\k186}ya{\k148}sa{\k22}shi{\k34}ku{\kf307}te
+Dialogue: 0,0:00:00.00,0:00:05.67,Default,,0,0,0,fx,{\k0\fad(0,200)}{\kf103}sou {\k102}{\k23}a{\k24}ru{\kf144}ku {\k53}mi{\k98}chi
+Dialogue: 0,0:00:04.92,0:00:13.41,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k30}na{\k29}ki {\kf143}na{\k98}ga{\k49}ra {\k39}{\k32}ma{\k26}yo{\kf142}t{\k51}te {\k100}mo
+Dialogue: 0,0:00:12.73,0:00:21.09,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}te {\k24}wo {\kf147}no{\k41}ba{\kf151}se{\k49}ba {\k151}i{\k40}tsu {\k98}mo
+Dialogue: 0,0:00:20.52,0:00:29.35,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k41}a{\kf149}na{\k47}ta {\k103}ga {\k43}{\k49}i{\kf341}ta
+Dialogue: 0,0:00:28.75,0:00:37.02,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k189}tsu{\k192}yo{\k194}ku{\kf142}te
+Dialogue: 0,0:00:36.41,0:00:44.48,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k186}ya{\k148}sa{\k22}shi{\k34}ku{\kf307}te
