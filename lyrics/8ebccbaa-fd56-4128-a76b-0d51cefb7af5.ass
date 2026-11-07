@@ -1,0 +1,57 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Cast to Damnation
+Original Timing: HayatoKurokami
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:10.71,0:00:12.89,Sample KM [Choir],,0,0,0,karaoke,{\k39}Is {\k46}it {\k36}a {\k44}vi{\k53}sion?
+Comment: 0,0:00:13.16,0:00:15.22,Sample KM [Choir],,0,0,0,karaoke,{\k45}Cast {\k41}to {\k40}dam{\k43}na{\k37}tion
+Comment: 0,0:00:15.63,0:00:17.74,Sample KM [Choir],,0,0,0,karaoke,{\k45}Guil{\k49}ty {\k38}of {\k31}mas{\k14}te{\k34}ring
+Comment: 0,0:00:17.81,0:00:20.24,Sample KM [Choir],,0,0,0,karaoke,{\k35}The {\k45}syn{\k44}chro{\k37}ni{\k40}za{\k42}tion
+Comment: 0,0:00:40.64,0:00:43.10,Sample KM [Up],,0,0,0,karaoke,{\k32}When {\k13}the {\k22}dust {\k16}has {\k23}set{\k22}tled {\k15}on {\k27}the {\k23}fi{\k17}nal {\k22}bat{\k14}tle
+Comment: 0,0:00:43.14,0:00:44.95,Sample KM [Up],,0,0,0,karaoke,{\k21}Bring {\k22}the {\k22}end {\k17}to {\k25}all {\k18}the {\k25}vio{\k31}lence
+Comment: 0,0:00:45.64,0:00:48.10,Sample KM [Up],,0,0,0,karaoke,{\k26}Mi{\k18}se{\k23}ry {\k18}of {\k27}fa{\k19}ble {\k21}tur{\k19}ning {\k19}to {\k20}des{\k19}truc{\k17}tion
+Comment: 0,0:00:48.16,0:00:50.01,Sample KM [Up],,0,0,0,karaoke,{\k25}Suf{\k19}fe{\k20}ring {\k20}with {\k18}bro{\k24}ken {\k14}si{\k45}lence
+Comment: 0,0:00:50.69,0:00:53.17,Sample KM [Up],,0,0,0,karaoke,{\k22}When {\k18}the {\k23}dust {\k16}has {\k23}set{\k25}tled {\k19}on {\k20}the {\k22}fi{\k19}nal {\k21}bat{\k20}tle
+Comment: 0,0:00:53.19,0:00:54.99,Sample KM [Up],,0,0,0,karaoke,{\k15}Bring {\k23}the {\k22}end {\k20}to {\k25}all {\k22}the {\k17}vio{\k36}lence
+Comment: 0,0:00:55.68,0:00:58.09,Sample KM [Up],,0,0,0,karaoke,{\k22}Mi{\k19}se{\k21}ry {\k24}of {\k25}fa{\k18}ble {\k27}tur{\k13}ning {\k20}to {\k12}des{\k23}truc{\k17}tion
+Comment: 0,0:00:58.17,0:00:59.98,Sample KM [Up],,0,0,0,karaoke,{\k25}Suf{\k22}fe{\k15}ring {\k22}with {\k17}bro{\k25}ken {\k21}si{\k34}lence
+Comment: 0,0:01:20.67,0:01:22.83,Sample KM [Choir],,0,0,0,karaoke,{\k42}Drow{\k47}ning {\k38}in {\k44}sor{\k45}row
+Comment: 0,0:01:23.17,0:01:25.23,Sample KM [Choir],,0,0,0,karaoke,{\k49}No {\k35}one {\k43}to {\k47}fol{\k32}low
+Comment: 0,0:01:25.67,0:01:27.45,Sample KM [Choir],,0,0,0,karaoke,{\k38}No {\k49}time {\k40}to {\k51}run
+Comment: 0,0:01:27.77,0:01:30.23,Sample KM [Choir],,0,0,0,karaoke,{\k41}The {\k41}de{\k46}fy {\k36}of {\k42}na{\k40}tion
+Comment: 0,0:01:30.74,0:01:32.76,Sample KM [Choir],,0,0,0,karaoke,{\k40}Is {\k41}it {\k38}a {\k44}vi{\k39}sion?
+Comment: 0,0:01:33.15,0:01:35.21,Sample KM [Choir],,0,0,0,karaoke,{\k51}Cast {\k38}to {\k44}dam{\k39}na{\k34}tion
+Comment: 0,0:01:35.66,0:01:37.65,Sample KM [Choir],,0,0,0,karaoke,{\k45}Guil{\k46}ty {\k36}of {\k28}mas{\k18}te{\k26}ring
+Comment: 0,0:01:37.74,0:01:40.19,Sample KM [Choir],,0,0,0,karaoke,{\k41}The {\k42}syn{\k48}chro{\k39}ni{\k42}za{\k33}tion
+Dialogue: 0,0:00:09.81,0:00:13.09,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Is {\k46}it {\k36}a {\k44}vi{\k53}sion?
+Dialogue: 0,0:00:12.26,0:00:15.42,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Cast {\k41}to {\k40}dam{\k43}na{\k37}tion
+Dialogue: 0,0:00:14.73,0:00:17.94,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Guil{\k49}ty {\k38}of {\k31}mas{\k14}te{\k34}ring
+Dialogue: 0,0:00:16.91,0:00:20.44,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k35}The {\k45}syn{\k44}chro{\k37}ni{\k40}za{\k42}tion
+Dialogue: 0,0:00:39.74,0:00:43.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}When {\k13}the {\k22}dust {\k16}has {\k23}set{\k22}tled {\k15}on {\k27}the {\k23}fi{\k17}nal {\k22}bat{\k14}tle
+Dialogue: 0,0:00:42.24,0:00:45.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Bring {\k22}the {\k22}end {\k17}to {\k25}all {\k18}the {\k25}vio{\k31}lence
+Dialogue: 0,0:00:44.74,0:00:48.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Mi{\k18}se{\k23}ry {\k18}of {\k27}fa{\k19}ble {\k21}tur{\k19}ning {\k19}to {\k20}des{\k19}truc{\k17}tion
+Dialogue: 0,0:00:47.26,0:00:50.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Suf{\k19}fe{\k20}ring {\k20}with {\k18}bro{\k24}ken {\k14}si{\k45}lence
+Dialogue: 0,0:00:49.79,0:00:53.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}When {\k18}the {\k23}dust {\k16}has {\k23}set{\k25}tled {\k19}on {\k20}the {\k22}fi{\k19}nal {\k21}bat{\k20}tle
+Dialogue: 0,0:00:52.29,0:00:55.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Bring {\k23}the {\k22}end {\k20}to {\k25}all {\k22}the {\k17}vio{\k36}lence
+Dialogue: 0,0:00:54.78,0:00:58.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Mi{\k19}se{\k21}ry {\k24}of {\k25}fa{\k18}ble {\k27}tur{\k13}ning {\k20}to {\k12}des{\k23}truc{\k17}tion
+Dialogue: 0,0:00:57.27,0:01:00.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Suf{\k22}fe{\k15}ring {\k22}with {\k17}bro{\k25}ken {\k21}si{\k34}lence
+Dialogue: 0,0:01:19.77,0:01:23.03,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Drow{\k47}ning {\k38}in {\k44}sor{\k45}row
+Dialogue: 0,0:01:22.27,0:01:25.43,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k49}No {\k35}one {\k43}to {\k47}fol{\k32}low
+Dialogue: 0,0:01:24.77,0:01:27.65,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}No {\k49}time {\k40}to {\k51}run
+Dialogue: 0,0:01:26.87,0:01:30.43,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k41}The {\k41}de{\k46}fy {\k36}of {\k42}na{\k40}tion
+Dialogue: 0,0:01:29.84,0:01:32.96,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Is {\k41}it {\k38}a {\k44}vi{\k39}sion?
+Dialogue: 0,0:01:32.25,0:01:35.41,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k51}Cast {\k38}to {\k44}dam{\k39}na{\k34}tion
+Dialogue: 0,0:01:34.76,0:01:37.85,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Guil{\k46}ty {\k36}of {\k28}mas{\k18}te{\k26}ring
+Dialogue: 0,0:01:36.84,0:01:40.39,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k41}The {\k42}syn{\k48}chro{\k39}ni{\k42}za{\k33}tion
