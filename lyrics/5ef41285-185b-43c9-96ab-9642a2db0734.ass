@@ -1,0 +1,37 @@
+﻿[Script Info]
+Title: Hotarubi
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: KuroSensei
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default - Kanji,Arial,24,&H00FFFFFF,&H005757FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,3,2,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default - Kanji,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:21.71,0:00:27.71,Default - Kanji,,0,0,0,karaoke,{\k51}明{\k47}滅{\k57}す{\k58}る　{\k48}ど{\k44}っか{\k15}ゆ{\k49}ら{\k45}り　{\k159}囁{\k27}く
+Comment: 0,0:00:28.08,0:00:30.05,Default - Kanji,,0,0,0,karaoke,{\k197}声
+Comment: 0,0:00:30.12,0:00:38.39,Default - Kanji,,0,0,0,karaoke,{\k166}光{\k51}と{\k101}陽{\k60}炎{\k46}は{\k110}静{\k54}か{\k39}に{\k17}混{\k52}ざ{\k55}り{\k51}合{\k25}う
+Comment: 0,0:00:40.52,0:00:48.70,Default - Kanji,,0,0,0,karaoke,{\k56}咲{\k40}き{\k74}乱{\k23}れ{\k77}る{\k113}炎　{\k135}闇{\k62}を{\k75}染{\k35}め{\k40}上{\k35}げ{\k53}た
+Comment: 0,0:00:48.87,0:00:54.23,Default - Kanji,,0,0,0,karaoke,{\k38}そ{\k39}れ{\k31}は{\k118}高{\k126}く{\k33}立{\k28}ち{\k83}昇{\k40}り
+Comment: 0,0:00:54.41,0:01:00.52,Default - Kanji,,0,0,0,karaoke,{\k84}全{\k35}て{\k67}を{\k75}焼{\k69}き{\k141}払{\k35}っ{\k105}た
+Comment: 0,0:01:00.86,0:01:04.86,Default - Kanji,,0,0,0,karaoke,{\k41}積{\k32}み{\k18}上{\k47}げ{\k72}た{\k36}過{\k30}去{\k30}の{\k49}日{\k45}々
+Comment: 0,0:01:05.10,0:01:09.16,Default - Kanji,,0,0,0,karaoke,{\k78}繋{\k20}ぎ{\k31}留{\k14}め{\k71}た{\k65}思{\k24}い{\k31}出{\k72}達
+Comment: 0,0:01:09.37,0:01:13.42,Default - Kanji,,0,0,0,karaoke,{\k79}瞬{\k58}き{\k74}に{\k38}投{\k30}げ{\k27}入{\k46}れ{\k53}た
+Comment: 0,0:01:13.59,0:01:18.06,Default - Kanji,,0,0,0,karaoke,{\k67}戻{\k22}ら{\k32}ぬ{\k20}よう{\k69}に　{\k69}戻{\k22}ら{\k34}ぬ{\k21}よう{\k91}に
+Dialogue: 0,0:00:20.81,0:00:27.91,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k51}明{\k47}滅{\k57}す{\k58}る　{\k48}ど{\k44}っか{\k15}ゆ{\k49}ら{\k45}り　{\k159}囁{\k27}く
+Dialogue: 0,0:00:27.18,0:00:30.25,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k197}声
+Dialogue: 0,0:00:29.22,0:00:38.59,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k166}光{\k51}と{\k101}陽{\k60}炎{\k46}は{\k110}静{\k54}か{\k39}に{\k17}混{\k52}ざ{\k55}り{\k51}合{\k25}う
+Dialogue: 0,0:00:39.62,0:00:48.90,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k56}咲{\k40}き{\k74}乱{\k23}れ{\k77}る{\k113}炎　{\k135}闇{\k62}を{\k75}染{\k35}め{\k40}上{\k35}げ{\k53}た
+Dialogue: 0,0:00:47.97,0:00:54.43,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k38}そ{\k39}れ{\k31}は{\k118}高{\k126}く{\k33}立{\k28}ち{\k83}昇{\k40}り
+Dialogue: 0,0:00:53.51,0:01:00.72,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k84}全{\k35}て{\k67}を{\k75}焼{\k69}き{\k141}払{\k35}っ{\k105}た
+Dialogue: 0,0:00:59.96,0:01:05.06,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k41}積{\k32}み{\k18}上{\k47}げ{\k72}た{\k36}過{\k30}去{\k30}の{\k49}日{\k45}々
+Dialogue: 0,0:01:04.20,0:01:09.36,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k78}繋{\k20}ぎ{\k31}留{\k14}め{\k71}た{\k65}思{\k24}い{\k31}出{\k72}達
+Dialogue: 0,0:01:08.47,0:01:13.62,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k79}瞬{\k58}き{\k74}に{\k38}投{\k30}げ{\k27}入{\k46}れ{\k53}た
+Dialogue: 0,0:01:12.69,0:01:18.26,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k67}戻{\k22}ら{\k32}ぬ{\k20}よう{\k69}に　{\k69}戻{\k22}ら{\k34}ぬ{\k21}よう{\k91}に
