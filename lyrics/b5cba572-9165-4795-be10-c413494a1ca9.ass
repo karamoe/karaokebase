@@ -1,0 +1,69 @@
+﻿[Script Info]
+Title: Pink Pony Club
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: piharatamo, ono3000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Eimi,Arial,24,&H00FFFFFF,&H0056B5F8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.31,0:00:03.94,Eimi,,0,0,0,karaoke,{\k6}To{\k34}day {\k34}I {\k34}don't {\k34}feel {\k30}like {\k39}do{\k33}ing {\k49}a{\k21}ny{\k49}thing
+Comment: 0,0:00:05.85,0:00:09.25,Eimi,,0,0,0,karaoke,{\k33}I {\k35}just {\k35}wan{\k34}na {\k33}lay {\k34}in {\k36}my {\k69}bed
+Comment: 0,0:00:11.00,0:00:13.91,Eimi,,0,0,0,karaoke,{\k33}A{\k34}no{\k34}ther {\k29}day {\k33}where {\k27}e{\k30}vil {\k71}wins
+Comment: 0,0:00:13.70,0:00:16.30,Eimi,,0,0,0,karaoke,{\k37}So {\k33}bump {\k23}my {\k31}d{\k37}ms {\k32}with {\k31}a {\k36}ping
+Comment: 0,0:00:16.44,0:00:20.24,Eimi,,0,0,0,karaoke,{\k22}'Cause {\k11}to{\k39}day, {\k33}I {\k35}swear, {\k35}I'm {\k34}not {\k35}do{\k33}ing {\k53}a{\k17}ny{\k33}thing
+Comment: 0,0:00:21.26,0:00:21.50,Eimi,,0,0,0,karaoke,{\k24}Ugh
+Comment: 0,0:00:21.84,0:00:23.31,Eimi,,0,0,0,karaoke,{\k16}I'm {\k16}gon{\k14}na {\k20}bun{\k15}dle {\k33}up {\k35}good
+Comment: 0,0:00:23.31,0:00:24.95,Eimi,,0,0,0,karaoke,{\k30}and {\k27}hide {\k29}in {\k19}my {\k34}roo{\k25}~oom
+Comment: 0,0:00:24.95,0:00:26.07,Eimi,,0,0,0,karaoke,{\k28}Scrol{\k15}ling {\k21}on {\k13}my {\k34}phone
+Comment: 0,0:00:26.07,0:00:27.76,Eimi,,0,0,0,karaoke,{\k21}then {\k14}I'd {\k28}wake {\k25}up {\k16}at {\k34}noo{\k34}~oon
+Comment: 0,0:00:27.79,0:00:31.20,Eimi,,0,0,0,karaoke,{\k34}No{\k33}bo{\k33}dy's {\k28}gonn {\k42}tell {\k34}me {\k34}I {\k36}ca{\k67}~an't
+Comment: 0,0:00:32.23,0:00:34.28,Eimi,,0,0,0,karaoke,{\k70}Nah, {\k17}I'll {\k17}play {\k20}all {\k10}my {\k18}co{\k12}zy {\k41}slop
+Comment: 0,0:00:34.28,0:00:35.85,Eimi,,0,0,0,karaoke,{\k19}And {\k17}there's {\k28}no {\k21}need {\k17}to {\k29}wor{\k26}ry
+Comment: 0,0:00:36.03,0:00:38.59,Eimi,,0,0,0,karaoke,{\k12}They're {\k13}all {\k27}c{\k12}b{\k35}tsi {\k21}hav{\k16}en't {\k18}logged {\k16}on {\k22}Ma{\k11}bi{\k22}no{\k31}gi
+Comment: 0,0:00:38.59,0:00:43.04,Eimi,,0,0,0,karaoke,{\k18}Cause {\k33}in {\k33}my {\k35}whee{\k34}~eel, {\k35}I'm {\k34}the {\k33}freak{\k59}ing {\k47}ha{\k84}~am
+Comment: 0,0:00:43.56,0:00:46.83,Eimi,,0,0,0,karaoke,{\k36}Oh{\k33}~ {\k34}yes {\k29}I {\k32}said {\k74}it, {\k24}I {\k35}said {\k30}it
+Comment: 0,0:00:46.83,0:00:48.74,Eimi,,0,0,0,karaoke,{\k12}I {\k30}said {\k26}it {\k36}cause {\k27}I'm {\k60}ham :3
+Comment: 0,0:00:49.55,0:00:53.50,Eimi,,0,0,0,karaoke,{\k17}To{\k35}day {\k33}I {\k27}don't {\k42}feel {\k34}like {\k34}do{\k27}ing {\k58}a{\k19}ny{\k69}thing
+Comment: 0,0:00:55.23,0:00:58.51,Eimi,,0,0,0,karaoke,{\k34}I {\k29}just {\k39}wan{\k33}na {\k35}lay {\k33}in {\k35}my {\k90}bed
+Comment: 0,0:01:00.37,0:01:03.27,Eimi,,0,0,0,karaoke,{\k34}A{\k33}no{\k34}ther {\k24}day {\k28}where {\k33}e{\k35}vil {\k69}wins
+Comment: 0,0:01:03.27,0:01:05.82,Eimi,,0,0,0,karaoke,{\k18}So {\k34}bump {\k19}my {\k33}d{\k38}ms {\k30}with {\k17}a {\k66}ping
+Comment: 0,0:01:05.82,0:01:09.93,Eimi,,0,0,0,karaoke,{\k36}'Cause {\k20}to{\k14}day, {\k24}I {\k45}swear, {\k35}I'm {\k34}not {\k33}do{\k35}ing {\k52}a{\k18}ny{\k65}thing
+Comment: 0,0:01:10.30,0:01:12.01,Eimi,,0,0,0,karaoke,{\k38}Noth{\k35}ing {\k36}at {\k62}all
+Comment: 0,0:01:12.01,0:01:15.46,Eimi,,0,0,0,karaoke,{\k34}Woo{\k35}hoo{\k66}~, {\k36}Woo{\k36}hoo{\k34}~{\k34}~{\k33}~{\k37}~!
+Comment: 0,0:01:15.78,0:01:17.51,Eimi,,0,0,0,karaoke,{\k34}Noth{\k35}ing {\k35}at {\k69}all
+Comment: 0,0:01:17.51,0:01:21.28,Eimi,,0,0,0,karaoke,{\k33}Woo{\k34}hoo{\k69}~, {\k34}Woo{\k36}hoo{\k34}~{\k33}~{\k34}~{\k70}~!
+Comment: 0,0:01:21.28,0:01:22.94,Eimi,,0,0,0,karaoke,{\k33}Noth{\k34}ing {\k35}at {\k64}all
+Dialogue: 1,0:00:00.00,0:00:04.14,Eimi,,0,0,0,fx,{\k31\fad(310,200)}{\k6}To{\k34}day {\k34}I {\k34}don't {\k34}feel {\k30}like {\k39}do{\k33}ing {\k49}a{\k21}ny{\k49}thing
+Dialogue: 1,0:00:04.95,0:00:09.45,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k33}I {\k35}just {\k35}wan{\k34}na {\k33}lay {\k34}in {\k36}my {\k69}bed
+Dialogue: 1,0:00:10.10,0:00:14.11,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k33}A{\k34}no{\k34}ther {\k29}day {\k33}where {\k27}e{\k30}vil {\k71}wins
+Dialogue: 1,0:00:12.80,0:00:16.50,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k37}So {\k33}bump {\k23}my {\k31}d{\k37}ms {\k32}with {\k31}a {\k36}ping
+Dialogue: 1,0:00:15.54,0:00:20.44,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k22}'Cause {\k11}to{\k39}day, {\k33}I {\k35}swear, {\k35}I'm {\k34}not {\k35}do{\k33}ing {\k53}a{\k17}ny{\k33}thing
+Dialogue: 1,0:00:20.36,0:00:21.70,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Ugh
+Dialogue: 1,0:00:20.94,0:00:23.51,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k16}I'm {\k16}gon{\k14}na {\k20}bun{\k15}dle {\k33}up {\k35}good
+Dialogue: 1,0:00:22.41,0:00:25.15,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k30}and {\k27}hide {\k29}in {\k19}my {\k34}roo{\k25}~oom
+Dialogue: 1,0:00:24.05,0:00:26.27,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Scrol{\k15}ling {\k21}on {\k13}my {\k34}phone
+Dialogue: 1,0:00:25.17,0:00:27.96,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k21}then {\k14}I'd {\k28}wake {\k25}up {\k16}at {\k34}noo{\k34}~oon
+Dialogue: 1,0:00:26.89,0:00:31.40,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k34}No{\k33}bo{\k33}dy's {\k28}gonn {\k42}tell {\k34}me {\k34}I {\k36}ca{\k67}~an't
+Dialogue: 1,0:00:31.33,0:00:34.48,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k70}Nah, {\k17}I'll {\k17}play {\k20}all {\k10}my {\k18}co{\k12}zy {\k41}slop
+Dialogue: 1,0:00:33.38,0:00:36.05,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k19}And {\k17}there's {\k28}no {\k21}need {\k17}to {\k29}wor{\k26}ry
+Dialogue: 1,0:00:35.13,0:00:38.79,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k12}They're {\k13}all {\k27}c{\k12}b{\k35}tsi {\k21}hav{\k16}en't {\k18}logged {\k16}on {\k22}Ma{\k11}bi{\k22}no{\k31}gi
+Dialogue: 1,0:00:37.69,0:00:43.24,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Cause {\k33}in {\k33}my {\k35}whee{\k34}~eel, {\k35}I'm {\k34}the {\k33}freak{\k59}ing {\k47}ha{\k84}~am
+Dialogue: 1,0:00:42.66,0:00:47.03,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Oh{\k33}~ {\k34}yes {\k29}I {\k32}said {\k74}it, {\k24}I {\k35}said {\k30}it
+Dialogue: 1,0:00:45.93,0:00:48.94,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k12}I {\k30}said {\k26}it {\k36}cause {\k27}I'm {\k60}ham :3
+Dialogue: 1,0:00:48.65,0:00:53.70,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k17}To{\k35}day {\k33}I {\k27}don't {\k42}feel {\k34}like {\k34}do{\k27}ing {\k58}a{\k19}ny{\k69}thing
+Dialogue: 1,0:00:54.33,0:00:58.71,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k34}I {\k29}just {\k39}wan{\k33}na {\k35}lay {\k33}in {\k35}my {\k90}bed
+Dialogue: 1,0:00:59.47,0:01:03.47,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k34}A{\k33}no{\k34}ther {\k24}day {\k28}where {\k33}e{\k35}vil {\k69}wins
+Dialogue: 1,0:01:02.37,0:01:06.02,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k18}So {\k34}bump {\k19}my {\k33}d{\k38}ms {\k30}with {\k17}a {\k66}ping
+Dialogue: 1,0:01:04.92,0:01:10.13,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k36}'Cause {\k20}to{\k14}day, {\k24}I {\k45}swear, {\k35}I'm {\k34}not {\k33}do{\k35}ing {\k52}a{\k18}ny{\k65}thing
+Dialogue: 1,0:01:09.40,0:01:12.21,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Noth{\k35}ing {\k36}at {\k62}all
+Dialogue: 1,0:01:11.11,0:01:15.66,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Woo{\k35}hoo{\k66}~, {\k36}Woo{\k36}hoo{\k34}~{\k34}~{\k33}~{\k37}~!
+Dialogue: 1,0:01:14.88,0:01:17.71,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Noth{\k35}ing {\k35}at {\k69}all
+Dialogue: 1,0:01:16.61,0:01:21.48,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Woo{\k34}hoo{\k69}~, {\k34}Woo{\k36}hoo{\k34}~{\k33}~{\k34}~{\k70}~!
+Dialogue: 1,0:01:20.38,0:01:23.14,Eimi,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Noth{\k34}ing {\k35}at {\k64}all
