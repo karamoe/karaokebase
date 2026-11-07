@@ -1,0 +1,192 @@
+﻿[Script Info]
+Title: Umapyoi Densetsu - Matikanetannhauser ver.
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Ichinyaaan
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H0035A3E9,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Sample KM [Down],Arial,24,&H00AE79EA,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:18.81,0:00:20.81,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:17.02,0:00:22.85,Sample KM [Up],,0,0,0,karaoke,{\k29}On {\k22}your {\k255}marks, {\k92}set, {\k42}go!
+Comment: 0,0:00:21.20,0:00:23.48,Sample KM [Up],,0,0,0,karaoke,{\kf228}Oooooh
+Comment: 0,0:00:23.49,0:00:24.00,Sample KM [Down],,0,0,0,karaoke,{\k8}u{\k10}ma{\k17}dac{\k18}chi!
+Comment: 0,0:00:24.03,0:00:25.38,Sample KM [Up],,0,0,0,karaoke,{\kf124}Oooooh
+Comment: 0,0:00:25.38,0:00:26.75,Sample KM [Down],,0,0,0,karaoke,{\k16}u{\k28}ma{\k37}pyoi! {\k17}u{\k17}ma{\k22}pyoi!
+Comment: 0,0:00:26.83,0:00:28.05,Sample KM [Up],,0,0,0,karaoke,{\kf122}Oooooh
+Comment: 0,0:00:28.25,0:00:29.51,Sample KM [Up],,0,0,0,karaoke,{\kf126}Oooooh
+Comment: 0,0:00:27.77,0:00:28.25,Sample KM [Down],,0,0,0,karaoke,{\k10}su{\k10}ki{\k16}dac{\k12}chi
+Comment: 0,0:00:28.93,0:00:29.59,Sample KM [Down],,0,0,0,karaoke,{\k18}u{\k19}ma{\k29}poi
+Comment: 0,0:00:29.74,0:00:31.08,Sample KM [Up],,0,0,0,karaoke,{\k17}u{\k19}ma-{\k15}u{\k18}ma {\k17}u{\k19}mya-{\k16}u{\k13}nya
+Comment: 0,0:00:31.14,0:00:32.49,Sample KM [Up],,0,0,0,karaoke,{\k34}Three, {\k36}two, {\k36}one, {\k35}run!!
+Comment: 0,0:00:32.40,0:00:33.90,Sample KM [Up],,0,0,0,karaoke,{\k30}Sun{\k15}ny {\k34}day! {\k19}What {\k18}a {\k35}day!
+Comment: 0,0:00:33.67,0:00:33.94,Sample KM [Down],,0,0,0,karaoke,{\k19}hai!
+Comment: 0,0:00:33.94,0:00:34.93,Sample KM [Up],,0,0,0,karaoke,{\k18}Can't {\k17}wait {\k18}for {\k14}the {\k36}race!
+Comment: 0,0:00:34.59,0:00:35.32,Sample KM [Down],,0,0,0,karaoke,{\k21}so-{\k17}wa! {\k15}so-{\k20}wa!
+Comment: 0,0:00:35.33,0:00:36.71,Sample KM [Up],,0,0,0,karaoke,{\k31}One, {\k33}two, {\k23}three, {\k18}four, {\k33}five
+Comment: 0,0:00:36.73,0:00:38.24,Sample KM [Down],,0,0,0,karaoke,{\k17}dan{\k18}dan {\k17}dan{\k17}dan {\k11}de{\k17}ban {\k9}ga {\k5}chi{\k11}ka{\k9}zu{\k20}ki!
+Comment: 0,0:00:38.18,0:00:39.52,Sample KM [Up],,0,0,0,karaoke,{\k16}Ten{\k18}sion {\k24}high, {\k13}it's {\k18}time {\k16}to {\k17}go
+Comment: 0,0:00:39.30,0:00:39.63,Sample KM [Down],,0,0,0,karaoke,{\k18}hai!
+Comment: 0,0:00:39.45,0:00:40.91,Sample KM [Up],,0,0,0,karaoke,{\k27}Stride {\k15}was {\k20}strong {\k18}but {\k12}di{\k7}dn't {\k17}get {\k30}first
+Comment: 0,0:00:40.70,0:00:41.15,Sample KM [Down],,0,0,0,karaoke,{\k34}Chaaah!
+Comment: 0,0:00:41.15,0:00:41.77,Sample KM [Up],,0,0,0,karaoke,{\k9}Got{\k7}ta {\k18}get {\k11}bet{\k17}ter
+Comment: 0,0:00:41.62,0:00:42.34,Sample KM [Down],,0,0,0,karaoke,{\k19}tou{\k16}shits' {\k18}kat{\k19}to!
+Comment: 0,0:00:42.34,0:00:43.15,Sample KM [Up],,0,0,0,karaoke,{\k21}Lea{\k17}ner! {\k18}Fas{\k25}ter!
+Comment: 0,0:00:43.04,0:00:43.74,Sample KM [Down],,0,0,0,karaoke,{\k11}de{\k9}mo {\k8}ya{\k10}se{\k32}tai!
+Comment: 0,0:00:43.75,0:00:44.99,Sample KM [Up],,0,0,0,karaoke,{\k26}Cra{\k45}ving {\k22}drea{\k31}ming
+Comment: 0,0:00:44.20,0:00:44.50,Sample KM [Down],,0,0,0,karaoke,{\k18}WA{\k12}FFLES!
+Comment: 0,0:00:44.90,0:00:45.26,Sample KM [Down],,0,0,0,karaoke,{\k18}BA{\k18}GELS!
+Comment: 0,0:00:45.25,0:00:46.33,Sample KM [Up],,0,0,0,karaoke,{\k21}Ri{\k15}vals {\k12}e{\k8}very{\k15}where, {\k16}don't {\k21}stop!
+Comment: 0,0:00:46.29,0:00:46.76,Sample KM [Down],,0,0,0,karaoke,{\k11}RI{\k17}BAN{\k26}D
+Comment: 0,0:00:46.61,0:00:48.06,Sample KM [Up],,0,0,0,karaoke,{\k19}Don't {\k16}you {\k42}cry, {\k13}wipe {\k21}those {\k30}eyes
+Comment: 0,0:00:47.11,0:00:47.37,Sample KM [Down],,0,0,0,karaoke,{\k15}hai!
+Comment: 0,0:00:47.83,0:00:48.06,Sample KM [Down],,0,0,0,karaoke,{\k23}Oy!
+Comment: 0,0:00:48.09,0:00:48.77,Sample KM [Up],,0,0,0,karaoke,{\k19}Tough {\k15}it {\k37}out!
+Comment: 0,0:00:48.77,0:00:49.75,Sample KM [Down],,0,0,0,karaoke,{\k12}na{\k8}o{\k12}ra{\k14}nai! {\k52}HUH?
+Comment: 0,0:00:49.51,0:00:52.07,Sample KM [Up],,0,0,0,karaoke,{\k14}Vic{\k19}to{\k20}ry {\k34}smi{\k16}ling {\k19}u{\k36}pon {\k16}me {\k17}to{\k65}day
+Comment: 0,0:00:52.38,0:00:54.52,Sample KM [Up],,0,0,0,karaoke,{\k29}She {\k15}blows {\k14}a {\k19}kiss {\k16}as {\k25}I'm {\k33}ma{\k20}king {\k18}my {\k25}win
+Comment: 0,0:00:54.70,0:00:57.62,Sample KM [Up],,0,0,0,karaoke,{\k20}Go {\k23}and {\k31}fol{\k17}low {\k23}the {\k36}rain{\k35}bow {\k19}where {\k17}it {\k71}goes
+Comment: 0,0:00:57.95,0:01:00.35,Sample KM [Up],,0,0,0,karaoke,{\k19}Wind {\k17}in {\k17}our {\k36}hair {\k18}as {\k13}we {\k36}kick {\k18}in{\k20}to {\k46}gear
+Comment: 0,0:01:00.58,0:01:03.34,Sample KM [Up],,0,0,0,karaoke,{\k22}The {\k21}light {\k17}in {\k18}our {\k27}eyes {\k22}shi{\k13}ning {\k29}e{\k16}ver {\k28}so {\k63}clear
+Comment: 0,0:01:03.42,0:01:06.36,Sample KM [Down],,0,0,0,karaoke,{\k40}do{\k15}ki {\k19}do{\k17}ki {\k19}do{\k15}ki {\k21}do{\k14}ki {\k19}do{\k15}ki {\k20}do{\k19}ki {\k16}do{\k15}ki {\k19}do{\k19}ki!
+Comment: 0,0:01:06.51,0:01:07.90,Sample KM [Up],,0,0,0,karaoke,{\k22}ki{\k17}mi {\k17}no {\k19}a{\k18}i{\k17}ba {\k29}ga!
+Comment: 0,0:01:07.91,0:01:09.03,Sample KM [Up],,0,0,0,karaoke,{\k21}zu-{\k36}kyun! {\k18}do-{\k37}kyun!
+Comment: 0,0:01:09.03,0:01:10.58,Sample KM [Up],,0,0,0,karaoke,{\k18}Start {\k17}run{\k17}ning {\k17}your {\k86}way
+Comment: 0,0:01:10.05,0:01:10.58,Sample KM [Down],,0,0,0,karaoke,{\k24}Hoo-{\k29}hoo!
+Comment: 0,0:01:10.77,0:01:11.81,Sample KM [Up],,0,0,0,karaoke,{\k20}ba-{\k36}kyun! {\k15}bu-{\k33}kyun!
+Comment: 0,0:01:11.81,0:01:13.40,Sample KM [Up],,0,0,0,karaoke,{\k21}Heart's {\k35}ra{\k35}cing {\k33}with {\k35}you
+Comment: 0,0:01:13.61,0:01:16.07,Sample KM [Up],,0,0,0,karaoke,{\k41}E{\k54}mo{\k30}tions {\k18}all {\k32}brand {\k71}new
+Comment: 0,0:01:16.30,0:01:19.05,Sample KM [Up],,0,0,0,karaoke,{\k86}Jump {\k22}through {\k19}that {\kf117}gate
+Comment: 0,0:01:17.64,0:01:19.05,Sample KM [Down],,0,0,0,karaoke,{\k45}san {\k32}ni {\k32}ich' {\k32}FIGHT!
+Comment: 0,0:01:19.19,0:01:20.29,Sample KM [Up],,0,0,0,karaoke,{\k21}zu-{\k36}kyun! {\k23}do-{\k30}kyun!
+Comment: 0,0:01:20.29,0:01:21.87,Sample KM [Up],,0,0,0,karaoke,{\k20}I'm {\k16}ta{\k19}king {\k17}the {\k78}lead!
+Comment: 0,0:01:21.35,0:01:21.87,Sample KM [Down],,0,0,0,karaoke,{\k22}Hoo-{\k30}hoo!
+Comment: 0,0:01:22.07,0:01:23.14,Sample KM [Up],,0,0,0,karaoke,{\k22}ba-{\k33}kyun! {\k18}bu-{\k34}kyun!
+Comment: 0,0:01:23.14,0:01:24.70,Sample KM [Up],,0,0,0,karaoke,{\k23}Lo{\k35}ving {\k35}what {\k32}we {\k31}do
+Comment: 0,0:01:24.87,0:01:27.34,Sample KM [Up],,0,0,0,karaoke,{\k43}To{\k73}day {\k19}we {\k18}hear {\k27}your {\k60}cheers
+Comment: 0,0:01:27.62,0:01:28.67,Sample KM [Up],,0,0,0,karaoke,{\k21}Come {\k15}on, {\k20}come {\k17}on {\k18}ba{\k21}by!
+Comment: 0,0:01:28.86,0:01:30.34,Sample KM [Down],,0,0,0,karaoke,{\k29}Three, {\k40}two, {\k18}one, {\k35}go {\k26}fight!
+Comment: 0,0:01:30.38,0:01:32.58,Sample KM [Up],,0,0,0,karaoke,{\k18}Come {\k18}on, {\k20}come {\k17}on {\k19}ho{\k36}ney! {\k33}Three, {\k31}two, {\k32}one
+Comment: 0,0:01:32.58,0:01:33.56,Sample KM [Down],,0,0,0,karaoke,{\k64}Ooh, {\k30}fight!
+Comment: 0,0:01:33.17,0:01:35.50,Sample KM [Up],,0,0,0,karaoke,{\kf233}Oooooh
+Comment: 0,0:01:35.54,0:01:36.00,Sample KM [Down],,0,0,0,karaoke,{\k8}u{\k10}ma{\k16}dac{\k12}chi!
+Comment: 0,0:01:36.00,0:01:37.36,Sample KM [Up],,0,0,0,karaoke,{\kf136}Oooooh
+Comment: 0,0:01:37.44,0:01:38.73,Sample KM [Down],,0,0,0,karaoke,{\k17}u{\k20}ma{\k36}pyoi! {\k15}u{\k19}ma{\k16}pyoi!
+Comment: 0,0:01:38.84,0:01:40.01,Sample KM [Up],,0,0,0,karaoke,{\kf117}Oooooh
+Comment: 0,0:01:40.23,0:01:41.41,Sample KM [Up],,0,0,0,karaoke,{\kf118}Oooooh
+Comment: 0,0:01:39.72,0:01:40.25,Sample KM [Down],,0,0,0,karaoke,{\k10}su{\k11}ki{\k16}dac{\k16}chi!
+Comment: 0,0:01:40.90,0:01:41.56,Sample KM [Down],,0,0,0,karaoke,{\k14}u{\k21}ma{\k31}poi!
+Comment: 0,0:01:41.73,0:01:43.08,Sample KM [Up],,0,0,0,karaoke,{\k17}u{\k19}ma-{\k15}u{\k18}ma {\k19}u{\k17}mya-{\k16}u{\k20}nya
+Comment: 0,0:01:43.31,0:01:44.56,Sample KM [Up],,0,0,0,karaoke,{\k20}ki{\k17}mi {\k15}no {\k22}a{\k17}i{\k17}ba {\k4}ga!
+Comment: 0,0:01:44.60,0:01:45.72,Sample KM [Up],,0,0,0,karaoke,{\k30}zu-{\k35}kyun! {\k17}do-{\k30}kyun!
+Comment: 0,0:01:45.72,0:01:47.24,Sample KM [Up],,0,0,0,karaoke,{\k21}Start {\k19}run{\k17}ning {\k18}your {\k65}way
+Comment: 0,0:01:46.70,0:01:47.24,Sample KM [Down],,0,0,0,karaoke,{\k29}Hoo-{\k25}hoo!
+Comment: 0,0:01:47.49,0:01:48.53,Sample KM [Up],,0,0,0,karaoke,{\k21}ba-{\k37}kyun! {\k16}bu-{\k30}kyun!
+Comment: 0,0:01:48.53,0:01:50.11,Sample KM [Up],,0,0,0,karaoke,{\k21}Heart's {\k35}ra{\k35}cing {\k33}with {\k35}you
+Comment: 0,0:01:50.30,0:01:52.72,Sample KM [Up],,0,0,0,karaoke,{\k43}E{\k58}mo{\k23}tions {\k27}all {\k32}brand {\k39}new
+Comment: 0,0:01:52.92,0:01:55.54,Sample KM [Up],,0,0,0,karaoke,{\k97}Jump {\k19}through {\k18}that {\kf128}gate
+Comment: 0,0:01:54.37,0:01:55.74,Sample KM [Down],,0,0,0,karaoke,{\k37}san {\k34}ni {\k36}ich' {\k34}FIGHT!
+Comment: 0,0:01:55.94,0:01:57.01,Sample KM [Up],,0,0,0,karaoke,{\k18}zu-{\k37}kyun! {\k17}do-{\k35}kyun!
+Comment: 0,0:01:57.01,0:01:58.57,Sample KM [Up],,0,0,0,karaoke,{\k19}I'm {\k20}ta{\k18}king {\k18}the {\k81}lead!
+Comment: 0,0:01:58.02,0:01:58.67,Sample KM [Down],,0,0,0,karaoke,{\k27}hoo-{\k38}hoo!
+Comment: 0,0:01:58.80,0:01:59.81,Sample KM [Up],,0,0,0,karaoke,{\k18}ba-{\k37}kyun! {\k16}bu-{\k30}kyun!
+Comment: 0,0:01:59.86,0:02:01.40,Sample KM [Up],,0,0,0,karaoke,{\k22}Lo{\k33}ving {\k35}what {\k36}we {\k33}do
+Comment: 0,0:02:01.66,0:02:04.05,Sample KM [Up],,0,0,0,karaoke,{\k35}To{\k74}day {\k14}we {\k21}hear {\k27}your {\k63}cheers
+Comment: 0,0:02:04.32,0:02:05.46,Sample KM [Up],,0,0,0,karaoke,{\k21}Come {\k15}on, {\k20}come {\k17}on {\k18}ba{\k21}by!
+Comment: 0,0:02:05.46,0:02:07.04,Sample KM [Up],,0,0,0,karaoke,{\k41}Three, {\k38}two, {\k18}one, {\k38}go {\k19}fight!
+Comment: 0,0:02:07.04,0:02:09.27,Sample KM [Up],,0,0,0,karaoke,{\k18}Come {\k18}on, {\k20}come {\k17}on {\k19}ho{\k36}ney! {\k33}Three, {\k31}two, {\k31}one
+Comment: 0,0:02:09.20,0:02:10.64,Sample KM [Down],,0,0,0,karaoke,{\k76}Ooh, {\k68}fight!
+Dialogue: 0,0:00:16.12,0:00:23.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}On {\k22}your {\k255}marks, {\k92}set, {\k42}go!
+Dialogue: 0,0:00:20.30,0:00:23.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf228}Oooooh
+Dialogue: 0,0:00:22.59,0:00:24.20,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k8}u{\k10}ma{\k17}dac{\k18}chi!
+Dialogue: 0,0:00:23.13,0:00:25.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf124}Oooooh
+Dialogue: 0,0:00:24.48,0:00:26.95,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k16}u{\k28}ma{\k37}pyoi! {\k17}u{\k17}ma{\k22}pyoi!
+Dialogue: 0,0:00:25.93,0:00:28.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf122}Oooooh
+Dialogue: 0,0:00:27.35,0:00:29.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf126}Oooooh
+Dialogue: 0,0:00:26.87,0:00:28.45,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k10}su{\k10}ki{\k16}dac{\k12}chi
+Dialogue: 0,0:00:28.03,0:00:29.79,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k18}u{\k19}ma{\k29}poi
+Dialogue: 0,0:00:28.84,0:00:31.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}u{\k19}ma-{\k15}u{\k18}ma {\k17}u{\k19}mya-{\k16}u{\k13}nya
+Dialogue: 0,0:00:30.24,0:00:32.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Three, {\k36}two, {\k36}one, {\k35}run!!
+Dialogue: 0,0:00:31.50,0:00:34.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Sun{\k15}ny {\k34}day! {\k19}What {\k18}a {\k35}day!
+Dialogue: 0,0:00:32.77,0:00:34.14,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k19}hai!
+Dialogue: 0,0:00:33.04,0:00:35.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Can't {\k17}wait {\k18}for {\k14}the {\k36}race!
+Dialogue: 0,0:00:33.69,0:00:35.52,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k21}so-{\k17}wa! {\k15}so-{\k20}wa!
+Dialogue: 0,0:00:34.43,0:00:36.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}One, {\k33}two, {\k23}three, {\k18}four, {\k33}five
+Dialogue: 0,0:00:35.83,0:00:38.44,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k17}dan{\k18}dan {\k17}dan{\k17}dan {\k11}de{\k17}ban {\k9}ga {\k5}chi{\k11}ka{\k9}zu{\k20}ki!
+Dialogue: 0,0:00:37.28,0:00:39.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Ten{\k18}sion {\k24}high, {\k13}it's {\k18}time {\k16}to {\k17}go
+Dialogue: 0,0:00:38.40,0:00:39.83,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k18}hai!
+Dialogue: 0,0:00:38.55,0:00:41.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Stride {\k15}was {\k20}strong {\k18}but {\k12}di{\k7}dn't {\k17}get {\k30}first
+Dialogue: 0,0:00:39.80,0:00:41.35,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Chaaah!
+Dialogue: 0,0:00:40.25,0:00:41.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}Got{\k7}ta {\k18}get {\k11}bet{\k17}ter
+Dialogue: 0,0:00:40.72,0:00:42.54,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k19}tou{\k16}shits' {\k18}kat{\k19}to!
+Dialogue: 0,0:00:41.44,0:00:43.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Lea{\k17}ner! {\k18}Fas{\k25}ter!
+Dialogue: 0,0:00:42.14,0:00:43.94,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k11}de{\k9}mo {\k8}ya{\k10}se{\k32}tai!
+Dialogue: 0,0:00:42.85,0:00:45.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Cra{\k45}ving {\k22}drea{\k31}ming
+Dialogue: 0,0:00:43.30,0:00:44.70,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k18}WA{\k12}FFLES!
+Dialogue: 0,0:00:44.00,0:00:45.46,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k18}BA{\k18}GELS!
+Dialogue: 0,0:00:44.35,0:00:46.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Ri{\k15}vals {\k12}e{\k8}very{\k15}where, {\k16}don't {\k21}stop!
+Dialogue: 0,0:00:45.39,0:00:46.96,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k11}RI{\k17}BAN{\k26}D
+Dialogue: 0,0:00:45.71,0:00:48.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Don't {\k16}you {\k42}cry, {\k13}wipe {\k21}those {\k30}eyes
+Dialogue: 0,0:00:46.21,0:00:47.57,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k15}hai!
+Dialogue: 0,0:00:46.93,0:00:48.26,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Oy!
+Dialogue: 0,0:00:47.19,0:00:48.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Tough {\k15}it {\k37}out!
+Dialogue: 0,0:00:47.87,0:00:49.95,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k12}na{\k8}o{\k12}ra{\k14}nai! {\k52}HUH?
+Dialogue: 0,0:00:48.61,0:00:52.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Vic{\k19}to{\k20}ry {\k34}smi{\k16}ling {\k19}u{\k36}pon {\k16}me {\k17}to{\k65}day
+Dialogue: 0,0:00:51.48,0:00:54.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}She {\k15}blows {\k14}a {\k19}kiss {\k16}as {\k25}I'm {\k33}ma{\k20}king {\k18}my {\k25}win
+Dialogue: 0,0:00:53.80,0:00:57.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Go {\k23}and {\k31}fol{\k17}low {\k23}the {\k36}rain{\k35}bow {\k19}where {\k17}it {\k71}goes
+Dialogue: 0,0:00:57.05,0:01:00.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Wind {\k17}in {\k17}our {\k36}hair {\k18}as {\k13}we {\k36}kick {\k18}in{\k20}to {\k46}gear
+Dialogue: 0,0:00:59.68,0:01:03.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}The {\k21}light {\k17}in {\k18}our {\k27}eyes {\k22}shi{\k13}ning {\k29}e{\k16}ver {\k28}so {\k63}clear
+Dialogue: 0,0:01:02.52,0:01:06.56,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k40}do{\k15}ki {\k19}do{\k17}ki {\k19}do{\k15}ki {\k21}do{\k14}ki {\k19}do{\k15}ki {\k20}do{\k19}ki {\k16}do{\k15}ki {\k19}do{\k19}ki!
+Dialogue: 0,0:01:05.61,0:01:08.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}ki{\k17}mi {\k17}no {\k19}a{\k18}i{\k17}ba {\k29}ga!
+Dialogue: 0,0:01:07.01,0:01:09.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}zu-{\k36}kyun! {\k18}do-{\k37}kyun!
+Dialogue: 0,0:01:08.13,0:01:10.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Start {\k17}run{\k17}ning {\k17}your {\k86}way
+Dialogue: 0,0:01:09.15,0:01:10.78,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Hoo-{\k29}hoo!
+Dialogue: 0,0:01:09.87,0:01:12.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}ba-{\k36}kyun! {\k15}bu-{\k33}kyun!
+Dialogue: 0,0:01:10.91,0:01:13.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Heart's {\k35}ra{\k35}cing {\k33}with {\k35}you
+Dialogue: 0,0:01:12.71,0:01:16.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}E{\k54}mo{\k30}tions {\k18}all {\k32}brand {\k71}new
+Dialogue: 0,0:01:15.40,0:01:19.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k86}Jump {\k22}through {\k19}that {\kf117}gate
+Dialogue: 0,0:01:16.74,0:01:19.25,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k45}san {\k32}ni {\k32}ich' {\k32}FIGHT!
+Dialogue: 0,0:01:18.29,0:01:20.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}zu-{\k36}kyun! {\k23}do-{\k30}kyun!
+Dialogue: 0,0:01:19.39,0:01:22.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}I'm {\k16}ta{\k19}king {\k17}the {\k78}lead!
+Dialogue: 0,0:01:20.45,0:01:22.07,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Hoo-{\k30}hoo!
+Dialogue: 0,0:01:21.17,0:01:23.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}ba-{\k33}kyun! {\k18}bu-{\k34}kyun!
+Dialogue: 0,0:01:22.24,0:01:24.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Lo{\k35}ving {\k35}what {\k32}we {\k31}do
+Dialogue: 0,0:01:23.97,0:01:27.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}To{\k73}day {\k19}we {\k18}hear {\k27}your {\k60}cheers
+Dialogue: 0,0:01:26.72,0:01:28.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Come {\k15}on, {\k20}come {\k17}on {\k18}ba{\k21}by!
+Dialogue: 0,0:01:27.96,0:01:30.54,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Three, {\k40}two, {\k18}one, {\k35}go {\k26}fight!
+Dialogue: 0,0:01:29.48,0:01:32.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Come {\k18}on, {\k20}come {\k17}on {\k19}ho{\k36}ney! {\k33}Three, {\k31}two, {\k32}one
+Dialogue: 0,0:01:31.68,0:01:33.76,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k64}Ooh, {\k30}fight!
+Dialogue: 0,0:01:32.27,0:01:35.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf233}Oooooh
+Dialogue: 0,0:01:34.64,0:01:36.20,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k8}u{\k10}ma{\k16}dac{\k12}chi!
+Dialogue: 0,0:01:35.10,0:01:37.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf136}Oooooh
+Dialogue: 0,0:01:36.54,0:01:38.93,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k17}u{\k20}ma{\k36}pyoi! {\k15}u{\k19}ma{\k16}pyoi!
+Dialogue: 0,0:01:37.94,0:01:40.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf117}Oooooh
+Dialogue: 0,0:01:39.33,0:01:41.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf118}Oooooh
+Dialogue: 0,0:01:38.82,0:01:40.45,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k10}su{\k11}ki{\k16}dac{\k16}chi!
+Dialogue: 0,0:01:40.00,0:01:41.76,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k14}u{\k21}ma{\k31}poi!
+Dialogue: 0,0:01:40.83,0:01:43.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}u{\k19}ma-{\k15}u{\k18}ma {\k19}u{\k17}mya-{\k16}u{\k20}nya
+Dialogue: 0,0:01:42.41,0:01:44.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}ki{\k17}mi {\k15}no {\k22}a{\k17}i{\k17}ba {\k4}ga!
+Dialogue: 0,0:01:43.70,0:01:45.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}zu-{\k35}kyun! {\k17}do-{\k30}kyun!
+Dialogue: 0,0:01:44.82,0:01:47.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Start {\k19}run{\k17}ning {\k18}your {\k65}way
+Dialogue: 0,0:01:45.80,0:01:47.44,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Hoo-{\k25}hoo!
+Dialogue: 0,0:01:46.59,0:01:48.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}ba-{\k37}kyun! {\k16}bu-{\k30}kyun!
+Dialogue: 0,0:01:47.63,0:01:50.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Heart's {\k35}ra{\k35}cing {\k33}with {\k35}you
+Dialogue: 0,0:01:49.40,0:01:52.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}E{\k58}mo{\k23}tions {\k27}all {\k32}brand {\k39}new
+Dialogue: 0,0:01:52.02,0:01:55.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k97}Jump {\k19}through {\k18}that {\kf128}gate
+Dialogue: 0,0:01:53.47,0:01:55.94,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k37}san {\k34}ni {\k36}ich' {\k34}FIGHT!
+Dialogue: 0,0:01:55.04,0:01:57.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}zu-{\k37}kyun! {\k17}do-{\k35}kyun!
+Dialogue: 0,0:01:56.11,0:01:58.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I'm {\k20}ta{\k18}king {\k18}the {\k81}lead!
+Dialogue: 0,0:01:57.12,0:01:58.87,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k27}hoo-{\k38}hoo!
+Dialogue: 0,0:01:57.90,0:02:00.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}ba-{\k37}kyun! {\k16}bu-{\k30}kyun!
+Dialogue: 0,0:01:58.96,0:02:01.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Lo{\k33}ving {\k35}what {\k36}we {\k33}do
+Dialogue: 0,0:02:00.76,0:02:04.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}To{\k74}day {\k14}we {\k21}hear {\k27}your {\k63}cheers
+Dialogue: 0,0:02:03.42,0:02:05.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Come {\k15}on, {\k20}come {\k17}on {\k18}ba{\k21}by!
+Dialogue: 0,0:02:04.56,0:02:07.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Three, {\k38}two, {\k18}one, {\k38}go {\k19}fight!
+Dialogue: 0,0:02:06.14,0:02:09.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Come {\k18}on, {\k20}come {\k17}on {\k19}ho{\k36}ney! {\k33}Three, {\k31}two, {\k31}one
+Dialogue: 0,0:02:08.30,0:02:10.84,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k76}Ooh, {\k68}fight!
