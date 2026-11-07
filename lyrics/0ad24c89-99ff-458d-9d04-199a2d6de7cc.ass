@@ -1,0 +1,52 @@
+﻿[Script Info]
+Title: Bang Bang Bang [Deltarune Animation]
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
+LayoutResX: 0
+LayoutResY: 0
+Original Timing: Pafnaffan
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Up] - red,Arial,24,&H000000FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.28,0:00:01.91,Sample KM [Up] - red,,0,0,0,karaoke,{\k24}My {\k23}ri{\k46}val, {\k22}my {\k22}I{\k26}dol
+Comment: 0,0:00:02.10,0:00:03.77,Sample KM [Up] - red,,0,0,0,karaoke,{\k22}You {\k23}got {\k23}me {\k25}su{\k19}i{\k24}ci{\k31}dal
+Comment: 0,0:00:03.88,0:00:05.55,Sample KM [Up] - red,,0,0,0,karaoke,{\k25}My {\k68}love, {\k22}your {\k52}rage
+Comment: 0,0:00:05.70,0:00:07.37,Sample KM [Up] - red,,0,0,0,karaoke,{\k24}Our {\k25}dy{\k19}ing {\k22}claim {\k24}to {\k53}fame
+Comment: 0,0:00:07.47,0:00:09.14,Sample KM [Up] - red,,0,0,0,karaoke,{\k27}Our {\k25}ba{\k22}ttle {\k19}le{\k24}gen{\k24}da{\k26}ry
+Comment: 0,0:00:09.29,0:00:10.99,Sample KM [Up] - red,,0,0,0,karaoke,{\k25}Our {\k23}fi{\k24}ckle {\k24}fra{\k18}ter{\k25}ni{\k31}zing
+Comment: 0,0:00:11.10,0:00:12.76,Sample KM [Up] - red,,0,0,0,karaoke,{\k26}A {\k22}war {\k23}in{\k21}side {\k26}my {\k48}heart
+Comment: 0,0:00:12.91,0:00:14.48,Sample KM [Up] - red,,0,0,0,karaoke,{\k22}Un{\k28}til {\k20}**** {\k22}do {\k22}us {\k43}part
+Comment: 0,0:00:14.48,0:00:16.68,Sample KM [Up] - red,,0,0,0,karaoke,{\k49}BANG {\k45}BANG {\k45}BANG {\k45}BANG {\k36}BANG
+Comment: 0,0:00:16.76,0:00:18.12,Sample KM [Up] - red,,0,0,0,karaoke,{\k23}'til {\k21}I {\k45}take {\k47}you
+Comment: 0,0:00:18.12,0:00:20.02,Sample KM [Up] - red,,0,0,0,karaoke,{\k45}DOWN {\k45}DOWN {\k45}DOWN {\k36}DOWN
+Comment: 0,0:00:20.13,0:00:21.71,Sample KM [Up] - red,,0,0,0,karaoke,{\k24}I {\k23}want {\k22}you {\k21}in {\k21}the {\k47}ground
+Comment: 0,0:00:21.71,0:00:23.93,Sample KM [Up] - red,,0,0,0,karaoke,{\k47}BANG {\k45}BANG {\k45}BANG {\k47}BANG {\k38}BANG
+Comment: 0,0:00:23.95,0:00:25.32,Sample KM [Up] - red,,0,0,0,karaoke,{\k21}'til {\k28}I {\k45}take {\k43}you
+Comment: 0,0:00:25.32,0:00:27.13,Sample KM [Up] - red,,0,0,0,karaoke,{\k46}DOWN {\k46}DOWN {\k46}DOWN {\k36}DOWN
+Comment: 0,0:00:27.34,0:00:28.98,Sample KM [Up] - red,,0,0,0,karaoke,{\k24}I {\k23}want {\k23}you {\k22}in {\k21}the {\k51}gound
+Dialogue: 0,0:00:00.00,0:00:02.11,Sample KM [Up] - red,,0,0,0,fx,{\k28\fad(280,200)}{\k24}My {\k23}ri{\k46}val, {\k22}my {\k22}I{\k26}dol
+Dialogue: 0,0:00:01.20,0:00:03.97,Sample KM [Up] - red,,0,0,0,fx,{\k90\fad(300,200)}{\k22}You {\k23}got {\k23}me {\k25}su{\k19}i{\k24}ci{\k31}dal
+Dialogue: 0,0:00:02.98,0:00:05.75,Sample KM [Up] - red,,0,0,0,fx,{\k90\fad(300,200)}{\k25}My {\k68}love, {\k22}your {\k52}rage
+Dialogue: 0,0:00:04.80,0:00:07.57,Sample KM [Up] - red,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Our {\k25}dy{\k19}ing {\k22}claim {\k24}to {\k53}fame
+Dialogue: 0,0:00:06.57,0:00:09.34,Sample KM [Up] - red,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Our {\k25}ba{\k22}ttle {\k19}le{\k24}gen{\k24}da{\k26}ry
+Dialogue: 0,0:00:08.39,0:00:11.19,Sample KM [Up] - red,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Our {\k23}fi{\k24}ckle {\k24}fra{\k18}ter{\k25}ni{\k31}zing
+Dialogue: 0,0:00:10.20,0:00:12.96,Sample KM [Up] - red,,0,0,0,fx,{\k90\fad(300,200)}{\k26}A {\k22}war {\k23}in{\k21}side {\k26}my {\k48}heart
+Dialogue: 0,0:00:12.01,0:00:14.68,Sample KM [Up] - red,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Un{\k28}til {\k20}**** {\k22}do {\k22}us {\k43}part
+Dialogue: 0,0:00:13.58,0:00:16.88,Sample KM [Up] - red,,0,0,0,fx,{\k90\fad(300,200)}{\k49}BANG {\k45}BANG {\k45}BANG {\k45}BANG {\k36}BANG
+Dialogue: 0,0:00:15.86,0:00:18.32,Sample KM [Up] - red,,0,0,0,fx,{\k90\fad(300,200)}{\k23}'til {\k21}i {\k45}take {\k47}you
+Dialogue: 0,0:00:17.22,0:00:20.22,Sample KM [Up] - red,,0,0,0,fx,{\k90\fad(300,200)}{\k45}DOWN {\k45}DOWN {\k45}DOWN {\k36}DOWN
+Dialogue: 0,0:00:19.23,0:00:21.91,Sample KM [Up] - red,,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k23}want {\k22}you {\k21}in {\k21}the {\k47}ground
+Dialogue: 0,0:00:20.81,0:00:24.13,Sample KM [Up] - red,,0,0,0,fx,{\k90\fad(300,200)}{\k47}BANG {\k45}BANG {\k45}BANG {\k47}BANG {\k38}BANG
+Dialogue: 0,0:00:23.05,0:00:25.52,Sample KM [Up] - red,,0,0,0,fx,{\k90\fad(300,200)}{\k21}'til {\k28}i {\k45}take {\k43}you
+Dialogue: 0,0:00:24.42,0:00:27.33,Sample KM [Up] - red,,0,0,0,fx,{\k90\fad(300,200)}{\k46}DOWN {\k46}DOWN {\k46}DOWN {\k36}DOWN
+Dialogue: 0,0:00:26.44,0:00:29.18,Sample KM [Up] - red,,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k23}want {\k23}you {\k22}in {\k21}the {\k51}gound
