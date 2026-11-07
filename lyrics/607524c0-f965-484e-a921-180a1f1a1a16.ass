@@ -1,0 +1,125 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+LayoutResX: 1920
+LayoutResY: 1080
+Title: Jinsei wa Ryusei da☆彡
+Original Timing: Timmy Does
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Meteor,Arial,24,&H00FFFFFF,&H006CE692,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:03.76,0:00:05.77,Meteor,,0,0,0,karaoke,{\k17}do{\k15}mo {\k16}do{\k16}mo {\k14}mi{\k17}na{\k13}sa{\k18}ma {\k34}kon{\k12}chi{\k29}wa
+Comment: 0,0:00:05.92,0:00:08.39,Meteor,,0,0,0,karaoke,{\k15}o{\k17}ma{\k31}ta{\k29}se {\k15}i{\k17}ta{\k30}shi {\k30}ma{\k30}shi{\k33}ta
+Comment: 0,0:00:08.68,0:00:10.84,Meteor,,0,0,0,karaoke,{\k13}ki{\k19}ra {\k12}ki{\k19}ra {\k60}no {\k31}dai {\k31}I{\k31}DOL
+Comment: 0,0:00:11.16,0:00:13.60,Meteor,,0,0,0,karaoke,{\k13}Na{\k18}ga{\k17}se {\k44}chan {\k17}des' {\k14}wa {\k30}hai {\k31}dou{\k60}mo
+Comment: 0,0:00:18.55,0:00:20.73,Meteor,,0,0,0,karaoke,{\k29}saa {\k21}i{\k11}kou {\k20}ho{\k11}ra {\k16}i{\k14}kou {\k20}ya{\k11}re {\k20}i{\k11}ko{\k34}u
+Comment: 0,0:00:20.99,0:00:23.10,Sample KM [Choir],,0,0,0,karaoke,{\k21}a{\k12}so{\k19}be{\k11}ya {\k18}u{\k11}ta{\k15}e{\k18}ya {\k17}sa{\k13}wa{\k14}ge{\k17}ya {\k25}hoi
+Comment: 0,0:00:23.47,0:00:25.57,Meteor,,0,0,0,karaoke,{\k21}to{\k9}ku{\k21}mo{\k10}ri {\k19}me{\k11}ga {\k21}mo{\k11}ri {\k19}ma{\k12}i{\k19}do {\k11}a{\k26}ri
+Comment: 0,0:00:25.90,0:00:27.92,Meteor,,0,0,0,karaoke,{\k33}nan{\k16}ta{\k14}t{\k31}te {\k30}sai{\k21}kyou {\k12}de{\k17}su {\k12}ka{\k16}raa
+Comment: 0,0:00:28.07,0:00:30.42,Meteor,,0,0,0,karaoke,{\k31}A{\k123}HEM {\k15}ki{\k15}me {\k32}PO{\k19}SE
+Comment: 0,0:00:30.84,0:00:35.06,Meteor,,0,0,0,karaoke,{\k66}i{\k27}chi{\k31}ba{\k62}n {\k30}bo{\k32}shi {\k61}mik{\k62}ke{\k51}ta
+Comment: 0,0:00:35.48,0:00:40.10,Meteor,,0,0,0,karaoke,{\k32}su{\k29}ki {\k17}na{\k45}ra {\k29}to{\k32}ko{\k29}to{\k33}n {\k33}a{\k93}i{\k12}shi{\k16}ma{\k62}shou
+Comment: 0,0:00:40.67,0:00:46.41,Meteor,,0,0,0,karaoke,{\k64}kou{\k30}ka{\k31}i {\k63}nan{\k31}te {\k30}shi{\k62}nai {\k69}you {\kf194}ni
+Comment: 0,0:00:46.08,0:00:46.76,Meteor,,0,0,0,karaoke,{\k36}saa {\k32}saa
+Comment: 0,0:00:47.05,0:00:49.29,Meteor,,0,0,0,karaoke,{\k20}ma{\k10}ba{\k11}ta{\k8}ki {\k10}shi{\k9}te{\k11}ru {\k8}hi{\k12}ma {\k21}nan{\k15}te {\k24}nai {\k14}de{\k11}su{\k40} yo
+Comment: 0,0:00:49.49,0:00:51.63,Meteor,,0,0,0,karaoke,{\k11}o{\k11}mi{\k12}mi {\k11}to {\k11}o{\k11}te {\k14}to {\k13}o{\k11}ko{\k13}e {\k17}wo {\k19}hai{\k14}sha{\k46}ku
+Comment: 0,0:00:51.80,0:00:52.64,Meteor,,0,0,0,karaoke,{\k61}se{\k23}no
+Comment: 0,0:00:53.00,0:00:54.24,Meteor,,0,0,0,karaoke,{\k31}ONE {\k31}TWO {\k29}THREE {\k33}SHINE
+Comment: 0,0:00:54.24,0:00:56.64,Meteor,,0,0,0,karaoke,{\k15}ki{\k45}ra {\k17}ki{\k44}ra {\k15}ki{\k47}ra {\k14}ki{\k43}ra
+Comment: 0,0:00:56.69,0:00:57.69,Meteor,,0,0,0,karaoke,{\k31}ku{\k31}ra{\k38}e
+Comment: 0,0:00:57.91,0:00:58.75,Meteor,,0,0,0,karaoke,{\k5}ki{\k11}ra {\k6}ki{\k34}ra {\k28}SMILE
+Comment: 0,0:00:58.84,0:00:59.15,Sample KM [Choir],,0,0,0,karaoke,{\k31}ni
+Comment: 0,0:01:00.07,0:01:00.24,Sample KM [Choir],,0,0,0,karaoke,{\k17}chu
+Comment: 0,0:00:59.15,0:01:00.00,Meteor,,0,0,0,karaoke,{\k6}ki{\k10}ra {\k7}ki{\k38}ra {\k24}WINK
+Comment: 0,0:01:00.33,0:01:01.57,Meteor,,0,0,0,karaoke,{\k6}ki{\k9}ra {\k7}ki{\k13}ra {\k31}DANCE {\k6}ki{\k5}ra {\k7}ki{\k14}ra {\k26}SING
+Comment: 0,0:01:01.60,0:01:02.70,Meteor,,0,0,0,karaoke,{\k7}ki{\k5}ra {\k5}ki{\k15}ra {\k31}BEAM {\k29}zen{\k18}kai
+Comment: 0,0:01:02.83,0:01:04.84,Meteor,,0,0,0,karaoke,{\k33}yo{\k11}ku {\k20}de{\k29}ki{\k15}ma{\k17}shi{\k15}ta {\k15}ha{\k16}na{\k16}ma{\k14}ru
+Comment: 0,0:01:05.01,0:01:05.34,Sample KM [Choir],,0,0,0,karaoke,{\k33}YEAH
+Comment: 0,0:01:05.43,0:01:07.61,Meteor,,0,0,0,karaoke,{\k49}WHO{\k37}A {\k20}min{\k11}na {\k11}no {\k8}ki{\k14}ra {\k6}ki{\k16}ra {\k16}PO{\k16}WER {\k14}ga
+Comment: 0,0:01:07.72,0:01:09.45,Meteor,,0,0,0,karaoke,{\k16}kon{\k12}na {\k13}ni {\k16}mo {\k40}tak'{\k76}san
+Comment: 0,0:01:10.23,0:01:11.13,Meteor,,0,0,0,karaoke,{\k31}yos{\k59}sha
+Comment: 0,0:01:11.37,0:01:13.65,Meteor,,0,0,0,karaoke,{\k13}ko{\k12}no {\k12}ma{\k11}ma {\k13}u{\k13}chuu {\k12}ma{\k46}de {\k39}LET'S {\k22}SING{\k35}ING
+Comment: 0,0:01:13.76,0:01:14.79,Meteor,,0,0,0,karaoke,{\k32}SHOO{\k16}TIN{\k15}G {\k14}S{\k26}TAR
+Comment: 0,0:01:14.69,0:01:15.24,Sample KM [Choir],,0,0,0,karaoke,{\k17}foo {\k38}foo
+Comment: 0,0:01:15.00,0:01:16.00,Meteor,,0,0,0,karaoke,{\k32}E{\k14}VE{\k14}RY{\k40}DAY
+Comment: 0,0:01:15.93,0:01:16.47,Sample KM [Choir],,0,0,0,karaoke,{\k15}foo {\k39}foo
+Comment: 0,0:01:16.23,0:01:18.50,Meteor,,0,0,0,karaoke,{\k44}min{\k16}na {\k17}no {\k29}HEAR{\k18}T {\k30}ni {\k16}tot{\k14}su{\k16}ge{\k27}ki
+Comment: 0,0:01:18.41,0:01:18.81,Sample KM [Choir],,0,0,0,karaoke,{\k13}foo {\k27}foo
+Comment: 0,0:01:18.85,0:01:20.06,Meteor,,0,0,0,karaoke,{\k17}jin{\k13}sei {\k30}wa {\k19}ryuu{\k13}sei {\k29}da
+Comment: 0,0:01:20.06,0:01:21.23,Meteor,,0,0,0,karaoke,{\k16}sa{\k17}a {\k14}ho{\k17}ra {\k14}is{\k16}sho {\k23}ni
+Comment: 0,0:01:21.31,0:01:23.47,Meteor,,0,0,0,karaoke,{\k13}mot{\k17}to {\k15}mot{\k15}to {\k30}mot{\k16}to {\k16}ta{\k16}no{\k14}shin{\k16}de {\k48}ko
+Comment: 0,0:01:23.60,0:01:24.69,Meteor,,0,0,0,karaoke,{\k31}SHOO{\k17}TIN{\k16}G {\k14}S{\k31}TAR
+Comment: 0,0:01:24.61,0:01:25.10,Sample KM [Choir],,0,0,0,karaoke,{\k8}foo {\k41}foo
+Comment: 0,0:01:24.84,0:01:25.83,Meteor,,0,0,0,karaoke,{\k28}E{\k19}VE{\k14}RY{\k38}DAY
+Comment: 0,0:01:25.77,0:01:26.31,Sample KM [Choir],,0,0,0,karaoke,{\k16}foo {\k38}foo
+Comment: 0,0:01:26.06,0:01:28.28,Meteor,,0,0,0,karaoke,{\k33}so{\k14}no {\k16}ma{\k16}ma {\k30}chi{\k15}kyu{\k31}u {\k16}mo {\k14}ma{\k16}wa{\k21}se
+Comment: 0,0:01:28.37,0:01:30.79,Meteor,,0,0,0,karaoke,{\k32}kyou {\k50}mo {\k11}ka{\k16}ga{\k16}ya{\k16}i{\k15}te{\k28}ru {\k32}ip{\k26}pai
+Comment: 0,0:01:30.84,0:01:35.42,Meteor,,0,0,0,karaoke,{\k14}to{\k18}ba{\k107}se {\k15}mi{\k30}ra{\k16}i {\k47}ma{\k30}de {\k47}HERE {\k15}WE {\kf119}GO
+Comment: 0,0:01:35.74,0:01:36.11,Sample KM [Choir],,0,0,0,karaoke,{\k37}YEAH
+Comment: 0,0:01:36.31,0:01:38.45,Meteor,,0,0,0,karaoke,{\k34}saa {\k21}sai{\k8}go {\k22}wa {\k15}ko{\k11}ko{\k11}ro {\k8}to {\k12}ka{\k11}ra{\k24}da {\k28}zen{\k9}bu
+Comment: 0,0:01:38.45,0:01:40.69,Meteor,,0,0,0,karaoke,{\k8}fu{\k14}ri{\k7}shi{\k18}bot{\k14}ta {\k6}ki{\k15}ra {\k5}ki{\k13}ra {\k17}de {\k29}LAS{\k15}T {\k63}da
+Comment: 0,0:01:41.00,0:01:43.60,Meteor,,0,0,0,karaoke,{\k14}ki{\k16}ra {\k15}ki{\k16}ra {\k14}ki{\k16}ra {\k15}ki{\k16}ra {\k13}ki{\k19}ra {\k13}ki{\k17}ra {\k12}ki{\k19}ra {\k13}ki{\k32}ra
+Comment: 0,0:01:43.67,0:01:44.78,Meteor,,0,0,0,karaoke,{\k20}min{\k23}na {\k18}sai{\k50}kou
+Comment: 0,0:01:44.97,0:01:47.84,Meteor,,0,0,0,karaoke,{\k15}go{\k20}sei{\k28}chou {\k12}a{\k9}ri{\k11}ga{\k29}tou {\k13}go{\k17}zai{\k8}ma{\k10}shi{\kf115}ta
+Dialogue: 0,0:00:02.86,0:00:05.97,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k17}do{\k15}mo {\k16}do{\k16}mo {\k14}mi{\k17}na{\k13}sa{\k18}ma {\k34}kon{\k12}chi{\k29}wa
+Dialogue: 0,0:00:05.02,0:00:08.59,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k15}o{\k17}ma{\k31}ta{\k29}se {\k15}i{\k17}ta{\k30}shi {\k30}ma{\k30}shi{\k33}ta
+Dialogue: 0,0:00:07.78,0:00:11.04,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ki{\k19}ra {\k12}ki{\k19}ra {\k60}no {\k31}dai {\k31}I{\k31}DOL
+Dialogue: 0,0:00:10.26,0:00:13.80,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Na{\k18}ga{\k17}se {\k44}chan {\k17}des' {\k14}wa {\k30}hai {\k31}dou{\k60}mo
+Dialogue: 0,0:00:17.65,0:00:20.93,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k29}saa {\k21}i{\k11}kou {\k20}ho{\k11}ra {\k16}i{\k14}kou {\k20}ya{\k11}re {\k20}i{\k11}ko{\k34}u
+Dialogue: 0,0:00:20.09,0:00:23.30,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}a{\k12}so{\k19}be{\k11}ya {\k18}u{\k11}ta{\k15}e{\k18}ya {\k17}sa{\k13}wa{\k14}ge{\k17}ya {\k25}hoi
+Dialogue: 0,0:00:22.57,0:00:25.77,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k21}to{\k9}ku{\k21}mo{\k10}ri {\k19}me{\k11}ga {\k21}mo{\k11}ri {\k19}ma{\k12}i{\k19}do {\k11}a{\k26}ri
+Dialogue: 0,0:00:25.00,0:00:28.12,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k33}nan{\k16}ta{\k14}t{\k31}te {\k30}sai{\k21}kyou {\k12}de{\k17}su {\k12}ka{\k16}raa
+Dialogue: 0,0:00:27.17,0:00:30.62,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k31}A{\k123}HEM {\k15}ki{\k15}me {\k32}PO{\k19}SE
+Dialogue: 0,0:00:29.94,0:00:35.26,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k66}i{\k27}chi{\k31}ba{\k62}n {\k30}bo{\k32}shi {\k61}mik{\k62}ke{\k51}ta
+Dialogue: 0,0:00:34.58,0:00:40.30,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k32}su{\k29}ki {\k17}na{\k45}ra {\k29}to{\k32}ko{\k29}to{\k33}n {\k33}a{\k93}i{\k12}shi{\k16}ma{\k62}shou
+Dialogue: 0,0:00:39.77,0:00:46.61,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k64}kou{\k30}ka{\k31}i {\k63}nan{\k31}te {\k30}shi{\k62}nai {\k69}you {\kf194}ni
+Dialogue: 0,0:00:45.18,0:00:46.96,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k36}saa {\k32}saa
+Dialogue: 0,0:00:46.15,0:00:49.49,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ma{\k10}ba{\k11}ta{\k8}ki {\k10}shi{\k9}te{\k11}ru {\k8}hi{\k12}ma {\k21}nan{\k15}te {\k24}nai {\k14}de{\k11}su{\k40} yo
+Dialogue: 0,0:00:48.59,0:00:51.83,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k11}o{\k11}mi{\k12}mi {\k11}to {\k11}o{\k11}te {\k14}to {\k13}o{\k11}ko{\k13}e {\k17}wo {\k19}hai{\k14}sha{\k46}ku
+Dialogue: 0,0:00:50.90,0:00:52.84,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k61}se{\k23}no
+Dialogue: 0,0:00:52.10,0:00:54.44,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ONE {\k31}TWO {\k29}THREE {\k33}SHINE
+Dialogue: 0,0:00:53.34,0:00:56.84,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ki{\k45}ra {\k17}ki{\k44}ra {\k15}ki{\k47}ra {\k14}ki{\k43}ra
+Dialogue: 0,0:00:55.79,0:00:57.89,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ku{\k31}ra{\k38}e
+Dialogue: 0,0:00:57.01,0:00:58.95,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k5}ki{\k11}ra {\k6}ki{\k34}ra {\k28}SMILE
+Dialogue: 0,0:00:57.94,0:00:59.35,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k31}ni
+Dialogue: 0,0:00:59.17,0:01:00.44,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k17}chu
+Dialogue: 0,0:00:58.25,0:01:00.20,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k6}ki{\k10}ra {\k7}ki{\k38}ra {\k24}WINK
+Dialogue: 0,0:00:59.43,0:01:01.77,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k6}ki{\k9}ra {\k7}ki{\k13}ra {\k31}DANCE {\k6}ki{\k5}ra {\k7}ki{\k14}ra {\k26}SING
+Dialogue: 0,0:01:00.70,0:01:02.90,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k7}ki{\k5}ra {\k5}ki{\k15}ra {\k31}BEAM {\k29}zen{\k18}kai
+Dialogue: 0,0:01:01.93,0:01:05.04,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k33}yo{\k11}ku {\k20}de{\k29}ki{\k15}ma{\k17}shi{\k15}ta {\k15}ha{\k16}na{\k16}ma{\k14}ru
+Dialogue: 0,0:01:04.11,0:01:05.54,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k33}YEAH
+Dialogue: 0,0:01:04.53,0:01:07.81,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k49}WHO{\k37}A {\k20}min{\k11}na {\k11}no {\k8}ki{\k14}ra {\k6}ki{\k16}ra {\k16}PO{\k16}WER {\k14}ga
+Dialogue: 0,0:01:06.82,0:01:09.65,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k16}kon{\k12}na {\k13}ni {\k16}mo {\k40}tak'{\k76}san
+Dialogue: 0,0:01:09.33,0:01:11.33,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k31}yos{\k59}sha
+Dialogue: 0,0:01:10.47,0:01:13.85,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ko{\k12}no {\k12}ma{\k11}ma {\k13}u{\k13}chuu {\k12}ma{\k46}de {\k39}LET'S {\k22}SING{\k35}ING
+Dialogue: 0,0:01:12.86,0:01:14.99,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k32}SHOO{\k16}TIN{\k15}G {\k14}S{\k26}TAR
+Dialogue: 0,0:01:13.79,0:01:15.44,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k17}foo {\k38}foo
+Dialogue: 0,0:01:14.10,0:01:16.20,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k32}E{\k14}VE{\k14}RY{\k40}DAY
+Dialogue: 0,0:01:15.03,0:01:16.67,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k15}foo {\k39}foo
+Dialogue: 0,0:01:15.33,0:01:18.70,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k44}min{\k16}na {\k17}no {\k29}HEAR{\k18}T {\k30}ni {\k16}tot{\k14}su{\k16}ge{\k27}ki
+Dialogue: 0,0:01:17.51,0:01:19.01,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k13}foo {\k27}foo
+Dialogue: 0,0:01:17.95,0:01:20.26,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k17}jin{\k13}sei {\k30}wa {\k19}ryuu{\k13}sei {\k29}da
+Dialogue: 0,0:01:19.16,0:01:21.43,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k16}sa{\k17}a {\k14}ho{\k17}ra {\k14}is{\k16}sho {\k23}ni
+Dialogue: 0,0:01:20.41,0:01:23.67,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k13}mot{\k17}to {\k15}mot{\k15}to {\k30}mot{\k16}to {\k16}ta{\k16}no{\k14}shin{\k16}de {\k48}ko
+Dialogue: 0,0:01:22.70,0:01:24.89,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k31}SHOO{\k17}TIN{\k16}G {\k14}S{\k31}TAR
+Dialogue: 0,0:01:23.71,0:01:25.30,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k8}foo {\k41}foo
+Dialogue: 0,0:01:23.94,0:01:26.03,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k28}E{\k19}VE{\k14}RY{\k38}DAY
+Dialogue: 0,0:01:24.87,0:01:26.51,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k16}foo {\k38}foo
+Dialogue: 0,0:01:25.16,0:01:28.48,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k33}so{\k14}no {\k16}ma{\k16}ma {\k30}chi{\k15}kyu{\k31}u {\k16}mo {\k14}ma{\k16}wa{\k21}se
+Dialogue: 0,0:01:27.47,0:01:30.99,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k32}kyou {\k50}mo {\k11}ka{\k16}ga{\k16}ya{\k16}i{\k15}te{\k28}ru {\k32}ip{\k26}pai
+Dialogue: 0,0:01:29.94,0:01:35.62,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k14}to{\k18}ba{\k107}se {\k15}mi{\k30}ra{\k16}i {\k47}ma{\k30}de {\k47}HERE {\k15}WE {\kf119}GO
+Dialogue: 0,0:01:34.84,0:01:36.31,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k37}YEAH
+Dialogue: 0,0:01:35.41,0:01:38.65,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k34}saa {\k21}sai{\k8}go {\k22}wa {\k15}ko{\k11}ko{\k11}ro {\k8}to {\k12}ka{\k11}ra{\k24}da {\k28}zen{\k9}bu
+Dialogue: 0,0:01:37.55,0:01:40.89,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k8}fu{\k14}ri{\k7}shi{\k18}bot{\k14}ta {\k6}ki{\k15}ra {\k5}ki{\k13}ra {\k17}de {\k29}LAS{\k15}T {\k63}da
+Dialogue: 0,0:01:40.10,0:01:43.80,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ki{\k16}ra {\k15}ki{\k16}ra {\k14}ki{\k16}ra {\k15}ki{\k16}ra {\k13}ki{\k19}ra {\k13}ki{\k17}ra {\k12}ki{\k19}ra {\k13}ki{\k32}ra
+Dialogue: 0,0:01:42.77,0:01:44.98,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k20}min{\k23}na {\k18}sai{\k50}kou
+Dialogue: 0,0:01:44.07,0:01:48.04,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k15}go{\k20}sei{\k28}chou {\k12}a{\k9}ri{\k11}ga{\k29}tou {\k13}go{\k17}zai{\k8}ma{\k10}shi{\kf115}ta
