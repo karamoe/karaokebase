@@ -1,92 +1,112 @@
 ﻿[Script Info]
-Title: Sweet Magic
+Title: FACE - Sweet Magic
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
-YCbCr Matrix: None
+YCbCr Matrix: TV.709
 Original Timing: Kylian
+PlayResX: 0
+PlayResY: 0
+LayoutResX: 0
+LayoutResY: 0
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,24,&H00FFFFFF,&H006F72F0,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
-Style: Default - Tamon,Arial,24,&H00FFFFFF,&H00B88EE9,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
-Style: Default - Rintarou,Arial,24,&H00FFFFFF,&H00DB99B8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
-Style: Default - Ouri,Arial,24,&H00FFFFFF,&H00D54956,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
-Style: Default - Keito,Arial,24,&H00FDFDFD,&H006EBD16,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
-Style: Default - Natsuki,Arial,24,&H00FFFFFF,&H007BBEEA,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: FACE,Arial,24,&H00FFFFFF,&H0018A8EB,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Tamon,Arial,24,&H00FFFFFF,&H00B88EE9,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Rintarou,Arial,24,&H00FFFFFF,&H00DB99B8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Ouri,Arial,24,&H00FFFFFF,&H00D6757C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Keito,Arial,24,&H00FDFDFD,&H006EBD16,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Natsuki,Arial,24,&H00FFFFFF,&H007BBEEA,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+Style: Tamon Symbol,Arial,24,&H00B88EE9,&H00B88EE9,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Rintarou Symbol,Arial,24,&H00DB99B8,&H00DB99B8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Ouri Symbol,Arial,24,&H00D6757C,&H00D6757C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Keito Symbol,Arial,24,&H006EBD16,&H006EBD16,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Natsuki Symbol,Arial,24,&H007BBEEA,&H007BBEEA,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Comment: 0,0:00:03.52,0:00:04.12,Default - Tamon,,0,0,0,karaoke,{\k60}Hey!
-Comment: 0,0:00:05.28,0:00:07.92,Default - Tamon,,0,0,0,karaoke,{\k24}It’s {\k8}just {\k31}like {\k26}s{\kf100}weet{\kf14} {\k19}ma{\k42}gic!
-Comment: 0,0:00:08.85,0:00:09.15,Default - Tamon,,0,0,0,karaoke,{\k19}A{\k11}ha!
-Comment: 0,0:00:12.80,0:00:15.14,Default - Tamon,,0,0,0,karaoke,{\k36}HI {\k18}o{\k15}ma{\k17}ta{\k16}se {\k18}to{\k16}bi{\k18}ki{\k15}ri {\k20}SMI{\k45}~LE!
-Comment: 0,0:00:15.51,0:00:17.82,Default - Rintarou,,0,0,0,karaoke,{\k32}shi{\k18}sen {\k15}u{\k17}ba{\k15}u {\k36}kyou{\k17}i {\k16}no {\k16}STY{\k49}~LE!
-Comment: 0,0:00:17.81,0:00:18.72,Default - Ouri,,0,0,0,karaoke,{\k34}SMAR{\k10}T {\k8}ni {\k17}ES{\k22}CORT
-Comment: 0,0:00:18.84,0:00:20.23,Default - Keito,,0,0,0,karaoke,{\k9}a{\k25}de{\k9}ya{\k21}ka {\k12}ko{\k22}no {\k41}VOICE
-Comment: 0,0:00:20.13,0:00:21.40,Default - Tamon,,0,0,0,karaoke,{\k31}AH {\k16}ho{\k26}ra {\k7}o{\k26}do{\k21}rou
-Comment: 0,0:00:21.52,0:00:22.78,Default - Natsuki,,0,0,0,karaoke,{\k13}i{\k18}ma {\k10}i{\k9}nu{\k16}ku {\k33}YOUR {\k27}HEART
-Comment: 0,0:00:23.51,0:00:25.90,Default - Natsuki,,0,0,0,karaoke,{\k30}I {\k36}AM {\k36}ki{\k32}mi {\k17}no {\k25}A{\k26}CE {\k16}DAR{\k21}LIN’
-Comment: 0,0:00:26.13,0:00:28.60,Default - Rintarou,,0,0,0,karaoke,{\k36}ji{\k34}shin {\k32}na{\k33}ra {\k19}ka{\k33}na{\k17}ri {\k16}a{\k27}ri
-Comment: 0,0:00:28.81,0:00:29.70,Default,,0,0,0,karaoke,{\c&HD54956&\k38}Please {\c&H6EBD16&\k51}please
-Comment: 0,0:00:29.69,0:00:31.81,Default - Tamon,,0,0,0,karaoke,{\k15}bo{\k18}ku {\k29}da{\k35}ke {\k35}ni {\k14}ki{\k34}kas’{\k18}te {\k14}yo
-Comment: 0,0:00:31.83,0:00:32.91,Default - Tamon,,0,0,0,karaoke,{\k18}Call {\k34}my {\k46}na{\k10}me
-Comment: 0,0:00:33.45,0:00:36.50,Default - Ouri,,0,0,0,karaoke,{\k38}ji{\k67}ret{\k17}{\k34}tai {\k70}na {\k15}mo{\k16}te{\k14}ru {\k18}ki{\k16}mi
-Comment: 0,0:00:36.52,0:00:38.26,Default - Tamon,,0,0,0,karaoke,{\k49}I’m {\k32}not {\k34}o{\k59}kay
-Comment: 0,0:00:38.83,0:00:42.18,Default - Keito,,0,0,0,karaoke,{\k34}BUT {\k83}I’M {\k35}SOR{\k49}RY {\k17}ma{\k15}ke{\k18}ru {\k17}ki {\k15}ga {\k17}shi{\k35}nai
-Comment: 0,0:00:42.18,0:00:42.99,Default,,0,0,0,karaoke,{\k34}Hey, {\k47}girl
-Comment: 0,0:00:43.11,0:00:43.70,Default - Tamon,,0,0,0,karaoke,{\k25}koc{\k14}chi {\k8}mi{\k12}te
-Comment: 0,0:00:44.02,0:00:45.44,Default,,0,0,0,karaoke,{\k9}I {\k14}see {\k27}your {\k34}smile {\k34}smile {\k24}smile
-Comment: 0,0:00:45.51,0:00:47.11,Default,,0,0,0,karaoke,{\k14}hi{\k39}to{\k27}ri {\k22}ji{\k16}me {\k9}ni {\k22}shi{\k11}te
-Comment: 0,0:00:47.16,0:00:49.98,Default,,0,0,0,karaoke,{\k34}CRASH {\k33}CRASH {\k36}CRASH {\k17}to{\k32}ku{\k33}bets’ {\k16}na {\k33}kan{\k48}kei
-Comment: 0,0:00:50.18,0:00:52.65,Default - Tamon,,0,0,0,karaoke,{\k34}DANCE {\k66}DANCE {\k18}fu{\k33}ta{\k33}ri {\k13}no {\k18}se{\k32}kai
-Comment: 0,0:00:52.85,0:00:54.31,Default - Tamon,,0,0,0,karaoke,{\k31}Non {\k66}stop {\k20}groo{\k29}vin’
-Comment: 0,0:00:54.31,0:00:56.98,Default,,0,0,0,karaoke,{\k21}kan{\k15}pe{\k18}ki {\k14}na {\k18}A {\k33}SIDE {\k34}SIDE {\k33}SIDE {\k18}no {\k32}hou {\k31}mo
-Comment: 0,0:00:57.00,0:00:58.98,Default,,0,0,0,karaoke,{\k18}P{\k17}RI{\k15}VATE {\k17}na {\k16}B {\k33}SIDE {\k35}SIDE {\k33}SIDE {\k14}mo
-Comment: 0,0:00:58.98,0:01:00.59,Default,,0,0,0,karaoke,{\k38}zen{\k33}bu {\k13}mi{\k21}se{\k16}ru {\k40}yo
-Comment: 0,0:01:00.82,0:01:04.31,Default - Tamon,,0,0,0,karaoke,{\k34}saa {\k17}bo{\k35}ku {\k16}no {\k33}te {\k17}wo {\k32}tot{\k17}te {\rDefault}{\k33}LET’S {\kf115}ROLL
-Comment: 0,0:01:04.48,0:01:06.35,Default,,0,0,0,karaoke,{\k35}Sweet {\k33}sweet {\k33}sweet {\k19}ma{\k67}gic!
-Comment: 0,0:01:08.82,0:01:10.98,Default,,0,0,0,karaoke,{\k18}Swee{\k16}tie {\k17}ho{\k50}ney {\k17}swee{\k16}tie {\k18}ho{\k64}ney
-Comment: 0,0:01:14.15,0:01:16.31,Default,,0,0,0,karaoke,{\k19}Swee{\k16}tie {\k17}ho{\k49}ney {\k19}swee{\k14}tie {\k17}ho{\k65}ney
-Comment: 0,0:01:16.52,0:01:19.46,Default - Tamon,,0,0,0,karaoke,{\k33}mu{\k34}ne {\k29}ga {\k18}sa{\k34}wa{\k16}gi {\k18}da{\k16}su {\k17}ma{\k32}ho{\k17}u {\k30}sa
-Comment: 0,0:01:19.48,0:01:21.00,Default,,0,0,0,karaoke,{\k33}We {\k19}can’t {\k33}go {\k67}back
-Comment: 0,0:01:21.84,0:01:24.50,Default - Tamon,,0,0,0,karaoke,{\k33}bo{\k32}ku {\k33}wo {\k19}su{\k32}ki {\k17}ni {\k17}na{\k17}ru {\k16}C’{\k50}MON
-Comment: 0,0:01:24.81,0:01:25.71,Default,,0,0,0,karaoke,{\k18}Swee{\k18}tie {\k17}ho{\k37}ney
-Comment: 0,0:01:25.82,0:01:27.62,Default,,0,0,0,karaoke,{\k34}Sweet {\k32}sweet {\k34}sweet {\k19}ma{\k61}gic!
-Dialogue: 0,0:00:02.62,0:00:04.32,Default - Tamon,,0,0,0,fx,{\k90\fad(300,200)}{\k60}Hey!
-Dialogue: 0,0:00:04.38,0:00:08.12,Default - Tamon,,0,0,0,fx,{\k90\fad(300,200)}{\k24}It’s {\k8}just {\k31}like {\k26}s{\kf100}weet{\kf14} {\k19}ma{\k42}gic!
-Dialogue: 0,0:00:07.95,0:00:09.35,Default - Tamon,,0,0,0,fx,{\k90\fad(300,200)}{\k19}A{\k11}ha!
-Dialogue: 0,0:00:11.90,0:00:15.34,Default - Tamon,,0,0,0,fx,{\k90\fad(300,200)}{\k36}HI {\k18}o{\k15}ma{\k17}ta{\k16}se {\k18}to{\k16}bi{\k18}ki{\k15}ri {\k20}SMI{\k45}~LE!
-Dialogue: 0,0:00:14.61,0:00:18.02,Default - Rintarou,,0,0,0,fx,{\k90\fad(300,200)}{\k32}shi{\k18}sen {\k15}u{\k17}ba{\k15}u {\k36}kyou{\k17}i {\k16}no {\k16}STY{\k49}~LE!
-Dialogue: 0,0:00:16.91,0:00:18.92,Default - Ouri,,0,0,0,fx,{\k90\fad(300,200)}{\k34}SMAR{\k10}T {\k8}ni {\k17}ES{\k22}CORT
-Dialogue: 0,0:00:17.94,0:00:20.43,Default - Keito,,0,0,0,fx,{\k90\fad(300,200)}{\k9}a{\k25}de{\k9}ya{\k21}ka {\k12}ko{\k22}no {\k41}VOICE
-Dialogue: 0,0:00:19.23,0:00:21.60,Default - Tamon,,0,0,0,fx,{\k90\fad(300,200)}{\k31}AH {\k16}ho{\k26}ra {\k7}o{\k26}do{\k21}rou
-Dialogue: 0,0:00:20.62,0:00:22.98,Default - Natsuki,,0,0,0,fx,{\k90\fad(300,200)}{\k13}i{\k18}ma {\k10}i{\k9}nu{\k16}ku {\k33}YOUR {\k27}HEART
-Dialogue: 0,0:00:22.61,0:00:26.10,Default - Natsuki,,0,0,0,fx,{\k90\fad(300,200)}{\k30}I {\k36}AM {\k36}ki{\k32}mi {\k17}no {\k25}A{\k26}CE {\k16}DAR{\k21}LIN’
-Dialogue: 0,0:00:25.23,0:00:28.80,Default - Rintarou,,0,0,0,fx,{\k90\fad(300,200)}{\k36}ji{\k34}shin {\k32}na{\k33}ra {\k19}ka{\k33}na{\k17}ri {\k16}a{\k27}ri
-Dialogue: 0,0:00:27.91,0:00:29.90,Default,,0,0,0,fx,{\k90\fad(300,200)}{\c&HD54956&\k38}Please {\c&H6EBD16&\k51}please
-Dialogue: 0,0:00:28.79,0:00:32.01,Default - Tamon,,0,0,0,fx,{\k90\fad(300,200)}{\k15}bo{\k18}ku {\k29}da{\k35}ke {\k35}ni {\k14}ki{\k34}kas’{\k18}te {\k14}yo
-Dialogue: 0,0:00:30.93,0:00:33.11,Default - Tamon,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Call {\k34}my {\k46}na{\k10}me
-Dialogue: 0,0:00:32.55,0:00:36.70,Default - Ouri,,0,0,0,fx,{\k90\fad(300,200)}{\k38}ji{\k67}ret{\k17}{\k34}tai {\k70}na {\k15}mo{\k16}te{\k14}ru {\k18}ki{\k16}mi
-Dialogue: 0,0:00:35.62,0:00:38.46,Default - Tamon,,0,0,0,fx,{\k90\fad(300,200)}{\k49}I’m {\k32}not {\k34}o{\k59}kay
-Dialogue: 0,0:00:37.93,0:00:42.38,Default - Keito,,0,0,0,fx,{\k90\fad(300,200)}{\k34}BUT {\k83}I’M {\k35}SOR{\k49}RY {\k17}ma{\k15}ke{\k18}ru {\k17}ki {\k15}ga {\k17}shi{\k35}nai
-Dialogue: 0,0:00:41.28,0:00:43.19,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Hey, {\k47}girl
-Dialogue: 0,0:00:42.21,0:00:43.90,Default - Tamon,,0,0,0,fx,{\k90\fad(300,200)}{\k25}koc{\k14}chi {\k8}mi{\k12}te
-Dialogue: 0,0:00:43.12,0:00:45.64,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k9}I {\k14}see {\k27}your {\k34}smile {\k34}smile {\k24}smile
-Dialogue: 0,0:00:44.61,0:00:47.31,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k14}hi{\k39}to{\k27}ri {\k22}ji{\k16}me {\k9}ni {\k22}shi{\k11}te
-Dialogue: 0,0:00:46.26,0:00:50.18,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k34}CRASH {\k33}CRASH {\k36}CRASH {\k17}to{\k32}ku{\k33}bets’ {\k16}na {\k33}kan{\k48}kei
-Dialogue: 0,0:00:49.28,0:00:52.85,Default - Tamon,,0,0,0,fx,{\k90\fad(300,200)}{\k34}DANCE {\k66}DANCE {\k18}fu{\k33}ta{\k33}ri {\k13}no {\k18}se{\k32}kai
-Dialogue: 0,0:00:51.95,0:00:54.51,Default - Tamon,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Non {\k66}stop {\k20}groo{\k29}vin’
-Dialogue: 0,0:00:53.41,0:00:57.18,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}kan{\k15}pe{\k18}ki {\k14}na {\k18}A {\k33}SIDE {\k34}SIDE {\k33}SIDE {\k18}no {\k32}hou {\k31}mo
-Dialogue: 0,0:00:56.10,0:00:59.18,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}P{\k17}RI{\k15}VATE {\k17}na {\k16}B {\k33}SIDE {\k35}SIDE {\k33}SIDE {\k14}mo
-Dialogue: 0,0:00:58.08,0:01:00.79,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k38}zen{\k33}bu {\k13}mi{\k21}se{\k16}ru {\k40}yo
-Dialogue: 0,0:00:59.92,0:01:04.51,Default - Tamon,,0,0,0,fx,{\k90\fad(300,200)}{\k34}saa {\k17}bo{\k35}ku {\k16}no {\k33}te {\k17}wo {\k32}tot{\k17}te {\rDefault}{\k33}LET’S {\kf115}ROLL
-Dialogue: 0,0:01:03.58,0:01:06.55,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Sweet {\k33}sweet {\k33}sweet {\k19}ma{\k67}gic!
-Dialogue: 0,0:01:07.92,0:01:11.18,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Swee{\k16}tie {\k17}ho{\k50}ney {\k17}swee{\k16}tie {\k18}ho{\k64}ney
-Dialogue: 0,0:01:13.25,0:01:16.51,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Swee{\k16}tie {\k17}ho{\k49}ney {\k19}swee{\k14}tie {\k17}ho{\k65}ney
-Dialogue: 0,0:01:15.62,0:01:19.66,Default - Tamon,,0,0,0,fx,{\k90\fad(300,200)}{\k33}mu{\k34}ne {\k29}ga {\k18}sa{\k34}wa{\k16}gi {\k18}da{\k16}su {\k17}ma{\k32}ho{\k17}u {\k30}sa
-Dialogue: 0,0:01:18.58,0:01:21.20,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k33}We {\k19}can’t {\k33}go {\k67}back
-Dialogue: 0,0:01:20.94,0:01:24.70,Default - Tamon,,0,0,0,fx,{\k90\fad(300,200)}{\k33}bo{\k32}ku {\k33}wo {\k19}su{\k32}ki {\k17}ni {\k17}na{\k17}ru {\k16}C’{\k50}MON
-Dialogue: 0,0:01:23.91,0:01:25.91,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Swee{\k18}tie {\k17}ho{\k37}ney
-Dialogue: 0,0:01:24.92,0:01:27.82,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Sweet {\k32}sweet {\k34}sweet {\k19}ma{\k61}gic!
+Comment: 0,0:00:00.00,0:00:00.00,FACE,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,Tamon,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rTamon Symbol\\fs30}●{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Rintarou,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rRintarou Symbol\\fs30}♦{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Ouri,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rOuri Symbol\\fs30}♠{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Keito,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rKeito Symbol\\fs30}♪{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Natsuki,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rNatsuki Symbol\\fs30}♥{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,COLOR CODE,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&HB88EE9&}● Tamon{\c} | {\c&HDB99B8&}♦ Rintarô{\c} | {\c&HD6757C&}♠ Ôri{\c} | {\c&H7BBEEA&}♥ Natsuki{\c} | {\c&H6EBD16&}♪ Keito{\c}\N\N{\c&H18A8EB&\i1}F/ACE{\i0}
+Comment: 0,0:00:03.52,0:00:04.12,Tamon,,0,0,0,karaoke,{\k60}HEY!
+Comment: 0,0:00:05.28,0:00:07.92,Tamon,,0,0,0,karaoke,{\k24}It’s {\k8}just {\k31}like {\k27}s{\kf100}weet{\kf13} {\k21}mag{\k40}ic!
+Comment: 0,0:00:08.85,0:00:09.19,Tamon,,0,0,0,karaoke,{\k19}A{\k15}HA!
+Comment: 0,0:00:12.18,0:00:15.14,Tamon,,0,0,0,karaoke,{\k33}AH {\k34}{\k33}HI {\k17}o{\k14}ma{\k17}ta{\k15}se {\k20}to{\k15}bi{\k19}ki{\k9}ri {\k25}SMI-{\k45}ILE!
+Comment: 0,0:00:15.51,0:00:17.77,Rintarou,,0,0,0,karaoke,{\k32}shi{\k19}sen {\k16}u{\k17}ba{\k12}u {\k38}kyou{\k16}i {\k16}no {\k18}STY-{\k47}YLE!
+Comment: 0,0:00:17.77,0:00:18.72,Ouri,,0,0,0,karaoke,{\k40}SMAR{\k10}T {\k10}ni {\k14}ES{\k21}CORT
+Comment: 0,0:00:18.84,0:00:20.16,Keito,,0,0,0,karaoke,{\k9}a{\k25}de{\k9}ya{\k21}ka {\k12}ko{\k22}no {\k34}VOICE
+Comment: 0,0:00:20.16,0:00:21.44,Natsuki,,0,0,0,karaoke,{\k36}AH {\k8}ho{\k27}ra {\k7}o{\k25}do{\k25}rou
+Comment: 0,0:00:21.52,0:00:22.78,Natsuki,,0,0,0,karaoke,{\k13}i{\k18}ma {\k10}i{\k25}nuk’ {\k33}YOUR {\k27}HEART
+Comment: 0,0:00:23.51,0:00:25.90,Natsuki,,0,0,0,karaoke,{\k35}I {\k31}AM {\k36}ki{\k32}mi {\k17}no {\k33}A{\k18}CE {\k19}DAR{\k18}LIN’
+Comment: 0,0:00:26.17,0:00:28.60,Rintarou,,0,0,0,karaoke,{\k32}ji{\k35}shin {\k31}na{\k33}ra {\k20}ka{\k33}na{\k17}ri {\k17}a{\k25}ri
+Comment: 0,0:00:28.81,0:00:29.69,FACE,,0,0,0,karaoke,{\k38}PLEASE {\k50}PLEASE
+Comment: 0,0:00:29.69,0:00:31.83,Tamon,,0,0,0,karaoke,{\k15}bo{\k18}ku {\k29}da{\k35}ke {\k35}ni {\k14}ki{\k34}kas’{\k18}te {\k16}yo
+Comment: 0,0:00:31.83,0:00:32.91,Tamon,,0,0,0,karaoke,{\k18}CALL {\k34}MY {\k47}NA{\k9}ME
+Comment: 0,0:00:33.51,0:00:36.52,Ouri,,0,0,0,karaoke,{\k35}ji{\k56}ret{\k24}{\k38}tai {\k37}na {\k26}{\k19}mo{\k18}te{\k12}ru {\k20}ki{\k16}mi
+Comment: 0,0:00:36.52,0:00:38.26,Tamon,,0,0,0,karaoke,{\k50}I’M {\k32}NOT {\k33}O{\k59}KAY
+Comment: 0,0:00:38.83,0:00:42.18,Keito,,0,0,0,karaoke,{\k34}BUT {\k83}I’M {\k35}SOR{\k49}RY {\k17}ma{\k15}ke{\k18}ru {\k17}ki {\k18}ga {\k14}shi{\k35}nai
+Comment: 0,0:00:42.18,0:00:42.99,FACE,,0,0,0,karaoke,{\k34}HEY, {\k47}GIRL
+Comment: 0,0:00:43.09,0:00:43.70,Tamon,,0,0,0,karaoke,{\k29}koc{\k11}chi {\k8}mi{\k13}te
+Comment: 0,0:00:44.02,0:00:45.44,FACE,,0,0,0,karaoke,{\k14}I {\k13}see {\k18}your {\k33}smile {\k33}smile {\k31}smile
+Comment: 0,0:00:45.51,0:00:47.11,FACE,,0,0,0,karaoke,{\k14}hi{\k39}to{\k33}ri {\k16}ji{\k16}me {\k16}ni {\k15}shi{\k11}te
+Comment: 0,0:00:47.16,0:00:49.98,FACE,,0,0,0,karaoke,{\k34}CRASH {\k33}CRASH {\k36}CRASH {\k16}to{\k33}ku{\k33}bets’ {\k16}na {\k33}kan{\k48}kei
+Comment: 0,0:00:50.18,0:00:52.65,Tamon,,0,0,0,karaoke,{\k34}DANCE {\k67}DANCE {\k17}fu{\k33}ta{\k33}ri {\k14}no {\k17}se{\k32}kai
+Comment: 0,0:00:52.85,0:00:54.31,Tamon,,0,0,0,karaoke,{\k33}NON {\k64}STOP {\k24}GROOV{\k25}IN’
+Comment: 0,0:00:54.31,0:00:57.00,FACE,,0,0,0,karaoke,{\k21}kan{\k15}pe{\k18}ki {\k14}na {\k18}A {\k33}SIDE {\k34}SIDE {\k33}SIDE {\k18}no {\k32}hou {\k33}mo
+Comment: 0,0:00:57.00,0:00:58.85,FACE,,0,0,0,karaoke,{\k18}P{\k17}RI{\k15}VATE {\k17}na {\k16}B {\k33}SIDE {\k35}SIDE {\k33}SIDE
+Comment: 0,0:00:58.85,0:01:00.59,FACE,,0,0,0,karaoke,{\k18}mo {\k32}zen{\k33}bu {\k16}mi{\k19}se{\k14}ru {\k42}yo
+Comment: 0,0:01:00.82,0:01:02.84,Tamon,,0,0,0,karaoke,{\k35}saa {\k17}bo{\k34}ku {\k16}no {\k33}te {\k17}wo {\k32}tot{\k17}te
+Comment: 0,0:01:02.84,0:01:04.36,FACE,,0,0,0,karaoke,{\k35}LET’S {\kf117}ROLL
+Comment: 0,0:01:04.51,0:01:06.33,FACE,,0,0,0,karaoke,{\k32}Sweet {\k33}sweet {\k36}sweet {\k17}mag{\k64}ic!
+Comment: 0,0:01:08.82,0:01:10.94,FACE,,0,0,0,karaoke,{\k20}Sweet{\k16}ie {\k17}ho{\k49}ney {\k19}sweet{\k15}ie {\k18}ho{\k58}ney
+Comment: 0,0:01:14.17,0:01:16.26,FACE,,0,0,0,karaoke,{\k18}Sweet{\k17}ie {\k16}ho{\k50}ney {\k19}sweet{\k14}ie {\k17}ho{\k58}ney
+Comment: 0,0:01:16.52,0:01:19.48,Tamon,,0,0,0,karaoke,{\k33}mu{\k34}ne {\k30}ga {\k18}sa{\k35}wa{\k16}gi {\k17}da{\k17}su {\k16}ma{\k34}ho{\k16}u {\k30}sa
+Comment: 0,0:01:19.48,0:01:20.96,FACE,,0,0,0,karaoke,{\k33}We {\k19}can’t {\k34}go {\k62}back
+Comment: 0,0:01:21.84,0:01:24.50,Tamon,,0,0,0,karaoke,{\k34}bo{\k33}ku {\k31}wo {\k19}su{\k34}ki {\k17}ni {\k16}na{\k16}ru {\k18}C’{\k48}MON
+Comment: 0,0:01:24.81,0:01:25.71,FACE,,0,0,0,karaoke,{\k21}Sweet{\k16}ie {\k16}ho{\k37}ney
+Comment: 0,0:01:25.82,0:01:27.59,FACE,,0,0,0,karaoke,{\k34}Sweet {\k32}sweet {\k34}sweet {\k19}mag{\k58}ic!
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&HB88EE9&}● Tamon{\c} | {\c&HDB99B8&}♦ Rintarô{\c} | {\c&HD6757C&}♠ Ôri{\c} | {\c&H7BBEEA&}♥ Natsuki{\c} | {\c&H6EBD16&}♪ Keito{\c}\N\N{\c&H18A8EB&\i1}F/ACE{\i0}
+Dialogue: 0,0:00:02.62,0:00:04.32,Tamon,,0,0,0,fx,{\k90\fad(300,200)}{\rTamon Symbol\fs30}●{\r\fs\4a&HFF&} {\k60}HEY!
+Dialogue: 0,0:00:04.38,0:00:08.12,Tamon,,0,0,0,fx,{\k90\fad(300,200)}{\rTamon Symbol\fs30}●{\r\fs\4a&HFF&} {\k24}It’s {\k8}just {\k31}like {\k27}s{\kf100}weet{\kf13} {\k21}mag{\k40}ic!
+Dialogue: 0,0:00:07.95,0:00:09.39,Tamon,,0,0,0,fx,{\k90\fad(300,200)}{\rTamon Symbol\fs30}●{\r\fs\4a&HFF&} {\k19}A{\k15}HA!
+Dialogue: 0,0:00:11.28,0:00:15.34,Tamon,,0,0,0,fx,{\k90\fad(300,200)}{\rTamon Symbol\fs30}●{\r\fs\4a&HFF&} {\k33}AH {\k34}{\k33}HI {\k17}o{\k14}ma{\k17}ta{\k15}se {\k20}to{\k15}bi{\k19}ki{\k9}ri {\k25}SMI-{\k45}ILE!
+Dialogue: 0,0:00:14.61,0:00:17.97,Rintarou,,0,0,0,fx,{\k90\fad(300,200)}{\rRintarou Symbol\fs30}♦{\r\fs\4a&HFF&} {\k32}shi{\k19}sen {\k16}u{\k17}ba{\k12}u {\k38}kyou{\k16}i {\k16}no {\k18}STY-{\k47}YLE!
+Dialogue: 0,0:00:16.87,0:00:18.92,Ouri,,0,0,0,fx,{\k90\fad(300,200)}{\rOuri Symbol\fs30}♠{\r\fs\4a&HFF&} {\k40}SMAR{\k10}T {\k10}ni {\k14}ES{\k21}CORT
+Dialogue: 0,0:00:17.94,0:00:20.36,Keito,,0,0,0,fx,{\k90\fad(300,200)}{\rKeito Symbol\fs30}♪{\r\fs\4a&HFF&} {\k9}a{\k25}de{\k9}ya{\k21}ka {\k12}ko{\k22}no {\k34}VOICE
+Dialogue: 0,0:00:19.26,0:00:21.64,Natsuki,,0,0,0,fx,{\k90\fad(300,200)}{\rNatsuki Symbol\fs30}♥{\r\fs\4a&HFF&} {\k36}AH {\k8}ho{\k27}ra {\k7}o{\k25}do{\k25}rou
+Dialogue: 0,0:00:20.62,0:00:22.98,Natsuki,,0,0,0,fx,{\k90\fad(300,200)}{\rNatsuki Symbol\fs30}♥{\r\fs\4a&HFF&} {\k13}i{\k18}ma {\k10}i{\k25}nuk’ {\k33}YOUR {\k27}HEART
+Dialogue: 0,0:00:22.61,0:00:26.10,Natsuki,,0,0,0,fx,{\k90\fad(300,200)}{\rNatsuki Symbol\fs30}♥{\r\fs\4a&HFF&} {\k35}I {\k31}AM {\k36}ki{\k32}mi {\k17}no {\k33}A{\k18}CE {\k19}DAR{\k18}LIN’
+Dialogue: 0,0:00:25.27,0:00:28.80,Rintarou,,0,0,0,fx,{\k90\fad(300,200)}{\rRintarou Symbol\fs30}♦{\r\fs\4a&HFF&} {\k32}ji{\k35}shin {\k31}na{\k33}ra {\k20}ka{\k33}na{\k17}ri {\k17}a{\k25}ri
+Dialogue: 0,0:00:27.91,0:00:29.89,FACE,,0,0,0,fx,{\k90\fad(300,200)}{\rOuri Symbol\fs30}♠ {\rKeito Symbol\fs30}♪{\r\fs\4a&HFF&} {\k38}PLEASE {\k50}PLEASE
+Dialogue: 0,0:00:28.79,0:00:32.03,Tamon,,0,0,0,fx,{\k90\fad(300,200)}{\rTamon Symbol\fs30}●{\r\fs\4a&HFF&} {\k15}bo{\k18}ku {\k29}da{\k35}ke {\k35}ni {\k14}ki{\k34}kas’{\k18}te {\k16}yo
+Dialogue: 0,0:00:30.93,0:00:33.11,Tamon,,0,0,0,fx,{\k90\fad(300,200)}{\rTamon Symbol\fs30}●{\r\fs\4a&HFF&} {\k18}CALL {\k34}MY {\k47}NA{\k9}ME
+Dialogue: 0,0:00:32.61,0:00:36.72,Ouri,,0,0,0,fx,{\k90\fad(300,200)}{\rOuri Symbol\fs30}♠{\r\fs\4a&HFF&} {\k35}ji{\k56}ret{\k24}{\k38}tai {\k37}na {\k26}{\k19}mo{\k18}te{\k12}ru {\k20}ki{\k16}mi
+Dialogue: 0,0:00:35.62,0:00:38.46,Tamon,,0,0,0,fx,{\k90\fad(300,200)}{\rTamon Symbol\fs30}●{\r\fs\4a&HFF&} {\k50}I’M {\k32}NOT {\k33}O{\k59}KAY
+Dialogue: 0,0:00:37.93,0:00:42.38,Keito,,0,0,0,fx,{\k90\fad(300,200)}{\rKeito Symbol\fs30}♪{\r\fs\4a&HFF&} {\k34}BUT {\k83}I’M {\k35}SOR{\k49}RY {\k17}ma{\k15}ke{\k18}ru {\k17}ki {\k18}ga {\k14}shi{\k35}nai
+Dialogue: 0,0:00:41.28,0:00:43.19,FACE,,0,0,0,fx,{\k90\fad(300,200)}{\k34}HEY, {\k47}GIRL
+Dialogue: 0,0:00:42.19,0:00:43.90,Tamon,,0,0,0,fx,{\k90\fad(300,200)}{\rTamon Symbol\fs30}●{\r\fs\4a&HFF&} {\k29}koc{\k11}chi {\k8}mi{\k13}te
+Dialogue: 0,0:00:43.12,0:00:45.64,FACE,,0,0,0,fx,{\k90\fad(300,200)}{\k14}I {\k13}see {\k18}your {\k33}smile {\k33}smile {\k31}smile
+Dialogue: 0,0:00:44.61,0:00:47.31,FACE,,0,0,0,fx,{\k90\fad(300,200)}{\k14}hi{\k39}to{\k33}ri {\k16}ji{\k16}me {\k16}ni {\k15}shi{\k11}te
+Dialogue: 0,0:00:46.26,0:00:50.18,FACE,,0,0,0,fx,{\k90\fad(300,200)}{\k34}CRASH {\k33}CRASH {\k36}CRASH {\k16}to{\k33}ku{\k33}bets’ {\k16}na {\k33}kan{\k48}kei
+Dialogue: 0,0:00:49.28,0:00:52.85,Tamon,,0,0,0,fx,{\k90\fad(300,200)}{\rTamon Symbol\fs30}●{\r\fs\4a&HFF&} {\k34}DANCE {\k67}DANCE {\k17}fu{\k33}ta{\k33}ri {\k14}no {\k17}se{\k32}kai
+Dialogue: 0,0:00:51.95,0:00:54.51,Tamon,,0,0,0,fx,{\k90\fad(300,200)}{\rTamon Symbol\fs30}●{\r\fs\4a&HFF&} {\k33}NON {\k64}STOP {\k24}GROOV{\k25}IN’
+Dialogue: 0,0:00:53.41,0:00:57.20,FACE,,0,0,0,fx,{\k90\fad(300,200)}{\k21}kan{\k15}pe{\k18}ki {\k14}na {\k18}A {\k33}SIDE {\k34}SIDE {\k33}SIDE {\k18}no {\k32}hou {\k33}mo
+Dialogue: 0,0:00:56.10,0:00:59.05,FACE,,0,0,0,fx,{\k90\fad(300,200)}{\k18}P{\k17}RI{\k15}VATE {\k17}na {\k16}B {\k33}SIDE {\k35}SIDE {\k33}SIDE
+Dialogue: 0,0:00:57.95,0:01:00.79,FACE,,0,0,0,fx,{\k90\fad(300,200)}{\k18}mo {\k32}zen{\k33}bu {\k16}mi{\k19}se{\k14}ru {\k42}yo
+Dialogue: 0,0:00:59.92,0:01:03.04,Tamon,,0,0,0,fx,{\k90\fad(300,200)}{\rTamon Symbol\fs30}●{\r\fs\4a&HFF&} {\k35}saa {\k17}bo{\k34}ku {\k16}no {\k33}te {\k17}wo {\k32}tot{\k17}te
+Dialogue: 0,0:01:01.94,0:01:04.56,FACE,,0,0,0,fx,{\k90\fad(300,200)}{\k35}LET’S {\kf117}ROLL
+Dialogue: 0,0:01:03.61,0:01:06.53,FACE,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Sweet {\k33}sweet {\k36}sweet {\k17}mag{\k64}ic!
+Dialogue: 0,0:01:07.92,0:01:11.14,FACE,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Sweet{\k16}ie {\k17}ho{\k49}ney {\k19}sweet{\k15}ie {\k18}ho{\k58}ney
+Dialogue: 0,0:01:13.27,0:01:16.46,FACE,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Sweet{\k17}ie {\k16}ho{\k50}ney {\k19}sweet{\k14}ie {\k17}ho{\k58}ney
+Dialogue: 0,0:01:15.62,0:01:19.68,Tamon,,0,0,0,fx,{\k90\fad(300,200)}{\rTamon Symbol\fs30}●{\r\fs\4a&HFF&} {\k33}mu{\k34}ne {\k30}ga {\k18}sa{\k35}wa{\k16}gi {\k17}da{\k17}su {\k16}ma{\k34}ho{\k16}u {\k30}sa
+Dialogue: 0,0:01:18.58,0:01:21.16,FACE,,0,0,0,fx,{\k90\fad(300,200)}{\k33}We {\k19}can’t {\k34}go {\k62}back
+Dialogue: 0,0:01:20.94,0:01:24.70,Tamon,,0,0,0,fx,{\k90\fad(300,200)}{\rTamon Symbol\fs30}●{\r\fs\4a&HFF&} {\k34}bo{\k33}ku {\k31}wo {\k19}su{\k34}ki {\k17}ni {\k16}na{\k16}ru {\k18}C’{\k48}MON
+Dialogue: 0,0:01:23.91,0:01:25.91,FACE,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Sweet{\k16}ie {\k16}ho{\k37}ney
+Dialogue: 0,0:01:24.92,0:01:27.79,FACE,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Sweet {\k32}sweet {\k34}sweet {\k19}mag{\k58}ic!
