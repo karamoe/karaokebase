@@ -1,0 +1,227 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Title: BEEP BEEP
+Original Timing: Cygfir
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Suisei],Arial,24,&H00FFFFFF,&H00FFD058,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Suisei] - Down,Arial,24,&H00FFFFFF,&H00FFD058,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM Duo [Sora],Arial,24,&H00FFFFFF,&H00FD966B,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Matsuri],Arial,24,&H00FFFFFF,&H00119BFB,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Matsuri] - Down,Arial,24,&H00FFFFFF,&H00119BFB,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM Duo [Aki],Arial,24,&H00FFFFFF,&H004DE696,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Aki] - Down,Arial,24,&H00FFFFFF,&H004DE696,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM Duo [Subaru],Arial,24,&H00FFFFFF,&H001CD4F5,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Subaru] - Down,Arial,24,&H00FFFFFF,&H001CD4F5,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM Duo [Towa],Arial,24,&H00FFFFFF,&H00D691B2,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Nene],Arial,24,&H00FFFFFF,&H006992E5,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Koyori],Arial,24,&H00FFFFFF,&H00F299FB,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Koyori] - Down,Arial,24,&H00FFFFFF,&H00F299FB,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM Duo [Iroha],Arial,24,&H00FFFFFF,&H00BAE56A,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Nene+Koyori],Arial,24,&H00FFFFFF,&H00674EEB,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Subaru+Iroha],Arial,24,&H00FFFFFF,&H00674EEB,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [All],Arial,24,&H00FFFFFF,&H00674EEB,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM Duo [Subaru+Iroha],,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♣☼ "!
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM Duo [Nene+Koyori],,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♥▲ "!
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM Duo [All],,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!""!
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM Duo [Iroha],,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♣ "!
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM Duo [Koyori],,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"▲ "!
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM Duo [Koyori] - Down,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"▲ "!
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM Duo [Nene],,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♥ "!
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM Duo [Towa],,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♠ "!
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM Duo [Subaru] - Down,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"☼ "!
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM Duo [Subaru],,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"☼ "!
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM Duo [Aki],,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♦ "!
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM Duo [Aki] - Down,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♦ "!
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM Duo [Matsuri] - Down,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"● "!
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM Duo [Matsuri],,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"● "!
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM Duo [Sora],,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"■ "!
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM Duo [Suisei],,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♫ "!
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM Duo [Suisei] - Down,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♫ "!
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!""!
+Comment: 0,0:00:00.00,0:00:08.00,Sample KM [Up],,0,0,175,karaoke,{\k1500}{\k0} {\rSample KM Duo [All]}Group{\r}
+Comment: 0,0:00:00.00,0:00:08.00,Sample KM [Up],,0,0,175,karaoke,{\k1500}{\k0}{\2cHFFFFFF}♫ {\rSample KM Duo [Suisei]}Suisei{\r}  {\2cHFFFFFF}■ {\rSample KM Duo [Sora]}Sora{\r}
+Comment: 0,0:00:00.00,0:00:08.00,Sample KM [Up],,0,0,175,karaoke,{\k1500}{\k0}{\2cHFFFFFF}♦ {\rSample KM Duo [Aki]}Aki{\r}  {\2cHFFFFFF}● {\rSample KM Duo [Matsuri]}Matsuri{\r} {\2cHFFFFFF}☼ {\rSample KM Duo [Subaru]}Subaru{\r}
+Comment: 0,0:00:00.00,0:00:08.00,Sample KM [Up],,0,0,175,karaoke,{\k1500}{\k0}{\2cHFFFFFF}♠ {\rSample KM Duo [Towa]}Towa{\r}  {\2cHFFFFFF}♥ {\rSample KM Duo [Nene]}Nene{\r} {\2cHFFFFFF}♣ {\rSample KM Duo [Iroha]}Iroha{\r} {\2cHFFFFFF}▲ {\rSample KM Duo [Koyori]}Koyori{\r}
+Comment: 0,0:00:08.21,0:00:09.00,Sample KM Duo [Matsuri],,0,0,0,karaoke,{\k25}HEY {\k13}WAIT {\k11}A {\k30}MINUTE!
+Comment: 0,0:00:11.99,0:00:12.88,Sample KM Duo [Matsuri],,0,0,0,karaoke,{\k24}BEEP {\k65}BEEP
+Comment: 0,0:00:22.56,0:00:23.43,Sample KM Duo [Suisei],,0,0,0,karaoke,{\k15}nan{\k9}do {\k13}de{\k11}mo {\k20}I {\k19}SAY
+Comment: 0,0:00:23.69,0:00:25.38,Sample KM Duo [Suisei],,0,0,0,karaoke,{\k12}ko{\k10}ta{\k11}e{\k9}te {\k25}yo {\k9}GIM{\k12}ME {\k22}ONE {\k21}MORE {\k38}CHANCE
+Comment: 0,0:00:25.67,0:00:27.18,Sample KM Duo [Suisei],,0,0,0,karaoke,{\k11}i{\k13}chi{\k31}byou {\k11}da{\k16}ke {\k28}de {\k41}ii
+Comment: 0,0:00:27.18,0:00:28.88,Sample KM Duo [Suisei],,0,0,0,karaoke,{\k5}wa{\k13}ta{\k31}shi {\k38}ni {\k37}chou{\k46}dai
+Comment: 0,0:00:28.74,0:00:29.63,Sample KM Duo [Koyori] - Down,,0,0,0,karaoke,{\k14}ARE {\k19}YOU {\k14}THE {\k42}ONE?
+Comment: 0,0:00:29.63,0:00:32.50,Sample KM Duo [Nene],,0,0,0,karaoke,{\k13}i{\k11}tsu {\k22}ka{\k12}ra {\k27}FEE{\k93}LING, {\k13}to{\k22}ma{\k21}ra{\k53}nai
+Comment: 0,0:00:30.75,0:00:33.31,Sample KM Duo [Koyori] - Down,,0,0,0,karaoke,{\k23}FEE{\k131}LING, {\k21}YOU {\k22}AND {\k59}ME
+Comment: 0,0:00:33.38,0:00:36.66,Sample KM Duo [Nene+Koyori],,0,0,0,karaoke,{\k24}NO{\k66}BO{\k23}DY {\k63}ELSE {\k24}IN {\k66}MY {\k22}VI{\k40}SION
+Comment: 0,0:00:36.48,0:00:39.14,Sample KM Duo [Iroha],,0,0,0,karaoke,{\k22}a{\k23}ga{\k20}ru {\k24}on{\k41}do, {\k24}myak' {\k10}no {\k24}SPEE{\k8}D {\k25}wa {\k45}FAST
+Comment: 0,0:00:38.89,0:00:39.58,Sample KM Duo [Subaru] - Down,,0,0,0,karaoke,{\k25}SO {\k44}FAST
+Comment: 0,0:00:39.35,0:00:40.85,Sample KM Duo [Iroha],,0,0,0,karaoke,{\k12}ko{\k18}no {\k28}RACE {\k18}i{\k10}tsu{\k25}mo {\k39}LAST
+Comment: 0,0:00:40.78,0:00:41.23,Sample KM Duo [Subaru] - Down,,0,0,0,karaoke,{\k11}OH {\k34}LAST
+Comment: 0,0:00:41.12,0:00:42.24,Sample KM Duo [Subaru+Iroha],,0,0,0,karaoke,{\k12}ku{\k19}ta{\k23}ku{\k23}ta {\k10}de {\k25}mo
+Comment: 0,0:00:42.44,0:00:44.10,Sample KM Duo [Subaru+Iroha],,0,0,0,karaoke,{\k10}u{\k12}ke{\k22}te {\k11}ta{\k22}tou {\k22}I'M {\k23}REA{\k10}DY {\k34}NOW
+Comment: 0,0:00:44.19,0:00:45.70,Sample KM Duo [Towa],,0,0,0,karaoke,{\k13}me {\k10}ga {\k22}ma{\k13}wa{\k21}ru {\k8}ku{\k25}rai {\k39}MAZE
+Comment: 0,0:00:45.72,0:00:47.52,Sample KM Duo [Towa],,0,0,0,karaoke,{\k13}de{\k11}gu{\k10}chi {\k13}do{\k21}ko? {\k11}sa{\k22}gash'{\k12}te{\k23}ru {\k44}DAYS
+Comment: 0,0:00:47.52,0:00:51.37,Sample KM Duo [Towa],,0,0,0,karaoke,{\k19}PUZ{\k25}Z{\k21}LE {\k21}wo {\k25}ka{\k20}n{\k20}sei {\k22}sa{\k24}se{\k21}ru {\k25}sai{\k21}go {\k23}no {\k21}PI{\k77}ECE
+Comment: 0,0:00:52.14,0:00:53.44,Sample KM Duo [Sora],,0,0,0,karaoke,{\k11}to {\k11}ga {\k23}shi{\k23}ma{\k19}ri {\k43}sou
+Comment: 0,0:00:53.92,0:00:55.35,Sample KM Duo [Sora],,0,0,0,karaoke,{\k12}na {\k10}no {\k20}ni {\k24}zu{\k23}t{\k54}to
+Comment: 0,0:00:55.66,0:00:58.31,Sample KM Duo [Sora],,0,0,0,karaoke,{\k22}ki{\k36}zui{\k31}te {\k45}ku{\k21}re{\k23}na{\k87}i
+Comment: 0,0:00:58.74,0:01:00.25,Sample KM Duo [Subaru],,0,0,0,karaoke,{\k23}zen{\k22}ryo{\k24}ku {\k20}DA{\k24}SH {\k38}de
+Comment: 0,0:01:00.52,0:01:02.04,Sample KM Duo [Subaru],,0,0,0,karaoke,{\k22}ka{\k22}ke{\k22}ko{\k23}n{\k21}de {\k42}SAFE
+Comment: 0,0:01:02.07,0:01:04.94,Sample KM Duo [Matsuri],,0,0,0,karaoke,{\k13}i{\k19}ki {\k56}wo {\k10}ki{\k19}ra{\k37}su {\k23}I’M {\k32}NOT {\k33}O{\k45}KAY
+Comment: 0,0:01:04.94,0:01:06.91,Sample KM Duo [Suisei],,0,0,0,karaoke,{\k21}it{\k11}te {\k35}yo {\k42}WORD {\k32}FOR {\k56}WORD
+Comment: 0,0:01:06.91,0:01:09.27,Sample KM Duo [Suisei],,0,0,0,karaoke,{\k22}ki{\k45}ki{\k21}ta{\k24}i {\k14}no {\k40}SPEAK {\k33}YOUR {\k37}MIND
+Comment: 0,0:01:09.27,0:01:12.27,Sample KM Duo [Suisei],,0,0,0,karaoke,{\k28}ma{\k12}chi {\k22}tsu{\k34}zu{\k21}ke{\k22}te{\k46}ru {\k19}EVE{\k25}RY{\k23}DAY{\k48}~
+Comment: 0,0:01:12.87,0:01:15.70,Sample KM Duo [Aki],,0,0,0,karaoke,{\k21}kon{\k13}na {\k8}ni {\k24}chi{\k23}ka{\k23}ku {\k21}ni {\k44}i{\k21}ru {\k22}no {\k42}ni{\k21}~
+Comment: 0,0:01:15.95,0:01:18.31,Sample KM Duo [Aki],,0,0,0,karaoke,{\k22}OH {\k67}NO {\k21}ko{\k35}ko{\k32}ro {\k59}ga
+Comment: 0,0:01:18.37,0:01:20.36,Sample KM Duo [Sora],,0,0,0,karaoke,{\k46}mi{\k23}ta{\k19}sa{\k25}re{\k18}na{\k68}i
+Comment: 0,0:01:19.68,0:01:21.78,Sample KM Duo [Nene],,0,0,0,karaoke,{\k68}chik{\k21}ku{\k23}chi{\k12}ku {\k24}RO{\k22}MAN{\k40}TIC
+Comment: 0,0:01:21.26,0:01:23.25,Sample KM Duo [Matsuri] - Down,,0,0,0,karaoke,{\k22}to{\k22}ge {\k20}da{\k23}ra{\k21}ke {\k42}no {\k49}HEART
+Comment: 0,0:01:23.25,0:01:25.23,Sample KM Duo [Koyori],,0,0,0,karaoke,{\k64}NO! {\k23}nan{\k23}te {\k11}D{\k21}RA{\k23}MA{\k33}TIC
+Comment: 0,0:01:25.23,0:01:26.08,Sample KM Duo [Matsuri] - Down,,0,0,0,karaoke,{\k19}HEY {\k13}WAIT {\k10}A {\k43}MINUTE!
+Comment: 0,0:01:26.70,0:01:28.71,Sample KM Duo [Subaru],,0,0,0,karaoke,{\k70}STOP! {\k23}ki{\k23}mi {\k12}wa {\k21}TO{\k23}X{\k29}IC
+Comment: 0,0:01:28.77,0:01:29.56,Sample KM Duo [Matsuri] - Down,,0,0,0,karaoke,{\k19}BEEP {\k60}BEEP
+Comment: 0,0:01:34.07,0:01:35.61,Sample KM Duo [Sora],,0,0,0,karaoke,{\k21}me{\k12}ku{\k10}ru {\k22}CA{\k24}LE{\k20}N{\k45}DAR
+Comment: 0,0:01:35.82,0:01:37.54,Sample KM Duo [Sora],,0,0,0,karaoke,{\k20}byou{\k25}shin {\k21}wa {\k21}T{\k24}I{\k61}MER
+Comment: 0,0:01:37.38,0:01:38.72,Sample KM Duo [Nene],,0,0,0,karaoke,{\k18}TELL {\k16}ME {\k32}WHAT {\k21}YOU {\k47}NEED
+Comment: 0,0:01:38.91,0:01:41.18,Sample KM Duo [Nene],,0,0,0,karaoke,{\k21}mo{\k33}shi{\k33}mo {\k44}ko{\k24}no{\k21}ma{\k51}ma
+Comment: 0,0:01:41.18,0:01:44.21,Sample KM Duo [Aki],,0,0,0,karaoke,{\k16}a{\k22}so{\k20}bi {\k25}tsu{\k19}zu{\k25}ke{\k21}ru {\k24}na{\k20}ra {\k23}HIDE {\k20}AND {\k24}SEE{\k21}K {\k23}wo
+Comment: 0,0:01:44.21,0:01:47.91,Sample KM Duo [Aki],,0,0,0,karaoke,{\k20}wa{\k24}tash' {\k22}ka{\k20}ra {\k24}shi{\k20}ka{\k21}ke {\k46}chau {\k45}GAME {\k44}O{\k84}VER
+Comment: 0,0:01:46.42,0:01:47.91,Sample KM Duo [Koyori] - Down,,0,0,0,karaoke,{\k21}dat{\k9}te {\k19}mou {\k15}ma{\k14}te{\k21}nai {\k12}ka{\k38}mo
+Comment: 0,0:01:48.60,0:01:49.98,Sample KM Duo [Iroha],,0,0,0,karaoke,{\k11}na{\k12}mi{\k22}da {\k21}po{\k26}tsu{\k46}ri
+Comment: 0,0:01:50.28,0:01:51.83,Sample KM Duo [Iroha],,0,0,0,karaoke,{\k10}ko{\k22}bo{\k22}re {\k23}cha{\k22}i {\k56}sou
+Comment: 0,0:01:52.14,0:01:54.99,Sample KM Duo [Iroha],,0,0,0,karaoke,{\k22}a{\k34}ki{\k33}ra{\k42}me{\k24}ta{\k20}ku{\kf110}nai
+Comment: 0,0:01:55.20,0:01:56.79,Sample KM Duo [Matsuri],,0,0,0,karaoke,{\k25}zen{\k23}ryo{\k17}ku {\k6}AT{\k21}TA{\k23}CK {\k44}de
+Comment: 0,0:01:57.00,0:01:58.53,Sample KM Duo [Matsuri],,0,0,0,karaoke,{\k12}BAR{\k10}RI{\k23}ER {\k20}ha{\k22}zu{\k24}shi{\k42}te
+Comment: 0,0:01:58.53,0:02:01.84,Sample KM Duo [Sora],,0,0,0,karaoke,{\k12}mi{\k24}se{\k55}ru, {\k11}da{\k22}ka{\k54}ra{\k19} {\k25}NO {\k21}MORE {\k22}SI{\k66}LENCE
+Comment: 0,0:02:01.39,0:02:03.35,Sample KM Duo [Towa],,0,0,0,karaoke,{\k23}it{\k13}te {\k30}yo {\k41}WORD {\k39}FOR {\k50}WORD
+Comment: 0,0:02:03.35,0:02:05.77,Sample KM Duo [Towa],,0,0,0,karaoke,{\k25}ki{\k45}ki{\k21}ta{\k24}i {\k16}no {\k37}SPEAK {\k34}YOUR {\k40}MIND
+Comment: 0,0:02:05.80,0:02:08.77,Sample KM Duo [Towa],,0,0,0,karaoke,{\k22}ma{\k12}chi {\k22}tsu{\k34}zu{\k21}ke{\k22}te{\k45}ru {\k21}EVE{\k24}RY{\k22}DAY{\k52}~
+Comment: 0,0:02:09.34,0:02:12.16,Sample KM Duo [Koyori],,0,0,0,karaoke,{\k22}kon{\k19}na {\k26}chi{\k21}ka{\k24}ku {\k22}ni {\k42}i{\k19}ru {\k24}no {\k63}ni
+Comment: 0,0:02:12.43,0:02:14.81,Sample KM Duo [Koyori],,0,0,0,karaoke,{\k21}OH {\k67}NO {\k21}ko{\k36}ko{\k31}ro {\k62}ga
+Comment: 0,0:02:14.81,0:02:16.82,Sample KM Duo [Suisei],,0,0,0,karaoke,{\k49}mi{\k22}ta{\k20}sa{\k26}re{\k21}na{\k63}i
+Comment: 0,0:02:16.85,0:02:18.47,Sample KM Duo [Iroha],,0,0,0,karaoke,{\k22}ai{\k34}da {\k30}no {\k24}kyo{\k52}ri
+Comment: 0,0:02:18.63,0:02:20.16,Sample KM Duo [Iroha],,0,0,0,karaoke,{\k10}a{\k10}to {\k32}suu {\k33}se{\k21}n{\k47}chi
+Comment: 0,0:02:20.38,0:02:22.54,Sample KM Duo [Iroha],,0,0,0,karaoke,{\k21}I’M {\k24}CRUM{\k22}B{\k22}LING {\kf127}DOWN
+Comment: 0,0:02:21.27,0:02:23.21,Sample KM Duo [Aki] - Down,,0,0,0,karaoke,{\k22}I’M {\k43}GO{\k22}ING {\k45}DOWN {\k62}NOW
+Comment: 0,0:02:23.00,0:02:28.06,Sample KM Duo [Aki],,0,0,0,karaoke,{\k24}tsu{\k33}ka{\k30}re {\k22}cha{\k48}u {\k39}ha{\k38}ji{\k34}ma{\k44}ru {\k42}mae {\kf152}ni
+Comment: 0,0:02:28.31,0:02:30.31,Sample KM Duo [Aki],,0,0,0,karaoke,{\kf91}HA {\kf109}HA
+Comment: 0,0:02:29.66,0:02:31.50,Sample KM Duo [Matsuri],,0,0,0,karaoke,{\k21}it{\k10}te {\k34}yo {\k43}WORD {\k35}FOR {\k41}WORD
+Comment: 0,0:02:31.62,0:02:34.07,Sample KM Duo [Matsuri],,0,0,0,karaoke,{\k22}ki{\k46}ki{\k22}ta{\k22}i {\k13}no {\k43}SPEAK {\k31}YOUR {\k46}MIND
+Comment: 0,0:02:34.07,0:02:37.19,Sample KM Duo [Matsuri],,0,0,0,karaoke,{\k18}ma{\k13}chi {\k21}tsu{\k36}zu{\k20}ke{\k23}te{\k44}ru {\k24}EVE{\k20}RY{\k23}DAY{\k70}~
+Comment: 0,0:02:37.59,0:02:40.42,Sample KM Duo [Nene],,0,0,0,karaoke,{\k20}kon{\k11}na {\k11}ni {\k23}chi{\k21}ka{\k24}ku {\k23}ni {\k44}i{\k19}ru {\k22}no {\k65}ni
+Comment: 0,0:02:40.66,0:02:43.06,Sample KM Duo [Nene],,0,0,0,karaoke,{\k22}OH {\k67}NO {\k20}ko{\k36}ko{\k32}ro {\k63}ga
+Comment: 0,0:02:43.06,0:02:45.19,Sample KM Duo [Aki],,0,0,0,karaoke,{\k49}mi{\k19}ta{\k24}sa{\k23}re{\k19}na{\k79}i
+Comment: 0,0:02:44.39,0:02:46.50,Sample KM Duo [Nene],,0,0,0,karaoke,{\k68}chik{\k20}ku{\k24}chi{\k9}ku {\k24}RO{\k24}MAN{\k42}TIC
+Comment: 0,0:02:45.97,0:02:48.02,Sample KM Duo [Matsuri] - Down,,0,0,0,karaoke,{\k21}to{\k22}ge {\k20}da{\k24}ra{\k21}ke {\k44}no {\k53}HEART
+Comment: 0,0:02:47.91,0:02:49.91,Sample KM Duo [Koyori],,0,0,0,karaoke,{\k70}NO! {\k22}nan{\k22}te {\k11}D{\k23}RA{\k20}MA{\k32}TIC
+Comment: 0,0:02:49.91,0:02:50.78,Sample KM Duo [Matsuri] - Down,,0,0,0,karaoke,{\k19}HEY {\k17}WAIT {\k10}A {\k12}MI{\k29}NUTE!
+Comment: 0,0:02:51.41,0:02:53.42,Sample KM Duo [Subaru],,0,0,0,karaoke,{\k70}STOP! {\k22}ki{\k24}mi {\k11}wa {\k22}TO{\k23}X{\k29}IC
+Comment: 0,0:02:53.48,0:02:54.19,Sample KM Duo [Matsuri] - Down,,0,0,0,karaoke,{\k19}BEEP {\k52}BEEP
+Comment: 0,0:02:54.91,0:02:55.36,Sample KM Duo [All],,0,0,0,karaoke,{\k45}STOP!
+Comment: 0,0:02:55.36,0:02:58.59,Sample KM Duo [Suisei] - Down,,0,0,0,karaoke,{\k33}Oh {\k20}wo{\k24}ah-{\k22}oh-{\k18}oh-{\k25}oh, {\k17}wo{\k27}ah-{\k21}oh-{\k22}oh, {\k44}wo{\k23}ah-{\k27}oh
+Comment: 0,0:02:58.52,0:03:01.47,Sample KM Duo [Towa],,0,0,0,karaoke,{\k23}SAY {\k21}MY {\k25}NAME {\k11}i{\k29}ma {\k22}su{\k24}gu {\k14}I'M {\k28}LO{\k23}SING {\k22}IT {\k12}TO{\k41}DAY
+Comment: 0,0:03:00.95,0:03:02.49,Sample KM Duo [Suisei] - Down,,0,0,0,karaoke,{\k44}LO{\k21}SING {\k27}IT {\k10}TO{\k52}DAY
+Comment: 0,0:03:01.84,0:03:03.19,Sample KM Duo [Towa],,0,0,0,karaoke,{\k21}tsu{\k24}ka{\k20}mu {\k19}EVE{\k16}RY {\k35}CHANCE
+Comment: 0,0:03:03.19,0:03:05.05,Sample KM Duo [Towa],,0,0,0,karaoke,{\k20}dat{\k21}te {\k12}ma{\k33}da {\k21}DON'T {\k25}GO {\k10}A{\k44}WAY
+Comment: 0,0:03:04.42,0:03:05.63,Sample KM Duo [Suisei] - Down,,0,0,0,karaoke,{\k18}A{\k35}W{\k17}A{\k27}Y{\k24}~
+Comment: 0,0:03:05.36,0:03:07.58,Sample KM Duo [Matsuri],,0,0,0,karaoke,{\k23}SO {\k20}LI{\k23}STEN {\k23}TO {\k11}WHAT {\k34}I {\k21}JUST {\k22}GOT{\k12}TA {\k33}SAY
+Comment: 0,0:03:07.58,0:03:10.27,Sample KM Duo [Matsuri],,0,0,0,karaoke,{\k20}I {\k22}GOT{\k12}TA {\k36}SAY {\k19}I {\k20}GOT{\k14}TA {\kf126}SAY
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,karaoke,
+Dialogue: 0,0:00:00.00,0:00:08.20,Sample KM [Up],,0,0,175,fx,{\k0\fad(0,200)}{\k1500}{\k0} {\rSample KM Duo [All]}Group{\r}
+Dialogue: 0,0:00:00.00,0:00:08.20,Sample KM [Up],,0,0,175,fx,{\k0\fad(0,200)}{\k1500}{\k0}{\2cHFFFFFF}♫ {\rSample KM Duo [Suisei]}Suisei{\r}  {\2cHFFFFFF}■ {\rSample KM Duo [Sora]}Sora{\r}
+Dialogue: 0,0:00:00.00,0:00:08.20,Sample KM [Up],,0,0,175,fx,{\k0\fad(0,200)}{\k1500}{\k0}{\2cHFFFFFF}♦ {\rSample KM Duo [Aki]}Aki{\r}  {\2cHFFFFFF}● {\rSample KM Duo [Matsuri]}Matsuri{\r} {\2cHFFFFFF}☼ {\rSample KM Duo [Subaru]}Subaru{\r}
+Dialogue: 0,0:00:00.00,0:00:08.20,Sample KM [Up],,0,0,175,fx,{\k0\fad(0,200)}{\k1500}{\k0}{\2cHFFFFFF}♠ {\rSample KM Duo [Towa]}Towa{\r}  {\2cHFFFFFF}♥ {\rSample KM Duo [Nene]}Nene{\r} {\2cHFFFFFF}♣ {\rSample KM Duo [Iroha]}Iroha{\r} {\2cHFFFFFF}▲ {\rSample KM Duo [Koyori]}Koyori{\r}
+Dialogue: 0,0:00:07.31,0:00:09.20,Sample KM Duo [Matsuri],,0,0,0,fx,{\k90\fad(300,200)}● {\k25}HEY {\k13}WAIT {\k11}A {\k30}MINUTE!
+Dialogue: 0,0:00:11.09,0:00:13.08,Sample KM Duo [Matsuri],,0,0,0,fx,{\k90\fad(300,200)}● {\k24}BEEP {\k65}BEEP
+Dialogue: 0,0:00:21.66,0:00:23.63,Sample KM Duo [Suisei],,0,0,0,fx,{\k90\fad(300,200)}♫ {\k15}nan{\k9}do {\k13}de{\k11}mo {\k20}I {\k19}SAY
+Dialogue: 0,0:00:22.79,0:00:25.58,Sample KM Duo [Suisei],,0,0,0,fx,{\k90\fad(300,200)}♫ {\k12}ko{\k10}ta{\k11}e{\k9}te {\k25}yo {\k9}GIM{\k12}ME {\k22}ONE {\k21}MORE {\k38}CHANCE
+Dialogue: 0,0:00:24.77,0:00:27.38,Sample KM Duo [Suisei],,0,0,0,fx,{\k90\fad(300,200)}♫ {\k11}i{\k13}chi{\k31}byou {\k11}da{\k16}ke {\k28}de {\k41}ii
+Dialogue: 0,0:00:26.28,0:00:29.08,Sample KM Duo [Suisei],,0,0,0,fx,{\k90\fad(300,200)}♫ {\k5}wa{\k13}ta{\k31}shi {\k38}ni {\k37}chou{\k46}dai
+Dialogue: 0,0:00:27.84,0:00:29.83,Sample KM Duo [Koyori] - Down,,0,0,0,fx,{\k90\fad(300,200)}▲ {\k14}ARE {\k19}YOU {\k14}THE {\k42}ONE?
+Dialogue: 0,0:00:28.73,0:00:32.70,Sample KM Duo [Nene],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k13}i{\k11}tsu {\k22}ka{\k12}ra {\k27}FEE{\k93}LING, {\k13}to{\k22}ma{\k21}ra{\k53}nai
+Dialogue: 0,0:00:29.85,0:00:33.51,Sample KM Duo [Koyori] - Down,,0,0,0,fx,{\k90\fad(300,200)}▲ {\k23}FEE{\k131}LING, {\k21}YOU {\k22}AND {\k59}ME
+Dialogue: 0,0:00:32.48,0:00:36.86,Sample KM Duo [Nene+Koyori],,0,0,0,fx,{\k90\fad(300,200)}♥▲ {\k24}NO{\k66}BO{\k23}DY {\k63}ELSE {\k24}IN {\k66}MY {\k22}VI{\k40}SION
+Dialogue: 0,0:00:35.58,0:00:39.34,Sample KM Duo [Iroha],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k22}a{\k23}ga{\k20}ru {\k24}on{\k41}do, {\k24}myak' {\k10}no {\k24}SPEE{\k8}D {\k25}wa {\k45}FAST
+Dialogue: 0,0:00:37.99,0:00:39.78,Sample KM Duo [Subaru] - Down,,0,0,0,fx,{\k90\fad(300,200)}☼ {\k25}SO {\k44}FAST
+Dialogue: 0,0:00:38.45,0:00:41.05,Sample KM Duo [Iroha],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k12}ko{\k18}no {\k28}RACE {\k18}i{\k10}tsu{\k25}mo {\k39}LAST
+Dialogue: 0,0:00:39.88,0:00:41.43,Sample KM Duo [Subaru] - Down,,0,0,0,fx,{\k90\fad(300,200)}☼ {\k11}OH {\k34}LAST
+Dialogue: 0,0:00:40.22,0:00:42.44,Sample KM Duo [Subaru+Iroha],,0,0,0,fx,{\k90\fad(300,200)}♣☼ {\k12}ku{\k19}ta{\k23}ku{\k23}ta {\k10}de {\k25}mo
+Dialogue: 0,0:00:41.54,0:00:44.30,Sample KM Duo [Subaru+Iroha],,0,0,0,fx,{\k90\fad(300,200)}♣☼ {\k10}u{\k12}ke{\k22}te {\k11}ta{\k22}tou {\k22}I'M {\k23}REA{\k10}DY {\k34}NOW
+Dialogue: 0,0:00:43.29,0:00:45.90,Sample KM Duo [Towa],,0,0,0,fx,{\k90\fad(300,200)}♠ {\k13}me {\k10}ga {\k22}ma{\k13}wa{\k21}ru {\k8}ku{\k25}rai {\k39}MAZE
+Dialogue: 0,0:00:44.82,0:00:47.72,Sample KM Duo [Towa],,0,0,0,fx,{\k90\fad(300,200)}♠ {\k13}de{\k11}gu{\k10}chi {\k13}do{\k21}ko? {\k11}sa{\k22}gash'{\k12}te{\k23}ru {\k44}DAYS
+Dialogue: 0,0:00:46.62,0:00:51.57,Sample KM Duo [Towa],,0,0,0,fx,{\k90\fad(300,200)}♠ {\k19}PUZ{\k25}Z{\k21}LE {\k21}wo {\k25}ka{\k20}n{\k20}sei {\k22}sa{\k24}se{\k21}ru {\k25}sai{\k21}go {\k23}no {\k21}PI{\k77}ECE
+Dialogue: 0,0:00:51.24,0:00:53.64,Sample KM Duo [Sora],,0,0,0,fx,{\k90\fad(300,200)}■ {\k11}to {\k11}ga {\k23}shi{\k23}ma{\k19}ri {\k43}sou
+Dialogue: 0,0:00:53.02,0:00:55.55,Sample KM Duo [Sora],,0,0,0,fx,{\k90\fad(300,200)}■ {\k12}na {\k10}no {\k20}ni {\k24}zu{\k23}t{\k54}to
+Dialogue: 0,0:00:54.76,0:00:58.51,Sample KM Duo [Sora],,0,0,0,fx,{\k90\fad(300,200)}■ {\k22}ki{\k36}zui{\k31}te {\k45}ku{\k21}re{\k23}na{\k87}i
+Dialogue: 0,0:00:57.84,0:01:00.45,Sample KM Duo [Subaru],,0,0,0,fx,{\k90\fad(300,200)}☼ {\k23}zen{\k22}ryo{\k24}ku {\k20}DA{\k24}SH {\k38}de
+Dialogue: 0,0:00:59.62,0:01:02.24,Sample KM Duo [Subaru],,0,0,0,fx,{\k90\fad(300,200)}☼ {\k22}ka{\k22}ke{\k22}ko{\k23}n{\k21}de {\k42}SAFE
+Dialogue: 0,0:01:01.17,0:01:05.14,Sample KM Duo [Matsuri],,0,0,0,fx,{\k90\fad(300,200)}● {\k13}i{\k19}ki {\k56}wo {\k10}ki{\k19}ra{\k37}su {\k23}I’M {\k32}NOT {\k33}O{\k45}KAY
+Dialogue: 0,0:01:04.04,0:01:07.11,Sample KM Duo [Suisei],,0,0,0,fx,{\k90\fad(300,200)}♫ {\k21}it{\k11}te {\k35}yo {\k42}WORD {\k32}FOR {\k56}WORD
+Dialogue: 0,0:01:06.01,0:01:09.47,Sample KM Duo [Suisei],,0,0,0,fx,{\k90\fad(300,200)}♫ {\k22}ki{\k45}ki{\k21}ta{\k24}i {\k14}no {\k40}SPEAK {\k33}YOUR {\k37}MIND
+Dialogue: 0,0:01:08.37,0:01:12.47,Sample KM Duo [Suisei],,0,0,0,fx,{\k90\fad(300,200)}♫ {\k28}ma{\k12}chi {\k22}tsu{\k34}zu{\k21}ke{\k22}te{\k46}ru {\k19}EVE{\k25}RY{\k23}DAY{\k48}~
+Dialogue: 0,0:01:11.97,0:01:15.90,Sample KM Duo [Aki],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k21}kon{\k13}na {\k8}ni {\k24}chi{\k23}ka{\k23}ku {\k21}ni {\k44}i{\k21}ru {\k22}no {\k42}ni{\k21}~
+Dialogue: 0,0:01:15.05,0:01:18.51,Sample KM Duo [Aki],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k22}OH {\k67}NO {\k21}ko{\k35}ko{\k32}ro {\k59}ga
+Dialogue: 0,0:01:17.47,0:01:20.56,Sample KM Duo [Sora],,0,0,0,fx,{\k90\fad(300,200)}■ {\k46}mi{\k23}ta{\k19}sa{\k25}re{\k18}na{\k68}i
+Dialogue: 0,0:01:18.78,0:01:21.98,Sample KM Duo [Nene],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k68}chik{\k21}ku{\k23}chi{\k12}ku {\k24}RO{\k22}MAN{\k40}TIC
+Dialogue: 0,0:01:20.36,0:01:23.45,Sample KM Duo [Matsuri] - Down,,0,0,0,fx,{\k90\fad(300,200)}● {\k22}to{\k22}ge {\k20}da{\k23}ra{\k21}ke {\k42}no {\k49}HEART
+Dialogue: 0,0:01:22.35,0:01:25.43,Sample KM Duo [Koyori],,0,0,0,fx,{\k90\fad(300,200)}▲ {\k64}NO! {\k23}nan{\k23}te {\k11}D{\k21}RA{\k23}MA{\k33}TIC
+Dialogue: 0,0:01:24.33,0:01:26.28,Sample KM Duo [Matsuri] - Down,,0,0,0,fx,{\k90\fad(300,200)}● {\k19}HEY {\k13}WAIT {\k10}A {\k43}MINUTE!
+Dialogue: 0,0:01:25.80,0:01:28.91,Sample KM Duo [Subaru],,0,0,0,fx,{\k90\fad(300,200)}☼ {\k70}STOP! {\k23}ki{\k23}mi {\k12}wa {\k21}TO{\k23}X{\k29}IC
+Dialogue: 0,0:01:27.87,0:01:29.76,Sample KM Duo [Matsuri] - Down,,0,0,0,fx,{\k90\fad(300,200)}● {\k19}BEEP {\k60}BEEP
+Dialogue: 0,0:01:33.17,0:01:35.81,Sample KM Duo [Sora],,0,0,0,fx,{\k90\fad(300,200)}■ {\k21}me{\k12}ku{\k10}ru {\k22}CA{\k24}LE{\k20}N{\k45}DAR
+Dialogue: 0,0:01:34.92,0:01:37.74,Sample KM Duo [Sora],,0,0,0,fx,{\k90\fad(300,200)}■ {\k20}byou{\k25}shin {\k21}wa {\k21}T{\k24}I{\k61}MER
+Dialogue: 0,0:01:36.48,0:01:38.92,Sample KM Duo [Nene],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k18}TELL {\k16}ME {\k32}WHAT {\k21}YOU {\k47}NEED
+Dialogue: 0,0:01:38.01,0:01:41.38,Sample KM Duo [Nene],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k21}mo{\k33}shi{\k33}mo {\k44}ko{\k24}no{\k21}ma{\k51}ma
+Dialogue: 0,0:01:40.28,0:01:44.41,Sample KM Duo [Aki],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k16}a{\k22}so{\k20}bi {\k25}tsu{\k19}zu{\k25}ke{\k21}ru {\k24}na{\k20}ra {\k23}HIDE {\k20}AND {\k24}SEE{\k21}K {\k23}wo
+Dialogue: 0,0:01:43.31,0:01:48.11,Sample KM Duo [Aki],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k20}wa{\k24}tash' {\k22}ka{\k20}ra {\k24}shi{\k20}ka{\k21}ke {\k46}chau {\k45}GAME {\k44}O{\k84}VER
+Dialogue: 0,0:01:45.52,0:01:48.11,Sample KM Duo [Koyori] - Down,,0,0,0,fx,{\k90\fad(300,200)}▲ {\k21}dat{\k9}te {\k19}mou {\k15}ma{\k14}te{\k21}nai {\k12}ka{\k38}mo
+Dialogue: 0,0:01:47.70,0:01:50.18,Sample KM Duo [Iroha],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k11}na{\k12}mi{\k22}da {\k21}po{\k26}tsu{\k46}ri
+Dialogue: 0,0:01:49.38,0:01:52.03,Sample KM Duo [Iroha],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k10}ko{\k22}bo{\k22}re {\k23}cha{\k22}i {\k56}sou
+Dialogue: 0,0:01:51.24,0:01:55.19,Sample KM Duo [Iroha],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k22}a{\k34}ki{\k33}ra{\k42}me{\k24}ta{\k20}ku{\kf110}nai
+Dialogue: 0,0:01:54.30,0:01:56.99,Sample KM Duo [Matsuri],,0,0,0,fx,{\k90\fad(300,200)}● {\k25}zen{\k23}ryo{\k17}ku {\k6}AT{\k21}TA{\k23}CK {\k44}de
+Dialogue: 0,0:01:56.10,0:01:58.73,Sample KM Duo [Matsuri],,0,0,0,fx,{\k90\fad(300,200)}● {\k12}BAR{\k10}RI{\k23}ER {\k20}ha{\k22}zu{\k24}shi{\k42}te
+Dialogue: 0,0:01:57.63,0:02:02.04,Sample KM Duo [Sora],,0,0,0,fx,{\k90\fad(300,200)}■ {\k12}mi{\k24}se{\k55}ru, {\k11}da{\k22}ka{\k54}ra{\k19} {\k25}NO {\k21}MORE {\k22}SI{\k66}LENCE
+Dialogue: 0,0:02:00.49,0:02:03.55,Sample KM Duo [Towa],,0,0,0,fx,{\k90\fad(300,200)}♠ {\k23}it{\k13}te {\k30}yo {\k41}WORD {\k39}FOR {\k50}WORD
+Dialogue: 0,0:02:02.45,0:02:05.97,Sample KM Duo [Towa],,0,0,0,fx,{\k90\fad(300,200)}♠ {\k25}ki{\k45}ki{\k21}ta{\k24}i {\k16}no {\k37}SPEAK {\k34}YOUR {\k40}MIND
+Dialogue: 0,0:02:04.90,0:02:08.97,Sample KM Duo [Towa],,0,0,0,fx,{\k90\fad(300,200)}♠ {\k22}ma{\k12}chi {\k22}tsu{\k34}zu{\k21}ke{\k22}te{\k45}ru {\k21}EVE{\k24}RY{\k22}DAY{\k52}~
+Dialogue: 0,0:02:08.44,0:02:12.36,Sample KM Duo [Koyori],,0,0,0,fx,{\k90\fad(300,200)}▲ {\k22}kon{\k19}na {\k26}chi{\k21}ka{\k24}ku {\k22}ni {\k42}i{\k19}ru {\k24}no {\k63}ni
+Dialogue: 0,0:02:11.53,0:02:15.01,Sample KM Duo [Koyori],,0,0,0,fx,{\k90\fad(300,200)}▲ {\k21}OH {\k67}NO {\k21}ko{\k36}ko{\k31}ro {\k62}ga
+Dialogue: 0,0:02:13.91,0:02:17.02,Sample KM Duo [Suisei],,0,0,0,fx,{\k90\fad(300,200)}♫ {\k49}mi{\k22}ta{\k20}sa{\k26}re{\k21}na{\k63}i
+Dialogue: 0,0:02:15.95,0:02:18.67,Sample KM Duo [Iroha],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k22}ai{\k34}da {\k30}no {\k24}kyo{\k52}ri
+Dialogue: 0,0:02:17.73,0:02:20.36,Sample KM Duo [Iroha],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k10}a{\k10}to {\k32}suu {\k33}se{\k21}n{\k47}chi
+Dialogue: 0,0:02:19.48,0:02:22.74,Sample KM Duo [Iroha],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k21}I’M {\k24}CRUM{\k22}B{\k22}LING {\kf127}DOWN
+Dialogue: 0,0:02:20.37,0:02:23.41,Sample KM Duo [Aki] - Down,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k22}I’M {\k43}GO{\k22}ING {\k45}DOWN {\k62}NOW
+Dialogue: 0,0:02:22.10,0:02:28.26,Sample KM Duo [Aki],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k24}tsu{\k33}ka{\k30}re {\k22}cha{\k48}u {\k39}ha{\k38}ji{\k34}ma{\k44}ru {\k42}mae {\kf152}ni
+Dialogue: 0,0:02:27.41,0:02:30.51,Sample KM Duo [Aki],,0,0,0,fx,{\k90\fad(300,200)}♦ {\kf91}HA {\kf109}HA
+Dialogue: 0,0:02:28.76,0:02:31.70,Sample KM Duo [Matsuri],,0,0,0,fx,{\k90\fad(300,200)}● {\k21}it{\k10}te {\k34}yo {\k43}WORD {\k35}FOR {\k41}WORD
+Dialogue: 0,0:02:30.72,0:02:34.27,Sample KM Duo [Matsuri],,0,0,0,fx,{\k90\fad(300,200)}● {\k22}ki{\k46}ki{\k22}ta{\k22}i {\k13}no {\k43}SPEAK {\k31}YOUR {\k46}MIND
+Dialogue: 0,0:02:33.17,0:02:37.39,Sample KM Duo [Matsuri],,0,0,0,fx,{\k90\fad(300,200)}● {\k18}ma{\k13}chi {\k21}tsu{\k36}zu{\k20}ke{\k23}te{\k44}ru {\k24}EVE{\k20}RY{\k23}DAY{\k70}~
+Dialogue: 0,0:02:36.69,0:02:40.62,Sample KM Duo [Nene],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k20}kon{\k11}na {\k11}ni {\k23}chi{\k21}ka{\k24}ku {\k23}ni {\k44}i{\k19}ru {\k22}no {\k65}ni
+Dialogue: 0,0:02:39.76,0:02:43.26,Sample KM Duo [Nene],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k22}OH {\k67}NO {\k20}ko{\k36}ko{\k32}ro {\k63}ga
+Dialogue: 0,0:02:42.16,0:02:45.39,Sample KM Duo [Aki],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k49}mi{\k19}ta{\k24}sa{\k23}re{\k19}na{\k79}i
+Dialogue: 0,0:02:43.49,0:02:46.70,Sample KM Duo [Nene],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k68}chik{\k20}ku{\k24}chi{\k9}ku {\k24}RO{\k24}MAN{\k42}TIC
+Dialogue: 0,0:02:45.07,0:02:48.22,Sample KM Duo [Matsuri] - Down,,0,0,0,fx,{\k90\fad(300,200)}● {\k21}to{\k22}ge {\k20}da{\k24}ra{\k21}ke {\k44}no {\k53}HEART
+Dialogue: 0,0:02:47.01,0:02:50.11,Sample KM Duo [Koyori],,0,0,0,fx,{\k90\fad(300,200)}▲ {\k70}NO! {\k22}nan{\k22}te {\k11}D{\k23}RA{\k20}MA{\k32}TIC
+Dialogue: 0,0:02:49.01,0:02:50.98,Sample KM Duo [Matsuri] - Down,,0,0,0,fx,{\k90\fad(300,200)}● {\k19}HEY {\k17}WAIT {\k10}A {\k12}MI{\k29}NUTE!
+Dialogue: 0,0:02:50.51,0:02:53.62,Sample KM Duo [Subaru],,0,0,0,fx,{\k90\fad(300,200)}☼ {\k70}STOP! {\k22}ki{\k24}mi {\k11}wa {\k22}TO{\k23}X{\k29}IC
+Dialogue: 0,0:02:52.58,0:02:54.39,Sample KM Duo [Matsuri] - Down,,0,0,0,fx,{\k90\fad(300,200)}● {\k19}BEEP {\k52}BEEP
+Dialogue: 0,0:02:54.01,0:02:55.56,Sample KM Duo [All],,0,0,0,fx,{\k90\fad(300,200)}{\k45}STOP!
+Dialogue: 0,0:02:54.46,0:02:58.79,Sample KM Duo [Suisei] - Down,,0,0,0,fx,{\k90\fad(300,200)}♫ {\k33}Oh {\k20}wo{\k24}ah-{\k22}oh-{\k18}oh-{\k25}oh, {\k17}wo{\k27}ah-{\k21}oh-{\k22}oh, {\k44}wo{\k23}ah-{\k27}oh
+Dialogue: 0,0:02:57.62,0:03:01.67,Sample KM Duo [Towa],,0,0,0,fx,{\k90\fad(300,200)}♠ {\k23}SAY {\k21}MY {\k25}NAME {\k11}i{\k29}ma {\k22}su{\k24}gu {\k14}I'M {\k28}LO{\k23}SING {\k22}IT {\k12}TO{\k41}DAY
+Dialogue: 0,0:03:00.05,0:03:02.69,Sample KM Duo [Suisei] - Down,,0,0,0,fx,{\k90\fad(300,200)}♫ {\k44}LO{\k21}SING {\k27}IT {\k10}TO{\k52}DAY
+Dialogue: 0,0:03:00.94,0:03:03.39,Sample KM Duo [Towa],,0,0,0,fx,{\k90\fad(300,200)}♠ {\k21}tsu{\k24}ka{\k20}mu {\k19}EVE{\k16}RY {\k35}CHANCE
+Dialogue: 0,0:03:02.29,0:03:05.25,Sample KM Duo [Towa],,0,0,0,fx,{\k90\fad(300,200)}♠ {\k20}dat{\k21}te {\k12}ma{\k33}da {\k21}DON'T {\k25}GO {\k10}A{\k44}WAY
+Dialogue: 0,0:03:03.52,0:03:05.83,Sample KM Duo [Suisei] - Down,,0,0,0,fx,{\k90\fad(300,200)}♫ {\k18}A{\k35}W{\k17}A{\k27}Y{\k24}~
+Dialogue: 0,0:03:04.46,0:03:07.78,Sample KM Duo [Matsuri],,0,0,0,fx,{\k90\fad(300,200)}● {\k23}SO {\k20}LI{\k23}STEN {\k23}TO {\k11}WHAT {\k34}I {\k21}JUST {\k22}GOT{\k12}TA {\k33}SAY
+Dialogue: 0,0:03:06.68,0:03:10.47,Sample KM Duo [Matsuri],,0,0,0,fx,{\k90\fad(300,200)}● {\k20}I {\k22}GOT{\k12}TA {\k36}SAY {\k19}I {\k20}GOT{\k14}TA {\kf126}SAY
+Dialogue: 0,0:00:00.00,0:00:00.20,Sample KM [Up],,0,0,0,fx,{\k0\fad(0,200)}
