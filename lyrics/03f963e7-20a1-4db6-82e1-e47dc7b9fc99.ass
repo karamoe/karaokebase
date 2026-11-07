@@ -1,0 +1,28 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Kindred Spirits (Thème Q)
+Original Timing: HayatoKurokami
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:15.78,0:00:22.82,Sample KM [Up],,0,0,0,karaoke,{\k68}When {\k58}kno{\k64}wing {\k108}is {\k100}e{\kf306}nough
+Comment: 0,0:00:23.37,0:00:30.17,Sample KM [Up],,0,0,0,karaoke,{\k60}That {\k53}fee{\k57}ling {\k101}is {\k76}of {\kf333}trust
+Comment: 0,0:00:30.74,0:00:37.23,Sample KM [Up],,0,0,0,karaoke,{\k91}Through {\k86}u{\k72}ni{\k71}ty {\k64}of {\k83}mind {\k58}and {\k91}spi{\k33}rit
+Comment: 0,0:00:37.78,0:00:42.78,Sample KM [Up],,0,0,0,karaoke,{\k76}We {\k58}can {\k78}find {\k76}a {\k70}high{\k59}er {\k83}place
+Comment: 0,0:00:42.97,0:00:48.90,Sample KM [Up],,0,0,0,karaoke,{\k83}That {\k70}will {\k74}tran{\k78}scend, {\k71}mere {\k85}mor{\k57}tal {\k75}friends
+Comment: 0,0:00:49.41,0:00:57.04,Sample KM [Up],,0,0,0,karaoke,{\k73}And {\k81}be {\k55}the {\k81}strength {\k78}that {\k163}binds {\kf232}us
+Dialogue: 0,0:00:14.88,0:00:23.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k68}When {\k58}kno{\k64}wing {\k108}is {\k100}e{\kf306}nough
+Dialogue: 0,0:00:22.47,0:00:30.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k60}That {\k53}fee{\k57}ling {\k101}is {\k76}of {\kf333}trust
+Dialogue: 0,0:00:29.84,0:00:37.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k91}Through {\k86}u{\k72}ni{\k71}ty {\k64}of {\k83}mind {\k58}and {\k91}spi{\k33}rit
+Dialogue: 0,0:00:36.88,0:00:42.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k76}We {\k58}can {\k78}find {\k76}a {\k70}high{\k59}er {\k83}place
+Dialogue: 0,0:00:42.07,0:00:49.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k83}That {\k70}will {\k74}tran{\k78}scend, {\k71}mere {\k85}mor{\k57}tal {\k75}friends
+Dialogue: 0,0:00:48.51,0:00:57.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k73}And {\k81}be {\k55}the {\k81}strength {\k78}that {\k163}binds {\kf232}us
