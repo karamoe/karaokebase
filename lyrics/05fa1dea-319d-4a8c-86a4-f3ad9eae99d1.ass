@@ -1,0 +1,72 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Hundred Years War
+Original Timing: HayatoKurokami
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:13.29,0:00:15.57,Sample KM [Up],,0,0,0,karaoke,{\k24}Out {\k19}of {\k21}the {\k22}skies, {\k21}and {\k20}from {\k21}o{\k20}ver {\k22}the {\k22}wa{\k16}ters
+Comment: 0,0:00:15.57,0:00:18.09,Sample KM [Up],,0,0,0,karaoke,{\k25}They {\k19}come {\k20}to {\k22}bring {\k22}slaugh{\k19}ter {\k23}to {\k40}all {\k42}man{\k20}kind
+Comment: 0,0:00:18.29,0:00:20.55,Sample KM [Up],,0,0,0,karaoke,{\k15}Sol{\k27}diers {\k23}of {\k21}for{\k20}tune, {\k22}ad{\k20}mi{\k21}nis{\k22}ter {\k18}tor{\k17}ture
+Comment: 0,0:00:20.57,0:00:23.26,Sample KM [Up],,0,0,0,karaoke,{\k24}They {\k20}rip {\k21}out {\k22}your {\k20}heart {\k20}and {\k24}leave {\k42}you {\k40}to {\k36}die
+Comment: 0,0:00:23.31,0:00:26.00,Sample KM [Up],,0,0,0,karaoke,{\k26}Plun{\k18}der {\k20}and {\k20}pil{\k20}lage, {\k24}and {\k19}rape {\k19}of {\k22}the {\k20}vil{\k17}la{\k26}ges, {\k18}towns
+Comment: 0,0:00:26.00,0:00:28.20,Sample KM [Up],,0,0,0,karaoke,{\k22}And {\k19}the {\k20}ci{\k22}ties {\k22}burnt {\k43}to {\k37}the {\k35}ground
+Comment: 0,0:00:28.30,0:00:30.56,Sample KM [Up],,0,0,0,karaoke,{\k22}Ba{\k22}nish {\k17}the {\k21}na{\k23}tion {\k22}till {\k21}their {\k21}oc{\k19}cu{\k20}pa{\k18}tion
+Comment: 0,0:00:30.57,0:00:34.44,Sample KM [Up],,0,0,0,karaoke,{\k24}Means {\k19}no{\k22}thing {\k21}is {\k20}left {\k21}of {\k21}the {\k44}old {\k39}world {\k42}or{\kf114}der
+Comment: 0,0:00:46.63,0:00:49.95,Sample KM [Up],,0,0,0,karaoke,{\k64}Hawk {\k64}will {\k64}rise {\k60}and {\k41}con{\k39}quer
+Comment: 0,0:00:50.08,0:00:53.26,Sample KM [Up],,0,0,0,karaoke,{\k55}Tu{\k62}dor {\k65}knights {\k58}down{\k43}trod{\k35}den
+Comment: 0,0:00:53.39,0:00:56.47,Sample KM [Up],,0,0,0,karaoke,{\k59}With {\k59}the {\k66}bat{\k59}tle {\k65}won
+Comment: 0,0:00:56.64,0:00:58.27,Sample KM [Up],,0,0,0,karaoke,{\k23}Can {\k21}this {\k20}be {\k22}a {\k19}new {\k22}be{\k19}gin{\k17}ning?
+Comment: 0,0:00:58.32,0:00:59.93,Sample KM [Up],,0,0,0,karaoke,{\k19}Bring {\k21}an {\k21}end {\k22}to {\k21}all {\k18}the {\k23}kil{\k16}ling?
+Comment: 0,0:01:00.03,0:01:06.57,Sample KM [Up],,0,0,0,karaoke,{\k59}Tu{\k64}dor {\k60}in{\k61}de{\k41}ci{\k47}sion, {\k61}rife {\k63}with {\k58}deep {\k64}de{\k41}ri{\k35}sion
+Comment: 0,0:01:06.64,0:01:13.27,Sample KM [Up],,0,0,0,karaoke,{\k69}So {\k59}the {\k59}ci{\k61}vil {\k46}war {\k41}will, {\k67}cause {\k57}con{\k63}fu{\k61}sion {\k41}as {\k39}the
+Comment: 0,0:01:13.30,0:01:16.50,Sample KM [Up],,0,0,0,karaoke,{\k68}Hawk {\k59}will {\k64}rise {\k59}and {\k42}con{\k28}quer
+Comment: 0,0:01:16.68,0:01:19.85,Sample KM [Up],,0,0,0,karaoke,{\k59}Tu{\k63}dor {\k62}knights {\k64}down{\k39}trod{\k30}den
+Comment: 0,0:01:19.96,0:01:23.03,Sample KM [Up],,0,0,0,karaoke,{\k65}With {\k64}the {\k61}bat{\k65}tle {\k52}won
+Comment: 0,0:01:23.30,0:01:24.91,Sample KM [Up],,0,0,0,karaoke,{\k22}Can {\k21}this {\k20}be {\k23}a {\k19}new {\k21}be{\k20}gin{\k15}ning?
+Comment: 0,0:01:24.96,0:01:26.59,Sample KM [Up],,0,0,0,karaoke,{\k22}Bring {\k22}an {\k22}end {\k20}to {\k24}all {\k17}the {\k24}kil{\k12}ling?
+Comment: 0,0:01:26.62,0:01:30.00,Sample KM [Up],,0,0,0,karaoke,{\k26}Cen{\k18}tu{\k22}ry {\k21}of {\k19}war {\k21}has {\k21}en{\k20}ded {\k22}can {\k19}the {\k26}bat{\k17}tle {\k25}scars {\k17}be {\k19}men{\k25}ded?
+Comment: 0,0:01:30.05,0:01:31.60,Sample KM [Up],,0,0,0,karaoke,{\k22}Can {\k17}this {\k17}be {\k23}a {\k19}new {\k21}be{\k19}gin{\k17}ning?
+Comment: 0,0:01:31.64,0:01:33.24,Sample KM [Up],,0,0,0,karaoke,{\k19}Bring {\k23}an {\k21}end {\k24}to {\k18}all {\k20}the {\k18}kil{\k17}ling?
+Comment: 0,0:01:33.30,0:01:36.60,Sample KM [Up],,0,0,0,karaoke,{\k21}Cen{\k23}tu{\k20}ry {\k22}of {\k18}war {\k19}has {\k16}en{\k29}ded {\k20}can {\k20}the {\k22}bat{\k20}tle {\k24}scars {\k20}be {\k16}men{\k20}ded?
+Comment: 0,0:01:36.65,0:01:38.24,Sample KM [Up],,0,0,0,karaoke,{\k22}Can {\k21}this {\k20}be {\k21}a {\k22}new {\k20}be{\k18}gin{\k15}ning?
+Comment: 0,0:01:38.30,0:01:39.95,Sample KM [Up],,0,0,0,karaoke,{\k22}Bring {\k22}an {\k19}end {\k21}to {\k24}all {\k20}the {\k24}kil{\k13}ling?
+Comment: 0,0:01:39.95,0:01:43.36,Sample KM [Up],,0,0,0,karaoke,{\k24}Cen{\k24}tu{\k13}ry {\k30}of {\k18}war {\k20}has {\k19}en{\k22}ded {\k23}can {\k18}the {\k23}bat{\k18}tle {\k20}scars {\k24}be {\k20}men{\k25}ded?
+Comment: 0,0:01:44.99,0:01:52.27,Sample KM [Up],,0,0,0,karaoke,{\k31}Cen{\k29}tu{\k30}ry {\k28}of {\k29}war {\k24}has {\k27}en{\k25}ded {\k31}can {\k25}the {\k28}bat{\k25}tle {\k32}scars {\k30}be {\k30}men{\kf304}ded?
+Dialogue: 0,0:00:12.39,0:00:15.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Out {\k19}of {\k21}the {\k22}skies, {\k21}and {\k20}from {\k21}o{\k20}ver {\k22}the {\k22}wa{\k16}ters
+Dialogue: 0,0:00:14.67,0:00:18.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}They {\k19}come {\k20}to {\k22}bring {\k22}slaugh{\k19}ter {\k23}to {\k40}all {\k42}man{\k20}kind
+Dialogue: 0,0:00:17.39,0:00:20.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Sol{\k27}diers {\k23}of {\k21}for{\k20}tune, {\k22}ad{\k20}mi{\k21}nis{\k22}ter {\k18}tor{\k17}ture
+Dialogue: 0,0:00:19.67,0:00:23.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}They {\k20}rip {\k21}out {\k22}your {\k20}heart {\k20}and {\k24}leave {\k42}you {\k40}to {\k36}die
+Dialogue: 0,0:00:22.41,0:00:26.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Plun{\k18}der {\k20}and {\k20}pil{\k20}lage, {\k24}and {\k19}rape {\k19}of {\k22}the {\k20}vil{\k17}la{\k26}ges, {\k18}towns
+Dialogue: 0,0:00:25.10,0:00:28.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}And {\k19}the {\k20}ci{\k22}ties {\k22}burnt {\k43}to {\k37}the {\k35}ground
+Dialogue: 0,0:00:27.40,0:00:30.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ba{\k22}nish {\k17}the {\k21}na{\k23}tion {\k22}till {\k21}their {\k21}oc{\k19}cu{\k20}pa{\k18}tion
+Dialogue: 0,0:00:29.67,0:00:34.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Means {\k19}no{\k22}thing {\k21}is {\k20}left {\k21}of {\k21}the {\k44}old {\k39}world {\k42}or{\kf114}der
+Dialogue: 0,0:00:45.73,0:00:50.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k64}Hawk {\k64}will {\k64}rise {\k60}and {\k41}con{\k39}quer
+Dialogue: 0,0:00:49.18,0:00:53.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k55}Tu{\k62}dor {\k65}knights {\k58}down{\k43}trod{\k35}den
+Dialogue: 0,0:00:52.49,0:00:56.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k59}With {\k59}the {\k66}bat{\k59}tle {\k65}won
+Dialogue: 0,0:00:55.74,0:00:58.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Can {\k21}this {\k20}be {\k22}a {\k19}new {\k22}be{\k19}gin{\k17}ning?
+Dialogue: 0,0:00:57.42,0:01:00.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Bring {\k21}an {\k21}end {\k22}to {\k21}all {\k18}the {\k23}kil{\k16}ling?
+Dialogue: 0,0:00:59.13,0:01:06.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k59}Tu{\k64}dor {\k60}in{\k61}de{\k41}ci{\k47}sion, {\k61}rife {\k63}with {\k58}deep {\k64}de{\k41}ri{\k35}sion
+Dialogue: 0,0:01:05.74,0:01:13.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k69}So {\k59}the {\k59}ci{\k61}vil {\k46}war {\k41}will, {\k67}cause {\k57}con{\k63}fu{\k61}sion {\k41}as {\k39}the
+Dialogue: 0,0:01:12.40,0:01:16.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k68}Hawk {\k59}will {\k64}rise {\k59}and {\k42}con{\k28}quer
+Dialogue: 0,0:01:15.78,0:01:20.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k59}Tu{\k63}dor {\k62}knights {\k64}down{\k39}trod{\k30}den
+Dialogue: 0,0:01:19.06,0:01:23.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k65}With {\k64}the {\k61}bat{\k65}tle {\k52}won
+Dialogue: 0,0:01:22.40,0:01:25.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Can {\k21}this {\k20}be {\k23}a {\k19}new {\k21}be{\k20}gin{\k15}ning?
+Dialogue: 0,0:01:24.06,0:01:26.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Bring {\k22}an {\k22}end {\k20}to {\k24}all {\k17}the {\k24}kil{\k12}ling?
+Dialogue: 0,0:01:25.72,0:01:30.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Cen{\k18}tu{\k22}ry {\k21}of {\k19}war {\k21}has {\k21}en{\k20}ded {\k22}can {\k19}the {\k26}bat{\k17}tle {\k25}scars {\k17}be {\k19}men{\k25}ded?
+Dialogue: 0,0:01:29.15,0:01:31.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Can {\k17}this {\k17}be {\k23}a {\k19}new {\k21}be{\k19}gin{\k17}ning?
+Dialogue: 0,0:01:30.74,0:01:33.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Bring {\k23}an {\k21}end {\k24}to {\k18}all {\k20}the {\k18}kil{\k17}ling?
+Dialogue: 0,0:01:32.40,0:01:36.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Cen{\k23}tu{\k20}ry {\k22}of {\k18}war {\k19}has {\k16}en{\k29}ded {\k20}can {\k20}the {\k22}bat{\k20}tle {\k24}scars {\k20}be {\k16}men{\k20}ded?
+Dialogue: 0,0:01:35.75,0:01:38.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Can {\k21}this {\k20}be {\k21}a {\k22}new {\k20}be{\k18}gin{\k15}ning?
+Dialogue: 0,0:01:37.40,0:01:40.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Bring {\k22}an {\k19}end {\k21}to {\k24}all {\k20}the {\k24}kil{\k13}ling?
+Dialogue: 0,0:01:39.05,0:01:43.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Cen{\k24}tu{\k13}ry {\k30}of {\k18}war {\k20}has {\k19}en{\k22}ded {\k23}can {\k18}the {\k23}bat{\k18}tle {\k20}scars {\k24}be {\k20}men{\k25}ded?
+Dialogue: 0,0:01:44.09,0:01:52.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Cen{\k29}tu{\k30}ry {\k28}of {\k29}war {\k24}has {\k27}en{\k25}ded {\k31}can {\k25}the {\k28}bat{\k25}tle {\k32}scars {\k30}be {\k30}men{\kf304}ded?
