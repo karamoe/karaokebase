@@ -1,0 +1,218 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Birding
+Original Timing: ono3000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: KM_Up,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,KM_Up,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:01.91,0:00:02.91,KM_Up,,0,0,0,karaoke,{\k38}Bird{\k62}song
+Comment: 0,0:00:04.72,0:00:05.72,KM_Up,,0,0,0,karaoke,{\k38}Bird{\k62}song
+Comment: 0,0:00:07.56,0:00:08.56,KM_Up,,0,0,0,karaoke,{\k38}Bird{\k62}song
+Comment: 0,0:00:10.36,0:00:11.36,KM_Up,,0,0,0,karaoke,{\k38}Bird{\k62}song
+Comment: 0,0:00:11.72,0:00:13.08,KM_Up,,0,0,0,karaoke,{\k11}You {\k14}know {\k16}I'm {\k26}bir{\k20}ding, {\k25}ba{\k24}by
+Comment: 0,0:00:13.19,0:00:14.19,KM_Up,,0,0,0,karaoke,{\k38}Bird{\k62}song
+Comment: 0,0:00:14.44,0:00:15.82,KM_Up,,0,0,0,karaoke,{\k17}Where {\k17}my {\k17}bi{\k22}no{\k15}cu{\k17}lars {\k33}at?
+Comment: 0,0:00:16.02,0:00:17.02,KM_Up,,0,0,0,karaoke,{\k38}Bird{\k62}song
+Comment: 0,0:00:17.33,0:00:18.54,KM_Up,,0,0,0,karaoke,{\k15}I'm {\k18}with {\k17}the {\k71}trees
+Comment: 0,0:00:18.84,0:00:19.84,KM_Up,,0,0,0,karaoke,{\k38}Bird{\k62}song
+Comment: 0,0:00:20.08,0:00:21.52,KM_Up,,0,0,0,karaoke,{\k12}I'm {\k19}loo{\k17}king {\k15}for {\k50}birds, {\k31}yo
+Comment: 0,0:00:21.67,0:00:22.67,KM_Up,,0,0,0,karaoke,{\k38}Bird{\k62}song
+Comment: 0,0:00:22.91,0:00:24.34,KM_Up,,0,0,0,karaoke,{\k18}I've {\k20}been {\k19}to {\k29}Hell {\k26}and {\k31}back
+Comment: 0,0:00:24.34,0:00:25.86,KM_Up,,0,0,0,karaoke,{\k24}And {\k35}then {\k25}Hell {\k24}a{\k44}gain
+Comment: 0,0:00:25.87,0:00:27.01,KM_Up,,0,0,0,karaoke,{\k44}Brown {\k24}pe{\k19}li{\k27}can
+Comment: 0,0:00:27.01,0:00:28.56,KM_Up,,0,0,0,karaoke,{\k26}Streets {\k21}is {\k13}where {\k20}I {\k25}dwell {\k14}a{\k36}gain
+Comment: 0,0:00:28.73,0:00:31.06,KM_Up,,0,0,0,karaoke,{\k20}All {\k17}you {\k23}rap{\k18}pers {\k16}on {\k15}the {\k34}mic {\k42}sound {\k48}dull
+Comment: 0,0:00:31.31,0:00:33.91,KM_Up,,0,0,0,karaoke,{\k14}Me? {\k34}I'm {\k55}fly, {\k28}swal{\k23}low-{\k54}tailed {\k52}gull
+Comment: 0,0:00:34.23,0:00:36.93,KM_Up,,0,0,0,karaoke,{\k15}I {\k45}drop {\k78}facts, {\k27}call {\k29}me {\k38}Snap{\k38}ple
+Comment: 0,0:00:37.12,0:00:39.68,KM_Up,,0,0,0,karaoke,{\k11}I'm {\k15}in {\k24}the {\k38}sky, {\k13}I'm {\k21}a {\k31}boat-{\k38}tailed {\k33}grack{\k32}le
+Comment: 0,0:00:39.89,0:00:42.59,KM_Up,,0,0,0,karaoke,{\k14}I'm {\k16}on {\k17}a {\k43}block {\k27}like {\k30}I'm {\k29}coke {\k24}or {\k30}he{\k40}roin
+Comment: 0,0:00:42.67,0:00:45.32,KM_Up,,0,0,0,karaoke,{\k26}Fit {\k18}ve{\k19}ry {\k14}col{\k24}or{\k28}ful, {\k31}tri{\k20}col{\k27}ored {\k20}he{\k38}ron
+Comment: 0,0:00:45.55,0:00:48.10,KM_Up,,0,0,0,karaoke,{\k17}I'm {\k19}with {\k22}your {\k42}girl {\k31}tucked {\k21}un{\k15}der {\k20}the {\k30}du{\k38}vet
+Comment: 0,0:00:48.28,0:00:51.06,KM_Up,,0,0,0,karaoke,{\k19}She {\k18}ve{\k22}ry {\k16}beau{\k24}ti{\k60}ful, {\k15}she {\k18}like {\k17}a {\k30}blue {\k39}jay
+Comment: 0,0:00:51.20,0:00:52.21,KM_Up,,0,0,0,karaoke,{\k17}She {\k28}don't {\k34}like {\k22}you
+Comment: 0,0:00:52.21,0:00:53.79,KM_Up,,0,0,0,karaoke,{\k18}She {\k19}says {\k18}you {\k18}was {\k26}a {\k28}pea{\k31}sant
+Comment: 0,0:00:53.84,0:00:54.96,KM_Up,,0,0,0,karaoke,{\k22}She {\k16}said {\k24}I'm {\k33}class{\k17}y
+Comment: 0,0:00:54.96,0:00:56.59,KM_Up,,0,0,0,karaoke,{\k18}Like {\k20}a {\k28}ring-{\k33}necked {\k30}phea{\k34}sant
+Comment: 0,0:00:56.88,0:00:59.51,KM_Up,,0,0,0,karaoke,{\k17}I {\k22}like {\k19}to {\k33}talk {\k18}to {\k43}her {\k39}and {\k34}pipe {\k38}her
+Comment: 0,0:00:59.95,0:01:02.25,KM_Up,,0,0,0,karaoke,{\k20}She {\k19}like {\k19}a {\k36}white-{\k30}rumped {\k38}sand{\k35}pi{\k33}per
+Comment: 0,0:01:02.53,0:01:05.28,KM_Up,,0,0,0,karaoke,{\k16}Ay {\k18}yo, {\k17}I {\k30}asked {\k12}her {\k17}if {\k20}she {\k22}need{\k16}ed {\k21}a {\k24}man{\k23}a{\k39}ger
+Comment: 0,0:01:05.30,0:01:06.49,KM_Up,,0,0,0,karaoke,{\k15}Go {\k21}out {\k21}and {\k28}look {\k19}for {\k15}her
+Comment: 0,0:01:06.61,0:01:08.06,KM_Up,,0,0,0,karaoke,{\k30}Flame-{\k17}col{\k27}ored {\k19}tan{\k20}a{\k32}ger
+Comment: 0,0:01:08.19,0:01:09.55,KM_Up,,0,0,0,karaoke,{\k9}You {\k16}know {\k16}I'm {\k26}bir{\k20}ding, {\k25}ba{\k24}by
+Comment: 0,0:01:09.66,0:01:10.66,KM_Up,,0,0,0,karaoke,{\k38}Bird{\k62}song
+Comment: 0,0:01:10.91,0:01:12.29,KM_Up,,0,0,0,karaoke,{\k17}Where {\k17}my {\k17}bi{\k22}no{\k15}cu{\k17}lars {\k33}at?
+Comment: 0,0:01:12.49,0:01:13.49,KM_Up,,0,0,0,karaoke,{\k38}Bird{\k62}song
+Comment: 0,0:01:13.80,0:01:15.01,KM_Up,,0,0,0,karaoke,{\k15}I'm {\k18}with {\k17}the {\k71}trees
+Comment: 0,0:01:15.31,0:01:16.31,KM_Up,,0,0,0,karaoke,{\k38}Bird{\k62}song
+Comment: 0,0:01:16.36,0:01:17.99,KM_Up,,0,0,0,karaoke,{\k16}I'm {\k17}loo{\k24}king {\k25}for {\k81}birds
+Comment: 0,0:01:18.14,0:01:19.14,KM_Up,,0,0,0,karaoke,{\k38}Bird{\k62}song
+Comment: 0,0:01:19.48,0:01:20.84,KM_Up,,0,0,0,karaoke,{\k9}You {\k16}know {\k16}I'm {\k26}bir{\k20}ding, {\k25}ba{\k24}by
+Comment: 0,0:01:20.95,0:01:21.95,KM_Up,,0,0,0,karaoke,{\k38}Bird{\k62}song
+Comment: 0,0:01:22.20,0:01:23.58,KM_Up,,0,0,0,karaoke,{\k17}Where {\k17}my {\k17}bi{\k22}no{\k15}cu{\k17}lars {\k33}at?
+Comment: 0,0:01:23.78,0:01:24.78,KM_Up,,0,0,0,karaoke,{\k38}Bird{\k62}song
+Comment: 0,0:01:25.09,0:01:26.30,KM_Up,,0,0,0,karaoke,{\k15}I'm {\k18}with {\k17}the {\k71}trees
+Comment: 0,0:01:26.60,0:01:27.60,KM_Up,,0,0,0,karaoke,{\k38}Bird{\k62}song
+Comment: 0,0:01:27.65,0:01:29.28,KM_Up,,0,0,0,karaoke,{\k16}I'm {\k17}loo{\k24}king {\k25}for {\k81}birds
+Comment: 0,0:01:29.48,0:01:30.35,KM_Up,,0,0,0,karaoke,{\k40}Quack-{\k47}quack!
+Comment: 0,0:01:30.59,0:01:31.87,KM_Up,,0,0,0,karaoke,{\k31}Blue-{\k46}winged {\k51}teal
+Comment: 0,0:01:32.04,0:01:33.25,KM_Up,,0,0,0,karaoke,{\k38}Green-{\k39}winged {\k44}teal
+Comment: 0,0:01:33.47,0:01:35.91,KM_Up,,0,0,0,karaoke,{\k22}Up {\k17}in {\k23}our {\k35}fields {\k17}and {\k20}we're {\k30}bump{\k31}ing {\k49}Seal
+Comment: 0,0:01:36.04,0:01:37.29,KM_Up,,0,0,0,karaoke,{\k18}She {\k24}look {\k23}like {\k21}she {\k39}blush
+Comment: 0,0:01:37.29,0:01:38.60,KM_Up,,0,0,0,karaoke,{\k17}When {\k22}we {\k20}fee{\k22}ling {\k21}the {\k29}rush
+Comment: 0,0:01:38.66,0:01:40.23,KM_Up,,0,0,0,karaoke,{\k15}I'm {\k23}a {\k33}curve-{\k29}billed {\k33}thrash{\k24}er
+Comment: 0,0:01:40.25,0:01:41.64,KM_Up,,0,0,0,karaoke,{\k15}She {\k14}a {\k31}grey-{\k33}cheeked {\k46}thrush
+Comment: 0,0:01:41.71,0:01:44.07,KM_Up,,0,0,0,karaoke,{\k15}We {\k20}move {\k12}a{\k20}round {\k18}the {\k37}sky {\k20}like {\k20}we {\k33}car{\k41}go
+Comment: 0,0:01:44.31,0:01:45.70,KM_Up,,0,0,0,karaoke,{\k19}Yo, {\k16}we {\k18}move {\k13}a{\k20}round {\k20}the {\k33}sky
+Comment: 0,0:01:45.70,0:01:47.60,KM_Up,,0,0,0,karaoke,{\k17}Like {\k23}a {\k37}plain-{\k32}capped {\k36}star{\k45}throat
+Comment: 0,0:01:47.65,0:01:49.02,KM_Up,,0,0,0,karaoke,{\k14}She {\k19}ve{\k20}ry {\k16}hip{\k21}py-{\k19}dip{\k28}py
+Comment: 0,0:01:49.21,0:01:50.39,KM_Up,,0,0,0,karaoke,{\k18}She {\k20}a {\k31}Dead{\k49}head
+Comment: 0,0:01:50.43,0:01:51.83,KM_Up,,0,0,0,karaoke,{\k25}Shout {\k26}out {\k20}Red{\k31}in{\k38}ho
+Comment: 0,0:01:51.87,0:01:53.12,KM_Up,,0,0,0,karaoke,{\k15}Yo, {\k16}he {\k19}a {\k33}red{\k42}head
+Comment: 0,0:01:53.41,0:01:55.80,KM_Up,,0,0,0,karaoke,{\k25}Plus, {\k23}he {\k32}sam{\k17}pled {\k21}a {\k29}bird {\k21}on {\k22}the {\k49}tune
+Comment: 0,0:01:55.80,0:01:57.14,KM_Up,,0,0,0,karaoke,{\k17}To {\k16}me {\k21}it {\k37}sounds {\k23}like, {\k20}yo
+Comment: 0,0:01:57.14,0:01:58.68,KM_Up,,0,0,0,karaoke,{\k19}A {\k33}red-{\k23}throa{\k24}ted {\k55}loon
+Comment: 0,0:01:58.81,0:02:01.41,KM_Up,,0,0,0,karaoke,{\k17}Yel{\k20}low-{\k33}billed {\k66}loon, {\k20}pa{\k24}cif{\k26}ic {\k54}loon
+Comment: 0,0:02:01.59,0:02:04.29,KM_Up,,0,0,0,karaoke,{\k19}May{\k10}be {\k17}it's {\k26}a {\k27}com{\k25}mon {\k38}or {\k32}arc{\k29}tic {\k47}loon
+Comment: 0,0:02:04.62,0:02:07.29,KM_Up,,0,0,0,karaoke,{\k15}I'm {\k14}ea{\k23}ting {\k25}muf{\k51}fins {\k13}with {\k18}a {\k25}night{\k27}in{\k56}gale
+Comment: 0,0:02:07.41,0:02:10.14,KM_Up,,0,0,0,karaoke,{\k24}At{\k24}lan{\k29}tic {\k25}puf{\k30}fin, {\k18}Mon{\k23}te{\k17}zu{\k28}ma {\k55}quail
+Comment: 0,0:02:10.26,0:02:12.77,KM_Up,,0,0,0,karaoke,{\k21}Vir{\k22}gin{\k27}ia {\k38}rail, {\k11}Cal{\k15}i{\k20}for{\k21}nia {\k39}black {\k37}rail
+Comment: 0,0:02:12.92,0:02:14.61,KM_Up,,0,0,0,karaoke,{\k15}If {\k19}you {\k22}tried {\k14}to {\k37}rhyme {\k31}bird {\k31}names
+Comment: 0,0:02:14.61,0:02:15.61,KM_Up,,0,0,0,karaoke,{\k18}You {\k27}would {\k55}fail
+Comment: 0,0:02:16.03,0:02:18.50,KM_Up,,0,0,0,karaoke,{\k29}Black-{\k14}foot{\k16}ed {\k24}al{\k21}ba{\k39}tross, {\k26}Ca{\k28}ssin's {\k34}auk{\k16}let
+Comment: 0,0:02:18.53,0:02:20.97,KM_Up,,0,0,0,karaoke,{\k14}A{\k15}mer{\k18}i{\k25}can {\k21}bit{\k41}tern, {\k16}brew{\k28}er's {\k31}black{\k35}bird
+Comment: 0,0:02:20.99,0:02:22.98,KM_Up,,0,0,0,karaoke,{\k27}Moun{\k23}tain {\k23}blue{\k33}bird, {\k36}brown {\k28}boo{\k29}by
+Comment: 0,0:02:23.17,0:02:25.41,KM_Up,,0,0,0,karaoke,{\k18}In{\k10}di{\k28}go {\k24}bun{\k74}ting, {\k32}bush{\k38}tit
+Comment: 0,0:02:25.70,0:02:27.41,KM_Up,,0,0,0,karaoke,{\k18}Can{\k26}vas{\k28}back, {\k22}North{\k22}ern {\k20}car{\k9}di{\k26}nal
+Comment: 0,0:02:27.56,0:02:28.44,KM_Up,,0,0,0,karaoke,{\k25}Gray {\k28}cat{\k35}bird
+Comment: 0,0:02:28.82,0:02:30.04,KM_Up,,0,0,0,karaoke,{\k15}Chick{\k19}a{\k30}dee, {\k19}chick{\k18}a{\k21}dee
+Comment: 0,0:02:30.13,0:02:32.11,KM_Up,,0,0,0,karaoke,{\k14}A{\k17}me{\k13}ri{\k24}can {\k57}coot, {\k21}cor{\k12}mo{\k40}rant
+Comment: 0,0:02:32.19,0:02:34.08,KM_Up,,0,0,0,karaoke,{\k28}Cow{\k42}bird, {\k9}A{\k14}mer{\k13}i{\k28}can {\k55}crow
+Comment: 0,0:02:34.14,0:02:35.46,KM_Up,,0,0,0,karaoke,{\k19}Com{\k21}mon {\k36}ground {\k56}dove
+Comment: 0,0:02:35.49,0:02:37.14,KM_Up,,0,0,0,karaoke,{\k13}Eur{\k17}a{\k23}sian {\k27}col{\k32}lared {\k53}dove
+Comment: 0,0:02:37.44,0:02:38.18,KM_Up,,0,0,0,karaoke,{\k23}Dow{\k19}it{\k32}cher
+Comment: 0,0:02:38.63,0:02:39.83,KM_Up,,0,0,0,karaoke,{\k22}That's {\k26}a {\k72}bird
+Comment: 0,0:02:39.87,0:02:41.20,KM_Up,,0,0,0,karaoke,{\k18}Yo, {\k22}that's {\k25}a {\k68}bird
+Comment: 0,0:02:41.44,0:02:42.84,KM_Up,,0,0,0,karaoke,{\k22}This {\k19}the {\k37}bird {\k36}song, {\k26}yo
+Comment: 0,0:02:42.84,0:02:43.90,KM_Up,,0,0,0,karaoke,{\k23}That's {\k28}a {\k55}bird
+Comment: 0,0:02:44.30,0:02:45.48,KM_Up,,0,0,0,karaoke,{\k23}That's {\k23}a {\k72}bird
+Comment: 0,0:02:45.64,0:02:46.70,KM_Up,,0,0,0,karaoke,{\k25}That's {\k25}a {\k56}bird
+Comment: 0,0:02:47.11,0:02:48.51,KM_Up,,0,0,0,karaoke,{\k22}This {\k19}the {\k37}bird {\k36}song, {\k26}yo
+Comment: 0,0:02:48.51,0:02:49.57,KM_Up,,0,0,0,karaoke,{\k23}That's {\k28}a {\k55}bird
+Comment: 0,0:02:49.93,0:02:51.13,KM_Up,,0,0,0,karaoke,{\k22}That's {\k26}a {\k72}bird
+Comment: 0,0:02:51.17,0:02:52.50,KM_Up,,0,0,0,karaoke,{\k18}Yo, {\k22}that's {\k25}a {\k68}bird
+Comment: 0,0:02:52.74,0:02:54.14,KM_Up,,0,0,0,karaoke,{\k22}This {\k19}the {\k37}bird {\k36}song, {\k26}yo
+Comment: 0,0:02:54.14,0:02:55.20,KM_Up,,0,0,0,karaoke,{\k23}That's {\k28}a {\k55}bird
+Comment: 0,0:02:55.60,0:02:56.78,KM_Up,,0,0,0,karaoke,{\k23}That's {\k23}a {\k72}bird
+Comment: 0,0:02:56.94,0:02:58.00,KM_Up,,0,0,0,karaoke,{\k25}That's {\k25}a {\k56}bird
+Comment: 0,0:02:58.41,0:02:59.81,KM_Up,,0,0,0,karaoke,{\k22}This {\k19}the {\k37}bird {\k36}song, {\k26}yo
+Comment: 0,0:02:59.81,0:03:00.87,KM_Up,,0,0,0,karaoke,{\k23}That's {\k28}a {\k55}bird
+Dialogue: 0,0:00:01.01,0:00:03.11,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Bird{\k62}song
+Dialogue: 0,0:00:03.82,0:00:05.92,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Bird{\k62}song
+Dialogue: 0,0:00:06.66,0:00:08.76,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Bird{\k62}song
+Dialogue: 0,0:00:09.46,0:00:11.56,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Bird{\k62}song
+Dialogue: 0,0:00:10.82,0:00:13.28,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k11}You {\k14}know {\k16}I'm {\k26}bir{\k20}ding, {\k25}ba{\k24}by
+Dialogue: 0,0:00:12.29,0:00:14.39,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Bird{\k62}song
+Dialogue: 0,0:00:13.54,0:00:16.02,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Where {\k17}my {\k17}bi{\k22}no{\k15}cu{\k17}lars {\k33}at?
+Dialogue: 0,0:00:15.12,0:00:17.22,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Bird{\k62}song
+Dialogue: 0,0:00:16.43,0:00:18.74,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k15}I'm {\k18}with {\k17}the {\k71}trees
+Dialogue: 0,0:00:17.94,0:00:20.04,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Bird{\k62}song
+Dialogue: 0,0:00:19.18,0:00:21.72,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k12}I'm {\k19}loo{\k17}king {\k15}for {\k50}birds, {\k31}yo
+Dialogue: 0,0:00:20.77,0:00:22.87,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Bird{\k62}song
+Dialogue: 0,0:00:22.01,0:00:24.54,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k18}I've {\k20}been {\k19}to {\k29}Hell {\k26}and {\k31}back
+Dialogue: 0,0:00:23.44,0:00:26.06,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k24}And {\k35}then {\k25}Hell {\k24}a{\k44}gain
+Dialogue: 0,0:00:24.97,0:00:27.21,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Brown {\k24}pe{\k19}li{\k27}can
+Dialogue: 0,0:00:26.11,0:00:28.76,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Streets {\k21}is {\k13}where {\k20}I {\k25}dwell {\k14}a{\k36}gain
+Dialogue: 0,0:00:27.83,0:00:31.26,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k20}All {\k17}you {\k23}rap{\k18}pers {\k16}on {\k15}the {\k34}mic {\k42}sound {\k48}dull
+Dialogue: 0,0:00:30.41,0:00:34.11,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Me? {\k34}I'm {\k55}fly, {\k28}swal{\k23}low-{\k54}tailed {\k52}gull
+Dialogue: 0,0:00:33.33,0:00:37.13,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k15}I {\k45}drop {\k78}facts, {\k27}call {\k29}me {\k38}Snap{\k38}ple
+Dialogue: 0,0:00:36.22,0:00:39.88,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k11}I'm {\k15}in {\k24}the {\k38}sky, {\k13}I'm {\k21}a {\k31}boat-{\k38}tailed {\k33}grack{\k32}le
+Dialogue: 0,0:00:38.99,0:00:42.79,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k14}I'm {\k16}on {\k17}a {\k43}block {\k27}like {\k30}I'm {\k29}coke {\k24}or {\k30}he{\k40}roin
+Dialogue: 0,0:00:41.77,0:00:45.52,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Fit {\k18}ve{\k19}ry {\k14}col{\k24}or{\k28}ful, {\k31}tri{\k20}col{\k27}ored {\k20}he{\k38}ron
+Dialogue: 0,0:00:44.65,0:00:48.30,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k17}I'm {\k19}with {\k22}your {\k42}girl {\k31}tucked {\k21}un{\k15}der {\k20}the {\k30}du{\k38}vet
+Dialogue: 0,0:00:47.38,0:00:51.26,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k19}She {\k18}ve{\k22}ry {\k16}beau{\k24}ti{\k60}ful, {\k15}she {\k18}like {\k17}a {\k30}blue {\k39}jay
+Dialogue: 0,0:00:50.30,0:00:52.41,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k17}She {\k28}don't {\k34}like {\k22}you
+Dialogue: 0,0:00:51.31,0:00:53.99,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k18}She {\k19}says {\k18}you {\k18}was {\k26}a {\k28}pea{\k31}sant
+Dialogue: 0,0:00:52.94,0:00:55.16,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k22}She {\k16}said {\k24}I'm {\k33}class{\k17}y
+Dialogue: 0,0:00:54.06,0:00:56.79,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Like {\k20}a {\k28}ring-{\k33}necked {\k30}phea{\k34}sant
+Dialogue: 0,0:00:55.98,0:00:59.71,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k22}like {\k19}to {\k33}talk {\k18}to {\k43}her {\k39}and {\k34}pipe {\k38}her
+Dialogue: 0,0:00:59.05,0:01:02.45,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k20}She {\k19}like {\k19}a {\k36}white-{\k30}rumped {\k38}sand{\k35}pi{\k33}per
+Dialogue: 0,0:01:01.63,0:01:05.48,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Ay {\k18}yo, {\k17}I {\k30}asked {\k12}her {\k17}if {\k20}she {\k22}need{\k16}ed {\k21}a {\k24}man{\k23}a{\k39}ger
+Dialogue: 0,0:01:04.40,0:01:06.69,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Go {\k21}out {\k21}and {\k28}look {\k19}for {\k15}her
+Dialogue: 0,0:01:05.71,0:01:08.26,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Flame-{\k17}col{\k27}ored {\k19}tan{\k20}a{\k32}ger
+Dialogue: 0,0:01:07.29,0:01:09.75,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k9}You {\k16}know {\k16}I'm {\k26}bir{\k20}ding, {\k25}ba{\k24}by
+Dialogue: 0,0:01:08.76,0:01:10.86,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Bird{\k62}song
+Dialogue: 0,0:01:10.01,0:01:12.49,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Where {\k17}my {\k17}bi{\k22}no{\k15}cu{\k17}lars {\k33}at?
+Dialogue: 0,0:01:11.59,0:01:13.69,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Bird{\k62}song
+Dialogue: 0,0:01:12.90,0:01:15.21,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k15}I'm {\k18}with {\k17}the {\k71}trees
+Dialogue: 0,0:01:14.41,0:01:16.51,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Bird{\k62}song
+Dialogue: 0,0:01:15.46,0:01:18.19,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k16}I'm {\k17}loo{\k24}king {\k25}for {\k81}birds
+Dialogue: 0,0:01:17.24,0:01:19.34,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Bird{\k62}song
+Dialogue: 0,0:01:18.58,0:01:21.04,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k9}You {\k16}know {\k16}I'm {\k26}bir{\k20}ding, {\k25}ba{\k24}by
+Dialogue: 0,0:01:20.05,0:01:22.15,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Bird{\k62}song
+Dialogue: 0,0:01:21.30,0:01:23.78,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Where {\k17}my {\k17}bi{\k22}no{\k15}cu{\k17}lars {\k33}at?
+Dialogue: 0,0:01:22.88,0:01:24.98,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Bird{\k62}song
+Dialogue: 0,0:01:24.19,0:01:26.50,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k15}I'm {\k18}with {\k17}the {\k71}trees
+Dialogue: 0,0:01:25.70,0:01:27.80,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Bird{\k62}song
+Dialogue: 0,0:01:26.75,0:01:29.48,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k16}I'm {\k17}loo{\k24}king {\k25}for {\k81}birds
+Dialogue: 0,0:01:28.58,0:01:30.55,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k40}Quack-{\k47}quack!
+Dialogue: 0,0:01:29.69,0:01:32.07,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Blue-{\k46}winged {\k51}teal
+Dialogue: 0,0:01:31.14,0:01:33.45,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Green-{\k39}winged {\k44}teal
+Dialogue: 0,0:01:32.57,0:01:36.11,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Up {\k17}in {\k23}our {\k35}fields {\k17}and {\k20}we're {\k30}bump{\k31}ing {\k49}Seal
+Dialogue: 0,0:01:35.14,0:01:37.49,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k18}She {\k24}look {\k23}like {\k21}she {\k39}blush
+Dialogue: 0,0:01:36.39,0:01:38.80,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k17}When {\k22}we {\k20}fee{\k22}ling {\k21}the {\k29}rush
+Dialogue: 0,0:01:37.76,0:01:40.43,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k15}I'm {\k23}a {\k33}curve-{\k29}billed {\k33}thrash{\k24}er
+Dialogue: 0,0:01:39.35,0:01:41.84,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k15}She {\k14}a {\k31}grey-{\k33}cheeked {\k46}thrush
+Dialogue: 0,0:01:40.81,0:01:44.27,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k15}We {\k20}move {\k12}a{\k20}round {\k18}the {\k37}sky {\k20}like {\k20}we {\k33}car{\k41}go
+Dialogue: 0,0:01:43.41,0:01:45.90,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Yo, {\k16}we {\k18}move {\k13}a{\k20}round {\k20}the {\k33}sky
+Dialogue: 0,0:01:44.80,0:01:47.80,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Like {\k23}a {\k37}plain-{\k32}capped {\k36}star{\k45}throat
+Dialogue: 0,0:01:46.75,0:01:49.22,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k14}She {\k19}ve{\k20}ry {\k16}hip{\k21}py-{\k19}dip{\k28}py
+Dialogue: 0,0:01:48.31,0:01:50.59,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k18}She {\k20}a {\k31}Dead{\k49}head
+Dialogue: 0,0:01:49.53,0:01:52.03,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Shout {\k26}out {\k20}Red{\k31}in{\k38}ho
+Dialogue: 0,0:01:50.97,0:01:53.32,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Yo, {\k16}he {\k19}a {\k33}red{\k42}head
+Dialogue: 0,0:01:52.51,0:01:56.00,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Plus, {\k23}he {\k32}sam{\k17}pled {\k21}a {\k29}bird {\k21}on {\k22}the {\k49}tune
+Dialogue: 0,0:01:54.90,0:01:57.34,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k17}To {\k16}me {\k21}it {\k37}sounds {\k23}like, {\k20}yo
+Dialogue: 0,0:01:56.24,0:01:58.88,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k19}A {\k33}red-{\k23}throa{\k24}ted {\k55}loon
+Dialogue: 0,0:01:57.91,0:02:01.61,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Yel{\k20}low-{\k33}billed {\k66}loon, {\k20}pa{\k24}cif{\k26}ic {\k54}loon
+Dialogue: 0,0:02:00.69,0:02:04.49,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k19}May{\k10}be {\k17}it's {\k26}a {\k27}com{\k25}mon {\k38}or {\k32}arc{\k29}tic {\k47}loon
+Dialogue: 0,0:02:03.72,0:02:07.49,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k15}I'm {\k14}ea{\k23}ting {\k25}muf{\k51}fins {\k13}with {\k18}a {\k25}night{\k27}in{\k56}gale
+Dialogue: 0,0:02:06.51,0:02:10.34,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k24}At{\k24}lan{\k29}tic {\k25}puf{\k30}fin, {\k18}Mon{\k23}te{\k17}zu{\k28}ma {\k55}quail
+Dialogue: 0,0:02:09.36,0:02:12.97,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Vir{\k22}gin{\k27}ia {\k38}rail, {\k11}Cal{\k15}i{\k20}for{\k21}nia {\k39}black {\k37}rail
+Dialogue: 0,0:02:12.02,0:02:14.81,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k15}If {\k19}you {\k22}tried {\k14}to {\k37}rhyme {\k31}bird {\k31}names
+Dialogue: 0,0:02:13.71,0:02:15.81,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k18}You {\k27}would {\k55}fail
+Dialogue: 0,0:02:15.13,0:02:18.70,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Black-{\k14}foot{\k16}ed {\k24}al{\k21}ba{\k39}tross, {\k26}Ca{\k28}ssin's {\k34}auk{\k16}let
+Dialogue: 0,0:02:17.63,0:02:21.17,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k14}A{\k15}mer{\k18}i{\k25}can {\k21}bit{\k41}tern, {\k16}brew{\k28}er's {\k31}black{\k35}bird
+Dialogue: 0,0:02:20.09,0:02:23.18,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Moun{\k23}tain {\k23}blue{\k33}bird, {\k36}brown {\k28}boo{\k29}by
+Dialogue: 0,0:02:22.27,0:02:25.61,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k18}In{\k10}di{\k28}go {\k24}bun{\k74}ting, {\k32}bush{\k38}tit
+Dialogue: 0,0:02:24.80,0:02:27.61,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Can{\k26}vas{\k28}back, {\k22}North{\k22}ern {\k20}car{\k9}di{\k26}nal
+Dialogue: 0,0:02:26.66,0:02:28.64,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Gray {\k28}cat{\k35}bird
+Dialogue: 0,0:02:27.92,0:02:30.24,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Chick{\k19}a{\k30}dee, {\k19}chick{\k18}a{\k21}dee
+Dialogue: 0,0:02:29.23,0:02:32.31,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k14}A{\k17}me{\k13}ri{\k24}can {\k57}coot, {\k21}cor{\k12}mo{\k40}rant
+Dialogue: 0,0:02:31.29,0:02:34.28,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Cow{\k42}bird, {\k9}A{\k14}mer{\k13}i{\k28}can {\k55}crow
+Dialogue: 0,0:02:33.24,0:02:35.66,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Com{\k21}mon {\k36}ground {\k56}dove
+Dialogue: 0,0:02:34.59,0:02:37.34,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Eur{\k17}a{\k23}sian {\k27}col{\k32}lared {\k53}dove
+Dialogue: 0,0:02:36.54,0:02:38.38,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Dow{\k19}it{\k32}cher
+Dialogue: 0,0:02:37.73,0:02:40.03,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k22}That's {\k26}a {\k72}bird
+Dialogue: 0,0:02:38.97,0:02:41.40,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Yo, {\k22}that's {\k25}a {\k68}bird
+Dialogue: 0,0:02:40.54,0:02:43.04,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k22}This {\k19}the {\k37}bird {\k36}song, {\k26}yo
+Dialogue: 0,0:02:41.94,0:02:44.10,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k23}That's {\k28}a {\k55}bird
+Dialogue: 0,0:02:43.40,0:02:45.68,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k23}That's {\k23}a {\k72}bird
+Dialogue: 0,0:02:44.74,0:02:46.90,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k25}That's {\k25}a {\k56}bird
+Dialogue: 0,0:02:46.21,0:02:48.71,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k22}This {\k19}the {\k37}bird {\k36}song, {\k26}yo
+Dialogue: 0,0:02:47.61,0:02:49.77,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k23}That's {\k28}a {\k55}bird
+Dialogue: 0,0:02:49.03,0:02:51.33,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k22}That's {\k26}a {\k72}bird
+Dialogue: 0,0:02:50.27,0:02:52.70,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Yo, {\k22}that's {\k25}a {\k68}bird
+Dialogue: 0,0:02:51.84,0:02:54.34,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k22}This {\k19}the {\k37}bird {\k36}song, {\k26}yo
+Dialogue: 0,0:02:53.24,0:02:55.40,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k23}That's {\k28}a {\k55}bird
+Dialogue: 0,0:02:54.70,0:02:56.98,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k23}That's {\k23}a {\k72}bird
+Dialogue: 0,0:02:56.04,0:02:58.20,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k25}That's {\k25}a {\k56}bird
+Dialogue: 0,0:02:57.51,0:03:00.01,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k22}This {\k19}the {\k37}bird {\k36}song, {\k26}yo
+Dialogue: 0,0:02:58.91,0:03:01.07,KM_Up,,0,0,0,fx,{\k90\fad(300,200)}{\k23}That's {\k28}a {\k55}bird
