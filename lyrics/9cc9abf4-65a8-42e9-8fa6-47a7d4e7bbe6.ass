@@ -1,0 +1,151 @@
+﻿[Script Info]
+Title: Coin Rush Showdown: SHOW DOWN
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: Kangiru_Noah
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:16.14,0:00:17.70,Sample KM [Up],,0,0,0,karaoke,{\k28}Green {\k23}to {\k23}go, {\k38}Red {\k16}to {\k28}stop
+Comment: 0,0:00:17.85,0:00:19.10,Sample KM [Up],,0,0,0,karaoke,{\k34}Go {\k34}on, {\k27}Go {\k30}on
+Comment: 0,0:00:19.58,0:00:21.22,Sample KM [Up],,0,0,0,karaoke,{\k25}Wait {\k13}un{\k26}til {\k14}the {\k32}mo{\k20}ment {\k34}drops
+Comment: 0,0:00:21.22,0:00:22.35,Sample KM [Up],,0,0,0,karaoke,{\k33}Know {\k33}when {\k25}its {\k22}hot
+Comment: 0,0:00:22.35,0:00:24.95,Sample KM [Up],,0,0,0,karaoke,{\k36}Take {\k29}your {\kf116}place {\k23}to{\k56}night
+Comment: 0,0:00:25.61,0:00:27.13,Sample KM [Up],,0,0,0,karaoke,{\k31}Make {\k25}your {\k96}move
+Comment: 0,0:00:29.62,0:00:31.35,Sample KM [Up],,0,0,0,karaoke,{\k38}E{\k16}very{\k21}bo{\k14}dy, {\k29}make {\k24}a {\k31}run
+Comment: 0,0:00:31.35,0:00:32.98,Sample KM [Up],,0,0,0,karaoke,{\k37}What {\k33}a{\k43}bout {\k50}you?
+Comment: 0,0:00:33.07,0:00:34.65,Sample KM [Up],,0,0,0,karaoke,{\k27}Take {\k16}a {\k24}hint {\k13}and {\k34}read {\k22}the {\k22}room
+Comment: 0,0:00:34.65,0:00:36.33,Sample KM [Up],,0,0,0,karaoke,{\k42}Will {\k34}you {\k27}get {\k65}through?
+Comment: 0,0:00:36.48,0:00:39.55,Sample KM [Up],,0,0,0,karaoke,{\k28}Make {\k20}it {\k19}to {\k25}the {\k29}end {\k34}to{\kf152}night
+Comment: 0,0:00:39.83,0:00:43.05,Sample KM [Up],,0,0,0,karaoke,{\k116}Feel {\k24}the {\k18}a{\k24}dre{\k20}na{\kf120}line
+Comment: 0,0:00:43.65,0:00:45.25,Sample KM [Up],,0,0,0,karaoke,{\k27}Watch {\k24}the {\k109}signs
+Comment: 0,0:00:45.25,0:00:46.96,Sample KM [Up],,0,0,0,karaoke,{\k41}Feel {\k22}the {\k108}room
+Comment: 0,0:00:46.96,0:00:47.92,Sample KM [Up],,0,0,0,karaoke,{\k24}Hold {\k28}your {\k44}breath
+Comment: 0,0:00:48.08,0:00:49.91,Sample KM [Up],,0,0,0,karaoke,{\k52}Right {\k40}before {\k21}the {\k70}boom
+Comment: 0,0:00:49.91,0:00:51.68,Sample KM [Up],,0,0,0,karaoke,{\k52}Show{\k42}down, {\k32}show{\k51}down
+Comment: 0,0:00:51.68,0:00:53.28,Sample KM [Up],,0,0,0,karaoke,{\k45}Our {\k39}high {\k116}noon
+Comment: 0,0:00:53.28,0:00:54.88,Sample KM [Up],,0,0,0,karaoke,{\k52}Show{\k33}down, {\k37}show{\k38}down
+Comment: 0,0:00:54.88,0:00:56.25,Sample KM [Up],,0,0,0,karaoke,{\k43}E{\k20}very {\k21}round {\k18}will {\k35}change
+Comment: 0,0:00:56.25,0:00:57.83,Sample KM [Up],,0,0,0,karaoke,{\k41}Show{\kf117}down
+Comment: 0,0:00:57.83,0:01:00.20,Sample KM [Up],,0,0,0,karaoke,{\k23}And {\k25}when {\k17}the {\k27}dust {\k37}is {\k108}gone
+Comment: 0,0:01:00.31,0:01:01.82,Sample KM [Up],,0,0,0,karaoke,{\k27}And {\k22}when {\k20}the {\k35}dust {\k30}is {\k17}gone
+Comment: 0,0:01:01.82,0:01:03.11,Sample KM [Up],,0,0,0,karaoke,{\k26}Wi{\k15}nner {\k28}takes {\k17}the {\k43}game
+Comment: 0,0:01:16.34,0:01:18.98,Sample KM [Up],,0,0,0,karaoke,{\k33}Step {\k20}in {\k20}the {\k39}ring, {\k26}now {\k21}you {\k32}take {\k30}your {\k43}stand
+Comment: 0,0:01:18.98,0:01:19.98,Sample KM [Up],,0,0,0,karaoke,{\k19}Fight {\k42}your {\k39}way
+Comment: 0,0:01:20.44,0:01:22.25,Sample KM [Up],,0,0,0,karaoke,{\k34}Read {\k30}move {\k16}be{\k34}fore {\k28}you {\k39}strike
+Comment: 0,0:01:22.32,0:01:23.51,Sample KM [Up],,0,0,0,karaoke,{\k28}Time {\k36}it {\k55}right
+Comment: 0,0:01:23.81,0:01:25.62,Sample KM [Up],,0,0,0,karaoke,{\k86}Dont {\k32}rush {\k18}through {\k20}it {\k25}all
+Comment: 0,0:01:25.73,0:01:27.75,Sample KM [Up],,0,0,0,karaoke,{\k21}Wait {\k21}till {\k11}the {\k43}mo{\k55}ment's {\k51}right
+Comment: 0,0:01:27.84,0:01:29.02,Sample KM [Up],,0,0,0,karaoke,{\k22}Then {\k34}make {\k30}your {\k32}move
+Comment: 0,0:01:29.02,0:01:30.95,Sample KM [Up],,0,0,0,karaoke,{\k26}So {\k25}make {\k19}it {\k33}cou-{\k31}ou-{\k59}ount
+Comment: 0,0:01:30.95,0:01:32.60,Sample KM [Up],,0,0,0,karaoke,{\k27}Watch {\k24}the {\k114}line
+Comment: 0,0:01:32.60,0:01:33.83,Sample KM [Up],,0,0,0,karaoke,{\k32}Feel {\k18}the {\k73}room
+Comment: 0,0:01:34.32,0:01:35.35,Sample KM [Up],,0,0,0,karaoke,{\k24}Hold {\k25}your {\k54}breath
+Comment: 0,0:01:35.35,0:01:37.32,Sample KM [Up],,0,0,0,karaoke,{\k52}Right {\k40}before {\k21}the {\k84}boom
+Comment: 0,0:01:37.32,0:01:39.04,Sample KM [Up],,0,0,0,karaoke,{\k43}Show{\k40}down, {\k35}show{\k54}down
+Comment: 0,0:01:39.25,0:01:40.62,Sample KM [Up],,0,0,0,karaoke,{\k20}Our {\k27}high {\k90}noon
+Comment: 0,0:01:40.62,0:01:42.18,Sample KM [Up],,0,0,0,karaoke,{\k51}Show{\k34}down, {\k40}show{\k35}down
+Comment: 0,0:01:42.18,0:01:43.68,Sample KM [Up],,0,0,0,karaoke,{\k44}E{\k21}very {\k23}round {\k14}will {\k48}change
+Comment: 0,0:01:43.68,0:01:45.18,Sample KM [Up],,0,0,0,karaoke,{\k33}Show{\kf117}down
+Comment: 0,0:01:45.18,0:01:47.18,Sample KM [Up],,0,0,0,karaoke,{\k23}And {\k25}when {\k17}the {\k27}dust {\k37}is {\k71}gone
+Comment: 0,0:01:47.65,0:01:49.18,Sample KM [Up],,0,0,0,karaoke,{\k27}And {\k18}when {\k20}the {\k35}dust {\k31}is {\k22}gone
+Comment: 0,0:01:49.18,0:01:50.33,Sample KM [Up],,0,0,0,karaoke,{\k25}Wi{\k13}nner {\k22}takes {\k22}the {\k33}game
+Comment: 0,0:01:51.08,0:01:52.35,Sample KM [Up],,0,0,0,karaoke,{\k21}No {\k21}ba{\k22}cking {\k31}out {\k32}now
+Comment: 0,0:01:52.35,0:01:54.32,Sample KM [Up],,0,0,0,karaoke,{\k17}No {\k47}soft {\k21}re{\k112}treat
+Comment: 0,0:01:54.46,0:01:55.68,Sample KM [Up],,0,0,0,karaoke,{\k15}The {\k46}crowd {\k28}goes {\k33}still
+Comment: 0,0:01:55.68,0:01:57.55,Sample KM [Up],,0,0,0,karaoke,{\k16}You {\k40}feel {\k33}the {\k98}heat
+Comment: 0,0:01:57.73,0:01:58.90,Sample KM [Up],,0,0,0,karaoke,{\k33}Sweat {\k25}on {\k17}your {\k42}brow
+Comment: 0,0:01:59.13,0:02:00.82,Sample KM [Up],,0,0,0,karaoke,{\k40}No{\k32}bo{\k27}dy {\k70}moves
+Comment: 0,0:02:00.92,0:02:02.41,Sample KM [Up],,0,0,0,karaoke,{\k37}One {\k38}last {\k21}re{\k53}veal
+Comment: 0,0:02:02.68,0:02:07.65,Sample KM [Up],,0,0,0,karaoke,{\k29}No {\k35}tur{\k22}ning {\kf411}now
+Comment: 0,0:02:17.85,0:02:19.74,Sample KM [Up],,0,0,0,karaoke,{\k48}Show{\k36}down, {\k38}show{\k67}down
+Comment: 0,0:02:19.74,0:02:21.18,Sample KM [Up],,0,0,0,karaoke,{\k31}Our {\k34}high {\k79}noon
+Comment: 0,0:02:21.18,0:02:22.75,Sample KM [Up],,0,0,0,karaoke,{\k53}Show{\k33}down, {\k40}show{\k31}down
+Comment: 0,0:02:22.75,0:02:24.18,Sample KM [Up],,0,0,0,karaoke,{\k41}E{\k24}very {\k19}round {\k18}will {\k41}change
+Comment: 0,0:02:24.18,0:02:25.82,Sample KM [Up],,0,0,0,karaoke,{\k39}Show{\kf125}down
+Comment: 0,0:02:25.82,0:02:27.82,Sample KM [Up],,0,0,0,karaoke,{\k17}And {\k19}when {\k19}the {\k38}dust {\k29}is {\k78}gone
+Comment: 0,0:02:28.46,0:02:31.32,Sample KM [Up],,0,0,0,karaoke,{\k21}Wi{\k17}nner {\k36}takes {\k28}the {\kf184}game
+Comment: 0,0:02:31.43,0:02:33.06,Sample KM [Up],,0,0,0,karaoke,{\k38}One {\k40}last {\k37}show{\k48}down
+Comment: 0,0:02:33.34,0:02:34.79,Sample KM [Up],,0,0,0,karaoke,{\k21}The {\k19}fi{\k14}nal {\k91}round
+Comment: 0,0:02:34.79,0:02:36.32,Sample KM [Up],,0,0,0,karaoke,{\k45}One {\k31}last {\k42}show{\k35}down
+Comment: 0,0:02:36.41,0:02:37.66,Sample KM [Up],,0,0,0,karaoke,{\k30}No {\k18}more {\k25}games {\k21}to {\k31}play
+Comment: 0,0:02:37.70,0:02:39.29,Sample KM [Up],,0,0,0,karaoke,{\k41}Show{\kf118}down
+Comment: 0,0:02:39.29,0:02:41.58,Sample KM [Up],,0,0,0,karaoke,{\k17}And {\k19}when {\k19}the {\k38}dust {\k29}is {\k107}gone
+Comment: 0,0:02:41.75,0:02:43.27,Sample KM [Up],,0,0,0,karaoke,{\k21}And {\k24}when {\k19}the {\k36}dust {\k28}is {\k24}gone
+Comment: 0,0:02:43.27,0:02:44.62,Sample KM [Up],,0,0,0,karaoke,{\k24}One {\k22}wi{\k18}nner {\k23}re{\k48}mains
+Dialogue: 0,0:00:15.24,0:00:17.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Green {\k23}to {\k23}go, {\k38}Red {\k16}to {\k28}stop
+Dialogue: 0,0:00:16.95,0:00:19.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Go {\k34}on, {\k27}Go {\k30}on
+Dialogue: 0,0:00:18.68,0:00:21.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Wait {\k13}un{\k26}til {\k14}the {\k32}mo{\k20}ment {\k34}drops
+Dialogue: 0,0:00:20.32,0:00:22.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Know {\k33}when {\k25}its {\k22}hot
+Dialogue: 0,0:00:21.45,0:00:25.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Take {\k29}your {\kf116}place {\k23}to{\k56}night
+Dialogue: 0,0:00:24.71,0:00:27.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Make {\k25}your {\k96}move
+Dialogue: 0,0:00:28.72,0:00:31.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}E{\k16}very{\k21}bo{\k14}dy, {\k29}make {\k24}a {\k31}run
+Dialogue: 0,0:00:30.45,0:00:33.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}What {\k33}a{\k43}bout {\k50}you?
+Dialogue: 0,0:00:32.17,0:00:34.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Take {\k16}a {\k24}hint {\k13}and {\k34}read {\k22}the {\k22}room
+Dialogue: 0,0:00:33.75,0:00:36.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Will {\k34}you {\k27}get {\k65}through?
+Dialogue: 0,0:00:35.58,0:00:39.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Make {\k20}it {\k19}to {\k25}the {\k29}end {\k34}to{\kf152}night
+Dialogue: 0,0:00:38.93,0:00:43.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k116}Feel {\k24}the {\k18}a{\k24}dre{\k20}na{\kf120}line
+Dialogue: 0,0:00:42.75,0:00:45.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Watch {\k24}the {\k109}signs
+Dialogue: 0,0:00:44.35,0:00:47.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Feel {\k22}the {\k108}room
+Dialogue: 0,0:00:46.06,0:00:48.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Hold {\k28}your {\k44}breath
+Dialogue: 0,0:00:47.18,0:00:50.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}Right {\k40}before {\k21}the {\k70}boom
+Dialogue: 0,0:00:49.01,0:00:51.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}Show{\k42}down, {\k32}show{\k51}down
+Dialogue: 0,0:00:50.78,0:00:53.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Our {\k39}high {\k116}noon
+Dialogue: 0,0:00:52.38,0:00:55.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}Show{\k33}down, {\k37}show{\k38}down
+Dialogue: 0,0:00:53.98,0:00:56.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}E{\k20}very {\k21}round {\k18}will {\k35}change
+Dialogue: 0,0:00:55.35,0:00:58.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Show{\kf117}down
+Dialogue: 0,0:00:56.93,0:01:00.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}And {\k25}when {\k17}the {\k27}dust {\k37}is {\k108}gone
+Dialogue: 0,0:00:59.41,0:01:02.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}And {\k22}when {\k20}the {\k35}dust {\k30}is {\k17}gone
+Dialogue: 0,0:01:00.92,0:01:03.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Wi{\k15}nner {\k28}takes {\k17}the {\k43}game
+Dialogue: 0,0:01:15.44,0:01:19.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Step {\k20}in {\k20}the {\k39}ring, {\k26}now {\k21}you {\k32}take {\k30}your {\k43}stand
+Dialogue: 0,0:01:18.08,0:01:20.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Fight {\k42}your {\k39}way
+Dialogue: 0,0:01:19.54,0:01:22.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Read {\k30}move {\k16}be{\k34}fore {\k28}you {\k39}strike
+Dialogue: 0,0:01:21.42,0:01:23.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Time {\k36}it {\k55}right
+Dialogue: 0,0:01:22.91,0:01:25.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k86}Dont {\k32}rush {\k18}through {\k20}it {\k25}all
+Dialogue: 0,0:01:24.83,0:01:27.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Wait {\k21}till {\k11}the {\k43}mo{\k55}ment's {\k51}right
+Dialogue: 0,0:01:26.94,0:01:29.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Then {\k34}make {\k30}your {\k32}move
+Dialogue: 0,0:01:28.12,0:01:31.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}So {\k25}make {\k19}it {\k33}cou-{\k31}ou-{\k59}ount
+Dialogue: 0,0:01:30.05,0:01:32.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Watch {\k24}the {\k114}line
+Dialogue: 0,0:01:31.70,0:01:34.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Feel {\k18}the {\k73}room
+Dialogue: 0,0:01:33.42,0:01:35.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Hold {\k25}your {\k54}breath
+Dialogue: 0,0:01:34.45,0:01:37.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}Right {\k40}before {\k21}the {\k84}boom
+Dialogue: 0,0:01:36.42,0:01:39.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Show{\k40}down, {\k35}show{\k54}down
+Dialogue: 0,0:01:38.35,0:01:40.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Our {\k27}high {\k90}noon
+Dialogue: 0,0:01:39.72,0:01:42.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k51}Show{\k34}down, {\k40}show{\k35}down
+Dialogue: 0,0:01:41.28,0:01:43.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}E{\k21}very {\k23}round {\k14}will {\k48}change
+Dialogue: 0,0:01:42.78,0:01:45.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Show{\kf117}down
+Dialogue: 0,0:01:44.28,0:01:47.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}And {\k25}when {\k17}the {\k27}dust {\k37}is {\k71}gone
+Dialogue: 0,0:01:46.75,0:01:49.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}And {\k18}when {\k20}the {\k35}dust {\k31}is {\k22}gone
+Dialogue: 0,0:01:48.28,0:01:50.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Wi{\k13}nner {\k22}takes {\k22}the {\k33}game
+Dialogue: 0,0:01:50.18,0:01:52.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}No {\k21}ba{\k22}cking {\k31}out {\k32}now
+Dialogue: 0,0:01:51.45,0:01:54.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}No {\k47}soft {\k21}re{\k112}treat
+Dialogue: 0,0:01:53.56,0:01:55.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}The {\k46}crowd {\k28}goes {\k33}still
+Dialogue: 0,0:01:54.78,0:01:57.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}You {\k40}feel {\k33}the {\k98}heat
+Dialogue: 0,0:01:56.83,0:01:59.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Sweat {\k25}on {\k17}your {\k42}brow
+Dialogue: 0,0:01:58.23,0:02:01.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}No{\k32}bo{\k27}dy {\k70}moves
+Dialogue: 0,0:02:00.02,0:02:02.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}One {\k38}last {\k21}re{\k53}veal
+Dialogue: 0,0:02:01.78,0:02:07.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}No {\k35}tur{\k22}ning {\kf411}now
+Dialogue: 0,0:02:16.95,0:02:19.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Show{\k36}down, {\k38}show{\k67}down
+Dialogue: 0,0:02:18.84,0:02:21.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Our {\k34}high {\k79}noon
+Dialogue: 0,0:02:20.28,0:02:22.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k53}Show{\k33}down, {\k40}show{\k31}down
+Dialogue: 0,0:02:21.85,0:02:24.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}E{\k24}very {\k19}round {\k18}will {\k41}change
+Dialogue: 0,0:02:23.28,0:02:26.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Show{\kf125}down
+Dialogue: 0,0:02:24.92,0:02:28.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}And {\k19}when {\k19}the {\k38}dust {\k29}is {\k78}gone
+Dialogue: 0,0:02:27.56,0:02:31.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Wi{\k17}nner {\k36}takes {\k28}the {\kf184}game
+Dialogue: 0,0:02:30.53,0:02:33.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}One {\k40}last {\k37}show{\k48}down
+Dialogue: 0,0:02:32.44,0:02:34.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}The {\k19}fi{\k14}nal {\k91}round
+Dialogue: 0,0:02:33.89,0:02:36.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}One {\k31}last {\k42}show{\k35}down
+Dialogue: 0,0:02:35.51,0:02:37.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}No {\k18}more {\k25}games {\k21}to {\k31}play
+Dialogue: 0,0:02:36.80,0:02:39.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Show{\kf118}down
+Dialogue: 0,0:02:38.39,0:02:41.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}And {\k19}when {\k19}the {\k38}dust {\k29}is {\k107}gone
+Dialogue: 0,0:02:40.85,0:02:43.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}And {\k24}when {\k19}the {\k36}dust {\k28}is {\k24}gone
+Dialogue: 0,0:02:42.37,0:02:44.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}One {\k22}wi{\k18}nner {\k23}re{\k48}mains
