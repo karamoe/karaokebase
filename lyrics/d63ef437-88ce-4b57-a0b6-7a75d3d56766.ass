@@ -1,0 +1,33 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+LayoutResX: 0
+LayoutResY: 0
+Title: Return To Me
+Original Timing: Variabels
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:14.09,0:00:17.62,Sample KM [Up],,0,0,0,karaoke,{\k41}Oh {\k22}lit{\k30}tle {\k48}one, {\k17}where'd {\k35}you {\k72}take {\k54}my {\k34}heart?
+Comment: 0,0:00:18.89,0:00:22.39,Sample KM [Up],,0,0,0,karaoke,{\k29}Oh {\k25}lit{\k36}tle {\k29}one, {\k26}where'd {\k26}you {\k81}take {\k57}my {\k41}heart?
+Comment: 0,0:00:23.63,0:00:27.39,Sample KM [Up],,0,0,0,karaoke,{\k64}Did {\k35}you {\k71}hide {\k26}it {\k59}in {\k38}the {\k83}moon?
+Comment: 0,0:00:27.89,0:00:31.68,Sample KM [Up],,0,0,0,karaoke,{\k62}Did {\k28}you {\k74}sink {\k34}it {\k57}in {\k34}the {\k90}sea?
+Comment: 0,0:00:32.42,0:00:36.41,Sample KM [Up],,0,0,0,karaoke,{\k65}Is {\k29}it {\k66}stuck {\k29}in{\k74}side {\k28}your {\k30}poc{\k78}ket?
+Comment: 0,0:00:36.61,0:00:40.59,Sample KM [Up],,0,0,0,karaoke,{\k59}Keep {\k27}it {\k78}close {\k39}as {\k68}close {\k45}can {\k82}be
+Comment: 0,0:00:41.11,0:00:46.79,Sample KM [Up],,0,0,0,karaoke,{\k65}Some{\k51}day {\k61}you'll {\k50}re{\k66}turn {\k93}to {\kf182}me
+Dialogue: 0,0:00:13.19,0:00:17.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Oh {\k22}lit{\k30}tle {\k48}one, {\k17}where'd {\k35}you {\k72}take {\k54}my {\k34}heart?
+Dialogue: 0,0:00:17.99,0:00:22.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Oh {\k25}lit{\k36}tle {\k29}one, {\k26}where'd {\k26}you {\k81}take {\k57}my {\k41}heart?
+Dialogue: 0,0:00:22.73,0:00:27.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k64}Did {\k35}you {\k71}hide {\k26}it {\k59}in {\k38}the {\k83}moon?
+Dialogue: 0,0:00:26.99,0:00:31.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k62}Did {\k28}you {\k74}sink {\k34}it {\k57}in {\k34}the {\k90}sea?
+Dialogue: 0,0:00:31.52,0:00:36.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k65}Is {\k29}it {\k66}stuck {\k29}in{\k74}side {\k28}your {\k30}poc{\k78}ket?
+Dialogue: 0,0:00:35.71,0:00:40.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k59}Keep {\k27}it {\k78}close {\k39}as {\k68}close {\k45}can {\k82}be
+Dialogue: 0,0:00:40.21,0:00:46.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k65}Some{\k51}day {\k61}you'll {\k50}re{\k66}turn {\k93}to {\kf182}me
