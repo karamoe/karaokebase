@@ -1,0 +1,191 @@
+﻿[Script Info]
+Title: It Doesn't Matter
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
+LayoutResX: 0
+LayoutResY: 0
+Original Timing: Pafnaffan
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.35,0:00:01.87,Sample KM [Up],,0,0,0,karaoke,{\k30}And {\k31}I {\k17}don't {\k44}ma{\k30}tter
+Comment: 0,0:00:02.21,0:00:04.38,Sample KM [Up],,0,0,0,karaoke,{\k21}The {\k41}end, {\k30}it {\k32}does{\k16}n't {\k46}ma{\k37}tter
+Comment: 0,0:00:04.71,0:00:06.84,Sample KM [Up],,0,0,0,karaoke,{\k31}Oh {\k31}oh, {\k31}it {\k33}does{\k15}n't {\k45}ma{\k27}tter
+Comment: 0,0:00:07.22,0:00:09.38,Sample KM [Up],,0,0,0,karaoke,{\k15}The {\k46}hand, {\k31}it {\k33}does{\k15}n't {\k46}ma{\k30}tter
+Comment: 0,0:00:09.69,0:00:11.86,Sample KM [Up],,0,0,0,karaoke,{\k30}Oh {\k34}oh, {\k30}it {\k35}does{\k15}n't {\k43}ma{\k30}tter
+Comment: 0,0:00:12.22,0:00:14.35,Sample KM [Up],,0,0,0,karaoke,{\k15}The {\k47}man, {\k31}it {\k32}does{\k16}n't {\k43}ma{\k29}tter
+Comment: 0,0:00:14.70,0:00:16.95,Sample KM [Up],,0,0,0,karaoke,{\k35}Oh {\k29}oh, {\k31}I {\k29}want {\k18}to {\k83}know
+Comment: 0,0:00:17.19,0:00:20.81,Sample KM [Up],,0,0,0,karaoke,{\k18}I {\k38}want {\k39}to {\k33}un{\k18}der{\kf216}stand
+Comment: 0,0:00:21.44,0:00:22.69,Sample KM [Up],,0,0,0,karaoke,{\k18}I'm {\k9}back {\k19}to {\k13}no{\k18}thing {\k16}a{\k32}gain
+Comment: 0,0:00:22.69,0:00:23.95,Sample KM [Up],,0,0,0,karaoke,{\k16}No {\k15}per{\k14}fect {\k16}pur{\k16}pose {\k21}or {\k28}plan
+Comment: 0,0:00:23.95,0:00:26.01,Sample KM [Up],,0,0,0,karaoke,{\k13}They {\k19}clean {\k14}the {\k15}slate {\k14}and {\k18}I'm {\k31}lost {\k14}in {\k18}a {\k50}fog
+Comment: 0,0:00:26.42,0:00:27.69,Sample KM [Up],,0,0,0,karaoke,{\k17}A {\k18}brain {\k14}that's {\k14}hun{\k15}gry {\k17}and {\k32}free
+Comment: 0,0:00:27.69,0:00:28.90,Sample KM [Up],,0,0,0,karaoke,{\k13}What {\k13}are {\k19}they {\k16}tea{\k32}ching {\k28}me?
+Comment: 0,0:00:28.90,0:00:31.15,Sample KM [Up],,0,0,0,karaoke,{\k15}He {\k19}twists {\k13}the {\k18}gears {\k15}and {\k16}I {\k34}feel {\k12}e{\k16}very {\k67}cog
+Comment: 0,0:00:31.43,0:00:32.68,Sample KM [Up],,0,0,0,karaoke,{\k14}Ob{\k19}serve {\k15}and {\k14}co{\k15}py {\k17}the {\k31}task
+Comment: 0,0:00:32.68,0:00:33.94,Sample KM [Up],,0,0,0,karaoke,{\k14}O{\k14}bey {\k18}what{\k17}e{\k16}ver {\k16}he {\k31}asks
+Comment: 0,0:00:34.01,0:00:35.13,Sample KM [Up],,0,0,0,karaoke,{\k8}Fill {\k19}up {\k10}my {\k17}mind {\k17}with {\k14}their {\k31}hope
+Comment: 0,0:00:35.18,0:00:36.27,Sample KM [Up],,0,0,0,karaoke,{\k17}And {\k15}their {\k77}pain
+Comment: 0,0:00:36.41,0:00:37.67,Sample KM [Up],,0,0,0,karaoke,{\k17}But {\k19}he {\k10}won't {\k21}try {\k22}to {\k11}ex{\k26}plain
+Comment: 0,0:00:37.81,0:00:40.00,Sample KM [Up],,0,0,0,karaoke,{\k10}It's {\k14}on{\k19}ly {\k12}em{\k25}pty {\k50}cha{\k89}tter
+Comment: 0,0:00:40.34,0:00:42.02,Sample KM [Up],,0,0,0,karaoke,{\k29}And {\k32}I {\k16}don't {\k40}ma{\k51}tter
+Comment: 0,0:00:42.22,0:00:44.51,Sample KM [Up],,0,0,0,karaoke,{\k21}The {\k43}end, {\k30}it {\k31}does{\k18}n't {\k43}ma{\k43}tter
+Comment: 0,0:00:44.70,0:00:46.95,Sample KM [Up],,0,0,0,karaoke,{\k31}Oh {\k34}oh, {\k31}it {\k28}does{\k19}n't {\k43}ma{\k39}tter
+Comment: 0,0:00:47.27,0:00:49.43,Sample KM [Up],,0,0,0,karaoke,{\k15}The {\k43}hand, {\k31}it {\k31}does{\k20}n't {\k34}ma{\k42}tter
+Comment: 0,0:00:49.68,0:00:51.93,Sample KM [Up],,0,0,0,karaoke,{\k37}Oh {\k30}oh, {\k29}it {\k31}does{\k17}n't {\k47}ma{\k34}tter
+Comment: 0,0:00:52.22,0:00:54.44,Sample KM [Up],,0,0,0,karaoke,{\k22}The {\k39}man, {\k32}it {\k30}does{\k18}n't {\k45}ma{\k36}tter
+Comment: 0,0:00:54.72,0:00:57.02,Sample KM [Up],,0,0,0,karaoke,{\k31}Oh {\k28}oh, {\k35}I {\k30}want {\k22}to {\k84}know
+Comment: 0,0:00:57.20,0:01:01.18,Sample KM [Up],,0,0,0,karaoke,{\k21}I {\k42}want {\k33}to {\k31}un{\k18}der{\kf253}stand
+Comment: 0,0:01:01.45,0:01:02.65,Sample KM [Up],,0,0,0,karaoke,{\k14}Pick {\k14}up {\k17}the {\k13}pie{\k22}ces {\k15}of {\k25}you
+Comment: 0,0:01:02.65,0:01:03.86,Sample KM [Up],,0,0,0,karaoke,{\k15}Don't {\k17}give {\k18}a {\k16}damn {\k9}if {\k16}it's {\k30}true
+Comment: 0,0:01:03.86,0:01:06.23,Sample KM [Up],,0,0,0,karaoke,{\k24}Con{\k15}sume {\k15}the {\k15}da{\k16}ta {\k18}and {\k32}bow {\k10}at {\k13}your {\k79}feet
+Comment: 0,0:01:06.41,0:01:08.89,Sample KM [Up],,0,0,0,karaoke,{\k18}An {\k13}i{\k17}mi{\k10}ta{\k22}tion {\k18}of {\k27}life, {\k15}be{\k13}come {\k20}a {\k17}son {\k28}or {\k30}wife
+Comment: 0,0:01:08.94,0:01:11.12,Sample KM [Up],,0,0,0,karaoke,{\k12}An {\k22}emp{\k12}ty {\k13}ve{\k16}ssel, {\k22}ful{\k30}fill {\k11}e{\k16}very {\k64}need
+Comment: 0,0:01:11.44,0:01:12.71,Sample KM [Up],,0,0,0,karaoke,{\k14}I'm {\k12}wa{\k20}tching {\k17}when {\k16}you {\k16}are {\k32}cruel
+Comment: 0,0:01:12.71,0:01:14.01,Sample KM [Up],,0,0,0,karaoke,{\k18}Cre{\k14}ate {\k15}in{\k14}vi{\k18}si{\k21}ble {\k30}rules
+Comment: 0,0:01:14.01,0:01:16.27,Sample KM [Up],,0,0,0,karaoke,{\k11}Be{\k15}come {\k15}a {\k19}twis{\k12}ted {\k15}re{\k24}flec{\k21}tion {\k18}of {\k76}you
+Comment: 0,0:01:16.45,0:01:17.67,Sample KM [Up],,0,0,0,karaoke,{\k14}A {\k19}mi{\k15}rror {\k13}of {\k19}your {\k12}a{\k30}buse
+Comment: 0,0:01:17.67,0:01:20.03,Sample KM [Up],,0,0,0,karaoke,{\k15}Un{\k12}til {\k14}I {\k26}break {\k31}and {\k44}sha{\k94}tter
+Comment: 0,0:01:20.30,0:01:21.92,Sample KM [Up],,0,0,0,karaoke,{\k33}And {\k33}I {\k15}don't {\k48}ma{\k33}tter
+Comment: 0,0:01:22.20,0:01:24.40,Sample KM [Up],,0,0,0,karaoke,{\k22}The {\k42}end, {\k31}it {\k32}does{\k18}n't {\k43}ma{\k32}tter
+Comment: 0,0:01:24.70,0:01:26.91,Sample KM [Up],,0,0,0,karaoke,{\k31}Oh {\k34}oh, {\k30}it {\k30}does{\k20}n't {\k39}ma{\k37}tter
+Comment: 0,0:01:27.21,0:01:29.43,Sample KM [Up],,0,0,0,karaoke,{\k16}The {\k46}hand, {\k32}it {\k32}does{\k17}n't {\k36}ma{\k43}tter
+Comment: 0,0:01:29.63,0:01:31.91,Sample KM [Up],,0,0,0,karaoke,{\k38}Oh {\k31}oh, {\k34}it {\k29}does{\k23}n't {\k36}ma{\k37}tter
+Comment: 0,0:01:32.22,0:01:34.42,Sample KM [Up],,0,0,0,karaoke,{\k15}The {\k47}man, {\k31}it {\k28}does{\k22}n't {\k42}ma{\k49}tter
+Comment: 0,0:01:34.72,0:01:37.00,Sample KM [Up],,0,0,0,karaoke,{\k29}Oh {\k29}oh, {\k35}I {\k31}want {\k19}to {\k85}know
+Comment: 0,0:01:37.20,0:01:41.19,Sample KM [Up],,0,0,0,karaoke,{\k17}I {\k42}want {\k36}to {\k31}un{\k17}der{\kf256}stand
+Comment: 0,0:02:01.62,0:02:02.39,Sample KM [Up],,0,0,0,karaoke,{\k5}Who {\k9}are {\k14}you {\k12}mi{\k13}mi{\k24}cking?
+Comment: 0,0:02:02.39,0:02:03.45,Sample KM [Up],,0,0,0,karaoke,{\k10}The {\k16}sha{\k21}dows {\k11}on {\k22}the {\k26}wall?
+Comment: 0,0:02:03.45,0:02:04.75,Sample KM [Up],,0,0,0,karaoke,{\k17}Dis{\k17}a{\k32}ppear {\k10}in{\k12}to {\k20}some{\k22}one
+Comment: 0,0:02:04.75,0:02:05.99,Sample KM [Up],,0,0,0,karaoke,{\k13}A {\k10}re{\k19}flec{\k19}tion {\k17}of {\k13}the {\k33}fall
+Comment: 0,0:02:05.99,0:02:07.23,Sample KM [Up],,0,0,0,karaoke,{\k14}You're {\k13}a {\k35}tool, {\k16}you {\k16}are {\k14}no{\k16}thing
+Comment: 0,0:02:07.23,0:02:08.44,Sample KM [Up],,0,0,0,karaoke,{\k14}You {\k10}re{\k16}gur{\k17}gi{\k12}ta{\k11}te {\k12}it {\k29}all
+Comment: 0,0:02:08.44,0:02:09.74,Sample KM [Up],,0,0,0,karaoke,{\k19}You're {\k15}a {\k30}thief, {\k19}you're {\k16}a {\k15}li{\k16}ar
+Comment: 0,0:02:09.74,0:02:11.15,Sample KM [Up],,0,0,0,karaoke,{\k19}You're {\k12}an {\k9}e{\k16}cho {\k23}down {\k14}the {\k48}hall
+Comment: 0,0:02:11.60,0:02:12.22,Sample KM [Up],,0,0,0,karaoke,{\k14}You're {\k13}the {\k20}an{\k15}swer
+Comment: 0,0:02:12.22,0:02:13.80,Sample KM [Up],,0,0,0,karaoke,{\k15}To {\k12}a {\k21}ques{\k14}tion {\k14}no {\k20}one's {\k29}as{\k33}king
+Comment: 0,0:02:13.80,0:02:15.33,Sample KM [Up],,0,0,0,karaoke,{\k25}A {\k20}tool {\k17}of {\k17}minds {\k14}that {\k14}don't {\k17}con{\k14}si{\k15}der
+Comment: 0,0:02:15.33,0:02:16.32,Sample KM [Up],,0,0,0,karaoke,{\k16}What {\k18}they're {\k29}ta{\k36}sking
+Comment: 0,0:02:16.48,0:02:17.77,Sample KM [Up],,0,0,0,karaoke,{\k12}Wear{\k15}ing {\k18}a {\k16}face {\k15}wi{\k15}thout {\k14}a {\k24}sense
+Comment: 0,0:02:17.77,0:02:18.92,Sample KM [Up],,0,0,0,karaoke,{\k10}Of {\k12}what {\k16}you're {\k31}ma{\k46}sking
+Comment: 0,0:02:18.92,0:02:21.24,Sample KM [Up],,0,0,0,karaoke,{\k20}You {\k15}birth {\k15}an {\k15}e{\k12}vil {\k18}that {\k18}will {\k15}lin{\k17}ger {\k8}e{\k19}ver{\k35}la{\k25}sting
+Comment: 0,0:02:21.24,0:02:23.70,Sample KM [Up],,0,0,0,karaoke,{\k67}Li{\kf179}ar
+Comment: 0,0:02:23.70,0:02:26.23,Sample KM [Up],,0,0,0,karaoke,{\k23}Lost {\k10}a{\k18}bo{\k17}mi{\k13}na{\k16}tion, {\k16}an{\k18}gel, {\k22}de{\k16}vil, {\k12}and {\k14}a {\k58}god
+Comment: 0,0:02:26.23,0:02:28.62,Sample KM [Up],,0,0,0,karaoke,{\k63}Li{\kf176}ar
+Comment: 0,0:02:28.62,0:02:29.72,Sample KM [Up],,0,0,0,karaoke,{\k20}Un{\k11}ho{\k14}ly {\k20}trans{\k15}for{\k12}ma{\k18}tion,
+Comment: 0,0:02:29.72,0:02:31.23,Sample KM [Up],,0,0,0,karaoke,{\k14}The {\k17}per{\k15}fec{\k18}tion {\k16}of {\k16}a {\k55}fraud
+Comment: 0,0:02:31.23,0:02:33.75,Sample KM [Up],,0,0,0,karaoke,{\k65}Li{\kf187}ar
+Comment: 0,0:02:33.75,0:02:34.70,Sample KM [Up],,0,0,0,karaoke,{\k14}Si{\k16}mu{\k19}la{\k17}ted {\k13}si{\k16}nner,
+Comment: 0,0:02:34.70,0:02:36.18,Sample KM [Up],,0,0,0,karaoke,{\k18}Flay {\k12}the {\k19}skin {\k13}u{\k18}pon {\k16}the {\k52}flawed
+Comment: 0,0:02:36.18,0:02:40.11,Sample KM [Up],,0,0,0,karaoke,{\k67}Li{\kf326}ar
+Comment: 0,0:02:40.34,0:02:41.91,Sample KM [Up],,0,0,0,karaoke,{\k29}And {\k33}I {\k16}don't {\k48}ma{\k31}tter
+Comment: 0,0:02:42.19,0:02:44.42,Sample KM [Up],,0,0,0,karaoke,{\k21}The {\k43}end, {\k32}it {\k31}does{\k20}n't {\k43}ma{\k33}tter
+Comment: 0,0:02:44.72,0:02:46.94,Sample KM [Up],,0,0,0,karaoke,{\k34}Oh {\k34}oh, {\k30}it {\k27}does{\k18}n't {\k44}ma{\k35}tter
+Comment: 0,0:02:47.22,0:02:49.45,Sample KM [Up],,0,0,0,karaoke,{\k20}The {\k41}hand, {\k32}it {\k32}does{\k17}n't {\k45}ma{\k43}tter
+Comment: 0,0:02:49.69,0:02:51.91,Sample KM [Up],,0,0,0,karaoke,{\k35}Oh {\k31}oh, {\k31}it {\k28}does{\k19}n't {\k45}ma{\k33}tter
+Comment: 0,0:02:52.21,0:02:54.41,Sample KM [Up],,0,0,0,karaoke,{\k16}The {\k47}man, {\k30}it {\k30}does{\k18}n't {\k47}ma{\k32}tter
+Comment: 0,0:02:54.69,0:02:57.06,Sample KM [Up],,0,0,0,karaoke,{\k37}Oh {\k33}oh, {\k29}I {\k28}want {\k23}to {\k87}know
+Comment: 0,0:02:57.21,0:03:00.50,Sample KM [Up],,0,0,0,karaoke,{\k16}I {\k43}want {\k43}to {\k24}un{\k17}der{\kf186}stand
+Comment: 0,0:03:00.50,0:03:01.93,Sample KM [Up],,0,0,0,karaoke,{\k15}And {\k32}I {\k15}don't {\k47}ma{\k34}tter
+Comment: 0,0:03:02.22,0:03:04.41,Sample KM [Up],,0,0,0,karaoke,{\k20}The {\k43}tool, {\k34}it {\k28}does{\k17}n't {\k45}ma{\k32}tter
+Comment: 0,0:03:04.72,0:03:06.87,Sample KM [Up],,0,0,0,karaoke,{\k32}Oh {\k30}oh, {\k31}it {\k33}does{\k18}n't {\k44}ma{\k27}tter
+Comment: 0,0:03:07.20,0:03:09.39,Sample KM [Up],,0,0,0,karaoke,{\k15}The {\k47}rule, {\k34}it {\k29}does{\k18}n't {\k46}ma{\k30}tter
+Comment: 0,0:03:09.70,0:03:11.91,Sample KM [Up],,0,0,0,karaoke,{\k33}Oh {\k31}oh, {\k30}it {\k30}does{\k21}n't {\k44}ma{\k32}tter
+Comment: 0,0:03:12.21,0:03:14.44,Sample KM [Up],,0,0,0,karaoke,{\k19}The {\k45}fool, {\k30}it {\k32}does{\k18}n't {\k45}ma{\k34}tter
+Comment: 0,0:03:14.72,0:03:17.09,Sample KM [Up],,0,0,0,karaoke,{\k31}Oh {\k30}oh, {\k33}I {\k29}want {\k20}to {\k94}know
+Comment: 0,0:03:17.18,0:03:21.09,Sample KM [Up],,0,0,0,karaoke,{\k20}I {\k43}want {\k35}to {\k29}un{\k20}der{\kf244}stand
+Dialogue: 0,0:00:00.00,0:00:02.07,Sample KM [Up],,0,0,0,fx,{\k35\fad(350,200)}{\k30}And {\k31}I {\k17}don't {\k44}ma{\k30}tter
+Dialogue: 0,0:00:01.31,0:00:04.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}The {\k41}end, {\k30}it {\k32}does{\k16}n't {\k46}ma{\k37}tter
+Dialogue: 0,0:00:03.81,0:00:07.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Oh {\k31}oh, {\k31}it {\k33}does{\k15}n't {\k45}ma{\k27}tter
+Dialogue: 0,0:00:06.32,0:00:09.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}The {\k46}hand, {\k31}it {\k33}does{\k15}n't {\k46}ma{\k30}tter
+Dialogue: 0,0:00:08.79,0:00:12.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Oh {\k34}oh, {\k30}it {\k35}does{\k15}n't {\k43}ma{\k30}tter
+Dialogue: 0,0:00:11.32,0:00:14.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}The {\k47}man, {\k31}it {\k32}does{\k16}n't {\k43}ma{\k29}tter
+Dialogue: 0,0:00:13.80,0:00:17.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Oh {\k29}oh, {\k31}I {\k29}want {\k18}to {\k83}know
+Dialogue: 0,0:00:16.29,0:00:21.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k38}want {\k39}to {\k33}un{\k18}der{\kf216}stand
+Dialogue: 0,0:00:20.54,0:00:22.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}I'm {\k9}back {\k19}to {\k13}no{\k18}thing {\k16}a{\k32}gain
+Dialogue: 0,0:00:21.79,0:00:24.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}No {\k15}per{\k14}fect {\k16}pur{\k16}pose {\k21}or {\k28}plan
+Dialogue: 0,0:00:23.05,0:00:26.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}They {\k19}clean {\k14}the {\k15}slate {\k14}and {\k18}I'm {\k31}lost {\k14}in {\k18}a {\k50}fog
+Dialogue: 0,0:00:25.52,0:00:27.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}A {\k18}brain {\k14}that's {\k14}hun{\k15}gry {\k17}and {\k32}free
+Dialogue: 0,0:00:26.79,0:00:29.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}What {\k13}are {\k19}they {\k16}tea{\k32}ching {\k28}me?
+Dialogue: 0,0:00:28.00,0:00:31.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}He {\k19}twists {\k13}the {\k18}gears {\k15}and {\k16}I {\k34}feel {\k12}e{\k16}very {\k67}cog
+Dialogue: 0,0:00:30.53,0:00:32.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ob{\k19}serve {\k15}and {\k14}co{\k15}py {\k17}the {\k31}task
+Dialogue: 0,0:00:31.78,0:00:34.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}O{\k14}bey {\k18}what{\k17}e{\k16}ver {\k16}he {\k31}asks
+Dialogue: 0,0:00:33.11,0:00:35.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k8}Fill {\k19}up {\k10}my {\k17}mind {\k17}with {\k14}their {\k31}hope
+Dialogue: 0,0:00:34.28,0:00:36.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}And {\k15}their {\k77}pain
+Dialogue: 0,0:00:35.51,0:00:37.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}But {\k19}he {\k10}won't {\k21}try {\k22}to {\k11}ex{\k26}plain
+Dialogue: 0,0:00:36.91,0:00:40.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}It's {\k14}on{\k19}ly {\k12}em{\k25}pty {\k50}cha{\k89}tter
+Dialogue: 0,0:00:39.44,0:00:42.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}And {\k32}I {\k16}don't {\k40}ma{\k51}tter
+Dialogue: 0,0:00:41.32,0:00:44.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}The {\k43}end, {\k30}it {\k31}does{\k18}n't {\k43}ma{\k43}tter
+Dialogue: 0,0:00:43.80,0:00:47.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Oh {\k34}oh, {\k31}it {\k28}does{\k19}n't {\k43}ma{\k39}tter
+Dialogue: 0,0:00:46.37,0:00:49.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}The {\k43}hand, {\k31}it {\k31}does{\k20}n't {\k34}ma{\k42}tter
+Dialogue: 0,0:00:48.78,0:00:52.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Oh {\k30}oh, {\k29}it {\k31}does{\k17}n't {\k47}ma{\k34}tter
+Dialogue: 0,0:00:51.32,0:00:54.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}The {\k39}man, {\k32}it {\k30}does{\k18}n't {\k45}ma{\k36}tter
+Dialogue: 0,0:00:53.82,0:00:57.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Oh {\k28}oh, {\k35}I {\k30}want {\k22}to {\k84}know
+Dialogue: 0,0:00:56.30,0:01:01.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k42}want {\k33}to {\k31}un{\k18}der{\kf253}stand
+Dialogue: 0,0:01:00.55,0:01:02.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Pick {\k14}up {\k17}the {\k13}pie{\k22}ces {\k15}of {\k25}you
+Dialogue: 0,0:01:01.75,0:01:04.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Don't {\k17}give {\k18}a {\k16}damn {\k9}if {\k16}it's {\k30}true
+Dialogue: 0,0:01:02.96,0:01:06.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Con{\k15}sume {\k15}the {\k15}da{\k16}ta {\k18}and {\k32}bow {\k10}at {\k13}your {\k79}feet
+Dialogue: 0,0:01:05.51,0:01:09.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}An {\k13}i{\k17}mi{\k10}ta{\k22}tion {\k18}of {\k27}life, {\k15}be{\k13}come {\k20}a {\k17}son {\k28}or {\k30}wife
+Dialogue: 0,0:01:08.04,0:01:11.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}An {\k22}emp{\k12}ty {\k13}ve{\k16}ssel, {\k22}ful{\k30}fill {\k11}e{\k16}very {\k64}need
+Dialogue: 0,0:01:10.54,0:01:12.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}I'm {\k12}wa{\k20}tching {\k17}when {\k16}you {\k16}are {\k32}cruel
+Dialogue: 0,0:01:11.81,0:01:14.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Cre{\k14}ate {\k15}in{\k14}vi{\k18}si{\k21}ble {\k30}rules
+Dialogue: 0,0:01:13.11,0:01:16.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Be{\k15}come {\k15}a {\k19}twis{\k12}ted {\k15}re{\k24}flec{\k21}tion {\k18}of {\k76}you
+Dialogue: 0,0:01:15.55,0:01:17.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}A {\k19}mi{\k15}rror {\k13}of {\k19}your {\k12}a{\k30}buse
+Dialogue: 0,0:01:16.77,0:01:20.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Un{\k12}til {\k14}I {\k26}break {\k31}and {\k44}sha{\k94}tter
+Dialogue: 0,0:01:19.40,0:01:22.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}And {\k33}I {\k15}don't {\k48}ma{\k33}tter
+Dialogue: 0,0:01:21.30,0:01:24.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}The {\k42}end, {\k31}it {\k32}does{\k18}n't {\k43}ma{\k32}tter
+Dialogue: 0,0:01:23.80,0:01:27.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Oh {\k34}oh, {\k30}it {\k30}does{\k20}n't {\k39}ma{\k37}tter
+Dialogue: 0,0:01:26.31,0:01:29.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}The {\k46}hand, {\k32}it {\k32}does{\k17}n't {\k36}ma{\k43}tter
+Dialogue: 0,0:01:28.73,0:01:32.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Oh {\k31}oh, {\k34}it {\k29}does{\k23}n't {\k36}ma{\k37}tter
+Dialogue: 0,0:01:31.32,0:01:34.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}The {\k47}man, {\k31}it {\k28}does{\k22}n't {\k42}ma{\k49}tter
+Dialogue: 0,0:01:33.82,0:01:37.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Oh {\k29}oh, {\k35}I {\k31}want {\k19}to {\k85}know
+Dialogue: 0,0:01:36.30,0:01:41.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k42}want {\k36}to {\k31}un{\k17}der{\kf256}stand
+Dialogue: 0,0:02:00.72,0:02:02.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k5}Who {\k9}are {\k14}you {\k12}mi{\k13}mi{\k24}cking?
+Dialogue: 0,0:02:01.49,0:02:03.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}The {\k16}sha{\k21}dows {\k11}on {\k22}the {\k26}wall?
+Dialogue: 0,0:02:02.55,0:02:04.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Dis{\k17}a{\k32}ppear {\k10}in{\k12}to {\k20}some{\k22}one
+Dialogue: 0,0:02:03.85,0:02:06.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}A {\k10}re{\k19}flec{\k19}tion {\k17}of {\k13}the {\k33}fall
+Dialogue: 0,0:02:05.09,0:02:07.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}You're {\k13}a {\k35}tool, {\k16}you {\k16}are {\k14}no{\k16}thing
+Dialogue: 0,0:02:06.33,0:02:08.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}You {\k10}re{\k16}gur{\k17}gi{\k12}ta{\k11}te {\k12}it {\k29}all
+Dialogue: 0,0:02:07.54,0:02:09.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}You're {\k15}a {\k30}thief, {\k19}you're {\k16}a {\k15}li{\k16}ar
+Dialogue: 0,0:02:08.84,0:02:11.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}You're {\k12}an {\k9}e{\k16}cho {\k23}down {\k14}the {\k48}hall
+Dialogue: 0,0:02:10.70,0:02:12.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}You're {\k13}the {\k20}an{\k15}swer
+Dialogue: 0,0:02:11.32,0:02:14.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}To {\k12}a {\k21}ques{\k14}tion {\k14}no {\k20}one's {\k29}as{\k33}king
+Dialogue: 0,0:02:12.90,0:02:15.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}A {\k20}tool {\k17}of {\k17}minds {\k14}that {\k14}don't {\k17}con{\k14}si{\k15}der
+Dialogue: 0,0:02:14.43,0:02:16.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}What {\k18}they're {\k29}ta{\k36}sking
+Dialogue: 0,0:02:15.58,0:02:17.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Wear{\k15}ing {\k18}a {\k16}face {\k15}wi{\k15}thout {\k14}a {\k24}sense
+Dialogue: 0,0:02:16.87,0:02:19.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}Of {\k12}what {\k16}you're {\k31}ma{\k46}sking
+Dialogue: 0,0:02:18.02,0:02:21.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}You {\k15}birth {\k15}an {\k15}e{\k12}vil {\k18}that {\k18}will {\k15}lin{\k17}ger {\k8}e{\k19}ver{\k35}la{\k25}sting
+Dialogue: 0,0:02:20.34,0:02:23.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k67}Li{\kf179}ar
+Dialogue: 0,0:02:22.80,0:02:26.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Lost {\k10}a{\k18}bo{\k17}mi{\k13}na{\k16}tion, {\k16}an{\k18}gel, {\k22}de{\k16}vil, {\k12}and {\k14}a {\k58}god
+Dialogue: 0,0:02:25.33,0:02:28.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k63}Li{\kf176}ar
+Dialogue: 0,0:02:27.72,0:02:29.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Un{\k11}ho{\k14}ly {\k20}trans{\k15}for{\k12}ma{\k18}tion,
+Dialogue: 0,0:02:28.82,0:02:31.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}The {\k17}per{\k15}fec{\k18}tion {\k16}of {\k16}a {\k55}fraud
+Dialogue: 0,0:02:30.33,0:02:33.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k65}Li{\kf187}ar
+Dialogue: 0,0:02:32.85,0:02:34.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Si{\k16}mu{\k19}la{\k17}ted {\k13}si{\k16}nner,
+Dialogue: 0,0:02:33.80,0:02:36.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Flay {\k12}the {\k19}skin {\k13}u{\k18}pon {\k16}the {\k52}flawed
+Dialogue: 0,0:02:35.28,0:02:40.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k67}Li{\kf326}ar
+Dialogue: 0,0:02:39.44,0:02:42.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}And {\k33}I {\k16}don't {\k48}ma{\k31}tter
+Dialogue: 0,0:02:41.29,0:02:44.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}The {\k43}end, {\k32}it {\k31}does{\k20}n't {\k43}ma{\k33}tter
+Dialogue: 0,0:02:43.82,0:02:47.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Oh {\k34}oh, {\k30}it {\k27}does{\k18}n't {\k44}ma{\k35}tter
+Dialogue: 0,0:02:46.32,0:02:49.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}The {\k41}hand, {\k32}it {\k32}does{\k17}n't {\k45}ma{\k43}tter
+Dialogue: 0,0:02:48.79,0:02:52.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Oh {\k31}oh, {\k31}it {\k28}does{\k19}n't {\k45}ma{\k33}tter
+Dialogue: 0,0:02:51.31,0:02:54.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}The {\k47}man, {\k30}it {\k30}does{\k18}n't {\k47}ma{\k32}tter
+Dialogue: 0,0:02:53.79,0:02:57.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Oh {\k33}oh, {\k29}I {\k28}want {\k23}to {\k87}know
+Dialogue: 0,0:02:56.31,0:03:00.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}I {\k43}want {\k43}to {\k24}un{\k17}der{\kf186}stand
+Dialogue: 0,0:02:59.60,0:03:02.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}And {\k32}I {\k15}don't {\k47}ma{\k34}tter
+Dialogue: 0,0:03:01.32,0:03:04.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}The {\k43}tool, {\k34}it {\k28}does{\k17}n't {\k45}ma{\k32}tter
+Dialogue: 0,0:03:03.82,0:03:07.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Oh {\k30}oh, {\k31}it {\k33}does{\k18}n't {\k44}ma{\k27}tter
+Dialogue: 0,0:03:06.30,0:03:09.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}The {\k47}rule, {\k34}it {\k29}does{\k18}n't {\k46}ma{\k30}tter
+Dialogue: 0,0:03:08.80,0:03:12.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Oh {\k31}oh, {\k30}it {\k30}does{\k21}n't {\k44}ma{\k32}tter
+Dialogue: 0,0:03:11.31,0:03:14.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}The {\k45}fool, {\k30}it {\k32}does{\k18}n't {\k45}ma{\k34}tter
+Dialogue: 0,0:03:13.82,0:03:17.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Oh {\k30}oh, {\k33}I {\k29}want {\k20}to {\k94}know
+Dialogue: 0,0:03:16.28,0:03:21.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}I {\k43}want {\k35}to {\k29}un{\k20}der{\kf244}stand
