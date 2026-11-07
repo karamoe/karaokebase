@@ -1,0 +1,48 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Fate (2EM16)
+Original Timing: HayatoKurokami
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:33.49,0:00:35.52,Sample KM [Up],,0,0,0,karaoke,{\k37}What {\k14}will {\k21}the {\k30}fu{\k36}ture {\kf65}hold?
+Comment: 0,0:00:36.24,0:00:38.26,Sample KM [Up],,0,0,0,karaoke,{\k34}How {\k15}will {\k20}I {\k34}be {\k33}re{\k35}war{\k31}ded?
+Comment: 0,0:00:38.97,0:00:40.99,Sample KM [Up],,0,0,0,karaoke,{\k33}Have {\k17}I {\k17}the {\k32}right {\k36}to {\k33}ri{\k34}ches
+Comment: 0,0:00:41.30,0:00:43.73,Sample KM [Up],,0,0,0,karaoke,{\k21}In {\k18}a {\k34}world {\k17}where {\k18}there {\k32}are {\k36}no {\k33}pri{\k34}zes?
+Comment: 0,0:00:44.41,0:00:46.37,Sample KM [Up],,0,0,0,karaoke,{\k35}What {\k16}will {\k19}the {\k31}fu{\k35}ture {\kf60}hold?
+Comment: 0,0:00:47.15,0:00:49.10,Sample KM [Up],,0,0,0,karaoke,{\k34}How {\k14}will {\k21}I {\k33}be {\k33}re{\k36}war{\k24}ded?
+Comment: 0,0:00:49.87,0:00:51.89,Sample KM [Up],,0,0,0,karaoke,{\k34}Have {\k18}I {\k16}the {\k32}right {\k35}to {\k32}ri{\k35}ches
+Comment: 0,0:00:52.22,0:00:54.64,Sample KM [Up],,0,0,0,karaoke,{\k22}In {\k19}a {\k31}world {\k16}where {\k19}there {\k33}are {\k34}no {\k36}pri{\k32}zes?
+Comment: 0,0:00:55.32,0:00:57.34,Sample KM [Up],,0,0,0,karaoke,{\k34}Who {\k18}makes {\k17}the {\k32}clock {\k37}tick {\kf64}by
+Comment: 0,0:00:58.04,0:00:59.98,Sample KM [Up],,0,0,0,karaoke,{\k35}When {\k14}will {\k19}my {\k36}fate {\k34}be {\k34}rea{\k22}dy?
+Comment: 0,0:01:00.78,0:01:02.74,Sample KM [Up],,0,0,0,karaoke,{\k33}Do {\k11}I {\k27}get {\k31}pri{\k34}or {\k32}war{\k28}ning?
+Comment: 0,0:01:03.19,0:01:05.65,Sample KM [Up],,0,0,0,karaoke,{\k14}Am {\k16}I {\k37}told? {\k14}Are {\k18}there {\k35}no {\k35}sur{\k33}pri{\k44}ses?
+Comment: 0,0:01:16.84,0:01:19.14,Sample KM [Up],,0,0,0,karaoke,{\k32}I {\k33}have {\k34}to {\k35}count {\k31}my {\k29}bles{\k36}sings
+Comment: 0,0:01:19.54,0:01:21.87,Sample KM [Up],,0,0,0,karaoke,{\k32}I {\k38}have {\k29}to {\k41}learn {\k29}my {\k29}les{\k35}sons
+Comment: 0,0:01:22.29,0:01:24.62,Sample KM [Up],,0,0,0,karaoke,{\k28}My {\k35}fate {\k35}is {\k31}in {\k36}the {\k35}ba{\k33}lance
+Comment: 0,0:01:24.97,0:01:27.32,Sample KM [Up],,0,0,0,karaoke,{\k37}I {\k33}must {\k30}go {\k36}on {\k32}be{\k38}lie{\k29}ving
+Dialogue: 0,0:00:32.59,0:00:35.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}What {\k14}will {\k21}the {\k30}fu{\k36}ture {\kf65}hold?
+Dialogue: 0,0:00:35.34,0:00:38.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}How {\k15}will {\k20}I {\k34}be {\k33}re{\k35}war{\k31}ded?
+Dialogue: 0,0:00:38.07,0:00:41.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Have {\k17}I {\k17}the {\k32}right {\k36}to {\k33}ri{\k34}ches
+Dialogue: 0,0:00:40.40,0:00:43.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}In {\k18}a {\k34}world {\k17}where {\k18}there {\k32}are {\k36}no {\k33}pri{\k34}zes?
+Dialogue: 0,0:00:43.51,0:00:46.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}What {\k16}will {\k19}the {\k31}fu{\k35}ture {\kf60}hold?
+Dialogue: 0,0:00:46.25,0:00:49.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}How {\k14}will {\k21}I {\k33}be {\k33}re{\k36}war{\k24}ded?
+Dialogue: 0,0:00:48.97,0:00:52.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Have {\k18}I {\k16}the {\k32}right {\k35}to {\k32}ri{\k35}ches
+Dialogue: 0,0:00:51.32,0:00:54.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}In {\k19}a {\k31}world {\k16}where {\k19}there {\k33}are {\k34}no {\k36}pri{\k32}zes?
+Dialogue: 0,0:00:54.42,0:00:57.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Who {\k18}makes {\k17}the {\k32}clock {\k37}tick {\kf64}by
+Dialogue: 0,0:00:57.14,0:01:00.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}When {\k14}will {\k19}my {\k36}fate {\k34}be {\k34}rea{\k22}dy?
+Dialogue: 0,0:00:59.88,0:01:02.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Do {\k11}I {\k27}get {\k31}pri{\k34}or {\k32}war{\k28}ning?
+Dialogue: 0,0:01:02.29,0:01:05.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Am {\k16}I {\k37}told? {\k14}Are {\k18}there {\k35}no {\k35}sur{\k33}pri{\k44}ses?
+Dialogue: 0,0:01:15.94,0:01:19.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}I {\k33}have {\k34}to {\k35}count {\k31}my {\k29}bles{\k36}sings
+Dialogue: 0,0:01:18.64,0:01:22.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}I {\k38}have {\k29}to {\k41}learn {\k29}my {\k29}les{\k35}sons
+Dialogue: 0,0:01:21.39,0:01:24.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}My {\k35}fate {\k35}is {\k31}in {\k36}the {\k35}ba{\k33}lance
+Dialogue: 0,0:01:24.07,0:01:27.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}I {\k33}must {\k30}go {\k36}on {\k32}be{\k38}lie{\k29}ving
