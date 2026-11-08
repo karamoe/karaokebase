@@ -1,0 +1,127 @@
+﻿[Script Info]
+Title: Kami no Na wo
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: ShinRan
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Doloris,Arial,24,&H00FFFFFF,&H005599BB,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Choir Ave Mujica,Arial,24,&H00FFFFFF,&H007516E0,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,2,2,80,1
+Style: Doloris final,Arial,40,&H00FFFFFF,&H0043E1D4,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:01.19,Doloris,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,Doloris,,0,0,0,karaoke,
+Comment: 0,0:00:27.57,0:00:29.57,Doloris,,0,0,0,karaoke,{\k57}GOD{\k65}'S {\k78}BLOOD
+Comment: 0,0:00:29.81,0:00:32.97,Doloris,,0,0,0,karaoke,{\k17}sou {\k17}a{\k26}ra{\k18}ta {\k50}na {\k10}ma{\k17}ku{\k33}a{\k24}ke {\k46}wa {\k19}i{\k39}ma
+Comment: 0,0:00:33.58,0:00:34.33,Doloris,,0,0,0,karaoke,{\k18}wa{\k57}ga
+Comment: 0,0:00:34.68,0:00:37.35,Doloris,,0,0,0,karaoke,{\k11}to{\k20}ki {\k9}wo {\k12}ka{\k30}tta{\k26}re{\k11}yo {\k11}t'{\k18}ta{\k12}e {\k20}hi{\k17}re{\k10}fu{\k33}se {\k27}yo
+Comment: 0,0:00:38.98,0:00:39.60,Doloris,,0,0,0,karaoke,{\k62}REIGN
+Comment: 0,0:00:41.37,0:00:41.96,Doloris,,0,0,0,karaoke,{\k59}REIGN
+Comment: 0,0:00:43.17,0:00:44.38,Doloris,,0,0,0,karaoke,{\k20}WHAT{\k21}EVER {\k16}IT {\k32}TA{\k32}KES
+Comment: 0,0:00:44.81,0:00:47.21,Doloris,,0,0,0,karaoke,{\k49}so{\k31}ra {\k17}wo {\k33}su{\k33}be{\k31}te {\k46}to
+Comment: 0,0:00:47.37,0:00:49.60,Doloris,,0,0,0,karaoke,{\k33}mu{\k26}ku {\k32}na {\k36}kyo{\k25}u{\k31}ki {\k40}wo
+Comment: 0,0:00:49.78,0:00:52.80,Doloris,,0,0,0,karaoke,{\k33}ka{\k32}na{\k24}de {\k23}mi{\k39}se{\k27}ra{\k62}re{\k62}te
+Comment: 0,0:00:54.48,0:00:57.79,Doloris,,0,0,0,karaoke,{\k12}fu{\k24}ri{\k31}ka{\k18}za{\k15}su {\k29}ko{\k18}no {\k44}SC{\k32}Y{\k27}THE {\k81}no
+Comment: 0,0:00:58.19,0:01:02.41,Doloris,,0,0,0,karaoke,{\k56}e{\k92}ga{\k90}ku {\k62}yu{\k63}me {\k59}ni
+Comment: 0,0:01:04.78,0:01:05.99,Doloris,,0,0,0,karaoke,{\k59}AND {\k62}THE
+Comment: 0,0:01:05.99,0:01:10.31,Doloris,,0,0,0,karaoke,{\kf204}GOD{\kf12}'S {\kf216}BLOOD
+Comment: 0,0:01:10.48,0:01:15.27,Doloris,,0,0,0,karaoke,{\k10}i{\k26}za {\k13}o{\k16}o{\k13}i {\k43}na{\k16}ru {\k55}DES{\k12}TI{\k29}NY {\k12}i{\k8}ma {\k7}fu{\k41}ta{\k18}tsu {\k34}me {\k8}no {\k14}hi{\k52}ka{\k13}ri {\k39}ni
+Comment: 0,0:01:15.27,0:01:17.27,Doloris,,0,0,0,karaoke,{\k35}ko{\k82}no {\k34}te {\k49}yo
+Comment: 0,0:01:17.66,0:01:19.68,Doloris,,0,0,0,karaoke,{\k35}to{\k86}do{\k32}ke {\k49}yo
+Comment: 0,0:01:20.06,0:01:22.35,Doloris,,0,0,0,karaoke,{\k22}su{\k14}be{\k14}ka{\k14}ra{\k14}ku {\k46}u{\k15}bau {\k29}no {\k16}da {\k45}to
+Comment: 0,0:01:22.54,0:01:23.63,Doloris,,0,0,0,karaoke,{\k17}ka{\k11}mi {\k16}no {\k14}na {\k51}wo
+Comment: 0,0:01:23.97,0:01:25.21,Doloris,,0,0,0,karaoke,{\k65}AND {\k59}THE
+Comment: 0,0:01:25.21,0:01:29.54,Doloris,,0,0,0,karaoke,{\kf198}GOD{\kf16}'S {\kf219}BLOOD
+Comment: 0,0:01:29.72,0:01:34.40,Doloris,,0,0,0,karaoke,{\k3}hi{\k19}so{\k37}ya{\k18}ka {\k27}ni {\k18}ko{\k13}ko{\k47}ro {\k20}fu{\k35}ru{\k10}ga{\k51}su {\k9}ho{\k49}shi {\k18}ki{\k47}ra{\k11}me{\k36}ki
+Comment: 0,0:01:34.40,0:01:40.19,Doloris,,0,0,0,karaoke,{\k40}so{\k58}no {\k58}i{\k63}ku {\k58}be{\k67}ki {\k55}a{\k50}ka{\k68}shi {\k62}ni
+Comment: 0,0:01:40.48,0:01:42.69,Doloris,,0,0,0,karaoke,{\k6}u{\k24}ba{\k9}u {\k11}no {\k10}da {\k63}to {\k7}u{\k15}ta{\k7}u {\k14}no {\k15}da {\k40}to
+Comment: 0,0:01:42.84,0:01:48.03,Doloris,,0,0,0,karaoke,{\k35}sou {\k33}ka{\k30}mi {\k26}no {\k28}na {\kf367}wo
+Comment: 0,0:01:55.14,0:01:56.10,Doloris,,0,0,0,karaoke,{\k50}WHO {\k46}AM {\k0}I
+Comment: 0,0:01:56.92,0:01:57.62,Doloris,,0,0,0,karaoke,{\k70}REIGN
+Comment: 0,0:01:58.75,0:01:59.54,Doloris,,0,0,0,karaoke,{\k50}WHO {\k29}AM {\k0}I
+Comment: 0,0:02:00.57,0:02:01.24,Doloris,,0,0,0,karaoke,{\k67}REIGN
+Comment: 0,0:02:01.81,0:02:05.09,Doloris,,0,0,0,karaoke,{\k37}i{\k23}i {\k61}ya {\k57}ma{\k32}tsu {\k32}no {\kf86}da
+Comment: 0,0:02:05.50,0:02:09.47,Doloris,,0,0,0,karaoke,{\k15}i{\k95}ya {\k56}o{\k71}ro{\k54}ka {\kf106}da
+Comment: 0,0:02:11.40,0:02:15.60,Doloris,,0,0,0,karaoke,{\k57}aa {\k33}do{\k28}u{\k16}ka {\k15}shi{\k13}te {\k18}shi{\k119}ma{\k89}t{\k32}ta
+Comment: 0,0:02:15.60,0:02:25.30,Doloris,,0,0,0,karaoke,{\k92}no {\k30}da{\k82}ro{\k34}u {\k91}ka {\k27}wa{\k50}ta{\k73}shi {\kf491}wa
+Comment: 0,0:02:20.80,0:02:29.14,Choir Ave Mujica,,0,0,0,karaoke,{\k79}u{\k61}ta{\k67}ga{\kf111}i {\k59}wo {\k60}mo{\kf227}tsu {\k18}to{\kf92}ki {\kf130}
+Comment: 0,0:02:28.52,0:02:31.31,Doloris,,0,0,0,karaoke,{\k12}na{\k75}se{\k57}ru {\kf135}to
+Comment: 0,0:02:29.96,0:02:39.59,Choir Ave Mujica,,0,0,0,karaoke,{\k40}o{\k81}so{\k47}re {\k74}o{\kf119}no{\kf118}no{\kf213}ku {\k30}to{\kf241}ki
+Comment: 0,0:02:37.88,0:02:40.44,Doloris,,0,0,0,karaoke,{\kf110}sou {\k56}to {\k90}mo
+Comment: 0,0:02:40.76,0:02:48.67,Doloris,,0,0,0,karaoke,{\k121}WHO {\k124}AM {\k116}I {\k120}KNOW {\k124}WHO {\k117}I {\k69}AM
+Comment: 0,0:02:49.15,0:02:57.30,Doloris,,0,0,0,karaoke,{\k61}ko{\k58}no {\k45}ta{\k24}ma{\k46}shi{\kf99}i {\k13}wo {\k20}da{\kf85}i{\k18}te {\k13}yo{\kf87}ri {\k20}tsu{\k14}yo{\k59}ku {\k51}na{\k70}re{\k32}ru
+Comment: 0,0:02:57.58,0:03:01.21,Doloris,,0,0,0,karaoke,{\k41}no {\k38}da{\k38}ka{\kf246}ra
+Comment: 0,0:03:03.57,0:03:05.88,Doloris,,0,0,0,karaoke,{\k122}AND{\k109} THE
+Comment: 0,0:03:05.99,0:03:10.21,Doloris,,0,0,0,karaoke,{\kf202}GOD{\kf16}'S {\kf204}BLOOD
+Comment: 0,0:03:10.52,0:03:15.25,Doloris,,0,0,0,karaoke,{\k10}i{\k26}za {\k13}o{\k16}o{\k13}i {\k43}na{\k13}ru {\k52}DES{\k14}TI{\k22}NY {\k17}i{\k7}ma {\k7}fu{\k48}ta{\k18}tsu {\k34}me {\k8}no {\k14}hi{\k49}ka{\k14}ri {\k35}ni
+Comment: 0,0:03:15.25,0:03:17.25,Doloris,,0,0,0,karaoke,{\k37}ko{\k80}no {\k34}te {\k49}yo
+Comment: 0,0:03:17.67,0:03:19.84,Doloris,,0,0,0,karaoke,{\k35}to{\k86}do{\k32}ke {\k47}yo
+Comment: 0,0:03:20.04,0:03:22.28,Doloris,,0,0,0,karaoke,{\k22}su{\k14}be{\k14}ka{\k14}ra{\k14}ku {\k46}u{\k25}bau {\k19}no {\k16}da {\k40}to
+Comment: 0,0:03:22.52,0:03:23.71,Doloris,,0,0,0,karaoke,{\k12}ka{\k16}mi {\k16}no {\k14}na {\k61}wo
+Comment: 0,0:03:23.99,0:03:25.16,Doloris,,0,0,0,karaoke,{\k48}AND {\k69}THE
+Comment: 0,0:03:25.26,0:03:29.38,Doloris,,0,0,0,karaoke,{\kf192}GOD{\kf20}'S {\kf200}BLOOD
+Comment: 0,0:03:29.68,0:03:34.35,Doloris,,0,0,0,karaoke,{\k3}hi{\k25}so{\k31}ya{\k18}ka {\k27}ni {\k18}ko{\k13}ko{\k47}ro {\k18}yu{\k46}ru{\k7}ga{\k45}su {\k14}ho{\k48}shi {\k16}ki{\k45}ra{\k16}me{\k30}ki
+Comment: 0,0:03:34.37,0:03:43.65,Doloris,,0,0,0,karaoke,{\k42}so{\k61}no {\k53}i{\k63}ku {\k58}be{\k67}ki {\k55}a{\k50}ka{\k68}shi {\kf411}ni
+Comment: 0,0:03:44.03,0:03:48.13,Doloris,,0,0,0,karaoke,{\k6}u{\k24}ba{\k9}u {\k15}no {\k15}da {\kf162}to {\k12}u{\k27}ta{\k5}u {\k16}no {\k14}da {\kf105}to
+Comment: 0,0:03:48.77,0:03:51.70,Doloris,,0,0,0,karaoke,{\kf293}sou
+Comment: 0,0:03:53.93,0:04:03.71,Doloris final,,0,0,0,karaoke,{\kf128}ka{\kf122}mi {\kf121}no {\kf115}na {\kf492}wo
+Dialogue: 0,0:00:00.00,0:00:00.20,Doloris,,0,0,0,fx,{\k0\fad(0,200)}
+Dialogue: 0,0:00:26.67,0:00:29.77,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k57}GOD{\k65}'S {\k78}BLOOD
+Dialogue: 0,0:00:28.91,0:00:33.17,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k17}sou {\k17}a{\k26}ra{\k18}ta {\k50}na {\k10}ma{\k17}ku{\k33}a{\k24}ke {\k46}wa {\k19}i{\k39}ma
+Dialogue: 0,0:00:32.68,0:00:34.53,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k18}wa{\k57}ga
+Dialogue: 0,0:00:33.78,0:00:37.55,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k11}to{\k20}ki {\k9}wo {\k12}ka{\k30}tta{\k26}re{\k11}yo {\k11}t'{\k18}ta{\k12}e {\k20}hi{\k17}re{\k10}fu{\k33}se {\k27}yo
+Dialogue: 0,0:00:38.08,0:00:39.80,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k62}REIGN
+Dialogue: 0,0:00:40.47,0:00:42.16,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k59}REIGN
+Dialogue: 0,0:00:42.27,0:00:44.58,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k20}WHAT{\k21}EVER {\k16}IT {\k32}TA{\k32}KES
+Dialogue: 0,0:00:43.91,0:00:47.41,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k49}so{\k31}ra {\k17}wo {\k33}su{\k33}be{\k31}te {\k46}to
+Dialogue: 0,0:00:46.47,0:00:49.80,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k33}mu{\k26}ku {\k32}na {\k36}kyo{\k25}u{\k31}ki {\k40}wo
+Dialogue: 0,0:00:48.88,0:00:53.00,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ka{\k32}na{\k24}de {\k23}mi{\k39}se{\k27}ra{\k62}re{\k62}te
+Dialogue: 0,0:00:53.58,0:00:57.99,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k12}fu{\k24}ri{\k31}ka{\k18}za{\k15}su {\k29}ko{\k18}no {\k44}SC{\k32}Y{\k27}THE {\k81}no
+Dialogue: 0,0:00:57.29,0:01:02.61,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k56}e{\k92}ga{\k90}ku {\k62}yu{\k63}me {\k59}ni
+Dialogue: 0,0:01:03.88,0:01:06.19,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k59}AND {\k62}THE
+Dialogue: 0,0:01:05.09,0:01:10.51,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\kf204}GOD{\kf12}'S {\kf216}BLOOD
+Dialogue: 0,0:01:09.58,0:01:15.47,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k10}i{\k26}za {\k13}o{\k16}o{\k13}i {\k43}na{\k16}ru {\k55}DES{\k12}TI{\k29}NY {\k12}i{\k8}ma {\k7}fu{\k41}ta{\k18}tsu {\k34}me {\k8}no {\k14}hi{\k52}ka{\k13}ri {\k39}ni
+Dialogue: 0,0:01:14.37,0:01:17.47,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ko{\k82}no {\k34}te {\k49}yo
+Dialogue: 0,0:01:16.76,0:01:19.88,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k35}to{\k86}do{\k32}ke {\k49}yo
+Dialogue: 0,0:01:19.16,0:01:22.55,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k22}su{\k14}be{\k14}ka{\k14}ra{\k14}ku {\k46}u{\k15}bau {\k29}no {\k16}da {\k45}to
+Dialogue: 0,0:01:21.64,0:01:23.83,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ka{\k11}mi {\k16}no {\k14}na {\k51}wo
+Dialogue: 0,0:01:23.07,0:01:25.41,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k65}AND {\k59}THE
+Dialogue: 0,0:01:24.31,0:01:29.74,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\kf198}GOD{\kf16}'S {\kf219}BLOOD
+Dialogue: 0,0:01:28.82,0:01:34.60,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k3}hi{\k19}so{\k37}ya{\k18}ka {\k27}ni {\k18}ko{\k13}ko{\k47}ro {\k20}fu{\k35}ru{\k10}ga{\k51}su {\k9}ho{\k49}shi {\k18}ki{\k47}ra{\k11}me{\k36}ki
+Dialogue: 0,0:01:33.50,0:01:40.39,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k40}so{\k58}no {\k58}i{\k63}ku {\k58}be{\k67}ki {\k55}a{\k50}ka{\k68}shi {\k62}ni
+Dialogue: 0,0:01:39.58,0:01:42.89,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k6}u{\k24}ba{\k9}u {\k11}no {\k10}da {\k63}to {\k7}u{\k15}ta{\k7}u {\k14}no {\k15}da {\k40}to
+Dialogue: 0,0:01:41.94,0:01:48.23,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k35}sou {\k33}ka{\k30}mi {\k26}no {\k28}na {\kf367}wo
+Dialogue: 0,0:01:54.24,0:01:56.30,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k50}WHO {\k46}AM {\k0}I
+Dialogue: 0,0:01:56.02,0:01:57.82,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k70}REIGN
+Dialogue: 0,0:01:57.85,0:01:59.74,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k50}WHO {\k29}AM {\k0}I
+Dialogue: 0,0:01:59.67,0:02:01.44,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k67}REIGN
+Dialogue: 0,0:02:00.91,0:02:05.29,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k37}i{\k23}i {\k61}ya {\k57}ma{\k32}tsu {\k32}no {\kf86}da
+Dialogue: 0,0:02:04.60,0:02:09.67,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k15}i{\k95}ya {\k56}o{\k71}ro{\k54}ka {\kf106}da
+Dialogue: 0,0:02:10.50,0:02:15.80,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k57}aa {\k33}do{\k28}u{\k16}ka {\k15}shi{\k13}te {\k18}shi{\k119}ma{\k89}t{\k32}ta
+Dialogue: 0,0:02:14.70,0:02:25.50,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k92}no {\k30}da{\k82}ro{\k34}u {\k91}ka {\k27}wa{\k50}ta{\k73}shi {\kf491}wa
+Dialogue: 0,0:02:19.90,0:02:29.34,Choir Ave Mujica,,0,0,0,fx,{\k90\fad(300,200)}{\k79}u{\k61}ta{\k67}ga{\kf111}i {\k59}wo {\k60}mo{\kf227}tsu {\k18}to{\kf92}ki {\kf130}
+Dialogue: 0,0:02:27.62,0:02:31.51,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k12}na{\k75}se{\k57}ru {\kf135}to
+Dialogue: 0,0:02:29.06,0:02:39.79,Choir Ave Mujica,,0,0,0,fx,{\k90\fad(300,200)}{\k40}o{\k81}so{\k47}re {\k74}o{\kf119}no{\kf118}no{\kf213}ku {\k30}to{\kf241}ki
+Dialogue: 0,0:02:36.98,0:02:40.64,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\kf110}sou {\k56}to {\k90}mo
+Dialogue: 0,0:02:39.86,0:02:48.87,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k121}WHO {\k124}AM {\k116}I {\k120}KNOW {\k124}WHO {\k117}I {\k69}AM
+Dialogue: 0,0:02:48.25,0:02:57.50,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k61}ko{\k58}no {\k45}ta{\k24}ma{\k46}shi{\kf99}i {\k13}wo {\k20}da{\kf85}i{\k18}te {\k13}yo{\kf87}ri {\k20}tsu{\k14}yo{\k59}ku {\k51}na{\k70}re{\k32}ru
+Dialogue: 0,0:02:56.68,0:03:01.41,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k41}no {\k38}da{\k38}ka{\kf246}ra
+Dialogue: 0,0:03:02.67,0:03:06.08,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k122}AND{\k109} THE
+Dialogue: 0,0:03:05.09,0:03:10.41,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\kf202}GOD{\kf16}'S {\kf204}BLOOD
+Dialogue: 0,0:03:09.62,0:03:15.45,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k10}i{\k26}za {\k13}o{\k16}o{\k13}i {\k43}na{\k13}ru {\k52}DES{\k14}TI{\k22}NY {\k17}i{\k7}ma {\k7}fu{\k48}ta{\k18}tsu {\k34}me {\k8}no {\k14}hi{\k49}ka{\k14}ri {\k35}ni
+Dialogue: 0,0:03:14.35,0:03:17.45,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k37}ko{\k80}no {\k34}te {\k49}yo
+Dialogue: 0,0:03:16.77,0:03:20.04,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k35}to{\k86}do{\k32}ke {\k47}yo
+Dialogue: 0,0:03:19.14,0:03:22.48,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k22}su{\k14}be{\k14}ka{\k14}ra{\k14}ku {\k46}u{\k25}bau {\k19}no {\k16}da {\k40}to
+Dialogue: 0,0:03:21.62,0:03:23.91,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ka{\k16}mi {\k16}no {\k14}na {\k61}wo
+Dialogue: 0,0:03:23.09,0:03:25.36,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k48}AND {\k69}THE
+Dialogue: 0,0:03:24.36,0:03:29.58,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\kf192}GOD{\kf20}'S {\kf200}BLOOD
+Dialogue: 0,0:03:28.78,0:03:34.55,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k3}hi{\k25}so{\k31}ya{\k18}ka {\k27}ni {\k18}ko{\k13}ko{\k47}ro {\k18}yu{\k46}ru{\k7}ga{\k45}su {\k14}ho{\k48}shi {\k16}ki{\k45}ra{\k16}me{\k30}ki
+Dialogue: 0,0:03:33.47,0:03:43.85,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k42}so{\k61}no {\k53}i{\k63}ku {\k58}be{\k67}ki {\k55}a{\k50}ka{\k68}shi {\kf411}ni
+Dialogue: 0,0:03:43.13,0:03:48.33,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\k6}u{\k24}ba{\k9}u {\k15}no {\k15}da {\kf162}to {\k12}u{\k27}ta{\k5}u {\k16}no {\k14}da {\kf105}to
+Dialogue: 0,0:03:47.87,0:03:51.90,Doloris,,0,0,0,fx,{\k90\fad(300,200)}{\kf293}sou
+Dialogue: 0,0:03:53.03,0:04:03.91,Doloris final,,0,0,0,fx,{\k90\fad(300,200)}{\kf128}ka{\kf122}mi {\kf121}no {\kf115}na {\kf492}wo
