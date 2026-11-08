@@ -1,5 +1,4 @@
 ﻿[Script Info]
-; https://aegisub.org/
 Title: ALI - FLASHBAC SYNDROME
 ScriptType: v4.00+
 WrapStyle: 0
@@ -14,69 +13,84 @@ Original Timing: Kylian
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,Arial,24,&H006F72F0,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Italic,Arial,24,&H0018A8EB,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
 Comment: 0,0:00:03.82,0:00:04.69,Default,,0,0,0,karaoke,{\k41}Flash{\k46}back
 Comment: 0,0:00:05.98,0:00:06.84,Default,,0,0,0,karaoke,{\k38}Flash{\k48}back
-Comment: 0,0:00:09.65,0:00:10.93,Default,,0,0,0,karaoke,{\k17}This {\k23}is {\k30}super {\k25}so{\k18}nic
-Comment: 0,0:00:10.78,0:00:12.42,Default,,0,0,0,karaoke,{\k27}I’ll {\k24}take {\k18}you {\k29}wher{\k27}ever {\k20}you {\k19}want
-Comment: 0,0:00:12.42,0:00:14.19,Default,,0,0,0,karaoke,{\k12}I’ll {\k23}take {\k15}you {\k26}to {\k27}hea{\k22}ven {\k36}and {\k16}hell
-Comment: 0,0:00:14.19,0:00:15.95,Default,,0,0,0,karaoke,{\k53}And {\k21}’va{\k13}der {\k6}is {\k20}co{\k10}ming {\k3}to {\k50}you
-Comment: 0,0:00:21.04,0:00:22.47,Default,,0,0,0,karaoke,{\k21}You’re {\k18}such {\k18}a {\k28}i{\k25}co{\k33}nic
-Comment: 0,0:00:22.25,0:00:24.03,Default,,0,0,0,karaoke,{\k31}I’ll {\k31}take {\k13}you {\k32}wher{\k29}ever {\k17}you {\k25}want
-Comment: 0,0:00:23.90,0:00:26.26,Default,,0,0,0,karaoke,{\k17}I’ll {\k27}take {\k16}you {\k23}to {\k50}stage {\k21}and {\k52}spa{\k30}ce
-Comment: 0,0:00:26.26,0:00:27.56,Default,,0,0,0,karaoke,{\k20}Bas{\k18}tards {\k4}are {\k11}co{\k20}ming {\k14}to {\k43}you
-Comment: 0,0:00:32.64,0:00:33.60,Default,,0,0,0,karaoke,{\k51}Flash{\k45}back
+Comment: 0,0:00:05.98,0:00:06.84,Italic,,0,0,0,karaoke,{\k38}Flash {\k48}flash
+Comment: 0,0:00:09.65,0:00:10.93,Default,,0,0,0,karaoke,{\k17}This {\k23}is {\k30}super {\k25}son{\k33}ic
+Comment: 0,0:00:10.78,0:00:12.45,Default,,0,0,0,karaoke,{\k31}I’ll {\k20}take {\k18}you {\k28}wher{\k28}ever {\k20}you {\k22}want
+Comment: 0,0:00:12.45,0:00:14.19,Default,,0,0,0,karaoke,{\k13}I’ll {\k19}take {\k15}you {\k32}to {\k23}heav{\k20}en {\k32}and {\k20}hell
+Comment: 0,0:00:14.19,0:00:15.95,Default,,0,0,0,karaoke,{\k47}And {\k7}in{\k20}vad{\k13}er {\k5}is {\k21}com{\k10}ing {\k5}to {\k48}you
+Comment: 0,0:00:16.20,0:00:18.41,Default,,0,0,0,karaoke,{\k46}Hey, {\k87}{\k47}woo{\k41}hoo
+Comment: 0,0:00:19.08,0:00:19.52,Default,,0,0,0,karaoke,{\k44}Hey
+Comment: 0,0:00:21.04,0:00:22.47,Default,,0,0,0,karaoke,{\k21}You’re {\k18}such {\k18}a {\k28}i{\k36}con{\k22}ic
+Comment: 0,0:00:22.31,0:00:24.09,Default,,0,0,0,karaoke,{\k31}I’ll {\k23}take {\k19}you {\k28}wher{\k28}ever {\k18}you {\k31}want
+Comment: 0,0:00:23.90,0:00:26.11,Default,,0,0,0,karaoke,{\k22}I’ll {\k22}take {\k16}you {\k23}to {\k50}stage {\k21}and {\k67}space
+Comment: 0,0:00:26.26,0:00:27.56,Default,,0,0,0,karaoke,{\k20}Bas{\k17}tards {\k5}are {\k16}com{\k18}ing {\k11}to {\k43}you
+Comment: 0,0:00:27.75,0:00:29.98,Default,,0,0,0,karaoke,{\k46}Hey, {\k92}{\k43}woo{\k42}hoo
+Comment: 0,0:00:30.61,0:00:31.07,Default,,0,0,0,karaoke,{\k46}Hey
+Comment: 0,0:00:31.25,0:00:33.70,Default,,0,0,0,karaoke,{\kf120}Oh, {\k27}{\k42}flash{\k56}back
 Comment: 0,0:00:38.92,0:00:41.44,Default,,0,0,0,karaoke,{\k37}jou{\k38}dan {\k30}mei{\k36}ta {\k34}se{\k29}ka{\k48}i
-Comment: 0,0:00:41.71,0:00:44.39,Default,,0,0,0,karaoke,{\k44}mah{\k19}ha {\k84}de {\k7}tsu{\k18}ki{\k12}nu{\k33}ke{\k51}ro
-Comment: 0,0:00:46.13,0:00:47.26,Default,,0,0,0,karaoke,{\k29}Yeah {\k36}yeah {\k48}yeah
+Comment: 0,0:00:41.71,0:00:44.39,Default,,0,0,0,karaoke,{\k44}mah{\k19}ha {\k43}de {\k41}{\k7}tsu{\k18}ki{\k12}nu{\k27}ke{\k57}ro
+Comment: 0,0:00:46.13,0:00:47.45,Default,,0,0,0,karaoke,{\k33}Yeah {\k32}yeah {\k67}yeah
 Comment: 0,0:00:48.64,0:00:49.49,Default,,0,0,0,karaoke,{\k43}Flash{\k42}back
 Comment: 0,0:00:50.09,0:00:50.93,Default,,0,0,0,karaoke,{\k37}Flash{\k47}back
-Comment: 0,0:00:51.08,0:00:52.94,Default,,0,0,0,karaoke,{\k16}I’{\k23}m {\k50}lo{\k22}sing {\k33}my {\k42}head
-Comment: 0,0:00:52.94,0:00:55.73,Default,,0,0,0,karaoke,{\k49}Drea{\k18}min’ {\k18}in {\k39}e{\k5}ve{\k17}ry{\k133}way
+Comment: 0,0:00:50.09,0:00:50.93,Italic,,0,0,0,karaoke,{\k37}Flash {\k47}flash
+Comment: 0,0:00:51.08,0:00:52.94,Default,,0,0,0,karaoke,{\k16}I’{\k23}m {\k55}los{\k17}ing {\k33}my {\k42}head
+Comment: 0,0:00:52.94,0:00:55.73,Default,,0,0,0,karaoke,{\k48}Dream{\k19}in’ {\k17}in {\k40}e{\k20}very{\kf135}way
 Comment: 0,0:00:54.41,0:00:55.27,Default,,0,0,0,karaoke,{\k44}Flash{\k42}back
 Comment: 0,0:00:55.85,0:00:56.67,Default,,0,0,0,karaoke,{\k41}Flash{\k41}back
-Comment: 0,0:00:56.87,0:01:00.91,Default,,0,0,0,karaoke,{\k17}Ain’t {\k30}no {\k42}sa{\k19}tis{\k27}fac{\k57}tion {\k41}yay {\k36}yay {\k33}yay {\k32}yay {\k70}yeah
-Comment: 0,0:01:00.21,0:01:02.63,Default,,0,0,0,karaoke,{\k98}Take {\k37}on {\k107}me
-Comment: 0,0:01:02.63,0:01:04.43,Default,,0,0,0,karaoke,{\k17}I {\k28}need {\k39}to {\k27}come{\k29}back {\k40}from
-Comment: 0,0:01:04.43,0:01:06.77,Default,,0,0,0,karaoke,{\k21}ku{\k68}rut{\k35}ta {\k24}se{\k86}kai
-Comment: 0,0:01:07.21,0:01:09.72,Default,,0,0,0,karaoke,{\k27}Can {\k29}I {\k36}keep {\k38}my {\kf121}love?
-Comment: 0,0:01:09.72,0:01:12.60,Default,,0,0,0,karaoke,{\k25}Can {\k20}I {\k38}keep {\k38}my {\kf167}heart?
+Comment: 0,0:00:55.85,0:00:56.67,Italic,,0,0,0,karaoke,{\k41}Flash {\k41}flash
+Comment: 0,0:00:56.87,0:01:01.05,Default,,0,0,0,karaoke,{\k17}Ain’t {\k30}no {\k42}sa{\k19}tis{\k27}fac{\k57}tion {\k41}yay {\k36}yay {\k33}yay {\k32}yay {\k84}yeah
+Comment: 0,0:01:00.21,0:01:02.57,Default,,0,0,0,karaoke,{\k98}Take {\k37}on {\kf101}me
+Comment: 0,0:01:02.63,0:01:04.33,Default,,0,0,0,karaoke,{\k17}I {\k34}need {\k33}to {\k27}come{\k29}back {\k30}from
+Comment: 0,0:01:04.43,0:01:06.77,Default,,0,0,0,karaoke,{\k20}ku{\k69}rut{\k35}ta {\k24}se{\k86}kai
+Comment: 0,0:01:07.21,0:01:09.45,Default,,0,0,0,karaoke,{\k27}Can {\k29}I {\k36}keep {\k38}my {\k94}love?
+Comment: 0,0:01:09.72,0:01:12.52,Default,,0,0,0,karaoke,{\k25}Can {\k20}I {\k38}keep {\k38}my {\kf159}heart?
 Comment: 0,0:01:13.33,0:01:16.61,Default,,0,0,0,karaoke,{\k33}That’s {\k21}the {\k52}way {\k14}to {\k64}take {\k59}me {\k85}on
-Comment: 0,0:01:16.95,0:01:19.11,Default,,0,0,0,karaoke,{\k22}Can {\k27}I {\k33}keep {\k43}my {\kf91}heart?
-Comment: 0,0:01:19.42,0:01:22.54,Default,,0,0,0,karaoke,{\k24}Can {\k23}I {\k32}keep {\k75}my {\kf158}love?
-Comment: 0,0:01:23.00,0:01:24.23,Default,,0,0,0,karaoke,{\k33}That’s {\k22}the {\k68}way
+Comment: 0,0:01:16.95,0:01:19.05,Default,,0,0,0,karaoke,{\k22}Can {\k27}I {\k33}keep {\k43}my {\k85}heart?
+Comment: 0,0:01:19.42,0:01:22.39,Default,,0,0,0,karaoke,{\k24}Can {\k23}I {\k32}keep {\k75}my {\kf143}love?
+Comment: 0,0:01:23.00,0:01:23.97,Default,,0,0,0,karaoke,{\k33}That’s {\k22}the {\k42}way
 Comment: 0,0:01:24.23,0:01:28.92,Default,,0,0,0,karaoke,{\k35}That’s {\k20}the {\k52}way {\k14}to {\k75}take {\k70}me {\kf203}on
 Dialogue: 0,0:00:02.92,0:00:04.89,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k41}Flash{\k46}back
 Dialogue: 0,0:00:05.08,0:00:07.04,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Flash{\k48}back
-Dialogue: 0,0:00:08.75,0:00:11.13,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}This {\k23}is {\k30}super {\k25}so{\k18}nic
-Dialogue: 0,0:00:09.88,0:00:12.62,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k27}I’ll {\k24}take {\k18}you {\k29}wher{\k27}ever {\k20}you {\k19}want
-Dialogue: 0,0:00:11.52,0:00:14.39,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k12}I’ll {\k23}take {\k15}you {\k26}to {\k27}hea{\k22}ven {\k36}and {\k16}hell
-Dialogue: 0,0:00:13.29,0:00:16.15,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k53}And {\k21}’va{\k13}der {\k6}is {\k20}co{\k10}ming {\k3}to {\k50}you
-Dialogue: 0,0:00:20.14,0:00:22.67,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}You’re {\k18}such {\k18}a {\k28}i{\k25}co{\k33}nic
-Dialogue: 0,0:00:21.35,0:00:24.23,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}I’ll {\k31}take {\k13}you {\k32}wher{\k29}ever {\k17}you {\k25}want
-Dialogue: 0,0:00:23.00,0:00:26.46,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}I’ll {\k27}take {\k16}you {\k23}to {\k50}stage {\k21}and {\k52}spa{\k30}ce
-Dialogue: 0,0:00:25.36,0:00:27.76,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Bas{\k18}tards {\k4}are {\k11}co{\k20}ming {\k14}to {\k43}you
-Dialogue: 0,0:00:31.74,0:00:33.80,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k51}Flash{\k45}back
+Dialogue: 0,0:00:05.08,0:00:07.04,Italic,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Flash {\k48}flash
+Dialogue: 0,0:00:08.75,0:00:11.13,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}This {\k23}is {\k30}super {\k25}son{\k33}ic
+Dialogue: 0,0:00:09.88,0:00:12.65,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}I’ll {\k20}take {\k18}you {\k28}wher{\k28}ever {\k20}you {\k22}want
+Dialogue: 0,0:00:11.55,0:00:14.39,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k13}I’ll {\k19}take {\k15}you {\k32}to {\k23}heav{\k20}en {\k32}and {\k20}hell
+Dialogue: 0,0:00:13.29,0:00:16.15,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k47}And {\k7}in{\k20}vad{\k13}er {\k5}is {\k21}com{\k10}ing {\k5}to {\k48}you
+Dialogue: 0,0:00:15.30,0:00:18.61,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k46}Hey, {\k87}{\k47}woo{\k41}hoo
+Dialogue: 0,0:00:18.18,0:00:19.72,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Hey
+Dialogue: 0,0:00:20.14,0:00:22.67,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}You’re {\k18}such {\k18}a {\k28}i{\k36}con{\k22}ic
+Dialogue: 0,0:00:21.41,0:00:24.29,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}I’ll {\k23}take {\k19}you {\k28}wher{\k28}ever {\k18}you {\k31}want
+Dialogue: 0,0:00:23.00,0:00:26.31,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k22}I’ll {\k22}take {\k16}you {\k23}to {\k50}stage {\k21}and {\k67}space
+Dialogue: 0,0:00:25.36,0:00:27.76,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Bas{\k17}tards {\k5}are {\k16}com{\k18}ing {\k11}to {\k43}you
+Dialogue: 0,0:00:26.85,0:00:30.18,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k46}Hey, {\k92}{\k43}woo{\k42}hoo
+Dialogue: 0,0:00:29.71,0:00:31.27,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k46}Hey
+Dialogue: 0,0:00:30.35,0:00:33.90,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf120}Oh, {\k27}{\k42}flash{\k56}back
 Dialogue: 0,0:00:38.02,0:00:41.64,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k37}jou{\k38}dan {\k30}mei{\k36}ta {\k34}se{\k29}ka{\k48}i
-Dialogue: 0,0:00:40.81,0:00:44.59,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k44}mah{\k19}ha {\k84}de {\k7}tsu{\k18}ki{\k12}nu{\k33}ke{\k51}ro
-Dialogue: 0,0:00:45.23,0:00:47.46,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Yeah {\k36}yeah {\k48}yeah
+Dialogue: 0,0:00:40.81,0:00:44.59,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k44}mah{\k19}ha {\k43}de {\k41}{\k7}tsu{\k18}ki{\k12}nu{\k27}ke{\k57}ro
+Dialogue: 0,0:00:45.23,0:00:47.65,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Yeah {\k32}yeah {\k67}yeah
 Dialogue: 0,0:00:47.74,0:00:49.69,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Flash{\k42}back
 Dialogue: 0,0:00:49.19,0:00:51.13,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Flash{\k47}back
-Dialogue: 0,0:00:50.18,0:00:53.14,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k16}I’{\k23}m {\k50}lo{\k22}sing {\k33}my {\k42}head
-Dialogue: 0,0:00:52.04,0:00:55.93,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k49}Drea{\k18}min’ {\k18}in {\k39}e{\k5}ve{\k17}ry{\k133}way
+Dialogue: 0,0:00:49.19,0:00:51.13,Italic,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Flash {\k47}flash
+Dialogue: 0,0:00:50.18,0:00:53.14,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k16}I’{\k23}m {\k55}los{\k17}ing {\k33}my {\k42}head
+Dialogue: 0,0:00:52.04,0:00:55.93,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k48}Dream{\k19}in’ {\k17}in {\k40}e{\k20}very{\kf135}way
 Dialogue: 0,0:00:53.51,0:00:55.47,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Flash{\k42}back
 Dialogue: 0,0:00:54.95,0:00:56.87,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k41}Flash{\k41}back
-Dialogue: 0,0:00:55.97,0:01:01.11,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Ain’t {\k30}no {\k42}sa{\k19}tis{\k27}fac{\k57}tion {\k41}yay {\k36}yay {\k33}yay {\k32}yay {\k70}yeah
-Dialogue: 0,0:00:59.31,0:01:02.83,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k98}Take {\k37}on {\k107}me
-Dialogue: 0,0:01:01.73,0:01:04.63,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k28}need {\k39}to {\k27}come{\k29}back {\k40}from
-Dialogue: 0,0:01:03.53,0:01:06.97,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ku{\k68}rut{\k35}ta {\k24}se{\k86}kai
-Dialogue: 0,0:01:06.31,0:01:09.92,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Can {\k29}I {\k36}keep {\k38}my {\kf121}love?
-Dialogue: 0,0:01:08.82,0:01:12.80,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Can {\k20}I {\k38}keep {\k38}my {\kf167}heart?
+Dialogue: 0,0:00:54.95,0:00:56.87,Italic,,0,0,0,fx,{\k90\fad(300,200)}{\k41}Flash {\k41}flash
+Dialogue: 0,0:00:55.97,0:01:01.25,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Ain’t {\k30}no {\k42}sa{\k19}tis{\k27}fac{\k57}tion {\k41}yay {\k36}yay {\k33}yay {\k32}yay {\k84}yeah
+Dialogue: 0,0:00:59.31,0:01:02.77,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k98}Take {\k37}on {\kf101}me
+Dialogue: 0,0:01:01.73,0:01:04.53,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k34}need {\k33}to {\k27}come{\k29}back {\k30}from
+Dialogue: 0,0:01:03.53,0:01:06.97,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ku{\k69}rut{\k35}ta {\k24}se{\k86}kai
+Dialogue: 0,0:01:06.31,0:01:09.65,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Can {\k29}I {\k36}keep {\k38}my {\k94}love?
+Dialogue: 0,0:01:08.82,0:01:12.72,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Can {\k20}I {\k38}keep {\k38}my {\kf159}heart?
 Dialogue: 0,0:01:12.43,0:01:16.81,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k33}That’s {\k21}the {\k52}way {\k14}to {\k64}take {\k59}me {\k85}on
-Dialogue: 0,0:01:16.05,0:01:19.31,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Can {\k27}I {\k33}keep {\k43}my {\kf91}heart?
-Dialogue: 0,0:01:18.52,0:01:22.74,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Can {\k23}I {\k32}keep {\k75}my {\kf158}love?
-Dialogue: 0,0:01:22.10,0:01:24.43,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k33}That’s {\k22}the {\k68}way
+Dialogue: 0,0:01:16.05,0:01:19.25,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Can {\k27}I {\k33}keep {\k43}my {\k85}heart?
+Dialogue: 0,0:01:18.52,0:01:22.59,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Can {\k23}I {\k32}keep {\k75}my {\kf143}love?
+Dialogue: 0,0:01:22.10,0:01:24.17,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k33}That’s {\k22}the {\k42}way
 Dialogue: 0,0:01:23.33,0:01:29.12,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}That’s {\k20}the {\k52}way {\k14}to {\k75}take {\k70}me {\kf203}on
