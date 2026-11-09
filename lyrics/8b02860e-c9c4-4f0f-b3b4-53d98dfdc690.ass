@@ -1,0 +1,408 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Hit 'Em Up
+Original Timing: ono3000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: KM_Up,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,KM_Up,,0,0,0,template pre-line all keeptags,!retime("line",$start < 700 and -$start or -700,200)!{!$start < 700 and "\\k" .. ($start/10) or "\\k70"!\fad(!$start < 700 and $start or 300!,200)}
+Comment: 0,0:00:00.85,0:00:03.23,KM_Up,,0,0,0,karaoke,{\k16}I {\k20}ain't {\k27}got {\k26}no {\k17}moth{\k30}er{\k22}fuck{\k29}in' {\k51}friends
+Comment: 0,0:00:02.19,0:00:03.57,KM_Up,,0,0,0,karaoke,{\k16}That's {\k17}why {\k18}I {\k25}fucked {\k30}yo' {\k32}bitch
+Comment: 0,0:00:03.60,0:00:04.98,KM_Up,,0,0,0,karaoke,{\k18}You {\k27}fat {\k15}moth{\k22}er{\k18}fuck{\k38}er
+Comment: 0,0:00:05.65,0:00:07.96,KM_Up,,0,0,0,karaoke,{\k29}West {\k79}Side, {\k32}Bad {\k32}Boy {\k14}kill{\k45}as
+Comment: 0,0:00:08.29,0:00:09.65,KM_Up,,0,0,0,karaoke,{\k15}You {\k16}know {\k11}who {\k10}the {\k13}rea{\k14}lest {\k27}is {\k14}nig{\k16}gas
+Comment: 0,0:00:09.65,0:00:10.57,KM_Up,,0,0,0,karaoke,{\k16}We {\k16}bring {\k17}it {\k13}to {\k30}you
+Comment: 0,0:00:13.28,0:00:14.69,KM_Up,,0,0,0,karaoke,{\k33}First {\k30}off, {\k27}fuck {\k19}your {\k32}bitch
+Comment: 0,0:00:14.69,0:00:15.90,KM_Up,,0,0,0,karaoke,{\k17}And {\k16}the {\k29}clique {\k17}you {\k42}claim
+Comment: 0,0:00:16.00,0:00:17.21,KM_Up,,0,0,0,karaoke,{\k25}West{\k33}side {\k15}when {\k16}we {\k32}ride
+Comment: 0,0:00:17.21,0:00:18.46,KM_Up,,0,0,0,karaoke,{\k17}Come {\k15}e{\k30}quipped {\k19}with {\k44}game
+Comment: 0,0:00:18.48,0:00:19.73,KM_Up,,0,0,0,karaoke,{\k15}You {\k34}claim {\k14}to {\k14}be {\k14}a {\k17}play{\k17}er
+Comment: 0,0:00:19.73,0:00:20.87,KM_Up,,0,0,0,karaoke,{\k12}But {\k21}I {\k28}fucked {\k20}your {\k33}wife
+Comment: 0,0:00:21.00,0:00:22.26,KM_Up,,0,0,0,karaoke,{\k19}We {\k23}bust {\k20}on {\k31}Bad {\k33}Boys
+Comment: 0,0:00:22.26,0:00:23.38,KM_Up,,0,0,0,karaoke,{\k15}Nig{\k19}gas {\k27}fucked {\k16}for {\k35}life
+Comment: 0,0:00:23.53,0:00:24.77,KM_Up,,0,0,0,karaoke,{\k30}Plus, {\k16}Puff{\k16}y {\k15}try{\k16}na {\k16}see {\k15}me
+Comment: 0,0:00:24.77,0:00:25.90,KM_Up,,0,0,0,karaoke,{\k35}Weak {\k28}hearts {\k21}I {\k29}rip
+Comment: 0,0:00:26.04,0:00:27.46,KM_Up,,0,0,0,karaoke,{\k16}Big{\k13}gie {\k25}Smalls {\k12}and {\k13}Jun{\k15}ior {\k18}M.A.{\k14}F.I.{\k16}A.'s
+Comment: 0,0:00:27.46,0:00:28.78,KM_Up,,0,0,0,karaoke,{\k21}Some {\k25}mark-{\k38}ass {\k23}bitch{\k25}еs
+Comment: 0,0:00:29.01,0:00:29.80,KM_Up,,0,0,0,karaoke,{\k14}We {\k18}keep {\k16}on {\k15}com{\k16}ing
+Comment: 0,0:00:29.80,0:00:31.07,KM_Up,,0,0,0,karaoke,{\k17}While {\k17}we {\k13}run{\k17}ning {\k13}for {\k19}your {\k16}jе{\k15}wels
+Comment: 0,0:00:31.07,0:00:32.35,KM_Up,,0,0,0,karaoke,{\k16}Stead{\k16}y {\k17}gun{\k15}ning, {\k14}keep {\k17}on {\k18}bust{\k15}ing
+Comment: 0,0:00:32.35,0:00:33.89,KM_Up,,0,0,0,karaoke,{\k14}At {\k17}them {\k47}fools, {\k14}you {\k15}know {\k16}the {\k31}rules
+Comment: 0,0:00:34.09,0:00:35.04,KM_Up,,0,0,0,karaoke,{\k27}Lil {\k19}Cae{\k15}sar, {\k15}go {\k19}ask
+Comment: 0,0:00:35.04,0:00:36.11,KM_Up,,0,0,0,karaoke,{\k13}Your {\k16}ho{\k15}mie {\k18}how {\k14}I'll {\k15}leave {\k16}ya
+Comment: 0,0:00:36.13,0:00:37.17,KM_Up,,0,0,0,karaoke,{\k15}Cut {\k16}your {\k19}young-{\k26}ass {\k28}up
+Comment: 0,0:00:37.22,0:00:39.05,KM_Up,,0,0,0,karaoke,{\k16}Leave {\k16}you {\k15}in {\k18}pie{\k30}ces, {\k16}now {\k15}be {\k15}de{\k42}ceased
+Comment: 0,0:00:39.12,0:00:41.16,KM_Up,,0,0,0,karaoke,{\k27}Lil {\k34}Kim, {\k17}don't {\k17}fuck {\k15}a{\k19}round {\k12}with {\k32}real {\k31}G's
+Comment: 0,0:00:41.16,0:00:43.16,KM_Up,,0,0,0,karaoke,{\k16}Quick {\k15}to {\k19}snatch {\k14}yo' {\k14}ug{\k16}ly {\k29}ass {\k19}off {\k18}the {\k40}streets
+Comment: 0,0:00:43.23,0:00:44.11,KM_Up,,0,0,0,karaoke,{\k14}So {\k30}fuck {\k44}peace
+Comment: 0,0:00:44.18,0:00:46.09,KM_Up,,0,0,0,karaoke,{\k12}I'll {\k16}let {\k16}them {\k16}nig{\k16}gas {\k17}know {\k18}it's {\k27}on {\k16}for {\k37}life
+Comment: 0,0:00:46.09,0:00:48.57,KM_Up,,0,0,0,karaoke,{\k11}Don't {\k19}let {\k13}the {\k28}West{\k34}side {\k31}ride {\k18}to{\k47}night, {\k13}ha-{\k34}ha
+Comment: 0,0:00:49.04,0:00:51.06,KM_Up,,0,0,0,karaoke,{\k30}Bad {\k31}Boy {\k16}mur{\k16}dered {\k31}on {\k32}wax {\k20}and {\k26}killed
+Comment: 0,0:00:51.25,0:00:52.20,KM_Up,,0,0,0,karaoke,{\k16}Fuck {\k17}with {\k12}me {\k18}and {\k14}get {\k18}yo'
+Comment: 0,0:00:52.28,0:00:53.66,KM_Up,,0,0,0,karaoke,{\k35}Caps {\k51}peeled, {\k21}you {\k31}know
+Comment: 0,0:00:53.78,0:00:56.48,KM_Up,,0,0,0,karaoke,{\k49}See, {\k26}grab {\k18}your {\k32}glocks {\k16}when {\k17}you {\k27}see {\k28}Tu{\k57}pac
+Comment: 0,0:00:56.80,0:00:59.07,KM_Up,,0,0,0,karaoke,{\k27}Call {\k19}the {\k28}cops {\k19}when {\k15}you {\k29}see {\k22}Tu{\k41}pac, {\k27}uh
+Comment: 0,0:00:59.41,0:01:01.33,KM_Up,,0,0,0,karaoke,{\k24}Who {\k25}shot {\k15}me? {\k16}But {\k15}you {\k34}punks {\k17}did{\k14}n't {\k16}fin{\k16}ish
+Comment: 0,0:01:01.33,0:01:03.33,KM_Up,,0,0,0,karaoke,{\k17}Now {\k13}you {\k19}'bout {\k15}to {\k14}feel {\k17}the {\k29}wrath {\k16}of {\k17}a {\k15}men{\k28}ace
+Comment: 0,0:01:03.37,0:01:04.49,KM_Up,,0,0,0,karaoke,{\k18}Nig{\k24}ga, {\k9}I {\k13}hit {\k14}'em {\k34}up
+Comment: 0,0:01:04.49,0:01:05.86,KM_Up,,0,0,0,karaoke,{\k18}Check {\k18}this {\k25}out, {\k17}you {\k16}moth{\k13}er{\k18}fuck{\k12}ers
+Comment: 0,0:01:05.86,0:01:07.11,KM_Up,,0,0,0,karaoke,{\k19}Know {\k8}what {\k24}time {\k7}it {\k19}is, {\k10}I {\k7}don't {\k11}e{\k7}ven {\k13}know
+Comment: 0,0:01:07.11,0:01:08.13,KM_Up,,0,0,0,karaoke,{\k11}Why {\k13}I'm {\k17}on {\k19}this {\k42}track
+Comment: 0,0:01:08.22,0:01:09.56,KM_Up,,0,0,0,karaoke,{\k16}Y'all {\k10}nig{\k9}gas {\k16}ain't {\k14}e{\k9}ven {\k22}on {\k17}my {\k13}lev{\k8}el
+Comment: 0,0:01:09.56,0:01:11.10,KM_Up,,0,0,0,karaoke,{\k9}Im{\k10}ma {\k16}let {\k13}my {\k19}lil' {\k17}ho{\k20}mies {\k18}ride {\k13}on {\k19}you
+Comment: 0,0:01:11.10,0:01:13.79,KM_Up,,0,0,0,karaoke,{\k31}Bitch-{\k23}made {\k36}ass {\k29}Bad {\k37}Boy {\k21}bit{\k52}ches, {\k22}feel {\k18}it
+Comment: 0,0:01:11.44,0:01:13.29,KM_Up,,0,0,0,karaoke,{\k29}Hey, {\k25}yo, {\k22}yo, {\k19}hold {\k13}the {\k24}fuck {\k28}up, {\k25}yo
+Comment: 0,0:01:13.81,0:01:16.35,KM_Up,,0,0,0,karaoke,{\k12}Get {\k20}out {\k15}the {\k45}way, {\k30}yo, {\k16}get {\k22}out {\k15}the {\k44}way, {\k35}yo
+Comment: 0,0:01:16.76,0:01:18.42,KM_Up,,0,0,0,karaoke,{\k16}Big{\k15}gie {\k33}Smalls {\k25}just {\k31}got {\k46}dropped
+Comment: 0,0:01:18.42,0:01:20.07,KM_Up,,0,0,0,karaoke,{\k13}Lit{\k15}tle {\k28}Mu', {\k38}pass {\k22}the {\k49}MAC
+Comment: 0,0:01:20.07,0:01:21.49,KM_Up,,0,0,0,karaoke,{\k16}And {\k16}let {\k21}me {\k12}hit {\k13}him {\k16}in {\k18}his {\k30}back
+Comment: 0,0:01:21.52,0:01:22.91,KM_Up,,0,0,0,karaoke,{\k28}Frank {\k32}White {\k16}needs {\k16}to {\k15}get {\k32}spanked
+Comment: 0,0:01:22.95,0:01:24.09,KM_Up,,0,0,0,karaoke,{\k26}Right {\k16}for {\k16}set{\k19}ting {\k37}traps
+Comment: 0,0:01:24.09,0:01:25.31,KM_Up,,0,0,0,karaoke,{\k12}Lit{\k15}tle {\k24}ac{\k8}ci{\k14}dent {\k25}mur{\k10}der{\k14}er
+Comment: 0,0:01:25.51,0:01:26.73,KM_Up,,0,0,0,karaoke,{\k10}And {\k20}I {\k9}ain't {\k18}nev{\k13}er {\k20}heard {\k12}of {\k20}ya
+Comment: 0,0:01:26.84,0:01:29.29,KM_Up,,0,0,0,karaoke,{\k26}Poi{\k11}so{\k17}nous {\k26}gats {\k16}at{\k38}tack {\k16}when {\k28}I'm {\k27}ser{\k15}ving {\k25}ya
+Comment: 0,0:01:29.36,0:01:31.54,KM_Up,,0,0,0,karaoke,{\k33}Spank {\k13}ya, {\k34}shank {\k15}ya {\k31}whole {\k32}style {\k15}when {\k19}I {\k26}gank
+Comment: 0,0:01:31.77,0:01:32.54,KM_Up,,0,0,0,karaoke,{\k30}Guard {\k15}your {\k14}rank {\k18}'cause
+Comment: 0,0:01:32.57,0:01:34.11,KM_Up,,0,0,0,karaoke,{\k13}Im{\k14}ma {\k26}slam {\k10}your {\k32}ass {\k13}in {\k13}the {\k33}paint
+Comment: 0,0:01:34.11,0:01:35.55,KM_Up,,0,0,0,karaoke,{\k20}Puff{\k11}y {\k19}wea{\k12}ker {\k15}than {\k16}the {\k16}fuck{\k15}ing {\k20}block
+Comment: 0,0:01:35.57,0:01:36.50,KM_Up,,0,0,0,karaoke,{\k13}I'm {\k16}run{\k13}ning {\k16}through, {\k17}nig{\k18}ga
+Comment: 0,0:01:36.64,0:01:37.99,KM_Up,,0,0,0,karaoke,{\k11}And {\k17}I'm {\k18}smo{\k13}king {\k16}Ju{\k17}nior {\k21}M.A.{\k11}F.I{\k11}.A.
+Comment: 0,0:01:38.00,0:01:38.94,KM_Up,,0,0,0,karaoke,{\k19}In {\k20}front {\k11}of {\k18}you, {\k14}nig{\k12}ga
+Comment: 0,0:01:39.07,0:01:40.61,KM_Up,,0,0,0,karaoke,{\k7}With {\k16}the {\k15}read{\k20}y {\k14}po{\k13}wer {\k23}tucked {\k9}in {\k16}my {\k21}Guess
+Comment: 0,0:01:40.61,0:01:41.65,KM_Up,,0,0,0,karaoke,{\k12}Un{\k14}der {\k15}my {\k17}Ed{\k14}die {\k20}Bau{\k12}er
+Comment: 0,0:01:41.83,0:01:42.76,KM_Up,,0,0,0,karaoke,{\k14}Your {\k21}clout {\k15}pet{\k15}ty-{\k18}so{\k10}ur
+Comment: 0,0:01:42.76,0:01:44.73,KM_Up,,0,0,0,karaoke,{\k15}I {\k19}push {\k17}pack{\k12}a{\k16}ges {\k17}eve{\k14}ry {\k25}hour, {\k11}I {\k13}hit {\k13}'em {\k25}up
+Comment: 0,0:01:44.73,0:01:46.92,KM_Up,,0,0,0,karaoke,{\k23}Grab {\k18}your {\k30}glocks {\k20}when {\k19}you {\k23}see {\k31}Tu{\k55}pac
+Comment: 0,0:01:47.22,0:01:49.49,KM_Up,,0,0,0,karaoke,{\k27}Call {\k16}the {\k30}cops {\k17}when {\k17}you {\k30}see {\k22}Tu{\k41}pac, {\k27}uh
+Comment: 0,0:01:49.82,0:01:51.74,KM_Up,,0,0,0,karaoke,{\k24}Who {\k25}shot {\k15}me? {\k16}But {\k15}you {\k34}punks {\k17}did{\k14}n't {\k16}fin{\k16}ish
+Comment: 0,0:01:51.74,0:01:53.74,KM_Up,,0,0,0,karaoke,{\k17}Now {\k13}you {\k19}'bout {\k15}to {\k14}feel {\k17}the {\k29}wrath {\k16}of {\k17}a {\k15}men{\k28}ace
+Comment: 0,0:01:53.80,0:01:54.79,KM_Up,,0,0,0,karaoke,{\k16}Nig{\k15}ga, {\k16}we {\k15}hit {\k14}'em {\k23}up
+Comment: 0,0:01:54.74,0:01:56.01,KM_Up,,0,0,0,karaoke,{\k17}Peep {\k16}how {\k14}we {\k15}do {\k16}it, {\k19}keep {\k13}it {\k17}real
+Comment: 0,0:01:56.01,0:01:57.25,KM_Up,,0,0,0,karaoke,{\k13}As {\k16}pen{\k15}i{\k17}ten{\k16}tia{\k19}ry {\k28}steel
+Comment: 0,0:01:57.25,0:01:58.67,KM_Up,,0,0,0,karaoke,{\k16}This {\k16}ain't {\k21}no {\k24}free{\k30}style {\k18}bat{\k17}tle
+Comment: 0,0:01:58.67,0:01:59.95,KM_Up,,0,0,0,karaoke,{\k18}All {\k14}you {\k15}nig{\k20}gas {\k13}get{\k15}ting {\k33}killed
+Comment: 0,0:01:59.95,0:02:00.93,KM_Up,,0,0,0,karaoke,{\k13}With {\k18}your {\k30}mouths {\k19}o{\k18}pen
+Comment: 0,0:02:01.19,0:02:02.30,KM_Up,,0,0,0,karaoke,{\k18}Try{\k13}na {\k15}come {\k17}up {\k20}off {\k12}of {\k16}me
+Comment: 0,0:02:02.30,0:02:03.43,KM_Up,,0,0,0,karaoke,{\k15}You {\k17}in {\k16}the {\k31}clouds {\k20}hop{\k14}ing
+Comment: 0,0:02:03.69,0:02:05.28,KM_Up,,0,0,0,karaoke,{\k20}Smo{\k15}king {\k17}dope, {\k14}it's {\k16}like {\k14}a {\k31}sherm {\k32}high
+Comment: 0,0:02:05.29,0:02:06.70,KM_Up,,0,0,0,karaoke,{\k12}Nig{\k19}gas {\k14}think {\k17}they {\k32}learned {\k17}to {\k30}fly
+Comment: 0,0:02:06.88,0:02:08.10,KM_Up,,0,0,0,karaoke,{\k14}But {\k16}they {\k32}burn, {\k14}moth{\k17}er{\k16}fuck{\k13}er
+Comment: 0,0:02:08.10,0:02:09.22,KM_Up,,0,0,0,karaoke,{\k17}You {\k16}de{\k31}serve {\k16}to {\k32}die
+Comment: 0,0:02:09.39,0:02:10.64,KM_Up,,0,0,0,karaoke,{\k16}Talk{\k15}ing {\k17}'bout {\k15}you {\k15}get{\k17}ting {\k16}mon{\k14}ey
+Comment: 0,0:02:10.64,0:02:11.75,KM_Up,,0,0,0,karaoke,{\k14}But {\k17}it's {\k17}fun{\k16}ny {\k18}to {\k29}me
+Comment: 0,0:02:11.91,0:02:13.17,KM_Up,,0,0,0,karaoke,{\k16}All {\k15}you {\k15}nig{\k17}gas {\k15}liv{\k15}ing {\k17}bum{\k16}my
+Comment: 0,0:02:13.17,0:02:14.25,KM_Up,,0,0,0,karaoke,{\k14}While {\k17}you {\k16}fuck{\k16}ing {\k18}with {\k27}me
+Comment: 0,0:02:14.42,0:02:16.11,KM_Up,,0,0,0,karaoke,{\k16}I'm {\k16}a {\k32}self-{\k32}made {\k15}mil{\k16}lio{\k42}naire
+Comment: 0,0:02:16.32,0:02:17.59,KM_Up,,0,0,0,karaoke,{\k31}Thug {\k17}liv{\k13}ing, {\k15}out {\k16}of {\k18}pri{\k17}son
+Comment: 0,0:02:17.59,0:02:19.34,KM_Up,,0,0,0,karaoke,{\k15}Pis{\k19}tols {\k13}in {\k14}the {\k64}air, {\k17}ha-{\k33}ha
+Comment: 0,0:02:19.34,0:02:20.72,KM_Up,,0,0,0,karaoke,{\k13}Big{\k18}gie, {\k14}re{\k16}mem{\k15}ber {\k14}when {\k17}I {\k16}used {\k15}to
+Comment: 0,0:02:20.72,0:02:21.83,KM_Up,,0,0,0,karaoke,{\k15}Let {\k16}you {\k17}sleep {\k15}on {\k17}the {\k31}couch
+Comment: 0,0:02:21.83,0:02:23.83,KM_Up,,0,0,0,karaoke,{\k16}And {\k18}beg {\k13}a {\k19}bitch {\k12}to {\k16}let {\k15}you {\k17}sleep {\k16}in {\k15}the {\k43}house?
+Comment: 0,0:02:24.50,0:02:25.83,KM_Up,,0,0,0,karaoke,{\k20}Now {\k11}it's {\k20}all {\k12}a{\k16}bout {\k14}Ver{\k23}sa{\k17}ce
+Comment: 0,0:02:25.95,0:02:26.93,KM_Up,,0,0,0,karaoke,{\k12}You {\k19}co{\k14}pied {\k19}my {\k34}style
+Comment: 0,0:02:27.07,0:02:28.35,KM_Up,,0,0,0,karaoke,{\k27}Five {\k32}shots {\k15}could{\k16}n't {\k23}drop {\k15}me
+Comment: 0,0:02:28.46,0:02:29.50,KM_Up,,0,0,0,karaoke,{\k13}I {\k17}took {\k13}it {\k15}and {\k46}smiled
+Comment: 0,0:02:29.54,0:02:31.07,KM_Up,,0,0,0,karaoke,{\k17}Now {\k14}I'm {\k19}back {\k12}to {\k16}set {\k15}the {\k17}re{\k17}cord {\k26}straight
+Comment: 0,0:02:31.29,0:02:32.69,KM_Up,,0,0,0,karaoke,{\k14}With {\k15}my {\k18}A{\k14}K, {\k18}I'm {\k13}still {\k18}the {\k30}thug
+Comment: 0,0:02:32.73,0:02:33.60,KM_Up,,0,0,0,karaoke,{\k13}That {\k15}you {\k16}love {\k18}to {\k25}hate
+Comment: 0,0:02:33.79,0:02:35.18,KM_Up,,0,0,0,karaoke,{\k17}Moth{\k18}er{\k13}fuck{\k18}er, {\k14}I {\k16}hit {\k16}'em {\k27}up!
+Comment: 0,0:02:34.53,0:02:36.09,KM_Up,,0,0,0,karaoke,{\k11}I'm {\k27}from {\k18}N-{\k14}E-{\k20}dou{\k12}ble-{\k16}U {\k38}Jers'
+Comment: 0,0:02:36.09,0:02:37.26,KM_Up,,0,0,0,karaoke,{\k14}Where {\k18}plen{\k8}ty {\k8}of {\k18}mur{\k19}ders {\k10}oc{\k22}curs
+Comment: 0,0:02:37.36,0:02:38.16,KM_Up,,0,0,0,karaoke,{\k12}No {\k23}points {\k13}or {\k20}com{\k12}mas
+Comment: 0,0:02:38.16,0:02:39.75,KM_Up,,0,0,0,karaoke,{\k17}We {\k15}bring {\k13}the {\k25}dra{\k10}ma {\k8}to {\k22}all {\k14}you {\k35}herbs
+Comment: 0,0:02:39.75,0:02:41.75,KM_Up,,0,0,0,karaoke,{\k13}Now {\k16}go {\k30}check {\k14}the {\k12}sce{\k19}na{\k14}ri{\k27}o, {\k23}Lil {\k32}Cease
+Comment: 0,0:02:41.82,0:02:43.43,KM_Up,,0,0,0,karaoke,{\k9}I'll {\k21}bring {\k16}you {\k26}fake {\k34}G's {\k10}to {\k12}your {\k33}knees
+Comment: 0,0:02:43.43,0:02:44.86,KM_Up,,0,0,0,karaoke,{\k18}Cop{\k17}ping {\k24}pleas {\k9}in {\k17}de {\k10}Ja{\k19}ne{\k14}ri{\k15}o
+Comment: 0,0:02:44.86,0:02:46.75,KM_Up,,0,0,0,karaoke,{\k13}Lit{\k19}tle {\k23}Kim, {\k16}is {\k14}you {\k33}coked {\k14}up {\k14}or {\k29}doped {\k14}up?
+Comment: 0,0:02:46.91,0:02:47.89,KM_Up,,0,0,0,karaoke,{\k22}Get {\k12}your {\k12}lit{\k19}tle {\k22}Jun{\k11}ior
+Comment: 0,0:02:47.89,0:02:49.16,KM_Up,,0,0,0,karaoke,{\k21}Whop{\k18}per {\k25}clique {\k36}smoked {\k27}up
+Comment: 0,0:02:49.16,0:02:50.50,KM_Up,,0,0,0,karaoke,{\k13}What {\k16}the {\k26}fuck? {\k19}Is {\k21}you {\k24}stu{\k15}pid?
+Comment: 0,0:02:50.50,0:02:51.60,KM_Up,,0,0,0,karaoke,{\k20}I {\k32}take {\k15}mon{\k14}ey, {\k29}crash
+Comment: 0,0:02:51.60,0:02:52.86,KM_Up,,0,0,0,karaoke,{\k23}And {\k36}mash {\k21}through {\k23}Brook{\k23}lyn
+Comment: 0,0:02:52.99,0:02:54.13,KM_Up,,0,0,0,karaoke,{\k12}With {\k20}my {\k25}clique {\k15}loot{\k17}in', {\k14}shoot{\k11}in'
+Comment: 0,0:02:54.13,0:02:55.24,KM_Up,,0,0,0,karaoke,{\k18}And {\k13}pol{\k15}lut{\k14}in' {\k16}your {\k35}block
+Comment: 0,0:02:55.24,0:02:57.28,KM_Up,,0,0,0,karaoke,{\k8}With {\k8}a {\k20}fif{\k27}teen-{\k28}shot {\k28}cocked {\k29}Glock {\k13}to {\k19}your {\k24}knot
+Comment: 0,0:02:57.30,0:02:58.61,KM_Up,,0,0,0,karaoke,{\k26}Out{\k28}law {\k20}MA{\k9}FI{\k20}A {\k28}clique
+Comment: 0,0:02:58.61,0:02:59.87,KM_Up,,0,0,0,karaoke,{\k18}Mo{\k9}ving {\k19}up {\k10}a{\k20}noth{\k12}er {\k38}notch
+Comment: 0,0:02:59.87,0:03:00.99,KM_Up,,0,0,0,karaoke,{\k9}And {\k16}your {\k28}pop {\k32}stars {\k27}popped
+Comment: 0,0:03:00.99,0:03:02.02,KM_Up,,0,0,0,karaoke,{\k7}And {\k19}get {\k27}mopped {\k16}and {\k34}dropped
+Comment: 0,0:03:02.08,0:03:03.83,KM_Up,,0,0,0,karaoke,{\k22}All {\k17}your {\k25}fake-{\k28}ass {\k25}East {\k26}Coast {\k32}props
+Comment: 0,0:03:03.86,0:03:04.84,KM_Up,,0,0,0,karaoke,{\k30}Brain{\k25}stormed {\k15}and {\k28}locked
+Comment: 0,0:03:04.84,0:03:07.55,KM_Up,,0,0,0,karaoke,{\k19}You's {\k45}a {\k30}beat {\k26}bi{\k23}ter, {\k15}a {\k31}Pac {\k31}style {\k21}ta{\k30}ker
+Comment: 0,0:03:07.55,0:03:08.62,KM_Up,,0,0,0,karaoke,{\k13}I'll {\k16}tell {\k19}you {\k12}to {\k17}your {\k30}face
+Comment: 0,0:03:08.62,0:03:10.04,KM_Up,,0,0,0,karaoke,{\k15}You {\k31}ain't {\k17}shit, {\k15}but {\k16}a {\k22}fa{\k26}ker
+Comment: 0,0:03:10.20,0:03:11.96,KM_Up,,0,0,0,karaoke,{\k19}Soft{\k12}er {\k15}than {\k16}A{\k13}li{\k18}zé {\k14}with {\k18}a {\k23}cha{\k28}ser
+Comment: 0,0:03:12.01,0:03:13.50,KM_Up,,0,0,0,karaoke,{\k8}A{\k17}bout {\k15}to {\k16}get {\k14}mur{\k17}dered {\k15}for {\k15}the {\k16}pa{\k16}per
+Comment: 0,0:03:13.52,0:03:15.77,KM_Up,,0,0,0,karaoke,{\k16}E.{\k15}D.{\k15}I. {\k19}Mean {\k11}ap{\k21}proach {\k10}the {\k33}scene {\k17}of {\k15}the {\k19}ca{\k34}per
+Comment: 0,0:03:15.87,0:03:18.02,KM_Up,,0,0,0,karaoke,{\k15}Like {\k14}a {\k50}loc, {\k15}with {\k14}Lit{\k15}tle {\k16}Cea{\k18}s' {\k15}in {\k15}a {\k28}choke
+Comment: 0,0:03:18.04,0:03:18.98,KM_Up,,0,0,0,karaoke,{\k31}Gun {\k19}tot{\k14}ing {\k30}smoke
+Comment: 0,0:03:19.18,0:03:20.61,KM_Up,,0,0,0,karaoke,{\k16}We {\k16}ain't {\k15}no {\k15}moth{\k15}er{\k17}fuck{\k16}ing {\k33}joke
+Comment: 0,0:03:20.61,0:03:22.37,KM_Up,,0,0,0,karaoke,{\k30}Thug {\k34}Life, {\k13}nig{\k16}gas {\k18}bet{\k14}ter {\k16}be {\k16}know{\k19}ing
+Comment: 0,0:03:22.39,0:03:23.74,KM_Up,,0,0,0,karaoke,{\k11}We {\k14}ap{\k22}proach{\k28}ing {\k12}in {\k16}the {\k32}wide
+Comment: 0,0:03:23.74,0:03:24.88,KM_Up,,0,0,0,karaoke,{\k15}O{\k17}pen, {\k29}gun {\k22}smo{\k31}king
+Comment: 0,0:03:24.88,0:03:26.69,KM_Up,,0,0,0,karaoke,{\k12}No {\k16}need {\k16}for {\k16}ho{\k15}ping, {\k16}it's {\k17}a {\k14}bat{\k16}tle {\k43}lost
+Comment: 0,0:03:26.75,0:03:28.01,KM_Up,,0,0,0,karaoke,{\k15}I {\k16}got {\k14}'em {\k33}crossed {\k16}as {\k22}soon {\k10}as
+Comment: 0,0:03:28.01,0:03:29.41,KM_Up,,0,0,0,karaoke,{\k17}The {\k29}funk {\k22}is {\k26}bop{\k15}ping {\k31}off
+Comment: 0,0:03:29.58,0:03:30.71,KM_Up,,0,0,0,karaoke,{\k15}Nig{\k17}ga, {\k13}I {\k20}hit {\k12}'em {\k36}up
+Comment: 0,0:03:31.62,0:03:33.14,KM_Up,,0,0,0,karaoke,{\k16}Now {\k15}you {\k32}tell {\k19}me {\k18}who {\k52}won
+Comment: 0,0:03:33.22,0:03:35.40,KM_Up,,0,0,0,karaoke,{\k23}I {\k20}see {\k50}them, {\k22}they {\k61}run, {\k11}ha-{\k10}ha-{\k21}ha
+Comment: 0,0:03:35.76,0:03:36.89,KM_Up,,0,0,0,karaoke,{\k14}They {\k14}don't {\k11}wan{\k13}na {\k16}see {\k45}us
+Comment: 0,0:03:36.98,0:03:38.26,KM_Up,,0,0,0,karaoke,{\k23}Whole {\k17}Jun{\k13}ior {\k19}M.A.{\k11}F.I.{\k16}A. {\k29}clique
+Comment: 0,0:03:38.28,0:03:39.73,KM_Up,,0,0,0,karaoke,{\k17}Dress{\k13}ing {\k18}up {\k20}try{\k14}na {\k14}be {\k49}us
+Comment: 0,0:03:39.76,0:03:40.92,KM_Up,,0,0,0,karaoke,{\k7}How {\k12}the {\k17}fuck {\k18}they {\k9}gon{\k6}na {\k15}be {\k11}the {\k21}mob
+Comment: 0,0:03:40.92,0:03:42.13,KM_Up,,0,0,0,karaoke,{\k14}When {\k12}we {\k19}al{\k18}ways {\k11}on {\k20}our {\k27}job?
+Comment: 0,0:03:42.13,0:03:43.10,KM_Up,,0,0,0,karaoke,{\k19}We {\k22}mil{\k15}lio{\k41}naires
+Comment: 0,0:03:43.22,0:03:45.10,KM_Up,,0,0,0,karaoke,{\k10}Kill{\k9}ing {\k17}ain't {\k26}fair, {\k13}but {\k15}some{\k15}bo{\k9}dy {\k10}got{\k14}ta {\k11}do {\k39}it
+Comment: 0,0:03:45.17,0:03:46.75,KM_Up,,0,0,0,karaoke,{\k18}Oh-{\k40}yeah, {\k29}Mobb {\k40}Deep, {\k31}huh
+Comment: 0,0:03:46.98,0:03:48.00,KM_Up,,0,0,0,karaoke,{\k8}You {\k11}wan{\k12}na {\k20}fuck {\k11}with {\k40}us?
+Comment: 0,0:03:48.13,0:03:49.56,KM_Up,,0,0,0,karaoke,{\k9}You {\k8}lit{\k13}tle {\k21}young-{\k38}ass {\k12}moth{\k15}er{\k15}fuck{\k12}ers
+Comment: 0,0:03:49.58,0:03:50.52,KM_Up,,0,0,0,karaoke,{\k16}Don't {\k12}one {\k10}of {\k8}you {\k9}nig{\k15}gas {\k24}got
+Comment: 0,0:03:50.54,0:03:51.44,KM_Up,,0,0,0,karaoke,{\k14}Sick{\k13}le-{\k18}cell {\k17}or {\k15}some{\k13}thing?
+Comment: 0,0:03:51.70,0:03:53.00,KM_Up,,0,0,0,karaoke,{\k16}You {\k15}fuck{\k8}ing {\k12}with {\k18}me, {\k6}nig{\k6}ga, {\k15}you {\k15}fuck {\k9}a{\k10}round
+Comment: 0,0:03:53.00,0:03:54.48,KM_Up,,0,0,0,karaoke,{\k6}And {\k13}have {\k21}a {\k20}sei{\k17}zure {\k7}or {\k11}a {\k15}heart {\k13}at{\k25}tack
+Comment: 0,0:03:54.48,0:03:55.58,KM_Up,,0,0,0,karaoke,{\k8}You {\k10}bet{\k16}ter {\k22}back {\k14}the {\k20}fuck {\k20}up
+Comment: 0,0:03:55.58,0:03:57.13,KM_Up,,0,0,0,karaoke,{\k11}'Fore {\k11}you {\k29}get {\k27}smacked {\k15}the {\k25}fuck {\k37}up
+Comment: 0,0:03:57.29,0:03:58.88,KM_Up,,0,0,0,karaoke,{\k10}This {\k5}is {\k15}how {\k18}we {\k9}do {\k7}it {\k15}on {\k30}our {\k50}side
+Comment: 0,0:03:58.95,0:03:59.99,KM_Up,,0,0,0,karaoke,{\k14}An{\k10}y {\k6}of {\k6}you {\k11}nig{\k14}gas {\k13}from {\k14}New {\k16}York
+Comment: 0,0:04:00.05,0:04:01.06,KM_Up,,0,0,0,karaoke,{\k12}That {\k10}wan{\k12}na {\k18}bring {\k14}it, {\k19}bring {\k16}it
+Comment: 0,0:04:01.06,0:04:02.90,KM_Up,,0,0,0,karaoke,{\k10}But {\k8}we {\k24}ain't {\k19}sing{\k30}ing, {\k18}we {\k16}bring{\k15}ing {\k23}dra{\k21}ma
+Comment: 0,0:04:03.07,0:04:04.90,KM_Up,,0,0,0,karaoke,{\k22}Fuck {\k14}you {\k22}and {\k17}yo' {\k15}moth{\k11}er{\k19}fuck{\k16}ing {\k19}ma{\k28}ma
+Comment: 0,0:04:04.98,0:04:06.77,KM_Up,,0,0,0,karaoke,{\k10}We {\k21}gon' {\k22}kill {\k23}all {\k16}you {\k12}moth{\k17}er{\k20}fuck{\k38}ers
+Comment: 0,0:04:06.81,0:04:07.97,KM_Up,,0,0,0,karaoke,{\k10}Now {\k6}when {\k14}I {\k26}came {\k17}out, {\k10}I {\k22}told {\k11}you
+Comment: 0,0:04:07.97,0:04:09.12,KM_Up,,0,0,0,karaoke,{\k4}It {\k12}was {\k19}just {\k10}a{\k22}bout {\k16}Big{\k32}gie
+Comment: 0,0:04:09.12,0:04:10.44,KM_Up,,0,0,0,karaoke,{\k8}Then {\k11}eve{\k6}ry{\k13}bod{\k10}y {\k10}had {\k10}to {\k12}o{\k11}pen {\k17}their {\k24}mouth
+Comment: 0,0:04:10.44,0:04:11.74,KM_Up,,0,0,0,karaoke,{\k6}With {\k8}a {\k12}moth{\k16}er{\k16}fuck{\k10}ing {\k18}o{\k19}pin{\k25}ion
+Comment: 0,0:04:11.88,0:04:12.98,KM_Up,,0,0,0,karaoke,{\k6}Well, {\k8}this {\k7}is {\k17}how {\k11}we {\k11}gon{\k11}na {\k12}do {\k27}this
+Comment: 0,0:04:13.41,0:04:14.66,KM_Up,,0,0,0,karaoke,{\k26}Fuck {\k40}Mobb {\k59}Deep
+Comment: 0,0:04:14.80,0:04:15.49,KM_Up,,0,0,0,karaoke,{\k29}Fuck {\k18}Big{\k22}gie
+Comment: 0,0:04:15.74,0:04:17.92,KM_Up,,0,0,0,karaoke,{\k25}Fuck {\k32}Bad {\k25}Boy {\k10}as {\k20}a {\k44}staff, {\k18}re{\k12}cord {\k19}la{\k13}bel
+Comment: 0,0:04:17.92,0:04:19.17,KM_Up,,0,0,0,karaoke,{\k12}And {\k12}as {\k15}a {\k13}moth{\k13}er{\k14}fuck{\k23}ing {\k23}crew
+Comment: 0,0:04:19.44,0:04:21.13,KM_Up,,0,0,0,karaoke,{\k7}And {\k11}if {\k14}you {\k7}wan{\k11}na {\k16}be {\k20}down {\k14}with {\k29}Bad {\k40}Boy
+Comment: 0,0:04:21.18,0:04:22.17,KM_Up,,0,0,0,karaoke,{\k23}Then {\k24}fuck {\k24}you {\k28}too
+Comment: 0,0:04:22.46,0:04:24.53,KM_Up,,0,0,0,karaoke,{\k21}Chi{\k20}no {\k25}X{\k59}L, {\k31}fuck {\k22}you {\k29}too
+Comment: 0,0:04:24.79,0:04:26.84,KM_Up,,0,0,0,karaoke,{\k24}All {\k16}you {\k15}moth{\k15}er{\k18}fuck{\k45}ers, {\k26}fuck {\k22}you {\k24}too
+Comment: 0,0:04:29.63,0:04:30.86,KM_Up,,0,0,0,karaoke,{\k20}All {\k14}of {\k26}y'all {\k14}moth{\k14}er{\k17}fuck{\k18}ers
+Comment: 0,0:04:30.86,0:04:32.64,KM_Up,,0,0,0,karaoke,{\k31}Fuck {\k26}you, {\k32}die {\k35}slow {\k15}moth{\k16}er{\k15}fuck{\k8}er
+Comment: 0,0:04:32.69,0:04:33.85,KM_Up,,0,0,0,karaoke,{\k23}My {\k28}.four-{\k25}four {\k23}make {\k17}sure
+Comment: 0,0:04:33.85,0:04:35.20,KM_Up,,0,0,0,karaoke,{\k26}All {\k26}y'all {\k33}kids {\k25}don't {\k25}grow
+Comment: 0,0:04:35.51,0:04:37.51,KM_Up,,0,0,0,karaoke,{\k8}You {\k15}moth{\k17}er{\k14}fuck{\k16}ers {\k31}can't {\k13}be {\k19}us {\k23}or {\k18}see {\k26}us
+Comment: 0,0:04:37.80,0:04:39.36,KM_Up,,0,0,0,karaoke,{\k15}We {\k13}moth{\k14}er{\k14}fuck{\k15}ing {\k23}Thug {\k29}Life {\k20}ri{\k13}das
+Comment: 0,0:04:39.38,0:04:40.82,KM_Up,,0,0,0,karaoke,{\k29}West{\k39}side {\k13}'til {\k25}we {\k38}die
+Comment: 0,0:04:41.19,0:04:43.09,KM_Up,,0,0,0,karaoke,{\k21}Out {\k14}here {\k11}in {\k16}Cal{\k14}i{\k25}for{\k12}nia, {\k10}nig{\k10}ga, {\k18}we {\k27}warned {\k12}ya
+Comment: 0,0:04:43.09,0:04:44.68,KM_Up,,0,0,0,karaoke,{\k29}We'll {\k30}bomb {\k20}on {\k12}you {\k9}moth{\k16}er{\k15}fuck{\k28}ers
+Comment: 0,0:04:44.85,0:04:45.81,KM_Up,,0,0,0,karaoke,{\k16}We {\k17}do {\k28}our {\k35}job
+Comment: 0,0:04:46.00,0:04:46.88,KM_Up,,0,0,0,karaoke,{\k16}You {\k21}think {\k22}you {\k29}mob?
+Comment: 0,0:04:46.93,0:04:48.51,KM_Up,,0,0,0,karaoke,{\k9}Nig{\k14}ga, {\k14}we {\k14}the {\k11}moth{\k17}er{\k15}fuck{\k17}ing {\k47}mob
+Comment: 0,0:04:48.51,0:04:50.16,KM_Up,,0,0,0,karaoke,{\k17}Ain't {\k15}noth{\k5}ing {\k16}but {\k16}kill{\k14}as {\k11}and {\k18}the {\k28}real {\k12}nig{\k13}gas
+Comment: 0,0:04:50.16,0:04:51.44,KM_Up,,0,0,0,karaoke,{\k22}All {\k13}you {\k11}moth{\k15}er{\k14}fuck{\k19}ers {\k13}feel {\k21}us
+Comment: 0,0:04:51.73,0:04:53.86,KM_Up,,0,0,0,karaoke,{\k22}Our {\k23}shits {\k24}go {\k16}tri{\k9}ple {\k24}and {\k34}four-{\k20}qua{\k17}dru{\k24}ple
+Comment: 0,0:04:56.35,0:04:58.10,KM_Up,,0,0,0,karaoke,{\k9}You {\k9}nig{\k16}gas {\k31}laugh {\k13}'cause {\k27}our {\k34}staff {\k36}got
+Comment: 0,0:04:58.24,0:04:59.78,KM_Up,,0,0,0,karaoke,{\k33}Guns {\k8}in {\k17}they {\k13}moth{\k11}er{\k15}fuck{\k23}ers {\k34}belts
+Comment: 0,0:05:00.10,0:05:01.26,KM_Up,,0,0,0,karaoke,{\k12}You {\k13}know {\k12}how {\k9}it {\k21}is, {\k10}when {\k13}we {\k26}drop
+Comment: 0,0:05:01.26,0:05:02.23,KM_Up,,0,0,0,karaoke,{\k14}Re{\k17}cords, {\k23}they {\k43}felt
+Comment: 0,0:05:02.46,0:05:04.36,KM_Up,,0,0,0,karaoke,{\k8}You {\k11}nig{\k15}gas {\k30}can't {\k15}feel {\k37}it, {\k11}we {\k12}the {\k15}re{\k11}a{\k25}lest
+Comment: 0,0:05:04.55,0:05:06.39,KM_Up,,0,0,0,karaoke,{\k20}Fuck {\k28}'em! {\k16}We {\k31}Bad {\k27}Boy {\k20}kill{\k42}as
+Dialogue: 0,0:00:00.15,0:00:03.43,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k16}I {\k20}ain't {\k27}got {\k26}no {\k17}moth{\k30}er{\k22}fuck{\k29}in' {\k51}friends
+Dialogue: 0,0:00:01.49,0:00:03.77,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k16}That's {\k17}why {\k18}I {\k25}fucked {\k30}yo' {\k32}bitch
+Dialogue: 0,0:00:02.90,0:00:05.18,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k18}You {\k27}fat {\k15}moth{\k22}er{\k18}fuck{\k38}er
+Dialogue: 0,0:00:04.95,0:00:08.16,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k29}West {\k79}Side, {\k32}Bad {\k32}Boy {\k14}kill{\k45}as
+Dialogue: 0,0:00:07.59,0:00:09.85,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k15}You {\k16}know {\k11}who {\k10}the {\k13}rea{\k14}lest {\k27}is {\k14}nig{\k16}gas
+Dialogue: 0,0:00:08.95,0:00:10.77,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k16}We {\k16}bring {\k17}it {\k13}to {\k30}you
+Dialogue: 0,0:00:12.58,0:00:14.89,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k33}First {\k30}off, {\k27}fuck {\k19}your {\k32}bitch
+Dialogue: 0,0:00:13.99,0:00:16.10,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k17}And {\k16}the {\k29}clique {\k17}you {\k42}claim
+Dialogue: 0,0:00:15.30,0:00:17.41,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k25}West{\k33}side {\k15}when {\k16}we {\k32}ride
+Dialogue: 0,0:00:16.51,0:00:18.66,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k17}Come {\k15}e{\k30}quipped {\k19}with {\k44}game
+Dialogue: 0,0:00:17.78,0:00:19.93,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k15}You {\k34}claim {\k14}to {\k14}be {\k14}a {\k17}play{\k17}er
+Dialogue: 0,0:00:19.03,0:00:21.07,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k12}But {\k21}I {\k28}fucked {\k20}your {\k33}wife
+Dialogue: 0,0:00:20.30,0:00:22.46,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k19}We {\k23}bust {\k20}on {\k31}Bad {\k33}Boys
+Dialogue: 0,0:00:21.56,0:00:23.58,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k15}Nig{\k19}gas {\k27}fucked {\k16}for {\k35}life
+Dialogue: 0,0:00:22.83,0:00:24.97,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k30}Plus, {\k16}Puff{\k16}y {\k15}try{\k16}na {\k16}see {\k15}me
+Dialogue: 0,0:00:24.07,0:00:26.10,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k35}Weak {\k28}hearts {\k21}I {\k29}rip
+Dialogue: 0,0:00:25.34,0:00:27.66,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k16}Big{\k13}gie {\k25}Smalls {\k12}and {\k13}Jun{\k15}ior {\k18}M.A.{\k14}F.I.{\k16}A.'s
+Dialogue: 0,0:00:26.76,0:00:28.98,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k21}Some {\k25}mark-{\k38}ass {\k23}bitch{\k25}еs
+Dialogue: 0,0:00:28.31,0:00:30.00,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k14}We {\k18}keep {\k16}on {\k15}com{\k16}ing
+Dialogue: 0,0:00:29.10,0:00:31.27,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k17}While {\k17}we {\k13}run{\k17}ning {\k13}for {\k19}your {\k16}jе{\k15}wels
+Dialogue: 0,0:00:30.37,0:00:32.55,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k16}Stead{\k16}y {\k17}gun{\k15}ning, {\k14}keep {\k17}on {\k18}bust{\k15}ing
+Dialogue: 0,0:00:31.65,0:00:34.09,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k14}At {\k17}them {\k47}fools, {\k14}you {\k15}know {\k16}the {\k31}rules
+Dialogue: 0,0:00:33.39,0:00:35.24,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k27}Lil {\k19}Cae{\k15}sar, {\k15}go {\k19}ask
+Dialogue: 0,0:00:34.34,0:00:36.31,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k13}Your {\k16}ho{\k15}mie {\k18}how {\k14}I'll {\k15}leave {\k16}ya
+Dialogue: 0,0:00:35.43,0:00:37.37,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k15}Cut {\k16}your {\k19}young-{\k26}ass {\k28}up
+Dialogue: 0,0:00:36.52,0:00:39.25,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k16}Leave {\k16}you {\k15}in {\k18}pie{\k30}ces, {\k16}now {\k15}be {\k15}de{\k42}ceased
+Dialogue: 0,0:00:38.42,0:00:41.36,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k27}Lil {\k34}Kim, {\k17}don't {\k17}fuck {\k15}a{\k19}round {\k12}with {\k32}real {\k31}G's
+Dialogue: 0,0:00:40.46,0:00:43.36,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k16}Quick {\k15}to {\k19}snatch {\k14}yo' {\k14}ug{\k16}ly {\k29}ass {\k19}off {\k18}the {\k40}streets
+Dialogue: 0,0:00:42.53,0:00:44.31,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k14}So {\k30}fuck {\k44}peace
+Dialogue: 0,0:00:43.48,0:00:46.29,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k12}I'll {\k16}let {\k16}them {\k16}nig{\k16}gas {\k17}know {\k18}it's {\k27}on {\k16}for {\k37}life
+Dialogue: 0,0:00:45.39,0:00:48.77,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k11}Don't {\k19}let {\k13}the {\k28}West{\k34}side {\k31}ride {\k18}to{\k47}night, {\k13}ha-{\k34}ha
+Dialogue: 0,0:00:48.34,0:00:51.26,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k30}Bad {\k31}Boy {\k16}mur{\k16}dered {\k31}on {\k32}wax {\k20}and {\k26}killed
+Dialogue: 0,0:00:50.55,0:00:52.40,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k16}Fuck {\k17}with {\k12}me {\k18}and {\k14}get {\k18}yo'
+Dialogue: 0,0:00:51.58,0:00:53.86,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k35}Caps {\k51}peeled, {\k21}you {\k31}know
+Dialogue: 0,0:00:53.08,0:00:56.68,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k49}See, {\k26}grab {\k18}your {\k32}glocks {\k16}when {\k17}you {\k27}see {\k28}Tu{\k57}pac
+Dialogue: 0,0:00:56.10,0:00:59.27,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k27}Call {\k19}the {\k28}cops {\k19}when {\k15}you {\k29}see {\k22}Tu{\k41}pac, {\k27}uh
+Dialogue: 0,0:00:58.71,0:01:01.53,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k24}Who {\k25}shot {\k15}me? {\k16}But {\k15}you {\k34}punks {\k17}did{\k14}n't {\k16}fin{\k16}ish
+Dialogue: 0,0:01:00.63,0:01:03.53,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k17}Now {\k13}you {\k19}'bout {\k15}to {\k14}feel {\k17}the {\k29}wrath {\k16}of {\k17}a {\k15}men{\k28}ace
+Dialogue: 0,0:01:02.67,0:01:04.69,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k18}Nig{\k24}ga, {\k9}I {\k13}hit {\k14}'em {\k34}up
+Dialogue: 0,0:01:03.79,0:01:06.06,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k18}Check {\k18}this {\k25}out, {\k17}you {\k16}moth{\k13}er{\k18}fuck{\k12}ers
+Dialogue: 0,0:01:05.16,0:01:07.31,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k19}Know {\k8}what {\k24}time {\k7}it {\k19}is, {\k10}I {\k7}don't {\k11}e{\k7}ven {\k13}know
+Dialogue: 0,0:01:06.41,0:01:08.33,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k11}Why {\k13}I'm {\k17}on {\k19}this {\k42}track
+Dialogue: 0,0:01:07.52,0:01:09.76,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k16}Y'all {\k10}nig{\k9}gas {\k16}ain't {\k14}e{\k9}ven {\k22}on {\k17}my {\k13}lev{\k8}el
+Dialogue: 0,0:01:08.86,0:01:11.30,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k9}Im{\k10}ma {\k16}let {\k13}my {\k19}lil' {\k17}ho{\k20}mies {\k18}ride {\k13}on {\k19}you
+Dialogue: 0,0:01:10.40,0:01:13.99,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k31}Bitch-{\k23}made {\k36}ass {\k29}Bad {\k37}Boy {\k21}bit{\k52}ches, {\k22}feel {\k18}it
+Dialogue: 0,0:01:10.74,0:01:13.49,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k29}Hey, {\k25}yo, {\k22}yo, {\k19}hold {\k13}the {\k24}fuck {\k28}up, {\k25}yo
+Dialogue: 0,0:01:13.11,0:01:16.55,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k12}Get {\k20}out {\k15}the {\k45}way, {\k30}yo, {\k16}get {\k22}out {\k15}the {\k44}way, {\k35}yo
+Dialogue: 0,0:01:16.06,0:01:18.62,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k16}Big{\k15}gie {\k33}Smalls {\k25}just {\k31}got {\k46}dropped
+Dialogue: 0,0:01:17.72,0:01:20.27,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k13}Lit{\k15}tle {\k28}Mu', {\k38}pass {\k22}the {\k49}MAC
+Dialogue: 0,0:01:19.37,0:01:21.69,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k16}And {\k16}let {\k21}me {\k12}hit {\k13}him {\k16}in {\k18}his {\k30}back
+Dialogue: 0,0:01:20.82,0:01:23.11,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k28}Frank {\k32}White {\k16}needs {\k16}to {\k15}get {\k32}spanked
+Dialogue: 0,0:01:22.25,0:01:24.29,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k26}Right {\k16}for {\k16}set{\k19}ting {\k37}traps
+Dialogue: 0,0:01:23.39,0:01:25.51,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k12}Lit{\k15}tle {\k24}ac{\k8}ci{\k14}dent {\k25}mur{\k10}der{\k14}er
+Dialogue: 0,0:01:24.81,0:01:26.93,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k10}And {\k20}I {\k9}ain't {\k18}nev{\k13}er {\k20}heard {\k12}of {\k20}ya
+Dialogue: 0,0:01:26.14,0:01:29.49,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k26}Poi{\k11}so{\k17}nous {\k26}gats {\k16}at{\k38}tack {\k16}when {\k28}I'm {\k27}ser{\k15}ving {\k25}ya
+Dialogue: 0,0:01:28.66,0:01:31.74,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k33}Spank {\k13}ya, {\k34}shank {\k15}ya {\k31}whole {\k32}style {\k15}when {\k19}I {\k26}gank
+Dialogue: 0,0:01:31.07,0:01:32.74,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k30}Guard {\k15}your {\k14}rank {\k18}'cause
+Dialogue: 0,0:01:31.87,0:01:34.31,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k13}Im{\k14}ma {\k26}slam {\k10}your {\k32}ass {\k13}in {\k13}the {\k33}paint
+Dialogue: 0,0:01:33.41,0:01:35.75,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k20}Puff{\k11}y {\k19}wea{\k12}ker {\k15}than {\k16}the {\k16}fuck{\k15}ing {\k20}block
+Dialogue: 0,0:01:34.87,0:01:36.70,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k13}I'm {\k16}run{\k13}ning {\k16}through, {\k17}nig{\k18}ga
+Dialogue: 0,0:01:35.94,0:01:38.19,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k11}And {\k17}I'm {\k18}smo{\k13}king {\k16}Ju{\k17}nior {\k21}M.A.{\k11}F.I{\k11}.A.
+Dialogue: 0,0:01:37.30,0:01:39.14,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k19}In {\k20}front {\k11}of {\k18}you, {\k14}nig{\k12}ga
+Dialogue: 0,0:01:38.37,0:01:40.81,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k7}With {\k16}the {\k15}read{\k20}y {\k14}po{\k13}wer {\k23}tucked {\k9}in {\k16}my {\k21}Guess
+Dialogue: 0,0:01:39.91,0:01:41.85,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k12}Un{\k14}der {\k15}my {\k17}Ed{\k14}die {\k20}Bau{\k12}er
+Dialogue: 0,0:01:41.13,0:01:42.96,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k14}Your {\k21}clout {\k15}pet{\k15}ty-{\k18}so{\k10}ur
+Dialogue: 0,0:01:42.06,0:01:44.93,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k15}I {\k19}push {\k17}pack{\k12}a{\k16}ges {\k17}eve{\k14}ry {\k25}hour, {\k11}I {\k13}hit {\k13}'em {\k25}up
+Dialogue: 0,0:01:44.03,0:01:47.12,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k23}Grab {\k18}your {\k30}glocks {\k20}when {\k19}you {\k23}see {\k31}Tu{\k55}pac
+Dialogue: 0,0:01:46.52,0:01:49.69,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k27}Call {\k16}the {\k30}cops {\k17}when {\k17}you {\k30}see {\k22}Tu{\k41}pac, {\k27}uh
+Dialogue: 0,0:01:49.12,0:01:51.94,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k24}Who {\k25}shot {\k15}me? {\k16}But {\k15}you {\k34}punks {\k17}did{\k14}n't {\k16}fin{\k16}ish
+Dialogue: 0,0:01:51.04,0:01:53.94,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k17}Now {\k13}you {\k19}'bout {\k15}to {\k14}feel {\k17}the {\k29}wrath {\k16}of {\k17}a {\k15}men{\k28}ace
+Dialogue: 0,0:01:53.10,0:01:54.99,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k16}Nig{\k15}ga, {\k16}we {\k15}hit {\k14}'em {\k23}up
+Dialogue: 0,0:01:54.04,0:01:56.21,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k17}Peep {\k16}how {\k14}we {\k15}do {\k16}it, {\k19}keep {\k13}it {\k17}real
+Dialogue: 0,0:01:55.31,0:01:57.45,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k13}As {\k16}pen{\k15}i{\k17}ten{\k16}tia{\k19}ry {\k28}steel
+Dialogue: 0,0:01:56.55,0:01:58.87,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k16}This {\k16}ain't {\k21}no {\k24}free{\k30}style {\k18}bat{\k17}tle
+Dialogue: 0,0:01:57.97,0:02:00.15,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k18}All {\k14}you {\k15}nig{\k20}gas {\k13}get{\k15}ting {\k33}killed
+Dialogue: 0,0:01:59.25,0:02:01.13,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k13}With {\k18}your {\k30}mouths {\k19}o{\k18}pen
+Dialogue: 0,0:02:00.49,0:02:02.50,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k18}Try{\k13}na {\k15}come {\k17}up {\k20}off {\k12}of {\k16}me
+Dialogue: 0,0:02:01.60,0:02:03.63,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k15}You {\k17}in {\k16}the {\k31}clouds {\k20}hop{\k14}ing
+Dialogue: 0,0:02:02.99,0:02:05.48,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k20}Smo{\k15}king {\k17}dope, {\k14}it's {\k16}like {\k14}a {\k31}sherm {\k32}high
+Dialogue: 0,0:02:04.59,0:02:06.90,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k12}Nig{\k19}gas {\k14}think {\k17}they {\k32}learned {\k17}to {\k30}fly
+Dialogue: 0,0:02:06.18,0:02:08.30,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k14}But {\k16}they {\k32}burn, {\k14}moth{\k17}er{\k16}fuck{\k13}er
+Dialogue: 0,0:02:07.40,0:02:09.42,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k17}You {\k16}de{\k31}serve {\k16}to {\k32}die
+Dialogue: 0,0:02:08.69,0:02:10.84,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k16}Talk{\k15}ing {\k17}'bout {\k15}you {\k15}get{\k17}ting {\k16}mon{\k14}ey
+Dialogue: 0,0:02:09.94,0:02:11.95,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k14}But {\k17}it's {\k17}fun{\k16}ny {\k18}to {\k29}me
+Dialogue: 0,0:02:11.21,0:02:13.37,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k16}All {\k15}you {\k15}nig{\k17}gas {\k15}liv{\k15}ing {\k17}bum{\k16}my
+Dialogue: 0,0:02:12.47,0:02:14.45,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k14}While {\k17}you {\k16}fuck{\k16}ing {\k18}with {\k27}me
+Dialogue: 0,0:02:13.72,0:02:16.31,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k16}I'm {\k16}a {\k32}self-{\k32}made {\k15}mil{\k16}lio{\k42}naire
+Dialogue: 0,0:02:15.62,0:02:17.79,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k31}Thug {\k17}liv{\k13}ing, {\k15}out {\k16}of {\k18}pri{\k17}son
+Dialogue: 0,0:02:16.89,0:02:19.54,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k15}Pis{\k19}tols {\k13}in {\k14}the {\k64}air, {\k17}ha-{\k33}ha
+Dialogue: 0,0:02:18.64,0:02:20.92,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k13}Big{\k18}gie, {\k14}re{\k16}mem{\k15}ber {\k14}when {\k17}I {\k16}used {\k15}to
+Dialogue: 0,0:02:20.02,0:02:22.03,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k15}Let {\k16}you {\k17}sleep {\k15}on {\k17}the {\k31}couch
+Dialogue: 0,0:02:21.13,0:02:24.03,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k16}And {\k18}beg {\k13}a {\k19}bitch {\k12}to {\k16}let {\k15}you {\k17}sleep {\k16}in {\k15}the {\k43}house?
+Dialogue: 0,0:02:23.80,0:02:26.03,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k20}Now {\k11}it's {\k20}all {\k12}a{\k16}bout {\k14}Ver{\k23}sa{\k17}ce
+Dialogue: 0,0:02:25.25,0:02:27.13,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k12}You {\k19}co{\k14}pied {\k19}my {\k34}style
+Dialogue: 0,0:02:26.37,0:02:28.55,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k27}Five {\k32}shots {\k15}could{\k16}n't {\k23}drop {\k15}me
+Dialogue: 0,0:02:27.76,0:02:29.70,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k13}I {\k17}took {\k13}it {\k15}and {\k46}smiled
+Dialogue: 0,0:02:28.84,0:02:31.27,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k17}Now {\k14}I'm {\k19}back {\k12}to {\k16}set {\k15}the {\k17}re{\k17}cord {\k26}straight
+Dialogue: 0,0:02:30.59,0:02:32.89,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k14}With {\k15}my {\k18}A{\k14}K, {\k18}I'm {\k13}still {\k18}the {\k30}thug
+Dialogue: 0,0:02:32.03,0:02:33.80,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k13}That {\k15}you {\k16}love {\k18}to {\k25}hate
+Dialogue: 0,0:02:33.09,0:02:35.38,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k17}Moth{\k18}er{\k13}fuck{\k18}er, {\k14}I {\k16}hit {\k16}'em {\k27}up!
+Dialogue: 0,0:02:33.83,0:02:36.29,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k11}I'm {\k27}from {\k18}N-{\k14}E-{\k20}dou{\k12}ble-{\k16}U {\k38}Jers'
+Dialogue: 0,0:02:35.39,0:02:37.46,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k14}Where {\k18}plen{\k8}ty {\k8}of {\k18}mur{\k19}ders {\k10}oc{\k22}curs
+Dialogue: 0,0:02:36.66,0:02:38.36,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k12}No {\k23}points {\k13}or {\k20}com{\k12}mas
+Dialogue: 0,0:02:37.46,0:02:39.95,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k17}We {\k15}bring {\k13}the {\k25}dra{\k10}ma {\k8}to {\k22}all {\k14}you {\k35}herbs
+Dialogue: 0,0:02:39.05,0:02:41.95,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k13}Now {\k16}go {\k30}check {\k14}the {\k12}sce{\k19}na{\k14}ri{\k27}o, {\k23}Lil {\k32}Cease
+Dialogue: 0,0:02:41.12,0:02:43.63,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k9}I'll {\k21}bring {\k16}you {\k26}fake {\k34}G's {\k10}to {\k12}your {\k33}knees
+Dialogue: 0,0:02:42.73,0:02:45.06,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k18}Cop{\k17}ping {\k24}pleas {\k9}in {\k17}de {\k10}Ja{\k19}ne{\k14}ri{\k15}o
+Dialogue: 0,0:02:44.16,0:02:46.95,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k13}Lit{\k19}tle {\k23}Kim, {\k16}is {\k14}you {\k33}coked {\k14}up {\k14}or {\k29}doped {\k14}up?
+Dialogue: 0,0:02:46.21,0:02:48.09,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k22}Get {\k12}your {\k12}lit{\k19}tle {\k22}Jun{\k11}ior
+Dialogue: 0,0:02:47.19,0:02:49.36,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k21}Whop{\k18}per {\k25}clique {\k36}smoked {\k27}up
+Dialogue: 0,0:02:48.46,0:02:50.70,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k13}What {\k16}the {\k26}fuck? {\k19}Is {\k21}you {\k24}stu{\k15}pid?
+Dialogue: 0,0:02:49.80,0:02:51.80,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k20}I {\k32}take {\k15}mon{\k14}ey, {\k29}crash
+Dialogue: 0,0:02:50.90,0:02:53.06,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k23}And {\k36}mash {\k21}through {\k23}Brook{\k23}lyn
+Dialogue: 0,0:02:52.29,0:02:54.33,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k12}With {\k20}my {\k25}clique {\k15}loot{\k17}in', {\k14}shoot{\k11}in'
+Dialogue: 0,0:02:53.43,0:02:55.44,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k18}And {\k13}pol{\k15}lut{\k14}in' {\k16}your {\k35}block
+Dialogue: 0,0:02:54.54,0:02:57.48,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k8}With {\k8}a {\k20}fif{\k27}teen-{\k28}shot {\k28}cocked {\k29}Glock {\k13}to {\k19}your {\k24}knot
+Dialogue: 0,0:02:56.60,0:02:58.81,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k26}Out{\k28}law {\k20}MA{\k9}FI{\k20}A {\k28}clique
+Dialogue: 0,0:02:57.91,0:03:00.07,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k18}Mo{\k9}ving {\k19}up {\k10}a{\k20}noth{\k12}er {\k38}notch
+Dialogue: 0,0:02:59.17,0:03:01.19,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k9}And {\k16}your {\k28}pop {\k32}stars {\k27}popped
+Dialogue: 0,0:03:00.29,0:03:02.22,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k7}And {\k19}get {\k27}mopped {\k16}and {\k34}dropped
+Dialogue: 0,0:03:01.38,0:03:04.03,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k22}All {\k17}your {\k25}fake-{\k28}ass {\k25}East {\k26}Coast {\k32}props
+Dialogue: 0,0:03:03.16,0:03:05.04,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k30}Brain{\k25}stormed {\k15}and {\k28}locked
+Dialogue: 0,0:03:04.14,0:03:07.75,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k19}You's {\k45}a {\k30}beat {\k26}bi{\k23}ter, {\k15}a {\k31}Pac {\k31}style {\k21}ta{\k30}ker
+Dialogue: 0,0:03:06.85,0:03:08.82,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k13}I'll {\k16}tell {\k19}you {\k12}to {\k17}your {\k30}face
+Dialogue: 0,0:03:07.92,0:03:10.24,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k15}You {\k31}ain't {\k17}shit, {\k15}but {\k16}a {\k22}fa{\k26}ker
+Dialogue: 0,0:03:09.50,0:03:12.16,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k19}Soft{\k12}er {\k15}than {\k16}A{\k13}li{\k18}zé {\k14}with {\k18}a {\k23}cha{\k28}ser
+Dialogue: 0,0:03:11.31,0:03:13.70,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k8}A{\k17}bout {\k15}to {\k16}get {\k14}mur{\k17}dered {\k15}for {\k15}the {\k16}pa{\k16}per
+Dialogue: 0,0:03:12.82,0:03:15.97,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k16}E.{\k15}D.{\k15}I. {\k19}Mean {\k11}ap{\k21}proach {\k10}the {\k33}scene {\k17}of {\k15}the {\k19}ca{\k34}per
+Dialogue: 0,0:03:15.17,0:03:18.22,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k15}Like {\k14}a {\k50}loc, {\k15}with {\k14}Lit{\k15}tle {\k16}Cea{\k18}s' {\k15}in {\k15}a {\k28}choke
+Dialogue: 0,0:03:17.34,0:03:19.18,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k31}Gun {\k19}tot{\k14}ing {\k30}smoke
+Dialogue: 0,0:03:18.48,0:03:20.81,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k16}We {\k16}ain't {\k15}no {\k15}moth{\k15}er{\k17}fuck{\k16}ing {\k33}joke
+Dialogue: 0,0:03:19.91,0:03:22.57,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k30}Thug {\k34}Life, {\k13}nig{\k16}gas {\k18}bet{\k14}ter {\k16}be {\k16}know{\k19}ing
+Dialogue: 0,0:03:21.69,0:03:23.94,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k11}We {\k14}ap{\k22}proach{\k28}ing {\k12}in {\k16}the {\k32}wide
+Dialogue: 0,0:03:23.04,0:03:25.08,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k15}O{\k17}pen, {\k29}gun {\k22}smo{\k31}king
+Dialogue: 0,0:03:24.18,0:03:26.89,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k12}No {\k16}need {\k16}for {\k16}ho{\k15}ping, {\k16}it's {\k17}a {\k14}bat{\k16}tle {\k43}lost
+Dialogue: 0,0:03:26.05,0:03:28.21,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k15}I {\k16}got {\k14}'em {\k33}crossed {\k16}as {\k22}soon {\k10}as
+Dialogue: 0,0:03:27.31,0:03:29.61,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k17}The {\k29}funk {\k22}is {\k26}bop{\k15}ping {\k31}off
+Dialogue: 0,0:03:28.88,0:03:30.91,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k15}Nig{\k17}ga, {\k13}I {\k20}hit {\k12}'em {\k36}up
+Dialogue: 0,0:03:30.92,0:03:33.34,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k16}Now {\k15}you {\k32}tell {\k19}me {\k18}who {\k52}won
+Dialogue: 0,0:03:32.52,0:03:35.60,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k23}I {\k20}see {\k50}them, {\k22}they {\k61}run, {\k11}ha-{\k10}ha-{\k21}ha
+Dialogue: 0,0:03:35.06,0:03:37.09,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k14}They {\k14}don't {\k11}wan{\k13}na {\k16}see {\k45}us
+Dialogue: 0,0:03:36.28,0:03:38.46,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k23}Whole {\k17}Jun{\k13}ior {\k19}M.A.{\k11}F.I.{\k16}A. {\k29}clique
+Dialogue: 0,0:03:37.58,0:03:39.93,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k17}Dress{\k13}ing {\k18}up {\k20}try{\k14}na {\k14}be {\k49}us
+Dialogue: 0,0:03:39.06,0:03:41.12,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k7}How {\k12}the {\k17}fuck {\k18}they {\k9}gon{\k6}na {\k15}be {\k11}the {\k21}mob
+Dialogue: 0,0:03:40.22,0:03:42.33,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k14}When {\k12}we {\k19}al{\k18}ways {\k11}on {\k20}our {\k27}job?
+Dialogue: 0,0:03:41.43,0:03:43.30,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k19}We {\k22}mil{\k15}lio{\k41}naires
+Dialogue: 0,0:03:42.52,0:03:45.30,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k10}Kill{\k9}ing {\k17}ain't {\k26}fair, {\k13}but {\k15}some{\k15}bo{\k9}dy {\k10}got{\k14}ta {\k11}do {\k39}it
+Dialogue: 0,0:03:44.47,0:03:46.95,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k18}Oh-{\k40}yeah, {\k29}Mobb {\k40}Deep, {\k31}huh
+Dialogue: 0,0:03:46.28,0:03:48.20,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k8}You {\k11}wan{\k12}na {\k20}fuck {\k11}with {\k40}us?
+Dialogue: 0,0:03:47.43,0:03:49.76,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k9}You {\k8}lit{\k13}tle {\k21}young-{\k38}ass {\k12}moth{\k15}er{\k15}fuck{\k12}ers
+Dialogue: 0,0:03:48.88,0:03:50.72,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k16}Don't {\k12}one {\k10}of {\k8}you {\k9}nig{\k15}gas {\k24}got
+Dialogue: 0,0:03:49.84,0:03:51.64,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k14}Sick{\k13}le-{\k18}cell {\k17}or {\k15}some{\k13}thing?
+Dialogue: 0,0:03:51.00,0:03:53.20,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k16}You {\k15}fuck{\k8}ing {\k12}with {\k18}me, {\k6}nig{\k6}ga, {\k15}you {\k15}fuck {\k9}a{\k10}round
+Dialogue: 0,0:03:52.30,0:03:54.68,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k6}And {\k13}have {\k21}a {\k20}sei{\k17}zure {\k7}or {\k11}a {\k15}heart {\k13}at{\k25}tack
+Dialogue: 0,0:03:53.78,0:03:55.78,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k8}You {\k10}bet{\k16}ter {\k22}back {\k14}the {\k20}fuck {\k20}up
+Dialogue: 0,0:03:54.88,0:03:57.33,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k11}'Fore {\k11}you {\k29}get {\k27}smacked {\k15}the {\k25}fuck {\k37}up
+Dialogue: 0,0:03:56.59,0:03:59.08,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k10}This {\k5}is {\k15}how {\k18}we {\k9}do {\k7}it {\k15}on {\k30}our {\k50}side
+Dialogue: 0,0:03:58.25,0:04:00.19,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k14}An{\k10}y {\k6}of {\k6}you {\k11}nig{\k14}gas {\k13}from {\k14}New {\k16}York
+Dialogue: 0,0:03:59.35,0:04:01.26,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k12}That {\k10}wan{\k12}na {\k18}bring {\k14}it, {\k19}bring {\k16}it
+Dialogue: 0,0:04:00.36,0:04:03.10,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k10}But {\k8}we {\k24}ain't {\k19}sing{\k30}ing, {\k18}we {\k16}bring{\k15}ing {\k23}dra{\k21}ma
+Dialogue: 0,0:04:02.37,0:04:05.10,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k22}Fuck {\k14}you {\k22}and {\k17}yo' {\k15}moth{\k11}er{\k19}fuck{\k16}ing {\k19}ma{\k28}ma
+Dialogue: 0,0:04:04.28,0:04:06.97,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k10}We {\k21}gon' {\k22}kill {\k23}all {\k16}you {\k12}moth{\k17}er{\k20}fuck{\k38}ers
+Dialogue: 0,0:04:06.11,0:04:08.17,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k10}Now {\k6}when {\k14}I {\k26}came {\k17}out, {\k10}I {\k22}told {\k11}you
+Dialogue: 0,0:04:07.27,0:04:09.32,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k4}It {\k12}was {\k19}just {\k10}a{\k22}bout {\k16}Big{\k32}gie
+Dialogue: 0,0:04:08.42,0:04:10.64,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k8}Then {\k11}eve{\k6}ry{\k13}bod{\k10}y {\k10}had {\k10}to {\k12}o{\k11}pen {\k17}their {\k24}mouth
+Dialogue: 0,0:04:09.74,0:04:11.94,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k6}With {\k8}a {\k12}moth{\k16}er{\k16}fuck{\k10}ing {\k18}o{\k19}pin{\k25}ion
+Dialogue: 0,0:04:11.18,0:04:13.18,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k6}Well, {\k8}this {\k7}is {\k17}how {\k11}we {\k11}gon{\k11}na {\k12}do {\k27}this
+Dialogue: 0,0:04:12.71,0:04:14.86,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k26}Fuck {\k40}Mobb {\k59}Deep
+Dialogue: 0,0:04:14.10,0:04:15.69,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k29}Fuck {\k18}Big{\k22}gie
+Dialogue: 0,0:04:15.04,0:04:18.12,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k25}Fuck {\k32}Bad {\k25}Boy {\k10}as {\k20}a {\k44}staff, {\k18}re{\k12}cord {\k19}la{\k13}bel
+Dialogue: 0,0:04:17.22,0:04:19.37,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k12}And {\k12}as {\k15}a {\k13}moth{\k13}er{\k14}fuck{\k23}ing {\k23}crew
+Dialogue: 0,0:04:18.74,0:04:21.33,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k7}And {\k11}if {\k14}you {\k7}wan{\k11}na {\k16}be {\k20}down {\k14}with {\k29}Bad {\k40}Boy
+Dialogue: 0,0:04:20.48,0:04:22.37,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k23}Then {\k24}fuck {\k24}you {\k28}too
+Dialogue: 0,0:04:21.76,0:04:24.73,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k21}Chi{\k20}no {\k25}X{\k59}L, {\k31}fuck {\k22}you {\k29}too
+Dialogue: 0,0:04:24.09,0:04:27.04,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k24}All {\k16}you {\k15}moth{\k15}er{\k18}fuck{\k45}ers, {\k26}fuck {\k22}you {\k24}too
+Dialogue: 0,0:04:28.93,0:04:31.06,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k20}All {\k14}of {\k26}y'all {\k14}moth{\k14}er{\k17}fuck{\k18}ers
+Dialogue: 0,0:04:30.16,0:04:32.84,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k31}Fuck {\k26}you, {\k32}die {\k35}slow {\k15}moth{\k16}er{\k15}fuck{\k8}er
+Dialogue: 0,0:04:31.99,0:04:34.05,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k23}My {\k28}.four-{\k25}four {\k23}make {\k17}sure
+Dialogue: 0,0:04:33.15,0:04:35.40,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k26}All {\k26}y'all {\k33}kids {\k25}don't {\k25}grow
+Dialogue: 0,0:04:34.81,0:04:37.71,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k8}You {\k15}moth{\k17}er{\k14}fuck{\k16}ers {\k31}can't {\k13}be {\k19}us {\k23}or {\k18}see {\k26}us
+Dialogue: 0,0:04:37.10,0:04:39.56,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k15}We {\k13}moth{\k14}er{\k14}fuck{\k15}ing {\k23}Thug {\k29}Life {\k20}ri{\k13}das
+Dialogue: 0,0:04:38.68,0:04:41.02,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k29}West{\k39}side {\k13}'til {\k25}we {\k38}die
+Dialogue: 0,0:04:40.49,0:04:43.29,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k21}Out {\k14}here {\k11}in {\k16}Cal{\k14}i{\k25}for{\k12}nia, {\k10}nig{\k10}ga, {\k18}we {\k27}warned {\k12}ya
+Dialogue: 0,0:04:42.39,0:04:44.88,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k29}We'll {\k30}bomb {\k20}on {\k12}you {\k9}moth{\k16}er{\k15}fuck{\k28}ers
+Dialogue: 0,0:04:44.15,0:04:46.01,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k16}We {\k17}do {\k28}our {\k35}job
+Dialogue: 0,0:04:45.30,0:04:47.08,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k16}You {\k21}think {\k22}you {\k29}mob?
+Dialogue: 0,0:04:46.23,0:04:48.71,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k9}Nig{\k14}ga, {\k14}we {\k14}the {\k11}moth{\k17}er{\k15}fuck{\k17}ing {\k47}mob
+Dialogue: 0,0:04:47.81,0:04:50.36,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k17}Ain't {\k15}noth{\k5}ing {\k16}but {\k16}kill{\k14}as {\k11}and {\k18}the {\k28}real {\k12}nig{\k13}gas
+Dialogue: 0,0:04:49.46,0:04:51.64,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k22}All {\k13}you {\k11}moth{\k15}er{\k14}fuck{\k19}ers {\k13}feel {\k21}us
+Dialogue: 0,0:04:51.03,0:04:54.06,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k22}Our {\k23}shits {\k24}go {\k16}tri{\k9}ple {\k24}and {\k34}four-{\k20}qua{\k17}dru{\k24}ple
+Dialogue: 0,0:04:55.65,0:04:58.30,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k9}You {\k9}nig{\k16}gas {\k31}laugh {\k13}'cause {\k27}our {\k34}staff {\k36}got
+Dialogue: 0,0:04:57.54,0:04:59.98,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k33}Guns {\k8}in {\k17}they {\k13}moth{\k11}er{\k15}fuck{\k23}ers {\k34}belts
+Dialogue: 0,0:04:59.40,0:05:01.46,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k12}You {\k13}know {\k12}how {\k9}it {\k21}is, {\k10}when {\k13}we {\k26}drop
+Dialogue: 0,0:05:00.56,0:05:02.43,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k14}Re{\k17}cords, {\k23}they {\k43}felt
+Dialogue: 0,0:05:01.76,0:05:04.56,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k8}You {\k11}nig{\k15}gas {\k30}can't {\k15}feel {\k37}it, {\k11}we {\k12}the {\k15}re{\k11}a{\k25}lest
+Dialogue: 0,0:05:03.85,0:05:06.59,KM_Up,,0,0,0,fx,{\k70\fad(300,200)}{\k20}Fuck {\k28}'em! {\k16}We {\k31}Bad {\k27}Boy {\k20}kill{\k42}as
