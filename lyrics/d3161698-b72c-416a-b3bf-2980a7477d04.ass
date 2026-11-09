@@ -1,0 +1,139 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+LayoutResX: 0
+LayoutResY: 0
+Title: Innocent Call (Full-Ten Heart Arrangement)
+Original Timing: Naruse, Timmy Does
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Ripple,Arial,24,&H00FF843C,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:17.60,0:00:22.43,Ripple,,0,0,0,karaoke,{\k19}o{\k17}n{\k18}na{\k54}no{\k18}ko {\k18}da{\k18}ke {\k71}ga {\k18}mu{\k18}ne {\k36}ni {\k17}hi{\k37}me{\k36}te{\k60}ru
+Comment: 0,0:00:22.79,0:00:28.61,Ripple,,0,0,0,karaoke,{\k37}na{\k35}i{\k19}sho {\k34}no {\k16}ka{\k19}ga{\k16}ya{\k39}ki {\k16}ho{\k73}ra {\k17}mi{\k35}tsu{\k19}ke{\k37}ta{\k36}i {\kf134}no
+Comment: 0,0:00:29.03,0:00:33.83,Ripple,,0,0,0,karaoke,{\k17}ka{\k19}sa{\k20}ne{\k53}te {\k17}sa{\k19}sa{\k16}e{\k73}te {\k18}tsu{\k18}ta{\k35}e{\k17}ru {\k36}E{\k36}NER{\kf86}GY
+Comment: 0,0:00:34.04,0:00:37.07,Ripple,,0,0,0,karaoke,{\k17}e{\k17}ga{\k19}o {\k53}to {\k19}yu{\k54}me {\k17}fu{\k54}ri{\k16}ma{\k37}ki
+Comment: 0,0:00:37.40,0:00:39.86,Ripple,,0,0,0,karaoke,{\k21}ha{\k17}ji{\k19}ke{\k18}da{\k36}se{\k18}ba {\k35}ME{\k17}LO{\k38}DY {\k27}ni
+Comment: 0,0:00:45.98,0:00:51.15,Ripple,,0,0,0,karaoke,{\k38}ki{\k19}ga{\k68}ru {\k21}ja{\k37}na{\k15}i {\k71}yo {\k23}ga{\k32}n{\k18}ba{\k45}ru{\k25}t{\kf105}te
+Comment: 0,0:00:51.52,0:00:52.80,Ripple,,0,0,0,karaoke,{\k20}dai{\k17}su{\k36}ki {\k55}wa
+Comment: 0,0:00:52.80,0:00:53.31,Sample KM [Choir],,0,0,0,karaoke,{\k51}CHEER!
+Comment: 0,0:00:52.99,0:00:54.27,Ripple,,0,0,0,karaoke,{\k16}hon{\k18}ki {\k35}na{\k59}no
+Comment: 0,0:00:54.22,0:00:54.65,Sample KM [Choir],,0,0,0,karaoke,{\k43}CHEER!
+Comment: 0,0:00:54.57,0:00:59.89,Ripple,,0,0,0,karaoke,{\k55}HE{\k52}AR{\k37}T {\k52}no {\k55}ha{\k36}mo{\kf245}n
+Comment: 0,0:01:00.27,0:01:02.74,Ripple,,0,0,0,karaoke,{\k37}u{\k19}ke{\k36}to{\k36}t{\kf119}te
+Comment: 0,0:01:03.15,0:01:05.73,Ripple,,0,0,0,karaoke,{\k18}da{\k18}re{\k17}ka {\k18}no {\k19}ta{\k36}me {\k34}chi{\k17}ka{\k20}ra {\k18}ni {\k18}na{\k25}ru
+Comment: 0,0:01:05.85,0:01:08.44,Ripple,,0,0,0,karaoke,{\k34}ji{\k20}bu{\k15}n {\k17}no {\k19}ta{\k35}me {\k37}da{\k18}ka{\k64}ra
+Comment: 0,0:01:08.68,0:01:11.20,Ripple,,0,0,0,karaoke,{\k37}ho{\k17}ka {\k18}no {\k36}da{\k17}re {\k18}de{\k37}mo {\k16}na{\k17}i {\k39}yo
+Comment: 0,0:01:11.53,0:01:14.18,Ripple,,0,0,0,karaoke,{\k36}wa{\k18}ta{\k17}shi {\k17}no {\k20}ke{\k35}tsu{\kf122}i
+Comment: 0,0:01:13.86,0:01:14.57,Sample KM [Choir],,0,0,0,karaoke,{\k37}FOR {\k34}YOU
+Comment: 0,0:01:14.54,0:01:17.12,Ripple,,0,0,0,karaoke,{\k22}ja{\k16}ma {\k19}sa{\k18}se{\k19}na{\k37}i {\k34}tsu{\k16}yo{\k20}i {\k16}o{\k20}mo{\k21}i
+Comment: 0,0:01:17.25,0:01:20.01,Ripple,,0,0,0,karaoke,{\k37}u{\k16}ba{\k18}wa{\k18}se{\k19}na{\k36}i {\k36}FRA{\k17}G{\k79}MENT
+Comment: 0,0:01:20.28,0:01:22.79,Ripple,,0,0,0,karaoke,{\k19}u{\k18}ma{\k18}re{\k36}ta {\k17}te {\k36}no {\k36}kes{\k35}shou {\k36}wa
+Comment: 0,0:01:22.97,0:01:25.63,Ripple,,0,0,0,karaoke,{\k17}is{\k54}shou{\k18}ken{\k55}mei {\k17}zet{\k54}tai {\k17}zet{\k34}tai
+Comment: 0,0:01:25.83,0:01:27.58,Ripple,,0,0,0,karaoke,{\k9}ma{\k10}mo{\k34}t{\k19}te {\k35}mi{\k36}se{\k32}ru
+Comment: 0,0:01:40.45,0:01:45.28,Ripple,,0,0,0,karaoke,{\k18}do{\k20}ko {\k18}ka {\k51}de {\k20}ki{\k19}ko{\k18}e{\k70}ta {\k17}u{\k19}wa{\k36}sa {\k18}no {\k35}tsu{\k35}zu{\kf89}ki
+Comment: 0,0:01:45.60,0:01:51.47,Ripple,,0,0,0,karaoke,{\k41}ki{\k34}zu{\k20}ke{\k35}ba {\k18}fu{\k18}shi{\k18}gi {\k34}no {\k21}ku{\k69}ni {\k19}tsu{\k36}mu{\k17}gu {\k36}yo {\k36}STO{\kf135}RY
+Comment: 0,0:01:51.89,0:01:56.64,Ripple,,0,0,0,karaoke,{\k19}ko{\k17}ko{\k18}ro {\k54}no {\k17}o{\k18}ku {\k18}ka{\k71}ra {\k18}i{\k19}zu{\k35}mi {\k18}mi{\k35}ta{\k37}i {\k81}ni
+Comment: 0,0:01:56.90,0:01:59.94,Ripple,,0,0,0,karaoke,{\k14}wa{\k21}ki{\k18}da{\k54}su {\k18}ko{\k52}no {\k19}ki{\k57}mo{\k15}chi {\k36}wa
+Comment: 0,0:02:00.27,0:02:02.79,Ripple,,0,0,0,karaoke,{\k20}na{\k18}n{\k16}te {\k19}i{\k36}e{\k19}ba {\k34}i{\k36}in {\k16}da{\k38}rou
+Comment: 0,0:02:08.86,0:02:14.04,Ripple,,0,0,0,karaoke,{\k39}mi{\k15}n{\k71}na {\k18}ji{\k36}bu{\k19}n {\k72}ni {\k16}su{\k35}na{\k20}o {\k35}ni {\k36}na{\kf106}re
+Comment: 0,0:02:14.41,0:02:15.77,Ripple,,0,0,0,karaoke,{\k7}su{\k10}ki {\k18}na {\k35}mo{\k66}no
+Comment: 0,0:02:15.57,0:02:16.01,Sample KM [Choir],,0,0,0,karaoke,{\k44}CHEER!
+Comment: 0,0:02:15.87,0:02:17.23,Ripple,,0,0,0,karaoke,{\k7}su{\k6}ki {\k19}da{\k34}t{\k70}te
+Comment: 0,0:02:17.03,0:02:17.51,Sample KM [Choir],,0,0,0,karaoke,{\k48}CHEER!
+Comment: 0,0:02:17.41,0:02:22.79,Ripple,,0,0,0,karaoke,{\k57}HE{\k52}AR{\k35}T {\k55}no {\k53}sa{\k36}ke{\kf250}bi
+Comment: 0,0:02:23.12,0:02:25.59,Ripple,,0,0,0,karaoke,{\k43}o{\k14}shi{\k35}e{\k35}te {\kf120}yo!
+Comment: 0,0:02:26.01,0:02:28.64,Ripple,,0,0,0,karaoke,{\k18}mo{\k36}ria{\k17}ge{\k19}ta{\k35}i! {\k37}se{\k13}i{\k38}ip{\k20}pa{\k30}i
+Comment: 0,0:02:28.68,0:02:31.26,Ripple,,0,0,0,karaoke,{\k36}i{\k19}tsu{\k18}mo {\k18}mi{\k17}te{\k36}ru {\k35}da{\k17}ka{\k62}ra
+Comment: 0,0:02:31.54,0:02:34.04,Ripple,,0,0,0,karaoke,{\k37}ma{\k19}s{\k16}su{\k37}gu {\k16}u{\k17}ta {\k37}ni {\k18}no{\k18}se{\k35}te
+Comment: 0,0:02:34.40,0:02:37.04,Ripple,,0,0,0,karaoke,{\k36}wa{\k16}ta{\k19}shi {\k18}no {\k18}ko{\k36}e {\kf121}wo
+Comment: 0,0:02:36.68,0:02:37.60,Sample KM [Choir],,0,0,0,karaoke,{\k40}FOR {\k52}YOU
+Comment: 0,0:02:37.42,0:02:39.96,Ripple,,0,0,0,karaoke,{\k20}ji{\k20}bu{\k15}n {\k18}ra{\k18}shi{\k36}ku {\k36}ki{\k16}ra{\k19}me{\k17}ki{\k19}ta{\k20}i
+Comment: 0,0:02:40.08,0:02:42.83,Ripple,,0,0,0,karaoke,{\k35}i{\k21}s{\k19}sho {\k18}na{\k18}n {\k35}da {\k37}ki{\k17}t{\k75}to
+Comment: 0,0:02:43.14,0:02:45.63,Ripple,,0,0,0,karaoke,{\k15}to{\k22}ki{\k15}me{\k38}ku {\k19}mu{\k16}ne {\k19}a{\k35}ri{\k36}ga{\k34}tou!
+Comment: 0,0:02:45.73,0:02:48.47,Ripple,,0,0,0,karaoke,{\k28}is{\k51}shou{\k20}ken{\k54}mei! {\k17}ip{\k53}pai! {\k18}ip{\k29}pai!
+Comment: 0,0:02:48.65,0:02:50.45,Ripple,,0,0,0,karaoke,{\k10}to{\k10}do{\k37}ka{\k19}se{\k34}ru {\k34}ka{\k36}ra
+Comment: 0,0:03:14.38,0:03:15.59,Ripple,,0,0,0,karaoke,{\k10}a{\k9}ko{\k19}ga{\k36}re {\k40}wo
+Comment: 0,0:03:15.65,0:03:16.20,Sample KM [Choir],,0,0,0,karaoke,{\k55}CHEER!
+Comment: 0,0:03:15.83,0:03:17.14,Ripple,,0,0,0,karaoke,{\k17}gen{\k18}ji{\k36}tsu {\k60}ni
+Comment: 0,0:03:17.07,0:03:17.58,Sample KM [Choir],,0,0,0,karaoke,{\k51}CHEER!
+Comment: 0,0:03:17.42,0:03:22.61,Ripple,,0,0,0,karaoke,{\k55}HE{\k54}AR{\k36}T {\k52}no {\k54}ha{\k36}mo{\kf232}n
+Comment: 0,0:03:23.16,0:03:25.65,Ripple,,0,0,0,karaoke,{\k35}tsu{\k17}na{\k39}ga{\k34}t{\kf124}te!
+Comment: 0,0:03:26.00,0:03:28.55,Ripple,,0,0,0,karaoke,{\k17}da{\k17}re{\k21}ka {\k17}no {\k18}ta{\k37}me {\k33}chi{\k17}ka{\k21}ra {\k17}ni {\k18}na{\k22}ru
+Comment: 0,0:03:28.70,0:03:31.29,Ripple,,0,0,0,karaoke,{\k35}ji{\k16}bu{\k18}n {\k18}no {\k20}ta{\k34}me {\k36}da{\k16}ka{\k66}ra
+Comment: 0,0:03:31.52,0:03:34.05,Ripple,,0,0,0,karaoke,{\k37}ho{\k19}ka {\k17}no {\k37}da{\k18}re {\k16}de{\k37}mo {\k18}na{\k17}i {\k37}yo
+Comment: 0,0:03:34.40,0:03:37.03,Ripple,,0,0,0,karaoke,{\k35}wa{\k18}ta{\k18}shi {\k17}no {\k19}ke{\k35}tsu{\kf121}i
+Comment: 0,0:03:36.72,0:03:37.43,Sample KM [Choir],,0,0,0,karaoke,{\k36}FOR {\k35}YOU
+Comment: 0,0:03:37.42,0:03:40.00,Ripple,,0,0,0,karaoke,{\k19}ja{\k19}ma {\k18}sa{\k17}se{\k18}na{\k35}i {\k38}tsu{\k18}yo{\k17}i {\k17}o{\k18}mo{\k24}i
+Comment: 0,0:03:40.12,0:03:42.80,Ripple,,0,0,0,karaoke,{\k36}u{\k16}ba{\k20}wa{\k17}se{\k18}na{\k36}i {\k35}FRA{\k17}G{\k73}MENT
+Comment: 0,0:03:43.14,0:03:45.61,Ripple,,0,0,0,karaoke,{\k19}u{\k18}ma{\k18}re{\k34}ta {\k19}te {\k33}no {\k37}kes{\k36}shou {\k33}wa
+Comment: 0,0:03:45.81,0:03:48.48,Ripple,,0,0,0,karaoke,{\k19}is{\k54}shou{\k18}ken{\k56}mei {\k15}zet{\k55}tai {\k18}zet{\k32}tai
+Comment: 0,0:03:48.66,0:03:50.43,Ripple,,0,0,0,karaoke,{\k8}ma{\k11}mo{\k38}t{\k17}te {\k36}mi{\k34}se{\k33}ru
+Dialogue: 0,0:00:16.70,0:00:22.63,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k19}o{\k17}n{\k18}na{\k54}no{\k18}ko {\k18}da{\k18}ke {\k71}ga {\k18}mu{\k18}ne {\k36}ni {\k17}hi{\k37}me{\k36}te{\k60}ru
+Dialogue: 0,0:00:21.89,0:00:28.81,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k37}na{\k35}i{\k19}sho {\k34}no {\k16}ka{\k19}ga{\k16}ya{\k39}ki {\k16}ho{\k73}ra {\k17}mi{\k35}tsu{\k19}ke{\k37}ta{\k36}i {\kf134}no
+Dialogue: 0,0:00:28.13,0:00:34.03,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ka{\k19}sa{\k20}ne{\k53}te {\k17}sa{\k19}sa{\k16}e{\k73}te {\k18}tsu{\k18}ta{\k35}e{\k17}ru {\k36}E{\k36}NER{\kf86}GY
+Dialogue: 0,0:00:33.14,0:00:37.27,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k17}e{\k17}ga{\k19}o {\k53}to {\k19}yu{\k54}me {\k17}fu{\k54}ri{\k16}ma{\k37}ki
+Dialogue: 0,0:00:36.50,0:00:40.06,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ha{\k17}ji{\k19}ke{\k18}da{\k36}se{\k18}ba {\k35}ME{\k17}LO{\k38}DY {\k27}ni
+Dialogue: 0,0:00:45.08,0:00:51.35,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k38}ki{\k19}ga{\k68}ru {\k21}ja{\k37}na{\k15}i {\k71}yo {\k23}ga{\k32}n{\k18}ba{\k45}ru{\k25}t{\kf105}te
+Dialogue: 0,0:00:50.62,0:00:53.00,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k20}dai{\k17}su{\k36}ki {\k55}wa
+Dialogue: 0,0:00:51.90,0:00:53.51,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k51}CHEER!
+Dialogue: 0,0:00:52.09,0:00:54.47,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k16}hon{\k18}ki {\k35}na{\k59}no
+Dialogue: 0,0:00:53.32,0:00:54.85,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k43}CHEER!
+Dialogue: 0,0:00:53.67,0:01:00.09,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k55}HE{\k52}AR{\k37}T {\k52}no {\k55}ha{\k36}mo{\kf245}n
+Dialogue: 0,0:00:59.37,0:01:02.94,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k37}u{\k19}ke{\k36}to{\k36}t{\kf119}te
+Dialogue: 0,0:01:02.25,0:01:05.93,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k18}da{\k18}re{\k17}ka {\k18}no {\k19}ta{\k36}me {\k34}chi{\k17}ka{\k20}ra {\k18}ni {\k18}na{\k25}ru
+Dialogue: 0,0:01:04.95,0:01:08.64,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k34}ji{\k20}bu{\k15}n {\k17}no {\k19}ta{\k35}me {\k37}da{\k18}ka{\k64}ra
+Dialogue: 0,0:01:07.78,0:01:11.40,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k37}ho{\k17}ka {\k18}no {\k36}da{\k17}re {\k18}de{\k37}mo {\k16}na{\k17}i {\k39}yo
+Dialogue: 0,0:01:10.63,0:01:14.38,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k36}wa{\k18}ta{\k17}shi {\k17}no {\k20}ke{\k35}tsu{\kf122}i
+Dialogue: 0,0:01:12.96,0:01:14.77,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k37}FOR {\k34}YOU
+Dialogue: 0,0:01:13.64,0:01:17.32,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ja{\k16}ma {\k19}sa{\k18}se{\k19}na{\k37}i {\k34}tsu{\k16}yo{\k20}i {\k16}o{\k20}mo{\k21}i
+Dialogue: 0,0:01:16.35,0:01:20.21,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k37}u{\k16}ba{\k18}wa{\k18}se{\k19}na{\k36}i {\k36}FRA{\k17}G{\k79}MENT
+Dialogue: 0,0:01:19.38,0:01:22.99,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k19}u{\k18}ma{\k18}re{\k36}ta {\k17}te {\k36}no {\k36}kes{\k35}shou {\k36}wa
+Dialogue: 0,0:01:22.07,0:01:25.83,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k17}is{\k54}shou{\k18}ken{\k55}mei {\k17}zet{\k54}tai {\k17}zet{\k34}tai
+Dialogue: 0,0:01:24.93,0:01:27.78,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k9}ma{\k10}mo{\k34}t{\k19}te {\k35}mi{\k36}se{\k32}ru
+Dialogue: 0,0:01:39.55,0:01:45.48,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k18}do{\k20}ko {\k18}ka {\k51}de {\k20}ki{\k19}ko{\k18}e{\k70}ta {\k17}u{\k19}wa{\k36}sa {\k18}no {\k35}tsu{\k35}zu{\kf89}ki
+Dialogue: 0,0:01:44.70,0:01:51.67,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k41}ki{\k34}zu{\k20}ke{\k35}ba {\k18}fu{\k18}shi{\k18}gi {\k34}no {\k21}ku{\k69}ni {\k19}tsu{\k36}mu{\k17}gu {\k36}yo {\k36}STO{\kf135}RY
+Dialogue: 0,0:01:50.99,0:01:56.84,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ko{\k17}ko{\k18}ro {\k54}no {\k17}o{\k18}ku {\k18}ka{\k71}ra {\k18}i{\k19}zu{\k35}mi {\k18}mi{\k35}ta{\k37}i {\k81}ni
+Dialogue: 0,0:01:56.00,0:02:00.14,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k14}wa{\k21}ki{\k18}da{\k54}su {\k18}ko{\k52}no {\k19}ki{\k57}mo{\k15}chi {\k36}wa
+Dialogue: 0,0:01:59.37,0:02:02.99,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k20}na{\k18}n{\k16}te {\k19}i{\k36}e{\k19}ba {\k34}i{\k36}in {\k16}da{\k38}rou
+Dialogue: 0,0:02:07.96,0:02:14.24,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k39}mi{\k15}n{\k71}na {\k18}ji{\k36}bu{\k19}n {\k72}ni {\k16}su{\k35}na{\k20}o {\k35}ni {\k36}na{\kf106}re
+Dialogue: 0,0:02:13.51,0:02:15.97,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k7}su{\k10}ki {\k18}na {\k35}mo{\k66}no
+Dialogue: 0,0:02:14.67,0:02:16.21,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k44}CHEER!
+Dialogue: 0,0:02:14.97,0:02:17.43,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k7}su{\k6}ki {\k19}da{\k34}t{\k70}te
+Dialogue: 0,0:02:16.13,0:02:17.71,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k48}CHEER!
+Dialogue: 0,0:02:16.51,0:02:22.99,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k57}HE{\k52}AR{\k35}T {\k55}no {\k53}sa{\k36}ke{\kf250}bi
+Dialogue: 0,0:02:22.22,0:02:25.79,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k43}o{\k14}shi{\k35}e{\k35}te {\kf120}yo!
+Dialogue: 0,0:02:25.11,0:02:28.84,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k18}mo{\k36}ria{\k17}ge{\k19}ta{\k35}i! {\k37}se{\k13}i{\k38}ip{\k20}pa{\k30}i
+Dialogue: 0,0:02:27.78,0:02:31.46,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k36}i{\k19}tsu{\k18}mo {\k18}mi{\k17}te{\k36}ru {\k35}da{\k17}ka{\k62}ra
+Dialogue: 0,0:02:30.64,0:02:34.24,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k37}ma{\k19}s{\k16}su{\k37}gu {\k16}u{\k17}ta {\k37}ni {\k18}no{\k18}se{\k35}te
+Dialogue: 0,0:02:33.50,0:02:37.24,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k36}wa{\k16}ta{\k19}shi {\k18}no {\k18}ko{\k36}e {\kf121}wo
+Dialogue: 0,0:02:35.78,0:02:37.80,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k40}FOR {\k52}YOU
+Dialogue: 0,0:02:36.52,0:02:40.16,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ji{\k20}bu{\k15}n {\k18}ra{\k18}shi{\k36}ku {\k36}ki{\k16}ra{\k19}me{\k17}ki{\k19}ta{\k20}i
+Dialogue: 0,0:02:39.18,0:02:43.03,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k35}i{\k21}s{\k19}sho {\k18}na{\k18}n {\k35}da {\k37}ki{\k17}t{\k75}to
+Dialogue: 0,0:02:42.24,0:02:45.83,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k15}to{\k22}ki{\k15}me{\k38}ku {\k19}mu{\k16}ne {\k19}a{\k35}ri{\k36}ga{\k34}tou!
+Dialogue: 0,0:02:44.83,0:02:48.67,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k28}is{\k51}shou{\k20}ken{\k54}mei! {\k17}ip{\k53}pai! {\k18}ip{\k29}pai!
+Dialogue: 0,0:02:47.75,0:02:50.65,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k10}to{\k10}do{\k37}ka{\k19}se{\k34}ru {\k34}ka{\k36}ra
+Dialogue: 0,0:03:13.48,0:03:15.79,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k10}a{\k9}ko{\k19}ga{\k36}re {\k40}wo
+Dialogue: 0,0:03:14.75,0:03:16.40,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k55}CHEER!
+Dialogue: 0,0:03:14.93,0:03:17.34,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k17}gen{\k18}ji{\k36}tsu {\k60}ni
+Dialogue: 0,0:03:16.17,0:03:17.78,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k51}CHEER!
+Dialogue: 0,0:03:16.52,0:03:22.81,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k55}HE{\k54}AR{\k36}T {\k52}no {\k54}ha{\k36}mo{\kf232}n
+Dialogue: 0,0:03:22.26,0:03:25.85,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k35}tsu{\k17}na{\k39}ga{\k34}t{\kf124}te!
+Dialogue: 0,0:03:25.10,0:03:28.75,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k17}da{\k17}re{\k21}ka {\k17}no {\k18}ta{\k37}me {\k33}chi{\k17}ka{\k21}ra {\k17}ni {\k18}na{\k22}ru
+Dialogue: 0,0:03:27.80,0:03:31.49,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ji{\k16}bu{\k18}n {\k18}no {\k20}ta{\k34}me {\k36}da{\k16}ka{\k66}ra
+Dialogue: 0,0:03:30.62,0:03:34.25,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k37}ho{\k19}ka {\k17}no {\k37}da{\k18}re {\k16}de{\k37}mo {\k18}na{\k17}i {\k37}yo
+Dialogue: 0,0:03:33.50,0:03:37.23,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k35}wa{\k18}ta{\k18}shi {\k17}no {\k19}ke{\k35}tsu{\kf121}i
+Dialogue: 0,0:03:35.82,0:03:37.63,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k36}FOR {\k35}YOU
+Dialogue: 0,0:03:36.52,0:03:40.20,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ja{\k19}ma {\k18}sa{\k17}se{\k18}na{\k35}i {\k38}tsu{\k18}yo{\k17}i {\k17}o{\k18}mo{\k24}i
+Dialogue: 0,0:03:39.22,0:03:43.00,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k36}u{\k16}ba{\k20}wa{\k17}se{\k18}na{\k36}i {\k35}FRA{\k17}G{\k73}MENT
+Dialogue: 0,0:03:42.24,0:03:45.81,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k19}u{\k18}ma{\k18}re{\k34}ta {\k19}te {\k33}no {\k37}kes{\k36}shou {\k33}wa
+Dialogue: 0,0:03:44.91,0:03:48.68,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k19}is{\k54}shou{\k18}ken{\k56}mei {\k15}zet{\k55}tai {\k18}zet{\k32}tai
+Dialogue: 0,0:03:47.76,0:03:50.63,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k8}ma{\k11}mo{\k38}t{\k17}te {\k36}mi{\k34}se{\k33}ru
