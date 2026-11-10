@@ -3,26 +3,42 @@ Title: Stop The Battle
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
-Collisions: Normal
 Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,3,0,8,10,10,10,1
+Style: Default,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 1,0:0:8.72,0:0:12.24,Default,,0000,0000,0000,,{\k100}{\k16}GO{\k28}GGLE {\k48}GO! {\k64}{\k16}GO{\k32}GGLE {\k48}GO!
-Dialogue: 1,0:0:12.00,0:0:16.04,Default,,0000,0000,0000,,{\k100}{\k20}ta{\k28}ta{\k32}ka{\k24}i {\k28}wa {\k36}tsu{\k24}zu{\k112}ku
-Dialogue: 1,0:0:15.32,0:0:19.44,Default,,0000,0000,0000,,{\k100}{\k24}ta{\k24}ta{\k36}ka{\k24}i {\k24}wa {\k36}tsu{\k24}zu{\k120}ku
-Dialogue: 1,0:0:18.44,0:0:24.80,Default,,0000,0000,0000,,{\k100}{\k132}OH {\k76}STOP {\k64}{\k16}THE {\k20}{\k168}BA{\k60}TTLE
-Dialogue: 1,0:0:25.32,0:0:30.40,Default,,0000,0000,0000,,{\k100}{\k40}te{\k36}ki {\k44}wa {\k44}an{\k20}ko{\k24}ku {\k20}no {\k20}DEA{\k24}TH {\k28}DA{\k44}R{\k64}K
-Dialogue: 1,0:0:29.84,0:0:32.56,Default,,0000,0000,0000,,{\k100}{\k24}ya{\k20}tsu-{\k24}ra {\k24}wa {\k24}ko{\k24}o{\k20}ri {\k12}da
-Dialogue: 1,0:0:31.48,0:0:33.88,Default,,0000,0000,0000,,{\k100}{\k16}sa{\k16}ba{\k16}ku {\k16}no {\k20}su{\k16}na {\k40}da
-Dialogue: 1,0:0:33.20,0:0:37.20,Default,,0000,0000,0000,,{\k100}{\k24}mo{\k32}ya{\k32}se {\k24}se{\k24}i{\k24}gi {\k20}no {\k20}a{\k20}tsu{\k20}i {\k20}chi {\k40}wo
-Dialogue: 1,0:0:36.56,0:0:43.00,Default,,0000,0000,0000,,{\k100}{\k36}S{\k32}C{\k32}RAM{\k28}B{\k32}LE {\k52}da {\k80}ha{\k36}sshin {\k216}da
-Dialogue: 1,0:0:43.64,0:0:46.60,Default,,0000,0000,0000,,{\k100}{\k48}OH {\k24}REA{\k52}DY {\k72}SET
-Dialogue: 1,0:0:46.48,0:0:49.72,Default,,0000,0000,0000,,{\k100}{\k28}GO{\k20}GGLE {\k28}{\k24}GO{\k36}GGLE {\k24}{\k64}GO!
-Dialogue: 1,0:0:49.84,0:0:56.48,Default,,0000,0000,0000,,{\k100}{\k56}ONE {\k28}{\k60}TWO {\k28}{\k52}THREE {\k32}{\k52}FOUR {\k20}{\k24}GO{\k24}GGLE {\k24}{\k28}GO{\k44}GGLE {\k28}{\k64}GO!
-Dialogue: 1,0:0:56.52,0:1:0.92,Default,,0000,0000,0000,,{\k100}{\k20}ma{\k24}mo{\k28}re {\k20}chi{\k24}kyu{\k24}u {\k40}wo {\k20}ta{\k20}o{\k24}se {\k20}ta{\k20}bu{\k24}u {\k32}wo
-Dialogue: 1,0:0:59.92,0:1:8.44,Default,,0000,0000,0000,,{\k100}{\k20}ta{\k20}ta{\k24}ka{\k20}e {\k20}da{\k20}i {\k20}se{\k24}n{\k16}ta{\k168}i {\k64}{\k36}GO{\k24}GGLE {\k20}{\k256}FIVE
+Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:09.72,0:00:12.24,Default,,0,0,0,karaoke,{\k16}GO{\k28}GGLE {\k48}GO! {\k64}{\k16}GO{\k32}GGLE {\k48}GO!
+Comment: 1,0:00:13.00,0:00:16.04,Default,,0,0,0,karaoke,{\k20}ta{\k28}ta{\k32}ka{\k24}i {\k28}wa {\k36}tsu{\k24}zu{\k112}ku
+Comment: 1,0:00:16.32,0:00:19.44,Default,,0,0,0,karaoke,{\k24}ta{\k24}ta{\k36}ka{\k24}i {\k24}wa {\k36}tsu{\k24}zu{\k120}ku
+Comment: 1,0:00:19.44,0:00:24.80,Default,,0,0,0,karaoke,{\k132}OH {\k76}STOP {\k64}{\k16}THE {\k20}{\k168}BA{\k60}TTLE
+Comment: 1,0:00:26.32,0:00:30.40,Default,,0,0,0,karaoke,{\k40}te{\k36}ki {\k44}wa {\k44}an{\k20}ko{\k24}ku {\k20}no {\k20}DEA{\k24}TH {\k28}DA{\k44}R{\k64}K
+Comment: 1,0:00:30.84,0:00:32.56,Default,,0,0,0,karaoke,{\k24}ya{\k20}tsu-{\k24}ra {\k24}wa {\k24}ko{\k24}o{\k20}ri {\k12}da
+Comment: 1,0:00:32.48,0:00:33.88,Default,,0,0,0,karaoke,{\k16}sa{\k16}ba{\k16}ku {\k16}no {\k20}su{\k16}na {\k40}da
+Comment: 1,0:00:34.20,0:00:37.20,Default,,0,0,0,karaoke,{\k24}mo{\k32}ya{\k32}se {\k24}se{\k24}i{\k24}gi {\k20}no {\k20}a{\k20}tsu{\k20}i {\k20}chi {\k40}wo
+Comment: 1,0:00:37.56,0:00:43.00,Default,,0,0,0,karaoke,{\k36}S{\k32}C{\k32}RAM{\k28}B{\k32}LE {\k52}da {\k80}ha{\k36}sshin {\k216}da
+Comment: 1,0:00:44.64,0:00:46.60,Default,,0,0,0,karaoke,{\k48}OH {\k24}REA{\k52}DY {\k72}SET
+Comment: 1,0:00:47.48,0:00:49.72,Default,,0,0,0,karaoke,{\k28}GO{\k20}GGLE {\k28}{\k24}GO{\k36}GGLE {\k24}{\k64}GO!
+Comment: 1,0:00:50.84,0:00:54.12,Default,,0,0,0,karaoke,{\k56}ONE {\k28}{\k60}TWO {\k28}{\k52}THREE {\k32}{\k52}FOUR {\k20}
+Comment: 1,0:00:54.12,0:00:56.48,Default,,0,0,0,karaoke,{\k24}GO{\k24}GGLE {\k24}{\k28}GO{\k44}GGLE {\k28}{\k64}GO!
+Comment: 1,0:00:57.52,0:01:00.92,Default,,0,0,0,karaoke,{\k20}ma{\k24}mo{\k28}re {\k20}chi{\k24}kyu{\k24}u {\k40}wo {\k20}ta{\k20}o{\k24}se {\k20}ta{\k20}bu{\k24}u {\k32}wo
+Comment: 1,0:01:00.92,0:01:08.44,Default,,0,0,0,karaoke,{\k20}ta{\k20}ta{\k24}ka{\k20}e {\k20}da{\k20}i {\k20}se{\k24}n{\k16}ta{\k168}i {\k64}{\k36}GO{\k24}GGLE {\k20}{\k256}FIVE
+Dialogue: 1,0:00:08.82,0:00:12.44,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k16}GO{\k28}GGLE {\k48}GO! {\k64}{\k16}GO{\k32}GGLE {\k48}GO!
+Dialogue: 1,0:00:12.10,0:00:16.24,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ta{\k28}ta{\k32}ka{\k24}i {\k28}wa {\k36}tsu{\k24}zu{\k112}ku
+Dialogue: 1,0:00:15.42,0:00:19.64,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ta{\k24}ta{\k36}ka{\k24}i {\k24}wa {\k36}tsu{\k24}zu{\k120}ku
+Dialogue: 1,0:00:18.54,0:00:25.00,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k132}OH {\k76}STOP {\k64}{\k16}THE {\k20}{\k168}BA{\k60}TTLE
+Dialogue: 1,0:00:25.42,0:00:30.60,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k40}te{\k36}ki {\k44}wa {\k44}an{\k20}ko{\k24}ku {\k20}no {\k20}DEA{\k24}TH {\k28}DA{\k44}R{\k64}K
+Dialogue: 1,0:00:29.94,0:00:32.76,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ya{\k20}tsu-{\k24}ra {\k24}wa {\k24}ko{\k24}o{\k20}ri {\k12}da
+Dialogue: 1,0:00:31.58,0:00:34.08,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k16}sa{\k16}ba{\k16}ku {\k16}no {\k20}su{\k16}na {\k40}da
+Dialogue: 1,0:00:33.30,0:00:37.40,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}mo{\k32}ya{\k32}se {\k24}se{\k24}i{\k24}gi {\k20}no {\k20}a{\k20}tsu{\k20}i {\k20}chi {\k40}wo
+Dialogue: 1,0:00:36.66,0:00:43.20,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k36}S{\k32}C{\k32}RAM{\k28}B{\k32}LE {\k52}da {\k80}ha{\k36}sshin {\k216}da
+Dialogue: 1,0:00:43.74,0:00:46.80,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k48}OH {\k24}REA{\k52}DY {\k72}SET
+Dialogue: 1,0:00:46.58,0:00:49.92,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k28}GO{\k20}GGLE {\k28}{\k24}GO{\k36}GGLE {\k24}{\k64}GO!
+Dialogue: 1,0:00:49.94,0:00:54.32,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k56}ONE {\k28}{\k60}TWO {\k28}{\k52}THREE {\k32}{\k52}FOUR {\k20}
+Dialogue: 1,0:00:53.22,0:00:56.68,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}GO{\k24}GGLE {\k24}{\k28}GO{\k44}GGLE {\k28}{\k64}GO!
+Dialogue: 1,0:00:56.62,0:01:01.12,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ma{\k24}mo{\k28}re {\k20}chi{\k24}kyu{\k24}u {\k40}wo {\k20}ta{\k20}o{\k24}se {\k20}ta{\k20}bu{\k24}u {\k32}wo
+Dialogue: 1,0:01:00.02,0:01:08.64,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ta{\k20}ta{\k24}ka{\k20}e {\k20}da{\k20}i {\k20}se{\k24}n{\k16}ta{\k168}i {\k64}{\k36}GO{\k24}GGLE {\k20}{\k256}FIVE
