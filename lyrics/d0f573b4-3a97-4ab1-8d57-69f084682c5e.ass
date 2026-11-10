@@ -1,0 +1,141 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+LayoutResX: 0
+LayoutResY: 0
+Title: For you
+Original Timing: Uwhipa
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:14.77,0:00:19.82,Sample KM [Up],,0,0,0,karaoke,{\k39}Once {\k18}u{\k53}pon {\k19}one {\k52}ma{\k21}ny {\k55}moons {\k18}a{\kf230}go
+Comment: 0,0:00:20.22,0:00:25.60,Sample KM [Up],,0,0,0,karaoke,{\k21}There {\k52}was {\k18}a {\k53}girl {\k19}who {\k54}wan{\k18}ted {\k54}to {\k18}be {\kf231}more
+Comment: 0,0:00:26.17,0:00:31.33,Sample KM [Up],,0,0,0,karaoke,{\k17}Her {\k40}fa{\k16}mi{\k53}ly {\k20}and {\k55}friends {\k17}who {\k53}she {\k20}a{\kf225}dored
+Comment: 0,0:00:31.78,0:00:35.91,Sample KM [Up],,0,0,0,karaoke,{\k24}From {\k49}far {\k16}a{\k56}way {\k21}they'd {\k53}pray {\k16}to {\k53}see {\k18}her {\k107}soar
+Comment: 0,0:00:39.44,0:00:41.31,Sample KM [Choir],,0,0,0,karaoke,{\k52}Times {\k36}that {\k18}we {\k81}shared
+Comment: 0,0:00:36.31,0:00:39.85,Sample KM [Up],,0,0,0,karaoke,{\k17}I {\k36}think {\k20}back {\k37}to {\k52}the {\k56}times {\k34}that {\k18}we {\k84}shared
+Comment: 0,0:00:40.60,0:00:43.07,Sample KM [Up],,0,0,0,karaoke,{\k20}What {\k38}mat{\k19}ters {\k39}in {\k16}the {\k115}end
+Comment: 0,0:00:42.08,0:00:44.58,Sample KM [Choir],,0,0,0,karaoke,{\k20}What {\k38}mat{\k19}ters {\k39}in {\k16}the {\k115}end
+Comment: 0,0:00:43.51,0:00:52.39,Sample KM [Up],,0,0,0,karaoke,{\k17}If {\k73}I {\k72}could {\k73}give {\k71}you {\k74}all {\k73}that {\k71}you {\k73}gave {\kf291}me
+Comment: 0,0:00:53.27,0:00:55.62,Sample KM [Up],,0,0,0,karaoke,{\k18}I'd {\k19}know {\k18}I {\k34}fi{\k20}nally {\k38}made {\k17}it {\k71}here
+Comment: 0,0:00:56.34,0:01:01.71,Sample KM [Up],,0,0,0,karaoke,{\k33}This {\k42}song's {\k71}for {\k141}you {\k38}for {\k38}all {\k72}you {\k102}do
+Comment: 0,0:01:02.13,0:01:04.63,Sample KM [Up],,0,0,0,karaoke,{\k37}For {\k35}be{\k74}ing {\k104}true
+Comment: 0,0:01:04.86,0:01:07.85,Sample KM [Up],,0,0,0,karaoke,{\k16}For {\k14}be{\k22}ing {\k37}with {\k14}me {\k41}through {\k16}and {\k139}through
+Comment: 0,0:01:07.91,0:01:13.29,Sample KM [Up],,0,0,0,karaoke,{\k35}This {\k38}song's {\k72}for {\k140}you, {\k40}this {\k56}song's {\k55}for {\k102}you
+Comment: 0,0:01:13.69,0:01:16.16,Sample KM [Up],,0,0,0,karaoke,{\k37}My {\k37}rock {\k71}my {\k102}glue
+Comment: 0,0:01:16.40,0:01:18.30,Sample KM [Up],,0,0,0,karaoke,{\k16}You {\k19}know {\k17}a {\k40}thanks {\k18}is {\k36}o{\k16}ver{\k28}due
+Comment: 0,0:01:18.37,0:01:21.21,Sample KM [Up],,0,0,0,karaoke,{\k39}'Cause {\k19}I {\k34}al{\k21}ways {\k171}knew
+Comment: 0,0:01:19.82,0:01:22.27,Sample KM [Choir],,0,0,0,karaoke,{\k39}'Cause {\k19}I {\k34}al{\k21}ways {\k171}knew
+Comment: 0,0:01:22.33,0:01:27.04,Sample KM [Up],,0,0,0,karaoke,{\k19}I {\k24}am {\k34}me {\k15}be{\k38}cause {\k19}of {\kf322}you
+Comment: 0,0:01:35.55,0:01:40.95,Sample KM [Up],,0,0,0,karaoke,{\k20}Re{\k36}mem{\k18}ber {\k54}when {\k22}I {\k51}said {\k20}I'd {\k49}be {\k23}a {\kf247}star
+Comment: 0,0:01:41.16,0:01:46.54,Sample KM [Up],,0,0,0,karaoke,{\k20}All {\k52}in{\k22}no{\k51}cent {\k22}while {\k52}sin{\k21}ging {\k52}in {\k20}the {\kf226}car
+Comment: 0,0:01:47.10,0:01:52.43,Sample KM [Up],,0,0,0,karaoke,{\k21}Re{\k38}mem{\k18}ber {\k52}when {\k22}I {\k51}said {\k21}that {\k55}life {\k22}was {\kf233}cruel
+Comment: 0,0:01:52.72,0:01:54.12,Sample KM [Up],,0,0,0,karaoke,{\k20}Oh, {\k56}you {\k18}were {\k46}there
+Comment: 0,0:01:54.17,0:01:56.72,Sample KM [Up],,0,0,0,karaoke,{\k22}And {\k51}made {\k19}sure {\k35}I {\k33}woul{\k20}dn't {\k75}dare
+Comment: 0,0:01:57.06,0:01:58.28,Sample KM [Up],,0,0,0,karaoke,{\k15}Like {\k20}a {\k36}hid{\k20}den {\k37}jewel,
+Comment: 0,0:01:58.28,0:02:01.03,Sample KM [Up],,0,0,0,karaoke,{\k39}You're {\k12}the {\k43}po{\k19}wer {\k37}that {\k17}I {\k108}need
+Comment: 0,0:02:00.31,0:02:02.48,Sample KM [Choir],,0,0,0,karaoke,{\k44}Po{\k15}wer {\k39}that {\k16}I {\k107}need
+Comment: 0,0:02:01.58,0:02:04.27,Sample KM [Up],,0,0,0,karaoke,{\k18}The {\k39}rea{\k14}son {\k40}I {\k16}be{\k142}lieve
+Comment: 0,0:02:03.21,0:02:05.72,Sample KM [Choir],,0,0,0,karaoke,{\k39}Rea{\k14}son {\k40}I {\k16}be{\k142}lieve
+Comment: 0,0:02:04.47,0:02:13.17,Sample KM [Up],,0,0,0,karaoke,{\k19}So {\k73}I {\k74}will {\k69}give {\k71}you {\k74}all {\k73}that {\k70}I {\k75}can {\kf272}give
+Comment: 0,0:02:14.37,0:02:16.74,Sample KM [Up],,0,0,0,karaoke,{\k22}For {\k18}as {\k31}long {\k23}as {\k33}I {\k24}am {\k86}here
+Comment: 0,0:02:17.29,0:02:22.66,Sample KM [Up],,0,0,0,karaoke,{\k36}This {\k39}song's {\k71}for {\k141}you {\k38}for {\k38}all {\k72}you {\k102}do
+Comment: 0,0:02:23.08,0:02:25.58,Sample KM [Up],,0,0,0,karaoke,{\k37}For {\k35}be{\k74}ing {\k104}true
+Comment: 0,0:02:25.81,0:02:28.68,Sample KM [Up],,0,0,0,karaoke,{\k16}For {\k14}be{\k22}ing {\k37}with {\k14}me {\k41}through {\k16}and {\k127}through
+Comment: 0,0:02:28.86,0:02:34.24,Sample KM [Up],,0,0,0,karaoke,{\k35}This {\k38}song's {\k72}for {\k140}you, {\k40}this {\k56}song's {\k55}for {\k102}you
+Comment: 0,0:02:34.64,0:02:37.11,Sample KM [Up],,0,0,0,karaoke,{\k37}My {\k37}rock {\k71}my {\k102}glue
+Comment: 0,0:02:37.35,0:02:39.25,Sample KM [Up],,0,0,0,karaoke,{\k16}You {\k19}know {\k17}a {\k40}thanks {\k18}is {\k36}o{\k16}ver{\k28}due
+Comment: 0,0:02:39.32,0:02:42.16,Sample KM [Up],,0,0,0,karaoke,{\k39}'Cause {\k19}I {\k34}al{\k21}ways {\k171}knew
+Comment: 0,0:02:40.77,0:02:43.22,Sample KM [Choir],,0,0,0,karaoke,{\k39}'Cause {\k19}I {\k34}al{\k21}ways {\k171}knew
+Comment: 0,0:02:43.28,0:02:45.81,Sample KM [Up],,0,0,0,karaoke,{\k19}I {\k24}am {\k34}me {\k15}be{\k38}cause {\k19}of {\k104}you
+Comment: 0,0:02:46.20,0:02:48.56,Sample KM [Up],,0,0,0,karaoke,{\k21}When {\k18}the {\k35}light {\k19}be{\k37}gins {\k16}to {\k90}fade
+Comment: 0,0:02:49.11,0:02:50.89,Sample KM [Up],,0,0,0,karaoke,{\k19}It's {\k17}the {\k36}pro{\k19}mise {\k31}that {\k23}you'll {\k33}stay
+Comment: 0,0:02:50.90,0:02:56.88,Sample KM [Up],,0,0,0,karaoke,{\k111}I {\k18}know {\k18}that {\k110}I'll {\k16}be {\k19}o{\kf306}kay
+Comment: 0,0:02:52.37,0:02:59.61,Sample KM [Choir],,0,0,0,karaoke,{\k73}I {\k72}know {\k72}I'll {\k72}be {\k73}o{\kf362}kay
+Comment: 0,0:03:03.53,0:03:09.01,Sample KM [Up],,0,0,0,karaoke,{\k41}Since {\k36}my {\k72}de{\k144}but, {\k39}the {\k34}years {\k70}that {\k112}flew
+Comment: 0,0:03:09.36,0:03:14.99,Sample KM [Up],,0,0,0,karaoke,{\k35}All {\k40}I've {\k69}been {\k145}through, {\k36}oh, {\k35}if {\k19}you {\k38}on{\k21}ly {\k125}knew
+Comment: 0,0:03:15.13,0:03:22.57,Sample KM [Up],,0,0,0,karaoke,{\k37}To {\k42}see {\k67}this {\k142}view, {\k38}to {\k50}sing {\k59}for {\kf309}you
+Comment: 0,0:03:23.60,0:03:34.99,Sample KM [Up],,0,0,80,karaoke,{\k21}It {\k18}real{\k19}ly {\k35}is {\k17}a {\k37}dream {\k37}come {\kf955}true
+Comment: 0,0:03:26.68,0:03:32.12,Sample KM [Up],,0,0,0,karaoke,{\k36}This {\k39}song's {\k71}for {\k141}you {\k38}for {\k38}all {\k72}you {\k109}do
+Comment: 0,0:03:32.47,0:03:34.97,Sample KM [Up],,0,0,0,karaoke,{\k37}For {\k35}be{\k74}ing {\k104}true
+Comment: 0,0:03:35.20,0:03:38.19,Sample KM [Up],,0,0,0,karaoke,{\k17}For {\k15}be{\k22}ing {\k36}with {\k14}me {\k40}through {\k36}and {\k119}through
+Comment: 0,0:03:38.25,0:03:43.63,Sample KM [Up],,0,0,0,karaoke,{\k35}This {\k40}song's {\k71}for {\k145}you, {\k35}this {\k55}song's {\k55}for {\k102}you
+Comment: 0,0:03:44.03,0:03:46.50,Sample KM [Up],,0,0,0,karaoke,{\k37}My {\k37}rock {\k71}my {\k102}glue
+Comment: 0,0:03:46.74,0:03:48.64,Sample KM [Up],,0,0,0,karaoke,{\k21}You {\k16}know {\k20}a {\k41}thanks {\k16}is {\k32}o{\k19}ver{\k25}due
+Comment: 0,0:03:48.71,0:03:51.55,Sample KM [Up],,0,0,0,karaoke,{\k39}'Cause {\k20}I {\k33}al{\k21}ways {\k171}knew
+Comment: 0,0:03:50.16,0:03:52.61,Sample KM [Choir],,0,0,0,karaoke,{\k39}'Cause {\k19}I {\k34}al{\k21}ways {\k171}knew
+Comment: 0,0:03:52.67,0:03:57.38,Sample KM [Up],,0,0,0,karaoke,{\k19}I {\k22}am {\k36}me {\k14}be{\k41}cause {\k18}of {\kf321}you
+Comment: 0,0:03:58.50,0:04:03.18,Sample KM [Up],,0,0,0,karaoke,{\k37}La-{\k36}la-{\k33}la-{\k16}la-{\k20}la-{\kf326}la
+Comment: 0,0:04:04.27,0:04:08.89,Sample KM [Up],,0,0,0,karaoke,{\k19}I {\k20}am {\k35}me {\k18}be{\k38}cause {\k19}of {\kf313}you
+Comment: 0,0:04:10.05,0:04:15.55,Sample KM [Up],,0,0,0,karaoke,{\k38}La-{\k38}la-{\k33}la-{\k17}la-{\k20}la-{\kf217}la, {\k74}la, {\k36}la-{\k18}la-{\k59}la
+Comment: 0,0:04:15.82,0:04:20.46,Sample KM [Up],,0,0,0,karaoke,{\k21}I {\k18}am {\k34}me {\k18}be{\k45}cause {\k51}of {\kf277}you
+Dialogue: 0,0:00:13.87,0:00:20.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Once {\k18}u{\k53}pon {\k19}one {\k52}ma{\k21}ny {\k55}moons {\k18}a{\kf230}go
+Dialogue: 0,0:00:19.32,0:00:25.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}There {\k52}was {\k18}a {\k53}girl {\k19}who {\k54}wan{\k18}ted {\k54}to {\k18}be {\kf231}more
+Dialogue: 0,0:00:25.27,0:00:31.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Her {\k40}fa{\k16}mi{\k53}ly {\k20}and {\k55}friends {\k17}who {\k53}she {\k20}a{\kf225}dored
+Dialogue: 0,0:00:30.88,0:00:36.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}From {\k49}far {\k16}a{\k56}way {\k21}they'd {\k53}pray {\k16}to {\k53}see {\k18}her {\k107}soar
+Dialogue: 0,0:00:38.54,0:00:41.51,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k52}Times {\k36}that {\k18}we {\k81}shared
+Dialogue: 0,0:00:35.41,0:00:40.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k36}think {\k20}back {\k37}to {\k52}the {\k56}times {\k34}that {\k18}we {\k84}shared
+Dialogue: 0,0:00:39.70,0:00:43.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}What {\k38}mat{\k19}ters {\k39}in {\k16}the {\k115}end
+Dialogue: 0,0:00:41.18,0:00:44.78,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}What {\k38}mat{\k19}ters {\k39}in {\k16}the {\k115}end
+Dialogue: 0,0:00:42.61,0:00:52.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}If {\k73}I {\k72}could {\k73}give {\k71}you {\k74}all {\k73}that {\k71}you {\k73}gave {\kf291}me
+Dialogue: 0,0:00:52.37,0:00:55.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}I'd {\k19}know {\k18}I {\k34}fi{\k20}nally {\k38}made {\k17}it {\k71}here
+Dialogue: 0,0:00:55.44,0:01:01.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}This {\k42}song's {\k71}for {\k141}you {\k38}for {\k38}all {\k72}you {\k102}do
+Dialogue: 0,0:01:01.23,0:01:04.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}For {\k35}be{\k74}ing {\k104}true
+Dialogue: 0,0:01:03.96,0:01:08.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}For {\k14}be{\k22}ing {\k37}with {\k14}me {\k41}through {\k16}and {\k139}through
+Dialogue: 0,0:01:07.01,0:01:13.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}This {\k38}song's {\k72}for {\k140}you, {\k40}this {\k56}song's {\k55}for {\k102}you
+Dialogue: 0,0:01:12.79,0:01:16.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}My {\k37}rock {\k71}my {\k102}glue
+Dialogue: 0,0:01:15.50,0:01:18.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}You {\k19}know {\k17}a {\k40}thanks {\k18}is {\k36}o{\k16}ver{\k28}due
+Dialogue: 0,0:01:17.47,0:01:21.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}'Cause {\k19}I {\k34}al{\k21}ways {\k171}knew
+Dialogue: 0,0:01:18.92,0:01:22.47,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k39}'Cause {\k19}I {\k34}al{\k21}ways {\k171}knew
+Dialogue: 0,0:01:21.43,0:01:27.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k24}am {\k34}me {\k15}be{\k38}cause {\k19}of {\kf322}you
+Dialogue: 0,0:01:34.65,0:01:41.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Re{\k36}mem{\k18}ber {\k54}when {\k22}I {\k51}said {\k20}I'd {\k49}be {\k23}a {\kf247}star
+Dialogue: 0,0:01:40.26,0:01:46.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}All {\k52}in{\k22}no{\k51}cent {\k22}while {\k52}sin{\k21}ging {\k52}in {\k20}the {\kf226}car
+Dialogue: 0,0:01:46.20,0:01:52.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Re{\k38}mem{\k18}ber {\k52}when {\k22}I {\k51}said {\k21}that {\k55}life {\k22}was {\kf233}cruel
+Dialogue: 0,0:01:51.82,0:01:54.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Oh, {\k56}you {\k18}were {\k46}there
+Dialogue: 0,0:01:53.27,0:01:56.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}And {\k51}made {\k19}sure {\k35}I {\k33}woul{\k20}dn't {\k75}dare
+Dialogue: 0,0:01:56.16,0:01:58.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Like {\k20}a {\k36}hid{\k20}den {\k37}jewel,
+Dialogue: 0,0:01:57.38,0:02:01.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}You're {\k12}the {\k43}po{\k19}wer {\k37}that {\k17}I {\k108}need
+Dialogue: 0,0:01:59.41,0:02:02.68,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Po{\k15}wer {\k39}that {\k16}I {\k107}need
+Dialogue: 0,0:02:00.68,0:02:04.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}The {\k39}rea{\k14}son {\k40}I {\k16}be{\k142}lieve
+Dialogue: 0,0:02:02.31,0:02:05.92,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Rea{\k14}son {\k40}I {\k16}be{\k142}lieve
+Dialogue: 0,0:02:03.57,0:02:13.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}So {\k73}I {\k74}will {\k69}give {\k71}you {\k74}all {\k73}that {\k70}I {\k75}can {\kf272}give
+Dialogue: 0,0:02:13.47,0:02:16.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}For {\k18}as {\k31}long {\k23}as {\k33}I {\k24}am {\k86}here
+Dialogue: 0,0:02:16.39,0:02:22.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}This {\k39}song's {\k71}for {\k141}you {\k38}for {\k38}all {\k72}you {\k102}do
+Dialogue: 0,0:02:22.18,0:02:25.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}For {\k35}be{\k74}ing {\k104}true
+Dialogue: 0,0:02:24.91,0:02:28.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}For {\k14}be{\k22}ing {\k37}with {\k14}me {\k41}through {\k16}and {\k127}through
+Dialogue: 0,0:02:27.96,0:02:34.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}This {\k38}song's {\k72}for {\k140}you, {\k40}this {\k56}song's {\k55}for {\k102}you
+Dialogue: 0,0:02:33.74,0:02:37.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}My {\k37}rock {\k71}my {\k102}glue
+Dialogue: 0,0:02:36.45,0:02:39.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}You {\k19}know {\k17}a {\k40}thanks {\k18}is {\k36}o{\k16}ver{\k28}due
+Dialogue: 0,0:02:38.42,0:02:42.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}'Cause {\k19}I {\k34}al{\k21}ways {\k171}knew
+Dialogue: 0,0:02:39.87,0:02:43.42,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k39}'Cause {\k19}I {\k34}al{\k21}ways {\k171}knew
+Dialogue: 0,0:02:42.38,0:02:46.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k24}am {\k34}me {\k15}be{\k38}cause {\k19}of {\k104}you
+Dialogue: 0,0:02:45.30,0:02:48.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}When {\k18}the {\k35}light {\k19}be{\k37}gins {\k16}to {\k90}fade
+Dialogue: 0,0:02:48.21,0:02:51.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}It's {\k17}the {\k36}pro{\k19}mise {\k31}that {\k23}you'll {\k33}stay
+Dialogue: 0,0:02:50.00,0:02:57.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k111}I {\k18}know {\k18}that {\k110}I'll {\k16}be {\k19}o{\kf306}kay
+Dialogue: 0,0:02:51.47,0:02:59.81,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k73}I {\k72}know {\k72}I'll {\k72}be {\k73}o{\kf362}kay
+Dialogue: 0,0:03:02.63,0:03:09.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Since {\k36}my {\k72}de{\k144}but, {\k39}the {\k34}years {\k70}that {\k112}flew
+Dialogue: 0,0:03:08.46,0:03:15.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}All {\k40}I've {\k69}been {\k145}through, {\k36}oh, {\k35}if {\k19}you {\k38}on{\k21}ly {\k125}knew
+Dialogue: 0,0:03:14.23,0:03:22.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}To {\k42}see {\k67}this {\k142}view, {\k38}to {\k50}sing {\k59}for {\kf309}you
+Dialogue: 0,0:03:22.70,0:03:35.19,Sample KM [Up],,0,0,80,fx,{\k90\fad(300,200)}{\k21}It {\k18}real{\k19}ly {\k35}is {\k17}a {\k37}dream {\k37}come {\kf955}true
+Dialogue: 0,0:03:25.78,0:03:32.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}This {\k39}song's {\k71}for {\k141}you {\k38}for {\k38}all {\k72}you {\k109}do
+Dialogue: 0,0:03:31.57,0:03:35.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}For {\k35}be{\k74}ing {\k104}true
+Dialogue: 0,0:03:34.30,0:03:38.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}For {\k15}be{\k22}ing {\k36}with {\k14}me {\k40}through {\k36}and {\k119}through
+Dialogue: 0,0:03:37.35,0:03:43.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}This {\k40}song's {\k71}for {\k145}you, {\k35}this {\k55}song's {\k55}for {\k102}you
+Dialogue: 0,0:03:43.13,0:03:46.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}My {\k37}rock {\k71}my {\k102}glue
+Dialogue: 0,0:03:45.84,0:03:48.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}You {\k16}know {\k20}a {\k41}thanks {\k16}is {\k32}o{\k19}ver{\k25}due
+Dialogue: 0,0:03:47.81,0:03:51.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}'Cause {\k20}I {\k33}al{\k21}ways {\k171}knew
+Dialogue: 0,0:03:49.26,0:03:52.81,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k39}'Cause {\k19}I {\k34}al{\k21}ways {\k171}knew
+Dialogue: 0,0:03:51.77,0:03:57.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k22}am {\k36}me {\k14}be{\k41}cause {\k18}of {\kf321}you
+Dialogue: 0,0:03:57.60,0:04:03.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}La-{\k36}la-{\k33}la-{\k16}la-{\k20}la-{\kf326}la
+Dialogue: 0,0:04:03.37,0:04:09.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k20}am {\k35}me {\k18}be{\k38}cause {\k19}of {\kf313}you
+Dialogue: 0,0:04:09.15,0:04:15.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}La-{\k38}la-{\k33}la-{\k17}la-{\k20}la-{\kf217}la, {\k74}la, {\k36}la-{\k18}la-{\k59}la
+Dialogue: 0,0:04:14.92,0:04:20.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k18}am {\k34}me {\k18}be{\k45}cause {\k51}of {\kf277}you
