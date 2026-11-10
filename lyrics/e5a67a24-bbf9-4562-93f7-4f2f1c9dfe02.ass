@@ -1,0 +1,110 @@
+﻿[Script Info]
+Title: You Might Think
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
+LayoutResX: 0
+LayoutResY: 0
+Original Timing: Pafnaffan
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Up] - red,Arial,24,&H005455FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:19.59,0:00:22.61,Sample KM [Up],,0,0,0,karaoke,{\k21}Oh {\k22}well {\k25}uh, {\k18}you {\k51}might {\k43}think {\k44}I'm {\k44}cra{\k34}zy
+Comment: 0,0:00:23.60,0:00:25.87,Sample KM [Up],,0,0,0,karaoke,{\k25}To {\k26}hang {\k42}a{\k46}round {\k45}with {\k43}you
+Comment: 0,0:00:27.24,0:00:29.68,Sample KM [Up],,0,0,0,karaoke,{\k20}Or {\k23}may{\k23}be {\k23}you {\k45}think {\k45}I'm {\k22}lu{\k43}cky
+Comment: 0,0:00:30.72,0:00:33.22,Sample KM [Up],,0,0,0,karaoke,{\k21}To {\k31}have {\k48}some{\k43}thin' {\k45}to {\k62}do
+Comment: 0,0:00:34.18,0:00:37.31,Sample KM [Up],,0,0,0,karaoke,{\k22}But {\k23}I {\k90}think {\k20}that {\k46}you're {\k112}wild
+Comment: 0,0:00:38.02,0:00:40.92,Sample KM [Up],,0,0,0,karaoke,{\k21}In{\k45}side {\k45}me {\k26}is {\k34}some {\k119}child
+Comment: 0,0:00:41.81,0:00:44.31,Sample KM [Up],,0,0,0,karaoke,{\k25}You {\k46}might {\k42}think {\k47}I'm {\k21}fo{\k21}o{\k48}lish
+Comment: 0,0:00:45.19,0:00:47.61,Sample KM [Up],,0,0,0,karaoke,{\k20}Or {\k25}may{\k45}be {\k46}it's {\k36}un{\k70}true
+Comment: 0,0:00:48.11,0:00:50.47,Sample KM [Up] - red,,0,0,0,karaoke,{\k24}You {\k42}might {\k170}think
+Comment: 0,0:00:49.00,0:00:51.51,Sample KM [Up],,0,0,0,karaoke,{\k22}You {\k47}might {\k50}think {\k40}I'm {\k42}cra{\k50}zy
+Comment: 0,0:00:51.51,0:00:53.74,Sample KM [Up] - red,,0,0,0,karaoke,{\k43}All {\k45}I {\k135}want
+Comment: 0,0:00:52.60,0:00:54.95,Sample KM [Up],,0,0,0,karaoke,{\k25}All {\k42}I {\k45}want {\k46}is {\k77}you
+Comment: 0,0:00:57.98,0:01:00.67,Sample KM [Up],,0,0,0,karaoke,{\k25}You {\k44}might {\k46}think {\k22}it's {\k24}hy{\k20}ste{\k25}ri{\k63}cal
+Comment: 0,0:01:01.53,0:01:03.71,Sample KM [Up],,0,0,0,karaoke,{\k5}But {\k25}I {\k43}know {\k45}when {\k45}you're {\k55}weak
+Comment: 0,0:01:04.96,0:01:07.84,Sample KM [Up],,0,0,0,karaoke,{\k22}You {\k44}think {\k46}you're {\k44}in {\k24}the {\k42}mo{\k66}vies
+Comment: 0,0:01:08.59,0:01:10.78,Sample KM [Up],,0,0,0,karaoke,{\k16}And {\k20}e{\k49}very{\k46}thing's {\k44}so {\k44}deep
+Comment: 0,0:01:11.90,0:01:14.98,Sample KM [Up],,0,0,0,karaoke,{\k24}But {\k23}I {\k89}think {\k24}that {\k44}you're {\k104}wild
+Comment: 0,0:01:15.51,0:01:18.73,Sample KM [Up],,0,0,0,karaoke,{\k19}When {\k26}you {\k45}flash {\k44}that {\k23}fra{\k62}gile {\k103}smile
+Comment: 0,0:01:19.55,0:01:22.25,Sample KM [Up],,0,0,0,karaoke,{\k20}You {\k50}might {\k44}think {\k46}it's {\k19}fo{\k19}o{\k72}lish
+Comment: 0,0:01:23.58,0:01:25.84,Sample KM [Up],,0,0,0,karaoke,{\k24}What {\k17}you {\k27}put {\k47}me {\k111}through
+Comment: 0,0:01:25.84,0:01:28.26,Sample KM [Up] - red,,0,0,0,karaoke,{\k23}You {\k45}might {\k174}think
+Comment: 0,0:01:26.70,0:01:29.39,Sample KM [Up],,0,0,0,karaoke,{\k26}You {\k43}might {\k42}think {\k47}I'm {\k48}cra{\k63}zy
+Comment: 0,0:01:29.36,0:01:31.54,Sample KM [Up] - red,,0,0,0,karaoke,{\k27}All {\k45}I {\k146}want
+Comment: 0,0:01:30.30,0:01:33.54,Sample KM [Up],,0,0,0,karaoke,{\k24}All {\k46}I {\k48}want {\k43}is {\k163}you
+Comment: 0,0:01:35.03,0:01:40.03,Sample KM [Up],,0,0,0,karaoke,{\k24}And {\k16}it {\k28}was {\k222}hard {\k25}so {\k67}hard {\k21}to {\k97}take
+Comment: 0,0:01:41.55,0:01:43.72,Sample KM [Up],,0,0,0,karaoke,{\k46}There's {\k44}no {\k45}es{\k82}cape
+Comment: 0,0:01:45.11,0:01:47.18,Sample KM [Up],,0,0,0,karaoke,{\k29}Wi{\k65}thout {\k21}a {\k66}scra{\k26}pe
+Comment: 0,0:01:50.43,0:01:53.69,Sample KM [Up],,0,0,0,karaoke,{\k8}But {\k43}you {\k26}kept {\k23}it {\k27}go{\k64}ing {\k24}till {\k23}the {\k22}sun {\k23}fell {\k43}down
+Comment: 0,0:01:54.35,0:01:56.27,Sample KM [Up],,0,0,0,karaoke,{\k19}You {\k26}kept {\k65}it {\k34}go{\k48}ing
+Comment: 0,0:02:16.37,0:02:19.89,Sample KM [Up],,0,0,0,karaoke,{\k22}Oh {\k23}well {\k23}uh, {\k20}you {\k48}might {\k44}think {\k46}I'm {\k22}de{\k17}li{\k27}ri{\k60}ous
+Comment: 0,0:02:20.44,0:02:22.89,Sample KM [Up],,0,0,0,karaoke,{\k20}Thе {\k23}way {\k43}I {\k39}run {\k50}you {\k70}down
+Comment: 0,0:02:23.78,0:02:26.28,Sample KM [Up],,0,0,0,karaoke,{\k45}But {\k23}some{\k65}where {\k25}somе{\k92}times
+Comment: 0,0:02:26.48,0:02:27.95,Sample KM [Up],,0,0,0,karaoke,{\k19}When {\k22}you're {\k28}cu{\k21}ri{\k57}ous
+Comment: 0,0:02:28.27,0:02:30.06,Sample KM [Up],,0,0,0,karaoke,{\k21}I'll {\k25}be {\k22}back {\k23}a{\k88}round
+Comment: 0,0:02:30.93,0:02:33.86,Sample KM [Up],,0,0,0,karaoke,{\k26}Oh, {\k23}I {\k88}think {\k26}that {\k45}you're {\k85}wild
+Comment: 0,0:02:34.72,0:02:38.04,Sample KM [Up],,0,0,0,karaoke,{\k29}And {\k44}so {\k42}u{\k27}ni{\k43}quely {\k147}styled
+Comment: 0,0:02:38.56,0:02:41.26,Sample KM [Up],,0,0,0,karaoke,{\k27}You {\k45}might {\k46}think {\k44}it's {\k23}fo{\k15}o{\k70}lish
+Comment: 0,0:02:41.96,0:02:44.45,Sample KM [Up],,0,0,0,karaoke,{\k25}This {\k44}chan{\k23}cy {\k45}ren{\k45}dez{\k67}-vous
+Comment: 0,0:02:45.02,0:02:47.33,Sample KM [Up] - red,,0,0,0,karaoke,{\k16}You {\k52}might {\k163}think
+Comment: 0,0:02:45.75,0:02:48.42,Sample KM [Up],,0,0,0,karaoke,{\k28}You {\k41}might {\k47}think {\k42}I'm {\k47}cra{\k62}zy
+Comment: 0,0:02:48.42,0:02:50.62,Sample KM [Up] - red,,0,0,0,karaoke,{\k31}All {\k42}I {\k147}want
+Comment: 0,0:02:49.37,0:02:51.71,Sample KM [Up],,0,0,0,karaoke,{\k26}All {\k37}I {\k50}want {\k45}is {\k76}you
+Comment: 0,0:02:52.30,0:02:55.59,Sample KM [Up],,0,0,0,karaoke,{\k24}Oh {\k24}oh {\k61}oh, {\k26}all {\k22}I {\k26}want {\k42}is {\k104}you
+Comment: 0,0:02:55.42,0:03:00.44,Sample KM [Up] - red,,0,0,0,karaoke,{\k48}All {\k54}I {\k102}want {\k88}is {\k210}you
+Comment: 0,0:02:56.11,0:02:59.50,Sample KM [Up],,0,0,0,karaoke,{\k24}All {\k23}I {\k89}want {\k90}is {\k113}you
+Dialogue: 0,0:00:18.69,0:00:22.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Oh {\k22}well {\k25}uh, {\k18}you {\k51}might {\k43}think {\k44}I'm {\k44}cra{\k34}zy
+Dialogue: 0,0:00:22.70,0:00:26.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}To {\k26}hang {\k42}a{\k46}round {\k45}with {\k43}you
+Dialogue: 0,0:00:26.34,0:00:29.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Or {\k23}may{\k23}be {\k23}you {\k45}think {\k45}I'm {\k22}lu{\k43}cky
+Dialogue: 0,0:00:29.82,0:00:33.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}To {\k31}have {\k48}some{\k43}thin' {\k45}to {\k62}do
+Dialogue: 0,0:00:33.28,0:00:37.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}But {\k23}I {\k90}think {\k20}that {\k46}you're {\k112}wild
+Dialogue: 0,0:00:37.12,0:00:41.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}In{\k45}side {\k45}me {\k26}is {\k34}some {\k119}child
+Dialogue: 0,0:00:40.91,0:00:44.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}You {\k46}might {\k42}think {\k47}I'm {\k21}fo{\k21}o{\k48}lish
+Dialogue: 0,0:00:44.29,0:00:47.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Or {\k25}may{\k45}be {\k46}it's {\k36}un{\k70}true
+Dialogue: 0,0:00:47.21,0:00:50.67,Sample KM [Up] - red,,0,0,0,fx,{\k90\fad(300,200)}{\k24}You {\k42}might {\k170}think
+Dialogue: 0,0:00:48.10,0:00:51.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}You {\k47}might {\k50}think {\k40}I'm {\k42}cra{\k50}zy
+Dialogue: 0,0:00:50.61,0:00:53.94,Sample KM [Up] - red,,0,0,0,fx,{\k90\fad(300,200)}{\k43}All {\k45}I {\k135}want
+Dialogue: 0,0:00:51.70,0:00:55.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}All {\k42}I {\k45}want {\k46}is {\k77}you
+Dialogue: 0,0:00:57.08,0:01:00.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}You {\k44}might {\k46}think {\k22}it's {\k24}hy{\k20}ste{\k25}ri{\k63}cal
+Dialogue: 0,0:01:00.63,0:01:03.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k5}But {\k25}I {\k43}know {\k45}when {\k45}you're {\k55}weak
+Dialogue: 0,0:01:04.06,0:01:08.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}You {\k44}think {\k46}you're {\k44}in {\k24}the {\k42}mo{\k66}vies
+Dialogue: 0,0:01:07.69,0:01:10.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}And {\k20}e{\k49}very{\k46}thing's {\k44}so {\k44}deep
+Dialogue: 0,0:01:11.00,0:01:15.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}But {\k23}I {\k89}think {\k24}that {\k44}you're {\k104}wild
+Dialogue: 0,0:01:14.61,0:01:18.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}When {\k26}you {\k45}flash {\k44}that {\k23}fra{\k62}gile {\k103}smile
+Dialogue: 0,0:01:18.65,0:01:22.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}You {\k50}might {\k44}think {\k46}it's {\k19}fo{\k19}o{\k72}lish
+Dialogue: 0,0:01:22.68,0:01:26.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}What {\k17}you {\k27}put {\k47}me {\k111}through
+Dialogue: 0,0:01:24.94,0:01:28.46,Sample KM [Up] - red,,0,0,0,fx,{\k90\fad(300,200)}{\k23}You {\k45}might {\k174}think
+Dialogue: 0,0:01:25.80,0:01:29.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}You {\k43}might {\k42}think {\k47}I'm {\k48}cra{\k63}zy
+Dialogue: 0,0:01:28.46,0:01:31.74,Sample KM [Up] - red,,0,0,0,fx,{\k90\fad(300,200)}{\k27}All {\k45}I {\k146}want
+Dialogue: 0,0:01:29.40,0:01:33.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}All {\k46}I {\k48}want {\k43}is {\k163}you
+Dialogue: 0,0:01:34.13,0:01:40.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}And {\k16}it {\k28}was {\k222}hard {\k25}so {\k67}hard {\k21}to {\k97}take
+Dialogue: 0,0:01:40.65,0:01:43.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}There's {\k44}no {\k45}es{\k82}cape
+Dialogue: 0,0:01:44.21,0:01:47.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Wi{\k65}thout {\k21}a {\k66}scra{\k26}pe
+Dialogue: 0,0:01:49.53,0:01:53.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k8}But {\k43}you {\k26}kept {\k23}it {\k27}go{\k64}ing {\k24}till {\k23}the {\k22}sun {\k23}fell {\k43}down
+Dialogue: 0,0:01:53.45,0:01:56.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}You {\k26}kept {\k65}it {\k34}go{\k48}ing
+Dialogue: 0,0:02:15.47,0:02:20.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Oh {\k23}well {\k23}uh, {\k20}you {\k48}might {\k44}think {\k46}I'm {\k22}de{\k17}li{\k27}ri{\k60}ous
+Dialogue: 0,0:02:19.54,0:02:23.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Thе {\k23}way {\k43}I {\k39}run {\k50}you {\k70}down
+Dialogue: 0,0:02:22.88,0:02:26.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}But {\k23}some{\k65}where {\k25}somе{\k92}times
+Dialogue: 0,0:02:25.58,0:02:28.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}When {\k22}you're {\k28}cu{\k21}ri{\k57}ous
+Dialogue: 0,0:02:27.37,0:02:30.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}I'll {\k25}be {\k22}back {\k23}a{\k88}round
+Dialogue: 0,0:02:30.03,0:02:34.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Oh, {\k23}I {\k88}think {\k26}that {\k45}you're {\k85}wild
+Dialogue: 0,0:02:33.82,0:02:38.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}And {\k44}so {\k42}u{\k27}ni{\k43}quely {\k147}styled
+Dialogue: 0,0:02:37.66,0:02:41.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}You {\k45}might {\k46}think {\k44}it's {\k23}fo{\k15}o{\k70}lish
+Dialogue: 0,0:02:41.06,0:02:44.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}This {\k44}chan{\k23}cy {\k45}ren{\k45}dez{\k67}-vous
+Dialogue: 0,0:02:44.12,0:02:47.53,Sample KM [Up] - red,,0,0,0,fx,{\k90\fad(300,200)}{\k16}You {\k52}might {\k163}think
+Dialogue: 0,0:02:44.85,0:02:48.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}You {\k41}might {\k47}think {\k42}I'm {\k47}cra{\k62}zy
+Dialogue: 0,0:02:47.52,0:02:50.82,Sample KM [Up] - red,,0,0,0,fx,{\k90\fad(300,200)}{\k31}All {\k42}I {\k147}want
+Dialogue: 0,0:02:48.47,0:02:51.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}All {\k37}I {\k50}want {\k45}is {\k76}you
+Dialogue: 0,0:02:51.40,0:02:55.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Oh {\k24}oh {\k61}oh, {\k26}all {\k22}I {\k26}want {\k42}is {\k104}you
+Dialogue: 0,0:02:54.52,0:03:00.64,Sample KM [Up] - red,,0,0,0,fx,{\k90\fad(300,200)}{\k48}All {\k54}I {\k102}want {\k88}is {\k210}you
+Dialogue: 0,0:02:55.21,0:02:59.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}All {\k23}I {\k89}want {\k90}is {\k113}you
