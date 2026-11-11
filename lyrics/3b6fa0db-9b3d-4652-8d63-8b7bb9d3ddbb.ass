@@ -18,19 +18,21 @@ Style: Bijou,Arial,22,&H00FFFFFF,&H00FF87B8,&H00000000,&H00000000,-1,0,0,0,100,1
 Style: Nerissa,Arial,22,&H00FFFFFF,&H00FB9560,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
 Style: Fuwawa,Arial,22,&H00FFFFFF,&H00FDC50E,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
 Style: Mococo,Arial,22,&H00FFFFFF,&H00E78CFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
-Style: Fuwamoco,Arial,22,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Fuwamoco,Arial,22,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
 Style: COLOR CODE,Arial,21,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,191,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:08.98,0:00:10.82,Nerissa - DOWN,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♫ "!
-Comment: 0,0:00:08.98,0:00:10.82,Shiori,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"● "!
-Comment: 0,0:00:08.98,0:00:10.82,Fuwamoco,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"◄► "!
-Comment: 0,0:00:08.98,0:00:10.82,Mococo,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"► "!
-Comment: 0,0:00:08.98,0:00:10.82,Fuwawa,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"◄ "!
-Comment: 0,0:00:08.98,0:00:10.82,Nerissa,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♫ "!
-Comment: 0,0:00:08.98,0:00:10.82,Bijou,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♦ "!
-Dialogue: 0,0:00:00.00,0:00:05.00,COLOR CODE,,0,0,0,,{\c&H008AFF&}Group{\c}   {\c&H5757FF&}Chorus{\c}\N◄ {\c&HF5C7A0&}Fuwawa{\c}   ► {\c&HC9AFE8&}Mococo{\c} \N● {\c&HC76C9B&}Shiori{\c}   ♫ {\c&HD7714A&}Nerissa{\c}   ♦ {\c&HEC8D9F&}Bijou{\c}
+Comment: 0,0:00:00.00,0:00:00.00,Group,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,Chorus,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,Nerissa - DOWN,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♫ "!
+Comment: 0,0:00:00.00,0:00:00.00,Shiori,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"● "!
+Comment: 0,0:00:00.00,0:00:00.00,Fuwamoco,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"◄► "!
+Comment: 0,0:00:00.00,0:00:00.00,Mococo,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"► "!
+Comment: 0,0:00:00.00,0:00:00.00,Fuwawa,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"◄ "!
+Comment: 0,0:00:00.00,0:00:00.00,Nerissa,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♫ "!
+Comment: 0,0:00:00.00,0:00:00.00,Bijou,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♦ "!
+Dialogue: 0,0:00:00.00,0:00:05.00,COLOR CODE,,0,0,0,,{\c&H008AFF&\i1}Group{\c\i0}   {\c&H5757FF&\i1}Chorus{\c\i0}\N◄ {\c&HF5C7A0&}Fuwawa{\c}   ► {\c&HC9AFE8&}Mococo{\c} \N● {\c&HC76C9B&}Shiori{\c}   ♫ {\c&HD7714A&}Nerissa{\c}   ♦ {\c&HEC8D9F&}Bijou{\c}
 Comment: 0,0:00:08.98,0:00:10.82,Shiori,,0,0,0,karaoke,{\k36}A-{\k32}D-{\k35}V-{\k33}E-{\k21}N-{\k27}T
 Comment: 0,0:00:16.18,0:00:17.98,Shiori,,0,0,0,karaoke,{\k35}A-{\k34}D-{\k33}V-{\k31}E-{\k23}N-{\k24}T
 Comment: 0,0:00:17.98,0:00:19.78,Fuwawa,,0,0,0,karaoke,{\k26}Time {\k23}to {\k20}get {\k23}this {\k21}par{\k25}ty {\k24}star{\k18}ted
@@ -41,7 +43,7 @@ Comment: 0,0:00:25.18,0:00:26.98,Shiori,,0,0,0,karaoke,{\k29}Sprea{\k20}ding {\k
 Comment: 0,0:00:27.02,0:00:28.80,Fuwawa,,0,0,0,karaoke,{\k23}Ne{\k24}ver {\k20}e{\k25}ver, {\k23}have {\k22}I {\k23}e{\k18}ver
 Comment: 0,0:00:28.81,0:00:30.58,Mococo,,0,0,0,karaoke,{\k25}Been {\k21}a {\k22}sin{\k24}ner, {\k23}been {\k19}a {\k25}drea{\k18}mer
 Comment: 0,0:00:30.58,0:00:32.39,Bijou,,0,0,0,karaoke,{\k29}Take {\k16}the {\k28}chance {\k22}and {\k21}with {\k23}my {\k23}ligh{\k19}ter
-Comment: 0,0:00:32.40,0:00:34.21,Nerissa,,0,0,0,karaoke,{\k26}Start {\k24}the {\k20}fi{\k47}re{\k23}~{\k21}~{\k20}~
+Comment: 0,0:00:32.40,0:00:34.21,Nerissa,,0,0,0,karaoke,{\k26}Start {\k24}the {\k20}fi{\k47}re-{\k23}e-{\k21}e-{\k20}e
 Comment: 0,0:00:34.47,0:00:35.74,Fuwawa,,0,0,0,karaoke,{\k23}Come {\k23}pull {\k21}me {\k60}out
 Comment: 0,0:00:36.28,0:00:37.62,Mococo,,0,0,0,karaoke,{\k22}I'm {\k23}out {\k20}of {\k25}sheep {\k20}to {\k24}count
 Comment: 0,0:00:37.64,0:00:41.18,Fuwamoco,,0,0,0,karaoke,{\k21}This {\k22}o{\k22}ver{\k23}kill {\k23}of {\k24}sad {\k22}old {\k22}sto{\k14}ry {\k12}is {\k38}wea{\k26}ring {\k23}me {\k62}down
@@ -55,26 +57,26 @@ Comment: 0,0:00:57.26,0:01:02.85,Bijou,,0,0,0,karaoke,{\k32}And {\k44}free {\k40
 Comment: 0,0:01:03.11,0:01:04.85,Shiori,,0,0,0,karaoke,{\k20}Fi{\k27}re, {\k18}fi{\k24}re, {\k25}light {\k23}the {\k21}fi{\k16}re
 Comment: 0,0:01:04.91,0:01:06.63,Shiori,,0,0,0,karaoke,{\k19}Brigh{\k24}ter, {\k21}high{\k18}er, {\k14}as {\k18}you {\k22}de{\k21}si{\k15}re
 Comment: 0,0:01:06.63,0:01:08.05,Shiori,,0,0,0,karaoke,{\k9}I{\k25}gnite {\k21}our {\k22}bea{\k24}ting {\k41}hearts
-Dialogue: 0,0:01:08.07,0:01:10.55,Group,,0,0,0,karaoke,{\k26}Dance {\k20}in{\k46}to {\k42}the {\k40}flame {\k30}of {\k44}light
-Dialogue: 0,0:01:10.55,0:01:11.88,Chorus,,0,0,0,karaoke,{\k46}Dance, {\k45}dance, {\k42}dance
+Comment: 0,0:01:08.07,0:01:10.55,Group,,0,0,0,karaoke,{\k26}Dance {\k20}in{\k46}to {\k42}the {\k40}flame {\k30}of {\k44}light
+Comment: 0,0:01:10.55,0:01:11.88,Chorus,,0,0,0,karaoke,{\k46}Dance, {\k45}dance, {\k42}dance
 Comment: 0,0:01:11.88,0:01:15.18,Nerissa,,0,0,0,karaoke,{\k24}a{\k47}ta{\k43}ra{\k46}shi{\k46}i {\k23}se{\k23}ka{\k22}i {\k56}he
-Dialogue: 0,0:01:15.29,0:01:17.78,Group,,0,0,0,karaoke,{\k26}Dance {\k19}un{\k45}til {\k36}the {\k56}end {\k22}of {\k45}time
-Dialogue: 0,0:01:17.78,0:01:19.08,Chorus,,0,0,0,karaoke,{\k44}Dance, {\k47}dance, {\k39}dance
+Comment: 0,0:01:15.29,0:01:17.78,Group,,0,0,0,karaoke,{\k26}Dance {\k19}un{\k45}til {\k36}the {\k56}end {\k22}of {\k45}time
+Comment: 0,0:01:17.78,0:01:19.08,Chorus,,0,0,0,karaoke,{\k44}Dance, {\k47}dance, {\k39}dance
 Comment: 0,0:01:19.12,0:01:22.41,Nerissa,,0,0,0,karaoke,{\k23}ni{\k46}ji{\k45}ge{\k21}n {\k46}no {\k23}mu{\k45}ko{\k22}ga{\k58}wa
 Comment: 0,0:01:22.49,0:01:25.81,Nerissa,,0,0,0,karaoke,{\k26}tsu{\k22}re{\k67}tet{\k29}te {\k39}a{\k25}ge{\kf124}ru
-Dialogue: 0,0:01:26.08,0:01:28.58,Group,,0,0,0,karaoke,{\k25}Dance {\k22}in{\k47}to {\k43}the {\k40}flame {\k29}of {\k44}life
-Dialogue: 0,0:01:28.58,0:01:29.92,Chorus,,0,0,0,karaoke,{\k46}Dance, {\k46}dance, {\k42}dance
-Dialogue: 0,0:01:29.94,0:01:33.25,Group,,0,0,0,karaoke,{\k18}so{\k50}re{\k44}zo{\k47}re {\k43}no {\k23}se{\k23}i{\k23}chii {\k60}he
-Dialogue: 0,0:01:33.31,0:01:35.76,Group,,0,0,0,karaoke,{\k26}Dance {\k21}un{\k45}til {\k45}the {\k45}end {\k22}of {\k36}time
-Dialogue: 0,0:01:35.80,0:01:37.28,Chorus,,0,0,0,karaoke,{\k44}Dance, {\k47}dance, {\k57}dance
-Dialogue: 0,0:01:37.36,0:01:40.41,Group,,0,0,0,karaoke,{\k46}ki{\k46}se{\k24}ki {\k44}no {\k22}mu{\k46}ko{\k22}ga{\k55}wa
-Dialogue: 0,0:01:40.52,0:01:43.38,Group,,0,0,0,karaoke,{\k23}tsu{\k24}re{\k68}tet{\k21}te {\k46}a{\k23}ge{\k81}ru
-Dialogue: 0,0:01:43.46,0:01:44.58,Group,,0,0,0,karaoke,{\k24}Re{\k39}bel{\k30}li{\k19}on
+Comment: 0,0:01:26.08,0:01:28.58,Group,,0,0,0,karaoke,{\k25}Dance {\k22}in{\k47}to {\k43}the {\k40}flame {\k29}of {\k44}life
+Comment: 0,0:01:28.58,0:01:29.92,Chorus,,0,0,0,karaoke,{\k46}Dance, {\k46}dance, {\k42}dance
+Comment: 0,0:01:29.94,0:01:33.25,Group,,0,0,0,karaoke,{\k18}so{\k50}re{\k44}zo{\k47}re {\k43}no {\k23}se{\k23}i{\k23}chii {\k60}he
+Comment: 0,0:01:33.31,0:01:35.76,Group,,0,0,0,karaoke,{\k26}Dance {\k21}un{\k45}til {\k45}the {\k45}end {\k22}of {\k36}time
+Comment: 0,0:01:35.80,0:01:37.28,Chorus,,0,0,0,karaoke,{\k44}Dance, {\k47}dance, {\k57}dance
+Comment: 0,0:01:37.36,0:01:40.41,Group,,0,0,0,karaoke,{\k46}ki{\k46}se{\k24}ki {\k44}no {\k22}mu{\k46}ko{\k22}ga{\k55}wa
+Comment: 0,0:01:40.52,0:01:43.38,Group,,0,0,0,karaoke,{\k23}tsu{\k24}re{\k68}tet{\k21}te {\k46}a{\k23}ge{\k81}ru
+Comment: 0,0:01:43.46,0:01:44.68,Group,,0,0,0,karaoke,{\k24}Re{\k39}bel{\k30}li{\k29}on
 Comment: 0,0:01:43.46,0:01:52.11,Nerissa - DOWN,,0,0,0,karaoke,{\k24}Re{\k39}bel{\k30}li{\kf772}on
-Dialogue: 0,0:01:44.58,0:01:46.41,Group,,0,0,0,karaoke,{\k22}Time {\k25}to {\k21}get {\k22}this {\k22}par{\k24}ty {\k23}star{\k24}ted
-Dialogue: 0,0:01:46.41,0:01:48.17,Group,,0,0,0,karaoke,{\k22}Fi{\k26}re, {\k18}fi{\k25}re, {\k22}light {\k22}the {\k19}fi{\k22}re
-Dialogue: 0,0:01:48.18,0:01:49.97,Group,,0,0,0,karaoke,{\k23}Brigh{\k20}ter, {\k27}high{\k16}er, {\k10}as {\k21}you {\k21}de{\k19}si{\k22}re
-Dialogue: 0,0:01:50.00,0:01:51.89,Group,,0,0,0,karaoke,{\k25}Time {\k22}to {\k22}get {\k23}this {\k22}par{\k22}ty {\k23}star{\k22}ted
+Comment: 0,0:01:44.58,0:01:46.41,Group,,0,0,0,karaoke,{\k22}Time {\k25}to {\k21}get {\k22}this {\k22}par{\k24}ty {\k23}star{\k24}ted
+Comment: 0,0:01:46.41,0:01:48.17,Group,,0,0,0,karaoke,{\k22}Fi{\k26}re, {\k18}fi{\k25}re, {\k22}light {\k22}the {\k19}fi{\k22}re
+Comment: 0,0:01:48.18,0:01:49.97,Group,,0,0,0,karaoke,{\k23}Brigh{\k20}ter, {\k27}high{\k16}er, {\k10}as {\k21}you {\k21}de{\k19}si{\k22}re
+Comment: 0,0:01:50.00,0:01:51.89,Group,,0,0,0,karaoke,{\k25}Time {\k22}to {\k22}get {\k23}this {\k22}par{\k22}ty {\k23}star{\k22}ted
 Dialogue: 0,0:00:08.08,0:00:11.02,Shiori,,0,0,0,fx,{\k90\fad(300,200)}● {\k36}A-{\k32}D-{\k35}V-{\k33}E-{\k21}N-{\k27}T
 Dialogue: 0,0:00:15.28,0:00:18.18,Shiori,,0,0,0,fx,{\k90\fad(300,200)}● {\k35}A-{\k34}D-{\k33}V-{\k31}E-{\k23}N-{\k24}T
 Dialogue: 0,0:00:17.08,0:00:19.98,Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}◄ {\k26}Time {\k23}to {\k20}get {\k23}this {\k21}par{\k25}ty {\k24}star{\k18}ted
@@ -85,7 +87,7 @@ Dialogue: 0,0:00:24.28,0:00:27.18,Shiori,,0,0,0,fx,{\k90\fad(300,200)}● {\k29}
 Dialogue: 0,0:00:26.12,0:00:29.00,Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}◄ {\k23}Ne{\k24}ver {\k20}e{\k25}ver, {\k23}have {\k22}I {\k23}e{\k18}ver
 Dialogue: 0,0:00:27.91,0:00:30.78,Mococo,,0,0,0,fx,{\k90\fad(300,200)}► {\k25}Been {\k21}a {\k22}sin{\k24}ner, {\k23}been {\k19}a {\k25}drea{\k18}mer
 Dialogue: 0,0:00:29.68,0:00:32.59,Bijou,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k29}Take {\k16}the {\k28}chance {\k22}and {\k21}with {\k23}my {\k23}ligh{\k19}ter
-Dialogue: 0,0:00:31.50,0:00:34.41,Nerissa,,0,0,0,fx,{\k90\fad(300,200)}♫ {\k26}Start {\k24}the {\k20}fi{\k47}re{\k23}~{\k21}~{\k20}~
+Dialogue: 0,0:00:31.50,0:00:34.41,Nerissa,,0,0,0,fx,{\k90\fad(300,200)}♫ {\k26}Start {\k24}the {\k20}fi{\k47}re-{\k23}e-{\k21}e-{\k20}e
 Dialogue: 0,0:00:33.57,0:00:35.94,Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}◄ {\k23}Come {\k23}pull {\k21}me {\k60}out
 Dialogue: 0,0:00:35.38,0:00:37.82,Mococo,,0,0,0,fx,{\k90\fad(300,200)}► {\k22}I'm {\k23}out {\k20}of {\k25}sheep {\k20}to {\k24}count
 Dialogue: 0,0:00:36.74,0:00:41.38,Fuwamoco,,0,0,0,fx,{\k90\fad(300,200)}◄► {\k21}This {\k22}o{\k22}ver{\k23}kill {\k23}of {\k24}sad {\k22}old {\k22}sto{\k14}ry {\k12}is {\k38}wea{\k26}ring {\k23}me {\k62}down
@@ -99,7 +101,23 @@ Dialogue: 0,0:00:56.36,0:01:03.05,Bijou,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k32}A
 Dialogue: 0,0:01:02.21,0:01:05.05,Shiori,,0,0,0,fx,{\k90\fad(300,200)}● {\k20}Fi{\k27}re, {\k18}fi{\k24}re, {\k25}light {\k23}the {\k21}fi{\k16}re
 Dialogue: 0,0:01:04.01,0:01:06.83,Shiori,,0,0,0,fx,{\k90\fad(300,200)}● {\k19}Brigh{\k24}ter, {\k21}high{\k18}er, {\k14}as {\k18}you {\k22}de{\k21}si{\k15}re
 Dialogue: 0,0:01:05.73,0:01:08.25,Shiori,,0,0,0,fx,{\k90\fad(300,200)}● {\k9}I{\k25}gnite {\k21}our {\k22}bea{\k24}ting {\k41}hearts
+Dialogue: 0,0:01:07.17,0:01:10.75,Group,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Dance {\k20}in{\k46}to {\k42}the {\k40}flame {\k30}of {\k44}light
+Dialogue: 0,0:01:09.65,0:01:12.08,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k46}Dance, {\k45}dance, {\k42}dance
 Dialogue: 0,0:01:10.98,0:01:15.38,Nerissa,,0,0,0,fx,{\k90\fad(300,200)}♫ {\k24}a{\k47}ta{\k43}ra{\k46}shi{\k46}i {\k23}se{\k23}ka{\k22}i {\k56}he
+Dialogue: 0,0:01:14.39,0:01:17.98,Group,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Dance {\k19}un{\k45}til {\k36}the {\k56}end {\k22}of {\k45}time
+Dialogue: 0,0:01:16.88,0:01:19.28,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Dance, {\k47}dance, {\k39}dance
 Dialogue: 0,0:01:18.22,0:01:22.61,Nerissa,,0,0,0,fx,{\k90\fad(300,200)}♫ {\k23}ni{\k46}ji{\k45}ge{\k21}n {\k46}no {\k23}mu{\k45}ko{\k22}ga{\k58}wa
 Dialogue: 0,0:01:21.59,0:01:26.01,Nerissa,,0,0,0,fx,{\k90\fad(300,200)}♫ {\k26}tsu{\k22}re{\k67}tet{\k29}te {\k39}a{\k25}ge{\kf124}ru
+Dialogue: 0,0:01:25.18,0:01:28.78,Group,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Dance {\k22}in{\k47}to {\k43}the {\k40}flame {\k29}of {\k44}life
+Dialogue: 0,0:01:27.68,0:01:30.12,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k46}Dance, {\k46}dance, {\k42}dance
+Dialogue: 0,0:01:29.04,0:01:33.45,Group,,0,0,0,fx,{\k90\fad(300,200)}{\k18}so{\k50}re{\k44}zo{\k47}re {\k43}no {\k23}se{\k23}i{\k23}chii {\k60}he
+Dialogue: 0,0:01:32.41,0:01:35.96,Group,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Dance {\k21}un{\k45}til {\k45}the {\k45}end {\k22}of {\k36}time
+Dialogue: 0,0:01:34.90,0:01:37.48,Chorus,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Dance, {\k47}dance, {\k57}dance
+Dialogue: 0,0:01:36.46,0:01:40.61,Group,,0,0,0,fx,{\k90\fad(300,200)}{\k46}ki{\k46}se{\k24}ki {\k44}no {\k22}mu{\k46}ko{\k22}ga{\k55}wa
+Dialogue: 0,0:01:39.62,0:01:43.58,Group,,0,0,0,fx,{\k90\fad(300,200)}{\k23}tsu{\k24}re{\k68}tet{\k21}te {\k46}a{\k23}ge{\k81}ru
+Dialogue: 0,0:01:42.56,0:01:44.88,Group,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Re{\k39}bel{\k30}li{\k29}on
 Dialogue: 0,0:01:42.56,0:01:52.31,Nerissa - DOWN,,0,0,0,fx,{\k90\fad(300,200)}♫ {\k24}Re{\k39}bel{\k30}li{\kf772}on
+Dialogue: 0,0:01:43.68,0:01:46.61,Group,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Time {\k25}to {\k21}get {\k22}this {\k22}par{\k24}ty {\k23}star{\k24}ted
+Dialogue: 0,0:01:45.51,0:01:48.37,Group,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Fi{\k26}re, {\k18}fi{\k25}re, {\k22}light {\k22}the {\k19}fi{\k22}re
+Dialogue: 0,0:01:47.28,0:01:50.17,Group,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Brigh{\k20}ter, {\k27}high{\k16}er, {\k10}as {\k21}you {\k21}de{\k19}si{\k22}re
+Dialogue: 0,0:01:49.10,0:01:52.09,Group,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Time {\k22}to {\k22}get {\k23}this {\k22}par{\k22}ty {\k23}star{\k22}ted
