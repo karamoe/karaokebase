@@ -1,0 +1,169 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+PlayResX: 0
+PlayResY: 0
+YCbCr Matrix: TV.601
+Title: Born to be "BAU"DOL☆★
+Original Timing: Sorio Alvarna
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Fuwawa,Arial,24,&H00FFFFFF,&H00FFAB00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mococo,Arial,24,&H00FFFFFF,&H00E69DF7,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Fuwamoco,Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:03.22,0:00:05.44,Sample KM [Up],,0,0,0,karaoke,{\k14}{\rFuwawa}fu{\k19}wa {\k14}fu{\k76}wa {\rMococo}{\k17}mo{\k14}co {\k17}mo{\k51}co
+Comment: 0,0:00:05.63,0:00:08.13,Fuwamoco,,0,0,0,karaoke,{\k21}ma{\k14}kai {\k18}no {\k32}ban{\k28}ken {\k17}SI{\k15}S{\k17}T{\k88}ERS
+Comment: 0,0:00:08.17,0:00:12.40,Fuwamoco,,0,0,0,karaoke,{\k9}ko{\k20}no {\k17}se{\k32}kai {\k29}ni {\k17}ba{\k15}ku{\k29}tan {\k19}“BA{\k27}U” {\k34}DO{\k30}L {\kf145}des'
+Comment: 0,0:00:12.62,0:00:13.38,Fuwamoco,,0,0,0,karaoke,{\k33}BAU{\k43}BAU!!
+Comment: 0,0:00:13.58,0:00:14.19,Fuwawa,,0,0,0,karaoke,{\k17}Fu{\k14}wa{\k30}wa
+Comment: 0,0:00:14.19,0:00:14.97,Sample KM [Choir],,0,0,0,karaoke,{\k16}Fu{\k16}wa{\k28}wa!
+Comment: 0,0:00:14.79,0:00:15.60,Mococo,,0,0,0,karaoke,{\k16}Mo{\k18}co{\k47}co
+Comment: 0,0:00:15.45,0:00:16.19,Sample KM [Choir],,0,0,0,karaoke,{\k15}Mo{\k21}co{\k38}co!!
+Comment: 0,0:00:16.02,0:00:18.22,Sample KM [Up],,0,0,0,karaoke,{\k15}{\rFuwawa}FU{\k19}WA {\k28}PLUS {\rMococo}{\k19}MO{\k16}CO {\k30}wa {\rFuwamoco}{\k14}FU{\k18}WA{\k13}MO{\k48}CO
+Comment: 0,0:00:17.91,0:00:18.83,Sample KM [Choir],,0,0,0,karaoke,{\k16}FU{\k15}WA{\k20}MO{\k46}CO!!
+Comment: 0,0:00:18.83,0:00:19.78,Fuwamoco,,0,0,0,karaoke,{\k24}BAU{\k71}BAU!!
+Comment: 0,0:00:19.88,0:00:22.10,Mococo,,0,0,0,karaoke,{\k20}WA{\k13}KE {\k18}U{\k16}P {\k15}shi{\k15}ta{\k16}ra {\k17}ki{\k14}mi {\k17}ni {\k30}MORN{\k31}ING
+Comment: 0,0:00:22.10,0:00:25.02,Fuwawa,,0,0,0,karaoke,{\k31}NEW {\k14}na {\k14}de{\k18}a{\k15}i {\k16}ha{\k15}na {\k14}ki{\k18}ka{\k30}se {\k30}SEAR{\k32}CH {\k15}shi{\k30}te
+Comment: 0,0:00:25.02,0:00:26.94,Sample KM [Choir],,0,0,0,karaoke,{\k33}{\rFuwawa}do{\k27}ki {\rMococo}{\k31}do{\k30}ki {\rFuwamoco}{\k34}DOG{\k37}GY
+Comment: 0,0:00:27.02,0:00:29.56,Sample KM [Up],,0,0,0,karaoke,{\k17}{\rMococo}mi{\k18}gi {\k27}ni {\rFuwawa}{\k15}hi{\k18}da{\k45}ri {\rFuwamoco}{\k16}BAU {\k31}BAU {\k67}BAU
+Comment: 0,0:00:29.74,0:00:32.03,Mococo,,0,0,0,karaoke,{\k24}na{\k15}ya{\k15}n{\k16}de{\k16}i{\k15}te {\k15}mo {\k16}ki{\k15}cha{\k16}u {\k30}FU{\k36}TURE
+Comment: 0,0:00:31.96,0:00:34.88,Fuwawa,,0,0,0,karaoke,{\k33}ma{\k16}zu{\k13}ha {\k17}me {\k17}no {\k15}ma{\k16}e {\k14}no {\k20}mi{\k27}chi {\k31}STE{\k31}P {\k15}shi{\k27}te
+Comment: 0,0:00:34.88,0:00:36.74,Sample KM [Up],,0,0,0,karaoke,{\k34}{\rMococo}HAP{\k29}PY {\rFuwawa}{\k34}LUC{\k28}KY {\rFuwamoco}{\k32}PUP{\k29}PY
+Comment: 0,0:00:36.93,0:00:38.69,Fuwamoco,,0,0,0,karaoke,{\k17}is{\k15}sho {\k30}ni {\k16}a{\k14}ru{\k14}ko{\k18}u {\k52}yo
+Comment: 0,0:00:39.23,0:00:43.94,Fuwawa,,0,0,0,karaoke,{\k14}D{\k20}O{\k61}NU{\k62}TS {\k31}no {\k31}a{\k32}na {\k30}no {\k60}na{\k19}ka {\k28}ni {\k83}wa
+Comment: 0,0:00:44.81,0:00:46.88,Sample KM [Up],,0,0,0,karaoke,{\k33}{\rMococo}kit{\k61}to {\rFuwawa}{\k46}kit{\k67}to
+Comment: 0,0:00:47.26,0:00:50.68,Fuwamoco,,0,0,0,karaoke,{\k35}yu{\k28}me {\k33}ga {\k31}tsu{\k29}mat{\k18}te{\k15}ru {\k16}ka{\k137}ra
+Comment: 0,0:00:51.45,0:00:52.41,Fuwamoco,,0,0,0,karaoke,{\k14}fu{\k16}wa {\k15}fu{\k51}wa
+Comment: 0,0:00:52.21,0:00:52.85,Sample KM [Choir],,0,0,0,karaoke,{\k18}Wa!! {\k46}Foo!!
+Comment: 0,0:00:52.71,0:00:53.66,Fuwamoco,,0,0,0,karaoke,{\k15}mo{\k13}co {\k18}mo{\k49}co
+Comment: 0,0:00:53.49,0:00:54.18,Sample KM [Choir],,0,0,0,karaoke,{\k24}Come {\k45}on!!
+Comment: 0,0:00:53.93,0:00:56.38,Fuwamoco,,0,0,0,karaoke,{\k17}ma{\k15}kai {\k15}no {\k31}ban{\k31}ken {\k14}SI{\k16}S{\k16}T{\k90}ERS
+Comment: 0,0:00:56.65,0:01:01.34,Fuwamoco,,0,0,0,karaoke,{\k24}ni{\k30}hi{\k29}ki {\k33}ga{\k28}so{\k16}ro{\k33}e{\k27}ba {\k35}mo{\k45}u {\k33}o{\k28}o{\k33}sa{\k32}wa{\k43}gi
+Comment: 0,0:01:01.36,0:01:02.34,Fuwamoco,,0,0,0,karaoke,{\k20}mo{\k12}a {\k15}mo{\k51}a
+Comment: 0,0:01:02.12,0:01:02.77,Sample KM [Choir],,0,0,0,karaoke,{\k19}mot{\k46}to!!
+Comment: 0,0:01:02.59,0:01:03.59,Fuwamoco,,0,0,0,karaoke,{\k14}ha{\k16}ro {\k18}ha{\k52}ro
+Comment: 0,0:01:03.36,0:01:03.76,Sample KM [Choir],,0,0,0,karaoke,{\k16}BAU {\k24}BAU!!
+Comment: 0,0:01:03.79,0:01:06.11,Fuwamoco,,0,0,0,karaoke,{\k17}ma{\k15}yo{\k36}wa{\k14}zu {\k28}ni {\k34}GO {\k16}MY {\k72}WAY
+Comment: 0,0:01:06.32,0:01:10.61,Fuwamoco,,0,0,0,karaoke,{\k13}ki{\k15}mi {\k18}no {\k31}zet{\k30}tai {\k13}mi{\k15}ka{\k32}ta {\k18}“BA{\k29}U” {\k33}DO{\k31}L {\kf151}des'
+Comment: 0,0:01:10.76,0:01:11.55,Fuwamoco,,0,0,0,karaoke,{\k34}BAU {\k45}BAU!!
+Comment: 0,0:01:12.28,0:01:14.06,Mococo,,0,0,0,karaoke,{\k61}Hey!! {\k37}RUFF{\k80}IANS!!
+Comment: 0,0:01:14.20,0:01:16.02,Mococo,,0,0,0,karaoke,{\k40}Kept {\k17}you {\k27}wait{\k26}ing, {\k72}huh?
+Comment: 0,0:01:16.57,0:01:18.65,Mococo,,0,0,0,karaoke,{\k21}Can {\k21}I {\k14}get {\k29}a {\k35}heck {\k88}yeah!?
+Comment: 0,0:01:18.95,0:01:21.64,Mococo,,0,0,0,karaoke,{\k74}Letʼs {\k64}shout {\k131}“BAU”!!
+Comment: 0,0:01:21.95,0:01:24.32,Sample KM [Choir],,0,0,0,karaoke,{\k60}BAU!! {\k62}BAU!! {\k61}BAU!! {\k54}BAU!!
+Comment: 0,0:01:24.42,0:01:26.76,Sample KM [Choir],,0,0,0,karaoke,{\k61}BAU!! {\k63}BAU!! {\k60}BAU!! {\k50}BAU!!
+Comment: 0,0:01:26.90,0:01:29.20,Sample KM [Choir],,0,0,0,karaoke,{\k60}BAU!! {\k62}BAU!! {\k62}BAU!! {\k46}BAU!!
+Comment: 0,0:01:29.38,0:01:31.67,Sample KM [Choir],,0,0,0,karaoke,{\k61}BAU!! {\k63}BAU!! {\k60}BAU!! {\k45}BAU!!
+Comment: 0,0:01:26.82,0:01:29.43,Mococo,,0,0,0,karaoke,{\k52}Now, {\k27}hear {\k13}the {\k22}howl{\k21}ing {\k15}of {\k27}my {\k84}soul!!
+Comment: 0,0:01:29.49,0:01:31.25,Mococo,,0,0,0,karaoke,{\k33}Are {\k18}you {\k21}rea{\kf104}dy!?
+Comment: 0,0:01:33.99,0:01:34.82,Fuwawa,,0,0,0,karaoke,{\k21}Mo{\k25}co{\k59}-chan!!
+Comment: 0,0:01:35.10,0:01:36.23,Fuwawa,,0,0,0,karaoke,{\k11}ko{\k15}no {\k14}kyo{\k10}ku {\k23}wa {\k8}ka{\k7}wa{\k16}i{\k9}ku
+Comment: 0,0:01:36.14,0:01:37.64,Fuwawa,,0,0,0,karaoke,{\k15}u{\k12}ta{\k18}ou {\k28}ne {\k7}tte {\k16}it{\k11}ta {\k17}de{\k26}sho!!
+Comment: 0,0:01:37.70,0:01:38.53,Mococo,,0,0,0,karaoke,{\k39}bau {\k44}bau
+Comment: 0,0:01:38.84,0:01:41.04,Fuwawa,,0,0,0,karaoke,{\k45}jaa {\k24}B {\k10}me{\k16}ro {\k11}ka{\k26}ra... {\k58}see{\k30}no!
+Comment: 0,0:01:41.10,0:01:45.91,Fuwawa,,0,0,0,karaoke,{\k15}D{\k16}O{\k63}NU{\k61}TS {\k37}RI{\k21}N{\k35}G {\k32}ni {\k58}chi{\k17}ka{\k33}t{\k93}te
+Comment: 0,0:01:46.68,0:01:48.71,Sample KM [Up],,0,0,0,karaoke,{\k28}{\rMococo}zut{\k65}to {\rFuwawa}{\k46}zut{\k64}to
+Comment: 0,0:01:49.15,0:01:52.49,Fuwamoco,,0,0,0,karaoke,{\k30}e{\k32}ga{\k31}o {\k30}wo {\k25}ma{\k23}mo{\k13}ru {\k17}ka{\k133}ra
+Comment: 0,0:01:53.30,0:01:54.15,Fuwawa,,0,0,0,karaoke,{\k16}fu{\k18}wa {\k16}fu{\k35}wa
+Comment: 0,0:01:54.06,0:01:54.68,Sample KM [Choir],,0,0,0,karaoke,{\k19}Wa!! {\k43}Foo!!
+Comment: 0,0:01:54.55,0:01:55.48,Mococo,,0,0,0,karaoke,{\k16}mo{\k13}co {\k15}mo{\k49}co
+Comment: 0,0:01:55.33,0:01:55.93,Sample KM [Choir],,0,0,0,karaoke,{\k16}Come {\k44}on!!
+Comment: 0,0:01:55.74,0:01:58.21,Fuwamoco,,0,0,0,karaoke,{\k19}ma{\k13}kai {\k17}no {\k35}ban{\k30}ken {\k16}SI{\k14}S{\k17}T{\k86}ERS
+Comment: 0,0:01:58.51,0:02:03.13,Fuwamoco,,0,0,0,karaoke,{\k23}ni{\k31}hi{\k30}ki {\k32}ga {\k22}so{\k23}ro{\k32}e{\k31}ba {\k30}mo{\k48}u {\k37}o{\k16}o{\k39}sa{\k31}wa{\k37}gi
+Comment: 0,0:02:03.19,0:02:04.25,Fuwamoco,,0,0,0,karaoke,{\k15}mo{\k19}a {\k16}mo{\k56}a
+Comment: 0,0:02:03.91,0:02:04.59,Sample KM [Choir],,0,0,0,karaoke,{\k25}mot{\k43}to!!
+Comment: 0,0:02:04.42,0:02:05.40,Fuwamoco,,0,0,0,karaoke,{\k18}ha{\k14}ro {\k18}ha{\k48}ro
+Comment: 0,0:02:05.24,0:02:05.79,Sample KM [Choir],,0,0,0,karaoke,{\k15}BAU {\k40}BAU!!
+Comment: 0,0:02:05.63,0:02:07.98,Fuwamoco,,0,0,0,karaoke,{\k17}ma{\k19}yo{\k33}wa{\k15}zu {\k28}ni {\k32}GO {\k17}MY {\k86}WAY
+Comment: 0,0:02:08.21,0:02:12.42,Fuwamoco,,0,0,0,karaoke,{\k9}ki{\k12}mi {\k21}no {\k32}zet{\k31}tai {\k11}mi{\k17}ka{\k31}ta {\k16}“BA{\k30}U” {\k34}DO{\k31}L {\kf146}des'
+Comment: 0,0:02:13.10,0:02:17.34,Fuwamoco,,0,0,0,karaoke,{\k15}ko{\k17}no {\k16}se{\k31}kai {\k28}ni {\k18}ba{\k15}ku{\k30}tan {\k18}“BA{\k27}U” {\k35}DO{\k28}L {\kf146}des'
+Comment: 0,0:02:17.58,0:02:18.29,Fuwamoco,,0,0,0,karaoke,{\k32}BAU {\k39}BAU!!
+Comment: 0,0:02:18.53,0:02:19.10,Fuwawa,,0,0,0,karaoke,{\k17}Fu{\k14}wa{\k26}wa
+Comment: 0,0:02:19.10,0:02:19.74,Sample KM [Choir],,0,0,0,karaoke,{\k15}Fu{\k20}wa{\k29}wa!
+Comment: 0,0:02:19.70,0:02:20.42,Mococo,,0,0,0,karaoke,{\k17}Mo{\k19}co{\k36}co
+Comment: 0,0:02:20.33,0:02:20.99,Sample KM [Choir],,0,0,0,karaoke,{\k22}Mo{\k15}co{\k20}co!!
+Comment: 0,0:02:20.95,0:02:23.03,Sample KM [Up],,0,0,0,karaoke,{\k12}{\rFuwawa}FU{\k24}WA {\k21}PLUS {\rMococo}{\k24}MO{\k13}CO {\k32}wa {\rFuwamoco}{\k13}FU{\k17}WA{\k11}MO{\k41}CO
+Comment: 0,0:02:22.85,0:02:23.77,Sample KM [Choir],,0,0,0,karaoke,{\k10}FU{\k15}WA{\k19}MO{\k48}CO!!
+Comment: 0,0:02:23.77,0:02:24.77,Fuwamoco,,0,0,0,karaoke,{\k25}BAU {\k75}BAU!!
+Dialogue: 0,0:00:02.32,0:00:05.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}{\rFuwawa}fu{\k19}wa {\k14}fu{\k76}wa {\rMococo}{\k17}mo{\k14}co {\k17}mo{\k51}co
+Dialogue: 0,0:00:04.73,0:00:08.33,Fuwamoco,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ma{\k14}kai {\k18}no {\k32}ban{\k28}ken {\k17}SI{\k15}S{\k17}T{\k88}ERS
+Dialogue: 0,0:00:07.27,0:00:12.60,Fuwamoco,,0,0,0,fx,{\k90\fad(300,200)}{\k9}ko{\k20}no {\k17}se{\k32}kai {\k29}ni {\k17}ba{\k15}ku{\k29}tan {\k19}“BA{\k27}U” {\k34}DO{\k30}L {\kf145}des'
+Dialogue: 0,0:00:11.72,0:00:13.58,Fuwamoco,,0,0,0,fx,{\k90\fad(300,200)}{\k33}BAU{\k43}BAU!!
+Dialogue: 0,0:00:12.68,0:00:14.39,Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Fu{\k14}wa{\k30}wa
+Dialogue: 0,0:00:13.29,0:00:15.17,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Fu{\k16}wa{\k28}wa!
+Dialogue: 0,0:00:13.89,0:00:15.80,Mococo,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Mo{\k18}co{\k47}co
+Dialogue: 0,0:00:14.55,0:00:16.39,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Mo{\k21}co{\k38}co!!
+Dialogue: 0,0:00:15.12,0:00:18.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}{\rFuwawa}FU{\k19}WA {\k28}PLUS {\rMococo}{\k19}MO{\k16}CO {\k30}wa {\rFuwamoco}{\k14}FU{\k18}WA{\k13}MO{\k48}CO
+Dialogue: 0,0:00:17.01,0:00:19.03,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k16}FU{\k15}WA{\k20}MO{\k46}CO!!
+Dialogue: 0,0:00:17.93,0:00:19.98,Fuwamoco,,0,0,0,fx,{\k90\fad(300,200)}{\k24}BAU{\k71}BAU!!
+Dialogue: 0,0:00:18.98,0:00:22.30,Mococo,,0,0,0,fx,{\k90\fad(300,200)}{\k20}WA{\k13}KE {\k18}U{\k16}P {\k15}shi{\k15}ta{\k16}ra {\k17}ki{\k14}mi {\k17}ni {\k30}MORN{\k31}ING
+Dialogue: 0,0:00:21.20,0:00:25.22,Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}{\k31}NEW {\k14}na {\k14}de{\k18}a{\k15}i {\k16}ha{\k15}na {\k14}ki{\k18}ka{\k30}se {\k30}SEAR{\k32}CH {\k15}shi{\k30}te
+Dialogue: 0,0:00:24.12,0:00:27.14,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k33}{\rFuwawa}do{\k27}ki {\rMococo}{\k31}do{\k30}ki {\rFuwamoco}{\k34}DOG{\k37}GY
+Dialogue: 0,0:00:26.12,0:00:29.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}{\rMococo}mi{\k18}gi {\k27}ni {\rFuwawa}{\k15}hi{\k18}da{\k45}ri {\rFuwamoco}{\k16}BAU {\k31}BAU {\k67}BAU
+Dialogue: 0,0:00:28.84,0:00:32.23,Mococo,,0,0,0,fx,{\k90\fad(300,200)}{\k24}na{\k15}ya{\k15}n{\k16}de{\k16}i{\k15}te {\k15}mo {\k16}ki{\k15}cha{\k16}u {\k30}FU{\k36}TURE
+Dialogue: 0,0:00:31.06,0:00:35.08,Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ma{\k16}zu{\k13}ha {\k17}me {\k17}no {\k15}ma{\k16}e {\k14}no {\k20}mi{\k27}chi {\k31}STE{\k31}P {\k15}shi{\k27}te
+Dialogue: 0,0:00:33.98,0:00:36.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}{\rMococo}HAP{\k29}PY {\rFuwawa}{\k34}LUC{\k28}KY {\rFuwamoco}{\k32}PUP{\k29}PY
+Dialogue: 0,0:00:36.03,0:00:38.89,Fuwamoco,,0,0,0,fx,{\k90\fad(300,200)}{\k17}is{\k15}sho {\k30}ni {\k16}a{\k14}ru{\k14}ko{\k18}u {\k52}yo
+Dialogue: 0,0:00:38.33,0:00:44.14,Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}{\k14}D{\k20}O{\k61}NU{\k62}TS {\k31}no {\k31}a{\k32}na {\k30}no {\k60}na{\k19}ka {\k28}ni {\k83}wa
+Dialogue: 0,0:00:43.91,0:00:47.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}{\rMococo}kit{\k61}to {\rFuwawa}{\k46}kit{\k67}to
+Dialogue: 0,0:00:46.36,0:00:50.88,Fuwamoco,,0,0,0,fx,{\k90\fad(300,200)}{\k35}yu{\k28}me {\k33}ga {\k31}tsu{\k29}mat{\k18}te{\k15}ru {\k16}ka{\k137}ra
+Dialogue: 0,0:00:50.55,0:00:52.61,Fuwamoco,,0,0,0,fx,{\k90\fad(300,200)}{\k14}fu{\k16}wa {\k15}fu{\k51}wa
+Dialogue: 0,0:00:51.31,0:00:53.05,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Wa!! {\k46}Foo!!
+Dialogue: 0,0:00:51.81,0:00:53.86,Fuwamoco,,0,0,0,fx,{\k90\fad(300,200)}{\k15}mo{\k13}co {\k18}mo{\k49}co
+Dialogue: 0,0:00:52.59,0:00:54.38,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Come {\k45}on!!
+Dialogue: 0,0:00:53.03,0:00:56.58,Fuwamoco,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ma{\k15}kai {\k15}no {\k31}ban{\k31}ken {\k14}SI{\k16}S{\k16}T{\k90}ERS
+Dialogue: 0,0:00:55.75,0:01:01.54,Fuwamoco,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ni{\k30}hi{\k29}ki {\k33}ga{\k28}so{\k16}ro{\k33}e{\k27}ba {\k35}mo{\k45}u {\k33}o{\k28}o{\k33}sa{\k32}wa{\k43}gi
+Dialogue: 0,0:01:00.46,0:01:02.54,Fuwamoco,,0,0,0,fx,{\k90\fad(300,200)}{\k20}mo{\k12}a {\k15}mo{\k51}a
+Dialogue: 0,0:01:01.22,0:01:02.97,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k19}mot{\k46}to!!
+Dialogue: 0,0:01:01.69,0:01:03.79,Fuwamoco,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ha{\k16}ro {\k18}ha{\k52}ro
+Dialogue: 0,0:01:02.46,0:01:03.96,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k16}BAU {\k24}BAU!!
+Dialogue: 0,0:01:02.89,0:01:06.31,Fuwamoco,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ma{\k15}yo{\k36}wa{\k14}zu {\k28}ni {\k34}GO {\k16}MY {\k72}WAY
+Dialogue: 0,0:01:05.42,0:01:10.81,Fuwamoco,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ki{\k15}mi {\k18}no {\k31}zet{\k30}tai {\k13}mi{\k15}ka{\k32}ta {\k18}“BA{\k29}U” {\k33}DO{\k31}L {\kf151}des'
+Dialogue: 0,0:01:09.86,0:01:11.75,Fuwamoco,,0,0,0,fx,{\k90\fad(300,200)}{\k34}BAU {\k45}BAU!!
+Dialogue: 0,0:01:11.38,0:01:14.26,Mococo,,0,0,0,fx,{\k90\fad(300,200)}{\k61}Hey!! {\k37}RUFF{\k80}IANS!!
+Dialogue: 0,0:01:13.30,0:01:16.22,Mococo,,0,0,0,fx,{\k90\fad(300,200)}{\k40}Kept {\k17}you {\k27}wait{\k26}ing, {\k72}huh?
+Dialogue: 0,0:01:15.67,0:01:18.85,Mococo,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Can {\k21}I {\k14}get {\k29}a {\k35}heck {\k88}yeah!?
+Dialogue: 0,0:01:18.05,0:01:21.84,Mococo,,0,0,0,fx,{\k90\fad(300,200)}{\k74}Letʼs {\k64}shout {\k131}“BAU”!!
+Dialogue: 0,0:01:21.05,0:01:24.52,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k60}BAU!! {\k62}BAU!! {\k61}BAU!! {\k54}BAU!!
+Dialogue: 0,0:01:23.52,0:01:26.96,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k61}BAU!! {\k63}BAU!! {\k60}BAU!! {\k50}BAU!!
+Dialogue: 0,0:01:26.00,0:01:29.40,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k60}BAU!! {\k62}BAU!! {\k62}BAU!! {\k46}BAU!!
+Dialogue: 0,0:01:28.48,0:01:31.87,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k61}BAU!! {\k63}BAU!! {\k60}BAU!! {\k45}BAU!!
+Dialogue: 0,0:01:25.92,0:01:29.63,Mococo,,0,0,0,fx,{\k90\fad(300,200)}{\k52}Now, {\k27}hear {\k13}the {\k22}howl{\k21}ing {\k15}of {\k27}my {\k84}soul!!
+Dialogue: 0,0:01:28.59,0:01:31.45,Mococo,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Are {\k18}you {\k21}rea{\kf104}dy!?
+Dialogue: 0,0:01:33.09,0:01:35.02,Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Mo{\k25}co{\k59}-chan!!
+Dialogue: 0,0:01:34.20,0:01:36.43,Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}{\k11}ko{\k15}no {\k14}kyo{\k10}ku {\k23}wa {\k8}ka{\k7}wa{\k16}i{\k9}ku
+Dialogue: 0,0:01:35.24,0:01:37.84,Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}{\k15}u{\k12}ta{\k18}ou {\k28}ne {\k7}tte {\k16}it{\k11}ta {\k17}de{\k26}sho!!
+Dialogue: 0,0:01:36.80,0:01:38.73,Mococo,,0,0,0,fx,{\k90\fad(300,200)}{\k39}bau {\k44}bau
+Dialogue: 0,0:01:37.94,0:01:41.24,Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}{\k45}jaa {\k24}B {\k10}me{\k16}ro {\k11}ka{\k26}ra... {\k58}see{\k30}no!
+Dialogue: 0,0:01:40.20,0:01:46.11,Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}{\k15}D{\k16}O{\k63}NU{\k61}TS {\k37}RI{\k21}N{\k35}G {\k32}ni {\k58}chi{\k17}ka{\k33}t{\k93}te
+Dialogue: 0,0:01:45.78,0:01:48.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}{\rMococo}zut{\k65}to {\rFuwawa}{\k46}zut{\k64}to
+Dialogue: 0,0:01:48.25,0:01:52.69,Fuwamoco,,0,0,0,fx,{\k90\fad(300,200)}{\k30}e{\k32}ga{\k31}o {\k30}wo {\k25}ma{\k23}mo{\k13}ru {\k17}ka{\k133}ra
+Dialogue: 0,0:01:52.40,0:01:54.35,Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}{\k16}fu{\k18}wa {\k16}fu{\k35}wa
+Dialogue: 0,0:01:53.16,0:01:54.88,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Wa!! {\k43}Foo!!
+Dialogue: 0,0:01:53.65,0:01:55.68,Mococo,,0,0,0,fx,{\k90\fad(300,200)}{\k16}mo{\k13}co {\k15}mo{\k49}co
+Dialogue: 0,0:01:54.43,0:01:56.13,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Come {\k44}on!!
+Dialogue: 0,0:01:54.84,0:01:58.41,Fuwamoco,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ma{\k13}kai {\k17}no {\k35}ban{\k30}ken {\k16}SI{\k14}S{\k17}T{\k86}ERS
+Dialogue: 0,0:01:57.61,0:02:03.33,Fuwamoco,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ni{\k31}hi{\k30}ki {\k32}ga {\k22}so{\k23}ro{\k32}e{\k31}ba {\k30}mo{\k48}u {\k37}o{\k16}o{\k39}sa{\k31}wa{\k37}gi
+Dialogue: 0,0:02:02.29,0:02:04.45,Fuwamoco,,0,0,0,fx,{\k90\fad(300,200)}{\k15}mo{\k19}a {\k16}mo{\k56}a
+Dialogue: 0,0:02:03.01,0:02:04.79,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}mot{\k43}to!!
+Dialogue: 0,0:02:03.52,0:02:05.60,Fuwamoco,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ha{\k14}ro {\k18}ha{\k48}ro
+Dialogue: 0,0:02:04.34,0:02:05.99,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k15}BAU {\k40}BAU!!
+Dialogue: 0,0:02:04.73,0:02:08.18,Fuwamoco,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ma{\k19}yo{\k33}wa{\k15}zu {\k28}ni {\k32}GO {\k17}MY {\k86}WAY
+Dialogue: 0,0:02:07.31,0:02:12.62,Fuwamoco,,0,0,0,fx,{\k90\fad(300,200)}{\k9}ki{\k12}mi {\k21}no {\k32}zet{\k31}tai {\k11}mi{\k17}ka{\k31}ta {\k16}“BA{\k30}U” {\k34}DO{\k31}L {\kf146}des'
+Dialogue: 0,0:02:12.20,0:02:17.54,Fuwamoco,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ko{\k17}no {\k16}se{\k31}kai {\k28}ni {\k18}ba{\k15}ku{\k30}tan {\k18}“BA{\k27}U” {\k35}DO{\k28}L {\kf146}des'
+Dialogue: 0,0:02:16.68,0:02:18.49,Fuwamoco,,0,0,0,fx,{\k90\fad(300,200)}{\k32}BAU {\k39}BAU!!
+Dialogue: 0,0:02:17.63,0:02:19.30,Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Fu{\k14}wa{\k26}wa
+Dialogue: 0,0:02:18.20,0:02:19.94,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Fu{\k20}wa{\k29}wa!
+Dialogue: 0,0:02:18.80,0:02:20.62,Mococo,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Mo{\k19}co{\k36}co
+Dialogue: 0,0:02:19.43,0:02:21.19,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Mo{\k15}co{\k20}co!!
+Dialogue: 0,0:02:20.05,0:02:23.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}{\rFuwawa}FU{\k24}WA {\k21}PLUS {\rMococo}{\k24}MO{\k13}CO {\k32}wa {\rFuwamoco}{\k13}FU{\k17}WA{\k11}MO{\k41}CO
+Dialogue: 0,0:02:21.95,0:02:23.97,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k10}FU{\k15}WA{\k19}MO{\k48}CO!!
+Dialogue: 0,0:02:22.87,0:02:24.97,Fuwamoco,,0,0,0,fx,{\k90\fad(300,200)}{\k25}BAU {\k75}BAU!!
