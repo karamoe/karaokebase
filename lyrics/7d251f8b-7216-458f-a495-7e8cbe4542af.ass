@@ -1,0 +1,167 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+PlayResX: 0
+PlayResY: 0
+Title: Lifetime Showtime
+Original Timing: PrZozor
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Fuwawa,Arial,24,&H00FFFFFF,&H00FFD972,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Mococo,Arial,24,&H00FFFFFF,&H00C79DFE,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: All,Arial,24,&H00FFFFFF,&H00FF79C6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Sub,Arial,24,&H00FFFFFF,&H00FF5C9B,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+Style: SF,Arial,24,&H00FFFFFF,&H00FF8F72,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+Style: SM,Arial,24,&H00FFFFFF,&H00A960DE,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,All,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:02.64,0:00:03.72,All,,0,0,0,karaoke,{\k32}It's {\k35}show {\k41}time!
+Comment: 0,0:00:03.81,0:00:05.21,All,,0,0,0,karaoke,{\k29}is{\k17}sho {\k21}ni {\k31}'ta{\k15}i {\k27}yo
+Comment: 0,0:00:05.29,0:00:07.95,Fuwawa,,0,0,0,karaoke,{\k27}Life{\k40}time {\rMococo}{\k26}Show{\k25}time {\rAll}{\k17}A{\k26}ny {\k24}ti{\k17}me {\k16}BA{\k17}U {\k18}BA{\k13}U!
+Comment: 0,0:00:07.98,0:00:10.49,Fuwawa,,0,0,0,karaoke,{\k67}Yeah,{\k33} {\k32}fu{\k33}ta{\k35}ri {\k51}wa
+Comment: 0,0:00:07.98,0:00:10.49,Mococo,,0,0,0,karaoke,{\k67}Yeah,{\k33} {\k32}fu{\k33}ture {\k35}is {\k51}bright
+Comment: 0,0:00:10.64,0:00:13.14,All,,0,0,0,karaoke,{\k17}Fluf{\k17}fy {\k16}fuz{\k17}zy {\k16}yap{\k17}py {\k17}sis{\kf133}ters!
+Comment: 0,0:00:16.59,0:00:18.07,SF,,0,0,0,karaoke,{\k16}FU{\k23}WA! {\rSM}{\k14}MO{\k22}CO! {\rSF}{\k13}FU{\k17}WA! {\rSM}{\k17}MO{\k26}CO!
+Comment: 0,0:00:17.97,0:00:18.64,SF,,0,0,0,karaoke,{\k17}FU{\k18}WA! {\rSM}{\k16}MO{\k16}CO!
+Comment: 0,0:00:21.97,0:00:22.79,SF,,0,0,0,karaoke,{\k16}FU{\k19}WA! {\rSM}{\k15}MO{\k12}CO!
+Comment: 0,0:00:22.48,0:00:24.11,Sub,,0,0,0,karaoke,{\k33}BA{\k17}U {\k16}BA{\k17}U {\k17}BA{\k16}U {\k24}BA{\k23}U!
+Comment: 0,0:00:24.47,0:00:26.47,Fuwawa,,0,0,0,karaoke,{\k18}My {\k14}heart {\k10}n' {\k25}soul {\k18}n' {\k16}ta{\k16}il {\k34}are {\k10}FU{\k22}WA{\k17}WA
+Comment: 0,0:00:26.47,0:00:26.82,SF,,0,0,0,karaoke,{\k35}Yay
+Comment: 0,0:00:27.14,0:00:29.48,Fuwawa,,0,0,0,karaoke,{\k17}I'm {\k17}so {\k9}fluf{\k25}fy {\k16}that {\k15}e{\k17}ven {\k17}I {\k18}could {\k33}float {\k17}a{\k33}way
+Comment: 0,0:00:29.80,0:00:32.15,Fuwawa,,0,0,0,karaoke,{\k17}Just {\k17}call {\k9}for {\k25}me, {\k15}we're {\k19}on{\k15}ly {\k18}a {\k33}bark {\k33}a{\k34}way
+Comment: 0,0:00:32.46,0:00:33.64,Fuwawa,,0,0,0,karaoke,{\k18}Your {\k25}smile {\k25}is {\k16}the {\k17}trea{\k17}sure
+Comment: 0,0:00:33.64,0:00:36.23,Fuwawa,,0,0,0,karaoke,{\k17}That {\k17}I {\k16}wan{\k19}na {\k31}keep {\kf159}safe
+Comment: 0,0:00:37.97,0:00:39.56,SF,,0,0,0,karaoke,{\k14}FU{\k21}WA! {\rSM}{\k16}MO{\k23}CO! {\rSF}{\k11}FU{\k16}WA! {\rSM}{\k16}MO{\k42}CO!
+Comment: 0,0:00:39.98,0:00:41.13,Mococo,,0,0,0,karaoke,{\k15}I {\k18}love {\k16}be{\k17}ing {\k25}tri{\k24}cky
+Comment: 0,0:00:41.15,0:00:42.44,Mococo,,0,0,0,karaoke,{\k33}Dog{\k17}gy {\k16}kis{\k16}ses {\k17}are {\k9}for {\k21}me
+Comment: 0,0:00:42.63,0:00:43.73,Mococo,,0,0,0,karaoke,{\k17}I {\k17}love {\k17}lots {\k15}of {\k26}wal{\k18}kies
+Comment: 0,0:00:43.80,0:00:45.07,Mococo,,0,0,0,karaoke,{\k34}Don't {\k16}need {\k18}no {\k16}lea{\k16}shes {\k8}for {\k19}me
+Comment: 0,0:00:45.31,0:00:47.75,Mococo,,0,0,0,karaoke,{\k16}Sil{\k17}ly {\k17}pup{\k16}py {\k17}Mo{\k17}co{\k17}co {\k33}will {\k16}fol{\k18}low {\k15}you {\k15}a{\k10}ny{\k20}where
+Comment: 0,0:00:47.98,0:00:49.40,All,,0,0,0,karaoke,{\k14}FU{\k19}WA{\k17}MO{\k17}CO {\k24}to{\k26}ge{\k25}ther
+Comment: 0,0:00:49.48,0:00:50.61,All,,0,0,0,karaoke,{\k16}Take {\k17}us {\k15}a{\k17}long {\k10}with {\k38}you
+Comment: 0,0:00:50.64,0:00:53.31,All,,0,0,0,karaoke,{\k17}Bar{\k14}king {\k18}oh {\k17}so {\k20}mer{\k30}ri{\kf151}ly!
+Comment: 0,0:00:54.64,0:00:55.69,All,,0,0,0,karaoke,{\k32}It's {\k34}show {\k39}time!
+Comment: 0,0:00:55.81,0:00:56.90,All,,0,0,0,karaoke,{\k32}Is{\k18}sho {\k18}ni {\k30}'ta{\k11}i
+Comment: 0,0:00:56.96,0:00:57.24,Sub,,0,0,0,karaoke,{\k28}Oh!
+Comment: 0,0:00:57.31,0:00:58.45,Fuwawa,,0,0,0,karaoke,{\k25}Life{\k40}time {\rMococo}{\k25}Show{\k24}time
+Comment: 0,0:00:58.45,0:00:59.96,All,,0,0,0,karaoke,{\k18}A{\k26}ny {\k24}ti{\k17}me {\k17}BA{\k17}U {\k17}BA{\k15}U!
+Comment: 0,0:00:59.98,0:01:01.02,All,,0,0,0,karaoke,{\k29}is{\k37}shou{\k38}gai
+Comment: 0,0:01:01.12,0:01:02.63,All,,0,0,0,karaoke,{\k31}Sing {\k36}with {\k84}you
+Comment: 0,0:01:02.65,0:01:03.82,Fuwawa,,0,0,0,karaoke,{\k25}Stars {\k23}wink {\rMococo}{\k18}Moon {\k24}spot{\k27}light
+Comment: 0,0:01:03.97,0:01:05.14,All,,0,0,0,karaoke,{\k25}Furr{\k26}-е{\k16}ver {\k50}glow
+Comment: 0,0:01:05.31,0:01:06.35,All,,0,0,0,karaoke,{\k32}It's {\k34}show {\k38}time!
+Comment: 0,0:01:06.47,0:01:07.95,All,,0,0,0,karaoke,{\k32}is{\k13}sho {\k22}ni {\k32}'ta{\k17}i {\k32}yo
+Comment: 0,0:01:07.97,0:01:10.64,Fuwawa,,0,0,0,karaoke,{\k26}Life{\k38}time {\rMococo}{\k28}Show{\k25}time {\rAll}{\k16}A{\k26}ny {\k24}ti{\k17}me {\k20}BA{\k14}U {\k17}BA{\k16}U!
+Comment: 0,0:01:10.64,0:01:13.15,Fuwawa,,0,0,0,karaoke,{\k68}Yeah,{\k31} {\k34}fu{\k36}ta{\k32}ri {\k50}wa
+Comment: 0,0:01:10.64,0:01:13.15,Mococo,,0,0,0,karaoke,{\k68}Yeah,{\k31} {\k34}fu{\k36}ture {\k32}is {\k50}bright
+Comment: 0,0:01:13.31,0:01:15.71,All,,0,0,0,karaoke,{\k16}Fluf{\k18}fy {\k16}fuz{\k15}zy {\k18}yap{\k16}py {\k18}sis{\kf123}ters!
+Comment: 0,0:01:15.95,0:01:16.92,All,,0,0,0,karaoke,{\k31}It's {\k35}show {\k31}time
+Comment: 0,0:01:17.15,0:01:18.08,All,,0,0,0,karaoke,{\k31}is{\k16}sho {\k20}ni {\k26}'tai
+Comment: 0,0:01:18.13,0:01:18.59,Sub,,0,0,0,karaoke,{\k18}Fu{\k28}Fu!
+Comment: 0,0:01:18.63,0:01:19.56,All,,0,0,0,karaoke,{\k31}It's {\k35}show {\k27}time
+Comment: 0,0:01:19.79,0:01:20.75,All,,0,0,0,karaoke,{\k32}is{\k19}sho {\k18}ni {\k27}'tai
+Comment: 0,0:01:20.79,0:01:21.24,Sub,,0,0,0,karaoke,{\k17}Fu{\k28}Fu!
+Comment: 0,0:01:21.30,0:01:22.30,All,,0,0,0,karaoke,{\k32}It's {\k34}show {\k34}time!
+Comment: 0,0:01:22.49,0:01:23.98,All,,0,0,0,karaoke,{\k30}is{\k19}sho {\k18}ni {\k37}'ta{\k15}i {\k30}yo
+Comment: 0,0:01:23.98,0:01:25.28,Fuwawa,,0,0,0,karaoke,{\k17}Fu{\k17}wa{\k17}fu{\k11}wa {\rMococo}{\k20}Mo{\k16}co{\k18}mo{\k14}co
+Comment: 0,0:01:25.28,0:01:26.37,All,,0,0,0,karaoke,{\k19}Hand {\k14}in {\k18}hand {\k19}with {\k39}you
+Comment: 0,0:01:26.66,0:01:29.31,All,,0,0,0,karaoke,{\k32}Bring {\k29}your {\k53}smile, {\k34}rain {\k33}or {\k84}shine
+Comment: 0,0:01:29.32,0:01:29.99,Fuwawa,,0,0,0,karaoke,{\k15}We'll {\k17}pro{\k17}tect {\k18}it
+Comment: 0,0:01:29.99,0:01:31.79,Mococo,,0,0,0,karaoke,{\k16}Won't {\k17}for{\k15}get {\rAll}{\k17}our {\k34}pledge {\k32}with {\k49}you
+Comment: 0,0:01:31.98,0:01:33.03,All,,0,0,0,karaoke,{\k28}It's {\k38}show {\k39}time!
+Comment: 0,0:01:33.15,0:01:34.28,All,,0,0,0,karaoke,{\k31}is{\k18}sho {\k18}ni {\k31}'ta{\k15}i
+Comment: 0,0:01:34.28,0:01:34.60,Sub,,0,0,0,karaoke,{\k32}Oh!
+Comment: 0,0:01:34.65,0:01:35.81,Fuwawa,,0,0,0,karaoke,{\k24}Life{\k33}time {\rMococo}{\k27}Show{\k25}time
+Comment: 0,0:01:35.81,0:01:37.25,All,,0,0,0,karaoke,{\k17}A{\k25}ny {\k24}ti{\k17}me {\k18}BA{\k16}U {\k17}BA{\k10}U!
+Comment: 0,0:01:37.31,0:01:38.36,All,,0,0,0,karaoke,{\k31}is{\k36}shou{\k38}gai
+Comment: 0,0:01:38.45,0:01:39.86,All,,0,0,0,karaoke,{\k35}Sing {\k30}with {\k76}you
+Comment: 0,0:01:39.97,0:01:41.29,Fuwawa,,0,0,0,karaoke,{\k26}Stars {\k23}wink {\rMococo}{\k19}Moon {\k23}spot{\k41}light
+Comment: 0,0:01:41.29,0:01:42.39,All,,0,0,0,karaoke,{\k27}Furr{\k25}-e{\k17}ver {\k41}glow
+Comment: 0,0:01:42.65,0:01:43.65,All,,0,0,0,karaoke,{\k29}It's {\k36}show {\k35}time!
+Comment: 0,0:01:43.82,0:01:45.24,All,,0,0,0,karaoke,{\k32}is{\k18}sho {\k16}ni {\k30}'ta{\k20}i {\k26}yo
+Comment: 0,0:01:45.31,0:01:46.48,All,,0,0,0,karaoke,{\k26}Life{\k40}time {\k26}Show{\k25}time
+Comment: 0,0:01:46.48,0:01:47.98,All,,0,0,0,karaoke,{\k18}A{\k24}ny {\k24}ti{\k17}me {\k18}BA{\k17}U {\k16}BA{\k16}U!
+Comment: 0,0:01:47.98,0:01:50.46,All,,0,0,0,karaoke,{\k67}And{\k32} {\k34}to{\k33}ge{\k33}ther {\k49}we're...
+Comment: 0,0:01:50.65,0:01:53.08,All,,0,0,0,karaoke,{\k16}Fluf{\k17}fy {\k16}fuz{\k16}zy {\k18}yap{\k16}py {\k17}sis{\kf127}ters!
+Comment: 0,0:01:56.63,0:01:58.00,SF,,0,0,0,karaoke,{\k12}FU{\k19}WA! {\rSM}{\k21}MO{\k17}CO! {\rSF}{\k11}FU{\k21}WA! {\rSM}{\k16}MO{\k20}CO!
+Comment: 0,0:01:58.00,0:01:58.72,SF,,0,0,0,karaoke,{\k12}FU{\k28}WA! {\rSM}{\k14}MO{\k18}CO!
+Comment: 0,0:02:01.98,0:02:03.48,SF,,0,0,0,karaoke,{\k16}FU{\k16}WA! {\rSM}{\k18}MO{\k17}CO! {\rSF}{\k14}FU{\k18}WA! {\rSM}{\k17}MO{\k34}CO!
+Comment: 0,0:02:03.97,0:02:05.13,All,,0,0,0,karaoke,{\k16}FU{\k18}WA{\k17}MO{\k16}CO, {\k25}BAU {\k24}BAU!
+Comment: 0,0:02:05.15,0:02:06.93,All,,0,0,0,karaoke,{\k33}FU{\k17}WA{\k16}MO{\k16}CO, {\k35}BAU {\k61}BAU!
+Dialogue: 0,0:00:01.74,0:00:03.92,All,,0,0,0,fx,{\k90\fad(300,200)}{\k32}It's {\k35}show {\k41}time!
+Dialogue: 0,0:00:02.91,0:00:05.41,All,,0,0,0,fx,{\k90\fad(300,200)}{\k29}is{\k17}sho {\k21}ni {\k31}'ta{\k15}i {\k27}yo
+Dialogue: 0,0:00:04.39,0:00:08.15,Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Life{\k40}time {\rMococo}{\k26}Show{\k25}time {\rAll}{\k17}A{\k26}ny {\k24}ti{\k17}me {\k16}BA{\k17}U {\k18}BA{\k13}U!
+Dialogue: 0,0:00:07.08,0:00:10.69,Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}{\k67}Yeah,{\k33} {\k32}fu{\k33}ta{\k35}ri {\k51}wa
+Dialogue: 0,0:00:07.08,0:00:10.69,Mococo,,0,0,0,fx,{\k90\fad(300,200)}{\k67}Yeah,{\k33} {\k32}fu{\k33}ture {\k35}is {\k51}bright
+Dialogue: 0,0:00:09.74,0:00:13.34,All,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Fluf{\k17}fy {\k16}fuz{\k17}zy {\k16}yap{\k17}py {\k17}sis{\kf133}ters!
+Dialogue: 0,0:00:15.69,0:00:18.27,SF,,0,0,0,fx,{\k90\fad(300,200)}{\k16}FU{\k23}WA! {\rSM}{\k14}MO{\k22}CO! {\rSF}{\k13}FU{\k17}WA! {\rSM}{\k17}MO{\k26}CO!
+Dialogue: 0,0:00:17.07,0:00:18.84,SF,,0,0,0,fx,{\k90\fad(300,200)}{\k17}FU{\k18}WA! {\rSM}{\k16}MO{\k16}CO!
+Dialogue: 0,0:00:21.07,0:00:22.99,SF,,0,0,0,fx,{\k90\fad(300,200)}{\k16}FU{\k19}WA! {\rSM}{\k15}MO{\k12}CO!
+Dialogue: 0,0:00:21.58,0:00:24.31,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k33}BA{\k17}U {\k16}BA{\k17}U {\k17}BA{\k16}U {\k24}BA{\k23}U!
+Dialogue: 0,0:00:23.57,0:00:26.67,Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}{\k18}My {\k14}heart {\k10}n' {\k25}soul {\k18}n' {\k16}ta{\k16}il {\k34}are {\k10}FU{\k22}WA{\k17}WA
+Dialogue: 0,0:00:25.57,0:00:27.02,SF,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Yay
+Dialogue: 0,0:00:26.24,0:00:29.68,Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}{\k17}I'm {\k17}so {\k9}fluf{\k25}fy {\k16}that {\k15}e{\k17}ven {\k17}I {\k18}could {\k33}float {\k17}a{\k33}way
+Dialogue: 0,0:00:28.90,0:00:32.35,Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Just {\k17}call {\k9}for {\k25}me, {\k15}we're {\k19}on{\k15}ly {\k18}a {\k33}bark {\k33}a{\k34}way
+Dialogue: 0,0:00:31.56,0:00:33.84,Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Your {\k25}smile {\k25}is {\k16}the {\k17}trea{\k17}sure
+Dialogue: 0,0:00:32.74,0:00:36.43,Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}{\k17}That {\k17}I {\k16}wan{\k19}na {\k31}keep {\kf159}safe
+Dialogue: 0,0:00:37.07,0:00:39.76,SF,,0,0,0,fx,{\k90\fad(300,200)}{\k14}FU{\k21}WA! {\rSM}{\k16}MO{\k23}CO! {\rSF}{\k11}FU{\k16}WA! {\rSM}{\k16}MO{\k42}CO!
+Dialogue: 0,0:00:39.08,0:00:41.33,Mococo,,0,0,0,fx,{\k90\fad(300,200)}{\k15}I {\k18}love {\k16}be{\k17}ing {\k25}tri{\k24}cky
+Dialogue: 0,0:00:40.25,0:00:42.64,Mococo,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Dog{\k17}gy {\k16}kis{\k16}ses {\k17}are {\k9}for {\k21}me
+Dialogue: 0,0:00:41.73,0:00:43.93,Mococo,,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k17}love {\k17}lots {\k15}of {\k26}wal{\k18}kies
+Dialogue: 0,0:00:42.90,0:00:45.27,Mococo,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Don't {\k16}need {\k18}no {\k16}lea{\k16}shes {\k8}for {\k19}me
+Dialogue: 0,0:00:44.41,0:00:47.95,Mococo,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Sil{\k17}ly {\k17}pup{\k16}py {\k17}Mo{\k17}co{\k17}co {\k33}will {\k16}fol{\k18}low {\k15}you {\k15}a{\k10}ny{\k20}where
+Dialogue: 0,0:00:47.08,0:00:49.60,All,,0,0,0,fx,{\k90\fad(300,200)}{\k14}FU{\k19}WA{\k17}MO{\k17}CO {\k24}to{\k26}ge{\k25}ther
+Dialogue: 0,0:00:48.58,0:00:50.81,All,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Take {\k17}us {\k15}a{\k17}long {\k10}with {\k38}you
+Dialogue: 0,0:00:49.74,0:00:53.51,All,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Bar{\k14}king {\k18}oh {\k17}so {\k20}mer{\k30}ri{\kf151}ly!
+Dialogue: 0,0:00:53.74,0:00:55.89,All,,0,0,0,fx,{\k90\fad(300,200)}{\k32}It's {\k34}show {\k39}time!
+Dialogue: 0,0:00:54.91,0:00:57.10,All,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Is{\k18}sho {\k18}ni {\k30}'ta{\k11}i
+Dialogue: 0,0:00:56.06,0:00:57.44,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Oh!
+Dialogue: 0,0:00:56.41,0:00:58.65,Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Life{\k40}time {\rMococo}{\k25}Show{\k24}time
+Dialogue: 0,0:00:57.55,0:01:00.16,All,,0,0,0,fx,{\k90\fad(300,200)}{\k18}A{\k26}ny {\k24}ti{\k17}me {\k17}BA{\k17}U {\k17}BA{\k15}U!
+Dialogue: 0,0:00:59.08,0:01:01.22,All,,0,0,0,fx,{\k90\fad(300,200)}{\k29}is{\k37}shou{\k38}gai
+Dialogue: 0,0:01:00.22,0:01:02.83,All,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Sing {\k36}with {\k84}you
+Dialogue: 0,0:01:01.75,0:01:04.02,Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Stars {\k23}wink {\rMococo}{\k18}Moon {\k24}spot{\k27}light
+Dialogue: 0,0:01:03.07,0:01:05.34,All,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Furr{\k26}-е{\k16}ver {\k50}glow
+Dialogue: 0,0:01:04.41,0:01:06.55,All,,0,0,0,fx,{\k90\fad(300,200)}{\k32}It's {\k34}show {\k38}time!
+Dialogue: 0,0:01:05.57,0:01:08.15,All,,0,0,0,fx,{\k90\fad(300,200)}{\k32}is{\k13}sho {\k22}ni {\k32}'ta{\k17}i {\k32}yo
+Dialogue: 0,0:01:07.07,0:01:10.84,Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Life{\k38}time {\rMococo}{\k28}Show{\k25}time {\rAll}{\k16}A{\k26}ny {\k24}ti{\k17}me {\k20}BA{\k14}U {\k17}BA{\k16}U!
+Dialogue: 0,0:01:09.74,0:01:13.35,Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}{\k68}Yeah,{\k31} {\k34}fu{\k36}ta{\k32}ri {\k50}wa
+Dialogue: 0,0:01:09.74,0:01:13.35,Mococo,,0,0,0,fx,{\k90\fad(300,200)}{\k68}Yeah,{\k31} {\k34}fu{\k36}ture {\k32}is {\k50}bright
+Dialogue: 0,0:01:12.41,0:01:15.91,All,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Fluf{\k18}fy {\k16}fuz{\k15}zy {\k18}yap{\k16}py {\k18}sis{\kf123}ters!
+Dialogue: 0,0:01:15.05,0:01:17.12,All,,0,0,0,fx,{\k90\fad(300,200)}{\k31}It's {\k35}show {\k31}time
+Dialogue: 0,0:01:16.25,0:01:18.28,All,,0,0,0,fx,{\k90\fad(300,200)}{\k31}is{\k16}sho {\k20}ni {\k26}'tai
+Dialogue: 0,0:01:17.23,0:01:18.79,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Fu{\k28}Fu!
+Dialogue: 0,0:01:17.73,0:01:19.76,All,,0,0,0,fx,{\k90\fad(300,200)}{\k31}It's {\k35}show {\k27}time
+Dialogue: 0,0:01:18.89,0:01:20.95,All,,0,0,0,fx,{\k90\fad(300,200)}{\k32}is{\k19}sho {\k18}ni {\k27}'tai
+Dialogue: 0,0:01:19.89,0:01:21.44,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Fu{\k28}Fu!
+Dialogue: 0,0:01:20.40,0:01:22.50,All,,0,0,0,fx,{\k90\fad(300,200)}{\k32}It's {\k34}show {\k34}time!
+Dialogue: 0,0:01:21.59,0:01:24.18,All,,0,0,0,fx,{\k90\fad(300,200)}{\k30}is{\k19}sho {\k18}ni {\k37}'ta{\k15}i {\k30}yo
+Dialogue: 0,0:01:23.08,0:01:25.48,Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Fu{\k17}wa{\k17}fu{\k11}wa {\rMococo}{\k20}Mo{\k16}co{\k18}mo{\k14}co
+Dialogue: 0,0:01:24.38,0:01:26.57,All,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Hand {\k14}in {\k18}hand {\k19}with {\k39}you
+Dialogue: 0,0:01:25.76,0:01:29.51,All,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Bring {\k29}your {\k53}smile, {\k34}rain {\k33}or {\k84}shine
+Dialogue: 0,0:01:28.42,0:01:30.19,Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}{\k15}We'll {\k17}pro{\k17}tect {\k18}it
+Dialogue: 0,0:01:29.09,0:01:31.99,Mococo,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Won't {\k17}for{\k15}get {\rAll}{\k17}our {\k34}pledge {\k32}with {\k49}you
+Dialogue: 0,0:01:31.08,0:01:33.23,All,,0,0,0,fx,{\k90\fad(300,200)}{\k28}It's {\k38}show {\k39}time!
+Dialogue: 0,0:01:32.25,0:01:34.48,All,,0,0,0,fx,{\k90\fad(300,200)}{\k31}is{\k18}sho {\k18}ni {\k31}'ta{\k15}i
+Dialogue: 0,0:01:33.38,0:01:34.80,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Oh!
+Dialogue: 0,0:01:33.75,0:01:36.01,Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Life{\k33}time {\rMococo}{\k27}Show{\k25}time
+Dialogue: 0,0:01:34.91,0:01:37.45,All,,0,0,0,fx,{\k90\fad(300,200)}{\k17}A{\k25}ny {\k24}ti{\k17}me {\k18}BA{\k16}U {\k17}BA{\k10}U!
+Dialogue: 0,0:01:36.41,0:01:38.56,All,,0,0,0,fx,{\k90\fad(300,200)}{\k31}is{\k36}shou{\k38}gai
+Dialogue: 0,0:01:37.55,0:01:40.06,All,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Sing {\k30}with {\k76}you
+Dialogue: 0,0:01:39.07,0:01:41.49,Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Stars {\k23}wink {\rMococo}{\k19}Moon {\k23}spot{\k41}light
+Dialogue: 0,0:01:40.39,0:01:42.59,All,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Furr{\k25}-e{\k17}ver {\k41}glow
+Dialogue: 0,0:01:41.75,0:01:43.85,All,,0,0,0,fx,{\k90\fad(300,200)}{\k29}It's {\k36}show {\k35}time!
+Dialogue: 0,0:01:42.92,0:01:45.44,All,,0,0,0,fx,{\k90\fad(300,200)}{\k32}is{\k18}sho {\k16}ni {\k30}'ta{\k20}i {\k26}yo
+Dialogue: 0,0:01:44.41,0:01:46.68,All,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Life{\k40}time {\k26}Show{\k25}time
+Dialogue: 0,0:01:45.58,0:01:48.18,All,,0,0,0,fx,{\k90\fad(300,200)}{\k18}A{\k24}ny {\k24}ti{\k17}me {\k18}BA{\k17}U {\k16}BA{\k16}U!
+Dialogue: 0,0:01:47.08,0:01:50.66,All,,0,0,0,fx,{\k90\fad(300,200)}{\k67}And{\k32} {\k34}to{\k33}ge{\k33}ther {\k49}we're...
+Dialogue: 0,0:01:49.75,0:01:53.28,All,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Fluf{\k17}fy {\k16}fuz{\k16}zy {\k18}yap{\k16}py {\k17}sis{\kf127}ters!
+Dialogue: 0,0:01:55.73,0:01:58.20,SF,,0,0,0,fx,{\k90\fad(300,200)}{\k12}FU{\k19}WA! {\rSM}{\k21}MO{\k17}CO! {\rSF}{\k11}FU{\k21}WA! {\rSM}{\k16}MO{\k20}CO!
+Dialogue: 0,0:01:57.10,0:01:58.92,SF,,0,0,0,fx,{\k90\fad(300,200)}{\k12}FU{\k28}WA! {\rSM}{\k14}MO{\k18}CO!
+Dialogue: 0,0:02:01.08,0:02:03.68,SF,,0,0,0,fx,{\k90\fad(300,200)}{\k16}FU{\k16}WA! {\rSM}{\k18}MO{\k17}CO! {\rSF}{\k14}FU{\k18}WA! {\rSM}{\k17}MO{\k34}CO!
+Dialogue: 0,0:02:03.07,0:02:05.33,All,,0,0,0,fx,{\k90\fad(300,200)}{\k16}FU{\k18}WA{\k17}MO{\k16}CO, {\k25}BAU {\k24}BAU!
+Dialogue: 0,0:02:04.25,0:02:07.13,All,,0,0,0,fx,{\k90\fad(300,200)}{\k33}FU{\k17}WA{\k16}MO{\k16}CO, {\k35}BAU {\k61}BAU!
