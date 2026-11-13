@@ -1,0 +1,223 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+LayoutResX: 1920
+LayoutResY: 1080
+Title: SAWAGE★GURUGURU TIME
+Original Timing: Uwhipa
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Kyoko,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sopia,Arial,24,&H00FFFFFF,&H00FF857B,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mela,Arial,24,&H00FFFFFF,&H00FFB053,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Tsuzuri,Arial,24,&H00FFFFFF,&H004A42EE,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: All,Arial,24,&H00FFFFFF,&H0050E657,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Tsuzuri-Kyoko,Arial,24,&H00FFFFFF,&H0050E657,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sopia-Mela,Arial,24,&H00FFFFFF,&H0050E657,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mela-Tsuzuri,Arial,24,&H00FFFFFF,&H0050E657,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Kyoko-Sopia,Arial,24,&H00FFFFFF,&H0050E657,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Chants,Arial,24,&H00FFFFFF,&H00CBA2FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:03.64,0:00:04.04,All,,0,0,0,code once,remember("symbols_Tsuzuri-Kyoko", "♥ ♣")
+Comment: 0,0:00:03.64,0:00:04.04,All,,0,0,0,code once,remember("symbols_Mela", "♠")
+Comment: 0,0:00:03.64,0:00:04.04,All,,0,0,0,code once,remember("symbols_Kyoko", "♣")
+Comment: 0,0:00:03.64,0:00:04.04,All,,0,0,0,code once,remember("symbols_Mela-Tsuzuri", "♠ ♥")
+Comment: 0,0:00:03.64,0:00:04.04,All,,0,0,0,code once,remember("symbols_Tsuzuri", "♥")
+Comment: 0,0:00:03.64,0:00:04.04,All,,0,0,0,code once,remember("symbols_Kyoko-Sopia", "♣ ♦")
+Comment: 0,0:00:03.64,0:00:04.04,All,,0,0,0,code once,remember("symbols_Sopia-Mela", "♦ ♠")
+Comment: 0,0:00:03.64,0:00:04.04,All,,0,0,0,code once,remember("symbols_Sopia", "♦")
+Comment: 0,0:00:03.64,0:00:04.04,All,,0,0,0,code once,function make_pre(style_name) local result = ""; for singer in string.gmatch(style_name, "[^-]+") do local symbol = recall("symbols_" .. singer, ""); if symbol ~= "" then result = result .. "{\\r" .. singer .. "\\kt9999\\k0}" .. symbol .. " " end end; return result .. "{\\r" .. style_name .. "\\kt0}" end
+Comment: 0,0:00:03.64,0:00:04.04,All,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{\fad(!$start < 900 and $start or 300!,200)}!make_pre(line.style)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!}
+Dialogue: 0,0:00:00.00,0:00:03.63,Kyoko,,0,0,200,legend,{\k1500}{\k0}{\rAll}Group{\r}     {\rChants}Choir{\r}
+Dialogue: 0,0:00:00.00,0:00:03.63,Kyoko,,0,0,200,legend,{\k1500}{\k0}{\rMela}♠ Mela{\r}     {\rSopia}♦ Sopia{\r}     {\rTsuzuri}♥ Tsuzuri{\r}     {\rKyoko}♣ Kyoko{\r}
+Comment: 0,0:00:03.64,0:00:03.94,All,,0,0,0,karaoke,{\k40}saa
+Comment: 0,0:00:04.04,0:00:04.95,Kyoko,,0,0,0,karaoke,{\k21}ka{\k10}e{\k13}ru {\k19}ji{\k28}kan
+Comment: 0,0:00:05.05,0:00:06.60,Mela,,0,0,0,karaoke,{\k19}D{\k21}RU{\k19}M {\k22}ROL{\k9}L {\k10}ga {\k21}nat{\k34}ta
+Comment: 0,0:00:06.64,0:00:08.37,Tsuzuri,,0,0,0,karaoke,{\k21}a{\k21}so{\k20}bi {\k19}no {\k20}ten{\k21}sai {\k20}ta{\k20}chi {\k11}wa
+Comment: 0,0:00:08.44,0:00:09.83,All,,0,0,0,karaoke,{\k21}so{\k21}ku {\k41}shuu{\k56}gou!
+Comment: 0,0:00:10.04,0:00:11.68,Sopia,,0,0,0,karaoke,{\k24}GA{\k38}ME? {\k19}o{\k21}sha{\k9}be{\k8}ri? {\k9}KA{\k14}RA{\k10}O{\k12}KE?
+Comment: 0,0:00:11.68,0:00:13.05,All,,0,0,0,karaoke,{\k6}so{\k12}re{\k8}to{\k12}mo {\k19}sok{\k18}kyou {\k24}LI{\k38}VE?
+Comment: 0,0:00:13.45,0:00:16.39,All,,0,0,0,karaoke,{\k21}LA-{\k19}LA-{\k20}LA-{\k31}LAUN{\k9}D{\k18}RY {\k22}no {\k20}to{\k18}bi{\k18}ra {\k23}wo {\k19}a{\k21}ke{\k35}ro
+Comment: 0,0:00:16.77,0:00:17.62,Kyoko,,0,0,0,karaoke,{\k10}i{\k12}ku{\k11}zo {\k6}o{\k9}ma{\k10}e{\k27}ra
+Comment: 0,0:00:18.05,0:00:19.62,Kyoko,,0,0,0,karaoke,{\k20}o{\k20}ma{\k20}ta{\k21}se {\k19}shi{\k20}ma{\k19}shi{\k18}ta
+Comment: 0,0:00:19.65,0:00:21.00,Kyoko,,0,0,0,karaoke,{\k21}MEN{\k8}TA{\k11}L {\k11}mu{\k9}ki{\k12}mu{\k9}ki {\k18}sei{\k9}gi {\k27}MAN
+Comment: 0,0:00:21.25,0:00:23.94,Kyoko,,0,0,0,karaoke,{\k40}HE{\k41}RO {\k19}PO{\k20}LI{\k21}CE {\k20}no {\k18}o{\k22}to{\k22}o{\k18}ri {\k28}da
+Comment: 0,0:00:24.03,0:00:24.36,Chants,,0,0,0,karaoke,{\k33}YEAH!
+Comment: 0,0:00:24.41,0:00:25.54,Mela,,0,0,0,karaoke,{\k22}hi {\k22}no {\k42}you{\k27}jin
+Comment: 0,0:00:25.59,0:00:25.95,Chants,,0,0,0,karaoke,{\k36}HIGH!
+Comment: 0,0:00:26.05,0:00:27.11,Mela,,0,0,0,karaoke,{\k19}hi {\k21}no {\k42}you{\k24}jin
+Comment: 0,0:00:27.20,0:00:27.50,Chants,,0,0,0,karaoke,{\k30}HA!
+Comment: 0,0:00:27.65,0:00:30.25,Mela,,0,0,0,karaoke,{\k20}ki{\k19}ra{\k21}ku {\k20}ni {\k40}tou{\k40}kou {\k20}ka{\k19}ji {\k20}no {\k19}mo{\k22}to
+Comment: 0,0:00:30.42,0:00:31.22,Chants,,0,0,0,karaoke,{\k80}NO!
+Comment: 0,0:00:30.85,0:00:33.40,Tsuzuri,,0,0,0,karaoke,{\k40}yuu{\k35}bin{\k26}ya {\k19}san {\k21}ka{\k19}ra {\k10}o{\k10}te{\k11}ga{\k9}mi {\k19}tsu{\k11}i{\k25}ta
+Comment: 0,0:00:33.45,0:00:34.04,Chants,,0,0,0,karaoke,{\k20}mee {\k39}mee!
+Comment: 0,0:00:34.04,0:00:36.60,Tsuzuri,,0,0,0,karaoke,{\k21}o{\k19}na{\k20}ka {\k22}ga {\k14}su{\k24}i{\k20}ta {\k10}na {\k21}yo{\k13}ma{\k8}zu {\k13}ni {\k18}ta{\k7}be{\k26}ta
+Comment: 0,0:00:36.83,0:00:37.25,Chants,,0,0,0,karaoke,{\k42}mee!
+Comment: 0,0:00:37.25,0:00:38.12,Sopia,,0,0,0,karaoke,{\k21}chii{\k11}sa{\k9}na {\k20}ip{\k26}po
+Comment: 0,0:00:38.85,0:00:39.67,Sopia,,0,0,0,karaoke,{\k11}mi{\k10}ra{\k9}i {\k10}he {\k21}kit{\k21}to
+Comment: 0,0:00:40.42,0:00:42.89,Sopia,,0,0,0,karaoke,{\k25}chi{\k17}kyu{\k17}u {\k22}wa {\k16}a{\k22}o{\k22}i {\k22}yo {\k20}nis{\k20}shin{\k21}gep{\k23}po
+Comment: 0,0:00:43.02,0:00:43.68,Chants,,0,0,0,karaoke,{\k22}LET'S {\k44}GO!
+Comment: 0,0:00:44.05,0:00:46.45,Tsuzuri-Kyoko,,0,0,0,karaoke,{\k20}te {\k21}to {\k39}te {\k41}a{\k40}wa{\k39}se{\k40}te
+Comment: 0,0:00:46.45,0:00:49.30,Sopia-Mela,,0,0,0,karaoke,{\k21}ko{\k20}ko{\k40}ro {\k39}ka{\k41}sa{\k39}ne{\k85}ta
+Comment: 0,0:00:50.04,0:00:50.84,Kyoko,,0,0,0,karaoke,{\k31}sai{\k30}kyou {\k19}no
+Comment: 0,0:00:50.85,0:00:55.82,All,,0,0,0,karaoke,{\k30}na{\k31}ka{\k20}ma {\k33}ta{\k26}chi {\k20}ga {\k30}ko{\k30}ko {\k21}ni {\k29}tsu{\k30}do{\k19}t{\k32}ta {\k30}no {\k19}na{\k97}ra
+Comment: 0,0:00:56.45,0:00:59.19,Mela-Tsuzuri,,0,0,0,karaoke,{\k20}gu{\k13}ru{\k27}gu{\k21}ru {\k29}T{\k28}I{\k22}ME {\k31}ha{\k29}ji{\k22}me{\k32}you
+Comment: 0,0:00:59.19,0:00:59.65,Chants,,0,0,0,karaoke,{\k46}HIGH!
+Comment: 0,0:00:59.65,0:01:02.40,Kyoko-Sopia,,0,0,0,karaoke,{\k20}gu{\k11}ru{\k30}gu{\k18}ru {\k30}M{\k31}O{\k21}SH {\k29}a{\k30}ba{\k18}re{\k37}ro
+Comment: 0,0:01:02.40,0:01:02.85,Chants,,0,0,0,karaoke,{\k45}HIGH!
+Comment: 0,0:01:02.85,0:01:04.41,Mela,,0,0,0,karaoke,{\k21}a{\k10}so{\k30}bi {\k19}no {\k19}u{\k21}zu {\k36}de
+Comment: 0,0:01:03.85,0:01:04.33,Chants,,0,0,0,karaoke,{\k18}fu {\k30}fu!
+Comment: 0,0:01:04.45,0:01:05.99,Kyoko,,0,0,0,karaoke,{\k21}se{\k10}ka{\k29}i {\k20}wo {\k20}a{\k20}ra{\k34}e
+Comment: 0,0:01:05.45,0:01:05.99,Chants,,0,0,0,karaoke,{\k19}fu {\k35}fu!
+Comment: 0,0:01:06.25,0:01:08.86,All,,0,0,0,karaoke,{\k41}kyou {\k18}mo {\k22}a{\k11}ji{\k29}to {\k19}de {\k30}sa{\k30}wa{\k21}go{\k40}u
+Comment: 0,0:01:09.25,0:01:12.30,All,,0,0,0,karaoke,{\k30}u{\k30}chi{\k20}ra {\k30}A{\k30}SO{\k20}BI★{\k30}MA{\k30}WA{\k20}RI-{\k65}TAI!
+Comment: 0,0:01:12.04,0:01:12.38,Chants,,0,0,0,karaoke,{\k34}HIGH!
+Comment: 0,0:01:13.45,0:01:13.99,Chants,,0,0,0,karaoke,{\k17}fu {\k37}fu!
+Comment: 0,0:01:15.21,0:01:15.85,Chants,,0,0,0,karaoke,{\k64}YEAH!
+Comment: 0,0:01:16.62,0:01:17.23,Chants,,0,0,0,karaoke,{\k21}fu {\k40}fu!
+Comment: 0,0:01:20.66,0:01:22.84,Tsuzuri,,0,0,0,karaoke,{\k18}o{\k21}na{\k20}ji {\k19}a{\k21}ho {\k20}na{\k20}ra {\k23}a{\k19}so{\k18}ban{\k19}ya
+Comment: 0,0:01:22.84,0:01:23.50,Chants,,0,0,0,karaoke,{\k36}son {\k30}son!
+Comment: 0,0:01:23.85,0:01:26.15,Mela,,0,0,0,karaoke,{\k41}wan{\k19}ko {\k20}so{\k21}ba {\k19}na{\k21}ra {\k19}ta{\k19}be{\k20}na{\k31}kya
+Comment: 0,0:01:26.15,0:01:26.75,Chants,,0,0,0,karaoke,{\k28}don {\k32}don!
+Comment: 0,0:01:26.85,0:01:28.42,Kyoko,,0,0,0,karaoke,{\k11}CO{\k11}LOR{\k8}FU{\k11}L {\k19}PO{\k6}P {\k15}na {\k18}shi{\k22}ta{\k19}ma{\k17}chi
+Comment: 0,0:01:28.45,0:01:30.05,Mela-Tsuzuri,,0,0,0,karaoke,{\k22}DIS{\k10}CO {\k10}wa {\k18}nek{\k10}ki {\k11}de {\k20}a{\k18}wa{\k22}da{\k19}chi
+Comment: 0,0:01:30.05,0:01:33.15,Sopia,,0,0,0,karaoke,{\k20}o{\k20}kya{\k13}ku {\k27}wa {\k20}so{\k20}u{\k20}da{\k18}chi, {\k22}a{\k20}re? {\k21}PA{\k17}PA{\k41}RAZ{\k31}ZI?
+Comment: 0,0:01:33.62,0:01:34.78,All,,0,0,0,karaoke,{\k40}ma, {\k44}ik{\k32}ka
+Comment: 0,0:01:34.85,0:01:38.02,All,,0,0,0,karaoke,{\k21}gu{\k20}ru{\k20}gu{\k20}ru {\k17}gu{\k23}ru{\k20}gur{\k19}u {\k20}gu{\k19}ru{\k19}gu{\k22}ru {\k20}gu{\k20}ru{\k17}gu{\k20}ru
+Comment: 0,0:01:38.05,0:01:40.75,All,,0,0,0,karaoke,{\k20}gu{\k19}ru{\k21}gu{\k20}ru {\k19}gu{\k20}ru{\k20}gu{\k19}ru {\k22}o{\k17}do{\k19}ri{\k21}ma{\k33}sho
+Comment: 0,0:01:40.75,0:01:41.22,Chants,,0,0,0,karaoke,{\k47}HIGH!
+Comment: 0,0:01:43.99,0:01:44.42,Chants,,0,0,0,karaoke,{\k43}HIGH!
+Comment: 0,0:01:47.19,0:01:47.65,Chants,,0,0,0,karaoke,{\k46}HIGH!
+Comment: 0,0:01:54.47,0:01:59.61,Kyoko,,0,0,0,karaoke,{\k41}sai{\k37}kou {\k41}no {\k39}hi {\k26}ni{\k14}chi{\k40}jou {\k41}wo {\k39}o{\k40}i{\k40}mo{\k40}to{\k76}me
+Comment: 0,0:02:00.44,0:02:02.85,Sopia,,0,0,0,karaoke,{\k31}sai{\k30}kyou {\k21}no {\k29}na{\k30}ka{\k19}ma {\k31}ta{\k30}chi {\k20}ga
+Comment: 0,0:02:02.85,0:02:06.30,Sopia,,0,0,0,karaoke,{\k30}ko{\k30}ko {\k20}ni {\k31}tsu{\k29}do{\k21}t{\k29}ta {\k31}no {\k21}na{\k103}ra
+Comment: 0,0:02:06.85,0:02:10.05,Tsuzuri,,0,0,0,karaoke,{\k30}ma{\k31}wa{\k23}ru {\k26}ma{\k30}wa{\k21}ru {\k29}se{\k30}ka{\k18}i {\k32}wa {\k30}kit{\k20}to
+Comment: 0,0:02:10.05,0:02:13.28,All,,0,0,0,karaoke,{\k30}u{\k30}chi{\k20}ra {\k31}to {\k30}to{\k18}mo {\kf164}ni
+Comment: 0,0:02:16.45,0:02:19.32,Sopia-Mela,,0,0,0,karaoke,{\k20}gu{\k11}ru{\k30}gu{\k20}ru {\k29}T{\k31}I{\k15}ME {\k36}ha{\k28}ji{\k23}me{\k44}you
+Comment: 0,0:02:19.65,0:02:22.44,Tsuzuri-Kyoko,,0,0,0,karaoke,{\k20}gu{\k12}ru{\k26}gu{\k22}ru {\k28}M{\k31}O{\k21}SH {\k30}a{\k30}ba{\k21}re{\k38}ro
+Comment: 0,0:02:22.83,0:02:24.42,Sopia,,0,0,0,karaoke,{\k23}a{\k11}so{\k30}bi {\k19}no {\k20}u{\k20}zu {\k36}de
+Comment: 0,0:02:24.46,0:02:26.02,Tsuzuri,,0,0,0,karaoke,{\k22}se{\k10}ka{\k28}i {\k20}wo {\k19}a{\k21}ra{\k36}e
+Comment: 0,0:02:26.26,0:02:28.83,Kyoko,,0,0,0,karaoke,{\k19}kyo{\k20}u {\k21}mo {\k19}a{\k11}ji{\k29}to {\k21}de {\k28}SA{\k31}WA{\k19}GU {\k39}ZO!
+Comment: 0,0:02:28.83,0:02:29.22,Chants,,0,0,0,karaoke,{\k39}HIGH!
+Comment: 0,0:02:29.23,0:02:31.99,All,,0,0,0,karaoke,{\k22}gu{\k10}ru{\k26}gu{\k22}ru {\k31}T{\k31}I{\k19}ME {\k31}ka{\k30}na{\k18}de{\k36}you
+Comment: 0,0:02:31.99,0:02:32.45,Chants,,0,0,0,karaoke,{\k46}HIGH!
+Comment: 0,0:02:32.45,0:02:35.22,All,,0,0,0,karaoke,{\k20}gu{\k11}ru{\k30}gu{\k20}ru {\k27}M{\k27}O{\k20}SH {\k35}ha{\k30}ji{\k20}ke{\k37}ro
+Comment: 0,0:02:35.22,0:02:35.62,Chants,,0,0,0,karaoke,{\k40}HIGH!
+Comment: 0,0:02:35.65,0:02:37.18,Mela-Tsuzuri,,0,0,0,karaoke,{\k21}ha{\k12}cha{\k27}me{\k19}cha {\k17}ta{\k23}no{\k34}shii
+Comment: 0,0:02:36.61,0:02:37.18,Chants,,0,0,0,karaoke,{\k22}fu {\k35}fu!
+Comment: 0,0:02:37.22,0:02:38.78,Kyoko-Sopia,,0,0,0,karaoke,{\k23}wa{\k11}cha{\k29}wa{\k20}cha {\k17}u{\k22}re{\k34}shii
+Comment: 0,0:02:38.21,0:02:38.78,Chants,,0,0,0,karaoke,{\k23}fu {\k34}fu!
+Comment: 0,0:02:39.05,0:02:41.63,All,,0,0,0,karaoke,{\k40}kyou {\k20}mo {\k20}a{\k10}ji{\k30}to {\k21}de {\k30}sa{\k29}wa{\k19}go{\k39}u
+Comment: 0,0:02:42.04,0:02:44.82,All,,0,0,0,karaoke,{\k31}u{\k30}chi{\k20}ra {\k30}A{\k31}SO{\k18}BI★{\k31}MA{\k30}WA{\k19}RI-{\k38}TAI!
+Comment: 0,0:02:44.82,0:02:45.22,Chants,,0,0,0,karaoke,{\k40}HIGH!
+Comment: 0,0:02:45.23,0:02:48.02,All,,0,0,0,karaoke,{\k32}i{\k30}tsu {\k20}ma{\k30}de {\k29}mo {\k21}ta{\k30}no{\k31}shi{\k20}mi{\k36}tai
+Comment: 0,0:02:48.02,0:02:48.45,Chants,,0,0,0,karaoke,{\k43}HIGH!
+Comment: 0,0:02:48.45,0:02:51.58,All,,0,0,0,karaoke,{\k31}ki{\k30}mi {\k19}mo {\k31}A{\k30}SO{\k18}BI★{\k33}MA{\k29}WA{\k18}RI-{\k74}TAI!
+Comment: 0,0:02:51.16,0:02:51.68,Chants,,0,0,0,karaoke,{\k52}HIGH!
+Comment: 0,0:02:52.59,0:02:53.24,Chants,,0,0,0,karaoke,{\k24}fu {\k41}fu!
+Comment: 0,0:02:54.37,0:02:54.93,Chants,,0,0,0,karaoke,{\k56}YEAH!
+Comment: 0,0:02:55.81,0:02:56.45,Chants,,0,0,0,karaoke,{\k22}fu {\k42}fu!
+Comment: 0,0:02:57.60,0:02:58.05,Chants,,0,0,0,karaoke,{\k45}YEAH!
+Comment: 0,0:02:59.02,0:02:59.65,Chants,,0,0,0,karaoke,{\k23}fu {\k40}fu!
+Comment: 0,0:03:00.78,0:03:01.26,Chants,,0,0,0,karaoke,{\k48}YEAH!
+Comment: 0,0:03:02.21,0:03:02.82,Chants,,0,0,0,karaoke,{\k22}fu {\k39}fu!
+Comment: 0,0:03:04.03,0:03:04.88,Chants,,0,0,0,karaoke,{\k85}YEAH!
+Dialogue: 0,0:00:02.74,0:00:04.14,All,,0,0,0,fx,{\fad(300,200)}{\rAll\kt0}{\k90}{\k40}saa
+Dialogue: 0,0:00:03.14,0:00:05.15,Kyoko,,0,0,0,fx,{\fad(300,200)}{\rKyoko\kt9999\k0}♣ {\rKyoko\kt0}{\k90}{\k21}ka{\k10}e{\k13}ru {\k19}ji{\k28}kan
+Dialogue: 0,0:00:04.15,0:00:06.80,Mela,,0,0,0,fx,{\fad(300,200)}{\rMela\kt9999\k0}♠ {\rMela\kt0}{\k90}{\k19}D{\k21}RU{\k19}M {\k22}ROL{\k9}L {\k10}ga {\k21}nat{\k34}ta
+Dialogue: 0,0:00:05.74,0:00:08.57,Tsuzuri,,0,0,0,fx,{\fad(300,200)}{\rTsuzuri\kt9999\k0}♥ {\rTsuzuri\kt0}{\k90}{\k21}a{\k21}so{\k20}bi {\k19}no {\k20}ten{\k21}sai {\k20}ta{\k20}chi {\k11}wa
+Dialogue: 0,0:00:07.54,0:00:10.03,All,,0,0,0,fx,{\fad(300,200)}{\rAll\kt0}{\k90}{\k21}so{\k21}ku {\k41}shuu{\k56}gou!
+Dialogue: 0,0:00:09.14,0:00:11.88,Sopia,,0,0,0,fx,{\fad(300,200)}{\rSopia\kt9999\k0}♦ {\rSopia\kt0}{\k90}{\k24}GA{\k38}ME? {\k19}o{\k21}sha{\k9}be{\k8}ri? {\k9}KA{\k14}RA{\k10}O{\k12}KE?
+Dialogue: 0,0:00:10.78,0:00:13.25,All,,0,0,0,fx,{\fad(300,200)}{\rAll\kt0}{\k90}{\k6}so{\k12}re{\k8}to{\k12}mo {\k19}sok{\k18}kyou {\k24}LI{\k38}VE?
+Dialogue: 0,0:00:12.55,0:00:16.59,All,,0,0,0,fx,{\fad(300,200)}{\rAll\kt0}{\k90}{\k21}LA-{\k19}LA-{\k20}LA-{\k31}LAUN{\k9}D{\k18}RY {\k22}no {\k20}to{\k18}bi{\k18}ra {\k23}wo {\k19}a{\k21}ke{\k35}ro
+Dialogue: 0,0:00:15.87,0:00:17.82,Kyoko,,0,0,0,fx,{\fad(300,200)}{\rKyoko\kt9999\k0}♣ {\rKyoko\kt0}{\k90}{\k10}i{\k12}ku{\k11}zo {\k6}o{\k9}ma{\k10}e{\k27}ra
+Dialogue: 0,0:00:17.15,0:00:19.82,Kyoko,,0,0,0,fx,{\fad(300,200)}{\rKyoko\kt9999\k0}♣ {\rKyoko\kt0}{\k90}{\k20}o{\k20}ma{\k20}ta{\k21}se {\k19}shi{\k20}ma{\k19}shi{\k18}ta
+Dialogue: 0,0:00:18.75,0:00:21.20,Kyoko,,0,0,0,fx,{\fad(300,200)}{\rKyoko\kt9999\k0}♣ {\rKyoko\kt0}{\k90}{\k21}MEN{\k8}TA{\k11}L {\k11}mu{\k9}ki{\k12}mu{\k9}ki {\k18}sei{\k9}gi {\k27}MAN
+Dialogue: 0,0:00:20.35,0:00:24.14,Kyoko,,0,0,0,fx,{\fad(300,200)}{\rKyoko\kt9999\k0}♣ {\rKyoko\kt0}{\k90}{\k40}HE{\k41}RO {\k19}PO{\k20}LI{\k21}CE {\k20}no {\k18}o{\k22}to{\k22}o{\k18}ri {\k28}da
+Dialogue: 0,0:00:23.13,0:00:24.56,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k33}YEAH!
+Dialogue: 0,0:00:23.51,0:00:25.74,Mela,,0,0,0,fx,{\fad(300,200)}{\rMela\kt9999\k0}♠ {\rMela\kt0}{\k90}{\k22}hi {\k22}no {\k42}you{\k27}jin
+Dialogue: 0,0:00:24.69,0:00:26.15,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k36}HIGH!
+Dialogue: 0,0:00:25.15,0:00:27.31,Mela,,0,0,0,fx,{\fad(300,200)}{\rMela\kt9999\k0}♠ {\rMela\kt0}{\k90}{\k19}hi {\k21}no {\k42}you{\k24}jin
+Dialogue: 0,0:00:26.30,0:00:27.70,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k30}HA!
+Dialogue: 0,0:00:26.75,0:00:30.45,Mela,,0,0,0,fx,{\fad(300,200)}{\rMela\kt9999\k0}♠ {\rMela\kt0}{\k90}{\k20}ki{\k19}ra{\k21}ku {\k20}ni {\k40}tou{\k40}kou {\k20}ka{\k19}ji {\k20}no {\k19}mo{\k22}to
+Dialogue: 0,0:00:29.52,0:00:31.42,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k80}NO!
+Dialogue: 0,0:00:29.95,0:00:33.60,Tsuzuri,,0,0,0,fx,{\fad(300,200)}{\rTsuzuri\kt9999\k0}♥ {\rTsuzuri\kt0}{\k90}{\k40}yuu{\k35}bin{\k26}ya {\k19}san {\k21}ka{\k19}ra {\k10}o{\k10}te{\k11}ga{\k9}mi {\k19}tsu{\k11}i{\k25}ta
+Dialogue: 0,0:00:32.55,0:00:34.24,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k20}mee {\k39}mee!
+Dialogue: 0,0:00:33.14,0:00:36.80,Tsuzuri,,0,0,0,fx,{\fad(300,200)}{\rTsuzuri\kt9999\k0}♥ {\rTsuzuri\kt0}{\k90}{\k21}o{\k19}na{\k20}ka {\k22}ga {\k14}su{\k24}i{\k20}ta {\k10}na {\k21}yo{\k13}ma{\k8}zu {\k13}ni {\k18}ta{\k7}be{\k26}ta
+Dialogue: 0,0:00:35.93,0:00:37.45,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k42}mee!
+Dialogue: 0,0:00:36.35,0:00:38.32,Sopia,,0,0,0,fx,{\fad(300,200)}{\rSopia\kt9999\k0}♦ {\rSopia\kt0}{\k90}{\k21}chii{\k11}sa{\k9}na {\k20}ip{\k26}po
+Dialogue: 0,0:00:37.95,0:00:39.87,Sopia,,0,0,0,fx,{\fad(300,200)}{\rSopia\kt9999\k0}♦ {\rSopia\kt0}{\k90}{\k11}mi{\k10}ra{\k9}i {\k10}he {\k21}kit{\k21}to
+Dialogue: 0,0:00:39.52,0:00:43.09,Sopia,,0,0,0,fx,{\fad(300,200)}{\rSopia\kt9999\k0}♦ {\rSopia\kt0}{\k90}{\k25}chi{\k17}kyu{\k17}u {\k22}wa {\k16}a{\k22}o{\k22}i {\k22}yo {\k20}nis{\k20}shin{\k21}gep{\k23}po
+Dialogue: 0,0:00:42.12,0:00:43.88,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k22}LET'S {\k44}GO!
+Dialogue: 0,0:00:43.15,0:00:46.65,Tsuzuri-Kyoko,,0,0,0,fx,{\fad(300,200)}{\rTsuzuri\kt9999\k0}♥ {\rKyoko\kt9999\k0}♣ {\rTsuzuri-Kyoko\kt0}{\k90}{\k20}te {\k21}to {\k39}te {\k41}a{\k40}wa{\k39}se{\k40}te
+Dialogue: 0,0:00:45.55,0:00:49.50,Sopia-Mela,,0,0,0,fx,{\fad(300,200)}{\rSopia\kt9999\k0}♦ {\rMela\kt9999\k0}♠ {\rSopia-Mela\kt0}{\k90}{\k21}ko{\k20}ko{\k40}ro {\k39}ka{\k41}sa{\k39}ne{\k85}ta
+Dialogue: 0,0:00:49.14,0:00:51.04,Kyoko,,0,0,0,fx,{\fad(300,200)}{\rKyoko\kt9999\k0}♣ {\rKyoko\kt0}{\k90}{\k31}sai{\k30}kyou {\k19}no
+Dialogue: 0,0:00:49.95,0:00:56.02,All,,0,0,0,fx,{\fad(300,200)}{\rAll\kt0}{\k90}{\k30}na{\k31}ka{\k20}ma {\k33}ta{\k26}chi {\k20}ga {\k30}ko{\k30}ko {\k21}ni {\k29}tsu{\k30}do{\k19}t{\k32}ta {\k30}no {\k19}na{\k97}ra
+Dialogue: 0,0:00:55.55,0:00:59.39,Mela-Tsuzuri,,0,0,0,fx,{\fad(300,200)}{\rMela\kt9999\k0}♠ {\rTsuzuri\kt9999\k0}♥ {\rMela-Tsuzuri\kt0}{\k90}{\k20}gu{\k13}ru{\k27}gu{\k21}ru {\k29}T{\k28}I{\k22}ME {\k31}ha{\k29}ji{\k22}me{\k32}you
+Dialogue: 0,0:00:58.29,0:00:59.85,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k46}HIGH!
+Dialogue: 0,0:00:58.75,0:01:02.60,Kyoko-Sopia,,0,0,0,fx,{\fad(300,200)}{\rKyoko\kt9999\k0}♣ {\rSopia\kt9999\k0}♦ {\rKyoko-Sopia\kt0}{\k90}{\k20}gu{\k11}ru{\k30}gu{\k18}ru {\k30}M{\k31}O{\k21}SH {\k29}a{\k30}ba{\k18}re{\k37}ro
+Dialogue: 0,0:01:01.50,0:01:03.05,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k45}HIGH!
+Dialogue: 0,0:01:01.95,0:01:04.61,Mela,,0,0,0,fx,{\fad(300,200)}{\rMela\kt9999\k0}♠ {\rMela\kt0}{\k90}{\k21}a{\k10}so{\k30}bi {\k19}no {\k19}u{\k21}zu {\k36}de
+Dialogue: 0,0:01:02.95,0:01:04.53,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k18}fu {\k30}fu!
+Dialogue: 0,0:01:03.55,0:01:06.19,Kyoko,,0,0,0,fx,{\fad(300,200)}{\rKyoko\kt9999\k0}♣ {\rKyoko\kt0}{\k90}{\k21}se{\k10}ka{\k29}i {\k20}wo {\k20}a{\k20}ra{\k34}e
+Dialogue: 0,0:01:04.55,0:01:06.19,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k19}fu {\k35}fu!
+Dialogue: 0,0:01:05.35,0:01:09.06,All,,0,0,0,fx,{\fad(300,200)}{\rAll\kt0}{\k90}{\k41}kyou {\k18}mo {\k22}a{\k11}ji{\k29}to {\k19}de {\k30}sa{\k30}wa{\k21}go{\k40}u
+Dialogue: 0,0:01:08.35,0:01:12.50,All,,0,0,0,fx,{\fad(300,200)}{\rAll\kt0}{\k90}{\k30}u{\k30}chi{\k20}ra {\k30}A{\k30}SO{\k20}BI★{\k30}MA{\k30}WA{\k20}RI-{\k65}TAI!
+Dialogue: 0,0:01:11.14,0:01:12.58,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k34}HIGH!
+Dialogue: 0,0:01:12.55,0:01:14.19,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k17}fu {\k37}fu!
+Dialogue: 0,0:01:14.31,0:01:16.05,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k64}YEAH!
+Dialogue: 0,0:01:15.72,0:01:17.43,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k21}fu {\k40}fu!
+Dialogue: 0,0:01:19.76,0:01:23.04,Tsuzuri,,0,0,0,fx,{\fad(300,200)}{\rTsuzuri\kt9999\k0}♥ {\rTsuzuri\kt0}{\k90}{\k18}o{\k21}na{\k20}ji {\k19}a{\k21}ho {\k20}na{\k20}ra {\k23}a{\k19}so{\k18}ban{\k19}ya
+Dialogue: 0,0:01:21.94,0:01:23.70,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k36}son {\k30}son!
+Dialogue: 0,0:01:22.95,0:01:26.35,Mela,,0,0,0,fx,{\fad(300,200)}{\rMela\kt9999\k0}♠ {\rMela\kt0}{\k90}{\k41}wan{\k19}ko {\k20}so{\k21}ba {\k19}na{\k21}ra {\k19}ta{\k19}be{\k20}na{\k31}kya
+Dialogue: 0,0:01:25.25,0:01:26.95,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k28}don {\k32}don!
+Dialogue: 0,0:01:25.95,0:01:28.62,Kyoko,,0,0,0,fx,{\fad(300,200)}{\rKyoko\kt9999\k0}♣ {\rKyoko\kt0}{\k90}{\k11}CO{\k11}LOR{\k8}FU{\k11}L {\k19}PO{\k6}P {\k15}na {\k18}shi{\k22}ta{\k19}ma{\k17}chi
+Dialogue: 0,0:01:27.55,0:01:30.25,Mela-Tsuzuri,,0,0,0,fx,{\fad(300,200)}{\rMela\kt9999\k0}♠ {\rTsuzuri\kt9999\k0}♥ {\rMela-Tsuzuri\kt0}{\k90}{\k22}DIS{\k10}CO {\k10}wa {\k18}nek{\k10}ki {\k11}de {\k20}a{\k18}wa{\k22}da{\k19}chi
+Dialogue: 0,0:01:29.15,0:01:33.35,Sopia,,0,0,0,fx,{\fad(300,200)}{\rSopia\kt9999\k0}♦ {\rSopia\kt0}{\k90}{\k20}o{\k20}kya{\k13}ku {\k27}wa {\k20}so{\k20}u{\k20}da{\k18}chi, {\k22}a{\k20}re? {\k21}PA{\k17}PA{\k41}RAZ{\k31}ZI?
+Dialogue: 0,0:01:32.72,0:01:34.98,All,,0,0,0,fx,{\fad(300,200)}{\rAll\kt0}{\k90}{\k40}ma, {\k44}ik{\k32}ka
+Dialogue: 0,0:01:33.95,0:01:38.22,All,,0,0,0,fx,{\fad(300,200)}{\rAll\kt0}{\k90}{\k21}gu{\k20}ru{\k20}gu{\k20}ru {\k17}gu{\k23}ru{\k20}gur{\k19}u {\k20}gu{\k19}ru{\k19}gu{\k22}ru {\k20}gu{\k20}ru{\k17}gu{\k20}ru
+Dialogue: 0,0:01:37.15,0:01:40.95,All,,0,0,0,fx,{\fad(300,200)}{\rAll\kt0}{\k90}{\k20}gu{\k19}ru{\k21}gu{\k20}ru {\k19}gu{\k20}ru{\k20}gu{\k19}ru {\k22}o{\k17}do{\k19}ri{\k21}ma{\k33}sho
+Dialogue: 0,0:01:39.85,0:01:41.42,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k47}HIGH!
+Dialogue: 0,0:01:43.09,0:01:44.62,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k43}HIGH!
+Dialogue: 0,0:01:46.29,0:01:47.85,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k46}HIGH!
+Dialogue: 0,0:01:53.57,0:01:59.81,Kyoko,,0,0,0,fx,{\fad(300,200)}{\rKyoko\kt9999\k0}♣ {\rKyoko\kt0}{\k90}{\k41}sai{\k37}kou {\k41}no {\k39}hi {\k26}ni{\k14}chi{\k40}jou {\k41}wo {\k39}o{\k40}i{\k40}mo{\k40}to{\k76}me
+Dialogue: 0,0:01:59.54,0:02:03.05,Sopia,,0,0,0,fx,{\fad(300,200)}{\rSopia\kt9999\k0}♦ {\rSopia\kt0}{\k90}{\k31}sai{\k30}kyou {\k21}no {\k29}na{\k30}ka{\k19}ma {\k31}ta{\k30}chi {\k20}ga
+Dialogue: 0,0:02:01.95,0:02:06.50,Sopia,,0,0,0,fx,{\fad(300,200)}{\rSopia\kt9999\k0}♦ {\rSopia\kt0}{\k90}{\k30}ko{\k30}ko {\k20}ni {\k31}tsu{\k29}do{\k21}t{\k29}ta {\k31}no {\k21}na{\k103}ra
+Dialogue: 0,0:02:05.95,0:02:10.25,Tsuzuri,,0,0,0,fx,{\fad(300,200)}{\rTsuzuri\kt9999\k0}♥ {\rTsuzuri\kt0}{\k90}{\k30}ma{\k31}wa{\k23}ru {\k26}ma{\k30}wa{\k21}ru {\k29}se{\k30}ka{\k18}i {\k32}wa {\k30}kit{\k20}to
+Dialogue: 0,0:02:09.15,0:02:13.48,All,,0,0,0,fx,{\fad(300,200)}{\rAll\kt0}{\k90}{\k30}u{\k30}chi{\k20}ra {\k31}to {\k30}to{\k18}mo {\kf164}ni
+Dialogue: 0,0:02:15.55,0:02:19.52,Sopia-Mela,,0,0,0,fx,{\fad(300,200)}{\rSopia\kt9999\k0}♦ {\rMela\kt9999\k0}♠ {\rSopia-Mela\kt0}{\k90}{\k20}gu{\k11}ru{\k30}gu{\k20}ru {\k29}T{\k31}I{\k15}ME {\k36}ha{\k28}ji{\k23}me{\k44}you
+Dialogue: 0,0:02:18.75,0:02:22.64,Tsuzuri-Kyoko,,0,0,0,fx,{\fad(300,200)}{\rTsuzuri\kt9999\k0}♥ {\rKyoko\kt9999\k0}♣ {\rTsuzuri-Kyoko\kt0}{\k90}{\k20}gu{\k12}ru{\k26}gu{\k22}ru {\k28}M{\k31}O{\k21}SH {\k30}a{\k30}ba{\k21}re{\k38}ro
+Dialogue: 0,0:02:21.93,0:02:24.62,Sopia,,0,0,0,fx,{\fad(300,200)}{\rSopia\kt9999\k0}♦ {\rSopia\kt0}{\k90}{\k23}a{\k11}so{\k30}bi {\k19}no {\k20}u{\k20}zu {\k36}de
+Dialogue: 0,0:02:23.56,0:02:26.22,Tsuzuri,,0,0,0,fx,{\fad(300,200)}{\rTsuzuri\kt9999\k0}♥ {\rTsuzuri\kt0}{\k90}{\k22}se{\k10}ka{\k28}i {\k20}wo {\k19}a{\k21}ra{\k36}e
+Dialogue: 0,0:02:25.36,0:02:29.03,Kyoko,,0,0,0,fx,{\fad(300,200)}{\rKyoko\kt9999\k0}♣ {\rKyoko\kt0}{\k90}{\k19}kyo{\k20}u {\k21}mo {\k19}a{\k11}ji{\k29}to {\k21}de {\k28}SA{\k31}WA{\k19}GU {\k39}ZO!
+Dialogue: 0,0:02:27.93,0:02:29.42,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k39}HIGH!
+Dialogue: 0,0:02:28.33,0:02:32.19,All,,0,0,0,fx,{\fad(300,200)}{\rAll\kt0}{\k90}{\k22}gu{\k10}ru{\k26}gu{\k22}ru {\k31}T{\k31}I{\k19}ME {\k31}ka{\k30}na{\k18}de{\k36}you
+Dialogue: 0,0:02:31.09,0:02:32.65,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k46}HIGH!
+Dialogue: 0,0:02:31.55,0:02:35.42,All,,0,0,0,fx,{\fad(300,200)}{\rAll\kt0}{\k90}{\k20}gu{\k11}ru{\k30}gu{\k20}ru {\k27}M{\k27}O{\k20}SH {\k35}ha{\k30}ji{\k20}ke{\k37}ro
+Dialogue: 0,0:02:34.32,0:02:35.82,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k40}HIGH!
+Dialogue: 0,0:02:34.75,0:02:37.38,Mela-Tsuzuri,,0,0,0,fx,{\fad(300,200)}{\rMela\kt9999\k0}♠ {\rTsuzuri\kt9999\k0}♥ {\rMela-Tsuzuri\kt0}{\k90}{\k21}ha{\k12}cha{\k27}me{\k19}cha {\k17}ta{\k23}no{\k34}shii
+Dialogue: 0,0:02:35.71,0:02:37.38,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k22}fu {\k35}fu!
+Dialogue: 0,0:02:36.32,0:02:38.98,Kyoko-Sopia,,0,0,0,fx,{\fad(300,200)}{\rKyoko\kt9999\k0}♣ {\rSopia\kt9999\k0}♦ {\rKyoko-Sopia\kt0}{\k90}{\k23}wa{\k11}cha{\k29}wa{\k20}cha {\k17}u{\k22}re{\k34}shii
+Dialogue: 0,0:02:37.31,0:02:38.98,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k23}fu {\k34}fu!
+Dialogue: 0,0:02:38.15,0:02:41.83,All,,0,0,0,fx,{\fad(300,200)}{\rAll\kt0}{\k90}{\k40}kyou {\k20}mo {\k20}a{\k10}ji{\k30}to {\k21}de {\k30}sa{\k29}wa{\k19}go{\k39}u
+Dialogue: 0,0:02:41.14,0:02:45.02,All,,0,0,0,fx,{\fad(300,200)}{\rAll\kt0}{\k90}{\k31}u{\k30}chi{\k20}ra {\k30}A{\k31}SO{\k18}BI★{\k31}MA{\k30}WA{\k19}RI-{\k38}TAI!
+Dialogue: 0,0:02:43.92,0:02:45.42,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k40}HIGH!
+Dialogue: 0,0:02:44.33,0:02:48.22,All,,0,0,0,fx,{\fad(300,200)}{\rAll\kt0}{\k90}{\k32}i{\k30}tsu {\k20}ma{\k30}de {\k29}mo {\k21}ta{\k30}no{\k31}shi{\k20}mi{\k36}tai
+Dialogue: 0,0:02:47.12,0:02:48.65,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k43}HIGH!
+Dialogue: 0,0:02:47.55,0:02:51.78,All,,0,0,0,fx,{\fad(300,200)}{\rAll\kt0}{\k90}{\k31}ki{\k30}mi {\k19}mo {\k31}A{\k30}SO{\k18}BI★{\k33}MA{\k29}WA{\k18}RI-{\k74}TAI!
+Dialogue: 0,0:02:50.26,0:02:51.88,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k52}HIGH!
+Dialogue: 0,0:02:51.69,0:02:53.44,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k24}fu {\k41}fu!
+Dialogue: 0,0:02:53.47,0:02:55.13,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k56}YEAH!
+Dialogue: 0,0:02:54.91,0:02:56.65,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k22}fu {\k42}fu!
+Dialogue: 0,0:02:56.70,0:02:58.25,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k45}YEAH!
+Dialogue: 0,0:02:58.12,0:02:59.85,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k23}fu {\k40}fu!
+Dialogue: 0,0:02:59.88,0:03:01.46,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k48}YEAH!
+Dialogue: 0,0:03:01.31,0:03:03.02,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k22}fu {\k39}fu!
+Dialogue: 0,0:03:03.13,0:03:05.08,Chants,,0,0,0,fx,{\fad(300,200)}{\rChants\kt0}{\k90}{\k85}YEAH!
