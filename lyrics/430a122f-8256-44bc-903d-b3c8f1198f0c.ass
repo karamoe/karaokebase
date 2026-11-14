@@ -1,0 +1,135 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Nageki no KIDS
+Original Timing: HayatoKurokami
+LayoutResX: 0
+LayoutResY: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:25.57,0:00:29.73,Sample KM [Up],,0,0,0,karaoke,{\k22}ne{\k17}mu{\k17}re{\k22}na{\k16}i {\k25}mi{\k35}gi{\k20}te {\k34}wo {\k21}sa{\k39}shi{\k38}no{\k19}be{\kf91}te
+Comment: 0,0:00:31.65,0:00:33.39,Sample KM [Up],,0,0,0,karaoke,{\k22}sa{\k16}ma{\k25}yo{\k16}e{\k18}ru {\k19}ma{\k37}chi {\k21}no
+Comment: 0,0:00:33.39,0:00:37.00,Sample KM [Up],,0,0,0,karaoke,{\k36}ho{\k21}shi{\k37}ku{\k57}zu {\k58}ta{\kf152}chi
+Comment: 0,0:00:37.77,0:00:41.91,Sample KM [Up],,0,0,0,karaoke,{\k19}yu{\k14}me {\k21}wa {\k22}ma{\k39}ten{\k37}ro{\k19}u {\k37}no {\k20}ka{\k39}ze {\k36}no {\k20}na{\kf91}ka
+Comment: 0,0:00:43.85,0:00:44.98,Sample KM [Up],,0,0,0,karaoke,{\k21}da{\k13}ki{\k25}shi{\k19}me{\k20}re{\k15}ba
+Comment: 0,0:00:44.98,0:00:49.33,Sample KM [Up],,0,0,0,karaoke,{\k41}ni{\k19}ge{\k37}ru {\k20}ka{\k38}ge {\k57}no {\k58}yo{\k57}u {\k56}da {\k52}ne
+Comment: 0,0:00:49.57,0:00:51.98,Sample KM [Up],,0,0,0,karaoke,{\k57}na{\k57}ni {\k21}wo {\k18}na{\k35}ku{\k22}shi{\k31}te
+Comment: 0,0:00:52.59,0:00:55.04,Sample KM [Up],,0,0,0,karaoke,{\k60}na{\k56}ni {\k20}ni {\k18}ka{\k39}ke{\k18}ta {\k34}no
+Comment: 0,0:00:55.64,0:00:57.74,Sample KM [Up],,0,0,0,karaoke,{\k41}mu{\k21}ne {\k35}no {\k22}o{\k17}ku {\kf74}no
+Comment: 0,0:00:58.17,0:01:00.73,Sample KM [Up],,0,0,0,karaoke,{\k35}tsu{\k16}bu{\k41}ya{\k21}ki {\k34}ki{\k22}ka{\k34}se{\k53}te
+Comment: 0,0:01:00.98,0:01:01.68,Sample KM [Up],,0,0,0,karaoke,{\k39}WOW {\k31}WOW
+Comment: 0,0:01:01.74,0:01:03.81,Sample KM [Up],,0,0,0,karaoke,{\k38}GET {\k21}A{\k54}WAY {\k38}GET {\k20}A{\k36}WAY
+Comment: 0,0:01:04.02,0:01:06.89,Sample KM [Up],,0,0,0,karaoke,{\k20}na{\k20}ge{\k36}ki {\k59}na {\k56}K{\kf96}IDS
+Comment: 0,0:01:07.83,0:01:12.95,Sample KM [Up],,0,0,0,karaoke,{\k38}yu{\k20}u{\k57}ki {\k33}da{\k25}shi{\k39}te {\k35}a{\k21}su {\k38}wo {\k93}tsu{\k22}ka{\k19}me{\k72}yo
+Comment: 0,0:01:13.15,0:01:13.86,Sample KM [Up],,0,0,0,karaoke,{\k39}WOW {\k32}WOW
+Comment: 0,0:01:13.91,0:01:19.56,Sample KM [Up],,0,0,0,karaoke,{\k40}GET {\k20}A{\k53}WAY {\k39}GET {\k20}A{\k56}WAY {\k21}shi{\k20}n{\k38}ja{\k58}i{\k56}na{\kf144}i
+Comment: 0,0:01:20.01,0:01:27.60,Sample KM [Up],,0,0,0,karaoke,{\k38}da{\k21}re {\k56}mo {\k38}mi{\k21}n{\k38}na {\k38}a{\k18}i{\k39}shi{\k94}a{\k18}i{\k21}ta{\kf319}i
+Comment: 0,0:01:40.19,0:01:44.39,Sample KM [Up],,0,0,0,karaoke,{\k20}A{\k19}S{\k18}PHA{\k21}L{\k18}T {\k19}ni {\k38}o{\k19}ri{\k37}ta {\k21}ki{\k35}ri{\k40}sa{\k21}me {\k94}ni
+Comment: 0,0:01:46.28,0:01:47.22,Sample KM [Up],,0,0,0,karaoke,{\k19}ki{\k20}mi {\k19}da{\k18}ke {\k18}ga
+Comment: 0,0:01:47.24,0:01:51.63,Sample KM [Up],,0,0,0,karaoke,{\k19}sa{\k35}mi{\k23}shi{\k35}ge {\k21}ni {\k39}fu{\k58}ri{\k52}mu{\kf157}ku
+Comment: 0,0:01:52.38,0:01:56.51,Sample KM [Up],,0,0,0,karaoke,{\k19}a{\k15}o{\k20}i {\k22}S{\k18}P{\k20}RA{\k36}Y {\k21}de {\k39}ka{\k20}be {\k40}ni {\k34}ka{\k20}i{\kf89}ta
+Comment: 0,0:01:58.44,0:01:59.85,Sample KM [Up],,0,0,0,karaoke,{\k24}sa{\k16}ke{\k18}bi {\k19}wa {\k22}ya{\k19}mi {\k23}ni
+Comment: 0,0:01:59.98,0:02:03.98,Sample KM [Up],,0,0,0,karaoke,{\k22}to{\k35}ri{\k21}no{\k39}ko{\k56}sa{\k57}re{\k56}ta {\k56}ma{\k58}ma
+Comment: 0,0:02:04.18,0:02:06.60,Sample KM [Up],,0,0,0,karaoke,{\k58}na{\k55}ni {\k20}wo {\k18}mo{\k40}to{\k19}me{\k32}te
+Comment: 0,0:02:07.21,0:02:09.44,Sample KM [Up],,0,0,0,karaoke,{\k58}na{\k56}ni {\k20}wo {\k20}su{\k38}te{\k19}ta {\k12}no
+Comment: 0,0:02:10.25,0:02:15.23,Sample KM [Up],,0,0,0,karaoke,{\k39}K{\k20}LA{\k32}X{\k25}O{\k18}N {\k114}wo {\k36}na{\k23}mi{\k36}da {\k20}de {\k36}ta{\k21}ta{\k37}ku {\k41}yo
+Comment: 0,0:02:15.59,0:02:16.28,Sample KM [Up],,0,0,0,karaoke,{\k39}WOW {\k30}WOW
+Comment: 0,0:02:16.36,0:02:18.38,Sample KM [Up],,0,0,0,karaoke,{\k39}GET {\k19}A{\k55}WAY {\k39}GET {\k19}A{\k31}WAY
+Comment: 0,0:02:18.64,0:02:21.91,Sample KM [Up],,0,0,0,karaoke,{\k20}ma{\k21}yo{\k35}i {\k58}na {\k57}K{\kf136}IDS
+Comment: 0,0:02:22.44,0:02:27.56,Sample KM [Up],,0,0,0,karaoke,{\k39}no{\k20}ga{\k56}sa{\k38}na{\k20}i {\k37}de {\k40}ha{\k21}te{\k36}na{\k91}i {\k21}yu{\k21}me {\k72}yo
+Comment: 0,0:02:27.78,0:02:28.46,Sample KM [Up],,0,0,0,karaoke,{\k39}WOW {\k29}WOW
+Comment: 0,0:02:28.53,0:02:30.53,Sample KM [Up],,0,0,0,karaoke,{\k39}GET {\k20}A{\k56}WAY {\k38}GET {\k21}A{\k26}WAY
+Comment: 0,0:02:30.81,0:02:34.20,Sample KM [Up],,0,0,0,karaoke,{\k19}ka{\k22}na{\k36}shi{\k57}mi {\k63}yo{\kf142}ri
+Comment: 0,0:02:34.62,0:02:41.07,Sample KM [Up],,0,0,0,karaoke,{\k38}ha{\k20}ya{\k57}ku {\k37}ha{\k23}ya{\k36}ku {\k36}ha{\k21}shi{\k36}re{\k96}ba {\k14}i{\k24}i {\kf207}sa
+Comment: 0,0:02:41.47,0:02:42.04,Sample KM [Up],,0,0,0,karaoke,{\k38}WOW {\k19}WOW
+Comment: 0,0:02:42.23,0:02:44.31,Sample KM [Up],,0,0,0,karaoke,{\k40}GET {\k19}A{\k57}WAY {\k36}GET {\k22}A{\k34}WAY
+Comment: 0,0:02:44.34,0:02:47.72,Sample KM [Up],,0,0,0,karaoke,{\k39}na{\k19}ge{\k37}ki {\k59}na {\k58}K{\kf126}IDS
+Comment: 0,0:02:48.32,0:02:53.41,Sample KM [Up],,0,0,0,karaoke,{\k39}yu{\k16}u{\k61}ki {\k33}da{\k25}shi{\k38}te {\k38}a{\k18}su {\k39}wo {\k92}tsu{\k22}ka{\k18}me{\k70}yo
+Comment: 0,0:02:53.64,0:02:54.34,Sample KM [Up],,0,0,0,karaoke,{\k40}WOW {\k30}WOW
+Comment: 0,0:02:54.42,0:03:00.07,Sample KM [Up],,0,0,0,karaoke,{\k38}GET {\k20}A{\k57}WAY {\k39}GET {\k21}A{\k36}WAY {\k39}shi{\k18}n{\k38}ja{\k57}i{\k57}na{\kf145}i
+Comment: 0,0:03:00.51,0:03:08.11,Sample KM [Up],,0,0,0,karaoke,{\k39}da{\k20}re {\k56}mo {\k38}mi{\k20}n{\k38}na {\k38}a{\k21}i{\k35}shi{\k96}a{\k19}i{\k20}ta{\kf320}i
+Comment: 0,0:03:08.52,0:03:10.55,Sample KM [Choir],,0,0,0,karaoke,{\k38}GET {\k20}A{\k57}WAY {\k37}GET {\k19}A{\k32}WAY
+Comment: 0,0:03:10.39,0:03:13.41,Sample KM [Up],,0,0,0,karaoke,{\k40}BORN {\k22}TO {\kf240}LOVE
+Comment: 0,0:03:11.55,0:03:13.85,Sample KM [Choir],,0,0,0,karaoke,{\k37}GET {\k23}A{\k37}WAY {\k57}BORN {\k36}TO {\k40}LOVE
+Comment: 0,0:03:14.60,0:03:16.62,Sample KM [Choir],,0,0,0,karaoke,{\k40}GET {\k18}A{\k57}WAY {\k37}GET {\k21}A{\k29}WAY
+Comment: 0,0:03:16.48,0:03:19.73,Sample KM [Up],,0,0,0,karaoke,{\k42}BORN {\k20}TO {\kf263}DREAM
+Comment: 0,0:03:20.69,0:03:22.72,Sample KM [Choir],,0,0,0,karaoke,{\k39}GET {\k20}A{\k57}WAY {\k38}GET {\k18}A{\k31}WAY
+Comment: 0,0:03:22.59,0:03:25.91,Sample KM [Up],,0,0,0,karaoke,{\k41}BORN {\k22}TO {\kf269}LOVE
+Comment: 0,0:03:23.76,0:03:26.03,Sample KM [Choir],,0,0,0,karaoke,{\k39}GET {\k20}A{\k44}WAY {\k48}BORN {\k39}TO {\k37}LOVE
+Comment: 0,0:03:26.78,0:03:28.68,Sample KM [Choir],,0,0,0,karaoke,{\k39}GET {\k17}A{\k62}WAY {\k37}GET {\k19}A{\k16}WAY
+Comment: 0,0:03:28.68,0:03:34.76,Sample KM [Up],,0,0,0,karaoke,{\k40}BORN {\k24}TO {\kf149}DREAM {\kf395}HEY!!
+Comment: 0,0:03:32.87,0:03:34.98,Sample KM [Choir],,0,0,0,karaoke,{\k38}GET {\k23}A{\k56}WAY {\k39}GET {\k16}A{\k39}WAY
+Comment: 0,0:03:35.91,0:03:38.19,Sample KM [Choir],,0,0,0,karaoke,{\k39}GET {\k22}A{\k40}WAY {\k55}BORN {\k36}TO {\k36}LOVE
+Comment: 0,0:03:38.98,0:03:41.06,Sample KM [Choir],,0,0,0,karaoke,{\k39}GET {\k19}A{\k56}WAY {\k37}GET {\k24}A{\k33}WAY
+Comment: 0,0:03:45.07,0:03:47.04,Sample KM [Choir],,0,0,0,karaoke,{\k38}GET {\k20}A{\k57}WAY {\k37}GET {\k20}A{\k25}WAY
+Comment: 0,0:03:48.12,0:03:50.35,Sample KM [Choir],,0,0,0,karaoke,{\k37}GET {\k20}A{\k40}WAY {\k55}BORN {\k39}TO {\k32}LOVE
+Comment: 0,0:03:51.13,0:03:53.16,Sample KM [Choir],,0,0,0,karaoke,{\k41}GET {\k24}A{\k51}WAY {\k39}GET {\k20}A{\k28}WAY
+Comment: 0,0:03:57.25,0:03:59.23,Sample KM [Choir],,0,0,0,karaoke,{\k39}GET {\k21}A{\k56}WAY {\k36}GET {\k21}A{\k25}WAY
+Dialogue: 0,0:00:24.67,0:00:29.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}ne{\k17}mu{\k17}re{\k22}na{\k16}i {\k25}mi{\k35}gi{\k20}te {\k34}wo {\k21}sa{\k39}shi{\k38}no{\k19}be{\kf91}te
+Dialogue: 0,0:00:30.75,0:00:33.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}sa{\k16}ma{\k25}yo{\k16}e{\k18}ru {\k19}ma{\k37}chi {\k21}no
+Dialogue: 0,0:00:32.49,0:00:37.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}ho{\k21}shi{\k37}ku{\k57}zu {\k58}ta{\kf152}chi
+Dialogue: 0,0:00:36.87,0:00:42.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}yu{\k14}me {\k21}wa {\k22}ma{\k39}ten{\k37}ro{\k19}u {\k37}no {\k20}ka{\k39}ze {\k36}no {\k20}na{\kf91}ka
+Dialogue: 0,0:00:42.95,0:00:45.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}da{\k13}ki{\k25}shi{\k19}me{\k20}re{\k15}ba
+Dialogue: 0,0:00:44.08,0:00:49.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}ni{\k19}ge{\k37}ru {\k20}ka{\k38}ge {\k57}no {\k58}yo{\k57}u {\k56}da {\k52}ne
+Dialogue: 0,0:00:48.67,0:00:52.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k57}na{\k57}ni {\k21}wo {\k18}na{\k35}ku{\k22}shi{\k31}te
+Dialogue: 0,0:00:51.69,0:00:55.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k60}na{\k56}ni {\k20}ni {\k18}ka{\k39}ke{\k18}ta {\k34}no
+Dialogue: 0,0:00:54.74,0:00:57.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}mu{\k21}ne {\k35}no {\k22}o{\k17}ku {\kf74}no
+Dialogue: 0,0:00:57.27,0:01:00.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}tsu{\k16}bu{\k41}ya{\k21}ki {\k34}ki{\k22}ka{\k34}se{\k53}te
+Dialogue: 0,0:01:00.08,0:01:01.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}WOW {\k31}WOW
+Dialogue: 0,0:01:00.84,0:01:04.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}GET {\k21}A{\k54}WAY {\k38}GET {\k20}A{\k36}WAY
+Dialogue: 0,0:01:03.12,0:01:07.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}na{\k20}ge{\k36}ki {\k59}na {\k56}K{\kf96}IDS
+Dialogue: 0,0:01:06.93,0:01:13.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}yu{\k20}u{\k57}ki {\k33}da{\k25}shi{\k39}te {\k35}a{\k21}su {\k38}wo {\k93}tsu{\k22}ka{\k19}me{\k72}yo
+Dialogue: 0,0:01:12.25,0:01:14.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}WOW {\k32}WOW
+Dialogue: 0,0:01:13.01,0:01:19.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}GET {\k20}A{\k53}WAY {\k39}GET {\k20}A{\k56}WAY {\k21}shi{\k20}n{\k38}ja{\k58}i{\k56}na{\kf144}i
+Dialogue: 0,0:01:19.11,0:01:27.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}da{\k21}re {\k56}mo {\k38}mi{\k21}n{\k38}na {\k38}a{\k18}i{\k39}shi{\k94}a{\k18}i{\k21}ta{\kf319}i
+Dialogue: 0,0:01:39.29,0:01:44.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}A{\k19}S{\k18}PHA{\k21}L{\k18}T {\k19}ni {\k38}o{\k19}ri{\k37}ta {\k21}ki{\k35}ri{\k40}sa{\k21}me {\k94}ni
+Dialogue: 0,0:01:45.38,0:01:47.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}ki{\k20}mi {\k19}da{\k18}ke {\k18}ga
+Dialogue: 0,0:01:46.34,0:01:51.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}sa{\k35}mi{\k23}shi{\k35}ge {\k21}ni {\k39}fu{\k58}ri{\k52}mu{\kf157}ku
+Dialogue: 0,0:01:51.48,0:01:56.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}a{\k15}o{\k20}i {\k22}S{\k18}P{\k20}RA{\k36}Y {\k21}de {\k39}ka{\k20}be {\k40}ni {\k34}ka{\k20}i{\kf89}ta
+Dialogue: 0,0:01:57.54,0:02:00.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}sa{\k16}ke{\k18}bi {\k19}wa {\k22}ya{\k19}mi {\k23}ni
+Dialogue: 0,0:01:59.08,0:02:04.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}to{\k35}ri{\k21}no{\k39}ko{\k56}sa{\k57}re{\k56}ta {\k56}ma{\k58}ma
+Dialogue: 0,0:02:03.28,0:02:06.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k58}na{\k55}ni {\k20}wo {\k18}mo{\k40}to{\k19}me{\k32}te
+Dialogue: 0,0:02:06.31,0:02:09.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k58}na{\k56}ni {\k20}wo {\k20}su{\k38}te{\k19}ta {\k12}no
+Dialogue: 0,0:02:09.35,0:02:15.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}K{\k20}LA{\k32}X{\k25}O{\k18}N {\k114}wo {\k36}na{\k23}mi{\k36}da {\k20}de {\k36}ta{\k21}ta{\k37}ku {\k41}yo
+Dialogue: 0,0:02:14.69,0:02:16.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}WOW {\k30}WOW
+Dialogue: 0,0:02:15.46,0:02:18.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}GET {\k19}A{\k55}WAY {\k39}GET {\k19}A{\k31}WAY
+Dialogue: 0,0:02:17.74,0:02:22.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}ma{\k21}yo{\k35}i {\k58}na {\k57}K{\kf136}IDS
+Dialogue: 0,0:02:21.54,0:02:27.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}no{\k20}ga{\k56}sa{\k38}na{\k20}i {\k37}de {\k40}ha{\k21}te{\k36}na{\k91}i {\k21}yu{\k21}me {\k72}yo
+Dialogue: 0,0:02:26.88,0:02:28.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}WOW {\k29}WOW
+Dialogue: 0,0:02:27.63,0:02:30.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}GET {\k20}A{\k56}WAY {\k38}GET {\k21}A{\k26}WAY
+Dialogue: 0,0:02:29.91,0:02:34.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}ka{\k22}na{\k36}shi{\k57}mi {\k63}yo{\kf142}ri
+Dialogue: 0,0:02:33.72,0:02:41.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}ha{\k20}ya{\k57}ku {\k37}ha{\k23}ya{\k36}ku {\k36}ha{\k21}shi{\k36}re{\k96}ba {\k14}i{\k24}i {\kf207}sa
+Dialogue: 0,0:02:40.57,0:02:42.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}WOW {\k19}WOW
+Dialogue: 0,0:02:41.33,0:02:44.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}GET {\k19}A{\k57}WAY {\k36}GET {\k22}A{\k34}WAY
+Dialogue: 0,0:02:43.44,0:02:47.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}na{\k19}ge{\k37}ki {\k59}na {\k58}K{\kf126}IDS
+Dialogue: 0,0:02:47.42,0:02:53.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}yu{\k16}u{\k61}ki {\k33}da{\k25}shi{\k38}te {\k38}a{\k18}su {\k39}wo {\k92}tsu{\k22}ka{\k18}me{\k70}yo
+Dialogue: 0,0:02:52.74,0:02:54.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}WOW {\k30}WOW
+Dialogue: 0,0:02:53.52,0:03:00.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}GET {\k20}A{\k57}WAY {\k39}GET {\k21}A{\k36}WAY {\k39}shi{\k18}n{\k38}ja{\k57}i{\k57}na{\kf145}i
+Dialogue: 0,0:02:59.61,0:03:08.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}da{\k20}re {\k56}mo {\k38}mi{\k20}n{\k38}na {\k38}a{\k21}i{\k35}shi{\k96}a{\k19}i{\k20}ta{\kf320}i
+Dialogue: 0,0:03:07.62,0:03:10.75,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}GET {\k20}A{\k57}WAY {\k37}GET {\k19}A{\k32}WAY
+Dialogue: 0,0:03:09.49,0:03:13.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}BORN {\k22}TO {\kf240}LOVE
+Dialogue: 0,0:03:10.65,0:03:14.05,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k37}GET {\k23}A{\k37}WAY {\k57}BORN {\k36}TO {\k40}LOVE
+Dialogue: 0,0:03:13.70,0:03:16.82,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k40}GET {\k18}A{\k57}WAY {\k37}GET {\k21}A{\k29}WAY
+Dialogue: 0,0:03:15.58,0:03:19.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}BORN {\k20}TO {\kf263}DREAM
+Dialogue: 0,0:03:19.79,0:03:22.92,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k39}GET {\k20}A{\k57}WAY {\k38}GET {\k18}A{\k31}WAY
+Dialogue: 0,0:03:21.69,0:03:26.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}BORN {\k22}TO {\kf269}LOVE
+Dialogue: 0,0:03:22.86,0:03:26.23,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k39}GET {\k20}A{\k44}WAY {\k48}BORN {\k39}TO {\k37}LOVE
+Dialogue: 0,0:03:25.88,0:03:28.88,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k39}GET {\k17}A{\k62}WAY {\k37}GET {\k19}A{\k16}WAY
+Dialogue: 0,0:03:27.78,0:03:34.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}BORN {\k24}TO {\kf149}DREAM {\kf395}HEY!!
+Dialogue: 0,0:03:31.97,0:03:35.18,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}GET {\k23}A{\k56}WAY {\k39}GET {\k16}A{\k39}WAY
+Dialogue: 0,0:03:35.01,0:03:38.39,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k39}GET {\k22}A{\k40}WAY {\k55}BORN {\k36}TO {\k36}LOVE
+Dialogue: 0,0:03:38.08,0:03:41.26,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k39}GET {\k19}A{\k56}WAY {\k37}GET {\k24}A{\k33}WAY
+Dialogue: 0,0:03:44.17,0:03:47.24,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}GET {\k20}A{\k57}WAY {\k37}GET {\k20}A{\k25}WAY
+Dialogue: 0,0:03:47.22,0:03:50.55,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k37}GET {\k20}A{\k40}WAY {\k55}BORN {\k39}TO {\k32}LOVE
+Dialogue: 0,0:03:50.23,0:03:53.36,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k41}GET {\k24}A{\k51}WAY {\k39}GET {\k20}A{\k28}WAY
+Dialogue: 0,0:03:56.35,0:03:59.43,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k39}GET {\k21}A{\k56}WAY {\k36}GET {\k21}A{\k25}WAY
