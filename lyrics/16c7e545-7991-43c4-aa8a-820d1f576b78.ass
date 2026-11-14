@@ -1,0 +1,131 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Chop Suey!
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,22,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,22,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 800 and -$start or -800,100)!{!$start < 800 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 800 and $start or 300!,100)}
+Comment: 0,0:00:44.76,0:00:45.13,Sample KM [Up],,0,0,0,karaoke,{\k15}Wake {\k22}up
+Comment: 0,0:00:45.24,0:00:45.52,Sample KM [Choir],,0,0,0,karaoke,{\k15}Wake {\k13}up
+Comment: 0,0:00:45.66,0:00:46.99,Sample KM [Up],,0,0,0,karaoke,{\k16}Grab {\k8}a {\k16}brush {\k8}and {\k13}put {\k12}a {\k11}lit{\k12}tle {\k13}make-{\k24}up
+Comment: 0,0:00:47.58,0:00:48.10,Sample KM [Up],,0,0,0,karaoke,{\k15}Hide {\k12}the {\k13}scars {\k12}to
+Comment: 0,0:00:48.10,0:00:48.89,Sample KM [Up],,0,0,0,karaoke,{\k13}Fade {\k9}a{\k13}way {\k10}the {\k16}shake-{\k18}up
+Comment: 0,0:00:48.57,0:00:49.51,Sample KM [Choir],,0,0,0,karaoke,{\k13}Hide {\k15}the {\k15}scars {\k10}to {\k11}fade {\k10}a{\k12}way {\k8}the-
+Comment: 0,0:00:49.51,0:00:50.12,Sample KM [Up],,0,0,0,karaoke,{\k15}Why'd {\k10}you {\k13}leave {\k10}the {\k13}keys
+Comment: 0,0:00:50.13,0:00:50.86,Sample KM [Up],,0,0,0,karaoke,{\k10}U{\k12}pon {\k12}the {\k12}ta{\k27}ble
+Comment: 0,0:00:51.37,0:00:52.69,Sample KM [Up],,0,0,0,karaoke,{\k12}Here {\k10}you {\k15}go {\k12}cre{\k11}ate {\k10}a{\k11}no{\k14}ther {\k15}fa{\k22}ble
+Comment: 0,0:00:52.69,0:00:53.75,Sample KM [Up],,0,0,0,karaoke,{\k12}You {\k11}wan{\k10}ted {\k26}to {\k13}grab {\k12}a {\k10}brush {\k12}and
+Comment: 0,0:00:53.75,0:00:55.17,Sample KM [Up],,0,0,0,karaoke,{\k13}Put {\k11}a {\k13}lit{\k12}tle {\k12}make-{\k28}up {\k9}you {\k10}wan{\k11}ted {\k23}to
+Comment: 0,0:00:55.17,0:00:56.00,Sample KM [Up],,0,0,0,karaoke,{\k14}Hide {\k11}the {\k13}scars {\k10}to {\k13}fade {\k11}a{\k11}way
+Comment: 0,0:00:56.01,0:00:56.99,Sample KM [Up],,0,0,0,karaoke,{\k12}The {\k14}shake-{\k25}up {\k11}you {\k12}wan{\k11}ted {\k13}to
+Comment: 0,0:00:57.09,0:00:57.71,Sample KM [Up],,0,0,0,karaoke,{\k13}Why'd {\k12}you {\k11}leave {\k13}the {\k13}keys
+Comment: 0,0:00:57.71,0:00:58.92,Sample KM [Up],,0,0,0,karaoke,{\k12}U{\k13}pon {\k9}the {\k13}ta{\k27}ble {\k10}you {\k12}wan{\k9}ted {\k16}to
+Comment: 0,0:00:58.98,0:01:00.68,Sample KM [Up],,0,0,0,karaoke,{\k28}I {\k22}don't {\k23}think {\k23}you {\k74}trust
+Comment: 0,0:01:01.96,0:01:08.78,Sample KM [Up],,0,0,0,karaoke,{\k191}In {\k191}my {\k38}self-{\k33}righ{\k23}teous {\k54}su{\k42}i{\kf110}cide
+Comment: 0,0:01:09.59,0:01:18.45,Sample KM [Up],,0,0,0,karaoke,{\k184}I {\k175}cry {\k22}when {\k32}an{\k41}gels {\k22}de{\k43}serve {\k48}to {\kf319}DIE!
+Comment: 0,0:01:24.42,0:01:24.80,Sample KM [Up],,0,0,0,karaoke,{\k15}Wake {\k23}up
+Comment: 0,0:01:24.92,0:01:25.21,Sample KM [Choir],,0,0,0,karaoke,{\k15}Wake {\k14}up
+Comment: 0,0:01:25.34,0:01:26.69,Sample KM [Up],,0,0,0,karaoke,{\k14}Grab {\k7}a {\k17}brush {\k9}and {\k14}put {\k11}a {\k11}lit{\k13}tle {\k13}make-{\k26}up
+Comment: 0,0:01:27.27,0:01:28.14,Sample KM [Up],,0,0,0,karaoke,{\k11}Hide {\k11}the {\k15}scars {\k9}to {\k13}fade {\k10}a{\k18}way
+Comment: 0,0:01:28.19,0:01:28.67,Sample KM [Choir],,0,0,0,karaoke,{\k14}Hide {\k11}the {\k14}scars {\k9}to
+Comment: 0,0:01:28.67,0:01:29.55,Sample KM [Choir],,0,0,0,karaoke,{\k12}Fade {\k9}a{\k13}way {\k14}the {\k18}shake-{\k22}up
+Comment: 0,0:01:29.15,0:01:29.77,Sample KM [Up],,0,0,0,karaoke,{\k18}Why'd {\k10}you {\k11}leave {\k11}the {\k12}keys
+Comment: 0,0:01:29.78,0:01:30.48,Sample KM [Up],,0,0,0,karaoke,{\k11}U{\k12}pon {\k12}the {\k12}ta{\k23}ble
+Comment: 0,0:01:31.03,0:01:32.32,Sample KM [Up],,0,0,0,karaoke,{\k11}Here {\k12}you {\k15}go {\k17}cre{\k14}ate {\k8}a{\k8}no{\k9}ther {\k15}fa{\k20}ble
+Comment: 0,0:01:32.36,0:01:33.39,Sample KM [Up],,0,0,0,karaoke,{\k11}You {\k10}wan{\k9}ted {\k27}to {\k14}grab {\k10}a {\k10}brush {\k12}and
+Comment: 0,0:01:33.39,0:01:34.69,Sample KM [Up],,0,0,0,karaoke,{\k12}Put {\k11}a {\k12}lit{\k13}tle {\k13}make-{\k26}up {\k13}you {\k9}wan{\k10}ted {\k11}to
+Comment: 0,0:01:34.82,0:01:35.44,Sample KM [Up],,0,0,0,karaoke,{\k11}Hide {\k12}the {\k13}scars {\k11}to {\k15}fade
+Comment: 0,0:01:35.44,0:01:36.64,Sample KM [Up],,0,0,0,karaoke,{\k10}A{\k12}way {\k12}the {\k14}shake-{\k29}up {\k10}you {\k10}wan{\k10}ted {\k13}to
+Comment: 0,0:01:36.75,0:01:37.35,Sample KM [Up],,0,0,0,karaoke,{\k12}Why'd {\k11}you {\k11}leave {\k12}the {\k14}keys
+Comment: 0,0:01:37.35,0:01:38.54,Sample KM [Up],,0,0,0,karaoke,{\k10}U{\k12}pon {\k11}the {\k14}ta{\k26}ble {\k11}you {\k10}wan{\k10}ted {\k15}to
+Comment: 0,0:01:38.64,0:01:40.31,Sample KM [Up],,0,0,0,karaoke,{\k23}I {\k27}don't {\k24}think {\k20}you {\k70}trust
+Comment: 0,0:01:41.61,0:01:48.19,Sample KM [Up],,0,0,0,karaoke,{\k194}In {\k186}my {\k43}self-{\k29}righ{\k25}teous {\k55}su{\k38}i{\k88}cide
+Comment: 0,0:01:49.24,0:01:56.90,Sample KM [Up],,0,0,0,karaoke,{\k188}I {\k172}cry {\k23}when {\k32}an{\k42}gels {\k22}de{\k45}serve {\k50}to {\kf192}die
+Comment: 0,0:01:56.90,0:02:04.32,Sample KM [Up],,0,0,0,karaoke,{\kf180}In {\kf179}my {\k39}self-{\k33}righ{\k25}teous {\k49}su{\k41}i{\kf196}cide
+Comment: 0,0:02:04.32,0:02:11.43,Sample KM [Up],,0,0,0,karaoke,{\kf180}I {\kf107}cry{\k54} {\k24}when {\k31}an{\k43}gels {\k23}de{\k48}serve {\k48}to {\kf153}die
+Comment: 0,0:02:19.19,0:02:20.59,Sample KM [Up],,0,0,0,karaoke,{\k48}FA{\k92}THER!
+Comment: 0,0:02:20.16,0:02:21.32,Sample KM [Choir],,0,0,0,karaoke,{\k44}FA{\k72}THER!
+Comment: 0,0:02:21.04,0:02:22.56,Sample KM [Up],,0,0,0,karaoke,{\k49}FA{\k103}THER!
+Comment: 0,0:02:21.96,0:02:23.24,Sample KM [Choir],,0,0,0,karaoke,{\k49}FA{\k79}THER!
+Comment: 0,0:02:22.89,0:02:24.29,Sample KM [Up],,0,0,0,karaoke,{\k50}FA{\k90}THER!
+Comment: 0,0:02:23.82,0:02:25.06,Sample KM [Choir],,0,0,0,karaoke,{\k46}FA{\k78}THER!
+Comment: 0,0:02:24.77,0:02:26.83,Sample KM [Up],,0,0,0,karaoke,{\k48}FA{\kf158}THER!
+Comment: 0,0:02:25.69,0:02:26.83,Sample KM [Choir],,0,0,0,karaoke,{\k44}FA{\k70}THER!
+Comment: 0,0:02:26.88,0:02:28.73,Sample KM [Up],,0,0,0,karaoke,{\k43}Fa{\k15}ther {\k13}in{\k19}to {\k24}your {\k71}hands
+Comment: 0,0:02:28.73,0:02:30.42,Sample KM [Up],,0,0,0,karaoke,{\k47}I {\k21}com{\k21}mend {\k25}my {\k27}spi{\k28}rit
+Comment: 0,0:02:30.63,0:02:32.20,Sample KM [Up],,0,0,0,karaoke,{\k38}Fa{\k15}ther {\k14}in{\k19}to {\k26}your {\k45}hands
+Comment: 0,0:02:32.20,0:02:35.59,Sample KM [Up],,0,0,0,karaoke,{\k49}Why {\k41}have {\k52}you {\k43}for{\k53}sa{\k48}ken {\k53}me
+Comment: 0,0:02:35.94,0:02:39.45,Sample KM [Up],,0,0,0,karaoke,{\k49}In {\k53}your {\k49}eyes {\k44}for{\k47}sa{\k50}ken {\k59}me
+Comment: 0,0:02:39.72,0:02:43.16,Sample KM [Up],,0,0,0,karaoke,{\k49}In {\k53}your {\k48}thoughts {\k43}for{\k50}sa{\k46}ken {\k55}me
+Comment: 0,0:02:43.50,0:02:48.72,Sample KM [Up],,0,0,0,karaoke,{\k49}In {\k51}your {\k47}heart {\k40}for{\k50}sa{\k141}ken {\k91}me {\k53}oh
+Comment: 0,0:02:49.07,0:02:58.29,Sample KM [Up],,0,0,0,karaoke,{\kf195}Trust {\kf183}in {\kf141}my{\k34} {\k41}self-{\k32}righ{\k25}teous {\k46}su{\k25}i{\kf200}cide
+Comment: 0,0:02:58.29,0:03:05.24,Sample KM [Up],,0,0,0,karaoke,{\kf180}I {\kf131}cry{\k36} {\k22}when {\k28}an{\k38}gels {\k22}de{\k42}serve {\k27}to {\kf169}die
+Comment: 0,0:03:05.53,0:03:12.39,Sample KM [Up],,0,0,0,karaoke,{\kf186}In {\kf154}my{\k21} {\k40}self-{\k32}righ{\k23}teous {\k46}su{\k21}i{\kf163}cide
+Comment: 0,0:03:12.81,0:03:21.02,Sample KM [Up],,0,0,0,karaoke,{\kf175}I {\kf142}cry{\k18} {\k29}when {\k31}an{\k37}gels {\k24}de{\k45}serve {\k49}to {\kf271}die
+Dialogue: 0,0:00:43.96,0:00:45.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k15}Wake {\k22}up
+Dialogue: 0,0:00:44.44,0:00:45.62,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,100)}{\k15}Wake {\k13}up
+Dialogue: 0,0:00:44.86,0:00:47.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k16}Grab {\k8}a {\k16}brush {\k8}and {\k13}put {\k12}a {\k11}lit{\k12}tle {\k13}make-{\k24}up
+Dialogue: 0,0:00:46.78,0:00:48.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k15}Hide {\k12}the {\k13}scars {\k12}to
+Dialogue: 0,0:00:47.30,0:00:48.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k13}Fade {\k9}a{\k13}way {\k10}the {\k16}shake-{\k18}up
+Dialogue: 0,0:00:47.77,0:00:49.61,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,100)}{\k13}Hide {\k15}the {\k15}scars {\k10}to {\k11}fade {\k10}a{\k12}way {\k8}the-
+Dialogue: 0,0:00:48.71,0:00:50.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k15}Why'd {\k10}you {\k13}leave {\k10}the {\k13}keys
+Dialogue: 0,0:00:49.33,0:00:50.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k10}U{\k12}pon {\k12}the {\k12}ta{\k27}ble
+Dialogue: 0,0:00:50.57,0:00:52.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k12}Here {\k10}you {\k15}go {\k12}cre{\k11}ate {\k10}a{\k11}no{\k14}ther {\k15}fa{\k22}ble
+Dialogue: 0,0:00:51.89,0:00:53.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k12}You {\k11}wan{\k10}ted {\k26}to {\k13}grab {\k12}a {\k10}brush {\k12}and
+Dialogue: 0,0:00:52.95,0:00:55.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k13}Put {\k11}a {\k13}lit{\k12}tle {\k12}make-{\k28}up {\k9}you {\k10}wan{\k11}ted {\k23}to
+Dialogue: 0,0:00:54.37,0:00:56.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k14}Hide {\k11}the {\k13}scars {\k10}to {\k13}fade {\k11}a{\k11}way
+Dialogue: 0,0:00:55.21,0:00:57.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k12}The {\k14}shake-{\k25}up {\k11}you {\k12}wan{\k11}ted {\k13}to
+Dialogue: 0,0:00:56.29,0:00:57.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k13}Why'd {\k12}you {\k11}leave {\k13}the {\k13}keys
+Dialogue: 0,0:00:56.91,0:00:59.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k12}U{\k13}pon {\k9}the {\k13}ta{\k27}ble {\k10}you {\k12}wan{\k9}ted {\k16}to
+Dialogue: 0,0:00:58.18,0:01:00.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k28}I {\k22}don't {\k23}think {\k23}you {\k74}trust
+Dialogue: 0,0:01:01.16,0:01:08.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k191}In {\k191}my {\k38}self-{\k33}righ{\k23}teous {\k54}su{\k42}i{\kf110}cide
+Dialogue: 0,0:01:08.79,0:01:18.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k184}I {\k175}cry {\k22}when {\k32}an{\k41}gels {\k22}de{\k43}serve {\k48}to {\kf319}DIE!
+Dialogue: 0,0:01:23.62,0:01:24.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k15}Wake {\k23}up
+Dialogue: 0,0:01:24.12,0:01:25.31,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,100)}{\k15}Wake {\k14}up
+Dialogue: 0,0:01:24.54,0:01:26.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k14}Grab {\k7}a {\k17}brush {\k9}and {\k14}put {\k11}a {\k11}lit{\k13}tle {\k13}make-{\k26}up
+Dialogue: 0,0:01:26.47,0:01:28.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k11}Hide {\k11}the {\k15}scars {\k9}to {\k13}fade {\k10}a{\k18}way
+Dialogue: 0,0:01:27.39,0:01:28.77,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,100)}{\k14}Hide {\k11}the {\k14}scars {\k9}to
+Dialogue: 0,0:01:27.87,0:01:29.65,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,100)}{\k12}Fade {\k9}a{\k13}way {\k14}the {\k18}shake-{\k22}up
+Dialogue: 0,0:01:28.35,0:01:29.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k18}Why'd {\k10}you {\k11}leave {\k11}the {\k12}keys
+Dialogue: 0,0:01:28.98,0:01:30.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k11}U{\k12}pon {\k12}the {\k12}ta{\k23}ble
+Dialogue: 0,0:01:30.23,0:01:32.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k11}Here {\k12}you {\k15}go {\k17}cre{\k14}ate {\k8}a{\k8}no{\k9}ther {\k15}fa{\k20}ble
+Dialogue: 0,0:01:31.56,0:01:33.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k11}You {\k10}wan{\k9}ted {\k27}to {\k14}grab {\k10}a {\k10}brush {\k12}and
+Dialogue: 0,0:01:32.59,0:01:34.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k12}Put {\k11}a {\k12}lit{\k13}tle {\k13}make-{\k26}up {\k13}you {\k9}wan{\k10}ted {\k11}to
+Dialogue: 0,0:01:34.02,0:01:35.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k11}Hide {\k12}the {\k13}scars {\k11}to {\k15}fade
+Dialogue: 0,0:01:34.64,0:01:36.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k10}A{\k12}way {\k12}the {\k14}shake-{\k29}up {\k10}you {\k10}wan{\k10}ted {\k13}to
+Dialogue: 0,0:01:35.95,0:01:37.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k12}Why'd {\k11}you {\k11}leave {\k12}the {\k14}keys
+Dialogue: 0,0:01:36.55,0:01:38.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k10}U{\k12}pon {\k11}the {\k14}ta{\k26}ble {\k11}you {\k10}wan{\k10}ted {\k15}to
+Dialogue: 0,0:01:37.84,0:01:40.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k23}I {\k27}don't {\k24}think {\k20}you {\k70}trust
+Dialogue: 0,0:01:40.81,0:01:48.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k194}In {\k186}my {\k43}self-{\k29}righ{\k25}teous {\k55}su{\k38}i{\k88}cide
+Dialogue: 0,0:01:48.44,0:01:57.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k188}I {\k172}cry {\k23}when {\k32}an{\k42}gels {\k22}de{\k45}serve {\k50}to {\kf192}die
+Dialogue: 0,0:01:56.10,0:02:04.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\kf180}In {\kf179}my {\k39}self-{\k33}righ{\k25}teous {\k49}su{\k41}i{\kf196}cide
+Dialogue: 0,0:02:03.52,0:02:11.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\kf180}I {\kf107}cry{\k54} {\k24}when {\k31}an{\k43}gels {\k23}de{\k48}serve {\k48}to {\kf153}die
+Dialogue: 0,0:02:18.39,0:02:20.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k48}FA{\k92}THER!
+Dialogue: 0,0:02:19.36,0:02:21.42,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,100)}{\k44}FA{\k72}THER!
+Dialogue: 0,0:02:20.24,0:02:22.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k49}FA{\k103}THER!
+Dialogue: 0,0:02:21.16,0:02:23.34,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,100)}{\k49}FA{\k79}THER!
+Dialogue: 0,0:02:22.09,0:02:24.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k50}FA{\k90}THER!
+Dialogue: 0,0:02:23.02,0:02:25.16,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,100)}{\k46}FA{\k78}THER!
+Dialogue: 0,0:02:23.97,0:02:26.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k48}FA{\kf158}THER!
+Dialogue: 0,0:02:24.89,0:02:26.93,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,100)}{\k44}FA{\k70}THER!
+Dialogue: 0,0:02:26.08,0:02:28.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k43}Fa{\k15}ther {\k13}in{\k19}to {\k24}your {\k71}hands
+Dialogue: 0,0:02:27.93,0:02:30.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k47}I {\k21}com{\k21}mend {\k25}my {\k27}spi{\k28}rit
+Dialogue: 0,0:02:29.83,0:02:32.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k38}Fa{\k15}ther {\k14}in{\k19}to {\k26}your {\k45}hands
+Dialogue: 0,0:02:31.40,0:02:35.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k49}Why {\k41}have {\k52}you {\k43}for{\k53}sa{\k48}ken {\k53}me
+Dialogue: 0,0:02:35.14,0:02:39.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k49}In {\k53}your {\k49}eyes {\k44}for{\k47}sa{\k50}ken {\k59}me
+Dialogue: 0,0:02:38.92,0:02:43.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k49}In {\k53}your {\k48}thoughts {\k43}for{\k50}sa{\k46}ken {\k55}me
+Dialogue: 0,0:02:42.70,0:02:48.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\k49}In {\k51}your {\k47}heart {\k40}for{\k50}sa{\k141}ken {\k91}me {\k53}oh
+Dialogue: 0,0:02:48.27,0:02:58.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\kf195}Trust {\kf183}in {\kf141}my{\k34} {\k41}self-{\k32}righ{\k25}teous {\k46}su{\k25}i{\kf200}cide
+Dialogue: 0,0:02:57.49,0:03:05.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\kf180}I {\kf131}cry{\k36} {\k22}when {\k28}an{\k38}gels {\k22}de{\k42}serve {\k27}to {\kf169}die
+Dialogue: 0,0:03:04.73,0:03:12.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\kf186}In {\kf154}my{\k21} {\k40}self-{\k32}righ{\k23}teous {\k46}su{\k21}i{\kf163}cide
+Dialogue: 0,0:03:12.01,0:03:21.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,100)}{\kf175}I {\kf142}cry{\k18} {\k29}when {\k31}an{\k37}gels {\k24}de{\k45}serve {\k49}to {\kf271}die
