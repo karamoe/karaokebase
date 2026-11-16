@@ -1,0 +1,36 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Laura no Komoriuta
+Original Timing: HayatoKurokami
+LayoutResX: 0
+LayoutResY: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:02.42,0:00:06.90,Sample KM [Up],,0,0,0,karaoke,{\k39}ka{\k29}ga{\k33}ya{\k40}ku {\k53}so{\k71}u{\k89}ge{\k40}n {\k54}ni
+Comment: 0,0:00:07.59,0:00:11.72,Sample KM [Up],,0,0,0,karaoke,{\k39}yu{\k26}u{\k33}hi {\k33}ga {\k68}shi{\k67}zu{\kf147}mu
+Comment: 0,0:00:12.71,0:00:17.03,Sample KM [Up],,0,0,0,karaoke,{\k29}mo{\k40}u {\k34}hi {\k34}ga {\k62}ku{\k64}re{\k93}ru {\k40}ka{\k36}ra
+Comment: 0,0:00:17.84,0:00:21.88,Sample KM [Up],,0,0,0,karaoke,{\k35}ne{\k30}n{\k27}ne {\k42}shi{\k66}ma{\k60}sho{\kf144}u
+Comment: 0,0:00:22.94,0:00:27.69,Sample KM [Up],,0,0,0,karaoke,{\k38}ko{\k26}ri{\k36}su {\k34}ya {\k40}u{\k58}sa{\k118}gi-{\k34}ta{\k58}chi {\k33}ga
+Comment: 0,0:00:28.02,0:00:32.87,Sample KM [Up],,0,0,0,karaoke,{\k37}yo{\k32}n{\k31}de{\k27}ru {\k38}yu{\k58}me {\k125}no {\k33}ku{\k57}ni {\k47}he
+Comment: 0,0:00:33.01,0:00:44.44,Sample KM [Up],,0,0,0,karaoke,{\k42}ho{\k55}shi {\kf93}ni{\k74} {\k33}no{\k65}t{\kf103}te{\k59} {\k36}i{\k46}ko{\kf537}u
+Comment: 0,0:00:45.94,0:00:50.34,Sample KM [Up],,0,0,0,karaoke,{\k37}LA{\k26}U{\k33}RA {\k37}no {\k58}yu{\k62}ri{\k98}ka{\k38}go {\k51}de
+Comment: 0,0:00:51.00,0:00:56.36,Sample KM [Up],,0,0,0,karaoke,{\k42}o{\k33}ya{\k32}su{\k36}mi{\k76}na{\k82}sa{\kf235}i
+Dialogue: 0,0:00:01.52,0:00:07.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}ka{\k29}ga{\k33}ya{\k40}ku {\k53}so{\k71}u{\k89}ge{\k40}n {\k54}ni
+Dialogue: 0,0:00:06.69,0:00:11.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}yu{\k26}u{\k33}hi {\k33}ga {\k68}shi{\k67}zu{\kf147}mu
+Dialogue: 0,0:00:11.81,0:00:17.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}mo{\k40}u {\k34}hi {\k34}ga {\k62}ku{\k64}re{\k93}ru {\k40}ka{\k36}ra
+Dialogue: 0,0:00:16.94,0:00:22.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}ne{\k30}n{\k27}ne {\k42}shi{\k66}ma{\k60}sho{\kf144}u
+Dialogue: 0,0:00:22.04,0:00:27.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}ko{\k26}ri{\k36}su {\k34}ya {\k40}u{\k58}sa{\k118}gi-{\k34}ta{\k58}chi {\k33}ga
+Dialogue: 0,0:00:27.12,0:00:33.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}yo{\k32}n{\k31}de{\k27}ru {\k38}yu{\k58}me {\k125}no {\k33}ku{\k57}ni {\k47}he
+Dialogue: 0,0:00:32.11,0:00:44.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}ho{\k55}shi {\kf93}ni{\k74} {\k33}no{\k65}t{\kf103}te{\k59} {\k36}i{\k46}ko{\kf537}u
+Dialogue: 0,0:00:45.04,0:00:50.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}LA{\k26}U{\k33}RA {\k37}no {\k58}yu{\k62}ri{\k98}ka{\k38}go {\k51}de
+Dialogue: 0,0:00:50.10,0:00:56.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}o{\k33}ya{\k32}su{\k36}mi{\k76}na{\k82}sa{\kf235}i
