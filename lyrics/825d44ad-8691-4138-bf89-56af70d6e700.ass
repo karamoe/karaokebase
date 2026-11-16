@@ -3,26 +3,40 @@ Title: Oretachi Muteki Sa!! Dairanger
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
-Collisions: Normal
 Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,3,0,8,10,10,10,1
+Style: Default,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 1,0:0:1.40,0:0:4.04,Default,,0000,0000,0000,,{\k100}{\kf23}HA! {\kf27}{\kf30}HA! {\kf33}{\kf27}HA {\kf23}HA!
-Dialogue: 1,0:0:4.01,0:0:7.77,Default,,0000,0000,0000,,{\k100}{\kf20}ton{\kf20}de {\kf13}ku{\kf17}ru-{\kf23}ku{\kf23}ru {\kf17}{\kf23}su{\kf23}go{\kf30}i {\kf17}ya{\kf50}tsu
-Dialogue: 1,0:0:7.84,0:0:12.95,Default,,0000,0000,0000,,{\k100}{\kf17}chi{\kf17}kyu{\kf23}{\kf33}u {\kf23}de {\kf23}i{\kf20}chi{\kf70}ban {\kf27}{\kf17}tsu{\kf23}yo{\kf13}i {\kf17}{\kf20}ya{\kf67}tsu
-Dialogue: 1,0:0:12.98,0:0:16.85,Default,,0000,0000,0000,,{\k100}{\kf17}R{\kf23}O{\kf20}D {\kf17}gu{\kf17}ru-{\kf17}gu{\kf33}ru {\kf20}ma{\kf20}wa{\kf30}shi{\kf17}ta{\kf57}ra
-Dialogue: 1,0:0:16.88,0:0:21.39,Default,,0000,0000,0000,,{\k100}{\kf20}CO{\kf17}T{\kf17}PO{\kf20}T{\kf17}ROS {\kf20}{\kf23}mo {\kf17}batta{\kf23}ba{\kf177}ta
-Dialogue: 1,0:0:21.09,0:0:26.49,Default,,0000,0000,0000,,{\k100}{\kf43}DAI{\kf17}RAN{\kf23}{\kf153}GER {\kf20}{\kf20}HA! {\kf47}{\kf17}HA! {\kf43}{\kf13}HA {\kf20}{\kf23}HA!
-Dialogue: 1,0:0:25.49,0:0:30.23,Default,,0000,0000,0000,,{\k100}{\kf17}ki{\kf17}ra{\kf17}{\kf10}me{\kf17}{\kf17}ku {\kf17}{\kf13}mu{\kf17}{\kf13}ne {\kf17}{\kf13}no {\kf20}{\kf13}i{\kf17}{\kf13}tsu{\kf20}{\kf30}tsu-{\kf23}bo{\kf53}shi
-Dialogue: 1,0:0:30.06,0:0:35.30,Default,,0000,0000,0000,,{\k100}{\kf20}DAI{\kf23}{\kf17}RAN{\kf23}{\kf133}GER {\kf30}{\kf13}HA! {\kf63}{\kf13}HA! {\kf23}{\kf10}HA {\kf30}{\kf23}HA!
-Dialogue: 1,0:0:34.30,0:0:39.24,Default,,0000,0000,0000,,{\k100}{\kf23}mi{\kf17}na{\kf17}{\kf23}gi{\kf13}ru {\kf17}{\kf23}chi{\kf27}ka{\kf17}ra {\kf17}{\kf13}wa {\kf17}{\kf27}ri{\kf30}ku{\kf30}tsu {\kf20}nu{\kf63}ki
-Dialogue: 1,0:0:38.54,0:0:44.48,Default,,0000,0000,0000,,{\k100}{\kf20}i{\kf27}no{\kf23}chi-{\kf17}{\kf30}shi{\kf30}ra{\kf27}zu {\kf30}wa {\kf17}{\kf23}ka{\kf17}ka{\kf20}{\kf17}t{\kf17}{\kf30}te {\kf30}ko{\kf120}i
-Dialogue: 1,0:0:43.78,0:0:48.85,Default,,0000,0000,0000,,{\k100}{\kf17}ki{\kf17}ryo{\kf27}ku {\kf10}ten{\kf17}{\kf47}shin! {\kf90}{\kf20}ha{\kf23}ku{\kf20}ryo{\kf17}ku {\kf17}{\kf27}man{\kf60}ten
-Dialogue: 1,0:0:48.65,0:0:55.19,Default,,0000,0000,0000,,{\k100}{\kf27}o{\kf17}{\kf13}re-{\kf20}{\kf27}ta{\kf17}chi {\kf50}{\kf27}mu{\kf13}te{\kf17}{\kf23}ki {\kf53}sa {\kf27}{\kf40}DAI{\kf17}{\kf17}RAN{\kf20}{\kf130}GER
-Dialogue: 1,0:0:54.49,0:0:57.39,Default,,0000,0000,0000,,{\k100}{\kf33}HA! {\kf37}{\kf30}HA! {\kf37}{\kf13}HA {\kf17}{\kf23}HA!
-Dialogue: 1,0:0:57.19,0:0:59.06,Default,,0000,0000,0000,,{\k100}{\kf27}HA {\kf60}HA!
+Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:02.40,0:00:04.04,Default,,0,0,0,karaoke,{\k23}HA! {\k27}{\k30}HA! {\k33}{\k27}HA {\k23}HA!
+Comment: 1,0:00:05.01,0:00:07.77,Default,,0,0,0,karaoke,{\k20}ton{\k20}de {\k13}ku{\k17}ru-{\k23}ku{\k23}ru {\k17}{\k23}su{\k23}go{\k30}i {\k17}ya{\k50}tsu
+Comment: 1,0:00:08.84,0:00:12.95,Default,,0,0,0,karaoke,{\k17}chi{\k17}kyu{\k23}{\k33}u {\k23}de {\k23}i{\k20}chi{\k70}ban {\k27}{\k17}tsu{\k23}yo{\k13}i {\k17}{\k20}ya{\k67}tsu
+Comment: 1,0:00:13.98,0:00:16.85,Default,,0,0,0,karaoke,{\k17}R{\k23}O{\k20}D {\k17}gu{\k17}ru-{\k17}gu{\k33}ru {\k20}ma{\k20}wa{\k30}shi{\k17}ta{\k57}ra
+Comment: 1,0:00:17.88,0:00:21.39,Default,,0,0,0,karaoke,{\k20}CO{\k17}T{\k17}PO{\k20}T{\k17}ROS {\k20}{\k23}mo {\k17}batta{\k23}ba{\k177}ta
+Comment: 1,0:00:22.09,0:00:26.49,Default,,0,0,0,karaoke,{\k43}DAI{\k17}RAN{\k23}{\k153}GER {\k20}{\k20}HA! {\k47}{\k17}HA! {\k43}{\k13}HA {\k20}{\k23}HA!
+Comment: 1,0:00:26.49,0:00:30.23,Default,,0,0,0,karaoke,{\k17}ki{\k17}ra{\k17}{\k10}me{\k17}{\k17}ku {\k17}{\k13}mu{\k17}{\k13}ne {\k17}{\k13}no {\k20}{\k13}i{\k17}{\k13}tsu{\k20}{\k30}tsu-{\k23}bo{\k53}shi
+Comment: 1,0:00:31.06,0:00:35.30,Default,,0,0,0,karaoke,{\k20}DAI{\k23}{\k17}RAN{\k23}{\k133}GER {\k30}{\k13}HA! {\k63}{\k13}HA! {\k23}{\k10}HA {\k30}{\k23}HA!
+Comment: 1,0:00:35.30,0:00:39.24,Default,,0,0,0,karaoke,{\k23}mi{\k17}na{\k17}{\k23}gi{\k13}ru {\k17}{\k23}chi{\k27}ka{\k17}ra {\k17}{\k13}wa {\k17}{\k27}ri{\k30}ku{\k30}tsu {\k20}nu{\k63}ki
+Comment: 1,0:00:39.54,0:00:44.48,Default,,0,0,0,karaoke,{\k20}i{\k27}no{\k23}chi-{\k17}{\k30}shi{\k30}ra{\k27}zu {\k30}wa {\k17}{\k23}ka{\k17}ka{\k20}{\k17}t{\k17}{\k30}te {\k30}ko{\k120}i
+Comment: 1,0:00:44.78,0:00:48.85,Default,,0,0,0,karaoke,{\k17}ki{\k17}ryo{\k27}ku {\k10}ten{\k17}{\k47}shin! {\k90}{\k20}ha{\k23}ku{\k20}ryo{\k17}ku {\k17}{\k27}man{\k60}ten
+Comment: 1,0:00:49.65,0:00:55.19,Default,,0,0,0,karaoke,{\k27}o{\k17}{\k13}re-{\k20}{\k27}ta{\k17}chi {\k50}{\k27}mu{\k13}te{\k17}{\k23}ki {\k53}sa {\k27}{\k40}DAI{\k17}{\k17}RAN{\k20}{\k130}GER
+Comment: 1,0:00:55.49,0:00:57.39,Default,,0,0,0,karaoke,{\k33}HA! {\k37}{\k30}HA! {\k37}{\k13}HA {\k17}{\k23}HA!
+Comment: 1,0:00:58.19,0:00:59.06,Default,,0,0,0,karaoke,{\k27}HA {\k60}HA!
+Dialogue: 1,0:00:01.50,0:00:04.24,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}HA! {\k27}{\k30}HA! {\k33}{\k27}HA {\k23}HA!
+Dialogue: 1,0:00:04.11,0:00:07.97,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ton{\k20}de {\k13}ku{\k17}ru-{\k23}ku{\k23}ru {\k17}{\k23}su{\k23}go{\k30}i {\k17}ya{\k50}tsu
+Dialogue: 1,0:00:07.94,0:00:13.15,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}chi{\k17}kyu{\k23}{\k33}u {\k23}de {\k23}i{\k20}chi{\k70}ban {\k27}{\k17}tsu{\k23}yo{\k13}i {\k17}{\k20}ya{\k67}tsu
+Dialogue: 1,0:00:13.08,0:00:17.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}R{\k23}O{\k20}D {\k17}gu{\k17}ru-{\k17}gu{\k33}ru {\k20}ma{\k20}wa{\k30}shi{\k17}ta{\k57}ra
+Dialogue: 1,0:00:16.98,0:00:21.59,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}CO{\k17}T{\k17}PO{\k20}T{\k17}ROS {\k20}{\k23}mo {\k17}batta{\k23}ba{\k177}ta
+Dialogue: 1,0:00:21.19,0:00:26.69,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k43}DAI{\k17}RAN{\k23}{\k153}GER {\k20}{\k20}HA! {\k47}{\k17}HA! {\k43}{\k13}HA {\k20}{\k23}HA!
+Dialogue: 1,0:00:25.59,0:00:30.43,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ki{\k17}ra{\k17}{\k10}me{\k17}{\k17}ku {\k17}{\k13}mu{\k17}{\k13}ne {\k17}{\k13}no {\k20}{\k13}i{\k17}{\k13}tsu{\k20}{\k30}tsu-{\k23}bo{\k53}shi
+Dialogue: 1,0:00:30.16,0:00:35.50,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}DAI{\k23}{\k17}RAN{\k23}{\k133}GER {\k30}{\k13}HA! {\k63}{\k13}HA! {\k23}{\k10}HA {\k30}{\k23}HA!
+Dialogue: 1,0:00:34.40,0:00:39.44,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}mi{\k17}na{\k17}{\k23}gi{\k13}ru {\k17}{\k23}chi{\k27}ka{\k17}ra {\k17}{\k13}wa {\k17}{\k27}ri{\k30}ku{\k30}tsu {\k20}nu{\k63}ki
+Dialogue: 1,0:00:38.64,0:00:44.68,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}i{\k27}no{\k23}chi-{\k17}{\k30}shi{\k30}ra{\k27}zu {\k30}wa {\k17}{\k23}ka{\k17}ka{\k20}{\k17}t{\k17}{\k30}te {\k30}ko{\k120}i
+Dialogue: 1,0:00:43.88,0:00:49.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ki{\k17}ryo{\k27}ku {\k10}ten{\k17}{\k47}shin! {\k90}{\k20}ha{\k23}ku{\k20}ryo{\k17}ku {\k17}{\k27}man{\k60}ten
+Dialogue: 1,0:00:48.75,0:00:55.39,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k27}o{\k17}{\k13}re-{\k20}{\k27}ta{\k17}chi {\k50}{\k27}mu{\k13}te{\k17}{\k23}ki {\k53}sa {\k27}{\k40}DAI{\k17}{\k17}RAN{\k20}{\k130}GER
+Dialogue: 1,0:00:54.59,0:00:57.59,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k33}HA! {\k37}{\k30}HA! {\k37}{\k13}HA {\k17}{\k23}HA!
+Dialogue: 1,0:00:57.29,0:00:59.26,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k27}HA {\k60}HA!

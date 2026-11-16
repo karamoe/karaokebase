@@ -3,27 +3,42 @@ Title: Flash! Inazuman
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
-Collisions: Normal
 Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,3,0,8,10,10,10,1
+Style: Default,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 1,0:0:4.34,0:0:7.41,Default,,0000,0000,0000,,{\k100}{\k13}I{\k7}{\k7}NA{\k7}{\k7}ZU{\k10}{\k53}MAN {\k20}{\kf83}FLASH!
-Dialogue: 1,0:0:22.32,0:0:25.09,Default,,0000,0000,0000,,{\k100}{\k33}FLASH {\k37}{\k30}FLASH {\k40}{\k37}FLASH
-Dialogue: 1,0:0:25.29,0:0:28.60,Default,,0000,0000,0000,,{\k100}{\k10}I{\k7}{\k23}NA{\k17}{\k10}ZU{\k10}{\k33}MAN {\k20}{\kf100}FLASH
-Dialogue: 1,0:0:28.06,0:0:30.93,Default,,0000,0000,0000,,{\k100}{\k30}FLASH {\k40}{\k33}FLASH {\k37}{\k47}FLASH
-Dialogue: 1,0:0:31.27,0:0:35.67,Default,,0000,0000,0000,,{\k100}{\k20}I{\k17}{\k13}NA{\k20}{\k17}ZU{\k17}{\kf130}MAN {\k17}{\kf90}FLASH!
-Dialogue: 1,0:0:36.60,0:0:43.04,Default,,0000,0000,0000,,{\k100}{\k40}ta{\k17}{\k63}te {\k27}{\k10}I{\k7}{\k27}NA{\k13}{\k10}ZU{\k7}{\k50}MAN {\k20}{\k13}chi {\k17}{\k17}o {\k23}{\k10}ke{\k10}{\k30}t{\k10}{\kf123}te
-Dialogue: 1,0:0:42.34,0:0:48.75,Default,,0000,0000,0000,,{\k100}{\k10}ji{\k20}{\k13}go{\k13}{\k20}ku {\k27}{\k33}no {\k17}{\k33}DES{\k10}{\k60}PAR {\k23}{\k10}bu{\k7}{\k40}t{\k20}{\k10}to{\k10}{\k27}ba{\k10}{\kf127}se
-Dialogue: 1,0:0:48.05,0:0:51.62,Default,,0000,0000,0000,,{\k100}{\k10}mi {\k7}{\k30}yo {\k20}{\k7}ni{\k10}{\k23}hon {\k17}{\k7}no {\k7}{\k10}o{\k10}{\k10}o{\k7}{\k13}zo{\k10}{\k10}ra {\k10}{\k40}o
-Dialogue: 1,0:0:51.09,0:0:55.79,Default,,0000,0000,0000,,{\k100}{\k10}o{\k7}{\k27}ou {\k13}{\k10}ku{\k7}{\k10}ro {\k7}{\k10}ku{\k7}{\k17}mo {\k13}{\k20}a{\k7}{\k20}ku {\k13}{\k10}no {\k10}{\k27}ka{\k10}{\kf117}ge
-Dialogue: 1,0:0:55.16,0:0:57.62,Default,,0000,0000,0000,,{\k100}{\k7}GOU{\k10}{\k13}RI{\k17}{\k13}KI {\k13}{\k27}SHOU{\k7}{\k40}RAI!
-Dialogue: 1,0:0:57.93,0:1:0.49,Default,,0000,0000,0000,,{\k100}{\k13}CHOU{\k20}{\k7}RI{\k7}{\k20}KI {\k17}{\k23}SHOU{\k10}{\k40}RAI!
-Dialogue: 1,0:1:1.10,0:1:7.00,Default,,0000,0000,0000,,{\k100}{\k13}fu{\k17}{\k13}ru{\k10}{\k37}e {\k17}{\k13}S{\k10}{\k20}A{\k13}{\k50}BER {\k37}{\k10}ji{\k10}{\k13}yuu {\k23}{\k13}o {\k13}{\k7}ma{\k10}{\k17}mo{\k10}{\kf113}re
-Dialogue: 1,0:1:6.33,0:1:10.24,Default,,0000,0000,0000,,{\k100}{\k13}ka{\k13}{\k20}ga{\k17}{\k17}ya{\k13}{\k23}ku {\k23}{\k13}chi{\k7}{\k13}ka{\k10}{\k7}ra {\k7}{\kf93}da
-Dialogue: 1,0:1:9.54,0:1:13.71,Default,,0000,0000,0000,,{\k100}{\k17}I{\k17}{\k13}NA{\k20}{\k17}ZU{\k17}{\kf113}MAN {\k13}{\kf90}FLASH
-Dialogue: 1,0:1:15.78,0:1:19.35,Default,,0000,0000,0000,,{\k100}{\k10}I{\k7}{\k7}NA{\k7}{\k10}ZU{\k3}{\kf80}MAN {\k10}{\kf123}FLASH!
+Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:05.34,0:00:07.41,Default,,0,0,0,karaoke,{\k20}I{\k14}NA{\k17}ZU{\k73}MAN {\kf83}FLASH!
+Comment: 1,0:00:23.32,0:00:25.09,Default,,0,0,0,karaoke,{\k70}FLASH {\k70}FLASH {\k37}FLASH
+Comment: 1,0:00:26.29,0:00:28.60,Default,,0,0,0,karaoke,{\k17}I{\k40}NA{\k20}ZU{\k53}MAN {\kf100}FLASH
+Comment: 1,0:00:29.06,0:00:30.93,Default,,0,0,0,karaoke,{\k70}FLASH {\k70}FLASH {\k47}FLASH
+Comment: 1,0:00:32.27,0:00:35.67,Default,,0,0,0,karaoke,{\k37}I{\k33}NA{\k34}ZU{\kf130}MAN {\k17}{\kf90}FLASH!
+Comment: 1,0:00:37.60,0:00:43.04,Default,,0,0,0,karaoke,{\k57}ta{\k90}te {\k17}I{\k40}NA{\k17}ZU{\k70}MAN {\k30}chi {\k40}wo {\k20}ke{\k40}t{\kf123}te
+Comment: 1,0:00:43.34,0:00:48.75,Default,,0,0,0,karaoke,{\k30}ji{\k26}go{\k47}ku {\k50}no {\k43}DES{\k83}PAR {\k17}bu{\k60}t{\k20}to{\k37}ba{\kf127}se
+Comment: 1,0:00:49.05,0:00:51.62,Default,,0,0,0,karaoke,{\k17}mi {\k50}yo {\k17}ni{\k40}hon {\k14}no {\k20}o{\k17}o{\k23}zo{\k20}ra {\k40}wo
+Comment: 1,0:00:52.09,0:00:55.79,Default,,0,0,0,karaoke,{\k17}o{\k40}ou {\k17}ku{\k17}ro {\k17}ku{\k30}mo {\k27}a{\k33}ku {\k20}no {\k37}ka{\kf117}ge
+Comment: 1,0:00:56.16,0:00:57.62,Default,,0,0,0,karaoke,{\k17}GOU{\k30}RI{\k26}KI {\k34}SHOU{\k40}RAI!
+Comment: 1,0:00:58.93,0:01:00.49,Default,,0,0,0,karaoke,{\k33}CHOU{\k14}RI{\k37}KI {\k33}SHOU{\k40}RAI!
+Comment: 1,0:01:02.10,0:01:07.00,Default,,0,0,0,karaoke,{\k30}fu{\k23}ru{\k54}e {\k23}S{\k33}A{\k87}BER {\k20}ji{\k36}yuu {\k26}wo {\k17}ma{\k27}mo{\kf113}re
+Comment: 1,0:01:07.33,0:01:10.24,Default,,0,0,0,karaoke,{\k26}ka{\k37}ga{\k30}ya{\k46}ku {\k20}chi{\k23}ka{\k14}ra {\kf93}da
+Comment: 1,0:01:10.54,0:01:13.71,Default,,0,0,0,karaoke,{\k34}I{\k33}NA{\k34}ZU{\kf113}MAN {\k13}{\kf90}FLASH
+Comment: 1,0:01:16.78,0:01:19.35,Default,,0,0,0,karaoke,{\k17}I{\k14}NA{\k13}ZU{\kf80}MAN {\k10}{\kf123}FLASH!
+Dialogue: 1,0:00:04.44,0:00:07.61,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}I{\k14}NA{\k17}ZU{\k73}MAN {\kf83}FLASH!
+Dialogue: 1,0:00:22.42,0:00:25.29,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k70}FLASH {\k70}FLASH {\k37}FLASH
+Dialogue: 1,0:00:25.39,0:00:28.80,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}I{\k40}NA{\k20}ZU{\k53}MAN {\kf100}FLASH
+Dialogue: 1,0:00:28.16,0:00:31.13,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k70}FLASH {\k70}FLASH {\k47}FLASH
+Dialogue: 1,0:00:31.37,0:00:35.87,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k37}I{\k33}NA{\k34}ZU{\kf130}MAN {\k17}{\kf90}FLASH!
+Dialogue: 1,0:00:36.70,0:00:43.24,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k57}ta{\k90}te {\k17}I{\k40}NA{\k17}ZU{\k70}MAN {\k30}chi {\k40}wo {\k20}ke{\k40}t{\kf123}te
+Dialogue: 1,0:00:42.44,0:00:48.95,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ji{\k26}go{\k47}ku {\k50}no {\k43}DES{\k83}PAR {\k17}bu{\k60}t{\k20}to{\k37}ba{\kf127}se
+Dialogue: 1,0:00:48.15,0:00:51.82,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}mi {\k50}yo {\k17}ni{\k40}hon {\k14}no {\k20}o{\k17}o{\k23}zo{\k20}ra {\k40}wo
+Dialogue: 1,0:00:51.19,0:00:55.99,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}o{\k40}ou {\k17}ku{\k17}ro {\k17}ku{\k30}mo {\k27}a{\k33}ku {\k20}no {\k37}ka{\kf117}ge
+Dialogue: 1,0:00:55.26,0:00:57.82,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}GOU{\k30}RI{\k26}KI {\k34}SHOU{\k40}RAI!
+Dialogue: 1,0:00:58.03,0:01:00.69,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k33}CHOU{\k14}RI{\k37}KI {\k33}SHOU{\k40}RAI!
+Dialogue: 1,0:01:01.20,0:01:07.20,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k30}fu{\k23}ru{\k54}e {\k23}S{\k33}A{\k87}BER {\k20}ji{\k36}yuu {\k26}wo {\k17}ma{\k27}mo{\kf113}re
+Dialogue: 1,0:01:06.43,0:01:10.44,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ka{\k37}ga{\k30}ya{\k46}ku {\k20}chi{\k23}ka{\k14}ra {\kf93}da
+Dialogue: 1,0:01:09.64,0:01:13.91,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k34}I{\k33}NA{\k34}ZU{\kf113}MAN {\k13}{\kf90}FLASH
+Dialogue: 1,0:01:15.88,0:01:19.55,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}I{\k14}NA{\k13}ZU{\kf80}MAN {\k10}{\kf123}FLASH!

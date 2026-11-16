@@ -3,23 +3,34 @@ Title: Mi yo!! Gorenger
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
-Collisions: Normal
 Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,3,0,8,10,10,10,1
+Style: Default,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 1,0:0:4.05,0:0:12.05,Default,,0000,0000,0000,,{\k100}{\kf21}Oh {\kf21}{\kf29}Oh {\kf21}{\kf38}Go{\kf33}ran{\kf183}ger {\kf29}{\kf21}Oh {\kf21}{\kf21}Oh {\kf21}{\kf46}Go{\kf33}ran{\kf163}ger
-Dialogue: 1,0:0:11.51,0:0:19.77,Default,,0000,0000,0000,,{\k100}{\kf17}Oh {\kf21}{\kf25}Oh {\kf21}{\kf25}Go{\kf21}{\kf33}ran{\kf192}ger {\kf25}{\kf21}Oh {\kf21}{\kf21}Oh {\kf25}{\kf42}Go{\kf46}ran{\kf171}ger
-Dialogue: 1,0:0:19.06,0:0:21.18,Default,,0000,0000,0000,,{\k100}{\kf13}A{\kf17}ka{\kf29}ran{\kf54}ger
-Dialogue: 1,0:0:20.68,0:0:24.65,Default,,0000,0000,0000,,{\k100}{\kf17}mi {\kf21}yo! {\kf29}{\kf25}Va{\kf21}ri{\kf21}d{\kf25}reen {\kf29}so{\kf25}ra {\kf17}wo {\kf25}yu{\kf42}ku
-Dialogue: 1,0:0:24.73,0:0:28.61,Default,,0000,0000,0000,,{\k100}{\kf25}mi {\kf46}yo! {\kf46}{\kf21}Va{\kf21}ri{\kf17}tan{\kf17}k {\kf13}chi {\kf17}wo {\kf17}ka{\kf21}ke{\kf29}ru
-Dialogue: 1,0:0:28.44,0:0:32.07,Default,,0000,0000,0000,,{\k100}{\kf17}chi{\kf21}jo{\kf13}u {\kf21}{\kf29}no {\kf21}he{\kf17}i{\kf13}wa {\kf17}tsu{\kf13}ka{\kf29}mu {\kf17}ta{\kf38}me
-Dialogue: 1,0:0:31.07,0:0:33.99,Default,,0000,0000,0000,,{\k100}{\kf17}ba{\kf13}ku{\kf17}on {\kf13}a{\kf17}ge{\kf13}te {\kf17}tsu{\kf13}ki {\kf29}su{\kf8}su{\kf38}mu
-Dialogue: 1,0:0:34.49,0:0:36.03,Default,,0000,0000,0000,,{\k100}{\kf13}A{\kf17}ka{\kf17}ran{\kf8}ger
-Dialogue: 1,0:0:35.78,0:0:39.74,Default,,0000,0000,0000,,{\k100}{\kf17}mi {\kf38}yo! {\kf21}{\kf21}go-{\kf13}shi{\kf17}ki {\kf13}no {\kf17}ki{\kf13}kyu{\kf17}u {\kf21}Va{\kf21}ri{\kf17}c{\kf54}cune
-Dialogue: 1,0:0:39.91,0:0:44.58,Default,,0000,0000,0000,,{\k100}{\kf25}mi {\kf104}yo! {\kf21}{\kf21}mu{\kf13}te{\kf17}ki {\kf13}no {\kf13}se{\kf13}n{\kf17}sha {\kf17}Va{\kf17}ri{\kf21}tan{\kf58}k
-Dialogue: 1,0:0:44.50,0:0:49.92,Default,,0000,0000,0000,,{\k100}{\kf25}yu{\kf33}ke! {\kf25}{\kf17}Va{\kf17}ri{\kf17}tan{\kf46}k {\kf21}{\kf17}Va{\kf17}ri{\kf17}c{\kf63}cune {\kf17}Va{\kf17}ri{\kf13}d{\kf83}reen
+Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:05.05,0:00:12.05,Default,,0,0,0,karaoke,{\k21}Oh {\k21}{\k29}Oh {\k21}{\k38}Go{\k33}ran{\k183}ger {\k29}{\k21}Oh {\k21}{\k21}Oh {\k21}{\k46}Go{\k33}ran{\k163}ger
+Comment: 1,0:00:12.51,0:00:19.77,Default,,0,0,0,karaoke,{\k17}Oh {\k21}{\k25}Oh {\k21}{\k25}Go{\k21}{\k33}ran{\k192}ger {\k25}{\k21}Oh {\k21}{\k21}Oh {\k25}{\k42}Go{\k46}ran{\k171}ger
+Comment: 1,0:00:20.06,0:00:21.18,Default,,0,0,0,karaoke,{\k13}A{\k17}ka{\k29}ran{\k54}ger
+Comment: 1,0:00:21.68,0:00:24.65,Default,,0,0,0,karaoke,{\k17}mi {\k21}yo! {\k29}{\k25}Va{\k21}ri{\k21}d{\k25}reen {\k29}so{\k25}ra {\k17}wo {\k25}yu{\k42}ku
+Comment: 1,0:00:25.73,0:00:28.61,Default,,0,0,0,karaoke,{\k25}mi {\k46}yo! {\k46}{\k21}Va{\k21}ri{\k17}tan{\k17}k {\k13}chi {\k17}wo {\k17}ka{\k21}ke{\k29}ru
+Comment: 1,0:00:29.44,0:00:32.07,Default,,0,0,0,karaoke,{\k17}chi{\k21}jo{\k13}u {\k21}{\k29}no {\k21}he{\k17}i{\k13}wa {\k17}tsu{\k13}ka{\k29}mu {\k17}ta{\k38}me
+Comment: 1,0:00:32.07,0:00:33.99,Default,,0,0,0,karaoke,{\k17}ba{\k13}ku{\k17}on {\k13}a{\k17}ge{\k13}te {\k17}tsu{\k13}ki {\k29}su{\k8}su{\k38}mu
+Comment: 1,0:00:35.49,0:00:36.03,Default,,0,0,0,karaoke,{\k13}A{\k17}ka{\k17}ran{\k8}ger
+Comment: 1,0:00:36.78,0:00:39.74,Default,,0,0,0,karaoke,{\k17}mi {\k38}yo! {\k21}{\k21}go-{\k13}shi{\k17}ki {\k13}no {\k17}ki{\k13}kyu{\k17}u {\k21}Va{\k21}ri{\k17}c{\k54}cune
+Comment: 1,0:00:40.91,0:00:44.58,Default,,0,0,0,karaoke,{\k25}mi {\k104}yo! {\k21}{\k21}mu{\k13}te{\k17}ki {\k13}no {\k13}se{\k13}n{\k17}sha {\k17}Va{\k17}ri{\k21}tan{\k58}k
+Comment: 1,0:00:45.50,0:00:49.92,Default,,0,0,0,karaoke,{\k25}yu{\k33}ke! {\k25}{\k17}Va{\k17}ri{\k17}tan{\k46}k {\k21}{\k17}Va{\k17}ri{\k17}c{\k63}cune {\k17}Va{\k17}ri{\k13}d{\k83}reen
+Dialogue: 1,0:00:04.15,0:00:12.25,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Oh {\k21}{\k29}Oh {\k21}{\k38}Go{\k33}ran{\k183}ger {\k29}{\k21}Oh {\k21}{\k21}Oh {\k21}{\k46}Go{\k33}ran{\k163}ger
+Dialogue: 1,0:00:11.61,0:00:19.97,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Oh {\k21}{\k25}Oh {\k21}{\k25}Go{\k21}{\k33}ran{\k192}ger {\k25}{\k21}Oh {\k21}{\k21}Oh {\k25}{\k42}Go{\k46}ran{\k171}ger
+Dialogue: 1,0:00:19.16,0:00:21.38,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k13}A{\k17}ka{\k29}ran{\k54}ger
+Dialogue: 1,0:00:20.78,0:00:24.85,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}mi {\k21}yo! {\k29}{\k25}Va{\k21}ri{\k21}d{\k25}reen {\k29}so{\k25}ra {\k17}wo {\k25}yu{\k42}ku
+Dialogue: 1,0:00:24.83,0:00:28.81,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}mi {\k46}yo! {\k46}{\k21}Va{\k21}ri{\k17}tan{\k17}k {\k13}chi {\k17}wo {\k17}ka{\k21}ke{\k29}ru
+Dialogue: 1,0:00:28.54,0:00:32.27,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}chi{\k21}jo{\k13}u {\k21}{\k29}no {\k21}he{\k17}i{\k13}wa {\k17}tsu{\k13}ka{\k29}mu {\k17}ta{\k38}me
+Dialogue: 1,0:00:31.17,0:00:34.19,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ba{\k13}ku{\k17}on {\k13}a{\k17}ge{\k13}te {\k17}tsu{\k13}ki {\k29}su{\k8}su{\k38}mu
+Dialogue: 1,0:00:34.59,0:00:36.23,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k13}A{\k17}ka{\k17}ran{\k8}ger
+Dialogue: 1,0:00:35.88,0:00:39.94,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}mi {\k38}yo! {\k21}{\k21}go-{\k13}shi{\k17}ki {\k13}no {\k17}ki{\k13}kyu{\k17}u {\k21}Va{\k21}ri{\k17}c{\k54}cune
+Dialogue: 1,0:00:40.01,0:00:44.78,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}mi {\k104}yo! {\k21}{\k21}mu{\k13}te{\k17}ki {\k13}no {\k13}se{\k13}n{\k17}sha {\k17}Va{\k17}ri{\k21}tan{\k58}k
+Dialogue: 1,0:00:44.60,0:00:50.12,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}yu{\k33}ke! {\k25}{\k17}Va{\k17}ri{\k17}tan{\k46}k {\k21}{\k17}Va{\k17}ri{\k17}c{\k63}cune {\k17}Va{\k17}ri{\k13}d{\k83}reen

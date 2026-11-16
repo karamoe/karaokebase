@@ -1,32 +1,58 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Ginga Shippû Sasuraiger
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
-Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,3,0,8,10,10,10,1
+Style: Default,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
-Dialogue: 1,0:0:17.32,0:0:20.08,Default,,0000,0000,0000,,{\k100}{\kf108}SO{\kf20}LAR {\kf20}{\kf28}WIND
-Dialogue: 1,0:0:19.44,0:0:23.76,Default,,0000,0000,0000,,{\k100}{\kf40}ko{\kf16}ko{\kf20}{\kf16}ro {\kf24}{\kf16}no {\kf24}{\kf16}ho {\kf20}{\kf16}ni {\kf20}{\kf24}u{\kf20}{\kf20}ke{\kf40}te
-Dialogue: 1,0:0:23.08,0:0:29.88,Default,,0000,0000,0000,,{\k100}{\kf20}i{\kf52}ma {\kf72}{\kf24}ta{\kf48}bi{\kf20}da{\kf20}chi {\kf32}no {\kf44}{\kf20}sa{\kf20}su{\kf28}rai {\kf44}no {\kf48}{\kf20}gi{\kf20}{\kf28}n{\kf20}ga
-Dialogue: 1,0:0:29.08,0:0:31.08,Default,,0000,0000,0000,,{\k100}{\kf24}SO{\kf20}{\kf16}LAR {\kf40}WIND
-Dialogue: 1,0:0:30.08,0:0:35.40,Default,,0000,0000,0000,,{\k100}{\kf20}yu{\kf20}me {\kf20}wa {\kf20}{\kf20}mo{\kf20}e{\kf16}te {\kf36}{\kf36}ho{\kf56}shi{\kf24}bo{\kf24}shi {\kf28}no {\kf24}u{\kf28}mi {\kf40}wo
-Dialogue: 1,0:0:34.40,0:0:36.24,Default,,0000,0000,0000,,{\k100}{\kf32}SO{\kf20}LAR {\kf32}WIND
-Dialogue: 1,0:0:35.88,0:0:41.68,Default,,0000,0000,0000,,{\k100}{\kf16}i{\kf16}do{\kf28}mu {\kf80}{\kf16}a{\kf12}shi{\kf20}{\kf12}ta {\kf20}{\kf44}wa {\kf56}SEN{\kf48}SA{\kf112}TION
-Dialogue: 1,0:0:41.08,0:0:47.96,Default,,0000,0000,0000,,{\k100}{\kf60}o{\kf28}mo{\kf48}i {\kf28}wa {\kf44}ha{\kf28}ru{\kf48}ka {\kf20}{\kf48}u{\kf28}chu{\kf36}u {\kf40}ka{\kf52}ke{\kf24}nu{\kf32}ke{\kf24}te
-Dialogue: 1,0:0:47.32,0:0:53.96,Default,,0000,0000,0000,,{\k100}{\kf20}ha{\kf16}shi{\kf32}ru {\kf72}{\kf16}ha{\kf20}shi{\kf32}ru {\kf64}{\kf20}gi{\kf20}n{\kf20}ga {\kf20}{\kf28}ship{\kf148}puu {\kf16}DO {\kf20}IT!
-Dialogue: 1,0:0:52.88,0:0:56.24,Default,,0000,0000,0000,,{\k100}{\kf16}Sa{\kf40}su{\kf56}rai{\kf124}ger
-Dialogue: 1,0:0:55.48,0:0:59.52,Default,,0000,0000,0000,,{\k100}{\kf32}Sa{\kf24}su{\kf52}rai{\kf196}ger
-Dialogue: 1,0:0:58.52,0:1:3.96,Default,,0000,0000,0000,,{\k100}{\kf28}Sa{\kf24}su{\kf52}rai{\kf340}ger
-Dialogue: 1,0:1:3.16,0:1:4.72,Default,,0000,0000,0000,,{\k100}{\kf16}Good {\kf40}luck!
-Dialogue: 1,0:1:16.88,0:1:20.12,Default,,0000,0000,0000,,{\k100}{\kf36}Sa{\kf20}su{\kf48}rai{\kf120}ger
-Dialogue: 1,0:1:19.32,0:1:22.24,Default,,0000,0000,0000,,{\k100}{\kf24}Sa{\kf28}su{\kf68}rai{\kf72}ger
-Dialogue: 1,0:1:21.24,0:1:22.92,Default,,0000,0000,0000,,{\k100}{\kf68}YEAH!
-Dialogue: 1,0:1:22.16,0:1:27.92,Default,,0000,0000,0000,,{\k100}{\kf28}Sa{\kf28}su{\kf64}rai{\kf356}ger
-Dialogue: 1,0:1:26.92,0:1:28.68,Default,,0000,0000,0000,,{\k100}{\kf16}Good {\kf60}Luck!
+Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:18.32,0:00:20.08,Default,,0,0,0,karaoke,{\k108}SO{\k20}LAR {\k20}{\k28}WIND
+Comment: 1,0:00:20.44,0:00:23.76,Default,,0,0,0,karaoke,{\k40}ko{\k16}ko{\k20}{\k16}ro {\k24}{\k16}no {\k24}{\k16}ho {\k20}{\k16}ni {\k20}{\k24}u{\k20}{\k20}ke{\k40}te
+Comment: 1,0:00:24.08,0:00:27.40,Default,,0,0,0,karaoke,{\k20}i{\k52}ma {\k72}{\k24}ta{\k48}bi{\k20}da{\k20}chi {\k32}no {\k44}
+Comment: 1,0:00:27.40,0:00:29.88,Default,,0,0,0,karaoke,{\k20}sa{\k20}su{\k28}rai {\k44}no {\k48}{\k20}gi{\k20}{\k28}n{\k20}ga
+Comment: 1,0:00:30.08,0:00:31.08,Default,,0,0,0,karaoke,{\k24}SO{\k20}{\k16}LAR {\k40}WIND
+Comment: 1,0:00:31.08,0:00:32.80,Default,,0,0,0,karaoke,{\k20}yu{\k20}me {\k20}wa {\k20}{\k20}mo{\k20}e{\k16}te {\k36}
+Comment: 1,0:00:32.80,0:00:35.40,Default,,0,0,0,karaoke,{\k36}ho{\k56}shi{\k24}bo{\k24}shi {\k28}no {\k24}u{\k28}mi {\k40}wo
+Comment: 1,0:00:35.40,0:00:36.24,Default,,0,0,0,karaoke,{\k32}SO{\k20}LAR {\k32}WIND
+Comment: 1,0:00:36.88,0:00:41.68,Default,,0,0,0,karaoke,{\k16}i{\k16}do{\k28}mu {\k80}{\k16}a{\k12}shi{\k20}{\k12}ta {\k20}{\k44}wa {\k56}SEN{\k48}SA{\k112}TION
+Comment: 1,0:00:42.08,0:00:45.12,Default,,0,0,0,karaoke,{\k60}o{\k28}mo{\k48}i {\k28}wa {\k44}ha{\k28}ru{\k48}ka {\k20}
+Comment: 1,0:00:45.12,0:00:47.96,Default,,0,0,0,karaoke,{\k48}u{\k28}chu{\k36}u {\k40}ka{\k52}ke{\k24}nu{\k32}ke{\k24}te
+Comment: 1,0:00:48.32,0:00:51.04,Default,,0,0,0,karaoke,{\k20}ha{\k16}shi{\k32}ru {\k72}{\k16}ha{\k20}shi{\k32}ru {\k64}
+Comment: 1,0:00:51.04,0:00:53.96,Default,,0,0,0,karaoke,{\k20}gi{\k20}n{\k20}ga {\k20}{\k28}ship{\k148}puu {\k16}DO {\k20}IT!
+Comment: 1,0:00:53.88,0:00:56.24,Default,,0,0,0,karaoke,{\k16}Sa{\k40}su{\k56}rai{\k124}ger
+Comment: 1,0:00:56.48,0:00:59.52,Default,,0,0,0,karaoke,{\k32}Sa{\k24}su{\k52}rai{\k196}ger
+Comment: 1,0:00:59.52,0:01:03.96,Default,,0,0,0,karaoke,{\k28}Sa{\k24}su{\k52}rai{\k340}ger
+Comment: 1,0:01:04.16,0:01:04.72,Default,,0,0,0,karaoke,{\k16}Good {\k40}luck!
+Comment: 1,0:01:17.88,0:01:20.12,Default,,0,0,0,karaoke,{\k36}Sa{\k20}su{\k48}rai{\k120}ger
+Comment: 1,0:01:20.32,0:01:22.24,Default,,0,0,0,karaoke,{\k24}Sa{\k28}su{\k68}rai{\k72}ger
+Comment: 1,0:01:22.24,0:01:22.92,Default,,0,0,0,karaoke,{\k68}YEAH!
+Comment: 1,0:01:23.16,0:01:27.92,Default,,0,0,0,karaoke,{\k28}Sa{\k28}su{\k64}rai{\k356}ger
+Comment: 1,0:01:27.92,0:01:28.68,Default,,0,0,0,karaoke,{\k16}Good {\k60}Luck!
+Dialogue: 1,0:00:17.42,0:00:20.28,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k108}SO{\k20}LAR {\k20}{\k28}WIND
+Dialogue: 1,0:00:19.54,0:00:23.96,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k40}ko{\k16}ko{\k20}{\k16}ro {\k24}{\k16}no {\k24}{\k16}ho {\k20}{\k16}ni {\k20}{\k24}u{\k20}{\k20}ke{\k40}te
+Dialogue: 1,0:00:23.18,0:00:27.60,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}i{\k52}ma {\k72}{\k24}ta{\k48}bi{\k20}da{\k20}chi {\k32}no {\k44}
+Dialogue: 1,0:00:26.50,0:00:30.08,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}sa{\k20}su{\k28}rai {\k44}no {\k48}{\k20}gi{\k20}{\k28}n{\k20}ga
+Dialogue: 1,0:00:29.18,0:00:31.28,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}SO{\k20}{\k16}LAR {\k40}WIND
+Dialogue: 1,0:00:30.18,0:00:33.00,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}yu{\k20}me {\k20}wa {\k20}{\k20}mo{\k20}e{\k16}te {\k36}
+Dialogue: 1,0:00:31.90,0:00:35.60,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k36}ho{\k56}shi{\k24}bo{\k24}shi {\k28}no {\k24}u{\k28}mi {\k40}wo
+Dialogue: 1,0:00:34.50,0:00:36.44,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k32}SO{\k20}LAR {\k32}WIND
+Dialogue: 1,0:00:35.98,0:00:41.88,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k16}i{\k16}do{\k28}mu {\k80}{\k16}a{\k12}shi{\k20}{\k12}ta {\k20}{\k44}wa {\k56}SEN{\k48}SA{\k112}TION
+Dialogue: 1,0:00:41.18,0:00:45.32,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k60}o{\k28}mo{\k48}i {\k28}wa {\k44}ha{\k28}ru{\k48}ka {\k20}
+Dialogue: 1,0:00:44.22,0:00:48.16,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k48}u{\k28}chu{\k36}u {\k40}ka{\k52}ke{\k24}nu{\k32}ke{\k24}te
+Dialogue: 1,0:00:47.42,0:00:51.24,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ha{\k16}shi{\k32}ru {\k72}{\k16}ha{\k20}shi{\k32}ru {\k64}
+Dialogue: 1,0:00:50.14,0:00:54.16,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}gi{\k20}n{\k20}ga {\k20}{\k28}ship{\k148}puu {\k16}DO {\k20}IT!
+Dialogue: 1,0:00:52.98,0:00:56.44,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Sa{\k40}su{\k56}rai{\k124}ger
+Dialogue: 1,0:00:55.58,0:00:59.72,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Sa{\k24}su{\k52}rai{\k196}ger
+Dialogue: 1,0:00:58.62,0:01:04.16,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Sa{\k24}su{\k52}rai{\k340}ger
+Dialogue: 1,0:01:03.26,0:01:04.92,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Good {\k40}luck!
+Dialogue: 1,0:01:16.98,0:01:20.32,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Sa{\k20}su{\k48}rai{\k120}ger
+Dialogue: 1,0:01:19.42,0:01:22.44,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Sa{\k28}su{\k68}rai{\k72}ger
+Dialogue: 1,0:01:21.34,0:01:23.12,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k68}YEAH!
+Dialogue: 1,0:01:22.26,0:01:28.12,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Sa{\k28}su{\k64}rai{\k356}ger
+Dialogue: 1,0:01:27.02,0:01:28.88,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Good {\k60}Luck!
