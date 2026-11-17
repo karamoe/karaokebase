@@ -1,0 +1,196 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Title: Switch It Up
+Original Timing: Cygfir
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H00FFD058,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:05.09,0:00:06.52,Sample KM [Up],,0,0,0,karaoke,{\k9}Switch {\k8}it {\k68}up, {\k13}switch {\k10}it {\k35}up
+Comment: 0,0:00:07.32,0:00:08.98,Sample KM [Up],,0,0,0,karaoke,{\k28}I {\k9}don't {\k31}re{\k16}co{\k31}gnize {\k11}the {\k40}face
+Comment: 0,0:00:09.15,0:00:10.75,Sample KM [Up],,0,0,0,karaoke,{\k22}Sta{\k16}ring {\k30}back {\k16}at {\k30}me {\k15}to{\k31}day
+Comment: 0,0:00:11.21,0:00:12.80,Sample KM [Up],,0,0,0,karaoke,{\k23}I {\k23}guess {\k12}it's {\k33}time {\k22}to {\k46}change
+Comment: 0,0:00:13.05,0:00:14.34,Sample KM [Up],,0,0,0,karaoke,{\k11}La-{\k37}la, {\k11}la-{\k36}la, {\k11}la-{\k23}la
+Comment: 0,0:00:14.63,0:00:16.25,Sample KM [Up],,0,0,0,karaoke,{\k24}When {\k10}I {\k36}don't {\k12}feel {\k34}like {\k9}my{\k37}self
+Comment: 0,0:00:16.47,0:00:18.20,Sample KM [Up],,0,0,0,karaoke,{\k23}I {\k13}turn {\k32}in{\k13}to {\k35}some{\k12}one {\k45}else
+Comment: 0,0:00:18.52,0:00:20.11,Sample KM [Up],,0,0,0,karaoke,{\k22}Can't {\k26}stay {\k9}in {\k36}just {\k21}one {\k45}place
+Comment: 0,0:00:20.36,0:00:22.13,Sample KM [Up],,0,0,0,karaoke,{\k22}An {\k24}al{\k10}ler{\k35}gy {\k22}to {\k25}sta{\k39}sis
+Comment: 0,0:00:22.17,0:00:25.05,Sample KM [Up],,0,0,0,karaoke,{\k22}You {\k48}can't {\k47}cage {\k23}me {\k46}up, {\k23}I'm {\k19}the {\k60}key
+Comment: 0,0:00:25.82,0:00:28.64,Sample KM [Up],,0,0,0,karaoke,{\k25}I {\k47}can {\k24}move {\k23}on {\k23}in {\k44}a {\k48}heart{\k48}beat
+Comment: 0,0:00:28.84,0:00:30.57,Sample KM [Up],,0,0,0,karaoke,{\k24}They {\k21}can't {\k24}switch {\k21}it, {\k25}switch {\k26}it {\k32}up
+Comment: 0,0:00:30.67,0:00:32.72,Sample KM [Up],,0,0,0,karaoke,{\k24}Switch {\k21}it, {\k24}switch {\k23}it {\k46}up {\k45}like {\k22}me
+Comment: 0,0:00:32.96,0:00:33.63,Sample KM [Up],,0,0,0,karaoke,{\k23}Eve{\k12}ry {\k32}night
+Comment: 0,0:00:33.65,0:00:36.12,Sample KM [Up],,0,0,0,karaoke,{\k16}I'm {\k10}just {\k8}mo{\k10}ving {\k12}to {\k13}the {\k11}rhy{\k12}thm {\k13}of {\k10}a {\k33}diffe{\k34}rent {\k65}life
+Comment: 0,0:00:36.17,0:00:37.90,Sample KM [Up],,0,0,0,karaoke,{\k23}They {\k22}can't {\k24}switch {\k21}it, {\k25}switch {\k26}it {\k32}up
+Comment: 0,0:00:38.00,0:00:40.05,Sample KM [Up],,0,0,0,karaoke,{\k24}Switch {\k21}it, {\k24}switch {\k23}it {\k46}up {\k45}like {\k22}me
+Comment: 0,0:00:40.26,0:00:41.44,Sample KM [Up],,0,0,0,karaoke,{\k26}Say {\k12}good{\k35}bye {\k12}'cause {\k9}to{\k9}mor{\k15}row
+Comment: 0,0:00:41.44,0:00:43.41,Sample KM [Up],,0,0,0,karaoke,{\k10}I {\k13}won't {\k12}be {\k11}the {\k10}girl {\k13}you {\k33}met {\k34}to{\k61}night
+Comment: 0,0:00:43.50,0:00:44.03,Sample KM [Up],,0,0,0,karaoke,{\k9}Switch {\k12}it {\k32}up
+Comment: 0,0:00:43.93,0:00:45.29,Sample KM [Choir],,0,0,0,karaoke,{\k34}Ooh-{\k36}ooh-{\k47}ooh-{\k19}ooh
+Comment: 0,0:00:45.31,0:00:45.88,Sample KM [Up],,0,0,0,karaoke,{\k13}Switch {\k13}it {\k31}up
+Comment: 0,0:00:45.79,0:00:47.15,Sample KM [Choir],,0,0,0,karaoke,{\k34}Ooh-{\k35}ooh-{\k46}ooh-{\k21}ooh
+Comment: 0,0:00:47.15,0:00:49.15,Sample KM [Up],,0,0,0,karaoke,{\k11}I {\k14}just {\k8}wan{\k12}na {\k23}feel {\k9}my {\k38}heart, {\k23}just {\k22}feel {\k8}my {\k32}heart
+Comment: 0,0:00:49.22,0:00:50.76,Sample KM [Up],,0,0,0,karaoke,{\k23}Go {\k33}boom, {\k35}boom, {\k63}boom
+Comment: 0,0:00:50.83,0:00:51.42,Sample KM [Up],,0,0,0,karaoke,{\k9}Switch {\k12}it {\k38}up
+Comment: 0,0:00:51.26,0:00:52.62,Sample KM [Choir],,0,0,0,karaoke,{\k34}Ooh-{\k36}ooh-{\k47}ooh-{\k19}ooh
+Comment: 0,0:00:52.65,0:00:53.24,Sample KM [Up],,0,0,0,karaoke,{\k12}Switch {\k12}it {\k35}up
+Comment: 0,0:00:53.12,0:00:54.48,Sample KM [Choir],,0,0,0,karaoke,{\k34}Ooh-{\k35}ooh-{\k46}ooh-{\k21}ooh
+Comment: 0,0:00:54.48,0:00:56.49,Sample KM [Up],,0,0,0,karaoke,{\k12}Eve{\k8}ry {\k12}time {\k11}I've {\k27}had {\k11}e{\k35}nough {\k21}of {\k24}who {\k21}I {\k19}was
+Comment: 0,0:00:56.55,0:00:59.16,Sample KM [Up],,0,0,0,karaoke,{\k15}I {\k53}smile {\k24}and {\k20}just {\k25}switch {\k13}it {\k33}up {\k14}a{\k64}gain
+Comment: 0,0:01:00.44,0:01:02.05,Sample KM [Up],,0,0,0,karaoke,{\k19}Eve{\k14}ry {\k35}time {\k12}you {\k35}say {\k12}I'm {\k34}wrong
+Comment: 0,0:01:02.27,0:01:04.00,Sample KM [Up],,0,0,0,karaoke,{\k26}Makes {\k11}me {\k32}wan{\k13}na {\k36}piss {\k9}you {\k46}off
+Comment: 0,0:01:04.33,0:01:05.79,Sample KM [Up],,0,0,0,karaoke,{\k22}It's {\k24}just {\k14}the {\k33}way {\k22}I {\k31}am
+Comment: 0,0:01:06.16,0:01:07.60,Sample KM [Up],,0,0,0,karaoke,{\k11}I {\k36}love {\k9}my {\k36}sweet {\k11}re{\k41}venge
+Comment: 0,0:01:07.77,0:01:09.35,Sample KM [Up],,0,0,0,karaoke,{\k59}Close {\k9}your {\k17}eyes {\k7}and {\k22}make {\k12}a {\k32}wish
+Comment: 0,0:01:09.61,0:01:11.21,Sample KM [Up],,0,0,0,karaoke,{\k54}By {\k10}the {\k13}time {\k11}you {\k24}o{\k14}pen {\k34}them
+Comment: 0,0:01:11.65,0:01:13.20,Sample KM [Up],,0,0,0,karaoke,{\k22}I'll {\k19}di{\k15}sap{\k33}pear {\k26}a{\k40}gain
+Comment: 0,0:01:13.50,0:01:15.15,Sample KM [Up],,0,0,0,karaoke,{\k19}But {\k27}just {\k9}know {\k34}that {\k24}I'm {\k24}hap{\k28}py
+Comment: 0,0:01:15.31,0:01:18.17,Sample KM [Up],,0,0,0,karaoke,{\k22}You {\k46}can't {\k48}cage {\k24}me {\k46}up, {\k22}I'm {\k19}the {\k59}key
+Comment: 0,0:01:18.95,0:01:21.77,Sample KM [Up],,0,0,0,karaoke,{\k25}I {\k47}can {\k24}move {\k23}on {\k23}in {\k44}a {\k48}heart{\k48}beat
+Comment: 0,0:01:21.97,0:01:23.68,Sample KM [Up],,0,0,0,karaoke,{\k23}They {\k22}can't {\k24}switch {\k21}it, {\k25}switch {\k25}it {\k31}up
+Comment: 0,0:01:23.80,0:01:25.85,Sample KM [Up],,0,0,0,karaoke,{\k24}Switch {\k21}it, {\k24}switch {\k23}it {\k46}up {\k45}like {\k22}me
+Comment: 0,0:01:26.09,0:01:26.75,Sample KM [Up],,0,0,0,karaoke,{\k23}Eve{\k12}ry {\k31}night
+Comment: 0,0:01:26.78,0:01:29.18,Sample KM [Up],,0,0,0,karaoke,{\k15}I'm {\k10}just {\k9}mo{\k10}ving {\k12}to {\k13}the {\k11}rhy{\k12}thm {\k13}of {\k10}a {\k33}diffe{\k34}rent {\k58}life
+Comment: 0,0:01:29.30,0:01:31.01,Sample KM [Up],,0,0,0,karaoke,{\k23}They {\k22}can't {\k24}switch {\k21}it, {\k25}switch {\k25}it {\k31}up
+Comment: 0,0:01:31.12,0:01:33.17,Sample KM [Up],,0,0,0,karaoke,{\k24}Switch {\k21}it, {\k24}switch {\k23}it {\k46}up {\k45}like {\k22}me
+Comment: 0,0:01:33.40,0:01:34.57,Sample KM [Up],,0,0,0,karaoke,{\k25}Say {\k12}good{\k35}bye {\k13}'cause {\k8}to{\k8}mor{\k16}row
+Comment: 0,0:01:34.57,0:01:36.52,Sample KM [Up],,0,0,0,karaoke,{\k10}I {\k13}won't {\k12}be {\k11}the {\k10}girl {\k13}you {\k33}met {\k34}to{\k59}night
+Comment: 0,0:01:36.62,0:01:37.21,Sample KM [Up],,0,0,0,karaoke,{\k9}Switch {\k13}it {\k37}up
+Comment: 0,0:01:37.09,0:01:38.45,Sample KM [Choir],,0,0,0,karaoke,{\k33}Ooh-{\k36}ooh-{\k46}ooh-{\k21}ooh
+Comment: 0,0:01:38.45,0:01:39.02,Sample KM [Up],,0,0,0,karaoke,{\k12}Switch {\k12}it {\k33}up
+Comment: 0,0:01:38.91,0:01:40.27,Sample KM [Choir],,0,0,0,karaoke,{\k34}Ooh-{\k36}ooh-{\k46}ooh-{\k20}ooh
+Comment: 0,0:01:40.29,0:01:42.26,Sample KM [Up],,0,0,0,karaoke,{\k11}I {\k13}just {\k8}wan{\k13}na {\k23}feel {\k9}my {\k37}heart, {\k24}just {\k22}feel {\k8}my {\k29}heart
+Comment: 0,0:01:42.35,0:01:43.90,Sample KM [Up],,0,0,0,karaoke,{\k23}Go {\k33}boom, {\k35}boom, {\k64}boom
+Comment: 0,0:01:43.95,0:01:44.51,Sample KM [Up],,0,0,0,karaoke,{\k9}Switch {\k13}it {\k34}up
+Comment: 0,0:01:44.39,0:01:45.75,Sample KM [Choir],,0,0,0,karaoke,{\k34}Ooh-{\k36}ooh-{\k47}ooh-{\k19}ooh
+Comment: 0,0:01:45.78,0:01:46.35,Sample KM [Up],,0,0,0,karaoke,{\k12}Switch {\k12}it {\k33}up
+Comment: 0,0:01:46.24,0:01:47.60,Sample KM [Choir],,0,0,0,karaoke,{\k34}Ooh-{\k36}ooh-{\k46}ooh-{\k20}ooh
+Comment: 0,0:01:47.62,0:01:49.61,Sample KM [Up],,0,0,0,karaoke,{\k12}Eve{\k8}ry {\k12}time {\k11}I've {\k26}had {\k12}e{\k34}nough {\k22}of {\k24}who {\k20}I {\k18}was
+Comment: 0,0:01:49.68,0:01:52.32,Sample KM [Up],,0,0,0,karaoke,{\k15}I {\k53}smile {\k24}and {\k20}just {\k25}switch {\k13}it {\k33}up {\k13}a{\k68}gain
+Comment: 0,0:01:52.44,0:01:53.92,Sample KM [Up],,0,0,0,karaoke,{\k12}Wan{\k9}na {\k22}ride {\k25}the {\k80}waves
+Comment: 0,0:01:54.25,0:01:55.34,Sample KM [Up],,0,0,0,karaoke,{\k9}'Cause {\k13}my {\k29}heart's {\k19}an {\k21}o{\k18}cean
+Comment: 0,0:01:55.40,0:01:58.61,Sample KM [Up],,0,0,0,karaoke,{\k47}There's {\k45}so {\k46}much {\k23}that's {\k44}left {\k45}to {\k71}find
+Comment: 0,0:01:59.74,0:02:01.00,Sample KM [Up],,0,0,0,karaoke,{\k12}When {\k12}I {\k26}change {\k20}my {\k56}mind
+Comment: 0,0:02:01.61,0:02:02.67,Sample KM [Up],,0,0,0,karaoke,{\k10}I {\k11}can {\k24}change {\k20}the {\k22}per{\k19}son
+Comment: 0,0:02:02.72,0:02:05.94,Sample KM [Up],,0,0,0,karaoke,{\k48}Part {\k45}of {\k46}me {\k21}that {\k48}fits {\k41}just {\k73}right
+Comment: 0,0:02:06.82,0:02:12.27,Sample KM [Up],,0,0,0,karaoke,{\k25}sa{\k48}yo{\k45}na{\k68}ra {\k24}ki{\k46}nou {\k64}no {\kf142}bo{\k19}ku {\k64}wa
+Comment: 0,0:02:11.89,0:02:13.16,Sample KM [Choir],,0,0,0,karaoke,{\k46}bo{\k23}ku {\k58}wa
+Comment: 0,0:02:13.27,0:02:14.93,Sample KM [Up],,0,0,0,karaoke,{\k23}They {\k22}can't {\k24}switch {\k21}it, {\k25}switch {\k25}it {\k26}up
+Comment: 0,0:02:15.10,0:02:17.15,Sample KM [Up],,0,0,0,karaoke,{\k24}Switch {\k21}it, {\k24}switch {\k23}it {\k46}up {\k45}like {\k22}me
+Comment: 0,0:02:17.39,0:02:18.05,Sample KM [Up],,0,0,0,karaoke,{\k23}Eve{\k12}ry {\k31}night
+Comment: 0,0:02:18.08,0:02:20.57,Sample KM [Up],,0,0,0,karaoke,{\k16}I'm {\k10}just {\k8}mo{\k10}ving {\k12}to {\k13}the {\k11}rhy{\k12}thm {\k13}of {\k10}a {\k33}diffe{\k34}rent {\k67}life
+Comment: 0,0:02:20.59,0:02:22.28,Sample KM [Up],,0,0,0,karaoke,{\k24}They {\k21}can't {\k24}switch {\k21}it, {\k25}switch {\k26}it {\k32}up
+Comment: 0,0:02:22.42,0:02:24.47,Sample KM [Up],,0,0,0,karaoke,{\k24}Switch {\k21}it, {\k24}switch {\k23}it {\k46}up {\k45}like {\k22}me
+Comment: 0,0:02:24.71,0:02:25.87,Sample KM [Up],,0,0,0,karaoke,{\k24}Say {\k12}good{\k34}bye {\k11}'cause {\k11}to{\k8}mor{\k16}row
+Comment: 0,0:02:25.87,0:02:27.87,Sample KM [Up],,0,0,0,karaoke,{\k10}I {\k13}won't {\k12}be {\k11}the {\k10}girl {\k13}you {\k33}met {\k34}to{\k64}night
+Comment: 0,0:02:27.91,0:02:28.48,Sample KM [Up],,0,0,0,karaoke,{\k9}Switch {\k14}it {\k34}up
+Comment: 0,0:02:28.35,0:02:29.71,Sample KM [Choir],,0,0,0,karaoke,{\k34}Ooh-{\k36}ooh-{\k47}ooh-{\k19}ooh
+Comment: 0,0:02:29.75,0:02:30.32,Sample KM [Up],,0,0,0,karaoke,{\k12}Switch {\k12}it {\k33}up
+Comment: 0,0:02:30.21,0:02:31.57,Sample KM [Choir],,0,0,0,karaoke,{\k34}Ooh-{\k35}ooh-{\k47}ooh-{\k20}ooh
+Comment: 0,0:02:31.59,0:02:33.55,Sample KM [Up],,0,0,0,karaoke,{\k11}I {\k12}just {\k9}wan{\k12}na {\k23}feel {\k9}my {\k38}heart, {\k23}just {\k22}feel {\k8}my {\k36}heart
+Comment: 0,0:02:33.64,0:02:35.21,Sample KM [Up],,0,0,0,karaoke,{\k23}Go {\k33}boom, {\k35}boom, {\k66}boom
+Comment: 0,0:02:35.25,0:02:35.83,Sample KM [Up],,0,0,0,karaoke,{\k9}Switch {\k13}it {\k36}up
+Comment: 0,0:02:35.69,0:02:37.05,Sample KM [Choir],,0,0,0,karaoke,{\k34}Ooh-{\k36}ooh-{\k47}ooh-{\k19}ooh
+Comment: 0,0:02:37.07,0:02:37.64,Sample KM [Up],,0,0,0,karaoke,{\k13}Switch {\k12}it {\k32}up
+Comment: 0,0:02:37.54,0:02:38.90,Sample KM [Choir],,0,0,0,karaoke,{\k34}Ooh-{\k35}ooh-{\k46}ooh-{\k21}ooh
+Comment: 0,0:02:38.91,0:02:40.93,Sample KM [Up],,0,0,0,karaoke,{\k12}Eve{\k8}ry {\k12}time {\k11}I've {\k27}had {\k11}e{\k35}nough {\k21}of {\k24}who {\k21}I {\k20}was
+Comment: 0,0:02:40.97,0:02:43.57,Sample KM [Up],,0,0,0,karaoke,{\k15}I {\k53}smile {\k24}and {\k20}just {\k25}switch {\k13}it {\k33}up {\k14}a{\k63}gain
+Dialogue: 0,0:00:04.19,0:00:06.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}Switch {\k8}it {\k68}up, {\k13}switch {\k10}it {\k35}up
+Dialogue: 0,0:00:06.42,0:00:09.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}I {\k9}don't {\k31}re{\k16}co{\k31}gnize {\k11}the {\k40}face
+Dialogue: 0,0:00:08.25,0:00:10.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Sta{\k16}ring {\k30}back {\k16}at {\k30}me {\k15}to{\k31}day
+Dialogue: 0,0:00:10.31,0:00:13.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k23}guess {\k12}it's {\k33}time {\k22}to {\k46}change
+Dialogue: 0,0:00:12.15,0:00:14.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}La-{\k37}la, {\k11}la-{\k36}la, {\k11}la-{\k23}la
+Dialogue: 0,0:00:13.73,0:00:16.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}When {\k10}I {\k36}don't {\k12}feel {\k34}like {\k9}my{\k37}self
+Dialogue: 0,0:00:15.57,0:00:18.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k13}turn {\k32}in{\k13}to {\k35}some{\k12}one {\k45}else
+Dialogue: 0,0:00:17.62,0:00:20.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Can't {\k26}stay {\k9}in {\k36}just {\k21}one {\k45}place
+Dialogue: 0,0:00:19.46,0:00:22.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}An {\k24}al{\k10}ler{\k35}gy {\k22}to {\k25}sta{\k39}sis
+Dialogue: 0,0:00:21.27,0:00:25.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}You {\k48}can't {\k47}cage {\k23}me {\k46}up, {\k23}I'm {\k19}the {\k60}key
+Dialogue: 0,0:00:24.92,0:00:28.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k47}can {\k24}move {\k23}on {\k23}in {\k44}a {\k48}heart{\k48}beat
+Dialogue: 0,0:00:27.94,0:00:30.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}They {\k21}can't {\k24}switch {\k21}it, {\k25}switch {\k26}it {\k32}up
+Dialogue: 0,0:00:29.77,0:00:32.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Switch {\k21}it, {\k24}switch {\k23}it {\k46}up {\k45}like {\k22}me
+Dialogue: 0,0:00:32.06,0:00:33.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Eve{\k12}ry {\k32}night
+Dialogue: 0,0:00:32.75,0:00:36.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}I'm {\k10}just {\k8}mo{\k10}ving {\k12}to {\k13}the {\k11}rhy{\k12}thm {\k13}of {\k10}a {\k33}diffe{\k34}rent {\k65}life
+Dialogue: 0,0:00:35.27,0:00:38.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}They {\k22}can't {\k24}switch {\k21}it, {\k25}switch {\k26}it {\k32}up
+Dialogue: 0,0:00:37.10,0:00:40.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Switch {\k21}it, {\k24}switch {\k23}it {\k46}up {\k45}like {\k22}me
+Dialogue: 0,0:00:39.36,0:00:41.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Say {\k12}good{\k35}bye {\k12}'cause {\k9}to{\k9}mor{\k15}row
+Dialogue: 0,0:00:40.54,0:00:43.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}I {\k13}won't {\k12}be {\k11}the {\k10}girl {\k13}you {\k33}met {\k34}to{\k61}night
+Dialogue: 0,0:00:42.60,0:00:44.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}Switch {\k12}it {\k32}up
+Dialogue: 0,0:00:43.03,0:00:45.49,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Ooh-{\k36}ooh-{\k47}ooh-{\k19}ooh
+Dialogue: 0,0:00:44.41,0:00:46.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Switch {\k13}it {\k31}up
+Dialogue: 0,0:00:44.89,0:00:47.35,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Ooh-{\k35}ooh-{\k46}ooh-{\k21}ooh
+Dialogue: 0,0:00:46.25,0:00:49.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}I {\k14}just {\k8}wan{\k12}na {\k23}feel {\k9}my {\k38}heart, {\k23}just {\k22}feel {\k8}my {\k32}heart
+Dialogue: 0,0:00:48.32,0:00:50.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Go {\k33}boom, {\k35}boom, {\k63}boom
+Dialogue: 0,0:00:49.93,0:00:51.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}Switch {\k12}it {\k38}up
+Dialogue: 0,0:00:50.36,0:00:52.82,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Ooh-{\k36}ooh-{\k47}ooh-{\k19}ooh
+Dialogue: 0,0:00:51.75,0:00:53.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Switch {\k12}it {\k35}up
+Dialogue: 0,0:00:52.22,0:00:54.68,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Ooh-{\k35}ooh-{\k46}ooh-{\k21}ooh
+Dialogue: 0,0:00:53.58,0:00:56.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Eve{\k8}ry {\k12}time {\k11}I've {\k27}had {\k11}e{\k35}nough {\k21}of {\k24}who {\k21}I {\k19}was
+Dialogue: 0,0:00:55.65,0:00:59.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}I {\k53}smile {\k24}and {\k20}just {\k25}switch {\k13}it {\k33}up {\k14}a{\k64}gain
+Dialogue: 0,0:00:59.54,0:01:02.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Eve{\k14}ry {\k35}time {\k12}you {\k35}say {\k12}I'm {\k34}wrong
+Dialogue: 0,0:01:01.37,0:01:04.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Makes {\k11}me {\k32}wan{\k13}na {\k36}piss {\k9}you {\k46}off
+Dialogue: 0,0:01:03.43,0:01:05.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}It's {\k24}just {\k14}the {\k33}way {\k22}I {\k31}am
+Dialogue: 0,0:01:05.26,0:01:07.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}I {\k36}love {\k9}my {\k36}sweet {\k11}re{\k41}venge
+Dialogue: 0,0:01:06.87,0:01:09.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k59}Close {\k9}your {\k17}eyes {\k7}and {\k22}make {\k12}a {\k32}wish
+Dialogue: 0,0:01:08.71,0:01:11.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k54}By {\k10}the {\k13}time {\k11}you {\k24}o{\k14}pen {\k34}them
+Dialogue: 0,0:01:10.75,0:01:13.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}I'll {\k19}di{\k15}sap{\k33}pear {\k26}a{\k40}gain
+Dialogue: 0,0:01:12.60,0:01:15.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}But {\k27}just {\k9}know {\k34}that {\k24}I'm {\k24}hap{\k28}py
+Dialogue: 0,0:01:14.41,0:01:18.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}You {\k46}can't {\k48}cage {\k24}me {\k46}up, {\k22}I'm {\k19}the {\k59}key
+Dialogue: 0,0:01:18.05,0:01:21.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k47}can {\k24}move {\k23}on {\k23}in {\k44}a {\k48}heart{\k48}beat
+Dialogue: 0,0:01:21.07,0:01:23.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}They {\k22}can't {\k24}switch {\k21}it, {\k25}switch {\k25}it {\k31}up
+Dialogue: 0,0:01:22.90,0:01:26.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Switch {\k21}it, {\k24}switch {\k23}it {\k46}up {\k45}like {\k22}me
+Dialogue: 0,0:01:25.19,0:01:26.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Eve{\k12}ry {\k31}night
+Dialogue: 0,0:01:25.88,0:01:29.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}I'm {\k10}just {\k9}mo{\k10}ving {\k12}to {\k13}the {\k11}rhy{\k12}thm {\k13}of {\k10}a {\k33}diffe{\k34}rent {\k58}life
+Dialogue: 0,0:01:28.40,0:01:31.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}They {\k22}can't {\k24}switch {\k21}it, {\k25}switch {\k25}it {\k31}up
+Dialogue: 0,0:01:30.22,0:01:33.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Switch {\k21}it, {\k24}switch {\k23}it {\k46}up {\k45}like {\k22}me
+Dialogue: 0,0:01:32.50,0:01:34.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Say {\k12}good{\k35}bye {\k13}'cause {\k8}to{\k8}mor{\k16}row
+Dialogue: 0,0:01:33.67,0:01:36.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}I {\k13}won't {\k12}be {\k11}the {\k10}girl {\k13}you {\k33}met {\k34}to{\k59}night
+Dialogue: 0,0:01:35.72,0:01:37.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}Switch {\k13}it {\k37}up
+Dialogue: 0,0:01:36.19,0:01:38.65,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Ooh-{\k36}ooh-{\k46}ooh-{\k21}ooh
+Dialogue: 0,0:01:37.55,0:01:39.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Switch {\k12}it {\k33}up
+Dialogue: 0,0:01:38.01,0:01:40.47,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Ooh-{\k36}ooh-{\k46}ooh-{\k20}ooh
+Dialogue: 0,0:01:39.39,0:01:42.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}I {\k13}just {\k8}wan{\k13}na {\k23}feel {\k9}my {\k37}heart, {\k24}just {\k22}feel {\k8}my {\k29}heart
+Dialogue: 0,0:01:41.45,0:01:44.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Go {\k33}boom, {\k35}boom, {\k64}boom
+Dialogue: 0,0:01:43.05,0:01:44.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}Switch {\k13}it {\k34}up
+Dialogue: 0,0:01:43.49,0:01:45.95,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Ooh-{\k36}ooh-{\k47}ooh-{\k19}ooh
+Dialogue: 0,0:01:44.88,0:01:46.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Switch {\k12}it {\k33}up
+Dialogue: 0,0:01:45.34,0:01:47.80,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Ooh-{\k36}ooh-{\k46}ooh-{\k20}ooh
+Dialogue: 0,0:01:46.72,0:01:49.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Eve{\k8}ry {\k12}time {\k11}I've {\k26}had {\k12}e{\k34}nough {\k22}of {\k24}who {\k20}I {\k18}was
+Dialogue: 0,0:01:48.78,0:01:52.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}I {\k53}smile {\k24}and {\k20}just {\k25}switch {\k13}it {\k33}up {\k13}a{\k68}gain
+Dialogue: 0,0:01:51.54,0:01:54.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Wan{\k9}na {\k22}ride {\k25}the {\k80}waves
+Dialogue: 0,0:01:53.35,0:01:55.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}'Cause {\k13}my {\k29}heart's {\k19}an {\k21}o{\k18}cean
+Dialogue: 0,0:01:54.50,0:01:58.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}There's {\k45}so {\k46}much {\k23}that's {\k44}left {\k45}to {\k71}find
+Dialogue: 0,0:01:58.84,0:02:01.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}When {\k12}I {\k26}change {\k20}my {\k56}mind
+Dialogue: 0,0:02:00.71,0:02:02.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}I {\k11}can {\k24}change {\k20}the {\k22}per{\k19}son
+Dialogue: 0,0:02:01.82,0:02:06.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Part {\k45}of {\k46}me {\k21}that {\k48}fits {\k41}just {\k73}right
+Dialogue: 0,0:02:05.92,0:02:12.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}sa{\k48}yo{\k45}na{\k68}ra {\k24}ki{\k46}nou {\k64}no {\kf142}bo{\k19}ku {\k64}wa
+Dialogue: 0,0:02:10.99,0:02:13.36,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k46}bo{\k23}ku {\k58}wa
+Dialogue: 0,0:02:12.37,0:02:15.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}They {\k22}can't {\k24}switch {\k21}it, {\k25}switch {\k25}it {\k26}up
+Dialogue: 0,0:02:14.20,0:02:17.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Switch {\k21}it, {\k24}switch {\k23}it {\k46}up {\k45}like {\k22}me
+Dialogue: 0,0:02:16.49,0:02:18.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Eve{\k12}ry {\k31}night
+Dialogue: 0,0:02:17.18,0:02:20.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}I'm {\k10}just {\k8}mo{\k10}ving {\k12}to {\k13}the {\k11}rhy{\k12}thm {\k13}of {\k10}a {\k33}diffe{\k34}rent {\k67}life
+Dialogue: 0,0:02:19.69,0:02:22.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}They {\k21}can't {\k24}switch {\k21}it, {\k25}switch {\k26}it {\k32}up
+Dialogue: 0,0:02:21.52,0:02:24.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Switch {\k21}it, {\k24}switch {\k23}it {\k46}up {\k45}like {\k22}me
+Dialogue: 0,0:02:23.81,0:02:26.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Say {\k12}good{\k34}bye {\k11}'cause {\k11}to{\k8}mor{\k16}row
+Dialogue: 0,0:02:24.97,0:02:28.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}I {\k13}won't {\k12}be {\k11}the {\k10}girl {\k13}you {\k33}met {\k34}to{\k64}night
+Dialogue: 0,0:02:27.01,0:02:28.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}Switch {\k14}it {\k34}up
+Dialogue: 0,0:02:27.45,0:02:29.91,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Ooh-{\k36}ooh-{\k47}ooh-{\k19}ooh
+Dialogue: 0,0:02:28.85,0:02:30.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Switch {\k12}it {\k33}up
+Dialogue: 0,0:02:29.31,0:02:31.77,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Ooh-{\k35}ooh-{\k47}ooh-{\k20}ooh
+Dialogue: 0,0:02:30.69,0:02:33.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}I {\k12}just {\k9}wan{\k12}na {\k23}feel {\k9}my {\k38}heart, {\k23}just {\k22}feel {\k8}my {\k36}heart
+Dialogue: 0,0:02:32.74,0:02:35.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Go {\k33}boom, {\k35}boom, {\k66}boom
+Dialogue: 0,0:02:34.35,0:02:36.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}Switch {\k13}it {\k36}up
+Dialogue: 0,0:02:34.79,0:02:37.25,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Ooh-{\k36}ooh-{\k47}ooh-{\k19}ooh
+Dialogue: 0,0:02:36.17,0:02:37.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Switch {\k12}it {\k32}up
+Dialogue: 0,0:02:36.64,0:02:39.10,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Ooh-{\k35}ooh-{\k46}ooh-{\k21}ooh
+Dialogue: 0,0:02:38.01,0:02:41.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Eve{\k8}ry {\k12}time {\k11}I've {\k27}had {\k11}e{\k35}nough {\k21}of {\k24}who {\k21}I {\k20}was
+Dialogue: 0,0:02:40.07,0:02:43.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}I {\k53}smile {\k24}and {\k20}just {\k25}switch {\k13}it {\k33}up {\k14}a{\k63}gain
