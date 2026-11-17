@@ -1,0 +1,170 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Memento
+Original Timing: Cygfir
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00C787FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.53,0:00:04.53,Sample KM [Up],,0,0,0,karaoke,{\k32}So {\k32}just {\k28}how {\k30}far {\k35}could {\k27}I {\kf216}go
+Comment: 0,0:00:05.43,0:00:09.24,Sample KM [Up],,0,0,0,karaoke,{\k28}I {\k32}think {\k31}I {\k29}al{\k31}rea{\k32}dy {\kf198}know
+Comment: 0,0:00:10.28,0:00:13.99,Sample KM [Up],,0,0,0,karaoke,{\k27}That {\k34}view {\k30}that {\k29}I {\k32}wan{\k27}na {\kf192}see
+Comment: 0,0:00:15.13,0:00:19.00,Sample KM [Up],,0,0,0,karaoke,{\k26}A {\k36}place {\k20}in {\k33}his{\k5}to{\k32}ry {\k31}that’s {\k88}mine,{\k31} {\k85}I
+Comment: 0,0:00:19.29,0:00:21.85,Sample KM [Up],,0,0,0,karaoke,{\k31}I {\k52}don’t {\k72}know {\k64}why {\k37}we’re
+Comment: 0,0:00:22.06,0:00:22.92,Sample KM [Up],,0,0,0,karaoke,{\k17}Al{\k14}ways {\k17}side {\k13}by {\k25}side
+Comment: 0,0:00:22.97,0:00:24.15,Sample KM [Up],,0,0,0,karaoke,{\k16}But {\k38}worlds {\k23}a{\k41}part
+Comment: 0,0:00:24.15,0:00:26.60,Sample KM [Up],,0,0,0,karaoke,{\k27}It’s {\k67}trial {\k61}by {\k53}fi{\k37}re
+Comment: 0,0:00:26.78,0:00:27.81,Sample KM [Up],,0,0,0,karaoke,{\k14}I’m {\k17}figh{\k15}ting {\k16}for {\k10}a {\k31}place
+Comment: 0,0:00:27.81,0:00:29.00,Sample KM [Up],,0,0,0,karaoke,{\k16}Where {\k28}we {\k35}can {\k40}breath
+Comment: 0,0:00:29.00,0:00:31.47,Sample KM [Up],,0,0,0,karaoke,{\k28}When {\k61}spite {\k66}takes {\k62}o{\k30}ver
+Comment: 0,0:00:31.62,0:00:34.66,Sample KM [Up],,0,0,0,karaoke,{\k14}I {\k53}might {\k66}just {\k29}take {\k36}it {\k30}out {\k27}on {\k49}you
+Comment: 0,0:00:35.12,0:00:36.03,Sample KM [Up],,0,0,0,karaoke,{\k24}'Cuz {\k67}you’re
+Comment: 0,0:00:36.29,0:00:38.99,Sample KM [Up],,0,0,0,karaoke,{\k30}Too {\k63}good {\k62}to {\k57}be {\k58}true
+Comment: 0,0:00:39.00,0:00:41.07,Sample KM [Up],,0,0,0,karaoke,{\k30}Strug{\k23}gling {\k12}but {\k27}car{\k21}ry{\k18}ing {\k76}on
+Comment: 0,0:00:41.30,0:00:43.50,Sample KM [Up],,0,0,0,karaoke,{\k18}I’ll {\k27}go {\k19}where {\k15}no{\k27}bo{\k22}dy {\k13}has {\k79}gone
+Comment: 0,0:00:43.73,0:00:45.95,Sample KM [Up],,0,0,0,karaoke,{\k18}I’m {\k23}sear{\k24}ching {\k14}a{\k30}gain {\k16}and {\k17}a{\k28}gain {\k15}and {\k18}a{\k24}gain
+Comment: 0,0:00:46.04,0:00:49.19,Sample KM [Up],,0,0,0,karaoke,{\k29}For {\k32}some{\k28}thing {\k25}on{\k37}ly {\k58}I {\k65}can {\k41}do
+Comment: 0,0:00:49.34,0:00:51.09,Sample KM [Up],,0,0,0,karaoke,{\k62}As{\k57}king {\k56}why
+Comment: 0,0:00:51.18,0:00:54.24,Sample KM [Up],,0,0,0,karaoke,{\k38}I {\k52}can’t {\k28}be {\k57}some{\k68}one {\k63}else
+Comment: 0,0:00:54.50,0:00:56.49,Sample KM [Up],,0,0,0,karaoke,{\k32}Des{\k29}pite {\k30}it {\k31}all {\k29}my {\k48}mind
+Comment: 0,0:00:56.49,0:00:59.17,Sample KM [Up],,0,0,0,karaoke,{\k43}Has {\k30}be{\k62}come {\k61}my {\k72}hell
+Comment: 0,0:00:59.36,0:01:00.49,Sample KM [Up],,0,0,0,karaoke,{\k28}With {\k32}no {\k30}es{\k23}cape
+Comment: 0,0:01:00.57,0:01:02.52,Sample KM [Up],,0,0,0,karaoke,{\k25}Or {\k50}hope {\k44}in {\k31}the {\k45}dark
+Comment: 0,0:01:02.69,0:01:05.07,Sample KM [Up],,0,0,0,karaoke,{\k55}But {\k51}still {\k44}in {\k31}my {\k57}heart
+Comment: 0,0:01:05.35,0:01:09.97,Sample KM [Up],,0,0,0,karaoke,{\k35}Your {\k49}words {\k37}e{\k38}cho {\k42}o{\k47}ver {\k31}and {\k46}o{\kf137}ver
+Comment: 0,0:01:10.40,0:01:11.45,Sample KM [Up],,0,0,0,karaoke,{\k13}I’m {\k15}final{\k15}ly {\k17}let{\k11}ting {\k34}go
+Comment: 0,0:01:11.45,0:01:12.88,Sample KM [Up],,0,0,0,karaoke,{\k14}But {\k12}I {\k23}can’t {\k23}e{\k32}rase {\k39}you
+Comment: 0,0:01:12.82,0:01:13.84,Sample KM [Up],,0,0,0,karaoke,{\k15}I’m {\k14}fol{\k17}lo{\k16}wing {\k14}be{\k26}hind
+Comment: 0,0:01:13.90,0:01:15.35,Sample KM [Up],,0,0,0,karaoke,{\k26}But {\k15}I {\k29}won’t {\k38}chase {\k37}you
+Comment: 0,0:01:15.26,0:01:16.32,Sample KM [Up],,0,0,0,karaoke,{\k12}I’m {\k20}swal{\k14}lo{\k12}wing {\k18}my {\k30}pride
+Comment: 0,0:01:16.36,0:01:17.40,Sample KM [Up],,0,0,0,karaoke,{\k11}Un{\k32}til {\k20}the {\k41}time
+Comment: 0,0:01:17.54,0:01:20.08,Sample KM [Up],,0,0,0,karaoke,{\k30}That {\k55}I {\k62}can {\k64}face {\k43}you
+Comment: 0,0:01:20.09,0:01:21.14,Sample KM [Up],,0,0,0,karaoke,{\k16}I {\k16}thought {\k16}that {\k13}it {\k16}was {\k28}love
+Comment: 0,0:01:21.14,0:01:22.49,Sample KM [Up],,0,0,0,karaoke,{\k15}In {\k15}the {\k15}per{\k30}fect {\k32}ligh{\k28}ting
+Comment: 0,0:01:22.49,0:01:23.55,Sample KM [Up],,0,0,0,karaoke,{\k21}It’s {\k13}ne{\k15}ver {\k16}been {\k15}e{\k26}nough
+Comment: 0,0:01:23.60,0:01:24.76,Sample KM [Up],,0,0,0,karaoke,{\k12}But {\k13}I’ll {\k20}keep {\k29}on {\k33}wri{\k9}ting
+Comment: 0,0:01:24.79,0:01:25.72,Sample KM [Up],,0,0,0,karaoke,{\k13}A {\k48}sto{\k32}ry
+Comment: 0,0:01:25.86,0:01:26.92,Sample KM [Up],,0,0,0,karaoke,{\k19}That’s {\k11}e{\k47}vol{\k29}ving
+Comment: 0,0:01:27.00,0:01:30.55,Sample KM [Up],,0,0,0,karaoke,{\k18}From {\k17}the {\k49}day {\k31}that {\k29}I {\k29}de{\k32}ci{\k31}ded {\k31}I’m {\k30}a{\k58}lone
+Comment: 0,0:01:31.94,0:01:33.89,Sample KM [Up],,0,0,0,karaoke,{\k10}I {\k19}don’t {\k15}be{\k34}long {\k10}a{\k14}ny{\k29}where {\k16}a{\k19}ny{\k29}more
+Comment: 0,0:01:33.89,0:01:34.82,Sample KM [Up],,0,0,0,karaoke,{\k15}It {\k15}was {\k15}my {\k14}de{\k16}ci{\k18}sion
+Comment: 0,0:01:36.79,0:01:38.68,Sample KM [Up],,0,0,0,karaoke,{\k10}I’m {\k17}gon{\k16}na {\k29}break {\k17}down {\k14}the {\k27}door {\k15}to {\k13}your {\k31}heart
+Comment: 0,0:01:38.68,0:01:39.74,Sample KM [Up],,0,0,0,karaoke,{\k16}Wi{\k15}thout {\k18}your {\k14}per{\k20}mis{\k23}sion
+Comment: 0,0:01:39.94,0:01:42.08,Sample KM [Up],,0,0,0,karaoke,{\k15}There {\k17}was {\k16}no{\k13}thing {\k12}that {\k20}could {\k28}make {\k31}me {\k62}stay
+Comment: 0,0:01:42.22,0:01:44.50,Sample KM [Up],,0,0,0,karaoke,{\k15}Re{\k17}mem{\k15}ber {\k12}it {\k17}like {\k13}it {\k18}was {\k29}yes{\k28}ter{\k64}day
+Comment: 0,0:01:44.77,0:01:46.93,Sample KM [Up],,0,0,0,karaoke,{\k17}Hang{\k17}ing {\k15}on{\k7}to {\k23}eve{\k14}ry {\k24}word {\k37}you’d {\k62}say
+Comment: 0,0:01:47.20,0:01:49.62,Sample KM [Up],,0,0,0,karaoke,{\k32}What {\k28}if {\k31}I’d {\k36}walked {\k27}a{\k31}wa{\k57}y
+Comment: 0,0:01:49.36,0:01:51.15,Sample KM [Up],,0,0,0,karaoke,{\k27}How {\k14}can {\k14}I {\k26}still {\k26}car{\k16}ry {\k56}on
+Comment: 0,0:01:51.59,0:01:53.58,Sample KM [Up],,0,0,0,karaoke,{\k16}Some{\k22}day {\k18}when {\k17}you’re {\k35}fi{\k14}nal{\k20}ly {\k57}gone
+Comment: 0,0:01:53.99,0:01:56.22,Sample KM [Up],,0,0,0,karaoke,{\k21}I’m {\k16}sear{\k24}ching {\k21}a{\k23}gain {\k19}and {\k17}a{\k24}gain {\k18}and {\k21}a{\k19}gain
+Comment: 0,0:01:56.31,0:01:59.41,Sample KM [Up],,0,0,0,karaoke,{\k30}For {\k33}some{\k27}thing {\k29}on{\k33}ly {\k52}I {\k68}can {\k38}do
+Comment: 0,0:01:59.65,0:02:01.46,Sample KM [Up],,0,0,0,karaoke,{\k59}The {\k65}truth {\k57}is
+Comment: 0,0:02:01.46,0:02:04.54,Sample KM [Up],,0,0,0,karaoke,{\k40}I {\k52}can’t {\k30}be {\k57}some{\k71}one {\k58}else
+Comment: 0,0:02:04.80,0:02:06.76,Sample KM [Up],,0,0,0,karaoke,{\k32}Des{\k33}pite {\k27}it {\k28}all {\k32}my {\k44}mind
+Comment: 0,0:02:06.76,0:02:09.37,Sample KM [Up],,0,0,0,karaoke,{\k48}Has {\k27}be{\k61}come {\k63}my {\k62}hell
+Comment: 0,0:02:09.65,0:02:10.79,Sample KM [Up],,0,0,0,karaoke,{\k31}With {\k30}no {\k30}es{\k23}cape
+Comment: 0,0:02:10.85,0:02:12.81,Sample KM [Up],,0,0,0,karaoke,{\k30}Or {\k48}hope {\k45}in {\k28}the {\k45}dark
+Comment: 0,0:02:13.00,0:02:15.38,Sample KM [Up],,0,0,0,karaoke,{\k54}But {\k52}still {\k42}in {\k32}my {\k58}heart
+Comment: 0,0:02:15.66,0:02:20.25,Sample KM [Up],,0,0,0,karaoke,{\k36}My {\k48}words {\k35}e{\k39}cho {\k43}o{\k41}ver {\k38}and {\k43}o{\kf136}ver
+Comment: 0,0:02:20.73,0:02:21.78,Sample KM [Up],,0,0,0,karaoke,{\k11}I’m {\k13}fi{\k12}nal{\k8}ly {\k16}let{\k12}ting {\k33}go
+Comment: 0,0:02:21.78,0:02:23.10,Sample KM [Up],,0,0,0,karaoke,{\k12}And {\k8}you {\k29}can’t {\k24}e{\k35}rase {\k24}me
+Comment: 0,0:02:23.10,0:02:24.19,Sample KM [Up],,0,0,0,karaoke,{\k19}Cuz {\k16}I’m {\k16}the {\k14}on{\k15}ly {\k29}one
+Comment: 0,0:02:24.20,0:02:25.56,Sample KM [Up],,0,0,0,karaoke,{\k11}That {\k18}could {\k16}e{\k15}ver {\k14}re{\k34}place {\k35}me
+Comment: 0,0:02:25.56,0:02:27.65,Sample KM [Up],,0,0,0,karaoke,{\k16}Ig{\k17}ni{\k14}ting {\k14}eve{\k15}ry {\k32}line {\k9}un{\k35}til {\k25}the {\k32}time
+Comment: 0,0:02:27.84,0:02:30.32,Sample KM [Up],,0,0,0,karaoke,{\k31}That {\k51}I {\k70}can {\k58}face {\k38}me
+Comment: 0,0:02:30.40,0:02:31.48,Sample KM [Up],,0,0,0,karaoke,{\k17}I {\k14}thought {\k15}that {\k15}it {\k12}was {\k35}love
+Comment: 0,0:02:31.48,0:02:32.80,Sample KM [Up],,0,0,0,karaoke,{\k15}In {\k12}the {\k18}per{\k25}fect {\k37}ligh{\k25}ting
+Comment: 0,0:02:32.84,0:02:33.89,Sample KM [Up],,0,0,0,karaoke,{\k20}It’s {\k11}ne{\k16}ver {\k14}been {\k15}e{\k29}nough
+Comment: 0,0:02:33.90,0:02:35.06,Sample KM [Up],,0,0,0,karaoke,{\k11}But {\k14}I’ll {\k23}keep {\k28}on {\k31}wri{\k9}ting
+Comment: 0,0:02:35.06,0:02:36.13,Sample KM [Up],,0,0,0,karaoke,{\k18}The {\k49}sto{\k40}ry
+Comment: 0,0:02:36.28,0:02:37.22,Sample KM [Up],,0,0,0,karaoke,{\k13}That {\k17}e{\k37}volved {\k27}me
+Comment: 0,0:02:37.39,0:02:40.94,Sample KM [Up],,0,0,0,karaoke,{\k12}It’s {\k13}to{\k51}day {\k30}that {\k30}I’m {\k28}de{\k33}ci{\k29}ding {\k31}I’m {\k34}al{\k64}right
+Comment: 0,0:02:40.53,0:02:44.75,Sample KM [Up],,0,0,0,karaoke,{\k25}So {\k39}just {\k25}how {\k35}far {\k36}could {\k30}I {\kf232}go
+Comment: 0,0:02:45.37,0:02:49.45,Sample KM [Up],,0,0,0,karaoke,{\k32}I {\k33}think {\k35}I {\k30}al{\k31}rea{\k26}dy {\kf221}know
+Comment: 0,0:02:50.30,0:02:54.32,Sample KM [Up],,0,0,0,karaoke,{\k15}The {\k43}view {\k31}that {\k32}I {\k28}wan{\k23}na {\kf230}see
+Comment: 0,0:02:55.11,0:03:00.39,Sample KM [Up],,0,0,0,karaoke,{\k24}I {\k37}still {\k25}could {\k35}make {\k32}it {\k22}in {\kf127}ti-{\k63}i-{\kf163}ime
+Dialogue: 0,0:00:00.00,0:00:04.73,Sample KM [Up],,0,0,0,fx,{\k53\fad(530,200)}{\k32}So {\k32}just {\k28}how {\k30}far {\k35}could {\k27}I {\kf216}go
+Dialogue: 0,0:00:04.53,0:00:09.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}I {\k32}think {\k31}I {\k29}al{\k31}rea{\k32}dy {\kf198}know
+Dialogue: 0,0:00:09.38,0:00:14.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}That {\k34}view {\k30}that {\k29}I {\k32}wan{\k27}na {\kf192}see
+Dialogue: 0,0:00:14.23,0:00:19.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}A {\k36}place {\k20}in {\k33}his{\k5}to{\k32}ry {\k31}that’s {\k88}mine,{\k31} {\k85}I
+Dialogue: 0,0:00:18.39,0:00:22.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}I {\k52}don’t {\k72}know {\k64}why {\k37}we’re
+Dialogue: 0,0:00:21.16,0:00:23.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Al{\k14}ways {\k17}side {\k13}by {\k25}side
+Dialogue: 0,0:00:22.07,0:00:24.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}But {\k38}worlds {\k23}a{\k41}part
+Dialogue: 0,0:00:23.25,0:00:26.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}It’s {\k67}trial {\k61}by {\k53}fi{\k37}re
+Dialogue: 0,0:00:25.88,0:00:28.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}I’m {\k17}figh{\k15}ting {\k16}for {\k10}a {\k31}place
+Dialogue: 0,0:00:26.91,0:00:29.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Where {\k28}we {\k35}can {\k40}breath
+Dialogue: 0,0:00:28.10,0:00:31.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}When {\k61}spite {\k66}takes {\k62}o{\k30}ver
+Dialogue: 0,0:00:30.72,0:00:34.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}I {\k53}might {\k66}just {\k29}take {\k36}it {\k30}out {\k27}on {\k49}you
+Dialogue: 0,0:00:34.22,0:00:36.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}'Cuz {\k67}you’re
+Dialogue: 0,0:00:35.39,0:00:39.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Too {\k63}good {\k62}to {\k57}be {\k58}true
+Dialogue: 0,0:00:38.10,0:00:41.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Strug{\k23}gling {\k12}but {\k27}car{\k21}ry{\k18}ing {\k76}on
+Dialogue: 0,0:00:40.40,0:00:43.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}I’ll {\k27}go {\k19}where {\k15}no{\k27}bo{\k22}dy {\k13}has {\k79}gone
+Dialogue: 0,0:00:42.83,0:00:46.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}I’m {\k23}sear{\k24}ching {\k14}a{\k30}gain {\k16}and {\k17}a{\k28}gain {\k15}and {\k18}a{\k24}gain
+Dialogue: 0,0:00:45.14,0:00:49.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}For {\k32}some{\k28}thing {\k25}on{\k37}ly {\k58}I {\k65}can {\k41}do
+Dialogue: 0,0:00:48.44,0:00:51.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k62}As{\k57}king {\k56}why
+Dialogue: 0,0:00:50.28,0:00:54.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}I {\k52}can’t {\k28}be {\k57}some{\k68}one {\k63}else
+Dialogue: 0,0:00:53.60,0:00:56.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Des{\k29}pite {\k30}it {\k31}all {\k29}my {\k48}mind
+Dialogue: 0,0:00:55.59,0:00:59.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Has {\k30}be{\k62}come {\k61}my {\k72}hell
+Dialogue: 0,0:00:58.46,0:01:00.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}With {\k32}no {\k30}es{\k23}cape
+Dialogue: 0,0:00:59.67,0:01:02.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Or {\k50}hope {\k44}in {\k31}the {\k45}dark
+Dialogue: 0,0:01:01.79,0:01:05.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k55}But {\k51}still {\k44}in {\k31}my {\k57}heart
+Dialogue: 0,0:01:04.45,0:01:10.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Your {\k49}words {\k37}e{\k38}cho {\k42}o{\k47}ver {\k31}and {\k46}o{\kf137}ver
+Dialogue: 0,0:01:09.50,0:01:11.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}I’m {\k15}final{\k15}ly {\k17}let{\k11}ting {\k34}go
+Dialogue: 0,0:01:10.55,0:01:13.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}But {\k12}I {\k23}can’t {\k23}e{\k32}rase {\k39}you
+Dialogue: 0,0:01:11.92,0:01:14.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}I’m {\k14}fol{\k17}lo{\k16}wing {\k14}be{\k26}hind
+Dialogue: 0,0:01:13.00,0:01:15.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}But {\k15}I {\k29}won’t {\k38}chase {\k37}you
+Dialogue: 0,0:01:14.36,0:01:16.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}I’m {\k20}swal{\k14}lo{\k12}wing {\k18}my {\k30}pride
+Dialogue: 0,0:01:15.46,0:01:17.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Un{\k32}til {\k20}the {\k41}time
+Dialogue: 0,0:01:16.64,0:01:20.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}That {\k55}I {\k62}can {\k64}face {\k43}you
+Dialogue: 0,0:01:19.19,0:01:21.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}I {\k16}thought {\k16}that {\k13}it {\k16}was {\k28}love
+Dialogue: 0,0:01:20.24,0:01:22.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}In {\k15}the {\k15}per{\k30}fect {\k32}ligh{\k28}ting
+Dialogue: 0,0:01:21.59,0:01:23.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}It’s {\k13}ne{\k15}ver {\k16}been {\k15}e{\k26}nough
+Dialogue: 0,0:01:22.70,0:01:24.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}But {\k13}I’ll {\k20}keep {\k29}on {\k33}wri{\k9}ting
+Dialogue: 0,0:01:23.89,0:01:25.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}A {\k48}sto{\k32}ry
+Dialogue: 0,0:01:24.96,0:01:27.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}That’s {\k11}e{\k47}vol{\k29}ving
+Dialogue: 0,0:01:26.10,0:01:30.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}From {\k17}the {\k49}day {\k31}that {\k29}I {\k29}de{\k32}ci{\k31}ded {\k31}I’m {\k30}a{\k58}lone
+Dialogue: 0,0:01:31.04,0:01:34.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}I {\k19}don’t {\k15}be{\k34}long {\k10}a{\k14}ny{\k29}where {\k16}a{\k19}ny{\k29}more
+Dialogue: 0,0:01:32.99,0:01:35.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}It {\k15}was {\k15}my {\k14}de{\k16}ci{\k18}sion
+Dialogue: 0,0:01:35.89,0:01:38.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}I’m {\k17}gon{\k16}na {\k29}break {\k17}down {\k14}the {\k27}door {\k15}to {\k13}your {\k31}heart
+Dialogue: 0,0:01:37.78,0:01:39.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Wi{\k15}thout {\k18}your {\k14}per{\k20}mis{\k23}sion
+Dialogue: 0,0:01:39.04,0:01:42.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}There {\k17}was {\k16}no{\k13}thing {\k12}that {\k20}could {\k28}make {\k31}me {\k62}stay
+Dialogue: 0,0:01:41.32,0:01:44.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Re{\k17}mem{\k15}ber {\k12}it {\k17}like {\k13}it {\k18}was {\k29}yes{\k28}ter{\k64}day
+Dialogue: 0,0:01:43.87,0:01:47.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Hang{\k17}ing {\k15}on{\k7}to {\k23}eve{\k14}ry {\k24}word {\k37}you’d {\k62}say
+Dialogue: 0,0:01:46.30,0:01:49.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}What {\k28}if {\k31}I’d {\k36}walked {\k27}a{\k31}wa{\k57}y
+Dialogue: 0,0:01:48.46,0:01:51.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}How {\k14}can {\k14}I {\k26}still {\k26}car{\k16}ry {\k56}on
+Dialogue: 0,0:01:50.69,0:01:53.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Some{\k22}day {\k18}when {\k17}you’re {\k35}fi{\k14}nal{\k20}ly {\k57}gone
+Dialogue: 0,0:01:53.09,0:01:56.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}I’m {\k16}sear{\k24}ching {\k21}a{\k23}gain {\k19}and {\k17}a{\k24}gain {\k18}and {\k21}a{\k19}gain
+Dialogue: 0,0:01:55.41,0:01:59.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}For {\k33}some{\k27}thing {\k29}on{\k33}ly {\k52}I {\k68}can {\k38}do
+Dialogue: 0,0:01:58.75,0:02:01.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k59}The {\k65}truth {\k57}is
+Dialogue: 0,0:02:00.56,0:02:04.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}I {\k52}can’t {\k30}be {\k57}some{\k71}one {\k58}else
+Dialogue: 0,0:02:03.90,0:02:06.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Des{\k33}pite {\k27}it {\k28}all {\k32}my {\k44}mind
+Dialogue: 0,0:02:05.86,0:02:09.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Has {\k27}be{\k61}come {\k63}my {\k62}hell
+Dialogue: 0,0:02:08.75,0:02:10.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}With {\k30}no {\k30}es{\k23}cape
+Dialogue: 0,0:02:09.95,0:02:13.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Or {\k48}hope {\k45}in {\k28}the {\k45}dark
+Dialogue: 0,0:02:12.10,0:02:15.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k54}But {\k52}still {\k42}in {\k32}my {\k58}heart
+Dialogue: 0,0:02:14.76,0:02:20.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}My {\k48}words {\k35}e{\k39}cho {\k43}o{\k41}ver {\k38}and {\k43}o{\kf136}ver
+Dialogue: 0,0:02:19.83,0:02:21.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}I’m {\k13}fi{\k12}nal{\k8}ly {\k16}let{\k12}ting {\k33}go
+Dialogue: 0,0:02:20.88,0:02:23.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}And {\k8}you {\k29}can’t {\k24}e{\k35}rase {\k24}me
+Dialogue: 0,0:02:22.20,0:02:24.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Cuz {\k16}I’m {\k16}the {\k14}on{\k15}ly {\k29}one
+Dialogue: 0,0:02:23.30,0:02:25.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}That {\k18}could {\k16}e{\k15}ver {\k14}re{\k34}place {\k35}me
+Dialogue: 0,0:02:24.66,0:02:27.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Ig{\k17}ni{\k14}ting {\k14}eve{\k15}ry {\k32}line {\k9}un{\k35}til {\k25}the {\k32}time
+Dialogue: 0,0:02:26.94,0:02:30.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}That {\k51}I {\k70}can {\k58}face {\k38}me
+Dialogue: 0,0:02:29.50,0:02:31.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k14}thought {\k15}that {\k15}it {\k12}was {\k35}love
+Dialogue: 0,0:02:30.58,0:02:33.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}In {\k12}the {\k18}per{\k25}fect {\k37}ligh{\k25}ting
+Dialogue: 0,0:02:31.94,0:02:34.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}It’s {\k11}ne{\k16}ver {\k14}been {\k15}e{\k29}nough
+Dialogue: 0,0:02:33.00,0:02:35.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}But {\k14}I’ll {\k23}keep {\k28}on {\k31}wri{\k9}ting
+Dialogue: 0,0:02:34.16,0:02:36.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}The {\k49}sto{\k40}ry
+Dialogue: 0,0:02:35.38,0:02:37.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}That {\k17}e{\k37}volved {\k27}me
+Dialogue: 0,0:02:36.49,0:02:41.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}It’s {\k13}to{\k51}day {\k30}that {\k30}I’m {\k28}de{\k33}ci{\k29}ding {\k31}I’m {\k34}al{\k64}right
+Dialogue: 0,0:02:39.63,0:02:44.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}So {\k39}just {\k25}how {\k35}far {\k36}could {\k30}I {\kf232}go
+Dialogue: 0,0:02:44.47,0:02:49.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}I {\k33}think {\k35}I {\k30}al{\k31}rea{\k26}dy {\kf221}know
+Dialogue: 0,0:02:49.40,0:02:54.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}The {\k43}view {\k31}that {\k32}I {\k28}wan{\k23}na {\kf230}see
+Dialogue: 0,0:02:54.21,0:03:00.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k37}still {\k25}could {\k35}make {\k32}it {\k22}in {\kf127}ti-{\k63}i-{\kf163}ime
