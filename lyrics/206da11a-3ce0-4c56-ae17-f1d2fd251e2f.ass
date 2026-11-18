@@ -3,25 +3,40 @@ Title: Jûkô B-Fighter
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
-Collisions: Normal
 Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,3,0,8,10,10,10,1
+Style: Default,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 1,0:0:22.06,0:0:26.19,Default,,0000,0000,0000,,{\k100}{\kf13}ka{\kf21}n{\kf21}ji{\kf38}ga{\kf17}ra{\kf17}me {\kf21}no {\kf21}wa{\kf21}na {\kf50}wo {\kf13}shi{\kf21}ka{\kf42}ke
-Dialogue: 1,0:0:28.23,0:0:32.57,Default,,0000,0000,0000,,{\k100}{\kf17}ha{\kf21}me{\kf17}tsu {\kf46}wo {\kf21}ta{\kf17}ku{\kf21}ra{\kf21}mu {\kf25}no {\kf42}wa {\kf17}da{\kf17}re {\kf54}da
-Dialogue: 1,0:0:34.57,0:0:38.03,Default,,0000,0000,0000,,{\k100}{\kf17}me {\kf17}ni {\kf25}wa {\kf46}me {\kf17}wo {\kf17}ha {\kf21}ni {\kf17}wa {\kf25}ha {\kf46}wo
-Dialogue: 1,0:0:37.70,0:0:41.12,Default,,0000,0000,0000,,{\k100}{\kf17}R{\kf21}U{\kf29}LES {\kf38}mu{\kf13}shi {\kf21}no {\kf17}ya{\kf25}tsu-{\kf21}ra {\kf42}ni
-Dialogue: 1,0:0:40.78,0:0:46.66,Default,,0000,0000,0000,,{\k100}{\kf21}a{\kf17}i {\kf17}no {\kf21}o{\kf21}ki{\kf21}te {\kf25}de {\kf21}ta{\kf17}ta{\kf21}ka{\kf42}u {\kf21}se{\kf21}n{\kf204}shi
-Dialogue: 1,0:0:47.29,0:0:52.38,Default,,0000,0000,0000,,{\k100}{\kf38}ke{\kf42}da{\kf17}ka{\kf21}i {\kf21}su{\kf17}ga{\kf21}ta {\kf42}wo {\kf17}ki{\kf25}mi {\kf29}wa {\kf54}mi{\kf21}ta {\kf46}ka
-Dialogue: 1,0:0:53.59,0:1:0.18,Default,,0000,0000,0000,,{\k100}{\kf33}shi{\kf29}n{\kf21}{\kf21}pi {\kf21}no {\kf17}B{\kf21}O{\kf25}DY {\kf38}ga {\kf17}hi{\kf21}ka{\kf17}ri {\kf42}wo {\kf17}ha{\kf21}na{\kf42}t{\kf29}te '{\kf129}ru
-Dialogue: 1,0:0:59.43,0:1:6.43,Default,,0000,0000,0000,,{\k100}{\kf63}so{\kf29}{\kf54}no {\kf21}na {\kf129}wa {\kf25}{\kf63}B-{\kf21}{\kf71}FIGH{\kf125}TER
-Dialogue: 1,0:1:5.76,0:1:11.85,Default,,0000,0000,0000,,{\k100}{\kf58}juu{\kf25}{\kf58}kou {\kf25}{\kf58}B-{\kf21}{\kf75}FIGH{\kf188}TER
-Dialogue: 1,0:1:12.02,0:1:18.94,Default,,0000,0000,0000,,{\k100}{\kf71}mu{\kf79}te{\kf21}ki {\kf142}no {\kf21}{\kf54}B-{\kf21}{\kf75}FIGH{\kf108}TER
-Dialogue: 1,0:1:18.32,0:1:24.45,Default,,0000,0000,0000,,{\k100}{\kf63}juu{\kf21}{\kf58}kou {\kf25}{\kf63}B-{\kf21}{\kf71}FIGH{\kf192}TER
-Dialogue: 1,0:1:23.45,0:1:25.78,Default,,0000,0000,0000,,{\k100}{\kf17}B-{\kf17}FIGH{\kf17}TER {\kf25}B-{\kf17}FIGH{\kf42}TER
-Dialogue: 1,0:1:24.99,0:1:27.99,Default,,0000,0000,0000,,{\k100}{\kf21}juu{\kf46}kou {\kf33}B-{\kf21}{\kf17}FIGH{\kf63}TER
+Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:23.06,0:00:26.19,Default,,0,0,0,karaoke,{\k13}ka{\k21}n{\k21}ji{\k38}ga{\k17}ra{\k17}me {\k21}no {\k21}wa{\k21}na {\k50}wo {\k13}shi{\k21}ka{\k42}ke
+Comment: 1,0:00:29.23,0:00:32.57,Default,,0,0,0,karaoke,{\k17}ha{\k21}me{\k17}tsu {\k46}wo {\k21}ta{\k17}ku{\k21}ra{\k21}mu {\k25}no {\k42}wa {\k17}da{\k17}re {\k54}da
+Comment: 1,0:00:35.57,0:00:38.03,Default,,0,0,0,karaoke,{\k17}me {\k17}ni {\k25}wa {\k46}me {\k17}wo {\k17}ha {\k21}ni {\k17}wa {\k25}ha {\k46}wo
+Comment: 1,0:00:38.70,0:00:41.12,Default,,0,0,0,karaoke,{\k17}R{\k21}U{\k29}LES {\k38}mu{\k13}shi {\k21}no {\k17}ya{\k25}tsu-{\k21}ra {\k42}ni
+Comment: 1,0:00:41.78,0:00:46.66,Default,,0,0,0,karaoke,{\k21}a{\k17}i {\k17}no {\k21}o{\k21}ki{\k21}te {\k25}de {\k21}ta{\k17}ta{\k21}ka{\k42}u {\k21}se{\k21}n{\k204}shi
+Comment: 1,0:00:48.29,0:00:52.38,Default,,0,0,0,karaoke,{\k38}ke{\k42}da{\k17}ka{\k21}i {\k21}su{\k17}ga{\k21}ta {\k42}wo {\k17}ki{\k25}mi {\k29}wa {\k54}mi{\k21}ta {\k46}ka
+Comment: 1,0:00:54.59,0:00:56.85,Default,,0,0,0,karaoke,{\k33}shi{\k29}n{\k21}{\k21}pi {\k21}no {\k17}B{\k21}O{\k25}DY {\k38}ga
+Comment: 1,0:00:56.85,0:01:00.18,Default,,0,0,0,karaoke,{\k17}hi{\k21}ka{\k17}ri {\k42}wo {\k17}ha{\k21}na{\k42}t{\k29}te '{\k129}ru
+Comment: 1,0:01:00.43,0:01:06.43,Default,,0,0,0,karaoke,{\k63}so{\k29}{\k54}no {\k21}na {\k129}wa {\k25}{\k63}B-{\k21}{\k71}FIGH{\k125}TER
+Comment: 1,0:01:06.76,0:01:11.85,Default,,0,0,0,karaoke,{\k58}juu{\k25}{\k58}kou {\k25}{\k58}B-{\k21}{\k75}FIGH{\k188}TER
+Comment: 1,0:01:13.02,0:01:18.94,Default,,0,0,0,karaoke,{\k71}mu{\k79}te{\k21}ki {\k142}no {\k21}{\k54}B-{\k21}{\k75}FIGH{\k108}TER
+Comment: 1,0:01:19.32,0:01:24.45,Default,,0,0,0,karaoke,{\k63}juu{\k21}{\k58}kou {\k25}{\k63}B-{\k21}{\k71}FIGH{\k192}TER
+Comment: 1,0:01:24.45,0:01:25.78,Default,,0,0,0,karaoke,{\k17}B-{\k17}FIGH{\k17}TER {\k25}B-{\k17}FIGH{\k42}TER
+Comment: 1,0:01:25.99,0:01:27.99,Default,,0,0,0,karaoke,{\k21}juu{\k46}kou {\k33}B-{\k21}{\k17}FIGH{\k63}TER
+Dialogue: 1,0:00:22.16,0:00:26.39,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ka{\k21}n{\k21}ji{\k38}ga{\k17}ra{\k17}me {\k21}no {\k21}wa{\k21}na {\k50}wo {\k13}shi{\k21}ka{\k42}ke
+Dialogue: 1,0:00:28.33,0:00:32.77,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ha{\k21}me{\k17}tsu {\k46}wo {\k21}ta{\k17}ku{\k21}ra{\k21}mu {\k25}no {\k42}wa {\k17}da{\k17}re {\k54}da
+Dialogue: 1,0:00:34.67,0:00:38.23,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}me {\k17}ni {\k25}wa {\k46}me {\k17}wo {\k17}ha {\k21}ni {\k17}wa {\k25}ha {\k46}wo
+Dialogue: 1,0:00:37.80,0:00:41.32,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}R{\k21}U{\k29}LES {\k38}mu{\k13}shi {\k21}no {\k17}ya{\k25}tsu-{\k21}ra {\k42}ni
+Dialogue: 1,0:00:40.88,0:00:46.86,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}a{\k17}i {\k17}no {\k21}o{\k21}ki{\k21}te {\k25}de {\k21}ta{\k17}ta{\k21}ka{\k42}u {\k21}se{\k21}n{\k204}shi
+Dialogue: 1,0:00:47.39,0:00:52.58,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k38}ke{\k42}da{\k17}ka{\k21}i {\k21}su{\k17}ga{\k21}ta {\k42}wo {\k17}ki{\k25}mi {\k29}wa {\k54}mi{\k21}ta {\k46}ka
+Dialogue: 1,0:00:53.69,0:00:57.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k33}shi{\k29}n{\k21}{\k21}pi {\k21}no {\k17}B{\k21}O{\k25}DY {\k38}ga
+Dialogue: 1,0:00:55.95,0:01:00.38,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}hi{\k21}ka{\k17}ri {\k42}wo {\k17}ha{\k21}na{\k42}t{\k29}te '{\k129}ru
+Dialogue: 1,0:00:59.53,0:01:06.63,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k63}so{\k29}{\k54}no {\k21}na {\k129}wa {\k25}{\k63}B-{\k21}{\k71}FIGH{\k125}TER
+Dialogue: 1,0:01:05.86,0:01:12.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k58}juu{\k25}{\k58}kou {\k25}{\k58}B-{\k21}{\k75}FIGH{\k188}TER
+Dialogue: 1,0:01:12.12,0:01:19.14,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k71}mu{\k79}te{\k21}ki {\k142}no {\k21}{\k54}B-{\k21}{\k75}FIGH{\k108}TER
+Dialogue: 1,0:01:18.42,0:01:24.65,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k63}juu{\k21}{\k58}kou {\k25}{\k63}B-{\k21}{\k71}FIGH{\k192}TER
+Dialogue: 1,0:01:23.55,0:01:25.98,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}B-{\k17}FIGH{\k17}TER {\k25}B-{\k17}FIGH{\k42}TER
+Dialogue: 1,0:01:25.09,0:01:28.19,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}juu{\k46}kou {\k33}B-{\k21}{\k17}FIGH{\k63}TER

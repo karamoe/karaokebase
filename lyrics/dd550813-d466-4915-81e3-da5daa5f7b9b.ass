@@ -7,19 +7,32 @@ Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,24,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,1.5,0,8,10,10,10,1
+Style: Default,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 1,0:00:13.60,0:00:18.10,Default,,0,0,0,,{\k100}{\kf20}yu{\kf30}u{\kf40}kan {\kf60}ni {\kf10}ta{\kf20}ta{\kf20}ka{\kf30}t{\kf120}ta
-Dialogue: 1,0:00:17.10,0:00:20.80,Default,,0,0,0,,{\k100}{\kf30}o{\kf40}to{\kf30}ko {\kf60}ga {\kf30}i{\kf80}ta
-Dialogue: 1,0:00:20.60,0:00:24.80,Default,,0,0,0,,{\k100}{\kf20}ji{\kf40}n{\kf30}se{\kf20}i {\kf60}wo {\kf10}ta{\kf20}ta{\kf20}ka{\kf30}t{\kf70}ta
-Dialogue: 1,0:00:24.30,0:00:28.00,Default,,0,0,0,,{\k100}{\kf30}o{\kf30}to{\kf30}ko {\kf70}ga {\kf20}i{\kf90}ta
-Dialogue: 1,0:00:29.60,0:00:34.20,Default,,0,0,0,,{\k100}{\kf10}ji{\kf50}yu{\kf40}u {\kf60}no {\kf20}ta{\kf20}me {\kf160}ni
-Dialogue: 1,0:00:33.20,0:00:37.80,Default,,0,0,0,,{\k100}{\kf70}a{\kf20}i {\kf80}no {\kf20}ta{\kf20}me {\kf150}ni
-Dialogue: 1,0:00:36.80,0:00:41.40,Default,,0,0,0,,{\k100}{\kf40}ki{\kf20}mi {\kf30}wa {\kf30}na{\kf20}ni {\kf30}ni {\kf30}ka{\kf160}ke
-Dialogue: 1,0:00:40.40,0:00:44.60,Default,,0,0,0,,{\k100}{\kf40}na{\kf20}ni {\kf30}to {\kf20}ta{\kf20}ta{\kf20}ka{\kf30}u {\kf140}ka
-Dialogue: 1,0:00:45.70,0:00:54.00,Default,,0,0,0,,{\k100}{\kf20}ta{\kf50}t{\kf30}ta {\kf20}hi{\kf40}to{\kf30}tsu {\kf170}no {\kf50}ko{\kf40}no {\kf30}i{\kf40}no{\kf30}chi {\kf180}wo
-Dialogue: 1,0:00:53.00,0:01:01.10,Default,,0,0,0,,{\k100}{\kf20}ha{\kf40}ru{\kf30}ka{\kf40}na{\kf40}ru {\kf40}a{\kf40}i {\kf90}ni {\kf30}ka{\kf50}ke{\kf20}te {\kf30}ta{\kf40}ta{\kf20}ka{\kf180}u
-Dialogue: 1,0:01:00.10,0:01:04.60,Default,,0,0,0,,{\k100}{\kf40}so{\kf50}re {\kf20}da{\kf50}ke {\kf30}de {\kf30}i{\kf40}i {\kf20}no {\kf70}sa
-Dialogue: 1,0:01:03.60,0:01:10.40,Default,,0,0,0,,{\k100}{\kf30}o{\kf40}re {\kf30}wa {\kf20}o{\kf30}re {\kf30}wa {\kf30}Ka{\kf60}men {\kf50}R{\kf40}i{\kf220}der
+Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:14.60,0:00:18.10,Default,,0,0,0,karaoke,{\k20}yu{\k30}u{\k40}kan {\k60}ni {\k10}ta{\k20}ta{\k20}ka{\k30}t{\k120}ta
+Comment: 1,0:00:18.10,0:00:20.80,Default,,0,0,0,karaoke,{\k30}o{\k40}to{\k30}ko {\k60}ga {\k30}i{\k80}ta
+Comment: 1,0:00:21.60,0:00:24.80,Default,,0,0,0,karaoke,{\k20}ji{\k40}n{\k30}se{\k20}i {\k60}wo {\k10}ta{\k20}ta{\k20}ka{\k30}t{\k70}ta
+Comment: 1,0:00:25.30,0:00:28.00,Default,,0,0,0,karaoke,{\k30}o{\k30}to{\k30}ko {\k70}ga {\k20}i{\k90}ta
+Comment: 1,0:00:30.60,0:00:34.20,Default,,0,0,0,karaoke,{\k10}ji{\k50}yu{\k40}u {\k60}no {\k20}ta{\k20}me {\k160}ni
+Comment: 1,0:00:34.20,0:00:37.80,Default,,0,0,0,karaoke,{\k70}a{\k20}i {\k80}no {\k20}ta{\k20}me {\k150}ni
+Comment: 1,0:00:37.80,0:00:41.40,Default,,0,0,0,karaoke,{\k40}ki{\k20}mi {\k30}wa {\k30}na{\k20}ni {\k30}ni {\k30}ka{\k160}ke
+Comment: 1,0:00:41.40,0:00:44.60,Default,,0,0,0,karaoke,{\k40}na{\k20}ni {\k30}to {\k20}ta{\k20}ta{\k20}ka{\k30}u {\k140}ka
+Comment: 1,0:00:46.70,0:00:54.00,Default,,0,0,0,karaoke,{\k20}ta{\k50}t{\k30}ta {\k20}hi{\k40}to{\k30}tsu {\k170}no {\k50}ko{\k40}no {\k30}i{\k40}no{\k30}chi {\k180}wo
+Comment: 1,0:00:54.00,0:01:01.10,Default,,0,0,0,karaoke,{\k20}ha{\k40}ru{\k30}ka{\k40}na{\k40}ru {\k40}a{\k40}i {\k90}ni {\k30}ka{\k50}ke{\k20}te {\k30}ta{\k40}ta{\k20}ka{\k180}u
+Comment: 1,0:01:01.10,0:01:04.60,Default,,0,0,0,karaoke,{\k40}so{\k50}re {\k20}da{\k50}ke {\k30}de {\k30}i{\k40}i {\k20}no {\k70}sa
+Comment: 1,0:01:04.60,0:01:10.40,Default,,0,0,0,karaoke,{\k30}o{\k40}re {\k30}wa {\k20}o{\k30}re {\k30}wa {\k30}Ka{\k60}men {\k50}R{\k40}i{\k220}der
+Dialogue: 1,0:00:13.70,0:00:18.30,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}yu{\k30}u{\k40}kan {\k60}ni {\k10}ta{\k20}ta{\k20}ka{\k30}t{\k120}ta
+Dialogue: 1,0:00:17.20,0:00:21.00,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k30}o{\k40}to{\k30}ko {\k60}ga {\k30}i{\k80}ta
+Dialogue: 1,0:00:20.70,0:00:25.00,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ji{\k40}n{\k30}se{\k20}i {\k60}wo {\k10}ta{\k20}ta{\k20}ka{\k30}t{\k70}ta
+Dialogue: 1,0:00:24.40,0:00:28.20,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k30}o{\k30}to{\k30}ko {\k70}ga {\k20}i{\k90}ta
+Dialogue: 1,0:00:29.70,0:00:34.40,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k10}ji{\k50}yu{\k40}u {\k60}no {\k20}ta{\k20}me {\k160}ni
+Dialogue: 1,0:00:33.30,0:00:38.00,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k70}a{\k20}i {\k80}no {\k20}ta{\k20}me {\k150}ni
+Dialogue: 1,0:00:36.90,0:00:41.60,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k40}ki{\k20}mi {\k30}wa {\k30}na{\k20}ni {\k30}ni {\k30}ka{\k160}ke
+Dialogue: 1,0:00:40.50,0:00:44.80,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k40}na{\k20}ni {\k30}to {\k20}ta{\k20}ta{\k20}ka{\k30}u {\k140}ka
+Dialogue: 1,0:00:45.80,0:00:54.20,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ta{\k50}t{\k30}ta {\k20}hi{\k40}to{\k30}tsu {\k170}no {\k50}ko{\k40}no {\k30}i{\k40}no{\k30}chi {\k180}wo
+Dialogue: 1,0:00:53.10,0:01:01.30,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ha{\k40}ru{\k30}ka{\k40}na{\k40}ru {\k40}a{\k40}i {\k90}ni {\k30}ka{\k50}ke{\k20}te {\k30}ta{\k40}ta{\k20}ka{\k180}u
+Dialogue: 1,0:01:00.20,0:01:04.80,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k40}so{\k50}re {\k20}da{\k50}ke {\k30}de {\k30}i{\k40}i {\k20}no {\k70}sa
+Dialogue: 1,0:01:03.70,0:01:10.60,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k30}o{\k40}re {\k30}wa {\k20}o{\k30}re {\k30}wa {\k30}Ka{\k60}men {\k50}R{\k40}i{\k220}der
