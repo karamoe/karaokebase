@@ -1,0 +1,184 @@
+﻿[Script Info]
+Title: Watch me!
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
+LayoutResX: 0
+LayoutResY: 0
+Original Timing: Kylian
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,24,&H006F72F0,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Italic,Arial,24,&H0018A8EB,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:01.17,0:00:02.27,Default,,0,0,0,karaoke,{\k21}In{\k26}to {\k22}the {\k41}mess
+Comment: 0,0:00:02.35,0:00:04.70,Default,,0,0,0,karaoke,{\k34}That {\k11}I {\k28}cause {\k20}you {\k24}eve{\k23}ry {\k23}day, {\k25}on {\k22}and {\k25}on
+Comment: 0,0:00:04.93,0:00:07.05,Default,,0,0,0,karaoke,{\k24}It’s {\k19}just {\k25}more {\k50}signs {\k43}of {\k26}trou{\k25}bles
+Comment: 0,0:00:07.05,0:00:08.45,Default,,0,0,0,karaoke,{\k21}I {\k26}cause {\k21}you, {\k25}on {\k23}and {\k24}on
+Comment: 0,0:00:08.68,0:00:09.75,Default,,0,0,0,karaoke,{\k25}For{\k21}ev{\k23}er{\k38}more
+Comment: 0,0:00:10.07,0:00:12.20,Default,,0,0,0,karaoke,{\k25}You’re {\k23}by {\k24}me {\k24}and {\k22}will {\k24}nev{\k24}er {\k22}let {\k25}go
+Comment: 0,0:00:12.43,0:00:15.15,Default,,0,0,0,karaoke,{\k24}I’ll {\k23}re{\k23}main {\k23}{\k24}by {\k21}your {\k41}side, {\k31}stay{\k22}ing {\k40}close
+Comment: 0,0:00:30.24,0:00:31.88,Default,,0,0,0,karaoke,{\k20}It {\k26}might {\k12}not {\k37}reach {\k20}you {\k27}at {\k22}all
+Comment: 0,0:00:32.11,0:00:33.90,Default,,0,0,0,karaoke,{\k12}If {\k12}I {\k12}am {\k21}un{\k37}clear {\k22}with {\k25}my {\k38}words
+Comment: 0,0:00:33.98,0:00:35.17,Default,,0,0,0,karaoke,{\k25}You’re {\k23}se{\k11}ri{\k33}ous, {\k27}so
+Comment: 0,0:00:35.39,0:00:37.60,Default,,0,0,0,karaoke,{\k23}It {\k24}won’t {\k11}get {\k23}to {\k22}that {\k38}tough {\k24}heart {\k23}of {\k33}yours
+Comment: 0,0:00:37.74,0:00:39.42,Default,,0,0,0,karaoke,{\k19}I {\k28}want {\k12}to {\k33}look {\k23}in{\k26}side {\k27}it
+Comment: 0,0:00:39.61,0:00:41.19,Default,,0,0,0,karaoke,{\k19}I {\k20}want {\k20}to {\k33}melt {\k24}and {\k25}guide {\k17}it
+Comment: 0,0:00:41.22,0:00:42.42,Default,,0,0,0,karaoke,{\k26}So {\k24}what {\k14}do {\k20}you {\k36}think
+Comment: 0,0:00:42.42,0:00:44.18,Default,,0,0,0,karaoke,{\k24}A{\k22}bout {\k20}this {\k30}mag{\k11}ic {\k17}form{\k12}ing {\k40}now?
+Comment: 0,0:00:44.07,0:00:44.99,Italic,,0,0,0,karaoke,{\k11}What {\k13}is {\k10}a{\k12}bout {\k10}to {\k14}come {\k22}out?
+Comment: 0,0:00:44.99,0:00:45.91,Default,,0,0,0,karaoke,{\k24}Yeah, {\k14}try {\k10}it, {\k23}on {\k21}three
+Comment: 0,0:00:45.91,0:00:46.94,Italic,,0,0,0,karaoke,{\k37}Try, {\k34}try, {\k32}try
+Comment: 0,0:00:46.88,0:00:47.82,Default,,0,0,0,karaoke,{\k11}E{\k12}ven {\k13}if {\k11}you {\k24}doubt {\k23}it
+Comment: 0,0:00:47.82,0:00:48.79,Italic,,0,0,0,karaoke,{\k20}You {\k15}know, {\k35}you {\k27}know
+Comment: 0,0:00:48.74,0:00:50.46,Default,,0,0,0,karaoke,{\k24}Witch {\k23}one {\k12}to {\k22}pick, {\k13}{\k23}watch {\k13}me {\k12}do {\k14}mag{\k16}ic
+Comment: 0,0:00:50.63,0:00:52.23,Default,,0,0,0,karaoke,{\k12}I {\k11}nev{\k12}er {\k24}thought {\k23}of {\k22}this {\k13}kind {\k23}of {\k20}turn
+Comment: 0,0:00:52.23,0:00:54.10,Default,,0,0,0,karaoke,{\k28}No {\k22}way {\k25}to {\k23}put {\k15}a {\k42}stop {\k32}now
+Comment: 0,0:00:54.13,0:00:55.68,Default,,0,0,0,karaoke,{\k24}Can{\k23}not {\k24}mend {\k24}it {\k23}in {\k37}sight
+Comment: 0,0:00:55.76,0:00:57.19,Default,,0,0,0,karaoke,{\k15}Man{\k12}y {\k12}feel{\k11}ings {\k22}o{\k24}ver{\k24}flow{\k23}ing
+Comment: 0,0:00:57.19,0:00:58.32,Default,,0,0,0,karaoke,{\k24}As {\k15}you’re {\k32}spin{\k18}ning, {\k24}still
+Comment: 0,0:00:58.84,0:01:02.08,Default,,0,0,0,karaoke,{\k23}Fill{\k24}ing {\k22}the {\k25}view {\k23}with {\k46}hap{\k47}py {\k35}im{\k37}ag{\k42}es
+Comment: 0,0:01:02.35,0:01:05.77,Default,,0,0,0,karaoke,{\k24}Tak{\k23}ing {\k23}you {\k21}in{\k26}to {\k22}my {\k46}fan{\k44}cy {\k41}mag{\k27}ic {\k45}spree
+Comment: 0,0:01:06.32,0:01:07.27,Default,,0,0,0,karaoke,{\k25}I {\k21}know {\k24}you’ll {\k25}say
+Comment: 0,0:01:07.27,0:01:09.54,Default,,0,0,0,karaoke,{\k21}I {\k26}could{\k22}’ve, {\k25}could{\k23}’vе {\k24}done {\k23}bet{\k24}ter {\k39}now
+Comment: 0,0:01:09.61,0:01:10.48,Default,,0,0,0,karaoke,{\k24}But {\k22}it’s {\k23}al{\k18}right
+Comment: 0,0:01:10.55,0:01:13.25,Default,,0,0,0,karaoke,{\k21}I {\k25}lovе {\k24}this {\k47}day-{\k47}by-{\k35}day {\k34}rou{\k37}tine
+Comment: 0,0:01:13.74,0:01:14.75,Default,,0,0,0,karaoke,{\k33}Start{\k23}ing {\k23}that {\k22}day
+Comment: 0,0:01:14.78,0:01:16.99,Default,,0,0,0,karaoke,{\k22}I {\k47}fell {\k44}in {\k37}love {\k35}with {\k36}you
+Comment: 0,0:01:17.58,0:01:20.80,Default,,0,0,0,karaoke,{\k11}It {\k12}will {\k11}nev{\k25}er {\k23}change {\k11}be{\k24}cause {\k45}I {\k48}see {\k37}on{\k32}ly {\k43}you
+Comment: 0,0:01:21.31,0:01:22.45,Default,,0,0,0,karaoke,{\k25}So {\k24}don’t {\k23}be {\k24}think{\k18}ing
+Comment: 0,0:01:22.49,0:01:23.85,Default,,0,0,0,karaoke,{\k25}Would{\k22}’ve, {\k25}would{\k23}’ve {\k24}done {\k17}it
+Comment: 0,0:01:23.91,0:01:25.56,Default,,0,0,0,karaoke,{\k24}And {\k46}now, {\k23}go {\k24}grab {\k24}it {\k24}all
+Comment: 0,0:01:25.56,0:01:28.23,Default,,0,0,0,karaoke,{\k22}And {\k25}seize {\k23}your {\k47}hap{\k46}py {\k36}end{\k32}ing, {\k36}too
+Comment: 0,0:01:28.83,0:01:29.96,Default,,0,0,0,karaoke,{\k24}For{\k23}ev{\k18}er {\k29}laugh{\k19}ing
+Comment: 0,0:01:30.00,0:01:31.85,Default,,0,0,0,karaoke,{\k12}I {\k8}want {\k10}to {\k25}stay {\k27}close, {\k22}right {\k26}here {\k22}next {\k10}to {\k23}ya
+Comment: 0,0:01:38.66,0:01:39.40,Default,,0,0,0,karaoke,{\k21}In{\k27}to {\k26}more
+Comment: 0,0:01:39.59,0:01:41.30,Default,,0,0,0,karaoke,{\k26}Lone{\k12}ness {\k21}and {\k35}al{\k22}ways {\k26}left {\k29}out
+Comment: 0,0:01:41.25,0:01:42.89,Italic,,0,0,0,karaoke,{\k13}Eve{\k22}ry {\k24}day {\k21}that {\k14}has {\k13}come {\k10}a{\k47}bout
+Comment: 0,0:01:42.64,0:01:44.21,Default,,0,0,0,karaoke,{\k25}Then {\k46}you {\k24}showed {\k12}up {\k16}and {\k34}stood
+Comment: 0,0:01:44.30,0:01:46.87,Default,,0,0,0,karaoke,{\k23}Be{\k24}fore {\k23}me {\k24}out {\k12}of {\k18}the {\k39}blue, {\k25}so {\k23}nat{\k24}ural{\k22}ly
+Comment: 0,0:01:47.10,0:01:48.89,Italic,,0,0,0,karaoke,{\k24}You {\k14}held {\k21}in {\k13}the {\k23}same {\k25}feel{\k19}ing {\k40}too
+Comment: 0,0:01:48.98,0:01:50.39,Italic,,0,0,0,karaoke,{\k25}That {\k11}sor{\k22}row {\k35}deep {\k26}in {\k22}you
+Comment: 0,0:01:50.39,0:01:51.47,Italic,,0,0,0,karaoke,{\k13}And {\k11}I {\k26}know, {\k10}and {\k12}I {\k36}know
+Comment: 0,0:01:51.31,0:01:53.00,Italic,,0,0,0,karaoke,{\k25}You’re {\k22}so {\k50}kind {\k23}and {\k49}true
+Comment: 0,0:01:53.66,0:01:55.79,Default,,0,0,0,karaoke,{\k25}E{\k21}ven {\k21}now, {\k51}still {\k46}got {\k25}wor{\k24}ries
+Comment: 0,0:01:55.79,0:01:57.20,Default,,0,0,0,karaoke,{\k23}And {\k23}they {\k24}al{\k24}ways {\k23}add {\k24}on
+Comment: 0,0:01:57.37,0:01:58.84,Default,,0,0,0,karaoke,{\k29}No {\k23}long{\k21}er {\k39}all {\k11}a{\k24}lone
+Comment: 0,0:01:58.84,0:02:00.98,Default,,0,0,0,karaoke,{\k23}Me {\k23}and {\k23}you, {\k23}that {\k25}lone{\k19}li{\k28}ness {\k23}is {\k27}gone
+Comment: 0,0:02:01.15,0:02:03.48,Default,,0,0,0,karaoke,{\k25}So {\k24}I {\k23}can {\k48}see {\k21}these {\k26}live{\k24}ly {\k23}mo{\k19}ments
+Comment: 0,0:02:03.50,0:02:04.77,Default,,0,0,0,karaoke,{\k26}That {\k23}fill {\k23}up {\k24}our {\k31}days
+Comment: 0,0:02:04.83,0:02:08.23,Default,,0,0,0,karaoke,{\k57}Still {\k27}hope {\k18}{\k21}they {\k27}keep {\k22}re{\k16}sound{\k21}ing {\k35}this {\kf96}way
+Comment: 0,0:02:07.50,0:02:08.67,Italic,,0,0,0,karaoke,{\k48}Three, {\k44}two, {\k25}one
+Comment: 0,0:02:08.67,0:02:11.41,Default,,0,0,0,karaoke,{\k23}Fly {\k25}out {\k23}these {\k47}hap{\k46}py {\k36}im{\k35}ag{\k39}es
+Comment: 0,0:02:11.93,0:02:15.18,Default,,0,0,0,karaoke,{\k26}With {\k20}an {\k22}out{\k28}stand{\k24}ing {\k44}fan{\k47}cy {\k39}mag{\k26}ic {\k49}spree
+Comment: 0,0:02:15.68,0:02:16.64,Default,,0,0,0,karaoke,{\k26}I {\k17}know {\k28}you’ll {\k25}say
+Comment: 0,0:02:16.64,0:02:18.92,Default,,0,0,0,karaoke,{\k22}I {\k26}could{\k21}’ve, {\k25}could{\k24}’ve {\k23}done {\k23}bet{\k24}ter {\k40}now
+Comment: 0,0:02:18.99,0:02:19.92,Default,,0,0,0,karaoke,{\k21}But {\k24}you {\k25}should {\k23}know
+Comment: 0,0:02:19.92,0:02:22.62,Default,,0,0,0,karaoke,{\k24}I {\k24}love {\k21}this {\k48}day-{\k47}by-{\k34}day {\k36}rou{\k36}tine
+Comment: 0,0:02:23.13,0:02:24.10,Default,,0,0,0,karaoke,{\k31}Start{\k23}ing {\k24}that {\k19}day
+Comment: 0,0:02:24.14,0:02:26.36,Default,,0,0,0,karaoke,{\k24}I {\k47}fell {\k44}in {\k37}love {\k35}with {\k35}you
+Comment: 0,0:02:26.95,0:02:28.39,Default,,0,0,0,karaoke,{\k18}I’m {\k27}still {\k26}wish{\k20}ing {\k27}you’d {\k26}know
+Comment: 0,0:02:28.59,0:02:30.19,Default,,0,0,0,karaoke,{\k45}I’m {\k37}lov{\k36}ing {\k42}you
+Comment: 0,0:02:30.69,0:02:31.81,Default,,0,0,0,karaoke,{\k24}So {\k25}don’t {\k22}be {\k23}think{\k18}ing
+Comment: 0,0:02:31.87,0:02:33.28,Default,,0,0,0,karaoke,{\k24}Would’{\k22}ve, {\k25}would’{\k23}ve {\k24}done {\k23}it
+Comment: 0,0:02:33.28,0:02:34.93,Default,,0,0,0,karaoke,{\k23}And {\k47}now, {\k23}go {\k25}grab {\k23}it {\k24}all
+Comment: 0,0:02:34.93,0:02:37.57,Default,,0,0,0,karaoke,{\k22}What {\k24}should {\k21}be {\k46}my {\k47}next {\k37}plan {\k35}with {\k32}you?
+Comment: 0,0:02:38.20,0:02:38.87,Default,,0,0,0,karaoke,{\k24}And {\k23}to{\k20}day
+Comment: 0,0:02:38.91,0:02:41.36,Default,,0,0,0,karaoke,{\k25}There’s {\k19}a {\k46}new {\k50}twist {\k37}happen{\k32}ing {\k36}too
+Comment: 0,0:02:41.47,0:02:43.17,Default,,0,0,0,karaoke,{\k24}What {\k24}is {\k25}wait{\k22}ing {\k13}to{\k34}mor{\k28}row?
+Comment: 0,0:02:43.35,0:02:44.95,Italic,,0,0,0,karaoke,{\k24}Got {\k18}to {\k30}see {\k14}if {\k33}some{\k23}thing {\k18}odd
+Comment: 0,0:02:45.00,0:02:46.17,Italic,,0,0,0,karaoke,{\k24}Is {\k23}bound {\k22}to {\k26}come {\k22}out
+Comment: 0,0:02:46.10,0:02:48.76,Default,,0,0,0,karaoke,{\k50}Stay {\k50}close, {\k12}I {\k11}want {\k12}you {\k24}to {\k28}be {\k32}right {\k23}by {\k24}me
+Comment: 0,0:02:48.76,0:02:50.85,Italic,,0,0,0,karaoke,{\k0}{\k47}Hap{\k47}py {\k35}im{\k36}ag{\k44}es
+Comment: 0,0:02:52.50,0:02:54.52,Italic,,0,0,0,karaoke,{\k45}Fan{\k49}cy {\k36}mag{\k27}ic {\k45}spree
+Comment: 0,0:02:56.25,0:02:58.36,Italic,,0,0,0,karaoke,{\k47}Hap{\k47}py {\k36}im{\k36}ag{\k45}es
+Comment: 0,0:03:00.00,0:03:02.08,Italic,,0,0,0,karaoke,{\k44}Fan{\k50}cy {\k36}mag{\k25}ic {\k53}spree
+Dialogue: 0,0:00:00.27,0:00:02.47,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}In{\k26}to {\k22}the {\k41}mess
+Dialogue: 0,0:00:01.45,0:00:04.90,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k34}That {\k11}I {\k28}cause {\k20}you {\k24}eve{\k23}ry {\k23}day, {\k25}on {\k22}and {\k25}on
+Dialogue: 0,0:00:04.03,0:00:07.25,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}It’s {\k19}just {\k25}more {\k50}signs {\k43}of {\k26}trou{\k25}bles
+Dialogue: 0,0:00:06.15,0:00:08.65,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k26}cause {\k21}you, {\k25}on {\k23}and {\k24}on
+Dialogue: 0,0:00:07.78,0:00:09.95,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}For{\k21}ev{\k23}er{\k38}more
+Dialogue: 0,0:00:09.17,0:00:12.40,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}You’re {\k23}by {\k24}me {\k24}and {\k22}will {\k24}nev{\k24}er {\k22}let {\k25}go
+Dialogue: 0,0:00:11.53,0:00:15.35,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}I’ll {\k23}re{\k23}main {\k23}{\k24}by {\k21}your {\k41}side, {\k31}stay{\k22}ing {\k40}close
+Dialogue: 0,0:00:29.34,0:00:32.08,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}It {\k26}might {\k12}not {\k37}reach {\k20}you {\k27}at {\k22}all
+Dialogue: 0,0:00:31.21,0:00:34.10,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k12}If {\k12}I {\k12}am {\k21}un{\k37}clear {\k22}with {\k25}my {\k38}words
+Dialogue: 0,0:00:33.08,0:00:35.37,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}You’re {\k23}se{\k11}ri{\k33}ous, {\k27}so
+Dialogue: 0,0:00:34.49,0:00:37.80,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}It {\k24}won’t {\k11}get {\k23}to {\k22}that {\k38}tough {\k24}heart {\k23}of {\k33}yours
+Dialogue: 0,0:00:36.84,0:00:39.62,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k28}want {\k12}to {\k33}look {\k23}in{\k26}side {\k27}it
+Dialogue: 0,0:00:38.71,0:00:41.39,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k20}want {\k20}to {\k33}melt {\k24}and {\k25}guide {\k17}it
+Dialogue: 0,0:00:40.32,0:00:42.62,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k26}So {\k24}what {\k14}do {\k20}you {\k36}think
+Dialogue: 0,0:00:41.52,0:00:44.38,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}A{\k22}bout {\k20}this {\k30}mag{\k11}ic {\k17}form{\k12}ing {\k40}now?
+Dialogue: 0,0:00:43.17,0:00:45.19,Italic,,0,0,0,fx,{\k90\fad(300,200)}{\k11}What {\k13}is {\k10}a{\k12}bout {\k10}to {\k14}come {\k22}out?
+Dialogue: 0,0:00:44.09,0:00:46.11,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Yeah, {\k14}try {\k10}it, {\k23}on {\k21}three
+Dialogue: 0,0:00:45.01,0:00:47.14,Italic,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Try, {\k34}try, {\k32}try
+Dialogue: 0,0:00:45.98,0:00:48.02,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k11}E{\k12}ven {\k13}if {\k11}you {\k24}doubt {\k23}it
+Dialogue: 0,0:00:46.92,0:00:48.99,Italic,,0,0,0,fx,{\k90\fad(300,200)}{\k20}You {\k15}know, {\k35}you {\k27}know
+Dialogue: 0,0:00:47.84,0:00:50.66,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Witch {\k23}one {\k12}to {\k22}pick, {\k13}{\k23}watch {\k13}me {\k12}do {\k14}mag{\k16}ic
+Dialogue: 0,0:00:49.73,0:00:52.43,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k12}I {\k11}nev{\k12}er {\k24}thought {\k23}of {\k22}this {\k13}kind {\k23}of {\k20}turn
+Dialogue: 0,0:00:51.33,0:00:54.30,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k28}No {\k22}way {\k25}to {\k23}put {\k15}a {\k42}stop {\k32}now
+Dialogue: 0,0:00:53.23,0:00:55.88,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Can{\k23}not {\k24}mend {\k24}it {\k23}in {\k37}sight
+Dialogue: 0,0:00:54.86,0:00:57.39,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Man{\k12}y {\k12}feel{\k11}ings {\k22}o{\k24}ver{\k24}flow{\k23}ing
+Dialogue: 0,0:00:56.29,0:00:58.52,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}As {\k15}you’re {\k32}spin{\k18}ning, {\k24}still
+Dialogue: 0,0:00:57.94,0:01:02.28,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Fill{\k24}ing {\k22}the {\k25}view {\k23}with {\k46}hap{\k47}py {\k35}im{\k37}ag{\k42}es
+Dialogue: 0,0:01:01.45,0:01:05.97,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Tak{\k23}ing {\k23}you {\k21}in{\k26}to {\k22}my {\k46}fan{\k44}cy {\k41}mag{\k27}ic {\k45}spree
+Dialogue: 0,0:01:05.42,0:01:07.47,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k21}know {\k24}you’ll {\k25}say
+Dialogue: 0,0:01:06.37,0:01:09.74,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k26}could{\k22}’ve, {\k25}could{\k23}’vе {\k24}done {\k23}bet{\k24}ter {\k39}now
+Dialogue: 0,0:01:08.71,0:01:10.68,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}But {\k22}it’s {\k23}al{\k18}right
+Dialogue: 0,0:01:09.65,0:01:13.45,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k25}lovе {\k24}this {\k47}day-{\k47}by-{\k35}day {\k34}rou{\k37}tine
+Dialogue: 0,0:01:12.84,0:01:14.95,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Start{\k23}ing {\k23}that {\k22}day
+Dialogue: 0,0:01:13.88,0:01:17.19,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k47}fell {\k44}in {\k37}love {\k35}with {\k36}you
+Dialogue: 0,0:01:16.68,0:01:21.00,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k11}It {\k12}will {\k11}nev{\k25}er {\k23}change {\k11}be{\k24}cause {\k45}I {\k48}see {\k37}on{\k32}ly {\k43}you
+Dialogue: 0,0:01:20.41,0:01:22.65,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}So {\k24}don’t {\k23}be {\k24}think{\k18}ing
+Dialogue: 0,0:01:21.59,0:01:24.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Would{\k22}’ve, {\k25}would{\k23}’ve {\k24}done {\k17}it
+Dialogue: 0,0:01:23.01,0:01:25.76,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}And {\k46}now, {\k23}go {\k24}grab {\k24}it {\k24}all
+Dialogue: 0,0:01:24.66,0:01:28.43,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k22}And {\k25}seize {\k23}your {\k47}hap{\k46}py {\k36}end{\k32}ing, {\k36}too
+Dialogue: 0,0:01:27.93,0:01:30.16,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}For{\k23}ev{\k18}er {\k29}laugh{\k19}ing
+Dialogue: 0,0:01:29.10,0:01:32.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k12}I {\k8}want {\k10}to {\k25}stay {\k27}close, {\k22}right {\k26}here {\k22}next {\k10}to {\k23}ya
+Dialogue: 0,0:01:37.76,0:01:39.60,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}In{\k27}to {\k26}more
+Dialogue: 0,0:01:38.69,0:01:41.50,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Lone{\k12}ness {\k21}and {\k35}al{\k22}ways {\k26}left {\k29}out
+Dialogue: 0,0:01:40.35,0:01:43.09,Italic,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Eve{\k22}ry {\k24}day {\k21}that {\k14}has {\k13}come {\k10}a{\k47}bout
+Dialogue: 0,0:01:41.74,0:01:44.41,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Then {\k46}you {\k24}showed {\k12}up {\k16}and {\k34}stood
+Dialogue: 0,0:01:43.40,0:01:47.07,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Be{\k24}fore {\k23}me {\k24}out {\k12}of {\k18}the {\k39}blue, {\k25}so {\k23}nat{\k24}ural{\k22}ly
+Dialogue: 0,0:01:46.20,0:01:49.09,Italic,,0,0,0,fx,{\k90\fad(300,200)}{\k24}You {\k14}held {\k21}in {\k13}the {\k23}same {\k25}feel{\k19}ing {\k40}too
+Dialogue: 0,0:01:48.08,0:01:50.59,Italic,,0,0,0,fx,{\k90\fad(300,200)}{\k25}That {\k11}sor{\k22}row {\k35}deep {\k26}in {\k22}you
+Dialogue: 0,0:01:49.49,0:01:51.67,Italic,,0,0,0,fx,{\k90\fad(300,200)}{\k13}And {\k11}I {\k26}know, {\k10}and {\k12}I {\k36}know
+Dialogue: 0,0:01:50.41,0:01:53.20,Italic,,0,0,0,fx,{\k90\fad(300,200)}{\k25}You’re {\k22}so {\k50}kind {\k23}and {\k49}true
+Dialogue: 0,0:01:52.76,0:01:55.99,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}E{\k21}ven {\k21}now, {\k51}still {\k46}got {\k25}wor{\k24}ries
+Dialogue: 0,0:01:54.89,0:01:57.40,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}And {\k23}they {\k24}al{\k24}ways {\k23}add {\k24}on
+Dialogue: 0,0:01:56.47,0:01:59.04,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k29}No {\k23}long{\k21}er {\k39}all {\k11}a{\k24}lone
+Dialogue: 0,0:01:57.94,0:02:01.18,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Me {\k23}and {\k23}you, {\k23}that {\k25}lone{\k19}li{\k28}ness {\k23}is {\k27}gone
+Dialogue: 0,0:02:00.25,0:02:03.68,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}So {\k24}I {\k23}can {\k48}see {\k21}these {\k26}live{\k24}ly {\k23}mo{\k19}ments
+Dialogue: 0,0:02:02.60,0:02:04.97,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k26}That {\k23}fill {\k23}up {\k24}our {\k31}days
+Dialogue: 0,0:02:03.93,0:02:08.43,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k57}Still {\k27}hope {\k18}{\k21}they {\k27}keep {\k22}re{\k16}sound{\k21}ing {\k35}this {\kf96}way
+Dialogue: 0,0:02:06.60,0:02:08.87,Italic,,0,0,0,fx,{\k90\fad(300,200)}{\k48}Three, {\k44}two, {\k25}one
+Dialogue: 0,0:02:07.77,0:02:11.61,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Fly {\k25}out {\k23}these {\k47}hap{\k46}py {\k36}im{\k35}ag{\k39}es
+Dialogue: 0,0:02:11.03,0:02:15.38,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k26}With {\k20}an {\k22}out{\k28}stand{\k24}ing {\k44}fan{\k47}cy {\k39}mag{\k26}ic {\k49}spree
+Dialogue: 0,0:02:14.78,0:02:16.84,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k26}I {\k17}know {\k28}you’ll {\k25}say
+Dialogue: 0,0:02:15.74,0:02:19.12,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k26}could{\k21}’ve, {\k25}could{\k24}’ve {\k23}done {\k23}bet{\k24}ter {\k40}now
+Dialogue: 0,0:02:18.09,0:02:20.12,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}But {\k24}you {\k25}should {\k23}know
+Dialogue: 0,0:02:19.02,0:02:22.82,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k24}love {\k21}this {\k48}day-{\k47}by-{\k34}day {\k36}rou{\k36}tine
+Dialogue: 0,0:02:22.23,0:02:24.30,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Start{\k23}ing {\k24}that {\k19}day
+Dialogue: 0,0:02:23.24,0:02:26.56,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k47}fell {\k44}in {\k37}love {\k35}with {\k35}you
+Dialogue: 0,0:02:26.05,0:02:28.59,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}I’m {\k27}still {\k26}wish{\k20}ing {\k27}you’d {\k26}know
+Dialogue: 0,0:02:27.69,0:02:30.39,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k45}I’m {\k37}lovi{\k36}ng {\k42}you
+Dialogue: 0,0:02:29.79,0:02:32.01,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}So {\k25}don’t {\k22}be {\k23}think{\k18}ing
+Dialogue: 0,0:02:30.97,0:02:33.48,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Would’{\k22}ve, {\k25}would’{\k23}ve {\k24}done {\k23}it
+Dialogue: 0,0:02:32.38,0:02:35.13,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}And {\k47}now, {\k23}go {\k25}grab {\k23}it {\k24}all
+Dialogue: 0,0:02:34.03,0:02:37.77,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k22}What {\k24}should {\k21}be {\k46}my {\k47}next {\k37}plan {\k35}with {\k32}you?
+Dialogue: 0,0:02:37.30,0:02:39.07,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}And {\k23}to{\k20}day
+Dialogue: 0,0:02:38.01,0:02:41.56,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}There’s {\k19}a {\k46}new {\k50}twist {\k37}happen{\k32}ing {\k36}too
+Dialogue: 0,0:02:40.57,0:02:43.37,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}What {\k24}is {\k25}wait{\k22}ing {\k13}to{\k34}mor{\k28}row?
+Dialogue: 0,0:02:42.45,0:02:45.15,Italic,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Got {\k18}to {\k30}see {\k14}if {\k33}some{\k23}thing {\k18}odd
+Dialogue: 0,0:02:44.10,0:02:46.37,Italic,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Is {\k23}bound {\k22}to {\k26}come {\k22}out
+Dialogue: 0,0:02:45.20,0:02:48.96,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k50}Stay {\k50}close, {\k12}I {\k11}want {\k12}you {\k24}to {\k28}be {\k32}right {\k23}by {\k24}me
+Dialogue: 0,0:02:47.86,0:02:51.05,Italic,,0,0,0,fx,{\k90\fad(300,200)}{\k0}{\k47}Hap{\k47}py {\k35}im{\k36}ag{\k44}es
+Dialogue: 0,0:02:51.60,0:02:54.72,Italic,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Fan{\k49}cy {\k36}mag{\k27}ic {\k45}spree
+Dialogue: 0,0:02:55.35,0:02:58.56,Italic,,0,0,0,fx,{\k90\fad(300,200)}{\k47}Hap{\k47}py {\k36}im{\k36}ag{\k45}es
+Dialogue: 0,0:02:59.10,0:03:02.28,Italic,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Fan{\k50}cy {\k36}mag{\k25}ic {\k53}spree
