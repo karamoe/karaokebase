@@ -1,0 +1,111 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Faint
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:30.19,0:00:32.22,Sample KM [Up],,0,0,0,karaoke,{\k43}I {\k35}am {\k10}a {\k11}lit{\k11}tle {\k12}bit {\k13}of {\k20}lone{\k14}li{\k34}ness
+Comment: 0,0:00:32.27,0:00:33.63,Sample KM [Up],,0,0,0,karaoke,{\k14}A {\k12}lit{\k10}tle {\k11}bit {\k10}of {\k21}dis{\k13}re{\k45}gard
+Comment: 0,0:00:33.72,0:00:35.28,Sample KM [Up],,0,0,0,karaoke,{\k21}Hand{\k12}ful {\k12}of {\k12}com{\k28}plaints {\k8}but {\k17}I {\k21}can't {\k25}help
+Comment: 0,0:00:35.28,0:00:37.28,Sample KM [Up],,0,0,0,karaoke,{\k12}The {\k22}fact {\k11}that {\k11}eve{\k12}ry{\k18}one {\k16}can {\k31}see {\k26}these {\k41}scars
+Comment: 0,0:00:37.28,0:00:39.32,Sample KM [Up],,0,0,0,karaoke,{\k46}I {\k31}am {\k13}what {\k22}I {\k22}want {\k19}you {\k15}to {\k36}want
+Comment: 0,0:00:39.44,0:00:40.64,Sample KM [Up],,0,0,0,karaoke,{\k9}What {\k20}I {\k20}want {\k22}you {\k12}to {\k37}feel
+Comment: 0,0:00:40.64,0:00:41.97,Sample KM [Up],,0,0,0,karaoke,{\k10}But {\k9}it's {\k25}like {\k22}no {\k14}mat{\k11}ter {\k10}what {\k10}I {\k22}do
+Comment: 0,0:00:41.97,0:00:43.61,Sample KM [Up],,0,0,0,karaoke,{\k9}I {\k19}can't {\k15}con{\k18}vince {\k27}you {\k14}to {\k30}just {\k10}be{\k22}lieve
+Comment: 0,0:00:43.61,0:00:46.43,Sample KM [Up],,0,0,0,karaoke,{\k17}This {\k19}is {\k40}real {\k49}so {\k23}I {\k19}let {\k47}go {\k19}wa{\k18}tchin' {\k31}you
+Comment: 0,0:00:46.58,0:00:48.33,Sample KM [Up],,0,0,0,karaoke,{\k22}Turn {\k17}your {\k20}back {\k13}like {\k20}you {\k24}al{\k21}ways {\k38}do
+Comment: 0,0:00:48.39,0:00:50.00,Sample KM [Up],,0,0,0,karaoke,{\k21}Face {\k12}a{\k13}way {\k21}and {\k12}pre{\k20}tend {\k12}that {\k22}I'm {\k28}not
+Comment: 0,0:00:50.09,0:00:51.89,Sample KM [Up],,0,0,0,karaoke,{\k8}But {\k23}I'll {\k13}be {\k20}here {\k9}'cause {\k17}you're {\k23}all {\k11}that {\k21}I {\k35}got
+Comment: 0,0:00:51.96,0:00:55.52,Sample KM [Up],,0,0,0,karaoke,{\k62}I {\k66}can't {\k70}feel {\k22}the {\k24}way {\k19}I {\k21}did {\k20}be{\k52}fore
+Comment: 0,0:00:55.71,0:00:59.00,Sample KM [Up],,0,0,0,karaoke,{\k21}Don't {\k22}turn {\k23}your {\k22}back {\k23}on {\k43}me {\k24}I {\k43}won't {\k45}be {\k22}ig{\k41}nored
+Comment: 0,0:00:59.03,0:01:02.65,Sample KM [Up],,0,0,0,karaoke,{\k69}Time {\k61}won't {\k73}heal {\k21}this {\k24}da{\k22}mage {\k23}a{\k20}ny{\k49}more
+Comment: 0,0:01:02.82,0:01:07.51,Sample KM [Up],,0,0,0,karaoke,{\k19}Don't {\k25}turn {\k22}your {\k23}back {\k24}on {\k39}me {\k26}I {\k42}won't {\k46}be {\k25}ig{\kf178}nored
+Comment: 0,0:01:07.51,0:01:09.56,Sample KM [Up],,0,0,0,karaoke,{\k42}I {\k35}am {\k12}a {\k12}lit{\k12}tle {\k20}bit {\k15}in{\k14}se{\k43}cure
+Comment: 0,0:01:09.64,0:01:10.76,Sample KM [Up],,0,0,0,karaoke,{\k10}A {\k11}lit{\k11}tle {\k20}un{\k22}con{\k14}fi{\k24}dent
+Comment: 0,0:01:10.94,0:01:12.96,Sample KM [Up],,0,0,0,karaoke,{\k10}'Cause {\k22}you {\k25}don't {\k17}un{\k15}der{\k21}stand {\k14}I {\k22}do {\k13}what {\k17}I {\k26}can
+Comment: 0,0:01:12.96,0:01:14.50,Sample KM [Up],,0,0,0,karaoke,{\k12}But {\k17}some{\k24}times {\k14}I {\k23}don't {\k17}make {\k47}sense
+Comment: 0,0:01:14.62,0:01:16.68,Sample KM [Up],,0,0,0,karaoke,{\k45}I {\k31}am {\k13}what {\k23}you {\k12}ne{\k10}ver {\k20}want {\k11}to {\k41}say
+Comment: 0,0:01:16.75,0:01:17.94,Sample KM [Up],,0,0,0,karaoke,{\k11}But {\k20}I've {\k14}ne{\k9}ver {\k19}had {\k14}a {\k32}doubt
+Comment: 0,0:01:18.02,0:01:19.28,Sample KM [Up],,0,0,0,karaoke,{\k14}It's {\k24}like {\k22}no {\k12}mat{\k11}ter {\k10}what {\k11}I {\k22}do
+Comment: 0,0:01:19.28,0:01:20.74,Sample KM [Up],,0,0,0,karaoke,{\k11}I {\k19}can't {\k14}con{\k17}vince {\k27}you {\k12}for {\k22}once {\k24}just
+Comment: 0,0:01:20.74,0:01:23.81,Sample KM [Up],,0,0,0,karaoke,{\k10}To {\k22}hear {\k12}me {\k50}out {\k50}so {\k22}I {\k22}let {\k44}go {\k22}wa{\k18}tchin' {\k35}you
+Comment: 0,0:01:23.93,0:01:25.66,Sample KM [Up],,0,0,0,karaoke,{\k24}Turn {\k15}your {\k18}back {\k13}like {\k23}you {\k21}al{\k22}ways {\k37}do
+Comment: 0,0:01:25.73,0:01:27.32,Sample KM [Up],,0,0,0,karaoke,{\k17}Face {\k20}a{\k14}way {\k14}and {\k11}pre{\k25}tend {\k11}that {\k21}I'm {\k26}not
+Comment: 0,0:01:27.44,0:01:29.23,Sample KM [Up],,0,0,0,karaoke,{\k8}But {\k21}I'll {\k13}be {\k21}here {\k9}'cause {\k12}you're {\k23}all {\k11}that {\k22}I {\k39}got
+Comment: 0,0:01:31.05,0:01:34.64,Sample KM [Up],,0,0,0,karaoke,{\k64}I {\k67}can't {\k69}feel {\k22}the {\k23}way {\k21}I {\k20}did {\k22}be{\k51}fore
+Comment: 0,0:01:34.82,0:01:38.13,Sample KM [Up],,0,0,0,karaoke,{\k20}Don't {\k22}turn {\k24}your {\k21}back {\k23}on {\k44}me {\k24}I {\k42}won't {\k44}be {\k24}ig{\k43}nored
+Comment: 0,0:01:38.13,0:01:41.75,Sample KM [Up],,0,0,0,karaoke,{\k69}Time {\k60}won't {\k74}heal {\k21}this {\k23}da{\k23}mage {\k23}a{\k22}ny{\k47}more
+Comment: 0,0:01:41.92,0:01:46.83,Sample KM [Up],,0,0,0,karaoke,{\k20}Don't {\k25}turn {\k21}your {\k24}back {\k24}on {\k37}me {\k27}I {\k42}won't {\k48}be {\k23}ig{\kf200}nored
+Comment: 0,0:01:47.00,0:01:50.62,Sample KM [Up],,0,0,0,karaoke,{\kf133}No{\k46} {\k45}hear {\k47}me {\k40}out {\k51}now
+Comment: 0,0:01:50.78,0:01:53.42,Sample KM [Up],,0,0,0,karaoke,{\k25}You're {\k25}gon{\k21}na {\k20}lis{\k21}ten {\k24}to {\k22}me {\k24}like {\k22}it {\k23}or {\k37}not
+Comment: 0,0:01:53.67,0:01:57.74,Sample KM [Up],,0,0,0,karaoke,{\k46}Right {\kf132}now{\k43} {\k48}hear {\k46}me {\k43}out {\k49}now
+Comment: 0,0:01:57.90,0:02:00.50,Sample KM [Up],,0,0,0,karaoke,{\k24}You're {\k24}gon{\k21}na {\k21}lis{\k21}ten {\k26}to {\k22}me {\k21}like {\k21}it {\k23}or {\k36}not
+Comment: 0,0:02:00.79,0:02:02.80,Sample KM [Choir],,0,0,0,karaoke,{\k45}Right {\kf156}now
+Comment: 0,0:02:01.28,0:02:04.83,Sample KM [Up],,0,0,0,karaoke,{\k66}I {\k66}can't {\k70}feel {\k22}the {\k22}way {\k20}I {\k22}did {\k20}be{\k47}fore
+Comment: 0,0:02:05.05,0:02:10.09,Sample KM [Up],,0,0,0,karaoke,{\k18}Don't {\k26}turn {\k23}your {\k21}back {\k21}on {\k48}me {\k26}I {\k39}won't {\k43}be {\k22}ig{\kf217}nored
+Comment: 0,0:02:10.16,0:02:13.74,Sample KM [Up],,0,0,0,karaoke,{\k62}I {\k70}can't {\k69}feel {\k20}the {\k21}way {\k20}I {\k23}did {\k24}be{\k49}fore
+Comment: 0,0:02:13.92,0:02:17.24,Sample KM [Up],,0,0,0,karaoke,{\k19}Don't {\k24}turn {\k23}your {\k22}back {\k24}on {\k43}me {\k24}I {\k43}won't {\k44}be {\k22}ig{\k44}nored
+Comment: 0,0:02:17.24,0:02:20.83,Sample KM [Up],,0,0,0,karaoke,{\k68}Time {\k62}won't {\k72}heal {\k24}this {\k22}da{\k22}mage {\k23}a{\k22}ny{\k44}more
+Comment: 0,0:02:21.03,0:02:24.38,Sample KM [Up],,0,0,0,karaoke,{\k21}Don't {\k22}turn {\k23}your {\k22}back {\k25}on {\k41}me {\k25}I {\k41}won't {\k45}be {\k24}ig{\k46}nored
+Comment: 0,0:02:24.38,0:02:29.40,Sample KM [Up],,0,0,0,karaoke,{\k61}I {\k71}can't {\kf370}feel
+Comment: 0,0:02:28.14,0:02:31.43,Sample KM [Up],,0,0,0,karaoke,{\k21}Don't {\k21}turn {\k23}your {\k22}back {\k25}on {\k43}me {\k24}I {\k43}won't {\k44}be {\k25}ig{\k38}nored
+Comment: 0,0:02:31.43,0:02:36.52,Sample KM [Up],,0,0,0,karaoke,{\k73}Time {\k62}won't {\kf374}heal
+Comment: 0,0:02:36.98,0:02:40.62,Sample KM [Up],,0,0,0,karaoke,{\k22}Don't {\k26}turn {\k24}your {\k22}back {\k22}on {\k45}me {\k24}I {\k42}won't {\k41}be {\k26}ig{\k70}nored
+Dialogue: 0,0:00:29.29,0:00:32.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}I {\k35}am {\k10}a {\k11}lit{\k11}tle {\k12}bit {\k13}of {\k20}lone{\k14}li{\k34}ness
+Dialogue: 0,0:00:31.37,0:00:33.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}A {\k12}lit{\k10}tle {\k11}bit {\k10}of {\k21}dis{\k13}re{\k45}gard
+Dialogue: 0,0:00:32.82,0:00:35.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Hand{\k12}ful {\k12}of {\k12}com{\k28}plaints {\k8}but {\k17}I {\k21}can't {\k25}help
+Dialogue: 0,0:00:34.38,0:00:37.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}The {\k22}fact {\k11}that {\k11}eve{\k12}ry{\k18}one {\k16}can {\k31}see {\k26}these {\k41}scars
+Dialogue: 0,0:00:36.38,0:00:39.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}I {\k31}am {\k13}what {\k22}I {\k22}want {\k19}you {\k15}to {\k36}want
+Dialogue: 0,0:00:38.54,0:00:40.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}What {\k20}I {\k20}want {\k22}you {\k12}to {\k37}feel
+Dialogue: 0,0:00:39.74,0:00:42.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}But {\k9}it's {\k25}like {\k22}no {\k14}mat{\k11}ter {\k10}what {\k10}I {\k22}do
+Dialogue: 0,0:00:41.07,0:00:43.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}I {\k19}can't {\k15}con{\k18}vince {\k27}you {\k14}to {\k30}just {\k10}be{\k22}lieve
+Dialogue: 0,0:00:42.71,0:00:46.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}This {\k19}is {\k40}real {\k49}so {\k23}I {\k19}let {\k47}go {\k19}wa{\k18}tchin' {\k31}you
+Dialogue: 0,0:00:45.68,0:00:48.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Turn {\k17}your {\k20}back {\k13}like {\k20}you {\k24}al{\k21}ways {\k38}do
+Dialogue: 0,0:00:47.49,0:00:50.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Face {\k12}a{\k13}way {\k21}and {\k12}pre{\k20}tend {\k12}that {\k22}I'm {\k28}not
+Dialogue: 0,0:00:49.19,0:00:52.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k8}But {\k23}I'll {\k13}be {\k20}here {\k9}'cause {\k17}you're {\k23}all {\k11}that {\k21}I {\k35}got
+Dialogue: 0,0:00:51.06,0:00:55.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k62}I {\k66}can't {\k70}feel {\k22}the {\k24}way {\k19}I {\k21}did {\k20}be{\k52}fore
+Dialogue: 0,0:00:54.81,0:00:59.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Don't {\k22}turn {\k23}your {\k22}back {\k23}on {\k43}me {\k24}I {\k43}won't {\k45}be {\k22}ig{\k41}nored
+Dialogue: 0,0:00:58.13,0:01:02.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k69}Time {\k61}won't {\k73}heal {\k21}this {\k24}da{\k22}mage {\k23}a{\k20}ny{\k49}more
+Dialogue: 0,0:01:01.92,0:01:07.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Don't {\k25}turn {\k22}your {\k23}back {\k24}on {\k39}me {\k26}I {\k42}won't {\k46}be {\k25}ig{\kf178}nored
+Dialogue: 0,0:01:06.61,0:01:09.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}I {\k35}am {\k12}a {\k12}lit{\k12}tle {\k20}bit {\k15}in{\k14}se{\k43}cure
+Dialogue: 0,0:01:08.74,0:01:10.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}A {\k11}lit{\k11}tle {\k20}un{\k22}con{\k14}fi{\k24}dent
+Dialogue: 0,0:01:10.04,0:01:13.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}'Cause {\k22}you {\k25}don't {\k17}un{\k15}der{\k21}stand {\k14}I {\k22}do {\k13}what {\k17}I {\k26}can
+Dialogue: 0,0:01:12.06,0:01:14.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}But {\k17}some{\k24}times {\k14}I {\k23}don't {\k17}make {\k47}sense
+Dialogue: 0,0:01:13.72,0:01:16.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}I {\k31}am {\k13}what {\k23}you {\k12}ne{\k10}ver {\k20}want {\k11}to {\k41}say
+Dialogue: 0,0:01:15.85,0:01:18.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}But {\k20}I've {\k14}ne{\k9}ver {\k19}had {\k14}a {\k32}doubt
+Dialogue: 0,0:01:17.12,0:01:19.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}It's {\k24}like {\k22}no {\k12}mat{\k11}ter {\k10}what {\k11}I {\k22}do
+Dialogue: 0,0:01:18.38,0:01:20.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}I {\k19}can't {\k14}con{\k17}vince {\k27}you {\k12}for {\k22}once {\k24}just
+Dialogue: 0,0:01:19.84,0:01:24.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}To {\k22}hear {\k12}me {\k50}out {\k50}so {\k22}I {\k22}let {\k44}go {\k22}wa{\k18}tchin' {\k35}you
+Dialogue: 0,0:01:23.03,0:01:25.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Turn {\k15}your {\k18}back {\k13}like {\k23}you {\k21}al{\k22}ways {\k37}do
+Dialogue: 0,0:01:24.83,0:01:27.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Face {\k20}a{\k14}way {\k14}and {\k11}pre{\k25}tend {\k11}that {\k21}I'm {\k26}not
+Dialogue: 0,0:01:26.54,0:01:29.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k8}But {\k21}I'll {\k13}be {\k21}here {\k9}'cause {\k12}you're {\k23}all {\k11}that {\k22}I {\k39}got
+Dialogue: 0,0:01:30.15,0:01:34.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k64}I {\k67}can't {\k69}feel {\k22}the {\k23}way {\k21}I {\k20}did {\k22}be{\k51}fore
+Dialogue: 0,0:01:33.92,0:01:38.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Don't {\k22}turn {\k24}your {\k21}back {\k23}on {\k44}me {\k24}I {\k42}won't {\k44}be {\k24}ig{\k43}nored
+Dialogue: 0,0:01:37.23,0:01:41.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k69}Time {\k60}won't {\k74}heal {\k21}this {\k23}da{\k23}mage {\k23}a{\k22}ny{\k47}more
+Dialogue: 0,0:01:41.02,0:01:47.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Don't {\k25}turn {\k21}your {\k24}back {\k24}on {\k37}me {\k27}I {\k42}won't {\k48}be {\k23}ig{\kf200}nored
+Dialogue: 0,0:01:46.10,0:01:50.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf133}No{\k46} {\k45}hear {\k47}me {\k40}out {\k51}now
+Dialogue: 0,0:01:49.88,0:01:53.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}You're {\k25}gon{\k21}na {\k20}lis{\k21}ten {\k24}to {\k22}me {\k24}like {\k22}it {\k23}or {\k37}not
+Dialogue: 0,0:01:52.77,0:01:57.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Right {\kf132}now{\k43} {\k48}hear {\k46}me {\k43}out {\k49}now
+Dialogue: 0,0:01:57.00,0:02:00.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}You're {\k24}gon{\k21}na {\k21}lis{\k21}ten {\k26}to {\k22}me {\k21}like {\k21}it {\k23}or {\k36}not
+Dialogue: 0,0:01:59.89,0:02:03.00,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Right {\kf156}now
+Dialogue: 0,0:02:00.38,0:02:05.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k66}I {\k66}can't {\k70}feel {\k22}the {\k22}way {\k20}I {\k22}did {\k20}be{\k47}fore
+Dialogue: 0,0:02:04.15,0:02:10.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Don't {\k26}turn {\k23}your {\k21}back {\k21}on {\k48}me {\k26}I {\k39}won't {\k43}be {\k22}ig{\kf217}nored
+Dialogue: 0,0:02:09.26,0:02:13.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k62}I {\k70}can't {\k69}feel {\k20}the {\k21}way {\k20}I {\k23}did {\k24}be{\k49}fore
+Dialogue: 0,0:02:13.02,0:02:17.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Don't {\k24}turn {\k23}your {\k22}back {\k24}on {\k43}me {\k24}I {\k43}won't {\k44}be {\k22}ig{\k44}nored
+Dialogue: 0,0:02:16.34,0:02:21.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k68}Time {\k62}won't {\k72}heal {\k24}this {\k22}da{\k22}mage {\k23}a{\k22}ny{\k44}more
+Dialogue: 0,0:02:20.13,0:02:24.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Don't {\k22}turn {\k23}your {\k22}back {\k25}on {\k41}me {\k25}I {\k41}won't {\k45}be {\k24}ig{\k46}nored
+Dialogue: 0,0:02:23.48,0:02:29.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k61}I {\k71}can't {\kf370}feel
+Dialogue: 0,0:02:27.24,0:02:31.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Don't {\k21}turn {\k23}your {\k22}back {\k25}on {\k43}me {\k24}I {\k43}won't {\k44}be {\k25}ig{\k38}nored
+Dialogue: 0,0:02:30.53,0:02:36.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k73}Time {\k62}won't {\kf374}heal
+Dialogue: 0,0:02:36.08,0:02:40.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Don't {\k26}turn {\k24}your {\k22}back {\k22}on {\k45}me {\k24}I {\k42}won't {\k41}be {\k26}ig{\k70}nored
