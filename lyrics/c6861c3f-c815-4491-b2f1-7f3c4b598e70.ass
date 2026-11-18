@@ -1,0 +1,70 @@
+﻿[Script Info]
+Title: Mai Kuraki - Ai de Zenbu Dakishimete Aishite
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 00
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: Kylian
+LayoutResX: 0
+LayoutResY: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,24,&H006F72F0,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Italic,Arial,24,&H0018A8EB,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.54,0:00:02.27,Italic,,0,0,0,karaoke,{\k30}da{\k31}me {\k25}da{\k31}me {\k25}da{\k31}me
+Comment: 0,0:00:02.56,0:00:04.59,Italic,,0,0,0,karaoke,{\k56}I {\k28}WILL {\k28}AL{\k22}WAYS {\k35}LOVE {\k34}YOU
+Comment: 0,0:00:04.96,0:00:07.32,Default,,0,0,0,karaoke,{\k15}o{\k21}wan{\k33}nai{\k31}de {\k28}{\k17}tsu{\k8}zu{\k15}ke{\k14}te {\k25}yo {\k29}mou
+Comment: 0,0:00:07.32,0:00:09.58,Default,,0,0,0,karaoke,{\k31}ne{\k28}mu{\k27}re {\k17}ya {\k68}sh’na{\k55}i
+Comment: 0,0:00:09.58,0:00:11.23,Italic,,0,0,0,karaoke,{\k26}da{\k28}me {\k30}da{\k26}me {\k25}da{\k30}me
+Comment: 0,0:00:11.53,0:00:13.55,Italic,,0,0,0,karaoke,{\k56}I {\k28}WILL {\k29}AL{\k22}WAYS {\k34}LOVE {\k33}YOU
+Comment: 0,0:00:13.93,0:00:18.46,Default,,0,0,0,karaoke,{\k14}o{\k21}wan{\k35}nai{\k37}de {\k20}{\k18}mi {\k10}tsu{\k14}zu{\k13}ke{\k29}te{\k28}ru {\k26}no{\k25}ga{\k31}sa{\k29}na{\k57}i{\k46}de
+Comment: 0,0:00:18.54,0:00:20.24,Italic,,0,0,0,karaoke,{\k21}da{\k35}me {\k29}da{\k26}me {\k31}da{\k28}me
+Comment: 0,0:00:20.51,0:00:22.59,Italic,,0,0,0,karaoke,{\k56}I {\k28}WILL {\k28}AL{\k22}WAYS {\k35}LOVE {\k39}YOU
+Comment: 0,0:00:22.20,0:00:26.55,Default,,0,0,0,karaoke,{\k28}a{\k25}ta{\k31}shi-{\k29}i {\k28}da{\k29}ke {\k34}ga {\k22}{\k26}hi{\k31}ga{\k49}i {\k33}mo{\k23}u{\k47}sou
+Comment: 0,0:00:26.72,0:00:29.58,Default,,0,0,0,karaoke,{\k25}ji {\k25}i{\k60}shi{\k26}ki {\k31}ka{\k28}jo{\k54}u {\k37}na {\k0}
+Comment: 0,0:00:29.46,0:00:31.83,Italic,,0,0,0,karaoke,{\k59}ki{\k28}bu{\k27}n {\k29}ni {\k56}na{\k38}ru
+Comment: 0,0:00:31.17,0:00:38.19,Default,,0,0,0,karaoke,{\k28}fu{\k27}a{\k59}n{\k26}te{\k29}i {\k37}de {\k18}{\k29}yu{\k29}ra{\k56}ri {\k26}yu{\k29}re{\k35}ru {\k20}{\k29}ka{\k29}n{\kf196}jou
+Comment: 0,0:00:38.72,0:00:40.19,Default,,0,0,0,karaoke,{\k29}u{\k29}ke{\k28}i{\k28}re{\k33}te
+Comment: 0,0:00:40.43,0:00:44.90,Default,,0,0,0,karaoke,{\k54}AH {\k31}ai {\k15}de {\k26}zen{\k13}bu {\k14}da{\k14}ki{\k43}shi{\k38}me{\k32}te {\k56}ai{\k28}{\k29}shi{\k54}te
+Comment: 0,0:00:45.44,0:00:49.85,Default,,0,0,0,karaoke,{\k22}ko{\k9}no {\k15}mi {\k13}ga {\k19}ku{\k10}chi {\k15}ha{\k12}te{\k29}ru {\k17}{\k39}ma{\k28}e {\k52}ni {\k61}kan{\k54}ji{\k46}te
+Comment: 0,0:00:49.95,0:00:53.93,Default,,0,0,0,karaoke,{\k20}ku{\k13}ra{\k11}ya{\k13}mi {\k14}no {\k12}na{\k16}ka {\k14}ni {\k45}mi{\k39}e{\k19}ru {\k9}hi{\k56}ka{\k27}{\k29}ri {\k61}wo
+Comment: 0,0:00:54.41,0:00:56.63,Default,,0,0,0,karaoke,{\k31}nai{\k16}te {\k12}mo {\k28}ii {\k15}sa{\k28}ke{\k14}n{\k16}de {\k12}mo {\k26}ii {\k24}mou
+Comment: 0,0:00:56.70,0:00:58.75,Default,,0,0,0,karaoke,{\k27}ji{\k28}yu{\k28}u {\k28}ni {\k49}na{\k45}rou
+Comment: 0,0:00:58.91,0:01:02.85,Default,,0,0,0,karaoke,{\k29}ai {\k16}de {\k29}zen{\k12}bu {\k13}da{\k15}ki{\k43}shi{\k41}me{\k28}te {\k54}ai{\k31}{\k27}shi{\k56}te
+Comment: 0,0:01:03.12,0:01:05.29,Default,,0,0,0,karaoke,{\k20}AH {\k24}ko{\k15}no {\k12}mi {\k13}ga {\k18}ku{\k12}chi {\k14}ha{\k14}te{\k45}ru-{\k30}u
+Comment: 0,0:01:05.29,0:01:07.17,Default,,0,0,0,karaoke,{\k37}ma{\k25}e {\k31}ni {\k29}kan{\k28}ji{\k38}te
+Comment: 0,0:01:07.34,0:01:09.38,Default,,0,0,0,karaoke,{\k22}i{\k20}tsu {\k14}ka {\k35}wa {\k16}{\k27}ko{\k22}no {\k13}hi {\k35}mo
+Comment: 0,0:01:09.59,0:01:12.22,Default,,0,0,0,karaoke,{\k27}ko{\k16}i{\k12}shi{\k55}ku {\kf115}kan{\k38}jir’
+Comment: 0,0:01:12.34,0:01:15.13,Default,,0,0,0,karaoke,{\k48}LOVE {\k36}{\k45}LOVE {\k44}{\k56}zenb’ {\k50}LOVE
+Dialogue: 0,0:00:00.00,0:00:02.47,Italic,,0,0,0,fx,{\k54\fad(540,200)}{\k30}da{\k31}me {\k25}da{\k31}me {\k25}da{\k31}me
+Dialogue: 0,0:00:01.66,0:00:04.79,Italic,,0,0,0,fx,{\k90\fad(300,200)}{\k56}I {\k28}WILL {\k28}AL{\k22}WAYS {\k35}LOVE {\k34}YOU
+Dialogue: 0,0:00:04.06,0:00:07.52,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}o{\k21}wan{\k33}nai{\k31}de {\k28}{\k17}tsu{\k8}zu{\k15}ke{\k14}te {\k25}yo {\k29}mou
+Dialogue: 0,0:00:06.42,0:00:09.78,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ne{\k28}mu{\k27}re {\k17}ya {\k68}sh’na{\k55}i
+Dialogue: 0,0:00:08.68,0:00:11.43,Italic,,0,0,0,fx,{\k90\fad(300,200)}{\k26}da{\k28}me {\k30}da{\k26}me {\k25}da{\k30}me
+Dialogue: 0,0:00:10.63,0:00:13.75,Italic,,0,0,0,fx,{\k90\fad(300,200)}{\k56}I {\k28}WILL {\k29}AL{\k22}WAYS {\k34}LOVE {\k33}YOU
+Dialogue: 0,0:00:13.03,0:00:18.66,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k14}o{\k21}wan{\k35}nai{\k37}de {\k20}{\k18}mi {\k10}tsu{\k14}zu{\k13}ke{\k29}te{\k28}ru {\k26}no{\k25}ga{\k31}sa{\k29}na{\k57}i{\k46}de
+Dialogue: 0,0:00:17.64,0:00:20.44,Italic,,0,0,0,fx,{\k90\fad(300,200)}{\k21}da{\k35}me {\k29}da{\k26}me {\k31}da{\k28}me
+Dialogue: 0,0:00:19.61,0:00:22.79,Italic,,0,0,0,fx,{\k90\fad(300,200)}{\k56}I {\k28}WILL {\k28}AL{\k22}WAYS {\k35}LOVE {\k39}YOU
+Dialogue: 0,0:00:21.30,0:00:26.75,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k28}a{\k25}ta{\k31}shi-{\k29}i {\k28}da{\k29}ke {\k34}ga {\k22}{\k26}hi{\k31}ga{\k49}i {\k33}mo{\k23}u{\k47}sou
+Dialogue: 0,0:00:25.82,0:00:29.78,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ji {\k25}i{\k60}shi{\k26}ki {\k31}ka{\k28}jo{\k54}u {\k37}na {\k0}
+Dialogue: 0,0:00:28.56,0:00:32.03,Italic,,0,0,0,fx,{\k90\fad(300,200)}{\k59}ki{\k28}bu{\k27}n {\k29}ni {\k56}na{\k38}ru
+Dialogue: 0,0:00:30.27,0:00:38.39,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k28}fu{\k27}a{\k59}n{\k26}te{\k29}i {\k37}de {\k18}{\k29}yu{\k29}ra{\k56}ri {\k26}yu{\k29}re{\k35}ru {\k20}{\k29}ka{\k29}n{\kf196}jou
+Dialogue: 0,0:00:37.82,0:00:40.39,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k29}u{\k29}ke{\k28}i{\k28}re{\k33}te
+Dialogue: 0,0:00:39.53,0:00:45.10,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k54}AH {\k31}ai {\k15}de {\k26}zen{\k13}bu {\k14}da{\k14}ki{\k43}shi{\k38}me{\k32}te {\k56}ai{\k28}{\k29}shi{\k54}te
+Dialogue: 0,0:00:44.54,0:00:50.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ko{\k9}no {\k15}mi {\k13}ga {\k19}ku{\k10}chi {\k15}ha{\k12}te{\k29}ru {\k17}{\k39}ma{\k28}e {\k52}ni {\k61}kan{\k54}ji{\k46}te
+Dialogue: 0,0:00:49.05,0:00:54.13,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ku{\k13}ra{\k11}ya{\k13}mi {\k14}no {\k12}na{\k16}ka {\k14}ni {\k45}mi{\k39}e{\k19}ru {\k9}hi{\k56}ka{\k27}{\k29}ri {\k61}wo
+Dialogue: 0,0:00:53.51,0:00:56.83,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}nai{\k16}te {\k12}mo {\k28}ii {\k15}sa{\k28}ke{\k14}n{\k16}de {\k12}mo {\k26}ii {\k24}mou
+Dialogue: 0,0:00:55.80,0:00:58.95,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ji{\k28}yu{\k28}u {\k28}ni {\k49}na{\k45}rou
+Dialogue: 0,0:00:58.01,0:01:03.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ai {\k16}de {\k29}zen{\k12}bu {\k13}da{\k15}ki{\k43}shi{\k41}me{\k28}te {\k54}ai{\k31}{\k27}shi{\k56}te
+Dialogue: 0,0:01:02.22,0:01:05.49,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}AH {\k24}ko{\k15}no {\k12}mi {\k13}ga {\k18}ku{\k12}chi {\k14}ha{\k14}te{\k45}ru-{\k30}u
+Dialogue: 0,0:01:04.39,0:01:07.37,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k37}ma{\k25}e {\k31}ni {\k29}kan{\k28}ji{\k38}te
+Dialogue: 0,0:01:06.44,0:01:09.58,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k22}i{\k20}tsu {\k14}ka {\k35}wa {\k16}{\k27}ko{\k22}no {\k13}hi {\k35}mo
+Dialogue: 0,0:01:08.69,0:01:12.42,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ko{\k16}i{\k12}shi{\k55}ku {\kf115}kan{\k38}jir’
+Dialogue: 0,0:01:11.44,0:01:15.33,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k48}LOVE {\k36}{\k45}LOVE {\k44}{\k56}zenb’ {\k50}LOVE
