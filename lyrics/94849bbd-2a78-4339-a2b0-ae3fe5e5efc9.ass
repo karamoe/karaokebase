@@ -1,0 +1,66 @@
+﻿[Script Info]
+Title: Damn
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+Original Timing: Defty
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,24,&H000088EF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:01.61,0:00:04.76,Default,,0,0,0,karaoke,{\k31}nǐ {\k31}shuō {\k31}nǐ {\k31}bù {\k31}xiǎng {\k31}zài {\k31}zhè {\k85}lǐ
+Comment: 1,0:00:04.74,0:00:07.26,Default,,0,0,0,karaoke,{\k15}wǒ {\k15}yě {\k31}bù {\k31}xiǎng {\k31}zài {\k31}zhè {\k85}lǐ
+Comment: 1,0:00:07.24,0:00:09.71,Default,,0,0,0,karaoke,{\k31}dàn {\k62}tiān {\k46}hēi {\k15}de {\k31}tài {\k31}kuài {\k31}xiǎng
+Comment: 1,0:00:09.71,0:00:12.26,Default,,0,0,0,karaoke,{\k31}zǒu {\k31}zǎo {\k31}jiù {\k31}lái {\k31}bù {\k85}jí
+Comment: 1,0:00:12.24,0:00:14.76,Default,,0,0,0,karaoke,{\k31}ō {\k62}wǒ {\k62}ài {\k85}nǐ
+Comment: 1,0:00:14.74,0:00:17.30,Default,,0,0,0,karaoke,{\k15}kě {\k15}xī {\k31}guān {\k31}xì {\k31}biàn {\k31}chéng {\k31}méi {\k31}guān {\k27}xì
+Comment: 1,0:00:17.24,0:00:19.76,Default,,0,0,0,karaoke,{\k31}wèn {\k31}tí {\k31}shì {\k31}méi {\k31}wèn {\k85}tí
+Comment: 1,0:00:19.74,0:00:26.17,Default,,0,0,0,karaoke,{\k31}yú {\k93}shì {\k31}wǒ {\k62}men {\k62}jì {\k351}xù
+Comment: 1,0:00:35.67,0:00:39.88,Default,,0,0,0,karaoke,{\k31}ná {\k31}zhe {\k93}bǐ {\k31}xiǎng {\k31}xiě {\k31}diǎn {\k62}dōng {\k97}xī
+Comment: 1,0:00:40.36,0:00:42.53,Default,,0,0,0,karaoke,{\k31}yǐ {\k31}wèi {\k31}shì {\k62}wǔ {\k31}qì {\k31}néng
+Comment: 1,0:00:42.53,0:00:45.34,Default,,0,0,0,karaoke,{\k62}shēn {\k62}zhāng {\k62}zhèng {\k82}yì
+Comment: 1,0:00:45.67,0:00:49.45,Default,,0,0,0,karaoke,{\k31}méi {\k31}rén {\k156}lǐ {\k31}yě {\k31}méi {\k31}guān {\k54}xì
+Comment: 1,0:00:49.42,0:00:51.95,Default,,0,0,0,karaoke,{\k35}zhì {\k62}shǎo {\k31}wǒ {\k31}hái {\k35}yǒu {\k46}nǐ
+Comment: 1,0:00:51.92,0:00:54.13,Default,,0,0,0,karaoke,{\k35}zhì {\k58}shǎo {\k35}wǒ {\k39}hái {\k42}yǒu
+Comment: 1,0:00:54.11,0:00:57.34,Default,,0,0,0,karaoke,{\k31}nǐ {\k31}shuō {\k39}nǐ {\k31}bù {\k31}xiǎng {\k31}zài {\k31}zhè {\k85}lǐ
+Comment: 1,0:00:57.32,0:00:59.84,Default,,0,0,0,karaoke,{\k15}wǒ {\k15}yě {\k31}bù {\k31}xiǎng {\k31}zài {\k31}zhè {\k85}lǐ
+Comment: 1,0:00:59.82,0:01:02.29,Default,,0,0,0,karaoke,{\k31}dàn {\k62}tiān {\k46}hēi {\k15}de {\k31}tài {\k31}kuài {\k31}xiǎng
+Comment: 1,0:01:02.29,0:01:04.76,Default,,0,0,0,karaoke,{\k31}zǒu {\k31}zǎo {\k31}jiù {\k31}lái {\k31}bù {\k78}jí
+Comment: 1,0:01:04.74,0:01:07.26,Default,,0,0,0,karaoke,{\k31}ō {\k62}wǒ {\k62}ài {\k85}nǐ
+Comment: 1,0:01:07.24,0:01:09.80,Default,,0,0,0,karaoke,{\k15}kě {\k15}xī {\k31}guān {\k31}xì {\k31}biàn {\k31}chéng {\k31}méi {\k31}guān {\k27}xì
+Comment: 1,0:01:09.74,0:01:12.26,Default,,0,0,0,karaoke,{\k31}wèn {\k31}tí {\k31}shì {\k31}méi {\k31}wèn {\k85}tí
+Comment: 1,0:01:12.24,0:01:19.76,Default,,0,0,0,karaoke,{\k31}yú {\k93}shì {\k31}wǒ {\k62}men {\k62}jì {\k460}xù
+Comment: 1,0:01:57.24,0:02:00.46,Default,,0,0,0,karaoke,{\k46}ō {\k78}wǒ {\k78}ài {\k109}nǐ
+Comment: 1,0:02:00.52,0:02:03.74,Default,,0,0,0,karaoke,{\k23}nà {\k23}xiē {\k39}wèn {\k39}tí {\k39}wǒ {\k39}dōu {\k39}méi {\k39}guān {\k31}xì
+Comment: 1,0:02:03.72,0:02:06.99,Default,,0,0,0,karaoke,{\k23}dàn {\k15}nǐ {\k39}lí {\k39}kāi {\k39}le {\k46}zhè {\k113}lǐ
+Comment: 1,0:02:07.00,0:02:16.01,Default,,0,0,0,karaoke,{\k46}yú {\k109}shì {\k50}wǒ {\k78}men {\k82}bù {\k253}zài {\k85}nián {\k183}qīng
+Dialogue: 1,0:00:00.71,0:00:04.96,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}nǐ {\k31}shuō {\k31}nǐ {\k31}bù {\k31}xiǎng {\k31}zài {\k31}zhè {\k85}lǐ
+Dialogue: 1,0:00:03.84,0:00:07.46,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}wǒ {\k15}yě {\k31}bù {\k31}xiǎng {\k31}zài {\k31}zhè {\k85}lǐ
+Dialogue: 1,0:00:06.34,0:00:09.91,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}dàn {\k62}tiān {\k46}hēi {\k15}de {\k31}tài {\k31}kuài {\k31}xiǎng
+Dialogue: 1,0:00:08.81,0:00:12.46,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}zǒu {\k31}zǎo {\k31}jiù {\k31}lái {\k31}bù {\k85}jí
+Dialogue: 1,0:00:11.34,0:00:14.96,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ō {\k62}wǒ {\k62}ài {\k85}nǐ
+Dialogue: 1,0:00:13.84,0:00:17.50,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}kě {\k15}xī {\k31}guān {\k31}xì {\k31}biàn {\k31}chéng {\k31}méi {\k31}guān {\k27}xì
+Dialogue: 1,0:00:16.34,0:00:19.96,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}wèn {\k31}tí {\k31}shì {\k31}méi {\k31}wèn {\k85}tí
+Dialogue: 1,0:00:18.84,0:00:26.37,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}yú {\k93}shì {\k31}wǒ {\k62}men {\k62}jì {\k351}xù
+Dialogue: 1,0:00:34.77,0:00:40.08,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ná {\k31}zhe {\k93}bǐ {\k31}xiǎng {\k31}xiě {\k31}diǎn {\k62}dōng {\k97}xī
+Dialogue: 1,0:00:39.46,0:00:42.73,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}yǐ {\k31}wèi {\k31}shì {\k62}wǔ {\k31}qì {\k31}néng
+Dialogue: 1,0:00:41.63,0:00:45.54,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k62}shēn {\k62}zhāng {\k62}zhèng {\k82}yì
+Dialogue: 1,0:00:44.77,0:00:49.65,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}méi {\k31}rén {\k156}lǐ {\k31}yě {\k31}méi {\k31}guān {\k54}xì
+Dialogue: 1,0:00:48.52,0:00:52.15,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}zhì {\k62}shǎo {\k31}wǒ {\k31}hái {\k35}yǒu {\k46}nǐ
+Dialogue: 1,0:00:51.02,0:00:54.33,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}zhì {\k58}shǎo {\k35}wǒ {\k39}hái {\k42}yǒu
+Dialogue: 1,0:00:53.21,0:00:57.54,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}nǐ {\k31}shuō {\k39}nǐ {\k31}bù {\k31}xiǎng {\k31}zài {\k31}zhè {\k85}lǐ
+Dialogue: 1,0:00:56.42,0:01:00.04,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}wǒ {\k15}yě {\k31}bù {\k31}xiǎng {\k31}zài {\k31}zhè {\k85}lǐ
+Dialogue: 1,0:00:58.92,0:01:02.49,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}dàn {\k62}tiān {\k46}hēi {\k15}de {\k31}tài {\k31}kuài {\k31}xiǎng
+Dialogue: 1,0:01:01.39,0:01:04.96,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}zǒu {\k31}zǎo {\k31}jiù {\k31}lái {\k31}bù {\k78}jí
+Dialogue: 1,0:01:03.84,0:01:07.46,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ō {\k62}wǒ {\k62}ài {\k85}nǐ
+Dialogue: 1,0:01:06.34,0:01:10.00,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}kě {\k15}xī {\k31}guān {\k31}xì {\k31}biàn {\k31}chéng {\k31}méi {\k31}guān {\k27}xì
+Dialogue: 1,0:01:08.84,0:01:12.46,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}wèn {\k31}tí {\k31}shì {\k31}méi {\k31}wèn {\k85}tí
+Dialogue: 1,0:01:11.34,0:01:19.96,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}yú {\k93}shì {\k31}wǒ {\k62}men {\k62}jì {\k460}xù
+Dialogue: 1,0:01:56.34,0:02:00.66,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k46}ō {\k78}wǒ {\k78}ài {\k109}nǐ
+Dialogue: 1,0:01:59.62,0:02:03.94,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}nà {\k23}xiē {\k39}wèn {\k39}tí {\k39}wǒ {\k39}dōu {\k39}méi {\k39}guān {\k31}xì
+Dialogue: 1,0:02:02.82,0:02:07.19,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}dàn {\k15}nǐ {\k39}lí {\k39}kāi {\k39}le {\k46}zhè {\k113}lǐ
+Dialogue: 1,0:02:06.10,0:02:16.21,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k46}yú {\k109}shì {\k50}wǒ {\k78}men {\k82}bù {\k253}zài {\k85}nián {\k183}qīng
