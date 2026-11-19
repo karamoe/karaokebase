@@ -12,7 +12,7 @@ test:
     - git clone --recurse-submodules https://gitlab.com/karaokemugen/code/karaokemugen-app.git
     - cd karaokemugen-app
     - yarn install
-    - touch mpv patch
+    - touch mpv patch ffmpeg
     - mkdir app
     - cp -f ../config.CICD.yml app/config.yml
     - node -v
