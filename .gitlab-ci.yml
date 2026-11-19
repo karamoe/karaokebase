@@ -7,13 +7,12 @@ test:
   interruptible: true
   tags:
     - KM-Medias
-  image: axelterizaki/karaokemugen-ci:node-22
+  image: axelterizaki/karaokemugen-ci:node-26
   script:
     - git clone --recurse-submodules https://gitlab.com/karaokemugen/code/karaokemugen-app.git
     - cd karaokemugen-app
     - yarn install
-    - touch mpv
-    - touch patch
+    - touch mpv patch
     - mkdir app
     - cp -f ../config.CICD.yml app/config.yml
     - node -v
