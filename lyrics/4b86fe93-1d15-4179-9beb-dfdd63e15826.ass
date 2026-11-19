@@ -1,0 +1,104 @@
+﻿[Script Info]
+Title: Raven Sky
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+Original Timing: Defty
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,24,&H000088EF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:01.05,0:00:06.52,Default,,0,0,0,karaoke,{\k37}Mir{\k37}ror {\k37}on {\k18}the {\k129}wall, {\k37}a {\k37}stran{\k37}ger {\k37}in {\k129}glass
+Comment: 1,0:00:06.60,0:00:10.78,Default,,0,0,0,karaoke,{\k18}All {\k18}my {\k37}fai{\k37}lures {\k37}sta{\k18}ring {\k37}ba{\k203}ck
+Comment: 1,0:00:12.71,0:00:18.56,Default,,0,0,0,karaoke,{\k18}mu{\k37}ki{\k37}a{\k37}u {\k18}ho{\k129}do {\k37}yu{\k37}gan{\k37}de{\k37}ku {\k18}yu{\k129}me
+Comment: 1,0:00:18.64,0:00:21.75,Default,,0,0,0,karaoke,{\k18}But {\k37}some{\k18}how {\k18}you {\k37}al{\k18}ways {\k37}sta{\k115}y
+Comment: 1,0:00:22.53,0:00:28.97,Default,,0,0,0,karaoke,{\k18}I'm {\k18}gon{\k37}na {\k74}break {\k74}hi{\k37}to{\k37}ri {\k18}ni {\k37}shi{\k282}te
+Comment: 1,0:00:29.75,0:00:33.19,Default,,0,0,0,karaoke,{\k18}It {\k37}seems {\k18}there's {\k37}no {\k37}way {\k37}to {\k37}es{\k111}cape
+Comment: 1,0:00:33.27,0:00:36.89,Default,,0,0,0,karaoke,{\k37}Broke {\k37}eve{\k18}ry {\k37}pro{\k37}mise {\k37}I {\k148}made
+Comment: 1,0:00:36.97,0:00:41.24,Default,,0,0,0,karaoke,{\k37}I {\k37}guess {\k18}I've {\k37}ne{\k37}ver {\k37}known {\k37}a {\k37}life {\k37}of {\k37}self {\k18}con{\k46}trol
+Comment: 1,0:00:41.23,0:00:43.69,Default,,0,0,0,karaoke,{\k18}ka{\k18}ki{\k18}na {\k37}gut{\k18}te {\k18}ki{\k37}ta {\k18}chi{\k37}zu {\k13}wa
+Comment: 1,0:00:43.64,0:00:47.72,Default,,0,0,0,karaoke,{\k18}i{\k18}ma {\k37}ya {\k18}ta{\k55}da {\k18}me{\k18}i{\k37}ro {\k18}no {\k37}yo{\k37}u {\k83}sa
+Comment: 1,0:00:47.71,0:00:53.09,Default,,0,0,0,karaoke,{\k18}na{\k18}ra{\k18}ba {\k37}is{\k55}so {\k18}ya{\k18}bu{\k37}ri{\k74}su{\k74}te{\k55}te {\k18}i{\k83}ke
+Comment: 1,0:00:53.09,0:00:55.92,Default,,0,0,0,karaoke,{\k18}Eve{\k18}ry{\k18}thing {\k18}that {\k18}I {\k55}need {\k18}is {\k18}al{\k18}ways {\k18}out {\k18}of {\k32}reach
+Comment: 1,0:00:55.86,0:00:59.02,Default,,0,0,0,karaoke,{\k37}Tell {\k18}me {\k55}please, {\k37}am {\k18}I {\k55}worth {\k37}sa{\k46}ving?
+Comment: 1,0:00:59.01,0:01:01.84,Default,,0,0,0,karaoke,{\k18}to{\k18}bi{\k18}ta{\k18}tsu {\k18}ta{\k18}me {\k37}no{\k37}ba{\k37}shi{\k18}ta {\k18}te {\k13}wa
+Comment: 1,0:01:01.79,0:01:04.44,Default,,0,0,0,karaoke,{\k18}ka{\k18}ra{\k37}mat{\k37}te {\k18}ma{\k18}ta {\k18}o{\k18}chi{\k37}tet{\k32}ta
+Comment: 1,0:01:04.38,0:01:07.72,Default,,0,0,0,karaoke,{\k18}Is {\k18}it {\k55}all {\k55}just {\k37}a {\k74}cy{\k64}cle?
+Comment: 1,0:01:07.71,0:01:12.17,Default,,0,0,0,karaoke,{\k55}Some{\k55}one {\k37}is {\k55}des{\k55}tined {\k37}to {\k138}fall
+Comment: 1,0:01:12.16,0:01:15.48,Default,,0,0,0,karaoke,{\k18}sa{\k18}da{\k18}me {\k18}da {\k18}to {\k19}shi{\k37}te {\k186}mo
+Comment: 1,0:01:15.86,0:01:21.75,Default,,0,0,0,karaoke,{\k37}E{\k37}ven {\k55}on {\k55}bro{\k37}ken {\k55}wings, {\k55}can {\k37}I {\k55}learn {\k37}how {\k18}to {\k97}fly?
+Comment: 1,0:01:21.79,0:01:27.77,Default,,0,0,0,karaoke,{\k37}E{\k37}ven {\k55}if {\k55}I'm {\k37}a {\k55}feast {\k55}for {\k37}the {\k74}ra{\k74}ven {\k69}sky
+Comment: 1,0:01:27.71,0:01:33.65,Default,,0,0,0,karaoke,{\k37}ta{\k18}to{\k18}e {\k37}ku{\k18}chi{\k18}ha{\k37}te{\k18}te {\k37}mo {\k55}da{\k37}re{\k37}ka {\k18}no {\k18}ko{\k18}do{\k18}u {\k37}ni {\k18}na{\k83}ru
+Comment: 1,0:01:33.64,0:01:36.40,Default,,0,0,0,karaoke,{\k37}E{\k37}ven {\k55}on {\k55}bro{\k37}ken {\k55}wings,
+Comment: 1,0:01:36.40,0:01:42.72,Default,,0,0,0,karaoke,{\k55}can {\k37}I {\k74}learn {\k74}to {\k74}fly {\k18}in{\k18}to {\k18}the {\k250}blue?
+Comment: 1,0:01:53.64,0:01:58.97,Default,,0,0,0,karaoke,{\k37}Ru{\k37}nning {\k37}through {\k18}the {\k129}rain, {\k37}these {\k37}ne{\k37}on {\k37}co{\k18}loured {\k97}waves
+Comment: 1,0:01:59.01,0:02:03.93,Default,,0,0,0,karaoke,{\k18}Tur{\k18}ning {\k18}my {\k37}foot{\k37}steps {\k37}to {\k18}an {\k37}e{\k259}cho
+Comment: 1,0:02:05.31,0:02:11.19,Default,,0,0,0,karaoke,{\k18}ma{\k37}da {\k37}o{\k37}wa{\k18}re{\k129}nai {\k37}tsu{\k37}bu{\k37}ya{\k37}ku {\k18}ta{\k134}bi
+Comment: 1,0:02:11.23,0:02:14.85,Default,,0,0,0,karaoke,{\k18}a{\k37}na{\k18}ta {\k18}wa {\k37}wa{\k18}ra{\k37}u {\k166}no
+Comment: 1,0:02:14.94,0:02:19.06,Default,,0,0,0,karaoke,{\k18}Yeah, {\k18}e{\k18}ven {\k37}the {\k74}crows {\k74}all {\k74}look {\k18}down {\k18}on {\k50}me
+Comment: 1,0:02:19.01,0:02:21.84,Default,,0,0,0,karaoke,{\k18}Eve{\k18}ry{\k18}thing {\k18}that {\k18}I {\k55}need {\k18}is {\k18}al{\k18}ways {\k18}out {\k18}of {\k32}reach
+Comment: 1,0:02:21.79,0:02:24.94,Default,,0,0,0,karaoke,{\k37}Tell {\k18}me {\k55}please, {\k37}am {\k18}I {\k55}worth {\k37}sa{\k46}ving?
+Comment: 1,0:02:24.94,0:02:27.77,Default,,0,0,0,karaoke,{\k37}keshi{\k18}te {\k18}shi{\k18}ma{\k18}e{\k37}ba {\k37}ra{\k37}ku {\k18}na {\k18}no {\k13}ni
+Comment: 1,0:02:27.71,0:02:30.36,Default,,0,0,0,karaoke,{\k18}ho{\k18}ho{\k37}en{\k37}de {\k18}ma{\k18}ta {\k18}i{\k18}ki{\k37}chat{\k32}ta
+Comment: 1,0:02:30.31,0:02:33.65,Default,,0,0,0,karaoke,{\k18}Is {\k18}it {\k55}all {\k55}just {\k37}a {\k74}cy{\k64}cle?
+Comment: 1,0:02:33.64,0:02:38.09,Default,,0,0,0,karaoke,{\k55}Some{\k55}one {\k37}is {\k55}des{\k55}tined {\k37}to {\k138}fall
+Comment: 1,0:02:38.09,0:02:41.70,Default,,0,0,0,karaoke,{\k18}ji{\k18}go{\k18}ku {\k18}da {\k18}to {\k19}shi{\k37}te {\k215}mo
+Comment: 1,0:02:41.79,0:02:47.68,Default,,0,0,0,karaoke,{\k37}E{\k37}ven {\k55}on {\k55}bro{\k37}ken {\k55}wings, {\k55}can {\k37}I {\k55}learn {\k37}how {\k18}to {\k97}fly?
+Comment: 1,0:02:47.71,0:02:53.69,Default,,0,0,0,karaoke,{\k37}E{\k37}ven {\k55}if {\k55}I'm {\k37}a {\k55}feast {\k55}for {\k37}the {\k74}ra{\k74}ven {\k69}sky
+Comment: 1,0:02:53.64,0:02:59.57,Default,,0,0,0,karaoke,{\k37}ta{\k18}to{\k18}e {\k37}ku{\k18}chi{\k18}ha{\k37}te{\k18}te {\k37}mo {\k55}da{\k37}re{\k37}ka {\k18}no {\k18}ko{\k18}do{\k18}u {\k37}ni {\k18}na{\k83}ru
+Comment: 1,0:02:59.57,0:03:02.33,Default,,0,0,0,karaoke,{\k37}E{\k37}ven {\k55}on {\k55}bro{\k37}ken {\k55}wings,
+Comment: 1,0:03:02.33,0:03:08.83,Default,,0,0,0,karaoke,{\k55}can {\k37}I {\k74}learn {\k74}to {\k74}fly {\k18}in{\k18}to {\k18}the {\k268}blue?
+Comment: 1,0:03:32.16,0:03:38.05,Default,,0,0,0,karaoke,{\k37}E{\k37}ven {\k55}on {\k55}bro{\k37}ken {\k55}wings, {\k55}can {\k37}I {\k55}learn {\k37}how {\k18}to {\k97}fly?
+Comment: 1,0:03:38.09,0:03:44.06,Default,,0,0,0,karaoke,{\k37}E{\k37}ven {\k55}if {\k55}I'm {\k37}a {\k55}feast {\k55}for {\k37}the {\k74}ra{\k74}ven {\k69}sky
+Comment: 1,0:03:44.01,0:03:49.94,Default,,0,0,0,karaoke,{\k37}ta{\k18}to{\k18}e {\k37}ku{\k18}chi{\k18}ha{\k37}te{\k18}te {\k37}mo {\k55}da{\k37}re{\k37}ka {\k18}no {\k18}ko{\k18}do{\k18}u {\k37}ni {\k18}na{\k83}ru
+Comment: 1,0:03:49.94,0:03:52.70,Default,,0,0,0,karaoke,{\k37}E{\k37}ven {\k55}on {\k55}bro{\k37}ken {\k55}wings,
+Comment: 1,0:03:52.70,0:03:57.21,Default,,0,0,0,karaoke,{\k55}can {\k37}I {\k74}learn {\k74}to {\k74}fly {\k18}in{\k18}to {\k18}the {\k69}blue?
+Dialogue: 1,0:00:00.15,0:00:06.72,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Mir{\k37}ror {\k37}on {\k18}the {\k129}wall, {\k37}a {\k37}stran{\k37}ger {\k37}in {\k129}glass
+Dialogue: 1,0:00:05.70,0:00:10.98,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}All {\k18}my {\k37}fai{\k37}lures {\k37}sta{\k18}ring {\k37}ba{\k203}ck
+Dialogue: 1,0:00:11.81,0:00:18.76,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}mu{\k37}ki{\k37}a{\k37}u {\k18}ho{\k129}do {\k37}yu{\k37}gan{\k37}de{\k37}ku {\k18}yu{\k129}me
+Dialogue: 1,0:00:17.74,0:00:21.95,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}But {\k37}some{\k18}how {\k18}you {\k37}al{\k18}ways {\k37}sta{\k115}y
+Dialogue: 1,0:00:21.63,0:00:29.17,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}I'm {\k18}gon{\k37}na {\k74}break {\k74}hi{\k37}to{\k37}ri {\k18}ni {\k37}shi{\k282}te
+Dialogue: 1,0:00:28.85,0:00:33.39,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}It {\k37}seems {\k18}there's {\k37}no {\k37}way {\k37}to {\k37}es{\k111}cape
+Dialogue: 1,0:00:32.37,0:00:37.09,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Broke {\k37}eve{\k18}ry {\k37}pro{\k37}mise {\k37}I {\k148}made
+Dialogue: 1,0:00:36.07,0:00:41.44,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k37}I {\k37}guess {\k18}I've {\k37}ne{\k37}ver {\k37}known {\k37}a {\k37}life {\k37}of {\k37}self {\k18}con{\k46}trol
+Dialogue: 1,0:00:40.33,0:00:43.89,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ka{\k18}ki{\k18}na {\k37}gut{\k18}te {\k18}ki{\k37}ta {\k18}chi{\k37}zu {\k13}wa
+Dialogue: 1,0:00:42.74,0:00:47.92,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}i{\k18}ma {\k37}ya {\k18}ta{\k55}da {\k18}me{\k18}i{\k37}ro {\k18}no {\k37}yo{\k37}u {\k83}sa
+Dialogue: 1,0:00:46.81,0:00:53.29,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}na{\k18}ra{\k18}ba {\k37}is{\k55}so {\k18}ya{\k18}bu{\k37}ri{\k74}su{\k74}te{\k55}te {\k18}i{\k83}ke
+Dialogue: 1,0:00:52.19,0:00:56.12,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Eve{\k18}ry{\k18}thing {\k18}that {\k18}I {\k55}need {\k18}is {\k18}al{\k18}ways {\k18}out {\k18}of {\k32}reach
+Dialogue: 1,0:00:54.96,0:00:59.22,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Tell {\k18}me {\k55}please, {\k37}am {\k18}I {\k55}worth {\k37}sa{\k46}ving?
+Dialogue: 1,0:00:58.11,0:01:02.04,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}to{\k18}bi{\k18}ta{\k18}tsu {\k18}ta{\k18}me {\k37}no{\k37}ba{\k37}shi{\k18}ta {\k18}te {\k13}wa
+Dialogue: 1,0:01:00.89,0:01:04.64,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ka{\k18}ra{\k37}mat{\k37}te {\k18}ma{\k18}ta {\k18}o{\k18}chi{\k37}tet{\k32}ta
+Dialogue: 1,0:01:03.48,0:01:07.92,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Is {\k18}it {\k55}all {\k55}just {\k37}a {\k74}cy{\k64}cle?
+Dialogue: 1,0:01:06.81,0:01:12.37,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k55}Some{\k55}one {\k37}is {\k55}des{\k55}tined {\k37}to {\k138}fall
+Dialogue: 1,0:01:11.26,0:01:15.68,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}sa{\k18}da{\k18}me {\k18}da {\k18}to {\k19}shi{\k37}te {\k186}mo
+Dialogue: 1,0:01:14.96,0:01:21.95,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k37}E{\k37}ven {\k55}on {\k55}bro{\k37}ken {\k55}wings, {\k55}can {\k37}I {\k55}learn {\k37}how {\k18}to {\k97}fly?
+Dialogue: 1,0:01:20.89,0:01:27.97,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k37}E{\k37}ven {\k55}if {\k55}I'm {\k37}a {\k55}feast {\k55}for {\k37}the {\k74}ra{\k74}ven {\k69}sky
+Dialogue: 1,0:01:26.81,0:01:33.85,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k37}ta{\k18}to{\k18}e {\k37}ku{\k18}chi{\k18}ha{\k37}te{\k18}te {\k37}mo {\k55}da{\k37}re{\k37}ka {\k18}no {\k18}ko{\k18}do{\k18}u {\k37}ni {\k18}na{\k83}ru
+Dialogue: 1,0:01:32.74,0:01:36.60,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k37}E{\k37}ven {\k55}on {\k55}bro{\k37}ken {\k55}wings,
+Dialogue: 1,0:01:35.50,0:01:42.92,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k55}can {\k37}I {\k74}learn {\k74}to {\k74}fly {\k18}in{\k18}to {\k18}the {\k250}blue?
+Dialogue: 1,0:01:52.74,0:01:59.17,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Ru{\k37}nning {\k37}through {\k18}the {\k129}rain, {\k37}these {\k37}ne{\k37}on {\k37}co{\k18}loured {\k97}waves
+Dialogue: 1,0:01:58.11,0:02:04.13,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Tur{\k18}ning {\k18}my {\k37}foot{\k37}steps {\k37}to {\k18}an {\k37}e{\k259}cho
+Dialogue: 1,0:02:04.41,0:02:11.39,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ma{\k37}da {\k37}o{\k37}wa{\k18}re{\k129}nai {\k37}tsu{\k37}bu{\k37}ya{\k37}ku {\k18}ta{\k134}bi
+Dialogue: 1,0:02:10.33,0:02:15.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}a{\k37}na{\k18}ta {\k18}wa {\k37}wa{\k18}ra{\k37}u {\k166}no
+Dialogue: 1,0:02:14.04,0:02:19.26,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Yeah, {\k18}e{\k18}ven {\k37}the {\k74}crows {\k74}all {\k74}look {\k18}down {\k18}on {\k50}me
+Dialogue: 1,0:02:18.11,0:02:22.04,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Eve{\k18}ry{\k18}thing {\k18}that {\k18}I {\k55}need {\k18}is {\k18}al{\k18}ways {\k18}out {\k18}of {\k32}reach
+Dialogue: 1,0:02:20.89,0:02:25.14,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Tell {\k18}me {\k55}please, {\k37}am {\k18}I {\k55}worth {\k37}sa{\k46}ving?
+Dialogue: 1,0:02:24.04,0:02:27.97,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k37}keshi{\k18}te {\k18}shi{\k18}ma{\k18}e{\k37}ba {\k37}ra{\k37}ku {\k18}na {\k18}no {\k13}ni
+Dialogue: 1,0:02:26.81,0:02:30.56,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ho{\k18}ho{\k37}en{\k37}de {\k18}ma{\k18}ta {\k18}i{\k18}ki{\k37}chat{\k32}ta
+Dialogue: 1,0:02:29.41,0:02:33.85,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Is {\k18}it {\k55}all {\k55}just {\k37}a {\k74}cy{\k64}cle?
+Dialogue: 1,0:02:32.74,0:02:38.29,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k55}Some{\k55}one {\k37}is {\k55}des{\k55}tined {\k37}to {\k138}fall
+Dialogue: 1,0:02:37.19,0:02:41.90,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ji{\k18}go{\k18}ku {\k18}da {\k18}to {\k19}shi{\k37}te {\k215}mo
+Dialogue: 1,0:02:40.89,0:02:47.88,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k37}E{\k37}ven {\k55}on {\k55}bro{\k37}ken {\k55}wings, {\k55}can {\k37}I {\k55}learn {\k37}how {\k18}to {\k97}fly?
+Dialogue: 1,0:02:46.81,0:02:53.89,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k37}E{\k37}ven {\k55}if {\k55}I'm {\k37}a {\k55}feast {\k55}for {\k37}the {\k74}ra{\k74}ven {\k69}sky
+Dialogue: 1,0:02:52.74,0:02:59.77,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k37}ta{\k18}to{\k18}e {\k37}ku{\k18}chi{\k18}ha{\k37}te{\k18}te {\k37}mo {\k55}da{\k37}re{\k37}ka {\k18}no {\k18}ko{\k18}do{\k18}u {\k37}ni {\k18}na{\k83}ru
+Dialogue: 1,0:02:58.67,0:03:02.53,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k37}E{\k37}ven {\k55}on {\k55}bro{\k37}ken {\k55}wings,
+Dialogue: 1,0:03:01.43,0:03:09.03,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k55}can {\k37}I {\k74}learn {\k74}to {\k74}fly {\k18}in{\k18}to {\k18}the {\k268}blue?
+Dialogue: 1,0:03:31.26,0:03:38.25,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k37}E{\k37}ven {\k55}on {\k55}bro{\k37}ken {\k55}wings, {\k55}can {\k37}I {\k55}learn {\k37}how {\k18}to {\k97}fly?
+Dialogue: 1,0:03:37.19,0:03:44.26,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k37}E{\k37}ven {\k55}if {\k55}I'm {\k37}a {\k55}feast {\k55}for {\k37}the {\k74}ra{\k74}ven {\k69}sky
+Dialogue: 1,0:03:43.11,0:03:50.14,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k37}ta{\k18}to{\k18}e {\k37}ku{\k18}chi{\k18}ha{\k37}te{\k18}te {\k37}mo {\k55}da{\k37}re{\k37}ka {\k18}no {\k18}ko{\k18}do{\k18}u {\k37}ni {\k18}na{\k83}ru
+Dialogue: 1,0:03:49.04,0:03:52.90,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k37}E{\k37}ven {\k55}on {\k55}bro{\k37}ken {\k55}wings,
+Dialogue: 1,0:03:51.80,0:03:57.41,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k55}can {\k37}I {\k74}learn {\k74}to {\k74}fly {\k18}in{\k18}to {\k18}the {\k69}blue?
