@@ -1,0 +1,93 @@
+﻿[Script Info]
+Title: The Number of the Beast
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
+LayoutResX: 0
+LayoutResY: 0
+Original Timing: gollum, Variabels
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 1,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:30.29,0:00:31.87,Sample KM [Up],,0,0,0,karaoke,{\k45}I {\k29}left {\k25}a{\k59}lone
+Comment: 1,0:00:33.41,0:00:34.89,Sample KM [Up],,0,0,0,karaoke,{\k31}My {\k35}mind {\k31}was {\k51}blank
+Comment: 1,0:00:36.51,0:00:38.60,Sample KM [Up],,0,0,0,karaoke,{\k29}I {\k32}nee{\k27}ded {\k56}time {\k33}to {\k32}think
+Comment: 1,0:00:38.79,0:00:41.54,Sample KM [Up],,0,0,0,karaoke,{\k41}To {\k33}get {\k32}the {\k21}me{\k11}mo{\k29}ries {\k30}from {\k29}my {\k49}mind
+Comment: 1,0:00:42.57,0:00:43.94,Sample KM [Up],,0,0,0,karaoke,{\k30}What {\k15}did {\k47}I {\k45}see?
+Comment: 1,0:00:45.57,0:00:47.29,Sample KM [Up],,0,0,0,karaoke,{\k20}Could {\k50}I {\k16}be{\k86}lieve?
+Comment: 1,0:00:48.64,0:00:50.90,Sample KM [Up],,0,0,0,karaoke,{\k28}That {\k15}what {\k46}I {\k49}saw {\k43}that {\k45}night
+Comment: 1,0:00:50.94,0:00:53.62,Sample KM [Up],,0,0,0,karaoke,{\k18}It {\k25}was {\k35}real {\k29}and {\k33}not {\k28}just {\k32}fan{\k16}ta{\k52}sy?
+Comment: 1,0:00:54.79,0:00:56.36,Sample KM [Up],,0,0,0,karaoke,{\k25}'Cause {\k24}in {\k37}my {\k71}dreams
+Comment: 1,0:00:57.73,0:00:59.57,Sample KM [Up],,0,0,0,karaoke,{\k36}It's {\k30}al{\k35}ways {\k83}there
+Comment: 1,0:01:00.91,0:01:03.04,Sample KM [Up],,0,0,0,karaoke,{\k15}The {\k26}e{\k23}vil {\k72}face {\k35}that {\k42}twists
+Comment: 1,0:01:03.19,0:01:06.99,Sample KM [Up],,0,0,0,karaoke,{\k38}My {\k39}mind {\k23}and {\k38}brings {\k30}me {\k13}to {\k18}de{\kf181}spair
+Comment: 1,0:01:07.62,0:01:20.90,Sample KM [Up],,0,0,0,karaoke,{\kf1321}Yeah
+Comment: 1,0:01:20.94,0:01:22.26,Sample KM [Up],,0,0,0,karaoke,{\k49}Night {\k39}was {\k44}black
+Comment: 1,0:01:22.46,0:01:24.67,Sample KM [Up],,0,0,0,karaoke,{\k30}Was {\k29}no {\k30}use {\k50}hol{\k44}ding {\k38}back
+Comment: 1,0:01:24.79,0:01:27.04,Sample KM [Up],,0,0,0,karaoke,{\k39}'Cause {\k29}I {\k25}just {\k56}had {\k38}to {\k38}see
+Comment: 1,0:01:27.27,0:01:30.00,Sample KM [Up],,0,0,0,karaoke,{\k30}Was {\k30}some{\k30}one {\k54}wat{\k41}ching {\k88}me?
+Comment: 1,0:01:30.64,0:01:31.95,Sample KM [Up],,0,0,0,karaoke,{\k42}In {\k35}the {\k54}mist
+Comment: 1,0:01:32.02,0:01:34.38,Sample KM [Up],,0,0,0,karaoke,{\k41}Dark {\k36}fi{\k16}gures {\k52}move {\k39}and {\k52}twist
+Comment: 1,0:01:34.84,0:01:36.84,Sample KM [Up],,0,0,0,karaoke,{\k33}Was {\k27}all {\k45}this {\k34}for {\k61}real
+Comment: 1,0:01:36.87,0:01:39.63,Sample KM [Up],,0,0,0,karaoke,{\k30}Or {\k32}just {\k31}some {\k65}kind {\k41}of {\k77}Hell?
+Comment: 1,0:01:40.23,0:01:41.95,Sample KM [Up],,0,0,0,karaoke,{\k83}Six, {\k36}six, {\k53}six
+Comment: 1,0:01:42.42,0:01:44.43,Sample KM [Up],,0,0,0,karaoke,{\k18}The {\k40}num{\k18}ber {\k36}of {\k18}the {\k71}beast
+Comment: 1,0:01:44.83,0:01:46.62,Sample KM [Up],,0,0,0,karaoke,{\kf99}Sa{\k23}cri{\k57}fice
+Comment: 1,0:01:47.03,0:01:49.00,Sample KM [Up],,0,0,0,karaoke,{\k22}Is {\k43}go{\k14}ing {\k43}on {\k15}to{\k60}night
+Comment: 1,0:02:07.69,0:02:09.19,Sample KM [Up],,0,0,0,karaoke,{\k27}I'm {\k16}co{\k43}ming {\k64}back
+Comment: 1,0:02:10.66,0:02:12.03,Sample KM [Up],,0,0,0,karaoke,{\k28}I {\k28}will {\k15}re{\k66}turn
+Comment: 1,0:02:13.57,0:02:14.90,Sample KM [Up],,0,0,0,karaoke,{\k30}And {\k30}I'll {\k33}pos{\k40}sess
+Comment: 1,0:02:14.92,0:02:18.78,Sample KM [Up],,0,0,0,karaoke,{\k45}Your {\k51}bo{\k38}dy {\k29}and {\k29}I'll {\k28}make {\k30}you {\kf136}burn
+Comment: 1,0:02:19.62,0:02:22.09,Sample KM [Up],,0,0,0,karaoke,{\k33}I {\k28}have {\k30}the {\k73}fi{\k83}re
+Comment: 1,0:02:22.61,0:02:24.27,Sample KM [Up],,0,0,0,karaoke,{\k30}I {\k30}have {\k29}the {\k77}force
+Comment: 1,0:02:25.59,0:02:27.78,Sample KM [Up],,0,0,0,karaoke,{\k31}I {\k28}have {\k30}the {\k16}po{\k30}wer {\k44}to {\k40}make
+Comment: 1,0:02:27.80,0:02:30.24,Sample KM [Up],,0,0,0,karaoke,{\k30}My {\k40}e{\k41}vil {\k26}take {\k34}its {\k73}course
+Comment: 0,0:02:32.18,0:02:33.90,Sample KM [Up],,0,0,0,karaoke,{\k85}Six, {\k38}six, {\k49}six
+Comment: 0,0:02:34.40,0:02:36.44,Sample KM [Up],,0,0,0,karaoke,{\k14}The {\k47}num{\k15}ber {\k41}of {\k16}the {\k71}beast
+Comment: 0,0:02:36.81,0:02:38.69,Sample KM [Up],,0,0,0,karaoke,{\kf98}Sa{\k28}cri{\k62}fice
+Comment: 0,0:02:39.02,0:02:40.97,Sample KM [Up],,0,0,0,karaoke,{\k22}Is {\k43}go{\k14}ing {\k43}on {\k15}to{\k58}night
+Dialogue: 1,0:00:29.39,0:00:32.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}I {\k29}left {\k25}a{\k59}lone
+Dialogue: 1,0:00:32.51,0:00:35.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}My {\k35}mind {\k31}was {\k51}blank
+Dialogue: 1,0:00:35.61,0:00:38.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}I {\k32}nee{\k27}ded {\k56}time {\k33}to {\k32}think
+Dialogue: 1,0:00:37.89,0:00:41.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}To {\k33}get {\k32}the {\k21}me{\k11}mo{\k29}ries {\k30}from {\k29}my {\k49}mind
+Dialogue: 1,0:00:41.67,0:00:44.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}What {\k15}did {\k47}I {\k45}see?
+Dialogue: 1,0:00:44.67,0:00:47.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Could {\k50}I {\k16}be{\k86}lieve?
+Dialogue: 1,0:00:47.74,0:00:51.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}That {\k15}what {\k46}I {\k49}saw {\k43}that {\k45}night
+Dialogue: 1,0:00:50.04,0:00:53.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}It {\k25}was {\k35}real {\k29}and {\k33}not {\k28}just {\k32}fan{\k16}ta{\k52}sy?
+Dialogue: 1,0:00:53.89,0:00:56.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}'Cause {\k24}in {\k37}my {\k71}dreams
+Dialogue: 1,0:00:56.83,0:00:59.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}It's {\k30}al{\k35}ways {\k83}there
+Dialogue: 1,0:01:00.01,0:01:03.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}The {\k26}e{\k23}vil {\k72}face {\k35}that {\k42}twists
+Dialogue: 1,0:01:02.29,0:01:07.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}My {\k39}mind {\k23}and {\k38}brings {\k30}me {\k13}to {\k18}de{\kf181}spair
+Dialogue: 1,0:01:06.72,0:01:21.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf1321}Yeah
+Dialogue: 1,0:01:20.04,0:01:22.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Night {\k39}was {\k44}black
+Dialogue: 1,0:01:21.56,0:01:24.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Was {\k29}no {\k30}use {\k50}hol{\k44}ding {\k38}back
+Dialogue: 1,0:01:23.89,0:01:27.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}'Cause {\k29}I {\k25}just {\k56}had {\k38}to {\k38}see
+Dialogue: 1,0:01:26.37,0:01:30.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Was {\k30}some{\k30}one {\k54}wat{\k41}ching {\k88}me?
+Dialogue: 1,0:01:29.74,0:01:32.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}In {\k35}the {\k54}mist
+Dialogue: 1,0:01:31.12,0:01:34.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Dark {\k36}fi{\k16}gures {\k52}move {\k39}and {\k52}twist
+Dialogue: 1,0:01:33.94,0:01:37.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Was {\k27}all {\k45}this {\k34}for {\k61}real
+Dialogue: 1,0:01:35.97,0:01:39.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Or {\k32}just {\k31}some {\k65}kind {\k41}of {\k77}Hell?
+Dialogue: 1,0:01:39.33,0:01:42.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k83}Six, {\k36}six, {\k53}six
+Dialogue: 1,0:01:41.52,0:01:44.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}The {\k40}num{\k18}ber {\k36}of {\k18}the {\k71}beast
+Dialogue: 1,0:01:43.93,0:01:46.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf99}Sa{\k23}cri{\k57}fice
+Dialogue: 1,0:01:46.13,0:01:49.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Is {\k43}go{\k14}ing {\k43}on {\k15}to{\k60}night
+Dialogue: 1,0:02:06.79,0:02:09.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}I'm {\k16}co{\k43}ming {\k64}back
+Dialogue: 1,0:02:09.76,0:02:12.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}I {\k28}will {\k15}re{\k66}turn
+Dialogue: 1,0:02:12.67,0:02:15.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}And {\k30}I'll {\k33}pos{\k40}sess
+Dialogue: 1,0:02:14.02,0:02:18.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Your {\k51}bo{\k38}dy {\k29}and {\k29}I'll {\k28}make {\k30}you {\kf136}burn
+Dialogue: 1,0:02:18.72,0:02:22.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}I {\k28}have {\k30}the {\k73}fi{\k83}re
+Dialogue: 1,0:02:21.71,0:02:24.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}I {\k30}have {\k29}the {\k77}force
+Dialogue: 1,0:02:24.69,0:02:27.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}I {\k28}have {\k30}the {\k16}po{\k30}wer {\k44}to {\k40}make
+Dialogue: 1,0:02:26.90,0:02:30.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}My {\k40}e{\k41}vil {\k26}take {\k34}its {\k73}course
+Dialogue: 1,0:02:31.28,0:02:34.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k85}Six, {\k38}six, {\k49}six
+Dialogue: 1,0:02:33.50,0:02:36.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}The {\k47}num{\k15}ber {\k41}of {\k16}the {\k71}beast
+Dialogue: 1,0:02:35.91,0:02:38.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf98}Sa{\k28}cri{\k62}fice
+Dialogue: 1,0:02:38.12,0:02:41.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Is {\k43}go{\k14}ing {\k43}on {\k15}to{\k58}night
