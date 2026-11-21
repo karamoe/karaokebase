@@ -1,0 +1,78 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+LayoutResX: 0
+LayoutResY: 0
+Title: ALiCE&u
+Original Timing: yt2ass, PJK136
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: english,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: japanese,Arial,24,&H00FFFFFF,&H00FFAB00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: indonesian,Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,english,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.68,0:00:02.90,english,,0,0,0,karaoke,{\k19}Are {\k18}my {\k37}eyes {\k37}de{\k32}ceiv{\k39}ing {\k40}me?
+Comment: 0,0:00:02.98,0:00:04.60,english,,0,0,0,karaoke,{\k20}Your {\k34}soul {\k36}starts {\k37}to {\k35}fade
+Comment: 0,0:00:04.95,0:00:08.71,english,,0,0,0,karaoke,{\k32}Un{\k36}leash {\k37}your{\k36} {\k35}ma{\k37}gic {\k35}to {\kf128}me
+Comment: 0,0:00:09.15,0:00:11.36,english,,0,0,0,karaoke,{\k19}Now {\k18}it's {\k36}time {\k35}not {\k34}to {\k37}wor{\k42}ry
+Comment: 0,0:00:11.46,0:00:13.07,english,,0,0,0,karaoke,{\k18}Do {\k36}be{\k35}lieve {\k34}in {\k38}me
+Comment: 0,0:00:13.42,0:00:17.43,english,,0,0,0,karaoke,{\k33}A {\k36}jour{\k28}ney{\k42} {\k36}we {\k38}have {\k34}to {\kf154}see
+Comment: 0,0:00:17.70,0:00:19.39,english,,0,0,0,karaoke,{\k13}Ru{\k18}ri{\k29}ra{\k37} {\k19}ra{\k20}ri{\k33}ra
+Comment: 0,0:00:19.73,0:00:21.51,english,,0,0,0,karaoke,{\k37}In{\k37}com{\k36}plete {\k17}me{\k18}lo{\k33}dy
+Comment: 0,0:00:21.92,0:00:25.77,english,,0,0,0,karaoke,{\k15}Sung {\k16}with {\k35}a {\k39}sweet {\k30}but {\k38}yet {\k35}a {\k35}sad {\k69}sym{\k35}pho{\k38}ny
+Comment: 0,0:00:26.10,0:00:30.21,english,,0,0,0,karaoke,{\k17}Un{\k22}wa{\k68}ver{\k39}ing {\k66}spi{\k39}rit {\k38}that {\k31}you {\k32}told {\k59}me
+Comment: 0,0:00:30.34,0:00:34.47,english,,0,0,0,karaoke,{\k20}How {\k20}can {\k33}I{\k35} {\k16}do {\k16}it {\k38}when {\k35}you're {\k38}not {\k66}e{\k35}ven {\k61}here
+Comment: 0,0:00:34.85,0:00:38.37,english,,0,0,0,karaoke,{\k77}Oh,{\k26} {\k117}let {\kf132}me
+Comment: 0,0:00:38.62,0:00:39.89,english,,0,0,0,karaoke,{\k20}Let {\k16}out {\k18}the {\k73}words
+Comment: 0,0:00:39.89,0:00:42.72,english,,0,0,0,karaoke,{\k32}I {\k40}could {\k35}say {\k31}to {\k54}you {\k53}right {\k38}now,
+Comment: 0,0:00:42.76,0:00:47.26,english,,0,0,0,karaoke,{\k63}I {\k56}can {\k57}on{\k49}ly {\k51}tell {\k34}you{\k28} {\k42}a {\k70}bit
+Comment: 0,0:00:47.26,0:00:51.46,english,,0,0,0,karaoke,{\k20}O{\k18}ver{\k69}whelm {\k16}me {\k19}with {\k69}your {\k26}kind{\k20}ness {\k45}is {\k52}a {\k66}GIFT
+Comment: 0,0:00:51.46,0:00:55.53,english,,0,0,0,karaoke,{\k23}that {\k17}I {\k34}could {\k21}ne{\k32}ver {\k19}e{\k36}ver {\k41}trade {\k30}with {\k52}a{\k51}ny{\k51}thing
+Comment: 0,0:00:55.70,0:00:58.67,english,,0,0,0,karaoke,{\k23}Let {\k17}the {\k71}time {\k36}send {\k30}this {\k40}song {\k11}to {\k30}your {\k39}ears
+Comment: 0,0:00:58.71,0:01:03.99,english,,0,0,0,karaoke,{\k56}I {\k51}hope {\k53}one {\k56}day {\k52}you {\k60}will {\k48}sing {\k68}it {\k41}to {\k43}me
+Comment: 0,0:01:04.21,0:01:10.73,english,,0,0,0,karaoke,{\k18}Ver{\k22}sa{\k67}tile {\k16}me{\k19}lo{\k67}dy {\k20}that {\k17}I {\k56}tried {\k52}to {\kf298}write
+Comment: 0,0:01:11.16,0:01:13.37,english,,0,0,0,karaoke,{\k20}Eve{\k19}ry {\k35}day {\k21}I {\k36}will {\k18}sing {\k25}it {\k13}a{\k34}loud,
+Comment: 0,0:01:13.37,0:01:18.51,english,,0,0,0,karaoke,{\k33}And {\k53}I {\k50}will {\k56}try {\k58}to {\kf264}shine
+Comment: 0,0:01:18.97,0:01:23.23,japanese,,0,0,0,karaoke,{\k34}ko{\k35}no {\k36}ko{\k52}e {\kf107}wo {\k55}kii{\kf107}te
+Comment: 0,0:01:23.94,0:01:27.85,indonesian,,0,0,0,karaoke,{\k17}Te{\k17}ri{\kf111}ma{\k32} {\k38}ka{\k12}sih {\k20}un{\k37}tuk {\k33}se{\k35}mu{\k39}a
+Comment: 0,0:01:28.01,0:01:35.04,indonesian,,0,0,0,karaoke,{\k51}per{\k53}ha{\k48}ti{\k52}an {\k60}yang {\k48}te{\k56}lah {\k32}ku{\k38}te{\k33}ri{\kf232}ma
+Comment: 0,0:01:35.94,0:01:37.94,english,,0,0,0,karaoke,{\k36}As {\k35}gen{\k34}tle {\k53}breeze {\k42}passed
+Comment: 0,0:01:38.05,0:01:40.88,english,,0,0,0,karaoke,{\k53}Through {\k51}your {\k72}soul {\k36}this {\k71}time
+Comment: 0,0:01:40.88,0:01:47.42,english,,0,0,0,karaoke,{\k17}I {\k27}be{\k82}lieve,{\k50} {\k35}eve{\k16}ry{\k20}thing {\k49}will {\k57}be {\kf301}fine
+Comment: 0,0:01:47.86,0:01:50.06,english,,0,0,0,karaoke,{\k25}Eve{\k19}ry {\k33}day {\k23}I {\k34}would {\k15}sing {\k18}it {\k18}a{\k35}loud,
+Comment: 0,0:01:50.16,0:01:56.77,english,,0,0,0,karaoke,{\k26}This {\k49}is {\k51}my {\k54}time {\k54}to {\k427}shine
+Dialogue: 0,0:00:00.00,0:00:03.10,english,,0,0,0,fx,{\k68\fad(680,200)}{\k19}Are {\k18}my {\k37}eyes {\k37}de{\k32}ceiv{\k39}ing {\k40}me?
+Dialogue: 0,0:00:02.08,0:00:04.80,english,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Your {\k34}soul {\k36}starts {\k37}to {\k35}fade
+Dialogue: 0,0:00:04.05,0:00:08.91,english,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Un{\k36}leash {\k37}your{\k36} {\k35}ma{\k37}gic {\k35}to {\kf128}me
+Dialogue: 0,0:00:08.25,0:00:11.56,english,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Now {\k18}it's {\k36}time {\k35}not {\k34}to {\k37}wor{\k42}ry
+Dialogue: 0,0:00:10.56,0:00:13.27,english,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Do {\k36}be{\k35}lieve {\k34}in {\k38}me
+Dialogue: 0,0:00:12.52,0:00:17.63,english,,0,0,0,fx,{\k90\fad(300,200)}{\k33}A {\k36}jour{\k28}ney{\k42} {\k36}we {\k38}have {\k34}to {\kf154}see
+Dialogue: 0,0:00:16.80,0:00:19.59,english,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Ru{\k18}ri{\k29}ra{\k37} {\k19}ra{\k20}ri{\k33}ra
+Dialogue: 0,0:00:18.83,0:00:21.71,english,,0,0,0,fx,{\k90\fad(300,200)}{\k37}In{\k37}com{\k36}plete {\k17}me{\k18}lo{\k33}dy
+Dialogue: 0,0:00:21.02,0:00:25.97,english,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Sung {\k16}with {\k35}a {\k39}sweet {\k30}but {\k38}yet {\k35}a {\k35}sad {\k69}sym{\k35}pho{\k38}ny
+Dialogue: 0,0:00:25.20,0:00:30.41,english,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Un{\k22}wa{\k68}ver{\k39}ing {\k66}spi{\k39}rit {\k38}that {\k31}you {\k32}told {\k59}me
+Dialogue: 0,0:00:29.44,0:00:34.67,english,,0,0,0,fx,{\k90\fad(300,200)}{\k20}How {\k20}can {\k33}I{\k35} {\k16}do {\k16}it {\k38}when {\k35}you're {\k38}not {\k66}e{\k35}ven {\k61}here
+Dialogue: 0,0:00:33.95,0:00:38.57,english,,0,0,0,fx,{\k90\fad(300,200)}{\k77}Oh,{\k26} {\k117}let {\kf132}me
+Dialogue: 0,0:00:37.72,0:00:40.09,english,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Let {\k16}out {\k18}the {\k73}words
+Dialogue: 0,0:00:38.99,0:00:42.92,english,,0,0,0,fx,{\k90\fad(300,200)}{\k32}I {\k40}could {\k35}say {\k31}to {\k54}you {\k53}right {\k38}now,
+Dialogue: 0,0:00:41.86,0:00:47.46,english,,0,0,0,fx,{\k90\fad(300,200)}{\k63}I {\k56}can {\k57}on{\k49}ly {\k51}tell {\k34}you{\k28} {\k42}a {\k70}bit
+Dialogue: 0,0:00:46.36,0:00:51.66,english,,0,0,0,fx,{\k90\fad(300,200)}{\k20}O{\k18}ver{\k69}whelm {\k16}me {\k19}with {\k69}your {\k26}kind{\k20}ness {\k45}is {\k52}a {\k66}GIFT
+Dialogue: 0,0:00:50.56,0:00:55.73,english,,0,0,0,fx,{\k90\fad(300,200)}{\k23}that {\k17}I {\k34}could {\k21}ne{\k32}ver {\k19}e{\k36}ver {\k41}trade {\k30}with {\k52}a{\k51}ny{\k51}thing
+Dialogue: 0,0:00:54.80,0:00:58.87,english,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Let {\k17}the {\k71}time {\k36}send {\k30}this {\k40}song {\k11}to {\k30}your {\k39}ears
+Dialogue: 0,0:00:57.81,0:01:04.19,english,,0,0,0,fx,{\k90\fad(300,200)}{\k56}I {\k51}hope {\k53}one {\k56}day {\k52}you {\k60}will {\k48}sing {\k68}it {\k41}to {\k43}me
+Dialogue: 0,0:01:03.31,0:01:10.93,english,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Ver{\k22}sa{\k67}tile {\k16}me{\k19}lo{\k67}dy {\k20}that {\k17}I {\k56}tried {\k52}to {\kf298}write
+Dialogue: 0,0:01:10.26,0:01:13.57,english,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Eve{\k19}ry {\k35}day {\k21}I {\k36}will {\k18}sing {\k25}it {\k13}a{\k34}loud,
+Dialogue: 0,0:01:12.47,0:01:18.71,english,,0,0,0,fx,{\k90\fad(300,200)}{\k33}And {\k53}I {\k50}will {\k56}try {\k58}to {\kf264}shine
+Dialogue: 0,0:01:18.07,0:01:23.43,japanese,,0,0,0,fx,{\k90\fad(300,200)}{\k34}ko{\k35}no {\k36}ko{\k52}e {\kf107}wo {\k55}kii{\kf107}te
+Dialogue: 0,0:01:23.04,0:01:28.05,indonesian,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Te{\k17}ri{\kf111}ma{\k32} {\k38}ka{\k12}sih {\k20}un{\k37}tuk {\k33}se{\k35}mu{\k39}a
+Dialogue: 0,0:01:27.11,0:01:35.24,indonesian,,0,0,0,fx,{\k90\fad(300,200)}{\k51}per{\k53}ha{\k48}ti{\k52}an {\k60}yang {\k48}te{\k56}lah {\k32}ku{\k38}te{\k33}ri{\kf232}ma
+Dialogue: 0,0:01:35.04,0:01:38.14,english,,0,0,0,fx,{\k90\fad(300,200)}{\k36}As {\k35}gen{\k34}tle {\k53}breeze {\k42}passed
+Dialogue: 0,0:01:37.15,0:01:41.08,english,,0,0,0,fx,{\k90\fad(300,200)}{\k53}Through {\k51}your {\k72}soul {\k36}this {\k71}time
+Dialogue: 0,0:01:39.98,0:01:47.62,english,,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k27}be{\k82}lieve,{\k50} {\k35}eve{\k16}ry{\k20}thing {\k49}will {\k57}be {\kf301}fine
+Dialogue: 0,0:01:46.96,0:01:50.26,english,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Eve{\k19}ry {\k33}day {\k23}I {\k34}would {\k15}sing {\k18}it {\k18}a{\k35}loud,
+Dialogue: 0,0:01:49.26,0:01:56.97,english,,0,0,0,fx,{\k90\fad(300,200)}{\k26}This {\k49}is {\k51}my {\k54}time {\k54}to {\k427}shine
