@@ -1,0 +1,117 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: PC.601
+Title: Moonlight Daydream
+Original Timing: lilo3005
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Rap,Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Choir,Arial,24,&H00FFFFFF,&H0084DC3D,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Legend,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:10.00,Legend,,0,0,40,legend,{\k1000}{\k0}jen {\2c&HFFFFFF&}| {\rRap}Neptune {\2c&HFFFFFF&}| {\rChoir}Choir
+Comment: 0,0:00:20.25,0:00:22.46,Sample KM [Up],,0,0,0,karaoke,{\k15}Moon{\k106}light {\k36}pas{\k15}ses {\k49}you
+Comment: 1,0:00:22.77,0:00:24.53,Sample KM [Up],,0,0,0,karaoke,{\k36}Fades {\k28}it {\k31}all {\k21}from {\k60}view
+Comment: 2,0:00:25.24,0:00:27.37,Sample KM [Up],,0,0,0,karaoke,{\k22}All {\k109}that {\k32}mid{\k15}night {\k35}blue
+Comment: 3,0:00:27.37,0:00:29.48,Sample KM [Up],,0,0,0,karaoke,{\k14}Be{\k18}comes {\k12}a {\k32}me{\k32}mo{\k18}ry {\k30}of {\k55}you
+Comment: 4,0:00:30.38,0:00:32.51,Sample KM [Up],,0,0,0,karaoke,{\k0}Your {\k15}sha{\k107}dow {\k33}on {\k15}the {\k43}wall
+Comment: 5,0:00:32.71,0:00:34.64,Sample KM [Up],,0,0,0,karaoke,{\k16}A {\k31}per{\k16}son {\k19}I {\k19}can't {\k23}re{\k69}call
+Comment: 6,0:00:35.24,0:00:37.59,Sample KM [Up],,0,0,0,karaoke,{\k15}The {\k32}masks {\k16}you {\k66}wear {\k13}be{\k32}come {\k15}your {\k46}face
+Comment: 7,0:00:37.61,0:00:40.35,Sample KM [Up],,0,0,0,karaoke,{\k14}And {\k17}your {\k32}me{\k32}mo{\k20}ries {\k27}e{\k132}rase
+Comment: 8,0:00:40.29,0:00:41.72,Rap,,0,0,0,karaoke,{\k20}I {\k17}seen {\k18}it {\k23}your {\k12}face, {\k16}tran{\k17}quil{\k7}li{\k13}ty
+Comment: 9,0:00:41.72,0:00:42.98,Rap,,0,0,0,karaoke,{\k16}Pull'n {\k6}it {\k22}out {\k21}like {\k9}some {\k17}for{\k14}ma{\k8}li{\k13}ty
+Comment: 10,0:00:42.98,0:00:44.25,Rap,,0,0,0,karaoke,{\k13}I {\k19}don't {\k11}wan{\k20}na {\k12}feel {\k22}your {\k7}sym{\k7}pa{\k16}thy
+Comment: 11,0:00:44.25,0:00:45.48,Rap,,0,0,0,karaoke,{\k13}I'm {\k18}al{\k16}rea{\k15}dy {\k15}fee{\k17}ling {\k13}sick{\k16}ly
+Comment: 12,0:00:45.48,0:00:46.65,Rap,,0,0,0,karaoke,{\k16}Things {\k13}go {\k18}dark, {\k21}it's {\k10}hard {\k16}to {\k23}breathe
+Comment: 13,0:00:46.76,0:00:48.02,Rap,,0,0,0,karaoke,{\k32}Fall'n {\k14}like {\k18}those {\k16}au{\k14}tumn {\k32}leaves
+Comment: 14,0:00:48.02,0:00:49.25,Rap,,0,0,0,karaoke,{\k16}I {\k10}can {\k8}ba{\k7}re{\k16}ly {\k20}stand {\k14}to {\k32}see
+Comment: 15,0:00:49.25,0:00:50.35,Rap,,0,0,0,karaoke,{\k14}Wha{\k8}te{\k23}ver {\k11}is {\k21}left {\k15}of {\k18}me
+Comment: 16,0:00:50.27,0:00:52.50,Sample KM [Up],,0,0,0,karaoke,{\k26}The {\k52}Moon {\k45}is {\k64}fa{\k36}ding
+Comment: 17,0:00:52.77,0:00:54.98,Sample KM [Up],,0,0,0,karaoke,{\k13}In{\k17}to {\k32}twi{\k58}light {\k101}skies
+Comment: 18,0:00:55.29,0:00:57.77,Sample KM [Up],,0,0,0,karaoke,{\k32}Oh {\k63}God, {\k49}please {\k48}an{\k29}swer {\k27}me
+Comment: 19,0:00:57.82,0:00:59.74,Sample KM [Up],,0,0,0,karaoke,{\k14}Do {\k17}I {\k63}have {\k44}more {\k54}time?
+Comment: 20,0:00:59.74,0:01:02.67,Sample KM [Up],,0,0,0,karaoke,{\k28}And {\k32}in {\k32}this {\k46}moon{\k48}light {\k63}day{\k44}dream
+Comment: 21,0:01:02.87,0:01:04.63,Sample KM [Up],,0,0,0,karaoke,{\k23}Where {\k9}I {\k50}can't {\k39}find {\k55}light
+Comment: 22,0:01:04.76,0:01:07.34,Sample KM [Up],,0,0,0,karaoke,{\k36}Your {\k28}sha{\k31}dow {\k19}beck{\k16}ons {\kf128}me
+Comment: 23,0:01:07.26,0:01:10.27,Choir,,0,0,0,karaoke,{\k47}Won't {\k30}you {\kf125}let {\k99}me?
+Comment: 24,0:01:10.79,0:01:14.88,Sample KM [Up],,0,0,0,karaoke,{\k92}In{\k94}side, {\k32}all {\k31}this {\k51}pain {\k44}I {\k65}hide
+Comment: 25,0:01:14.88,0:01:17.03,Sample KM [Up],,0,0,0,karaoke,{\k30}I {\k64}couldn't {\k121}feel
+Comment: 26,0:01:17.39,0:01:19.27,Sample KM [Up],,0,0,0,karaoke,{\k48}Why {\k47}can't {\k93}I
+Comment: 27,0:01:19.29,0:01:24.50,Sample KM [Up],,0,0,0,karaoke,{\k32}Be{\k62}lieve {\k160}my {\kf267}lie?
+Comment: 28,0:01:40.84,0:01:43.04,Sample KM [Up],,0,0,0,karaoke,{\k23}The {\k55}Moon {\k48}is {\k57}fa{\k37}ding
+Comment: 29,0:01:43.28,0:01:45.56,Sample KM [Up],,0,0,0,karaoke,{\k18}In{\k17}to {\k41}twi{\k49}light {\kf103}skies
+Comment: 30,0:01:45.85,0:01:48.32,Sample KM [Up],,0,0,0,karaoke,{\k30}Oh {\k61}God, {\k53}please {\k47}an{\k31}swer {\k25}me
+Comment: 31,0:01:48.35,0:01:50.32,Sample KM [Up],,0,0,0,karaoke,{\k20}Do {\k18}I {\k59}have {\k45}more {\k55}time?
+Comment: 32,0:01:50.32,0:01:53.20,Sample KM [Up],,0,0,0,karaoke,{\k29}And {\k32}in {\k33}this {\k39}moon{\k54}light {\k64}day{\k37}dream
+Comment: 33,0:01:53.44,0:01:55.19,Sample KM [Up],,0,0,0,karaoke,{\k16}Where {\k13}I {\k52}can't {\k41}find {\k53}light
+Comment: 34,0:01:55.29,0:01:57.81,Sample KM [Up],,0,0,0,karaoke,{\k39}Your {\k30}sha{\k24}dow {\k25}beck{\k25}ons {\kf109}me
+Comment: 35,0:01:57.74,0:02:00.72,Choir,,0,0,0,karaoke,{\k55}Won't {\k30}you {\kf128}let {\k85}me?
+Comment: 36,0:02:26.25,0:02:28.50,Sample KM [Up],,0,0,0,karaoke,{\k30}The {\k52}Moon {\k41}is {\k65}fa{\k37}ding
+Comment: 37,0:02:28.77,0:02:30.97,Sample KM [Up],,0,0,0,karaoke,{\k12}In{\k17}to {\k33}twi{\k57}light {\k101}skies
+Comment: 38,0:02:31.29,0:02:33.78,Sample KM [Up],,0,0,0,karaoke,{\k31}Oh {\k62}God, {\k50}please {\k46}an{\k33}swer {\k27}me
+Comment: 39,0:02:33.82,0:02:35.71,Sample KM [Up],,0,0,0,karaoke,{\k13}Do {\k24}I {\k57}have {\k44}more {\k54}time?
+Comment: 40,0:02:35.71,0:02:38.67,Sample KM [Up],,0,0,0,karaoke,{\k31}And {\k32}in {\k31}this {\k45}moon{\k50}light {\k64}day{\k43}dream
+Comment: 41,0:02:38.87,0:02:40.63,Sample KM [Up],,0,0,0,karaoke,{\k19}Where {\k11}I {\k51}can't {\k45}find {\k50}light
+Comment: 42,0:02:40.76,0:02:43.28,Sample KM [Up],,0,0,0,karaoke,{\k36}Your {\k28}sha{\k31}dow {\k19}beck{\k22}ons {\kf116}me
+Comment: 43,0:02:43.28,0:02:46.25,Choir,,0,0,0,karaoke,{\k46}Won't {\k30}you {\kf124}let {\k97}me?
+Comment: 44,0:02:46.80,0:02:50.87,Sample KM [Up],,0,0,0,karaoke,{\k91}In{\k94}side, {\k32}all {\k35}this {\k46}pain {\k43}I {\k66}hide
+Comment: 45,0:02:50.87,0:02:53.02,Sample KM [Up],,0,0,0,karaoke,{\k27}I {\k67}couldn't {\kf121}feel
+Comment: 46,0:02:53.40,0:02:55.29,Sample KM [Up],,0,0,0,karaoke,{\k47}Why {\k47}can't {\k95}I
+Comment: 47,0:02:55.30,0:03:00.37,Sample KM [Up],,0,0,0,karaoke,{\k31}Be{\k63}lieve {\k158}my {\kf255}lie?
+Dialogue: 0,0:00:19.35,0:00:22.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Moon{\k106}light {\k36}pas{\k15}ses {\k49}you
+Dialogue: 0,0:00:21.87,0:00:24.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Fades {\k28}it {\k31}all {\k21}from {\k60}view
+Dialogue: 0,0:00:24.34,0:00:27.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}All {\k109}that {\k32}mid{\k15}night {\k35}blue
+Dialogue: 0,0:00:26.47,0:00:29.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Be{\k18}comes {\k12}a {\k32}me{\k32}mo{\k18}ry {\k30}of {\k55}you
+Dialogue: 0,0:00:29.48,0:00:32.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k0}Your {\k15}sha{\k107}dow {\k33}on {\k15}the {\k43}wall
+Dialogue: 0,0:00:31.81,0:00:34.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}A {\k31}per{\k16}son {\k19}I {\k19}can't {\k23}re{\k69}call
+Dialogue: 0,0:00:34.34,0:00:37.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}The {\k32}masks {\k16}you {\k66}wear {\k13}be{\k32}come {\k15}your {\k46}face
+Dialogue: 0,0:00:36.71,0:00:40.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}And {\k17}your {\k32}me{\k32}mo{\k20}ries {\k27}e{\k132}rase
+Dialogue: 0,0:00:39.39,0:00:41.92,Rap,,0,0,0,fx,{\k90\fad(300,200)}{\k20}I {\k17}seen {\k18}it {\k23}your {\k12}face, {\k16}tran{\k17}quil{\k7}li{\k13}ty
+Dialogue: 0,0:00:40.82,0:00:43.18,Rap,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Pull'n {\k6}it {\k22}out {\k21}like {\k9}some {\k17}for{\k14}ma{\k8}li{\k13}ty
+Dialogue: 0,0:00:42.08,0:00:44.45,Rap,,0,0,0,fx,{\k90\fad(300,200)}{\k13}I {\k19}don't {\k11}wan{\k20}na {\k12}feel {\k22}your {\k7}sym{\k7}pa{\k16}thy
+Dialogue: 0,0:00:43.35,0:00:45.68,Rap,,0,0,0,fx,{\k90\fad(300,200)}{\k13}I'm {\k18}al{\k16}rea{\k15}dy {\k15}fee{\k17}ling {\k13}sick{\k16}ly
+Dialogue: 0,0:00:44.58,0:00:46.85,Rap,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Things {\k13}go {\k18}dark, {\k21}it's {\k10}hard {\k16}to {\k23}breathe
+Dialogue: 0,0:00:45.86,0:00:48.22,Rap,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Fall'n {\k14}like {\k18}those {\k16}au{\k14}tumn {\k32}leaves
+Dialogue: 0,0:00:47.12,0:00:49.45,Rap,,0,0,0,fx,{\k90\fad(300,200)}{\k16}I {\k10}can {\k8}ba{\k7}re{\k16}ly {\k20}stand {\k14}to {\k32}see
+Dialogue: 0,0:00:48.35,0:00:50.55,Rap,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Wha{\k8}te{\k23}ver {\k11}is {\k21}left {\k15}of {\k18}me
+Dialogue: 0,0:00:49.37,0:00:52.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}The {\k52}Moon {\k45}is {\k64}fa{\k36}ding
+Dialogue: 0,0:00:51.87,0:00:55.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}In{\k17}to {\k32}twi{\k58}light {\k101}skies
+Dialogue: 0,0:00:54.39,0:00:57.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Oh {\k63}God, {\k49}please {\k48}an{\k29}swer {\k27}me
+Dialogue: 0,0:00:56.92,0:00:59.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Do {\k17}I {\k63}have {\k44}more {\k54}time?
+Dialogue: 0,0:00:58.84,0:01:02.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}And {\k32}in {\k32}this {\k46}moon{\k48}light {\k63}day{\k44}dream
+Dialogue: 0,0:01:01.97,0:01:04.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Where {\k9}I {\k50}can't {\k39}find {\k55}light
+Dialogue: 0,0:01:03.86,0:01:07.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Your {\k28}sha{\k31}dow {\k19}beck{\k16}ons {\kf128}me
+Dialogue: 0,0:01:06.36,0:01:10.47,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k47}Won't {\k30}you {\kf125}let {\k99}me?
+Dialogue: 0,0:01:09.89,0:01:15.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k92}In{\k94}side, {\k32}all {\k31}this {\k51}pain {\k44}I {\k65}hide
+Dialogue: 0,0:01:13.98,0:01:17.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}I {\k64}couldn't {\k121}feel
+Dialogue: 0,0:01:16.49,0:01:19.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Why {\k47}can't {\k93}I
+Dialogue: 0,0:01:18.39,0:01:24.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Be{\k62}lieve {\k160}my {\kf267}lie?
+Dialogue: 0,0:01:39.94,0:01:43.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}The {\k55}Moon {\k48}is {\k57}fa{\k37}ding
+Dialogue: 0,0:01:42.38,0:01:45.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}In{\k17}to {\k41}twi{\k49}light {\kf103}skies
+Dialogue: 0,0:01:44.95,0:01:48.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Oh {\k61}God, {\k53}please {\k47}an{\k31}swer {\k25}me
+Dialogue: 0,0:01:47.45,0:01:50.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Do {\k18}I {\k59}have {\k45}more {\k55}time?
+Dialogue: 0,0:01:49.42,0:01:53.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}And {\k32}in {\k33}this {\k39}moon{\k54}light {\k64}day{\k37}dream
+Dialogue: 0,0:01:52.54,0:01:55.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Where {\k13}I {\k52}can't {\k41}find {\k53}light
+Dialogue: 0,0:01:54.39,0:01:58.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Your {\k30}sha{\k24}dow {\k25}beck{\k25}ons {\kf109}me
+Dialogue: 0,0:01:56.84,0:02:00.92,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k55}Won't {\k30}you {\kf128}let {\k85}me?
+Dialogue: 0,0:02:25.35,0:02:28.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}The {\k52}Moon {\k41}is {\k65}fa{\k37}ding
+Dialogue: 0,0:02:27.87,0:02:31.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}In{\k17}to {\k33}twi{\k57}light {\k101}skies
+Dialogue: 0,0:02:30.39,0:02:33.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Oh {\k62}God, {\k50}please {\k46}an{\k33}swer {\k27}me
+Dialogue: 0,0:02:32.92,0:02:35.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Do {\k24}I {\k57}have {\k44}more {\k54}time?
+Dialogue: 0,0:02:34.81,0:02:38.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}And {\k32}in {\k31}this {\k45}moon{\k50}light {\k64}day{\k43}dream
+Dialogue: 0,0:02:37.97,0:02:40.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Where {\k11}I {\k51}can't {\k45}find {\k50}light
+Dialogue: 0,0:02:39.86,0:02:43.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Your {\k28}sha{\k31}dow {\k19}beck{\k22}ons {\kf116}me
+Dialogue: 0,0:02:42.38,0:02:46.45,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k46}Won't {\k30}you {\kf124}let {\k97}me?
+Dialogue: 0,0:02:45.90,0:02:51.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k91}In{\k94}side, {\k32}all {\k35}this {\k46}pain {\k43}I {\k66}hide
+Dialogue: 0,0:02:49.97,0:02:53.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}I {\k67}couldn't {\kf121}feel
+Dialogue: 0,0:02:52.50,0:02:55.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Why {\k47}can't {\k95}I
+Dialogue: 0,0:02:54.40,0:03:00.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Be{\k63}lieve {\k158}my {\kf255}lie?
