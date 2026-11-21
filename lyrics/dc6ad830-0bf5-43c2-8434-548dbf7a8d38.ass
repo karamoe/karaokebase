@@ -1,0 +1,95 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Can You Feel My Heart
+Original Timing: NikoNikoD
+LayoutResX: 0
+LayoutResY: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:30.52,0:00:33.05,Sample KM [Up],,0,0,0,karaoke,{\k40}Can {\k24}you {\k36}hear {\k34}the {\k42}si{\k77}lence?
+Comment: 0,0:00:34.23,0:00:37.14,Sample KM [Up],,0,0,0,karaoke,{\k45}Can {\k26}you {\k42}see {\k26}the {\kf152}dark?
+Comment: 0,0:00:37.96,0:00:40.57,Sample KM [Up],,0,0,0,karaoke,{\k45}Can {\k27}you {\k28}fix {\k43}the {\k65}bro{\k53}ken?
+Comment: 0,0:00:41.74,0:00:47.80,Sample KM [Up],,0,0,0,karaoke,{\k45}Can {\k51}you {\k87}feel {\k45}can {\k48}you {\k49}feel {\k27}my {\kf254}heart?
+Comment: 0,0:01:00.55,0:01:03.02,Sample KM [Up],,0,0,0,karaoke,{\k38}Can {\k20}you {\k45}help {\k30}the {\k42}hope{\k72}less?
+Comment: 0,0:01:03.72,0:01:07.32,Sample KM [Up],,0,0,0,karaoke,{\k34}Well {\k22}I'm {\k34}beg{\k39}ging {\k38}on {\k27}my {\kf166}knees
+Comment: 0,0:01:08.05,0:01:11.10,Sample KM [Up],,0,0,0,karaoke,{\k37}Can {\k29}you {\k52}save {\k64}my {\k42}bas{\k30}tard {\k51}soul?
+Comment: 0,0:01:11.76,0:01:15.25,Sample KM [Up],,0,0,0,karaoke,{\k39}Will {\k34}you {\k33}wait {\k38}for {\kf205}me?
+Comment: 0,0:01:14.85,0:01:18.18,Sample KM [Up],,0,0,0,karaoke,{\k23}I'm {\k25}sor{\k23}ry {\k36}bro{\k76}thers, {\k25}so {\k29}sor{\k24}ry {\k33}lo{\k39}ver
+Comment: 0,0:01:18.55,0:01:22.32,Sample KM [Up],,0,0,0,karaoke,{\k28}For{\k25}give {\k20}me {\k41}fa{\k77}ther, {\k25}I {\k23}love {\k24}you {\k33}mo{\k81}ther
+Comment: 0,0:01:23.03,0:01:24.74,Sample KM [Up],,0,0,0,karaoke,{\k29}Can {\k14}you {\k19}hear {\k31}the {\k31}si{\k47}lence?
+Comment: 0,0:01:24.91,0:01:26.48,Sample KM [Up],,0,0,0,karaoke,{\k25}Can {\k18}you {\k22}see {\k23}the {\k69}dark?
+Comment: 0,0:01:26.82,0:01:28.59,Sample KM [Up],,0,0,0,karaoke,{\k26}Can {\k20}you {\k20}fix {\k24}the {\k47}bro{\k40}ken?
+Comment: 0,0:01:28.59,0:01:32.82,Sample KM [Up],,0,0,0,karaoke,{\k47}Can {\k43}you {\k50}feel {\k30}my {\kf253}heart?
+Comment: 0,0:01:36.09,0:01:40.29,Sample KM [Up],,0,0,0,karaoke,{\k49}Can {\k48}you {\k54}feel {\k22}my {\kf247}heart?
+Comment: 0,0:02:15.31,0:02:17.16,Sample KM [Up],,0,0,0,karaoke,{\k21}I'm {\k36}scared {\k30}to {\k27}get {\k71}close
+Comment: 0,0:02:17.16,0:02:19.04,Sample KM [Up],,0,0,0,karaoke,{\k8}And {\k19}I {\k35}hate {\k19}be{\k18}ing {\k21}a{\k68}lone
+Comment: 0,0:02:19.04,0:02:22.84,Sample KM [Up],,0,0,0,karaoke,{\k24}I {\k35}long {\k36}for {\k25}that {\k34}fee{\k30}ling {\k26}to {\k36}not {\k33}feel {\k29}at {\k72}all
+Comment: 0,0:02:22.84,0:02:26.36,Sample KM [Up],,0,0,0,karaoke,{\k21}The {\k34}high{\k29}er {\k27}I {\k70}get {\k24}the {\k40}low{\k29}er {\k21}I'll {\k57}sink
+Comment: 0,0:02:26.56,0:02:28.41,Sample KM [Up],,0,0,0,karaoke,{\k19}I {\k35}can't {\k37}drown {\k26}my {\k35}de{\k33}mons
+Comment: 0,0:02:28.41,0:02:30.30,Sample KM [Up],,0,0,0,karaoke,{\k23}They {\k38}know {\k32}how {\k23}to {\k73}swim
+Comment: 0,0:02:30.30,0:02:32.11,Sample KM [Up],,0,0,0,karaoke,{\k21}I'm {\k37}scared {\k29}to {\k27}get {\k67}close
+Comment: 0,0:02:32.11,0:02:34.06,Sample KM [Up],,0,0,0,karaoke,{\k11}And {\k24}I {\k30}hate {\k19}be{\k19}ing {\k23}a{\k69}lone
+Comment: 0,0:02:34.06,0:02:37.75,Sample KM [Up],,0,0,0,karaoke,{\k24}I {\k30}long {\k36}for {\k24}that {\k37}fee{\k29}ling {\k27}to {\k38}not {\k37}feel {\k22}at {\k65}all
+Comment: 0,0:02:37.75,0:02:41.55,Sample KM [Up],,0,0,0,karaoke,{\k21}The {\k44}high{\k30}er {\k23}I {\k75}get {\k22}the {\k35}low{\k23}er {\k30}I'll {\k77}sink
+Comment: 0,0:02:41.55,0:02:43.47,Sample KM [Up],,0,0,0,karaoke,{\k23}I {\k34}can't {\k36}drown {\k23}my {\k36}de{\k40}mons
+Comment: 0,0:02:43.47,0:02:45.31,Sample KM [Up],,0,0,0,karaoke,{\k20}They {\k36}know {\k35}how {\k23}to {\k70}swim
+Comment: 0,0:02:45.31,0:02:47.19,Sample KM [Up],,0,0,0,karaoke,{\k22}I'm {\k35}scared {\k31}to {\k27}get {\k73}close
+Comment: 0,0:02:47.19,0:02:49.04,Sample KM [Up],,0,0,0,karaoke,{\k12}And {\k22}I {\k26}hate {\k17}be{\k18}ing {\k24}a{\k66}lone
+Comment: 0,0:02:49.04,0:02:52.59,Sample KM [Up],,0,0,0,karaoke,{\k25}I {\k29}long {\k41}for {\k27}that {\k30}fee{\k35}ling {\k24}to {\k37}not {\k34}feel {\k24}at {\k49}all
+Comment: 0,0:02:52.59,0:02:56.56,Sample KM [Up],,0,0,0,karaoke,{\k25}The {\k52}high{\k23}er {\k38}I {\k67}get {\k27}the {\k38}low{\k21}er {\k28}I'll {\k78}sink
+Comment: 0,0:02:56.56,0:02:58.43,Sample KM [Up],,0,0,0,karaoke,{\k22}I {\k37}can't {\k36}drown {\k24}my {\k35}de{\k33}mons
+Comment: 0,0:02:58.43,0:03:00.55,Sample KM [Up],,0,0,0,karaoke,{\k25}They {\k38}know {\k34}how {\k21}to {\k94}swim
+Comment: 0,0:03:17.42,0:03:21.11,Sample KM [Choir],,0,0,0,karaoke,{\k50}Can {\k44}you {\k48}feel {\k24}my {\kf203}heart?
+Comment: 0,0:03:19.24,0:03:21.66,Sample KM [Up],,0,0,0,karaoke,{\k35}Can {\k30}you {\k22}hear {\k36}the {\k45}si{\k74}lence?
+Comment: 0,0:03:22.96,0:03:26.14,Sample KM [Up],,0,0,0,karaoke,{\k38}Can {\k24}you {\k31}see {\k29}the {\kf196}dark?
+Comment: 0,0:03:26.72,0:03:29.18,Sample KM [Up],,0,0,0,karaoke,{\k39}Can {\k24}you {\k31}fix {\k32}the {\k60}bro{\k60}ken?
+Comment: 0,0:03:30.52,0:03:36.46,Sample KM [Up],,0,0,0,karaoke,{\k47}Can {\k54}you {\k86}feel {\k48}can {\k53}you {\k44}feel {\k26}my {\kf236}heart?
+Dialogue: 0,0:00:29.62,0:00:33.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Can {\k24}you {\k36}hear {\k34}the {\k42}si{\k77}lence?
+Dialogue: 0,0:00:33.33,0:00:37.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Can {\k26}you {\k42}see {\k26}the {\kf152}dark?
+Dialogue: 0,0:00:37.06,0:00:40.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Can {\k27}you {\k28}fix {\k43}the {\k65}bro{\k53}ken?
+Dialogue: 0,0:00:40.84,0:00:48.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Can {\k51}you {\k87}feel {\k45}can {\k48}you {\k49}feel {\k27}my {\kf254}heart?
+Dialogue: 0,0:00:59.65,0:01:03.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Can {\k20}you {\k45}help {\k30}the {\k42}hope{\k72}less?
+Dialogue: 0,0:01:02.82,0:01:07.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Well {\k22}I'm {\k34}beg{\k39}ging {\k38}on {\k27}my {\kf166}knees
+Dialogue: 0,0:01:07.15,0:01:11.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Can {\k29}you {\k52}save {\k64}my {\k42}bas{\k30}tard {\k51}soul?
+Dialogue: 0,0:01:10.86,0:01:15.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Will {\k34}you {\k33}wait {\k38}for {\kf205}me?
+Dialogue: 0,0:01:13.95,0:01:18.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I'm {\k25}sor{\k23}ry {\k36}bro{\k76}thers, {\k25}so {\k29}sor{\k24}ry {\k33}lo{\k39}ver
+Dialogue: 0,0:01:17.65,0:01:22.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}For{\k25}give {\k20}me {\k41}fa{\k77}ther, {\k25}I {\k23}love {\k24}you {\k33}mo{\k81}ther
+Dialogue: 0,0:01:22.13,0:01:24.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Can {\k14}you {\k19}hear {\k31}the {\k31}si{\k47}lence?
+Dialogue: 0,0:01:24.01,0:01:26.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Can {\k18}you {\k22}see {\k23}the {\k69}dark?
+Dialogue: 0,0:01:25.92,0:01:28.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Can {\k20}you {\k20}fix {\k24}the {\k47}bro{\k40}ken?
+Dialogue: 0,0:01:27.69,0:01:33.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Can {\k43}you {\k50}feel {\k30}my {\kf253}heart?
+Dialogue: 0,0:01:35.19,0:01:40.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Can {\k48}you {\k54}feel {\k22}my {\kf247}heart?
+Dialogue: 0,0:02:14.41,0:02:17.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}I'm {\k36}scared {\k30}to {\k27}get {\k71}close
+Dialogue: 0,0:02:16.26,0:02:19.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k8}And {\k19}I {\k35}hate {\k19}be{\k18}ing {\k21}a{\k68}lone
+Dialogue: 0,0:02:18.14,0:02:23.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k35}long {\k36}for {\k25}that {\k34}fee{\k30}ling {\k26}to {\k36}not {\k33}feel {\k29}at {\k72}all
+Dialogue: 0,0:02:21.94,0:02:26.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}The {\k34}high{\k29}er {\k27}I {\k70}get {\k24}the {\k40}low{\k29}er {\k21}I'll {\k57}sink
+Dialogue: 0,0:02:25.66,0:02:28.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k35}can't {\k37}drown {\k26}my {\k35}de{\k33}mons
+Dialogue: 0,0:02:27.51,0:02:30.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}They {\k38}know {\k32}how {\k23}to {\k73}swim
+Dialogue: 0,0:02:29.40,0:02:32.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}I'm {\k37}scared {\k29}to {\k27}get {\k67}close
+Dialogue: 0,0:02:31.21,0:02:34.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}And {\k24}I {\k30}hate {\k19}be{\k19}ing {\k23}a{\k69}lone
+Dialogue: 0,0:02:33.16,0:02:37.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k30}long {\k36}for {\k24}that {\k37}fee{\k29}ling {\k27}to {\k38}not {\k37}feel {\k22}at {\k65}all
+Dialogue: 0,0:02:36.85,0:02:41.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}The {\k44}high{\k30}er {\k23}I {\k75}get {\k22}the {\k35}low{\k23}er {\k30}I'll {\k77}sink
+Dialogue: 0,0:02:40.65,0:02:43.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k34}can't {\k36}drown {\k23}my {\k36}de{\k40}mons
+Dialogue: 0,0:02:42.57,0:02:45.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}They {\k36}know {\k35}how {\k23}to {\k70}swim
+Dialogue: 0,0:02:44.41,0:02:47.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}I'm {\k35}scared {\k31}to {\k27}get {\k73}close
+Dialogue: 0,0:02:46.29,0:02:49.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}And {\k22}I {\k26}hate {\k17}be{\k18}ing {\k24}a{\k66}lone
+Dialogue: 0,0:02:48.14,0:02:52.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k29}long {\k41}for {\k27}that {\k30}fee{\k35}ling {\k24}to {\k37}not {\k34}feel {\k24}at {\k49}all
+Dialogue: 0,0:02:51.69,0:02:56.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}The {\k52}high{\k23}er {\k38}I {\k67}get {\k27}the {\k38}low{\k21}er {\k28}I'll {\k78}sink
+Dialogue: 0,0:02:55.66,0:02:58.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k37}can't {\k36}drown {\k24}my {\k35}de{\k33}mons
+Dialogue: 0,0:02:57.53,0:03:00.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}They {\k38}know {\k34}how {\k21}to {\k94}swim
+Dialogue: 0,0:03:16.52,0:03:21.31,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Can {\k44}you {\k48}feel {\k24}my {\kf203}heart?
+Dialogue: 0,0:03:18.34,0:03:21.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Can {\k30}you {\k22}hear {\k36}the {\k45}si{\k74}lence?
+Dialogue: 0,0:03:22.06,0:03:26.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Can {\k24}you {\k31}see {\k29}the {\kf196}dark?
+Dialogue: 0,0:03:25.82,0:03:29.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Can {\k24}you {\k31}fix {\k32}the {\k60}bro{\k60}ken?
+Dialogue: 0,0:03:29.62,0:03:36.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Can {\k54}you {\k86}feel {\k48}can {\k53}you {\k44}feel {\k26}my {\kf236}heart?
