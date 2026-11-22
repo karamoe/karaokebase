@@ -1,0 +1,65 @@
+﻿[Script Info]
+Title: Yellow Moon
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+Original Timing: Gilrael
+YCbCr Matrix: TV.601
+PlayResX: 0
+PlayResY: 0
+LayoutResX: 0
+LayoutResY: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,5,5,15,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 1,0:00:00.40,0:00:00.40,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:06.45,0:00:08.63,Default,,0,0,0,karaoke,{\k21}ki{\k44}nou {\k20}wa {\k45}CA{\k17}LL {\k71}SIGN
+Comment: 1,0:00:09.02,0:00:10.82,Default,,0,0,0,karaoke,{\k24}zen{\k41}bu {\k42}kei{\k44}tai {\k29}de
+Comment: 1,0:00:13.29,0:00:15.38,Default,,0,0,0,karaoke,{\k22}no{\k23}re{\k39}nai {\k48}FUZZ {\k22}GUI{\k55}TAR
+Comment: 1,0:00:15.88,0:00:17.74,Default,,0,0,0,karaoke,{\k22}hen {\k44}na {\k41}kou{\k43}en {\k36}de
+Comment: 1,0:00:32.15,0:00:33.53,Default,,0,0,0,karaoke,{\k25}YEL{\k61}LOW {\k52}MOON
+Comment: 1,0:00:33.90,0:00:36.38,Default,,0,0,0,karaoke,{\k19}i{\k64}ma {\k86}mo {\k79}mitts'
+Comment: 1,0:00:36.44,0:00:40.28,Default,,0,0,0,karaoke,{\k45}ka{\k44}zo{\k42}e{\k40}te {\k45}me {\k44}wo {\k42}a{\k41}ke{\k41}te
+Comment: 1,0:00:40.73,0:00:42.03,Default,,0,0,0,karaoke,{\k28}SHA{\k37}DO{\k21}W {\k44}MOON
+Comment: 1,0:00:42.39,0:00:45.52,Default,,0,0,0,karaoke,{\k29}ma{\k42}da {\k18}yu{\k68}me {\k23}wo {\k41}mi{\k43}te{\k49}ru
+Comment: 1,0:00:45.87,0:00:47.03,Default,,0,0,0,karaoke,{\k23}me {\k43}wo {\k18}mi{\k32}te
+Comment: 1,0:00:47.56,0:00:48.84,Default,,0,0,0,karaoke,{\k25}me {\k43}wo {\k21}mi{\k39}te
+Comment: 1,0:00:49.29,0:00:52.39,Default,,0,0,0,karaoke,{\k36}se {\k32}wo {\k18}mu{\k46}ke{\k42}ai {\k44}na{\k41}ga{\k51}ra
+Comment: 1,0:00:52.72,0:00:54.02,Default,,0,0,0,karaoke,{\k24}me {\k42}wo {\k19}mi{\k45}te
+Comment: 1,0:00:54.44,0:00:59.25,Default,,0,0,0,karaoke,{\k47}i{\k38}tsu {\k45}a{\k85}e{\kf266}ru?
+Comment: 1,0:00:59.58,0:01:01.33,Default,,0,0,0,karaoke,{\k46}E{\k40}VERY{\k89}DAY
+Comment: 1,0:01:01.33,0:01:02.67,Default,,0,0,0,karaoke,{\k43}E{\k42}VERY {\k49}NIGHT
+Comment: 1,0:01:03.03,0:01:06.00,Default,,0,0,0,karaoke,{\k41}o{\k23}mo{\k22}i{\k41}tsu{\k20}ku {\k23}ko{\k43}to{\k44}ba {\k40}de
+Comment: 1,0:01:06.46,0:01:09.42,Default,,0,0,0,karaoke,{\k45}chi{\k39}ra{\k44}kat{\k44}ta {\k42}ma{\k41}ma {\k41}no
+Comment: 1,0:01:09.43,0:01:12.50,Default,,0,0,0,karaoke,{\k45}ki{\k44}mo{\k39}chi {\k43}wo {\k23}i{\k25}ma {\k41}su{\k47}gu
+Comment: 1,0:01:15.00,0:01:17.12,Default,,0,0,0,karaoke,{\k24}ma{\k42}hou {\k21}no {\k43}CHO{\k22}RD {\k60}CHANGE
+Comment: 1,0:01:17.39,0:01:19.35,Default,,0,0,0,karaoke,{\k24}ne{\k18}mu{\k23}re{\k22}na{\k42}i {\k43}ma{\k24}chi
+Comment: 1,0:01:21.69,0:01:23.85,Default,,0,0,0,karaoke,{\k19}hi{\k23}ga{\k21}wa{\k20}ri {\k22}na {\k40}JAZZ {\k26}GUI{\k45}TAR
+Comment: 1,0:01:24.41,0:01:26.32,Default,,0,0,0,karaoke,{\k27}sot{\k41}to {\k50}MI{\k43}NOR {\k30}de
+Dialogue: 1,0:00:05.55,0:00:08.83,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ki{\k44}nou {\k20}wa {\k45}CA{\k17}LL {\k71}SIGN
+Dialogue: 1,0:00:08.12,0:00:11.02,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}zen{\k41}bu {\k42}kei{\k44}tai {\k29}de
+Dialogue: 1,0:00:12.39,0:00:15.58,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k22}no{\k23}re{\k39}nai {\k48}FUZZ {\k22}GUI{\k55}TAR
+Dialogue: 1,0:00:14.98,0:00:17.94,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k22}hen {\k44}na {\k41}kou{\k43}en {\k36}de
+Dialogue: 1,0:00:31.25,0:00:33.73,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}YEL{\k61}LOW {\k52}MOON
+Dialogue: 1,0:00:33.00,0:00:36.58,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}i{\k64}ma {\k86}mo {\k79}mitts'
+Dialogue: 1,0:00:35.54,0:00:40.48,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k45}ka{\k44}zo{\k42}e{\k40}te {\k45}me {\k44}wo {\k42}a{\k41}ke{\k41}te
+Dialogue: 1,0:00:39.83,0:00:42.23,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k28}SHA{\k37}DO{\k21}W {\k44}MOON
+Dialogue: 1,0:00:41.49,0:00:45.72,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ma{\k42}da {\k18}yu{\k68}me {\k23}wo {\k41}mi{\k43}te{\k49}ru
+Dialogue: 1,0:00:44.97,0:00:47.23,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}me {\k43}wo {\k18}mi{\k32}te
+Dialogue: 1,0:00:46.66,0:00:49.04,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}me {\k43}wo {\k21}mi{\k39}te
+Dialogue: 1,0:00:48.39,0:00:52.59,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k36}se {\k32}wo {\k18}mu{\k46}ke{\k42}ai {\k44}na{\k41}ga{\k51}ra
+Dialogue: 1,0:00:51.82,0:00:54.22,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}me {\k42}wo {\k19}mi{\k45}te
+Dialogue: 1,0:00:53.54,0:00:59.45,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k47}i{\k38}tsu {\k45}a{\k85}e{\kf266}ru?
+Dialogue: 1,0:00:58.68,0:01:01.53,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k46}E{\k40}VERY{\k89}DAY
+Dialogue: 1,0:01:00.43,0:01:02.87,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k43}E{\k42}VERY {\k49}NIGHT
+Dialogue: 1,0:01:02.13,0:01:06.20,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k41}o{\k23}mo{\k22}i{\k41}tsu{\k20}ku {\k23}ko{\k43}to{\k44}ba {\k40}de
+Dialogue: 1,0:01:05.56,0:01:09.62,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k45}chi{\k39}ra{\k44}kat{\k44}ta {\k42}ma{\k41}ma {\k41}no
+Dialogue: 1,0:01:08.53,0:01:12.70,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k45}ki{\k44}mo{\k39}chi {\k43}wo {\k23}i{\k25}ma {\k41}su{\k47}gu
+Dialogue: 1,0:01:14.10,0:01:17.32,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ma{\k42}hou {\k21}no {\k43}CHO{\k22}RD {\k60}CHANGE
+Dialogue: 1,0:01:16.49,0:01:19.55,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ne{\k18}mu{\k23}re{\k22}na{\k42}i {\k43}ma{\k24}chi
+Dialogue: 1,0:01:20.79,0:01:24.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}hi{\k23}ga{\k21}wa{\k20}ri {\k22}na {\k40}JAZZ {\k26}GUI{\k45}TAR
+Dialogue: 1,0:01:23.51,0:01:26.52,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k27}sot{\k41}to {\k50}MI{\k43}NOR {\k30}de
