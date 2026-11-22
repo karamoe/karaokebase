@@ -1,0 +1,59 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Kibô no Wadachi
+Original Timing: HayatoKurokami
+LayoutResX: 0
+LayoutResY: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:10.55,0:00:10.97,Sample KM [Choir],,0,0,0,karaoke,{\k}HEY!
+Comment: 0,0:00:24.75,0:00:28.15,Sample KM [Up],,0,0,0,karaoke,{\k27}yu{\k22}me {\kf136}wo {\k20}no{\k25}se{\kf110}te
+Comment: 0,0:00:28.37,0:00:31.50,Sample KM [Up],,0,0,0,karaoke,{\k23}ha{\k29}shi{\kf145}ru {\k32}sha{\k84}dou
+Comment: 0,0:00:31.99,0:00:37.14,Sample KM [Up],,0,0,0,karaoke,{\k20}a{\k27}shi{\kf135}ta{\k21} {\k26}he {\kf104}no{\k50} {\k28}ta{\kf104}bi
+Comment: 0,0:00:39.22,0:00:42.44,Sample KM [Up],,0,0,0,karaoke,{\k18}to{\k30}o{\k131}ri{\k26}su{\k21}gi{\kf96}ru
+Comment: 0,0:00:42.84,0:00:45.96,Sample KM [Up],,0,0,0,karaoke,{\k18}ma{\k33}chi {\kf132}no{\k20} {\k25}i{\k84}ro
+Comment: 0,0:00:46.44,0:00:52.98,Sample KM [Up],,0,0,0,karaoke,{\k23}o{\k27}mo{\k155}i{\k25}de {\kf111}no{\k44} {\k28}hi{\kf152}bi {\k26}O{\k63}H
+Comment: 0,0:00:53.67,0:00:57.19,Sample KM [Up],,0,0,0,karaoke,{\k25}ko{\k21}i {\k49}ko{\k21}ko{\k22}ro {\k37}na{\k26}ze {\k24}ni {\k44}se{\k25}tsu{\k23}na{\k35}ku
+Comment: 0,0:00:57.28,0:01:00.00,Sample KM [Up],,0,0,0,karaoke,{\k22}mu{\k23}ne {\k47}no {\k22}o{\k18}ku {\k25}ni {\k25}se{\k22}ma{\k68}ru
+Comment: 0,0:01:00.87,0:01:02.92,Sample KM [Up],,0,0,0,karaoke,{\k26}fu{\k19}ri{\k45}ka{\k23}e{\k27}ru {\k21}ta{\k18}bi {\k26}ni
+Comment: 0,0:01:03.15,0:01:08.03,Sample KM [Up],,0,0,0,karaoke,{\k45}no{\k20}ba{\k11}ra {\k15}no {\k71}you {\k22}na {\k49}BA{\k14}BY {\k69}LO-{\k45}O-{\kf127}OVE
+Comment: 0,0:01:08.08,0:01:11.00,Sample KM [Up],,0,0,0,karaoke,{\k26}to{\k20}o{\k142}ku {\k19}to{\k22}o{\k63}ku
+Comment: 0,0:01:11.72,0:01:15.26,Sample KM [Up],,0,0,0,karaoke,{\k27}ha{\k20}na{\k89}re{\k43} {\k23}yu{\k25}ku {\k46}e{\k21}bo{\k22}shi {\k38}LINE
+Comment: 0,0:01:15.34,0:01:18.65,Sample KM [Up],,0,0,0,karaoke,{\k47}OH {\k133}MY {\k25}LOVE {\k25}IS {\kf101}YOU
+Comment: 0,0:01:19.88,0:01:22.44,Sample KM [Up],,0,0,0,karaoke,{\k20}ma{\k26}i{\k41}a{\k25}ga{\k16}ru {\k47}shin{\k49}ki{\k32}rou
+Comment: 0,0:01:22.56,0:01:25.44,Sample KM [Up],,0,0,0,karaoke,{\k25}me{\k21}gu{\k138}ru {\k25}me{\k22}gu{\k57}ru
+Comment: 0,0:01:26.18,0:01:29.74,Sample KM [Up],,0,0,0,karaoke,{\k22}wa{\k25}su{\k133}ra{\k23}re{\k23}nu {\k48}ME{\k20}LO{\k24}DY {\k38}LINE
+Comment: 0,0:01:29.80,0:01:33.31,Sample KM [Up],,0,0,0,karaoke,{\k46}OH {\k135}MY, {\k44}OH {\kf126}YEAH
+Comment: 0,0:01:34.32,0:01:36.28,Sample KM [Up],,0,0,0,karaoke,{\k24}GON{\k20}NA {\k47}RUN {\k23}FOR {\k21}TO{\k61}DAY
+Comment: 0,0:01:36.35,0:01:38.14,Sample KM [Up],,0,0,0,karaoke,{\k23}WOH {\k66}OH {\k24}WOH {\k66}OH
+Dialogue: 0,0:00:09.65,0:00:11.17,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k}HEY!
+Dialogue: 0,0:00:23.85,0:00:28.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}yu{\k22}me {\kf136}wo {\k20}no{\k25}se{\kf110}te
+Dialogue: 0,0:00:27.47,0:00:31.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}ha{\k29}shi{\kf145}ru {\k32}sha{\k84}dou
+Dialogue: 0,0:00:31.09,0:00:37.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}a{\k27}shi{\kf135}ta{\k21} {\k26}he {\kf104}no{\k50} {\k28}ta{\kf104}bi
+Dialogue: 0,0:00:38.32,0:00:42.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}to{\k30}o{\k131}ri{\k26}su{\k21}gi{\kf96}ru
+Dialogue: 0,0:00:41.94,0:00:46.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}ma{\k33}chi {\kf132}no{\k20} {\k25}i{\k84}ro
+Dialogue: 0,0:00:45.54,0:00:53.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}o{\k27}mo{\k155}i{\k25}de {\kf111}no{\k44} {\k28}hi{\kf152}bi {\k26}O{\k63}H
+Dialogue: 0,0:00:52.77,0:00:57.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}ko{\k21}i {\k49}ko{\k21}ko{\k22}ro {\k37}na{\k26}ze {\k24}ni {\k44}se{\k25}tsu{\k23}na{\k35}ku
+Dialogue: 0,0:00:56.38,0:01:00.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}mu{\k23}ne {\k47}no {\k22}o{\k18}ku {\k25}ni {\k25}se{\k22}ma{\k68}ru
+Dialogue: 0,0:00:59.97,0:01:03.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}fu{\k19}ri{\k45}ka{\k23}e{\k27}ru {\k21}ta{\k18}bi {\k26}ni
+Dialogue: 0,0:01:02.25,0:01:08.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}no{\k20}ba{\k11}ra {\k15}no {\k71}you {\k22}na {\k49}BA{\k14}BY {\k69}LO-{\k45}O-{\kf127}OVE
+Dialogue: 0,0:01:07.18,0:01:11.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}to{\k20}o{\k142}ku {\k19}to{\k22}o{\k63}ku
+Dialogue: 0,0:01:10.82,0:01:15.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}ha{\k20}na{\k89}re{\k43} {\k23}yu{\k25}ku {\k46}e{\k21}bo{\k22}shi {\k38}LINE
+Dialogue: 0,0:01:14.44,0:01:18.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}OH {\k133}MY {\k25}LOVE {\k25}IS {\kf101}YOU
+Dialogue: 0,0:01:18.98,0:01:22.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}ma{\k26}i{\k41}a{\k25}ga{\k16}ru {\k47}shin{\k49}ki{\k32}rou
+Dialogue: 0,0:01:21.66,0:01:25.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}me{\k21}gu{\k138}ru {\k25}me{\k22}gu{\k57}ru
+Dialogue: 0,0:01:25.28,0:01:29.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}wa{\k25}su{\k133}ra{\k23}re{\k23}nu {\k48}ME{\k20}LO{\k24}DY {\k38}LINE
+Dialogue: 0,0:01:28.90,0:01:33.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}OH {\k135}MY, {\k44}OH {\kf126}YEAH
+Dialogue: 0,0:01:33.42,0:01:36.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}GON{\k20}NA {\k47}RUN {\k23}FOR {\k21}TO{\k61}DAY
+Dialogue: 0,0:01:35.45,0:01:38.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}WOH {\k66}OH {\k24}WOH {\k66}OH
