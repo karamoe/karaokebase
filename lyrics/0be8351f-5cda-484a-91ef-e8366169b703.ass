@@ -1,0 +1,88 @@
+﻿[Script Info]
+Title: Fortress Defense
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Naruse
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: jap,Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: eng,Arial,24,&H00FFFFFF,&H005757FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:02.32,0:00:05.86,Sample KM [Choir],,0,0,0,karaoke,{\k47}Wo{\k29}o {\k15}Wo{\k44}o {\k21}Wo{\k51}o {\k17}Wo{\k87}o {\k43}Yeah
+Comment: 0,0:00:05.94,0:00:09.41,Sample KM [Choir],,0,0,0,karaoke,{\k39}Wo{\k25}o {\k21}Wo{\k45}o {\k21}Wo{\k44}o {\k23}Wo{\k89}o {\k40}Yeah
+Comment: 0,0:00:09.41,0:00:12.99,Sample KM [Choir],,0,0,0,karaoke,{\k47}Wo{\k32}o {\k13}Wo{\k47}o {\k20}Wo{\k48}o {\k19}Wo{\k81}o {\k51}Yeah
+Comment: 0,0:00:12.99,0:00:16.58,Sample KM [Choir],,0,0,0,karaoke,{\k47}Wo{\k25}o {\k21}Wo{\k51}o {\k19}Wo{\k44}o {\k22}Wo{\k85}o {\k45}Yeah
+Comment: 0,0:00:16.41,0:00:18.25,jap,,0,0,0,karaoke,{\k23}kek{\k13}ki{\k19}mou {\reng}{\k25}CHAR{\k11}GE! {\k23}PRES{\k11}SING! {\k23}NO {\k14}MAR{\k30}CY!
+Comment: 0,0:00:18.33,0:00:20.08,eng,,0,0,0,karaoke,{\k18}For{\k48}tress {\k7}De{\k23}fen{\k24}der! {\k11}No {\k21}Mar{\k23}cy!
+Comment: 0,0:00:20.29,0:00:21.71,Sample KM [Choir],,0,0,0,karaoke,{\k27}an{\k16}shou {\k13}no{\k24}ria{\k6}ge{\k16}sa{\k21}sen {\k19}non
+Comment: 0,0:00:21.75,0:00:23.59,Sample KM [Choir],,0,0,0,karaoke,{\k23}sen{\k20}mon {\k14}ni {\k11}su{\k11}ru {\k21}nan{\k22}kan {\k12}no {\k22}you{\k28}sai
+Comment: 0,0:00:23.59,0:00:25.05,jap,,0,0,0,karaoke,{\k26}kyou{\k20}kai{\k24}sen {\k10}ka{\k11}ra {\k22}hai{\k13}go {\k20}ni
+Comment: 0,0:00:25.17,0:00:26.80,jap,,0,0,0,karaoke,{\k12}nu{\k12}ke{\k21}das' {\reng}{\k22}PASS {\rjap}{\k18}ai {\k7}no {\k7}a{\k10}ru {\k22}sai{\k15}do {\k17}ni
+Comment: 0,0:00:27.34,0:00:28.84,Sample KM [Choir],,0,0,0,karaoke,{\k26}kyou{\k17}shuu {\k15}to {\k23}shou{\k21}dou {\k11}ni {\k20}hon{\k17}rou
+Comment: 0,0:00:28.93,0:00:30.90,Sample KM [Choir],,0,0,0,karaoke,{\k11}sa{\k11}re{\k12}ru {\k10}gu{\k18}rai {\k15}no {\k13}cho{\k11}ku{\k15}jou {\k20}na {\k35}EYES
+Comment: 0,0:00:30.72,0:00:32.10,eng,,0,0,0,karaoke,{\k18}{\reng}UN{\k22}KNOWN {\rjap}{\k22}ken{\k22}zan {\reng}{\k20}DAN{\k15}CE {\k19}BEAT
+Comment: 0,0:00:32.22,0:00:34.01,eng,,0,0,0,karaoke,{\k25}Don’t {\k18}stop {\k23}tap {\k16}dan{\k27}cing {\k23}stone {\k13}fal{\k34}len
+Comment: 0,0:00:34.18,0:00:35.93,Sample KM [Choir],,0,0,0,karaoke,{\k14}ka{\k20}ran{\k12}de {\k32}FOOT {\k20}da{\k5}shi{\k10}te {\k22}CU{\k40}T
+Comment: 0,0:00:35.93,0:00:37.64,Sample KM [Choir],,0,0,0,karaoke,{\k11}ni{\k21}ran{\k18}de {\k19}sh'ret{\k14}t' {\k19}kap{\k12}pa{\k23}rau {\k34}STEAL
+Comment: 0,0:00:37.68,0:00:39.23,jap,,0,0,0,karaoke,{\k28}zen{\k22}sen {\k24}kyou{\k22}kyuu {\reng}{\k20}PASS {\k14}WE {\k25}GO!
+Comment: 0,0:00:39.27,0:00:41.10,jap,,0,0,0,karaoke,{\k21}tou{\k20}sou {\k26}hon{\k40}nou {\k26}chakk' {\reng}{\k15}BIG {\k40}UP!
+Comment: 0,0:00:41.23,0:00:42.98,Sample KM [Choir],,0,0,0,karaoke,{\k14}ka{\k20}ran{\k12}de {\k31}FOOT {\k21}da{\k5}shi{\k10}te {\k22}CU{\k40}T
+Comment: 0,0:00:43.02,0:00:44.69,Sample KM [Choir],,0,0,0,karaoke,{\k11}ni{\k21}ran{\k15}de {\k22}sh'ret{\k11}t' {\k19}kap{\k15}pa{\k18}rau {\k35}STEAL
+Comment: 0,0:00:44.73,0:00:47.99,jap,,0,0,0,karaoke,{\k43}so{\k29}re {\k25}ma{\k31}de {\k30}wo {\k23}nu{\k31}ri{\k28}ka{\k31}e{\k55}te
+Comment: 0,0:00:48.32,0:00:52.12,jap,,0,0,0,karaoke,{\k32}i{\k30}ki {\k27}e{\k34}ga{\k29}ki {\k20}tsu{\k35}zu{\k35}ke{\k24}ru {\k40}no {\k74}sa
+Comment: 0,0:00:54.41,0:00:58.04,eng,,0,0,0,karaoke,{\k52}Dra{\k35}wing! {\k33}Proud! {\k14}Wo{\k30}w! {\k24}Wo{\k20}w! {\k22}Wo{\k20}w! {\k18}Wow! {\kf95}Yeah!
+Comment: 0,0:00:58.87,0:01:02.42,eng,,0,0,0,karaoke,{\k45}For{\k45}tress {\k47}Beat {\k63}it! {\k34}For{\k35}tress {\k43}De{\k43}fense!
+Comment: 0,0:01:02.42,0:01:05.96,eng,,0,0,0,karaoke,{\k45}For{\k45}tress {\k47}Beat {\k63}it! {\k34}For{\k31}tress {\k47}De{\k42}fense!
+Comment: 0,0:01:05.96,0:01:09.47,eng,,0,0,0,karaoke,{\k45}For{\k45}tress {\k42}Beat {\k68}it! {\k34}For{\k35}tress {\k38}De{\k44}fense!
+Comment: 0,0:01:09.47,0:01:11.38,eng,,0,0,0,karaoke,{\k37}For{\k53}tress {\k45}Beat {\k56}it!
+Comment: 0,0:01:12.93,0:01:14.76,eng,,0,0,0,karaoke,{\k57}Dra{\k39}wing! {\k47}Craw{\k40}ling!
+Comment: 0,0:01:14.76,0:01:16.14,eng,,0,0,0,karaoke,{\k29}Dance {\k37}and {\k76}Sprint!
+Comment: 0,0:01:16.26,0:01:18.77,eng,,0,0,0,karaoke,{\k52}WIN {\k22}VE{\k40}NUS {\rjap\k6}'ki{\k37}yo{\k27}se{\k23}ru {\reng\k23}PASS {\k21}wa
+Comment: 0,0:01:18.89,0:01:20.80,eng,,0,0,0,karaoke,{\k49}KEEP {\k38}SHARP {\rjap}{\k32}shi{\k72}kou
+Comment: 0,0:01:20.73,0:01:22.40,Sample KM [Choir],,0,0,0,karaoke,{\k48}KEEP {\k39}SHARP {\k26}shi{\k54}kou
+Comment: 0,0:01:22.52,0:01:24.31,jap,,0,0,0,karaoke,{\k39}chin{\k44}chak' {\k24}sui{\k72}kou
+Comment: 0,0:01:24.27,0:01:25.87,Sample KM [Choir],,0,0,0,karaoke,{\k42}chin{\k42}chak' {\k23}sui{\k53}kou
+Dialogue: 0,0:00:01.42,0:00:06.06,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Wo{\k29}o {\k15}Wo{\k44}o {\k21}Wo{\k51}o {\k17}Wo{\k87}o {\k43}Yeah
+Dialogue: 0,0:00:05.04,0:00:09.61,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Wo{\k25}o {\k21}Wo{\k45}o {\k21}Wo{\k44}o {\k23}Wo{\k89}o {\k40}Yeah
+Dialogue: 0,0:00:08.51,0:00:13.19,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Wo{\k32}o {\k13}Wo{\k47}o {\k20}Wo{\k48}o {\k19}Wo{\k81}o {\k51}Yeah
+Dialogue: 0,0:00:12.09,0:00:16.78,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Wo{\k25}o {\k21}Wo{\k51}o {\k19}Wo{\k44}o {\k22}Wo{\k85}o {\k45}Yeah
+Dialogue: 0,0:00:15.51,0:00:18.45,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k23}kek{\k13}ki{\k19}mou {\reng}{\k25}CHAR{\k11}GE! {\k23}PRES{\k11}SING! {\k23}NO {\k14}MAR{\k30}CY!
+Dialogue: 0,0:00:17.43,0:00:20.28,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k18}For{\k48}tress {\k7}De{\k23}fen{\k24}der! {\k11}No {\k21}Mar{\k23}cy!
+Dialogue: 0,0:00:19.39,0:00:21.91,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k27}an{\k16}shou {\k13}no{\k24}ria{\k6}ge{\k16}sa{\k21}sen {\k19}non
+Dialogue: 0,0:00:20.85,0:00:23.79,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}sen{\k20}mon {\k14}ni {\k11}su{\k11}ru {\k21}nan{\k22}kan {\k12}no {\k22}you{\k28}sai
+Dialogue: 0,0:00:22.69,0:00:25.25,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k26}kyou{\k20}kai{\k24}sen {\k10}ka{\k11}ra {\k22}hai{\k13}go {\k20}ni
+Dialogue: 0,0:00:24.27,0:00:27.00,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k12}nu{\k12}ke{\k21}das' {\reng}{\k22}PASS {\rjap}{\k18}ai {\k7}no {\k7}a{\k10}ru {\k22}sai{\k15}do {\k17}ni
+Dialogue: 0,0:00:26.44,0:00:29.04,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}kyou{\k17}shuu {\k15}to {\k23}shou{\k21}dou {\k11}ni {\k20}hon{\k17}rou
+Dialogue: 0,0:00:28.03,0:00:31.10,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k11}sa{\k11}re{\k12}ru {\k10}gu{\k18}rai {\k15}no {\k13}cho{\k11}ku{\k15}jou {\k20}na {\k35}EYES
+Dialogue: 0,0:00:29.82,0:00:32.30,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k18}{\reng}UN{\k22}KNOWN {\rjap}{\k22}ken{\k22}zan {\reng}{\k20}DAN{\k15}CE {\k19}BEAT
+Dialogue: 0,0:00:31.32,0:00:34.21,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Don’t {\k18}stop {\k23}tap {\k16}dan{\k27}cing {\k23}stone {\k13}fal{\k34}len
+Dialogue: 0,0:00:33.28,0:00:36.13,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k14}ka{\k20}ran{\k12}de {\k32}FOOT {\k20}da{\k5}shi{\k10}te {\k22}CU{\k40}T
+Dialogue: 0,0:00:35.03,0:00:37.84,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k11}ni{\k21}ran{\k18}de {\k19}sh'ret{\k14}t' {\k19}kap{\k12}pa{\k23}rau {\k34}STEAL
+Dialogue: 0,0:00:36.78,0:00:39.43,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k28}zen{\k22}sen {\k24}kyou{\k22}kyuu {\reng}{\k20}PASS {\k14}WE {\k25}GO!
+Dialogue: 0,0:00:38.37,0:00:41.30,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k21}tou{\k20}sou {\k26}hon{\k40}nou {\k26}chakk' {\reng}{\k15}BIG {\k40}UP!
+Dialogue: 0,0:00:40.33,0:00:43.18,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k14}ka{\k20}ran{\k12}de {\k31}FOOT {\k21}da{\k5}shi{\k10}te {\k22}CU{\k40}T
+Dialogue: 0,0:00:42.12,0:00:44.89,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k11}ni{\k21}ran{\k15}de {\k22}sh'ret{\k11}t' {\k19}kap{\k15}pa{\k18}rau {\k35}STEAL
+Dialogue: 0,0:00:43.83,0:00:48.19,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k43}so{\k29}re {\k25}ma{\k31}de {\k30}wo {\k23}nu{\k31}ri{\k28}ka{\k31}e{\k55}te
+Dialogue: 0,0:00:47.42,0:00:52.32,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k32}i{\k30}ki {\k27}e{\k34}ga{\k29}ki {\k20}tsu{\k35}zu{\k35}ke{\k24}ru {\k40}no {\k74}sa
+Dialogue: 0,0:00:53.51,0:00:58.24,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k52}Dra{\k35}wing! {\k33}Proud! {\k14}Wo{\k30}w! {\k24}Wo{\k20}w! {\k22}Wo{\k20}w! {\k18}Wow! {\kf95}Yeah!
+Dialogue: 0,0:00:57.97,0:01:02.62,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k45}For{\k45}tress {\k47}Beat {\k63}it! {\k34}For{\k35}tress {\k43}De{\k43}fense!
+Dialogue: 0,0:01:01.52,0:01:06.16,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k45}For{\k45}tress {\k47}Beat {\k63}it! {\k34}For{\k31}tress {\k47}De{\k42}fense!
+Dialogue: 0,0:01:05.06,0:01:09.67,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k45}For{\k45}tress {\k42}Beat {\k68}it! {\k34}For{\k35}tress {\k38}De{\k44}fense!
+Dialogue: 0,0:01:08.57,0:01:11.58,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k37}For{\k53}tress {\k45}Beat {\k56}it!
+Dialogue: 0,0:01:12.03,0:01:14.96,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k57}Dra{\k39}wing! {\k47}Craw{\k40}ling!
+Dialogue: 0,0:01:13.86,0:01:16.34,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Dance {\k37}and {\k76}Sprint!
+Dialogue: 0,0:01:15.36,0:01:18.97,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k52}WIN {\k22}VE{\k40}NUS {\rjap\k6}'ki{\k37}yo{\k27}se{\k23}ru {\reng\k23}PASS {\k21}wa
+Dialogue: 0,0:01:17.99,0:01:21.00,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k49}KEEP {\k38}SHARP {\rjap}{\k32}shi{\k72}kou
+Dialogue: 0,0:01:19.83,0:01:22.60,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k48}KEEP {\k39}SHARP {\k26}shi{\k54}kou
+Dialogue: 0,0:01:21.62,0:01:24.51,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k39}chin{\k44}chak' {\k24}sui{\k72}kou
+Dialogue: 0,0:01:23.37,0:01:26.07,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k42}chin{\k42}chak' {\k23}sui{\k53}kou
