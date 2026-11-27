@@ -1,0 +1,69 @@
+﻿[Script Info]
+Title: Daidaidaidai Daisuki na Kimi he
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Zeflipsplash
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: All,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.57,0:00:00.57,All,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:01.29,0:00:04.65,All,,0,0,0,karaoke,{\k21}pi {\k25}pi, {\k11}pi{\k12}pi{\k11}pi{\k12}pi{\k23}pi, {\k23}pi {\k13}pi{\k9}pi{\k14}pi{\k10}pi{\k24}pi, {\k22}pi {\k10}pi{\k11}pi{\k25}pi, {\k23}pi {\k24}pi {\k13}pi
+Comment: 0,0:00:04.97,0:00:08.36,All,,0,0,0,karaoke,{\k24}pi {\k22}pi, {\k13}pi{\k11}pi{\k13}pi{\k10}pi{\k23}pi, {\k23}pi {\k12}pi{\k12}pi{\k11}pi{\k13}pi{\k21}pi, {\k11}pi{\k12}pi{\k9}pi{\k14}pi{\k22}pi, {\k23}pi {\k24}pi {\k16}pi
+Comment: 0,0:00:16.06,0:00:17.68,All,,0,0,0,karaoke,{\k45}pi {\k47}pi {\k10}pi{\k11}pi{\k10}pi{\k15}pi{\k24}pi
+Comment: 0,0:00:18.36,0:00:19.74,All,,0,0,0,karaoke,{\k23}pi {\k24}pi {\k23}pi {\k23}pi {\k24}pi {\k21}pi
+Comment: 0,0:00:19.99,0:00:22.72,All,,0,0,0,karaoke,{\k8}pi{\k38}i {\k22}pi {\k10}pi{\k13}pi{\k13}pi{\k11}pi{\k22}pi {\k23}pi {\k10}pi{\k11}pi{\k11}pi{\k14}pi{\k23}pi {\k23}pi {\k21}pi
+Comment: 0,0:00:23.43,0:00:25.03,All,,0,0,0,karaoke,{\k45}pi {\k47}pi {\k10}pi{\k13}pi{\k12}pi{\k11}pi{\k22}pi
+Comment: 0,0:00:25.74,0:00:27.12,All,,0,0,0,karaoke,{\k21}pi {\k26}pi {\k21}pi {\k24}pi {\k23}pi {\k23}pi
+Comment: 0,0:00:27.37,0:00:30.13,All,,0,0,0,karaoke,{\k23}pi {\k23}pi {\k22}pi {\k22}pi {\k25}pi {\k11}pi{\k13}pi{\k11}pi{\k11}pi{\k35}pi {\k11}pi{\k23}pi {\k23}pi {\k23}pi
+Comment: 0,0:00:30.83,0:00:32.43,All,,0,0,0,karaoke,{\k23}pi {\k24}pi {\k19}pi {\k15}pi{\k12}pi{\k20}pi {\k24}pi {\k23}pi
+Comment: 0,0:00:32.67,0:00:34.28,All,,0,0,0,karaoke,{\k23}pi {\k23}pi {\k23}pi {\k11}pi{\k12}pi{\k21}pi {\k25}pi {\k23}pi
+Comment: 0,0:00:34.49,0:00:37.60,All,,0,0,0,karaoke,{\k25}pi {\k10}pi{\k13}pi{\k23}pi {\k12}pi{\k12}pi{\k23}pi {\k12}pi{\k10}pi{\k23}pi {\k21}pi {\k26}pi {\k23}pi {\k23}pi {\k23}pi {\k32}pi
+Comment: 0,0:00:38.19,0:00:39.80,All,,0,0,0,karaoke,{\k23}pi {\k23}pi {\k20}pi {\k15}pi{\k12}pi{\k20}pi {\k26}pi {\k22}pi
+Comment: 0,0:00:40.04,0:00:41.68,All,,0,0,0,karaoke,{\k22}pi {\k11}pi{\k14}pi{\k22}pi {\k11}pi{\k12}pi{\k24}pi {\k24}pi {\k24}pi
+Comment: 0,0:00:42.24,0:00:44.38,All,,0,0,0,karaoke,{\k25}pi{\k31}pi {\k24}pi {\k24}pi {\k23}pi {\k23}pi {\k11}pi{\k11}pi{\k13}pi{\k11}pi{\k18}pi
+Comment: 0,0:00:45.01,0:00:47.18,All,,0,0,0,karaoke,{\k11}pi{\k14}pi{\k11}pi{\k11}pi{\k10}pi{\k25}pi {\k22}pi {\k24}pi {\k12}pi {\k18}pi {\k15}pi {\k23}pi {\k21}pi
+Comment: 0,0:00:47.43,0:00:48.46,All,,0,0,0,karaoke,{\k24}pi {\k22}pi {\k20}pi {\k16}pi{\k21}pi
+Comment: 0,0:00:48.81,0:00:52.26,All,,0,0,0,karaoke,{\k24}pi {\k23}pi {\k13}pi{\k24}pi {\k23}pi {\k22}pi {\k34}pi {\k22}pi {\k24}pi {\k23}pi, {\k44}pi {\k47}pi {\k22}pi
+Comment: 0,0:00:52.41,0:00:54.59,All,,0,0,0,karaoke,{\k11}pi{\k11}pi{\k12}pi{\k11}pi{\k11}pi{\k24}pi {\k23}pi {\k20}pi {\k15}pi {\k18}pi {\k15}pi {\k24}pi {\k23}pi
+Comment: 0,0:00:54.83,0:00:55.89,All,,0,0,0,karaoke,{\k23}pi {\k23}pi {\k20}pi {\k15}pi{\k25}pi
+Comment: 0,0:00:56.18,0:00:59.79,All,,0,0,0,karaoke,{\k12}pi{\k13}pi{\k22}pi {\k13}pi{\k26}pi {\k23}pi {\k20}pi {\k34}pi {\k24}pi {\k22}pi {\k23}pi, {\k47}pi {\k47}pi {\k35}pi
+Comment: 0,0:01:00.36,0:01:03.81,All,,0,0,0,karaoke,{\k24}pi {\k22}pi, {\k10}pi{\k12}pi{\k14}pi{\k10}pi{\k25}pi, {\k21}pi {\k10}pi{\k13}pi{\k13}pi{\k13}pi{\k20}pi, {\k10}pi{\k14}pi{\k10}pi{\k13}pi{\k22}pi, {\k23}pi {\k24}pi {\k22}pi
+Comment: 0,0:01:04.04,0:01:07.50,All,,0,0,0,karaoke,{\k24}pi {\k22}pi, {\k10}pi{\k13}pi{\k13}pi{\k14}pi{\k22}pi, {\k20}pi {\k12}pi{\k11}pi{\k18}pi{\k12}pi{\k19}pi, {\k12}pi{\k11}pi{\k12}pi{\k11}pi{\k21}pi, {\k24}pi {\k22}pi {\k23}pi
+Comment: 0,0:01:07.75,0:01:11.15,All,,0,0,0,karaoke,{\k24}pi {\k22}pi, {\k10}pi{\k12}pi{\k12}pi{\k12}pi{\k23}pi, {\k22}pi {\k11}pi{\k13}pi{\k13}pi{\k9}pi{\k23}pi, {\k11}pi{\k13}pi{\k12}pi{\k13}pi{\k21}pi, {\k23}pi {\k23}pi {\k18}pi
+Comment: 0,0:01:11.40,0:01:14.87,All,,0,0,0,karaoke,{\k25}pi {\k22}pi, {\k11}pi{\k12}pi{\k12}pi{\k10}pi{\k23}pi, {\k25}pi {\k11}pi{\k13}pi{\k11}pi{\k12}pi{\k24}pi, {\k12}pi{\k12}pi{\k14}pi{\k9}pi{\k23}pi, {\k24}pi {\k21}pi {\k21}pi
+Comment: 0,0:01:22.52,0:01:25.86,All,,0,0,0,karaoke,{\k22}pi {\k24}pi, {\k13}pi{\k14}pi{\k11}pi{\k12}pi{\k20}pi, {\k22}pi {\k11}pi{\k12}pi{\k12}pi{\k11}pi{\k21}pi, {\k12}pi{\k11}pi{\k13}pi{\k12}pi{\k24}pi, {\k23}pi {\k23}pi{\k11} pi
+Comment: 0,0:01:26.21,0:01:29.59,All,,0,0,0,karaoke,{\k23}pi {\k23}pi, {\k11}pi{\k13}pi{\k12}pi{\k11}pi{\k23}pi, {\k22}pi {\k11}pi{\k12}pi{\k12}pi{\k12}pi{\k22}pi, {\k12}pi{\k11}pi{\k23}pi{\k24}pi, {\k25}pi {\k22}pi{\k14} pi
+Dialogue: 0,0:00:00.39,0:00:04.85,All,,0,0,0,fx,{\k90\fad(300,200)}{\k21}pi {\k25}pi, {\k11}pi{\k12}pi{\k11}pi{\k12}pi{\k23}pi, {\k23}pi {\k13}pi{\k9}pi{\k14}pi{\k10}pi{\k24}pi, {\k22}pi {\k10}pi{\k11}pi{\k25}pi, {\k23}pi {\k24}pi {\k13}pi
+Dialogue: 0,0:00:04.07,0:00:08.56,All,,0,0,0,fx,{\k90\fad(300,200)}{\k24}pi {\k22}pi, {\k13}pi{\k11}pi{\k13}pi{\k10}pi{\k23}pi, {\k23}pi {\k12}pi{\k12}pi{\k11}pi{\k13}pi{\k21}pi, {\k11}pi{\k12}pi{\k9}pi{\k14}pi{\k22}pi, {\k23}pi {\k24}pi {\k16}pi
+Dialogue: 0,0:00:15.16,0:00:17.88,All,,0,0,0,fx,{\k90\fad(300,200)}{\k45}pi {\k47}pi {\k10}pi{\k11}pi{\k10}pi{\k15}pi{\k24}pi
+Dialogue: 0,0:00:17.46,0:00:19.94,All,,0,0,0,fx,{\k90\fad(300,200)}{\k23}pi {\k24}pi {\k23}pi {\k23}pi {\k24}pi {\k21}pi
+Dialogue: 0,0:00:19.09,0:00:22.92,All,,0,0,0,fx,{\k90\fad(300,200)}{\k8}pi{\k38}i {\k22}pi {\k10}pi{\k13}pi{\k13}pi{\k11}pi{\k22}pi {\k23}pi {\k10}pi{\k11}pi{\k11}pi{\k14}pi{\k23}pi {\k23}pi {\k21}pi
+Dialogue: 0,0:00:22.53,0:00:25.23,All,,0,0,0,fx,{\k90\fad(300,200)}{\k45}pi {\k47}pi {\k10}pi{\k13}pi{\k12}pi{\k11}pi{\k22}pi
+Dialogue: 0,0:00:24.84,0:00:27.32,All,,0,0,0,fx,{\k90\fad(300,200)}{\k21}pi {\k26}pi {\k21}pi {\k24}pi {\k23}pi {\k23}pi
+Dialogue: 0,0:00:26.47,0:00:30.33,All,,0,0,0,fx,{\k90\fad(300,200)}{\k23}pi {\k23}pi {\k22}pi {\k22}pi {\k25}pi {\k11}pi{\k13}pi{\k11}pi{\k11}pi{\k35}pi {\k11}pi{\k23}pi {\k23}pi {\k23}pi
+Dialogue: 0,0:00:29.93,0:00:32.63,All,,0,0,0,fx,{\k90\fad(300,200)}{\k23}pi {\k24}pi {\k19}pi {\k15}pi{\k12}pi{\k20}pi {\k24}pi {\k23}pi
+Dialogue: 0,0:00:31.77,0:00:34.48,All,,0,0,0,fx,{\k90\fad(300,200)}{\k23}pi {\k23}pi {\k23}pi {\k11}pi{\k12}pi{\k21}pi {\k25}pi {\k23}pi
+Dialogue: 0,0:00:33.59,0:00:37.80,All,,0,0,0,fx,{\k90\fad(300,200)}{\k25}pi {\k10}pi{\k13}pi{\k23}pi {\k12}pi{\k12}pi{\k23}pi {\k12}pi{\k10}pi{\k23}pi {\k21}pi {\k26}pi {\k23}pi {\k23}pi {\k23}pi {\k32}pi
+Dialogue: 0,0:00:37.29,0:00:40.00,All,,0,0,0,fx,{\k90\fad(300,200)}{\k23}pi {\k23}pi {\k20}pi {\k15}pi{\k12}pi{\k20}pi {\k26}pi {\k22}pi
+Dialogue: 0,0:00:39.14,0:00:41.88,All,,0,0,0,fx,{\k90\fad(300,200)}{\k22}pi {\k11}pi{\k14}pi{\k22}pi {\k11}pi{\k12}pi{\k24}pi {\k24}pi {\k24}pi
+Dialogue: 0,0:00:41.34,0:00:44.58,All,,0,0,0,fx,{\k90\fad(300,200)}{\k25}pi{\k31}pi {\k24}pi {\k24}pi {\k23}pi {\k23}pi {\k11}pi{\k11}pi{\k13}pi{\k11}pi{\k18}pi
+Dialogue: 0,0:00:44.11,0:00:47.38,All,,0,0,0,fx,{\k90\fad(300,200)}{\k11}pi{\k14}pi{\k11}pi{\k11}pi{\k10}pi{\k25}pi {\k22}pi {\k24}pi {\k12}pi {\k18}pi {\k15}pi {\k23}pi {\k21}pi
+Dialogue: 0,0:00:46.53,0:00:48.66,All,,0,0,0,fx,{\k90\fad(300,200)}{\k24}pi {\k22}pi {\k20}pi {\k16}pi{\k21}pi
+Dialogue: 0,0:00:47.91,0:00:52.46,All,,0,0,0,fx,{\k90\fad(300,200)}{\k24}pi {\k23}pi {\k13}pi{\k24}pi {\k23}pi {\k22}pi {\k34}pi {\k22}pi {\k24}pi {\k23}pi, {\k44}pi {\k47}pi {\k22}pi
+Dialogue: 0,0:00:51.51,0:00:54.79,All,,0,0,0,fx,{\k90\fad(300,200)}{\k11}pi{\k11}pi{\k12}pi{\k11}pi{\k11}pi{\k24}pi {\k23}pi {\k20}pi {\k15}pi {\k18}pi {\k15}pi {\k24}pi {\k23}pi
+Dialogue: 0,0:00:53.93,0:00:56.09,All,,0,0,0,fx,{\k90\fad(300,200)}{\k23}pi {\k23}pi {\k20}pi {\k15}pi{\k25}pi
+Dialogue: 0,0:00:55.28,0:00:59.99,All,,0,0,0,fx,{\k90\fad(300,200)}{\k12}pi{\k13}pi{\k22}pi {\k13}pi{\k26}pi {\k23}pi {\k20}pi {\k34}pi {\k24}pi {\k22}pi {\k23}pi, {\k47}pi {\k47}pi {\k35}pi
+Dialogue: 0,0:00:59.46,0:01:04.01,All,,0,0,0,fx,{\k90\fad(300,200)}{\k24}pi {\k22}pi, {\k10}pi{\k12}pi{\k14}pi{\k10}pi{\k25}pi, {\k21}pi {\k10}pi{\k13}pi{\k13}pi{\k13}pi{\k20}pi, {\k10}pi{\k14}pi{\k10}pi{\k13}pi{\k22}pi, {\k23}pi {\k24}pi {\k22}pi
+Dialogue: 0,0:01:03.14,0:01:07.70,All,,0,0,0,fx,{\k90\fad(300,200)}{\k24}pi {\k22}pi, {\k10}pi{\k13}pi{\k13}pi{\k14}pi{\k22}pi, {\k20}pi {\k12}pi{\k11}pi{\k18}pi{\k12}pi{\k19}pi, {\k12}pi{\k11}pi{\k12}pi{\k11}pi{\k21}pi, {\k24}pi {\k22}pi {\k23}pi
+Dialogue: 0,0:01:06.85,0:01:11.35,All,,0,0,0,fx,{\k90\fad(300,200)}{\k24}pi {\k22}pi, {\k10}pi{\k12}pi{\k12}pi{\k12}pi{\k23}pi, {\k22}pi {\k11}pi{\k13}pi{\k13}pi{\k9}pi{\k23}pi, {\k11}pi{\k13}pi{\k12}pi{\k13}pi{\k21}pi, {\k23}pi {\k23}pi {\k18}pi
+Dialogue: 0,0:01:10.50,0:01:15.07,All,,0,0,0,fx,{\k90\fad(300,200)}{\k25}pi {\k22}pi, {\k11}pi{\k12}pi{\k12}pi{\k10}pi{\k23}pi, {\k25}pi {\k11}pi{\k13}pi{\k11}pi{\k12}pi{\k24}pi, {\k12}pi{\k12}pi{\k14}pi{\k9}pi{\k23}pi, {\k24}pi {\k21}pi {\k21}pi
+Dialogue: 0,0:01:21.62,0:01:26.06,All,,0,0,0,fx,{\k90\fad(300,200)}{\k22}pi {\k24}pi, {\k13}pi{\k14}pi{\k11}pi{\k12}pi{\k20}pi, {\k22}pi {\k11}pi{\k12}pi{\k12}pi{\k11}pi{\k21}pi, {\k12}pi{\k11}pi{\k13}pi{\k12}pi{\k24}pi, {\k23}pi {\k23}pi{\k11} pi
+Dialogue: 0,0:01:25.31,0:01:29.79,All,,0,0,0,fx,{\k90\fad(300,200)}{\k23}pi {\k23}pi, {\k11}pi{\k13}pi{\k12}pi{\k11}pi{\k23}pi, {\k22}pi {\k11}pi{\k12}pi{\k12}pi{\k12}pi{\k22}pi, {\k12}pi{\k11}pi{\k23}pi{\k24}pi, {\k25}pi {\k22}pi{\k14} pi
