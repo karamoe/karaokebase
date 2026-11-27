@@ -1,179 +1,165 @@
-[Script Info]
-;Converted using ultrastar2ass : https://lab.shelter.moe/axelterizaki/ultrastar2ass
-Title: 
+﻿[Script Info]
 ScriptType: v4.00+
 WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
 ScaledBorderAndShadow: yes
-Collisions: Normal
-
-[Aegisub Project Garbage]
-Audio File: Z:\karaokemugen\medias\ENG - Avril Lavigne - MV - Sk8er Boi.mp4
-Video File: Z:\karaokemugen\medias\ENG - Avril Lavigne - MV - Sk8er Boi.mp4
+YCbCr Matrix: TV.709
+Title: Sk8er Boi
+Original Timing: NikoNikoD
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,24,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,1.5,0,8,10,10,10,1
+Style: Sample KM [Up],Arial,23,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 1,00:00:00.00,00:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Comment: 1,0:00:22.20,0:00:23.35,Default,,0,0,0,karaoke,{\k20}He {\k20}was {\k20}a {\k45}boy
-Comment: 1,0:00:23.80,0:00:24.95,Default,,0,0,0,karaoke,{\k20}She {\k20}was {\k20}a {\k45}girl
-Comment: 1,0:00:25.20,0:00:26.10,Default,,0,0,0,karaoke,{\k20}Can {\k20}I {\k20}make {\k20}it
-Comment: 1,0:00:26.00,0:00:27.85,Default,,0,0,0,karaoke,{\k40}A{\k20}ny {\k20}more {\k40}ob{\k20}vi {\k35}-ous?
-Comment: 1,0:00:28.60,0:00:29.75,Default,,0,0,0,karaoke,{\k20}He {\k20}was {\k20}a {\k45}punk
-Comment: 1,0:00:30.20,0:00:31.35,Default,,0,0,0,karaoke,{\k20}She {\k20}did {\k20}bal{\k45}let
-Comment: 1,0:00:32.00,0:00:34.20,Default,,0,0,0,karaoke,{\k40}What {\k15}more{\k25}~{\k20}can{\k20}~{\k40}I {\k50}say?
-Comment: 1,0:00:35.00,0:00:36.10,Default,,0,0,0,karaoke,{\k20}He {\k20}wan{\k20}ted {\k40}her
-Comment: 1,0:00:36.60,0:00:37.75,Default,,0,0,0,karaoke,{\k20}She'd {\k20}ne{\k20}ver {\k45}tell
-Comment: 1,0:00:38.20,0:00:38.90,Default,,0,0,0,karaoke,{\k20}Sec{\k20}ret{\k20}ly
-Comment: 1,0:00:38.80,0:00:40.65,Default,,0,0,0,karaoke,{\k35}She {\k20}wan{\k20}ted {\k45}him {\k20}as {\k35}well
-Comment: 1,0:00:41.20,0:00:42.50,Default,,0,0,0,karaoke,{\k20}But {\k20}all {\k20}of {\k20}her {\k40}friends
-Comment: 1,0:00:43.00,0:00:44.15,Default,,0,0,0,karaoke,{\k20}Stuck {\k20}up {\k20}their {\k45}nose
-Comment: 1,0:00:44.60,0:00:45.90,Default,,0,0,0,karaoke,{\k20}They {\k20}had {\k20}a {\k40}prob{\k20}lem
-Comment: 1,0:00:45.80,0:00:47.45,Default,,0,0,0,karaoke,{\k20}With {\k40}his {\k20}bag{\k20}gy {\k10}clothes{\k10}~{\k35}~
-Comment: 1,0:00:47.80,0:00:49.20,Default,,0,0,0,karaoke,{\k20}He {\k20}was {\k20}a {\k20}ska{\k20}ter {\k30}boy
-Comment: 1,0:00:49.20,0:00:51.00,Default,,0,0,0,karaoke,{\k20}She {\k20}said {\k20}see {\k20}you {\k20}la{\k20}ter {\k50}boy
-Comment: 1,0:00:51.00,0:00:53.75,Default,,0,0,0,karaoke,{\k20}He {\k20}was{\k20}n't {\k40}good {\k40}e{\k40}nough {\k40}for {\k45}her
-Comment: 1,0:00:54.20,0:00:55.60,Default,,0,0,0,karaoke,{\k20}She {\k20}had {\k20}a {\k20}pret{\k20}ty {\k30}face
-Comment: 1,0:00:55.60,0:00:57.20,Default,,0,0,0,karaoke,{\k20}But {\k20}her {\k20}head {\k20}was {\k20}up {\k20}in {\k30}space
-Comment: 1,0:00:57.20,0:00:58.10,Default,,0,0,0,karaoke,{\k20}She {\k20}need{\k20}ed {\k20}to
-Comment: 1,0:00:58.00,0:01:02.40,Default,,0,0,0,karaoke,{\k40}Come {\k40}back {\k40}down {\k40}to {\k40}earth{\k20}~{\k20}~{\k140}~{\k10}~{\k10}~{\k30}~
-Comment: 1,0:01:03.80,0:01:04.95,Default,,0,0,0,karaoke,{\k20}Five {\k20}years {\k20}from {\k45}now
-Comment: 1,0:01:05.40,0:01:06.55,Default,,0,0,0,karaoke,{\k20}She {\k20}sits {\k20}at {\k45}home
-Comment: 1,0:01:07.00,0:01:07.70,Default,,0,0,0,karaoke,{\k20}Feed{\k20}ing {\k20}the
-Comment: 1,0:01:07.60,0:01:09.60,Default,,0,0,0,karaoke,{\k40}Ba{\k20}by {\k20}she's {\k40}all {\k20}a{\k50}lone
-Comment: 1,0:01:10.00,0:01:11.25,Default,,0,0,0,karaoke,{\k20}She {\k20}turns {\k20}on {\k20}T {\k35}V
-Comment: 1,0:01:11.80,0:01:12.90,Default,,0,0,0,karaoke,{\k20}Guess {\k20}who {\k20}she {\k40}sees
-Comment: 1,0:01:13.40,0:01:14.10,Default,,0,0,0,karaoke,{\k20}Ska{\k20}ter {\k20}boy
-Comment: 1,0:01:14.00,0:01:15.91,Default,,0,0,0,karaoke,{\k40}Rock{\k20}in' {\k20}up {\k40}M {\k20}T {\k40}V
-Comment: 1,0:01:16.41,0:01:17.71,Default,,0,0,0,karaoke,{\k20}She {\k20}calls {\k20}up {\k20}her {\k40}friends
-Comment: 1,0:01:18.01,0:01:19.31,Default,,0,0,0,karaoke,{\k20}They {\k20}al{\k20}rea{\k20}dy {\k40}know
-Comment: 1,0:01:19.61,0:01:20.51,Default,,0,0,0,karaoke,{\k20}And {\k20}they've {\k20}all {\k20}got
-Comment: 1,0:01:20.41,0:01:22.21,Default,,0,0,0,karaoke,{\k40}Tic{\k20}kets {\k20}to {\k40}see {\k20}his {\k30}show
-Comment: 1,0:01:23.01,0:01:24.11,Default,,0,0,0,karaoke,{\k20}She {\k20}tags {\k20}a{\k40}long
-Comment: 1,0:01:24.61,0:01:25.71,Default,,0,0,0,karaoke,{\k20}Stands {\k20}in {\k20}the {\k40}crowd
-Comment: 1,0:01:25.61,0:01:26.86,Default,,0,0,0,karaoke,{\k20}Looks {\k20}up {\k20}at {\k20}the {\k35}man
-Comment: 1,0:01:26.81,0:01:29.96,Default,,0,0,0,karaoke,{\k20}That {\k40}she {\k40}turned {\k20}down{\k20}~{\k110}~{\k20}~{\k35}~
-Comment: 1,0:01:31.01,0:01:32.41,Default,,0,0,0,karaoke,{\k20}He {\k20}was {\k20}a {\k20}ska{\k20}ter {\k30}boy
-Comment: 1,0:01:32.41,0:01:34.21,Default,,0,0,0,karaoke,{\k20}She {\k20}said {\k20}see {\k20}you {\k20}la{\k20}ter {\k50}boy
-Comment: 1,0:01:34.21,0:01:36.96,Default,,0,0,0,karaoke,{\k20}He {\k20}was{\k20}n't {\k40}good {\k40}e{\k40}nough {\k40}for {\k45}her
-Comment: 1,0:01:37.41,0:01:38.81,Default,,0,0,0,karaoke,{\k20}Now {\k20}he's {\k20}a {\k20}su{\k20}per {\k30}star
-Comment: 1,0:01:38.81,0:01:40.41,Default,,0,0,0,karaoke,{\k20}Slam{\k20}~{\k20}ming {\k20}on {\k20}his {\k20}gui{\k30}tar
-Comment: 1,0:01:40.41,0:01:41.56,Default,,0,0,0,karaoke,{\k20}Does {\k20}your {\k20}pret{\k20}ty {\k25}face
-Comment: 1,0:01:41.61,0:01:43.26,Default,,0,0,0,karaoke,{\k40}See {\k40}what {\k40}he's {\k35}worth?
-Comment: 1,0:01:43.81,0:01:45.21,Default,,0,0,0,karaoke,{\k20}He {\k20}was {\k20}a {\k20}ska{\k20}ter {\k30}boy
-Comment: 1,0:01:45.21,0:01:47.01,Default,,0,0,0,karaoke,{\k20}She {\k20}said {\k20}see {\k20}you {\k20}la{\k20}ter {\k50}boy
-Comment: 1,0:01:47.01,0:01:49.76,Default,,0,0,0,karaoke,{\k20}He {\k20}was{\k20}n't {\k40}good {\k40}e{\k40}nough {\k40}for {\k45}her
-Comment: 1,0:01:50.21,0:01:51.61,Default,,0,0,0,karaoke,{\k20}Now {\k20}he's {\k20}a {\k20}su{\k20}per {\k30}star
-Comment: 1,0:01:51.61,0:01:53.21,Default,,0,0,0,karaoke,{\k20}Slam{\k20}~{\k20}ming {\k20}on {\k20}his {\k20}gui{\k30}tar
-Comment: 1,0:01:53.21,0:01:54.36,Default,,0,0,0,karaoke,{\k20}Does {\k20}your {\k20}pret{\k20}ty {\k25}face
-Comment: 1,0:01:54.41,0:01:57.61,Default,,0,0,0,karaoke,{\k40}See {\k40}what {\k40}he's {\k40}worth{\k20}~{\k25}~{\k40}~{\k20}~{\k15}~{\k30}~
-Comment: 1,0:02:12.61,0:02:15.41,Default,,0,0,0,karaoke,{\k20}Sor{\k40}ry {\k40}girl {\k40}but {\k40}you {\k60}missed {\k30}out
-Comment: 1,0:02:15.81,0:02:18.81,Default,,0,0,0,karaoke,{\k20}Well {\k40}tough {\k40}luck {\k40}that {\k40}boy's {\k40}mine{\k20}~{\k50}now
-Comment: 1,0:02:19.01,0:02:22.01,Default,,0,0,0,karaoke,{\k20}We {\k40}are {\k40}more {\k40}than {\k40}just {\k40}good{\k20}~{\k50}friends
-Comment: 1,0:02:22.21,0:02:25.06,Default,,0,0,0,karaoke,{\k20}This {\k40}is {\k40}how {\k40}this {\k20}sto{\k20}~{\k40}ry {\k55}ends
-Comment: 1,0:02:25.41,0:02:28.16,Default,,0,0,0,karaoke,{\k20}Too {\k40}bad {\k40}that {\k40}you {\k40}could{\k40}n't {\k45}see
-Comment: 1,0:02:28.61,0:02:31.62,Default,,0,0,0,karaoke,{\k40}See {\k20}the {\k40}man {\k40}that {\k40}boy {\k40}could{\k20}~{\k50}be
-Comment: 1,0:02:31.82,0:02:34.82,Default,,0,0,0,karaoke,{\k20}There {\k40}is {\k40}more {\k40}than {\k40}meets {\k40}the{\k20}~{\k50}eye
-Comment: 1,0:02:34.82,0:02:37.87,Default,,0,0,0,karaoke,{\k20}I {\k40}see {\k20}the {\k20}soul{\k20}~{\k40}that {\k20}is{\k20}~{\k40}in{\k55}side
-Comment: 1,0:02:38.22,0:02:39.37,Default,,0,0,0,karaoke,{\k20}He's {\k20}just {\k20}a {\k45}boy
-Comment: 1,0:02:39.62,0:02:40.97,Default,,0,0,0,karaoke,{\k20}And {\k20}I'm {\k20}just {\k20}a {\k45}girl
-Comment: 1,0:02:41.22,0:02:42.12,Default,,0,0,0,karaoke,{\k20}Can {\k20}I {\k20}make {\k20}it
-Comment: 1,0:02:42.02,0:02:43.87,Default,,0,0,0,karaoke,{\k40}A{\k20}ny {\k20}more {\k40}ob{\k20}vi{\k35}ous?
-Comment: 1,0:02:44.62,0:02:45.77,Default,,0,0,0,karaoke,{\k20}We {\k20}are {\k20}in {\k45}love
-Comment: 1,0:02:46.22,0:02:47.37,Default,,0,0,0,karaoke,{\k20}Have{\k20}n't {\k20}you {\k45}heard
-Comment: 1,0:02:48.02,0:02:51.57,Default,,0,0,0,karaoke,{\k20}How {\k20}we {\k40}rock {\k40}each {\k40}o{\k40}thers {\k40}world{\k20}~{\k85}- ?
-Comment: 1,0:02:52.62,0:02:54.02,Default,,0,0,0,karaoke,{\k20}I'm {\k20}with {\k20}the {\k20}ska{\k20}ter {\k30}boy
-Comment: 1,0:02:54.02,0:02:55.82,Default,,0,0,0,karaoke,{\k20}I {\k20}said {\k20}see {\k20}you {\k20}la{\k20}ter {\k50}boy
-Comment: 1,0:02:55.82,0:02:58.57,Default,,0,0,0,karaoke,{\k20}I'll {\k20}be {\k20}back {\k40}stage {\k40}af{\k40}ter {\k40}the {\k45}show
-Comment: 1,0:02:58.82,0:03:00.42,Default,,0,0,0,karaoke,{\k20}I'll {\k20}be {\k20}at {\k20}our {\k20}stu{\k20}di{\k30}o
-Comment: 1,0:03:00.62,0:03:02.02,Default,,0,0,0,karaoke,{\k20}Sing{\k20}ing {\k20}the {\k20}song {\k20}we {\k30}wrote
-Comment: 1,0:03:02.22,0:03:04.97,Default,,0,0,0,karaoke,{\k20}A{\k20}bout {\k20}a {\k40}girl {\k40}you {\k40}used {\k40}to {\k45}know
-Comment: 1,0:03:05.42,0:03:06.82,Default,,0,0,0,karaoke,{\k20}I'm {\k20}with {\k20}the {\k20}ska{\k20}ter {\k30}boy
-Comment: 1,0:03:06.82,0:03:08.62,Default,,0,0,0,karaoke,{\k20}I {\k20}said {\k20}see {\k20}you {\k20}la{\k20}ter {\k50}boy
-Comment: 1,0:03:08.62,0:03:11.37,Default,,0,0,0,karaoke,{\k20}I'll {\k20}be {\k20}back {\k40}stage {\k40}af{\k40}ter {\k40}the {\k45}show
-Comment: 1,0:03:11.62,0:03:13.22,Default,,0,0,0,karaoke,{\k20}I'll {\k20}be {\k20}at {\k20}our {\k20}stu{\k20}di{\k30}o
-Comment: 1,0:03:13.42,0:03:14.82,Default,,0,0,0,karaoke,{\k20}Sing{\k20}ing {\k20}the {\k20}song {\k20}we {\k30}wrote
-Comment: 1,0:03:15.02,0:03:15.97,Default,,0,0,0,karaoke,{\k20}A{\k20}bout {\k20}a {\k25}girl
-Comment: 1,0:03:16.02,0:03:19.92,Default,,0,0,0,karaoke,{\k40}You {\k40}used {\k40}to {\k40}know{\k20}~{\k25}~{\k70}~{\k40}~{\k25}~{\k40}~
-Dialogue: 1,0:00:21.30,0:00:23.35,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}He {\k20}was {\k20}a {\k45}boy
-Dialogue: 1,0:00:22.90,0:00:24.95,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}She {\k20}was {\k20}a {\k45}girl
-Dialogue: 1,0:00:24.30,0:00:26.10,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}Can {\k20}I {\k20}make {\k20}it
-Dialogue: 1,0:00:25.10,0:00:27.85,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k40}A{\k20}ny {\k20}more {\k40}ob{\k20}vi {\k35}-ous?
-Dialogue: 1,0:00:27.70,0:00:29.75,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}He {\k20}was {\k20}a {\k45}punk
-Dialogue: 1,0:00:29.30,0:00:31.35,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}She {\k20}did {\k20}bal{\k45}let
-Dialogue: 1,0:00:31.10,0:00:34.20,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k40}What {\k15}more{\k25}~{\k20}can{\k20}~{\k40}I {\k50}say?
-Dialogue: 1,0:00:34.10,0:00:36.10,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}He {\k20}wan{\k20}ted {\k40}her
-Dialogue: 1,0:00:35.70,0:00:37.75,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}She'd {\k20}ne{\k20}ver {\k45}tell
-Dialogue: 1,0:00:37.30,0:00:38.90,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}Sec{\k20}ret{\k20}ly
-Dialogue: 1,0:00:37.90,0:00:40.65,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k35}She {\k20}wan{\k20}ted {\k45}him {\k20}as {\k35}well
-Dialogue: 1,0:00:40.30,0:00:42.50,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}But {\k20}all {\k20}of {\k20}her {\k40}friends
-Dialogue: 1,0:00:42.10,0:00:44.15,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}Stuck {\k20}up {\k20}their {\k45}nose
-Dialogue: 1,0:00:43.70,0:00:45.90,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}They {\k20}had {\k20}a {\k40}prob{\k20}lem
-Dialogue: 1,0:00:44.90,0:00:47.45,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}With {\k40}his {\k20}bag{\k20}gy {\k10}clothes{\k10}~{\k35}~
-Dialogue: 1,0:00:46.90,0:00:49.20,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}He {\k20}was {\k20}a {\k20}ska{\k20}ter {\k30}boy
-Dialogue: 1,0:00:48.30,0:00:51.00,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}She {\k20}said {\k20}see {\k20}you {\k20}la{\k20}ter {\k50}boy
-Dialogue: 1,0:00:50.10,0:00:53.75,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}He {\k20}was{\k20}n't {\k40}good {\k40}e{\k40}nough {\k40}for {\k45}her
-Dialogue: 1,0:00:53.30,0:00:55.60,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}She {\k20}had {\k20}a {\k20}pret{\k20}ty {\k30}face
-Dialogue: 1,0:00:54.70,0:00:57.20,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}But {\k20}her {\k20}head {\k20}was {\k20}up {\k20}in {\k30}space
-Dialogue: 1,0:00:56.30,0:00:58.10,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}She {\k20}need{\k20}ed {\k20}to
-Dialogue: 1,0:00:57.10,0:01:02.40,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k40}Come {\k40}back {\k40}down {\k40}to {\k40}earth{\k20}~{\k20}~{\k140}~{\k10}~{\k10}~{\k30}~
-Dialogue: 1,0:01:02.90,0:01:04.95,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}Five {\k20}years {\k20}from {\k45}now
-Dialogue: 1,0:01:04.50,0:01:06.55,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}She {\k20}sits {\k20}at {\k45}home
-Dialogue: 1,0:01:06.10,0:01:07.70,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}Feed{\k20}ing {\k20}the
-Dialogue: 1,0:01:06.70,0:01:09.60,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k40}Ba{\k20}by {\k20}she's {\k40}all {\k20}a{\k50}lone
-Dialogue: 1,0:01:09.10,0:01:11.25,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}She {\k20}turns {\k20}on {\k20}T {\k35}V
-Dialogue: 1,0:01:10.90,0:01:12.90,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}Guess {\k20}who {\k20}she {\k40}sees
-Dialogue: 1,0:01:12.50,0:01:14.10,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}Ska{\k20}ter {\k20}boy
-Dialogue: 1,0:01:13.10,0:01:15.91,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k40}Rock{\k20}in' {\k20}up {\k40}M {\k20}T {\k40}V
-Dialogue: 1,0:01:15.51,0:01:17.71,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}She {\k20}calls {\k20}up {\k20}her {\k40}friends
-Dialogue: 1,0:01:17.11,0:01:19.31,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}They {\k20}al{\k20}rea{\k20}dy {\k40}know
-Dialogue: 1,0:01:18.71,0:01:20.51,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}And {\k20}they've {\k20}all {\k20}got
-Dialogue: 1,0:01:19.51,0:01:22.21,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k40}Tic{\k20}kets {\k20}to {\k40}see {\k20}his {\k30}show
-Dialogue: 1,0:01:22.11,0:01:24.11,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}She {\k20}tags {\k20}a{\k40}long
-Dialogue: 1,0:01:23.71,0:01:25.71,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}Stands {\k20}in {\k20}the {\k40}crowd
-Dialogue: 1,0:01:24.71,0:01:26.86,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}Looks {\k20}up {\k20}at {\k20}the {\k35}man
-Dialogue: 1,0:01:25.91,0:01:29.96,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}That {\k40}she {\k40}turned {\k20}down{\k20}~{\k110}~{\k20}~{\k35}~
-Dialogue: 1,0:01:30.11,0:01:32.41,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}He {\k20}was {\k20}a {\k20}ska{\k20}ter {\k30}boy
-Dialogue: 1,0:01:31.51,0:01:34.21,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}She {\k20}said {\k20}see {\k20}you {\k20}la{\k20}ter {\k50}boy
-Dialogue: 1,0:01:33.31,0:01:36.96,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}He {\k20}was{\k20}n't {\k40}good {\k40}e{\k40}nough {\k40}for {\k45}her
-Dialogue: 1,0:01:36.51,0:01:38.81,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}Now {\k20}he's {\k20}a {\k20}su{\k20}per {\k30}star
-Dialogue: 1,0:01:37.91,0:01:40.41,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}Slam{\k20}~{\k20}ming {\k20}on {\k20}his {\k20}gui{\k30}tar
-Dialogue: 1,0:01:39.51,0:01:41.56,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}Does {\k20}your {\k20}pret{\k20}ty {\k25}face
-Dialogue: 1,0:01:40.71,0:01:43.26,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k40}See {\k40}what {\k40}he's {\k35}worth?
-Dialogue: 1,0:01:42.91,0:01:45.21,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}He {\k20}was {\k20}a {\k20}ska{\k20}ter {\k30}boy
-Dialogue: 1,0:01:44.31,0:01:47.01,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}She {\k20}said {\k20}see {\k20}you {\k20}la{\k20}ter {\k50}boy
-Dialogue: 1,0:01:46.11,0:01:49.76,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}He {\k20}was{\k20}n't {\k40}good {\k40}e{\k40}nough {\k40}for {\k45}her
-Dialogue: 1,0:01:49.31,0:01:51.61,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}Now {\k20}he's {\k20}a {\k20}su{\k20}per {\k30}star
-Dialogue: 1,0:01:50.71,0:01:53.21,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}Slam{\k20}~{\k20}ming {\k20}on {\k20}his {\k20}gui{\k30}tar
-Dialogue: 1,0:01:52.31,0:01:54.36,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}Does {\k20}your {\k20}pret{\k20}ty {\k25}face
-Dialogue: 1,0:01:53.51,0:01:57.61,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k40}See {\k40}what {\k40}he's {\k40}worth{\k20}~{\k25}~{\k40}~{\k20}~{\k15}~{\k30}~
-Dialogue: 1,0:02:11.71,0:02:15.41,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}Sor{\k40}ry {\k40}girl {\k40}but {\k40}you {\k60}missed {\k30}out
-Dialogue: 1,0:02:14.91,0:02:18.81,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}Well {\k40}tough {\k40}luck {\k40}that {\k40}boy's {\k40}mine{\k20}~{\k50}now
-Dialogue: 1,0:02:18.11,0:02:22.01,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}We {\k40}are {\k40}more {\k40}than {\k40}just {\k40}good{\k20}~{\k50}friends
-Dialogue: 1,0:02:21.31,0:02:25.06,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}This {\k40}is {\k40}how {\k40}this {\k20}sto{\k20}~{\k40}ry {\k55}ends
-Dialogue: 1,0:02:24.51,0:02:28.16,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}Too {\k40}bad {\k40}that {\k40}you {\k40}could{\k40}n't {\k45}see
-Dialogue: 1,0:02:27.71,0:02:31.62,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k40}See {\k20}the {\k40}man {\k40}that {\k40}boy {\k40}could{\k20}~{\k50}be
-Dialogue: 1,0:02:30.92,0:02:34.82,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}There {\k40}is {\k40}more {\k40}than {\k40}meets {\k40}the{\k20}~{\k50}eye
-Dialogue: 1,0:02:33.92,0:02:37.87,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}I {\k40}see {\k20}the {\k20}soul{\k20}~{\k40}that {\k20}is{\k20}~{\k40}in{\k55}side
-Dialogue: 1,0:02:37.32,0:02:39.37,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}He's {\k20}just {\k20}a {\k45}boy
-Dialogue: 1,0:02:38.72,0:02:40.97,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}And {\k20}I'm {\k20}just {\k20}a {\k45}girl
-Dialogue: 1,0:02:40.32,0:02:42.12,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}Can {\k20}I {\k20}make {\k20}it
-Dialogue: 1,0:02:41.12,0:02:43.87,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k40}A{\k20}ny {\k20}more {\k40}ob{\k20}vi{\k35}ous?
-Dialogue: 1,0:02:43.72,0:02:45.77,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}We {\k20}are {\k20}in {\k45}love
-Dialogue: 1,0:02:45.32,0:02:47.37,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}Have{\k20}n't {\k20}you {\k45}heard
-Dialogue: 1,0:02:47.12,0:02:51.57,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}How {\k20}we {\k40}rock {\k40}each {\k40}o{\k40}thers {\k40}world{\k20}~{\k85}- ?
-Dialogue: 1,0:02:51.72,0:02:54.02,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}I'm {\k20}with {\k20}the {\k20}ska{\k20}ter {\k30}boy
-Dialogue: 1,0:02:53.12,0:02:55.82,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}I {\k20}said {\k20}see {\k20}you {\k20}la{\k20}ter {\k50}boy
-Dialogue: 1,0:02:54.92,0:02:58.57,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}I'll {\k20}be {\k20}back {\k40}stage {\k40}af{\k40}ter {\k40}the {\k45}show
-Dialogue: 1,0:02:57.92,0:03:00.42,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}I'll {\k20}be {\k20}at {\k20}our {\k20}stu{\k20}di{\k30}o
-Dialogue: 1,0:02:59.72,0:03:02.02,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}Sing{\k20}ing {\k20}the {\k20}song {\k20}we {\k30}wrote
-Dialogue: 1,0:03:01.32,0:03:04.97,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}A{\k20}bout {\k20}a {\k40}girl {\k40}you {\k40}used {\k40}to {\k45}know
-Dialogue: 1,0:03:04.52,0:03:06.82,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}I'm {\k20}with {\k20}the {\k20}ska{\k20}ter {\k30}boy
-Dialogue: 1,0:03:05.92,0:03:08.62,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}I {\k20}said {\k20}see {\k20}you {\k20}la{\k20}ter {\k50}boy
-Dialogue: 1,0:03:07.72,0:03:11.37,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}I'll {\k20}be {\k20}back {\k40}stage {\k40}af{\k40}ter {\k40}the {\k45}show
-Dialogue: 1,0:03:10.72,0:03:13.22,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}I'll {\k20}be {\k20}at {\k20}our {\k20}stu{\k20}di{\k30}o
-Dialogue: 1,0:03:12.52,0:03:14.82,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}Sing{\k20}ing {\k20}the {\k20}song {\k20}we {\k30}wrote
-Dialogue: 1,0:03:14.12,0:03:15.97,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k20}A{\k20}bout {\k20}a {\k25}girl
-Dialogue: 1,0:03:15.12,0:03:19.92,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k40}You {\k40}used {\k40}to {\k40}know{\k20}~{\k25}~{\k70}~{\k40}~{\k25}~{\k40}~
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:22.11,0:00:23.18,Sample KM [Up],,0,0,0,karaoke,{\k24}He {\k19}was {\k21}a {\k43}boy
+Comment: 0,0:00:23.69,0:00:24.85,Sample KM [Up],,0,0,0,karaoke,{\k26}She {\k19}was {\k23}a {\k48}girl
+Comment: 0,0:00:25.14,0:00:27.92,Sample KM [Up],,0,0,0,karaoke,{\k21}Can {\k19}I {\k22}make {\k21}it {\k40}a{\k17}ny {\k24}more {\k40}ob{\k17}vi{\k57}ous?
+Comment: 0,0:00:28.55,0:00:29.59,Sample KM [Up],,0,0,0,karaoke,{\k21}He {\k17}was {\k21}a {\k45}punk
+Comment: 0,0:00:30.08,0:00:31.27,Sample KM [Up],,0,0,0,karaoke,{\k28}She {\k18}did {\k21}bal{\k52}let
+Comment: 0,0:00:31.94,0:00:34.16,Sample KM [Up],,0,0,0,karaoke,{\k37}What {\k46}more {\k42}can {\k31}I {\k66}say?
+Comment: 0,0:00:34.88,0:00:35.98,Sample KM [Up],,0,0,0,karaoke,{\k25}He {\k22}wan{\k18}ted {\k45}her
+Comment: 0,0:00:36.52,0:00:37.57,Sample KM [Up],,0,0,0,karaoke,{\k23}She'd {\k22}ne{\k14}ver {\k46}tell
+Comment: 0,0:00:38.08,0:00:40.59,Sample KM [Up],,0,0,0,karaoke,{\k27}Se{\k19}cret{\k15}ly {\k44}she {\k21}wan{\k23}ted {\k38}him {\k15}as {\k49}well
+Comment: 0,0:00:41.17,0:00:42.58,Sample KM [Up],,0,0,0,karaoke,{\k17}But {\k21}all {\k21}of {\k17}her {\k65}friends
+Comment: 0,0:00:42.85,0:00:44.17,Sample KM [Up],,0,0,0,karaoke,{\k30}Stuck {\k20}up {\k22}their {\k60}nose
+Comment: 0,0:00:44.54,0:00:45.76,Sample KM [Up],,0,0,0,karaoke,{\k19}They {\k23}had {\k17}a {\k42}pro{\k21}blem
+Comment: 0,0:00:45.76,0:00:47.38,Sample KM [Up],,0,0,0,karaoke,{\k17}With {\k41}his {\k22}bag{\k15}gy {\k67}clothes
+Comment: 0,0:00:47.69,0:00:49.06,Sample KM [Up],,0,0,0,karaoke,{\k28}He {\k18}was {\k19}a {\k23}ska{\k19}ter {\k30}boy
+Comment: 0,0:00:49.08,0:00:50.80,Sample KM [Up],,0,0,0,karaoke,{\k21}She {\k25}said {\k22}see {\k21}you {\k21}la{\k18}ter {\k44}boy
+Comment: 0,0:00:50.92,0:00:53.65,Sample KM [Up],,0,0,0,karaoke,{\k23}He {\k20}wa{\k22}sn't {\k40}good {\k42}e{\k36}nough {\k40}for {\k50}her
+Comment: 0,0:00:54.06,0:00:55.52,Sample KM [Up],,0,0,0,karaoke,{\k30}She {\k23}had {\k17}a {\k21}pret{\k20}ty {\k35}face
+Comment: 0,0:00:55.59,0:00:57.08,Sample KM [Up],,0,0,0,karaoke,{\k18}But {\k19}her {\k20}head {\k16}was {\k24}up {\k23}in {\k29}space
+Comment: 0,0:00:57.08,0:00:58.33,Sample KM [Up],,0,0,0,karaoke,{\k29}She {\k22}nee{\k19}ded {\k16}to {\k39}come
+Comment: 0,0:00:58.33,0:01:02.34,Sample KM [Up],,0,0,0,karaoke,{\k40}Back {\k41}down {\k43}to {\kf277}Earth
+Comment: 0,0:01:03.74,0:01:04.76,Sample KM [Up],,0,0,0,karaoke,{\k22}Five {\k19}years {\k19}from {\k42}now
+Comment: 0,0:01:05.30,0:01:06.43,Sample KM [Up],,0,0,0,karaoke,{\k22}She {\k22}sits {\k21}at {\k48}home
+Comment: 0,0:01:06.90,0:01:09.51,Sample KM [Up],,0,0,0,karaoke,{\k24}Fee{\k22}ding {\k21}the {\k42}ba{\k17}by {\k21}she's {\k42}all {\k18}a{\k54}lone
+Comment: 0,0:01:09.92,0:01:11.17,Sample KM [Up],,0,0,0,karaoke,{\k22}She {\k22}turns {\k21}on {\k22}T{\k38}V
+Comment: 0,0:01:11.76,0:01:12.87,Sample KM [Up],,0,0,0,karaoke,{\k17}Guess {\k20}who {\k21}she {\k53}sees?
+Comment: 0,0:01:13.23,0:01:15.92,Sample KM [Up],,0,0,0,karaoke,{\k33}Ska{\k20}ter {\k24}boy {\k36}ro{\k21}ckin' {\k24}up {\k29}M{\k25}T{\k57}V
+Comment: 0,0:01:16.31,0:01:17.76,Sample KM [Up],,0,0,0,karaoke,{\k23}She {\k22}calls {\k20}up {\k21}her {\k59}friends
+Comment: 0,0:01:17.98,0:01:19.22,Sample KM [Up],,0,0,0,karaoke,{\k16}They {\k19}al{\k24}rea{\k19}dy {\k46}know
+Comment: 0,0:01:19.53,0:01:20.96,Sample KM [Up],,0,0,0,karaoke,{\k21}And {\k21}they've {\k22}all {\k17}got {\k40}ti{\k22}ckets
+Comment: 0,0:01:20.96,0:01:22.27,Sample KM [Up],,0,0,0,karaoke,{\k16}To {\k43}see {\k16}his {\k56}show
+Comment: 0,0:01:22.87,0:01:24.12,Sample KM [Up],,0,0,0,karaoke,{\k26}She {\k23}tags {\k21}a{\k55}long
+Comment: 0,0:01:24.35,0:01:25.54,Sample KM [Up],,0,0,0,karaoke,{\k21}And {\k21}stands {\k19}in {\k16}the {\k42}crowd
+Comment: 0,0:01:25.54,0:01:26.77,Sample KM [Up],,0,0,0,karaoke,{\k16}Looks {\k27}up {\k19}at {\k18}the {\k43}man
+Comment: 0,0:01:26.78,0:01:29.83,Sample KM [Up],,0,0,0,karaoke,{\k15}That {\k42}she {\k44}turned {\kf204}down
+Comment: 0,0:01:30.90,0:01:32.28,Sample KM [Up],,0,0,0,karaoke,{\k25}He {\k18}was {\k22}a {\k24}ska{\k17}ter {\k32}boy
+Comment: 0,0:01:32.28,0:01:34.00,Sample KM [Up],,0,0,0,karaoke,{\k20}She {\k25}said {\k21}see {\k21}you {\k22}la{\k19}ter {\k44}boy
+Comment: 0,0:01:34.13,0:01:36.92,Sample KM [Up],,0,0,0,karaoke,{\k22}He {\k20}wa{\k20}sn't {\k47}good {\k35}e{\k36}nough {\k45}for {\k54}her
+Comment: 0,0:01:37.33,0:01:38.67,Sample KM [Up],,0,0,0,karaoke,{\k29}Now {\k14}he's {\k15}a {\k24}su{\k23}per{\k29}star
+Comment: 0,0:01:38.67,0:01:40.26,Sample KM [Up],,0,0,0,karaoke,{\k28}S{\k20}lam{\k21}min' {\k18}on {\k24}his {\k17}gui{\k31}tar
+Comment: 0,0:01:40.36,0:01:41.53,Sample KM [Up],,0,0,0,karaoke,{\k15}Does {\k24}your {\k21}pret{\k22}ty {\k35}face
+Comment: 0,0:01:41.53,0:01:43.40,Sample KM [Up],,0,0,0,karaoke,{\k38}See {\k43}what {\k40}he's {\k66}worth?
+Comment: 0,0:01:43.77,0:01:45.12,Sample KM [Up],,0,0,0,karaoke,{\k18}He {\k21}was {\k24}a {\k21}ska{\k15}ter {\k36}boy
+Comment: 0,0:01:45.12,0:01:46.72,Sample KM [Up],,0,0,0,karaoke,{\k18}She {\k24}said {\k21}see {\k23}you {\k19}la{\k21}ter {\k34}boy
+Comment: 0,0:01:46.94,0:01:49.69,Sample KM [Up],,0,0,0,karaoke,{\k22}He {\k18}wa{\k22}sn't {\k45}good {\k37}e{\k38}nough {\k36}for {\k57}her
+Comment: 0,0:01:50.15,0:01:51.47,Sample KM [Up],,0,0,0,karaoke,{\k23}Now {\k17}he's {\k16}a {\k26}su{\k20}per{\k30}star
+Comment: 0,0:01:51.53,0:01:53.14,Sample KM [Up],,0,0,0,karaoke,{\k22}S{\k22}lam{\k21}min' {\k17}on {\k23}his {\k18}gui{\k38}tar
+Comment: 0,0:01:53.14,0:01:54.30,Sample KM [Up],,0,0,0,karaoke,{\k21}Does {\k20}your {\k24}pret{\k20}ty {\k31}face
+Comment: 0,0:01:54.30,0:01:57.61,Sample KM [Up],,0,0,0,karaoke,{\k44}See {\k43}what {\k38}he's {\kf206}worth?
+Comment: 0,0:02:12.50,0:02:15.48,Sample KM [Up],,0,0,0,karaoke,{\k33}Sor{\k36}ry {\k38}girl {\k39}but {\k39}you {\k63}missed {\k50}out
+Comment: 0,0:02:15.74,0:02:18.67,Sample KM [Up],,0,0,0,karaoke,{\k23}Well {\k38}tough {\k41}luck {\k40}that {\k41}boy's {\k60}mine {\k50}now
+Comment: 0,0:02:18.93,0:02:21.94,Sample KM [Up],,0,0,0,karaoke,{\k28}We {\k33}are {\k43}more {\k38}than {\k42}just {\k58}good {\k59}friends
+Comment: 0,0:02:22.19,0:02:25.07,Sample KM [Up],,0,0,0,karaoke,{\k14}This {\k44}is {\k41}how {\k38}the {\k43}sto{\k46}ry {\k62}ends
+Comment: 0,0:02:25.33,0:02:28.13,Sample KM [Up],,0,0,0,karaoke,{\k24}Too {\k40}bad {\k36}that {\k36}you {\k49}coul{\k31}dn't {\k64}see
+Comment: 0,0:02:28.52,0:02:31.38,Sample KM [Up],,0,0,0,karaoke,{\k46}See {\k20}the {\k38}man {\k41}that {\k36}boy {\k62}could {\k43}be
+Comment: 0,0:02:31.76,0:02:34.60,Sample KM [Up],,0,0,0,karaoke,{\k25}There {\k33}is {\k43}more {\k36}than {\k43}meets {\k58}the {\k46}eye
+Comment: 0,0:02:34.74,0:02:37.80,Sample KM [Up],,0,0,0,karaoke,{\k16}I {\k47}see {\k15}the {\k46}soul {\k41}that {\k38}is {\k34}in{\k69}side
+Comment: 0,0:02:38.12,0:02:39.27,Sample KM [Up],,0,0,0,karaoke,{\k23}He's {\k25}just {\k17}a {\k50}boy
+Comment: 0,0:02:39.56,0:02:40.94,Sample KM [Up],,0,0,0,karaoke,{\k21}And {\k20}I'm {\k22}just {\k18}a {\k57}girl
+Comment: 0,0:02:41.17,0:02:43.89,Sample KM [Up],,0,0,0,karaoke,{\k19}Can {\k19}I {\k23}make {\k20}it {\k41}a{\k19}ny {\k20}more {\k41}ob{\k20}vi{\k50}ous?
+Comment: 0,0:02:44.53,0:02:45.73,Sample KM [Up],,0,0,0,karaoke,{\k24}We {\k22}are {\k19}in {\k55}love
+Comment: 0,0:02:46.15,0:02:47.30,Sample KM [Up],,0,0,0,karaoke,{\k25}Ha{\k17}ven't {\k21}you {\k52}heard?
+Comment: 0,0:02:47.92,0:02:51.68,Sample KM [Up],,0,0,0,karaoke,{\k26}How {\k20}we {\k41}rock {\k29}each {\k51}o{\k47}ther's {\kf162}world
+Comment: 0,0:02:52.56,0:02:53.95,Sample KM [Up],,0,0,0,karaoke,{\k20}I'm {\k20}with {\k22}the {\k20}ska{\k20}ter {\k37}boy
+Comment: 0,0:02:53.97,0:02:55.60,Sample KM [Up],,0,0,0,karaoke,{\k14}I {\k21}said {\k23}see {\k22}you {\k20}la{\k19}ter {\k44}boy
+Comment: 0,0:02:55.75,0:02:58.48,Sample KM [Up],,0,0,0,karaoke,{\k20}I'll {\k22}be {\k25}back{\k31}stage {\k42}af{\k42}ter {\k30}the {\k61}show
+Comment: 0,0:02:58.75,0:03:00.30,Sample KM [Up],,0,0,0,karaoke,{\k21}I'll {\k22}be {\k21}at {\k23}a {\k19}stu{\k17}di{\k32}o
+Comment: 0,0:03:00.49,0:03:02.00,Sample KM [Up],,0,0,0,karaoke,{\k28}Sin{\k22}ging {\k18}the {\k24}song {\k18}we {\k41}wrote
+Comment: 0,0:03:02.19,0:03:04.93,Sample KM [Up],,0,0,0,karaoke,{\k19}A{\k22}bout {\k18}a {\k40}girl {\k40}you {\k40}used {\k41}to {\k54}know
+Comment: 0,0:03:05.34,0:03:06.74,Sample KM [Up],,0,0,0,karaoke,{\k23}I'm {\k22}with {\k20}the {\k19}ska{\k20}ter {\k36}boy
+Comment: 0,0:03:06.74,0:03:08.47,Sample KM [Up],,0,0,0,karaoke,{\k15}I {\k24}said {\k24}see {\k21}you {\k22}la{\k19}ter {\k48}boy
+Comment: 0,0:03:08.59,0:03:11.37,Sample KM [Up],,0,0,0,karaoke,{\k19}I'll {\k19}be {\k25}back{\k32}stage {\k46}af{\k36}ter {\k33}the {\k68}show
+Comment: 0,0:03:11.55,0:03:13.11,Sample KM [Up],,0,0,0,karaoke,{\k24}I'll {\k21}be {\k18}at {\k17}a {\k24}stu{\k20}di{\k32}o
+Comment: 0,0:03:13.28,0:03:14.76,Sample KM [Up],,0,0,0,karaoke,{\k27}Sin{\k20}ging {\k21}the {\k23}song {\k19}we {\k38}wrote
+Comment: 0,0:03:14.98,0:03:20.05,Sample KM [Up],,0,0,0,karaoke,{\k17}A{\k25}bout {\k18}a {\k40}girl {\k39}you {\k40}used {\k42}to {\kf286}know
+Dialogue: 0,0:00:21.21,0:00:23.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}He {\k19}was {\k21}a {\k43}boy
+Dialogue: 0,0:00:22.79,0:00:25.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}She {\k19}was {\k23}a {\k48}girl
+Dialogue: 0,0:00:24.24,0:00:28.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Can {\k19}I {\k22}make {\k21}it {\k40}a{\k17}ny {\k24}more {\k40}ob{\k17}vi{\k57}ous?
+Dialogue: 0,0:00:27.65,0:00:29.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}He {\k17}was {\k21}a {\k45}punk
+Dialogue: 0,0:00:29.18,0:00:31.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}She {\k18}did {\k21}bal{\k52}let
+Dialogue: 0,0:00:31.04,0:00:34.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}What {\k46}more {\k42}can {\k31}I {\k66}say?
+Dialogue: 0,0:00:33.98,0:00:36.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}He {\k22}wan{\k18}ted {\k45}her
+Dialogue: 0,0:00:35.62,0:00:37.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}She'd {\k22}ne{\k14}ver {\k46}tell
+Dialogue: 0,0:00:37.18,0:00:40.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Se{\k19}cret{\k15}ly {\k44}she {\k21}wan{\k23}ted {\k38}him {\k15}as {\k49}well
+Dialogue: 0,0:00:40.27,0:00:42.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}But {\k21}all {\k21}of {\k17}her {\k65}friends
+Dialogue: 0,0:00:41.95,0:00:44.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Stuck {\k20}up {\k22}their {\k60}nose
+Dialogue: 0,0:00:43.64,0:00:45.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}They {\k23}had {\k17}a {\k42}pro{\k21}blem
+Dialogue: 0,0:00:44.86,0:00:47.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}With {\k41}his {\k22}bag{\k15}gy {\k67}clothes
+Dialogue: 0,0:00:46.79,0:00:49.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}He {\k18}was {\k19}a {\k23}ska{\k19}ter {\k30}boy
+Dialogue: 0,0:00:48.18,0:00:51.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}She {\k25}said {\k22}see {\k21}you {\k21}la{\k18}ter {\k44}boy
+Dialogue: 0,0:00:50.02,0:00:53.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}He {\k20}wa{\k22}sn't {\k40}good {\k42}e{\k36}nough {\k40}for {\k50}her
+Dialogue: 0,0:00:53.16,0:00:55.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}She {\k23}had {\k17}a {\k21}pret{\k20}ty {\k35}face
+Dialogue: 0,0:00:54.69,0:00:57.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}But {\k19}her {\k20}head {\k16}was {\k24}up {\k23}in {\k29}space
+Dialogue: 0,0:00:56.18,0:00:58.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}She {\k22}nee{\k19}ded {\k16}to {\k39}come
+Dialogue: 0,0:00:57.43,0:01:02.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Back {\k41}down {\k43}to {\kf277}Earth
+Dialogue: 0,0:01:02.84,0:01:04.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Five {\k19}years {\k19}from {\k42}now
+Dialogue: 0,0:01:04.40,0:01:06.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}She {\k22}sits {\k21}at {\k48}home
+Dialogue: 0,0:01:06.00,0:01:09.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Fee{\k22}ding {\k21}the {\k42}ba{\k17}by {\k21}she's {\k42}all {\k18}a{\k54}lone
+Dialogue: 0,0:01:09.02,0:01:11.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}She {\k22}turns {\k21}on {\k22}T{\k38}V
+Dialogue: 0,0:01:10.86,0:01:13.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Guess {\k20}who {\k21}she {\k53}sees?
+Dialogue: 0,0:01:12.33,0:01:16.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Ska{\k20}ter {\k24}boy {\k36}ro{\k21}ckin' {\k24}up {\k29}M{\k25}T{\k57}V
+Dialogue: 0,0:01:15.41,0:01:17.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}She {\k22}calls {\k20}up {\k21}her {\k59}friends
+Dialogue: 0,0:01:17.08,0:01:19.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}They {\k19}al{\k24}rea{\k19}dy {\k46}know
+Dialogue: 0,0:01:18.63,0:01:21.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}And {\k21}they've {\k22}all {\k17}got {\k40}ti{\k22}ckets
+Dialogue: 0,0:01:20.06,0:01:22.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}To {\k43}see {\k16}his {\k56}show
+Dialogue: 0,0:01:21.97,0:01:24.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}She {\k23}tags {\k21}a{\k55}long
+Dialogue: 0,0:01:23.45,0:01:25.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}And {\k21}stands {\k19}in {\k16}the {\k42}crowd
+Dialogue: 0,0:01:24.64,0:01:26.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Looks {\k27}up {\k19}at {\k18}the {\k43}man
+Dialogue: 0,0:01:25.88,0:01:30.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}That {\k42}she {\k44}turned {\kf204}down
+Dialogue: 0,0:01:30.00,0:01:32.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}He {\k18}was {\k22}a {\k24}ska{\k17}ter {\k32}boy
+Dialogue: 0,0:01:31.38,0:01:34.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}She {\k25}said {\k21}see {\k21}you {\k22}la{\k19}ter {\k44}boy
+Dialogue: 0,0:01:33.23,0:01:37.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}He {\k20}wa{\k20}sn't {\k47}good {\k35}e{\k36}nough {\k45}for {\k54}her
+Dialogue: 0,0:01:36.43,0:01:38.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Now {\k14}he's {\k15}a {\k24}su{\k23}per{\k29}star
+Dialogue: 0,0:01:37.77,0:01:40.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}S{\k20}lam{\k21}min' {\k18}on {\k24}his {\k17}gui{\k31}tar
+Dialogue: 0,0:01:39.46,0:01:41.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Does {\k24}your {\k21}pret{\k22}ty {\k35}face
+Dialogue: 0,0:01:40.63,0:01:43.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}See {\k43}what {\k40}he's {\k66}worth?
+Dialogue: 0,0:01:42.87,0:01:45.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}He {\k21}was {\k24}a {\k21}ska{\k15}ter {\k36}boy
+Dialogue: 0,0:01:44.22,0:01:46.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}She {\k24}said {\k21}see {\k23}you {\k19}la{\k21}ter {\k34}boy
+Dialogue: 0,0:01:46.04,0:01:49.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}He {\k18}wa{\k22}sn't {\k45}good {\k37}e{\k38}nough {\k36}for {\k57}her
+Dialogue: 0,0:01:49.25,0:01:51.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Now {\k17}he's {\k16}a {\k26}su{\k20}per{\k30}star
+Dialogue: 0,0:01:50.63,0:01:53.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}S{\k22}lam{\k21}min' {\k17}on {\k23}his {\k18}gui{\k38}tar
+Dialogue: 0,0:01:52.24,0:01:54.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Does {\k20}your {\k24}pret{\k20}ty {\k31}face
+Dialogue: 0,0:01:53.40,0:01:57.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}See {\k43}what {\k38}he's {\kf206}worth?
+Dialogue: 0,0:02:11.60,0:02:15.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Sor{\k36}ry {\k38}girl {\k39}but {\k39}you {\k63}missed {\k50}out
+Dialogue: 0,0:02:14.84,0:02:18.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Well {\k38}tough {\k41}luck {\k40}that {\k41}boy's {\k60}mine {\k50}now
+Dialogue: 0,0:02:18.03,0:02:22.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}We {\k33}are {\k43}more {\k38}than {\k42}just {\k58}good {\k59}friends
+Dialogue: 0,0:02:21.29,0:02:25.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}This {\k44}is {\k41}how {\k38}the {\k43}sto{\k46}ry {\k62}ends
+Dialogue: 0,0:02:24.43,0:02:28.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Too {\k40}bad {\k36}that {\k36}you {\k49}coul{\k31}dn't {\k64}see
+Dialogue: 0,0:02:27.62,0:02:31.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}See {\k20}the {\k38}man {\k41}that {\k36}boy {\k62}could {\k43}be
+Dialogue: 0,0:02:30.86,0:02:34.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}There {\k33}is {\k43}more {\k36}than {\k43}meets {\k58}the {\k46}eye
+Dialogue: 0,0:02:33.84,0:02:38.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}I {\k47}see {\k15}the {\k46}soul {\k41}that {\k38}is {\k34}in{\k69}side
+Dialogue: 0,0:02:37.22,0:02:39.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}He's {\k25}just {\k17}a {\k50}boy
+Dialogue: 0,0:02:38.66,0:02:41.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}And {\k20}I'm {\k22}just {\k18}a {\k57}girl
+Dialogue: 0,0:02:40.27,0:02:44.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Can {\k19}I {\k23}make {\k20}it {\k41}a{\k19}ny {\k20}more {\k41}ob{\k20}vi{\k50}ous?
+Dialogue: 0,0:02:43.63,0:02:45.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}We {\k22}are {\k19}in {\k55}love
+Dialogue: 0,0:02:45.25,0:02:47.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Ha{\k17}ven't {\k21}you {\k52}heard?
+Dialogue: 0,0:02:47.02,0:02:51.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}How {\k20}we {\k41}rock {\k29}each {\k51}o{\k47}ther's {\kf162}world
+Dialogue: 0,0:02:51.66,0:02:54.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}I'm {\k20}with {\k22}the {\k20}ska{\k20}ter {\k37}boy
+Dialogue: 0,0:02:53.07,0:02:55.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}I {\k21}said {\k23}see {\k22}you {\k20}la{\k19}ter {\k44}boy
+Dialogue: 0,0:02:54.85,0:02:58.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}I'll {\k22}be {\k25}back{\k31}stage {\k42}af{\k42}ter {\k30}the {\k61}show
+Dialogue: 0,0:02:57.85,0:03:00.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}I'll {\k22}be {\k21}at {\k23}a {\k19}stu{\k17}di{\k32}o
+Dialogue: 0,0:02:59.59,0:03:02.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Sin{\k22}ging {\k18}the {\k24}song {\k18}we {\k41}wrote
+Dialogue: 0,0:03:01.29,0:03:05.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}A{\k22}bout {\k18}a {\k40}girl {\k40}you {\k40}used {\k41}to {\k54}know
+Dialogue: 0,0:03:04.44,0:03:06.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I'm {\k22}with {\k20}the {\k19}ska{\k20}ter {\k36}boy
+Dialogue: 0,0:03:05.84,0:03:08.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}I {\k24}said {\k24}see {\k21}you {\k22}la{\k19}ter {\k48}boy
+Dialogue: 0,0:03:07.69,0:03:11.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I'll {\k19}be {\k25}back{\k32}stage {\k46}af{\k36}ter {\k33}the {\k68}show
+Dialogue: 0,0:03:10.65,0:03:13.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}I'll {\k21}be {\k18}at {\k17}a {\k24}stu{\k20}di{\k32}o
+Dialogue: 0,0:03:12.38,0:03:14.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Sin{\k20}ging {\k21}the {\k23}song {\k19}we {\k38}wrote
+Dialogue: 0,0:03:14.08,0:03:20.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}A{\k25}bout {\k18}a {\k40}girl {\k39}you {\k40}used {\k42}to {\kf286}know
