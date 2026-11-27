@@ -12,68 +12,71 @@ Original Timing: Nabashi
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Luka,Arial,24,&H00FFFFFF,&H0000AFE1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,5,5,20,1
 Style: Hyuna,Arial,24,&H00FFFFFF,&H000C41EA,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
-Style: Sample KM [Up],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Duo,Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Comment: 0,0:00:12.79,0:00:15.64,Hyuna,,0,0,0,karaoke,{\k122}heum {\k44}eum-{\k40}eum {\k35}a{\k44}ga
-Comment: 0,0:00:17.21,0:00:20.46,Hyuna,,0,0,0,karaoke,{\k36}eo{\k118}seo {\k42}jam{\k44}deul {\k44}geo{\k41}la
-Comment: 0,0:00:22.01,0:00:26.55,Hyuna,,0,0,0,karaoke,{\k43}nun-{\k114}eul {\k42}gam-{\k41}eu{\k35}myeon {\k44}nag-{\k42}won{\k25}-e{\k68}seo
-Comment: 0,0:00:26.78,0:00:31.47,Hyuna,,0,0,0,karaoke,{\k48}ttwi{\k74}nol{\k43}geo{\kf304}la
-Comment: 0,0:00:32.01,0:00:34.84,Luka,,0,0,0,karaoke,{\k120}heum {\k38}eum-{\k38}eum {\k44}a{\k43}ga
-Comment: 0,0:00:36.34,0:00:39.89,Luka,,0,0,0,karaoke,{\k48}seu{\k111}leug {\k44}jam{\k39}deul {\k46}geo{\k67}la
-Comment: 0,0:00:41.14,0:00:45.11,Luka,,0,0,0,karaoke,{\k34}geu{\k120}sae {\k51}cho{\k35}la{\k41}han {\k89}dal-{\k27}eun
-Comment: 0,0:00:45.22,0:00:49.91,Luka,,0,0,0,karaoke,{\k81}kkum-{\k35}eul {\k85}kku{\k209}na
-Comment: 0,0:00:51.59,0:00:55.91,Hyuna,,0,0,0,karaoke,{\k44}go{\k37}yo{\k37}ha{\k46}ge {\k40}nae{\k118}li{\k110}neun
-Comment: 0,0:00:56.37,0:01:00.79,Hyuna,,0,0,0,karaoke,{\k46}cha{\k31}di{\k34}chan {\k38}si{\kf268}seon
-Comment: 0,0:01:01.08,0:01:05.56,Luka,,0,0,0,karaoke,{\k90}du{\k46}lyeo{\k33}wo {\k130}tteol-{\k34}eoss{\k168}deon
-Comment: 0,0:01:05.93,0:01:11.15,Sample KM [Up],,0,0,0,karaoke,{\k44}yeo{\k41}lin {\k37}gal{\k30}dae{\k60}cheo{\kf310}leom
-Comment: 0,0:01:12.38,0:01:16.32,Sample KM [Up],,0,0,0,karaoke,{\k37}bu{\k126}deu{\k122}leo{\k109}un
-Comment: 0,0:01:16.41,0:01:21.34,Sample KM [Up],,0,0,0,karaoke,{\k30}ba{\k54}lam-{\k24}i {\k120}chum{\k125}chu{\k140}go
-Comment: 0,0:01:21.95,0:01:25.77,Sample KM [Up],,0,0,0,karaoke,{\k34}gan{\k133}jeol{\k116}ha{\k99}ge
-Comment: 0,0:01:25.87,0:01:30.18,Sample KM [Up],,0,0,0,karaoke,{\k49}sum{\k45}gyeol-{\k37}eul {\k86}seu{\k35}myeo{\k40}deul {\k139}ttae
-Comment: 0,0:01:31.90,0:01:33.88,Sample KM [Up],,0,0,0,karaoke,{\k52}ja{\k34}yeon{\k51}seu{\k61}le
-Comment: 0,0:01:34.40,0:01:36.22,Sample KM [Up],,0,0,0,karaoke,{\k39}pum-{\k35}eul {\k47}geo{\k61}ya
-Comment: 0,0:01:36.78,0:01:43.50,Sample KM [Up],,0,0,0,karaoke,{\k45}no{\k35}lae{\k42}ha{\k81}deon {\k38}ba{\kf431}da
-Comment: 0,0:02:10.76,0:02:15.00,Sample KM [Up],,0,0,0,karaoke,{\k45}gal{\k41}mang-{\k26}e {\k56}jeoj-{\k34}eun {\k117}nal{\k105}gae
-Comment: 0,0:02:15.56,0:02:19.60,Sample KM [Up],,0,0,0,karaoke,{\k49}gyeo{\k36}un{\k31}ae {\k33}pyeol{\kf255}chyeo
-Comment: 0,0:02:20.20,0:02:24.58,Sample KM [Up],,0,0,0,karaoke,{\k98}son{\k44}ba{\k40}dag{\k109}man{\k45}keum{\k102}do
-Comment: 0,0:02:25.07,0:02:30.76,Sample KM [Up],,0,0,0,karaoke,{\k46}mo{\k31}shan {\k36}sae{\k46}ssag{\k60}cheo{\kf350}leom
-Comment: 0,0:02:31.60,0:02:35.13,Hyuna,,0,0,0,karaoke,{\k31}bu{\k130}seu{\k110}leo{\k82}jin
-Comment: 0,0:02:35.48,0:02:40.32,Hyuna,,0,0,0,karaoke,{\k48}seul{\k46}peum-{\k27}i {\k114}chum{\k137}chu{\k112}go
-Comment: 0,0:02:41.10,0:02:45.06,Hyuna,,0,0,0,karaoke,{\k50}mu{\k105}deon{\k130}ha{\k111}ge
-Comment: 0,0:02:45.07,0:02:50.32,Hyuna,,0,0,0,karaoke,{\k52}sae{\k39}byeog-{\k38}eul {\k81}kkae{\k35}lyeo {\k44}hal {\kf236}ttae
-Comment: 0,0:02:51.12,0:02:53.31,Hyuna,,0,0,0,karaoke,{\k46}ja{\k41}yeon{\k44}seu{\k88}le
-Comment: 0,0:02:53.58,0:02:55.61,Hyuna,,0,0,0,karaoke,{\k43}pum-{\k35}eul {\k39}geo{\k86}ya
-Comment: 0,0:02:56.03,0:03:04.87,Hyuna,,0,0,0,karaoke,{\k40}no{\k34}lae{\k44}ha{\k78}deon {\k42}ba{\kf646}da
-Dialogue: 0,0:00:11.89,0:00:15.84,Hyuna,,0,0,0,fx,{\k90\fad(300,200)}{\k122}heum {\k44}eum-{\k40}eum {\k35}a{\k44}ga
-Dialogue: 0,0:00:16.31,0:00:20.66,Hyuna,,0,0,0,fx,{\k90\fad(300,200)}{\k36}eo{\k118}seo {\k42}jam{\k44}deul {\k44}geo{\k41}la
-Dialogue: 0,0:00:21.11,0:00:26.75,Hyuna,,0,0,0,fx,{\k90\fad(300,200)}{\k43}nun-{\k114}eul {\k42}gam-{\k41}eu{\k35}myeon {\k44}nag-{\k42}won{\k25}-e{\k68}seo
-Dialogue: 0,0:00:25.88,0:00:31.67,Hyuna,,0,0,0,fx,{\k90\fad(300,200)}{\k48}ttwi{\k74}nol{\k43}geo{\kf304}la
-Dialogue: 0,0:00:31.11,0:00:35.04,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k120}heum {\k38}eum-{\k38}eum {\k44}a{\k43}ga
-Dialogue: 0,0:00:35.44,0:00:40.09,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k48}seu{\k111}leug {\k44}jam{\k39}deul {\k46}geo{\k67}la
-Dialogue: 0,0:00:40.24,0:00:45.31,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k34}geu{\k120}sae {\k51}cho{\k35}la{\k41}han {\k89}dal-{\k27}eun
-Dialogue: 0,0:00:44.32,0:00:50.11,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k81}kkum-{\k35}eul {\k85}kku{\k209}na
-Dialogue: 0,0:00:50.69,0:00:56.11,Hyuna,,0,0,0,fx,{\k90\fad(300,200)}{\k44}go{\k37}yo{\k37}ha{\k46}ge {\k40}nae{\k118}li{\k110}neun
-Dialogue: 0,0:00:55.47,0:01:00.99,Hyuna,,0,0,0,fx,{\k90\fad(300,200)}{\k46}cha{\k31}di{\k34}chan {\k38}si{\kf268}seon
-Dialogue: 0,0:01:00.18,0:01:05.76,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k90}du{\k46}lyeo{\k33}wo {\k130}tteol-{\k34}eoss{\k168}deon
-Dialogue: 0,0:01:05.03,0:01:11.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}yeo{\k41}lin {\k37}gal{\k30}dae{\k60}cheo{\kf310}leom
-Dialogue: 0,0:01:11.48,0:01:16.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}bu{\k126}deu{\k122}leo{\k109}un
-Dialogue: 0,0:01:15.51,0:01:21.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}ba{\k54}lam-{\k24}i {\k120}chum{\k125}chu{\k140}go
-Dialogue: 0,0:01:21.05,0:01:25.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}gan{\k133}jeol{\k116}ha{\k99}ge
-Dialogue: 0,0:01:24.97,0:01:30.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}sum{\k45}gyeol-{\k37}eul {\k86}seu{\k35}myeo{\k40}deul {\k139}ttae
-Dialogue: 0,0:01:31.00,0:01:34.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}ja{\k34}yeon{\k51}seu{\k61}le
-Dialogue: 0,0:01:33.50,0:01:36.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}pum-{\k35}eul {\k47}geo{\k61}ya
-Dialogue: 0,0:01:35.88,0:01:43.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}no{\k35}lae{\k42}ha{\k81}deon {\k38}ba{\kf431}da
-Dialogue: 0,0:02:09.86,0:02:15.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}gal{\k41}mang-{\k26}e {\k56}jeoj-{\k34}eun {\k117}nal{\k105}gae
-Dialogue: 0,0:02:14.66,0:02:19.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}gyeo{\k36}un{\k31}ae {\k33}pyeol{\kf255}chyeo
-Dialogue: 0,0:02:19.30,0:02:24.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k98}son{\k44}ba{\k40}dag{\k109}man{\k45}keum{\k102}do
-Dialogue: 0,0:02:24.17,0:02:30.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}mo{\k31}shan {\k36}sae{\k46}ssag{\k60}cheo{\kf350}leom
-Dialogue: 0,0:02:30.70,0:02:35.33,Hyuna,,0,0,0,fx,{\k90\fad(300,200)}{\k31}bu{\k130}seu{\k110}leo{\k82}jin
-Dialogue: 0,0:02:34.58,0:02:40.52,Hyuna,,0,0,0,fx,{\k90\fad(300,200)}{\k48}seul{\k46}peum-{\k27}i {\k114}chum{\k137}chu{\k112}go
-Dialogue: 0,0:02:40.20,0:02:45.26,Hyuna,,0,0,0,fx,{\k90\fad(300,200)}{\k50}mu{\k105}deon{\k130}ha{\k111}ge
-Dialogue: 0,0:02:44.17,0:02:50.52,Hyuna,,0,0,0,fx,{\k90\fad(300,200)}{\k52}sae{\k39}byeog-{\k38}eul {\k81}kkae{\k35}lyeo {\k44}hal {\kf236}ttae
-Dialogue: 0,0:02:50.22,0:02:53.51,Hyuna,,0,0,0,fx,{\k90\fad(300,200)}{\k46}ja{\k41}yeon{\k44}seu{\k88}le
-Dialogue: 0,0:02:52.68,0:02:55.81,Hyuna,,0,0,0,fx,{\k90\fad(300,200)}{\k43}pum-{\k35}eul {\k39}geo{\k86}ya
-Dialogue: 0,0:02:55.13,0:03:05.07,Hyuna,,0,0,0,fx,{\k90\fad(300,200)}{\k40}no{\k34}lae{\k44}ha{\k78}deon {\k42}ba{\kf646}da
+Comment: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,0,karaoke,{\k1020}{\k0}{\rHyuna}Hyuna {\2cHFFFFFF}| {\rLuka}Luka {\2cHFFFFFF}| {\rDuo}Duo
+Comment: 0,0:00:00.00,0:00:00.00,Duo,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:14.00,0:00:16.85,Hyuna,,0,0,0,karaoke,{\k122}heum {\k44}eum-{\k44}eum {\k37}a{\k38}ga
+Comment: 0,0:00:18.42,0:00:21.67,Hyuna,,0,0,0,karaoke,{\k41}eo{\k115}seo {\k47}jam{\k39}deul {\k44}geo{\k39}ra
+Comment: 0,0:00:23.22,0:00:27.76,Hyuna,,0,0,0,karaoke,{\k47}nu{\k115}neul {\k41}ga{\k40}meu{\k44}myeon {\k37}na{\k42}gwo{\k34}ne{\k54}seo
+Comment: 0,0:00:27.99,0:00:32.68,Hyuna,,0,0,0,karaoke,{\k48}ttwi{\k80}nol{\k42}geo{\kf299}ra
+Comment: 0,0:00:33.22,0:00:36.05,Luka,,0,0,0,karaoke,{\k126}heum {\k37}eum-{\k38}eum {\k39}a{\k43}ga
+Comment: 0,0:00:37.55,0:00:41.10,Luka,,0,0,0,karaoke,{\k48}seu{\k116}reul {\k44}jam{\k39}deul {\k39}geo{\k69}ra
+Comment: 0,0:00:42.35,0:00:46.32,Luka,,0,0,0,karaoke,{\k44}geu{\k114}sae {\k50}cho{\k39}ra{\k39}han {\k87}da{\k24}reun
+Comment: 0,0:00:46.43,0:00:51.29,Luka,,0,0,0,karaoke,{\k86}kku{\k37}meul {\k81}kku{\kf282}na
+Comment: 0,0:00:52.80,0:00:57.12,Hyuna,,0,0,0,karaoke,{\k44}go{\k42}yo{\k38}ha{\k40}ge {\k43}nae{\kf115}ri{\kf110}neun
+Comment: 0,0:00:57.58,0:01:01.66,Hyuna,,0,0,0,karaoke,{\k51}cha{\k31}di{\k37}chan {\k43}si{\kf246}seon
+Comment: 0,0:01:02.29,0:01:06.57,Luka,,0,0,0,karaoke,{\k96}du{\k44}ryeo{\k38}wo {\kf126}tteo{\k34}reo{\k90}tteon
+Comment: 0,0:01:07.25,0:01:11.91,Duo,,0,0,0,karaoke,{\k38}yeo{\k42}rin {\k40}gal{\k32}dae{\k49}cheo{\kf265}reom
+Comment: 0,0:01:13.67,0:01:17.29,Duo,,0,0,0,karaoke,{\k41}bu{\kf120}deu{\kf120}reo{\k81}un
+Comment: 0,0:01:17.62,0:01:22.23,Duo,,0,0,0,karaoke,{\k44}ba{\k40}ra{\k31}mi {\kf127}chum{\kf119}chu{\kf100}go
+Comment: 0,0:01:23.16,0:01:26.98,Duo,,0,0,0,karaoke,{\k43}gan{\k132}jeol{\kf117}ha{\k90}ge
+Comment: 0,0:01:27.16,0:01:32.59,Duo,,0,0,0,karaoke,{\k49}sum{\k45}gyeo{\k33}reul {\k83}seu{\k36}myeo{\k42}deul {\kf255}ttae
+Comment: 0,0:01:33.18,0:01:35.09,Duo,,0,0,0,karaoke,{\k48}ja{\k32}yeon{\k51}seu{\k60}re
+Comment: 0,0:01:35.61,0:01:37.43,Duo,,0,0,0,karaoke,{\k46}pu{\k36}meul {\k44}geo{\k56}ya
+Comment: 0,0:01:37.99,0:01:44.89,Duo,,0,0,0,karaoke,{\k49}no{\k38}rae{\k40}ha{\k80}deon {\k42}ba{\kf441}da
+Comment: 0,0:02:11.97,0:02:16.21,Duo,,0,0,0,karaoke,{\k45}gal{\k41}man{\k32}ge {\k43}jeo{\k41}jeun {\kf121}nal{\kf101}gae
+Comment: 0,0:02:16.82,0:02:20.81,Duo,,0,0,0,karaoke,{\k46}gyeo{\k39}un{\k31}ae {\k38}pyeol{\kf245}chyeo
+Comment: 0,0:02:21.58,0:02:25.79,Duo,,0,0,0,karaoke,{\k88}son{\k42}ba{\k38}dag{\kf112}man{\k44}keum{\kf97}do
+Comment: 0,0:02:26.42,0:02:31.80,Duo,,0,0,0,karaoke,{\k37}mo{\k40}than {\k36}sae{\k46}ssag{\k48}cheo{\kf331}reom
+Comment: 0,0:02:32.81,0:02:36.34,Hyuna,,0,0,0,karaoke,{\k41}bu{\kf127}seu{\kf110}reo{\k75}jin
+Comment: 0,0:02:36.69,0:02:41.34,Hyuna,,0,0,0,karaoke,{\k48}seul{\k46}peu{\k35}mi {\kf115}chum{\kf133}chu{\k88}go
+Comment: 0,0:02:42.39,0:02:45.99,Hyuna,,0,0,0,karaoke,{\k47}mu{\kf116}deon{\kf120}ha{\k77}ge
+Comment: 0,0:02:46.37,0:02:51.75,Hyuna,,0,0,0,karaoke,{\k49}sae{\k39}byeo{\k39}geul {\k83}kkae{\k37}ryeo {\k41}hal {\kf250}ttae
+Comment: 0,0:02:52.33,0:02:54.38,Hyuna,,0,0,0,karaoke,{\k52}ja{\k35}yeon{\k48}seu{\k70}re
+Comment: 0,0:02:54.79,0:02:56.82,Hyuna,,0,0,0,karaoke,{\k47}pu{\k39}meul {\k38}geo{\k79}ya
+Comment: 0,0:02:57.24,0:03:06.08,Hyuna,,0,0,0,karaoke,{\k44}no{\k35}rae{\k45}ha{\k75}deon {\k43}ba{\kf642}da
+Dialogue: 0,0:00:00.00,0:00:10.20,Sample KM [Down],,0,0,0,fx,{\k0\fad(0,200)}{\k1020}{\k0}{\rHyuna}Hyuna {\2cHFFFFFF}| {\rLuka}Luka {\2cHFFFFFF}| {\rDuo}Duo
+Dialogue: 0,0:00:13.10,0:00:17.05,Hyuna,,0,0,0,fx,{\k90\fad(300,200)}{\k122}heum {\k44}eum-{\k44}eum {\k37}a{\k38}ga
+Dialogue: 0,0:00:17.52,0:00:21.87,Hyuna,,0,0,0,fx,{\k90\fad(300,200)}{\k41}eo{\k115}seo {\k47}jam{\k39}deul {\k44}geo{\k39}ra
+Dialogue: 0,0:00:22.32,0:00:27.96,Hyuna,,0,0,0,fx,{\k90\fad(300,200)}{\k47}nu{\k115}neul {\k41}ga{\k40}meu{\k44}myeon {\k37}na{\k42}gwo{\k34}ne{\k54}seo
+Dialogue: 0,0:00:27.09,0:00:32.88,Hyuna,,0,0,0,fx,{\k90\fad(300,200)}{\k48}ttwi{\k80}nol{\k42}geo{\kf299}ra
+Dialogue: 0,0:00:32.32,0:00:36.25,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k126}heum {\k37}eum-{\k38}eum {\k39}a{\k43}ga
+Dialogue: 0,0:00:36.65,0:00:41.30,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k48}seu{\k116}reul {\k44}jam{\k39}deul {\k39}geo{\k69}ra
+Dialogue: 0,0:00:41.45,0:00:46.52,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k44}geu{\k114}sae {\k50}cho{\k39}ra{\k39}han {\k87}da{\k24}reun
+Dialogue: 0,0:00:45.53,0:00:51.49,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k86}kku{\k37}meul {\k81}kku{\kf282}na
+Dialogue: 0,0:00:51.90,0:00:57.32,Hyuna,,0,0,0,fx,{\k90\fad(300,200)}{\k44}go{\k42}yo{\k38}ha{\k40}ge {\k43}nae{\kf115}ri{\kf110}neun
+Dialogue: 0,0:00:56.68,0:01:01.86,Hyuna,,0,0,0,fx,{\k90\fad(300,200)}{\k51}cha{\k31}di{\k37}chan {\k43}si{\kf246}seon
+Dialogue: 0,0:01:01.39,0:01:06.77,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k96}du{\k44}ryeo{\k38}wo {\kf126}tteo{\k34}reo{\k90}tteon
+Dialogue: 0,0:01:06.35,0:01:12.11,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k38}yeo{\k42}rin {\k40}gal{\k32}dae{\k49}cheo{\kf265}reom
+Dialogue: 0,0:01:12.77,0:01:17.49,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k41}bu{\kf120}deu{\kf120}reo{\k81}un
+Dialogue: 0,0:01:16.72,0:01:22.43,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k44}ba{\k40}ra{\k31}mi {\kf127}chum{\kf119}chu{\kf100}go
+Dialogue: 0,0:01:22.26,0:01:27.18,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k43}gan{\k132}jeol{\kf117}ha{\k90}ge
+Dialogue: 0,0:01:26.26,0:01:32.79,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k49}sum{\k45}gyeo{\k33}reul {\k83}seu{\k36}myeo{\k42}deul {\kf255}ttae
+Dialogue: 0,0:01:32.28,0:01:35.29,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k48}ja{\k32}yeon{\k51}seu{\k60}re
+Dialogue: 0,0:01:34.71,0:01:37.63,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k46}pu{\k36}meul {\k44}geo{\k56}ya
+Dialogue: 0,0:01:37.09,0:01:45.09,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k49}no{\k38}rae{\k40}ha{\k80}deon {\k42}ba{\kf441}da
+Dialogue: 0,0:02:11.07,0:02:16.41,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k45}gal{\k41}man{\k32}ge {\k43}jeo{\k41}jeun {\kf121}nal{\kf101}gae
+Dialogue: 0,0:02:15.92,0:02:21.01,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k46}gyeo{\k39}un{\k31}ae {\k38}pyeol{\kf245}chyeo
+Dialogue: 0,0:02:20.68,0:02:25.99,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k88}son{\k42}ba{\k38}dag{\kf112}man{\k44}keum{\kf97}do
+Dialogue: 0,0:02:25.52,0:02:32.00,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k37}mo{\k40}than {\k36}sae{\k46}ssag{\k48}cheo{\kf331}reom
+Dialogue: 0,0:02:31.91,0:02:36.54,Hyuna,,0,0,0,fx,{\k90\fad(300,200)}{\k41}bu{\kf127}seu{\kf110}reo{\k75}jin
+Dialogue: 0,0:02:35.79,0:02:41.54,Hyuna,,0,0,0,fx,{\k90\fad(300,200)}{\k48}seul{\k46}peu{\k35}mi {\kf115}chum{\kf133}chu{\k88}go
+Dialogue: 0,0:02:41.49,0:02:46.19,Hyuna,,0,0,0,fx,{\k90\fad(300,200)}{\k47}mu{\kf116}deon{\kf120}ha{\k77}ge
+Dialogue: 0,0:02:45.47,0:02:51.95,Hyuna,,0,0,0,fx,{\k90\fad(300,200)}{\k49}sae{\k39}byeo{\k39}geul {\k83}kkae{\k37}ryeo {\k41}hal {\kf250}ttae
+Dialogue: 0,0:02:51.43,0:02:54.58,Hyuna,,0,0,0,fx,{\k90\fad(300,200)}{\k52}ja{\k35}yeon{\k48}seu{\k70}re
+Dialogue: 0,0:02:53.89,0:02:57.02,Hyuna,,0,0,0,fx,{\k90\fad(300,200)}{\k47}pu{\k39}meul {\k38}geo{\k79}ya
+Dialogue: 0,0:02:56.34,0:03:06.28,Hyuna,,0,0,0,fx,{\k90\fad(300,200)}{\k44}no{\k35}rae{\k45}ha{\k75}deon {\k43}ba{\kf642}da
