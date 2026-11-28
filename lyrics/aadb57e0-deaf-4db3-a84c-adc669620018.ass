@@ -1,0 +1,191 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Chain of the Abyss
+Original Timing: karaMoe (automatic)
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H007D7DDC,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:42.30,0:00:47.95,Sample KM [Up],,0,0,0,karaoke,{\k72}Call{\k60}ing {\k49}through {\k16}the {\k62}light, {\k49}I {\k17}will {\k61}find {\kf179}you
+Comment: 0,0:00:47.16,0:00:49.52,Sample KM [Choir],,0,0,0,karaoke,{\k17}I {\k15}will {\k15}see {\k21}your {\k62}eyes {\k18}reach{\k10}ing {\k16}through {\k12}the {\k50}skies
+Comment: 0,0:00:49.74,0:00:51.00,Sample KM [Choir],,0,0,0,karaoke,{\k16}Call{\k8}ing {\k8}to {\k30}me, {\k15}call{\k11}ing {\k10}to {\k28}me
+Comment: 0,0:00:51.00,0:00:52.06,Sample KM [Choir],,0,0,0,karaoke,{\k16}call{\k8}ing {\k8}to {\k28}me, {\k17}call{\k13}ing {\k16}out
+Comment: 0,0:00:52.56,0:00:59.38,Sample KM [Up],,0,0,0,karaoke,{\k69}Jour{\k62}ney {\k50}through {\k18}the {\k62}air, {\k49}through {\k17}the {\k54}sun{\kf287}ri{\k14}se
+Comment: 0,0:00:57.41,0:00:59.68,Sample KM [Choir],,0,0,0,karaoke,{\k15}Next {\k12}two {\k24}thou{\k17}sand {\k52}years {\k27}cy{\k12}cle {\k16}through {\k21}di{\k31}vine
+Comment: 0,0:00:59.68,0:01:02.46,Sample KM [Up],,0,0,0,karaoke,{\kf106}Blee{\k21}ding {\k64}to {\k38}the {\k49}earth
+Comment: 0,0:00:59.68,0:01:01.25,Sample KM [Choir],,0,0,0,karaoke,{\k15}in {\k11}the {\k22}far{\k14}thest {\k18}vor{\k12}tex {\k18}there's {\k17}a {\k12}mai{\k18}den
+Comment: 0,0:01:01.25,0:01:03.37,Sample KM [Choir],,0,0,0,karaoke,{\k17}Call{\k17}ing {\k10}through {\k19}the {\k68}shrine {\k11}ne{\k19}ver {\k51}sleeps
+Comment: 0,0:01:04.98,0:01:06.13,Sample KM [Choir],,0,0,0,karaoke,{\k14}The {\k16}curse {\k17}that {\k13}ne{\k17}ver {\k38}dies
+Comment: 0,0:01:06.01,0:01:07.53,Sample KM [Up],,0,0,0,karaoke,{\k68}Call {\k40}to {\k44}me
+Comment: 0,0:01:06.27,0:01:07.36,Sample KM [Choir],,0,0,0,karaoke,{\k11}the {\k18}cries {\k16}that {\k15}ne{\k18}ver {\k31}fade
+Comment: 0,0:01:07.56,0:01:09.97,Sample KM [Choir],,0,0,0,karaoke,{\k13}The {\k20}proof {\k10}we're {\k16}still {\k13}a{\k37}live, {\k14}I {\k19}can {\k17}see {\k14}it {\k14}in {\k18}your {\k36}eyes
+Comment: 0,0:01:09.97,0:01:11.25,Sample KM [Choir],,0,0,0,karaoke,{\k10}I {\k20}can {\k16}see {\k14}it {\k15}in {\k16}your {\k37}eyes
+Comment: 0,0:01:11.09,0:01:12.55,Sample KM [Up],,0,0,0,karaoke,{\k71}Call {\k38}to {\k37}me
+Comment: 0,0:01:11.26,0:01:12.23,Sample KM [Choir],,0,0,0,karaoke,{\k11}I {\k15}can {\k14}fi{\k9}nal{\k12}ly {\k30}see {\k6}it
+Comment: 0,0:01:22.74,0:01:23.89,Sample KM [Up],,0,0,0,karaoke,{\k20}Fol{\k16}low {\k16}me {\k14}be{\k22}yond {\k10}the {\k17}light
+Comment: 0,0:01:23.89,0:01:25.08,Sample KM [Up],,0,0,0,karaoke,{\k12}I'll {\k23}show {\k14}you {\k15}what {\k16}a{\k39}waits
+Comment: 0,0:01:25.09,0:01:26.45,Sample KM [Up],,0,0,0,karaoke,{\k8}In {\k16}the {\k16}shal{\k19}low {\k15}of {\k12}the {\k16}sa{\k19}cred {\k15}night
+Comment: 0,0:01:26.45,0:01:27.42,Sample KM [Up],,0,0,0,karaoke,{\k16}we {\k18}row {\k12}a{\k20}gainst {\k14}our {\k17}fate
+Comment: 0,0:01:27.46,0:01:29.06,Sample KM [Up],,0,0,0,karaoke,{\k16}I'm {\k10}be{\k10}ing {\k43}dragged {\k14}in {\k17}the {\k14}un{\k17}der{\k19}tow
+Comment: 0,0:01:29.06,0:01:30.16,Sample KM [Up],,0,0,0,karaoke,{\k11}I {\k17}know {\k18}there's {\k15}no {\k16}re{\k33}turn
+Comment: 0,0:01:30.16,0:01:31.46,Sample KM [Up],,0,0,0,karaoke,{\k14}But {\k17}I've {\k19}got {\k14}to {\k17}learn {\k16}the {\k16}an{\k17}swers
+Comment: 0,0:01:31.46,0:01:32.53,Sample KM [Up],,0,0,0,karaoke,{\k12}to {\k12}the {\k21}ques{\k17}tions {\k16}that {\k29}burn
+Comment: 0,0:01:32.58,0:01:33.06,Sample KM [Up],,0,0,0,karaoke,{\k14}Re{\k17}mem{\k17}ber
+Comment: 0,0:01:33.66,0:01:35.84,Sample KM [Up],,0,0,0,karaoke,{\k13}I {\k19}can {\k17}see {\k18}your {\k61}eyes, {\k14}reach{\k15}ing {\k14}through {\k13}the {\k34}skies
+Comment: 0,0:01:35.90,0:01:38.42,Sample KM [Up],,0,0,0,karaoke,{\k17}Through {\k13}a {\k22}vor{\k38}tex {\k8}of {\k19}two {\k24}thou{\k22}sand {\k28}years, {\k19}you {\k42}fly
+Comment: 0,0:01:38.46,0:01:39.45,Sample KM [Up],,0,0,0,karaoke,{\k18}From {\k18}the {\k10}oth{\k18}er {\k35}side
+Comment: 0,0:01:39.74,0:01:41.08,Sample KM [Up],,0,0,0,karaoke,{\k18}some{\k18}thing {\k16}big{\k16}ger {\k13}than {\k21}our {\k32}lives
+Comment: 0,0:01:41.08,0:01:42.03,Sample KM [Up],,0,0,0,karaoke,{\k17}Hang{\k17}ing {\k10}in {\k16}the {\k17}ba{\k18}lance
+Comment: 0,0:01:42.03,0:01:43.64,Sample KM [Up],,0,0,0,karaoke,{\k15}could {\k13}we {\k18}leave {\k20}it {\k11}all {\k10}be{\k40}hind {\k34}still?
+Comment: 0,0:01:43.90,0:01:49.96,Sample KM [Up],,0,0,0,karaoke,{\k69}Fall{\k57}ing {\k48}through {\k20}the {\k63}rain, {\k47}through {\k20}the {\k60}ae{\kf222}ther
+Comment: 0,0:01:50.66,0:01:53.58,Sample KM [Up],,0,0,0,karaoke,{\k17}Di{\k19}sap{\kf107}pear{\k7}ed {\k11}in{\k63}to {\k34}the {\k34}dark
+Comment: 0,0:01:54.00,0:02:00.75,Sample KM [Up],,0,0,0,karaoke,{\k85}Whis{\k61}pers {\k47}through {\k19}the {\k64}night, {\k48}I {\k15}will {\k67}find {\kf269}you
+Comment: 0,0:02:01.22,0:02:03.88,Sample KM [Up],,0,0,0,karaoke,{\k100}Hid{\k28}den {\k70}from {\k33}the {\k35}earth
+Comment: 0,0:02:06.04,0:02:10.66,Sample KM [Up],,0,0,0,karaoke,{\k17}Pa{\k19}ra{\k113}dise, {\k20}I'm {\k58}lea{\k34}ving {\k83}you, {\k79}twist{\k39}ed
+Comment: 0,0:02:11.26,0:02:14.08,Sample KM [Up],,0,0,0,karaoke,{\k27}An {\k16}e{\k49}cho {\k50}of {\k13}the {\k64}far{\k34}thest {\k29}reach
+Comment: 0,0:02:15.04,0:02:18.51,Sample KM [Up],,0,0,0,karaoke,{\k33}The {\k33}whis{\k59}per, {\k39}the {\k33}whis{\k62}per, {\k14}of {\k16}a {\k58}voice
+Comment: 0,0:02:14.42,0:02:15.43,Sample KM [Choir],,0,0,0,karaoke,{\k18}Next {\k14}two {\k16}thou{\k15}sand {\k38}years
+Comment: 0,0:02:15.67,0:02:16.65,Sample KM [Choir],,0,0,0,karaoke,{\k21}Cy{\k11}cle {\k20}through {\k14}di{\k32}vine
+Comment: 0,0:02:16.66,0:02:18.21,Sample KM [Choir],,0,0,0,karaoke,{\k13}In {\k17}the {\k18}far{\k15}thest {\k18}vor{\k12}tex {\k23}there's {\k14}a {\k10}mai{\k15}den
+Comment: 0,0:02:18.59,0:02:19.93,Sample KM [Up],,0,0,0,karaoke,{\k17}"Fall {\k15}to {\k15}me", {\k18}though {\k35}dis{\k34}tant
+Comment: 0,0:02:18.24,0:02:19.21,Sample KM [Choir],,0,0,0,karaoke,{\k19}Call{\k14}ing {\k17}through {\k10}the {\k37}shrine
+Comment: 0,0:02:20.20,0:02:23.54,Sample KM [Up],check: weak match,0,0,0,karaoke,{\k27}The {\k33}cry{\k67}ing, {\k30}the {\k38}cry{\k59}ing, {\k26}a {\k38}pra{\k16}yer
+Comment: 0,0:02:19.39,0:02:20.52,Sample KM [Choir],check: weak match,0,0,0,karaoke,{\k20}The {\k17}curse {\k13}that {\k15}ne{\k15}ver {\k33}dies
+Comment: 0,0:02:20.68,0:02:21.83,Sample KM [Choir],check: weak match,0,0,0,karaoke,{\k13}The {\k17}cries {\k17}that {\k13}ne{\k19}ver {\k36}fade
+Comment: 0,0:02:21.83,0:02:23.07,Sample KM [Choir],check: weak match,0,0,0,karaoke,{\k10}I {\k20}can {\k19}see {\k11}it {\k14}in {\k15}your {\k35}eyes
+Comment: 0,0:02:23.54,0:02:24.87,Sample KM [Up],check: weak match + crammed syllables,0,0,0,karaoke,{\k19}u{\k18}pon {\k13}a {\k16}gol{\k17}den {\k50}land
+Comment: 0,0:02:23.09,0:02:24.34,Sample KM [Choir],check: weak match,0,0,0,karaoke,{\k16}Long{\k15}ing {\k13}for {\k12}a {\k25}time {\k16}to {\k28}say
+Comment: 0,0:02:25.29,0:02:27.26,Sample KM [Up],,0,0,0,karaoke,{\k30}You're {\k38}dy{\k64}ing, {\k16}but {\k49}I
+Comment: 0,0:02:24.69,0:02:25.37,Sample KM [Choir],check: weak match,0,0,0,karaoke,{\k15}Ne{\k15}ver {\k38}sleep
+Comment: 0,0:02:27.88,0:02:29.54,Sample KM [Up],check: weak match,0,0,0,karaoke,{\k31}I'm {\k34}go{\k13}ing {\k16}to {\k34}see {\k17}the {\k21}end
+Comment: 0,0:02:27.55,0:02:29.54,Sample KM [Choir],check: weak match,0,0,0,karaoke,{\k18}call{\k16}ing {\k22}to {\k9}me, {\k22}call{\k10}ing {\k19}to {\k11}me, {\k17}call{\k16}ing {\k21}to {\k18}me
+Comment: 0,0:02:39.72,0:02:40.75,Sample KM [Up],,0,0,0,karaoke,{\k22}Fol{\k21}low {\k10}me {\k12}to {\k19}wreck{\k19}age
+Comment: 0,0:02:40.75,0:02:42.19,Sample KM [Up],,0,0,0,karaoke,{\k16}that {\k14}is {\k18}beck{\k16}on{\k11}ing {\k16}us {\k37}slow{\k16}ly
+Comment: 0,0:02:42.19,0:02:43.32,Sample KM [Up],,0,0,0,karaoke,{\k17}To {\k19}fear {\k12}and {\k16}ap{\k12}pre{\k19}hen{\k18}sion
+Comment: 0,0:02:43.32,0:02:44.73,Sample KM [Up],,0,0,0,karaoke,{\k15}and {\k11}the {\k23}truth {\k13}of {\k15}the {\k16}un{\k30}ho{\k18}ly
+Comment: 0,0:02:44.90,0:02:45.98,Sample KM [Up],,0,0,0,karaoke,{\k14}All {\k20}us {\k15}sin{\k13}ners {\k18}at {\k14}the {\k14}edge
+Comment: 0,0:02:45.98,0:02:47.30,Sample KM [Up],,0,0,0,karaoke,{\k17}of {\k18}some{\k16}thing {\k18}that's {\k16}un{\k33}fold{\k14}ing
+Comment: 0,0:02:47.30,0:02:48.60,Sample KM [Up],,0,0,0,karaoke,{\k19}An{\k15}xi{\k13}e{\k14}ty {\k10}and {\k22}ec{\k21}sta{\k16}sy
+Comment: 0,0:02:48.60,0:02:50.02,Sample KM [Up],,0,0,0,karaoke,{\k15}but {\k18}won't {\k16}some{\k14}bo{\k15}dy {\k34}hold {\k30}me?
+Comment: 0,0:02:50.67,0:02:52.88,Sample KM [Up],,0,0,0,karaoke,{\k14}I {\k18}can {\k15}see {\k17}your {\k63}eyes, {\k19}call{\k13}ing {\k14}through {\k15}the {\k33}skies
+Comment: 0,0:02:52.93,0:02:55.38,Sample KM [Up],,0,0,0,karaoke,{\k13}Through {\k17}a {\k20}vor{\k32}tex {\k13}of {\k22}two {\k26}thou{\k19}sand {\k24}years, {\k20}I {\kf39}fly
+Comment: 0,0:02:55.78,0:02:56.90,Sample KM [Up],,0,0,0,karaoke,{\k16}Let {\k18}me {\k14}see {\k21}your {\k64}eyes
+Comment: 0,0:02:57.11,0:02:58.35,Sample KM [Up],,0,0,0,karaoke,{\k14}reach{\k17}ing {\k16}through {\k17}the {\k24}mael{\k36}strom
+Comment: 0,0:02:58.57,0:03:00.38,Sample KM [Up],,0,0,0,karaoke,{\k27}End{\k21}less {\k17}long{\k10}ing {\k16}for {\k12}the {\k36}time {\k17}to {\k25}feel
+Comment: 0,0:03:00.46,0:03:01.67,Sample KM [Up],,0,0,0,karaoke,{\k12}The {\k24}curse {\k14}that {\k14}ne{\k14}ver {\k43}dies
+Comment: 0,0:03:01.78,0:03:02.92,Sample KM [Up],,0,0,0,karaoke,{\k12}the {\k23}cries {\k13}that {\k14}ne{\k16}ver {\k36}fade
+Comment: 0,0:03:03.06,0:03:04.48,Sample KM [Up],,0,0,0,karaoke,{\k15}The {\k15}fi{\k17}nal {\k15}mo{\k19}ments {\k10}in {\k18}a {\k19}jour{\k14}ney
+Comment: 0,0:03:04.48,0:03:05.66,Sample KM [Up],,0,0,0,karaoke,{\k15}I {\k13}can {\k17}ne{\k18}ver {\k31}find, {\k24}but
+Comment: 0,0:03:06.08,0:03:08.32,Sample KM [Up],,0,0,0,karaoke,{\k13}I {\k18}can {\k15}see {\k18}your {\k65}eyes, {\k13}pee{\k16}ring {\k17}deep {\k16}in{\k33}side
+Comment: 0,0:03:08.48,0:03:10.74,Sample KM [Up],,0,0,0,karaoke,{\k16}The {\k19}chain {\k16}of {\k13}the {\k16}a{\k32}byss {\k18}call{\k16}in' {\k20}out {\k27}to {\k33}me
+Comment: 0,0:03:10.88,0:03:12.12,Sample KM [Up],check: weak match,0,0,0,karaoke,{\k17}Call{\k9}ing {\k8}to {\k30}me, {\k16}call{\k6}ing {\k11}to {\k27}me
+Comment: 0,0:03:12.12,0:03:13.27,Sample KM [Up],check: weak match,0,0,0,karaoke,{\k17}call{\k10}ing {\k9}to {\k22}me {\k23}right {\k34}now
+Comment: 0,0:03:13.64,0:03:15.79,Sample KM [Up],,0,0,0,karaoke,{\k12}The {\k20}jour{\k15}ney {\k15}is {\k14}the {\k20}end {\k17}that {\k11}we {\k17}can {\k15}ne{\k15}ver {\k44}find
+Comment: 0,0:03:16.00,0:03:17.80,Sample KM [Up],,0,0,0,karaoke,{\k18}Call{\k6}ing {\k10}to {\k26}me, {\k20}call{\k8}ing {\k10}to {\k30}you, {\k18}call{\k6}ing {\k10}to {\k18}me
+Comment: 0,0:03:17.82,0:03:20.01,Sample KM [Up],,0,0,0,karaoke,{\k27}There's {\k18}no {\k29}light {\k16}at {\k28}the {\k18}end {\k21}of {\k15}the {\k26}dark{\k21}ness
+Comment: 0,0:03:20.01,0:03:21.50,Sample KM [Up],,0,0,0,karaoke,{\k15}it's {\k34}clear {\k12}to {\k20}see {\k68}now
+Comment: 0,0:03:21.47,0:03:23.37,Sample KM [Up],,0,0,0,karaoke,{\k22}Fall {\k10}in{\k16}to {\k14}the {\k20}bot{\k16}tom {\k14}of {\k24}the {\k26}un{\k28}known
+Comment: 0,0:03:23.40,0:03:24.52,Sample KM [Up],,0,0,0,karaoke,{\k16}Ac{\k14}ci{\k20}den{\k14}tal{\k18}ly, {\k10}we {\k20}gave
+Comment: 0,0:03:24.52,0:03:26.10,Sample KM [Up],,0,0,0,karaoke,{\k14}the {\k22}dark{\k20}ness {\k10}in {\k15}our {\k37}hearts {\k12}a {\k28}home
+Comment: 0,0:03:26.11,0:03:27.54,Sample KM [Up],,0,0,0,karaoke,{\k19}You'd {\k15}ne{\k14}ver {\k18}let {\k11}me {\k22}die {\k23}a{\k21}lone
+Comment: 0,0:03:27.69,0:03:29.48,Sample KM [Up],,0,0,0,karaoke,{\k12}It's {\k8}a {\k20}pro{\k30}mise {\k13}that'll {\k15}e{\k18}cho {\k13}through {\k19}the {\k31}wind
+Comment: 0,0:03:29.49,0:03:30.79,Sample KM [Up],,0,0,0,karaoke,{\k12}On {\k18}this {\k23}sub{\k27}ject{\k18}less {\k42}throne
+Comment: 0,0:03:30.79,0:03:31.36,Sample KM [Up],,0,0,0,karaoke,{\k15}I {\kf42}wait
+Comment: 0,0:03:41.92,0:03:47.86,Sample KM [Up],,0,0,0,karaoke,{\k80}Cal{\k56}ling {\k47}through {\k20}the {\k67}light, {\k41}I {\k17}will {\k67}find {\kf199}you
+Comment: 0,0:03:48.94,0:03:57.14,Sample KM [Up],check: hold cut short,0,0,0,karaoke,{\k149}Call{\k78}ing {\k75}to {\kf518}me
+Dialogue: 0,0:00:41.40,0:00:48.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k72}Call{\k60}ing {\k49}through {\k16}the {\k62}light, {\k49}I {\k17}will {\k61}find {\kf179}you
+Dialogue: 0,0:00:46.26,0:00:49.72,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k15}will {\k15}see {\k21}your {\k62}eyes {\k18}reach{\k10}ing {\k16}through {\k12}the {\k50}skies
+Dialogue: 0,0:00:48.84,0:00:51.20,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Call{\k8}ing {\k8}to {\k30}me, {\k15}call{\k11}ing {\k10}to {\k28}me
+Dialogue: 0,0:00:50.10,0:00:52.26,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k16}call{\k8}ing {\k8}to {\k28}me, {\k17}call{\k13}ing {\k16}out
+Dialogue: 0,0:00:51.66,0:00:59.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k69}Jour{\k62}ney {\k50}through {\k18}the {\k62}air, {\k49}through {\k17}the {\k54}sun{\kf287}ri{\k14}se
+Dialogue: 0,0:00:56.51,0:00:59.88,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Next {\k12}two {\k24}thou{\k17}sand {\k52}years {\k27}cy{\k12}cle {\k16}through {\k21}di{\k31}vine
+Dialogue: 0,0:00:58.78,0:01:02.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf106}Blee{\k21}ding {\k64}to {\k38}the {\k49}earth
+Dialogue: 0,0:00:58.78,0:01:01.45,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k15}in {\k11}the {\k22}far{\k14}thest {\k18}vor{\k12}tex {\k18}there's {\k17}a {\k12}mai{\k18}den
+Dialogue: 0,0:01:00.35,0:01:03.57,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Call{\k17}ing {\k10}through {\k19}the {\k68}shrine {\k11}ne{\k19}ver {\k51}sleeps
+Dialogue: 0,0:01:04.08,0:01:06.33,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k14}The {\k16}curse {\k17}that {\k13}ne{\k17}ver {\k38}dies
+Dialogue: 0,0:01:05.11,0:01:07.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k68}Call {\k40}to {\k44}me
+Dialogue: 0,0:01:05.37,0:01:07.56,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k11}the {\k18}cries {\k16}that {\k15}ne{\k18}ver {\k31}fade
+Dialogue: 0,0:01:06.66,0:01:10.17,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k13}The {\k20}proof {\k10}we're {\k16}still {\k13}a{\k37}live, {\k14}I {\k19}can {\k17}see {\k14}it {\k14}in {\k18}your {\k36}eyes
+Dialogue: 0,0:01:09.07,0:01:11.45,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k10}I {\k20}can {\k16}see {\k14}it {\k15}in {\k16}your {\k37}eyes
+Dialogue: 0,0:01:10.19,0:01:12.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k71}Call {\k38}to {\k37}me
+Dialogue: 0,0:01:10.36,0:01:12.43,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k11}I {\k15}can {\k14}fi{\k9}nal{\k12}ly {\k30}see {\k6}it
+Dialogue: 0,0:01:21.84,0:01:24.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Fol{\k16}low {\k16}me {\k14}be{\k22}yond {\k10}the {\k17}light
+Dialogue: 0,0:01:22.99,0:01:25.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}I'll {\k23}show {\k14}you {\k15}what {\k16}a{\k39}waits
+Dialogue: 0,0:01:24.19,0:01:26.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k8}In {\k16}the {\k16}shal{\k19}low {\k15}of {\k12}the {\k16}sa{\k19}cred {\k15}night
+Dialogue: 0,0:01:25.55,0:01:27.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}we {\k18}row {\k12}a{\k20}gainst {\k14}our {\k17}fate
+Dialogue: 0,0:01:26.56,0:01:29.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}I'm {\k10}be{\k10}ing {\k43}dragged {\k14}in {\k17}the {\k14}un{\k17}der{\k19}tow
+Dialogue: 0,0:01:28.16,0:01:30.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}I {\k17}know {\k18}there's {\k15}no {\k16}re{\k33}turn
+Dialogue: 0,0:01:29.26,0:01:31.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}But {\k17}I've {\k19}got {\k14}to {\k17}learn {\k16}the {\k16}an{\k17}swers
+Dialogue: 0,0:01:30.56,0:01:32.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}to {\k12}the {\k21}ques{\k17}tions {\k16}that {\k29}burn
+Dialogue: 0,0:01:31.68,0:01:33.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Re{\k17}mem{\k17}ber
+Dialogue: 0,0:01:32.76,0:01:36.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}I {\k19}can {\k17}see {\k18}your {\k61}eyes, {\k14}reach{\k15}ing {\k14}through {\k13}the {\k34}skies
+Dialogue: 0,0:01:35.00,0:01:38.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Through {\k13}a {\k22}vor{\k38}tex {\k8}of {\k19}two {\k24}thou{\k22}sand {\k28}years, {\k19}you {\k42}fly
+Dialogue: 0,0:01:37.56,0:01:39.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}From {\k18}the {\k10}oth{\k18}er {\k35}side
+Dialogue: 0,0:01:38.84,0:01:41.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}some{\k18}thing {\k16}big{\k16}ger {\k13}than {\k21}our {\k32}lives
+Dialogue: 0,0:01:40.18,0:01:42.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Hang{\k17}ing {\k10}in {\k16}the {\k17}ba{\k18}lance
+Dialogue: 0,0:01:41.13,0:01:43.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}could {\k13}we {\k18}leave {\k20}it {\k11}all {\k10}be{\k40}hind {\k34}still?
+Dialogue: 0,0:01:43.00,0:01:50.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k69}Fall{\k57}ing {\k48}through {\k20}the {\k63}rain, {\k47}through {\k20}the {\k60}ae{\kf222}ther
+Dialogue: 0,0:01:49.76,0:01:53.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Di{\k19}sap{\kf107}pear{\k7}ed {\k11}in{\k63}to {\k34}the {\k34}dark
+Dialogue: 0,0:01:53.10,0:02:00.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k85}Whis{\k61}pers {\k47}through {\k19}the {\k64}night, {\k48}I {\k15}will {\k67}find {\kf269}you
+Dialogue: 0,0:02:00.32,0:02:04.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k100}Hid{\k28}den {\k70}from {\k33}the {\k35}earth
+Dialogue: 0,0:02:05.14,0:02:10.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Pa{\k19}ra{\k113}dise, {\k20}I'm {\k58}lea{\k34}ving {\k83}you, {\k79}twist{\k39}ed
+Dialogue: 0,0:02:10.36,0:02:14.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}An {\k16}e{\k49}cho {\k50}of {\k13}the {\k64}far{\k34}thest {\k29}reach
+Dialogue: 0,0:02:14.14,0:02:18.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}The {\k33}whis{\k59}per, {\k39}the {\k33}whis{\k62}per, {\k14}of {\k16}a {\k58}voice
+Dialogue: 0,0:02:13.52,0:02:15.63,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Next {\k14}two {\k16}thou{\k15}sand {\k38}years
+Dialogue: 0,0:02:14.77,0:02:16.85,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Cy{\k11}cle {\k20}through {\k14}di{\k32}vine
+Dialogue: 0,0:02:15.76,0:02:18.41,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k13}In {\k17}the {\k18}far{\k15}thest {\k18}vor{\k12}tex {\k23}there's {\k14}a {\k10}mai{\k15}den
+Dialogue: 0,0:02:17.69,0:02:20.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}"Fall {\k15}to {\k15}me", {\k18}though {\k35}dis{\k34}tant
+Dialogue: 0,0:02:17.34,0:02:19.41,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Call{\k14}ing {\k17}through {\k10}the {\k37}shrine
+Dialogue: 0,0:02:19.30,0:02:23.74,Sample KM [Up],check: weak match,0,0,0,fx,{\k90\fad(300,200)}{\k27}The {\k33}cry{\k67}ing, {\k30}the {\k38}cry{\k59}ing, {\k26}a {\k38}pra{\k16}yer
+Dialogue: 0,0:02:18.49,0:02:20.72,Sample KM [Choir],check: weak match,0,0,0,fx,{\k90\fad(300,200)}{\k20}The {\k17}curse {\k13}that {\k15}ne{\k15}ver {\k33}dies
+Dialogue: 0,0:02:19.78,0:02:22.03,Sample KM [Choir],check: weak match,0,0,0,fx,{\k90\fad(300,200)}{\k13}The {\k17}cries {\k17}that {\k13}ne{\k19}ver {\k36}fade
+Dialogue: 0,0:02:20.93,0:02:23.27,Sample KM [Choir],check: weak match,0,0,0,fx,{\k90\fad(300,200)}{\k10}I {\k20}can {\k19}see {\k11}it {\k14}in {\k15}your {\k35}eyes
+Dialogue: 0,0:02:22.64,0:02:25.07,Sample KM [Up],check: weak match + crammed syllables,0,0,0,fx,{\k90\fad(300,200)}{\k19}u{\k18}pon {\k13}a {\k16}gol{\k17}den {\k50}land
+Dialogue: 0,0:02:22.19,0:02:24.54,Sample KM [Choir],check: weak match,0,0,0,fx,{\k90\fad(300,200)}{\k16}Long{\k15}ing {\k13}for {\k12}a {\k25}time {\k16}to {\k28}say
+Dialogue: 0,0:02:24.39,0:02:27.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}You're {\k38}dy{\k64}ing, {\k16}but {\k49}I
+Dialogue: 0,0:02:23.79,0:02:25.57,Sample KM [Choir],check: weak match,0,0,0,fx,{\k90\fad(300,200)}{\k15}Ne{\k15}ver {\k38}sleep
+Dialogue: 0,0:02:26.98,0:02:29.74,Sample KM [Up],check: weak match,0,0,0,fx,{\k90\fad(300,200)}{\k31}I'm {\k34}go{\k13}ing {\k16}to {\k34}see {\k17}the {\k21}end
+Dialogue: 0,0:02:26.65,0:02:29.74,Sample KM [Choir],check: weak match,0,0,0,fx,{\k90\fad(300,200)}{\k18}call{\k16}ing {\k22}to {\k9}me, {\k22}call{\k10}ing {\k19}to {\k11}me, {\k17}call{\k16}ing {\k21}to {\k18}me
+Dialogue: 0,0:02:38.82,0:02:40.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Fol{\k21}low {\k10}me {\k12}to {\k19}wreck{\k19}age
+Dialogue: 0,0:02:39.85,0:02:42.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}that {\k14}is {\k18}beck{\k16}on{\k11}ing {\k16}us {\k37}slow{\k16}ly
+Dialogue: 0,0:02:41.29,0:02:43.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}To {\k19}fear {\k12}and {\k16}ap{\k12}pre{\k19}hen{\k18}sion
+Dialogue: 0,0:02:42.42,0:02:44.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}and {\k11}the {\k23}truth {\k13}of {\k15}the {\k16}un{\k30}ho{\k18}ly
+Dialogue: 0,0:02:44.00,0:02:46.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}All {\k20}us {\k15}sin{\k13}ners {\k18}at {\k14}the {\k14}edge
+Dialogue: 0,0:02:45.08,0:02:47.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}of {\k18}some{\k16}thing {\k18}that's {\k16}un{\k33}fold{\k14}ing
+Dialogue: 0,0:02:46.40,0:02:48.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}An{\k15}xi{\k13}e{\k14}ty {\k10}and {\k22}ec{\k21}sta{\k16}sy
+Dialogue: 0,0:02:47.70,0:02:50.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}but {\k18}won't {\k16}some{\k14}bo{\k15}dy {\k34}hold {\k30}me?
+Dialogue: 0,0:02:49.77,0:02:53.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}I {\k18}can {\k15}see {\k17}your {\k63}eyes, {\k19}call{\k13}ing {\k14}through {\k15}the {\k33}skies
+Dialogue: 0,0:02:52.03,0:02:55.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Through {\k17}a {\k20}vor{\k32}tex {\k13}of {\k22}two {\k26}thou{\k19}sand {\k24}years, {\k20}I {\kf39}fly
+Dialogue: 0,0:02:54.88,0:02:57.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Let {\k18}me {\k14}see {\k21}your {\k64}eyes
+Dialogue: 0,0:02:56.21,0:02:58.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}reach{\k17}ing {\k16}through {\k17}the {\k24}mael{\k36}strom
+Dialogue: 0,0:02:57.67,0:03:00.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}End{\k21}less {\k17}long{\k10}ing {\k16}for {\k12}the {\k36}time {\k17}to {\k25}feel
+Dialogue: 0,0:02:59.56,0:03:01.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}The {\k24}curse {\k14}that {\k14}ne{\k14}ver {\k43}dies
+Dialogue: 0,0:03:00.88,0:03:03.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}the {\k23}cries {\k13}that {\k14}ne{\k16}ver {\k36}fade
+Dialogue: 0,0:03:02.16,0:03:04.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}The {\k15}fi{\k17}nal {\k15}mo{\k19}ments {\k10}in {\k18}a {\k19}jour{\k14}ney
+Dialogue: 0,0:03:03.58,0:03:05.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}I {\k13}can {\k17}ne{\k18}ver {\k31}find, {\k24}but
+Dialogue: 0,0:03:05.18,0:03:08.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}I {\k18}can {\k15}see {\k18}your {\k65}eyes, {\k13}pee{\k16}ring {\k17}deep {\k16}in{\k33}side
+Dialogue: 0,0:03:07.58,0:03:10.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}The {\k19}chain {\k16}of {\k13}the {\k16}a{\k32}byss {\k18}call{\k16}in' {\k20}out {\k27}to {\k33}me
+Dialogue: 0,0:03:09.98,0:03:12.32,Sample KM [Up],check: weak match,0,0,0,fx,{\k90\fad(300,200)}{\k17}Call{\k9}ing {\k8}to {\k30}me, {\k16}call{\k6}ing {\k11}to {\k27}me
+Dialogue: 0,0:03:11.22,0:03:13.47,Sample KM [Up],check: weak match,0,0,0,fx,{\k90\fad(300,200)}{\k17}call{\k10}ing {\k9}to {\k22}me {\k23}right {\k34}now
+Dialogue: 0,0:03:12.74,0:03:15.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}The {\k20}jour{\k15}ney {\k15}is {\k14}the {\k20}end {\k17}that {\k11}we {\k17}can {\k15}ne{\k15}ver {\k44}find
+Dialogue: 0,0:03:15.10,0:03:18.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Call{\k6}ing {\k10}to {\k26}me, {\k20}call{\k8}ing {\k10}to {\k30}you, {\k18}call{\k6}ing {\k10}to {\k18}me
+Dialogue: 0,0:03:16.92,0:03:20.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}There's {\k18}no {\k29}light {\k16}at {\k28}the {\k18}end {\k21}of {\k15}the {\k26}dark{\k21}ness
+Dialogue: 0,0:03:19.11,0:03:21.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}it's {\k34}clear {\k12}to {\k20}see {\k68}now
+Dialogue: 0,0:03:20.57,0:03:23.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Fall {\k10}in{\k16}to {\k14}the {\k20}bot{\k16}tom {\k14}of {\k24}the {\k26}un{\k28}known
+Dialogue: 0,0:03:22.50,0:03:24.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Ac{\k14}ci{\k20}den{\k14}tal{\k18}ly, {\k10}we {\k20}gave
+Dialogue: 0,0:03:23.62,0:03:26.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}the {\k22}dark{\k20}ness {\k10}in {\k15}our {\k37}hearts {\k12}a {\k28}home
+Dialogue: 0,0:03:25.21,0:03:27.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}You'd {\k15}ne{\k14}ver {\k18}let {\k11}me {\k22}die {\k23}a{\k21}lone
+Dialogue: 0,0:03:26.79,0:03:29.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}It's {\k8}a {\k20}pro{\k30}mise {\k13}that'll {\k15}e{\k18}cho {\k13}through {\k19}the {\k31}wind
+Dialogue: 0,0:03:28.59,0:03:30.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}On {\k18}this {\k23}sub{\k27}ject{\k18}less {\k42}throne
+Dialogue: 0,0:03:29.89,0:03:31.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}I {\kf42}wait
+Dialogue: 0,0:03:41.02,0:03:48.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k80}Cal{\k56}ling {\k47}through {\k20}the {\k67}light, {\k41}I {\k17}will {\k67}find {\kf199}you
+Dialogue: 0,0:03:48.04,0:03:57.34,Sample KM [Up],check: hold cut short,0,0,0,fx,{\k90\fad(300,200)}{\k149}Call{\k78}ing {\k75}to {\kf518}me
